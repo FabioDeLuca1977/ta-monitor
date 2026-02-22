@@ -1,16 +1,19 @@
-# TA Monitor — Configurazione
-# Monitoraggio Talent Acquisition Roma e Provincia
+# TA Monitor v2.1 — Configurazione
+# Monitoraggio HR / Talent Acquisition Roma e Provincia
 
-# === KEYWORDS ===
+# === KEYWORDS DI RICERCA ===
+# Ogni keyword genera una ricerca separata su ogni canale
 search_terms:
   - "talent acquisition"
-  - "talent acquisition specialist"
   - "recruiter"
-  - "HR recruiter"
-  - "responsabile selezione"
-  - "head hunter"
   - "recruiting specialist"
-  - "HR specialist selezione"
+  - "selezionatrice"
+  - "selezione personale"
+  - "HRBP"
+  - "HR business partner"
+  - "HR generalist"
+  - "responsabile filiale agenzia lavoro"
+  - "branch manager somministrazione"
 
 # === LOCATION ===
 location: "Roma, Lazio, Italia"
@@ -25,7 +28,7 @@ jobspy_sites:
 jobspy_params:
   country_indeed: "Italy"
   results_wanted: 50
-  linkedin_fetch_description: false  # true = più dati ma più lento
+  linkedin_fetch_description: false
 
 # === SCRAPER CUSTOM ===
 custom_scrapers:

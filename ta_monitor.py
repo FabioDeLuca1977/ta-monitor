@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-TA Monitor — Monitoraggio Posizioni Talent Acquisition Roma
-Maieutike srl — v2.0 (GitHub Actions edition)
+TA Monitor — Monitoraggio Posizioni HR / Talent Acquisition Roma
+Maieutike srl — v2.1 (GitHub Actions edition)
 
 Uso:
-    python ta_monitor.py                              # Default: ultime 24h
-    python ta_monitor.py --hours-old 48               # Ultime 48h
+    python ta_monitor.py                              # Default: ultime 72h
+    python ta_monitor.py --hours-old 168              # Ultima settimana
     python ta_monitor.py --search-terms "HR manager"  # Keywords custom
 """
 
@@ -15,6 +15,7 @@ import hashlib
 import json
 import logging
 import os
+import re
 import sqlite3
 import sys
 from datetime import datetime, timedelta
@@ -33,17 +34,124 @@ LOG_DIR = BASE_DIR / "logs"
 for d in [DATA_DIR, OUTPUT_DIR, LOG_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
+# ============================================================
+# FILTRO DI RILEVANZA
+# Solo posizioni HR / Talent Acquisition / Recruiting /
+# Gestione filiali agenzie somministrazione
+# ============================================================
+
+RELEVANT_TITLE_PATTERNS = [
+    # Talent Acquisition
+    r"talent.?acquisition",
+    # HR Business Partner
+    r"hr\s*b\.?p\.?",
+    r"human\s*resource.*business\s*partner",
+    r"hr\s+business\s+partner",
+    # HR Generalist
+    r"hr\s+generalist",
+    r"human\s*resource.*generalist",
+    # Recruiting / Recruiter / Selezionatrice/ore
+    r"recruit(?:er|ing|ment)",
+    r"selezionat(?:ore|rice|rici)",
+    r"selezione\s+(?:del\s+)?personale",
+    r"responsabile\s+selezione",
+    r"addett[oa]\s+(?:alla?\s+)?selezione",
+    r"specialista\s+(?:della?\s+)?selezione",
+    # HR Specialist in ambito selezione
+    r"hr\s+specialist.*(?:selezione|recruiting|ricerca)",
+    r"specialist[a]?\s+(?:hr|risorse\s+umane)",
+    # Head hunter
+    r"head\s*hunt(?:er|ing)",
+    # Gestione filiali agenzie per il lavoro / somministrazione
+    r"respons.*filiale",
+    r"branch\s*manager",
+    r"dirett.*filiale",
+    r"gestione\s+filiale",
+    r"responsabile\s+(?:di\s+)?filiale",
+    r"area\s+manager.*(?:somministr|staffing|apl|agenzia)",
+    # Agenzie per il lavoro — ruoli operativi
+    r"(?:account|consultant).*(?:apl|somministr|staffing|agenzia.*lavoro)",
+    r"hr\s+consultant",
+]
+
+_RELEVANT_COMPILED = [re.compile(p, re.IGNORECASE) for p in RELEVANT_TITLE_PATTERNS]
+
+BROAD_KEYWORDS = [
+    "talent", "recruiter", "recruiting", "recruitment",
+    "selezione", "selezionatrice", "selezionatore",
+    "hrbp", "hr generalist", "hr specialist",
+    "head hunter", "headhunter",
+    "filiale", "branch manager",
+    "risorse umane", "human resources",
+    "hr consultant",
+]
+
+# Blacklist: titoli NON pertinenti
+TITLE_BLACKLIST = [
+    r"sviluppat", r"developer", r"software\s+engineer",
+    r"full\s*stack", r"front\s*end", r"back\s*end",
+    r"data\s+(?:engineer|scientist|analyst)",
+    r"devops", r"sys\s*admin", r"cloud.*(?:architect|engineer)",
+    r"manutenz", r"autogrill", r"camerier", r"barista",
+    r"cuoc[oa]", r"magazzin", r"operai[oa]", r"muratore",
+    r"idraulic", r"elettricist", r"infermier", r"farmacist",
+    r"contabil", r"segretari[oa]", r"receptionist",
+    r"commess[oa]", r"cassier", r"addet.*vendita",
+    r"graphic\s*design", r"marketing\s+(?:specialist|manager)",
+    r"social\s+media", r"seo\s", r"copywriter",
+    r"consulen.*(?:finanzi|fiscal|legale|immobili)",
+    r"agente.*(?:commerc|immobili|assicur)",
+]
+
+_BLACKLIST_COMPILED = [re.compile(p, re.IGNORECASE) for p in TITLE_BLACKLIST]
+
+
+def is_relevant_job(title, description=""):
+    if not title:
+        return False
+    title_str = str(title).strip()
+
+    # Blacklist
+    for bp in _BLACKLIST_COMPILED:
+        if bp.search(title_str):
+            return False
+
+    # Pattern specifici
+    for rp in _RELEVANT_COMPILED:
+        if rp.search(title_str):
+            return True
+
+    # Keyword broad
+    title_lower = title_str.lower()
+    for kw in BROAD_KEYWORDS:
+        if kw.lower() in title_lower:
+            return True
+
+    # Fallback: analisi descrizione
+    if description:
+        desc_lower = str(description).lower()
+        hr_signals = [
+            "talent acquisition", "recruiting", "selezione del personale",
+            "ricerca e selezione", "hr business partner", "somministrazione",
+            "agenzia per il lavoro", "staffing",
+        ]
+        title_has_hr = any(w in title_lower for w in ["hr", "human", "risorse", "personale", "staff"])
+        desc_has_signal = sum(1 for s in hr_signals if s in desc_lower)
+        if title_has_hr and desc_has_signal >= 2:
+            return True
+
+    return False
+
+
 # === LOGGING ===
 
 def setup_logging():
     logger = logging.getLogger("ta_monitor")
     logger.setLevel(logging.INFO)
     fmt = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", "%H:%M:%S")
-    
     sh = logging.StreamHandler(sys.stdout)
     sh.setFormatter(fmt)
     logger.addHandler(sh)
-    
     fh = logging.FileHandler(LOG_DIR / "ta_monitor.log", encoding="utf-8")
     fh.setFormatter(fmt)
     logger.addHandler(fh)
@@ -51,11 +159,8 @@ def setup_logging():
 
 log = setup_logging()
 
-# === CONFIG ===
-
 def load_config():
-    cfg_path = BASE_DIR / "config.yaml"
-    with open(cfg_path, "r", encoding="utf-8") as f:
+    with open(BASE_DIR / "config.yaml", "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 # === DATABASE ===
@@ -86,6 +191,7 @@ def init_db():
             total_found INTEGER,
             new_found INTEGER,
             duplicates_removed INTEGER,
+            filtered_irrelevant INTEGER,
             status TEXT
         );
         CREATE INDEX IF NOT EXISTS idx_date ON jobs(date_scraped);
@@ -94,13 +200,11 @@ def init_db():
     conn.commit()
     return conn
 
-
 def job_id(title, company, url):
     raw = f"{(title or '').lower().strip()}|{(company or '').lower().strip()}|{(url or '').strip()}"
     return hashlib.md5(raw.encode()).hexdigest()
 
-
-# === SCRAPING: JOBSPY ===
+# === JOBSPY ===
 
 def scrape_jobspy(config, hours_old):
     try:
@@ -139,8 +243,7 @@ def scrape_jobspy(config, hours_old):
 
     return pd.concat(results, ignore_index=True) if results else pd.DataFrame()
 
-
-# === SCRAPING: CUSTOM (Randstad, Manpower, Adecco) ===
+# === CUSTOM SCRAPERS ===
 
 def scrape_custom(config):
     try:
@@ -156,12 +259,10 @@ def scrape_custom(config):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0",
         "Accept-Language": "it-IT,it;q=0.9",
     }
-
     for site, cfg in custom_cfg.items():
         if not cfg.get("enabled"):
             continue
-        # Usa solo le prime 3 keyword per i siti custom
-        for term in config.get("search_terms", [])[:3]:
+        for term in config.get("search_terms", [])[:4]:
             url = cfg["base_url"].format(keyword=term.replace(" ", "+"))
             log.info(f"  Custom [{site}] → '{term}'")
             try:
@@ -177,10 +278,8 @@ def scrape_custom(config):
                 log.warning(f"    ✗ {e}")
     return jobs
 
-
 def _parse_job_cards(soup, site_name, search_term):
     jobs = []
-    # Cerca job cards con selettori comuni
     for sel in ["article", ".job-card", ".job-item", "[class*='job']", ".search-result"]:
         cards = soup.select(sel)
         if len(cards) >= 2:
@@ -188,17 +287,18 @@ def _parse_job_cards(soup, site_name, search_term):
     else:
         cards = []
 
-    relevant = {"talent", "recruiter", "recruiting", "selezione", "hr", "risorse umane", "head hunter"}
-
-    for card in cards[:20]:
+    for card in cards[:30]:
         title_el = card.select_one("h2, h3, h4, [class*='title']")
         title = title_el.get_text(strip=True) if title_el else None
-        if not title or not any(t in title.lower() for t in relevant):
+        if not title:
             continue
-
         company_el = card.select_one("[class*='company'], [class*='employer']")
         location_el = card.select_one("[class*='location'], [class*='city']")
         link_el = card.select_one("a[href]")
+        desc = card.get_text(strip=True)[:500]
+
+        if not is_relevant_job(title, desc):
+            continue
 
         jobs.append({
             "title": title,
@@ -207,10 +307,23 @@ def _parse_job_cards(soup, site_name, search_term):
             "channel": site_name.capitalize(),
             "url": link_el.get("href", "") if link_el else "",
             "search_term": search_term,
-            "description": card.get_text(strip=True)[:500],
+            "description": desc,
         })
     return jobs
 
+# === FILTRO RILEVANZA POST-SCRAPING ===
+
+def filter_relevant(df):
+    if df.empty:
+        return df, 0
+    mask = df.apply(lambda row: is_relevant_job(row.get("title", ""), row.get("description", "")), axis=1)
+    filtered = df[mask].reset_index(drop=True)
+    removed = len(df) - len(filtered)
+    log.info(f"  Filtro rilevanza: {len(df)} → {len(filtered)} (scartati {removed} non pertinenti)")
+    if removed > 0:
+        for _, row in df[~mask].head(10).iterrows():
+            log.info(f"    ✗ Scartato: \"{row.get('title', '?')}\"")
+    return filtered, removed
 
 # === DEDUPLICAZIONE ===
 
@@ -231,12 +344,10 @@ def deduplicate(df, threshold=85):
                 break
         seen.append((t, c))
         keep.append(not dup)
-    
     orig = len(df)
     result = df[keep].reset_index(drop=True)
     log.info(f"  Dedup: {orig} → {len(result)} (rimossi {orig - len(result)})")
     return result
-
 
 # === STORICO ===
 
@@ -244,20 +355,22 @@ def find_new(conn, df):
     if df.empty:
         return df
     existing = {r[0] for r in conn.execute("SELECT id FROM jobs")}
-    mask = []
-    for _, row in df.iterrows():
-        jid = job_id(row.get("title", ""), row.get("company", ""), row.get("job_url", row.get("url", "")))
-        mask.append(jid not in existing)
+    mask = [job_id(row.get("title",""), row.get("company",""), row.get("job_url", row.get("url",""))) not in existing
+            for _, row in df.iterrows()]
     new = df[mask].reset_index(drop=True)
     log.info(f"  Nuove: {len(new)} su {len(df)} totali")
     return new
-
 
 def save_to_db(conn, df):
     now = datetime.now().isoformat()
     n = 0
     for _, row in df.iterrows():
-        jid = job_id(row.get("title", ""), row.get("company", ""), row.get("job_url", row.get("url", "")))
+        jid = job_id(row.get("title",""), row.get("company",""), row.get("job_url", row.get("url","")))
+        dp = row.get("date_posted", "")
+        if pd.isna(dp) or str(dp) in ("None", "NaT", "nan", ""):
+            dp = ""
+        else:
+            dp = str(dp)[:10]
         try:
             conn.execute(
                 "INSERT OR IGNORE INTO jobs (id,title,company,location,channel,url,description,"
@@ -269,15 +382,12 @@ def save_to_db(conn, df):
                  row.get("job_url", row.get("url","")),
                  str(row.get("description",""))[:2000],
                  row.get("min_amount"), row.get("max_amount"),
-                 row.get("job_type",""), str(row.get("date_posted","")),
-                 now, row.get("search_term","")),
-            )
+                 row.get("job_type",""), dp, now, row.get("search_term","")))
             n += 1
         except Exception as e:
             log.warning(f"  DB error: {e}")
     conn.commit()
     return n
-
 
 # === REPORT EXCEL ===
 
@@ -288,11 +398,9 @@ def generate_excel(conn):
     today = datetime.now().strftime("%Y-%m-%d")
     path = OUTPUT_DIR / f"TA_Monitor_Roma_{today}.xlsx"
     wb = Workbook()
-
     hfont = Font(bold=True, color="FFFFFF", size=11)
     hfill = PatternFill("solid", fgColor="4A00E0")
 
-    # Sheet 1: Nuove posizioni
     ws = wb.active
     ws.title = "Nuove Posizioni"
     headers = ["Titolo", "Azienda", "Canale", "Luogo", "Tipo", "Salary Min", "Salary Max", "URL", "Data"]
@@ -301,47 +409,43 @@ def generate_excel(conn):
         cell.font, cell.fill = hfont, hfill
         cell.alignment = Alignment(horizontal="center")
 
-    yesterday = (datetime.now() - timedelta(hours=24)).isoformat()
+    cutoff = (datetime.now() - timedelta(hours=72)).isoformat()
     rows = conn.execute(
         "SELECT title, company, channel, location, job_type, salary_min, salary_max, url, date_posted "
-        "FROM jobs WHERE date_scraped > ? ORDER BY date_scraped DESC", (yesterday,)
+        "FROM jobs WHERE date_scraped > ? ORDER BY date_scraped DESC", (cutoff,)
     ).fetchall()
 
     for r, row in enumerate(rows, 2):
         for c, val in enumerate(row, 1):
-            cell = ws.cell(row=r, column=c, value=val or "")
+            display = val if val and str(val) not in ("None", "nan", "NaT", "") else ""
+            cell = ws.cell(row=r, column=c, value=display)
             if c == 8 and val:
                 cell.font = Font(color="0066CC", underline="single")
 
-    for c in range(1, len(headers) + 1):
-        ws.column_dimensions[chr(64 + c)].width = min(30, 12)
-    ws.column_dimensions["A"].width = 40
-    ws.column_dimensions["H"].width = 50
-    ws.auto_filter.ref = f"A1:I{len(rows) + 1}"
+    for c, w in enumerate([45, 30, 12, 25, 12, 12, 12, 55, 12], 1):
+        ws.column_dimensions[chr(64 + c)].width = w
+    if rows:
+        ws.auto_filter.ref = f"A1:I{len(rows) + 1}"
     ws.freeze_panes = "A2"
 
-    # Sheet 2: Per canale
     ws2 = wb.create_sheet("Per Canale")
-    for c, h in enumerate(["Canale", "Oggi", "Totale"], 1):
+    for c, h in enumerate(["Canale", "Questa Scan", "Totale"], 1):
         cell = ws2.cell(row=1, column=c, value=h)
         cell.font, cell.fill = hfont, hfill
     for r, row in enumerate(conn.execute(
         "SELECT channel, SUM(CASE WHEN date_scraped > ? THEN 1 ELSE 0 END), COUNT(*) "
-        "FROM jobs GROUP BY channel ORDER BY 2 DESC", (yesterday,)
-    ), 2):
+        "FROM jobs GROUP BY channel ORDER BY 2 DESC", (cutoff,)), 2):
         for c, val in enumerate(row, 1):
             ws2.cell(row=r, column=c, value=val or "")
 
-    # Sheet 3: Trend 7gg
     ws3 = wb.create_sheet("Trend 7gg")
-    for c, h in enumerate(["Data", "Nuove Posizioni"], 1):
+    for c, h in enumerate(["Data", "Posizioni"], 1):
         cell = ws3.cell(row=1, column=c, value=h)
         cell.font, cell.fill = hfont, hfill
     week_ago = (datetime.now() - timedelta(days=7)).isoformat()
     for r, row in enumerate(conn.execute(
         "SELECT DATE(date_scraped), COUNT(*) FROM jobs WHERE date_scraped > ? "
-        "GROUP BY DATE(date_scraped) ORDER BY 1 DESC", (week_ago,)
-    ), 2):
+        "GROUP BY DATE(date_scraped) ORDER BY 1 DESC", (week_ago,)), 2):
         for c, val in enumerate(row, 1):
             ws3.cell(row=r, column=c, value=val)
 
@@ -349,104 +453,92 @@ def generate_excel(conn):
     log.info(f"  Excel: {path}")
     return path
 
+# === SUMMARY ===
 
-# === SUMMARY JSON (per GitHub Actions commit message) ===
-
-def write_summary(total, new, dupes, channels):
-    summary = {
-        "date": datetime.now().isoformat(),
-        "total_raw": total,
-        "new_jobs": new,
-        "duplicates_removed": dupes,
-        "channels": channels,
-    }
-    path = OUTPUT_DIR / "summary.json"
-    with open(path, "w") as f:
-        json.dump(summary, f, indent=2)
-    return summary
-
+def write_summary(total, new, dupes, filtered, channels):
+    s = {"date": datetime.now().isoformat(), "total_raw": total, "filtered_irrelevant": filtered,
+         "new_jobs": new, "duplicates_removed": dupes, "channels": channels}
+    with open(OUTPUT_DIR / "summary.json", "w") as f:
+        json.dump(s, f, indent=2)
+    return s
 
 # === MAIN ===
 
 def main():
-    parser = argparse.ArgumentParser(description="TA Monitor — Talent Acquisition Roma")
-    parser.add_argument("--hours-old", type=int, default=24, help="Max ore anzianità annunci")
-    parser.add_argument("--search-terms", type=str, default="", help="Keywords custom (comma-sep)")
+    parser = argparse.ArgumentParser(description="TA Monitor — HR/TA Roma")
+    parser.add_argument("--hours-old", type=int, default=72)
+    parser.add_argument("--search-terms", type=str, default="")
     args = parser.parse_args()
 
-    log.info("=" * 50)
-    log.info("TA MONITOR — Avvio scansione")
-    log.info("=" * 50)
+    log.info("=" * 55)
+    log.info("TA MONITOR v2.1 — Avvio scansione")
+    log.info(f"  Finestra: ultime {args.hours_old}h")
+    log.info("=" * 55)
 
     config = load_config()
-    
-    # Override da CLI
     if args.search_terms:
         config["search_terms"] = [t.strip() for t in args.search_terms.split(",")]
-    
+
     conn = init_db()
 
-    # 1. JobSpy
     log.info("▸ Fase 1: Scraping JobSpy")
     jobspy_df = scrape_jobspy(config, args.hours_old)
 
-    # 2. Custom
     log.info("▸ Fase 2: Scraping agenzie")
     custom_jobs = scrape_custom(config)
 
-    # 3. Merge
     log.info("▸ Fase 3: Merge")
     if custom_jobs:
         custom_df = pd.DataFrame(custom_jobs)
         all_df = pd.concat([jobspy_df, custom_df], ignore_index=True) if not jobspy_df.empty else custom_df
     else:
         all_df = jobspy_df
-
     total_raw = len(all_df)
     log.info(f"  Totale grezzo: {total_raw}")
 
     if all_df.empty:
         log.warning("Nessun risultato. Fine.")
-        write_summary(0, 0, 0, [])
+        write_summary(0, 0, 0, 0, [])
         conn.close()
         return
 
-    # 4. Dedup
-    log.info("▸ Fase 4: Deduplicazione")
-    deduped = deduplicate(all_df)
+    log.info("▸ Fase 4: Filtro rilevanza HR/TA")
+    relevant_df, filtered_count = filter_relevant(all_df)
+    if relevant_df.empty:
+        log.warning("Nessuna posizione rilevante dopo il filtro.")
+        write_summary(total_raw, 0, 0, filtered_count, [])
+        conn.close()
+        return
 
-    # 5. Nuove
-    log.info("▸ Fase 5: Confronto storico")
+    log.info("▸ Fase 5: Deduplicazione")
+    deduped = deduplicate(relevant_df)
+
+    log.info("▸ Fase 6: Confronto storico")
     new_df = find_new(conn, deduped)
 
-    # 6. Save
-    log.info("▸ Fase 6: Salvataggio")
+    log.info("▸ Fase 7: Salvataggio")
     save_to_db(conn, deduped)
 
-    # 7. Report
-    log.info("▸ Fase 7: Report")
+    log.info("▸ Fase 8: Report")
     generate_excel(conn)
-
     today = datetime.now().strftime("%Y-%m-%d")
     deduped.to_csv(OUTPUT_DIR / f"ta_jobs_{today}.csv", index=False, quoting=csv.QUOTE_NONNUMERIC)
     deduped.to_json(OUTPUT_DIR / f"ta_jobs_{today}.json", orient="records", force_ascii=False, indent=2)
 
-    # 8. Summary
     channels = list(deduped["site"].unique()) if "site" in deduped.columns else []
-    summary = write_summary(total_raw, len(new_df), total_raw - len(deduped), channels)
+    write_summary(total_raw, len(new_df), len(relevant_df) - len(deduped), filtered_count, channels)
 
-    # 9. Run log
     conn.execute(
-        "INSERT INTO runs (timestamp,total_found,new_found,duplicates_removed,status) VALUES (?,?,?,?,?)",
-        (datetime.now().isoformat(), total_raw, len(new_df), total_raw - len(deduped), "success"),
-    )
+        "INSERT INTO runs (timestamp,total_found,new_found,duplicates_removed,filtered_irrelevant,status) "
+        "VALUES (?,?,?,?,?,?)",
+        (datetime.now().isoformat(), total_raw, len(new_df),
+         len(relevant_df) - len(deduped), filtered_count, "success"))
     conn.commit()
     conn.close()
 
-    log.info("=" * 50)
-    log.info(f"✓ Totale: {total_raw} | Dedup: {len(deduped)} | Nuove: {len(new_df)}")
-    log.info("=" * 50)
-
+    log.info("=" * 55)
+    log.info(f"✓ Grezzo: {total_raw} | Scartati: {filtered_count} | Rilevanti: {len(deduped)} | Nuove: {len(new_df)}")
+    log.info("=" * 55)
 
 if __name__ == "__main__":
     main()
