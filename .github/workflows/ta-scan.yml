@@ -1,0 +1,116 @@
+# TA Monitor — Scansione giornaliera Talent Acquisition Roma
+# Maieutike srl
+#
+# Questo workflow:
+# 1. Esegue lo scraper Python ogni giorno alle 07:00 CET
+# 2. Salva i risultati come GitHub Artifact (scaricabile)
+# 3. Committa i report nel repo (storico versionato)
+# 4. Opzionale: invia email con riepilogo
+
+name: TA Monitor - Daily Scan
+
+on:
+  schedule:
+    # Ogni giorno alle 06:00 UTC = 07:00 CET / 08:00 CEST
+    - cron: '0 6 * * *'
+  
+  # Permette esecuzione manuale dal tab Actions
+  workflow_dispatch:
+    inputs:
+      hours_old:
+        description: 'Ore di anzianità massima annunci (default: 24)'
+        required: false
+        default: '24'
+      search_terms:
+        description: 'Keywords personalizzate (comma-separated, vuoto = default)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write  # Per committare i risultati nel repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Installa dipendenze
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔍 Esegui scraping
+        env:
+          HOURS_OLD: ${{ github.event.inputs.hours_old || '24' }}
+          CUSTOM_TERMS: ${{ github.event.inputs.search_terms || '' }}
+        run: |
+          python ta_monitor.py \
+            --hours-old "$HOURS_OLD" \
+            ${CUSTOM_TERMS:+--search-terms "$CUSTOM_TERMS"}
+
+      - name: 📊 Upload report come Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ta-report-${{ github.run_number }}
+          path: |
+            output/*.xlsx
+            output/*.csv
+            output/*.json
+          retention-days: 90
+
+      - name: 💾 Committa risultati nel repo
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "TA Monitor Bot"
+          
+          # Aggiungi solo i file di output e il database
+          git add output/ data/
+          
+          # Committa solo se ci sono cambiamenti
+          if git diff --staged --quiet; then
+            echo "Nessun nuovo risultato da committare"
+          else
+            DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
+            NEW_COUNT=$(python -c "
+          import json, sys
+          try:
+              with open('output/summary.json') as f:
+                  d = json.load(f)
+              print(d.get('new_jobs', 0))
+          except:
+              print('?')
+          ")
+            git commit -m "📋 TA Scan ${DATE} — ${NEW_COUNT} nuove posizioni"
+            git push
+          fi
+
+      - name: 📧 Invia email riepilogo (opzionale)
+        if: ${{ vars.ENABLE_EMAIL == 'true' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "[TA Monitor] Scan ${{ github.run_number }} — Nuove posizioni Roma"
+          to: ${{ secrets.EMAIL_RECIPIENTS }}
+          from: "TA Monitor <${{ secrets.SMTP_USER }}>"
+          body: |
+            TA Monitor — Scansione completata
+            
+            📋 Report disponibile su GitHub:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            
+            Scarica il report Excel dall'artifact allegato alla run.
+          attachments: output/*.xlsx

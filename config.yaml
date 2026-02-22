@@ -1,0 +1,43 @@
+# TA Monitor — Configurazione
+# Monitoraggio Talent Acquisition Roma e Provincia
+
+# === KEYWORDS ===
+search_terms:
+  - "talent acquisition"
+  - "talent acquisition specialist"
+  - "recruiter"
+  - "HR recruiter"
+  - "responsabile selezione"
+  - "head hunter"
+  - "recruiting specialist"
+  - "HR specialist selezione"
+
+# === LOCATION ===
+location: "Roma, Lazio, Italia"
+
+# === CANALI JOBSPY ===
+jobspy_sites:
+  - indeed
+  - linkedin
+  - glassdoor
+  - google
+
+jobspy_params:
+  country_indeed: "Italy"
+  results_wanted: 50
+  linkedin_fetch_description: false  # true = più dati ma più lento
+
+# === SCRAPER CUSTOM ===
+custom_scrapers:
+  randstad:
+    enabled: true
+    base_url: "https://www.randstad.it/offerte-lavoro/?query={keyword}&location=roma"
+  manpower:
+    enabled: true
+    base_url: "https://www.manpower.it/annunci-lavoro?search={keyword}&location=Roma"
+  adecco:
+    enabled: true
+    base_url: "https://www.adecco.it/offerte-lavoro?k={keyword}&l=Roma"
+
+# === PROXY (opzionale, consigliato per LinkedIn) ===
+proxies: []
