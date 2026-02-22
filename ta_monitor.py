@@ -460,7 +460,7 @@ def generate_excel(conn):
         cell.font, cell.fill = hfont, hfill
         cell.alignment = Alignment(horizontal="center")
 
-    cutoff = (datetime.now() - timedelta(hours=72)).isoformat()
+    cutoff = (datetime.now() - timedelta(hours=168)).isoformat()
     rows = conn.execute(
         "SELECT title, company, channel, location, job_type, salary_min, salary_max, url, date_posted "
         "FROM jobs WHERE date_scraped > ? ORDER BY date_scraped DESC", (cutoff,)
@@ -517,7 +517,7 @@ def write_summary(total, new, dupes, filtered, channels):
 
 def main():
     parser = argparse.ArgumentParser(description="TA Monitor — HR/TA Roma")
-    parser.add_argument("--hours-old", type=int, default=72)
+    parser.add_argument("--hours-old", type=int, default=168)
     parser.add_argument("--search-terms", type=str, default="")
     args = parser.parse_args()
 

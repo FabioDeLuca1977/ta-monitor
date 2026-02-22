@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       hours_old:
-        description: 'Ore di anzianità massima annunci (default: 72)'
+        description: 'Ore di anzianità massima annunci (default: 168)'
         required: false
-        default: '72'
+        default: '168'
       search_terms:
         description: 'Keywords personalizzate (comma-separated, vuoto = default)'
         required: false
@@ -37,7 +37,7 @@ jobs:
 
       - name: 🔍 Esegui scraping
         env:
-          HOURS_OLD: ${{ github.event.inputs.hours_old || '72' }}
+          HOURS_OLD: ${{ github.event.inputs.hours_old || '168' }}
           CUSTOM_TERMS: ${{ github.event.inputs.search_terms || '' }}
         run: |
           python ta_monitor.py \

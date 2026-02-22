@@ -1,19 +1,37 @@
-# TA Monitor v2.1 — Configurazione
-# Monitoraggio HR / Talent Acquisition Roma e Provincia
+# TA Monitor v2.3 — Configurazione
+# Monitoraggio HR / Talent Acquisition / Recruiting / Somministrazione
+# Roma e Provincia — Maieutike srl
 
 # === KEYWORDS DI RICERCA ===
-# Ogni keyword genera una ricerca separata su ogni canale
+# Ogni keyword genera una ricerca separata su ogni canale.
+# Più keywords = più risultati ma anche più tempo di esecuzione.
+# Il filtro di rilevanza post-scraping pulisce i falsi positivi.
 search_terms:
+  # Core recruiting
   - "talent acquisition"
   - "recruiter"
-  - "recruiting specialist"
+  - "recruiting"
   - "selezionatrice"
+  - "selezionatore"
   - "selezione personale"
+  - "responsabile selezione"
+  - "addetto selezione"
+  # HR ruoli generalisti
   - "HRBP"
   - "HR business partner"
   - "HR generalist"
+  - "HR specialist"
+  - "HR manager"
+  - "responsabile risorse umane"
+  - "direttore risorse umane"
+  # Head hunting / Executive search
+  - "head hunter"
+  - "executive search"
+  # Agenzie per il lavoro / Somministrazione — ruoli di filiale
   - "responsabile filiale agenzia lavoro"
   - "branch manager somministrazione"
+  - "account manager agenzia lavoro"
+  - "filiale somministrazione Roma"
 
 # === LOCATION ===
 location: "Roma, Lazio, Italia"
@@ -27,7 +45,7 @@ jobspy_sites:
 
 jobspy_params:
   country_indeed: "Italy"
-  results_wanted: 50
+  results_wanted: 100
   linkedin_fetch_description: false
 
 # === SCRAPER CUSTOM ===
