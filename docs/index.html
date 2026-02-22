@@ -27,40 +27,23 @@
   --radius: 10px;
   --radius-sm: 6px;
 }
-
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
 body {
   font-family: 'DM Sans', -apple-system, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.6;
-  min-height: 100vh;
+  background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh;
 }
-
 .noise {
   position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.03;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
-
-.container {
-  position: relative; z-index: 1;
-  max-width: 960px; margin: 0 auto; padding: 40px 24px;
-}
-
-/* Header */
+.container { position: relative; z-index: 1; max-width: 960px; margin: 0 auto; padding: 40px 24px; }
 .header {
   display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 40px; padding-bottom: 24px;
-  border-bottom: 1px solid var(--border);
+  margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border);
 }
-.header h1 {
-  font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em;
-}
+.header h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
 .header h1 span { color: var(--accent); }
 .header-actions { display: flex; gap: 10px; align-items: center; }
-
-/* Auth */
 .auth-bar {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 16px 20px;
@@ -75,12 +58,9 @@ body {
 .auth-bar input:focus { outline: none; border-color: var(--border-focus); }
 .auth-bar .status {
   width: 10px; height: 10px; border-radius: 50%;
-  background: var(--danger); flex-shrink: 0;
-  transition: background 0.3s;
+  background: var(--danger); flex-shrink: 0; transition: background 0.3s;
 }
 .auth-bar .status.ok { background: var(--success); }
-
-/* Buttons */
 .btn {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 8px 16px; border: none; border-radius: var(--radius-sm);
@@ -93,17 +73,15 @@ body {
 .btn-danger:hover { background: var(--danger); color: #fff; }
 .btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid var(--border); }
 .btn-ghost:hover { border-color: var(--text-dim); color: var(--text); }
-.btn-save {
-  background: var(--success); color: #fff; padding: 10px 24px; font-size: 0.9rem;
-}
+.btn-save { background: var(--success); color: #fff; padding: 10px 24px; font-size: 0.9rem; }
 .btn-save:hover { box-shadow: 0 0 24px var(--success-glow); }
 .btn-save:disabled { opacity: 0.4; cursor: not-allowed; }
-
-/* Sections */
+.btn-run { background: var(--warn); color: #000; padding: 10px 20px; font-size: 0.9rem; font-weight: 600; }
+.btn-run:hover { background: #e67e22; }
+.btn-run:disabled { opacity: 0.4; cursor: not-allowed; }
 .section {
   background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); margin-bottom: 24px;
-  overflow: hidden; transition: box-shadow 0.3s;
+  border-radius: var(--radius); margin-bottom: 24px; overflow: hidden; transition: box-shadow 0.3s;
 }
 .section:hover { box-shadow: 0 0 30px rgba(108,92,231,0.05); }
 .section-header {
@@ -117,21 +95,16 @@ body {
   background: var(--accent-glow); color: var(--accent);
   padding: 2px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;
 }
-.section-header .chevron {
-  width: 20px; height: 20px; color: var(--text-dim); transition: transform 0.3s;
-}
+.section-header .chevron { width: 20px; height: 20px; color: var(--text-dim); transition: transform 0.3s; }
 .section-header.open .chevron { transform: rotate(180deg); }
 .section-body { padding: 20px; display: none; }
 .section-body.open { display: block; }
-
-/* Tags */
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .tag {
   display: inline-flex; align-items: center; gap: 6px;
   background: var(--tag-bg); border: 1px solid var(--tag-border);
-  border-radius: 20px; padding: 5px 12px 5px 14px;
-  font-size: 0.82rem; transition: all 0.2s;
-  animation: tagIn 0.2s ease;
+  border-radius: 20px; padding: 5px 12px 5px 14px; font-size: 0.82rem;
+  transition: all 0.2s; animation: tagIn 0.2s ease;
 }
 @keyframes tagIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
 .tag .remove {
@@ -141,11 +114,7 @@ body {
   font-size: 0.7rem; transition: all 0.15s;
 }
 .tag .remove:hover { background: var(--danger); color: #fff; }
-
-/* Input row */
-.add-row {
-  display: flex; gap: 8px; margin-top: 8px;
-}
+.add-row { display: flex; gap: 8px; margin-top: 8px; }
 .add-row input, .add-row select {
   background: var(--surface2); border: 1px solid var(--border);
   border-radius: var(--radius-sm); padding: 8px 12px; color: var(--text);
@@ -154,8 +123,6 @@ body {
 .add-row input { flex: 1; }
 .add-row select { width: 180px; }
 .add-row input:focus, .add-row select:focus { outline: none; border-color: var(--border-focus); }
-
-/* Pattern table */
 .pattern-table { width: 100%; border-collapse: collapse; }
 .pattern-table th {
   text-align: left; padding: 8px 12px; font-size: 0.75rem;
@@ -173,11 +140,64 @@ body {
 }
 .pattern-table .cat {
   background: var(--tag-bg); border: 1px solid var(--tag-border);
-  padding: 2px 10px; border-radius: 12px; font-size: 0.75rem;
-  white-space: nowrap;
+  padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; white-space: nowrap;
 }
 
-/* Toast */
+/* Run section */
+.run-panel {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px; margin-bottom: 24px;
+}
+.run-panel h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+.run-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 20px; }
+.run-status {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 500;
+}
+.run-status.queued { background: rgba(243,156,18,0.15); color: var(--warn); }
+.run-status.running { background: rgba(108,92,231,0.15); color: var(--accent); }
+.run-status.success { background: var(--success-glow); color: var(--success); }
+.run-status.failed { background: rgba(231,76,60,0.15); color: var(--danger); }
+.run-status .dot {
+  width: 8px; height: 8px; border-radius: 50%; background: currentColor;
+}
+.run-status.running .dot { animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.run-summary {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px; margin-bottom: 20px;
+}
+.run-stat {
+  background: var(--surface2); border-radius: var(--radius-sm);
+  padding: 12px 16px; text-align: center;
+}
+.run-stat .num { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+.run-stat .label { font-size: 0.75rem; color: var(--text-dim); margin-top: 2px; }
+
+/* Results table */
+.results-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.results-table th {
+  text-align: left; padding: 10px 12px; font-size: 0.75rem;
+  color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--border); position: sticky; top: 0;
+  background: var(--surface);
+}
+.results-table td {
+  padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top;
+}
+.results-table tr:hover td { background: var(--surface2); }
+.results-table a { color: var(--accent); text-decoration: none; }
+.results-table a:hover { text-decoration: underline; }
+.results-wrap { max-height: 500px; overflow-y: auto; border-radius: var(--radius-sm); }
+.channel-badge {
+  display: inline-block; padding: 2px 8px; border-radius: 10px;
+  font-size: 0.72rem; font-weight: 500; text-transform: uppercase;
+}
+.channel-badge.linkedin { background: rgba(0,119,181,0.2); color: #0077b5; }
+.channel-badge.indeed { background: rgba(46,90,172,0.2); color: #2e5aac; }
+.channel-badge.glassdoor { background: rgba(12,170,65,0.2); color: #0caa41; }
+.channel-badge.google { background: rgba(234,67,53,0.2); color: #ea4335; }
+
 .toast {
   position: fixed; bottom: 24px; right: 24px; padding: 12px 20px;
   background: var(--success); color: #fff; border-radius: var(--radius-sm);
@@ -186,8 +206,6 @@ body {
 }
 .toast.show { transform: translateY(0); opacity: 1; }
 .toast.error { background: var(--danger); }
-
-/* Loading */
 .loading {
   display: flex; align-items: center; justify-content: center;
   padding: 60px; color: var(--text-dim); font-size: 0.9rem;
@@ -198,21 +216,19 @@ body {
   animation: spin 0.8s linear infinite; margin-right: 10px;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
-
-/* Responsive */
 @media (max-width: 640px) {
   .container { padding: 20px 16px; }
   .header { flex-direction: column; gap: 16px; align-items: flex-start; }
   .auth-bar { flex-direction: column; align-items: stretch; }
   .add-row { flex-direction: column; }
   .add-row select { width: 100%; }
+  .run-controls { flex-direction: column; align-items: stretch; }
 }
 </style>
 </head>
 <body>
 <div class="noise"></div>
 <div class="container">
-
   <div class="header">
     <h1><span>TA Monitor</span> — Settings</h1>
     <div class="header-actions">
@@ -220,31 +236,30 @@ body {
       <button class="btn btn-save" id="saveBtn" disabled onclick="saveFilters()">💾 Salva su GitHub</button>
     </div>
   </div>
-
   <div class="auth-bar">
     <div class="status" id="authStatus"></div>
     <label>GitHub Token</label>
     <input type="password" id="tokenInput" placeholder="ghp_xxxxx (Personal Access Token con scope repo)" />
     <button class="btn btn-primary" onclick="authenticate()">Connetti</button>
   </div>
-
   <div id="content">
     <div class="loading"><div class="spinner"></div>Inserisci il GitHub Token per caricare i filtri</div>
   </div>
-
+  <div id="runSection" style="display:none"></div>
 </div>
-
 <div class="toast" id="toast"></div>
 
 <script>
 const REPO = 'FabioDeLuca1977/ta-monitor';
 const FILE_PATH = 'filters.json';
 const CONFIG_PATH = 'config.yaml';
+const WORKFLOW_FILE = 'ta-scan.yml';
 let token = '';
 let filters = null;
 let fileSha = '';
 let configSha = '';
 let dirty = false;
+let pollTimer = null;
 
 // ---- Auth ----
 function authenticate() {
@@ -253,36 +268,29 @@ function authenticate() {
   localStorage.setItem('ta_token', token);
   loadFilters();
 }
-
 window.addEventListener('DOMContentLoaded', () => {
   const saved = localStorage.getItem('ta_token');
-  if (saved) {
-    document.getElementById('tokenInput').value = saved;
-    token = saved;
-    loadFilters();
-  }
+  if (saved) { document.getElementById('tokenInput').value = saved; token = saved; loadFilters(); }
 });
 
 // ---- GitHub API ----
-async function ghGet(path) {
-  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
-    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+async function ghApi(path, opts = {}) {
+  const r = await fetch(`https://api.github.com/repos/${REPO}/${path}`, {
+    ...opts,
+    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', ...opts.headers }
   });
-  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+  if (!r.ok) throw new Error(`GitHub ${r.status}: ${r.statusText}`);
   return r.json();
 }
-
+async function ghGet(path) {
+  return ghApi(`contents/${path}`);
+}
 async function ghPut(path, content, sha, message) {
-  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+  return fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
     method: 'PUT',
-    headers: {
-      Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json'
-    },
+    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
     body: JSON.stringify({ message, content: btoa(unescape(encodeURIComponent(content))), sha })
-  });
-  if (!r.ok) throw new Error(`GitHub PUT ${r.status}`);
-  return r.json();
+  }).then(r => { if (!r.ok) throw new Error(`PUT ${r.status}`); return r.json(); });
 }
 
 // ---- Load / Save ----
@@ -291,15 +299,11 @@ async function loadFilters() {
     const data = await ghGet(FILE_PATH);
     fileSha = data.sha;
     filters = JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g, '')))));
-
-    // Load config.yaml sha for syncing search_terms
-    try {
-      const cfgData = await ghGet(CONFIG_PATH);
-      configSha = cfgData.sha;
-    } catch(e) { configSha = ''; }
-
+    try { configSha = (await ghGet(CONFIG_PATH)).sha; } catch(e) { configSha = ''; }
     document.getElementById('authStatus').classList.add('ok');
     renderAll();
+    renderRunSection();
+    loadLastRun();
     toast('Filtri caricati');
   } catch(e) {
     document.getElementById('authStatus').classList.remove('ok');
@@ -312,28 +316,20 @@ async function saveFilters() {
   try {
     document.getElementById('saveBtn').disabled = true;
     document.getElementById('saveBtn').textContent = '⏳ Salvataggio...';
-    
     filters._updated = new Date().toISOString();
-
-    // Save filters.json
-    const r = await ghPut(FILE_PATH, JSON.stringify(filters, null, 2), fileSha,
-      '⚙️ Settings aggiornati da dashboard');
+    const r = await ghPut(FILE_PATH, JSON.stringify(filters, null, 2), fileSha, '⚙️ Settings aggiornati da dashboard');
     fileSha = r.content.sha;
-
-    // Sync search_terms to config.yaml
     if (configSha) {
       try {
         const cfgData = await ghGet(CONFIG_PATH);
         configSha = cfgData.sha;
         let yaml = decodeURIComponent(escape(atob(cfgData.content.replace(/\n/g, ''))));
-        // Replace search_terms block
         const termsYaml = 'search_terms:\n' + filters.search_terms.map(t => `  - "${t}"`).join('\n');
         yaml = yaml.replace(/search_terms:[\s\S]*?(?=\n\n|\nlocation:|\n#\s*===)/, termsYaml + '\n');
         const r2 = await ghPut(CONFIG_PATH, yaml, configSha, '⚙️ Sync search_terms da dashboard');
         configSha = r2.content.sha;
       } catch(e) { console.warn('Config sync skip:', e); }
     }
-
     dirty = false;
     document.getElementById('saveBtn').disabled = true;
     document.getElementById('saveBtn').textContent = '💾 Salva su GitHub';
@@ -344,13 +340,191 @@ async function saveFilters() {
     document.getElementById('saveBtn').textContent = '💾 Salva su GitHub';
   }
 }
+function markDirty() { dirty = true; document.getElementById('saveBtn').disabled = false; }
 
-function markDirty() {
-  dirty = true;
-  document.getElementById('saveBtn').disabled = false;
+// ============================================================
+// RUN SECTION
+// ============================================================
+function renderRunSection() {
+  const el = document.getElementById('runSection');
+  el.style.display = 'block';
+  el.innerHTML = `
+    <div class="run-panel">
+      <h2>🚀 Esegui Scan</h2>
+      <div class="run-controls">
+        <button class="btn btn-run" id="runBtn" onclick="triggerRun()">▶ Lancia Scan Adesso</button>
+        <span id="runStatusBadge"></span>
+        <span id="runTime" style="font-size:0.8rem;color:var(--text-dim)"></span>
+      </div>
+      <div id="runSummary"></div>
+      <div id="runResults"></div>
+    </div>`;
 }
 
-// ---- Render ----
+async function triggerRun() {
+  const btn = document.getElementById('runBtn');
+  btn.disabled = true; btn.textContent = '⏳ Avvio in corso...';
+  try {
+    // Get workflow ID
+    const workflows = await ghApi(`actions/workflows`);
+    const wf = workflows.workflows.find(w => w.path.includes(WORKFLOW_FILE));
+    if (!wf) throw new Error('Workflow non trovato');
+
+    // Dispatch
+    await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${wf.id}/dispatches`, {
+      method: 'POST',
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ref: 'main' })
+    });
+
+    toast('✓ Scan avviato!');
+    updateRunStatus('queued', 'In coda...');
+    btn.textContent = '⏳ In esecuzione...';
+
+    // Poll for status
+    setTimeout(() => pollRunStatus(wf.id), 5000);
+  } catch(e) {
+    toast('Errore: ' + e.message, true);
+    btn.disabled = false; btn.textContent = '▶ Lancia Scan Adesso';
+  }
+}
+
+async function pollRunStatus(workflowId) {
+  if (pollTimer) clearTimeout(pollTimer);
+  try {
+    const runs = await ghApi(`actions/workflows/${workflowId}/runs?per_page=1`);
+    if (!runs.workflow_runs.length) return;
+    const run = runs.workflow_runs[0];
+    const status = run.status; // queued, in_progress, completed
+    const conclusion = run.conclusion; // success, failure, null
+
+    if (status === 'completed') {
+      const btn = document.getElementById('runBtn');
+      btn.disabled = false; btn.textContent = '▶ Lancia Scan Adesso';
+
+      if (conclusion === 'success') {
+        updateRunStatus('success', 'Completato');
+        const elapsed = Math.round((new Date(run.updated_at) - new Date(run.created_at)) / 1000);
+        document.getElementById('runTime').textContent = `${elapsed}s • ${new Date(run.updated_at).toLocaleString('it-IT')}`;
+        loadResults();
+      } else {
+        updateRunStatus('failed', `Fallito: ${conclusion}`);
+        document.getElementById('runTime').textContent = new Date(run.updated_at).toLocaleString('it-IT');
+      }
+    } else {
+      updateRunStatus('running', status === 'in_progress' ? 'In esecuzione...' : 'In coda...');
+      pollTimer = setTimeout(() => pollRunStatus(workflowId), 5000);
+    }
+  } catch(e) {
+    console.warn('Poll error:', e);
+    pollTimer = setTimeout(() => pollRunStatus(workflowId), 10000);
+  }
+}
+
+async function loadLastRun() {
+  try {
+    const runs = await ghApi('actions/runs?per_page=1');
+    if (!runs.workflow_runs.length) return;
+    const run = runs.workflow_runs[0];
+
+    if (run.status === 'completed' && run.conclusion === 'success') {
+      updateRunStatus('success', 'Ultimo scan completato');
+      const elapsed = Math.round((new Date(run.updated_at) - new Date(run.created_at)) / 1000);
+      document.getElementById('runTime').textContent = `${elapsed}s • ${new Date(run.updated_at).toLocaleString('it-IT')}`;
+      loadResults();
+    } else if (run.status === 'in_progress' || run.status === 'queued') {
+      updateRunStatus('running', 'Scan in corso...');
+      document.getElementById('runBtn').disabled = true;
+      document.getElementById('runBtn').textContent = '⏳ In esecuzione...';
+      // Find workflow ID and poll
+      const workflows = await ghApi('actions/workflows');
+      const wf = workflows.workflows.find(w => w.path.includes(WORKFLOW_FILE));
+      if (wf) pollRunStatus(wf.id);
+    } else if (run.conclusion === 'failure') {
+      updateRunStatus('failed', 'Ultimo scan fallito');
+      document.getElementById('runTime').textContent = new Date(run.updated_at).toLocaleString('it-IT');
+    }
+  } catch(e) { console.warn('Load last run:', e); }
+}
+
+async function loadResults() {
+  try {
+    // Load summary.json
+    const sumData = await ghGet('output/summary.json');
+    const summary = JSON.parse(decodeURIComponent(escape(atob(sumData.content.replace(/\n/g, '')))));
+
+    document.getElementById('runSummary').innerHTML = `
+      <div class="run-summary">
+        <div class="run-stat"><div class="num">${summary.total_raw || 0}</div><div class="label">Totale grezzo</div></div>
+        <div class="run-stat"><div class="num" style="color:var(--danger)">${summary.filtered_irrelevant || 0}</div><div class="label">Scartati</div></div>
+        <div class="run-stat"><div class="num" style="color:var(--success)">${summary.new_jobs || 0}</div><div class="label">Nuove posizioni</div></div>
+        <div class="run-stat"><div class="num" style="color:var(--text-dim)">${summary.duplicates_removed || 0}</div><div class="label">Duplicati</div></div>
+      </div>`;
+
+    // Load latest CSV/JSON
+    const today = new Date().toISOString().slice(0, 10);
+    let jobs = [];
+    // Try today's JSON, then list output dir
+    try {
+      const jData = await ghGet(`output/ta_jobs_${today}.json`);
+      jobs = JSON.parse(decodeURIComponent(escape(atob(jData.content.replace(/\n/g, '')))));
+    } catch(e) {
+      // Try listing output dir for latest JSON
+      try {
+        const listing = await ghApi('contents/output');
+        const jsonFiles = listing.filter(f => f.name.endsWith('.json') && f.name.startsWith('ta_jobs_')).sort((a,b) => b.name.localeCompare(a.name));
+        if (jsonFiles.length) {
+          const jData = await ghGet(`output/${jsonFiles[0].name}`);
+          jobs = JSON.parse(decodeURIComponent(escape(atob(jData.content.replace(/\n/g, '')))));
+        }
+      } catch(e2) { console.warn('No results JSON found'); }
+    }
+
+    if (jobs.length) {
+      renderResults(jobs);
+    } else {
+      document.getElementById('runResults').innerHTML = `<p style="color:var(--text-dim);padding:12px">Nessun risultato disponibile</p>`;
+    }
+  } catch(e) { console.warn('Load results:', e); }
+}
+
+function renderResults(jobs) {
+  const el = document.getElementById('runResults');
+  el.innerHTML = `
+    <h3 style="font-size:0.9rem;margin-bottom:12px;color:var(--text-dim)">📋 Posizioni trovate (${jobs.length})</h3>
+    <div class="results-wrap">
+    <table class="results-table">
+      <thead><tr><th>Titolo</th><th>Azienda</th><th>Canale</th><th>Luogo</th><th>Data</th></tr></thead>
+      <tbody>
+        ${jobs.map(j => {
+          const title = j.title || '';
+          const company = j.company || '';
+          const site = (j.site || j.channel || '').toLowerCase();
+          const location = j.location || j.city || '';
+          const url = j.job_url || j.url || '';
+          const date = j.date_posted && j.date_posted !== 'None' && j.date_posted !== 'NaT' ? String(j.date_posted).slice(0,10) : '';
+          const channelClass = site.includes('linkedin') ? 'linkedin' : site.includes('indeed') ? 'indeed' : site.includes('glassdoor') ? 'glassdoor' : site.includes('google') ? 'google' : '';
+          return `<tr>
+            <td>${url ? `<a href="${esc(url)}" target="_blank">${esc(title)}</a>` : esc(title)}</td>
+            <td>${esc(company)}</td>
+            <td><span class="channel-badge ${channelClass}">${esc(site)}</span></td>
+            <td style="font-size:0.8rem">${esc(location)}</td>
+            <td style="font-size:0.8rem;white-space:nowrap">${date}</td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    </table>
+    </div>`;
+}
+
+function updateRunStatus(status, text) {
+  document.getElementById('runStatusBadge').innerHTML =
+    `<span class="run-status ${status}"><span class="dot"></span> ${text}</span>`;
+}
+
+// ============================================================
+// SETTINGS SECTIONS (same as before)
+// ============================================================
 function renderAll() {
   const c = document.getElementById('content');
   c.innerHTML = `
@@ -360,204 +534,93 @@ function renderAll() {
     ${renderSection('blacklist', '✗ Blacklist', filters.blacklist.length)}
     ${renderSection('agencies', '🏢 Agenzie Monitorate', filters.agencies.length)}
   `;
-  renderKeywords();
-  renderRelevant();
-  renderBroad();
-  renderBlacklist();
-  renderAgencies();
-
-  // Open first section
+  renderKeywords(); renderRelevant(); renderBroad(); renderBlacklist(); renderAgencies();
   toggleSection('keywords');
 }
-
 function renderSection(id, title, count) {
-  return `
-    <div class="section" id="sec-${id}">
-      <div class="section-header" onclick="toggleSection('${id}')">
-        <h2>${title} <span class="count">${count}</span></h2>
-        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
-      </div>
-      <div class="section-body" id="body-${id}"></div>
-    </div>`;
+  return `<div class="section" id="sec-${id}">
+    <div class="section-header" onclick="toggleSection('${id}')">
+      <h2>${title} <span class="count">${count}</span></h2>
+      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    </div>
+    <div class="section-body" id="body-${id}"></div>
+  </div>`;
 }
-
 function toggleSection(id) {
-  const h = document.querySelector(`#sec-${id} .section-header`);
-  const b = document.getElementById(`body-${id}`);
-  h.classList.toggle('open');
-  b.classList.toggle('open');
+  document.querySelector(`#sec-${id} .section-header`).classList.toggle('open');
+  document.getElementById(`body-${id}`).classList.toggle('open');
 }
-
-// ---- Keywords ----
+// Keywords
 function renderKeywords() {
-  const el = document.getElementById('body-keywords');
-  el.innerHTML = `
-    <div class="tags" id="tags-keywords">
-      ${filters.search_terms.map((t, i) => tag(t, `removeKeyword(${i})`)).join('')}
-    </div>
-    <div class="add-row">
-      <input id="newKeyword" placeholder="Nuova keyword..." onkeydown="if(event.key==='Enter')addKeyword()" />
-      <button class="btn btn-primary" onclick="addKeyword()">+ Aggiungi</button>
-    </div>`;
+  document.getElementById('body-keywords').innerHTML = `
+    <div class="tags">${filters.search_terms.map((t,i) => tag(t, `removeKeyword(${i})`)).join('')}</div>
+    <div class="add-row"><input id="newKeyword" placeholder="Nuova keyword..." onkeydown="if(event.key==='Enter')addKeyword()" />
+    <button class="btn btn-primary" onclick="addKeyword()">+ Aggiungi</button></div>`;
 }
-function addKeyword() {
-  const v = document.getElementById('newKeyword').value.trim();
-  if (!v || filters.search_terms.includes(v)) return;
-  filters.search_terms.push(v);
-  renderKeywords(); updateCount('keywords', filters.search_terms.length); markDirty();
-}
-function removeKeyword(i) {
-  filters.search_terms.splice(i, 1);
-  renderKeywords(); updateCount('keywords', filters.search_terms.length); markDirty();
-}
-
-// ---- Broad Keywords ----
+function addKeyword() { const v=document.getElementById('newKeyword').value.trim(); if(!v||filters.search_terms.includes(v))return; filters.search_terms.push(v); renderKeywords(); updateCount('keywords',filters.search_terms.length); markDirty(); }
+function removeKeyword(i) { filters.search_terms.splice(i,1); renderKeywords(); updateCount('keywords',filters.search_terms.length); markDirty(); }
+// Broad
 function renderBroad() {
-  const el = document.getElementById('body-broad');
-  el.innerHTML = `
-    <div class="tags" id="tags-broad">
-      ${filters.broad_keywords.map((t, i) => tag(t, `removeBroad(${i})`)).join('')}
-    </div>
-    <div class="add-row">
-      <input id="newBroad" placeholder="Nuova keyword broad..." onkeydown="if(event.key==='Enter')addBroad()" />
-      <button class="btn btn-primary" onclick="addBroad()">+ Aggiungi</button>
-    </div>`;
+  document.getElementById('body-broad').innerHTML = `
+    <div class="tags">${filters.broad_keywords.map((t,i) => tag(t, `removeBroad(${i})`)).join('')}</div>
+    <div class="add-row"><input id="newBroad" placeholder="Nuova keyword broad..." onkeydown="if(event.key==='Enter')addBroad()" />
+    <button class="btn btn-primary" onclick="addBroad()">+ Aggiungi</button></div>`;
 }
-function addBroad() {
-  const v = document.getElementById('newBroad').value.trim();
-  if (!v || filters.broad_keywords.includes(v)) return;
-  filters.broad_keywords.push(v);
-  renderBroad(); updateCount('broad', filters.broad_keywords.length); markDirty();
-}
-function removeBroad(i) {
-  filters.broad_keywords.splice(i, 1);
-  renderBroad(); updateCount('broad', filters.broad_keywords.length); markDirty();
-}
-
-// ---- Agencies ----
+function addBroad() { const v=document.getElementById('newBroad').value.trim(); if(!v||filters.broad_keywords.includes(v))return; filters.broad_keywords.push(v); renderBroad(); updateCount('broad',filters.broad_keywords.length); markDirty(); }
+function removeBroad(i) { filters.broad_keywords.splice(i,1); renderBroad(); updateCount('broad',filters.broad_keywords.length); markDirty(); }
+// Agencies
 function renderAgencies() {
-  const el = document.getElementById('body-agencies');
-  el.innerHTML = `
-    <div class="tags" id="tags-agencies">
-      ${filters.agencies.map((t, i) => tag(t, `removeAgency(${i})`)).join('')}
-    </div>
-    <div class="add-row">
-      <input id="newAgency" placeholder="Nuova agenzia..." onkeydown="if(event.key==='Enter')addAgency()" />
-      <button class="btn btn-primary" onclick="addAgency()">+ Aggiungi</button>
-    </div>
-    <p style="margin-top:12px;font-size:0.78rem;color:var(--text-dim)">
-      Le agenzie vengono automaticamente incluse nei pattern di rilevanza per catturare ruoli di filiale.
-    </p>`;
+  document.getElementById('body-agencies').innerHTML = `
+    <div class="tags">${filters.agencies.map((t,i) => tag(t, `removeAgency(${i})`)).join('')}</div>
+    <div class="add-row"><input id="newAgency" placeholder="Nuova agenzia..." onkeydown="if(event.key==='Enter')addAgency()" />
+    <button class="btn btn-primary" onclick="addAgency()">+ Aggiungi</button></div>
+    <p style="margin-top:12px;font-size:0.78rem;color:var(--text-dim)">Le agenzie vengono automaticamente incluse nei pattern di rilevanza.</p>`;
 }
-function addAgency() {
-  const v = document.getElementById('newAgency').value.trim();
-  if (!v || filters.agencies.includes(v)) return;
-  filters.agencies.push(v);
-  renderAgencies(); updateCount('agencies', filters.agencies.length); markDirty();
-}
-function removeAgency(i) {
-  filters.agencies.splice(i, 1);
-  renderAgencies(); updateCount('agencies', filters.agencies.length); markDirty();
-}
-
-// ---- Relevant Patterns ----
-const relCategories = ['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager',
-  'Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Altro'];
+function addAgency() { const v=document.getElementById('newAgency').value.trim(); if(!v||filters.agencies.includes(v))return; filters.agencies.push(v); renderAgencies(); updateCount('agencies',filters.agencies.length); markDirty(); }
+function removeAgency(i) { filters.agencies.splice(i,1); renderAgencies(); updateCount('agencies',filters.agencies.length); markDirty(); }
+// Relevant
+const relCategories = ['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager','Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Altro'];
 function renderRelevant() {
-  const el = document.getElementById('body-relevant');
-  el.innerHTML = `
-    <div style="overflow-x:auto">
-    <table class="pattern-table">
-      <thead><tr><th>Pattern (regex)</th><th>Categoria</th><th>Note</th><th></th></tr></thead>
-      <tbody>
-        ${filters.relevant_patterns.map((p, i) => `
-          <tr>
-            <td class="mono">${esc(p.pattern)}</td>
-            <td><span class="cat">${esc(p.category)}</span></td>
-            <td style="color:var(--text-dim);font-size:0.8rem">${esc(p.note || '')}</td>
-            <td><button class="btn btn-danger" style="padding:4px 8px;font-size:0.75rem" onclick="removeRelevant(${i})">✗</button></td>
-          </tr>`).join('')}
-      </tbody>
-    </table>
-    </div>
+  document.getElementById('body-relevant').innerHTML = `
+    <div style="overflow-x:auto"><table class="pattern-table">
+    <thead><tr><th>Pattern (regex)</th><th>Categoria</th><th>Note</th><th></th></tr></thead>
+    <tbody>${filters.relevant_patterns.map((p,i) => `<tr>
+      <td class="mono">${esc(p.pattern)}</td>
+      <td><span class="cat">${esc(p.category)}</span></td>
+      <td style="color:var(--text-dim);font-size:0.8rem">${esc(p.note||'')}</td>
+      <td><button class="btn btn-danger" style="padding:4px 8px;font-size:0.75rem" onclick="removeRelevant(${i})">✗</button></td>
+    </tr>`).join('')}</tbody></table></div>
     <div class="add-row" style="margin-top:12px">
       <input id="newRelPattern" placeholder="Pattern regex..." style="flex:2" />
-      <select id="newRelCat">${relCategories.map(c => `<option>${c}</option>`).join('')}</select>
-      <button class="btn btn-primary" onclick="addRelevant()">+ Aggiungi</button>
-    </div>`;
+      <select id="newRelCat">${relCategories.map(c=>`<option>${c}</option>`).join('')}</select>
+      <button class="btn btn-primary" onclick="addRelevant()">+ Aggiungi</button></div>`;
 }
-function addRelevant() {
-  const p = document.getElementById('newRelPattern').value.trim();
-  const c = document.getElementById('newRelCat').value;
-  if (!p) return;
-  try { new RegExp(p, 'i'); } catch(e) { return toast('Regex non valida: ' + e.message, true); }
-  filters.relevant_patterns.push({ pattern: p, category: c, note: '' });
-  renderRelevant(); updateCount('relevant', filters.relevant_patterns.length); markDirty();
-}
-function removeRelevant(i) {
-  filters.relevant_patterns.splice(i, 1);
-  renderRelevant(); updateCount('relevant', filters.relevant_patterns.length); markDirty();
-}
-
-// ---- Blacklist ----
-const blCategories = ['Tech / IT','Operations','Food / Retail','Finance / Legal','Sales / Marketing',
-  'Medical / Admin','Bandi pubblici','Retail generico','Misc'];
+function addRelevant() { const p=document.getElementById('newRelPattern').value.trim(),c=document.getElementById('newRelCat').value; if(!p)return; try{new RegExp(p,'i')}catch(e){return toast('Regex non valida: '+e.message,true)} filters.relevant_patterns.push({pattern:p,category:c,note:''}); renderRelevant(); updateCount('relevant',filters.relevant_patterns.length); markDirty(); }
+function removeRelevant(i) { filters.relevant_patterns.splice(i,1); renderRelevant(); updateCount('relevant',filters.relevant_patterns.length); markDirty(); }
+// Blacklist
+const blCategories = ['Tech / IT','Operations','Food / Retail','Finance / Legal','Sales / Marketing','Medical / Admin','Bandi pubblici','Retail generico','Misc'];
 function renderBlacklist() {
-  const el = document.getElementById('body-blacklist');
-  // Group by category
-  const grouped = {};
-  filters.blacklist.forEach((b, i) => {
-    const cat = b.category || 'Misc';
-    if (!grouped[cat]) grouped[cat] = [];
-    grouped[cat].push({ ...b, _idx: i });
-  });
-  el.innerHTML = `
-    ${Object.entries(grouped).map(([cat, items]) => `
-      <div style="margin-bottom:16px">
-        <div style="font-size:0.78rem;color:var(--text-dim);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em">${esc(cat)}</div>
-        <div class="tags">
-          ${items.map(b => `
-            <span class="tag" style="border-color:var(--danger);border-color:rgba(231,76,60,0.3)">
-              <span class="mono" style="font-size:0.75rem;color:var(--danger)">${esc(b.pattern)}</span>
-              <button class="remove" onclick="removeBlacklist(${b._idx})">✗</button>
-            </span>`).join('')}
-        </div>
-      </div>`).join('')}
+  const grouped = {}; filters.blacklist.forEach((b,i) => { const cat=b.category||'Misc'; if(!grouped[cat])grouped[cat]=[]; grouped[cat].push({...b,_idx:i}); });
+  document.getElementById('body-blacklist').innerHTML = `
+    ${Object.entries(grouped).map(([cat,items]) => `<div style="margin-bottom:16px">
+      <div style="font-size:0.78rem;color:var(--text-dim);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em">${esc(cat)}</div>
+      <div class="tags">${items.map(b => `<span class="tag" style="border-color:rgba(231,76,60,0.3)">
+        <span class="mono" style="font-size:0.75rem;color:var(--danger)">${esc(b.pattern)}</span>
+        <button class="remove" onclick="removeBlacklist(${b._idx})">✗</button></span>`).join('')}
+      </div></div>`).join('')}
     <div class="add-row" style="margin-top:12px">
       <input id="newBlPattern" placeholder="Pattern da bloccare..." style="flex:2" />
-      <select id="newBlCat">${blCategories.map(c => `<option>${c}</option>`).join('')}</select>
-      <button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBlacklist()">+ Blocca</button>
-    </div>`;
+      <select id="newBlCat">${blCategories.map(c=>`<option>${c}</option>`).join('')}</select>
+      <button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBlacklist()">+ Blocca</button></div>`;
 }
-function addBlacklist() {
-  const p = document.getElementById('newBlPattern').value.trim();
-  const c = document.getElementById('newBlCat').value;
-  if (!p) return;
-  try { new RegExp(p, 'i'); } catch(e) { return toast('Regex non valida: ' + e.message, true); }
-  filters.blacklist.push({ pattern: p, category: c });
-  renderBlacklist(); updateCount('blacklist', filters.blacklist.length); markDirty();
-}
-function removeBlacklist(i) {
-  filters.blacklist.splice(i, 1);
-  renderBlacklist(); updateCount('blacklist', filters.blacklist.length); markDirty();
-}
+function addBlacklist() { const p=document.getElementById('newBlPattern').value.trim(),c=document.getElementById('newBlCat').value; if(!p)return; try{new RegExp(p,'i')}catch(e){return toast('Regex non valida: '+e.message,true)} filters.blacklist.push({pattern:p,category:c}); renderBlacklist(); updateCount('blacklist',filters.blacklist.length); markDirty(); }
+function removeBlacklist(i) { filters.blacklist.splice(i,1); renderBlacklist(); updateCount('blacklist',filters.blacklist.length); markDirty(); }
 
-// ---- Helpers ----
-function tag(text, onclick) {
-  return `<span class="tag">${esc(text)}<button class="remove" onclick="${onclick}">✗</button></span>`;
-}
+// Helpers
+function tag(text, onclick) { return `<span class="tag">${esc(text)}<button class="remove" onclick="${onclick}">✗</button></span>`; }
 function esc(s) { const d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
-function updateCount(id, n) {
-  document.querySelector(`#sec-${id} .count`).textContent = n;
-}
-function toast(msg, err) {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.className = 'toast show' + (err ? ' error' : '');
-  setTimeout(() => t.className = 'toast', 3000);
-}
+function updateCount(id, n) { document.querySelector(`#sec-${id} .count`).textContent = n; }
+function toast(msg, err) { const t=document.getElementById('toast'); t.textContent=msg; t.className='toast show'+(err?' error':''); setTimeout(()=>t.className='toast',3000); }
 </script>
 </body>
 </html>
