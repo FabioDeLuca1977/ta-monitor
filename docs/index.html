@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TA Monitor — Settings</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0f;
+  --surface: #13131a;
+  --surface2: #1a1a24;
+  --border: #2a2a3a;
+  --border-focus: #6c5ce7;
+  --text: #e8e8f0;
+  --text-dim: #8888a0;
+  --accent: #6c5ce7;
+  --accent-hover: #7d6ff0;
+  --accent-glow: rgba(108,92,231,0.15);
+  --danger: #e74c3c;
+  --danger-hover: #c0392b;
+  --success: #27ae60;
+  --success-glow: rgba(39,174,96,0.15);
+  --warn: #f39c12;
+  --tag-bg: #1e1e2e;
+  --tag-border: #3a3a50;
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.noise {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.container {
+  position: relative; z-index: 1;
+  max-width: 960px; margin: 0 auto; padding: 40px 24px;
+}
+
+/* Header */
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 40px; padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+.header h1 {
+  font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em;
+}
+.header h1 span { color: var(--accent); }
+.header-actions { display: flex; gap: 10px; align-items: center; }
+
+/* Auth */
+.auth-bar {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px;
+  margin-bottom: 32px; display: flex; align-items: center; gap: 12px;
+}
+.auth-bar label { font-size: 0.85rem; color: var(--text-dim); white-space: nowrap; }
+.auth-bar input {
+  flex: 1; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 8px 12px; color: var(--text);
+  font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;
+}
+.auth-bar input:focus { outline: none; border-color: var(--border-focus); }
+.auth-bar .status {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--danger); flex-shrink: 0;
+  transition: background 0.3s;
+}
+.auth-bar .status.ok { background: var(--success); }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 16px; border: none; border-radius: var(--radius-sm);
+  font-family: inherit; font-size: 0.85rem; font-weight: 500;
+  cursor: pointer; transition: all 0.2s;
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent-hover); box-shadow: 0 0 20px var(--accent-glow); }
+.btn-danger { background: transparent; color: var(--danger); border: 1px solid var(--danger); }
+.btn-danger:hover { background: var(--danger); color: #fff; }
+.btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid var(--border); }
+.btn-ghost:hover { border-color: var(--text-dim); color: var(--text); }
+.btn-save {
+  background: var(--success); color: #fff; padding: 10px 24px; font-size: 0.9rem;
+}
+.btn-save:hover { box-shadow: 0 0 24px var(--success-glow); }
+.btn-save:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Sections */
+.section {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); margin-bottom: 24px;
+  overflow: hidden; transition: box-shadow 0.3s;
+}
+.section:hover { box-shadow: 0 0 30px rgba(108,92,231,0.05); }
+.section-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px; cursor: pointer; user-select: none;
+  border-bottom: 1px solid transparent; transition: border-color 0.2s;
+}
+.section-header.open { border-bottom-color: var(--border); }
+.section-header h2 { font-size: 1rem; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+.section-header .count {
+  background: var(--accent-glow); color: var(--accent);
+  padding: 2px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;
+}
+.section-header .chevron {
+  width: 20px; height: 20px; color: var(--text-dim); transition: transform 0.3s;
+}
+.section-header.open .chevron { transform: rotate(180deg); }
+.section-body { padding: 20px; display: none; }
+.section-body.open { display: block; }
+
+/* Tags */
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--tag-bg); border: 1px solid var(--tag-border);
+  border-radius: 20px; padding: 5px 12px 5px 14px;
+  font-size: 0.82rem; transition: all 0.2s;
+  animation: tagIn 0.2s ease;
+}
+@keyframes tagIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+.tag .remove {
+  width: 16px; height: 16px; border-radius: 50%; border: none;
+  background: transparent; color: var(--text-dim); cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.7rem; transition: all 0.15s;
+}
+.tag .remove:hover { background: var(--danger); color: #fff; }
+
+/* Input row */
+.add-row {
+  display: flex; gap: 8px; margin-top: 8px;
+}
+.add-row input, .add-row select {
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 8px 12px; color: var(--text);
+  font-family: inherit; font-size: 0.85rem;
+}
+.add-row input { flex: 1; }
+.add-row select { width: 180px; }
+.add-row input:focus, .add-row select:focus { outline: none; border-color: var(--border-focus); }
+
+/* Pattern table */
+.pattern-table { width: 100%; border-collapse: collapse; }
+.pattern-table th {
+  text-align: left; padding: 8px 12px; font-size: 0.75rem;
+  color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+}
+.pattern-table td {
+  padding: 8px 12px; border-bottom: 1px solid var(--border);
+  font-size: 0.85rem; vertical-align: middle;
+}
+.pattern-table tr:last-child td { border-bottom: none; }
+.pattern-table .mono {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+  color: var(--accent); word-break: break-all;
+}
+.pattern-table .cat {
+  background: var(--tag-bg); border: 1px solid var(--tag-border);
+  padding: 2px 10px; border-radius: 12px; font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+/* Toast */
+.toast {
+  position: fixed; bottom: 24px; right: 24px; padding: 12px 20px;
+  background: var(--success); color: #fff; border-radius: var(--radius-sm);
+  font-size: 0.85rem; font-weight: 500; z-index: 100;
+  transform: translateY(80px); opacity: 0; transition: all 0.3s;
+}
+.toast.show { transform: translateY(0); opacity: 1; }
+.toast.error { background: var(--danger); }
+
+/* Loading */
+.loading {
+  display: flex; align-items: center; justify-content: center;
+  padding: 60px; color: var(--text-dim); font-size: 0.9rem;
+}
+.spinner {
+  width: 20px; height: 20px; border: 2px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin 0.8s linear infinite; margin-right: 10px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container { padding: 20px 16px; }
+  .header { flex-direction: column; gap: 16px; align-items: flex-start; }
+  .auth-bar { flex-direction: column; align-items: stretch; }
+  .add-row { flex-direction: column; }
+  .add-row select { width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="container">
+
+  <div class="header">
+    <h1><span>TA Monitor</span> — Settings</h1>
+    <div class="header-actions">
+      <button class="btn btn-ghost" onclick="loadFilters()">↻ Reload</button>
+      <button class="btn btn-save" id="saveBtn" disabled onclick="saveFilters()">💾 Salva su GitHub</button>
+    </div>
+  </div>
+
+  <div class="auth-bar">
+    <div class="status" id="authStatus"></div>
+    <label>GitHub Token</label>
+    <input type="password" id="tokenInput" placeholder="ghp_xxxxx (Personal Access Token con scope repo)" />
+    <button class="btn btn-primary" onclick="authenticate()">Connetti</button>
+  </div>
+
+  <div id="content">
+    <div class="loading"><div class="spinner"></div>Inserisci il GitHub Token per caricare i filtri</div>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const REPO = 'FabioDeLuca1977/ta-monitor';
+const FILE_PATH = 'filters.json';
+const CONFIG_PATH = 'config.yaml';
+let token = '';
+let filters = null;
+let fileSha = '';
+let configSha = '';
+let dirty = false;
+
+// ---- Auth ----
+function authenticate() {
+  token = document.getElementById('tokenInput').value.trim();
+  if (!token) return toast('Inserisci un token', true);
+  localStorage.setItem('ta_token', token);
+  loadFilters();
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  const saved = localStorage.getItem('ta_token');
+  if (saved) {
+    document.getElementById('tokenInput').value = saved;
+    token = saved;
+    loadFilters();
+  }
+});
+
+// ---- GitHub API ----
+async function ghGet(path) {
+  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+  });
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+  return r.json();
+}
+
+async function ghPut(path, content, sha, message) {
+  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+    method: 'PUT',
+    headers: {
+      Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ message, content: btoa(unescape(encodeURIComponent(content))), sha })
+  });
+  if (!r.ok) throw new Error(`GitHub PUT ${r.status}`);
+  return r.json();
+}
+
+// ---- Load / Save ----
+async function loadFilters() {
+  try {
+    const data = await ghGet(FILE_PATH);
+    fileSha = data.sha;
+    filters = JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g, '')))));
+
+    // Load config.yaml sha for syncing search_terms
+    try {
+      const cfgData = await ghGet(CONFIG_PATH);
+      configSha = cfgData.sha;
+    } catch(e) { configSha = ''; }
+
+    document.getElementById('authStatus').classList.add('ok');
+    renderAll();
+    toast('Filtri caricati');
+  } catch(e) {
+    document.getElementById('authStatus').classList.remove('ok');
+    toast('Errore: ' + e.message, true);
+  }
+}
+
+async function saveFilters() {
+  if (!filters || !fileSha) return;
+  try {
+    document.getElementById('saveBtn').disabled = true;
+    document.getElementById('saveBtn').textContent = '⏳ Salvataggio...';
+    
+    filters._updated = new Date().toISOString();
+
+    // Save filters.json
+    const r = await ghPut(FILE_PATH, JSON.stringify(filters, null, 2), fileSha,
+      '⚙️ Settings aggiornati da dashboard');
+    fileSha = r.content.sha;
+
+    // Sync search_terms to config.yaml
+    if (configSha) {
+      try {
+        const cfgData = await ghGet(CONFIG_PATH);
+        configSha = cfgData.sha;
+        let yaml = decodeURIComponent(escape(atob(cfgData.content.replace(/\n/g, ''))));
+        // Replace search_terms block
+        const termsYaml = 'search_terms:\n' + filters.search_terms.map(t => `  - "${t}"`).join('\n');
+        yaml = yaml.replace(/search_terms:[\s\S]*?(?=\n\n|\nlocation:|\n#\s*===)/, termsYaml + '\n');
+        const r2 = await ghPut(CONFIG_PATH, yaml, configSha, '⚙️ Sync search_terms da dashboard');
+        configSha = r2.content.sha;
+      } catch(e) { console.warn('Config sync skip:', e); }
+    }
+
+    dirty = false;
+    document.getElementById('saveBtn').disabled = true;
+    document.getElementById('saveBtn').textContent = '💾 Salva su GitHub';
+    toast('✓ Salvato su GitHub');
+  } catch(e) {
+    toast('Errore salvataggio: ' + e.message, true);
+    document.getElementById('saveBtn').disabled = false;
+    document.getElementById('saveBtn').textContent = '💾 Salva su GitHub';
+  }
+}
+
+function markDirty() {
+  dirty = true;
+  document.getElementById('saveBtn').disabled = false;
+}
+
+// ---- Render ----
+function renderAll() {
+  const c = document.getElementById('content');
+  c.innerHTML = `
+    ${renderSection('keywords', '🔍 Keywords di Ricerca', filters.search_terms.length)}
+    ${renderSection('relevant', '✓ Pattern di Rilevanza', filters.relevant_patterns.length)}
+    ${renderSection('broad', '📋 Keywords Broad', filters.broad_keywords.length)}
+    ${renderSection('blacklist', '✗ Blacklist', filters.blacklist.length)}
+    ${renderSection('agencies', '🏢 Agenzie Monitorate', filters.agencies.length)}
+  `;
+  renderKeywords();
+  renderRelevant();
+  renderBroad();
+  renderBlacklist();
+  renderAgencies();
+
+  // Open first section
+  toggleSection('keywords');
+}
+
+function renderSection(id, title, count) {
+  return `
+    <div class="section" id="sec-${id}">
+      <div class="section-header" onclick="toggleSection('${id}')">
+        <h2>${title} <span class="count">${count}</span></h2>
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+      <div class="section-body" id="body-${id}"></div>
+    </div>`;
+}
+
+function toggleSection(id) {
+  const h = document.querySelector(`#sec-${id} .section-header`);
+  const b = document.getElementById(`body-${id}`);
+  h.classList.toggle('open');
+  b.classList.toggle('open');
+}
+
+// ---- Keywords ----
+function renderKeywords() {
+  const el = document.getElementById('body-keywords');
+  el.innerHTML = `
+    <div class="tags" id="tags-keywords">
+      ${filters.search_terms.map((t, i) => tag(t, `removeKeyword(${i})`)).join('')}
+    </div>
+    <div class="add-row">
+      <input id="newKeyword" placeholder="Nuova keyword..." onkeydown="if(event.key==='Enter')addKeyword()" />
+      <button class="btn btn-primary" onclick="addKeyword()">+ Aggiungi</button>
+    </div>`;
+}
+function addKeyword() {
+  const v = document.getElementById('newKeyword').value.trim();
+  if (!v || filters.search_terms.includes(v)) return;
+  filters.search_terms.push(v);
+  renderKeywords(); updateCount('keywords', filters.search_terms.length); markDirty();
+}
+function removeKeyword(i) {
+  filters.search_terms.splice(i, 1);
+  renderKeywords(); updateCount('keywords', filters.search_terms.length); markDirty();
+}
+
+// ---- Broad Keywords ----
+function renderBroad() {
+  const el = document.getElementById('body-broad');
+  el.innerHTML = `
+    <div class="tags" id="tags-broad">
+      ${filters.broad_keywords.map((t, i) => tag(t, `removeBroad(${i})`)).join('')}
+    </div>
+    <div class="add-row">
+      <input id="newBroad" placeholder="Nuova keyword broad..." onkeydown="if(event.key==='Enter')addBroad()" />
+      <button class="btn btn-primary" onclick="addBroad()">+ Aggiungi</button>
+    </div>`;
+}
+function addBroad() {
+  const v = document.getElementById('newBroad').value.trim();
+  if (!v || filters.broad_keywords.includes(v)) return;
+  filters.broad_keywords.push(v);
+  renderBroad(); updateCount('broad', filters.broad_keywords.length); markDirty();
+}
+function removeBroad(i) {
+  filters.broad_keywords.splice(i, 1);
+  renderBroad(); updateCount('broad', filters.broad_keywords.length); markDirty();
+}
+
+// ---- Agencies ----
+function renderAgencies() {
+  const el = document.getElementById('body-agencies');
+  el.innerHTML = `
+    <div class="tags" id="tags-agencies">
+      ${filters.agencies.map((t, i) => tag(t, `removeAgency(${i})`)).join('')}
+    </div>
+    <div class="add-row">
+      <input id="newAgency" placeholder="Nuova agenzia..." onkeydown="if(event.key==='Enter')addAgency()" />
+      <button class="btn btn-primary" onclick="addAgency()">+ Aggiungi</button>
+    </div>
+    <p style="margin-top:12px;font-size:0.78rem;color:var(--text-dim)">
+      Le agenzie vengono automaticamente incluse nei pattern di rilevanza per catturare ruoli di filiale.
+    </p>`;
+}
+function addAgency() {
+  const v = document.getElementById('newAgency').value.trim();
+  if (!v || filters.agencies.includes(v)) return;
+  filters.agencies.push(v);
+  renderAgencies(); updateCount('agencies', filters.agencies.length); markDirty();
+}
+function removeAgency(i) {
+  filters.agencies.splice(i, 1);
+  renderAgencies(); updateCount('agencies', filters.agencies.length); markDirty();
+}
+
+// ---- Relevant Patterns ----
+const relCategories = ['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager',
+  'Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Altro'];
+function renderRelevant() {
+  const el = document.getElementById('body-relevant');
+  el.innerHTML = `
+    <div style="overflow-x:auto">
+    <table class="pattern-table">
+      <thead><tr><th>Pattern (regex)</th><th>Categoria</th><th>Note</th><th></th></tr></thead>
+      <tbody>
+        ${filters.relevant_patterns.map((p, i) => `
+          <tr>
+            <td class="mono">${esc(p.pattern)}</td>
+            <td><span class="cat">${esc(p.category)}</span></td>
+            <td style="color:var(--text-dim);font-size:0.8rem">${esc(p.note || '')}</td>
+            <td><button class="btn btn-danger" style="padding:4px 8px;font-size:0.75rem" onclick="removeRelevant(${i})">✗</button></td>
+          </tr>`).join('')}
+      </tbody>
+    </table>
+    </div>
+    <div class="add-row" style="margin-top:12px">
+      <input id="newRelPattern" placeholder="Pattern regex..." style="flex:2" />
+      <select id="newRelCat">${relCategories.map(c => `<option>${c}</option>`).join('')}</select>
+      <button class="btn btn-primary" onclick="addRelevant()">+ Aggiungi</button>
+    </div>`;
+}
+function addRelevant() {
+  const p = document.getElementById('newRelPattern').value.trim();
+  const c = document.getElementById('newRelCat').value;
+  if (!p) return;
+  try { new RegExp(p, 'i'); } catch(e) { return toast('Regex non valida: ' + e.message, true); }
+  filters.relevant_patterns.push({ pattern: p, category: c, note: '' });
+  renderRelevant(); updateCount('relevant', filters.relevant_patterns.length); markDirty();
+}
+function removeRelevant(i) {
+  filters.relevant_patterns.splice(i, 1);
+  renderRelevant(); updateCount('relevant', filters.relevant_patterns.length); markDirty();
+}
+
+// ---- Blacklist ----
+const blCategories = ['Tech / IT','Operations','Food / Retail','Finance / Legal','Sales / Marketing',
+  'Medical / Admin','Bandi pubblici','Retail generico','Misc'];
+function renderBlacklist() {
+  const el = document.getElementById('body-blacklist');
+  // Group by category
+  const grouped = {};
+  filters.blacklist.forEach((b, i) => {
+    const cat = b.category || 'Misc';
+    if (!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push({ ...b, _idx: i });
+  });
+  el.innerHTML = `
+    ${Object.entries(grouped).map(([cat, items]) => `
+      <div style="margin-bottom:16px">
+        <div style="font-size:0.78rem;color:var(--text-dim);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em">${esc(cat)}</div>
+        <div class="tags">
+          ${items.map(b => `
+            <span class="tag" style="border-color:var(--danger);border-color:rgba(231,76,60,0.3)">
+              <span class="mono" style="font-size:0.75rem;color:var(--danger)">${esc(b.pattern)}</span>
+              <button class="remove" onclick="removeBlacklist(${b._idx})">✗</button>
+            </span>`).join('')}
+        </div>
+      </div>`).join('')}
+    <div class="add-row" style="margin-top:12px">
+      <input id="newBlPattern" placeholder="Pattern da bloccare..." style="flex:2" />
+      <select id="newBlCat">${blCategories.map(c => `<option>${c}</option>`).join('')}</select>
+      <button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBlacklist()">+ Blocca</button>
+    </div>`;
+}
+function addBlacklist() {
+  const p = document.getElementById('newBlPattern').value.trim();
+  const c = document.getElementById('newBlCat').value;
+  if (!p) return;
+  try { new RegExp(p, 'i'); } catch(e) { return toast('Regex non valida: ' + e.message, true); }
+  filters.blacklist.push({ pattern: p, category: c });
+  renderBlacklist(); updateCount('blacklist', filters.blacklist.length); markDirty();
+}
+function removeBlacklist(i) {
+  filters.blacklist.splice(i, 1);
+  renderBlacklist(); updateCount('blacklist', filters.blacklist.length); markDirty();
+}
+
+// ---- Helpers ----
+function tag(text, onclick) {
+  return `<span class="tag">${esc(text)}<button class="remove" onclick="${onclick}">✗</button></span>`;
+}
+function esc(s) { const d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+function updateCount(id, n) {
+  document.querySelector(`#sec-${id} .count`).textContent = n;
+}
+function toast(msg, err) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show' + (err ? ' error' : '');
+  setTimeout(() => t.className = 'toast', 3000);
+}
+</script>
+</body>
+</html>

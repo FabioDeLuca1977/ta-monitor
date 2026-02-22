@@ -36,9 +36,46 @@ for d in [DATA_DIR, OUTPUT_DIR, LOG_DIR]:
 
 # ============================================================
 # FILTRO DI RILEVANZA
-# Solo posizioni HR / Talent Acquisition / Recruiting /
-# Gestione filiali agenzie somministrazione
+# Carica da filters.json se presente (gestito dalla dashboard)
+# Altrimenti usa i valori hardcoded sotto
 # ============================================================
+
+def _load_filters_json():
+    """Carica filtri da filters.json se presente."""
+    fpath = BASE_DIR / "filters.json"
+    if fpath.exists():
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            print(f"  [filters.json] Caricato v{data.get('_version', '?')}")
+            return data
+        except Exception as e:
+            print(f"  [filters.json] Errore: {e} — uso filtri hardcoded")
+    return None
+
+_EXTERNAL_FILTERS = _load_filters_json()
+
+def _get_patterns(key, default):
+    if _EXTERNAL_FILTERS and key in _EXTERNAL_FILTERS:
+        items = _EXTERNAL_FILTERS[key]
+        if items and isinstance(items[0], dict):
+            return [i["pattern"] for i in items]
+        return items
+    return default
+
+def _get_agencies():
+    if _EXTERNAL_FILTERS and "agencies" in _EXTERNAL_FILTERS:
+        return _EXTERNAL_FILTERS["agencies"]
+    return _DEFAULT_AGENCIES
+
+_DEFAULT_AGENCIES = [
+    "QuoJobis", "Gi Group", "Adecco", "Randstad", "Manpower",
+    "Synergie", "OpenJobMetis", "LavoroPiù", "Etjca", "Umana",
+    "MAW", "Orienta", "Humangest", "In-HR", "Tempor",
+    "Generazione Vincente", "Ali Lavoro", "E-Work", "Eurointerim",
+    "Kelly", "Hays", "Page Group", "Michael Page", "Spring",
+    "Hunters", "Articolo1",
+]
 
 RELEVANT_TITLE_PATTERNS = [
     # Talent Acquisition
@@ -92,9 +129,29 @@ RELEVANT_TITLE_PATTERNS = [
     r"staffing\s+(?:specialist|manager|consultant)",
 ]
 
-_RELEVANT_COMPILED = [re.compile(p, re.IGNORECASE) for p in RELEVANT_TITLE_PATTERNS]
+_RELEVANT_COMPILED = [re.compile(p, re.IGNORECASE) for p in _get_patterns("relevant_patterns", RELEVANT_TITLE_PATTERNS)]
 
-BROAD_KEYWORDS = [
+# Genera pattern dinamici per le agenzie caricate
+def _build_agency_patterns():
+    agencies = _get_agencies()
+    if not agencies:
+        return []
+    # Normalizza nomi per regex: spazi → \s*, caratteri speciali escaped
+    parts = []
+    for a in agencies:
+        # "Gi Group" → "gi\s*group", "Page Group" → "page\s*group"
+        escaped = re.escape(a).replace(r"\ ", r"\s*")
+        parts.append(escaped)
+    agency_re = "|".join(parts)
+    roles_re = r"(?:filiale|branch|responsabil|dirett|manager|account|hr\s+consultant|recruiter|specialist)"
+    return [
+        re.compile(f"(?:{agency_re}).*{roles_re}", re.IGNORECASE),
+        re.compile(f"{roles_re}.*(?:{agency_re})", re.IGNORECASE),
+    ]
+
+_AGENCY_PATTERNS = _build_agency_patterns()
+
+BROAD_KEYWORDS = _get_patterns("broad_keywords", [
     "talent acquisition", "talent", "recruiter", "recruiting", "recruitment",
     "selezione", "selezionatrice", "selezionatore",
     "hrbp", "hr generalist", "hr specialist", "hr manager", "hr officer",
@@ -108,10 +165,10 @@ BROAD_KEYWORDS = [
     # Agenzie specifiche (se appaiono nel titolo con ruoli HR)
     "quojobis", "gi group", "synergie", "openjobmetis", "lavoropiu",
     "etjca", "humangest", "umana", "orienta", "maw",
-]
+])
 
 # Blacklist: titoli NON pertinenti
-TITLE_BLACKLIST = [
+TITLE_BLACKLIST = _get_patterns("blacklist", [
     # Tech / IT
     r"sviluppat", r"developer", r"software\s+engineer", r"engineer(?:ing)?",
     r"full\s*stack", r"front\s*end", r"back\s*end", r"mobile\s+engineer",
@@ -152,7 +209,7 @@ TITLE_BLACKLIST = [
     r"selezione\s+pubblica", r"concorso\s+pubblic", r"bando",
     # Organico filiale retail (non agenzie lavoro)
     r"organico\s+filiale",
-]
+])
 
 _BLACKLIST_COMPILED = [re.compile(p, re.IGNORECASE) for p in TITLE_BLACKLIST]
 
@@ -170,6 +227,11 @@ def is_relevant_job(title, description=""):
     # Pattern specifici
     for rp in _RELEVANT_COMPILED:
         if rp.search(title_str):
+            return True
+
+    # Pattern agenzie dinamici
+    for ap in _AGENCY_PATTERNS:
+        if ap.search(title_str):
             return True
 
     # Keyword broad
@@ -212,7 +274,12 @@ log = setup_logging()
 
 def load_config():
     with open(BASE_DIR / "config.yaml", "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        cfg = yaml.safe_load(f)
+    # Override search_terms da filters.json se presente
+    if _EXTERNAL_FILTERS and "search_terms" in _EXTERNAL_FILTERS:
+        cfg["search_terms"] = _EXTERNAL_FILTERS["search_terms"]
+        log.info(f"  Search terms da filters.json: {len(cfg['search_terms'])} keywords")
+    return cfg
 
 # === DATABASE ===
 
