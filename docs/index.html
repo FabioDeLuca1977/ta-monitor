@@ -481,6 +481,8 @@ async function loadResults() {
     }
 
     if (jobs.length) {
+      console.log('Sample job fields:', Object.keys(jobs[0]));
+      console.log('First job:', JSON.stringify(jobs[0], null, 2));
       renderResults(jobs);
     } else {
       document.getElementById('runResults').innerHTML = `<p style="color:var(--text-dim);padding:12px">Nessun risultato disponibile</p>`;
@@ -501,14 +503,13 @@ function renderResults(jobs) {
           const company = j.company || '';
           const site = (j.site || j.channel || '').toLowerCase();
           const location = j.location || j.city || '';
-          const url = j.job_url || j.url || j.job_url_direct || '';
+          const url = j.job_url || j.job_url_direct || j.url || j.link || '';
           // Handle date: could be ISO string, Unix timestamp (seconds or ms), or null
           let dateStr = '';
           const raw = j.date_posted;
           if (raw && raw !== 'None' && raw !== 'NaT' && raw !== 'nan' && raw !== '') {
             const num = Number(raw);
             if (!isNaN(num) && num > 1000000000) {
-              // Unix timestamp — if > 10^12 it's ms, else seconds
               const ms = num > 1e12 ? num : num * 1000;
               const d = new Date(ms);
               dateStr = d.toLocaleDateString('it-IT', { day: '2-digit', month: '2-digit', year: 'numeric' });
@@ -517,7 +518,8 @@ function renderResults(jobs) {
             }
           }
           const channelClass = site.includes('linkedin') ? 'linkedin' : site.includes('indeed') ? 'indeed' : site.includes('glassdoor') ? 'glassdoor' : site.includes('google') ? 'google' : '';
-          const titleHtml = url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a>` : esc(title);
+          const safeUrl = url ? url.replace(/"/g, '&quot;').replace(/</g, '&lt;') : '';
+          const titleHtml = safeUrl ? `<a href="${safeUrl}" target="_blank" rel="noopener">${esc(title)}</a>` : esc(title);
           return `<tr>
             <td>${titleHtml}</td>
             <td>${esc(company)}</td>
