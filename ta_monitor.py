@@ -50,6 +50,12 @@ RELEVANT_TITLE_PATTERNS = [
     # HR Generalist
     r"hr\s+generalist",
     r"human\s*resource.*generalist",
+    # HR Manager / Director
+    r"hr\s+manager",
+    r"human\s*resource.*manager",
+    r"dirett.*risorse\s+umane",
+    r"responsabile\s+risorse\s+umane",
+    r"hr\s+director",
     # Recruiting / Recruiter / Selezionatrice/ore
     r"recruit(?:er|ing|ment)",
     r"selezionat(?:ore|rice|rici)",
@@ -57,33 +63,51 @@ RELEVANT_TITLE_PATTERNS = [
     r"responsabile\s+selezione",
     r"addett[oa]\s+(?:alla?\s+)?selezione",
     r"specialista\s+(?:della?\s+)?selezione",
-    # HR Specialist in ambito selezione
-    r"hr\s+specialist.*(?:selezione|recruiting|ricerca)",
+    r"ricerca\s+e\s+selezione",
+    # HR Specialist
+    r"hr\s+specialist",
     r"specialist[a]?\s+(?:hr|risorse\s+umane)",
-    # Head hunter
+    r"hr\s+officer",
+    r"people\s+(?:partner|manager|specialist|officer)",
+    # HR Administration con focus selezione
+    r"hr\s+admin.*selezione",
+    # Head hunter / Executive search
     r"head\s*hunt(?:er|ing)",
+    r"executive\s+search",
+    # Employer Branding (spesso combinato con TA)
+    r"employer\s+brand",
     # Gestione filiali agenzie per il lavoro / somministrazione
+    # Pattern generici con contesto agenzia
     r"respons.*filiale.*(?:somministr|lavoro|apl|interinale|staffing)",
     r"branch\s*manager.*(?:staffing|agenzia|somministr|lavoro|apl)",
     r"dirett.*filiale.*(?:somministr|lavoro|apl|interinale|staffing)",
     r"gestione\s+filiale.*(?:somministr|lavoro|apl|interinale|staffing)",
     r"area\s+manager.*(?:somministr|staffing|apl|agenzia)",
-    # Agenzie per il lavoro — ruoli operativi
+    # Agenzie specifiche — qualsiasi ruolo di filiale
+    r"(?:quojobis|gi\s*group|adecco|randstad|manpower|synergie|openjob|lavoropiu|etjca|umana|maw|orienta|humangest|in-hr|tempor|generazione\s*vincente|ali\s+lavoro|e-work|eurointerim|kelly|hays|page\s*group|michael\s*page|spring|hunters|articolo1).*(?:filiale|branch|responsabil|dirett|manager|account|hr\s+consultant)",
+    r"(?:filiale|branch|responsabil|account).*(?:quojobis|gi\s*group|adecco|randstad|manpower|synergie|openjob|lavoropiu|etjca|umana|maw|orienta|humangest|in-hr|tempor|generazione\s*vincente|ali\s+lavoro|e-work|eurointerim|kelly|hays)",
+    # Ruoli operativi in agenzie per il lavoro
     r"(?:account|consultant).*(?:apl|somministr|staffing|agenzia.*lavoro)",
     r"hr\s+consultant",
+    r"staffing\s+(?:specialist|manager|consultant)",
 ]
 
 _RELEVANT_COMPILED = [re.compile(p, re.IGNORECASE) for p in RELEVANT_TITLE_PATTERNS]
 
 BROAD_KEYWORDS = [
-    "talent", "recruiter", "recruiting", "recruitment",
+    "talent acquisition", "talent", "recruiter", "recruiting", "recruitment",
     "selezione", "selezionatrice", "selezionatore",
-    "hrbp", "hr generalist", "hr specialist",
-    "head hunter", "headhunter",
+    "hrbp", "hr generalist", "hr specialist", "hr manager", "hr officer",
+    "people partner", "people manager",
+    "head hunter", "headhunter", "executive search",
     "branch manager staffing", "branch manager agenzia",
     "responsabile filiale agenzia", "responsabile filiale apl",
     "risorse umane", "human resources",
-    "hr consultant", "employer branding",
+    "hr consultant", "employer branding", "staffing specialist",
+    "ricerca e selezione",
+    # Agenzie specifiche (se appaiono nel titolo con ruoli HR)
+    "quojobis", "gi group", "synergie", "openjobmetis", "lavoropiu",
+    "etjca", "humangest", "umana", "orienta", "maw",
 ]
 
 # Blacklist: titoli NON pertinenti
