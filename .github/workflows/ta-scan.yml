@@ -54,6 +54,31 @@ jobs:
             output/*.json
           retention-days: 90
 
+      - name: 📝 Prepara email body
+        id: summary
+        run: |
+          BODY=$(python -c "
+          import json
+          try:
+              d = json.load(open('output/summary.json'))
+              print(f'Totale grezzo: {d.get(\"total_raw\", 0)}')
+              print(f'Scartati non pertinenti: {d.get(\"filtered_irrelevant\", 0)}')
+              print(f'Nuove posizioni: {d.get(\"new_jobs\", 0)}')
+              print(f'Duplicati rimossi: {d.get(\"duplicates_removed\", 0)}')
+          except: print('Dati non disponibili')
+          ")
+          echo "email_body<<EOF" >> $GITHUB_OUTPUT
+          echo "Ciao Fabio," >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "Ecco il report giornaliero delle posizioni HR / Talent Acquisition su Roma." >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "$BODY" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "Il report Excel e' in allegato." >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "-- TA Monitor Bot" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: 💾 Committa risultati
         run: |
           git config --local user.email "action@github.com"
@@ -73,3 +98,17 @@ jobs:
             git commit -m "📋 TA Scan ${DATE} — ${NEW_COUNT} nuove posizioni"
             git push
           fi
+
+      - name: 📧 Invio email report
+        if: vars.ENABLE_EMAIL == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "📋 TA Monitor — Report posizioni HR Roma"
+          to: ${{ secrets.EMAIL_RECIPIENTS }}
+          from: "TA Monitor <${{ secrets.SMTP_USER }}>"
+          body: ${{ steps.summary.outputs.email_body }}
+          attachments: output/*.xlsx
