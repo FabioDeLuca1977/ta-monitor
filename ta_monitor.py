@@ -528,6 +528,12 @@ def main():
     channels = list(deduped["site"].unique()) if "site" in deduped.columns else []
     write_summary(total_raw, len(new_df), len(relevant_df) - len(deduped), filtered_count, channels)
 
+    # Ensure column exists (backward compat with v2.0 databases)
+    try:
+        conn.execute("ALTER TABLE runs ADD COLUMN filtered_irrelevant INTEGER")
+    except sqlite3.OperationalError:
+        pass  # Column already exists
+
     conn.execute(
         "INSERT INTO runs (timestamp,total_found,new_found,duplicates_removed,filtered_irrelevant,status) "
         "VALUES (?,?,?,?,?,?)",
