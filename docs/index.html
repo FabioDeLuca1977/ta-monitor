@@ -501,15 +501,29 @@ function renderResults(jobs) {
           const company = j.company || '';
           const site = (j.site || j.channel || '').toLowerCase();
           const location = j.location || j.city || '';
-          const url = j.job_url || j.url || '';
-          const date = j.date_posted && j.date_posted !== 'None' && j.date_posted !== 'NaT' ? String(j.date_posted).slice(0,10) : '';
+          const url = j.job_url || j.url || j.job_url_direct || '';
+          // Handle date: could be ISO string, Unix timestamp (seconds or ms), or null
+          let dateStr = '';
+          const raw = j.date_posted;
+          if (raw && raw !== 'None' && raw !== 'NaT' && raw !== 'nan' && raw !== '') {
+            const num = Number(raw);
+            if (!isNaN(num) && num > 1000000000) {
+              // Unix timestamp — if > 10^12 it's ms, else seconds
+              const ms = num > 1e12 ? num : num * 1000;
+              const d = new Date(ms);
+              dateStr = d.toLocaleDateString('it-IT', { day: '2-digit', month: '2-digit', year: 'numeric' });
+            } else if (typeof raw === 'string' && raw.length >= 10) {
+              dateStr = raw.slice(0, 10).split('-').reverse().join('/');
+            }
+          }
           const channelClass = site.includes('linkedin') ? 'linkedin' : site.includes('indeed') ? 'indeed' : site.includes('glassdoor') ? 'glassdoor' : site.includes('google') ? 'google' : '';
+          const titleHtml = url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a>` : esc(title);
           return `<tr>
-            <td>${url ? `<a href="${esc(url)}" target="_blank">${esc(title)}</a>` : esc(title)}</td>
+            <td>${titleHtml}</td>
             <td>${esc(company)}</td>
             <td><span class="channel-badge ${channelClass}">${esc(site)}</span></td>
             <td style="font-size:0.8rem">${esc(location)}</td>
-            <td style="font-size:0.8rem;white-space:nowrap">${date}</td>
+            <td style="font-size:0.8rem;white-space:nowrap">${dateStr}</td>
           </tr>`;
         }).join('')}
       </tbody>
