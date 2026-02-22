@@ -63,11 +63,10 @@ RELEVANT_TITLE_PATTERNS = [
     # Head hunter
     r"head\s*hunt(?:er|ing)",
     # Gestione filiali agenzie per il lavoro / somministrazione
-    r"respons.*filiale",
-    r"branch\s*manager",
-    r"dirett.*filiale",
-    r"gestione\s+filiale",
-    r"responsabile\s+(?:di\s+)?filiale",
+    r"respons.*filiale.*(?:somministr|lavoro|apl|interinale|staffing)",
+    r"branch\s*manager.*(?:staffing|agenzia|somministr|lavoro|apl)",
+    r"dirett.*filiale.*(?:somministr|lavoro|apl|interinale|staffing)",
+    r"gestione\s+filiale.*(?:somministr|lavoro|apl|interinale|staffing)",
     r"area\s+manager.*(?:somministr|staffing|apl|agenzia)",
     # Agenzie per il lavoro — ruoli operativi
     r"(?:account|consultant).*(?:apl|somministr|staffing|agenzia.*lavoro)",
@@ -81,26 +80,54 @@ BROAD_KEYWORDS = [
     "selezione", "selezionatrice", "selezionatore",
     "hrbp", "hr generalist", "hr specialist",
     "head hunter", "headhunter",
-    "filiale", "branch manager",
+    "branch manager staffing", "branch manager agenzia",
+    "responsabile filiale agenzia", "responsabile filiale apl",
     "risorse umane", "human resources",
-    "hr consultant",
+    "hr consultant", "employer branding",
 ]
 
 # Blacklist: titoli NON pertinenti
 TITLE_BLACKLIST = [
-    r"sviluppat", r"developer", r"software\s+engineer",
-    r"full\s*stack", r"front\s*end", r"back\s*end",
-    r"data\s+(?:engineer|scientist|analyst)",
-    r"devops", r"sys\s*admin", r"cloud.*(?:architect|engineer)",
-    r"manutenz", r"autogrill", r"camerier", r"barista",
-    r"cuoc[oa]", r"magazzin", r"operai[oa]", r"muratore",
-    r"idraulic", r"elettricist", r"infermier", r"farmacist",
-    r"contabil", r"segretari[oa]", r"receptionist",
-    r"commess[oa]", r"cassier", r"addet.*vendita",
-    r"graphic\s*design", r"marketing\s+(?:specialist|manager)",
-    r"social\s+media", r"seo\s", r"copywriter",
-    r"consulen.*(?:finanzi|fiscal|legale|immobili)",
+    # Tech / IT
+    r"sviluppat", r"developer", r"software\s+engineer", r"engineer(?:ing)?",
+    r"full\s*stack", r"front\s*end", r"back\s*end", r"mobile\s+engineer",
+    r"data\s+(?:engineer|scientist|analyst)", r"data\s+&\s+analytics",
+    r"devops", r"sys\s*admin", r"cloud.*(?:architect|engineer|advisory|consultant)",
+    r"network\s+engineer", r"system\s+engineer", r"UX\s+engineer",
+    r"user\s+experience", r"AI\/?Gen\s*AI", r"artificial\s+intelligen",
+    r"machine\s+learning", r"cyber\s*secur", r"infrastructure",
+    r"murex\s+consultant", r"SAP\s+consultant", r"IT\s+consultant",
+    r"consultant.*(?:IT|tech|SAP|cloud|data|digital|strategy|advisory)",
+    # Operations / Facility / Logistics
+    r"manutenz", r"manutentore", r"facility\s+specialist", r"facility\s+manager",
+    r"operations?\s+(?:supervisor|manager|specialist)",
+    r"supply\s+chain", r"logistic", r"warehouse", r"magazzin",
+    r"operai[oa]", r"muratore", r"idraulic", r"elettricist",
+    # Food / Retail / Hospitality
+    r"autogrill", r"ristorazion", r"camerier", r"barista", r"cuoc[oa]",
+    r"commess[oa]", r"cassier", r"addet.*vendita", r"store\s+manager",
+    r"recruiting\s+day.*(?:autogrill|ristoraz|addett)", r"receptionist",
+    # Finance / Legal / Consulting generico
+    r"contabil", r"accountant", r"account(?:ing)?(?:\s+manager)?$",
+    r"consulen.*(?:finanzi|fiscal|legale|immobili|gare|appalto)",
+    r"(?:gare|appalto|bandi)", r"global\s+benefits",
+    # Sales / Marketing
     r"agente.*(?:commerc|immobili|assicur)",
+    r"graphic\s*design", r"marketing\s+(?:specialist|manager)",
+    r"social\s+media", r"seo\b", r"copywriter",
+    # employer branding è pertinente, non bloccarlo
+    # Medical / Admin
+    r"infermier", r"farmacist", r"segretari[oa]",
+    # Misc
+    r"smart\s+working.*opportunit", r"opportunit.*business",
+    r"team\s+leader(?!.*(?:hr|recruit|selezione))",
+    r"internship(?!.*(?:hr|recruit|selezione|talent|risorse))",
+    r"stage(?!.*(?:hr|recruit|selezione|talent|risorse))",
+    r"tirocinio", r"neolaureato",
+    # Bandi pubblici / concorsi
+    r"selezione\s+pubblica", r"concorso\s+pubblic", r"bando",
+    # Organico filiale retail (non agenzie lavoro)
+    r"organico\s+filiale",
 ]
 
 _BLACKLIST_COMPILED = [re.compile(p, re.IGNORECASE) for p in TITLE_BLACKLIST]
@@ -480,6 +507,17 @@ def main():
         config["search_terms"] = [t.strip() for t in args.search_terms.split(",")]
 
     conn = init_db()
+
+    # Pulizia una tantum: rimuovi job non rilevanti da run precedenti (v2.0)
+    try:
+        old_jobs = conn.execute("SELECT id, title, description FROM jobs").fetchall()
+        to_delete = [r[0] for r in old_jobs if not is_relevant_job(r[1], r[2] or "")]
+        if to_delete:
+            conn.executemany("DELETE FROM jobs WHERE id = ?", [(jid,) for jid in to_delete])
+            conn.commit()
+            log.info(f"  Pulizia DB: rimossi {len(to_delete)} job non rilevanti da run precedenti")
+    except Exception as e:
+        log.warning(f"  Pulizia DB skip: {e}")
 
     log.info("▸ Fase 1: Scraping JobSpy")
     jobspy_df = scrape_jobspy(config, args.hours_old)
