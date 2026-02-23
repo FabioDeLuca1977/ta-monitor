@@ -3,661 +3,405 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TA Monitor — Settings</title>
+<title>TA Monitor — Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root {
-  --bg: #0a0a0f;
-  --surface: #13131a;
-  --surface2: #1a1a24;
-  --border: #2a2a3a;
-  --border-focus: #6c5ce7;
-  --text: #e8e8f0;
-  --text-dim: #8888a0;
-  --accent: #6c5ce7;
-  --accent-hover: #7d6ff0;
-  --accent-glow: rgba(108,92,231,0.15);
-  --danger: #e74c3c;
-  --danger-hover: #c0392b;
-  --success: #27ae60;
-  --success-glow: rgba(39,174,96,0.15);
-  --warn: #f39c12;
-  --tag-bg: #1e1e2e;
-  --tag-border: #3a3a50;
-  --radius: 10px;
-  --radius-sm: 6px;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: 'DM Sans', -apple-system, sans-serif;
-  background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh;
-}
-.noise {
-  position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.03;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-.container { position: relative; z-index: 1; max-width: 960px; margin: 0 auto; padding: 40px 24px; }
-.header {
-  display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border);
-}
-.header h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
-.header h1 span { color: var(--accent); }
-.header-actions { display: flex; gap: 10px; align-items: center; }
-.auth-bar {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 16px 20px;
-  margin-bottom: 32px; display: flex; align-items: center; gap: 12px;
-}
-.auth-bar label { font-size: 0.85rem; color: var(--text-dim); white-space: nowrap; }
-.auth-bar input {
-  flex: 1; background: var(--surface2); border: 1px solid var(--border);
-  border-radius: var(--radius-sm); padding: 8px 12px; color: var(--text);
-  font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;
-}
-.auth-bar input:focus { outline: none; border-color: var(--border-focus); }
-.auth-bar .status {
-  width: 10px; height: 10px; border-radius: 50%;
-  background: var(--danger); flex-shrink: 0; transition: background 0.3s;
-}
-.auth-bar .status.ok { background: var(--success); }
-.btn {
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 8px 16px; border: none; border-radius: var(--radius-sm);
-  font-family: inherit; font-size: 0.85rem; font-weight: 500;
-  cursor: pointer; transition: all 0.2s;
-}
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { background: var(--accent-hover); box-shadow: 0 0 20px var(--accent-glow); }
-.btn-danger { background: transparent; color: var(--danger); border: 1px solid var(--danger); }
-.btn-danger:hover { background: var(--danger); color: #fff; }
-.btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid var(--border); }
-.btn-ghost:hover { border-color: var(--text-dim); color: var(--text); }
-.btn-save { background: var(--success); color: #fff; padding: 10px 24px; font-size: 0.9rem; }
-.btn-save:hover { box-shadow: 0 0 24px var(--success-glow); }
-.btn-save:disabled { opacity: 0.4; cursor: not-allowed; }
-.btn-run { background: var(--warn); color: #000; padding: 10px 20px; font-size: 0.9rem; font-weight: 600; }
-.btn-run:hover { background: #e67e22; }
-.btn-run:disabled { opacity: 0.4; cursor: not-allowed; }
-.section {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); margin-bottom: 24px; overflow: hidden; transition: box-shadow 0.3s;
-}
-.section:hover { box-shadow: 0 0 30px rgba(108,92,231,0.05); }
-.section-header {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 16px 20px; cursor: pointer; user-select: none;
-  border-bottom: 1px solid transparent; transition: border-color 0.2s;
-}
-.section-header.open { border-bottom-color: var(--border); }
-.section-header h2 { font-size: 1rem; font-weight: 600; display: flex; align-items: center; gap: 10px; }
-.section-header .count {
-  background: var(--accent-glow); color: var(--accent);
-  padding: 2px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;
-}
-.section-header .chevron { width: 20px; height: 20px; color: var(--text-dim); transition: transform 0.3s; }
-.section-header.open .chevron { transform: rotate(180deg); }
-.section-body { padding: 20px; display: none; }
-.section-body.open { display: block; }
-.tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-.tag {
-  display: inline-flex; align-items: center; gap: 6px;
-  background: var(--tag-bg); border: 1px solid var(--tag-border);
-  border-radius: 20px; padding: 5px 12px 5px 14px; font-size: 0.82rem;
-  transition: all 0.2s; animation: tagIn 0.2s ease;
-}
-@keyframes tagIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
-.tag .remove {
-  width: 16px; height: 16px; border-radius: 50%; border: none;
-  background: transparent; color: var(--text-dim); cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 0.7rem; transition: all 0.15s;
-}
-.tag .remove:hover { background: var(--danger); color: #fff; }
-.add-row { display: flex; gap: 8px; margin-top: 8px; }
-.add-row input, .add-row select {
-  background: var(--surface2); border: 1px solid var(--border);
-  border-radius: var(--radius-sm); padding: 8px 12px; color: var(--text);
-  font-family: inherit; font-size: 0.85rem;
-}
-.add-row input { flex: 1; }
-.add-row select { width: 180px; }
-.add-row input:focus, .add-row select:focus { outline: none; border-color: var(--border-focus); }
-.pattern-table { width: 100%; border-collapse: collapse; }
-.pattern-table th {
-  text-align: left; padding: 8px 12px; font-size: 0.75rem;
-  color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em;
-  border-bottom: 1px solid var(--border);
-}
-.pattern-table td {
-  padding: 8px 12px; border-bottom: 1px solid var(--border);
-  font-size: 0.85rem; vertical-align: middle;
-}
-.pattern-table tr:last-child td { border-bottom: none; }
-.pattern-table .mono {
-  font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
-  color: var(--accent); word-break: break-all;
-}
-.pattern-table .cat {
-  background: var(--tag-bg); border: 1px solid var(--tag-border);
-  padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; white-space: nowrap;
-}
+:root{--bg:#0a0a0f;--surface:#13131a;--surface2:#1a1a24;--border:#2a2a3a;--border-focus:#6c5ce7;--text:#e8e8f0;--text-dim:#8888a0;--accent:#6c5ce7;--accent-hover:#7d6ff0;--accent-glow:rgba(108,92,231,.15);--danger:#e74c3c;--success:#27ae60;--success-glow:rgba(39,174,96,.15);--warn:#f39c12;--tag-bg:#1e1e2e;--tag-border:#3a3a50;--radius:10px;--radius-sm:6px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+.noise{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.container{position:relative;z-index:1;max-width:1000px;margin:0 auto;padding:32px 24px}
+.login-wrap{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+.login-box{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:40px;width:100%;max-width:400px;text-align:center}
+.login-box h1{font-size:1.4rem;margin-bottom:6px}.login-box h1 span{color:var(--accent)}
+.login-box p{color:var(--text-dim);font-size:.85rem;margin-bottom:28px}
+.field{margin-bottom:16px;text-align:left}.field label{display:block;font-size:.8rem;color:var(--text-dim);margin-bottom:4px}
+.field input{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;color:var(--text);font-family:inherit;font-size:.9rem}
+.field input:focus{outline:none;border-color:var(--border-focus)}
+.error{color:var(--danger);font-size:.82rem;margin-bottom:12px;min-height:20px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.header h1{font-size:1.4rem;font-weight:700}.header h1 span{color:var(--accent)}
+.header-actions{display:flex;gap:8px;align-items:center}
+.user-info{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--text-dim)}
+.user-info .avatar{width:26px;height:26px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:.72rem}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:none;border-radius:var(--radius-sm);font-family:inherit;font-size:.83rem;font-weight:500;cursor:pointer;transition:all .2s}
+.btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:var(--accent-hover)}
+.btn-danger{background:transparent;color:var(--danger);border:1px solid var(--danger)}.btn-danger:hover{background:var(--danger);color:#fff}
+.btn-ghost{background:transparent;color:var(--text-dim);border:1px solid var(--border)}.btn-ghost:hover{color:var(--text)}
+.btn-save{background:var(--success);color:#fff;padding:8px 20px}.btn-save:disabled{opacity:.4;cursor:not-allowed}
+.btn-run{background:var(--warn);color:#000;padding:8px 18px;font-weight:600}.btn-run:hover{background:#e67e22}.btn-run:disabled{opacity:.4;cursor:not-allowed}
 
-/* Run section */
-.run-panel {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 20px; margin-bottom: 24px;
-}
-.run-panel h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
-.run-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 20px; }
-.run-status {
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 4px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 500;
-}
-.run-status.queued { background: rgba(243,156,18,0.15); color: var(--warn); }
-.run-status.running { background: rgba(108,92,231,0.15); color: var(--accent); }
-.run-status.success { background: var(--success-glow); color: var(--success); }
-.run-status.failed { background: rgba(231,76,60,0.15); color: var(--danger); }
-.run-status .dot {
-  width: 8px; height: 8px; border-radius: 50%; background: currentColor;
-}
-.run-status.running .dot { animation: pulse 1s infinite; }
-@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
-.run-summary {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 12px; margin-bottom: 20px;
-}
-.run-stat {
-  background: var(--surface2); border-radius: var(--radius-sm);
-  padding: 12px 16px; text-align: center;
-}
-.run-stat .num { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
-.run-stat .label { font-size: 0.75rem; color: var(--text-dim); margin-top: 2px; }
+/* PROFILE TABS */
+.profile-bar{display:flex;gap:6px;margin-bottom:24px;flex-wrap:wrap;align-items:center}
+.profile-tab{padding:8px 16px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text-dim);cursor:pointer;font-family:inherit;font-size:.83rem;transition:all .2s;display:flex;align-items:center;gap:6px}
+.profile-tab:hover{border-color:var(--text-dim)}
+.profile-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.profile-tab .auto-dot{width:7px;height:7px;border-radius:50%;background:var(--success)}
+.profile-tab .auto-dot.off{background:var(--border)}
+.profile-add{padding:8px 14px;border-radius:20px;border:1px dashed var(--border);background:transparent;color:var(--text-dim);cursor:pointer;font-family:inherit;font-size:.83rem}
+.profile-add:hover{border-color:var(--accent);color:var(--accent)}
 
-/* Results table */
-.results-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-.results-table th {
-  text-align: left; padding: 10px 12px; font-size: 0.75rem;
-  color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em;
-  border-bottom: 2px solid var(--border); position: sticky; top: 0;
-  background: var(--surface);
-}
-.results-table td {
-  padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top;
-}
-.results-table tr:hover td { background: var(--surface2); }
-.results-table a { color: var(--accent); text-decoration: none; }
-.results-table a:hover { text-decoration: underline; }
-.results-wrap { max-height: 500px; overflow-y: auto; border-radius: var(--radius-sm); }
-.channel-badge {
-  display: inline-block; padding: 2px 8px; border-radius: 10px;
-  font-size: 0.72rem; font-weight: 500; text-transform: uppercase;
-}
-.channel-badge.linkedin { background: rgba(0,119,181,0.2); color: #0077b5; }
-.channel-badge.indeed { background: rgba(46,90,172,0.2); color: #2e5aac; }
-.channel-badge.glassdoor { background: rgba(12,170,65,0.2); color: #0caa41; }
-.channel-badge.google { background: rgba(234,67,53,0.2); color: #ea4335; }
+/* PROFILE HEADER */
+.profile-header{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.profile-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.profile-meta .name{font-size:1.1rem;font-weight:600}
+.profile-meta .loc{font-size:.82rem;color:var(--text-dim)}
+.profile-actions{display:flex;gap:8px;align-items:center}
+/* Toggle */
+.toggle{position:relative;width:44px;height:24px;cursor:pointer;display:flex;align-items:center}
+.toggle input{opacity:0;width:0;height:0}
+.toggle .slider{position:absolute;inset:0;background:var(--border);border-radius:12px;transition:.3s}
+.toggle .slider:before{content:'';position:absolute;width:18px;height:18px;border-radius:50%;background:#fff;left:3px;bottom:3px;transition:.3s}
+.toggle input:checked+.slider{background:var(--success)}
+.toggle input:checked+.slider:before{transform:translateX(20px)}
+.toggle-label{font-size:.78rem;color:var(--text-dim);margin-left:6px}
 
-.toast {
-  position: fixed; bottom: 24px; right: 24px; padding: 12px 20px;
-  background: var(--success); color: #fff; border-radius: var(--radius-sm);
-  font-size: 0.85rem; font-weight: 500; z-index: 100;
-  transform: translateY(80px); opacity: 0; transition: all 0.3s;
-}
-.toast.show { transform: translateY(0); opacity: 1; }
-.toast.error { background: var(--danger); }
-.loading {
-  display: flex; align-items: center; justify-content: center;
-  padding: 60px; color: var(--text-dim); font-size: 0.9rem;
-}
-.spinner {
-  width: 20px; height: 20px; border: 2px solid var(--border);
-  border-top-color: var(--accent); border-radius: 50%;
-  animation: spin 0.8s linear infinite; margin-right: 10px;
-}
-@keyframes spin { to { transform: rotate(360deg); } }
-@media (max-width: 640px) {
-  .container { padding: 20px 16px; }
-  .header { flex-direction: column; gap: 16px; align-items: flex-start; }
-  .auth-bar { flex-direction: column; align-items: stretch; }
-  .add-row { flex-direction: column; }
-  .add-row select { width: 100%; }
-  .run-controls { flex-direction: column; align-items: stretch; }
-}
+.section{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:20px;overflow:hidden}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;cursor:pointer;user-select:none;border-bottom:1px solid transparent}
+.section-header.open{border-bottom-color:var(--border)}
+.section-header h2{font-size:.95rem;font-weight:600;display:flex;align-items:center;gap:8px}
+.section-header .count{background:var(--accent-glow);color:var(--accent);padding:2px 8px;border-radius:20px;font-size:.72rem}
+.section-header .chevron{width:18px;height:18px;color:var(--text-dim);transition:transform .3s}
+.section-header.open .chevron{transform:rotate(180deg)}
+.section-body{padding:18px;display:none}.section-body.open{display:block}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.tag{display:inline-flex;align-items:center;gap:5px;background:var(--tag-bg);border:1px solid var(--tag-border);border-radius:20px;padding:4px 11px 4px 13px;font-size:.8rem;animation:tagIn .2s ease}
+@keyframes tagIn{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+.tag .remove{width:15px;height:15px;border-radius:50%;border:none;background:transparent;color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.65rem}.tag .remove:hover{background:var(--danger);color:#fff}
+.add-row{display:flex;gap:6px;margin-top:6px}
+.add-row input,.add-row select{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--text);font-family:inherit;font-size:.83rem}
+.add-row input{flex:1}.add-row select{width:170px}
+.add-row input:focus,.add-row select:focus{outline:none;border-color:var(--border-focus)}
+.pattern-table{width:100%;border-collapse:collapse}.pattern-table th{text-align:left;padding:6px 10px;font-size:.72rem;color:var(--text-dim);text-transform:uppercase;border-bottom:1px solid var(--border)}
+.pattern-table td{padding:6px 10px;border-bottom:1px solid var(--border);font-size:.82rem;vertical-align:middle}
+.pattern-table .mono{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--accent);word-break:break-all}
+.pattern-table .cat{background:var(--tag-bg);border:1px solid var(--tag-border);padding:2px 8px;border-radius:10px;font-size:.72rem;white-space:nowrap}
+.run-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px;margin-bottom:20px}
+.run-panel h2{font-size:1rem;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.run-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+.run-status{display:inline-flex;align-items:center;gap:5px;padding:3px 12px;border-radius:20px;font-size:.78rem;font-weight:500}
+.run-status.success{background:var(--success-glow);color:var(--success)}.run-status.running{background:rgba(108,92,231,.15);color:var(--accent)}.run-status.failed{background:rgba(231,76,60,.15);color:var(--danger)}.run-status.queued{background:rgba(243,156,18,.15);color:var(--warn)}
+.run-status .dot{width:7px;height:7px;border-radius:50%;background:currentColor}.run-status.running .dot{animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.run-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:16px}
+.run-stat{background:var(--surface2);border-radius:var(--radius-sm);padding:10px 14px;text-align:center}
+.run-stat .num{font-size:1.4rem;font-weight:700;color:var(--accent)}.run-stat .label{font-size:.72rem;color:var(--text-dim)}
+.results-table{width:100%;border-collapse:collapse;font-size:.82rem}
+.results-table th{text-align:left;padding:8px 10px;font-size:.72rem;color:var(--text-dim);text-transform:uppercase;border-bottom:2px solid var(--border);position:sticky;top:0;background:var(--surface)}
+.results-table td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+.results-table tr:hover td{background:var(--surface2)}
+.results-wrap{max-height:500px;overflow-y:auto;border-radius:var(--radius-sm)}
+.channel-badge{display:inline-block;padding:2px 7px;border-radius:10px;font-size:.7rem;font-weight:500;text-transform:uppercase}
+.channel-badge.linkedin{background:rgba(0,119,181,.2);color:#0077b5}.channel-badge.indeed{background:rgba(46,90,172,.2);color:#2e5aac}.channel-badge.glassdoor{background:rgba(12,170,65,.2);color:#0caa41}.channel-badge.google{background:rgba(234,67,53,.2);color:#ea4335}
+.link-btn{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;text-decoration:none;font-size:.8rem}
+.link-btn:hover{background:var(--accent-hover)}
+.admin-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px;margin-bottom:20px}
+.admin-panel h2{font-size:.95rem;font-weight:600;margin-bottom:14px}
+.user-row{display:flex;align-items:center;justify-content:space-between;padding:6px 10px;border-bottom:1px solid var(--border)}.user-row:last-child{border-bottom:none}
+.toast{position:fixed;bottom:24px;right:24px;padding:10px 18px;background:var(--success);color:#fff;border-radius:var(--radius-sm);font-size:.83rem;font-weight:500;z-index:100;transform:translateY(80px);opacity:0;transition:all .3s}
+.toast.show{transform:translateY(0);opacity:1}.toast.error{background:var(--danger)}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:50;display:flex;align-items:center;justify-content:center;padding:24px}
+.modal{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px;max-width:480px;width:100%}
+.modal h2{font-size:1.1rem;margin-bottom:16px}
+@media(max-width:640px){.container{padding:16px 12px}.header{flex-direction:column;gap:12px;align-items:flex-start}.add-row{flex-direction:column}.add-row select{width:100%}.profile-bar{flex-direction:column}.run-controls{flex-direction:column;align-items:stretch}}
 </style>
 </head>
 <body>
 <div class="noise"></div>
+
+<div id="loginScreen" class="login-wrap">
+  <div class="login-box">
+    <h1><span>TA Monitor</span></h1>
+    <p>Accedi per gestire filtri e monitoraggio</p>
+    <div class="field"><label>Username</label><input type="text" id="loginUser" autocomplete="username"/></div>
+    <div class="field"><label>Password</label><input type="password" id="loginPass" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()"/></div>
+    <div class="error" id="loginError"></div>
+    <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doLogin()">Accedi</button>
+    <div style="margin-top:18px;border-top:1px solid var(--border);padding-top:14px">
+      <button class="btn btn-ghost" style="width:100%;font-size:.8rem" onclick="showSetup()">⚙️ Setup Iniziale</button>
+    </div>
+  </div>
+</div>
+
+<div id="setupScreen" class="login-wrap" style="display:none">
+  <div class="login-box" style="max-width:480px">
+    <h1>⚙️ Setup Iniziale</h1>
+    <p>Configura accesso admin e collega GitHub</p>
+    <div class="field"><label>GitHub Token</label><input type="password" id="setupToken" placeholder="ghp_xxxxx"/></div>
+    <div class="field"><label>Username Admin</label><input type="text" id="setupUser" placeholder="admin"/></div>
+    <div class="field"><label>Password Admin</label><input type="password" id="setupPass" placeholder="min 6 caratteri"/></div>
+    <div class="error" id="setupError"></div>
+    <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doSetup()">🚀 Configura</button>
+    <button class="btn btn-ghost" style="width:100%;margin-top:8px" onclick="hideSetup()">← Torna</button>
+  </div>
+</div>
+
+<div id="appScreen" style="display:none">
 <div class="container">
   <div class="header">
-    <h1><span>TA Monitor</span> — Settings</h1>
+    <h1><span>TA Monitor</span></h1>
     <div class="header-actions">
-      <button class="btn btn-ghost" onclick="loadFilters()">↻ Reload</button>
-      <button class="btn btn-save" id="saveBtn" disabled onclick="saveFilters()">💾 Salva su GitHub</button>
+      <div class="user-info"><div class="avatar" id="userAvatar"></div><span id="userName"></span></div>
+      <button class="btn btn-save" id="saveBtn" disabled onclick="saveAll()">💾 Salva</button>
+      <button class="btn btn-ghost" onclick="doLogout()" style="font-size:.78rem">Esci</button>
     </div>
   </div>
-  <div class="auth-bar">
-    <div class="status" id="authStatus"></div>
-    <label>GitHub Token</label>
-    <input type="password" id="tokenInput" placeholder="ghp_xxxxx (Personal Access Token con scope repo)" />
-    <button class="btn btn-primary" onclick="authenticate()">Connetti</button>
-  </div>
-  <div id="content">
-    <div class="loading"><div class="spinner"></div>Inserisci il GitHub Token per caricare i filtri</div>
-  </div>
-  <div id="runSection" style="display:none"></div>
+  <div id="profileBar" class="profile-bar"></div>
+  <div id="profileHeader"></div>
+  <div id="content"></div>
+  <div id="runSection"></div>
+  <div id="adminSection"></div>
 </div>
+</div>
+
 <div class="toast" id="toast"></div>
+<div id="modalRoot"></div>
 
 <script>
-const REPO = 'FabioDeLuca1977/ta-monitor';
-const FILE_PATH = 'filters.json';
-const CONFIG_PATH = 'config.yaml';
-const WORKFLOW_FILE = 'ta-scan.yml';
-let token = '';
-let filters = null;
-let fileSha = '';
-let configSha = '';
-let dirty = false;
-let pollTimer = null;
+const REPO='FabioDeLuca1977/ta-monitor',PROFILES_PATH='profiles.json',USERS_PATH='users.json',CONFIG_PATH='config.yaml',WF='ta-scan.yml';
+let token='',profilesData=null,profilesSha='',usersData=null,usersSha='',currentUser=null,activeProfileId=null,dirty=false,pollTimer=null;
 
-// ---- Auth ----
-function authenticate() {
-  token = document.getElementById('tokenInput').value.trim();
-  if (!token) return toast('Inserisci un token', true);
-  localStorage.setItem('ta_token', token);
-  loadFilters();
+// Hash
+async function hashPw(p){const e=new TextEncoder().encode(p);const b=await crypto.subtle.digest('SHA-256',e);return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('')}
+
+// GitHub API
+async function ghApi(p,o={}){const r=await fetch(`https://api.github.com/repos/${REPO}/${p}`,{...o,headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json',...o.headers}});if(!r.ok)throw new Error(`GitHub ${r.status}`);return r.json()}
+async function ghGet(p){return ghApi(`contents/${p}`)}
+async function ghPut(p,c,s,m){return fetch(`https://api.github.com/repos/${REPO}/contents/${p}`,{method:'PUT',headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify({message:m,content:btoa(unescape(encodeURIComponent(c))),sha:s})}).then(r=>{if(!r.ok)throw new Error(`PUT ${r.status}`);return r.json()})}
+function ghDecode(d){return JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g,'')))))}
+
+// Auth
+function showSetup(){$('loginScreen').style.display='none';$('setupScreen').style.display='flex'}
+function hideSetup(){$('setupScreen').style.display='none';$('loginScreen').style.display='flex'}
+async function doSetup(){
+  const tk=$('setupToken').value.trim(),u=$('setupUser').value.trim().toLowerCase(),p=$('setupPass').value,err=$('setupError');
+  if(!tk||!u||!p){err.textContent='Compila tutti i campi';return}if(p.length<6){err.textContent='Password min 6 caratteri';return}err.textContent='';
+  try{token=tk;await ghApi('');
+    const h=await hashPw(p),users={users:[{username:u,password_hash:h,role:'admin',created:new Date().toISOString()}]};
+    let s='';try{s=(await ghGet(USERS_PATH)).sha}catch(e){}
+    const r=await ghPut(USERS_PATH,JSON.stringify(users,null,2),s,'🔐 Setup utenti');usersSha=r.content.sha;usersData=users;
+    localStorage.setItem('ta_token_enc',btoa(tk));localStorage.setItem('ta_user',u);
+    currentUser={username:u,role:'admin'};showApp();toast('✓ Setup completato!')
+  }catch(e){err.textContent='Errore: '+e.message}
 }
-window.addEventListener('DOMContentLoaded', () => {
-  const saved = localStorage.getItem('ta_token');
-  if (saved) { document.getElementById('tokenInput').value = saved; token = saved; loadFilters(); }
+async function doLogin(){
+  const u=$('loginUser').value.trim().toLowerCase(),p=$('loginPass').value,err=$('loginError');
+  if(!u||!p){err.textContent='Inserisci credenziali';return}err.textContent='';
+  const enc=localStorage.getItem('ta_token_enc');if(!enc){err.textContent='Nessun setup su questo browser. Usa Setup Iniziale.';return}
+  try{token=atob(enc);const d=await ghGet(USERS_PATH);usersSha=d.sha;usersData=ghDecode(d);
+    const h=await hashPw(p),f=usersData.users.find(x=>x.username===u&&x.password_hash===h);
+    if(!f){err.textContent='Credenziali errate';return}
+    currentUser=f;localStorage.setItem('ta_user',u);showApp();toast('Benvenuto, '+u+'!')
+  }catch(e){err.textContent='Errore: '+e.message}
+}
+function doLogout(){currentUser=null;localStorage.removeItem('ta_user');$('appScreen').style.display='none';$('loginScreen').style.display='flex';$('loginUser').value='';$('loginPass').value=''}
+window.addEventListener('DOMContentLoaded',async()=>{
+  const enc=localStorage.getItem('ta_token_enc'),su=localStorage.getItem('ta_user');
+  if(enc&&su){token=atob(enc);try{const d=await ghGet(USERS_PATH);usersSha=d.sha;usersData=ghDecode(d);
+    const f=usersData.users.find(x=>x.username===su);if(f){currentUser=f;showApp();return}}catch(e){}}
+  $('loginScreen').style.display='flex'
 });
 
-// ---- GitHub API ----
-async function ghApi(path, opts = {}) {
-  const r = await fetch(`https://api.github.com/repos/${REPO}/${path}`, {
-    ...opts,
-    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', ...opts.headers }
-  });
-  if (!r.ok) throw new Error(`GitHub ${r.status}: ${r.statusText}`);
-  return r.json();
+// App
+async function showApp(){
+  $('loginScreen').style.display='none';$('setupScreen').style.display='none';$('appScreen').style.display='block';
+  $('userAvatar').textContent=currentUser.username[0].toUpperCase();$('userName').textContent=currentUser.username;
+  await loadProfiles()
 }
-async function ghGet(path) {
-  return ghApi(`contents/${path}`);
-}
-async function ghPut(path, content, sha, message) {
-  return fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
-    method: 'PUT',
-    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-    body: JSON.stringify({ message, content: btoa(unescape(encodeURIComponent(content))), sha })
-  }).then(r => { if (!r.ok) throw new Error(`PUT ${r.status}`); return r.json(); });
+async function loadProfiles(){
+  try{const d=await ghGet(PROFILES_PATH);profilesSha=d.sha;profilesData=ghDecode(d);
+    const ids=Object.keys(profilesData.profiles);activeProfileId=activeProfileId||ids[0]||null;
+    renderProfileBar();if(activeProfileId)selectProfile(activeProfileId);toast('Caricato')
+  }catch(e){toast('Errore: '+e.message,true)}
 }
 
-// ---- Load / Save ----
-async function loadFilters() {
-  try {
-    const data = await ghGet(FILE_PATH);
-    fileSha = data.sha;
-    filters = JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g, '')))));
-    try { configSha = (await ghGet(CONFIG_PATH)).sha; } catch(e) { configSha = ''; }
-    document.getElementById('authStatus').classList.add('ok');
-    renderAll();
-    renderRunSection();
-    loadLastRun();
-    toast('Filtri caricati');
-  } catch(e) {
-    document.getElementById('authStatus').classList.remove('ok');
-    toast('Errore: ' + e.message, true);
-  }
+// Profile bar
+function renderProfileBar(){
+  const ps=profilesData.profiles;
+  $('profileBar').innerHTML=Object.entries(ps).map(([id,p])=>`<button class="profile-tab${id===activeProfileId?' active':''}" onclick="selectProfile('${id}')"><span class="auto-dot${p.auto_scan?'':' off'}"></span>${esc(p.name)}</button>`).join('')+`<button class="profile-add" onclick="showNewProfileModal()">+ Nuovo profilo</button>`;
 }
 
-async function saveFilters() {
-  if (!filters || !fileSha) return;
-  try {
-    document.getElementById('saveBtn').disabled = true;
-    document.getElementById('saveBtn').textContent = '⏳ Salvataggio...';
-    filters._updated = new Date().toISOString();
-    const r = await ghPut(FILE_PATH, JSON.stringify(filters, null, 2), fileSha, '⚙️ Settings aggiornati da dashboard');
-    fileSha = r.content.sha;
-    if (configSha) {
-      try {
-        const cfgData = await ghGet(CONFIG_PATH);
-        configSha = cfgData.sha;
-        let yaml = decodeURIComponent(escape(atob(cfgData.content.replace(/\n/g, ''))));
-        const termsYaml = 'search_terms:\n' + filters.search_terms.map(t => `  - "${t}"`).join('\n');
-        yaml = yaml.replace(/search_terms:[\s\S]*?(?=\n\n|\nlocation:|\n#\s*===)/, termsYaml + '\n');
-        const r2 = await ghPut(CONFIG_PATH, yaml, configSha, '⚙️ Sync search_terms da dashboard');
-        configSha = r2.content.sha;
-      } catch(e) { console.warn('Config sync skip:', e); }
-    }
-    dirty = false;
-    document.getElementById('saveBtn').disabled = true;
-    document.getElementById('saveBtn').textContent = '💾 Salva su GitHub';
-    toast('✓ Salvato su GitHub');
-  } catch(e) {
-    toast('Errore salvataggio: ' + e.message, true);
-    document.getElementById('saveBtn').disabled = false;
-    document.getElementById('saveBtn').textContent = '💾 Salva su GitHub';
-  }
-}
-function markDirty() { dirty = true; document.getElementById('saveBtn').disabled = false; }
-
-// ============================================================
-// RUN SECTION
-// ============================================================
-function renderRunSection() {
-  const el = document.getElementById('runSection');
-  el.style.display = 'block';
-  el.innerHTML = `
-    <div class="run-panel">
-      <h2>🚀 Esegui Scan</h2>
-      <div class="run-controls">
-        <button class="btn btn-run" id="runBtn" onclick="triggerRun()">▶ Lancia Scan Adesso</button>
-        <span id="runStatusBadge"></span>
-        <span id="runTime" style="font-size:0.8rem;color:var(--text-dim)"></span>
-      </div>
-      <div id="runSummary"></div>
-      <div id="runResults"></div>
-    </div>`;
+function selectProfile(id){
+  activeProfileId=id;renderProfileBar();
+  const p=profilesData.profiles[id];renderProfileHeader(id,p);renderFilters(p);renderRunSection(id);
+  if(currentUser.role==='admin')renderAdmin();
 }
 
-async function triggerRun() {
-  const btn = document.getElementById('runBtn');
-  btn.disabled = true; btn.textContent = '⏳ Avvio in corso...';
-  try {
-    // Get workflow ID
-    const workflows = await ghApi(`actions/workflows`);
-    const wf = workflows.workflows.find(w => w.path.includes(WORKFLOW_FILE));
-    if (!wf) throw new Error('Workflow non trovato');
-
-    // Dispatch
-    await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${wf.id}/dispatches`, {
-      method: 'POST',
-      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ref: 'main' })
-    });
-
-    toast('✓ Scan avviato!');
-    updateRunStatus('queued', 'In coda...');
-    btn.textContent = '⏳ In esecuzione...';
-
-    // Poll for status
-    setTimeout(() => pollRunStatus(wf.id), 5000);
-  } catch(e) {
-    toast('Errore: ' + e.message, true);
-    btn.disabled = false; btn.textContent = '▶ Lancia Scan Adesso';
-  }
-}
-
-async function pollRunStatus(workflowId) {
-  if (pollTimer) clearTimeout(pollTimer);
-  try {
-    const runs = await ghApi(`actions/workflows/${workflowId}/runs?per_page=1`);
-    if (!runs.workflow_runs.length) return;
-    const run = runs.workflow_runs[0];
-    const status = run.status; // queued, in_progress, completed
-    const conclusion = run.conclusion; // success, failure, null
-
-    if (status === 'completed') {
-      const btn = document.getElementById('runBtn');
-      btn.disabled = false; btn.textContent = '▶ Lancia Scan Adesso';
-
-      if (conclusion === 'success') {
-        updateRunStatus('success', 'Completato');
-        const elapsed = Math.round((new Date(run.updated_at) - new Date(run.created_at)) / 1000);
-        document.getElementById('runTime').textContent = `${elapsed}s • ${new Date(run.updated_at).toLocaleString('it-IT')}`;
-        loadResults();
-      } else {
-        updateRunStatus('failed', `Fallito: ${conclusion}`);
-        document.getElementById('runTime').textContent = new Date(run.updated_at).toLocaleString('it-IT');
-      }
-    } else {
-      updateRunStatus('running', status === 'in_progress' ? 'In esecuzione...' : 'In coda...');
-      pollTimer = setTimeout(() => pollRunStatus(workflowId), 5000);
-    }
-  } catch(e) {
-    console.warn('Poll error:', e);
-    pollTimer = setTimeout(() => pollRunStatus(workflowId), 10000);
-  }
-}
-
-async function loadLastRun() {
-  try {
-    const runs = await ghApi('actions/runs?per_page=1');
-    if (!runs.workflow_runs.length) return;
-    const run = runs.workflow_runs[0];
-
-    if (run.status === 'completed' && run.conclusion === 'success') {
-      updateRunStatus('success', 'Ultimo scan completato');
-      const elapsed = Math.round((new Date(run.updated_at) - new Date(run.created_at)) / 1000);
-      document.getElementById('runTime').textContent = `${elapsed}s • ${new Date(run.updated_at).toLocaleString('it-IT')}`;
-      loadResults();
-    } else if (run.status === 'in_progress' || run.status === 'queued') {
-      updateRunStatus('running', 'Scan in corso...');
-      document.getElementById('runBtn').disabled = true;
-      document.getElementById('runBtn').textContent = '⏳ In esecuzione...';
-      // Find workflow ID and poll
-      const workflows = await ghApi('actions/workflows');
-      const wf = workflows.workflows.find(w => w.path.includes(WORKFLOW_FILE));
-      if (wf) pollRunStatus(wf.id);
-    } else if (run.conclusion === 'failure') {
-      updateRunStatus('failed', 'Ultimo scan fallito');
-      document.getElementById('runTime').textContent = new Date(run.updated_at).toLocaleString('it-IT');
-    }
-  } catch(e) { console.warn('Load last run:', e); }
-}
-
-async function loadResults() {
-  try {
-    // Load summary.json
-    const sumData = await ghGet('output/summary.json');
-    const summary = JSON.parse(decodeURIComponent(escape(atob(sumData.content.replace(/\n/g, '')))));
-
-    document.getElementById('runSummary').innerHTML = `
-      <div class="run-summary">
-        <div class="run-stat"><div class="num">${summary.total_raw || 0}</div><div class="label">Totale grezzo</div></div>
-        <div class="run-stat"><div class="num" style="color:var(--danger)">${summary.filtered_irrelevant || 0}</div><div class="label">Scartati</div></div>
-        <div class="run-stat"><div class="num" style="color:var(--success)">${summary.new_jobs || 0}</div><div class="label">Nuove posizioni</div></div>
-        <div class="run-stat"><div class="num" style="color:var(--text-dim)">${summary.duplicates_removed || 0}</div><div class="label">Duplicati</div></div>
-      </div>`;
-
-    // Load latest CSV/JSON
-    const today = new Date().toISOString().slice(0, 10);
-    let jobs = [];
-    // Try today's JSON, then list output dir
-    try {
-      const jData = await ghGet(`output/ta_jobs_${today}.json`);
-      jobs = JSON.parse(decodeURIComponent(escape(atob(jData.content.replace(/\n/g, '')))));
-    } catch(e) {
-      // Try listing output dir for latest JSON
-      try {
-        const listing = await ghApi('contents/output');
-        const jsonFiles = listing.filter(f => f.name.endsWith('.json') && f.name.startsWith('ta_jobs_')).sort((a,b) => b.name.localeCompare(a.name));
-        if (jsonFiles.length) {
-          const jData = await ghGet(`output/${jsonFiles[0].name}`);
-          jobs = JSON.parse(decodeURIComponent(escape(atob(jData.content.replace(/\n/g, '')))));
-        }
-      } catch(e2) { console.warn('No results JSON found'); }
-    }
-
-    if (jobs.length) {
-      console.log('Sample job fields:', Object.keys(jobs[0]));
-      console.log('First job:', JSON.stringify(jobs[0], null, 2));
-      renderResults(jobs);
-    } else {
-      document.getElementById('runResults').innerHTML = `<p style="color:var(--text-dim);padding:12px">Nessun risultato disponibile</p>`;
-    }
-  } catch(e) { console.warn('Load results:', e); }
-}
-
-function renderResults(jobs) {
-  const el = document.getElementById('runResults');
-  // Debug: log all field names and first job
-  if (jobs.length) {
-    console.log('[TA Debug] Fields:', Object.keys(jobs[0]));
-    console.log('[TA Debug] First job:', jobs[0]);
-    console.log('[TA Debug] job_url type:', typeof jobs[0].job_url, 'value:', jobs[0].job_url);
-  }
-  el.innerHTML = `
-    <h3 style="font-size:0.9rem;margin-bottom:12px;color:var(--text-dim)">📋 Posizioni trovate (${jobs.length})</h3>
-    <div class="results-wrap">
-    <table class="results-table">
-      <thead><tr><th>Titolo</th><th>Azienda</th><th>Canale</th><th>Luogo</th><th>Data</th><th>🔗</th></tr></thead>
-      <tbody>
-        ${jobs.map(j => {
-          const title = j.title || '';
-          const company = j.company || '';
-          const site = (j.site || j.channel || '').toLowerCase();
-          const location = j.location || j.city || '';
-
-          // Get URL — try all possible field names
-          let url = '';
-          for (const key of ['job_url', 'job_url_direct', 'url', 'link']) {
-            const v = j[key];
-            if (v && v !== 'null' && v !== 'None' && v !== 'nan' && typeof v === 'string' && v.startsWith('http')) {
-              url = v;
-              break;
-            }
-          }
-
-          // Handle date
-          let dateStr = '';
-          const raw = j.date_posted;
-          if (raw && raw !== 'None' && raw !== 'NaT' && raw !== 'nan' && raw !== '' && raw !== null) {
-            const num = Number(raw);
-            if (!isNaN(num) && num > 1000000000) {
-              const ms = num > 1e12 ? num : num * 1000;
-              dateStr = new Date(ms).toLocaleDateString('it-IT', { day: '2-digit', month: '2-digit', year: 'numeric' });
-            } else if (typeof raw === 'string' && raw.length >= 10) {
-              dateStr = raw.slice(0, 10).split('-').reverse().join('/');
-            }
-          }
-
-          const channelClass = site.includes('linkedin') ? 'linkedin' : site.includes('indeed') ? 'indeed' : site.includes('glassdoor') ? 'glassdoor' : site.includes('google') ? 'google' : '';
-
-          // Link icon column
-          const linkCell = url
-            ? `<a href="${url}" target="_blank" rel="noopener" style="color:var(--accent);font-size:1.1rem;text-decoration:none" title="Apri annuncio">↗</a>`
-            : '<span style="color:var(--border)">—</span>';
-
-          return `<tr>
-            <td style="font-weight:500">${esc(title)}</td>
-            <td>${esc(company)}</td>
-            <td><span class="channel-badge ${channelClass}">${esc(site)}</span></td>
-            <td style="font-size:0.8rem">${esc(location)}</td>
-            <td style="font-size:0.8rem;white-space:nowrap">${dateStr}</td>
-            <td style="text-align:center">${linkCell}</td>
-          </tr>`;
-        }).join('')}
-      </tbody>
-    </table>
-    </div>`;
-}
-
-function updateRunStatus(status, text) {
-  document.getElementById('runStatusBadge').innerHTML =
-    `<span class="run-status ${status}"><span class="dot"></span> ${text}</span>`;
-}
-
-// ============================================================
-// SETTINGS SECTIONS (same as before)
-// ============================================================
-function renderAll() {
-  const c = document.getElementById('content');
-  c.innerHTML = `
-    ${renderSection('keywords', '🔍 Keywords di Ricerca', filters.search_terms.length)}
-    ${renderSection('relevant', '✓ Pattern di Rilevanza', filters.relevant_patterns.length)}
-    ${renderSection('broad', '📋 Keywords Broad', filters.broad_keywords.length)}
-    ${renderSection('blacklist', '✗ Blacklist', filters.blacklist.length)}
-    ${renderSection('agencies', '🏢 Agenzie Monitorate', filters.agencies.length)}
-  `;
-  renderKeywords(); renderRelevant(); renderBroad(); renderBlacklist(); renderAgencies();
-  toggleSection('keywords');
-}
-function renderSection(id, title, count) {
-  return `<div class="section" id="sec-${id}">
-    <div class="section-header" onclick="toggleSection('${id}')">
-      <h2>${title} <span class="count">${count}</span></h2>
-      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+function renderProfileHeader(id,p){
+  $('profileHeader').innerHTML=`<div class="profile-header">
+    <div class="profile-meta"><span class="name">${esc(p.name)}</span><span class="loc">📍 ${esc(p.location)}</span></div>
+    <div class="profile-actions">
+      <label class="toggle"><input type="checkbox" ${p.auto_scan?'checked':''} onchange="toggleAutoScan('${id}',this.checked)"/><span class="slider"></span></label>
+      <span class="toggle-label">Cron auto</span>
+      <button class="btn btn-ghost" style="font-size:.78rem" onclick="cloneProfile('${id}')">📋 Clona</button>
+      ${id!=='hr-roma'?`<button class="btn btn-danger" style="font-size:.78rem;padding:5px 10px" onclick="deleteProfile('${id}')">🗑</button>`:''}
     </div>
-    <div class="section-body" id="body-${id}"></div>
   </div>`;
 }
-function toggleSection(id) {
-  document.querySelector(`#sec-${id} .section-header`).classList.toggle('open');
-  document.getElementById(`body-${id}`).classList.toggle('open');
+
+function toggleAutoScan(id,v){profilesData.profiles[id].auto_scan=v;markDirty();renderProfileBar()}
+
+// New / Clone profile
+function showNewProfileModal(cloneFrom){
+  const src=cloneFrom?profilesData.profiles[cloneFrom]:null;
+  $('modalRoot').innerHTML=`<div class="modal-overlay" onclick="if(event.target===this)closeModal()"><div class="modal">
+    <h2>${src?'Clona profilo':'Nuovo profilo'}</h2>
+    <div class="field"><label>Nome</label><input id="mpName" value="${src?esc(src.name)+' (copia)':''}"/></div>
+    <div class="field"><label>Location</label><input id="mpLoc" value="${src?esc(src.location):'Roma, Lazio, Italia'}"/></div>
+    <div class="field"><label>ID (slug, senza spazi)</label><input id="mpId" placeholder="es. data-analyst-mi"/></div>
+    <div style="display:flex;gap:8px;margin-top:16px">
+      <button class="btn btn-primary" onclick="createProfile('${cloneFrom||''}')">Crea</button>
+      <button class="btn btn-ghost" onclick="closeModal()">Annulla</button>
+    </div>
+  </div></div>`;
 }
-// Keywords
-function renderKeywords() {
-  document.getElementById('body-keywords').innerHTML = `
-    <div class="tags">${filters.search_terms.map((t,i) => tag(t, `removeKeyword(${i})`)).join('')}</div>
-    <div class="add-row"><input id="newKeyword" placeholder="Nuova keyword..." onkeydown="if(event.key==='Enter')addKeyword()" />
-    <button class="btn btn-primary" onclick="addKeyword()">+ Aggiungi</button></div>`;
+function cloneProfile(id){showNewProfileModal(id)}
+function closeModal(){$('modalRoot').innerHTML=''}
+function createProfile(cloneId){
+  const name=$('mpName').value.trim(),loc=$('mpLoc').value.trim(),id=$('mpId').value.trim().toLowerCase().replace(/\s+/g,'-');
+  if(!name||!id){toast('Compila nome e ID',true);return}
+  if(profilesData.profiles[id]){toast('ID già esistente',true);return}
+  let filters;
+  if(cloneId&&profilesData.profiles[cloneId]){filters=JSON.parse(JSON.stringify(profilesData.profiles[cloneId].filters))}
+  else{filters={search_terms:[],relevant_patterns:[],broad_keywords:[],blacklist:[],agencies:[]}}
+  profilesData.profiles[id]={name,description:'',auto_scan:false,location:loc,hours_old:168,created:new Date().toISOString(),created_by:currentUser.username,filters};
+  closeModal();markDirty();renderProfileBar();selectProfile(id);toast('Profilo creato!')
 }
-function addKeyword() { const v=document.getElementById('newKeyword').value.trim(); if(!v||filters.search_terms.includes(v))return; filters.search_terms.push(v); renderKeywords(); updateCount('keywords',filters.search_terms.length); markDirty(); }
-function removeKeyword(i) { filters.search_terms.splice(i,1); renderKeywords(); updateCount('keywords',filters.search_terms.length); markDirty(); }
-// Broad
-function renderBroad() {
-  document.getElementById('body-broad').innerHTML = `
-    <div class="tags">${filters.broad_keywords.map((t,i) => tag(t, `removeBroad(${i})`)).join('')}</div>
-    <div class="add-row"><input id="newBroad" placeholder="Nuova keyword broad..." onkeydown="if(event.key==='Enter')addBroad()" />
-    <button class="btn btn-primary" onclick="addBroad()">+ Aggiungi</button></div>`;
+function deleteProfile(id){
+  if(!confirm(`Eliminare il profilo "${profilesData.profiles[id].name}"?`))return;
+  delete profilesData.profiles[id];markDirty();
+  activeProfileId=Object.keys(profilesData.profiles)[0];renderProfileBar();
+  if(activeProfileId)selectProfile(activeProfileId);toast('Profilo eliminato')
 }
-function addBroad() { const v=document.getElementById('newBroad').value.trim(); if(!v||filters.broad_keywords.includes(v))return; filters.broad_keywords.push(v); renderBroad(); updateCount('broad',filters.broad_keywords.length); markDirty(); }
-function removeBroad(i) { filters.broad_keywords.splice(i,1); renderBroad(); updateCount('broad',filters.broad_keywords.length); markDirty(); }
-// Agencies
-function renderAgencies() {
-  document.getElementById('body-agencies').innerHTML = `
-    <div class="tags">${filters.agencies.map((t,i) => tag(t, `removeAgency(${i})`)).join('')}</div>
-    <div class="add-row"><input id="newAgency" placeholder="Nuova agenzia..." onkeydown="if(event.key==='Enter')addAgency()" />
-    <button class="btn btn-primary" onclick="addAgency()">+ Aggiungi</button></div>
-    <p style="margin-top:12px;font-size:0.78rem;color:var(--text-dim)">Le agenzie vengono automaticamente incluse nei pattern di rilevanza.</p>`;
+
+// Save
+async function saveAll(){
+  if(!profilesData)return;
+  try{$('saveBtn').disabled=true;$('saveBtn').textContent='⏳...';
+    profilesData._updated=new Date().toISOString();profilesData._updated_by=currentUser.username;
+    const r=await ghPut(PROFILES_PATH,JSON.stringify(profilesData,null,2),profilesSha,`⚙️ Profili aggiornati da ${currentUser.username}`);
+    profilesSha=r.content.sha;dirty=false;$('saveBtn').disabled=true;$('saveBtn').textContent='💾 Salva';toast('✓ Salvato')
+  }catch(e){toast('Errore: '+e.message,true);$('saveBtn').disabled=false;$('saveBtn').textContent='💾 Salva'}
 }
-function addAgency() { const v=document.getElementById('newAgency').value.trim(); if(!v||filters.agencies.includes(v))return; filters.agencies.push(v); renderAgencies(); updateCount('agencies',filters.agencies.length); markDirty(); }
-function removeAgency(i) { filters.agencies.splice(i,1); renderAgencies(); updateCount('agencies',filters.agencies.length); markDirty(); }
-// Relevant
-const relCategories = ['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager','Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Altro'];
-function renderRelevant() {
-  document.getElementById('body-relevant').innerHTML = `
-    <div style="overflow-x:auto"><table class="pattern-table">
-    <thead><tr><th>Pattern (regex)</th><th>Categoria</th><th>Note</th><th></th></tr></thead>
-    <tbody>${filters.relevant_patterns.map((p,i) => `<tr>
-      <td class="mono">${esc(p.pattern)}</td>
-      <td><span class="cat">${esc(p.category)}</span></td>
-      <td style="color:var(--text-dim);font-size:0.8rem">${esc(p.note||'')}</td>
-      <td><button class="btn btn-danger" style="padding:4px 8px;font-size:0.75rem" onclick="removeRelevant(${i})">✗</button></td>
-    </tr>`).join('')}</tbody></table></div>
-    <div class="add-row" style="margin-top:12px">
-      <input id="newRelPattern" placeholder="Pattern regex..." style="flex:2" />
-      <select id="newRelCat">${relCategories.map(c=>`<option>${c}</option>`).join('')}</select>
-      <button class="btn btn-primary" onclick="addRelevant()">+ Aggiungi</button></div>`;
+function markDirty(){dirty=true;$('saveBtn').disabled=false}
+
+// Filters
+function F(){return profilesData.profiles[activeProfileId].filters}
+function renderFilters(p){
+  const f=p.filters;
+  $('content').innerHTML=[
+    sec('keywords','🔍 Keywords',f.search_terms.length),
+    sec('relevant','✓ Pattern Rilevanza',f.relevant_patterns.length),
+    sec('broad','📋 Keywords Broad',f.broad_keywords.length),
+    sec('blacklist','✗ Blacklist',f.blacklist.length),
+    sec('agencies','🏢 Agenzie',f.agencies.length)
+  ].join('');
+  rKeywords();rRelevant();rBroad();rBlacklist();rAgencies();toggle('keywords')
 }
-function addRelevant() { const p=document.getElementById('newRelPattern').value.trim(),c=document.getElementById('newRelCat').value; if(!p)return; try{new RegExp(p,'i')}catch(e){return toast('Regex non valida: '+e.message,true)} filters.relevant_patterns.push({pattern:p,category:c,note:''}); renderRelevant(); updateCount('relevant',filters.relevant_patterns.length); markDirty(); }
-function removeRelevant(i) { filters.relevant_patterns.splice(i,1); renderRelevant(); updateCount('relevant',filters.relevant_patterns.length); markDirty(); }
-// Blacklist
-const blCategories = ['Tech / IT','Operations','Food / Retail','Finance / Legal','Sales / Marketing','Medical / Admin','Bandi pubblici','Retail generico','Misc'];
-function renderBlacklist() {
-  const grouped = {}; filters.blacklist.forEach((b,i) => { const cat=b.category||'Misc'; if(!grouped[cat])grouped[cat]=[]; grouped[cat].push({...b,_idx:i}); });
-  document.getElementById('body-blacklist').innerHTML = `
-    ${Object.entries(grouped).map(([cat,items]) => `<div style="margin-bottom:16px">
-      <div style="font-size:0.78rem;color:var(--text-dim);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em">${esc(cat)}</div>
-      <div class="tags">${items.map(b => `<span class="tag" style="border-color:rgba(231,76,60,0.3)">
-        <span class="mono" style="font-size:0.75rem;color:var(--danger)">${esc(b.pattern)}</span>
-        <button class="remove" onclick="removeBlacklist(${b._idx})">✗</button></span>`).join('')}
-      </div></div>`).join('')}
-    <div class="add-row" style="margin-top:12px">
-      <input id="newBlPattern" placeholder="Pattern da bloccare..." style="flex:2" />
-      <select id="newBlCat">${blCategories.map(c=>`<option>${c}</option>`).join('')}</select>
-      <button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBlacklist()">+ Blocca</button></div>`;
+function sec(id,t,n){return `<div class="section" id="sec-${id}"><div class="section-header" onclick="toggle('${id}')"><h2>${t} <span class="count">${n}</span></h2><svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div><div class="section-body" id="body-${id}"></div></div>`}
+function toggle(id){document.querySelector(`#sec-${id} .section-header`).classList.toggle('open');$(`body-${id}`).classList.toggle('open')}
+
+function rKeywords(){$('body-keywords').innerHTML=`<div class="tags">${F().search_terms.map((t,i)=>tg(t,`rmKw(${i})`)).join('')}</div><div class="add-row"><input id="nKw" placeholder="Nuova keyword..." onkeydown="if(event.key==='Enter')addKw()"/><button class="btn btn-primary" onclick="addKw()">+</button></div>`}
+function addKw(){const v=$('nKw').value.trim();if(!v||F().search_terms.includes(v))return;F().search_terms.push(v);rKeywords();uc('keywords',F().search_terms.length);markDirty()}
+function rmKw(i){F().search_terms.splice(i,1);rKeywords();uc('keywords',F().search_terms.length);markDirty()}
+
+function rBroad(){$('body-broad').innerHTML=`<div class="tags">${F().broad_keywords.map((t,i)=>tg(t,`rmBr(${i})`)).join('')}</div><div class="add-row"><input id="nBr" placeholder="Keyword broad..." onkeydown="if(event.key==='Enter')addBr()"/><button class="btn btn-primary" onclick="addBr()">+</button></div>`}
+function addBr(){const v=$('nBr').value.trim();if(!v||F().broad_keywords.includes(v))return;F().broad_keywords.push(v);rBroad();uc('broad',F().broad_keywords.length);markDirty()}
+function rmBr(i){F().broad_keywords.splice(i,1);rBroad();uc('broad',F().broad_keywords.length);markDirty()}
+
+function rAgencies(){$('body-agencies').innerHTML=`<div class="tags">${F().agencies.map((t,i)=>tg(t,`rmAg(${i})`)).join('')}</div><div class="add-row"><input id="nAg" placeholder="Agenzia..." onkeydown="if(event.key==='Enter')addAg()"/><button class="btn btn-primary" onclick="addAg()">+</button></div>`}
+function addAg(){const v=$('nAg').value.trim();if(!v||F().agencies.includes(v))return;F().agencies.push(v);rAgencies();uc('agencies',F().agencies.length);markDirty()}
+function rmAg(i){F().agencies.splice(i,1);rAgencies();uc('agencies',F().agencies.length);markDirty()}
+
+const RC=['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager','Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Altro'];
+function rRelevant(){$('body-relevant').innerHTML=`<div style="overflow-x:auto"><table class="pattern-table"><thead><tr><th>Pattern</th><th>Cat</th><th></th></tr></thead><tbody>${F().relevant_patterns.map((p,i)=>`<tr><td class="mono">${esc(p.pattern)}</td><td><span class="cat">${esc(p.category)}</span></td><td><button class="btn btn-danger" style="padding:3px 7px;font-size:.72rem" onclick="rmRel(${i})">✗</button></td></tr>`).join('')}</tbody></table></div><div class="add-row" style="margin-top:10px"><input id="nRp" placeholder="Pattern regex..." style="flex:2"/><select id="nRc">${RC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-primary" onclick="addRel()">+</button></div>`}
+function addRel(){const p=$('nRp').value.trim(),c=$('nRc').value;if(!p)return;try{new RegExp(p,'i')}catch(e){return toast('Regex non valida',true)}F().relevant_patterns.push({pattern:p,category:c,note:''});rRelevant();uc('relevant',F().relevant_patterns.length);markDirty()}
+function rmRel(i){F().relevant_patterns.splice(i,1);rRelevant();uc('relevant',F().relevant_patterns.length);markDirty()}
+
+const BC=['Tech / IT','Operations','Food / Retail','Finance / Legal','Sales / Marketing','Medical / Admin','Bandi pubblici','Misc'];
+function rBlacklist(){const g={};F().blacklist.forEach((b,i)=>{const c=b.category||'Misc';if(!g[c])g[c]=[];g[c].push({...b,_i:i})});
+  $('body-blacklist').innerHTML=Object.entries(g).map(([c,items])=>`<div style="margin-bottom:14px"><div style="font-size:.75rem;color:var(--text-dim);margin-bottom:4px;text-transform:uppercase">${esc(c)}</div><div class="tags">${items.map(b=>`<span class="tag" style="border-color:rgba(231,76,60,.3)"><span class="mono" style="font-size:.72rem;color:var(--danger)">${esc(b.pattern)}</span><button class="remove" onclick="rmBl(${b._i})">✗</button></span>`).join('')}</div></div>`).join('')+`<div class="add-row" style="margin-top:10px"><input id="nBl" placeholder="Pattern..." style="flex:2"/><select id="nBc">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBl()">+ Blocca</button></div>`}
+function addBl(){const p=$('nBl').value.trim(),c=$('nBc').value;if(!p)return;try{new RegExp(p,'i')}catch(e){return toast('Regex non valida',true)}F().blacklist.push({pattern:p,category:c});rBlacklist();uc('blacklist',F().blacklist.length);markDirty()}
+function rmBl(i){F().blacklist.splice(i,1);rBlacklist();uc('blacklist',F().blacklist.length);markDirty()}
+
+// Run
+function renderRunSection(pid){
+  $('runSection').innerHTML=`<div class="run-panel"><h2>🚀 Scan: ${esc(profilesData.profiles[pid].name)}</h2>
+    <div class="run-controls"><button class="btn btn-run" id="runBtn" onclick="triggerRun('${pid}')">▶ Lancia Scan</button><span id="runStatusBadge"></span><span id="runTime" style="font-size:.78rem;color:var(--text-dim)"></span></div>
+    <div id="runSummary"></div><div id="runResults"></div></div>`;
+  loadLastRun(pid)
 }
-function addBlacklist() { const p=document.getElementById('newBlPattern').value.trim(),c=document.getElementById('newBlCat').value; if(!p)return; try{new RegExp(p,'i')}catch(e){return toast('Regex non valida: '+e.message,true)} filters.blacklist.push({pattern:p,category:c}); renderBlacklist(); updateCount('blacklist',filters.blacklist.length); markDirty(); }
-function removeBlacklist(i) { filters.blacklist.splice(i,1); renderBlacklist(); updateCount('blacklist',filters.blacklist.length); markDirty(); }
+async function triggerRun(pid){
+  const btn=$('runBtn');btn.disabled=true;btn.textContent='⏳ Avvio...';
+  try{const wfs=await ghApi('actions/workflows');const wf=wfs.workflows.find(w=>w.path.includes(WF));if(!wf)throw new Error('WF non trovato');
+    await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${wf.id}/dispatches`,{method:'POST',headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify({ref:'main',inputs:{profile:pid}})});
+    toast('✓ Scan avviato!');setRunStatus('queued','In coda...');setTimeout(()=>pollRun(wf.id,pid),5000)
+  }catch(e){toast('Errore: '+e.message,true);btn.disabled=false;btn.textContent='▶ Lancia Scan'}
+}
+async function pollRun(wfId,pid){
+  if(pollTimer)clearTimeout(pollTimer);
+  try{const runs=await ghApi(`actions/workflows/${wfId}/runs?per_page=1`);if(!runs.workflow_runs.length)return;const r=runs.workflow_runs[0];
+    if(r.status==='completed'){$('runBtn').disabled=false;$('runBtn').textContent='▶ Lancia Scan';
+      if(r.conclusion==='success'){setRunStatus('success','Completato');const el=Math.round((new Date(r.updated_at)-new Date(r.created_at))/1000);$('runTime').textContent=`${el}s • ${new Date(r.updated_at).toLocaleString('it-IT')}`;loadResults(pid)}
+      else setRunStatus('failed','Fallito: '+r.conclusion)
+    }else{setRunStatus('running',r.status==='in_progress'?'In esecuzione...':'In coda...');pollTimer=setTimeout(()=>pollRun(wfId,pid),5000)}
+  }catch(e){pollTimer=setTimeout(()=>pollRun(wfId,pid),10000)}
+}
+async function loadLastRun(pid){
+  try{const runs=await ghApi('actions/runs?per_page=5');
+    const r=runs.workflow_runs.find(w=>w.status==='completed'&&w.conclusion==='success')||runs.workflow_runs[0];if(!r)return;
+    if(r.status==='completed'&&r.conclusion==='success'){setRunStatus('success','Completato');const el=Math.round((new Date(r.updated_at)-new Date(r.created_at))/1000);$('runTime').textContent=`${el}s • ${new Date(r.updated_at).toLocaleString('it-IT')}`;loadResults(pid)}
+    else if(r.status!=='completed'){setRunStatus('running','In corso...');$('runBtn').disabled=true;$('runBtn').textContent='⏳...';const wfs=await ghApi('actions/workflows');const wf=wfs.workflows.find(w=>w.path.includes(WF));if(wf)pollRun(wf.id,pid)}
+  }catch(e){}
+}
+async function loadResults(pid){
+  try{
+    // Try profile-specific output dir first, then root output
+    let sumPath=`output/${pid}/summary.json`,jobsDir=`output/${pid}`;
+    let summary;
+    try{const d=await ghGet(sumPath);summary=ghDecode(d)}catch(e){const d=await ghGet('output/summary.json');summary=ghDecode(d);jobsDir='output'}
+    $('runSummary').innerHTML=`<div class="run-summary"><div class="run-stat"><div class="num">${summary.total_raw||0}</div><div class="label">Grezzo</div></div><div class="run-stat"><div class="num" style="color:var(--danger)">${summary.filtered_irrelevant||0}</div><div class="label">Scartati</div></div><div class="run-stat"><div class="num" style="color:var(--success)">${summary.new_jobs||0}</div><div class="label">Nuove</div></div><div class="run-stat"><div class="num" style="color:var(--text-dim)">${summary.duplicates_removed||0}</div><div class="label">Duplicati</div></div></div>`;
+    let jobs=[];
+    try{const ls=await ghApi(`contents/${jobsDir}`);const jf=ls.filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json')).sort((a,b)=>b.name.localeCompare(a.name));
+      if(jf.length){jobs=ghDecode(await ghGet(`${jobsDir}/${jf[0].name}`))}}catch(e){}
+    if(jobs.length){console.log('[TA]',Object.keys(jobs[0]),jobs[0]);rResults(jobs)}
+    else $('runResults').innerHTML='<p style="color:var(--text-dim);padding:10px">Nessun risultato</p>'
+  }catch(e){console.warn('loadResults:',e)}
+}
+function rResults(jobs){
+  $('runResults').innerHTML=`<h3 style="font-size:.88rem;margin-bottom:10px;color:var(--text-dim)">📋 Posizioni (${jobs.length})</h3><div class="results-wrap"><table class="results-table"><thead><tr><th>Titolo</th><th>Azienda</th><th>Canale</th><th>Luogo</th><th>Data</th><th>🔗</th></tr></thead><tbody>${jobs.map(jobRow).join('')}</tbody></table></div>`
+}
+function jobRow(j){
+  const t=j.title||'',co=j.company||'',si=(j.site||'').toLowerCase(),lo=j.location||j.city||'';
+  let url='';for(const k of['job_url','job_url_direct','url','link'])if(j[k]&&typeof j[k]==='string'&&j[k].startsWith('http')){url=j[k];break}
+  let ds='';const raw=j.date_posted;if(raw!=null&&raw!==''&&raw!=='None'&&raw!=='NaT'){const n=Number(raw);if(!isNaN(n)&&n>1e9)ds=new Date(n>1e12?n:n*1000).toLocaleDateString('it-IT');else if(typeof raw==='string'&&raw.length>=10)ds=raw.slice(0,10).split('-').reverse().join('/')}
+  const ch=si.includes('linkedin')?'linkedin':si.includes('indeed')?'indeed':si.includes('glassdoor')?'glassdoor':si.includes('google')?'google':'';
+  return `<tr><td style="font-weight:500">${esc(t)}</td><td>${esc(co)}</td><td><span class="channel-badge ${ch}">${esc(si)}</span></td><td style="font-size:.78rem">${esc(lo)}</td><td style="font-size:.78rem;white-space:nowrap">${ds}</td><td style="text-align:center">${url?`<a href="${url}" target="_blank" rel="noopener" class="link-btn" title="Apri">↗</a>`:'—'}</td></tr>`
+}
+function setRunStatus(s,t){$('runStatusBadge').innerHTML=`<span class="run-status ${s}"><span class="dot"></span> ${t}</span>`}
+
+// Admin
+function renderAdmin(){
+  if(!usersData)return;
+  $('adminSection').innerHTML=`<div class="admin-panel"><h2>👤 Utenti</h2>
+    ${usersData.users.map((u,i)=>`<div class="user-row"><span style="font-weight:500">${esc(u.username)} <span style="font-size:.72rem;color:var(--text-dim)">(${u.role})</span></span>${u.username!==currentUser.username?`<button class="btn btn-danger" style="padding:3px 8px;font-size:.72rem" onclick="rmUser(${i})">Rimuovi</button>`:'<span style="font-size:.72rem;color:var(--text-dim)">tu</span>'}</div>`).join('')}
+    <div style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap"><input id="nU" placeholder="Username" style="flex:1;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--text);font-family:inherit;font-size:.83rem"/><input id="nUp" type="password" placeholder="Password" style="flex:1;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--text);font-family:inherit;font-size:.83rem"/><button class="btn btn-primary" onclick="addUser()">+ Utente</button></div>
+  </div>`
+}
+async function addUser(){
+  const u=$('nU').value.trim().toLowerCase(),p=$('nUp').value;if(!u||!p)return toast('Compila',true);if(p.length<6)return toast('Min 6 caratteri',true);
+  if(usersData.users.find(x=>x.username===u))return toast('Esiste già',true);
+  usersData.users.push({username:u,password_hash:await hashPw(p),role:'user',created:new Date().toISOString()});
+  try{const r=await ghPut(USERS_PATH,JSON.stringify(usersData,null,2),usersSha,`👤 +${u}`);usersSha=r.content.sha;renderAdmin();toast('✓ Utente aggiunto');$('nU').value='';$('nUp').value=''}catch(e){toast('Errore: '+e.message,true)}
+}
+async function rmUser(i){const u=usersData.users[i];if(!confirm(`Rimuovere ${u.username}?`))return;usersData.users.splice(i,1);try{const r=await ghPut(USERS_PATH,JSON.stringify(usersData,null,2),usersSha,`👤 -${u.username}`);usersSha=r.content.sha;renderAdmin();toast('Rimosso')}catch(e){toast('Errore: '+e.message,true)}}
 
 // Helpers
-function tag(text, onclick) { return `<span class="tag">${esc(text)}<button class="remove" onclick="${onclick}">✗</button></span>`; }
-function esc(s) { const d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
-function updateCount(id, n) { document.querySelector(`#sec-${id} .count`).textContent = n; }
-function toast(msg, err) { const t=document.getElementById('toast'); t.textContent=msg; t.className='toast show'+(err?' error':''); setTimeout(()=>t.className='toast',3000); }
+function $(id){return document.getElementById(id)}
+function tg(t,oc){return `<span class="tag">${esc(t)}<button class="remove" onclick="${oc}">✗</button></span>`}
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function uc(id,n){const el=document.querySelector(`#sec-${id} .count`);if(el)el.textContent=n}
+function toast(m,e){const t=$('toast');t.textContent=m;t.className='toast show'+(e?' error':'');setTimeout(()=>t.className='toast',3000)}
 </script>
 </body>
 </html>

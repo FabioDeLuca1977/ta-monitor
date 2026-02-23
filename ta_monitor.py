@@ -573,45 +573,141 @@ def generate_excel(conn):
 
 # === SUMMARY ===
 
-def write_summary(total, new, dupes, filtered, channels):
-    s = {"date": datetime.now().isoformat(), "total_raw": total, "filtered_irrelevant": filtered,
+def write_summary(output_dir, total, new, dupes, filtered, channels, profile_id="default"):
+    s = {"date": datetime.now().isoformat(), "profile": profile_id,
+         "total_raw": total, "filtered_irrelevant": filtered,
          "new_jobs": new, "duplicates_removed": dupes, "channels": channels}
-    with open(OUTPUT_DIR / "summary.json", "w") as f:
+    with open(output_dir / "summary.json", "w") as f:
         json.dump(s, f, indent=2)
     return s
 
+# === PROFILES ===
+
+def load_profiles():
+    """Carica profiles.json se presente."""
+    fpath = BASE_DIR / "profiles.json"
+    if fpath.exists():
+        with open(fpath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+def get_profile_filters(profile_id):
+    """Restituisce i filtri per un profilo specifico."""
+    profiles_data = load_profiles()
+    if not profiles_data or "profiles" not in profiles_data:
+        return None
+    return profiles_data["profiles"].get(profile_id)
+
+def setup_profile_dirs(profile_id):
+    """Crea e restituisce le directory per un profilo."""
+    if profile_id == "default" or profile_id == "hr-roma":
+        # Backward compat: profilo default usa le cartelle originali
+        out = OUTPUT_DIR
+        db_path = DATA_DIR / "ta_monitor.db"
+    else:
+        out = OUTPUT_DIR / profile_id
+        db_path = DATA_DIR / f"{profile_id}.db"
+    out.mkdir(parents=True, exist_ok=True)
+    return out, db_path
+
+def build_config_from_profile(profile):
+    """Costruisce un config dict dal profilo."""
+    f = profile.get("filters", {})
+    base_config = load_config()
+    base_config["search_terms"] = f.get("search_terms", base_config.get("search_terms", []))
+    base_config["location"] = profile.get("location", base_config.get("location", "Roma, Lazio, Italia"))
+    return base_config
+
+def build_filters_from_profile(profile):
+    """Costruisce i filtri (relevant, blacklist, broad, agencies) dal profilo."""
+    f = profile.get("filters", {})
+    return {
+        "relevant_patterns": f.get("relevant_patterns", []),
+        "broad_keywords": f.get("broad_keywords", []),
+        "blacklist": f.get("blacklist", []),
+        "agencies": f.get("agencies", []),
+    }
+
 # === MAIN ===
 
-def main():
-    parser = argparse.ArgumentParser(description="TA Monitor — HR/TA Roma")
-    parser.add_argument("--hours-old", type=int, default=168)
-    parser.add_argument("--search-terms", type=str, default="")
-    args = parser.parse_args()
-
+def run_profile(profile_id, profile, hours_old, search_terms_override=None):
+    """Esegue lo scan per un singolo profilo."""
+    profile_name = profile.get("name", profile_id)
     log.info("=" * 55)
-    log.info("TA MONITOR v2.1 — Avvio scansione")
-    log.info(f"  Finestra: ultime {args.hours_old}h")
+    log.info(f"TA MONITOR v4.0 — Profilo: {profile_name}")
+    log.info(f"  ID: {profile_id} | Finestra: {hours_old}h | Location: {profile.get('location', '?')}")
     log.info("=" * 55)
 
-    config = load_config()
-    if args.search_terms:
-        config["search_terms"] = [t.strip() for t in args.search_terms.split(",")]
+    # Setup dirs
+    out_dir, db_path = setup_profile_dirs(profile_id)
 
-    conn = init_db()
+    # Build config and filters
+    config = build_config_from_profile(profile)
+    if search_terms_override:
+        config["search_terms"] = [t.strip() for t in search_terms_override.split(",")]
 
-    # Pulizia una tantum: rimuovi job non rilevanti da run precedenti (v2.0)
-    try:
-        old_jobs = conn.execute("SELECT id, title, description FROM jobs").fetchall()
-        to_delete = [r[0] for r in old_jobs if not is_relevant_job(r[1], r[2] or "")]
-        if to_delete:
-            conn.executemany("DELETE FROM jobs WHERE id = ?", [(jid,) for jid in to_delete])
-            conn.commit()
-            log.info(f"  Pulizia DB: rimossi {len(to_delete)} job non rilevanti da run precedenti")
-    except Exception as e:
-        log.warning(f"  Pulizia DB skip: {e}")
+    # Override global filters with profile-specific ones
+    pf = build_filters_from_profile(profile)
 
+    # Compile profile-specific patterns
+    rel_patterns = [re.compile(p["pattern"] if isinstance(p, dict) else p, re.IGNORECASE) for p in pf.get("relevant_patterns", [])]
+    bl_patterns = [re.compile(p["pattern"] if isinstance(p, dict) else p, re.IGNORECASE) for p in pf.get("blacklist", [])]
+    broad_kw = pf.get("broad_keywords", [])
+    agencies = pf.get("agencies", [])
+
+    # Build agency patterns
+    agency_compiled = []
+    if agencies:
+        parts = [re.escape(a).replace(r"\ ", r"\s*") for a in agencies]
+        agency_re = "|".join(parts)
+        roles_re = r"(?:filiale|branch|responsabil|dirett|manager|account|hr\s+consultant|recruiter|specialist)"
+        agency_compiled = [
+            re.compile(f"(?:{agency_re}).*{roles_re}", re.IGNORECASE),
+            re.compile(f"{roles_re}.*(?:{agency_re})", re.IGNORECASE),
+        ]
+
+    def profile_is_relevant(title, description=""):
+        if not title:
+            return False
+        title_str = title.strip()
+        # Blacklist
+        for bp in bl_patterns:
+            if bp.search(title_str):
+                return False
+        # Relevant patterns
+        for rp in rel_patterns:
+            if rp.search(title_str):
+                return True
+        # Agency patterns
+        for ap in agency_compiled:
+            if ap.search(title_str):
+                return True
+        # Broad keywords fallback
+        combined = f"{title_str} {description}".lower()
+        return any(kw.lower() in combined for kw in broad_kw)
+
+    # DB
+    conn = sqlite3.connect(str(db_path))
+    conn.executescript("""
+        CREATE TABLE IF NOT EXISTS jobs (
+            id TEXT PRIMARY KEY, title TEXT NOT NULL, company TEXT,
+            location TEXT, channel TEXT, url TEXT, description TEXT,
+            salary_min REAL, salary_max REAL, job_type TEXT,
+            date_posted TEXT, date_scraped TEXT NOT NULL,
+            search_term TEXT, is_new INTEGER DEFAULT 1
+        );
+        CREATE TABLE IF NOT EXISTS runs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT, timestamp TEXT NOT NULL,
+            total_found INTEGER, new_found INTEGER, duplicates_removed INTEGER,
+            filtered_irrelevant INTEGER, status TEXT
+        );
+        CREATE INDEX IF NOT EXISTS idx_date ON jobs(date_scraped);
+    """)
+    conn.commit()
+
+    # Scrape
     log.info("▸ Fase 1: Scraping JobSpy")
-    jobspy_df = scrape_jobspy(config, args.hours_old)
+    jobspy_df = scrape_jobspy(config, hours_old)
 
     log.info("▸ Fase 2: Scraping agenzie")
     custom_jobs = scrape_custom(config)
@@ -627,15 +723,19 @@ def main():
 
     if all_df.empty:
         log.warning("Nessun risultato. Fine.")
-        write_summary(0, 0, 0, 0, [])
+        write_summary(out_dir, 0, 0, 0, 0, [], profile_id)
         conn.close()
         return
 
-    log.info("▸ Fase 4: Filtro rilevanza HR/TA")
-    relevant_df, filtered_count = filter_relevant(all_df)
+    log.info("▸ Fase 4: Filtro rilevanza")
+    mask = all_df.apply(lambda row: profile_is_relevant(row.get("title", ""), row.get("description", "")), axis=1)
+    relevant_df = all_df[mask].reset_index(drop=True)
+    filtered_count = len(all_df) - len(relevant_df)
+    log.info(f"  Filtro: {len(all_df)} → {len(relevant_df)} (scartati {filtered_count})")
+
     if relevant_df.empty:
-        log.warning("Nessuna posizione rilevante dopo il filtro.")
-        write_summary(total_raw, 0, 0, filtered_count, [])
+        log.warning("Nessuna posizione rilevante.")
+        write_summary(out_dir, total_raw, 0, 0, filtered_count, [], profile_id)
         conn.close()
         return
 
@@ -649,31 +749,121 @@ def main():
     save_to_db(conn, deduped)
 
     log.info("▸ Fase 8: Report")
-    generate_excel(conn)
+    # Save output to profile dir
+    _orig_output = globals().get("OUTPUT_DIR")
     today = datetime.now().strftime("%Y-%m-%d")
-    deduped.to_csv(OUTPUT_DIR / f"ta_jobs_{today}.csv", index=False, quoting=csv.QUOTE_NONNUMERIC)
-    deduped.to_json(OUTPUT_DIR / f"ta_jobs_{today}.json", orient="records", force_ascii=False, indent=2)
+    generate_excel_profile(conn, out_dir, profile_name, hours_old)
+    deduped.to_csv(out_dir / f"ta_jobs_{today}.csv", index=False, quoting=csv.QUOTE_NONNUMERIC)
+    deduped.to_json(out_dir / f"ta_jobs_{today}.json", orient="records", force_ascii=False, indent=2)
 
     channels = list(deduped["site"].unique()) if "site" in deduped.columns else []
-    write_summary(total_raw, len(new_df), len(relevant_df) - len(deduped), filtered_count, channels)
+    write_summary(out_dir, total_raw, len(new_df), len(relevant_df) - len(deduped), filtered_count, channels, profile_id)
 
-    # Ensure column exists (backward compat with v2.0 databases)
     try:
         conn.execute("ALTER TABLE runs ADD COLUMN filtered_irrelevant INTEGER")
     except sqlite3.OperationalError:
-        pass  # Column already exists
-
+        pass
     conn.execute(
-        "INSERT INTO runs (timestamp,total_found,new_found,duplicates_removed,filtered_irrelevant,status) "
-        "VALUES (?,?,?,?,?,?)",
-        (datetime.now().isoformat(), total_raw, len(new_df),
-         len(relevant_df) - len(deduped), filtered_count, "success"))
+        "INSERT INTO runs (timestamp,total_found,new_found,duplicates_removed,filtered_irrelevant,status) VALUES (?,?,?,?,?,?)",
+        (datetime.now().isoformat(), total_raw, len(new_df), len(relevant_df) - len(deduped), filtered_count, "success"))
     conn.commit()
     conn.close()
 
+    log.info(f"✓ [{profile_name}] Grezzo: {total_raw} | Scartati: {filtered_count} | Rilevanti: {len(deduped)} | Nuove: {len(new_df)}")
     log.info("=" * 55)
-    log.info(f"✓ Grezzo: {total_raw} | Scartati: {filtered_count} | Rilevanti: {len(deduped)} | Nuove: {len(new_df)}")
-    log.info("=" * 55)
+
+
+def generate_excel_profile(conn, out_dir, profile_name, hours_old):
+    """Genera Excel nella directory del profilo."""
+    from openpyxl import Workbook
+    from openpyxl.styles import Font, PatternFill, Alignment
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    path = out_dir / f"TA_Monitor_{today}.xlsx"
+    wb = Workbook()
+    hfont = Font(bold=True, color="FFFFFF", size=11)
+    hfill = PatternFill("solid", fgColor="4A00E0")
+
+    ws = wb.active
+    ws.title = "Posizioni"
+    headers = ["Titolo", "Azienda", "Canale", "Luogo", "Tipo", "Salary Min", "Salary Max", "URL", "Data"]
+    for c, h in enumerate(headers, 1):
+        cell = ws.cell(row=1, column=c, value=h)
+        cell.font, cell.fill = hfont, hfill
+        cell.alignment = Alignment(horizontal="center")
+
+    cutoff = (datetime.now() - timedelta(hours=hours_old)).isoformat()
+    rows = conn.execute(
+        "SELECT title, company, channel, location, job_type, salary_min, salary_max, url, date_posted "
+        "FROM jobs WHERE date_scraped > ? ORDER BY date_scraped DESC", (cutoff,)
+    ).fetchall()
+
+    for r, row in enumerate(rows, 2):
+        for c, val in enumerate(row, 1):
+            display = val if val and str(val) not in ("None", "nan", "NaT", "") else ""
+            cell = ws.cell(row=r, column=c, value=display)
+            if c == 8 and val:
+                cell.font = Font(color="0066CC", underline="single")
+
+    for c, w in enumerate([45, 30, 12, 25, 12, 12, 12, 55, 12], 1):
+        ws.column_dimensions[chr(64 + c)].width = w
+    if rows:
+        ws.auto_filter.ref = f"A1:I{len(rows) + 1}"
+    ws.freeze_panes = "A2"
+    wb.save(path)
+    log.info(f"  Excel: {path}")
+    return path
+
+
+def main():
+    parser = argparse.ArgumentParser(description="TA Monitor v4.0 — Multi-Profile")
+    parser.add_argument("--hours-old", type=int, default=168)
+    parser.add_argument("--search-terms", type=str, default="")
+    parser.add_argument("--profile", type=str, default="all",
+                        help="Profile ID to run, or 'all' for all auto_scan profiles")
+    args = parser.parse_args()
+
+    profiles_data = load_profiles()
+
+    if not profiles_data or "profiles" not in profiles_data:
+        # Fallback: run legacy mode with filters.json
+        log.info("Nessun profiles.json trovato, modalità legacy")
+        config = load_config()
+        if args.search_terms:
+            config["search_terms"] = [t.strip() for t in args.search_terms.split(",")]
+        # Wrap in a fake profile
+        legacy_profile = {
+            "name": "Legacy",
+            "location": config.get("location", "Roma, Lazio, Italia"),
+            "filters": _EXTERNAL_FILTERS or {},
+        }
+        run_profile("default", legacy_profile, args.hours_old, args.search_terms or None)
+        return
+
+    profiles = profiles_data["profiles"]
+
+    if args.profile == "all":
+        # Run all auto_scan profiles
+        active = {pid: p for pid, p in profiles.items() if p.get("auto_scan", False)}
+        if not active:
+            log.warning("Nessun profilo con auto_scan attivo")
+            return
+        log.info(f"Profili auto_scan: {', '.join(active.keys())}")
+        for pid, profile in active.items():
+            hours = profile.get("hours_old", args.hours_old)
+            try:
+                run_profile(pid, profile, hours)
+            except Exception as e:
+                log.error(f"Errore profilo {pid}: {e}")
+    else:
+        # Run specific profile
+        if args.profile not in profiles:
+            log.error(f"Profilo '{args.profile}' non trovato. Disponibili: {', '.join(profiles.keys())}")
+            sys.exit(1)
+        profile = profiles[args.profile]
+        hours = profile.get("hours_old", args.hours_old)
+        run_profile(args.profile, profile, hours, args.search_terms or None)
+
 
 if __name__ == "__main__":
     main()

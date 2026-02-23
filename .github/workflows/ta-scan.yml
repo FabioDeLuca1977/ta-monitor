@@ -2,17 +2,17 @@ name: TA Monitor - Daily Scan
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 07:00 CET / 08:00 CEST
+    - cron: '0 6 * * *'  # 07:00 CET
   workflow_dispatch:
     inputs:
+      profile:
+        description: 'Profilo da eseguire (ID o "all" per tutti auto_scan)'
+        required: false
+        default: 'all'
       hours_old:
-        description: 'Ore di anzianità massima annunci (default: 168)'
+        description: 'Ore di anzianità massima annunci'
         required: false
         default: '168'
-      search_terms:
-        description: 'Keywords personalizzate (comma-separated, vuoto = default)'
-        required: false
-        default: ''
 
 permissions:
   contents: write
@@ -37,18 +37,21 @@ jobs:
 
       - name: 🔍 Esegui scraping
         env:
+          PROFILE: ${{ github.event.inputs.profile || 'all' }}
           HOURS_OLD: ${{ github.event.inputs.hours_old || '168' }}
-          CUSTOM_TERMS: ${{ github.event.inputs.search_terms || '' }}
         run: |
           python ta_monitor.py \
-            --hours-old "$HOURS_OLD" \
-            ${CUSTOM_TERMS:+--search-terms "$CUSTOM_TERMS"}
+            --profile "$PROFILE" \
+            --hours-old "$HOURS_OLD"
 
       - name: 📊 Upload report
         uses: actions/upload-artifact@v4
         with:
           name: ta-report-${{ github.run_number }}
           path: |
+            output/**/*.xlsx
+            output/**/*.csv
+            output/**/*.json
             output/*.xlsx
             output/*.csv
             output/*.json
@@ -58,24 +61,25 @@ jobs:
         id: summary
         run: |
           BODY=$(python -c "
-          import json
-          try:
-              d = json.load(open('output/summary.json'))
-              print(f'Totale grezzo: {d.get(\"total_raw\", 0)}')
-              print(f'Scartati non pertinenti: {d.get(\"filtered_irrelevant\", 0)}')
-              print(f'Nuove posizioni: {d.get(\"new_jobs\", 0)}')
-              print(f'Duplicati rimossi: {d.get(\"duplicates_removed\", 0)}')
-          except: print('Dati non disponibili')
+          import json, glob, os
+          summaries = glob.glob('output/**/summary.json', recursive=True) + glob.glob('output/summary.json')
+          lines = []
+          for sp in set(summaries):
+              try:
+                  d = json.load(open(sp))
+                  name = d.get('profile', 'default')
+                  lines.append(f'[{name}] Grezzo: {d.get(\"total_raw\",0)} | Scartati: {d.get(\"filtered_irrelevant\",0)} | Nuove: {d.get(\"new_jobs\",0)} | Duplicati: {d.get(\"duplicates_removed\",0)}')
+              except: pass
+          print('\n'.join(lines) if lines else 'Nessun dato')
           ")
           echo "email_body<<EOF" >> $GITHUB_OUTPUT
-          echo "Ciao Fabio," >> $GITHUB_OUTPUT
+          echo "Ciao," >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
-          echo "Ecco il report giornaliero delle posizioni HR / Talent Acquisition su Roma." >> $GITHUB_OUTPUT
+          echo "Report giornaliero TA Monitor:" >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
           echo "$BODY" >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
-          echo "Il report Excel e' in allegato." >> $GITHUB_OUTPUT
-          echo "" >> $GITHUB_OUTPUT
+          echo "Report Excel in allegato." >> $GITHUB_OUTPUT
           echo "-- TA Monitor Bot" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
@@ -88,14 +92,8 @@ jobs:
             echo "Nessun nuovo risultato"
           else
             DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
-            NEW_COUNT=$(python -c "
-          import json
-          try:
-              d = json.load(open('output/summary.json'))
-              print(d.get('new_jobs', 0))
-          except: print('?')
-          ")
-            git commit -m "📋 TA Scan ${DATE} — ${NEW_COUNT} nuove posizioni"
+            PROFILE="${{ github.event.inputs.profile || 'all' }}"
+            git commit -m "📋 TA Scan ${DATE} — profilo: ${PROFILE}"
             git push
           fi
 
@@ -107,8 +105,8 @@ jobs:
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USER }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "📋 TA Monitor — Report posizioni HR Roma"
+          subject: "📋 TA Monitor — Report"
           to: ${{ secrets.EMAIL_RECIPIENTS }}
           from: "TA Monitor <${{ secrets.SMTP_USER }}>"
           body: ${{ steps.summary.outputs.email_body }}
-          attachments: output/*.xlsx
+          attachments: output/**/*.xlsx,output/*.xlsx
