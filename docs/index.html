@@ -118,20 +118,20 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:v
     <div class="error" id="loginError"></div>
     <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doLogin()">Accedi</button>
     <div style="margin-top:18px;border-top:1px solid var(--border);padding-top:14px">
-      <button class="btn btn-ghost" style="width:100%;font-size:.8rem" onclick="showSetup()">⚙️ Setup Iniziale</button>
+      <button class="btn btn-ghost" style="width:100%;font-size:.8rem" onclick="showSetup()">👤 Crea nuovo utente</button>
     </div>
   </div>
 </div>
 
 <div id="setupScreen" class="login-wrap" style="display:none">
   <div class="login-box" style="max-width:480px">
-    <h1>⚙️ Setup Iniziale</h1>
-    <p>Configura accesso admin e collega GitHub</p>
+    <h1>👤 Crea nuovo utente</h1>
+    <p>Inserisci il token GitHub e scegli username e password</p>
     <div class="field"><label>GitHub Token</label><input type="password" id="setupToken" placeholder="ghp_xxxxx"/></div>
     <div class="field"><label>Username Admin</label><input type="text" id="setupUser" placeholder="admin"/></div>
     <div class="field"><label>Password Admin</label><input type="password" id="setupPass" placeholder="min 6 caratteri"/></div>
     <div class="error" id="setupError"></div>
-    <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doSetup()">🚀 Configura</button>
+    <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doSetup()">✓ Crea utente</button>
     <button class="btn btn-ghost" style="width:100%;margin-top:8px" onclick="hideSetup()">← Torna</button>
   </div>
 </div>
