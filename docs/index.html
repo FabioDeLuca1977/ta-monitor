@@ -161,9 +161,16 @@ let token='',profilesData=null,profilesSha='',usersData=null,usersSha='',current
 async function hashPw(p){const e=new TextEncoder().encode(p);const b=await crypto.subtle.digest('SHA-256',e);return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('')}
 
 // GitHub API
-async function ghApi(p,o={}){const r=await fetch(`https://api.github.com/repos/${REPO}/${p}`,{...o,headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json',...o.headers}});if(!r.ok)throw new Error(`GitHub ${r.status}`);return r.json()}
+async function ghApi(p,o={}){
+  const url=p.startsWith('https://')?p:`https://api.github.com/repos/${REPO}/${p}`;
+  const r=await fetch(url,{...o,headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json',...(o.headers||{})}});
+  if(!r.ok)throw new Error(`GitHub ${r.status}`);return r.json()
+}
 async function ghGet(p){return ghApi(`contents/${p}`)}
-async function ghPut(p,c,s,m){return fetch(`https://api.github.com/repos/${REPO}/contents/${p}`,{method:'PUT',headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify({message:m,content:btoa(unescape(encodeURIComponent(c))),sha:s})}).then(r=>{if(!r.ok)throw new Error(`PUT ${r.status}`);return r.json()})}
+async function ghPut(p,c,s,m){
+  const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${p}`,{method:'PUT',headers:{Authorization:`token ${token}`,'Content-Type':'application/json',Accept:'application/vnd.github.v3+json'},body:JSON.stringify({message:m,content:btoa(unescape(encodeURIComponent(c))),sha:s})});
+  if(!r.ok){const t=await r.text();throw new Error(`PUT ${r.status}: ${t}`)}return r.json()
+}
 function ghDecode(d){return JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g,'')))))}
 
 // Auth — Setup via URL: ?setup=ghp_XXXXX
@@ -171,7 +178,9 @@ let setupToken = '';
 async function doSetup(){
   const u=$('setupUser').value.trim().toLowerCase(),p=$('setupPass').value,err=$('setupError');
   if(!u||!p){err.textContent='Compila tutti i campi';return}if(p.length<6){err.textContent='Password min 6 caratteri';return}err.textContent='';
-  try{token=setupToken;await ghApi('');
+  try{token=setupToken;
+    // Test token by reading repo contents
+    await ghApi(`https://api.github.com/repos/${REPO}`);
     // Load existing users or create new
     let existingUsers=[];let s='';
     try{const d=await ghGet(USERS_PATH);s=d.sha;const data=ghDecode(d);existingUsers=data.users||[]}catch(e){}
