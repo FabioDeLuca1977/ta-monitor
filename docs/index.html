@@ -282,31 +282,42 @@ async function showApp(){
 }
 async function loadProfiles(){
   try{const d=await ghGet(PROFILES_PATH);profilesSha=d.sha;profilesData=ghDecode(d);
-    const ids=Object.keys(profilesData.profiles);activeProfileId=activeProfileId||ids[0]||null;
+    const visible=myProfiles();activeProfileId=activeProfileId||( visible.length?visible[0][0]:null);
     renderProfileBar();if(activeProfileId)selectProfile(activeProfileId);toast('Caricato')
   }catch(e){toast('Errore: '+e.message,true)}
 }
 
-// Profile bar
-function renderProfileBar(){
+// Profile bar — show hr-roma (shared) + user's own profiles
+function myProfiles(){
   const ps=profilesData.profiles;
-  $('profileBar').innerHTML=Object.entries(ps).map(([id,p])=>`<button class="profile-tab${id===activeProfileId?' active':''}" onclick="selectProfile('${id}')"><span class="auto-dot${p.auto_scan?'':' off'}"></span>${esc(p.name)}</button>`).join('')+`<button class="profile-add" onclick="showNewProfileModal()">+ Nuovo profilo</button>`;
+  return Object.entries(ps).filter(([id,p])=>id==='hr-roma'||p.created_by===currentUser.username||currentUser.role==='admin');
+}
+function renderProfileBar(){
+  const visible=myProfiles();
+  $('profileBar').innerHTML=visible.map(([id,p])=>`<button class="profile-tab${id===activeProfileId?' active':''}" onclick="selectProfile('${id}')"><span class="auto-dot${p.auto_scan?'':' off'}"></span>${esc(p.name)}</button>`).join('')+`<button class="profile-add" onclick="showNewProfileModal()">+ Nuovo profilo</button>`;
 }
 
 function selectProfile(id){
   activeProfileId=id;renderProfileBar();
   const p=profilesData.profiles[id];renderProfileHeader(id,p);renderFilters(p);renderRunSection(id);
   if(currentUser.role==='admin')renderAdmin();
+  // Disable editing on shared profiles for non-owners
+  if(!isMyProfile(id)){
+    document.querySelectorAll('#content .btn-primary, #content .btn-danger, #content .add-row input, #content .add-row select, #content .remove').forEach(el=>{el.disabled=true;el.style.opacity='0.3';el.style.pointerEvents='none'});
+  }
 }
 
+function isMyProfile(id){const p=profilesData.profiles[id];return currentUser.role==='admin'||p.created_by===currentUser.username}
+
 function renderProfileHeader(id,p){
+  const mine=isMyProfile(id);
+  const shared=id==='hr-roma'&&!mine;
   $('profileHeader').innerHTML=`<div class="profile-header">
-    <div class="profile-meta"><span class="name">${esc(p.name)}</span><span class="loc">📍 ${esc(p.location)}</span></div>
+    <div class="profile-meta"><span class="name">${esc(p.name)}</span><span class="loc">📍 ${esc(p.location)}</span>${shared?'<span style="font-size:.72rem;background:var(--accent-glow);color:var(--accent);padding:2px 8px;border-radius:10px">condiviso</span>':''}</div>
     <div class="profile-actions">
-      <label class="toggle"><input type="checkbox" ${p.auto_scan?'checked':''} onchange="toggleAutoScan('${id}',this.checked)"/><span class="slider"></span></label>
-      <span class="toggle-label">Cron auto</span>
+      ${mine?`<label class="toggle"><input type="checkbox" ${p.auto_scan?'checked':''} onchange="toggleAutoScan('${id}',this.checked)"/><span class="slider"></span></label><span class="toggle-label">Cron auto</span>`:''}
       <button class="btn btn-ghost" style="font-size:.78rem" onclick="cloneProfile('${id}')">📋 Clona</button>
-      ${id!=='hr-roma'?`<button class="btn btn-danger" style="font-size:.78rem;padding:5px 10px" onclick="deleteProfile('${id}')">🗑</button>`:''}
+      ${mine&&id!=='hr-roma'?`<button class="btn btn-danger" style="font-size:.78rem;padding:5px 10px" onclick="deleteProfile('${id}')">🗑</button>`:''}
     </div>
   </div>`;
 }
