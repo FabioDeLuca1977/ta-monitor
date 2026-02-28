@@ -226,18 +226,21 @@ function onProfileChange(){loadData()}
 async function loadData(){
   const pid=$('profileSelect').value;if(!pid)return;
   $('kpiSection').innerHTML='<div class="loading"><div class="spinner"></div>Caricamento dati...</div>';
-  $('chartSection').innerHTML='';$('insightSection').innerHTML='';
+  $('chartSection').innerHTML='';$('mlSection').innerHTML='';$('insightSection').innerHTML='';
   try{
     // Load all available job files — try profile subdir first, then root output
     let jobsDir='output';let files=[];
     try{
       files=await ghApi(`contents/output/${pid}`);
       jobsDir=`output/${pid}`;
+      console.log('Found profile dir:',jobsDir,'files:',files.length);
     }catch(e){
+      console.log('Profile dir not found, trying root output');
       // Fallback to root output
-      try{files=await ghApi('contents/output')}catch(e2){throw new Error('Cartella output non trovata')}
+      try{files=await ghApi('contents/output');console.log('Root output files:',files.length)}catch(e2){throw new Error('Cartella output non trovata')}
     }
     const jsonFiles=(Array.isArray(files)?files:[]).filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json')).sort((a,b)=>a.name.localeCompare(b.name));
+    console.log('JSON files found:',jsonFiles.length,jsonFiles.map(f=>f.name));
 
     allJobs=[];
     // Load last N files (max 10 for performance)
