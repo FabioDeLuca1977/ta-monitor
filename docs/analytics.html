@@ -229,18 +229,23 @@ async function loadData(){
   $('chartSection').innerHTML='';$('mlSection').innerHTML='';$('insightSection').innerHTML='';
   try{
     // Load all available job files — try profile subdir first, then root output
-    let jobsDir='output';let files=[];
+    let jobsDir='output';let files=[];let jsonFiles=[];
     try{
       files=await ghApi(`contents/output/${pid}`);
       jobsDir=`output/${pid}`;
-      console.log('Found profile dir:',jobsDir,'files:',files.length);
-    }catch(e){
-      console.log('Profile dir not found, trying root output');
-      // Fallback to root output
-      try{files=await ghApi('contents/output');console.log('Root output files:',files.length)}catch(e2){throw new Error('Cartella output non trovata')}
+      jsonFiles=(Array.isArray(files)?files:[]).filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json'));
+      console.log('Profile dir:',jobsDir,'ta_jobs files:',jsonFiles.length);
+    }catch(e){}
+    // If no ta_jobs in profile dir, try root output
+    if(!jsonFiles.length){
+      try{
+        files=await ghApi('contents/output');
+        jobsDir='output';
+        jsonFiles=(Array.isArray(files)?files:[]).filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json'));
+        console.log('Root output, ta_jobs files:',jsonFiles.length);
+      }catch(e2){throw new Error('Cartella output non trovata')}
     }
-    const jsonFiles=(Array.isArray(files)?files:[]).filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json')).sort((a,b)=>a.name.localeCompare(b.name));
-    console.log('JSON files found:',jsonFiles.length,jsonFiles.map(f=>f.name));
+    jsonFiles.sort((a,b)=>a.name.localeCompare(b.name));
 
     allJobs=[];
     // Load last N files (max 10 for performance)
@@ -520,11 +525,11 @@ function renderInsights(jobs){
 async function loadMLInsights(pid,jobsDir){
   $('mlSection').innerHTML='';
   let ml=null;
-  try{
-    const d=await ghGet(`${jobsDir}/ml_insights.json`);
-    ml=ghDecode(d)
-  }catch(e){
-    try{const d=await ghGet('output/ml_insights.json');ml=ghDecode(d)}catch(e2){}
+  // Try profile subdir, then root, then jobsDir
+  const paths=[`output/${pid}/ml_insights.json`,'output/ml_insights.json'];
+  if(jobsDir&&jobsDir!==`output/${pid}`&&jobsDir!=='output')paths.push(`${jobsDir}/ml_insights.json`);
+  for(const p of paths){
+    try{const d=await ghGet(p);ml=ghDecode(d);break}catch(e){}
   }
   if(!ml){
     $('mlSection').innerHTML='<div class="ml-panel full" style="text-align:center;padding:20px"><p style="color:var(--text-dim)">🧠 ML Insights non ancora disponibili. Verranno generati al prossimo scan.</p></div>';
