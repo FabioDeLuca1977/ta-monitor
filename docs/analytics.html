@@ -5,7 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TA Monitor — Analytics</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script>
+// Load Chart.js with fallbacks
+(function(){
+  const urls=[
+    'https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.7/chart.umd.min.js',
+    'https://unpkg.com/chart.js@4.4.7/dist/chart.umd.min.js'
+  ];
+  let i=0;
+  function tryLoad(){
+    if(i>=urls.length){document.getElementById('kpiSection').innerHTML='<div style="color:#e74c3c;text-align:center;padding:40px">Impossibile caricare Chart.js. Prova a disabilitare ad-blocker o estensioni.</div>';return}
+    const s=document.createElement('script');s.src=urls[i];
+    s.onload=function(){console.log('Chart.js loaded from:',urls[i])};
+    s.onerror=function(){console.warn('Failed:',urls[i]);i++;tryLoad()};
+    document.head.appendChild(s)
+  }
+  tryLoad()
+})();
+</script>
 <style>
 :root{--bg:#0a0a0f;--surface:#13131a;--surface2:#1a1a24;--border:#2a2a3a;--border-focus:#6c5ce7;--text:#e8e8f0;--text-dim:#8888a0;--accent:#6c5ce7;--accent-hover:#7d6ff0;--accent-glow:rgba(108,92,231,.15);--danger:#e74c3c;--success:#27ae60;--success-glow:rgba(39,174,96,.15);--warn:#f39c12;--radius:10px;--radius-sm:6px}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -170,10 +188,16 @@ async function loadData(){
   $('kpiSection').innerHTML='<div class="loading"><div class="spinner"></div>Caricamento dati...</div>';
   $('chartSection').innerHTML='';$('insightSection').innerHTML='';
   try{
-    // Load all available job files
-    let jobsDir=`output/${pid}`;let files=[];
-    try{files=await ghApi(`contents/${jobsDir}`)}catch(e){jobsDir='output';files=await ghApi(`contents/${jobsDir}`)}
-    const jsonFiles=files.filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json')).sort((a,b)=>a.name.localeCompare(b.name));
+    // Load all available job files — try profile subdir first, then root output
+    let jobsDir='output';let files=[];
+    try{
+      files=await ghApi(`contents/output/${pid}`);
+      jobsDir=`output/${pid}`;
+    }catch(e){
+      // Fallback to root output
+      try{files=await ghApi('contents/output')}catch(e2){throw new Error('Cartella output non trovata')}
+    }
+    const jsonFiles=(Array.isArray(files)?files:[]).filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json')).sort((a,b)=>a.name.localeCompare(b.name));
 
     allJobs=[];
     // Load last N files (max 10 for performance)
@@ -239,7 +263,18 @@ function renderKPIs(jobs,summary){
 }
 
 // === CHARTS ===
+let chartRetries=0;
 function renderCharts(jobs){
+  if(typeof Chart==='undefined'){
+    chartRetries++;
+    if(chartRetries>10){
+      $('chartSection').innerHTML='<div class="chart-panel full" style="text-align:center;padding:40px"><p style="color:var(--warn)">⚠ Impossibile caricare i grafici (Chart.js bloccato)</p><p style="font-size:.8rem;color:var(--text-dim);margin-top:8px">Prova a disabilitare l\'ad-blocker o apri in finestra privata</p></div>';
+      return;
+    }
+    setTimeout(()=>renderCharts(jobs),500);
+    return;
+  }
+  chartRetries=0;
   const unique=dedup(jobs);
 
   $('chartSection').innerHTML=`
