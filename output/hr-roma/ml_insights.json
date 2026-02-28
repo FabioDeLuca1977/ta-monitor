@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-02-28T22:33:15.558966",
+  "generated_at": "2026-02-28T22:44:49.526711",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 157,
+  "total_jobs_analyzed": 156,
   "scoring": {
     "average": 21.6,
     "distribution": {
@@ -10,13 +10,13 @@
       "good": 5,
       "medium": 25,
       "low": 30,
-      "irrelevant": 97
+      "irrelevant": 96
     },
     "top_jobs": [
       {
         "title": "HR Stage - Talent Acquisition",
         "company": "Multiversity Group",
-        "score": 66,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1771977600000,
         "url": "https://www.linkedin.com/jobs/view/4374896779"
@@ -24,7 +24,7 @@
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1771891200000,
         "url": "https://www.linkedin.com/jobs/view/4376408804"
@@ -40,7 +40,7 @@
       {
         "title": "HR Generalist Apprentice",
         "company": "Arsenale Group",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1772064000000,
         "url": "https://www.linkedin.com/jobs/view/4378347176"
@@ -48,7 +48,7 @@
       {
         "title": "People Engagement, Talent Acquisition & Project HR",
         "company": "B1P Group",
-        "score": 62,
+        "score": 61,
         "site": "indeed",
         "date_posted": 1772150400000,
         "url": "https://it.indeed.com/viewjob?jk=33541dcf08b547a8"
@@ -64,7 +64,7 @@
       {
         "title": "Talent Acquisition Manager",
         "company": "Jobbit",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1771545600000,
         "url": "https://www.linkedin.com/jobs/view/4375613154"
@@ -72,7 +72,7 @@
       {
         "title": "Human Resources Business Partner",
         "company": "TIM",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1772150400000,
         "url": "https://www.linkedin.com/jobs/view/4369142800"
@@ -118,6 +118,22 @@
         "url": "https://www.linkedin.com/jobs/view/4324290308"
       },
       {
+        "title": "Recruitment Day 10 Marzo 2026 - Junior Customer Expansion Specialist",
+        "company": "MioDottore",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1772150400000,
+        "url": "https://www.linkedin.com/jobs/view/4377901898"
+      },
+      {
+        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
+        "company": "Gi Group Holding",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1771977600000,
+        "url": "https://www.linkedin.com/jobs/view/4375219457"
+      },
+      {
         "title": "Responsabile Risorse Umane – Prodotti per la Cura del Riposo",
         "company": "EmmeBi Group",
         "score": 52,
@@ -126,28 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4374008813"
       },
       {
-        "title": "Recruitment Day 10 Marzo 2026 - Junior Customer Expansion Specialist",
-        "company": "MioDottore",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1772150400000,
-        "url": "https://www.linkedin.com/jobs/view/4377901898"
-      },
-      {
-        "title": "ADDETTO/A RICERCA E SELEZIONE DEL PERSONALE",
-        "company": "FONDAZIONE LAVORO",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1771286400000,
-        "url": "https://www.linkedin.com/jobs/view/4372870383"
-      },
-      {
         "title": "Relocate to Malta and join an International Team - Recruitment Consulting",
         "company": "Archer - The IT Recruitment Consultancy (Malta)",
         "score": 51,
         "site": "linkedin",
         "date_posted": 1772150400000,
         "url": "https://www.linkedin.com/jobs/view/4377132890"
+      },
+      {
+        "title": "ADDETTO/A RICERCA E SELEZIONE DEL PERSONALE",
+        "company": "FONDAZIONE LAVORO",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1771286400000,
+        "url": "https://www.linkedin.com/jobs/view/4372870383"
       },
       {
         "title": "Responsabile Risorse Umane – Commerciale e Distribuzione",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1771891200000,
         "url": "https://www.linkedin.com/jobs/view/4374811915"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "NTWK",
-        "score": 47,
-        "site": "indeed",
-        "date_posted": 1771459200000,
-        "url": "https://it.indeed.com/viewjob?jk=a202633e80897c25"
       }
     ]
   },
@@ -216,20 +216,9 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in forte crescita: 124 annunci questa settimana vs media 10 (+1100%)",
-      "z_score": 9.62,
-      "data": {
-        "current": 124,
-        "avg": 10.3,
-        "change_pct": 1100.0
-      }
-    },
-    {
       "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 NETwk è apparsa questa settimana con 11 posizioni (mai vista prima)",
+      "message": "🆕 NETwk: 11 posizioni, non presente negli scan precedenti",
       "data": {
         "company": "NETwk",
         "count": 11
@@ -238,7 +227,7 @@
     {
       "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 Zuma è apparsa questa settimana con 4 posizioni (mai vista prima)",
+      "message": "🆕 Zuma: 4 posizioni, non presente negli scan precedenti",
       "data": {
         "company": "Zuma",
         "count": 4
@@ -247,7 +236,16 @@
     {
       "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 Leonardo è apparsa questa settimana con 3 posizioni (mai vista prima)",
+      "message": "🆕 SecretKey: 3 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "SecretKey",
+        "count": 3
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Leonardo: 3 posizioni, non presente negli scan precedenti",
       "data": {
         "company": "Leonardo",
         "count": 3
@@ -256,30 +254,40 @@
     {
       "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 SecretKey è apparsa questa settimana con 3 posizioni (mai vista prima)",
+      "message": "🆕 Fendi: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "company": "SecretKey",
-        "count": 3
+        "company": "Fendi",
+        "count": 2
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 107/127 annunci da aziende nuove (84.3%)",
+      "data": {
+        "new": 107,
+        "total": 127,
+        "pct": 84.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 45% a 90% (+44pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 45.2,
-        "new_pct": 89.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 55% a 10% (-44pp)",
+      "message": "📡 linkedin: quota passata da 62% a 10% (-52pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 54.8,
-        "new_pct": 10.5
+        "old_pct": 62.1,
+        "new_pct": 10.2
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 38% a 90% (+52pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 37.9,
+        "new_pct": 89.8
       }
     },
     {
@@ -290,53 +298,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 86,
-            "top_terms": [
-              "specialist",
-              "hr",
-              "talent"
-            ],
-            "pct": 55.5
-          },
-          {
-            "id": 4,
-            "size": 27,
+            "size": 99,
             "top_terms": [
               "roma",
-              "addetto",
-              "vendite"
+              "specialist",
+              "hr"
             ],
-            "pct": 17.4
+            "pct": 63.5
           },
           {
             "id": 3,
-            "size": 20,
+            "size": 19,
             "top_terms": [
               "manager",
               "hr",
               "project"
             ],
-            "pct": 12.9
-          },
-          {
-            "id": 2,
-            "size": 12,
-            "top_terms": [
-              "umane",
-              "risorse",
-              "impiegato"
-            ],
-            "pct": 7.7
+            "pct": 12.2
           },
           {
             "id": 1,
+            "size": 14,
+            "top_terms": [
+              "addetto",
+              "vendite",
+              "office"
+            ],
+            "pct": 9.0
+          },
+          {
+            "id": 2,
+            "size": 14,
+            "top_terms": [
+              "impiegato",
+              "ufficio",
+              "umane"
+            ],
+            "pct": 9.0
+          },
+          {
+            "id": 4,
             "size": 10,
             "top_terms": [
-              "representative",
-              "assistant",
-              "sales"
+              "talent",
+              "acquisition",
+              "specialist"
             ],
-            "pct": 6.5
+            "pct": 6.4
           }
         ]
       }
