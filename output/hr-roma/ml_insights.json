@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-02-28T21:58:41.085851",
+  "generated_at": "2026-02-28T22:07:17.743264",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 160,
+  "total_jobs_analyzed": 158,
   "scoring": {
-    "average": 21.7,
+    "average": 21.9,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 25,
-      "low": 31,
-      "irrelevant": 98
+      "good": 5,
+      "medium": 26,
+      "low": 30,
+      "irrelevant": 97
     },
     "top_jobs": [
       {
@@ -56,7 +56,7 @@
       {
         "title": "Talent Acquisition & Employer Branding Specialist",
         "company": "Angelini Pharma",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1771545600000,
         "url": "https://www.linkedin.com/jobs/view/4375809486"
@@ -78,28 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4369142800"
       },
       {
-        "title": "Stagista ambito Tech Head Hunting / Selezione del Personale (Roma Eur -Rif.1124)",
-        "company": "EgoValeo | Tech Head Hunting",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1772064000000,
-        "url": "https://www.linkedin.com/jobs/view/4375547964"
-      },
-      {
-        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
-        "company": "Gi Group Holding",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1771977600000,
-        "url": "https://www.linkedin.com/jobs/view/4375219457"
-      },
-      {
         "title": "HR Manager",
         "company": "Rome Business School",
-        "score": 54,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1771891200000,
         "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
+      },
+      {
+        "title": "Stagista ambito Tech Head Hunting / Selezione del Personale (Roma Eur -Rif.1124)",
+        "company": "EgoValeo | Tech Head Hunting",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4375547964"
       },
       {
         "title": "HR Manager (IT - Remote)",
@@ -140,6 +132,14 @@
         "site": "linkedin",
         "date_posted": 1772150400000,
         "url": "https://www.linkedin.com/jobs/view/4377901898"
+      },
+      {
+        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
+        "company": "Gi Group Holding",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1771977600000,
+        "url": "https://www.linkedin.com/jobs/view/4375219457"
       },
       {
         "title": "ADDETTO/A RICERCA E SELEZIONE DEL PERSONALE",
@@ -185,8 +185,8 @@
       },
       {
         "word": "manager",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -218,12 +218,12 @@
     {
       "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in forte crescita: 125 annunci questa settimana vs media 11 (+1036%)",
-      "z_score": 9.43,
+      "message": "Volume in forte crescita: 125 annunci questa settimana vs media 10 (+1110%)",
+      "z_score": 9.71,
       "data": {
         "current": 125,
-        "avg": 11.0,
-        "change_pct": 1036.4
+        "avg": 10.3,
+        "change_pct": 1109.7
       }
     },
     {
@@ -265,21 +265,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 48% a 89% (+40pp)",
+      "message": "📡 linkedin: quota passata da 55% a 11% (-44pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 48.5,
-        "new_pct": 88.8
+        "channel": "linkedin",
+        "old_pct": 54.8,
+        "new_pct": 11.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 52% a 11% (-40pp)",
+      "message": "📡 indeed: quota passata da 45% a 89% (+44pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 51.5,
-        "new_pct": 11.2
+        "channel": "indeed",
+        "old_pct": 45.2,
+        "new_pct": 88.8
       }
     },
     {
@@ -289,54 +289,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 94,
+            "id": 1,
+            "size": 95,
             "top_terms": [
               "specialist",
               "hr",
-              "operatore"
+              "talent"
             ],
-            "pct": 59.5
+            "pct": 60.9
           },
           {
             "id": 0,
-            "size": 21,
+            "size": 20,
             "top_terms": [
               "manager",
               "hr",
               "project"
             ],
-            "pct": 13.3
+            "pct": 12.8
           },
           {
-            "id": 2,
-            "size": 19,
-            "top_terms": [
-              "addetto",
-              "umane",
-              "risorse"
-            ],
-            "pct": 12.0
-          },
-          {
-            "id": 1,
-            "size": 15,
+            "id": 3,
+            "size": 17,
             "top_terms": [
               "roma",
               "sales",
               "assistant"
             ],
-            "pct": 9.5
+            "pct": 10.9
           },
           {
-            "id": 3,
-            "size": 9,
+            "id": 2,
+            "size": 14,
             "top_terms": [
-              "talent",
-              "acquisition",
-              "hr"
+              "addetto",
+              "vendite",
+              "office"
             ],
-            "pct": 5.7
+            "pct": 9.0
+          },
+          {
+            "id": 4,
+            "size": 10,
+            "top_terms": [
+              "umane",
+              "risorse",
+              "impiegato"
+            ],
+            "pct": 6.4
           }
         ]
       }
