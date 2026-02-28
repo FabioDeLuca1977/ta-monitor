@@ -117,15 +117,34 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:v
     <div class="field"><label>Password</label><input type="password" id="loginPass" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()"/></div>
     <div class="error" id="loginError"></div>
     <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doLogin()">Accedi</button>
+    <div style="margin-top:18px;border-top:1px solid var(--border);padding-top:14px">
+      <p style="font-size:.78rem;color:var(--text-dim);margin-bottom:8px">Non hai un account?</p>
+      <button class="btn btn-ghost" style="width:100%;font-size:.8rem" onclick="showRegister()">Registrati</button>
+    </div>
   </div>
 </div>
 
-<!-- Setup admin: accessibile SOLO via URL ?setup=GITHUB_TOKEN -->
+<div id="registerScreen" class="login-wrap" style="display:none">
+  <div class="login-box" style="max-width:480px">
+    <h1>📝 Registrati</h1>
+    <p>Inserisci il codice di accesso e crea il tuo account</p>
+    <div class="field"><label>Codice di accesso</label><input type="text" id="regCode" placeholder="Inserisci il codice"/></div>
+    <div class="field"><label>Username</label><input type="text" id="regUser" placeholder="es. mario"/></div>
+    <div class="field"><label>Email</label><input type="email" id="regEmail" placeholder="email per ricevere i report"/></div>
+    <div class="field"><label>Password</label><input type="password" id="regPass" placeholder="min 6 caratteri" onkeydown="if(event.key==='Enter')doRegister()"/></div>
+    <div class="error" id="regError"></div>
+    <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doRegister()">✓ Crea account</button>
+    <button class="btn btn-ghost" style="width:100%;margin-top:8px" onclick="showLogin()">← Torna al login</button>
+  </div>
+</div>
+
+<!-- Setup admin nascosto: accessibile SOLO via URL ?setup=GITHUB_TOKEN -->
 <div id="setupScreen" class="login-wrap" style="display:none">
   <div class="login-box" style="max-width:480px">
     <h1>🔐 Setup Admin</h1>
-    <p>Token rilevato dall'URL. Scegli username e password admin.</p>
+    <p>Token rilevato. Crea il tuo account admin.</p>
     <div class="field"><label>Username</label><input type="text" id="setupUser" placeholder="es. fabio"/></div>
+    <div class="field"><label>Email</label><input type="email" id="setupEmail" placeholder="la tua email"/></div>
     <div class="field"><label>Password</label><input type="password" id="setupPass" placeholder="min 6 caratteri"/></div>
     <div class="error" id="setupError"></div>
     <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doSetup()">✓ Crea admin</button>
@@ -173,29 +192,57 @@ async function ghPut(p,c,s,m){
 }
 function ghDecode(d){return JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g,'')))))}
 
-// Auth — Setup via URL: ?setup=ghp_XXXXX
+// Auth
+const ACCESS_CODE = 'JobSpy';
 let setupToken = '';
+
+function showRegister(){$('loginScreen').style.display='none';$('registerScreen').style.display='flex'}
+function showLogin(){$('registerScreen').style.display='none';$('loginScreen').style.display='flex'}
+
+// Setup admin via URL ?setup=ghp_XXXXX
 async function doSetup(){
-  const u=$('setupUser').value.trim().toLowerCase(),p=$('setupPass').value,err=$('setupError');
-  if(!u||!p){err.textContent='Compila tutti i campi';return}if(p.length<6){err.textContent='Password min 6 caratteri';return}err.textContent='';
+  const u=$('setupUser').value.trim().toLowerCase(),e=$('setupEmail').value.trim(),p=$('setupPass').value,err=$('setupError');
+  if(!u||!p||!e){err.textContent='Compila tutti i campi';return}if(p.length<6){err.textContent='Password min 6 caratteri';return}err.textContent='';
   try{token=setupToken;
-    // Test token by reading repo contents
     await ghApi(`https://api.github.com/repos/${REPO}`);
-    // Load existing users or create new
     let existingUsers=[];let s='';
     try{const d=await ghGet(USERS_PATH);s=d.sha;const data=ghDecode(d);existingUsers=data.users||[]}catch(e){}
-    const h=await hashPw(p);
-    // Check if username already exists
     if(existingUsers.find(x=>x.username===u)){err.textContent='Username già esistente';return}
-    existingUsers.push({username:u,password_hash:h,role:'admin',created:new Date().toISOString()});
+    const h=await hashPw(p);
+    existingUsers.push({username:u,email:e,password_hash:h,role:'admin',created:new Date().toISOString()});
     const users={users:existingUsers};
     const r=await ghPut(USERS_PATH,JSON.stringify(users,null,2),s,'🔐 Setup admin: '+u);usersSha=r.content.sha;usersData=users;
     localStorage.setItem('ta_token_enc',btoa(setupToken));localStorage.setItem('ta_user',u);
-    // Clean URL
     window.history.replaceState({},'',window.location.pathname);
-    currentUser={username:u,role:'admin'};showApp();toast('✓ Admin creato! Benvenuto '+u)
+    currentUser={username:u,email:e,role:'admin'};showApp();toast('✓ Admin creato! Benvenuto '+u)
   }catch(e){err.textContent='Errore: '+e.message}
 }
+
+// Registrazione con codice accesso
+async function doRegister(){
+  const code=$('regCode').value.trim(),u=$('regUser').value.trim().toLowerCase(),e=$('regEmail').value.trim(),p=$('regPass').value,err=$('regError');
+  if(!code||!u||!e||!p){err.textContent='Compila tutti i campi';return}
+  if(code!==ACCESS_CODE){err.textContent='Codice di accesso errato';return}
+  if(p.length<6){err.textContent='Password min 6 caratteri';return}
+  if(!e.includes('@')){err.textContent='Email non valida';return}
+  err.textContent='';
+  const enc=localStorage.getItem('ta_token_enc');
+  if(!enc){err.textContent='Configurazione mancante. Chiedi all\'admin il link di setup.';return}
+  try{token=atob(enc);
+    let existingUsers=[];let s='';
+    try{const d=await ghGet(USERS_PATH);s=d.sha;const data=ghDecode(d);existingUsers=data.users||[]}catch(ex){}
+    if(existingUsers.find(x=>x.username===u)){err.textContent='Username già esistente';return}
+    if(existingUsers.find(x=>x.email===e)){err.textContent='Email già registrata';return}
+    const h=await hashPw(p);
+    existingUsers.push({username:u,email:e,password_hash:h,role:'user',created:new Date().toISOString()});
+    const users={users:existingUsers};
+    const r=await ghPut(USERS_PATH,JSON.stringify(users,null,2),s,'👤 Nuovo utente: '+u);usersSha=r.content.sha;usersData=users;
+    localStorage.setItem('ta_user',u);
+    currentUser={username:u,email:e,role:'user'};showApp();toast('✓ Account creato! Benvenuto '+u)
+  }catch(ex){err.textContent='Errore: '+ex.message}
+}
+
+// Login
 async function doLogin(){
   const u=$('loginUser').value.trim().toLowerCase(),p=$('loginPass').value,err=$('loginError');
   if(!u||!p){err.textContent='Inserisci username e password';return}err.textContent='';
@@ -207,14 +254,15 @@ async function doLogin(){
     currentUser=f;localStorage.setItem('ta_user',u);showApp();toast('Benvenuto, '+u+'!')
   }catch(e){err.textContent='Errore di connessione: '+e.message}
 }
-function doLogout(){currentUser=null;localStorage.removeItem('ta_user');$('appScreen').style.display='none';$('setupScreen').style.display='none';$('loginScreen').style.display='flex';$('loginUser').value='';$('loginPass').value=''}
+
+function doLogout(){currentUser=null;localStorage.removeItem('ta_user');$('appScreen').style.display='none';$('setupScreen').style.display='none';$('registerScreen').style.display='none';$('loginScreen').style.display='flex';$('loginUser').value='';$('loginPass').value=''}
+
 window.addEventListener('DOMContentLoaded',async()=>{
   // Check for setup token in URL: ?setup=ghp_XXXXX
   const params=new URLSearchParams(window.location.search);
   const st=params.get('setup');
   if(st&&st.startsWith('ghp_')){
     setupToken=st;
-    // Save token in browser for future logins
     localStorage.setItem('ta_token_enc',btoa(st));
     $('loginScreen').style.display='none';$('setupScreen').style.display='flex';
     return;
@@ -407,25 +455,19 @@ function setRunStatus(s,t){$('runStatusBadge').innerHTML=`<span class="run-statu
 // Admin
 function renderAdmin(){
   if(!usersData)return;
-  const setupLink=`${window.location.origin}${window.location.pathname}?setup=${btoa('TOKEN')}`;
-  $('adminSection').innerHTML=`<div class="admin-panel"><h2>👤 Utenti</h2>
-    ${usersData.users.map((u,i)=>`<div class="user-row"><span style="font-weight:500">${esc(u.username)} <span style="font-size:.72rem;color:var(--text-dim)">(${u.role})</span></span>${u.username!==currentUser.username?`<button class="btn btn-danger" style="padding:3px 8px;font-size:.72rem" onclick="rmUser(${i})">Rimuovi</button>`:'<span style="font-size:.72rem;color:var(--text-dim)">tu</span>'}</div>`).join('')}
-    <div style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap"><input id="nU" placeholder="Username" style="flex:1;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--text);font-family:inherit;font-size:.83rem"/><input id="nUp" type="password" placeholder="Password (min 6)" style="flex:1;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--text);font-family:inherit;font-size:.83rem"/><button class="btn btn-primary" onclick="addUser()">+ Aggiungi utente</button></div>
+  $('adminSection').innerHTML=`<div class="admin-panel"><h2>👤 Utenti registrati</h2>
+    ${usersData.users.map((u,i)=>`<div class="user-row">
+      <div><span style="font-weight:500">${esc(u.username)}</span> <span style="font-size:.72rem;color:var(--text-dim)">(${u.role})</span>${u.email?` <span style="font-size:.72rem;color:var(--accent)">📧 ${esc(u.email)}</span>`:''}</div>
+      ${u.username!==currentUser.username?`<button class="btn btn-danger" style="padding:3px 8px;font-size:.72rem" onclick="rmUser(${i})">Rimuovi</button>`:'<span style="font-size:.72rem;color:var(--text-dim)">tu</span>'}
+    </div>`).join('')}
     <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
-      <p style="font-size:.78rem;color:var(--text-dim);margin-bottom:8px">Per far accedere un utente da un altro browser/dispositivo, inviagli questo link:</p>
-      <div style="display:flex;gap:6px"><input id="setupLinkDisplay" readonly style="flex:1;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--accent);font-family:'JetBrains Mono',monospace;font-size:.75rem" value=""/><button class="btn btn-ghost" onclick="copySetupLink()">📋 Copia</button></div>
-      <p style="font-size:.72rem;color:var(--danger);margin-top:4px">⚠ Il link contiene il token GitHub. Condividilo solo con persone fidate.</p>
+      <p style="font-size:.78rem;color:var(--text-dim)">Per invitare qualcuno, condividi il codice di accesso <strong style="color:var(--accent)">JobSpy</strong> e il link della dashboard. Si registreranno da soli.</p>
+      <p style="font-size:.78rem;color:var(--text-dim);margin-top:6px">⚠ Se accedono da un altro dispositivo, dovranno prima aprire il link di setup per collegare il browser:</p>
+      <div style="display:flex;gap:6px;margin-top:6px"><input id="setupLinkDisplay" readonly style="flex:1;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--accent);font-family:'JetBrains Mono',monospace;font-size:.72rem" value=""/><button class="btn btn-ghost" onclick="copySetupLink()">📋 Copia</button></div>
     </div>
   </div>`;
-  // Build setup link with actual token
   const enc=localStorage.getItem('ta_token_enc');
   if(enc){$('setupLinkDisplay').value=`${window.location.origin}${window.location.pathname}?setup=${atob(enc)}`}
-}
-async function addUser(){
-  const u=$('nU').value.trim().toLowerCase(),p=$('nUp').value;if(!u||!p)return toast('Compila',true);if(p.length<6)return toast('Min 6 caratteri',true);
-  if(usersData.users.find(x=>x.username===u))return toast('Esiste già',true);
-  usersData.users.push({username:u,password_hash:await hashPw(p),role:'user',created:new Date().toISOString()});
-  try{const r=await ghPut(USERS_PATH,JSON.stringify(usersData,null,2),usersSha,`👤 +${u}`);usersSha=r.content.sha;renderAdmin();toast('✓ Utente aggiunto');$('nU').value='';$('nUp').value=''}catch(e){toast('Errore: '+e.message,true)}
 }
 async function rmUser(i){const u=usersData.users[i];if(!confirm(`Rimuovere ${u.username}?`))return;usersData.users.splice(i,1);try{const r=await ghPut(USERS_PATH,JSON.stringify(usersData,null,2),usersSha,`👤 -${u.username}`);usersSha=r.content.sha;renderAdmin();toast('Rimosso')}catch(e){toast('Errore: '+e.message,true)}}
 
