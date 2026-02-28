@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TA Monitor — Analytics</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.7/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0a0a0f;--surface:#13131a;--surface2:#1a1a24;--border:#2a2a3a;--border-focus:#6c5ce7;--text:#e8e8f0;--text-dim:#8888a0;--accent:#6c5ce7;--accent-hover:#7d6ff0;--accent-glow:rgba(108,92,231,.15);--danger:#e74c3c;--success:#27ae60;--success-glow:rgba(39,174,96,.15);--warn:#f39c12;--radius:10px;--radius-sm:6px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+.noise{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.container{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:32px 24px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;padding-bottom:16px;border-bottom:1px solid var(--border);flex-wrap:wrap;gap:12px}
+.header h1{font-size:1.4rem;font-weight:700}.header h1 span{color:var(--accent)}
+.header-actions{display:flex;gap:8px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:none;border-radius:var(--radius-sm);font-family:inherit;font-size:.83rem;font-weight:500;cursor:pointer;transition:all .2s;text-decoration:none}
+.btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:var(--accent-hover)}
+.btn-ghost{background:transparent;color:var(--text-dim);border:1px solid var(--border)}.btn-ghost:hover{color:var(--text)}
+.login-wrap{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+.login-box{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:40px;width:100%;max-width:400px;text-align:center}
+.login-box h1{font-size:1.4rem;margin-bottom:6px}.login-box h1 span{color:var(--accent)}
+.login-box p{color:var(--text-dim);font-size:.85rem;margin-bottom:28px}
+.field{margin-bottom:16px;text-align:left}.field label{display:block;font-size:.8rem;color:var(--text-dim);margin-bottom:4px}
+.field input,.field select{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;color:var(--text);font-family:inherit;font-size:.9rem}
+.field input:focus,.field select:focus{outline:none;border-color:var(--border-focus)}
+.error{color:var(--danger);font-size:.82rem;margin-bottom:12px;min-height:20px}
+
+/* Profile selector */
+.profile-selector{display:flex;gap:8px;margin-bottom:24px;flex-wrap:wrap;align-items:center}
+.profile-selector label{font-size:.85rem;color:var(--text-dim)}
+.profile-selector select{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px 14px;color:var(--text);font-family:inherit;font-size:.85rem;min-width:220px}
+.profile-selector select:focus{outline:none;border-color:var(--accent)}
+
+/* KPI cards */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:28px}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px;text-align:center}
+.kpi .num{font-size:2rem;font-weight:700;color:var(--accent);line-height:1.1}
+.kpi .label{font-size:.78rem;color:var(--text-dim);margin-top:4px}
+.kpi .delta{font-size:.75rem;margin-top:4px}
+.kpi .delta.up{color:var(--success)}.kpi .delta.down{color:var(--danger)}.kpi .delta.flat{color:var(--text-dim)}
+
+/* Chart panels */
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:28px}
+.chart-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;min-height:320px}
+.chart-panel.full{grid-column:1/-1}
+.chart-panel h3{font-size:.92rem;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.chart-wrap{position:relative;height:260px}
+
+/* Insights */
+.insights{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:28px}
+.insights h3{font-size:.92rem;font-weight:600;margin-bottom:14px}
+.insight-item{padding:10px 14px;border-left:3px solid var(--accent);background:var(--surface2);border-radius:0 var(--radius-sm) var(--radius-sm) 0;margin-bottom:8px;font-size:.85rem}
+.insight-item.warn{border-left-color:var(--warn)}
+.insight-item.good{border-left-color:var(--success)}
+.insight-item .tag{font-size:.72rem;padding:2px 6px;border-radius:8px;margin-right:6px;font-weight:500}
+.insight-item .tag.trend{background:rgba(108,92,231,.15);color:var(--accent)}
+.insight-item .tag.alert{background:rgba(243,156,18,.15);color:var(--warn)}
+.insight-item .tag.opportunity{background:rgba(39,174,96,.15);color:var(--success)}
+
+/* Table */
+.rank-table{width:100%;border-collapse:collapse;font-size:.83rem}
+.rank-table th{text-align:left;padding:8px 10px;font-size:.72rem;color:var(--text-dim);text-transform:uppercase;border-bottom:1px solid var(--border)}
+.rank-table td{padding:8px 10px;border-bottom:1px solid var(--border)}
+.rank-table tr:hover td{background:var(--surface2)}
+.rank-table .bar{height:6px;border-radius:3px;background:var(--accent);display:inline-block;vertical-align:middle;margin-left:8px}
+
+.loading{display:flex;align-items:center;justify-content:center;min-height:200px;color:var(--text-dim);font-size:.9rem}
+.spinner{width:24px;height:24px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin-right:10px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.toast{position:fixed;bottom:24px;right:24px;padding:10px 18px;background:var(--success);color:#fff;border-radius:var(--radius-sm);font-size:.83rem;font-weight:500;z-index:100;transform:translateY(80px);opacity:0;transition:all .3s}
+.toast.show{transform:translateY(0);opacity:1}.toast.error{background:var(--danger)}
+@media(max-width:768px){.chart-grid{grid-template-columns:1fr}.container{padding:16px 12px}.header{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<div class="noise"></div>
+
+<div id="loginScreen" class="login-wrap">
+  <div class="login-box">
+    <h1><span>TA Monitor</span> — Analytics</h1>
+    <p>Accedi per visualizzare le analisi</p>
+    <div class="field"><label>Username</label><input type="text" id="loginUser" autocomplete="username"/></div>
+    <div class="field"><label>Password</label><input type="password" id="loginPass" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()"/></div>
+    <div class="error" id="loginError"></div>
+    <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doLogin()">Accedi</button>
+  </div>
+</div>
+
+<div id="appScreen" style="display:none">
+<div class="container">
+  <div class="header">
+    <h1>📊 <span>Analytics</span></h1>
+    <div class="header-actions">
+      <a href="./" class="btn btn-ghost">← Dashboard</a>
+      <button class="btn btn-ghost" onclick="loadData()">↻ Aggiorna</button>
+    </div>
+  </div>
+
+  <div class="profile-selector">
+    <label>Profilo:</label>
+    <select id="profileSelect" onchange="onProfileChange()"></select>
+  </div>
+
+  <div id="kpiSection"></div>
+  <div id="chartSection"></div>
+  <div id="insightSection"></div>
+</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const REPO='FabioDeLuca1977/ta-monitor',PROFILES_PATH='profiles.json',USERS_PATH='users.json';
+let token='',profilesData=null,usersData=null,currentUser=null,allJobs=[];
+
+async function hashPw(p){const e=new TextEncoder().encode(p);const b=await crypto.subtle.digest('SHA-256',e);return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('')}
+
+async function ghApi(p,o={}){
+  const url=p.startsWith('https://')?p:`https://api.github.com/repos/${REPO}/${p}`;
+  const r=await fetch(url,{...o,headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json',...(o.headers||{})}});
+  if(!r.ok)throw new Error(`GitHub ${r.status}`);return r.json()
+}
+async function ghGet(p){return ghApi(`contents/${p}`)}
+function ghDecode(d){return JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g,'')))))}
+
+// Login
+async function doLogin(){
+  const u=$('loginUser').value.trim().toLowerCase(),p=$('loginPass').value,err=$('loginError');
+  if(!u||!p){err.textContent='Inserisci credenziali';return}err.textContent='';
+  const enc=localStorage.getItem('ta_token_enc');
+  if(!enc){err.textContent='Accesso non configurato. Apri prima la dashboard principale.';return}
+  try{token=atob(enc);const d=await ghGet(USERS_PATH);usersData=ghDecode(d);
+    const h=await hashPw(p),f=usersData.users.find(x=>x.username===u&&x.password_hash===h);
+    if(!f){err.textContent='Username o password errati';return}
+    currentUser=f;localStorage.setItem('ta_user',u);showApp()
+  }catch(e){err.textContent='Errore: '+e.message}
+}
+window.addEventListener('DOMContentLoaded',async()=>{
+  const enc=localStorage.getItem('ta_token_enc'),su=localStorage.getItem('ta_user');
+  if(enc&&su){token=atob(enc);try{const d=await ghGet(USERS_PATH);usersData=ghDecode(d);
+    const f=usersData.users.find(x=>x.username===su);if(f){currentUser=f;showApp();return}}catch(e){}}
+  $('loginScreen').style.display='flex'
+});
+
+async function showApp(){
+  $('loginScreen').style.display='none';$('appScreen').style.display='block';
+  await loadProfiles()
+}
+
+async function loadProfiles(){
+  try{
+    const d=await ghGet(PROFILES_PATH);profilesData=ghDecode(d);
+    const sel=$('profileSelect');sel.innerHTML='';
+    // Show hr-roma + user's own profiles (admin sees all)
+    Object.entries(profilesData.profiles).forEach(([id,p])=>{
+      if(id==='hr-roma'||p.created_by===currentUser.username||currentUser.role==='admin'){
+        const opt=document.createElement('option');opt.value=id;opt.textContent=p.name;sel.appendChild(opt)
+      }
+    });
+    await loadData()
+  }catch(e){toast('Errore: '+e.message,true)}
+}
+
+function onProfileChange(){loadData()}
+
+async function loadData(){
+  const pid=$('profileSelect').value;if(!pid)return;
+  $('kpiSection').innerHTML='<div class="loading"><div class="spinner"></div>Caricamento dati...</div>';
+  $('chartSection').innerHTML='';$('insightSection').innerHTML='';
+  try{
+    // Load all available job files
+    let jobsDir=`output/${pid}`;let files=[];
+    try{files=await ghApi(`contents/${jobsDir}`)}catch(e){jobsDir='output';files=await ghApi(`contents/${jobsDir}`)}
+    const jsonFiles=files.filter(f=>f.name.startsWith('ta_jobs_')&&f.name.endsWith('.json')).sort((a,b)=>a.name.localeCompare(b.name));
+
+    allJobs=[];
+    // Load last N files (max 10 for performance)
+    const toLoad=jsonFiles.slice(-10);
+    for(const f of toLoad){
+      try{
+        const d=await ghGet(`${jobsDir}/${f.name}`);
+        const jobs=ghDecode(d);
+        const dateMatch=f.name.match(/(\d{4}-\d{2}-\d{2})/);
+        const scanDate=dateMatch?dateMatch[1]:'';
+        jobs.forEach(j=>j._scan_date=scanDate);
+        allJobs.push(...jobs)
+      }catch(e){console.warn('Skip file:',f.name,e)}
+    }
+
+    // Also load summary
+    let summary=null;
+    try{const sd=await ghGet(`${jobsDir}/summary.json`);summary=ghDecode(sd)}catch(e){try{const sd=await ghGet('output/summary.json');summary=ghDecode(sd)}catch(e2){}}
+
+    if(!allJobs.length){
+      $('kpiSection').innerHTML='<div class="loading">Nessun dato disponibile per questo profilo</div>';
+      return
+    }
+
+    renderKPIs(allJobs,summary);
+    renderCharts(allJobs);
+    renderInsights(allJobs);
+    toast('Dati caricati: '+allJobs.length+' posizioni')
+  }catch(e){
+    $('kpiSection').innerHTML=`<div class="loading" style="color:var(--danger)">Errore: ${e.message}</div>`;
+  }
+}
+
+// === KPIs ===
+function renderKPIs(jobs,summary){
+  // Deduplicate by title+company
+  const unique=new Map();
+  jobs.forEach(j=>{const k=`${(j.title||'').toLowerCase()}|${(j.company||'').toLowerCase()}`;if(!unique.has(k))unique.set(k,j)});
+  const deduped=[...unique.values()];
+
+  const companies=new Set(deduped.map(j=>j.company).filter(Boolean));
+  const channels=new Set(deduped.map(j=>j.site||j.channel).filter(Boolean));
+
+  // Date range
+  const dates=deduped.map(j=>parseDate(j.date_posted)).filter(d=>d).sort((a,b)=>a-b);
+  const daySpan=dates.length>=2?Math.ceil((dates[dates.length-1]-dates[0])/(86400000)):1;
+
+  // Weekly rate
+  const weeklyRate=daySpan>0?Math.round(deduped.length/(daySpan/7)*10)/10:deduped.length;
+
+  // Fresh (last 7 days)
+  const now=Date.now();
+  const fresh=deduped.filter(j=>{const d=parseDate(j.date_posted);return d&&(now-d)<7*86400000}).length;
+
+  $('kpiSection').innerHTML=`<div class="kpi-grid">
+    <div class="kpi"><div class="num">${deduped.length}</div><div class="label">Posizioni totali</div></div>
+    <div class="kpi"><div class="num">${companies.size}</div><div class="label">Aziende</div></div>
+    <div class="kpi"><div class="num">${channels.size}</div><div class="label">Canali</div></div>
+    <div class="kpi"><div class="num">${weeklyRate}</div><div class="label">Media / settimana</div></div>
+    <div class="kpi"><div class="num" style="color:var(--success)">${fresh}</div><div class="label">Ultimi 7 giorni</div></div>
+    <div class="kpi"><div class="num">${daySpan}</div><div class="label">Giorni monitorati</div></div>
+  </div>`;
+}
+
+// === CHARTS ===
+function renderCharts(jobs){
+  const unique=dedup(jobs);
+
+  $('chartSection').innerHTML=`
+    <div class="chart-grid">
+      <div class="chart-panel full"><h3>📈 Trend temporale</h3><div class="chart-wrap"><canvas id="trendChart"></canvas></div></div>
+      <div class="chart-panel"><h3>🏢 Top aziende</h3><div class="chart-wrap"><canvas id="companyChart"></canvas></div></div>
+      <div class="chart-panel"><h3>📡 Canali</h3><div class="chart-wrap"><canvas id="channelChart"></canvas></div></div>
+      <div class="chart-panel full"><h3>🏷 Keyword nei titoli</h3><div class="chart-wrap"><canvas id="keywordChart"></canvas></div></div>
+    </div>`;
+
+  // Chart defaults
+  Chart.defaults.color='#8888a0';
+  Chart.defaults.borderColor='#2a2a3a';
+  Chart.defaults.font.family="'DM Sans',sans-serif";
+
+  buildTrendChart(unique);
+  buildCompanyChart(unique);
+  buildChannelChart(unique);
+  buildKeywordChart(unique);
+}
+
+function buildTrendChart(jobs){
+  // Group by date
+  const byDate={};
+  jobs.forEach(j=>{
+    const d=parseDate(j.date_posted);
+    if(!d)return;
+    const key=d.toISOString().slice(0,10);
+    byDate[key]=(byDate[key]||0)+1;
+  });
+  const sorted=Object.entries(byDate).sort((a,b)=>a[0].localeCompare(b[0]));
+  if(!sorted.length)return;
+
+  // Fill missing dates
+  const start=new Date(sorted[0][0]),end=new Date(sorted[sorted.length-1][0]);
+  const labels=[],data=[];
+  for(let d=new Date(start);d<=end;d.setDate(d.getDate()+1)){
+    const key=d.toISOString().slice(0,10);
+    labels.push(key.slice(5));// MM-DD
+    data.push(byDate[key]||0);
+  }
+
+  // 7-day moving average
+  const ma=data.map((v,i)=>{
+    const slice=data.slice(Math.max(0,i-6),i+1);
+    return Math.round(slice.reduce((a,b)=>a+b,0)/slice.length*10)/10;
+  });
+
+  new Chart($('trendChart'),{
+    type:'bar',
+    data:{
+      labels,
+      datasets:[
+        {label:'Annunci/giorno',data,backgroundColor:'rgba(108,92,231,0.4)',borderColor:'rgba(108,92,231,0.8)',borderWidth:1,borderRadius:4,order:2},
+        {label:'Media mobile 7gg',data:ma,type:'line',borderColor:'#f39c12',borderWidth:2,pointRadius:0,tension:0.4,order:1}
+      ]
+    },
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:16}}},scales:{x:{grid:{display:false}},y:{beginAtZero:true,ticks:{stepSize:1}}}}
+  });
+}
+
+function buildCompanyChart(jobs){
+  const counts={};
+  jobs.forEach(j=>{const c=j.company||'Sconosciuta';counts[c]=(counts[c]||0)+1});
+  const top=Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,12);
+  const maxVal=top.length?top[0][1]:1;
+
+  new Chart($('companyChart'),{
+    type:'bar',
+    data:{
+      labels:top.map(t=>t[0].length>25?t[0].slice(0,23)+'…':t[0]),
+      datasets:[{data:top.map(t=>t[1]),backgroundColor:top.map((_,i)=>`hsla(${258-i*8},70%,${60+i*2}%,0.7)`),borderRadius:4}]
+    },
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{stepSize:1}},y:{grid:{display:false}}}}
+  });
+}
+
+function buildChannelChart(jobs){
+  const counts={};
+  jobs.forEach(j=>{const s=(j.site||j.channel||'Altro').toLowerCase();counts[s]=(counts[s]||0)+1});
+  const entries=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+
+  const colors={'linkedin':'#0077b5','indeed':'#2e5aac','glassdoor':'#0caa41','google_jobs':'#ea4335','google':'#ea4335'};
+  const defaultColors=['#6c5ce7','#e17055','#00b894','#fdcb6e','#74b9ff'];
+
+  new Chart($('channelChart'),{
+    type:'doughnut',
+    data:{
+      labels:entries.map(e=>e[0]),
+      datasets:[{data:entries.map(e=>e[1]),backgroundColor:entries.map((e,i)=>colors[e[0]]||defaultColors[i%defaultColors.length]),borderWidth:0}]
+    },
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:12}}}}
+  });
+}
+
+function buildKeywordChart(jobs){
+  // Extract frequent words from titles
+  const stopWords=new Set(['di','del','della','delle','dei','e','a','in','per','la','il','lo','le','un','una','the','and','or','for','to','at','of','with','on','is','an','-','–','—','&','|','/','da','al','alla','con','su','che','non','si','è']);
+  const wordCounts={};
+  jobs.forEach(j=>{
+    const title=(j.title||'').toLowerCase();
+    title.split(/[\s\-\/\(\)\,\.\:\;\&]+/).forEach(w=>{
+      w=w.trim();
+      if(w.length>2&&!stopWords.has(w)&&!/^\d+$/.test(w)){wordCounts[w]=(wordCounts[w]||0)+1}
+    });
+  });
+  const top=Object.entries(wordCounts).sort((a,b)=>b[1]-a[1]).slice(0,20);
+
+  new Chart($('keywordChart'),{
+    type:'bar',
+    data:{
+      labels:top.map(t=>t[0]),
+      datasets:[{data:top.map(t=>t[1]),backgroundColor:'rgba(108,92,231,0.5)',borderColor:'rgba(108,92,231,0.8)',borderWidth:1,borderRadius:4}]
+    },
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{beginAtZero:true,ticks:{stepSize:1}}}}
+  });
+}
+
+// === INSIGHTS ===
+function renderInsights(jobs){
+  const unique=dedup(jobs);
+  const insights=[];
+
+  // 1. Trend direction
+  const byDate={};
+  unique.forEach(j=>{const d=parseDate(j.date_posted);if(d){const k=d.toISOString().slice(0,10);byDate[k]=(byDate[k]||0)+1}});
+  const dates=Object.keys(byDate).sort();
+  if(dates.length>=7){
+    const recent=dates.slice(-7).reduce((s,k)=>s+(byDate[k]||0),0);
+    const prev=dates.slice(-14,-7).reduce((s,k)=>s+(byDate[k]||0),0);
+    if(prev>0){
+      const change=Math.round((recent-prev)/prev*100);
+      if(change>20)insights.push({type:'trend',text:`📈 Mercato in crescita: <strong>+${change}%</strong> annunci rispetto alla settimana precedente (${recent} vs ${prev})`});
+      else if(change<-20)insights.push({type:'alert',text:`📉 Mercato in calo: <strong>${change}%</strong> annunci rispetto alla settimana precedente (${recent} vs ${prev})`});
+      else insights.push({type:'trend',text:`➡️ Mercato stabile: variazione ${change>0?'+':''}${change}% rispetto alla settimana precedente`});
+    }
+  }
+
+  // 2. Top growing company
+  const compByDate={};
+  unique.forEach(j=>{
+    const d=parseDate(j.date_posted);if(!d)return;
+    const week=getWeek(d);const c=j.company||'';
+    if(!compByDate[c])compByDate[c]={};
+    compByDate[c][week]=(compByDate[c][week]||0)+1;
+  });
+  const recentWeek=dates.length?getWeek(new Date(dates[dates.length-1])):'';
+  if(recentWeek){
+    let maxComp='',maxCount=0;
+    Object.entries(compByDate).forEach(([comp,weeks])=>{
+      const cnt=weeks[recentWeek]||0;
+      if(cnt>maxCount&&comp){maxCount=cnt;maxComp=comp}
+    });
+    if(maxComp&&maxCount>=2)insights.push({type:'opportunity',text:`🏢 <strong>${maxComp}</strong> sta assumendo attivamente: ${maxCount} posizioni questa settimana`});
+  }
+
+  // 3. Channel dominance
+  const chCounts={};
+  unique.forEach(j=>{const s=(j.site||'').toLowerCase();if(s)chCounts[s]=(chCounts[s]||0)+1});
+  const topCh=Object.entries(chCounts).sort((a,b)=>b[1]-a[1]);
+  if(topCh.length>=2){
+    const pct=Math.round(topCh[0][1]/unique.length*100);
+    insights.push({type:'trend',text:`📡 <strong>${topCh[0][0]}</strong> domina con il ${pct}% degli annunci. Secondo canale: ${topCh[1][0]} (${Math.round(topCh[1][1]/unique.length*100)}%)`});
+  }
+
+  // 4. New companies appearing
+  const now=Date.now();
+  const recentJobs=unique.filter(j=>{const d=parseDate(j.date_posted);return d&&(now-d)<7*86400000});
+  const oldJobs=unique.filter(j=>{const d=parseDate(j.date_posted);return d&&(now-d)>=7*86400000});
+  const oldCompanies=new Set(oldJobs.map(j=>(j.company||'').toLowerCase()));
+  const newCompanies=[...new Set(recentJobs.map(j=>j.company).filter(c=>c&&!oldCompanies.has(c.toLowerCase())))];
+  if(newCompanies.length>0&&newCompanies.length<=5){
+    insights.push({type:'opportunity',text:`🆕 Nuove aziende questa settimana: <strong>${newCompanies.join(', ')}</strong>`});
+  }else if(newCompanies.length>5){
+    insights.push({type:'opportunity',text:`🆕 <strong>${newCompanies.length}</strong> nuove aziende questa settimana (mercato dinamico)`});
+  }
+
+  // 5. Keyword concentration
+  const titleWords={};
+  unique.forEach(j=>{
+    const words=(j.title||'').toLowerCase().match(/[a-zàèéìòù]{3,}/g)||[];
+    words.forEach(w=>titleWords[w]=(titleWords[w]||0)+1);
+  });
+  const topKw=Object.entries(titleWords).sort((a,b)=>b[1]-a[1]).slice(0,3);
+  if(topKw.length){
+    insights.push({type:'trend',text:`🏷 Termini più frequenti nei titoli: ${topKw.map(([w,c])=>`<strong>${w}</strong> (${c})`).join(', ')}`});
+  }
+
+  // Render
+  if(!insights.length)insights.push({type:'trend',text:'Dati insufficienti per generare insights. Continua a monitorare!'});
+  $('insightSection').innerHTML=`<div class="insights"><h3>💡 Insights automatici</h3>
+    ${insights.map(i=>`<div class="insight-item ${i.type==='alert'?'warn':i.type==='opportunity'?'good':''}">
+      <span class="tag ${i.type}">${i.type==='trend'?'TREND':i.type==='alert'?'ALERT':'OPPORTUNITÀ'}</span>${i.text}
+    </div>`).join('')}
+  </div>`;
+}
+
+// === HELPERS ===
+function dedup(jobs){
+  const m=new Map();
+  jobs.forEach(j=>{const k=`${(j.title||'').toLowerCase()}|${(j.company||'').toLowerCase()}`;if(!m.has(k))m.set(k,j)});
+  return [...m.values()];
+}
+
+function parseDate(raw){
+  if(!raw||raw==='None'||raw==='NaT'||raw==='nan'||raw==='')return null;
+  const num=Number(raw);
+  if(!isNaN(num)&&num>1e9)return new Date(num>1e12?num:num*1000);
+  if(typeof raw==='string'&&raw.length>=10){const d=new Date(raw.slice(0,10));if(!isNaN(d))return d}
+  return null;
+}
+
+function getWeek(d){
+  const start=new Date(d.getFullYear(),0,1);
+  const diff=d-start;
+  return `${d.getFullYear()}-W${String(Math.ceil(diff/604800000)).padStart(2,'0')}`;
+}
+
+function $(id){return document.getElementById(id)}
+function toast(m,e){const t=$('toast');t.textContent=m;t.className='toast show'+(e?' error':'');setTimeout(()=>t.className='toast',3000)}
+</script>
+</body>
+</html>
