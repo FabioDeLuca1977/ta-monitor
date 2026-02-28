@@ -331,104 +331,133 @@ def recommend_keywords(jobs, profile):
 # ============================================================
 # 4. ANOMALY DETECTION
 # ============================================================
-def detect_anomalies(jobs, profile):
-    """Rileva cambiamenti insoliti nel mercato del lavoro."""
+def detect_anomalies(jobs, profile, profile_id):
+    """Rileva cambiamenti insoliti nel mercato del lavoro.
+    
+    Usa _scan_date (data del file) per confronto storico, NON date_posted,
+    perché ogni scan ri-scarica gli stessi annunci e date_posted è la data
+    dell'annuncio originale, non di quando l'abbiamo visto per la prima volta.
+    """
     anomalies = []
 
     if len(jobs) < 10:
         return anomalies
 
-    # Parse dates
-    dated_jobs = []
-    for j in jobs:
-        d = _parse_date(j.get("date_posted"))
-        if d:
-            dated_jobs.append((d, j))
-    dated_jobs.sort(key=lambda x: x[0])
-
-    if not dated_jobs:
-        return anomalies
-
     now = datetime.now()
 
-    # --- Volume anomaly ---
-    # Compare this week vs previous weeks
-    weekly_counts = defaultdict(int)
-    for d, j in dated_jobs:
-        week_key = f"{d.isocalendar()[0]}-W{d.isocalendar()[1]:02d}"
-        weekly_counts[week_key] += 1
+    # --- Group jobs by scan date (from filename) ---
+    by_scan = defaultdict(list)
+    for j in jobs:
+        sd = j.get("_scan_date", "")
+        if sd:
+            by_scan[sd].append(j)
 
-    weeks = sorted(weekly_counts.keys())
-    if len(weeks) >= 3:
-        recent = weekly_counts[weeks[-1]]
-        prev_avg = np.mean([weekly_counts[w] for w in weeks[:-1]])
+    scan_dates = sorted(by_scan.keys())
+    if len(scan_dates) < 2:
+        # Not enough history for comparison
+        anomalies.append({
+            "type": "info",
+            "severity": "info",
+            "message": f"📊 {len(jobs)} annunci analizzati su {len(scan_dates)} scan. Servono più scan per confronti storici.",
+            "data": {}
+        })
+
+    # --- Volume trend across scans ---
+    if len(scan_dates) >= 3:
+        # Count UNIQUE jobs per scan (by title+company)
+        scan_unique_counts = {}
+        for sd, sj in by_scan.items():
+            seen = set()
+            for j in sj:
+                key = f"{(j.get('title','') or '').lower()}|{(j.get('company','') or '').lower()}"
+                seen.add(key)
+            scan_unique_counts[sd] = len(seen)
+
+        counts = [scan_unique_counts[sd] for sd in scan_dates]
+        latest = counts[-1]
+        prev_avg = np.mean(counts[:-1])
         if prev_avg > 0:
-            change_pct = ((recent - prev_avg) / prev_avg) * 100
-            std_dev = np.std([weekly_counts[w] for w in weeks[:-1]])
-            z_score = (recent - prev_avg) / std_dev if std_dev > 0 else 0
-
-            if abs(z_score) > 1.5:
+            change_pct = ((latest - prev_avg) / prev_avg) * 100
+            if abs(change_pct) > 30:
                 anomalies.append({
                     "type": "volume_spike" if change_pct > 0 else "volume_drop",
-                    "severity": "high" if abs(z_score) > 2 else "medium",
-                    "message": f"Volume {'in forte crescita' if change_pct > 0 else 'in calo'}: {recent} annunci questa settimana vs media {prev_avg:.0f} ({change_pct:+.0f}%)",
-                    "z_score": round(z_score, 2),
-                    "data": {"current": recent, "avg": round(prev_avg, 1), "change_pct": round(change_pct, 1)}
+                    "severity": "high" if abs(change_pct) > 50 else "medium",
+                    "message": f"Volume {'in crescita' if change_pct > 0 else 'in calo'}: {latest} annunci ultimo scan vs media {prev_avg:.0f} ({change_pct:+.0f}%)",
+                    "data": {"current": latest, "avg": round(prev_avg, 1), "change_pct": round(change_pct, 1)}
                 })
 
-    # --- New company surge ---
-    # Companies appearing for the first time this week with multiple postings
-    this_week = now - timedelta(days=7)
-    recent_companies = Counter()
-    old_companies = set()
+    # --- Truly new companies (compare latest scan vs all previous) ---
+    if len(scan_dates) >= 2:
+        latest_scan = scan_dates[-1]
+        prev_scans = scan_dates[:-1]
 
-    for d, j in dated_jobs:
-        company = (j.get("company") or "").strip()
-        if not company:
-            continue
-        if d >= this_week:
-            recent_companies[company] += 1
-        else:
-            old_companies.add(company.lower())
+        old_companies = set()
+        for sd in prev_scans:
+            for j in by_scan[sd]:
+                c = (j.get("company") or "").strip().lower()
+                if c:
+                    old_companies.add(c)
 
-    for company, count in recent_companies.most_common(5):
-        if company.lower() not in old_companies and count >= 2:
+        new_companies = Counter()
+        for j in by_scan[latest_scan]:
+            c = (j.get("company") or "").strip()
+            if c and c.lower() not in old_companies:
+                new_companies[c] += 1
+
+        for company, count in new_companies.most_common(5):
+            if count >= 2:
+                anomalies.append({
+                    "type": "new_company_surge",
+                    "severity": "medium",
+                    "message": f"🆕 {company}: {count} posizioni, non presente negli scan precedenti",
+                    "data": {"company": company, "count": count}
+                })
+
+        total_new = sum(new_companies.values())
+        total_latest = len(by_scan[latest_scan])
+        if total_latest > 0 and total_new > 0:
+            new_pct = round(total_new / total_latest * 100, 1)
             anomalies.append({
-                "type": "new_company_surge",
-                "severity": "medium",
-                "message": f"🆕 {company} è apparsa questa settimana con {count} posizioni (mai vista prima)",
-                "data": {"company": company, "count": count}
+                "type": "new_jobs_ratio",
+                "severity": "info",
+                "message": f"📊 Ultimo scan: {total_new}/{total_latest} annunci da aziende nuove ({new_pct}%)",
+                "data": {"new": total_new, "total": total_latest, "pct": new_pct}
             })
 
-    # --- Channel shift ---
-    recent_channels = Counter()
-    old_channels = Counter()
-    for d, j in dated_jobs:
-        ch = (j.get("site") or "").lower()
-        if not ch:
-            continue
-        if d >= this_week:
-            recent_channels[ch] += 1
-        else:
-            old_channels[ch] += 1
+    # --- Channel distribution (latest scan only, no false comparison) ---
+    if scan_dates:
+        latest_jobs = by_scan[scan_dates[-1]]
+        ch_counts = Counter()
+        for j in latest_jobs:
+            ch = (j.get("site") or "").lower()
+            if ch:
+                ch_counts[ch] += 1
+        total = sum(ch_counts.values()) or 1
 
-    total_old = sum(old_channels.values()) or 1
-    total_recent = sum(recent_channels.values()) or 1
-    for ch in set(list(recent_channels.keys()) + list(old_channels.keys())):
-        old_pct = (old_channels.get(ch, 0) / total_old) * 100
-        new_pct = (recent_channels.get(ch, 0) / total_recent) * 100
-        shift = new_pct - old_pct
-        if abs(shift) > 15:
-            anomalies.append({
-                "type": "channel_shift",
-                "severity": "low",
-                "message": f"📡 {ch}: quota passata da {old_pct:.0f}% a {new_pct:.0f}% ({shift:+.0f}pp)",
-                "data": {"channel": ch, "old_pct": round(old_pct, 1), "new_pct": round(new_pct, 1)}
-            })
+        # Only report if there's a previous scan to compare
+        if len(scan_dates) >= 2:
+            prev_jobs = by_scan[scan_dates[-2]]
+            prev_ch = Counter()
+            for j in prev_jobs:
+                ch = (j.get("site") or "").lower()
+                if ch:
+                    prev_ch[ch] += 1
+            prev_total = sum(prev_ch.values()) or 1
+
+            for ch in set(list(ch_counts.keys()) + list(prev_ch.keys())):
+                old_pct = (prev_ch.get(ch, 0) / prev_total) * 100
+                new_pct = (ch_counts.get(ch, 0) / total) * 100
+                shift = new_pct - old_pct
+                if abs(shift) > 15:
+                    anomalies.append({
+                        "type": "channel_shift",
+                        "severity": "low",
+                        "message": f"📡 {ch}: quota passata da {old_pct:.0f}% a {new_pct:.0f}% ({shift:+.0f}pp)",
+                        "data": {"channel": ch, "old_pct": round(old_pct, 1), "new_pct": round(new_pct, 1)}
+                    })
 
     # --- Role type clustering ---
-    # Use TF-IDF + KMeans to find clusters in titles
-    titles = [j.get("title", "") for _, j in dated_jobs if j.get("title")]
+    titles = [j.get("title", "") for j in jobs if j.get("title")]
     if len(titles) >= 20:
         try:
             vectorizer = TfidfVectorizer(max_features=200, stop_words=list(STOP_WORDS), min_df=2)
@@ -438,7 +467,6 @@ def detect_anomalies(jobs, profile):
                 km = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
                 labels = km.fit_predict(X)
 
-                # Find the dominant terms per cluster
                 feature_names = vectorizer.get_feature_names_out()
                 clusters = []
                 for c in range(n_clusters):
@@ -576,7 +604,7 @@ def generate_insights(profile_id, profile):
 
     # 4. Anomaly detection
     log.info("▸ Fase 4: Anomaly detection")
-    anomalies = detect_anomalies(jobs, profile)
+    anomalies = detect_anomalies(jobs, profile, profile_id)
     log.info(f"  Anomalie rilevate: {len(anomalies)}")
     for a in anomalies:
         log.info(f"    [{a['severity'].upper()}] {a['message']}")
