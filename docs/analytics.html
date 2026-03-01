@@ -163,7 +163,6 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:v
   <div id="kpiSection"></div>
   <div id="chartSection"></div>
   <div id="mlSection"></div>
-  <div id="insightSection"></div>
 </div>
 </div>
 
@@ -226,7 +225,7 @@ function onProfileChange(){loadData()}
 async function loadData(){
   const pid=$('profileSelect').value;if(!pid)return;
   $('kpiSection').innerHTML='<div class="loading"><div class="spinner"></div>Caricamento dati...</div>';
-  $('chartSection').innerHTML='';$('mlSection').innerHTML='';$('insightSection').innerHTML='';
+  $('chartSection').innerHTML='';$('mlSection').innerHTML='';
   try{
     // Load all available job files — try profile subdir first, then root output
     let jobsDir='output';let files=[];let jsonFiles=[];
@@ -272,7 +271,6 @@ async function loadData(){
 
     renderKPIs(allJobs,summary);
     renderCharts(allJobs);
-    renderInsights(allJobs);
     await loadMLInsights(pid,jobsDir);
     toast('Dati caricati: '+allJobs.length+' posizioni')
   }catch(e){
@@ -442,85 +440,6 @@ function buildKeywordChart(jobs){
   });
 }
 
-// === INSIGHTS (basic, from job data) ===
-function renderInsights(jobs){
-  const unique=dedup(jobs);
-  const insights=[];
-
-  // 1. Trend direction
-  const byDate={};
-  unique.forEach(j=>{const d=parseDate(j.date_posted);if(d){const k=d.toISOString().slice(0,10);byDate[k]=(byDate[k]||0)+1}});
-  const dates=Object.keys(byDate).sort();
-  if(dates.length>=7){
-    const recent=dates.slice(-7).reduce((s,k)=>s+(byDate[k]||0),0);
-    const prev=dates.slice(-14,-7).reduce((s,k)=>s+(byDate[k]||0),0);
-    if(prev>0){
-      const change=Math.round((recent-prev)/prev*100);
-      if(change>20)insights.push({type:'trend',text:`📈 Mercato in crescita: <strong>+${change}%</strong> annunci rispetto alla settimana precedente (${recent} vs ${prev})`});
-      else if(change<-20)insights.push({type:'alert',text:`📉 Mercato in calo: <strong>${change}%</strong> annunci rispetto alla settimana precedente (${recent} vs ${prev})`});
-      else insights.push({type:'trend',text:`➡️ Mercato stabile: variazione ${change>0?'+':''}${change}% rispetto alla settimana precedente`});
-    }
-  }
-
-  // 2. Top growing company
-  const compByDate={};
-  unique.forEach(j=>{
-    const d=parseDate(j.date_posted);if(!d)return;
-    const week=getWeek(d);const c=j.company||'';
-    if(!compByDate[c])compByDate[c]={};
-    compByDate[c][week]=(compByDate[c][week]||0)+1;
-  });
-  const recentWeek=dates.length?getWeek(new Date(dates[dates.length-1])):'';
-  if(recentWeek){
-    let maxComp='',maxCount=0;
-    Object.entries(compByDate).forEach(([comp,weeks])=>{
-      const cnt=weeks[recentWeek]||0;
-      if(cnt>maxCount&&comp){maxCount=cnt;maxComp=comp}
-    });
-    if(maxComp&&maxCount>=2)insights.push({type:'opportunity',text:`🏢 <strong>${maxComp}</strong> sta assumendo attivamente: ${maxCount} posizioni questa settimana`});
-  }
-
-  // 3. Channel dominance
-  const chCounts={};
-  unique.forEach(j=>{const s=(j.site||'').toLowerCase();if(s)chCounts[s]=(chCounts[s]||0)+1});
-  const topCh=Object.entries(chCounts).sort((a,b)=>b[1]-a[1]);
-  if(topCh.length>=2){
-    const pct=Math.round(topCh[0][1]/unique.length*100);
-    insights.push({type:'trend',text:`📡 <strong>${topCh[0][0]}</strong> domina con il ${pct}% degli annunci. Secondo canale: ${topCh[1][0]} (${Math.round(topCh[1][1]/unique.length*100)}%)`});
-  }
-
-  // 4. New companies appearing
-  const now=Date.now();
-  const recentJobs=unique.filter(j=>{const d=parseDate(j.date_posted);return d&&(now-d)<7*86400000});
-  const oldJobs=unique.filter(j=>{const d=parseDate(j.date_posted);return d&&(now-d)>=7*86400000});
-  const oldCompanies=new Set(oldJobs.map(j=>(j.company||'').toLowerCase()));
-  const newCompanies=[...new Set(recentJobs.map(j=>j.company).filter(c=>c&&!oldCompanies.has(c.toLowerCase())))];
-  if(newCompanies.length>0&&newCompanies.length<=5){
-    insights.push({type:'opportunity',text:`🆕 Nuove aziende questa settimana: <strong>${newCompanies.join(', ')}</strong>`});
-  }else if(newCompanies.length>5){
-    insights.push({type:'opportunity',text:`🆕 <strong>${newCompanies.length}</strong> nuove aziende questa settimana (mercato dinamico)`});
-  }
-
-  // 5. Keyword concentration
-  const titleWords={};
-  unique.forEach(j=>{
-    const words=(j.title||'').toLowerCase().match(/[a-zàèéìòù]{3,}/g)||[];
-    words.forEach(w=>titleWords[w]=(titleWords[w]||0)+1);
-  });
-  const topKw=Object.entries(titleWords).sort((a,b)=>b[1]-a[1]).slice(0,3);
-  if(topKw.length){
-    insights.push({type:'trend',text:`🏷 Termini più frequenti nei titoli: ${topKw.map(([w,c])=>`<strong>${w}</strong> (${c})`).join(', ')}`});
-  }
-
-  // Render
-  if(!insights.length)insights.push({type:'trend',text:'Dati insufficienti per generare insights. Continua a monitorare!'});
-  $('insightSection').innerHTML=`<div class="insights"><h3>💡 Insights automatici</h3>
-    ${insights.map(i=>`<div class="insight-item ${i.type==='alert'?'warn':i.type==='opportunity'?'good':''}">
-      <span class="tag ${i.type}">${i.type==='trend'?'TREND':i.type==='alert'?'ALERT':'OPPORTUNITÀ'}</span>${i.text}
-    </div>`).join('')}
-  </div>`;
-}
-
 // === ML INSIGHTS ===
 async function loadMLInsights(pid,jobsDir){
   $('mlSection').innerHTML='';
@@ -639,12 +558,6 @@ function parseDate(raw){
   if(!isNaN(num)&&num>1e9)return new Date(num>1e12?num:num*1000);
   if(typeof raw==='string'&&raw.length>=10){const d=new Date(raw.slice(0,10));if(!isNaN(d))return d}
   return null;
-}
-
-function getWeek(d){
-  const start=new Date(d.getFullYear(),0,1);
-  const diff=d-start;
-  return `${d.getFullYear()}-W${String(Math.ceil(diff/604800000)).padStart(2,'0')}`;
 }
 
 function $(id){return document.getElementById(id)}
