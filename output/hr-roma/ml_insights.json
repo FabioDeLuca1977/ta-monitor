@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-02-28T22:44:49.526711",
+  "generated_at": "2026-03-01T06:53:53.712793",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 156,
+  "total_jobs_analyzed": 161,
   "scoring": {
-    "average": 21.6,
+    "average": 21.2,
     "distribution": {
       "excellent": 0,
       "good": 5,
-      "medium": 25,
-      "low": 30,
-      "irrelevant": 96
+      "medium": 27,
+      "low": 31,
+      "irrelevant": 98
     },
     "top_jobs": [
-      {
-        "title": "HR Stage - Talent Acquisition",
-        "company": "Multiversity Group",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1771977600000,
-        "url": "https://www.linkedin.com/jobs/view/4374896779"
-      },
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
@@ -38,9 +30,17 @@
         "url": "https://www.linkedin.com/jobs/view/4368728526"
       },
       {
+        "title": "HR Stage - Talent Acquisition",
+        "company": "Multiversity Group",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1771977600000,
+        "url": "https://www.linkedin.com/jobs/view/4374896779"
+      },
+      {
         "title": "HR Generalist Apprentice",
         "company": "Arsenale Group",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1772064000000,
         "url": "https://www.linkedin.com/jobs/view/4378347176"
@@ -48,7 +48,7 @@
       {
         "title": "People Engagement, Talent Acquisition & Project HR",
         "company": "B1P Group",
-        "score": 61,
+        "score": 62,
         "site": "indeed",
         "date_posted": 1772150400000,
         "url": "https://it.indeed.com/viewjob?jk=33541dcf08b547a8"
@@ -78,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4369142800"
       },
       {
-        "title": "Stagista ambito Tech Head Hunting / Selezione del Personale (Roma Eur -Rif.1124)",
-        "company": "EgoValeo | Tech Head Hunting",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1772064000000,
-        "url": "https://www.linkedin.com/jobs/view/4375547964"
-      },
-      {
         "title": "HR Manager",
         "company": "Rome Business School",
         "score": 55,
@@ -100,6 +92,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4374991693"
+      },
+      {
+        "title": "Stagista ambito Tech Head Hunting / Selezione del Personale (Roma Eur -Rif.1124)",
+        "company": "EgoValeo | Tech Head Hunting",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4375547964"
+      },
+      {
+        "title": "Employer Branding Intern",
+        "company": "Joinrs",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4376561301"
       },
       {
         "title": "HR Manager (IT - Remote)",
@@ -124,14 +132,6 @@
         "site": "linkedin",
         "date_posted": 1772150400000,
         "url": "https://www.linkedin.com/jobs/view/4377901898"
-      },
-      {
-        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
-        "company": "Gi Group Holding",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1771977600000,
-        "url": "https://www.linkedin.com/jobs/view/4375219457"
       },
       {
         "title": "Responsabile Risorse Umane – Prodotti per la Cura del Riposo",
@@ -185,8 +185,8 @@
       },
       {
         "word": "manager",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -216,78 +216,52 @@
   ],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 NETwk: 11 posizioni, non presente negli scan precedenti",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 78 (-94%)",
       "data": {
-        "company": "NETwk",
-        "count": 11
+        "current": 5,
+        "avg": 78.0,
+        "change_pct": -93.6
       }
     },
     {
       "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 Zuma: 4 posizioni, non presente negli scan precedenti",
+      "message": "🆕 Amazon.com: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "company": "Zuma",
-        "count": 4
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 SecretKey: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "SecretKey",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Leonardo: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Leonardo",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Fendi: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Fendi",
+        "company": "Amazon.com",
         "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 107/127 annunci da aziende nuove (84.3%)",
+      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 107,
-        "total": 127,
-        "pct": 84.3
+        "new": 5,
+        "total": 5,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 62% a 10% (-52pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 62.1,
-        "new_pct": 10.2
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 38% a 90% (+52pp)",
+      "message": "📡 indeed: quota passata da 90% a 40% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 37.9,
-        "new_pct": 89.8
+        "old_pct": 89.8,
+        "new_pct": 40.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 10% a 60% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 10.2,
+        "new_pct": 60.0
       }
     },
     {
@@ -297,54 +271,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 99,
+            "id": 3,
+            "size": 93,
             "top_terms": [
               "roma",
-              "specialist",
-              "hr"
+              "tecnico",
+              "operatore"
             ],
-            "pct": 63.5
+            "pct": 57.8
           },
           {
-            "id": 3,
-            "size": 19,
+            "id": 4,
+            "size": 29,
             "top_terms": [
               "manager",
               "hr",
               "project"
             ],
-            "pct": 12.2
+            "pct": 18.0
           },
           {
             "id": 1,
-            "size": 14,
+            "size": 16,
             "top_terms": [
               "addetto",
-              "vendite",
-              "office"
+              "time",
+              "vendite"
             ],
-            "pct": 9.0
+            "pct": 9.9
+          },
+          {
+            "id": 0,
+            "size": 13,
+            "top_terms": [
+              "specialist",
+              "acquisition",
+              "hr"
+            ],
+            "pct": 8.1
           },
           {
             "id": 2,
-            "size": 14,
-            "top_terms": [
-              "impiegato",
-              "ufficio",
-              "umane"
-            ],
-            "pct": 9.0
-          },
-          {
-            "id": 4,
             "size": 10,
             "top_terms": [
-              "talent",
-              "acquisition",
-              "specialist"
+              "umane",
+              "risorse",
+              "impiegato"
             ],
-            "pct": 6.4
+            "pct": 6.2
           }
         ]
       }
