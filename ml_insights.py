@@ -52,6 +52,18 @@ def load_profiles():
     return None
 
 
+def load_feedback():
+    """Carica feedback.json con i voti degli utenti."""
+    fpath = BASE_DIR / "feedback.json"
+    if fpath.exists():
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
 def load_jobs_for_profile(profile_id):
     """Carica tutti i job JSON disponibili per un profilo."""
     # Try profile subdir first, then root
@@ -98,10 +110,32 @@ def load_all_raw_jobs(profile_id):
 # ============================================================
 # 1. SCORING — Punteggio rilevanza 0-100
 # ============================================================
-def compute_scores(jobs, profile):
-    """Calcola score di rilevanza per ogni annuncio usando TF-IDF + pattern matching."""
+def compute_scores(jobs, profile, feedback=None):
+    """Calcola score di rilevanza per ogni annuncio usando TF-IDF + pattern matching + feedback utente."""
     if not jobs:
         return []
+
+    # Aggregate feedback: build sets of liked/disliked job keys
+    liked_keys = set()
+    disliked_keys = set()
+    liked_words = Counter()
+    disliked_words = Counter()
+    if feedback:
+        for user, user_fb in feedback.items():
+            for key, fb in user_fb.items():
+                if isinstance(fb, dict):
+                    vote = fb.get("vote", "")
+                    title = fb.get("title", "")
+                else:
+                    continue
+                if vote == "up":
+                    liked_keys.add(key)
+                    for w in _tokenize(title):
+                        liked_words[w] += 1
+                elif vote == "down":
+                    disliked_keys.add(key)
+                    for w in _tokenize(title):
+                        disliked_words[w] += 1
 
     filters = profile.get("filters", {})
     relevant_patterns = [p["pattern"] if isinstance(p, dict) else p for p in filters.get("relevant_patterns", [])]
@@ -179,6 +213,22 @@ def compute_scores(jobs, profile):
                     score += 5
             except Exception:
                 pass
+
+        # Component 6: Feedback learning (-15 to +15 points)
+        job_key = f"{title_lower}|{(job.get('company', '') or '').lower().strip()}"
+        if job_key in liked_keys:
+            score += 15  # Direct match with liked job
+        elif job_key in disliked_keys:
+            score -= 15  # Direct match with disliked job
+        else:
+            # Indirect: boost if title words match liked patterns
+            title_words = set(_tokenize(title))
+            liked_overlap = sum(liked_words.get(w, 0) for w in title_words)
+            disliked_overlap = sum(disliked_words.get(w, 0) for w in title_words)
+            if liked_overlap > disliked_overlap:
+                score += min(10, liked_overlap * 2)
+            elif disliked_overlap > liked_overlap:
+                score -= min(10, disliked_overlap * 2)
 
         # Clamp to 0-100
         final_score = max(0, min(100, round(score)))
@@ -574,9 +624,14 @@ def generate_insights(profile_id, profile):
     jobs = unique
     log.info(f"  Jobs caricati: {len(jobs)} (deduplicati)")
 
+    # Load user feedback
+    feedback = load_feedback()
+    fb_count = sum(len(v) for v in feedback.values()) if feedback else 0
+    log.info(f"  Feedback utenti caricati: {fb_count} voti")
+
     # 1. Scoring
     log.info("▸ Fase 1: Scoring rilevanza")
-    scores = compute_scores(jobs, profile)
+    scores = compute_scores(jobs, profile, feedback)
     avg_score = np.mean(scores) if scores else 0
     log.info(f"  Score medio: {avg_score:.1f} | Range: {min(scores)}-{max(scores)}")
 
@@ -633,7 +688,12 @@ def generate_insights(profile_id, profile):
         },
         "filter_suggestions": filter_suggestions,
         "keyword_recommendations": keyword_recs,
-        "anomalies": anomalies
+        "anomalies": anomalies,
+        "feedback_stats": {
+            "total_votes": fb_count,
+            "users": len(feedback),
+            "feedback_boost_active": fb_count > 0
+        }
     }
 
     # Save

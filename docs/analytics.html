@@ -128,6 +128,19 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:v
 .anomaly-item .sev.low{background:rgba(108,92,231,.15);color:var(--accent)}
 .anomaly-item .sev.info{background:rgba(108,92,231,.1);color:var(--text-dim)}
 .cluster-tag{display:inline-block;padding:3px 10px;border-radius:12px;background:var(--surface);border:1px solid var(--border);font-size:.78rem;margin:3px}
+
+/* Feedback */
+.fb-btn{background:none;border:1px solid var(--border);border-radius:6px;padding:2px 7px;cursor:pointer;font-size:.85rem;transition:all .2s;opacity:.5}
+.fb-btn:hover{opacity:1}
+.fb-btn.active-up{opacity:1;border-color:var(--success);background:var(--success-glow)}
+.fb-btn.active-down{opacity:1;border-color:var(--danger);background:rgba(231,76,60,.15)}
+.fb-stats{font-size:.72rem;color:var(--text-dim);margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}
+.fb-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px}
+.fb-panel h3{font-size:.92rem;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.fb-job{display:flex;align-items:center;gap:8px;padding:8px 12px;border-bottom:1px solid var(--border);font-size:.83rem}
+.fb-job:last-child{border-bottom:none}
+.fb-job .title{flex:1;font-weight:500}
+.fb-job .company{color:var(--text-dim);font-size:.78rem;min-width:100px;text-align:right}
 @media(max-width:768px){.chart-grid{grid-template-columns:1fr}.container{padding:16px 12px}.header{flex-direction:column;align-items:flex-start}}
 </style>
 </head>
@@ -163,14 +176,15 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:v
   <div id="kpiSection"></div>
   <div id="chartSection"></div>
   <div id="mlSection"></div>
+  <div id="fbSection"></div>
 </div>
 </div>
 
 <div class="toast" id="toast"></div>
 
 <script>
-const REPO='FabioDeLuca1977/ta-monitor',PROFILES_PATH='profiles.json',USERS_PATH='users.json';
-let token='',profilesData=null,usersData=null,currentUser=null,allJobs=[];
+const REPO='FabioDeLuca1977/ta-monitor',PROFILES_PATH='profiles.json',USERS_PATH='users.json',FEEDBACK_PATH='feedback.json';
+let token='',profilesData=null,usersData=null,currentUser=null,allJobs=[],feedbackData={},feedbackSha=null;
 
 async function hashPw(p){const e=new TextEncoder().encode(p);const b=await crypto.subtle.digest('SHA-256',e);return Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('')}
 
@@ -203,6 +217,7 @@ window.addEventListener('DOMContentLoaded',async()=>{
 
 async function showApp(){
   $('loginScreen').style.display='none';$('appScreen').style.display='block';
+  await loadFeedback();
   await loadProfiles()
 }
 
@@ -225,7 +240,7 @@ function onProfileChange(){loadData()}
 async function loadData(){
   const pid=$('profileSelect').value;if(!pid)return;
   $('kpiSection').innerHTML='<div class="loading"><div class="spinner"></div>Caricamento dati...</div>';
-  $('chartSection').innerHTML='';$('mlSection').innerHTML='';
+  $('chartSection').innerHTML='';$('mlSection').innerHTML='';$('fbSection').innerHTML='';
   try{
     // Load all available job files — try profile subdir first, then root output
     let jobsDir='output';let files=[];let jsonFiles=[];
@@ -272,6 +287,7 @@ async function loadData(){
     renderKPIs(allJobs,summary);
     renderCharts(allJobs);
     await loadMLInsights(pid,jobsDir);
+    renderFeedbackSection(allJobs);
     toast('Dati caricati: '+allJobs.length+' posizioni')
   }catch(e){
     $('kpiSection').innerHTML=`<div class="loading" style="color:var(--danger)">Errore: ${e.message}</div>`;
@@ -454,6 +470,16 @@ async function loadMLInsights(pid,jobsDir){
     $('mlSection').innerHTML='<div class="ml-panel full" style="text-align:center;padding:20px"><p style="color:var(--text-dim)">🧠 ML Insights non ancora disponibili. Verranno generati al prossimo scan.</p></div>';
     return
   }
+  // Map scores to allJobs for feedback display
+  const scoreMap={};
+  (ml.scoring?.top_jobs||[]).forEach(j=>{
+    const k=`${(j.title||'').toLowerCase()}|${(j.company||'').toLowerCase()}`;
+    scoreMap[k]=j.score;
+  });
+  allJobs.forEach(j=>{
+    const k=`${(j.title||'').toLowerCase()}|${(j.company||'').toLowerCase()}`;
+    if(scoreMap[k]!==undefined)j._ml_score=scoreMap[k];
+  });
   renderML(ml)
 }
 
@@ -543,6 +569,139 @@ function renderML(ml){
 
   html+='</div>';
   $('mlSection').innerHTML=html;
+}
+
+// === FEEDBACK SYSTEM ===
+async function loadFeedback(){
+  try{
+    const d=await ghGet(FEEDBACK_PATH);
+    feedbackSha=d.sha;
+    feedbackData=ghDecode(d);
+  }catch(e){
+    feedbackData={};feedbackSha=null;
+  }
+}
+
+function jobKey(title,company){
+  return `${(title||'').toLowerCase().trim()}|${(company||'').toLowerCase().trim()}`
+}
+
+function getFeedback(title,company){
+  const k=jobKey(title,company);
+  const userFb=(feedbackData[currentUser.username]||{})[k];
+  return userFb||null; // 'up' or 'down' or null
+}
+
+async function toggleFeedback(title,company,vote,btnEl){
+  const k=jobKey(title,company);
+  if(!feedbackData[currentUser.username])feedbackData[currentUser.username]={};
+
+  const current=feedbackData[currentUser.username][k];
+  if(current===vote){
+    // Toggle off
+    delete feedbackData[currentUser.username][k];
+  }else{
+    feedbackData[currentUser.username][k]={vote,title,company,ts:new Date().toISOString()};
+  }
+
+  // Update UI
+  const row=btnEl.closest('.fb-job')||btnEl.closest('.ml-job');
+  if(row){
+    row.querySelectorAll('.fb-btn').forEach(b=>b.className='fb-btn');
+    const newFb=feedbackData[currentUser.username][k];
+    if(newFb){
+      btnEl.classList.add(vote==='up'?'active-up':'active-down');
+    }
+  }
+
+  // Save to GitHub
+  await saveFeedback();
+  updateFeedbackStats();
+}
+
+async function saveFeedback(){
+  try{
+    const content=btoa(unescape(encodeURIComponent(JSON.stringify(feedbackData,null,2))));
+    const body={message:'📝 Feedback aggiornato',content};
+    if(feedbackSha)body.sha=feedbackSha;
+    const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${FEEDBACK_PATH}`,{
+      method:'PUT',
+      headers:{Authorization:`token ${token}`,'Content-Type':'application/json'},
+      body:JSON.stringify(body)
+    });
+    if(r.ok){const d=await r.json();feedbackSha=d.content.sha}
+  }catch(e){console.warn('Feedback save failed:',e)}
+}
+
+function updateFeedbackStats(){
+  const el=$('fbStats');if(!el)return;
+  const userFb=feedbackData[currentUser.username]||{};
+  const ups=Object.values(userFb).filter(f=>f.vote==='up').length;
+  const downs=Object.values(userFb).filter(f=>f.vote==='down').length;
+  el.innerHTML=`Il tuo feedback: <strong>${ups}</strong> 👍 &nbsp; <strong>${downs}</strong> 👎 &nbsp; (totale: ${ups+downs})`;
+}
+
+function renderFeedbackSection(allJobs){
+  // Show ALL jobs for feedback, sorted by ML score
+  const unique=dedup(allJobs);
+  const sorted=[...unique].sort((a,b)=>(b._ml_score||0)-(a._ml_score||0));
+  // Split into pages of 15
+  const perPage=15;
+  const pages=Math.ceil(sorted.length/perPage);
+
+  let html=`<div class="ml-grid"><div class="fb-panel full">
+    <h3>📝 Valuta gli annunci <span class="badge">Il tuo feedback migliora il ML</span></h3>
+    <p style="font-size:.8rem;color:var(--text-dim);margin-bottom:12px">Clicca 👍 per annunci rilevanti e 👎 per quelli irrilevanti. Il sistema impara dalle tue scelte.</p>
+    <div id="fbList"></div>
+    <div style="display:flex;gap:8px;margin-top:12px;align-items:center">
+      <button class="btn btn-ghost" id="fbPrev" onclick="fbPage(-1)" disabled>← Prec</button>
+      <span id="fbPageInfo" style="font-size:.78rem;color:var(--text-dim)"></span>
+      <button class="btn btn-ghost" id="fbNext" onclick="fbPage(1)">Succ →</button>
+    </div>
+    <div class="fb-stats" id="fbStats"></div>
+  </div></div>`;
+
+  $('fbSection').innerHTML=html;
+
+  // Store for pagination
+  window._fbJobs=sorted;
+  window._fbPageNum=0;
+  window._fbPerPage=perPage;
+  renderFbPage(0);
+  updateFeedbackStats();
+}
+
+function renderFbPage(page){
+  const jobs=window._fbJobs||[];
+  const pp=window._fbPerPage||15;
+  const start=page*pp;
+  const slice=jobs.slice(start,start+pp);
+  const pages=Math.ceil(jobs.length/pp);
+
+  $('fbList').innerHTML=slice.map(j=>{
+    const sc=j._ml_score||j.score||0;
+    const cls=sc>=80?'high':sc>=50?'mid':'low';
+    const fb=getFeedback(j.title,j.company);
+    const upCls=fb&&fb.vote==='up'?'active-up':'';
+    const downCls=fb&&fb.vote==='down'?'active-down':'';
+    const t=esc(j.title||'');const c=esc(j.company||'');
+    return `<div class="fb-job">
+      <span class="score-pill ${cls}" style="font-size:.7rem">${sc}</span>
+      <span class="title">${t}</span>
+      <span class="company">${c}</span>
+      <button class="fb-btn ${upCls}" onclick="toggleFeedback('${t.replace(/'/g,"\\'")}','${c.replace(/'/g,"\\'")}','up',this)">👍</button>
+      <button class="fb-btn ${downCls}" onclick="toggleFeedback('${t.replace(/'/g,"\\'")}','${c.replace(/'/g,"\\'")}','down',this)">👎</button>
+    </div>`
+  }).join('');
+
+  $('fbPageInfo').textContent=`Pagina ${page+1} di ${pages}`;
+  $('fbPrev').disabled=page<=0;
+  $('fbNext').disabled=page>=pages-1;
+  window._fbPageNum=page;
+}
+
+function fbPage(dir){
+  renderFbPage(window._fbPageNum+dir);
 }
 
 // === HELPERS ===

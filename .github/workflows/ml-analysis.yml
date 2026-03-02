@@ -1,0 +1,49 @@
+name: TA Monitor - ML Analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: 'Profilo da analizzare (ID o "all")'
+        required: false
+        default: 'all'
+
+permissions:
+  contents: write
+
+jobs:
+  ml:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Installa dipendenze
+        run: pip install -r requirements.txt
+
+      - name: 🧠 ML Insights
+        env:
+          PROFILE: ${{ github.event.inputs.profile || 'all' }}
+        run: |
+          python ml_insights.py --profile "$PROFILE"
+
+      - name: 💾 Committa risultati
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "TA Monitor Bot"
+          git add output/
+          if git diff --staged --quiet; then
+            echo "Nessun cambiamento ML"
+          else
+            DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "🧠 ML Analysis ${DATE}"
+            git push
+          fi
