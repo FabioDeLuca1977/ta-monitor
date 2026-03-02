@@ -521,12 +521,13 @@ function renderML(ml){
   if(kwRecs.length){
     html+=`<div class="ml-panel">
       <h3>🔑 Keyword suggerite <span class="badge">${kwRecs.length}</span></h3>
-      ${kwRecs.map(r=>{
+      ${kwRecs.map((r,i)=>{
         const cls=r.confidence>=70?'high':'mid';
-        return `<div class="kw-rec">
+        return `<div class="kw-rec" id="kw-${i}">
           <span class="word">${esc(r.keyword)}</span>
           <span style="flex:1;font-size:.78rem;color:var(--text-dim)">freq: ${r.frequency}x</span>
           <span class="conf ${cls}">${r.confidence}%</span>
+          <button class="btn btn-primary" style="padding:3px 10px;font-size:.72rem" onclick="applyKeyword('${esc(r.keyword).replace(/'/g,"\\'")}',this)">+ Aggiungi</button>
         </div>`
       }).join('')}
     </div>`;
@@ -538,9 +539,14 @@ function renderML(ml){
     html+=`<div class="ml-panel">
       <h3>🔧 Suggerimenti filtri</h3>
       ${addRel.length?`<p style="font-size:.78rem;color:var(--text-dim);margin-bottom:8px">Annunci ad alto score senza pattern match — considera di aggiungere pattern:</p>
-        ${addRel.map(s=>`<div class="sug-item good"><strong>${esc(s.title)}</strong> <span style="font-size:.75rem;color:var(--text-dim)">(score: ${s.score})</span></div>`).join('')}`:''}
+        ${addRel.map((s,i)=>{
+          const words=(s.title||'').split(/[\s\-\/\(\)]+/).filter(w=>w.length>3).slice(0,3).map(w=>w.toLowerCase()).join('.*');
+          return `<div class="sug-item good" id="rel-${i}"><strong>${esc(s.title)}</strong> <span style="font-size:.75rem;color:var(--text-dim)">(score: ${s.score})</span>
+            <button class="btn btn-primary" style="padding:3px 10px;font-size:.72rem;margin-left:8px" onclick="applyRelevant('${words.replace(/'/g,"\\'")}','${esc(s.title).replace(/'/g,"\\'")}',this)">+ Pattern</button></div>`
+        }).join('')}`:''}
       ${addBl.length?`<p style="font-size:.78rem;color:var(--text-dim);margin:12px 0 8px">Parole frequenti in annunci a basso score — possibili blacklist:</p>
-        ${addBl.map(s=>`<div class="sug-item warn"><span class="kw">${esc(s.word)}</span> ${s.count}x — ${esc(s.reason)}</div>`).join('')}`:''}
+        ${addBl.map((s,i)=>`<div class="sug-item warn" id="bl-${i}"><span class="kw">${esc(s.word)}</span> ${s.count}x — ${esc(s.reason)}
+          <button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem;margin-left:8px;background:var(--danger);color:#fff;border:none" onclick="applyBlacklist('${esc(s.word).replace(/'/g,"\\'")}',this)">+ Blocca</button></div>`).join('')}`:''}
       ${review.length?`<p style="font-size:.78rem;color:var(--text-dim);margin:12px 0 8px">Possibili falsi positivi da verificare:</p>
         ${review.map(s=>`<div class="sug-item"><strong>${esc(s.title)}</strong> <span style="font-size:.75rem;color:var(--text-dim)">(score: ${s.score}, pattern: ${esc(s.pattern)})</span></div>`).join('')}`:''}
     </div>`;
@@ -569,6 +575,61 @@ function renderML(ml){
 
   html+='</div>';
   $('mlSection').innerHTML=html;
+}
+
+// === APPLY SUGGESTIONS TO PROFILE ===
+async function applyKeyword(keyword,btn){
+  const pid=$('profileSelect').value;
+  if(!profilesData||!profilesData.profiles[pid])return;
+  const p=profilesData.profiles[pid];
+  if(!p.filters)p.filters={};
+  if(!p.filters.search_terms)p.filters.search_terms=[];
+  if(p.filters.search_terms.includes(keyword)){toast('Keyword già presente',true);return}
+  p.filters.search_terms.push(keyword);
+  const ok=await saveProfiles(`+ keyword: ${keyword}`);
+  if(ok){btn.textContent='✓ Aggiunto';btn.disabled=true;btn.style.opacity='.5';toast(`Keyword "${keyword}" aggiunta ai search terms`)}
+}
+
+async function applyRelevant(pattern,title,btn){
+  const pid=$('profileSelect').value;
+  if(!profilesData||!profilesData.profiles[pid])return;
+  const p=profilesData.profiles[pid];
+  if(!p.filters)p.filters={};
+  if(!p.filters.relevant_patterns)p.filters.relevant_patterns=[];
+  // Check duplicate
+  const exists=p.filters.relevant_patterns.some(rp=>(typeof rp==='string'?rp:rp.pattern)===pattern);
+  if(exists){toast('Pattern già presente',true);return}
+  p.filters.relevant_patterns.push({pattern,category:'ML Suggestion',note:`Da: ${title}`});
+  const ok=await saveProfiles(`+ relevant pattern: ${pattern}`);
+  if(ok){btn.textContent='✓ Aggiunto';btn.disabled=true;btn.style.opacity='.5';toast(`Pattern "${pattern}" aggiunto ai filtri di rilevanza`)}
+}
+
+async function applyBlacklist(word,btn){
+  const pid=$('profileSelect').value;
+  if(!profilesData||!profilesData.profiles[pid])return;
+  const p=profilesData.profiles[pid];
+  if(!p.filters)p.filters={};
+  if(!p.filters.blacklist)p.filters.blacklist=[];
+  const pattern=`(?i)\\\\b${word}\\\\b`;
+  const exists=p.filters.blacklist.some(bp=>(typeof bp==='string'?bp:bp.pattern).toLowerCase().includes(word.toLowerCase()));
+  if(exists){toast('Già in blacklist',true);return}
+  p.filters.blacklist.push({pattern:word,category:'ML Suggestion'});
+  const ok=await saveProfiles(`+ blacklist: ${word}`);
+  if(ok){btn.textContent='✓ Bloccato';btn.disabled=true;btn.style.opacity='.5';toast(`"${word}" aggiunto alla blacklist`)}
+}
+
+async function saveProfiles(note){
+  try{
+    // Get current sha
+    const current=await ghGet(PROFILES_PATH);
+    const content=btoa(unescape(encodeURIComponent(JSON.stringify(profilesData,null,2))));
+    const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${PROFILES_PATH}`,{
+      method:'PUT',
+      headers:{Authorization:`token ${token}`,'Content-Type':'application/json'},
+      body:JSON.stringify({message:`🤖 ML ${note}`,content,sha:current.sha})
+    });
+    return r.ok
+  }catch(e){toast('Errore: '+e.message,true);return false}
 }
 
 // === FEEDBACK SYSTEM ===
