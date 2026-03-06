@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-05T06:59:09.164857",
+  "generated_at": "2026-03-06T06:57:20.647032",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
   "total_jobs_analyzed": 166,
   "scoring": {
-    "average": 19.8,
+    "average": 19.0,
     "distribution": {
       "excellent": 0,
       "good": 12,
-      "medium": 22,
-      "low": 33,
+      "medium": 21,
+      "low": 34,
       "irrelevant": 99
     },
     "top_jobs": [
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1771545600000,
         "url": "https://www.linkedin.com/jobs/view/4375809486"
-      },
-      {
-        "title": "Talent Acquisition Associate - Maternity Leave",
-        "company": "Fendi",
-        "score": 74,
-        "site": "linkedin",
-        "date_posted": 1772064000000,
-        "url": "https://www.linkedin.com/jobs/view/4368728526"
       },
       {
         "title": "Talent Acquisition Manager",
@@ -78,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4324290308"
       },
       {
+        "title": "Talent Acquisition Associate - Maternity Leave",
+        "company": "Fendi",
+        "score": 69,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4368728526"
+      },
+      {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
         "score": 69,
@@ -126,22 +126,6 @@
         "url": "https://it.indeed.com/viewjob?jk=07c6d28d00f459d3"
       },
       {
-        "title": "Stagista ambito Tech Head Hunting / Selezione del Personale (Roma Eur -Rif.1124)",
-        "company": "EgoValeo | Tech Head Hunting",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1772064000000,
-        "url": "https://www.linkedin.com/jobs/view/4375547964"
-      },
-      {
-        "title": "Employer Branding Intern",
-        "company": "Joinrs",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1772064000000,
-        "url": "https://www.linkedin.com/jobs/view/4376561301"
-      },
-      {
         "title": "Recruitment Day 10 Marzo 2026 - Junior Customer Expansion Specialist",
         "company": "MioDottore",
         "score": 52,
@@ -158,12 +142,28 @@
         "url": "https://www.linkedin.com/jobs/view/4372463744"
       },
       {
+        "title": "Stagista ambito Tech Head Hunting / Selezione del Personale (Roma Eur -Rif.1124)",
+        "company": "EgoValeo | Tech Head Hunting",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4375547964"
+      },
+      {
         "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
         "company": "Gi Group Holding",
         "score": 49,
         "site": "linkedin",
         "date_posted": 1771977600000,
         "url": "https://www.linkedin.com/jobs/view/4375219457"
+      },
+      {
+        "title": "Employer Branding Intern",
+        "company": "Joinrs",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4376561301"
       },
       {
         "title": "Stagista Recruiter",
@@ -231,21 +231,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 40% a 100% (+60pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 40.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 60% a 0% (-60pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 60.0,
         "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 40% a 100% (+60pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 40.0,
+        "new_pct": 100.0
       }
     },
     {
