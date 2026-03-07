@@ -319,7 +319,7 @@ def init_db():
     return conn
 
 def job_id(title, company, url):
-    raw = f"{(title or '').lower().strip()}|{(company or '').lower().strip()}|{(url or '').strip()}"
+    raw = f"{str(title or '').lower().strip()}|{str(company or '').lower().strip()}|{str(url or '').strip()}"
     return hashlib.md5(raw.encode()).hexdigest()
 
 # === JOBSPY ===
@@ -667,9 +667,10 @@ def run_profile(profile_id, profile, hours_old, search_terms_override=None):
         ]
 
     def profile_is_relevant(title, description=""):
-        if not title:
+        if not title or (isinstance(title, float)):
             return False
-        title_str = title.strip()
+        title_str = str(title).strip()
+        description = str(description or "")
         # Blacklist
         for bp in bl_patterns:
             if bp.search(title_str):
