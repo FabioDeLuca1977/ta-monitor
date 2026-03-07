@@ -1174,7 +1174,23 @@
           "drug safety",
           "medical director",
           "clinical research associate",
-          "CRA monitor"
+          "CRA monitor",
+          "medical advisor oncology",
+          "medical advisor solid tumors",
+          "translational research",
+          "scientific affairs",
+          "medical communication",
+          "medical writing",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "medical device specialist",
+          "ATMP",
+          "advanced therapies"
         ],
         "relevant_patterns": [
           {
@@ -1291,6 +1307,71 @@
             "pattern": "market\\s+access.*(?:pharma|medical|health)",
             "category": "Market Access",
             "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:oncol|tumor|solid)",
+            "category": "Medical Advisor Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "translational\\s+(?:research|oncol)",
+            "category": "Translational Research",
+            "note": ""
+          },
+          {
+            "pattern": "KOL\\s+(?:engagement|management|liaison)",
+            "category": "KOL",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+(?:exchange|communication|affairs)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "evidence\\s+generation",
+            "category": "Evidence Generation",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence|\\bRWE\\b",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+development",
+            "category": "Clinical Development",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+(?:communication|writing)",
+            "category": "Medical Communication",
+            "note": ""
+          },
+          {
+            "pattern": "(?:mRNA|advanced\\s+therap|ATMP)",
+            "category": "Advanced Therapies",
+            "note": ""
+          },
+          {
+            "pattern": "(?:oncol|tumor|solid\\s+tumor|melanom|immuno.oncol)",
+            "category": "Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+scientific|CSO",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "preclinical.*(?:oncol|research|develop)",
+            "category": "Preclinical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
+            "category": "Medical Device",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -1317,7 +1398,27 @@
           "market access",
           "medical communication",
           "scientific advisor",
-          "medical writing"
+          "medical writing",
+          "medical advisor oncology",
+          "solid tumors",
+          "translational research",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "mRNA therapy",
+          "ATMP",
+          "advanced therapies",
+          "immuno-oncology",
+          "melanoma",
+          "preclinical oncology",
+          "medical device",
+          "CSO",
+          "scientific leadership",
+          "cross-functional"
         ],
         "blacklist": [
           {
@@ -1524,7 +1625,23 @@
           "drug safety",
           "medical director",
           "clinical research associate",
-          "CRA monitor"
+          "CRA monitor",
+          "medical advisor oncology",
+          "medical advisor solid tumors",
+          "translational research",
+          "scientific affairs",
+          "medical communication",
+          "medical writing",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "medical device specialist",
+          "ATMP",
+          "advanced therapies"
         ],
         "relevant_patterns": [
           {
@@ -1641,6 +1758,71 @@
             "pattern": "market\\s+access.*(?:pharma|medical|health)",
             "category": "Market Access",
             "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:oncol|tumor|solid)",
+            "category": "Medical Advisor Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "translational\\s+(?:research|oncol)",
+            "category": "Translational Research",
+            "note": ""
+          },
+          {
+            "pattern": "KOL\\s+(?:engagement|management|liaison)",
+            "category": "KOL",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+(?:exchange|communication|affairs)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "evidence\\s+generation",
+            "category": "Evidence Generation",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence|\\bRWE\\b",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+development",
+            "category": "Clinical Development",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+(?:communication|writing)",
+            "category": "Medical Communication",
+            "note": ""
+          },
+          {
+            "pattern": "(?:mRNA|advanced\\s+therap|ATMP)",
+            "category": "Advanced Therapies",
+            "note": ""
+          },
+          {
+            "pattern": "(?:oncol|tumor|solid\\s+tumor|melanom|immuno.oncol)",
+            "category": "Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+scientific|CSO",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "preclinical.*(?:oncol|research|develop)",
+            "category": "Preclinical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
+            "category": "Medical Device",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -1667,7 +1849,27 @@
           "market access",
           "medical communication",
           "scientific advisor",
-          "medical writing"
+          "medical writing",
+          "medical advisor oncology",
+          "solid tumors",
+          "translational research",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "mRNA therapy",
+          "ATMP",
+          "advanced therapies",
+          "immuno-oncology",
+          "melanoma",
+          "preclinical oncology",
+          "medical device",
+          "CSO",
+          "scientific leadership",
+          "cross-functional"
         ],
         "blacklist": [
           {
@@ -1874,7 +2076,23 @@
           "drug safety",
           "medical director",
           "clinical research associate",
-          "CRA monitor"
+          "CRA monitor",
+          "medical advisor oncology",
+          "medical advisor solid tumors",
+          "translational research",
+          "scientific affairs",
+          "medical communication",
+          "medical writing",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "medical device specialist",
+          "ATMP",
+          "advanced therapies"
         ],
         "relevant_patterns": [
           {
@@ -1991,6 +2209,71 @@
             "pattern": "market\\s+access.*(?:pharma|medical|health)",
             "category": "Market Access",
             "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:oncol|tumor|solid)",
+            "category": "Medical Advisor Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "translational\\s+(?:research|oncol)",
+            "category": "Translational Research",
+            "note": ""
+          },
+          {
+            "pattern": "KOL\\s+(?:engagement|management|liaison)",
+            "category": "KOL",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+(?:exchange|communication|affairs)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "evidence\\s+generation",
+            "category": "Evidence Generation",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence|\\bRWE\\b",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+development",
+            "category": "Clinical Development",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+(?:communication|writing)",
+            "category": "Medical Communication",
+            "note": ""
+          },
+          {
+            "pattern": "(?:mRNA|advanced\\s+therap|ATMP)",
+            "category": "Advanced Therapies",
+            "note": ""
+          },
+          {
+            "pattern": "(?:oncol|tumor|solid\\s+tumor|melanom|immuno.oncol)",
+            "category": "Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+scientific|CSO",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "preclinical.*(?:oncol|research|develop)",
+            "category": "Preclinical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
+            "category": "Medical Device",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -2017,7 +2300,27 @@
           "market access",
           "medical communication",
           "scientific advisor",
-          "medical writing"
+          "medical writing",
+          "medical advisor oncology",
+          "solid tumors",
+          "translational research",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "mRNA therapy",
+          "ATMP",
+          "advanced therapies",
+          "immuno-oncology",
+          "melanoma",
+          "preclinical oncology",
+          "medical device",
+          "CSO",
+          "scientific leadership",
+          "cross-functional"
         ],
         "blacklist": [
           {
@@ -2224,7 +2527,23 @@
           "drug safety",
           "medical director",
           "clinical research associate",
-          "CRA monitor"
+          "CRA monitor",
+          "medical advisor oncology",
+          "medical advisor solid tumors",
+          "translational research",
+          "scientific affairs",
+          "medical communication",
+          "medical writing",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "medical device specialist",
+          "ATMP",
+          "advanced therapies"
         ],
         "relevant_patterns": [
           {
@@ -2341,6 +2660,71 @@
             "pattern": "market\\s+access.*(?:pharma|medical|health)",
             "category": "Market Access",
             "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:oncol|tumor|solid)",
+            "category": "Medical Advisor Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "translational\\s+(?:research|oncol)",
+            "category": "Translational Research",
+            "note": ""
+          },
+          {
+            "pattern": "KOL\\s+(?:engagement|management|liaison)",
+            "category": "KOL",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+(?:exchange|communication|affairs)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "evidence\\s+generation",
+            "category": "Evidence Generation",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence|\\bRWE\\b",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+development",
+            "category": "Clinical Development",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+(?:communication|writing)",
+            "category": "Medical Communication",
+            "note": ""
+          },
+          {
+            "pattern": "(?:mRNA|advanced\\s+therap|ATMP)",
+            "category": "Advanced Therapies",
+            "note": ""
+          },
+          {
+            "pattern": "(?:oncol|tumor|solid\\s+tumor|melanom|immuno.oncol)",
+            "category": "Oncology",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+scientific|CSO",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "preclinical.*(?:oncol|research|develop)",
+            "category": "Preclinical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
+            "category": "Medical Device",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -2367,7 +2751,27 @@
           "market access",
           "medical communication",
           "scientific advisor",
-          "medical writing"
+          "medical writing",
+          "medical advisor oncology",
+          "solid tumors",
+          "translational research",
+          "KOL engagement",
+          "KOL management",
+          "scientific exchange",
+          "evidence generation",
+          "real world evidence",
+          "RWE",
+          "clinical development",
+          "mRNA therapy",
+          "ATMP",
+          "advanced therapies",
+          "immuno-oncology",
+          "melanoma",
+          "preclinical oncology",
+          "medical device",
+          "CSO",
+          "scientific leadership",
+          "cross-functional"
         ],
         "blacklist": [
           {
@@ -2575,7 +2979,22 @@
           "clinical regulatory",
           "regulatory compliance",
           "labeling specialist",
-          "medical device regulatory"
+          "medical device regulatory",
+          "regulatory affairs oncology",
+          "regulatory strategy",
+          "CTD dossier",
+          "MAA submission",
+          "EMA submission",
+          "AIFA compliance",
+          "clinical trial authorization",
+          "CTA submission",
+          "regulatory medical device",
+          "notified body",
+          "CE marking",
+          "MDR compliance",
+          "post-market surveillance",
+          "scientific advice EMA",
+          "variation management"
         ],
         "relevant_patterns": [
           {
@@ -2702,6 +3121,51 @@
             "pattern": "farmacovigilanz",
             "category": "Farmacovigilanza",
             "note": ""
+          },
+          {
+            "pattern": "regulatory.*(?:oncol|pharma|biotech)",
+            "category": "Regulatory Pharma",
+            "note": ""
+          },
+          {
+            "pattern": "(?:MAA|CTA|CTD)\\s+(?:submission|dossier|preparation)",
+            "category": "Regulatory Submission",
+            "note": ""
+          },
+          {
+            "pattern": "(?:EMA|AIFA|FDA).*(?:submission|approval|compliance|advice)",
+            "category": "Health Authority",
+            "note": ""
+          },
+          {
+            "pattern": "CE\\s+mark|MDR\\s+compliance|notified\\s+body",
+            "category": "Medical Device Regulatory",
+            "note": ""
+          },
+          {
+            "pattern": "post.market\\s+surveillance",
+            "category": "Post-Market",
+            "note": ""
+          },
+          {
+            "pattern": "variation\\s+management",
+            "category": "Regulatory Operations",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+trial\\s+authoriz",
+            "category": "CTA",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+advice",
+            "category": "Regulatory Strategy",
+            "note": ""
+          },
+          {
+            "pattern": "regulatory\\s+strateg",
+            "category": "Regulatory Strategy",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -2729,7 +3193,18 @@
           "dossier",
           "pharmacovigilance",
           "farmacovigilanza",
-          "regulatory strategy"
+          "regulatory strategy",
+          "regulatory oncology",
+          "MAA",
+          "CTA",
+          "EMA submission",
+          "CE marking",
+          "MDR",
+          "notified body",
+          "post-market surveillance",
+          "variation management",
+          "scientific advice",
+          "clinical trial authorization"
         ],
         "blacklist": [
           {
@@ -2937,7 +3412,22 @@
           "clinical regulatory",
           "regulatory compliance",
           "labeling specialist",
-          "medical device regulatory"
+          "medical device regulatory",
+          "regulatory affairs oncology",
+          "regulatory strategy",
+          "CTD dossier",
+          "MAA submission",
+          "EMA submission",
+          "AIFA compliance",
+          "clinical trial authorization",
+          "CTA submission",
+          "regulatory medical device",
+          "notified body",
+          "CE marking",
+          "MDR compliance",
+          "post-market surveillance",
+          "scientific advice EMA",
+          "variation management"
         ],
         "relevant_patterns": [
           {
@@ -3064,6 +3554,51 @@
             "pattern": "farmacovigilanz",
             "category": "Farmacovigilanza",
             "note": ""
+          },
+          {
+            "pattern": "regulatory.*(?:oncol|pharma|biotech)",
+            "category": "Regulatory Pharma",
+            "note": ""
+          },
+          {
+            "pattern": "(?:MAA|CTA|CTD)\\s+(?:submission|dossier|preparation)",
+            "category": "Regulatory Submission",
+            "note": ""
+          },
+          {
+            "pattern": "(?:EMA|AIFA|FDA).*(?:submission|approval|compliance|advice)",
+            "category": "Health Authority",
+            "note": ""
+          },
+          {
+            "pattern": "CE\\s+mark|MDR\\s+compliance|notified\\s+body",
+            "category": "Medical Device Regulatory",
+            "note": ""
+          },
+          {
+            "pattern": "post.market\\s+surveillance",
+            "category": "Post-Market",
+            "note": ""
+          },
+          {
+            "pattern": "variation\\s+management",
+            "category": "Regulatory Operations",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+trial\\s+authoriz",
+            "category": "CTA",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+advice",
+            "category": "Regulatory Strategy",
+            "note": ""
+          },
+          {
+            "pattern": "regulatory\\s+strateg",
+            "category": "Regulatory Strategy",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -3091,7 +3626,18 @@
           "dossier",
           "pharmacovigilance",
           "farmacovigilanza",
-          "regulatory strategy"
+          "regulatory strategy",
+          "regulatory oncology",
+          "MAA",
+          "CTA",
+          "EMA submission",
+          "CE marking",
+          "MDR",
+          "notified body",
+          "post-market surveillance",
+          "variation management",
+          "scientific advice",
+          "clinical trial authorization"
         ],
         "blacklist": [
           {
@@ -3299,7 +3845,22 @@
           "clinical regulatory",
           "regulatory compliance",
           "labeling specialist",
-          "medical device regulatory"
+          "medical device regulatory",
+          "regulatory affairs oncology",
+          "regulatory strategy",
+          "CTD dossier",
+          "MAA submission",
+          "EMA submission",
+          "AIFA compliance",
+          "clinical trial authorization",
+          "CTA submission",
+          "regulatory medical device",
+          "notified body",
+          "CE marking",
+          "MDR compliance",
+          "post-market surveillance",
+          "scientific advice EMA",
+          "variation management"
         ],
         "relevant_patterns": [
           {
@@ -3426,6 +3987,51 @@
             "pattern": "farmacovigilanz",
             "category": "Farmacovigilanza",
             "note": ""
+          },
+          {
+            "pattern": "regulatory.*(?:oncol|pharma|biotech)",
+            "category": "Regulatory Pharma",
+            "note": ""
+          },
+          {
+            "pattern": "(?:MAA|CTA|CTD)\\s+(?:submission|dossier|preparation)",
+            "category": "Regulatory Submission",
+            "note": ""
+          },
+          {
+            "pattern": "(?:EMA|AIFA|FDA).*(?:submission|approval|compliance|advice)",
+            "category": "Health Authority",
+            "note": ""
+          },
+          {
+            "pattern": "CE\\s+mark|MDR\\s+compliance|notified\\s+body",
+            "category": "Medical Device Regulatory",
+            "note": ""
+          },
+          {
+            "pattern": "post.market\\s+surveillance",
+            "category": "Post-Market",
+            "note": ""
+          },
+          {
+            "pattern": "variation\\s+management",
+            "category": "Regulatory Operations",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+trial\\s+authoriz",
+            "category": "CTA",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+advice",
+            "category": "Regulatory Strategy",
+            "note": ""
+          },
+          {
+            "pattern": "regulatory\\s+strateg",
+            "category": "Regulatory Strategy",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -3453,7 +4059,18 @@
           "dossier",
           "pharmacovigilance",
           "farmacovigilanza",
-          "regulatory strategy"
+          "regulatory strategy",
+          "regulatory oncology",
+          "MAA",
+          "CTA",
+          "EMA submission",
+          "CE marking",
+          "MDR",
+          "notified body",
+          "post-market surveillance",
+          "variation management",
+          "scientific advice",
+          "clinical trial authorization"
         ],
         "blacklist": [
           {
@@ -3661,7 +4278,22 @@
           "clinical regulatory",
           "regulatory compliance",
           "labeling specialist",
-          "medical device regulatory"
+          "medical device regulatory",
+          "regulatory affairs oncology",
+          "regulatory strategy",
+          "CTD dossier",
+          "MAA submission",
+          "EMA submission",
+          "AIFA compliance",
+          "clinical trial authorization",
+          "CTA submission",
+          "regulatory medical device",
+          "notified body",
+          "CE marking",
+          "MDR compliance",
+          "post-market surveillance",
+          "scientific advice EMA",
+          "variation management"
         ],
         "relevant_patterns": [
           {
@@ -3788,6 +4420,51 @@
             "pattern": "farmacovigilanz",
             "category": "Farmacovigilanza",
             "note": ""
+          },
+          {
+            "pattern": "regulatory.*(?:oncol|pharma|biotech)",
+            "category": "Regulatory Pharma",
+            "note": ""
+          },
+          {
+            "pattern": "(?:MAA|CTA|CTD)\\s+(?:submission|dossier|preparation)",
+            "category": "Regulatory Submission",
+            "note": ""
+          },
+          {
+            "pattern": "(?:EMA|AIFA|FDA).*(?:submission|approval|compliance|advice)",
+            "category": "Health Authority",
+            "note": ""
+          },
+          {
+            "pattern": "CE\\s+mark|MDR\\s+compliance|notified\\s+body",
+            "category": "Medical Device Regulatory",
+            "note": ""
+          },
+          {
+            "pattern": "post.market\\s+surveillance",
+            "category": "Post-Market",
+            "note": ""
+          },
+          {
+            "pattern": "variation\\s+management",
+            "category": "Regulatory Operations",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+trial\\s+authoriz",
+            "category": "CTA",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+advice",
+            "category": "Regulatory Strategy",
+            "note": ""
+          },
+          {
+            "pattern": "regulatory\\s+strateg",
+            "category": "Regulatory Strategy",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -3815,7 +4492,18 @@
           "dossier",
           "pharmacovigilance",
           "farmacovigilanza",
-          "regulatory strategy"
+          "regulatory strategy",
+          "regulatory oncology",
+          "MAA",
+          "CTA",
+          "EMA submission",
+          "CE marking",
+          "MDR",
+          "notified body",
+          "post-market surveillance",
+          "variation management",
+          "scientific advice",
+          "clinical trial authorization"
         ],
         "blacklist": [
           {
