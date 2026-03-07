@@ -1576,6 +1576,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
@@ -2027,6 +2167,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
@@ -2478,6 +2758,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
@@ -2929,6 +3349,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
@@ -3362,6 +3922,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
@@ -3795,6 +4495,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
@@ -4228,6 +5068,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
@@ -4661,6 +5641,146 @@
           {
             "pattern": "selezione\\s+pubblica",
             "category": "Bandi pubblici"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "victim\\s+advocate",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "marketing\\s+expert",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "marketing\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "laboratory\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "lab\\s+technician",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "waiter|waitress",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "chef\\b",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "kitchen",
+            "category": "Food / Retail"
+          },
+          {
+            "pattern": "housekeep",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "concierge",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "front\\s+desk",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "hotel\\s+manager",
+            "category": "Hospitality"
+          },
+          {
+            "pattern": "sales\\s+(?:representative|manager|director|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
+          },
+          {
+            "pattern": "area\\s+manager",
+            "category": "Sales"
+          },
+          {
+            "pattern": "informatore.*commercial",
+            "category": "Sales"
+          },
+          {
+            "pattern": "tecnico.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "analista.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "biologo.*laboratorio",
+            "category": "Lab Tecnico"
+          },
+          {
+            "pattern": "quality\\s+control(?!.*pharma)",
+            "category": "QC generico"
+          },
+          {
+            "pattern": "produzione|production\\s+(?:operator|manager)",
+            "category": "Production"
+          },
+          {
+            "pattern": "supply\\s+chain",
+            "category": "Operations"
+          },
+          {
+            "pattern": "logistic",
+            "category": "Operations"
+          },
+          {
+            "pattern": "warehouse",
+            "category": "Operations"
+          },
+          {
+            "pattern": "infermier",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "nurse\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "OSS\\b",
+            "category": "Nursing"
+          },
+          {
+            "pattern": "fisioterapi",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "veterinar",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "dentist|odontoiatr",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "teach|docen|insegnan",
+            "category": "Education"
+          },
+          {
+            "pattern": "tutor(?!.*(?:clinical|medical))",
+            "category": "Education"
+          },
+          {
+            "pattern": "call\\s+center|customer\\s+(?:service|care)",
+            "category": "Customer Service"
           }
         ],
         "agencies": [
