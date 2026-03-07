@@ -512,7 +512,10 @@ function renderAdmin(){
   $('adminSection').innerHTML=`<div class="admin-panel"><h2>👤 Utenti registrati</h2>
     ${usersData.users.map((u,i)=>`<div class="user-row">
       <div><span style="font-weight:500">${esc(u.username)}</span> <span style="font-size:.72rem;color:var(--text-dim)">(${u.role})</span>${u.email?` <span style="font-size:.72rem;color:var(--accent)">📧 ${esc(u.email)}</span>`:''}</div>
-      ${u.username!==currentUser.username?`<button class="btn btn-danger" style="padding:3px 8px;font-size:.72rem" onclick="rmUser(${i})">Rimuovi</button>`:'<span style="font-size:.72rem;color:var(--text-dim)">tu</span>'}
+      <div style="display:flex;gap:6px;align-items:center">
+        ${currentUser.role==='admin'?`<button class="btn btn-ghost" style="padding:3px 8px;font-size:.72rem" onclick="showChangePw('${esc(u.username)}')">🔑 Password</button>`:''}
+        ${u.username===currentUser.username?`<button class="btn btn-ghost" style="padding:3px 8px;font-size:.72rem" onclick="showChangePw('${esc(u.username)}')">🔑 Cambia password</button> <span style="font-size:.72rem;color:var(--text-dim)">tu</span>`:`<button class="btn btn-danger" style="padding:3px 8px;font-size:.72rem" onclick="rmUser(${i})">Rimuovi</button>`}
+      </div>
     </div>`).join('')}
     <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
       <p style="font-size:.78rem;color:var(--text-dim)">Per invitare qualcuno, condividi il codice di accesso <strong style="color:var(--accent)">JobSpy</strong> e il link della dashboard. Si registreranno da soli.</p>
@@ -522,6 +525,36 @@ function renderAdmin(){
   </div>`;
   const enc=localStorage.getItem('ta_token_enc');
   if(enc){$('setupLinkDisplay').value=`${window.location.origin}${window.location.pathname}?setup=${atob(enc)}`}
+}
+
+function showChangePw(username){
+  $('modalRoot').innerHTML=`<div class="modal-overlay" onclick="if(event.target===this)closeModal()"><div class="modal">
+    <h2>🔑 Cambia password</h2>
+    <p style="font-size:.85rem;color:var(--text-dim);margin-bottom:16px">Utente: <strong>${esc(username)}</strong></p>
+    <div class="field"><label>Nuova password</label><input type="password" id="newPw1"/></div>
+    <div class="field"><label>Conferma password</label><input type="password" id="newPw2" onkeydown="if(event.key==='Enter')doChangePw('${username}')"/></div>
+    <div class="error" id="pwError"></div>
+    <div style="display:flex;gap:8px;margin-top:16px">
+      <button class="btn btn-primary" onclick="doChangePw('${username}')">Salva</button>
+      <button class="btn btn-ghost" onclick="closeModal()">Annulla</button>
+    </div>
+  </div></div>`;
+}
+
+async function doChangePw(username){
+  const pw1=$('newPw1').value,pw2=$('newPw2').value,err=$('pwError');
+  if(!pw1||pw1.length<4){err.textContent='Password troppo corta (min 4 caratteri)';return}
+  if(pw1!==pw2){err.textContent='Le password non corrispondono';return}
+  err.textContent='';
+  const hash=await hashPw(pw1);
+  const user=usersData.users.find(u=>u.username===username);
+  if(!user){err.textContent='Utente non trovato';return}
+  user.password_hash=hash;
+  try{
+    const r=await ghPut(USERS_PATH,JSON.stringify(usersData,null,2),usersSha,`🔑 Password aggiornata: ${username}`);
+    usersSha=r.content.sha;
+    closeModal();toast('✓ Password aggiornata per '+username)
+  }catch(e){err.textContent='Errore: '+e.message}
 }
 async function rmUser(i){const u=usersData.users[i];if(!confirm(`Rimuovere ${u.username}?`))return;usersData.users.splice(i,1);try{const r=await ghPut(USERS_PATH,JSON.stringify(usersData,null,2),usersSha,`👤 -${u.username}`);usersSha=r.content.sha;renderAdmin();toast('Rimosso')}catch(e){toast('Errore: '+e.message,true)}}
 
