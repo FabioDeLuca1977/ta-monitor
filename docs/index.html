@@ -170,6 +170,40 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:v
 </div>
 </div>
 
+<datalist id="locationList">
+</datalist>
+<script>
+// Regioni italiane con capoluoghi e città principali
+const REGIONI_IT={
+'Abruzzo':['L\'Aquila','Pescara','Chieti','Teramo','Avezzano','Lanciano','Vasto','Sulmona','Montesilvano','Ortona'],
+'Basilicata':['Potenza','Matera','Melfi','Pisticci','Policoro','Venosa','Lavello','Rionero in Vulture'],
+'Calabria':['Catanzaro','Cosenza','Reggio Calabria','Crotone','Vibo Valentia','Lamezia Terme','Rende','Castrovillari'],
+'Campania':['Napoli','Salerno','Caserta','Avellino','Benevento','Torre del Greco','Giugliano','Castellammare di Stabia','Pozzuoli','Afragola','Nocera Inferiore','Battipaglia','Scafati','Ercolano','Portici','San Giorgio a Cremano','Acerra'],
+'Emilia-Romagna':['Bologna','Parma','Modena','Reggio Emilia','Ravenna','Rimini','Ferrara','Forlì','Piacenza','Cesena','Imola','Carpi','Faenza','Sassuolo'],
+'Friuli-Venezia Giulia':['Trieste','Udine','Pordenone','Gorizia','Monfalcone','Sacile','Cividale del Friuli'],
+'Lazio':['Roma','Roma Nord','Roma Sud','Roma Est','Roma Ovest','Formello','Fiumicino','Guidonia','Tivoli','Frascati','Monterotondo','Mentana','Ciampino','Pomezia','Aprilia','Anzio','Nettuno','Velletri','Albano Laziale','Marino','Colleferro','Bracciano','Cerveteri','Civitavecchia','Viterbo','Rieti','Latina','Frosinone','Cassino','Fondi','Terracina','Gaeta','Sora','Alatri'],
+'Liguria':['Genova','La Spezia','Savona','Imperia','Sanremo','Rapallo','Chiavari','Sestri Levante','Albenga'],
+'Lombardia':['Milano','Brescia','Bergamo','Monza','Como','Varese','Cremona','Pavia','Mantova','Lecco','Lodi','Sondrio','Busto Arsizio','Cinisello Balsamo','Sesto San Giovanni','Gallarate','Legnano','Rho','Desio','Seregno','Vigevano','Rozzano','Cologno Monzese','Paderno Dugnano','Abbiategrasso','Crema','Treviglio'],
+'Marche':['Ancona','Pesaro','Fano','Ascoli Piceno','Macerata','Fermo','San Benedetto del Tronto','Senigallia','Civitanova Marche','Jesi','Osimo','Fabriano'],
+'Molise':['Campobasso','Isernia','Termoli','Venafro'],
+'Piemonte':['Torino','Novara','Alessandria','Asti','Cuneo','Vercelli','Biella','Verbania','Moncalieri','Rivoli','Collegno','Nichelino','Settimo Torinese','Chieri','Ivrea','Casale Monferrato','Alba','Bra'],
+'Puglia':['Bari','Taranto','Lecce','Foggia','Brindisi','Barletta','Andria','Trani','Altamura','Molfetta','Cerignola','Manfredonia','Bitonto','Monopoli','San Severo','Martina Franca','Lucera'],
+'Sardegna':['Cagliari','Sassari','Quartu Sant\'Elena','Olbia','Alghero','Nuoro','Oristano','Carbonia','Iglesias','Selargius','Assemini'],
+'Sicilia':['Palermo','Catania','Messina','Siracusa','Ragusa','Trapani','Agrigento','Caltanissetta','Enna','Marsala','Gela','Vittoria','Modica','Acireale','Bagheria','Alcamo','Mazara del Vallo'],
+'Toscana':['Firenze','Prato','Livorno','Arezzo','Pisa','Lucca','Pistoia','Siena','Massa','Grosseto','Carrara','Empoli','Viareggio','Scandicci','Sesto Fiorentino','Pontedera','Poggibonsi'],
+'Trentino-Alto Adige':['Trento','Bolzano','Rovereto','Merano','Bressanone','Laives','Pergine Valsugana'],
+'Umbria':['Perugia','Terni','Foligno','Città di Castello','Spoleto','Gubbio','Assisi','Orvieto','Narni'],
+'Valle d\'Aosta':['Aosta','Châtillon','Sarre','Gressan','Saint-Vincent'],
+'Veneto':['Venezia','Verona','Padova','Vicenza','Treviso','Rovigo','Belluno','Mestre','Chioggia','Bassano del Grappa','San Donà di Piave','Conegliano','Schio','Montebelluna','Castelfranco Veneto','Jesolo','Mira','Spinea','Thiene']
+};
+// Populate datalist
+(function(){
+  const dl=document.getElementById('locationList');
+  Object.entries(REGIONI_IT).forEach(([reg,cities])=>{
+    cities.forEach(c=>{const o=document.createElement('option');o.value=`${c}, ${reg}, Italia`;dl.appendChild(o)});
+  });
+})();
+</script>
 <div class="toast" id="toast"></div>
 <div id="modalRoot"></div>
 
@@ -314,13 +348,21 @@ function renderProfileHeader(id,p){
   const mine=isMyProfile(id);
   const shared=id==='hr-roma'&&!mine;
   $('profileHeader').innerHTML=`<div class="profile-header">
-    <div class="profile-meta"><span class="name">${esc(p.name)}</span><span class="loc">📍 ${esc(p.location)}</span>${shared?'<span style="font-size:.72rem;background:var(--accent-glow);color:var(--accent);padding:2px 8px;border-radius:10px">condiviso</span>':''}</div>
+    <div class="profile-meta"><span class="name">${esc(p.name)}</span>${shared?'<span style="font-size:.72rem;background:var(--accent-glow);color:var(--accent);padding:2px 8px;border-radius:10px">condiviso</span>':''}</div>
     <div class="profile-actions">
+      ${mine?`<div style="display:flex;align-items:center;gap:6px"><span style="font-size:.78rem;color:var(--text-dim)">📍</span><input list="locationList" id="locEdit" value="${esc(p.location)}" style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:5px 10px;color:var(--text);font-family:inherit;font-size:.8rem;width:220px" onchange="updateLocation('${id}',this.value)" autocomplete="off"/></div>`:`<span class="loc">📍 ${esc(p.location)}</span>`}
       ${mine?`<label class="toggle"><input type="checkbox" ${p.auto_scan?'checked':''} onchange="toggleAutoScan('${id}',this.checked)"/><span class="slider"></span></label><span class="toggle-label">Cron auto</span>`:''}
       <button class="btn btn-ghost" style="font-size:.78rem" onclick="cloneProfile('${id}')">📋 Clona</button>
       ${mine&&id!=='hr-roma'?`<button class="btn btn-danger" style="font-size:.78rem;padding:5px 10px" onclick="deleteProfile('${id}')">🗑</button>`:''}
     </div>
   </div>`;
+}
+
+function updateLocation(id,loc){
+  if(!loc.trim())return;
+  profilesData.profiles[id].location=loc.trim();
+  markDirty();
+  toast('Location aggiornata: '+loc.trim())
 }
 
 function toggleAutoScan(id,v){profilesData.profiles[id].auto_scan=v;markDirty();renderProfileBar()}
@@ -331,7 +373,7 @@ function showNewProfileModal(cloneFrom){
   $('modalRoot').innerHTML=`<div class="modal-overlay" onclick="if(event.target===this)closeModal()"><div class="modal">
     <h2>${src?'Clona profilo':'Nuovo profilo'}</h2>
     <div class="field"><label>Nome</label><input id="mpName" value="${src?esc(src.name)+' (copia)':''}"/></div>
-    <div class="field"><label>Location</label><input id="mpLoc" value="${src?esc(src.location):'Roma, Lazio, Italia'}"/></div>
+    <div class="field"><label>Location</label><input id="mpLoc" list="locationList" value="${src?esc(src.location):'Roma, Lazio, Italia'}" autocomplete="off"/></div>
     <div class="field"><label>ID (slug, senza spazi)</label><input id="mpId" placeholder="es. data-analyst-mi"/></div>
     <div style="display:flex;gap:8px;margin-top:16px">
       <button class="btn btn-primary" onclick="createProfile('${cloneFrom||''}')">Crea</button>
