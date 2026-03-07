@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-07T19:59:50.397927",
+  "generated_at": "2026-03-07T20:09:36.405912",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 14,
+  "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 33.0,
+    "average": 30.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 8,
-      "low": 0,
-      "irrelevant": 6
+      "medium": 10,
+      "low": 5,
+      "irrelevant": 8
     },
     "top_jobs": [
       {
@@ -22,9 +22,17 @@
         "url": "https://www.linkedin.com/jobs/view/4378965340"
       },
       {
+        "title": "Clinical Specialist (f/m/d)",
+        "company": "W. L. Gore & Associates",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=e50b3c514abc4a60"
+      },
+      {
         "title": "Informatore scientifico",
         "company": "Pharmera",
-        "score": 54,
+        "score": 53,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4374283868"
@@ -78,6 +86,54 @@
         "url": "https://www.linkedin.com/jobs/view/4365567852"
       },
       {
+        "title": "Project Manager (Supply Chain Management, Engineering)",
+        "company": "Nanyang Technological University",
+        "score": 40,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=6852551f01e826f7"
+      },
+      {
+        "title": "Senior Software Development Engineer (Computer science, Computer Applications, Engineering)",
+        "company": "Nanyang Technological University",
+        "score": 32,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=d57f7a10f295812f"
+      },
+      {
+        "title": "Senior Research Scientist (Power Electronics in Flow-based Energy Storages)",
+        "company": "Nanyang Technological University",
+        "score": 31,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=6aeaae0709a22944"
+      },
+      {
+        "title": "Research Engineer (Vanadium Extraction & Process Development)",
+        "company": "Nanyang Technological University",
+        "score": 27,
+        "site": "indeed",
+        "date_posted": 1772409600000,
+        "url": "https://it.indeed.com/viewjob?jk=088702d5106b703b"
+      },
+      {
+        "title": "BMS Engineer (Flow battery systems)",
+        "company": "Nanyang Technological University",
+        "score": 26,
+        "site": "indeed",
+        "date_posted": 1772409600000,
+        "url": "https://it.indeed.com/viewjob?jk=aa4386d15aac7270"
+      },
+      {
+        "title": "Stack Scaling Engineer (Vanadium Redox Flow Battery (VRFB))",
+        "company": "Nanyang Technological University",
+        "score": 26,
+        "site": "indeed",
+        "date_posted": 1772409600000,
+        "url": "https://it.indeed.com/viewjob?jk=b52e9b92e15bc01c"
+      },
+      {
         "title": "Marketing Expert",
         "company": "Fidia Farmaceutici Spa",
         "score": 10,
@@ -116,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=d8eca911c0b068a2"
-      },
-      {
-        "title": "Recreation Aid (Developmental) NF-01",
-        "company": null,
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772409600000,
-        "url": "https://it.indeed.com/viewjob?jk=f440994f6ab79fdf"
       }
     ]
   },
@@ -137,8 +185,57 @@
     {
       "type": "info",
       "severity": "info",
-      "message": "📊 14 annunci analizzati su 1 scan. Servono più scan per confronti storici.",
+      "message": "📊 23 annunci analizzati su 1 scan. Servono più scan per confronti storici.",
       "data": {}
+    },
+    {
+      "type": "role_clusters",
+      "severity": "info",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "data": {
+        "clusters": [
+          {
+            "id": 3,
+            "size": 13,
+            "top_terms": [
+              "engineer",
+              "flow",
+              "engineering"
+            ],
+            "pct": 56.5
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "scientifico",
+              "informatore",
+              "veneto"
+            ],
+            "pct": 21.7
+          },
+          {
+            "id": 1,
+            "size": 3,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "veneto"
+            ],
+            "pct": 13.0
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "nf",
+              "veneto",
+              "vanadium"
+            ],
+            "pct": 8.7
+          }
+        ]
+      }
     }
   ],
   "feedback_stats": {
