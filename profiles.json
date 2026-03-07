@@ -1844,6 +1844,42 @@
           {
             "pattern": "propaganda\\s+(?:medica|scientifica)",
             "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
@@ -2563,6 +2599,42 @@
           {
             "pattern": "propaganda\\s+(?:medica|scientifica)",
             "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
@@ -3282,6 +3354,42 @@
           {
             "pattern": "propaganda\\s+(?:medica|scientifica)",
             "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
@@ -4001,6 +4109,42 @@
           {
             "pattern": "propaganda\\s+(?:medica|scientifica)",
             "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
@@ -4574,6 +4718,42 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
@@ -5147,6 +5327,42 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
@@ -5720,6 +5936,42 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
@@ -6293,6 +6545,42 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "speech\\s+therapist|logopedist",
+            "category": "Healthcare"
+          },
+          {
+            "pattern": "battery|vanadium|redox|flow\\s+energy",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "BMS\\s+engineer",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "power\\s+electronics",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "stack\\s+scaling",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "\\bengineering\\b(?!.*(?:medical|pharma|clinical|regulatory))",
+            "category": "Engineering"
+          },
+          {
+            "pattern": "recreation\\s+aid",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "CYS\\s+assistant",
+            "category": "Non pertinente"
+          },
+          {
+            "pattern": "NF-\\d+",
+            "category": "Non pertinente"
           }
         ],
         "agencies": [
