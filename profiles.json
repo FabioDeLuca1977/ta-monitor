@@ -572,6 +572,32 @@
           "Articolo1"
         ]
       }
+    },
+    "hr-roma-nord": {
+      "name": "Selezione HR Roma Nord",
+      "description": "",
+      "auto_scan": false,
+      "location": "Roma, Lazio, Italia",
+      "hours_old": 168,
+      "created": "2026-03-07T19:17:14.033Z",
+      "created_by": "delufabio@gmail.com",
+      "filters": {
+        "search_terms": [
+          "HR",
+          "Human Resources",
+          "Recruiter",
+          "Selezionatore",
+          "Talent Acquisition",
+          "HRBP",
+          "HR Business partner"
+        ],
+        "relevant_patterns": [],
+        "broad_keywords": [],
+        "blacklist": [],
+        "agencies": []
+      }
     }
-  }
+  },
+  "_updated": "2026-03-07T19:19:30.365Z",
+  "_updated_by": "delufabio@gmail.com"
 }
