@@ -1168,9 +1168,6 @@
           "medical information",
           "pharmacovigilance",
           "farmacovigilanza",
-          "informatore scientifico",
-          "informatore medico scientifico",
-          "ISF",
           "drug safety",
           "medical director",
           "clinical research associate",
@@ -1190,7 +1187,30 @@
           "clinical development",
           "medical device specialist",
           "ATMP",
-          "advanced therapies"
+          "advanced therapies",
+          "medical advisor hematology",
+          "medical advisor immunology",
+          "senior medical advisor",
+          "associate medical director",
+          "medical affairs manager",
+          "medical affairs director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO pharma",
+          "medical lead",
+          "therapeutic area lead",
+          "medical science liaison oncology",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "regional medical liaison",
+          "medical affairs specialist",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "real world evidence manager",
+          "HEOR manager",
+          "market access manager pharma"
         ],
         "relevant_patterns": [
           {
@@ -1267,16 +1287,6 @@
             "pattern": "drug\\s+safety",
             "category": "Farmacovigilanza",
             "note": ""
-          },
-          {
-            "pattern": "informator.*(?:scientifico|medico)",
-            "category": "ISF",
-            "note": ""
-          },
-          {
-            "pattern": "\\bISF\\b",
-            "category": "ISF",
-            "note": "Acronimo"
           },
           {
             "pattern": "medical\\s+information",
@@ -1372,6 +1382,91 @@
             "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
             "category": "Medical Device",
             "note": ""
+          },
+          {
+            "pattern": "senior\\s+medical\\s+advisor",
+            "category": "Medical Advisor Senior",
+            "note": ""
+          },
+          {
+            "pattern": "associate\\s+medical\\s+director",
+            "category": "Medical Director",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+affairs\\s+(?:manager|director|head|lead)",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "head\\s+(?:of\\s+)?medical\\s+affairs",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+director",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+medical\\s+officer|\\bCMO\\b",
+            "category": "C-Level Medical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+lead",
+            "category": "Medical Lead",
+            "note": ""
+          },
+          {
+            "pattern": "therapeutic\\s+area\\s+(?:lead|manager|director)",
+            "category": "TA Lead",
+            "note": ""
+          },
+          {
+            "pattern": "MSL.*(?:oncol|manager|director|lead)",
+            "category": "MSL Senior",
+            "note": ""
+          },
+          {
+            "pattern": "field\\s+medical\\s+(?:director|lead|manager)",
+            "category": "Field Medical Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "regional\\s+medical\\s+(?:liaison|manager|lead)",
+            "category": "Regional Medical",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+science\\s+liaison",
+            "category": "Clinical Science",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+affairs\\s+(?:manager|director)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence\\s+(?:manager|director|lead)",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "HEOR\\s+(?:manager|director|specialist)",
+            "category": "HEOR",
+            "note": ""
+          },
+          {
+            "pattern": "market\\s+access\\s+(?:manager|director).*(?:pharma|medical)",
+            "category": "Market Access",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:biotech|pharma|biopharma)",
+            "category": "Medical Advisor",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -1385,8 +1480,6 @@
           "pharmacovigilance",
           "farmacovigilanza",
           "drug safety",
-          "informatore scientifico",
-          "ISF",
           "clinical research",
           "CRA",
           "medical information",
@@ -1418,7 +1511,26 @@
           "medical device",
           "CSO",
           "scientific leadership",
-          "cross-functional"
+          "cross-functional",
+          "senior medical advisor",
+          "associate medical director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO",
+          "medical lead",
+          "therapeutic area lead",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "RWE manager",
+          "HEOR manager",
+          "market access pharma",
+          "medical affairs leadership",
+          "biopharma",
+          "biotech medical"
         ],
         "blacklist": [
           {
@@ -1716,6 +1828,22 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "informator.*(?:scientifico|medico|farmac)",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "\\bISF\\b",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "informazione\\s+scientifica",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "propaganda\\s+(?:medica|scientifica)",
+            "category": "ISF (commerciale)"
           }
         ],
         "agencies": [
@@ -1759,9 +1887,6 @@
           "medical information",
           "pharmacovigilance",
           "farmacovigilanza",
-          "informatore scientifico",
-          "informatore medico scientifico",
-          "ISF",
           "drug safety",
           "medical director",
           "clinical research associate",
@@ -1781,7 +1906,30 @@
           "clinical development",
           "medical device specialist",
           "ATMP",
-          "advanced therapies"
+          "advanced therapies",
+          "medical advisor hematology",
+          "medical advisor immunology",
+          "senior medical advisor",
+          "associate medical director",
+          "medical affairs manager",
+          "medical affairs director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO pharma",
+          "medical lead",
+          "therapeutic area lead",
+          "medical science liaison oncology",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "regional medical liaison",
+          "medical affairs specialist",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "real world evidence manager",
+          "HEOR manager",
+          "market access manager pharma"
         ],
         "relevant_patterns": [
           {
@@ -1858,16 +2006,6 @@
             "pattern": "drug\\s+safety",
             "category": "Farmacovigilanza",
             "note": ""
-          },
-          {
-            "pattern": "informator.*(?:scientifico|medico)",
-            "category": "ISF",
-            "note": ""
-          },
-          {
-            "pattern": "\\bISF\\b",
-            "category": "ISF",
-            "note": "Acronimo"
           },
           {
             "pattern": "medical\\s+information",
@@ -1963,6 +2101,91 @@
             "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
             "category": "Medical Device",
             "note": ""
+          },
+          {
+            "pattern": "senior\\s+medical\\s+advisor",
+            "category": "Medical Advisor Senior",
+            "note": ""
+          },
+          {
+            "pattern": "associate\\s+medical\\s+director",
+            "category": "Medical Director",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+affairs\\s+(?:manager|director|head|lead)",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "head\\s+(?:of\\s+)?medical\\s+affairs",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+director",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+medical\\s+officer|\\bCMO\\b",
+            "category": "C-Level Medical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+lead",
+            "category": "Medical Lead",
+            "note": ""
+          },
+          {
+            "pattern": "therapeutic\\s+area\\s+(?:lead|manager|director)",
+            "category": "TA Lead",
+            "note": ""
+          },
+          {
+            "pattern": "MSL.*(?:oncol|manager|director|lead)",
+            "category": "MSL Senior",
+            "note": ""
+          },
+          {
+            "pattern": "field\\s+medical\\s+(?:director|lead|manager)",
+            "category": "Field Medical Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "regional\\s+medical\\s+(?:liaison|manager|lead)",
+            "category": "Regional Medical",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+science\\s+liaison",
+            "category": "Clinical Science",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+affairs\\s+(?:manager|director)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence\\s+(?:manager|director|lead)",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "HEOR\\s+(?:manager|director|specialist)",
+            "category": "HEOR",
+            "note": ""
+          },
+          {
+            "pattern": "market\\s+access\\s+(?:manager|director).*(?:pharma|medical)",
+            "category": "Market Access",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:biotech|pharma|biopharma)",
+            "category": "Medical Advisor",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -1976,8 +2199,6 @@
           "pharmacovigilance",
           "farmacovigilanza",
           "drug safety",
-          "informatore scientifico",
-          "ISF",
           "clinical research",
           "CRA",
           "medical information",
@@ -2009,7 +2230,26 @@
           "medical device",
           "CSO",
           "scientific leadership",
-          "cross-functional"
+          "cross-functional",
+          "senior medical advisor",
+          "associate medical director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO",
+          "medical lead",
+          "therapeutic area lead",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "RWE manager",
+          "HEOR manager",
+          "market access pharma",
+          "medical affairs leadership",
+          "biopharma",
+          "biotech medical"
         ],
         "blacklist": [
           {
@@ -2307,6 +2547,22 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "informator.*(?:scientifico|medico|farmac)",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "\\bISF\\b",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "informazione\\s+scientifica",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "propaganda\\s+(?:medica|scientifica)",
+            "category": "ISF (commerciale)"
           }
         ],
         "agencies": [
@@ -2350,9 +2606,6 @@
           "medical information",
           "pharmacovigilance",
           "farmacovigilanza",
-          "informatore scientifico",
-          "informatore medico scientifico",
-          "ISF",
           "drug safety",
           "medical director",
           "clinical research associate",
@@ -2372,7 +2625,30 @@
           "clinical development",
           "medical device specialist",
           "ATMP",
-          "advanced therapies"
+          "advanced therapies",
+          "medical advisor hematology",
+          "medical advisor immunology",
+          "senior medical advisor",
+          "associate medical director",
+          "medical affairs manager",
+          "medical affairs director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO pharma",
+          "medical lead",
+          "therapeutic area lead",
+          "medical science liaison oncology",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "regional medical liaison",
+          "medical affairs specialist",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "real world evidence manager",
+          "HEOR manager",
+          "market access manager pharma"
         ],
         "relevant_patterns": [
           {
@@ -2449,16 +2725,6 @@
             "pattern": "drug\\s+safety",
             "category": "Farmacovigilanza",
             "note": ""
-          },
-          {
-            "pattern": "informator.*(?:scientifico|medico)",
-            "category": "ISF",
-            "note": ""
-          },
-          {
-            "pattern": "\\bISF\\b",
-            "category": "ISF",
-            "note": "Acronimo"
           },
           {
             "pattern": "medical\\s+information",
@@ -2554,6 +2820,91 @@
             "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
             "category": "Medical Device",
             "note": ""
+          },
+          {
+            "pattern": "senior\\s+medical\\s+advisor",
+            "category": "Medical Advisor Senior",
+            "note": ""
+          },
+          {
+            "pattern": "associate\\s+medical\\s+director",
+            "category": "Medical Director",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+affairs\\s+(?:manager|director|head|lead)",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "head\\s+(?:of\\s+)?medical\\s+affairs",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+director",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+medical\\s+officer|\\bCMO\\b",
+            "category": "C-Level Medical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+lead",
+            "category": "Medical Lead",
+            "note": ""
+          },
+          {
+            "pattern": "therapeutic\\s+area\\s+(?:lead|manager|director)",
+            "category": "TA Lead",
+            "note": ""
+          },
+          {
+            "pattern": "MSL.*(?:oncol|manager|director|lead)",
+            "category": "MSL Senior",
+            "note": ""
+          },
+          {
+            "pattern": "field\\s+medical\\s+(?:director|lead|manager)",
+            "category": "Field Medical Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "regional\\s+medical\\s+(?:liaison|manager|lead)",
+            "category": "Regional Medical",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+science\\s+liaison",
+            "category": "Clinical Science",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+affairs\\s+(?:manager|director)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence\\s+(?:manager|director|lead)",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "HEOR\\s+(?:manager|director|specialist)",
+            "category": "HEOR",
+            "note": ""
+          },
+          {
+            "pattern": "market\\s+access\\s+(?:manager|director).*(?:pharma|medical)",
+            "category": "Market Access",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:biotech|pharma|biopharma)",
+            "category": "Medical Advisor",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -2567,8 +2918,6 @@
           "pharmacovigilance",
           "farmacovigilanza",
           "drug safety",
-          "informatore scientifico",
-          "ISF",
           "clinical research",
           "CRA",
           "medical information",
@@ -2600,7 +2949,26 @@
           "medical device",
           "CSO",
           "scientific leadership",
-          "cross-functional"
+          "cross-functional",
+          "senior medical advisor",
+          "associate medical director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO",
+          "medical lead",
+          "therapeutic area lead",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "RWE manager",
+          "HEOR manager",
+          "market access pharma",
+          "medical affairs leadership",
+          "biopharma",
+          "biotech medical"
         ],
         "blacklist": [
           {
@@ -2898,6 +3266,22 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "informator.*(?:scientifico|medico|farmac)",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "\\bISF\\b",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "informazione\\s+scientifica",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "propaganda\\s+(?:medica|scientifica)",
+            "category": "ISF (commerciale)"
           }
         ],
         "agencies": [
@@ -2941,9 +3325,6 @@
           "medical information",
           "pharmacovigilance",
           "farmacovigilanza",
-          "informatore scientifico",
-          "informatore medico scientifico",
-          "ISF",
           "drug safety",
           "medical director",
           "clinical research associate",
@@ -2963,7 +3344,30 @@
           "clinical development",
           "medical device specialist",
           "ATMP",
-          "advanced therapies"
+          "advanced therapies",
+          "medical advisor hematology",
+          "medical advisor immunology",
+          "senior medical advisor",
+          "associate medical director",
+          "medical affairs manager",
+          "medical affairs director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO pharma",
+          "medical lead",
+          "therapeutic area lead",
+          "medical science liaison oncology",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "regional medical liaison",
+          "medical affairs specialist",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "real world evidence manager",
+          "HEOR manager",
+          "market access manager pharma"
         ],
         "relevant_patterns": [
           {
@@ -3040,16 +3444,6 @@
             "pattern": "drug\\s+safety",
             "category": "Farmacovigilanza",
             "note": ""
-          },
-          {
-            "pattern": "informator.*(?:scientifico|medico)",
-            "category": "ISF",
-            "note": ""
-          },
-          {
-            "pattern": "\\bISF\\b",
-            "category": "ISF",
-            "note": "Acronimo"
           },
           {
             "pattern": "medical\\s+information",
@@ -3145,6 +3539,91 @@
             "pattern": "medical\\s+device.*(?:specialist|manager|regulatory)",
             "category": "Medical Device",
             "note": ""
+          },
+          {
+            "pattern": "senior\\s+medical\\s+advisor",
+            "category": "Medical Advisor Senior",
+            "note": ""
+          },
+          {
+            "pattern": "associate\\s+medical\\s+director",
+            "category": "Medical Director",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+affairs\\s+(?:manager|director|head|lead)",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "head\\s+(?:of\\s+)?medical\\s+affairs",
+            "category": "Medical Affairs Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+director",
+            "category": "Scientific Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "chief\\s+medical\\s+officer|\\bCMO\\b",
+            "category": "C-Level Medical",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+lead",
+            "category": "Medical Lead",
+            "note": ""
+          },
+          {
+            "pattern": "therapeutic\\s+area\\s+(?:lead|manager|director)",
+            "category": "TA Lead",
+            "note": ""
+          },
+          {
+            "pattern": "MSL.*(?:oncol|manager|director|lead)",
+            "category": "MSL Senior",
+            "note": ""
+          },
+          {
+            "pattern": "field\\s+medical\\s+(?:director|lead|manager)",
+            "category": "Field Medical Leadership",
+            "note": ""
+          },
+          {
+            "pattern": "regional\\s+medical\\s+(?:liaison|manager|lead)",
+            "category": "Regional Medical",
+            "note": ""
+          },
+          {
+            "pattern": "clinical\\s+science\\s+liaison",
+            "category": "Clinical Science",
+            "note": ""
+          },
+          {
+            "pattern": "scientific\\s+affairs\\s+(?:manager|director)",
+            "category": "Scientific Affairs",
+            "note": ""
+          },
+          {
+            "pattern": "real\\s+world\\s+evidence\\s+(?:manager|director|lead)",
+            "category": "RWE",
+            "note": ""
+          },
+          {
+            "pattern": "HEOR\\s+(?:manager|director|specialist)",
+            "category": "HEOR",
+            "note": ""
+          },
+          {
+            "pattern": "market\\s+access\\s+(?:manager|director).*(?:pharma|medical)",
+            "category": "Market Access",
+            "note": ""
+          },
+          {
+            "pattern": "medical\\s+advisor.*(?:biotech|pharma|biopharma)",
+            "category": "Medical Advisor",
+            "note": ""
           }
         ],
         "broad_keywords": [
@@ -3158,8 +3637,6 @@
           "pharmacovigilance",
           "farmacovigilanza",
           "drug safety",
-          "informatore scientifico",
-          "ISF",
           "clinical research",
           "CRA",
           "medical information",
@@ -3191,7 +3668,26 @@
           "medical device",
           "CSO",
           "scientific leadership",
-          "cross-functional"
+          "cross-functional",
+          "senior medical advisor",
+          "associate medical director",
+          "head of medical affairs",
+          "scientific director",
+          "chief medical officer",
+          "CMO",
+          "medical lead",
+          "therapeutic area lead",
+          "MSL oncology",
+          "MSL manager",
+          "field medical director",
+          "clinical science liaison",
+          "scientific affairs manager",
+          "RWE manager",
+          "HEOR manager",
+          "market access pharma",
+          "medical affairs leadership",
+          "biopharma",
+          "biotech medical"
         ],
         "blacklist": [
           {
@@ -3489,6 +3985,22 @@
           {
             "pattern": "call\\s+center|customer\\s+(?:service|care)",
             "category": "Customer Service"
+          },
+          {
+            "pattern": "informator.*(?:scientifico|medico|farmac)",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "\\bISF\\b",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "informazione\\s+scientifica",
+            "category": "ISF (commerciale)"
+          },
+          {
+            "pattern": "propaganda\\s+(?:medica|scientifica)",
+            "category": "ISF (commerciale)"
           }
         ],
         "agencies": [
