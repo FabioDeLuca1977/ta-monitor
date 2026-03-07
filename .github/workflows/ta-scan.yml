@@ -63,32 +63,6 @@ jobs:
             output/*.json
           retention-days: 90
 
-      - name: 📝 Prepara email body
-        id: summary
-        run: |
-          BODY=$(python -c "
-          import json, glob, os
-          summaries = glob.glob('output/**/summary.json', recursive=True) + glob.glob('output/summary.json')
-          lines = []
-          for sp in set(summaries):
-              try:
-                  d = json.load(open(sp))
-                  name = d.get('profile', 'default')
-                  lines.append(f'[{name}] Grezzo: {d.get(\"total_raw\",0)} | Scartati: {d.get(\"filtered_irrelevant\",0)} | Nuove: {d.get(\"new_jobs\",0)} | Duplicati: {d.get(\"duplicates_removed\",0)}')
-              except: pass
-          print('\n'.join(lines) if lines else 'Nessun dato')
-          ")
-          echo "email_body<<EOF" >> $GITHUB_OUTPUT
-          echo "Ciao," >> $GITHUB_OUTPUT
-          echo "" >> $GITHUB_OUTPUT
-          echo "Report giornaliero TA Monitor:" >> $GITHUB_OUTPUT
-          echo "" >> $GITHUB_OUTPUT
-          echo "$BODY" >> $GITHUB_OUTPUT
-          echo "" >> $GITHUB_OUTPUT
-          echo "Report Excel in allegato." >> $GITHUB_OUTPUT
-          echo "-- TA Monitor Bot" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
       - name: 💾 Committa risultati
         run: |
           git config --local user.email "action@github.com"
@@ -103,16 +77,11 @@ jobs:
             git push
           fi
 
-      - name: 📧 Invio email report
+      - name: 📧 Invio email personalizzate
         if: vars.ENABLE_EMAIL == 'true'
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: ${{ secrets.SMTP_HOST }}
-          server_port: ${{ secrets.SMTP_PORT }}
-          username: ${{ secrets.SMTP_USER }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "📋 TA Monitor — Report"
-          to: ${{ secrets.EMAIL_RECIPIENTS }}
-          from: "TA Monitor <${{ secrets.SMTP_USER }}>"
-          body: ${{ steps.summary.outputs.email_body }}
-          attachments: output/**/*.xlsx,output/*.xlsx
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: python send_reports.py
