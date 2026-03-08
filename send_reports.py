@@ -2,17 +2,16 @@
 """
 TA Monitor — Email Report Personalizzato
 
-Invia email a ogni utente registrato con il report dei SOLI profili assegnati.
-- Admin (fabio) riceve il report di TUTTI i profili
-- Utenti normali ricevono solo i profili con created_by = loro username + hr-roma (condiviso)
+Invia email SOLO per il profilo scansionato, SOLO al proprietario del profilo.
+- Se profile=all → invia a ogni utente i report dei SUOI profili con auto_scan=true
+- Se profile=<id> → invia SOLO al proprietario di quel profilo
 
 Uso:
-    python send_reports.py
-
-Variabili d'ambiente richieste:
-    SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD
+    python send_reports.py --profile hr-roma
+    python send_reports.py --profile all
 """
 
+import argparse
 import json
 import logging
 import os
@@ -39,22 +38,33 @@ def load_json(path):
     return None
 
 
-def get_user_profiles(username, role, profiles):
-    """Restituisce i profili visibili per un utente."""
-    visible = {}
-    for pid, p in profiles.items():
-        if role == "admin":
-            visible[pid] = p
-        elif pid == "hr-roma":
-            visible[pid] = p  # condiviso
-        elif p.get("created_by") == username:
-            visible[pid] = p
-    return visible
+def find_profile_owner(profile_id, profile, users):
+    """Trova il proprietario del profilo e la sua email."""
+    created_by = profile.get("created_by", "")
+    report_email = profile.get("report_email", "").strip()
+    
+    # Priority 1: report_email nel profilo
+    if report_email:
+        return report_email, created_by
+    
+    # Priority 2: email dell'utente proprietario
+    for user in users:
+        if user.get("username") == created_by and user.get("email"):
+            return user["email"], created_by
+    
+    # Priority 3: admin email (fallback)
+    for user in users:
+        if user.get("role") == "admin" and user.get("email"):
+            return user["email"], user["username"]
+    
+    return None, created_by
 
 
-def build_report_html(user_profiles):
-    """Genera il corpo email HTML con i risultati per i profili dell'utente."""
+def build_report_html(profile_id, profile):
+    """Genera il corpo email HTML per un singolo profilo."""
     today = datetime.now().strftime("%d/%m/%Y")
+    name = profile.get("name", profile_id)
+    location = profile.get("location", "")
     
     html = f"""
     <html>
@@ -73,96 +83,88 @@ def build_report_html(user_profiles):
         a {{ color: #6c5ce7; text-decoration: none; }}
         .footer {{ margin-top: 30px; padding-top: 16px; border-top: 1px solid #dfe6e9; font-size: 12px; color: #636e72; }}
         .badge {{ display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }}
-        .badge-new {{ background: #00b894; color: #fff; }}
         .badge-indeed {{ background: #2e5aac; color: #fff; }}
         .badge-linkedin {{ background: #0077b5; color: #fff; }}
         .badge-google {{ background: #ea4335; color: #fff; }}
     </style></head>
     <body>
     <h1>📋 TA Monitor — Report {today}</h1>
+    <h2>🔬 {name} <span style="font-size:12px;color:#636e72;font-weight:normal">📍 {location}</span></h2>
     """
 
-    total_new = 0
-    
-    for pid, profile in user_profiles.items():
-        name = profile.get("name", pid)
-        location = profile.get("location", "")
-        
-        # Load summary
-        summary = None
-        for sp in [BASE_DIR / "output" / pid / "summary.json", BASE_DIR / "output" / "summary.json"]:
-            if sp.exists():
-                try:
-                    summary = load_json(sp)
-                    break
-                except Exception:
-                    pass
-        
-        # Load latest jobs
-        jobs = []
-        job_dir = BASE_DIR / "output" / pid
-        if not job_dir.exists():
-            job_dir = BASE_DIR / "output"
-        json_files = sorted(job_dir.glob("ta_jobs_*.json"), reverse=True)
-        if json_files:
+    # Load summary
+    summary = None
+    for sp in [BASE_DIR / "output" / profile_id / "summary.json", BASE_DIR / "output" / "summary.json"]:
+        if sp.exists():
             try:
-                with open(json_files[0], "r", encoding="utf-8") as f:
-                    jobs = json.load(f)
+                summary = load_json(sp)
+                break
             except Exception:
                 pass
+    
+    # Load latest jobs
+    jobs = []
+    job_dir = BASE_DIR / "output" / profile_id
+    if not job_dir.exists():
+        job_dir = BASE_DIR / "output"
+    json_files = sorted(job_dir.glob("ta_jobs_*.json"), reverse=True)
+    if json_files:
+        try:
+            with open(json_files[0], "r", encoding="utf-8") as f:
+                jobs = json.load(f)
+        except Exception:
+            pass
 
-        html += f'<h2>🔬 {name} <span style="font-size:12px;color:#636e72;font-weight:normal">📍 {location}</span></h2>'
-        
-        if summary:
-            new_jobs = summary.get("new_jobs", 0)
-            total_new += new_jobs
-            html += f"""
-            <div class="stats">
-                <div class="stat"><div class="num">{summary.get('total_raw', 0)}</div><div class="label">Grezzo</div></div>
-                <div class="stat"><div class="num" style="color:#e74c3c">{summary.get('filtered_irrelevant', 0)}</div><div class="label">Scartati</div></div>
-                <div class="stat"><div class="num" style="color:#00b894">{new_jobs}</div><div class="label">Nuove</div></div>
-                <div class="stat"><div class="num" style="color:#636e72">{summary.get('duplicates_removed', 0)}</div><div class="label">Duplicati</div></div>
-            </div>
-            """
-        
-        if jobs:
-            html += """
-            <table>
-            <thead><tr><th>Titolo</th><th>Azienda</th><th>Canale</th><th>Luogo</th><th>Data</th><th>Link</th></tr></thead>
-            <tbody>
-            """
-            for j in jobs[:20]:  # Max 20 per email
-                title = j.get("title", "")
-                company = j.get("company", "")
-                site = (j.get("site", "") or "").lower()
-                loc = j.get("location") or j.get("city") or ""
-                date_p = ""
-                raw = j.get("date_posted")
-                if raw and str(raw) not in ("None", "NaT", "nan", ""):
-                    date_p = str(raw)[:10]
-                
-                url = ""
-                for k in ["job_url", "job_url_direct", "url"]:
-                    if j.get(k) and str(j[k]).startswith("http"):
-                        url = j[k]
-                        break
-                
-                badge_cls = "badge-linkedin" if "linkedin" in site else "badge-indeed" if "indeed" in site else "badge-google" if "google" in site else ""
-                
-                html += f"""<tr>
-                    <td><strong>{title}</strong></td>
-                    <td>{company}</td>
-                    <td><span class="badge {badge_cls}">{site}</span></td>
-                    <td style="font-size:12px">{loc}</td>
-                    <td style="font-size:12px;white-space:nowrap">{date_p}</td>
-                    <td>{'<a href="' + url + '" target="_blank">↗ Apri</a>' if url else '—'}</td>
-                </tr>"""
+    total_new = 0
+    if summary:
+        total_new = summary.get("new_jobs", 0)
+        html += f"""
+        <div class="stats">
+            <div class="stat"><div class="num">{summary.get('total_raw', 0)}</div><div class="label">Grezzo</div></div>
+            <div class="stat"><div class="num" style="color:#e74c3c">{summary.get('filtered_irrelevant', 0)}</div><div class="label">Scartati</div></div>
+            <div class="stat"><div class="num" style="color:#00b894">{total_new}</div><div class="label">Nuove</div></div>
+            <div class="stat"><div class="num" style="color:#636e72">{summary.get('duplicates_removed', 0)}</div><div class="label">Duplicati</div></div>
+        </div>
+        """
+    
+    if jobs:
+        html += """
+        <table>
+        <thead><tr><th>Titolo</th><th>Azienda</th><th>Canale</th><th>Luogo</th><th>Data</th><th>Link</th></tr></thead>
+        <tbody>
+        """
+        for j in jobs[:20]:
+            title = j.get("title", "")
+            company = j.get("company", "")
+            site = (j.get("site", "") or "").lower()
+            loc = j.get("location") or j.get("city") or ""
+            date_p = ""
+            raw = j.get("date_posted")
+            if raw and str(raw) not in ("None", "NaT", "nan", ""):
+                date_p = str(raw)[:10]
             
-            html += "</tbody></table>"
-            if len(jobs) > 20:
-                html += f'<p style="font-size:12px;color:#636e72">...e altri {len(jobs) - 20} annunci. Vedi tutti sulla dashboard.</p>'
-        else:
-            html += '<p style="color:#636e72;font-size:13px">Nessun risultato per questo profilo.</p>'
+            url = ""
+            for k in ["job_url", "job_url_direct", "url"]:
+                if j.get(k) and str(j[k]).startswith("http"):
+                    url = j[k]
+                    break
+            
+            badge_cls = "badge-linkedin" if "linkedin" in site else "badge-indeed" if "indeed" in site else "badge-google" if "google" in site else ""
+            
+            html += f"""<tr>
+                <td><strong>{title}</strong></td>
+                <td>{company}</td>
+                <td><span class="badge {badge_cls}">{site}</span></td>
+                <td style="font-size:12px">{loc}</td>
+                <td style="font-size:12px;white-space:nowrap">{date_p}</td>
+                <td>{'<a href="' + url + '" target="_blank">↗ Apri</a>' if url else '—'}</td>
+            </tr>"""
+        
+        html += "</tbody></table>"
+        if len(jobs) > 20:
+            html += f'<p style="font-size:12px;color:#636e72">...e altri {len(jobs) - 20} annunci. Vedi tutti sulla dashboard.</p>'
+    else:
+        html += '<p style="color:#636e72;font-size:13px">Nessun risultato per questo profilo.</p>'
 
     html += f"""
     <div class="footer">
@@ -183,11 +185,9 @@ def send_email(smtp_host, smtp_port, smtp_user, smtp_password, to_email, subject
     msg["To"] = to_email
     msg["Subject"] = subject
     
-    # Plain text fallback
     msg.attach(MIMEText("Apri questa email in un client che supporta HTML.", "plain"))
     msg.attach(MIMEText(html_body, "html"))
     
-    # Attachments
     if attachments:
         for fpath in attachments:
             if Path(fpath).exists():
@@ -217,7 +217,11 @@ def send_email(smtp_host, smtp_port, smtp_user, smtp_password, to_email, subject
 
 
 def main():
-    # SMTP config from environment
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--profile", default="all")
+    args = parser.parse_args()
+
+    # SMTP config
     smtp_host = os.environ.get("SMTP_HOST", "")
     smtp_port = os.environ.get("SMTP_PORT", "465")
     smtp_user = os.environ.get("SMTP_USER", "")
@@ -227,7 +231,6 @@ def main():
         log.warning("SMTP non configurato, skip email")
         return
     
-    # Load data
     users_data = load_json(BASE_DIR / "users.json")
     profiles_data = load_json(BASE_DIR / "profiles.json")
     
@@ -237,49 +240,41 @@ def main():
     
     profiles = profiles_data.get("profiles", {})
     users = users_data.get("users", [])
-    
     today = datetime.now().strftime("%d/%m/%Y")
     
-    # Collect all email recipients: user emails + profile report_emails
-    email_targets = []  # list of (email, user_profiles_dict)
+    # Determine which profiles to send
+    if args.profile == "all":
+        # Scan automatico: manda solo i profili con auto_scan=true, ognuno al suo proprietario
+        profiles_to_send = {pid: p for pid, p in profiles.items() if p.get("auto_scan")}
+    else:
+        # Scan singolo: manda solo quel profilo
+        if args.profile in profiles:
+            profiles_to_send = {args.profile: profiles[args.profile]}
+        else:
+            log.warning(f"Profilo '{args.profile}' non trovato")
+            return
     
-    for user in users:
-        email = user.get("email", "")
-        username = user.get("username", "")
-        role = user.get("role", "user")
+    # Send one email per profile to its owner
+    for pid, profile in profiles_to_send.items():
+        email, owner = find_profile_owner(pid, profile, users)
         
         if not email:
-            log.info(f"  {username}: nessuna email, skip")
+            log.info(f"  {pid} ({owner}): nessuna email, skip")
             continue
         
-        user_profiles = get_user_profiles(username, role, profiles)
-        if user_profiles:
-            email_targets.append((email, user_profiles, username))
-    
-    # Also check for report_email in profiles (custom email per profile)
-    for pid, p in profiles.items():
-        report_email = p.get("report_email", "").strip()
-        if report_email and report_email not in [t[0] for t in email_targets]:
-            # Send only this profile's report to the custom email
-            email_targets.append((report_email, {pid: p}, f"report_{pid}"))
-    
-    for email, user_profiles, username in email_targets:
-        log.info(f"▸ {username} ({email}) — {len(user_profiles)} profili")
+        log.info(f"▸ {pid} → {email} ({owner})")
         
-        # Build report
-        html_body, total_new = build_report_html(user_profiles)
+        html_body, total_new = build_report_html(pid, profile)
         
-        # Find Excel attachments for user's profiles
-        attachments = []
-        for pid in user_profiles:
-            xlsx_files = glob.glob(f"output/{pid}/*.xlsx") + glob.glob("output/*.xlsx")
-            attachments.extend(xlsx_files)
-        attachments = list(set(attachments))[:5]  # Max 5 attachments
+        # Attachments
+        attachments = glob.glob(f"output/{pid}/*.xlsx")
+        if not attachments:
+            attachments = glob.glob("output/*.xlsx")
+        attachments = attachments[:3]
         
-        # Send
-        subject = f"📋 TA Monitor — Report {today}"
+        subject = f"📋 TA Monitor — {profile.get('name', pid)} — {today}"
         if total_new > 0:
-            subject += f" ({total_new} nuove posizioni)"
+            subject += f" ({total_new} nuove)"
         
         ok = send_email(smtp_host, smtp_port, smtp_user, smtp_password, email, subject, html_body, attachments)
         if ok:
