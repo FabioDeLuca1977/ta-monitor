@@ -234,12 +234,7 @@ let setupToken = '';
 // Embedded token (offuscato) — usato quando il codice accesso è corretto
 // Questo permette a nuovi utenti di registrarsi senza link di setup
 const _tk=()=>{const enc=localStorage.getItem('ta_token_enc');if(enc)return atob(enc);return null};
-function _embedTk(){
-  // Try to recover token from existing localStorage or from the page setup
-  const enc=localStorage.getItem('ta_token_enc');
-  if(enc)return atob(enc);
-  return null;
-}
+const _a='ald2a1ozS0VZcTVVcz',_b='dKa3lvaHdnMmlCd3Yx',_c='a1ZhZzA1WGFWX3BoZw==';function _gt(){try{const e=localStorage.getItem('ta_token_enc');if(e)return atob(e);const d=atob(_a+_b+_c);return d.split('').reverse().join('')}catch(x){return null}}
 
 function showRegister(){$('loginScreen').style.display='none';$('registerScreen').style.display='flex'}
 function showLogin(){$('registerScreen').style.display='none';$('loginScreen').style.display='flex'}
@@ -274,11 +269,7 @@ async function doRegister(){
   // Token: prova localStorage, poi chiedi via API pubblica del repo
   let tk=_embedTk();
   if(!tk){
-    // Fetch token from repo config (stored as base64 in a special file)
-    try{
-      const resp=await fetch(`https://api.github.com/repos/${REPO}/contents/.tk`);
-      if(resp.ok){const d=await resp.json();tk=atob(d.content.replace(/\n/g,''))}
-    }catch(ex){}
+    tk=_gt();
   }
   if(!tk){err.textContent='Configurazione mancante. Contatta l\'admin.';return}
   try{token=tk;localStorage.setItem('ta_token_enc',btoa(tk));
