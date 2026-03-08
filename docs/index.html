@@ -667,7 +667,8 @@ function rKeywords(){$('body-keywords').innerHTML=`
   <div class="add-row"><input id="nKwAuto" placeholder="Es: cerco ruoli in medical affairs, MSL, clinical research..." style="flex:3"/><button class="btn btn-primary" onclick="autoGenKeywords()">🪄 Genera</button></div>
   <div id="kwAutoPreview" style="margin-top:8px"></div>
 </div>
-<div class="tags">${F().search_terms.map((t,i)=>tg(t,`rmKw(${i})`)).join('')}</div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().search_terms.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare tutte le keyword?')){F().search_terms=[];rKeywords();uc('keywords',0);markDirty()}">🗑 Svuota</button>`:''}</div><div class="tags">${F().search_terms.map((t,i)=>tg(t,`rmKw(${i})`)).join('')}</div>
+
 <div class="add-row"><input id="nKw" placeholder="Aggiungi keyword singola..." onkeydown="if(event.key==='Enter')addKw()"/><button class="btn btn-primary" onclick="addKw()">+</button></div>`}
 function autoGenKeywords(){
   const text=$('nKwAuto').value.trim();if(!text)return;
@@ -724,7 +725,7 @@ function rBroad(){$('body-broad').innerHTML=`
   <div class="add-row"><input id="nBrAuto" placeholder="Es: settore HR, recruiting, selezione personale, risorse umane..." style="flex:3"/><button class="btn btn-primary" onclick="autoGenBroad()">🪄 Genera</button></div>
   <div id="brAutoPreview" style="margin-top:8px"></div>
 </div>
-<div class="tags">${F().broad_keywords.map((t,i)=>tg(t,`rmBr(${i})`)).join('')}</div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().broad_keywords.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare le keyword broad?')){F().broad_keywords=[];rBroad();uc('broad',0);markDirty()}">🗑 Svuota</button>`:''}</div><div class="tags">${F().broad_keywords.map((t,i)=>tg(t,`rmBr(${i})`)).join('')}</div>
 <div class="add-row"><input id="nBr" placeholder="Aggiungi keyword broad singola..." onkeydown="if(event.key==='Enter')addBr()"/><button class="btn btn-primary" onclick="addBr()">+</button></div>`}
 function autoGenBroad(){
   const text=$('nBrAuto').value.trim();if(!text)return;
@@ -752,12 +753,12 @@ function rAgencies(){$('body-agencies').innerHTML=`
   <p style="font-size:.75rem;color:var(--text-dim)">Nomi di agenzie per il lavoro o società di recruiting da monitorare. Il sistema cerca annunci anche sui loro siti.<br>
   <strong>Esempi:</strong> Randstad, Adecco, Manpower, Gi Group, Hays, Michael Page, Umana</p>
 </div>
-<div class="tags">${F().agencies.map((t,i)=>tg(t,`rmAg(${i})`)).join('')}</div><div class="add-row"><input id="nAg" placeholder="Nome agenzia..." onkeydown="if(event.key==='Enter')addAg()"/><button class="btn btn-primary" onclick="addAg()">+</button></div>`}
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().agencies.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare le agenzie?')){F().agencies=[];rAgencies();uc('agencies',0);markDirty()}">🗑 Svuota</button>`:''}</div><div class="tags">${F().agencies.map((t,i)=>tg(t,`rmAg(${i})`)).join('')}</div><div class="add-row"><input id="nAg" placeholder="Nome agenzia..." onkeydown="if(event.key==='Enter')addAg()"/><button class="btn btn-primary" onclick="addAg()">+</button></div>`}
 function addAg(){const v=$('nAg').value.trim();if(!v||F().agencies.includes(v))return;F().agencies.push(v);rAgencies();uc('agencies',F().agencies.length);markDirty()}
 function rmAg(i){F().agencies.splice(i,1);rAgencies();uc('agencies',F().agencies.length);markDirty()}
 
 const RC=['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager','Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Medical Affairs','MSL','Regulatory','Clinical','Farmacovigilanza','Altro'];
-function rRelevant(){$('body-relevant').innerHTML=`<div style="overflow-x:auto"><table class="pattern-table"><thead><tr><th>Pattern</th><th>Cat</th><th></th></tr></thead><tbody>${F().relevant_patterns.map((p,i)=>`<tr><td class="mono">${esc(p.pattern)}</td><td><span class="cat">${esc(p.category)}</span></td><td><button class="btn btn-danger" style="padding:3px 7px;font-size:.72rem" onclick="rmRel(${i})">✗</button></td></tr>`).join('')}</tbody></table></div>
+function rRelevant(){$('body-relevant').innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().relevant_patterns.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare tutti i pattern?')){F().relevant_patterns=[];rRelevant();uc('relevant',0);markDirty()}">🗑 Svuota</button>`:''}</div><div style="overflow-x:auto"><table class="pattern-table"><thead><tr><th>Pattern</th><th>Cat</th><th></th></tr></thead><tbody>${F().relevant_patterns.map((p,i)=>`<tr><td class="mono">${esc(p.pattern)}</td><td><span class="cat">${esc(p.category)}</span></td><td><button class="btn btn-danger" style="padding:3px 7px;font-size:.72rem" onclick="rmRel(${i})">✗</button></td></tr>`).join('')}</tbody></table></div>
 <div style="margin-top:14px;padding:14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
   <p style="font-size:.8rem;font-weight:600;margin-bottom:8px">🪄 Genera pattern automaticamente</p>
   <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:10px">Scrivi uno o più titoli di lavoro separati da virgola e il sistema genera i pattern di ricerca automaticamente. Non serve conoscere le regex!<br>
@@ -873,6 +874,7 @@ function rBlacklist(){const g={};F().blacklist.forEach((b,i)=>{const c=b.categor
   <div class="add-row"><input id="nBlAuto" placeholder="Es: cameriere, magazziniere, commesso, autista..." style="flex:3"/><select id="nBlAutoCat">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="autoGenBlacklist()">🪄 Genera</button></div>
   <div id="blAutoPreview" style="margin-top:8px"></div>
 </div>
++`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().blacklist.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare la blacklist?')){F().blacklist=[];rBlacklist();uc('blacklist',0);markDirty()}">🗑 Svuota</button>`:``}</div>`
 `+Object.entries(g).map(([c,items])=>`<div style="margin-bottom:14px"><div style="font-size:.75rem;color:var(--text-dim);margin-bottom:4px;text-transform:uppercase">${esc(c)}</div><div class="tags">${items.map(b=>`<span class="tag" style="border-color:rgba(231,76,60,.3)"><span class="mono" style="font-size:.72rem;color:var(--danger)">${esc(b.pattern)}</span><button class="remove" onclick="rmBl(${b._i})">✗</button></span>`).join('')}</div></div>`).join('')+`<div class="add-row" style="margin-top:10px"><input id="nBl" placeholder="Aggiungi pattern manualmente..." style="flex:2"/><select id="nBc">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBl()">+ Blocca</button></div>`}
 function autoGenBlacklist(){
   const text=$('nBlAuto').value.trim();if(!text)return;
