@@ -431,38 +431,403 @@ function markDirty(){dirty=true;$('saveBtn').disabled=false}
 function F(){return profilesData.profiles[activeProfileId].filters}
 function renderFilters(p){
   const f=p.filters;
-  $('content').innerHTML=[
+  const mine=isMyProfile(activeProfileId);
+  // Wizard + email at top
+  const wizardHtml=mine?`<div class="section" id="sec-wizard" style="border:2px solid var(--accent);background:var(--accent-glow)">
+    <div class="section-header open" onclick="toggle('wizard')"><h2>🪄 Configura ricerca veloce</h2><svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+    <div class="section-body open" id="body-wizard">
+      <div style="padding:14px">
+        <p style="font-size:.85rem;font-weight:600;margin-bottom:6px">Descrivi in una frase il lavoro che cerchi</p>
+        <p style="font-size:.78rem;color:var(--text-dim);margin-bottom:10px">Il sistema genererà automaticamente le keyword, i pattern di rilevanza, le keyword broad e la blacklist.<br>
+        <strong>Esempio:</strong> "Cerco un ruolo come Medical Science Liaison o Medical Advisor nel settore farmaceutico, oncologia. Non mi interessano ruoli commerciali, IT o ristorazione."</p>
+        <textarea id="wizardText" rows="3" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;color:var(--text);font-family:inherit;font-size:.85rem;resize:vertical" placeholder="Es: Cerco un ruolo come talent acquisition o recruiter in ambito HR. Non mi interessano ruoli tecnici, commerciali o di ristorazione."></textarea>
+        <div style="display:flex;gap:8px;margin-top:10px;align-items:center">
+          <button class="btn btn-primary" onclick="runWizard()">🪄 Genera tutto automaticamente</button>
+          <span style="font-size:.75rem;color:var(--text-dim)">I risultati verranno mostrati per conferma prima di essere applicati</span>
+        </div>
+        <div id="wizardPreview" style="margin-top:12px"></div>
+      </div>
+      <div style="padding:0 14px 14px;border-top:1px solid var(--border);margin-top:10px;padding-top:14px">
+        <p style="font-size:.85rem;font-weight:600;margin-bottom:6px">📧 Email per il report</p>
+        <p style="font-size:.78rem;color:var(--text-dim);margin-bottom:8px">Inserisci l'email dove vuoi ricevere il report giornaliero con i nuovi annunci trovati.</p>
+        <div class="add-row"><input id="profileEmail" type="email" value="${esc(p.report_email||'')}" placeholder="es. nome@email.com" style="flex:2"/><button class="btn btn-primary" onclick="saveProfileEmail()">💾 Salva email</button></div>
+      </div>
+    </div>
+  </div>`:'';
+  
+  $('content').innerHTML=wizardHtml+[
     sec('keywords','🔍 Keywords',f.search_terms.length),
     sec('relevant','✓ Pattern Rilevanza',f.relevant_patterns.length),
     sec('broad','📋 Keywords Broad',f.broad_keywords.length),
     sec('blacklist','✗ Blacklist',f.blacklist.length),
     sec('agencies','🏢 Agenzie',f.agencies.length)
   ].join('');
-  rKeywords();rRelevant();rBroad();rBlacklist();rAgencies();toggle('keywords')
+  rKeywords();rRelevant();rBroad();rBlacklist();rAgencies();
+  if(!mine)toggle('keywords');
+}
+
+function saveProfileEmail(){
+  const email=$('profileEmail').value.trim();
+  profilesData.profiles[activeProfileId].report_email=email;
+  markDirty();toast(email?'📧 Email report salvata: '+email:'📧 Email report rimossa');
+}
+
+function runWizard(){
+  const text=$('wizardText').value.trim();
+  if(!text){toast('Scrivi una descrizione del lavoro che cerchi',true);return}
+  
+  // Parse the description
+  const lower=text.toLowerCase();
+  
+  // 1. Extract keywords (job titles)
+  const keywords=[];
+  const kwPatterns=[
+    /(?:ruolo|posizione|lavoro)\s+(?:come|di|da)\s+([^,.!?]+)/gi,
+    /(?:cerco|interessano|voglio)\s+(?:un\s+)?(?:ruolo|posizione)?\s*(?:come|di|da|in)?\s*([^,.!?]+)/gi,
+  ];
+  // Also split on "o", "oppure" between job titles
+  const positiveSection=text.split(/non\s+mi\s+interess|esclud|senza|tranne/i)[0]||text;
+  const posParts=positiveSection.split(/[,;]|\bo\b|\boppure\b/i).map(s=>s.trim());
+  for(const part of posParts){
+    const clean=part.replace(/\b(cerco|ruolo|ruoli|come|posizione|lavoro|un|una|nel|nella|in|di|per|il|la|lo|le|settore|ambito|area)\b/gi,'').trim();
+    if(clean.length>=4&&clean.split(/\s+/).length<=5)keywords.push(clean);
+  }
+  
+  // 2. Extract broad keywords (sector/skills)
+  const broads=[];
+  const sectorMatch=text.match(/(?:settore|ambito|area|campo)\s+([^,.!?]+)/gi);
+  if(sectorMatch)sectorMatch.forEach(m=>{
+    const clean=m.replace(/\b(settore|ambito|area|campo|del|della|di|in)\b/gi,'').trim();
+    if(clean.length>=3)broads.push(clean);
+  });
+  // Add individual significant words
+  const sigWords=positiveSection.match(/[a-zàèéìòù]{4,}/gi)||[];
+  const stopWords=new Set(['cerco','ruolo','ruoli','come','posizione','lavoro','interessano','voglio','settore','ambito','area','campo','nella','sono','dove','tipo','oppure']);
+  sigWords.forEach(w=>{if(!stopWords.has(w.toLowerCase())&&w.length>=5)broads.push(w.toLowerCase())});
+  
+  // 3. Extract blacklist (negative section)
+  const blacklist=[];
+  const negMatch=text.match(/non\s+mi\s+interess[^.]*|esclud[^.]*|senza\s+[^.]*/gi);
+  if(negMatch){
+    negMatch.forEach(m=>{
+      const parts=m.replace(/\b(non|mi|interessano|escludi|escludere|senza|ruoli|lavori|posizioni|di|da|in|il|la|lo|le)\b/gi,'').split(/[,;]|\bo\b|\boppure\b|\be\b/i);
+      parts.forEach(p=>{const c=p.trim().toLowerCase();if(c.length>=3)blacklist.push(c)});
+    });
+  }
+  
+  // 4. Generate patterns from keywords
+  const patterns=[];
+  keywords.forEach(kw=>{
+    const words=kw.toLowerCase().split(/\s+/).filter(w=>w.length>=2);
+    if(words.length>=2)patterns.push({p:words.join('\\\\s+'),cat:'Auto'});
+    if(words.length>=3)patterns.push({p:words[0]+'.*'+words[words.length-1],cat:'Auto'});
+  });
+  
+  // Deduplicate
+  const uKw=[...new Set(keywords)];
+  const uBr=[...new Set(broads)];
+  const uBl=[...new Set(blacklist)];
+  
+  // Show preview
+  $('wizardPreview').innerHTML=`<div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px;margin-top:8px">
+    <h3 style="font-size:.88rem;margin-bottom:12px">Anteprima — verifica e conferma</h3>
+    
+    ${uKw.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">🔍 Keywords (${uKw.length})</p>
+      ${uKw.map((k,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wkw${i}" checked/><span style="font-size:.82rem">${esc(k)}</span></div>`).join('')}
+    </div>`:''}
+    
+    ${patterns.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">✓ Pattern Rilevanza (${patterns.length})</p>
+      ${patterns.map((p,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wpt${i}" checked/><code style="font-size:.78rem;color:var(--accent)">${esc(p.p)}</code></div>`).join('')}
+    </div>`:''}
+    
+    ${uBr.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">📋 Keywords Broad (${uBr.length})</p>
+      ${uBr.map((b,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wbr${i}" checked/><span style="font-size:.82rem">${esc(b)}</span></div>`).join('')}
+    </div>`:''}
+    
+    ${uBl.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">✗ Blacklist (${uBl.length})</p>
+      ${uBl.map((b,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wbl${i}" checked/><span style="font-size:.82rem;color:var(--danger)">${esc(b)}</span></div>`).join('')}
+    </div>`:''}
+    
+    <div style="display:flex;gap:8px;margin-top:10px">
+      <button class="btn btn-primary" onclick="applyWizard()">✓ Applica tutto</button>
+      <button class="btn btn-ghost" onclick="$('wizardPreview').innerHTML=''">Annulla</button>
+    </div>
+  </div>`;
+  
+  window._wizData={kw:uKw,patterns,br:uBr,bl:uBl};
+}
+
+function applyWizard(){
+  const d=window._wizData;if(!d)return;
+  let added={kw:0,pt:0,br:0,bl:0};
+  const f=F();
+  
+  // Keywords
+  d.kw.forEach((k,i)=>{const cb=document.getElementById('wkw'+i);
+    if(cb&&cb.checked&&!f.search_terms.some(s=>s.toLowerCase()===k.toLowerCase())){f.search_terms.push(k);added.kw++}});
+  
+  // Patterns
+  d.patterns.forEach((p,i)=>{const cb=document.getElementById('wpt'+i);
+    if(cb&&cb.checked&&!f.relevant_patterns.some(r=>r.pattern===p.p)){
+      try{new RegExp(p.p,'i');f.relevant_patterns.push({pattern:p.p,category:p.cat,note:'wizard'});added.pt++}catch(e){}}});
+  
+  // Broad
+  d.br.forEach((b,i)=>{const cb=document.getElementById('wbr'+i);
+    if(cb&&cb.checked&&!f.broad_keywords.some(x=>x.toLowerCase()===b.toLowerCase())){f.broad_keywords.push(b);added.br++}});
+  
+  // Blacklist
+  d.bl.forEach((b,i)=>{const cb=document.getElementById('wbl'+i);
+    if(cb&&cb.checked&&!f.blacklist.some(x=>x.pattern.toLowerCase()===b)){f.blacklist.push({pattern:b,category:'Auto'});added.bl++}});
+  
+  $('wizardPreview').innerHTML='';$('wizardText').value='';
+  renderFilters(profilesData.profiles[activeProfileId]);markDirty();
+  toast(`✓ Aggiunti: ${added.kw} keyword, ${added.pt} pattern, ${added.br} broad, ${added.bl} blacklist`);
 }
 function sec(id,t,n){return `<div class="section" id="sec-${id}"><div class="section-header" onclick="toggle('${id}')"><h2>${t} <span class="count">${n}</span></h2><svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div><div class="section-body" id="body-${id}"></div></div>`}
 function toggle(id){document.querySelector(`#sec-${id} .section-header`).classList.toggle('open');$(`body-${id}`).classList.toggle('open')}
 
-function rKeywords(){$('body-keywords').innerHTML=`<div class="tags">${F().search_terms.map((t,i)=>tg(t,`rmKw(${i})`)).join('')}</div><div class="add-row"><input id="nKw" placeholder="Nuova keyword..." onkeydown="if(event.key==='Enter')addKw()"/><button class="btn btn-primary" onclick="addKw()">+</button></div>`}
+function rKeywords(){$('body-keywords').innerHTML=`
+<div style="padding:10px 14px;background:var(--surface2);border-radius:var(--radius);margin-bottom:12px;border:1px solid var(--border)">
+  <p style="font-size:.8rem;font-weight:600;margin-bottom:4px">🔍 Cosa sono le Keywords?</p>
+  <p style="font-size:.75rem;color:var(--text-dim)">Sono le parole che il sistema cerca su LinkedIn, Indeed e Google. Inserisci i titoli di lavoro che ti interessano, uno per volta.<br>
+  <strong>Esempi:</strong> talent acquisition, recruiter, HR manager, medical advisor, regulatory affairs specialist</p>
+</div>
+<div style="margin-bottom:10px;padding:10px 14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
+  <p style="font-size:.78rem;font-weight:600;margin-bottom:6px">🪄 Genera keywords da una descrizione</p>
+  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:8px">Scrivi il tipo di lavoro che cerchi e il sistema genera le keyword automaticamente.<br>
+  <strong>Esempio:</strong> "Cerco un ruolo come talent acquisition o recruiter nel settore HR"</p>
+  <div class="add-row"><input id="nKwAuto" placeholder="Es: cerco ruoli in medical affairs, MSL, clinical research..." style="flex:3"/><button class="btn btn-primary" onclick="autoGenKeywords()">🪄 Genera</button></div>
+  <div id="kwAutoPreview" style="margin-top:8px"></div>
+</div>
+<div class="tags">${F().search_terms.map((t,i)=>tg(t,`rmKw(${i})`)).join('')}</div>
+<div class="add-row"><input id="nKw" placeholder="Aggiungi keyword singola..." onkeydown="if(event.key==='Enter')addKw()"/><button class="btn btn-primary" onclick="addKw()">+</button></div>`}
+function autoGenKeywords(){
+  const text=$('nKwAuto').value.trim();if(!text)return;
+  // Extract meaningful phrases
+  const kws=[];
+  // Split on common separators
+  const parts=text.split(/[,;.\/]|\be\b|\bo\b|\boppure\b|\band\b|\bor\b/i).map(s=>s.trim()).filter(Boolean);
+  for(const part of parts){
+    // Clean common filler words
+    const clean=part.replace(/\b(cerco|ruolo|ruoli|come|nel|nella|nel settore|settore|in|di|per|lavoro|posizione|posizioni|un|una|il|la|lo|le|i|gli|dei|delle)\b/gi,'').trim();
+    if(clean.length>=3){
+      // Split into potential multi-word keywords
+      const words=clean.split(/\s+/).filter(w=>w.length>=2);
+      if(words.length>=2){kws.push(words.join(' '))}
+      if(words.length>=3){
+        // Also add pairs
+        for(let i=0;i<words.length-1;i++){
+          if(words[i].length>=2&&words[i+1].length>=2)kws.push(words[i]+' '+words[i+1])
+        }
+      }
+      if(words.length===1&&words[0].length>=4)kws.push(words[0])
+    }
+  }
+  const unique=[...new Set(kws)].filter(k=>!F().search_terms.some(s=>s.toLowerCase()===k.toLowerCase()));
+  if(!unique.length){toast('Nessuna nuova keyword trovata',true);return}
+  $('kwAutoPreview').innerHTML=`<div style="margin-top:6px">
+    ${unique.map((k,i)=>`<div style="display:flex;align-items:center;gap:8px;margin-bottom:3px">
+      <input type="checkbox" id="ak${i}" checked/><span style="font-size:.82rem">${esc(k)}</span>
+    </div>`).join('')}
+    <button class="btn btn-primary" style="margin-top:6px" onclick="applyAutoKw()">✓ Aggiungi selezionate</button>
+    <button class="btn btn-ghost" style="margin-top:6px" onclick="$('kwAutoPreview').innerHTML=''">Annulla</button>
+  </div>`;
+  window._autoKws=unique;
+}
+function applyAutoKw(){
+  const kws=window._autoKws||[];let added=0;
+  kws.forEach((k,i)=>{const cb=document.getElementById('ak'+i);if(cb&&cb.checked&&!F().search_terms.includes(k)){F().search_terms.push(k);added++}});
+  $('kwAutoPreview').innerHTML='';$('nKwAuto').value='';
+  rKeywords();uc('keywords',F().search_terms.length);markDirty();toast(`✓ ${added} keyword aggiunte`);
+}
 function addKw(){const v=$('nKw').value.trim();if(!v||F().search_terms.includes(v))return;F().search_terms.push(v);rKeywords();uc('keywords',F().search_terms.length);markDirty()}
 function rmKw(i){F().search_terms.splice(i,1);rKeywords();uc('keywords',F().search_terms.length);markDirty()}
 
-function rBroad(){$('body-broad').innerHTML=`<div class="tags">${F().broad_keywords.map((t,i)=>tg(t,`rmBr(${i})`)).join('')}</div><div class="add-row"><input id="nBr" placeholder="Keyword broad..." onkeydown="if(event.key==='Enter')addBr()"/><button class="btn btn-primary" onclick="addBr()">+</button></div>`}
+function rBroad(){$('body-broad').innerHTML=`
+<div style="padding:10px 14px;background:var(--surface2);border-radius:var(--radius);margin-bottom:12px;border:1px solid var(--border)">
+  <p style="font-size:.8rem;font-weight:600;margin-bottom:4px">📋 Cosa sono le Keywords Broad?</p>
+  <p style="font-size:.75rem;color:var(--text-dim)">Sono parole chiave "larghe" che aumentano il punteggio di rilevanza degli annunci nel machine learning, ma non vengono usate per cercare. Servono a dire al sistema: "se un annuncio contiene queste parole, è probabilmente interessante".<br>
+  <strong>Esempi:</strong> talent, recruiting, selezione, HR, medical affairs, pharma, oncology</p>
+</div>
+<div style="margin-bottom:10px;padding:10px 14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
+  <p style="font-size:.78rem;font-weight:600;margin-bottom:6px">🪄 Genera automaticamente</p>
+  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:8px">Descrivi il settore e le competenze del ruolo che cerchi.<br>
+  <strong>Esempio:</strong> "settore farmaceutico, oncologia, ricerca clinica, regulatory, medical affairs"</p>
+  <div class="add-row"><input id="nBrAuto" placeholder="Es: settore HR, recruiting, selezione personale, risorse umane..." style="flex:3"/><button class="btn btn-primary" onclick="autoGenBroad()">🪄 Genera</button></div>
+  <div id="brAutoPreview" style="margin-top:8px"></div>
+</div>
+<div class="tags">${F().broad_keywords.map((t,i)=>tg(t,`rmBr(${i})`)).join('')}</div>
+<div class="add-row"><input id="nBr" placeholder="Aggiungi keyword broad singola..." onkeydown="if(event.key==='Enter')addBr()"/><button class="btn btn-primary" onclick="addBr()">+</button></div>`}
+function autoGenBroad(){
+  const text=$('nBrAuto').value.trim();if(!text)return;
+  const words=text.split(/[,;.\/]|\be\b|\bo\b|\boppure\b|\band\b|\bor\b/i).map(s=>s.trim().replace(/\b(settore|area|ambito|competenz[ae]|esperienza|il|la|lo|le|i|gli|un|una|di|del|della|in|nel|nella|per)\b/gi,'').trim()).filter(w=>w.length>=2);
+  const unique=[...new Set(words)].filter(k=>!F().broad_keywords.some(b=>b.toLowerCase()===k.toLowerCase()));
+  if(!unique.length){toast('Nessuna nuova keyword trovata',true);return}
+  $('brAutoPreview').innerHTML=`<div style="margin-top:6px">
+    ${unique.map((k,i)=>`<div style="display:flex;align-items:center;gap:8px;margin-bottom:3px"><input type="checkbox" id="abr${i}" checked/><span style="font-size:.82rem">${esc(k)}</span></div>`).join('')}
+    <button class="btn btn-primary" style="margin-top:6px" onclick="applyAutoBroad()">✓ Aggiungi</button>
+    <button class="btn btn-ghost" style="margin-top:6px" onclick="$('brAutoPreview').innerHTML=''">Annulla</button>
+  </div>`;window._autoBroads=unique;
+}
+function applyAutoBroad(){
+  const brs=window._autoBroads||[];let added=0;
+  brs.forEach((b,i)=>{const cb=document.getElementById('abr'+i);if(cb&&cb.checked&&!F().broad_keywords.includes(b)){F().broad_keywords.push(b);added++}});
+  $('brAutoPreview').innerHTML='';$('nBrAuto').value='';
+  rBroad();uc('broad',F().broad_keywords.length);markDirty();toast(`✓ ${added} keyword broad aggiunte`);
+}
 function addBr(){const v=$('nBr').value.trim();if(!v||F().broad_keywords.includes(v))return;F().broad_keywords.push(v);rBroad();uc('broad',F().broad_keywords.length);markDirty()}
 function rmBr(i){F().broad_keywords.splice(i,1);rBroad();uc('broad',F().broad_keywords.length);markDirty()}
 
-function rAgencies(){$('body-agencies').innerHTML=`<div class="tags">${F().agencies.map((t,i)=>tg(t,`rmAg(${i})`)).join('')}</div><div class="add-row"><input id="nAg" placeholder="Agenzia..." onkeydown="if(event.key==='Enter')addAg()"/><button class="btn btn-primary" onclick="addAg()">+</button></div>`}
+function rAgencies(){$('body-agencies').innerHTML=`
+<div style="padding:10px 14px;background:var(--surface2);border-radius:var(--radius);margin-bottom:12px;border:1px solid var(--border)">
+  <p style="font-size:.8rem;font-weight:600;margin-bottom:4px">🏢 Cosa sono le Agenzie?</p>
+  <p style="font-size:.75rem;color:var(--text-dim)">Nomi di agenzie per il lavoro o società di recruiting da monitorare. Il sistema cerca annunci anche sui loro siti.<br>
+  <strong>Esempi:</strong> Randstad, Adecco, Manpower, Gi Group, Hays, Michael Page, Umana</p>
+</div>
+<div class="tags">${F().agencies.map((t,i)=>tg(t,`rmAg(${i})`)).join('')}</div><div class="add-row"><input id="nAg" placeholder="Nome agenzia..." onkeydown="if(event.key==='Enter')addAg()"/><button class="btn btn-primary" onclick="addAg()">+</button></div>`}
 function addAg(){const v=$('nAg').value.trim();if(!v||F().agencies.includes(v))return;F().agencies.push(v);rAgencies();uc('agencies',F().agencies.length);markDirty()}
 function rmAg(i){F().agencies.splice(i,1);rAgencies();uc('agencies',F().agencies.length);markDirty()}
 
-const RC=['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager','Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Altro'];
-function rRelevant(){$('body-relevant').innerHTML=`<div style="overflow-x:auto"><table class="pattern-table"><thead><tr><th>Pattern</th><th>Cat</th><th></th></tr></thead><tbody>${F().relevant_patterns.map((p,i)=>`<tr><td class="mono">${esc(p.pattern)}</td><td><span class="cat">${esc(p.category)}</span></td><td><button class="btn btn-danger" style="padding:3px 7px;font-size:.72rem" onclick="rmRel(${i})">✗</button></td></tr>`).join('')}</tbody></table></div><div class="add-row" style="margin-top:10px"><input id="nRp" placeholder="Pattern regex..." style="flex:2"/><select id="nRc">${RC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-primary" onclick="addRel()">+</button></div>`}
+const RC=['Talent Acquisition','HR Business Partner','HR Generalist','HR Manager','Recruiting','HR Specialist','Head Hunting','Employer Branding','Gestione Filiale APL','Agenzie Lavoro','Medical Affairs','MSL','Regulatory','Clinical','Farmacovigilanza','Altro'];
+function rRelevant(){$('body-relevant').innerHTML=`<div style="overflow-x:auto"><table class="pattern-table"><thead><tr><th>Pattern</th><th>Cat</th><th></th></tr></thead><tbody>${F().relevant_patterns.map((p,i)=>`<tr><td class="mono">${esc(p.pattern)}</td><td><span class="cat">${esc(p.category)}</span></td><td><button class="btn btn-danger" style="padding:3px 7px;font-size:.72rem" onclick="rmRel(${i})">✗</button></td></tr>`).join('')}</tbody></table></div>
+<div style="margin-top:14px;padding:14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
+  <p style="font-size:.8rem;font-weight:600;margin-bottom:8px">🪄 Genera pattern automaticamente</p>
+  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:10px">Scrivi uno o più titoli di lavoro separati da virgola e il sistema genera i pattern di ricerca automaticamente. Non serve conoscere le regex!<br>
+  <strong>Esempio:</strong> scrivi "talent acquisition specialist, HR business partner, recruiter" → il sistema genera automaticamente i pattern per intercettare tutte le varianti di questi titoli negli annunci.</p>
+  <div class="add-row"><input id="nAutoText" placeholder="Es: talent acquisition specialist, HR business partner..." style="flex:3"/><select id="nAutoRc">${RC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-primary" onclick="autoGenPatterns()">🪄 Genera</button></div>
+  <div id="autoPreview" style="margin-top:8px"></div>
+</div>
+<div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:6px">Oppure aggiungi un pattern regex manualmente:</p>
+  <div class="add-row"><input id="nRp" placeholder="Pattern regex..." style="flex:2"/><select id="nRc">${RC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-primary" onclick="addRel()">+</button></div>
+</div>`}
+
+function autoGenPatterns(){
+  const text=$('nAutoText').value.trim();
+  if(!text)return;
+  const cat=$('nAutoRc').value;
+  const patterns=generatePatterns(text);
+  if(!patterns.length){toast('Nessun pattern generato',true);return}
+  // Show preview
+  $('autoPreview').innerHTML=`<div style="margin-top:8px">
+    <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:6px">Pattern generati (${patterns.length}):</p>
+    ${patterns.map((p,i)=>`<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+      <input type="checkbox" id="ap${i}" checked/>
+      <code style="font-size:.78rem;color:var(--accent);flex:1">${esc(p)}</code>
+    </div>`).join('')}
+    <button class="btn btn-primary" style="margin-top:8px" onclick="applyAutoPatterns()">✓ Aggiungi selezionati</button>
+    <button class="btn btn-ghost" style="margin-top:8px" onclick="$('autoPreview').innerHTML=''">Annulla</button>
+  </div>`;
+  // Store for apply
+  window._autoPatterns=patterns;window._autoCat=cat;
+}
+
+function generatePatterns(text){
+  const patterns=[];
+  // Split by comma for multiple entries
+  const entries=text.split(/[,;]/).map(s=>s.trim()).filter(Boolean);
+  
+  for(const entry of entries){
+    const words=entry.toLowerCase().split(/\s+/).filter(w=>w.length>1);
+    if(!words.length)continue;
+    
+    // 1. Full phrase with flexible spacing
+    if(words.length>=2){
+      patterns.push(words.join('\\s+'));
+    }
+    
+    // 2. With optional middle words (for 3+ word phrases)
+    if(words.length>=3){
+      // First + last with .* in between
+      patterns.push(words[0]+'.*'+words[words.length-1]);
+    }
+    
+    // 3. Key word variations with common suffixes
+    for(const w of words){
+      if(w.length<=3)continue; // skip short words like "hr", "di"
+      // Italian/English suffix variations
+      const base=w.replace(/(zione|ment|ing|ist|ista|ore|rice|ente|ario|ista|tore|trice)$/i,'');
+      if(base.length>=4 && base!==w){
+        patterns.push(base);
+      }
+    }
+    
+    // 4. Abbreviation patterns (e.g., "HR" from "Human Resources")
+    if(words.length>=2){
+      const abbr=words.map(w=>w[0]).join('').toUpperCase();
+      if(abbr.length>=2 && abbr.length<=5){
+        patterns.push('\\b'+abbr+'\\b');
+      }
+    }
+    
+    // 5. Single word if it's distinctive enough
+    if(words.length===1 && words[0].length>=5){
+      patterns.push(words[0]);
+    }
+  }
+  
+  // Deduplicate
+  const unique=[...new Set(patterns)];
+  // Remove patterns that are substrings of others
+  return unique.filter(p=>!unique.some(q=>q!==p&&q.includes(p)&&q.length>p.length));
+}
+
+function applyAutoPatterns(){
+  const patterns=window._autoPatterns||[];
+  const cat=window._autoCat||'Altro';
+  let added=0;
+  const existing=new Set(F().relevant_patterns.map(p=>p.pattern));
+  patterns.forEach((p,i)=>{
+    const cb=document.getElementById('ap'+i);
+    if(cb&&cb.checked&&!existing.has(p)){
+      try{new RegExp(p,'i');F().relevant_patterns.push({pattern:p,category:cat,note:'auto-generato'});added++}catch(e){}
+    }
+  });
+  $('autoPreview').innerHTML='';$('nAutoText').value='';
+  rRelevant();uc('relevant',F().relevant_patterns.length);markDirty();
+  toast(`✓ ${added} pattern aggiunti`);
+}
 function addRel(){const p=$('nRp').value.trim(),c=$('nRc').value;if(!p)return;try{new RegExp(p,'i')}catch(e){return toast('Regex non valida',true)}F().relevant_patterns.push({pattern:p,category:c,note:''});rRelevant();uc('relevant',F().relevant_patterns.length);markDirty()}
 function rmRel(i){F().relevant_patterns.splice(i,1);rRelevant();uc('relevant',F().relevant_patterns.length);markDirty()}
 
-const BC=['Tech / IT','Operations','Food / Retail','Finance / Legal','Sales / Marketing','Medical / Admin','Bandi pubblici','Misc'];
+const BC=['Tech / IT','Operations','Food / Retail','Finance / Legal','Sales / Marketing','Medical / Admin','Bandi pubblici','Hospitality','Engineering','Non pertinente','Misc'];
 function rBlacklist(){const g={};F().blacklist.forEach((b,i)=>{const c=b.category||'Misc';if(!g[c])g[c]=[];g[c].push({...b,_i:i})});
-  $('body-blacklist').innerHTML=Object.entries(g).map(([c,items])=>`<div style="margin-bottom:14px"><div style="font-size:.75rem;color:var(--text-dim);margin-bottom:4px;text-transform:uppercase">${esc(c)}</div><div class="tags">${items.map(b=>`<span class="tag" style="border-color:rgba(231,76,60,.3)"><span class="mono" style="font-size:.72rem;color:var(--danger)">${esc(b.pattern)}</span><button class="remove" onclick="rmBl(${b._i})">✗</button></span>`).join('')}</div></div>`).join('')+`<div class="add-row" style="margin-top:10px"><input id="nBl" placeholder="Pattern..." style="flex:2"/><select id="nBc">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBl()">+ Blocca</button></div>`}
+  $('body-blacklist').innerHTML=`
+<div style="padding:10px 14px;background:var(--surface2);border-radius:var(--radius);margin-bottom:12px;border:1px solid var(--border)">
+  <p style="font-size:.8rem;font-weight:600;margin-bottom:4px">✗ Cosa è la Blacklist?</p>
+  <p style="font-size:.75rem;color:var(--text-dim)">Parole o pattern per escludere annunci che non ti interessano. Se un annuncio contiene una di queste parole nel titolo, viene scartato automaticamente.<br>
+  <strong>Esempi:</strong> cameriere, magazziniere, sviluppatore, commesso, infermiere</p>
+</div>
+<div style="margin-bottom:10px;padding:10px 14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
+  <p style="font-size:.78rem;font-weight:600;margin-bottom:6px">🪄 Genera blacklist automaticamente</p>
+  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:8px">Scrivi i tipi di lavoro che NON ti interessano, separati da virgola.<br>
+  <strong>Esempio:</strong> "cameriere, cuoco, magazziniere, commesso, sviluppatore, infermiere, autista"</p>
+  <div class="add-row"><input id="nBlAuto" placeholder="Es: cameriere, magazziniere, commesso, autista..." style="flex:3"/><select id="nBlAutoCat">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="autoGenBlacklist()">🪄 Genera</button></div>
+  <div id="blAutoPreview" style="margin-top:8px"></div>
+</div>
+`+Object.entries(g).map(([c,items])=>`<div style="margin-bottom:14px"><div style="font-size:.75rem;color:var(--text-dim);margin-bottom:4px;text-transform:uppercase">${esc(c)}</div><div class="tags">${items.map(b=>`<span class="tag" style="border-color:rgba(231,76,60,.3)"><span class="mono" style="font-size:.72rem;color:var(--danger)">${esc(b.pattern)}</span><button class="remove" onclick="rmBl(${b._i})">✗</button></span>`).join('')}</div></div>`).join('')+`<div class="add-row" style="margin-top:10px"><input id="nBl" placeholder="Aggiungi pattern manualmente..." style="flex:2"/><select id="nBc">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBl()">+ Blocca</button></div>`}
+function autoGenBlacklist(){
+  const text=$('nBlAuto').value.trim();if(!text)return;
+  const cat=$('nBlAutoCat').value;
+  const items=text.split(/[,;.]/).map(s=>s.trim().toLowerCase()).filter(w=>w.length>=3);
+  const unique=[...new Set(items)].filter(k=>!F().blacklist.some(b=>b.pattern.toLowerCase()===k));
+  if(!unique.length){toast('Nessun nuovo termine trovato',true);return}
+  $('blAutoPreview').innerHTML=`<div style="margin-top:6px">
+    ${unique.map((k,i)=>`<div style="display:flex;align-items:center;gap:8px;margin-bottom:3px"><input type="checkbox" id="abl${i}" checked/><span style="font-size:.82rem;color:var(--danger)">${esc(k)}</span></div>`).join('')}
+    <button class="btn btn-danger" style="margin-top:6px;border:none;background:var(--danger);color:#fff" onclick="applyAutoBlacklist()">✓ Blocca selezionati</button>
+    <button class="btn btn-ghost" style="margin-top:6px" onclick="$('blAutoPreview').innerHTML=''">Annulla</button>
+  </div>`;window._autoBlacks=unique;window._autoBlackCat=cat;
+}
+function applyAutoBlacklist(){
+  const bls=window._autoBlacks||[];const cat=window._autoBlackCat||'Misc';let added=0;
+  bls.forEach((b,i)=>{const cb=document.getElementById('abl'+i);if(cb&&cb.checked){F().blacklist.push({pattern:b,category:cat});added++}});
+  $('blAutoPreview').innerHTML='';$('nBlAuto').value='';
+  rBlacklist();uc('blacklist',F().blacklist.length);markDirty();toast(`✓ ${added} termini bloccati`);
+}
 function addBl(){const p=$('nBl').value.trim(),c=$('nBc').value;if(!p)return;try{new RegExp(p,'i')}catch(e){return toast('Regex non valida',true)}F().blacklist.push({pattern:p,category:c});rBlacklist();uc('blacklist',F().blacklist.length);markDirty()}
 function rmBl(i){F().blacklist.splice(i,1);rBlacklist();uc('blacklist',F().blacklist.length);markDirty()}
 

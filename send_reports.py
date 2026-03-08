@@ -240,6 +240,9 @@ def main():
     
     today = datetime.now().strftime("%d/%m/%Y")
     
+    # Collect all email recipients: user emails + profile report_emails
+    email_targets = []  # list of (email, user_profiles_dict)
+    
     for user in users:
         email = user.get("email", "")
         username = user.get("username", "")
@@ -249,13 +252,18 @@ def main():
             log.info(f"  {username}: nessuna email, skip")
             continue
         
-        # Get user's visible profiles
         user_profiles = get_user_profiles(username, role, profiles)
-        
-        if not user_profiles:
-            log.info(f"  {username}: nessun profilo, skip")
-            continue
-        
+        if user_profiles:
+            email_targets.append((email, user_profiles, username))
+    
+    # Also check for report_email in profiles (custom email per profile)
+    for pid, p in profiles.items():
+        report_email = p.get("report_email", "").strip()
+        if report_email and report_email not in [t[0] for t in email_targets]:
+            # Send only this profile's report to the custom email
+            email_targets.append((report_email, {pid: p}, f"report_{pid}"))
+    
+    for email, user_profiles, username in email_targets:
         log.info(f"▸ {username} ({email}) — {len(user_profiles)} profili")
         
         # Build report
