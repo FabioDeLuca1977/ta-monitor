@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-03-08T07:18:56.118521",
+  "profile_id": "msl-emilia",
+  "profile_name": "Medical Liaison — Emilia-Romagna",
+  "total_jobs_analyzed": 6,
+  "scoring": {
+    "average": 15.3,
+    "distribution": {
+      "excellent": 0,
+      "good": 0,
+      "medium": 1,
+      "low": 0,
+      "irrelevant": 5
+    },
+    "top_jobs": [
+      {
+        "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
+        "company": "myGwork - LGBTQ+ Business Community",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4376672103"
+      },
+      {
+        "title": "Territory Manager Surgical",
+        "company": "Edwards Lifesciences",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=79016f12b6496b13"
+      },
+      {
+        "title": "Operatore Contact Center a Reggio Emilia",
+        "company": "ItaliAssistenza",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=496baadbd97bf777"
+      },
+      {
+        "title": "Senior Process Development Engineer",
+        "company": "Transmedics",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1772496000000,
+        "url": "https://it.indeed.com/viewjob?jk=e2996d8ca56c7db7"
+      },
+      {
+        "title": "Software Test Engineer",
+        "company": "LivaNova",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1772409600000,
+        "url": "https://it.indeed.com/viewjob?jk=066b4c3e783b6448"
+      },
+      {
+        "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
+        "company": "Transmedics",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1772496000000,
+        "url": "https://it.indeed.com/viewjob?jk=f878320f3fc629a6"
+      }
+    ]
+  },
+  "filter_suggestions": {
+    "add_relevant": [],
+    "add_blacklist": [
+      {
+        "word": "engineer",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      }
+    ],
+    "review": []
+  },
+  "keyword_recommendations": [],
+  "anomalies": [],
+  "feedback_stats": {
+    "total_votes": 14,
+    "users": 1,
+    "feedback_boost_active": true
+  }
+}
