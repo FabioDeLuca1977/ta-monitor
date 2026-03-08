@@ -403,7 +403,7 @@ function createProfile(cloneId){
   if(profilesData.profiles[id]){toast('ID già esistente',true);return}
   let filters;
   if(cloneId&&profilesData.profiles[cloneId]){filters=JSON.parse(JSON.stringify(profilesData.profiles[cloneId].filters))}
-  else{filters={search_terms:[],relevant_patterns:[],broad_keywords:[],blacklist:[],agencies:[]}}
+  else{filters={search_terms:[],relevant_patterns:[],broad_keywords:[],blacklist:[],agencies:['Adami & Associati','Adecco','Ali Lavoro','Altaïde','Alti Profili','Amrop','Antal','Articolo1','Badenoch + Clark','Boyden','Carter & Benson','Catenon','e-work','Egon Zehnder','Etjca','Experis','Gi Group','Grafton','Hays','Heidrick & Struggles','Humangest','Hunters Group','In Job','IQM Selezione','Kelly Services','Key2People','Korn Ferry','Lavoropiù','MAW','Manpower','MF Consultant','Michael Page','Odgers Berndtson','Openjobmetis','Orienta','Page Personnel','PharmaPoint','Quanta','Randstad','Robert Half','Robert Walters','Russell Reynolds','S&you','Spencer Stuart','Spring Professional','Stryker','Synergie','Temporary','Umana','W Executive']}}
   profilesData.profiles[id]={name,description:'',auto_scan:false,location:loc,hours_old:168,created:new Date().toISOString(),created_by:currentUser.username,filters};
   closeModal();markDirty();renderProfileBar();selectProfile(id);toast('Profilo creato!')
 }
