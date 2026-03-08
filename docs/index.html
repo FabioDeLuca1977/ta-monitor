@@ -473,84 +473,145 @@ function saveProfileEmail(){
   markDirty();toast(email?'📧 Email report salvata: '+email:'📧 Email report rimossa');
 }
 
-function runWizard(){
+async function runWizard(){
   const text=$('wizardText').value.trim();
   if(!text){toast('Scrivi una descrizione del lavoro che cerchi',true);return}
   
-  // Parse the description
-  const lower=text.toLowerCase();
+  $('wizardPreview').innerHTML='<div style="padding:20px;text-align:center"><div class="spinner" style="display:inline-block;margin-right:8px"></div> Analisi in corso con AI...</div>';
   
-  // 1. Extract keywords (job titles)
-  const keywords=[];
-  const kwPatterns=[
-    /(?:ruolo|posizione|lavoro)\s+(?:come|di|da)\s+([^,.!?]+)/gi,
-    /(?:cerco|interessano|voglio)\s+(?:un\s+)?(?:ruolo|posizione)?\s*(?:come|di|da|in)?\s*([^,.!?]+)/gi,
-  ];
-  // Also split on "o", "oppure" between job titles
-  const positiveSection=text.split(/non\s+mi\s+interess|esclud|senza|tranne/i)[0]||text;
-  const posParts=positiveSection.split(/[,;]|\bo\b|\boppure\b/i).map(s=>s.trim());
-  for(const part of posParts){
-    const clean=part.replace(/\b(cerco|ruolo|ruoli|come|posizione|lavoro|un|una|nel|nella|in|di|per|il|la|lo|le|settore|ambito|area)\b/gi,'').trim();
-    if(clean.length>=4&&clean.split(/\s+/).length<=5)keywords.push(clean);
+  try{
+    const result=await callGeminiWizard(text);
+    if(result)showWizardPreview(result);
+    else throw new Error('empty');
+  }catch(e){
+    console.warn('Gemini fallback:',e);
+    // Fallback locale
+    const result=localWizard(text);
+    showWizardPreview(result);
   }
+}
+
+async function callGeminiWizard(text){
+  const GEMINI_KEY='AIzaSy_LA_TUA_KEY_QUI';
+  if(!GEMINI_KEY||GEMINI_KEY.includes('%%'))throw new Error('no key');
   
-  // 2. Extract broad keywords (sector/skills)
-  const broads=[];
-  const sectorMatch=text.match(/(?:settore|ambito|area|campo)\s+([^,.!?]+)/gi);
-  if(sectorMatch)sectorMatch.forEach(m=>{
-    const clean=m.replace(/\b(settore|ambito|area|campo|del|della|di|in)\b/gi,'').trim();
-    if(clean.length>=3)broads.push(clean);
+  const prompt=`Sei un esperto di recruiting e ricerca lavoro in Italia. L'utente vuole monitorare annunci di lavoro e ti descrive cosa cerca.
+
+Analizza questa richiesta e genera:
+1. "keywords": lista di 15-25 titoli di lavoro da cercare su LinkedIn/Indeed (in italiano E inglese). Includi varianti, abbreviazioni, sinonimi.
+2. "patterns": lista di 20-30 regex pattern per filtrare annunci rilevanti. Usa regex semplici con \\s+ per spazi, .* per wildcard, (?:a|b) per alternative. Ogni pattern ha "pattern" e "category".
+3. "broad": lista di 20-30 parole chiave generiche del settore che aumentano la rilevanza.
+4. "blacklist": lista di 30-40 pattern per ESCLUDERE lavori NON pertinenti. Pensa a tutti i settori che NON c'entrano (IT, food, retail, operations, ecc). Ogni item ha "pattern" e "category".
+
+Rispondi SOLO con JSON valido, nessun altro testo. Formato:
+{"keywords":["..."],"patterns":[{"pattern":"...","category":"..."}],"broad":["..."],"blacklist":[{"pattern":"...","category":"..."}]}
+
+Richiesta utente: "${text}"`;
+
+  const resp=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_KEY}`,{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({contents:[{parts:[{text:prompt}]}],generationConfig:{temperature:0.3,maxOutputTokens:4000}})
   });
-  // Add individual significant words
-  const sigWords=positiveSection.match(/[a-zàèéìòù]{4,}/gi)||[];
-  const stopWords=new Set(['cerco','ruolo','ruoli','come','posizione','lavoro','interessano','voglio','settore','ambito','area','campo','nella','sono','dove','tipo','oppure']);
-  sigWords.forEach(w=>{if(!stopWords.has(w.toLowerCase())&&w.length>=5)broads.push(w.toLowerCase())});
+  if(!resp.ok)throw new Error('Gemini API '+resp.status);
+  const data=await resp.json();
+  const raw=data.candidates?.[0]?.content?.parts?.[0]?.text||'';
+  // Extract JSON from response
+  const jsonMatch=raw.match(/\{[\s\S]*\}/);
+  if(!jsonMatch)throw new Error('no JSON');
+  return JSON.parse(jsonMatch[0]);
+}
+
+function localWizard(text){
+  // Fallback intelligente locale
+  const lower=text.toLowerCase();
+  const keywords=[],patterns=[],broads=[],blacklist=[];
   
-  // 3. Extract blacklist (negative section)
-  const blacklist=[];
-  const negMatch=text.match(/non\s+mi\s+interess[^.]*|esclud[^.]*|senza\s+[^.]*/gi);
-  if(negMatch){
-    negMatch.forEach(m=>{
-      const parts=m.replace(/\b(non|mi|interessano|escludi|escludere|senza|ruoli|lavori|posizioni|di|da|in|il|la|lo|le)\b/gi,'').split(/[,;]|\bo\b|\boppure\b|\be\b/i);
-      parts.forEach(p=>{const c=p.trim().toLowerCase();if(c.length>=3)blacklist.push(c)});
-    });
+  // Extract positive and negative sections
+  const positiveSection=text.split(/non\s+mi\s+interess|esclud|senza|tranne/i)[0]||text;
+  const negSection=text.replace(positiveSection,'');
+  
+  // Parse keywords from positive section
+  const posParts=positiveSection.split(/[,;]|\bo\b|\boppure\b|\band\b|\bor\b/i).map(s=>s.trim());
+  for(const part of posParts){
+    const clean=part.replace(/\b(cerco|ruolo|ruoli|come|posizione|lavoro|un|una|nel|nella|in|di|per|il|la|lo|le|settore|ambito|area|vorrei|trovare|lavorare)\b/gi,'').trim();
+    if(clean.length>=4&&clean.split(/\s+/).length<=6)keywords.push(clean);
   }
   
-  // 4. Generate patterns from keywords
-  const patterns=[];
+  // Generate patterns from keywords
   keywords.forEach(kw=>{
     const words=kw.toLowerCase().split(/\s+/).filter(w=>w.length>=2);
-    if(words.length>=2)patterns.push({p:words.join('\\\\s+'),cat:'Auto'});
-    if(words.length>=3)patterns.push({p:words[0]+'.*'+words[words.length-1],cat:'Auto'});
+    if(words.length>=2){patterns.push({pattern:words.join('\\s+'),category:'Auto'})}
+    if(words.length>=3){patterns.push({pattern:words[0]+'.*'+words[words.length-1],category:'Auto'})}
+    if(words.length===1&&words[0].length>=5){patterns.push({pattern:words[0],category:'Auto'})}
   });
   
-  // Deduplicate
-  const uKw=[...new Set(keywords)];
-  const uBr=[...new Set(broads)];
-  const uBl=[...new Set(blacklist)];
+  // Extract broad keywords
+  const sigWords=positiveSection.match(/[a-zàèéìòùA-Z]{4,}/gi)||[];
+  const stopW=new Set(['cerco','ruolo','ruoli','come','posizione','lavoro','interessano','voglio','settore','ambito','area','campo','nella','sono','dove','tipo','oppure','vorrei','trovare','lavorare']);
+  sigWords.forEach(w=>{if(!stopW.has(w.toLowerCase())&&w.length>=4)broads.push(w)});
   
-  // Show preview
+  // Extract blacklist
+  if(negSection){
+    const parts=negSection.replace(/\b(non|mi|interessano|escludi|escludere|senza|ruoli|lavori|posizioni|di|da|in|il|la|lo|le|che)\b/gi,'').split(/[,;]|\bo\b|\boppure\b|\be\b/i);
+    parts.forEach(p=>{const c=p.trim().toLowerCase();if(c.length>=3)blacklist.push({pattern:c,category:'Auto'})});
+  }
+  
+  // Add standard blacklist based on sector detection
+  const stdBlacklist=[
+    {pattern:'camerier',category:'Food'},{pattern:'barista',category:'Food'},{pattern:'cuoc[oa]',category:'Food'},
+    {pattern:'commess[oa]',category:'Retail'},{pattern:'cassier',category:'Retail'},{pattern:'store\\s+manager',category:'Retail'},
+    {pattern:'magazzin',category:'Operations'},{pattern:'operai[oa]',category:'Operations'},{pattern:'autista',category:'Operations'},
+    {pattern:'muratore',category:'Operations'},{pattern:'idraulic',category:'Operations'},{pattern:'elettricist',category:'Operations'},
+    {pattern:'manutenz',category:'Operations'},{pattern:'concorso\\s+pubblic',category:'Bandi'},{pattern:'bando',category:'Bandi'},
+  ];
+  // Add tech blacklist if not searching for tech
+  if(!lower.match(/\b(developer|sviluppat|software|data\s+scien|devops|IT|tech)\b/i)){
+    stdBlacklist.push({pattern:'sviluppat',category:'Tech'},{pattern:'developer',category:'Tech'},{pattern:'software\\s+engineer',category:'Tech'},
+      {pattern:'full\\s*stack',category:'Tech'},{pattern:'devops',category:'Tech'},{pattern:'data\\s+(?:engineer|scientist)',category:'Tech'});
+  }
+  // Add HR blacklist if not searching for HR
+  if(!lower.match(/\b(hr|risorse\s+umane|talent|recrui|selezione)\b/i)){
+    stdBlacklist.push({pattern:'hr\\s+(?:manager|generalist|specialist)',category:'HR'},{pattern:'talent\\s+acquisition',category:'HR'},
+      {pattern:'recruiter|recruiting',category:'HR'},{pattern:'selezione.*personale',category:'HR'});
+  }
+  blacklist.push(...stdBlacklist);
+  
+  return{
+    keywords:[...new Set(keywords)],
+    patterns:patterns,
+    broad:[...new Set(broads)],
+    blacklist:blacklist
+  };
+}
+
+function showWizardPreview(result){
+  const kw=result.keywords||[];
+  const pt=result.patterns||[];
+  const br=result.broad||[];
+  const bl=result.blacklist||[];
+  
   $('wizardPreview').innerHTML=`<div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px;margin-top:8px">
     <h3 style="font-size:.88rem;margin-bottom:12px">Anteprima — verifica e conferma</h3>
     
-    ${uKw.length?`<div style="margin-bottom:14px">
-      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">🔍 Keywords (${uKw.length})</p>
-      ${uKw.map((k,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wkw${i}" checked/><span style="font-size:.82rem">${esc(k)}</span></div>`).join('')}
+    ${kw.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">🔍 Keywords (${kw.length})</p>
+      ${kw.map((k,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wkw${i}" checked/><span style="font-size:.82rem">${esc(typeof k==='string'?k:k.keyword||k)}</span></div>`).join('')}
     </div>`:''}
     
-    ${patterns.length?`<div style="margin-bottom:14px">
-      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">✓ Pattern Rilevanza (${patterns.length})</p>
-      ${patterns.map((p,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wpt${i}" checked/><code style="font-size:.78rem;color:var(--accent)">${esc(p.p)}</code></div>`).join('')}
+    ${pt.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">✓ Pattern Rilevanza (${pt.length})</p>
+      ${pt.map((p,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wpt${i}" checked/><code style="font-size:.78rem;color:var(--accent)">${esc(p.pattern||p.p||p)}</code> <span style="font-size:.7rem;color:var(--text-dim)">${esc(p.category||'')}</span></div>`).join('')}
     </div>`:''}
     
-    ${uBr.length?`<div style="margin-bottom:14px">
-      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">📋 Keywords Broad (${uBr.length})</p>
-      ${uBr.map((b,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wbr${i}" checked/><span style="font-size:.82rem">${esc(b)}</span></div>`).join('')}
+    ${br.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">📋 Keywords Broad (${br.length})</p>
+      ${br.map((b,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wbr${i}" checked/><span style="font-size:.82rem">${esc(typeof b==='string'?b:b)}</span></div>`).join('')}
     </div>`:''}
     
-    ${uBl.length?`<div style="margin-bottom:14px">
-      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">✗ Blacklist (${uBl.length})</p>
-      ${uBl.map((b,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wbl${i}" checked/><span style="font-size:.82rem;color:var(--danger)">${esc(b)}</span></div>`).join('')}
+    ${bl.length?`<div style="margin-bottom:14px">
+      <p style="font-size:.8rem;font-weight:600;margin-bottom:6px">✗ Blacklist (${bl.length})</p>
+      ${bl.map((b,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="wbl${i}" checked/><span style="font-size:.82rem;color:var(--danger)">${esc(b.pattern||b)}</span> <span style="font-size:.7rem;color:var(--text-dim)">${esc(b.category||'')}</span></div>`).join('')}
     </div>`:''}
     
     <div style="display:flex;gap:8px;margin-top:10px">
@@ -559,7 +620,7 @@ function runWizard(){
     </div>
   </div>`;
   
-  window._wizData={kw:uKw,patterns,br:uBr,bl:uBl};
+  window._wizData={kw,patterns:pt,br,bl};
 }
 
 function applyWizard(){
@@ -568,21 +629,25 @@ function applyWizard(){
   const f=F();
   
   // Keywords
-  d.kw.forEach((k,i)=>{const cb=document.getElementById('wkw'+i);
-    if(cb&&cb.checked&&!f.search_terms.some(s=>s.toLowerCase()===k.toLowerCase())){f.search_terms.push(k);added.kw++}});
+  (d.kw||d.keywords||[]).forEach((k,i)=>{const cb=document.getElementById('wkw'+i);
+    const val=typeof k==='string'?k:(k.keyword||k);
+    if(cb&&cb.checked&&!f.search_terms.some(s=>s.toLowerCase()===val.toLowerCase())){f.search_terms.push(val);added.kw++}});
   
   // Patterns
-  d.patterns.forEach((p,i)=>{const cb=document.getElementById('wpt'+i);
-    if(cb&&cb.checked&&!f.relevant_patterns.some(r=>r.pattern===p.p)){
-      try{new RegExp(p.p,'i');f.relevant_patterns.push({pattern:p.p,category:p.cat,note:'wizard'});added.pt++}catch(e){}}});
+  (d.patterns||[]).forEach((p,i)=>{const cb=document.getElementById('wpt'+i);
+    const pat=p.pattern||p.p||p;const cat=p.category||p.cat||'Auto';
+    if(cb&&cb.checked&&!f.relevant_patterns.some(r=>r.pattern===pat)){
+      try{new RegExp(pat,'i');f.relevant_patterns.push({pattern:pat,category:cat,note:'wizard'});added.pt++}catch(e){}}});
   
   // Broad
-  d.br.forEach((b,i)=>{const cb=document.getElementById('wbr'+i);
-    if(cb&&cb.checked&&!f.broad_keywords.some(x=>x.toLowerCase()===b.toLowerCase())){f.broad_keywords.push(b);added.br++}});
+  (d.br||d.broad||[]).forEach((b,i)=>{const cb=document.getElementById('wbr'+i);
+    const val=typeof b==='string'?b:b;
+    if(cb&&cb.checked&&!f.broad_keywords.some(x=>x.toLowerCase()===val.toLowerCase())){f.broad_keywords.push(val);added.br++}});
   
   // Blacklist
-  d.bl.forEach((b,i)=>{const cb=document.getElementById('wbl'+i);
-    if(cb&&cb.checked&&!f.blacklist.some(x=>x.pattern.toLowerCase()===b)){f.blacklist.push({pattern:b,category:'Auto'});added.bl++}});
+  (d.bl||d.blacklist||[]).forEach((b,i)=>{const cb=document.getElementById('wbl'+i);
+    const pat=b.pattern||b;const cat=b.category||'Auto';
+    if(cb&&cb.checked&&!f.blacklist.some(x=>x.pattern===pat)){f.blacklist.push({pattern:pat,category:cat});added.bl++}});
   
   $('wizardPreview').innerHTML='';$('wizardText').value='';
   renderFilters(profilesData.profiles[activeProfileId]);markDirty();
