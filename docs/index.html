@@ -962,14 +962,11 @@ function renderAdmin(){
         ${u.username===currentUser.username?`<button class="btn btn-ghost" style="padding:3px 8px;font-size:.72rem" onclick="showChangePw('${esc(u.username)}')">🔑 Cambia password</button> <span style="font-size:.72rem;color:var(--text-dim)">tu</span>`:`<button class="btn btn-danger" style="padding:3px 8px;font-size:.72rem" onclick="rmUser(${i})">Rimuovi</button>`}
       </div>
     </div>`).join('')}
-    <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
+  <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
       <p style="font-size:.78rem;color:var(--text-dim)">Per invitare qualcuno, condividi il codice di accesso <strong style="color:var(--accent)">JobSpy</strong> e il link della dashboard. Si registreranno da soli.</p>
-      <p style="font-size:.78rem;color:var(--text-dim);margin-top:6px">⚠ Se accedono da un altro dispositivo, dovranno prima aprire il link di setup per collegare il browser:</p>
-      <div style="display:flex;gap:6px;margin-top:6px"><input id="setupLinkDisplay" readonly style="flex:1;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;color:var(--accent);font-family:'JetBrains Mono',monospace;font-size:.72rem" value=""/><button class="btn btn-ghost" onclick="copySetupLink()">📋 Copia</button></div>
     </div>
   </div>`;
-  const enc=localStorage.getItem('ta_token_enc');
-  if(enc){$('setupLinkDisplay').value=`${window.location.origin}${window.location.pathname}?setup=${atob(enc)}`}
+ 
 }
 
 function showChangePw(username){
