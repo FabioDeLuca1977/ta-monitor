@@ -352,6 +352,7 @@ function selectProfile(id){
   activeProfileId=id;renderProfileBar();
   const p=profilesData.profiles[id];renderProfileHeader(id,p);renderFilters(p);renderRunSection(id);
   if(currentUser.role==='admin')renderAdmin();
+  else renderUserSelf();
   // Disable editing on shared profiles for non-owners
   if(!isMyProfile(id)){
     document.querySelectorAll('#content .btn-primary, #content .btn-danger, #content .add-row input, #content .add-row select, #content .remove').forEach(el=>{el.disabled=true;el.style.opacity='0.3';el.style.pointerEvents='none'});
@@ -938,6 +939,15 @@ async function doChangePw(username){
   }catch(e){err.textContent='Errore: '+e.message}
 }
 async function rmUser(i){const u=usersData.users[i];if(!confirm(`Rimuovere ${u.username}?`))return;usersData.users.splice(i,1);try{const r=await ghPut(USERS_PATH,JSON.stringify(usersData,null,2),usersSha,`👤 -${u.username}`);usersSha=r.content.sha;renderAdmin();toast('Rimosso')}catch(e){toast('Errore: '+e.message,true)}}
+
+function renderUserSelf(){
+  $('adminSection').innerHTML=`<div class="admin-panel"><h2>👤 Il tuo account</h2>
+    <div class="user-row">
+      <div><span style="font-weight:500">${esc(currentUser.username)}</span> ${currentUser.email?` <span style="font-size:.72rem;color:var(--accent)">📧 ${esc(currentUser.email)}</span>`:''}</div>
+      <button class="btn btn-ghost" style="padding:3px 8px;font-size:.72rem" onclick="showChangePw('${esc(currentUser.username)}')">🔑 Cambia password</button>
+    </div>
+  </div>`;
+}
 
 function copySetupLink(){const el=$('setupLinkDisplay');el.select();navigator.clipboard.writeText(el.value).then(()=>toast('Link copiato!')).catch(()=>toast('Seleziona e copia manualmente',true))}
 
