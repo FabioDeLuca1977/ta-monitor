@@ -514,7 +514,7 @@ Richiesta utente: "${text}"`;
   const data=await resp.json();
   const raw=data.candidates?.[0]?.content?.parts?.[0]?.text||'';
   // Extract JSON from response
-  console.log('Gemini raw response:',raw);
+  
   const jsonMatch=raw.match(/\{[\s\S]*\}/);
   if(!jsonMatch)throw new Error('no JSON');
   return JSON.parse(jsonMatch[0]);
