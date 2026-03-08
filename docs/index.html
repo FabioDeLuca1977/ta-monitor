@@ -660,13 +660,7 @@ function rKeywords(){$('body-keywords').innerHTML=`
   <p style="font-size:.75rem;color:var(--text-dim)">Sono le parole che il sistema cerca su LinkedIn, Indeed e Google. Inserisci i titoli di lavoro che ti interessano, uno per volta.<br>
   <strong>Esempi:</strong> talent acquisition, recruiter, HR manager, medical advisor, regulatory affairs specialist</p>
 </div>
-<div style="margin-bottom:10px;padding:10px 14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
-  <p style="font-size:.78rem;font-weight:600;margin-bottom:6px">🪄 Genera keywords da una descrizione</p>
-  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:8px">Scrivi il tipo di lavoro che cerchi e il sistema genera le keyword automaticamente.<br>
-  <strong>Esempio:</strong> "Cerco un ruolo come talent acquisition o recruiter nel settore HR"</p>
-  <div class="add-row"><input id="nKwAuto" placeholder="Es: cerco ruoli in medical affairs, MSL, clinical research..." style="flex:3"/><button class="btn btn-primary" onclick="autoGenKeywords()">🪄 Genera</button></div>
-  <div id="kwAutoPreview" style="margin-top:8px"></div>
-</div>
+
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().search_terms.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare tutte le keyword?')){F().search_terms=[];rKeywords();uc('keywords',0);markDirty()}">🗑 Svuota</button>`:''}</div><div class="tags">${F().search_terms.map((t,i)=>tg(t,`rmKw(${i})`)).join('')}</div>
 
 <div class="add-row"><input id="nKw" placeholder="Aggiungi keyword singola..." onkeydown="if(event.key==='Enter')addKw()"/><button class="btn btn-primary" onclick="addKw()">+</button></div>`}
@@ -718,13 +712,7 @@ function rBroad(){$('body-broad').innerHTML=`
   <p style="font-size:.75rem;color:var(--text-dim)">Sono parole chiave "larghe" che aumentano il punteggio di rilevanza degli annunci nel machine learning, ma non vengono usate per cercare. Servono a dire al sistema: "se un annuncio contiene queste parole, è probabilmente interessante".<br>
   <strong>Esempi:</strong> talent, recruiting, selezione, HR, medical affairs, pharma, oncology</p>
 </div>
-<div style="margin-bottom:10px;padding:10px 14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
-  <p style="font-size:.78rem;font-weight:600;margin-bottom:6px">🪄 Genera automaticamente</p>
-  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:8px">Descrivi il settore e le competenze del ruolo che cerchi.<br>
-  <strong>Esempio:</strong> "settore farmaceutico, oncologia, ricerca clinica, regulatory, medical affairs"</p>
-  <div class="add-row"><input id="nBrAuto" placeholder="Es: settore HR, recruiting, selezione personale, risorse umane..." style="flex:3"/><button class="btn btn-primary" onclick="autoGenBroad()">🪄 Genera</button></div>
-  <div id="brAutoPreview" style="margin-top:8px"></div>
-</div>
+
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().broad_keywords.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare le keyword broad?')){F().broad_keywords=[];rBroad();uc('broad',0);markDirty()}">🗑 Svuota</button>`:''}</div><div class="tags">${F().broad_keywords.map((t,i)=>tg(t,`rmBr(${i})`)).join('')}</div>
 <div class="add-row"><input id="nBr" placeholder="Aggiungi keyword broad singola..." onkeydown="if(event.key==='Enter')addBr()"/><button class="btn btn-primary" onclick="addBr()">+</button></div>`}
 function autoGenBroad(){
@@ -867,13 +855,7 @@ function rBlacklist(){const g={};F().blacklist.forEach((b,i)=>{const c=b.categor
   <p style="font-size:.75rem;color:var(--text-dim)">Parole o pattern per escludere annunci che non ti interessano. Se un annuncio contiene una di queste parole nel titolo, viene scartato automaticamente.<br>
   <strong>Esempi:</strong> cameriere, magazziniere, sviluppatore, commesso, infermiere</p>
 </div>
-<div style="margin-bottom:10px;padding:10px 14px;background:var(--surface2);border-radius:var(--radius);border:1px solid var(--border)">
-  <p style="font-size:.78rem;font-weight:600;margin-bottom:6px">🪄 Genera blacklist automaticamente</p>
-  <p style="font-size:.75rem;color:var(--text-dim);margin-bottom:8px">Scrivi i tipi di lavoro che NON ti interessano, separati da virgola.<br>
-  <strong>Esempio:</strong> "cameriere, cuoco, magazziniere, commesso, sviluppatore, infermiere, autista"</p>
-  <div class="add-row"><input id="nBlAuto" placeholder="Es: cameriere, magazziniere, commesso, autista..." style="flex:3"/><select id="nBlAutoCat">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="autoGenBlacklist()">🪄 Genera</button></div>
-  <div id="blAutoPreview" style="margin-top:8px"></div>
-</div>
+
 +`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().blacklist.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare la blacklist?')){F().blacklist=[];rBlacklist();uc('blacklist',0);markDirty()}">🗑 Svuota</button>`:``}</div>`
 `+Object.entries(g).map(([c,items])=>`<div style="margin-bottom:14px"><div style="font-size:.75rem;color:var(--text-dim);margin-bottom:4px;text-transform:uppercase">${esc(c)}</div><div class="tags">${items.map(b=>`<span class="tag" style="border-color:rgba(231,76,60,.3)"><span class="mono" style="font-size:.72rem;color:var(--danger)">${esc(b.pattern)}</span><button class="remove" onclick="rmBl(${b._i})">✗</button></span>`).join('')}</div></div>`).join('')+`<div class="add-row" style="margin-top:10px"><input id="nBl" placeholder="Aggiungi pattern manualmente..." style="flex:2"/><select id="nBc">${BC.map(c=>`<option>${c}</option>`).join('')}</select><button class="btn btn-danger" style="border:none;background:var(--danger);color:#fff" onclick="addBl()">+ Blocca</button></div>`}
 function autoGenBlacklist(){
