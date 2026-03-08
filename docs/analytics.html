@@ -200,9 +200,14 @@ function ghDecode(d){return JSON.parse(decodeURIComponent(escape(atob(d.content.
 async function doLogin(){
   const u=$('loginUser').value.trim().toLowerCase(),p=$('loginPass').value,err=$('loginError');
   if(!u||!p){err.textContent='Inserisci credenziali';return}err.textContent='';
-  const enc=localStorage.getItem('ta_token_enc');
-  if(!enc){err.textContent='Accesso non configurato. Apri prima la dashboard principale.';return}
-  try{token=atob(enc);const d=await ghGet(USERS_PATH);usersData=ghDecode(d);
+  let tk=localStorage.getItem('ta_token_enc');
+  if(tk){tk=atob(tk)}else{
+    try{const resp=await fetch(`https://api.github.com/repos/${REPO}/contents/.tk`);
+      if(resp.ok){const d=await resp.json();tk=atob(d.content.replace(/\n/g,''));localStorage.setItem('ta_token_enc',btoa(tk))}
+    }catch(ex){}
+  }
+  if(!tk){err.textContent='Accesso non configurato. Apri prima la dashboard principale.';return}
+  try{token=tk;const d=await ghGet(USERS_PATH);usersData=ghDecode(d);
     const h=await hashPw(p),f=usersData.users.find(x=>x.username===u&&x.password_hash===h);
     if(!f){err.textContent='Username o password errati';return}
     currentUser=f;localStorage.setItem('ta_user',u);showApp()

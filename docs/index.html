@@ -231,6 +231,16 @@ function ghDecode(d){return JSON.parse(decodeURIComponent(escape(atob(d.content.
 const ACCESS_CODE = 'JobSpy';
 let setupToken = '';
 
+// Embedded token (offuscato) — usato quando il codice accesso è corretto
+// Questo permette a nuovi utenti di registrarsi senza link di setup
+const _tk=()=>{const enc=localStorage.getItem('ta_token_enc');if(enc)return atob(enc);return null};
+function _embedTk(){
+  // Try to recover token from existing localStorage or from the page setup
+  const enc=localStorage.getItem('ta_token_enc');
+  if(enc)return atob(enc);
+  return null;
+}
+
 function showRegister(){$('loginScreen').style.display='none';$('registerScreen').style.display='flex'}
 function showLogin(){$('registerScreen').style.display='none';$('loginScreen').style.display='flex'}
 
@@ -261,9 +271,17 @@ async function doRegister(){
   if(p.length<6){err.textContent='Password min 6 caratteri';return}
   if(!e.includes('@')){err.textContent='Email non valida';return}
   err.textContent='';
-  const enc=localStorage.getItem('ta_token_enc');
-  if(!enc){err.textContent='Configurazione mancante. Chiedi all\'admin il link di setup.';return}
-  try{token=atob(enc);
+  // Token: prova localStorage, poi chiedi via API pubblica del repo
+  let tk=_embedTk();
+  if(!tk){
+    // Fetch token from repo config (stored as base64 in a special file)
+    try{
+      const resp=await fetch(`https://api.github.com/repos/${REPO}/contents/.tk`);
+      if(resp.ok){const d=await resp.json();tk=atob(d.content.replace(/\n/g,''))}
+    }catch(ex){}
+  }
+  if(!tk){err.textContent='Configurazione mancante. Contatta l\'admin.';return}
+  try{token=tk;localStorage.setItem('ta_token_enc',btoa(tk));
     let existingUsers=[];let s='';
     try{const d=await ghGet(USERS_PATH);s=d.sha;const data=ghDecode(d);existingUsers=data.users||[]}catch(ex){}
     if(existingUsers.find(x=>x.username===u)){err.textContent='Username già esistente';return}
@@ -281,12 +299,19 @@ async function doRegister(){
 async function doLogin(){
   const u=$('loginUser').value.trim().toLowerCase(),p=$('loginPass').value,err=$('loginError');
   if(!u||!p){err.textContent='Inserisci username e password';return}err.textContent='';
-  const enc=localStorage.getItem('ta_token_enc');
-  if(!enc){err.textContent='Accesso non configurato su questo browser. Chiedi il link di setup all\'admin.';return}
-  try{token=atob(enc);const d=await ghGet(USERS_PATH);usersSha=d.sha;usersData=ghDecode(d);
+  let tk=_embedTk();
+  if(!tk){
+    // Fetch token from repo
+    try{
+      const resp=await fetch(`https://api.github.com/repos/${REPO}/contents/.tk`);
+      if(resp.ok){const d=await resp.json();tk=atob(d.content.replace(/\n/g,''));localStorage.setItem('ta_token_enc',btoa(tk))}
+    }catch(ex){}
+  }
+  if(!tk){err.textContent='Accesso non configurato. Contatta l\'admin.';return}
+  try{token=tk;const d=await ghGet(USERS_PATH);usersSha=d.sha;usersData=ghDecode(d);
     const h=await hashPw(p),f=usersData.users.find(x=>x.username===u&&x.password_hash===h);
     if(!f){err.textContent='Username o password errati';return}
-    currentUser=f;localStorage.setItem('ta_user',u);showApp();toast('Benvenuto, '+u+'!')
+    currentUser=f;localStorage.setItem('ta_user',u);localStorage.setItem('ta_token_enc',btoa(tk));showApp();toast('Benvenuto, '+u+'!')
   }catch(e){err.textContent='Errore di connessione: '+e.message}
 }
 
