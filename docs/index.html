@@ -116,8 +116,8 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:v
     <div class="field"><label>Username</label><input type="text" id="loginUser" autocomplete="username"/></div>
     <div class="field"><label>Password</label><input type="password" id="loginPass" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()"/></div>
     <div class="error" id="loginError"></div>
-    <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doLogin()">Accedi</button>
-    <div style="margin-top:18px;border-top:1px solid var(--border);padding-top:14px">
+      <button class="btn btn-primary" style="width:100%;padding:11px" onclick="doLogin()">Accedi</button>
+      <div style="margin-top:18px;border-top:1px solid var(--border);padding-top:14px">
       <p style="font-size:.78rem;color:var(--text-dim);margin-bottom:8px">Non hai un account?</p>
       <button class="btn btn-ghost" style="width:100%;font-size:.8rem" onclick="showRegister()">Registrati</button>
     </div>
@@ -267,7 +267,7 @@ async function doRegister(){
   if(!e.includes('@')){err.textContent='Email non valida';return}
   err.textContent='';
   // Token: prova localStorage, poi chiedi via API pubblica del repo
-  let tk=_embedTk();
+  let tk=_gt();
   if(!tk){
     tk=_gt();
   }
@@ -290,13 +290,10 @@ async function doRegister(){
 async function doLogin(){
   const u=$('loginUser').value.trim().toLowerCase(),p=$('loginPass').value,err=$('loginError');
   if(!u||!p){err.textContent='Inserisci username e password';return}err.textContent='';
-  let tk=_embedTk();
+  let tk=_gt();
   if(!tk){
     // Fetch token from repo
-    try{
-      const resp=await fetch(`https://api.github.com/repos/${REPO}/contents/.tk`);
-      if(resp.ok){const d=await resp.json();tk=atob(d.content.replace(/\n/g,''));localStorage.setItem('ta_token_enc',btoa(tk))}
-    }catch(ex){}
+    tk=_gt();if(tk)localStorage.setItem('ta_token_enc',btoa(tk));
   }
   if(!tk){err.textContent='Accesso non configurato. Contatta l\'admin.';return}
   try{token=tk;const d=await ghGet(USERS_PATH);usersSha=d.sha;usersData=ghDecode(d);
@@ -492,7 +489,7 @@ async function runWizard(){
 }
 
 async function callGeminiWizard(text){
-  const GEMINI_KEY='AIzaSy_LA_TUA_KEY_QUI';
+  const GEMINI_KEY=AIzaSyCWEG1BILxfSozvNvfyqcX02DO75H7eMTE;
   if(!GEMINI_KEY||GEMINI_KEY.includes('%%'))throw new Error('no key');
   
   const prompt=`Sei un esperto di recruiting e ricerca lavoro in Italia. L'utente vuole monitorare annunci di lavoro e ti descrive cosa cerca.
