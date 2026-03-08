@@ -780,7 +780,8 @@ def generate_excel_profile(conn, out_dir, profile_name, hours_old):
     from openpyxl.styles import Font, PatternFill, Alignment
 
     today = datetime.now().strftime("%Y-%m-%d")
-    path = out_dir / f"TA_Monitor_{today}.xlsx"
+    safe_name = profile_name.replace(" ", "_").replace("/", "-")
+    path = out_dir / f"TA_Monitor_{safe_name}_{today}.xlsx"
     wb = Workbook()
     hfont = Font(bold=True, color="FFFFFF", size=11)
     hfill = PatternFill("solid", fgColor="4A00E0")
