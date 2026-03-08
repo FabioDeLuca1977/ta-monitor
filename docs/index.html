@@ -489,7 +489,7 @@ async function runWizard(){
 }
 
 async function callGeminiWizard(text){
-  const GEMINI_KEY=AIzaSyCWEG1BILxfSozvNvfyqcX02DO75H7eMTE;
+  const GEMINI_KEY='AIzaSyCWEG1BILxfSozvNvfyqcX02DO75H7eMTE';
   if(!GEMINI_KEY||GEMINI_KEY.includes('%%'))throw new Error('no key');
   
   const prompt=`Sei un esperto di recruiting e ricerca lavoro in Italia. L'utente vuole monitorare annunci di lavoro e ti descrive cosa cerca.
