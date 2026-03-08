@@ -403,7 +403,7 @@ function createProfile(cloneId){
   if(profilesData.profiles[id]){toast('ID già esistente',true);return}
   let filters;
   if(cloneId&&profilesData.profiles[cloneId]){filters=JSON.parse(JSON.stringify(profilesData.profiles[cloneId].filters))}
-  else{filters={search_terms:[],relevant_patterns:[],broad_keywords:[],blacklist:[],agencies:['Adami & Associati','Adecco','Ali Lavoro','Altaïde','Alti Profili','Amrop','Antal','Articolo1','Badenoch + Clark','Boyden','Carter & Benson','Catenon','e-work','Egon Zehnder','Etjca','Experis','Gi Group','Grafton','Hays','Heidrick & Struggles','Humangest','Hunters Group','In Job','IQM Selezione','Kelly Services','Key2People','Korn Ferry','Lavoropiù','MAW','Manpower','MF Consultant','Michael Page','Odgers Berndtson','Openjobmetis','Orienta','Page Personnel','PharmaPoint','Quanta','Randstad','Robert Half','Robert Walters','Russell Reynolds','S&you','Spencer Stuart','Spring Professional','Stryker','Synergie','Temporary','Umana','W Executive']}}
+  else{filters={search_terms:[],relevant_patterns:[],broad_keywords:[],blacklist:[],agencies:DEFAULT_AGENCIES.map(a=>a.n)}}
   profilesData.profiles[id]={name,description:'',auto_scan:false,location:loc,hours_old:168,created:new Date().toISOString(),created_by:currentUser.username,filters};
   closeModal();markDirty();renderProfileBar();selectProfile(id);toast('Profilo creato!')
 }
@@ -735,13 +735,62 @@ function applyAutoBroad(){
 function addBr(){const v=$('nBr').value.trim();if(!v||F().broad_keywords.includes(v))return;F().broad_keywords.push(v);rBroad();uc('broad',F().broad_keywords.length);markDirty()}
 function rmBr(i){F().broad_keywords.splice(i,1);rBroad();uc('broad',F().broad_keywords.length);markDirty()}
 
-function rAgencies(){$('body-agencies').innerHTML=`
+const DEFAULT_AGENCIES=[
+  {n:'Adami & Associati',d:'2026-03-08'},{n:'Adecco',d:'2026-03-08'},{n:'Ali Lavoro',d:'2026-03-08'},
+  {n:'Altaïde',d:'2026-03-08'},{n:'Alti Profili',d:'2026-03-08'},{n:'Amrop',d:'2026-03-08'},
+  {n:'Antal',d:'2026-03-08'},{n:'Articolo1',d:'2026-03-08'},{n:'Badenoch + Clark',d:'2026-03-08'},
+  {n:'Boyden',d:'2026-03-08'},{n:'Carter & Benson',d:'2026-03-08'},{n:'Catenon',d:'2026-03-08'},
+  {n:'e-work',d:'2026-03-08'},{n:'Egon Zehnder',d:'2026-03-08'},{n:'Etjca',d:'2026-03-08'},
+  {n:'Experis',d:'2026-03-08'},{n:'Gi Group',d:'2026-03-08'},{n:'Grafton',d:'2026-03-08'},
+  {n:'Hays',d:'2026-03-08'},{n:'Heidrick & Struggles',d:'2026-03-08'},{n:'Humangest',d:'2026-03-08'},
+  {n:'Hunters Group',d:'2026-03-08'},{n:'In Job',d:'2026-03-08'},{n:'IQM Selezione',d:'2026-03-08'},
+  {n:'Kelly Services',d:'2026-03-08'},{n:'Key2People',d:'2026-03-08'},{n:'Korn Ferry',d:'2026-03-08'},
+  {n:'Lavoropiù',d:'2026-03-08'},{n:'MAW',d:'2026-03-08'},{n:'Manpower',d:'2026-03-08'},
+  {n:'MF Consultant',d:'2026-03-08'},{n:'Michael Page',d:'2026-03-08'},{n:'Odgers Berndtson',d:'2026-03-08'},
+  {n:'Openjobmetis',d:'2026-03-08'},{n:'Orienta',d:'2026-03-08'},{n:'Page Personnel',d:'2026-03-08'},
+  {n:'PharmaPoint',d:'2026-03-08'},{n:'Quanta',d:'2026-03-08'},{n:'Randstad',d:'2026-03-08'},
+  {n:'Robert Half',d:'2026-03-08'},{n:'Robert Walters',d:'2026-03-08'},{n:'Russell Reynolds',d:'2026-03-08'},
+  {n:'S&you',d:'2026-03-08'},{n:'Spencer Stuart',d:'2026-03-08'},{n:'Spring Professional',d:'2026-03-08'},
+  {n:'Stryker',d:'2026-03-08'},{n:'Synergie',d:'2026-03-08'},{n:'Temporary',d:'2026-03-08'},
+  {n:'Umana',d:'2026-03-08'},{n:'W Executive',d:'2026-03-08'}
+];
+function isNewAgency(name){const a=DEFAULT_AGENCIES.find(x=>x.n===name);if(!a)return false;const added=new Date(a.d);const sixMonths=new Date();sixMonths.setMonth(sixMonths.getMonth()-6);return added>sixMonths}
+function agTag(name,rmAction){const isNew=isNewAgency(name);return `<span class="tag"${isNew?' style="border-color:rgba(108,92,231,.5);background:rgba(108,92,231,.15)"':''}>${esc(name)}${isNew?'<span style="font-size:.6rem;color:var(--accent);margin-left:4px">NEW</span>':''}<button class="remove" onclick="${rmAction}">✗</button></span>`}
+function rAgencies(){
+  const missing=DEFAULT_AGENCIES.filter(a=>!F().agencies.includes(a.n));
+  $('body-agencies').innerHTML=`
 <div style="padding:10px 14px;background:var(--surface2);border-radius:var(--radius);margin-bottom:12px;border:1px solid var(--border)">
   <p style="font-size:.8rem;font-weight:600;margin-bottom:4px">🏢 Cosa sono le Agenzie?</p>
   <p style="font-size:.75rem;color:var(--text-dim)">Nomi di agenzie per il lavoro o società di recruiting da monitorare. Il sistema cerca annunci anche sui loro siti.<br>
   <strong>Esempi:</strong> Randstad, Adecco, Manpower, Gi Group, Hays, Michael Page, Umana</p>
 </div>
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">${F().agencies.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare le agenzie?')){F().agencies=[];rAgencies();uc('agencies',0);markDirty()}">🗑 Svuota</button>`:''}</div><div class="tags">${F().agencies.map((t,i)=>tg(t,`rmAg(${i})`)).join('')}</div><div class="add-row"><input id="nAg" placeholder="Nome agenzia..." onkeydown="if(event.key==='Enter')addAg()"/><button class="btn btn-primary" onclick="addAg()">+</button></div>`}
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+  ${F().agencies.length?`<button class="btn btn-danger" style="padding:3px 10px;font-size:.72rem" onclick="if(confirm('Svuotare le agenzie?')){F().agencies=[];rAgencies();uc('agencies',0);markDirty()}">🗑 Svuota</button>`:''}
+  ${missing.length?`<button class="btn btn-primary" style="padding:3px 10px;font-size:.72rem" onclick="showMissingAgencies()">🔄 Aggiorna da catalogo (${missing.length} nuove)</button>`:'<span style="font-size:.72rem;color:var(--success)">✓ Catalogo completo</span>'}
+</div>
+<div id="missingAgenciesPreview"></div>
+<div class="tags">${F().agencies.map((t,i)=>agTag(t,`rmAg(${i})`)).join('')}</div>
+<div class="add-row"><input id="nAg" placeholder="Nome agenzia..." onkeydown="if(event.key==='Enter')addAg()"/><button class="btn btn-primary" onclick="addAg()">+</button></div>`}
+function showMissingAgencies(){
+  const missing=DEFAULT_AGENCIES.filter(a=>!F().agencies.includes(a.n));
+  $('missingAgenciesPreview').innerHTML=`<div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;margin-bottom:10px">
+    <p style="font-size:.8rem;font-weight:600;margin-bottom:8px">Agenzie non ancora presenti (${missing.length}):</p>
+    ${missing.map((a,i)=>`<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px"><input type="checkbox" id="mag${i}" checked/><span style="font-size:.82rem">${esc(a.n)}</span>${isNewAgency(a.n)?'<span style="font-size:.65rem;color:var(--accent);background:var(--accent-glow);padding:1px 6px;border-radius:8px">NEW</span>':''}</div>`).join('')}
+    <div style="display:flex;gap:8px;margin-top:10px">
+      <button class="btn btn-primary" onclick="applyMissingAgencies()">✓ Aggiungi selezionate</button>
+      <button class="btn btn-ghost" onclick="$('missingAgenciesPreview').innerHTML=''">Annulla</button>
+    </div>
+  </div>`;
+  window._missingAg=missing;
+}
+function applyMissingAgencies(){
+  const missing=window._missingAg||[];let added=0;
+  missing.forEach((a,i)=>{const cb=document.getElementById('mag'+i);if(cb&&cb.checked&&!F().agencies.includes(a.n)){F().agencies.push(a.n);added++}});
+  F().agencies.sort();
+  $('missingAgenciesPreview').innerHTML='';
+  rAgencies();uc('agencies',F().agencies.length);markDirty();
+  toast(`✓ ${added} agenzie aggiunte`);
+}
 function addAg(){const v=$('nAg').value.trim();if(!v||F().agencies.includes(v))return;F().agencies.push(v);rAgencies();uc('agencies',F().agencies.length);markDirty()}
 function rmAg(i){F().agencies.splice(i,1);rAgencies();uc('agencies',F().agencies.length);markDirty()}
 
