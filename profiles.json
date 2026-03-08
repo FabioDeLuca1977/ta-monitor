@@ -6599,8 +6599,64 @@
           "Parexel"
         ]
       }
+    },
+    "selezione-hr-formello": {
+      "name": "Selezione HR Formello",
+      "description": "",
+      "auto_scan": false,
+      "location": "Formello Lazio, Italia",
+      "hours_old": 168,
+      "created": "2026-03-08T12:22:40.709Z",
+      "created_by": "delufabio@gmail.com",
+      "filters": {
+        "search_terms": [
+          "Talent Acquisition  zona  Formello",
+          "limitrofi. Anche HR BP",
+          "altre funzioni HR"
+        ],
+        "relevant_patterns": [
+          {
+            "pattern": "talent\\\\s+acquisition\\\\s+zona\\\\s+formello",
+            "category": "Auto",
+            "note": "wizard"
+          },
+          {
+            "pattern": "talent.*formello",
+            "category": "Auto",
+            "note": "wizard"
+          },
+          {
+            "pattern": "limitrofi.\\\\s+anche\\\\s+hr\\\\s+bp",
+            "category": "Auto",
+            "note": "wizard"
+          },
+          {
+            "pattern": "limitrofi..*bp",
+            "category": "Auto",
+            "note": "wizard"
+          },
+          {
+            "pattern": "altre\\\\s+funzioni\\\\s+hr",
+            "category": "Auto",
+            "note": "wizard"
+          },
+          {
+            "pattern": "altre.*hr",
+            "category": "Auto",
+            "note": "wizard"
+          }
+        ],
+        "broad_keywords": [
+          "talent",
+          "acquisition",
+          "formello",
+          "limitrofi"
+        ],
+        "blacklist": [],
+        "agencies": []
+      }
     }
   },
-  "_updated": "2026-03-07T19:27:19.917Z",
+  "_updated": "2026-03-08T12:27:14.533Z",
   "_updated_by": "delufabio@gmail.com"
 }
