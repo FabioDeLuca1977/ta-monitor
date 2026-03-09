@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-08T18:54:12.452328",
+  "generated_at": "2026-03-09T07:37:11.808195",
   "profile_id": "selezione-hr-formello",
   "profile_name": "Selezione HR Formello",
-  "total_jobs_analyzed": 292,
+  "total_jobs_analyzed": 295,
   "scoring": {
-    "average": 7.7,
+    "average": 7.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 9,
-      "low": 16,
-      "irrelevant": 266
+      "low": 11,
+      "irrelevant": 274
     },
     "top_jobs": [
       {
@@ -48,7 +48,7 @@
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": 1771891200000,
         "url": "https://www.linkedin.com/jobs/view/4376408804"
@@ -60,14 +60,6 @@
         "site": "linkedin",
         "date_posted": 1772064000000,
         "url": "https://www.linkedin.com/jobs/view/4368728526"
-      },
-      {
-        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
-        "company": "Ecolab",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
       },
       {
         "title": "Talent Acquisition Manager - Retail GDO",
@@ -84,6 +76,14 @@
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377380577"
+      },
+      {
+        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
+        "company": "Ecolab",
+        "score": 44,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
       },
       {
         "title": "People Engagement, Talent Acquisition & Project HR",
@@ -142,36 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4380259867"
       },
       {
-        "title": "HR Generalist",
-        "company": "AIM S.R.L.",
-        "score": 25,
-        "site": "indeed",
-        "date_posted": 1772323200000,
-        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
-      },
-      {
-        "title": "HR Business Partner, EU One PXT",
-        "company": "Amazon.com",
-        "score": 24,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=1faaa6f192cc5f76"
-      },
-      {
-        "title": "HR Administration Specialist",
-        "company": "LDC Hotels",
-        "score": 24,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=cd75591cb2d87f98"
-      },
-      {
-        "title": "Hr Generalist Legge 68/99",
-        "company": "During S.p.A. - Filiale di Ascoli Piceno",
-        "score": 24,
+        "title": "HR Officer – Settore Sistemi Ergonomici Notte",
+        "company": "EmmeBi Group",
+        "score": 23,
         "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4379847041"
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377740221"
+      },
+      {
+        "title": "HR Manager (IT - Remote)",
+        "company": "ThinkingIT Corp.",
+        "score": 22,
+        "site": "indeed",
+        "date_posted": 1771459200000,
+        "url": "https://it.indeed.com/viewjob?jk=8435093b0586c1ab"
+      },
+      {
+        "title": "HR Manager",
+        "company": "Rome Business School",
+        "score": 22,
+        "site": "indeed",
+        "date_posted": 1771891200000,
+        "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
+      },
+      {
+        "title": "HR Manager",
+        "company": "Four Corners - Fashion, Luxury & Lifestyle",
+        "score": 22,
+        "site": "linkedin",
+        "date_posted": 1772582400000,
+        "url": "https://www.linkedin.com/jobs/view/4378935072"
       }
     ]
   },
@@ -191,13 +191,13 @@
       },
       {
         "word": "addetto",
-        "count": 35,
-        "reason": "Appare 35x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "risorse",
@@ -222,88 +222,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 126 annunci ultimo scan vs media 42 (+204%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 58 (-95%)",
       "data": {
-        "current": 126,
-        "avg": 41.5,
-        "change_pct": 203.6
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Dedem: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Dedem",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Hays: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Hays",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Air Canada: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Air Canada",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 PULINET SERVIZI SRL: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "PULINET SERVIZI SRL",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 INFUSE: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "INFUSE",
-        "count": 2
+        "current": 3,
+        "avg": 58.4,
+        "change_pct": -94.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 80/126 annunci da aziende nuove (63.5%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 80,
-        "total": 126,
-        "pct": 63.5
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 18% (+18pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 18.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 82% (-18pp)",
+      "message": "📡 indeed: quota passata da 82% a 100% (+18pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 81.7
+        "old_pct": 81.7,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 18% a 0% (-18pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 18.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -313,54 +268,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 192,
+            "id": 2,
+            "size": 175,
             "top_terms": [
-              "roma",
+              "hr",
               "responsabile",
-              "specialist"
+              "junior"
             ],
-            "pct": 65.8
+            "pct": 59.3
           },
           {
-            "id": 2,
-            "size": 29,
+            "id": 3,
+            "size": 45,
+            "top_terms": [
+              "roma",
+              "time",
+              "addetto"
+            ],
+            "pct": 15.3
+          },
+          {
+            "id": 4,
+            "size": 30,
             "top_terms": [
               "manager",
               "project",
               "hr"
             ],
-            "pct": 9.9
-          },
-          {
-            "id": 4,
-            "size": 26,
-            "top_terms": [
-              "addetto",
-              "vendite",
-              "ufficio"
-            ],
-            "pct": 8.9
-          },
-          {
-            "id": 3,
-            "size": 24,
-            "top_terms": [
-              "hr",
-              "generalist",
-              "stage"
-            ],
-            "pct": 8.2
+            "pct": 10.2
           },
           {
             "id": 1,
-            "size": 21,
+            "size": 26,
             "top_terms": [
-              "risorse",
               "umane",
-              "impiegato"
+              "risorse",
+              "addetto"
             ],
-            "pct": 7.2
+            "pct": 8.8
+          },
+          {
+            "id": 0,
+            "size": 19,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "acquisition"
+            ],
+            "pct": 6.4
           }
         ]
       }

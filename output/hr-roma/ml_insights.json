@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-08T07:18:55.912754",
+  "generated_at": "2026-03-09T07:37:11.343840",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 292,
+  "total_jobs_analyzed": 295,
   "scoring": {
-    "average": 19.6,
+    "average": 18.8,
     "distribution": {
       "excellent": 0,
-      "good": 25,
-      "medium": 27,
-      "low": 56,
-      "irrelevant": 184
+      "good": 23,
+      "medium": 29,
+      "low": 55,
+      "irrelevant": 188
     },
     "top_jobs": [
       {
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4324290308"
       },
       {
-        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
-        "company": "Ecolab",
-        "score": 71,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
-      },
-      {
         "title": "Talent Acquisition Manager - Retail GDO",
         "company": "Hays",
         "score": 71,
@@ -84,14 +76,6 @@
         "site": "indeed",
         "date_posted": 1771459200000,
         "url": "https://it.indeed.com/viewjob?jk=8435093b0586c1ab"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "AIM S.R.L.",
-        "score": 70,
-        "site": "indeed",
-        "date_posted": 1772323200000,
-        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
@@ -118,14 +102,6 @@
         "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
       },
       {
-        "title": "Hr Generalist Legge 68/99",
-        "company": "During S.p.A. - Filiale di Ascoli Piceno",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4379847041"
-      },
-      {
         "title": "ADDETTO/A RICERCA E SELEZIONE DEL PERSONALE",
         "company": "FONDAZIONE LAVORO",
         "score": 67,
@@ -134,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4372870383"
       },
       {
-        "title": "HR Generalist (Sostituzione Maternità)",
-        "company": "Cinecittà World Spa",
-        "score": 67,
+        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
+        "company": "Ecolab",
+        "score": 66,
         "site": "indeed",
         "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=3d163f6171aad00b"
+        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
       },
       {
         "title": "Junior Talent Acquisition Sourcer L.68/99",
@@ -150,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4377380577"
       },
       {
-        "title": "Recruitment Manager",
-        "company": "Rocco Forte Hotels",
+        "title": "HR Generalist",
+        "company": "AIM S.R.L.",
         "score": 65,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4381468584"
+        "site": "indeed",
+        "date_posted": 1772323200000,
+        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
         "title": "HR Officer – Settore Sistemi Ergonomici Notte",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": 1772150400000,
         "url": "https://www.linkedin.com/jobs/view/4369142800"
+      },
+      {
+        "title": "Recruiter Specialist",
+        "company": "Brainfield Italia",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4380263072"
+      },
+      {
+        "title": "Hr Generalist Legge 68/99",
+        "company": "During S.p.A. - Filiale di Ascoli Piceno",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4379847041"
+      },
+      {
+        "title": "HR Generalist (Sostituzione Maternità)",
+        "company": "Cinecittà World Spa",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=3d163f6171aad00b"
       }
     ]
   },
@@ -182,6 +182,11 @@
         "word": "roma",
         "count": 36,
         "reason": "Appare 36x in annunci a basso score"
+      },
+      {
+        "word": "time",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -195,11 +200,6 @@
       },
       {
         "word": "umane",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "time",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       }
@@ -222,88 +222,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 126 annunci ultimo scan vs media 42 (+204%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 58 (-95%)",
       "data": {
-        "current": 126,
-        "avg": 41.5,
-        "change_pct": 203.6
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Dedem: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Dedem",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Hays: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Hays",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Air Canada: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Air Canada",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 PULINET SERVIZI SRL: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "PULINET SERVIZI SRL",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 INFUSE: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "INFUSE",
-        "count": 2
+        "current": 3,
+        "avg": 58.4,
+        "change_pct": -94.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 80/126 annunci da aziende nuove (63.5%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 80,
-        "total": 126,
-        "pct": 63.5
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 18% (+18pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 18.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 82% (-18pp)",
+      "message": "📡 indeed: quota passata da 82% a 100% (+18pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 81.7
+        "old_pct": 81.7,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 18% a 0% (-18pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 18.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -313,54 +268,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 192,
+            "id": 2,
+            "size": 175,
             "top_terms": [
-              "roma",
+              "hr",
               "responsabile",
-              "specialist"
+              "junior"
             ],
-            "pct": 65.8
+            "pct": 59.3
           },
           {
-            "id": 2,
-            "size": 29,
+            "id": 3,
+            "size": 45,
+            "top_terms": [
+              "roma",
+              "time",
+              "addetto"
+            ],
+            "pct": 15.3
+          },
+          {
+            "id": 4,
+            "size": 30,
             "top_terms": [
               "manager",
               "project",
               "hr"
             ],
-            "pct": 9.9
-          },
-          {
-            "id": 4,
-            "size": 26,
-            "top_terms": [
-              "addetto",
-              "vendite",
-              "ufficio"
-            ],
-            "pct": 8.9
-          },
-          {
-            "id": 3,
-            "size": 24,
-            "top_terms": [
-              "hr",
-              "generalist",
-              "stage"
-            ],
-            "pct": 8.2
+            "pct": 10.2
           },
           {
             "id": 1,
-            "size": 21,
+            "size": 26,
             "top_terms": [
-              "risorse",
               "umane",
-              "impiegato"
+              "risorse",
+              "addetto"
             ],
-            "pct": 7.2
+            "pct": 8.8
+          },
+          {
+            "id": 0,
+            "size": 19,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "acquisition"
+            ],
+            "pct": 6.4
           }
         ]
       }
