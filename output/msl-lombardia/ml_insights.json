@@ -1,33 +1,25 @@
 {
-  "generated_at": "2026-03-09T07:37:11.558999",
+  "generated_at": "2026-03-10T07:26:02.415941",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 56,
+  "total_jobs_analyzed": 68,
   "scoring": {
-    "average": 36.9,
+    "average": 34.0,
     "distribution": {
       "excellent": 0,
       "good": 7,
-      "medium": 26,
+      "medium": 31,
       "low": 1,
-      "irrelevant": 22
+      "irrelevant": 29
     },
     "top_jobs": [
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 71,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
-      },
-      {
-        "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
-        "company": "Teva Pharmaceuticals",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
         "title": "Medical Advisor Biologics - Dermatology",
@@ -36,6 +28,14 @@
         "site": "linkedin",
         "date_posted": 1772582400000,
         "url": "https://www.linkedin.com/jobs/view/4380931992"
+      },
+      {
+        "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
+        "company": "Teva Pharmaceuticals",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
         "title": "Regulatory Affairs Specialist - Medical Device",
@@ -70,30 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4380307354"
       },
       {
-        "title": "(Associate) Medical Director - Neurology",
-        "company": "Thermo Fisher Scientific",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4353693016"
-      },
-      {
-        "title": "Medical Affairs Director - Italy",
-        "company": "Ascendis Pharma",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377726452"
-      },
-      {
-        "title": "Regulatory Affairs Specialist - Settore Healthcare",
-        "company": "Uriach Italy",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381005002"
-      },
-      {
         "title": "Regulatory Affairs Manager",
         "company": "JX Executive",
         "score": 57,
@@ -102,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4378164461"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Gi Group",
+        "title": "Medical Director, Global Evidence Generation Lead",
+        "company": "Alfasigma",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381051535"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4381897037"
       },
       {
         "title": "Medical Affairs Clinician - Italy",
@@ -126,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4379674013"
       },
       {
-        "title": "Non-Pharma Global Regulatory Affairs Manager",
-        "company": "Alfasigma",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377374447"
-      },
-      {
         "title": "Regulatory Affairs Associate",
         "company": "Gi Group",
         "score": 56,
@@ -142,36 +110,68 @@
         "url": "https://www.linkedin.com/jobs/view/4381068089"
       },
       {
+        "title": "(Associate) Medical Director - Neurology",
+        "company": "Thermo Fisher Scientific",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4353693016"
+      },
+      {
         "title": "Medical Lead CNS – Società Farmaceutica",
         "company": "Chaberton Professionals",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4379892178"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "ICON plc",
-        "score": 52,
+        "title": "Medical Affairs Director - Italy",
+        "company": "Ascendis Pharma",
+        "score": 53,
         "site": "linkedin",
         "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4370416838"
+        "url": "https://www.linkedin.com/jobs/view/4377726452"
       },
       {
-        "title": "Electrophysiology Field Clinical Specialist Graduate- Milan (Italy)",
-        "company": "myGwork - LGBTQ+ Business Community",
+        "title": "Regulatory Affairs Specialist",
+        "company": "Gi Group",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4381051535"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - Settore Healthcare",
+        "company": "Uriach Italy",
         "score": 52,
         "site": "linkedin",
         "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4376676066"
+        "url": "https://www.linkedin.com/jobs/view/4381005002"
       },
       {
-        "title": "Senior Director Regulatory Affairs",
+        "title": "Non-Pharma Global Regulatory Affairs Manager",
+        "company": "Alfasigma",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377374447"
+      },
+      {
+        "title": "Associate Director Regulatory Affairs",
         "company": "Philogen S.p.A.",
-        "score": 51,
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4369075105"
+      },
+      {
+        "title": "Sr. Clinical Research Associate",
+        "company": "ICON Strategic Solutions",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4371891989"
       }
     ]
   },
@@ -180,8 +180,13 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "clinical",
@@ -194,12 +199,7 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "fsp",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "product",
+        "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,12 +209,38 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 5,
+      "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 40
+    },
+    {
+      "keyword": "director regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
+    {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 12 annunci ultimo scan vs media 28 (-57%)",
+      "data": {
+        "current": 12,
+        "avg": 28.0,
+        "change_pct": -57.1
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
+      "data": {
+        "new": 6,
+        "total": 12,
+        "pct": 50.0
+      }
+    },
     {
       "type": "role_clusters",
       "severity": "info",
@@ -222,54 +248,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 23,
+            "id": 4,
+            "size": 27,
             "top_terms": [
-              "medical",
-              "italy",
-              "director"
+              "clinical",
+              "cra",
+              "specialist"
             ],
-            "pct": 41.1
+            "pct": 39.7
+          },
+          {
+            "id": 0,
+            "size": 13,
+            "top_terms": [
+              "manager",
+              "product",
+              "services"
+            ],
+            "pct": 19.1
           },
           {
             "id": 2,
-            "size": 16,
+            "size": 11,
             "top_terms": [
-              "manager",
-              "regulatory",
-              "affairs"
+              "medical",
+              "affairs",
+              "director"
             ],
-            "pct": 28.6
+            "pct": 16.2
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 10,
             "top_terms": [
-              "clinical",
-              "specialist",
-              "research"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 12.5
+            "pct": 14.7
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "lead",
               "quality",
               "assurance"
             ],
-            "pct": 10.7
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "cra",
-              "fsp",
-              "team"
-            ],
-            "pct": 7.1
+            "pct": 10.3
           }
         ]
       }

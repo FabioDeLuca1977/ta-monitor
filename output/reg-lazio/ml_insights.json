@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-09T07:37:11.717938",
+  "generated_at": "2026-03-10T07:26:02.620070",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 46,
+  "total_jobs_analyzed": 51,
   "scoring": {
-    "average": 18.0,
+    "average": 16.3,
     "distribution": {
       "excellent": 0,
-      "good": 5,
+      "good": 6,
       "medium": 2,
-      "low": 2,
-      "irrelevant": 37
+      "low": 1,
+      "irrelevant": 42
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs manager & Affiliate Quality - Maternity Cover",
         "company": "Zoetis",
-        "score": 72,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380677625"
@@ -24,18 +24,10 @@
       {
         "title": "Senior Manager Regulatory Affairs",
         "company": "OMISAN Schalcon",
-        "score": 72,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4380259432"
-      },
-      {
-        "title": "Director of Regulatory Affairs",
-        "company": "Confidential",
         "score": 66,
         "site": "linkedin",
         "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4380286522"
+        "url": "https://www.linkedin.com/jobs/view/4380259432"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -46,6 +38,22 @@
         "url": "https://www.linkedin.com/jobs/view/4381179443"
       },
       {
+        "title": "Director of Regulatory Affairs",
+        "company": "Confidential",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4380286522"
+      },
+      {
+        "title": "Pharma Quality & Regulatory Specialist",
+        "company": "DHL Supply Chain",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4374040980"
+      },
+      {
         "title": "Regulatory Affairs Junior",
         "company": "Gruppo SAVIO",
         "score": 60,
@@ -54,12 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
-        "title": "Pharma Quality & Regulatory Specialist",
-        "company": "DHL Supply Chain",
+        "title": "Regulatory Affairs Specialist I",
+        "company": "Thermo Fisher Scientific",
         "score": 59,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4374040980"
+        "site": "indeed",
+        "date_posted": 1773014400000,
+        "url": "https://it.indeed.com/viewjob?jk=888f0a020fc5d5a4"
       },
       {
         "title": "Global International Registrations and Regulatory Compliance",
@@ -80,42 +88,26 @@
       {
         "title": "API QUALITY ASSURANCE SPECIALIST",
         "company": "Angelini Pharma",
-        "score": 23,
+        "score": 18,
         "site": "indeed",
         "date_posted": 1772755200000,
         "url": "https://it.indeed.com/viewjob?jk=a0f42ef064460e89"
       },
       {
-        "title": "Quality Assurance Anagni",
-        "company": "Brenntag",
-        "score": 18,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4308420705"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "Akronos Technologies",
-        "score": 18,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4336048753"
-      },
-      {
-        "title": "Product Manager",
-        "company": "Merck KGaA",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1772755200000,
-        "url": "https://it.indeed.com/viewjob?jk=3e85eb156a29bfa4"
-      },
-      {
         "title": "Regulatory Internship",
         "company": "Sanofi",
-        "score": 16,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1772496000000,
         "url": "https://it.indeed.com/viewjob?jk=0d5267269bb83889"
+      },
+      {
+        "title": "Governing Bodies Support Specialist",
+        "company": "Food and Agriculture Organization of the United Nations",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1773014400000,
+        "url": "https://it.indeed.com/viewjob?jk=859fe8e2cf853cf0"
       },
       {
         "title": "Spclst, Quality Assurance",
@@ -126,12 +118,36 @@
         "url": "https://it.indeed.com/viewjob?jk=ecd61a00dbed2d35"
       },
       {
+        "title": "Quality Assurance Anagni",
+        "company": "Brenntag",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4308420705"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "Akronos Technologies",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4336048753"
+      },
+      {
         "title": "Dietista - Quality Assurance Auditor",
         "company": "PEDEVILLA SPA - Società Benefit",
         "score": 13,
         "site": "linkedin",
         "date_posted": 1772496000000,
         "url": "https://www.linkedin.com/jobs/view/4380319811"
+      },
+      {
+        "title": "Product Manager",
+        "company": "Merck KGaA",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1772755200000,
+        "url": "https://it.indeed.com/viewjob?jk=3e85eb156a29bfa4"
       },
       {
         "title": "Vulnerability Assessment and Management Manager - Programma GCAP",
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1772841600000,
         "url": "https://it.indeed.com/viewjob?jk=07a70f405f0438a7"
-      },
-      {
-        "title": "Business Intelligence Specialist",
-        "company": "Food and Agriculture Organization of the United Nations",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=a2ce45eb0d363914"
-      },
-      {
-        "title": "Cyber Incident Response Lead Specialist - Programma GCAP",
-        "company": "Leonardo",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=47ff91ded7ce6867"
       }
     ]
   },
@@ -189,17 +189,17 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "auditor",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "assurance",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "lead",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "assurance",
+        "word": "auditor",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 23 (-78%)",
+      "data": {
+        "current": 5,
+        "avg": 23.0,
+        "change_pct": -78.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 81% a 33% (-48pp)",
+      "message": "📡 indeed: quota passata da 33% a 60% (+27pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 81.4,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 19% a 67% (+48pp)",
+      "message": "📡 linkedin: quota passata da 67% a 40% (-27pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 18.6,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 40.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 23,
+            "id": 3,
+            "size": 26,
             "top_terms": [
-              "auditor",
+              "specialist",
               "lead",
-              "business"
+              "addetto"
             ],
-            "pct": 50.0
+            "pct": 51.0
           },
           {
-            "id": 2,
-            "size": 8,
+            "id": 1,
+            "size": 9,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.4
-          },
-          {
-            "id": 0,
-            "size": 7,
-            "top_terms": [
-              "programma",
-              "gcap",
-              "security"
-            ],
-            "pct": 15.2
+            "pct": 17.6
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 7,
             "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
+              "gcap",
+              "programma",
+              "security"
             ],
-            "pct": 13.0
+            "pct": 13.7
           },
           {
-            "id": 3,
-            "size": 2,
+            "id": 0,
+            "size": 6,
             "top_terms": [
-              "addetto",
-              "lead",
-              "affairs"
+              "assurance",
+              "quality",
+              "auditor"
             ],
-            "pct": 4.3
+            "pct": 11.8
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "auditor",
+              "rm",
+              "assistant"
+            ],
+            "pct": 5.9
           }
         ]
       }

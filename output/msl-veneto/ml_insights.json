@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-03-09T07:37:11.507193",
+  "generated_at": "2026-03-10T07:26:02.358271",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 15,
+  "total_jobs_analyzed": 16,
   "scoring": {
-    "average": 31.3,
+    "average": 30.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 9,
+      "medium": 10,
       "low": 0,
       "irrelevant": 6
     },
     "top_jobs": [
-      {
-        "title": "Informatore scientifico",
-        "company": "Pharmera",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4374283868"
-      },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fidia Pharma",
@@ -32,10 +24,18 @@
       {
         "title": "Informatore Scientifico del Farmaco Dermatologia - Trentino/Veneto",
         "company": "LHH",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": 1772841600000,
         "url": "https://www.linkedin.com/jobs/view/4365567852"
+      },
+      {
+        "title": "Informatore scientifico",
+        "company": "Pharmera",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4374283868"
       },
       {
         "title": "Clinical Specialist (f/m/d)",
@@ -44,14 +44,6 @@
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=e50b3c514abc4a60"
-      },
-      {
-        "title": "Temporary Clinical Monitor",
-        "company": "Jobbit",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381699462"
       },
       {
         "title": "Informatore scientifico commerciale | Veneto",
@@ -86,12 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4381296008"
       },
       {
-        "title": "Victim Advocate",
-        "company": "US 21st Theater Sustainment Command (TSC)",
-        "score": 10,
-        "site": "indeed",
+        "title": "Temporary Clinical Monitor",
+        "company": "Jobbit",
+        "score": 42,
+        "site": "linkedin",
         "date_posted": 1772755200000,
-        "url": "https://it.indeed.com/viewjob?jk=91b0952116a54399"
+        "url": "https://www.linkedin.com/jobs/view/4381699462"
+      },
+      {
+        "title": "INFORMATORE SCIENTIFICO OSPEDALIERO (Triveneto - Verona/Padova/Venezia)",
+        "company": "Cristalfarma",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4381854610"
       },
       {
         "title": "Marketing Expert",
@@ -100,6 +100,14 @@
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=2a6e5c719a1f7ace"
+      },
+      {
+        "title": "Victim Advocate",
+        "company": "US 21st Theater Sustainment Command (TSC)",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1772755200000,
+        "url": "https://it.indeed.com/viewjob?jk=91b0952116a54399"
       },
       {
         "title": "Sommelier",
@@ -128,7 +136,7 @@
       {
         "title": "Recreation Aid (Developmental) NF-01",
         "company": null,
-        "score": 5,
+        "score": 0,
         "site": "indeed",
         "date_posted": 1772409600000,
         "url": "https://it.indeed.com/viewjob?jk=f440994f6ab79fdf"
@@ -143,33 +151,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-87%)",
+      "data": {
+        "current": 1,
+        "avg": 7.5,
+        "change_pct": -86.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 10/12 annunci da aziende nuove (83.3%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 10,
-        "total": 12,
-        "pct": 83.3
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     }
   ],
