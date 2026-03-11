@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-03-10T07:26:02.573273",
+  "generated_at": "2026-03-11T07:28:18.364054",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 15,
+  "total_jobs_analyzed": 22,
   "scoring": {
-    "average": 13.9,
+    "average": 14.5,
     "distribution": {
       "excellent": 0,
-      "good": 0,
+      "good": 1,
       "medium": 2,
       "low": 0,
-      "irrelevant": 13
+      "irrelevant": 19
     },
     "top_jobs": [
+      {
+        "title": "Regulatory Affairs & Quality Assurance Specialist",
+        "company": "MEDAX SRL UNIPERSONALE",
+        "score": 70,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
+      },
       {
         "title": "Regulatory Affairs",
         "company": "Content Group",
@@ -32,7 +40,7 @@
       {
         "title": "QUALITY ASSURANCE SPECIALIST - ISO 9001 & MOCA",
         "company": "MAW",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4355234223"
@@ -48,26 +56,42 @@
       {
         "title": "Junior Quality Assurance",
         "company": "SGB Humangest Holding",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380249825"
       },
       {
-        "title": "Quality Assurance ISO 9001 Stageur",
-        "company": "JSB Solutions",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1772582400000,
-        "url": "https://www.linkedin.com/jobs/view/4378960105"
-      },
-      {
         "title": "LIMS/MODA & GMP Documentation Specialist",
         "company": "PQE Group",
-        "score": 11,
+        "score": 12,
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377397158"
+      },
+      {
+        "title": "CUSTOMER QUALITY ASSURANCE SPECIALIST",
+        "company": "O.M.P. Officine Mazzocco Pagnoni",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382037285"
+      },
+      {
+        "title": "Software Quality Assurance Specialist (Maranello)",
+        "company": "Ferrari",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383744718"
+      },
+      {
+        "title": "Quality Assurance ISO 9001 Stageur",
+        "company": "JSB Solutions",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1772582400000,
+        "url": "https://www.linkedin.com/jobs/view/4378960105"
       },
       {
         "title": "Tecnical Writer - Electric Schematics",
@@ -86,12 +110,28 @@
         "url": "https://it.indeed.com/viewjob?jk=f249c3ba65ffcdd3"
       },
       {
+        "title": "SPECIALISTA ASSICURAZIONE QUALITÀ",
+        "company": "Forghieri S.r.l",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=0080adaeddc92ebb"
+      },
+      {
         "title": "Responsabile BTB Nord-Centro Italia",
         "company": "GME MONTASCALE SRL",
         "score": 8,
         "site": "indeed",
         "date_posted": 1773014400000,
         "url": "https://it.indeed.com/viewjob?jk=d689f7330d224bbf"
+      },
+      {
+        "title": "ADDETTO/A CONTROLLO SISTEMA DI GESTIONE QUALITÀ E CONSULENZA CERTIFICAZIONI ISO",
+        "company": "LaRisorsaUmana.it",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383496652"
       },
       {
         "title": "Senior HSE Specialist",
@@ -110,20 +150,20 @@
         "url": "https://it.indeed.com/viewjob?jk=e7e3d1b55d984809"
       },
       {
-        "title": "R&D Technical Writer",
-        "company": "Dentsply Sirona",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=28baf4b4f20c94d2"
-      },
-      {
         "title": "Impiegato/a Servizio Clienti",
         "company": "IGEA SPA",
         "score": 5,
         "site": "indeed",
         "date_posted": 1772755200000,
         "url": "https://it.indeed.com/viewjob?jk=9c4fe5307ff449bc"
+      },
+      {
+        "title": "Cercasi respnsabile sistema qualità iatf",
+        "company": "MANFREDINI DOVIGLIO S.R.L.",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382079895"
       },
       {
         "title": "Data Centre Technician",
@@ -139,17 +179,12 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "specialist",
+        "word": "iso",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
+        "word": "qualità",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -161,11 +196,80 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 7/7 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 7,
+        "total": 7,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 75% a 43% (-32pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 75.0,
+        "new_pct": 42.9
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 25% a 57% (+32pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 25.0,
+        "new_pct": 57.1
+      }
+    },
+    {
+      "type": "role_clusters",
+      "severity": "info",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "data": {
+        "clusters": [
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "writer",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 40.9
+          },
+          {
+            "id": 0,
+            "size": 8,
+            "top_terms": [
+              "specialist",
+              "quality",
+              "assurance"
+            ],
+            "pct": 36.4
+          },
+          {
+            "id": 1,
+            "size": 3,
+            "top_terms": [
+              "qualità",
+              "sistema",
+              "iso"
+            ],
+            "pct": 13.6
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "data",
+              "writer",
+              "specialist"
+            ],
+            "pct": 9.1
+          }
+        ]
       }
     }
   ],

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-10T07:26:02.425498",
+  "generated_at": "2026-03-11T07:28:18.182768",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 12,
+  "total_jobs_analyzed": 14,
   "scoring": {
-    "average": 22.6,
+    "average": 23.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 4,
+      "medium": 5,
       "low": 1,
-      "irrelevant": 7
+      "irrelevant": 8
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381888577"
+      },
+      {
+        "title": "Regulatory Affairs & Quality Assurance Specialist",
+        "company": "MEDAX SRL UNIPERSONALE",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
       },
       {
         "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
@@ -54,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4383334187"
       },
       {
+        "title": "Associate Technical Consultant",
+        "company": "Medtronic",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=ed7d8548930c664a"
+      },
+      {
         "title": "Territory Manager Surgical",
         "company": "Edwards Lifesciences",
         "score": 12,
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=79016f12b6496b13"
-      },
-      {
-        "title": "Senior Process Development Engineer",
-        "company": "Transmedics",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=e2996d8ca56c7db7"
       },
       {
         "title": "Senior CRA",
@@ -86,14 +94,6 @@
         "url": "https://it.indeed.com/viewjob?jk=496baadbd97bf777"
       },
       {
-        "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
-        "company": "Transmedics",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=f878320f3fc629a6"
-      },
-      {
         "title": "EDUCATORE /EDUCATRICE | CRA VILLA MINOZZO",
         "company": "COOPSELIOS",
         "score": 5,
@@ -102,12 +102,28 @@
         "url": "https://www.linkedin.com/jobs/view/4383316808"
       },
       {
+        "title": "Senior Process Development Engineer",
+        "company": "Transmedics",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1772496000000,
+        "url": "https://it.indeed.com/viewjob?jk=e2996d8ca56c7db7"
+      },
+      {
         "title": "Software Test Engineer",
         "company": "LivaNova",
         "score": 0,
         "site": "indeed",
         "date_posted": 1772409600000,
         "url": "https://it.indeed.com/viewjob?jk=066b4c3e783b6448"
+      },
+      {
+        "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
+        "company": "Transmedics",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1772496000000,
+        "url": "https://it.indeed.com/viewjob?jk=f878320f3fc629a6"
       }
     ]
   },
@@ -125,23 +141,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+43%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-50%)",
       "data": {
-        "current": 5,
-        "avg": 3.5,
-        "change_pct": 42.9
+        "current": 2,
+        "avg": 4.0,
+        "change_pct": -50.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 5,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     }
   ],

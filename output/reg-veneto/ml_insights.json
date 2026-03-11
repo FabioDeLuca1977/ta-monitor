@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-10T07:26:02.487334",
+  "generated_at": "2026-03-11T07:28:18.250962",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 21,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 14.8,
+    "average": 14.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 2,
-      "low": 0,
-      "irrelevant": 18
+      "low": 1,
+      "irrelevant": 20
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fidia Pharma",
-        "score": 68,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1772496000000,
         "url": "https://www.linkedin.com/jobs/view/4378178500"
@@ -32,10 +32,26 @@
       {
         "title": "QUALITY ASSURANCE JUNIOR AMBITO GMP",
         "company": "Jobbit",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4381692722"
+      },
+      {
+        "title": "Product Certification Specialist",
+        "company": "Steelco S.p.A",
+        "score": 35,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=cbc01132d61a64cb"
+      },
+      {
+        "title": "IT SPECIALIST (SYSTEMS ADMINISTRATION)",
+        "company": "US Military Treatment Facilities under DHA",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=ab4836bfe03f6c2b"
       },
       {
         "title": "Quality Assurance Expert",
@@ -78,6 +94,14 @@
         "url": "https://it.indeed.com/viewjob?jk=f249c3ba65ffcdd3"
       },
       {
+        "title": "Funzionario commerciale",
+        "company": "Templari S.p.a",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=084a242f87bc81b7"
+      },
+      {
         "title": "Project Engineer",
         "company": "TMC",
         "score": 8,
@@ -100,14 +124,6 @@
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=0b42ba9843d4c316"
-      },
-      {
-        "title": "Specialista Diritto Societario e Governance Bancaria",
-        "company": "Cassa Centrale Banca",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=fb34fd3cf865d2d1"
       },
       {
         "title": "operations support agent",
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=7f7ebef2c32cc3ef"
-      },
-      {
-        "title": "Tecnico Meccatronico Camper",
-        "company": "Indie Campers",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=b09b1571f07fedd4"
-      },
-      {
-        "title": "Mecánico per Furgonette Camper",
-        "company": "Indie Campers",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=f5de8c233fedb561"
       }
     ]
   },
@@ -183,6 +183,16 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 10 (-71%)",
+      "data": {
+        "current": 3,
+        "avg": 10.5,
+        "change_pct": -71.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
       "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
@@ -193,50 +203,70 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 12,
+            "id": 0,
+            "size": 13,
             "top_terms": [
-              "tecnico",
               "project",
-              "meccanico"
+              "meccanico",
+              "senior"
             ],
-            "pct": 57.1
+            "pct": 54.2
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "product"
+            ],
+            "pct": 20.8
           },
           {
             "id": 1,
-            "size": 4,
+            "size": 3,
             "top_terms": [
-              "quality",
-              "assurance",
-              "sistema"
+              "tecnico",
+              "camper",
+              "specialist"
             ],
-            "pct": 19.0
+            "pct": 12.5
           },
           {
             "id": 3,
             "size": 3,
             "top_terms": [
-              "regulatory",
-              "specialist",
-              "tecnico"
+              "quality",
+              "assurance",
+              "sistema"
             ],
-            "pct": 14.3
-          },
-          {
-            "id": 0,
-            "size": 2,
-            "top_terms": [
-              "pd",
-              "auditor",
-              "senior"
-            ],
-            "pct": 9.5
+            "pct": 12.5
           }
         ]
       }

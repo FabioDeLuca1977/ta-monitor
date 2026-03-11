@@ -1,34 +1,18 @@
 {
-  "generated_at": "2026-03-10T07:26:02.358271",
+  "generated_at": "2026-03-11T07:28:18.109694",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 16,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 30.6,
+    "average": 29.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 10,
       "low": 0,
-      "irrelevant": 6
+      "irrelevant": 7
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Fidia Pharma",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4378178500"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco Dermatologia - Trentino/Veneto",
-        "company": "LHH",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1772841600000,
-        "url": "https://www.linkedin.com/jobs/view/4365567852"
-      },
       {
         "title": "Informatore scientifico",
         "company": "Pharmera",
@@ -46,12 +30,28 @@
         "url": "https://it.indeed.com/viewjob?jk=e50b3c514abc4a60"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Fidia Pharma",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1772496000000,
+        "url": "https://www.linkedin.com/jobs/view/4378178500"
+      },
+      {
         "title": "Informatore scientifico commerciale | Veneto",
         "company": "PharmaNutra",
         "score": 47,
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4381444347"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco Dermatologia - Trentino/Veneto",
+        "company": "LHH",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1772841600000,
+        "url": "https://www.linkedin.com/jobs/view/4365567852"
       },
       {
         "title": "Informatore Scientifico Dermatologia e Ginecologia (Area di riferimento Verona/Vicenza/Padova/Rovigo)",
@@ -92,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381854610"
+      },
+      {
+        "title": "IT SPECIALIST (SYSTEMS ADMINISTRATION)",
+        "company": "US Military Treatment Facilities under DHA",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=ab4836bfe03f6c2b"
       },
       {
         "title": "Marketing Expert",
@@ -153,11 +161,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-87%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-81%)",
       "data": {
         "current": 1,
-        "avg": 7.5,
-        "change_pct": -86.7
+        "avg": 5.3,
+        "change_pct": -81.2
       }
     },
     {
@@ -173,21 +181,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     }
   ],

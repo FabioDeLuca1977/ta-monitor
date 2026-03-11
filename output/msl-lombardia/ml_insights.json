@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-10T07:26:02.415941",
+  "generated_at": "2026-03-11T07:28:18.172203",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 68,
+  "total_jobs_analyzed": 79,
   "scoring": {
-    "average": 34.0,
+    "average": 34.2,
     "distribution": {
       "excellent": 0,
-      "good": 7,
-      "medium": 31,
-      "low": 1,
-      "irrelevant": 29
+      "good": 5,
+      "medium": 41,
+      "low": 2,
+      "irrelevant": 31
     },
     "top_jobs": [
       {
@@ -54,28 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4380955990"
       },
       {
+        "title": "Medical Affairs Professional – Tempo Determinato",
+        "company": "Pharma Point",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382084468"
+      },
+      {
         "title": "Head of Medical Affairs - Italy",
         "company": "UCB",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4380179284"
-      },
-      {
-        "title": "Medical Science Liaison (Respiratory)",
-        "company": "Jefferson Wells Italia",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4380307354"
-      },
-      {
-        "title": "Regulatory Affairs Manager",
-        "company": "JX Executive",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4378164461"
+        "url": "https://www.linkedin.com/jobs/view/4380179284"
       },
       {
         "title": "Medical Director, Global Evidence Generation Lead",
@@ -84,6 +76,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381897037"
+      },
+      {
+        "title": "Medical Science Liaison (Respiratory)",
+        "company": "Jefferson Wells Italia",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1772496000000,
+        "url": "https://www.linkedin.com/jobs/view/4380307354"
       },
       {
         "title": "Medical Affairs Clinician - Italy",
@@ -102,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4379674013"
       },
       {
-        "title": "Regulatory Affairs Associate",
-        "company": "Gi Group",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1772841600000,
-        "url": "https://www.linkedin.com/jobs/view/4381068089"
-      },
-      {
         "title": "(Associate) Medical Director - Neurology",
         "company": "Thermo Fisher Scientific",
         "score": 55,
@@ -118,9 +110,17 @@
         "url": "https://www.linkedin.com/jobs/view/4353693016"
       },
       {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
+      },
+      {
         "title": "Medical Lead CNS – Società Farmaceutica",
         "company": "Chaberton Professionals",
-        "score": 54,
+        "score": 53,
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4379892178"
@@ -128,26 +128,18 @@
       {
         "title": "Medical Affairs Director - Italy",
         "company": "Ascendis Pharma",
-        "score": 53,
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377726452"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Gi Group",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381051535"
-      },
-      {
-        "title": "Regulatory Affairs Specialist - Settore Healthcare",
-        "company": "Uriach Italy",
+        "title": "Regulatory Affairs Manager",
+        "company": "JX Executive",
         "score": 52,
         "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381005002"
+        "date_posted": 1772496000000,
+        "url": "https://www.linkedin.com/jobs/view/4378164461"
       },
       {
         "title": "Non-Pharma Global Regulatory Affairs Manager",
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4377374447"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Gi Group",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4381051535"
+      },
+      {
         "title": "Associate Director Regulatory Affairs",
         "company": "Philogen S.p.A.",
         "score": 52,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4369075105"
       },
       {
-        "title": "Sr. Clinical Research Associate",
-        "company": "ICON Strategic Solutions",
-        "score": 51,
+        "title": "Regulatory Affairs Specialist",
+        "company": "Cosmo I Building Health Confidence",
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4371891989"
+        "url": "https://www.linkedin.com/jobs/view/4374847226"
       }
     ]
   },
@@ -185,8 +185,13 @@
       },
       {
         "word": "senior",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "product",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "clinical",
@@ -195,11 +200,6 @@
       },
       {
         "word": "lead",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -224,21 +224,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 12 annunci ultimo scan vs media 28 (-57%)",
+      "message": "Volume in calo: 11 annunci ultimo scan vs media 23 (-51%)",
       "data": {
-        "current": 12,
-        "avg": 28.0,
-        "change_pct": -57.1
+        "current": 11,
+        "avg": 22.7,
+        "change_pct": -51.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 8/11 annunci da aziende nuove (72.7%)",
       "data": {
-        "new": 6,
-        "total": 12,
-        "pct": 50.0
+        "new": 8,
+        "total": 11,
+        "pct": 72.7
       }
     },
     {
@@ -248,54 +248,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 27,
+            "id": 3,
+            "size": 31,
             "top_terms": [
               "clinical",
-              "cra",
-              "specialist"
+              "specialist",
+              "cra"
             ],
-            "pct": 39.7
+            "pct": 39.2
           },
           {
-            "id": 0,
-            "size": 13,
+            "id": 2,
+            "size": 15,
             "top_terms": [
               "manager",
               "product",
               "services"
             ],
-            "pct": 19.1
+            "pct": 19.0
           },
           {
-            "id": 2,
-            "size": 11,
-            "top_terms": [
-              "medical",
-              "affairs",
-              "director"
-            ],
-            "pct": 16.2
-          },
-          {
-            "id": 1,
-            "size": 10,
+            "id": 4,
+            "size": 15,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.7
+            "pct": 19.0
           },
           {
-            "id": 3,
-            "size": 7,
+            "id": 0,
+            "size": 14,
             "top_terms": [
-              "lead",
+              "medical",
+              "affairs",
+              "director"
+            ],
+            "pct": 17.7
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
               "quality",
+              "pharmacovigilance",
               "assurance"
             ],
-            "pct": 10.3
+            "pct": 5.1
           }
         ]
       }
