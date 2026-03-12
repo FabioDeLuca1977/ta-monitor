@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-11T07:28:18.250962",
+  "generated_at": "2026-03-12T07:30:04.575899",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 26,
   "scoring": {
-    "average": 14.9,
+    "average": 13.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 2,
       "low": 1,
-      "irrelevant": 20
+      "irrelevant": 22
     },
     "top_jobs": [
       {
@@ -54,12 +54,12 @@
         "url": "https://it.indeed.com/viewjob?jk=ab4836bfe03f6c2b"
       },
       {
-        "title": "Quality Assurance Expert",
-        "company": "Fidia Pharma",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1772582400000,
-        "url": "https://www.linkedin.com/jobs/view/4378920583"
+        "title": "Strategic Product Manager – Chilled Water Systems",
+        "company": "Vertiv",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=79b9126b1cd190c3"
       },
       {
         "title": "Stagista Regulatory - Settore Chimico: PMC-Biocidi-PPP",
@@ -86,6 +86,14 @@
         "url": "https://www.linkedin.com/jobs/view/4378926194"
       },
       {
+        "title": "IT Business Analyst - Quality Assurance",
+        "company": "FIS",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384144953"
+      },
+      {
         "title": "Consulenti ASM Set Luce e Gas",
         "company": "EnTel srl",
         "score": 10,
@@ -102,17 +110,17 @@
         "url": "https://it.indeed.com/viewjob?jk=084a242f87bc81b7"
       },
       {
-        "title": "Project Engineer",
-        "company": "TMC",
+        "title": "Quality Assurance Expert",
+        "company": "Fidia Pharma",
         "score": 8,
-        "site": "indeed",
+        "site": "linkedin",
         "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=c26e159a40388355"
+        "url": "https://www.linkedin.com/jobs/view/4378920583"
       },
       {
         "title": "Regional Manager - Italy",
         "company": "KellyDeli",
-        "score": 8,
+        "score": 7,
         "site": "indeed",
         "date_posted": 1772409600000,
         "url": "https://it.indeed.com/viewjob?jk=8198136cc8903bc3"
@@ -164,20 +172,23 @@
         "site": "indeed",
         "date_posted": 1772755200000,
         "url": "https://it.indeed.com/viewjob?jk=d336660e63cdf7f1"
-      },
-      {
-        "title": "Meccanico Campervan",
-        "company": "Indie Campers",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=7f7ebef2c32cc3ef"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
-    "add_blacklist": [],
+    "add_blacklist": [
+      {
+        "word": "quality",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      }
+    ],
     "review": []
   },
   "keyword_recommendations": [],
@@ -185,88 +196,98 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 10 (-71%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-75%)",
       "data": {
-        "current": 3,
-        "avg": 10.5,
-        "change_pct": -71.4
+        "current": 2,
+        "avg": 8.0,
+        "change_pct": -75.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 13,
-            "top_terms": [
-              "project",
-              "meccanico",
-              "senior"
-            ],
-            "pct": 54.2
-          },
-          {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "product"
-            ],
-            "pct": 20.8
-          },
-          {
             "id": 1,
-            "size": 3,
+            "size": 14,
             "top_terms": [
               "tecnico",
               "camper",
-              "specialist"
+              "meccanico"
             ],
-            "pct": 12.5
+            "pct": 53.8
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "sistema"
+            ],
+            "pct": 15.4
           },
           {
             "id": 3,
-            "size": 3,
+            "size": 4,
             "top_terms": [
-              "quality",
-              "assurance",
-              "sistema"
+              "regulatory",
+              "specialist",
+              "product"
             ],
-            "pct": 12.5
+            "pct": 15.4
+          },
+          {
+            "id": 2,
+            "size": 2,
+            "top_terms": [
+              "project",
+              "expert",
+              "tecnico"
+            ],
+            "pct": 7.7
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
+              "pd",
+              "auditor",
+              "senior"
+            ],
+            "pct": 7.7
           }
         ]
       }

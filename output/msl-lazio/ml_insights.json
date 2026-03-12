@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-11T07:28:18.218025",
+  "generated_at": "2026-03-12T07:30:04.537246",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 33.4,
+    "average": 33.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 12,
+      "medium": 13,
       "low": 3,
       "irrelevant": 10
     },
@@ -16,7 +16,7 @@
       {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
         "company": "Teva Pharmaceuticals",
-        "score": 64,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4382117194"
@@ -24,7 +24,7 @@
       {
         "title": "Medical Advisor",
         "company": "JX Executive",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1772496000000,
         "url": "https://www.linkedin.com/jobs/view/4378160848"
@@ -70,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4383717643"
       },
       {
+        "title": "Medical Affairs Scientist Oncology Breast Cancer",
+        "company": "Pfizer",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4378841330"
+      },
+      {
         "title": "Director of Regulatory Affairs",
         "company": "Confidential",
         "score": 50,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380286522"
-      },
-      {
-        "title": "Medical Affairs Scientist Oncology Breast Cancer",
-        "company": "Pfizer",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4378841330"
       },
       {
         "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
@@ -94,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4379947378"
       },
       {
+        "title": "Regulatory Affairs Junior",
+        "company": "Gruppo SAVIO",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4378950465"
+      },
+      {
         "title": "Senior Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
         "score": 47,
         "site": "linkedin",
         "date_posted": 1772496000000,
         "url": "https://www.linkedin.com/jobs/view/4369990305"
-      },
-      {
-        "title": "Regulatory Affairs Junior",
-        "company": "Gruppo SAVIO",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
         "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
@@ -124,6 +124,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4366163549"
+      },
+      {
+        "title": "MSL Cardiometabolic (Centro Italia)",
+        "company": "Jefferson Wells Italia",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384147782"
       },
       {
         "title": "Clinical Operations Manager (Start-Up)",
@@ -144,7 +152,7 @@
       {
         "title": "AA Legal Counsel - Italy, Greece, Cyprus & Malta",
         "company": "AbbVie",
-        "score": 27,
+        "score": 22,
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=f1afd329d8bf16da"
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1772755200000,
         "url": "https://it.indeed.com/viewjob?jk=3e85eb156a29bfa4"
-      },
-      {
-        "title": "Manager, Technical Business Management",
-        "company": "Thermo Fisher Scientific",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1772409600000,
-        "url": "https://it.indeed.com/viewjob?jk=a4287e26fbb573f3"
       }
     ]
   },
@@ -191,41 +191,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 11 (-55%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 9 (-89%)",
       "data": {
-        "current": 5,
-        "avg": 11.0,
-        "change_pct": -54.5
+        "current": 1,
+        "avg": 9.0,
+        "change_pct": -88.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 20% (-47pp)",
+      "message": "📡 indeed: quota passata da 20% a 0% (-20pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 80% (+47pp)",
+      "message": "📡 linkedin: quota passata da 80% a 100% (+20pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 80.0
+        "old_pct": 80.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -235,24 +235,34 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 11,
+            "id": 2,
+            "size": 10,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
+              "italy",
+              "senior",
+              "msl"
             ],
-            "pct": 40.7
+            "pct": 35.7
           },
           {
-            "id": 2,
-            "size": 5,
+            "id": 3,
+            "size": 8,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 28.6
+          },
+          {
+            "id": 0,
+            "size": 4,
             "top_terms": [
               "manager",
               "product",
               "clinical"
             ],
-            "pct": 18.5
+            "pct": 14.3
           },
           {
             "id": 1,
@@ -260,29 +270,19 @@
             "top_terms": [
               "medical",
               "specialist",
-              "director"
+              "affairs"
             ],
-            "pct": 14.8
+            "pct": 14.3
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 2,
             "top_terms": [
-              "italy",
-              "lead",
-              "medical"
+              "programma",
+              "gcap",
+              "specialist"
             ],
-            "pct": 14.8
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "senior",
-              "clinical",
-              "manager"
-            ],
-            "pct": 11.1
+            "pct": 7.1
           }
         ]
       }

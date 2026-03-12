@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-11T07:28:18.182768",
+  "generated_at": "2026-03-12T07:30:04.501324",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 14,
+  "total_jobs_analyzed": 15,
   "scoring": {
-    "average": 23.6,
+    "average": 25.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 5,
+      "medium": 6,
       "low": 1,
       "irrelevant": 8
     },
@@ -30,6 +30,14 @@
         "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
       },
       {
+        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
+        "company": "myGwork - LGBTQ+ Business Community",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4382092606"
+      },
+      {
         "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
         "company": "IGEA S.p.A.",
         "score": 50,
@@ -40,7 +48,7 @@
       {
         "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
         "company": "myGwork - LGBTQ+ Business Community",
-        "score": 46,
+        "score": 45,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4376672103"
@@ -72,7 +80,7 @@
       {
         "title": "Territory Manager Surgical",
         "company": "Edwards Lifesciences",
-        "score": 12,
+        "score": 7,
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=79016f12b6496b13"
@@ -142,42 +150,32 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-50%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-71%)",
       "data": {
-        "current": 2,
-        "avg": 4.0,
-        "change_pct": -50.0
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "current": 1,
+        "avg": 3.5,
+        "change_pct": -71.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     }
   ],

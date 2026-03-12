@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-11T07:28:18.364054",
+  "generated_at": "2026-03-12T07:30:04.707204",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 22,
+  "total_jobs_analyzed": 26,
   "scoring": {
-    "average": 14.5,
+    "average": 14.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 2,
       "low": 0,
-      "irrelevant": 19
+      "irrelevant": 23
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs",
         "company": "Content Group",
-        "score": 51,
+        "score": 52,
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=f00864ccd9de870d"
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affair Coordinator",
         "company": "Cefla",
-        "score": 43,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383334187"
@@ -44,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4355234223"
+      },
+      {
+        "title": "IT System Administrator Specialist",
+        "company": "VEM Sistemi",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=0efe2da1cc48807d"
       },
       {
         "title": "PROJECT MANAGER REDAZIONE MANUALISTICA TECNICA - Agriculture field",
@@ -64,7 +72,7 @@
       {
         "title": "LIMS/MODA & GMP Documentation Specialist",
         "company": "PQE Group",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377397158"
@@ -72,7 +80,7 @@
       {
         "title": "CUSTOMER QUALITY ASSURANCE SPECIALIST",
         "company": "O.M.P. Officine Mazzocco Pagnoni",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4382037285"
@@ -80,18 +88,18 @@
       {
         "title": "Software Quality Assurance Specialist (Maranello)",
         "company": "Ferrari",
-        "score": 12,
+        "score": 11,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383744718"
       },
       {
-        "title": "Quality Assurance ISO 9001 Stageur",
-        "company": "JSB Solutions",
+        "title": "QA Batch record reviewer",
+        "company": "Menarini",
         "score": 11,
-        "site": "linkedin",
-        "date_posted": 1772582400000,
-        "url": "https://www.linkedin.com/jobs/view/4378960105"
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=f3ee7d7addd4498c"
       },
       {
         "title": "Tecnical Writer - Electric Schematics",
@@ -126,6 +134,22 @@
         "url": "https://it.indeed.com/viewjob?jk=d689f7330d224bbf"
       },
       {
+        "title": "Responsabile BTB Nord-Centro Italia settore ASCENSORI - MONTASCALE",
+        "company": "GME MONTASCALE SRL",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1773014400000,
+        "url": "https://it.indeed.com/viewjob?jk=d689f7330d224bbf"
+      },
+      {
+        "title": "Quality Assurance ISO 9001 Stageur",
+        "company": "JSB Solutions",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1772582400000,
+        "url": "https://www.linkedin.com/jobs/view/4378960105"
+      },
+      {
         "title": "ADDETTO/A CONTROLLO SISTEMA DI GESTIONE QUALITÀ E CONSULENZA CERTIFICAZIONI ISO",
         "company": "LaRisorsaUmana.it",
         "score": 7,
@@ -148,30 +172,6 @@
         "site": "indeed",
         "date_posted": 1772755200000,
         "url": "https://it.indeed.com/viewjob?jk=e7e3d1b55d984809"
-      },
-      {
-        "title": "Impiegato/a Servizio Clienti",
-        "company": "IGEA SPA",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772755200000,
-        "url": "https://it.indeed.com/viewjob?jk=9c4fe5307ff449bc"
-      },
-      {
-        "title": "Cercasi respnsabile sistema qualità iatf",
-        "company": "MANFREDINI DOVIGLIO S.R.L.",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382079895"
-      },
-      {
-        "title": "Data Centre Technician",
-        "company": "Sycomp",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1772409600000,
-        "url": "https://it.indeed.com/viewjob?jk=10b51b34c5e8f173"
       }
     ]
   },
@@ -180,6 +180,11 @@
     "add_blacklist": [
       {
         "word": "iso",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "sistema",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -194,80 +199,100 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-45%)",
+      "data": {
+        "current": 4,
+        "avg": 7.3,
+        "change_pct": -45.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/7 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 7,
-        "total": 7,
-        "pct": 100.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 43% (-32pp)",
+      "message": "📡 indeed: quota passata da 43% a 75% (+32pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 42.9
+        "old_pct": 42.9,
+        "new_pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 57% (+32pp)",
+      "message": "📡 linkedin: quota passata da 57% a 25% (-32pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 57.1
+        "old_pct": 57.1,
+        "new_pct": 25.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 9,
-            "top_terms": [
-              "writer",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 40.9
-          },
-          {
             "id": 0,
-            "size": 8,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "assurance"
-            ],
-            "pct": 36.4
-          },
-          {
-            "id": 1,
-            "size": 3,
+            "size": 13,
             "top_terms": [
               "qualità",
               "sistema",
+              "regulatory"
+            ],
+            "pct": 50.0
+          },
+          {
+            "id": 1,
+            "size": 6,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 23.1
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "specialist",
+              "writer",
               "iso"
             ],
-            "pct": 13.6
+            "pct": 11.5
           },
           {
             "id": 3,
             "size": 2,
             "top_terms": [
+              "writer",
+              "iso",
+              "affairs"
+            ],
+            "pct": 7.7
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
               "data",
               "writer",
-              "specialist"
+              "iso"
             ],
-            "pct": 9.1
+            "pct": 7.7
           }
         ]
       }

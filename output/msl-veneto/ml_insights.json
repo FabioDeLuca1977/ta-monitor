@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-03-11T07:28:18.109694",
+  "generated_at": "2026-03-12T07:30:04.421428",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 20,
   "scoring": {
-    "average": 29.2,
+    "average": 30.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 10,
-      "low": 0,
+      "medium": 12,
+      "low": 1,
       "irrelevant": 7
     },
     "top_jobs": [
+      {
+        "title": "informatore scientifico del farmaco",
+        "company": "Cadigroup",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4374112742"
+      },
       {
         "title": "Informatore scientifico",
         "company": "Pharmera",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4374283868"
-      },
-      {
-        "title": "Clinical Specialist (f/m/d)",
-        "company": "W. L. Gore & Associates",
-        "score": 48,
-        "site": "indeed",
-        "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=e50b3c514abc4a60"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -70,20 +70,28 @@
         "url": "https://www.linkedin.com/jobs/view/4379360587"
       },
       {
+        "title": "Temporary Clinical Monitor",
+        "company": "Jobbit",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4381699462"
+      },
+      {
+        "title": "Clinical Specialist (f/m/d)",
+        "company": "W. L. Gore & Associates",
+        "score": 43,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=e50b3c514abc4a60"
+      },
+      {
         "title": "Informatore scientifico del farmaco",
         "company": "ITALFARMACO S.P.A.",
         "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381296008"
-      },
-      {
-        "title": "Temporary Clinical Monitor",
-        "company": "Jobbit",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381699462"
       },
       {
         "title": "INFORMATORE SCIENTIFICO OSPEDALIERO (Triveneto - Verona/Padova/Venezia)",
@@ -94,20 +102,28 @@
         "url": "https://www.linkedin.com/jobs/view/4381854610"
       },
       {
+        "title": "MSL Cardiometabolic (Nord Est)",
+        "company": "Jefferson Wells Italia",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384197040"
+      },
+      {
+        "title": "Cerchiamo informatori scientifici a Verona",
+        "company": "ABI pharmaceutical",
+        "score": 30,
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=3345662fcd4d1a58"
+      },
+      {
         "title": "IT SPECIALIST (SYSTEMS ADMINISTRATION)",
         "company": "US Military Treatment Facilities under DHA",
         "score": 16,
         "site": "indeed",
         "date_posted": 1773100800000,
         "url": "https://it.indeed.com/viewjob?jk=ab4836bfe03f6c2b"
-      },
-      {
-        "title": "Marketing Expert",
-        "company": "Fidia Farmaceutici Spa",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=2a6e5c719a1f7ace"
       },
       {
         "title": "Victim Advocate",
@@ -126,9 +142,17 @@
         "url": "https://it.indeed.com/viewjob?jk=8fb90dbba2129d77"
       },
       {
+        "title": "Marketing Expert",
+        "company": "Fidia Farmaceutici Spa",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=2a6e5c719a1f7ace"
+      },
+      {
         "title": "IQVIA Italia Infermiere per attività domiciliari",
         "company": "IQVIA SOLUTIONS ITALY SRL",
-        "score": 5,
+        "score": 0,
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=66d69efb805d16b3"
@@ -136,7 +160,7 @@
       {
         "title": "CYS Assistant Director NF-03",
         "company": null,
-        "score": 5,
+        "score": 0,
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=d8eca911c0b068a2"
@@ -159,43 +183,82 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-81%)",
-      "data": {
-        "current": 1,
-        "avg": 5.3,
-        "change_pct": -81.2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "role_clusters",
+      "severity": "info",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "data": {
+        "clusters": [
+          {
+            "id": 0,
+            "size": 8,
+            "top_terms": [
+              "verona",
+              "clinical",
+              "veneto"
+            ],
+            "pct": 40.0
+          },
+          {
+            "id": 1,
+            "size": 7,
+            "top_terms": [
+              "scientifico",
+              "informatore",
+              "farmaco"
+            ],
+            "pct": 35.0
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "verona"
+            ],
+            "pct": 15.0
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "nf",
+              "verona",
+              "veneto"
+            ],
+            "pct": 10.0
+          }
+        ]
       }
     }
   ],
