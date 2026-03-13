@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-12T07:30:04.199288",
+  "generated_at": "2026-03-13T07:29:45.707487",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 384,
+  "total_jobs_analyzed": 400,
   "scoring": {
-    "average": 18.2,
+    "average": 17.5,
     "distribution": {
       "excellent": 0,
-      "good": 26,
-      "medium": 41,
-      "low": 67,
-      "irrelevant": 250
+      "good": 23,
+      "medium": 44,
+      "low": 70,
+      "irrelevant": 263
     },
     "top_jobs": [
       {
@@ -86,12 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
       },
       {
-        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
-        "company": "Ecolab",
+        "title": "Talent Acquisition Manager - Retail GDO",
+        "company": "Hays",
         "score": 68,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377781666"
       },
       {
         "title": "HR Manager",
@@ -110,20 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4372870383"
       },
       {
-        "title": "Hr generalist appartenente alle categorie protette (art. 1 l. 68/99)",
-        "company": "Ferrovie dello Stato Italiane",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1773014400000,
-        "url": "https://it.indeed.com/viewjob?jk=57e0925bac068957"
-      },
-      {
-        "title": "Talent Acquisition Manager - Retail GDO",
-        "company": "Hays",
+        "title": "HR Generalist",
+        "company": "AIM S.R.L.",
         "score": 66,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377781666"
+        "site": "indeed",
+        "date_posted": 1772323200000,
+        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
         "title": "HR Specialist",
@@ -132,14 +124,6 @@
         "site": "indeed",
         "date_posted": 1773100800000,
         "url": "https://it.indeed.com/viewjob?jk=a580c2c3686cd978"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "AIM S.R.L.",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1772323200000,
-        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
@@ -158,20 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4382019981"
       },
       {
-        "title": "Head of Tech Talent & Employer Branding",
-        "company": "Exein",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382877550"
+        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
+        "company": "Ecolab",
+        "score": 63,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
       },
       {
         "title": "Human Resources Business Partner",
         "company": "TIM",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1772150400000,
         "url": "https://www.linkedin.com/jobs/view/4369142800"
+      },
+      {
+        "title": "Junior Talent Acquisition Sourcer L.68/99",
+        "company": "PQE Group",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377380577"
+      },
+      {
+        "title": "Hr generalist appartenente alle categorie protette (art. 1 l. 68/99)",
+        "company": "Ferrovie dello Stato Italiane",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1773014400000,
+        "url": "https://it.indeed.com/viewjob?jk=57e0925bac068957"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 46,
-        "reason": "Appare 46x in annunci a basso score"
+        "count": 49,
+        "reason": "Appare 49x in annunci a basso score"
       },
       {
         "word": "risorse",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "time",
@@ -199,7 +199,7 @@
         "reason": "Appare 14x in annunci a basso score"
       },
       {
-        "word": "responsabile",
+        "word": "sales",
         "count": 14,
         "reason": "Appare 14x in annunci a basso score"
       }
@@ -223,40 +223,22 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 26 annunci ultimo scan vs media 45 (-42%)",
+      "severity": "high",
+      "message": "Volume in calo: 16 annunci ultimo scan vs media 43 (-62%)",
       "data": {
-        "current": 26,
-        "avg": 44.8,
-        "change_pct": -41.9
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Kibernetes: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Kibernetes",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Aero Sekur S.p.A.: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Aero Sekur S.p.A.",
-        "count": 2
+        "current": 16,
+        "avg": 42.7,
+        "change_pct": -62.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 15/26 annunci da aziende nuove (57.7%)",
+      "message": "📊 Ultimo scan: 8/16 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 15,
-        "total": 26,
-        "pct": 57.7
+        "new": 8,
+        "total": 16,
+        "pct": 50.0
       }
     },
     {
@@ -267,53 +249,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 253,
+            "size": 254,
             "top_terms": [
+              "specialist",
               "hr",
-              "manager",
-              "specialist"
+              "senior"
             ],
-            "pct": 65.9
+            "pct": 63.5
           },
           {
             "id": 0,
             "size": 47,
             "top_terms": [
-              "roma",
-              "sales",
-              "assistant"
-            ],
-            "pct": 12.2
-          },
-          {
-            "id": 2,
-            "size": 33,
-            "top_terms": [
               "addetto",
-              "vendite",
-              "time"
+              "risorse",
+              "umane"
             ],
-            "pct": 8.6
+            "pct": 11.8
           },
           {
             "id": 4,
-            "size": 29,
+            "size": 44,
             "top_terms": [
-              "umane",
-              "risorse",
-              "impiegato"
+              "roma",
+              "sales",
+              "zona"
             ],
-            "pct": 7.6
+            "pct": 11.0
+          },
+          {
+            "id": 2,
+            "size": 38,
+            "top_terms": [
+              "manager",
+              "project",
+              "hr"
+            ],
+            "pct": 9.5
           },
           {
             "id": 3,
-            "size": 22,
+            "size": 17,
             "top_terms": [
               "responsabile",
-              "tecnico",
-              "sala"
+              "sala",
+              "risorse"
             ],
-            "pct": 5.7
+            "pct": 4.2
           }
         ]
       }

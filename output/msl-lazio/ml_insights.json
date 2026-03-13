@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-03-12T07:30:04.537246",
+  "generated_at": "2026-03-13T07:29:46.068481",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 28,
+  "total_jobs_analyzed": 32,
   "scoring": {
     "average": 33.6,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 13,
+      "good": 3,
+      "medium": 14,
       "low": 3,
-      "irrelevant": 10
+      "irrelevant": 12
     },
     "top_jobs": [
       {
+        "title": "Medical Science Liaison Italy: KOL Engagement",
+        "company": "Resourcing Life Science",
+        "score": 69,
+        "site": "google",
+        "date_posted": 1773100800000,
+        "url": "https://it.bebee.com/job/724d3e06f92a65e2dfefa16b7eb69b31?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
         "company": "Teva Pharmaceuticals",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4382117194"
@@ -46,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4382009659"
       },
       {
+        "title": "Regulatory Affairs Specialist I",
+        "company": "myGwork - LGBTQ+ Business Community",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4382048302"
+      },
+      {
         "title": "Senior Manager Regulatory Affairs",
         "company": "OMISAN Schalcon",
         "score": 56,
@@ -54,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4380259432"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "LHH",
+        "title": "Medical Affairs Scientist Oncology Breast Cancer",
+        "company": "Pfizer",
         "score": 52,
         "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4381179443"
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4378841330"
       },
       {
         "title": "Clinical Development Medical Science Director",
@@ -68,14 +84,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383717643"
-      },
-      {
-        "title": "Medical Affairs Scientist Oncology Breast Cancer",
-        "company": "Pfizer",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4378841330"
       },
       {
         "title": "Director of Regulatory Affairs",
@@ -94,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4379947378"
       },
       {
-        "title": "Regulatory Affairs Junior",
-        "company": "Gruppo SAVIO",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4378950465"
-      },
-      {
         "title": "Senior Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
         "score": 47,
@@ -110,12 +110,28 @@
         "url": "https://www.linkedin.com/jobs/view/4369990305"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "LHH",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4381179443"
+      },
+      {
         "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
         "company": "Adecco",
         "score": 45,
         "site": "linkedin",
         "date_posted": 1772496000000,
         "url": "https://www.linkedin.com/jobs/view/4372695382"
+      },
+      {
+        "title": "Regulatory Affairs Junior",
+        "company": "Gruppo SAVIO",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
         "title": "Head of Regulatory Affairs Italy",
@@ -156,28 +172,17 @@
         "site": "indeed",
         "date_posted": 1772582400000,
         "url": "https://it.indeed.com/viewjob?jk=f1afd329d8bf16da"
-      },
-      {
-        "title": "Field Market Access Manager - Ostomy Care",
-        "company": "Convatec",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": 1772323200000,
-        "url": "https://www.linkedin.com/jobs/view/4263437738"
-      },
-      {
-        "title": "Product Manager",
-        "company": "Merck KGaA",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1772755200000,
-        "url": "https://it.indeed.com/viewjob?jk=3e85eb156a29bfa4"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "specialist",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
       {
         "word": "manager",
         "count": 3,
@@ -190,42 +195,52 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 9 (-89%)",
+      "severity": "medium",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-43%)",
       "data": {
-        "current": 1,
-        "avg": 9.0,
-        "change_pct": -88.9
+        "current": 4,
+        "avg": 7.0,
+        "change_pct": -42.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 4,
+        "total": 4,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 20% a 0% (-20pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 20.0,
-        "new_pct": 0.0
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 80% a 100% (+20pp)",
+      "message": "📡 indeed: quota passata da 0% a 25% (+25pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 80.0,
-        "new_pct": 100.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 google: quota passata da 0% a 25% (+25pp)",
+      "data": {
+        "channel": "google",
+        "old_pct": 0.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -235,54 +250,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 0,
             "size": 10,
             "top_terms": [
-              "italy",
+              "manager",
               "senior",
-              "msl"
+              "clinical"
             ],
-            "pct": 35.7
+            "pct": 31.2
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 28.6
+            "pct": 25.0
           },
           {
-            "id": 0,
-            "size": 4,
+            "id": 2,
+            "size": 6,
             "top_terms": [
-              "manager",
-              "product",
-              "clinical"
+              "medical",
+              "liaison",
+              "science"
             ],
-            "pct": 14.3
+            "pct": 18.8
           },
           {
             "id": 1,
-            "size": 4,
+            "size": 5,
             "top_terms": [
-              "medical",
               "specialist",
-              "affairs"
+              "gcap",
+              "programma"
             ],
-            "pct": 14.3
+            "pct": 15.6
           },
           {
-            "id": 4,
-            "size": 2,
+            "id": 3,
+            "size": 3,
             "top_terms": [
-              "programma",
-              "gcap",
-              "specialist"
+              "italy",
+              "marketing",
+              "lead"
             ],
-            "pct": 7.1
+            "pct": 9.4
           }
         ]
       }

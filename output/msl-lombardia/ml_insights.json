@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-12T07:30:04.490180",
+  "generated_at": "2026-03-13T07:29:46.019280",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 89,
+  "total_jobs_analyzed": 106,
   "scoring": {
-    "average": 32.1,
+    "average": 31.9,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 45,
-      "low": 4,
-      "irrelevant": 37
+      "medium": 52,
+      "low": 7,
+      "irrelevant": 44
     },
     "top_jobs": [
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
@@ -32,7 +32,7 @@
       {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1772582400000,
         "url": "https://www.linkedin.com/jobs/view/4380931992"
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4381897037"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Intercos Group",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1773187200000,
+        "url": "https://www.linkedin.com/jobs/view/4382883347"
+      },
+      {
         "title": "Medical Science Liaison (Respiratory)",
         "company": "Jefferson Wells Italia",
         "score": 56,
@@ -84,6 +92,14 @@
         "site": "linkedin",
         "date_posted": 1772323200000,
         "url": "https://www.linkedin.com/jobs/view/4342294307"
+      },
+      {
+        "title": "Director, Market activation and Regulatory Affairs",
+        "company": "Cespira",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4383721247"
       },
       {
         "title": "(Associate) Medical Director - Neurology",
@@ -102,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
+        "title": "Global Director Medical Affairs",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384893307"
+      },
+      {
         "title": "Medical Affairs Director - Italy",
         "company": "Ascendis Pharma",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377726452"
-      },
-      {
-        "title": "Medical Lead CNS – Società Farmaceutica",
-        "company": "Chaberton Professionals",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4379892178"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -142,14 +158,6 @@
         "url": "https://www.linkedin.com/jobs/view/4381051535"
       },
       {
-        "title": "Associate Director Regulatory Affairs",
-        "company": "Philogen S.p.A.",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4369075105"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "Cosmo I Building Health Confidence",
         "score": 52,
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4374847226"
       },
       {
-        "title": "Regulatory Affairs Specialist - Settore Healthcare",
-        "company": "Uriach Italy",
-        "score": 51,
+        "title": "Regulatory Affairs Manager",
+        "company": "Randstad Italia",
+        "score": 52,
         "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381005002"
-      },
-      {
-        "title": "Medical Director - Azienda Farmaceutica",
-        "company": "Professional Recruitment",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1772582400000,
-        "url": "https://www.linkedin.com/jobs/view/4379674013"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383534811"
       }
     ]
   },
@@ -180,8 +180,18 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
+      },
+      {
+        "word": "cra",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "fsp",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -189,19 +199,9 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "cra",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "product",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
         "word": "clinical",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,56 +209,52 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 4,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 50
     },
     {
-      "keyword": "director regulatory",
+      "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "global",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 10 annunci ultimo scan vs media 20 (-49%)",
-      "data": {
-        "current": 10,
-        "avg": 19.8,
-        "change_pct": -49.4
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/10 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 8/17 annunci da aziende nuove (47.1%)",
       "data": {
-        "new": 5,
-        "total": 10,
-        "pct": 50.0
+        "new": 8,
+        "total": 17,
+        "pct": 47.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 45% a 80% (+35pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 45.5,
-        "new_pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 55% a 20% (-35pp)",
+      "message": "📡 linkedin: quota passata da 20% a 47% (+27pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 54.5,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 47.1
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 80% a 53% (-27pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 52.9
       }
     },
     {
@@ -268,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 33,
-            "top_terms": [
-              "cra",
-              "research",
-              "senior"
-            ],
-            "pct": 37.1
-          },
-          {
-            "id": 4,
-            "size": 16,
-            "top_terms": [
-              "medical",
-              "director",
-              "affairs"
-            ],
-            "pct": 18.0
-          },
-          {
             "id": 1,
-            "size": 15,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "associate"
-            ],
-            "pct": 16.9
-          },
-          {
-            "id": 2,
-            "size": 15,
-            "top_terms": [
-              "manager",
-              "product",
-              "services"
-            ],
-            "pct": 16.9
-          },
-          {
-            "id": 3,
-            "size": 10,
+            "size": 36,
             "top_terms": [
               "specialist",
               "marketing",
-              "clinical"
+              "pharmacovigilance"
             ],
-            "pct": 11.2
+            "pct": 34.0
+          },
+          {
+            "id": 2,
+            "size": 25,
+            "top_terms": [
+              "manager",
+              "clinical",
+              "product"
+            ],
+            "pct": 23.6
+          },
+          {
+            "id": 0,
+            "size": 19,
+            "top_terms": [
+              "medical",
+              "director",
+              "italy"
+            ],
+            "pct": 17.9
+          },
+          {
+            "id": 4,
+            "size": 19,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 17.9
+          },
+          {
+            "id": 3,
+            "size": 7,
+            "top_terms": [
+              "cra",
+              "fsp",
+              "italy"
+            ],
+            "pct": 6.6
           }
         ]
       }

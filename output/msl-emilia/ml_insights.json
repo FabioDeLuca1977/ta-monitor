@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-12T07:30:04.501324",
+  "generated_at": "2026-03-13T07:29:46.031512",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 15,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 25.0,
+    "average": 25.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 6,
+      "medium": 7,
       "low": 1,
-      "irrelevant": 8
+      "irrelevant": 9
     },
     "top_jobs": [
       {
         "title": "Medical Director, Global Evidence Generation Lead",
         "company": "Alfasigma",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381888577"
@@ -46,9 +46,17 @@
         "url": "https://www.linkedin.com/jobs/view/4381717410"
       },
       {
+        "title": "Regulatory Affairs Specialist - REACH e CLP",
+        "company": "Lavoropiù SpA",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384850619"
+      },
+      {
         "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
         "company": "myGwork - LGBTQ+ Business Community",
-        "score": 45,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4376672103"
@@ -68,6 +76,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383334187"
+      },
+      {
+        "title": "Process Validation Specialist",
+        "company": "LINCOTEK GROUP",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1773273600000,
+        "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
       },
       {
         "title": "Associate Technical Consultant",
@@ -94,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4355910005"
       },
       {
-        "title": "Operatore Contact Center a Reggio Emilia",
-        "company": "ItaliAssistenza",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=496baadbd97bf777"
-      },
-      {
         "title": "EDUCATORE /EDUCATRICE | CRA VILLA MINOZZO",
         "company": "COOPSELIOS",
         "score": 5,
@@ -124,6 +132,14 @@
         "site": "indeed",
         "date_posted": 1772409600000,
         "url": "https://it.indeed.com/viewjob?jk=066b4c3e783b6448"
+      },
+      {
+        "title": "Operatore Contact Center a Reggio Emilia",
+        "company": "ItaliAssistenza",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=496baadbd97bf777"
       },
       {
         "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
@@ -150,32 +166,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-71%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-33%)",
       "data": {
-        "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.4
+        "current": 2,
+        "avg": 3.0,
+        "change_pct": -33.3
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "indeed",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 50.0
       }
     }
   ],

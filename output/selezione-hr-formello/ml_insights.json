@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-12T07:30:04.867038",
+  "generated_at": "2026-03-13T07:29:46.421688",
   "profile_id": "selezione-hr-formello",
   "profile_name": "Selezione HR Formello",
-  "total_jobs_analyzed": 384,
+  "total_jobs_analyzed": 400,
   "scoring": {
-    "average": 6.9,
+    "average": 6.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 9,
       "low": 15,
-      "irrelevant": 358
+      "irrelevant": 374
     },
     "top_jobs": [
       {
         "title": "Talent Acquisition",
         "company": "DXC Technology",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1771372800000,
         "url": "https://www.linkedin.com/jobs/view/4324290308"
@@ -24,7 +24,7 @@
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1772064000000,
         "url": "https://www.linkedin.com/jobs/view/4368728526"
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4376408804"
       },
       {
-        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
-        "company": "Ecolab",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
-      },
-      {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
         "company": "DGS",
         "score": 46,
@@ -84,6 +76,14 @@
         "site": "indeed",
         "date_posted": 1772150400000,
         "url": "https://it.indeed.com/viewjob?jk=33541dcf08b547a8"
+      },
+      {
+        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
+        "company": "Ecolab",
+        "score": 44,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
       },
       {
         "title": "Talent Acquisition Manager - Retail GDO",
@@ -126,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4382106861"
       },
       {
+        "title": "Talent and Performance, D&I Manager",
+        "company": "Thales",
+        "score": 32,
+        "site": "indeed",
+        "date_posted": 1773273600000,
+        "url": "https://it.indeed.com/viewjob?jk=b0a5a75089f9aabb"
+      },
+      {
         "title": "HR Stage - Talent Acquisition",
         "company": "Multiversity Group",
         "score": 27,
@@ -144,26 +152,10 @@
       {
         "title": "Head of Tech Talent & Employer Branding",
         "company": "Exein",
-        "score": 26,
+        "score": 24,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4382877550"
-      },
-      {
-        "title": "Amplity – Join Our Talent Community in Italy",
-        "company": "Amplity",
-        "score": 24,
-        "site": "linkedin",
-        "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4222830549"
-      },
-      {
-        "title": "HR DI CANTIERE",
-        "company": "TEK SOLAR S.r.l.",
-        "score": 24,
-        "site": "indeed",
-        "date_posted": 1773014400000,
-        "url": "https://it.indeed.com/viewjob?jk=d5b1e48b179d26d4"
       },
       {
         "title": "HR Manager",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1771891200000,
         "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
+      },
+      {
+        "title": "Amplity – Join Our Talent Community in Italy",
+        "company": "Amplity",
+        "score": 23,
+        "site": "linkedin",
+        "date_posted": 1772496000000,
+        "url": "https://www.linkedin.com/jobs/view/4222830549"
       }
     ]
   },
@@ -179,40 +179,40 @@
     "add_relevant": [
       {
         "title": "Talent Acquisition",
-        "score": 61,
+        "score": 60,
         "reason": "Alto score TF-IDF ma nessun pattern match"
       },
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
-        "score": 61,
+        "score": 60,
         "reason": "Alto score TF-IDF ma nessun pattern match"
       }
     ],
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 53,
-        "reason": "Appare 53x in annunci a basso score"
+        "count": 55,
+        "reason": "Appare 55x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 48,
-        "reason": "Appare 48x in annunci a basso score"
-      },
-      {
-        "word": "risorse",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
-      },
-      {
-        "word": "umane",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
+        "count": 51,
+        "reason": "Appare 51x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
+      },
+      {
+        "word": "risorse",
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
+      },
+      {
+        "word": "umane",
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       }
     ],
     "review": []
@@ -228,40 +228,22 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 26 annunci ultimo scan vs media 45 (-42%)",
+      "severity": "high",
+      "message": "Volume in calo: 16 annunci ultimo scan vs media 43 (-62%)",
       "data": {
-        "current": 26,
-        "avg": 44.8,
-        "change_pct": -41.9
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Kibernetes: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Kibernetes",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Aero Sekur S.p.A.: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Aero Sekur S.p.A.",
-        "count": 2
+        "current": 16,
+        "avg": 42.7,
+        "change_pct": -62.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 15/26 annunci da aziende nuove (57.7%)",
+      "message": "📊 Ultimo scan: 8/16 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 15,
-        "total": 26,
-        "pct": 57.7
+        "new": 8,
+        "total": 16,
+        "pct": 50.0
       }
     },
     {
@@ -272,53 +254,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 253,
+            "size": 254,
             "top_terms": [
+              "specialist",
               "hr",
-              "manager",
-              "specialist"
+              "senior"
             ],
-            "pct": 65.9
+            "pct": 63.5
           },
           {
             "id": 0,
             "size": 47,
             "top_terms": [
-              "roma",
-              "sales",
-              "assistant"
-            ],
-            "pct": 12.2
-          },
-          {
-            "id": 2,
-            "size": 33,
-            "top_terms": [
               "addetto",
-              "vendite",
-              "time"
+              "risorse",
+              "umane"
             ],
-            "pct": 8.6
+            "pct": 11.8
           },
           {
             "id": 4,
-            "size": 29,
+            "size": 44,
             "top_terms": [
-              "umane",
-              "risorse",
-              "impiegato"
+              "roma",
+              "sales",
+              "zona"
             ],
-            "pct": 7.6
+            "pct": 11.0
+          },
+          {
+            "id": 2,
+            "size": 38,
+            "top_terms": [
+              "manager",
+              "project",
+              "hr"
+            ],
+            "pct": 9.5
           },
           {
             "id": 3,
-            "size": 22,
+            "size": 17,
             "top_terms": [
               "responsabile",
-              "tecnico",
-              "sala"
+              "sala",
+              "risorse"
             ],
-            "pct": 5.7
+            "pct": 4.2
           }
         ]
       }
