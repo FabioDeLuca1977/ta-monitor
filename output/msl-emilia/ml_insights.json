@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-13T07:29:46.031512",
+  "generated_at": "2026-03-14T07:24:34.891823",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 22,
   "scoring": {
-    "average": 25.6,
+    "average": 22.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 7,
+      "medium": 8,
       "low": 1,
-      "irrelevant": 9
+      "irrelevant": 13
     },
     "top_jobs": [
       {
         "title": "Medical Director, Global Evidence Generation Lead",
         "company": "Alfasigma",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381888577"
@@ -24,18 +24,10 @@
       {
         "title": "Regulatory Affairs & Quality Assurance Specialist",
         "company": "MEDAX SRL UNIPERSONALE",
-        "score": 56,
+        "score": 51,
         "site": "indeed",
         "date_posted": 1773100800000,
         "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
-      },
-      {
-        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
-        "company": "myGwork - LGBTQ+ Business Community",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1773100800000,
-        "url": "https://www.linkedin.com/jobs/view/4382092606"
       },
       {
         "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
@@ -46,6 +38,14 @@
         "url": "https://www.linkedin.com/jobs/view/4381717410"
       },
       {
+        "title": "Non-Pharma Global Regulatory Affairs Manager",
+        "company": "Alfasigma group",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1772496000000,
+        "url": "https://it.indeed.com/viewjob?jk=9afdaa04d6b4c602"
+      },
+      {
         "title": "Regulatory Affairs Specialist - REACH e CLP",
         "company": "Lavoropiù SpA",
         "score": 47,
@@ -54,9 +54,17 @@
         "url": "https://www.linkedin.com/jobs/view/4384850619"
       },
       {
-        "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
+        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
         "company": "myGwork - LGBTQ+ Business Community",
         "score": 46,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4382092606"
+      },
+      {
+        "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
+        "company": "myGwork - LGBTQ+ Business Community",
+        "score": 41,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4376672103"
@@ -80,18 +88,42 @@
       {
         "title": "Process Validation Specialist",
         "company": "LINCOTEK GROUP",
-        "score": 17,
+        "score": 18,
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
       },
       {
+        "title": "Principal Manufacturing Engineer",
+        "company": "Transmedics",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=0a9a3b0d5ffe610f"
+      },
+      {
+        "title": "Manager, Customer Engagement and Customer Experience",
+        "company": "Alfasigma group",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1772582400000,
+        "url": "https://it.indeed.com/viewjob?jk=2c4381ca19ef0fd6"
+      },
+      {
         "title": "Associate Technical Consultant",
         "company": "Medtronic",
-        "score": 13,
+        "score": 8,
         "site": "indeed",
         "date_posted": 1773100800000,
         "url": "https://it.indeed.com/viewjob?jk=ed7d8548930c664a"
+      },
+      {
+        "title": "Manager, Regulatory Lead",
+        "company": "Alfasigma group",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1772496000000,
+        "url": "https://it.indeed.com/viewjob?jk=8491f0c2daec0e36"
       },
       {
         "title": "Territory Manager Surgical",
@@ -112,7 +144,7 @@
       {
         "title": "EDUCATORE /EDUCATRICE | CRA VILLA MINOZZO",
         "company": "COOPSELIOS",
-        "score": 5,
+        "score": 6,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383316808"
@@ -140,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=496baadbd97bf777"
-      },
-      {
-        "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
-        "company": "Transmedics",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=f878320f3fc629a6"
       }
     ]
   },
@@ -156,6 +180,11 @@
     "add_blacklist": [
       {
         "word": "engineer",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -165,43 +194,101 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-33%)",
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+76%)",
       "data": {
-        "current": 2,
-        "avg": 3.0,
-        "change_pct": -33.3
+        "current": 5,
+        "avg": 2.8,
+        "change_pct": 76.5
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Alfasigma group: 4 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Alfasigma group",
+        "count": 4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "new": 4,
+        "total": 5,
+        "pct": 80.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "role_clusters",
+      "severity": "info",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "data": {
+        "clusters": [
+          {
+            "id": 0,
+            "size": 11,
+            "top_terms": [
+              "manager",
+              "cra",
+              "marketing"
+            ],
+            "pct": 50.0
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "engineer",
+              "principal",
+              "process"
+            ],
+            "pct": 18.2
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 18.2
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "electrophysiology",
+              "field",
+              "clinical"
+            ],
+            "pct": 13.6
+          }
+        ]
       }
     }
   ],

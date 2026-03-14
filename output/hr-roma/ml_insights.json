@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-13T07:29:45.707487",
+  "generated_at": "2026-03-14T07:24:34.530446",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 400,
+  "total_jobs_analyzed": 418,
   "scoring": {
-    "average": 17.5,
+    "average": 17.0,
     "distribution": {
       "excellent": 0,
-      "good": 23,
-      "medium": 44,
-      "low": 70,
-      "irrelevant": 263
+      "good": 24,
+      "medium": 45,
+      "low": 71,
+      "irrelevant": 278
     },
     "top_jobs": [
       {
@@ -54,14 +54,6 @@
         "url": "https://www.linkedin.com/jobs/view/4324290308"
       },
       {
-        "title": "Talent Acquisition Associate - Maternity Leave",
-        "company": "Fendi",
-        "score": 71,
-        "site": "linkedin",
-        "date_posted": 1772064000000,
-        "url": "https://www.linkedin.com/jobs/view/4368728526"
-      },
-      {
         "title": "HR Manager (IT - Remote)",
         "company": "ThinkingIT Corp.",
         "score": 70,
@@ -78,20 +70,20 @@
         "url": "https://it.indeed.com/viewjob?jk=33541dcf08b547a8"
       },
       {
+        "title": "Talent Acquisition Associate - Maternity Leave",
+        "company": "Fendi",
+        "score": 69,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4368728526"
+      },
+      {
         "title": "HR Manager",
         "company": "Rome Business School",
         "score": 69,
         "site": "indeed",
         "date_posted": 1771891200000,
         "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
-      },
-      {
-        "title": "Talent Acquisition Manager - Retail GDO",
-        "company": "Hays",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377781666"
       },
       {
         "title": "HR Manager",
@@ -118,12 +110,20 @@
         "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
-        "title": "HR Specialist",
-        "company": "Stargate Security srl",
+        "title": "Talent Acquisition Manager - Retail GDO",
+        "company": "Hays",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377781666"
+      },
+      {
+        "title": "HR Generalist (Categorie Protette L.68/99)",
+        "company": "FILMMASTER",
         "score": 66,
         "site": "indeed",
-        "date_posted": 1773100800000,
-        "url": "https://it.indeed.com/viewjob?jk=a580c2c3686cd978"
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=9bb6d72ced10d28a"
       },
       {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
@@ -150,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
       },
       {
+        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
+        "company": "EmmeBi Group",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382298747"
+      },
+      {
         "title": "Human Resources Business Partner",
         "company": "TIM",
         "score": 62,
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377380577"
-      },
-      {
-        "title": "Hr generalist appartenente alle categorie protette (art. 1 l. 68/99)",
-        "company": "Ferrovie dello Stato Italiane",
-        "score": 62,
-        "site": "indeed",
-        "date_posted": 1773014400000,
-        "url": "https://it.indeed.com/viewjob?jk=57e0925bac068957"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 49,
-        "reason": "Appare 49x in annunci a basso score"
+        "count": 51,
+        "reason": "Appare 51x in annunci a basso score"
       },
       {
         "word": "risorse",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
+      },
+      {
+        "word": "responsabile",
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "time",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
-      },
-      {
-        "word": "sales",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,26 +218,32 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "categorie protette",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 16 annunci ultimo scan vs media 43 (-62%)",
+      "message": "Volume in calo: 18 annunci ultimo scan vs media 40 (-55%)",
       "data": {
-        "current": 16,
-        "avg": 42.7,
-        "change_pct": -62.5
+        "current": 18,
+        "avg": 40.0,
+        "change_pct": -55.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/16 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 9/18 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 8,
-        "total": 16,
+        "new": 9,
+        "total": 18,
         "pct": 50.0
       }
     },
@@ -248,54 +254,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 254,
+            "id": 4,
+            "size": 248,
             "top_terms": [
               "specialist",
-              "hr",
-              "senior"
+              "responsabile",
+              "junior"
             ],
-            "pct": 63.5
+            "pct": 59.3
           },
           {
             "id": 0,
-            "size": 47,
+            "size": 48,
             "top_terms": [
               "addetto",
               "risorse",
               "umane"
             ],
-            "pct": 11.8
+            "pct": 11.5
           },
           {
-            "id": 4,
-            "size": 44,
+            "id": 2,
+            "size": 48,
             "top_terms": [
               "roma",
               "sales",
               "zona"
             ],
-            "pct": 11.0
+            "pct": 11.5
           },
           {
-            "id": 2,
-            "size": 38,
+            "id": 1,
+            "size": 37,
             "top_terms": [
               "manager",
               "project",
               "hr"
             ],
-            "pct": 9.5
+            "pct": 8.9
           },
           {
             "id": 3,
-            "size": 17,
+            "size": 37,
             "top_terms": [
-              "responsabile",
-              "sala",
-              "risorse"
+              "hr",
+              "generalist",
+              "specialist"
             ],
-            "pct": 4.2
+            "pct": 8.9
           }
         ]
       }
