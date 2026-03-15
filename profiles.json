@@ -541,6 +541,50 @@
           {
             "pattern": "organico\\s+filiale",
             "category": "Retail generico"
+          },
+          {
+            "pattern": "sommelier",
+            "category": "Food/Retail"
+          },
+          {
+            "pattern": "\\bsupervisor\\b",
+            "category": "Generico"
+          },
+          {
+            "pattern": "brand\\s+manager",
+            "category": "Marketing"
+          },
+          {
+            "pattern": "customer\\s+success",
+            "category": "Sales"
+          },
+          {
+            "pattern": "product\\s+manager",
+            "category": "Product"
+          },
+          {
+            "pattern": "project\\s+manager",
+            "category": "PM"
+          },
+          {
+            "pattern": "internal\\s+ai\\s+tools",
+            "category": "Tech"
+          },
+          {
+            "pattern": "\\bcook\\b|\\bchef\\b",
+            "category": "Food/Retail"
+          },
+          {
+            "pattern": "sales\\s+(?:manager|director|specialist|executive)",
+            "category": "Sales"
+          },
+          {
+            "pattern": "account\\s+executive",
+            "category": "Sales"
+          },
+          {
+            "pattern": "business\\s+develop",
+            "category": "Sales"
           }
         ],
         "agencies": [
