@@ -1032,7 +1032,7 @@ function jobRow(j){
 return `<tr style="${st==='archived'?'opacity:.45':''}"><td style="font-weight:500">${esc(t)}</td><td>${esc(co)}</td><td><span class="channel-badge ${ch}">${esc(si)}</span></td><td style="font-size:.78rem">${lo?`<a href="https://maps.google.com/?q=${encodeURIComponent(co+' '+lo)}" target="_blank" rel="noopener" style="color:var(--text-dim);text-decoration:none" title="Vedi su Maps">📍 ${esc(lo)}</a>`:''}</td><td style="font-size:.78rem;white-space:nowrap">${ds}</td><td style="text-align:center">${url?`<a href="${url}" target="_blank" rel="noopener" class="link-btn" title="Apri">↗</a>`:'—'}</td><td style="text-align:center">${stBadge}</td></tr>`
 }
 
-function setJobStatus(jid,st){localStorage.setItem('job_status_'+jid,st);renderResults();}
+function setJobStatus(jid,st){localStorage.setItem('job_status_'+jid,st);loadResults();}
 
 function setRunStatus(s,t){$('runStatusBadge').innerHTML=`<span class="run-status ${s}"><span class="dot"></span> ${t}</span>`}
 
