@@ -267,7 +267,9 @@ def main():
         html_body, total_new = build_report_html(pid, profile)
         
         # Attachments
-        attachments = sorted(glob.glob(f"output/{pid}/*.xlsx"), reverse=True)[:1]
+        xlsx_dir = BASE_DIR / "output" / pid
+        attachments = sorted(xlsx_dir.glob("*.xlsx"), reverse=True)[:1]
+        attachments = [str(a) for a in attachments]
         
         subject = f"📋 TA Monitor — {profile.get('name', pid)} — {today}"
         if total_new > 0:
