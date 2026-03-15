@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-15T07:31:55.862904",
+  "generated_at": "2026-03-15T14:43:37.845724",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 421,
+  "total_jobs_analyzed": 427,
   "scoring": {
-    "average": 16.9,
+    "average": 16.8,
     "distribution": {
       "excellent": 0,
       "good": 24,
       "medium": 46,
-      "low": 72,
-      "irrelevant": 279
+      "low": 70,
+      "irrelevant": 287
     },
     "top_jobs": [
       {
         "title": "Talent Acquisition & Employer Branding Specialist",
         "company": "Angelini Pharma",
-        "score": 79,
+        "score": 78,
         "site": "linkedin",
         "date_posted": 1771545600000,
         "url": "https://www.linkedin.com/jobs/view/4375809486"
@@ -24,7 +24,7 @@
       {
         "title": "Talent Acquisition Manager",
         "company": "Jobbit",
-        "score": 76,
+        "score": 75,
         "site": "linkedin",
         "date_posted": 1771545600000,
         "url": "https://www.linkedin.com/jobs/view/4375613154"
@@ -32,7 +32,7 @@
       {
         "title": "Talent Acquisition Specialist",
         "company": "MioDottore",
-        "score": 74,
+        "score": 73,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4374991693"
@@ -54,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4324290308"
       },
       {
+        "title": "Talent Acquisition Associate - Maternity Leave",
+        "company": "Fendi",
+        "score": 71,
+        "site": "linkedin",
+        "date_posted": 1772064000000,
+        "url": "https://www.linkedin.com/jobs/view/4368728526"
+      },
+      {
         "title": "HR Manager (IT - Remote)",
         "company": "ThinkingIT Corp.",
         "score": 70,
@@ -68,14 +76,6 @@
         "site": "indeed",
         "date_posted": 1772150400000,
         "url": "https://it.indeed.com/viewjob?jk=33541dcf08b547a8"
-      },
-      {
-        "title": "Talent Acquisition Associate - Maternity Leave",
-        "company": "Fendi",
-        "score": 69,
-        "site": "linkedin",
-        "date_posted": 1772064000000,
-        "url": "https://www.linkedin.com/jobs/view/4368728526"
       },
       {
         "title": "HR Manager",
@@ -104,18 +104,10 @@
       {
         "title": "Talent Acquisition Manager - Retail GDO",
         "company": "Hays",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377781666"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "AIM S.R.L.",
-        "score": 66,
-        "site": "indeed",
-        "date_posted": 1772323200000,
-        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
@@ -126,20 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4353205273"
       },
       {
-        "title": "HR MANAGER JUNIOR",
-        "company": "Italian Design Institute",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382019981"
-      },
-      {
         "title": "HR Generalist (Categorie Protette L.68/99)",
         "company": "FILMMASTER",
         "score": 66,
         "site": "indeed",
         "date_posted": 1773360000000,
         "url": "https://it.indeed.com/viewjob?jk=9bb6d72ced10d28a"
+      },
+      {
+        "title": "HR Generalist",
+        "company": "AIM S.R.L.",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1772323200000,
+        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
+      },
+      {
+        "title": "HR MANAGER JUNIOR",
+        "company": "Italian Design Institute",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382019981"
       },
       {
         "title": "Talent Acquisition Trainee - Spanish & Italian Market",
@@ -150,12 +150,12 @@
         "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
       },
       {
-        "title": "Human Resources Business Partner",
-        "company": "TIM",
-        "score": 62,
+        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
+        "company": "EmmeBi Group",
+        "score": 63,
         "site": "linkedin",
-        "date_posted": 1772150400000,
-        "url": "https://www.linkedin.com/jobs/view/4369142800"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382298747"
       },
       {
         "title": "Junior Talent Acquisition Sourcer L.68/99",
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 50,
-        "reason": "Appare 50x in annunci a basso score"
+        "count": 51,
+        "reason": "Appare 51x in annunci a basso score"
       },
       {
         "word": "risorse",
@@ -220,12 +220,6 @@
       "confidence": 30
     },
     {
-      "keyword": "hr director",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "categorie protette",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -236,41 +230,30 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 38 (-92%)",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 38 (-76%)",
       "data": {
-        "current": 3,
+        "current": 9,
         "avg": 38.0,
-        "change_pct": -92.1
+        "change_pct": -76.3
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Saturno Consulting HR: 3 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Saturno Consulting HR",
+        "count": 3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 6/9 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 3,
-        "total": 3,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 94% a 67% (-28pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 94.4,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 6% a 33% (+28pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 5.6,
-        "new_pct": 33.3
+        "new": 6,
+        "total": 9,
+        "pct": 66.7
       }
     },
     {
@@ -280,54 +263,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 254,
-            "top_terms": [
-              "hr",
-              "specialist",
-              "responsabile"
-            ],
-            "pct": 60.3
-          },
-          {
-            "id": 2,
-            "size": 66,
+            "id": 0,
+            "size": 263,
             "top_terms": [
               "addetto",
-              "risorse",
-              "umane"
+              "hr",
+              "responsabile"
             ],
-            "pct": 15.7
+            "pct": 61.6
+          },
+          {
+            "id": 1,
+            "size": 46,
+            "top_terms": [
+              "specialist",
+              "senior",
+              "hr"
+            ],
+            "pct": 10.8
           },
           {
             "id": 3,
-            "size": 49,
+            "size": 45,
             "top_terms": [
               "roma",
               "sales",
               "zona"
             ],
-            "pct": 11.6
+            "pct": 10.5
           },
           {
-            "id": 0,
-            "size": 35,
+            "id": 4,
+            "size": 40,
             "top_terms": [
               "manager",
               "project",
               "hr"
             ],
-            "pct": 8.3
+            "pct": 9.4
           },
           {
-            "id": 4,
-            "size": 17,
+            "id": 2,
+            "size": 33,
             "top_terms": [
-              "junior",
-              "amministrazione",
-              "manager"
+              "risorse",
+              "umane",
+              "impiegato"
             ],
-            "pct": 4.0
+            "pct": 7.7
           }
         ]
       }
