@@ -1021,15 +1021,19 @@ async function loadResults(pid){
   }catch(e){console.warn('loadResults:',e)}
 }
 function rResults(jobs){
-  $('runResults').innerHTML=`<h3 style="font-size:.88rem;margin-bottom:10px;color:var(--text-dim)">📋 Posizioni (${jobs.length})</h3><div class="results-wrap"><table class="results-table"><thead><tr><th>Titolo</th><th>Azienda</th><th>Canale</th><th>Luogo</th><th>Data</th><th>🔗</th></tr></thead><tbody>${jobs.map(jobRow).join('')}</tbody></table></div>`
+  $('runResults').innerHTML=`<h3 style="font-size:.88rem;margin-bottom:10px;color:var(--text-dim)">📋 Posizioni (${jobs.length})</h3><div class="results-wrap"><table class="results-table"><thead><tr><th>Titolo</th><th>Azienda</th><th>Canale</th><th>Luogo</th><th>Data</th><th>🔗</th><th>Stato</th></tr></thead><tbody>${jobs.map(jobRow).join('')}</tbody></table></div>`
 }
 function jobRow(j){
   const t=j.title||'',co=j.company||'',si=(j.site||'').toLowerCase(),lo=j.location||j.city||'';
   let url='';for(const k of['job_url','job_url_direct','url','link'])if(j[k]&&typeof j[k]==='string'&&j[k].startsWith('http')){url=j[k];break}
   let ds='';const raw=j.date_posted;if(raw!=null&&raw!==''&&raw!=='None'&&raw!=='NaT'){const n=Number(raw);if(!isNaN(n)&&n>1e9)ds=new Date(n>1e12?n:n*1000).toLocaleDateString('it-IT');else if(typeof raw==='string'&&raw.length>=10)ds=raw.slice(0,10).split('-').reverse().join('/')}
   const ch=si.includes('linkedin')?'linkedin':si.includes('indeed')?'indeed':si.includes('glassdoor')?'glassdoor':si.includes('google')?'google':'';
-  return `<tr><td style="font-weight:500">${esc(t)}</td><td>${esc(co)}</td><td><span class="channel-badge ${ch}">${esc(si)}</span></td><td style="font-size:.78rem">${esc(lo)}</td><td style="font-size:.78rem;white-space:nowrap">${ds}</td><td style="text-align:center">${url?`<a href="${url}" target="_blank" rel="noopener" class="link-btn" title="Apri">↗</a>`:'—'}</td></tr>`
+  const jid=j.id||btoa(esc(t)+esc(co)).slice(0,16);const st=localStorage.getItem('job_status_'+jid);const stBadge=st==='applied'?'<span style="font-size:.7rem;padding:2px 8px;border-radius:10px;background:rgba(39,174,96,.2);color:#27ae60;font-weight:600">✓ Candidato</span>':st==='archived'?'<span style="font-size:.7rem;padding:2px 8px;border-radius:10px;background:rgba(99,110,114,.2);color:#636e72;font-weight:600">✗ Archiviato</span>':'<span style="display:inline-flex;gap:4px"><button onclick="setJobStatus(\''+jid+'\',\'applied\')" style="font-size:.68rem;padding:2px 7px;border-radius:8px;border:1px solid #27ae60;background:transparent;color:#27ae60;cursor:pointer">✓ Candidato</button><button onclick="setJobStatus(\''+jid+'\',\'archived\')" style="font-size:.68rem;padding:2px 7px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text-dim);cursor:pointer">✗ Archivia</button></span>';
+return `<tr style="${st==='archived'?'opacity:.45':''}"><td style="font-weight:500">${esc(t)}</td><td>${esc(co)}</td><td><span class="channel-badge ${ch}">${esc(si)}</span></td><td style="font-size:.78rem">${esc(lo)}</td><td style="font-size:.78rem;white-space:nowrap">${ds}</td><td style="text-align:center">${url?`<a href="${url}" target="_blank" rel="noopener" class="link-btn" title="Apri">↗</a>`:'—'}</td><td style="text-align:center">${stBadge}</td></tr>`
 }
+
+function setJobStatus(jid,st){localStorage.setItem('job_status_'+jid,st);renderResults();}
+
 function setRunStatus(s,t){$('runStatusBadge').innerHTML=`<span class="run-status ${s}"><span class="dot"></span> ${t}</span>`}
 
 // Admin
