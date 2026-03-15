@@ -75,4 +75,4 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           PROFILE: ${{ github.event.inputs.profile || 'all' }}
-        run: python send_reports.py --profile all
+        run: python send_reports.py --profile "$PROFILE"
