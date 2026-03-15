@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-14T07:24:34.859678",
+  "generated_at": "2026-03-15T07:31:56.194317",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 133,
+  "total_jobs_analyzed": 136,
   "scoring": {
-    "average": 31.6,
+    "average": 31.5,
     "distribution": {
       "excellent": 0,
       "good": 5,
-      "medium": 64,
-      "low": 10,
-      "irrelevant": 54
+      "medium": 66,
+      "low": 9,
+      "irrelevant": 56
     },
     "top_jobs": [
       {
@@ -70,17 +70,9 @@
         "url": "https://www.linkedin.com/jobs/view/4371297560"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Intercos Group",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1773187200000,
-        "url": "https://www.linkedin.com/jobs/view/4382883347"
-      },
-      {
         "title": "Central Medical Affairs Coordinator",
         "company": "Nordberg Medical",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1772582400000,
         "url": "https://www.linkedin.com/jobs/view/4380955990"
@@ -100,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381897037"
+      },
+      {
+        "title": "Clinical Research Associate",
+        "company": "OPIS",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1773360000000,
+        "url": "https://www.linkedin.com/jobs/view/4383146011"
       },
       {
         "title": "Medical Science Liaison (Respiratory)",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4385594373"
       },
       {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
+      },
+      {
         "title": "Global Director Medical Affairs",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4384893307"
-      },
-      {
-        "title": "Medical Affairs Lead",
-        "company": "Nucs AI",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=5d57263118b92ebc"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -234,59 +234,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 27 annunci ultimo scan vs media 18 (+53%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 19 (-84%)",
       "data": {
-        "current": 27,
-        "avg": 17.7,
-        "change_pct": 52.8
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Alfasigma group: 6 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Alfasigma group",
-        "count": 6
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Medpace: 5 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Medpace",
-        "count": 5
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Nucs AI: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Nucs AI",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Neopharmed Gentili S.P.A.: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Neopharmed Gentili S.P.A.",
-        "count": 2
+        "current": 3,
+        "avg": 19.0,
+        "change_pct": -84.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 22/27 annunci da aziende nuove (81.5%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 22,
-        "total": 27,
-        "pct": 81.5
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 56% a 0% (-56pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 55.6,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 44% a 100% (+56pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 44.4,
+        "new_pct": 100.0
       }
     },
     {
@@ -296,44 +280,44 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 1,
             "size": 52,
             "top_terms": [
               "specialist",
               "clinical",
-              "junior"
+              "research"
             ],
-            "pct": 39.1
+            "pct": 38.2
           },
           {
-            "id": 2,
-            "size": 29,
+            "id": 4,
+            "size": 30,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 21.8
+            "pct": 22.1
           },
           {
-            "id": 1,
-            "size": 22,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 16.5
-          },
-          {
-            "id": 4,
-            "size": 22,
+            "id": 0,
+            "size": 23,
             "top_terms": [
               "manager",
               "product",
               "operations"
             ],
-            "pct": 16.5
+            "pct": 16.9
+          },
+          {
+            "id": 2,
+            "size": 23,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 16.9
           },
           {
             "id": 3,
@@ -343,7 +327,7 @@
               "fsp",
               "italy"
             ],
-            "pct": 6.0
+            "pct": 5.9
           }
         ]
       }

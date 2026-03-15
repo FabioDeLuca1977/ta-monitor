@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-14T07:24:34.737719",
+  "generated_at": "2026-03-15T07:31:56.070301",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 418,
+  "total_jobs_analyzed": 421,
   "scoring": {
-    "average": 17.0,
+    "average": 16.9,
     "distribution": {
       "excellent": 0,
       "good": 24,
-      "medium": 45,
-      "low": 71,
-      "irrelevant": 278
+      "medium": 46,
+      "low": 72,
+      "irrelevant": 279
     },
     "top_jobs": [
       {
         "title": "Talent Acquisition & Employer Branding Specialist",
         "company": "Angelini Pharma",
-        "score": 78,
+        "score": 79,
         "site": "linkedin",
         "date_posted": 1771545600000,
         "url": "https://www.linkedin.com/jobs/view/4375809486"
@@ -24,7 +24,7 @@
       {
         "title": "Talent Acquisition Manager",
         "company": "Jobbit",
-        "score": 75,
+        "score": 76,
         "site": "linkedin",
         "date_posted": 1771545600000,
         "url": "https://www.linkedin.com/jobs/view/4375613154"
@@ -32,7 +32,7 @@
       {
         "title": "Talent Acquisition Specialist",
         "company": "MioDottore",
-        "score": 73,
+        "score": 74,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4374991693"
@@ -102,6 +102,14 @@
         "url": "https://www.linkedin.com/jobs/view/4372870383"
       },
       {
+        "title": "Talent Acquisition Manager - Retail GDO",
+        "company": "Hays",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377781666"
+      },
+      {
         "title": "HR Generalist",
         "company": "AIM S.R.L.",
         "score": 66,
@@ -110,12 +118,20 @@
         "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
-        "title": "Talent Acquisition Manager - Retail GDO",
-        "company": "Hays",
+        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
+        "company": "DGS",
         "score": 66,
         "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377781666"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4353205273"
+      },
+      {
+        "title": "HR MANAGER JUNIOR",
+        "company": "Italian Design Institute",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382019981"
       },
       {
         "title": "HR Generalist (Categorie Protette L.68/99)",
@@ -126,36 +142,12 @@
         "url": "https://it.indeed.com/viewjob?jk=9bb6d72ced10d28a"
       },
       {
-        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
-        "company": "DGS",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4353205273"
-      },
-      {
-        "title": "HR MANAGER JUNIOR",
-        "company": "Italian Design Institute",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382019981"
-      },
-      {
         "title": "Talent Acquisition Trainee - Spanish & Italian Market",
         "company": "Ecolab",
         "score": 63,
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
-      },
-      {
-        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
-        "company": "EmmeBi Group",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382298747"
       },
       {
         "title": "Human Resources Business Partner",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377380577"
+      },
+      {
+        "title": "Head of Tech Talent & Employer Branding",
+        "company": "Exein",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382877550"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 51,
-        "reason": "Appare 51x in annunci a basso score"
+        "count": 50,
+        "reason": "Appare 50x in annunci a basso score"
       },
       {
         "word": "risorse",
@@ -220,6 +220,12 @@
       "confidence": 30
     },
     {
+      "keyword": "hr director",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "categorie protette",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -230,21 +236,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 18 annunci ultimo scan vs media 40 (-55%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 38 (-92%)",
       "data": {
-        "current": 18,
-        "avg": 40.0,
-        "change_pct": -55.0
+        "current": 3,
+        "avg": 38.0,
+        "change_pct": -92.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/18 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 9,
-        "total": 18,
-        "pct": 50.0
+        "new": 3,
+        "total": 3,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 94% a 67% (-28pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 94.4,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 6% a 33% (+28pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 5.6,
+        "new_pct": 33.3
       }
     },
     {
@@ -254,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 248,
+            "id": 1,
+            "size": 254,
             "top_terms": [
+              "hr",
               "specialist",
-              "responsabile",
-              "junior"
+              "responsabile"
             ],
-            "pct": 59.3
+            "pct": 60.3
           },
           {
-            "id": 0,
-            "size": 48,
+            "id": 2,
+            "size": 66,
             "top_terms": [
               "addetto",
               "risorse",
               "umane"
             ],
-            "pct": 11.5
+            "pct": 15.7
           },
           {
-            "id": 2,
-            "size": 48,
+            "id": 3,
+            "size": 49,
             "top_terms": [
               "roma",
               "sales",
               "zona"
             ],
-            "pct": 11.5
+            "pct": 11.6
           },
           {
-            "id": 1,
-            "size": 37,
+            "id": 0,
+            "size": 35,
             "top_terms": [
               "manager",
               "project",
               "hr"
             ],
-            "pct": 8.9
+            "pct": 8.3
           },
           {
-            "id": 3,
-            "size": 37,
+            "id": 4,
+            "size": 17,
             "top_terms": [
-              "hr",
-              "generalist",
-              "specialist"
+              "junior",
+              "amministrazione",
+              "manager"
             ],
-            "pct": 8.9
+            "pct": 4.0
           }
         ]
       }

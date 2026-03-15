@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-14T07:24:35.130841",
+  "generated_at": "2026-03-15T07:31:56.466291",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 37,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 14.5,
+    "average": 14.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 31
+      "irrelevant": 32
     },
     "top_jobs": [
       {
@@ -55,11 +55,11 @@
       },
       {
         "title": "Quality Assurance Specialist",
-        "company": "PQE Group",
+        "company": "Dentsply Sirona",
         "score": 23,
         "site": "linkedin",
-        "date_posted": 1773187200000,
-        "url": "https://www.linkedin.com/jobs/view/4382585094"
+        "date_posted": 1773360000000,
+        "url": "https://www.linkedin.com/jobs/view/4385508214"
       },
       {
         "title": "Project Manager Documentazione Tecnica - Agriculture field",
@@ -70,20 +70,20 @@
         "url": "https://it.indeed.com/viewjob?jk=e69b05d322e596b7"
       },
       {
+        "title": "Quality Assurance Specialist",
+        "company": "PQE Group",
+        "score": 18,
+        "site": "linkedin",
+        "date_posted": 1773187200000,
+        "url": "https://www.linkedin.com/jobs/view/4382585094"
+      },
+      {
         "title": "Process Validation Specialist",
         "company": "LINCOTEK GROUP",
         "score": 17,
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
-      },
-      {
-        "title": "IT System Administrator Specialist",
-        "company": "VEM Sistemi",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1773187200000,
-        "url": "https://it.indeed.com/viewjob?jk=0efe2da1cc48807d"
       },
       {
         "title": "LIMS/MODA & GMP Documentation Specialist",
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4383744718"
       },
       {
-        "title": "QA Batch record reviewer",
-        "company": "Menarini",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1773187200000,
-        "url": "https://it.indeed.com/viewjob?jk=f3ee7d7addd4498c"
-      },
-      {
         "title": "Serialization Associate",
         "company": "Menarini",
         "score": 12,
@@ -140,6 +132,14 @@
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4355234223"
+      },
+      {
+        "title": "IT System Administrator Specialist",
+        "company": "VEM Sistemi",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=0efe2da1cc48807d"
       },
       {
         "title": "Quality Assurance Specialist - Reggio Emilia -",
@@ -204,22 +204,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Alfasigma group: 3 posizioni, non presente negli scan precedenti",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-84%)",
       "data": {
-        "company": "Alfasigma group",
-        "count": 3
+        "current": 1,
+        "avg": 6.2,
+        "change_pct": -83.8
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
       "data": {
-        "new": 5,
-        "total": 5,
-        "pct": 100.0
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 20% a 100% (+80pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 20.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -229,54 +240,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 17,
+            "id": 2,
+            "size": 18,
             "top_terms": [
+              "qualità",
               "writer",
-              "data",
-              "impiegato"
+              "data"
             ],
-            "pct": 45.9
+            "pct": 47.4
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 8,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 21.6
+            "pct": 21.1
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 3,
+            "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "manager"
             ],
-            "pct": 13.5
+            "pct": 15.8
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "specialist",
               "writer",
               "iso"
             ],
-            "pct": 10.8
+            "pct": 10.5
           },
           {
-            "id": 1,
-            "size": 3,
+            "id": 4,
+            "size": 2,
             "top_terms": [
-              "sistema",
-              "gestione",
-              "qualità"
+              "impiegato",
+              "writer",
+              "iso"
             ],
-            "pct": 8.1
+            "pct": 5.3
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-14T07:24:35.316605",
+  "generated_at": "2026-03-15T07:31:56.646031",
   "profile_id": "selezione-hr-formello",
   "profile_name": "Selezione HR Formello",
-  "total_jobs_analyzed": 418,
+  "total_jobs_analyzed": 421,
   "scoring": {
-    "average": 6.1,
+    "average": 5.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 10,
       "low": 15,
-      "irrelevant": 392
+      "irrelevant": 395
     },
     "top_jobs": [
       {
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4368728526"
       },
       {
-        "title": "Talent Acquisition Manager - Retail GDO",
-        "company": "Hays",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377781666"
-      },
-      {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
         "company": "DGS",
         "score": 46,
@@ -84,6 +76,14 @@
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
+      },
+      {
+        "title": "Talent Acquisition Manager - Retail GDO",
+        "company": "Hays",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377781666"
       },
       {
         "title": "Junior Talent Acquisition Sourcer L.68/99",
@@ -118,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4373910412"
       },
       {
-        "title": "Talent Management Specialist",
-        "company": "Seargin",
-        "score": 34,
-        "site": "indeed",
-        "date_posted": 1773187200000,
-        "url": "https://it.indeed.com/viewjob?jk=c5dc1b040b057ec7"
-      },
-      {
         "title": "Talent and Performance, D&I Manager",
         "company": "Thales",
         "score": 33,
@@ -142,20 +134,28 @@
         "url": "https://it.indeed.com/viewjob?jk=cf06994c867d9dde"
       },
       {
+        "title": "Talent Management Specialist",
+        "company": "Seargin",
+        "score": 29,
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=c5dc1b040b057ec7"
+      },
+      {
+        "title": "HR Stage - Talent Acquisition",
+        "company": "Multiversity Group",
+        "score": 28,
+        "site": "linkedin",
+        "date_posted": 1771977600000,
+        "url": "https://www.linkedin.com/jobs/view/4374896779"
+      },
+      {
         "title": "Junior - Revisore Talent Program - Audit",
         "company": "Deloitte",
         "score": 28,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4382106861"
-      },
-      {
-        "title": "HR Stage - Talent Acquisition",
-        "company": "Multiversity Group",
-        "score": 27,
-        "site": "linkedin",
-        "date_posted": 1771977600000,
-        "url": "https://www.linkedin.com/jobs/view/4374896779"
       },
       {
         "title": "Talent Strategy Consultant",
@@ -195,17 +195,17 @@
         "reason": "Appare 53x in annunci a basso score"
       },
       {
+        "word": "manager",
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
+      },
+      {
         "word": "risorse",
         "count": 33,
         "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
-      },
-      {
-        "word": "manager",
         "count": 33,
         "reason": "Appare 33x in annunci a basso score"
       }
@@ -224,21 +224,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 18 annunci ultimo scan vs media 40 (-55%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 38 (-92%)",
       "data": {
-        "current": 18,
-        "avg": 40.0,
-        "change_pct": -55.0
+        "current": 3,
+        "avg": 38.0,
+        "change_pct": -92.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/18 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 9,
-        "total": 18,
-        "pct": 50.0
+        "new": 3,
+        "total": 3,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 94% a 67% (-28pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 94.4,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 6% a 33% (+28pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 5.6,
+        "new_pct": 33.3
       }
     },
     {
@@ -248,54 +268,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 248,
+            "id": 1,
+            "size": 254,
             "top_terms": [
+              "hr",
               "specialist",
-              "responsabile",
-              "junior"
+              "responsabile"
             ],
-            "pct": 59.3
+            "pct": 60.3
           },
           {
-            "id": 0,
-            "size": 48,
+            "id": 2,
+            "size": 66,
             "top_terms": [
               "addetto",
               "risorse",
               "umane"
             ],
-            "pct": 11.5
+            "pct": 15.7
           },
           {
-            "id": 2,
-            "size": 48,
+            "id": 3,
+            "size": 49,
             "top_terms": [
               "roma",
               "sales",
               "zona"
             ],
-            "pct": 11.5
+            "pct": 11.6
           },
           {
-            "id": 1,
-            "size": 37,
+            "id": 0,
+            "size": 35,
             "top_terms": [
               "manager",
               "project",
               "hr"
             ],
-            "pct": 8.9
+            "pct": 8.3
           },
           {
-            "id": 3,
-            "size": 37,
+            "id": 4,
+            "size": 17,
             "top_terms": [
-              "hr",
-              "generalist",
-              "specialist"
+              "junior",
+              "amministrazione",
+              "manager"
             ],
-            "pct": 8.9
+            "pct": 4.0
           }
         ]
       }
