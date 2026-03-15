@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-15T14:43:37.845724",
+  "generated_at": "2026-03-15T14:55:40.476885",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 427,
+  "total_jobs_analyzed": 426,
   "scoring": {
-    "average": 16.8,
+    "average": 16.3,
     "distribution": {
       "excellent": 0,
       "good": 24,
       "medium": 46,
-      "low": 70,
-      "irrelevant": 287
+      "low": 67,
+      "irrelevant": 289
     },
     "top_jobs": [
       {
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4377781666"
       },
       {
-        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
-        "company": "DGS",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4353205273"
-      },
-      {
         "title": "HR Generalist (Categorie Protette L.68/99)",
         "company": "FILMMASTER",
         "score": 66,
@@ -134,6 +126,14 @@
         "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
+        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
+        "company": "DGS",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4353205273"
+      },
+      {
         "title": "HR MANAGER JUNIOR",
         "company": "Italian Design Institute",
         "score": 65,
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382019981"
       },
       {
+        "title": "Human Resources Business Partner",
+        "company": "TIM",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1772150400000,
+        "url": "https://www.linkedin.com/jobs/view/4369142800"
+      },
+      {
         "title": "Talent Acquisition Trainee - Spanish & Italian Market",
         "company": "Ecolab",
         "score": 63,
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
-      },
-      {
-        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
-        "company": "EmmeBi Group",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382298747"
       },
       {
         "title": "Junior Talent Acquisition Sourcer L.68/99",
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 51,
-        "reason": "Appare 51x in annunci a basso score"
+        "count": 52,
+        "reason": "Appare 52x in annunci a basso score"
       },
       {
         "word": "risorse",
@@ -230,11 +230,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 38 (-76%)",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 38 (-79%)",
       "data": {
-        "current": 9,
+        "current": 8,
         "avg": 38.0,
-        "change_pct": -76.3
+        "change_pct": -78.9
       }
     },
     {
@@ -249,11 +249,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/9 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 6/8 annunci da aziende nuove (75.0%)",
       "data": {
         "new": 6,
-        "total": 9,
-        "pct": 66.7
+        "total": 8,
+        "pct": 75.0
       }
     },
     {
@@ -263,47 +263,47 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 263,
+            "id": 4,
+            "size": 284,
             "top_terms": [
               "addetto",
               "hr",
               "responsabile"
             ],
-            "pct": 61.6
-          },
-          {
-            "id": 1,
-            "size": 46,
-            "top_terms": [
-              "specialist",
-              "senior",
-              "hr"
-            ],
-            "pct": 10.8
+            "pct": 66.7
           },
           {
             "id": 3,
-            "size": 45,
-            "top_terms": [
-              "roma",
-              "sales",
-              "zona"
-            ],
-            "pct": 10.5
-          },
-          {
-            "id": 4,
-            "size": 40,
+            "size": 39,
             "top_terms": [
               "manager",
               "project",
               "hr"
             ],
-            "pct": 9.4
+            "pct": 9.2
+          },
+          {
+            "id": 1,
+            "size": 35,
+            "top_terms": [
+              "roma",
+              "sales",
+              "zona"
+            ],
+            "pct": 8.2
           },
           {
             "id": 2,
+            "size": 35,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "talent"
+            ],
+            "pct": 8.2
+          },
+          {
+            "id": 0,
             "size": 33,
             "top_terms": [
               "risorse",
