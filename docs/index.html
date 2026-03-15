@@ -495,14 +495,13 @@ async function callGeminiWizard(text){
   const prompt=`Sei un esperto di recruiting e ricerca lavoro in Italia. L'utente vuole monitorare annunci di lavoro e ti descrive cosa cerca.
 
 Analizza questa richiesta e genera:
-1. "keywords": lista di 15-25 titoli di lavoro da cercare su LinkedIn/Indeed (in italiano E inglese). Includi varianti, abbreviazioni, sinonimi.
-2. "patterns": lista di 20-30 regex pattern per filtrare annunci rilevanti. Usa regex semplici con \\s+ per spazi, .* per wildcard, (?:a|b) per alternative. Ogni pattern ha "pattern" e "category".
-3. "broad": lista di 20-30 parole chiave generiche del settore che aumentano la rilevanza.
-4. "blacklist": lista di 30-40 pattern per ESCLUDERE lavori NON pertinenti. Pensa a tutti i settori che NON c'entrano (IT, food, retail, operations, ecc). Ogni item ha "pattern" e "category".
-
+1. "keywords": lista di 15-25 titoli di lavoro ESATTI da cercare su LinkedIn/Indeed (in italiano E inglese). Includi varianti, abbreviazioni, sinonimi. Devono essere titoli precisi, non parole singole generiche.
+2. "patterns": lista di 20-30 regex pattern per filtrare annunci rilevanti sul TITOLO dell'annuncio. Usa regex semplici con \\s+ per spazi, .* per wildcard, (?:a|b) per alternative. Ogni pattern ha "pattern" e "category". I pattern devono essere SPECIFICI al ruolo cercato, non generici.
+3. "broad": lista di 15-20 frasi di ALMENO 2 PAROLE che identificano il ruolo cercato. VIETATO inserire parole singole generiche come "talent", "selezione", "recruiting", "staff", "personale" da sole - causano falsi positivi. Usa solo frasi composte come "talent acquisition", "hr manager", "ricerca e selezione".
+4. "blacklist": lista di 30-40 pattern per ESCLUDERE lavori NON pertinenti dal titolo. Pensa a tutti i settori che NON c'entrano (IT, food, retail, operations, marketing, finance, ecc). Ogni item ha "pattern" e "category". Sii aggressivo: meglio escludere troppo che poco.
+REGOLA CRITICA: il filtro lavora SOLO sul titolo dell'annuncio, non sulla descrizione. Quindi i pattern devono essere precisi e specifici per titoli di lavoro.
 Rispondi SOLO con JSON valido, nessun altro testo. Formato:
 {"keywords":["..."],"patterns":[{"pattern":"...","category":"..."}],"broad":["..."],"blacklist":[{"pattern":"...","category":"..."}]}
-
 Richiesta utente: "${text}"`;
 
   const resp=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_KEY}`,{
