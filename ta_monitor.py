@@ -240,19 +240,6 @@ def is_relevant_job(title, description=""):
         if kw.lower() in title_lower:
             return True
 
-    # Fallback: analisi descrizione
-    if description:
-        desc_lower = str(description).lower()
-        hr_signals = [
-            "talent acquisition", "recruiting", "selezione del personale",
-            "ricerca e selezione", "hr business partner", "somministrazione",
-            "agenzia per il lavoro", "staffing",
-        ]
-        title_has_hr = any(w in title_lower for w in ["hr", "human", "risorse", "personale", "staff"])
-        desc_has_signal = sum(1 for s in hr_signals if s in desc_lower)
-        if title_has_hr and desc_has_signal >= 2:
-            return True
-
     return False
 
 
