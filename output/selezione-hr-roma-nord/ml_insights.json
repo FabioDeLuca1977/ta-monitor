@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-15T07:31:56.070301",
+  "generated_at": "2026-03-16T07:53:47.975524",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 421,
+  "total_jobs_analyzed": 419,
   "scoring": {
-    "average": 16.9,
+    "average": 16.8,
     "distribution": {
       "excellent": 0,
       "good": 24,
       "medium": 46,
-      "low": 72,
+      "low": 70,
       "irrelevant": 279
     },
     "top_jobs": [
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4377781666"
       },
       {
-        "title": "HR Generalist",
-        "company": "AIM S.R.L.",
-        "score": 66,
-        "site": "indeed",
-        "date_posted": 1772323200000,
-        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
-      },
-      {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
         "company": "DGS",
         "score": 66,
@@ -140,6 +132,14 @@
         "site": "indeed",
         "date_posted": 1773360000000,
         "url": "https://it.indeed.com/viewjob?jk=9bb6d72ced10d28a"
+      },
+      {
+        "title": "HR Generalist",
+        "company": "AIM S.R.L.",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1772323200000,
+        "url": "https://it.indeed.com/viewjob?jk=921304bb759cc282"
       },
       {
         "title": "Talent Acquisition Trainee - Spanish & Italian Market",
@@ -220,12 +220,6 @@
       "confidence": 30
     },
     {
-      "keyword": "hr director",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "categorie protette",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -236,41 +230,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 38 (-92%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 38 (-97%)",
       "data": {
-        "current": 3,
+        "current": 1,
         "avg": 38.0,
-        "change_pct": -92.1
+        "change_pct": -97.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 94% a 67% (-28pp)",
+      "message": "📡 indeed: quota passata da 94% a 0% (-94pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 94.4,
-        "new_pct": 66.7
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 6% a 33% (+28pp)",
+      "message": "📡 linkedin: quota passata da 6% a 100% (+94pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 5.6,
-        "new_pct": 33.3
+        "new_pct": 100.0
       }
     },
     {
@@ -280,54 +274,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 0,
             "size": 254,
             "top_terms": [
-              "hr",
+              "manager",
               "specialist",
-              "responsabile"
+              "talent"
             ],
-            "pct": 60.3
+            "pct": 60.6
           },
           {
             "id": 2,
-            "size": 66,
+            "size": 65,
             "top_terms": [
               "addetto",
               "risorse",
               "umane"
             ],
-            "pct": 15.7
+            "pct": 15.5
+          },
+          {
+            "id": 1,
+            "size": 44,
+            "top_terms": [
+              "roma",
+              "zona",
+              "chef"
+            ],
+            "pct": 10.5
           },
           {
             "id": 3,
-            "size": 49,
+            "size": 39,
             "top_terms": [
-              "roma",
-              "sales",
-              "zona"
+              "hr",
+              "generalist",
+              "specialist"
             ],
-            "pct": 11.6
-          },
-          {
-            "id": 0,
-            "size": 35,
-            "top_terms": [
-              "manager",
-              "project",
-              "hr"
-            ],
-            "pct": 8.3
+            "pct": 9.3
           },
           {
             "id": 4,
             "size": 17,
             "top_terms": [
-              "junior",
-              "amministrazione",
-              "manager"
+              "sales",
+              "assistant",
+              "roma"
             ],
-            "pct": 4.0
+            "pct": 4.1
           }
         ]
       }

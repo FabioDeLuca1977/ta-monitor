@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-15T15:16:57.541777",
+  "generated_at": "2026-03-16T07:53:47.764902",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
   "total_jobs_analyzed": 419,
   "scoring": {
-    "average": 15.8,
+    "average": 15.6,
     "distribution": {
       "excellent": 0,
       "good": 21,
       "medium": 41,
-      "low": 70,
-      "irrelevant": 287
+      "low": 69,
+      "irrelevant": 288
     },
     "top_jobs": [
       {
@@ -244,21 +244,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 6% a 100% (+94pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 5.6,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 94% a 0% (-94pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 94.4,
         "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 6% a 100% (+94pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 5.6,
+        "new_pct": 100.0
       }
     },
     {

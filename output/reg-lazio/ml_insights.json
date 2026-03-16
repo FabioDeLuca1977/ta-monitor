@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-15T07:31:56.528303",
+  "generated_at": "2026-03-16T07:53:48.438278",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 85,
+  "total_jobs_analyzed": 89,
   "scoring": {
-    "average": 15.0,
+    "average": 14.7,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 10,
       "low": 4,
-      "irrelevant": 67
+      "irrelevant": 71
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs manager & Affiliate Quality - Maternity Cover",
         "company": "Zoetis",
-        "score": 64,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380677625"
@@ -24,7 +24,7 @@
       {
         "title": "Senior Manager Regulatory Affairs",
         "company": "OMISAN Schalcon",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380259432"
@@ -32,7 +32,7 @@
       {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
         "company": "APIS Srl Agenzia per il Lavoro",
-        "score": 61,
+        "score": 62,
         "site": "indeed",
         "date_posted": 1773360000000,
         "url": "https://it.indeed.com/viewjob?jk=cb25b64b337026d5"
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4381179443"
@@ -70,17 +70,9 @@
         "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
-        "title": "Regulatory Compliance– REACH & SCIP",
-        "company": "ADENTIS Italia",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384251524"
-      },
-      {
         "title": "Regulatory Affairs Specialist I",
         "company": "Thermo Fisher Scientific",
-        "score": 54,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1773014400000,
         "url": "https://it.indeed.com/viewjob?jk=888f0a020fc5d5a4"
@@ -88,10 +80,18 @@
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383714021"
+      },
+      {
+        "title": "Regulatory Compliance– REACH & SCIP",
+        "company": "ADENTIS Italia",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384251524"
       },
       {
         "title": "Global International Registrations and Regulatory Compliance",
@@ -112,7 +112,7 @@
       {
         "title": "Regulatory Compliance Supervisor - Fix Term Contract",
         "company": "Haleon",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4373363531"
@@ -128,7 +128,7 @@
       {
         "title": "Sr Associate, Quality Assurance",
         "company": "Alfasigma group",
-        "score": 39,
+        "score": 34,
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=6aa19e9d499d6b03"
@@ -136,7 +136,7 @@
       {
         "title": "cerca una balia a Sabaudia",
         "company": "toptata",
-        "score": 28,
+        "score": 29,
         "site": "indeed",
         "date_posted": 1773187200000,
         "url": "https://it.indeed.com/viewjob?jk=66e5cc923558e811"
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=2f479c4c4ad2e6f6"
       },
       {
-        "title": "Marketing Operations Manager",
-        "company": "PHOTOROOM",
+        "title": "Restaurant Manager – Steakhouse internazionale Roma - no spezzato",
+        "company": "Ornelli Black Angus",
         "score": 17,
         "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=dc1b1f854fb6458d"
+        "date_posted": 1773446400000,
+        "url": "https://it.indeed.com/viewjob?jk=9a5b10ea8b05e6ce"
       },
       {
-        "title": "Fishery Resources Specialist",
-        "company": "Food and Agriculture Organization of the United Nations",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=f6153a3a72aed438"
+        "title": "Quality Assurance Associate",
+        "company": "Johnson & Johnson Innovative Medicine",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4383770996"
       }
     ]
   },
@@ -211,41 +211,30 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 12 (-83%)",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 11 (-62%)",
       "data": {
-        "current": 2,
-        "avg": 11.9,
-        "change_pct": -83.1
+        "current": 4,
+        "avg": 10.6,
+        "change_pct": -62.4
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 10x Team: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "10x Team",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 82% a 100% (+18pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 81.8,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 18% a 0% (-18pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 18.2,
-        "new_pct": 0.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
@@ -255,34 +244,24 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 43,
-            "top_terms": [
-              "addetto",
-              "manager",
-              "auditor"
-            ],
-            "pct": 50.6
-          },
-          {
             "id": 1,
-            "size": 14,
+            "size": 53,
             "top_terms": [
-              "specialist",
+              "manager",
               "gcap",
               "programma"
             ],
-            "pct": 16.5
+            "pct": 59.6
           },
           {
-            "id": 3,
-            "size": 13,
+            "id": 2,
+            "size": 12,
             "top_terms": [
+              "specialist",
               "regulatory",
-              "affairs",
-              "compliance"
+              "affairs"
             ],
-            "pct": 15.3
+            "pct": 13.5
           },
           {
             "id": 0,
@@ -292,17 +271,27 @@
               "quality",
               "associate"
             ],
-            "pct": 12.9
+            "pct": 12.4
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 4,
+            "size": 10,
             "top_terms": [
-              "term",
-              "fix",
-              "contract"
+              "regulatory",
+              "affairs",
+              "compliance"
             ],
-            "pct": 4.7
+            "pct": 11.2
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "fix",
+              "contract",
+              "term"
+            ],
+            "pct": 3.4
           }
         ]
       }
