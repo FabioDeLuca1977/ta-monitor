@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-16T07:53:48.131550",
+  "generated_at": "2026-03-17T07:40:49.684255",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 22,
+  "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 22.3,
+    "average": 23.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 8,
+      "medium": 9,
       "low": 1,
       "irrelevant": 13
     },
@@ -16,10 +16,18 @@
       {
         "title": "Medical Director, Global Evidence Generation Lead",
         "company": "Alfasigma",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381888577"
+      },
+      {
+        "title": "Medical Science Liaison Dermatology - Emilia Romagna, Triveneto, Marche",
+        "company": "AbbVie",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1773619200000,
+        "url": "https://it.indeed.com/viewjob?jk=8aaa52dfda37f98b"
       },
       {
         "title": "Regulatory Affairs & Quality Assurance Specialist",
@@ -46,6 +54,14 @@
         "url": "https://it.indeed.com/viewjob?jk=9afdaa04d6b4c602"
       },
       {
+        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
+        "company": "myGwork - LGBTQ+ Business Community",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4382092606"
+      },
+      {
         "title": "Regulatory Affairs Specialist - REACH e CLP",
         "company": "Lavoropiù SpA",
         "score": 47,
@@ -55,11 +71,11 @@
       },
       {
         "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
-        "company": "myGwork - LGBTQ+ Business Community",
-        "score": 46,
+        "company": "Boston Scientific",
+        "score": 42,
         "site": "linkedin",
-        "date_posted": 1773100800000,
-        "url": "https://www.linkedin.com/jobs/view/4382092606"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383323495"
       },
       {
         "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
@@ -68,14 +84,6 @@
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4376672103"
-      },
-      {
-        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
-        "company": "Boston Scientific",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4383323495"
       },
       {
         "title": "Regulatory Affair Coordinator",
@@ -92,14 +100,6 @@
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
-      },
-      {
-        "title": "Principal Manufacturing Engineer",
-        "company": "Transmedics",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=0a9a3b0d5ffe610f"
       },
       {
         "title": "Manager, Customer Engagement and Customer Experience",
@@ -144,10 +144,18 @@
       {
         "title": "EDUCATORE /EDUCATRICE | CRA VILLA MINOZZO",
         "company": "COOPSELIOS",
-        "score": 6,
+        "score": 5,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383316808"
+      },
+      {
+        "title": "Principal Manufacturing Engineer",
+        "company": "Transmedics",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=0a9a3b0d5ffe610f"
       },
       {
         "title": "Senior Process Development Engineer",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1772409600000,
         "url": "https://it.indeed.com/viewjob?jk=066b4c3e783b6448"
-      },
-      {
-        "title": "Operatore Contact Center a Reggio Emilia",
-        "company": "ItaliAssistenza",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=496baadbd97bf777"
       }
     ]
   },
@@ -194,52 +194,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+76%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
       "data": {
-        "current": 5,
-        "avg": 2.8,
-        "change_pct": 76.5
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Alfasigma group: 4 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Alfasigma group",
-        "count": 4
+        "current": 1,
+        "avg": 3.1,
+        "change_pct": -68.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
@@ -249,34 +220,24 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "cra",
-              "marketing"
-            ],
-            "pct": 50.0
-          },
-          {
             "id": 1,
-            "size": 4,
+            "size": 13,
             "top_terms": [
               "engineer",
-              "principal",
-              "process"
+              "cra",
+              "emilia"
             ],
-            "pct": 18.2
+            "pct": 56.5
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 0,
+            "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 18.2
+            "pct": 21.7
           },
           {
             "id": 2,
@@ -286,7 +247,17 @@
               "field",
               "clinical"
             ],
-            "pct": 13.6
+            "pct": 13.0
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "manager",
+              "specialist",
+              "generation"
+            ],
+            "pct": 8.7
           }
         ]
       }

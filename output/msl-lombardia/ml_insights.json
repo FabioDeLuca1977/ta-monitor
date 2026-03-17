@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-03-16T07:53:48.099573",
+  "generated_at": "2026-03-17T07:40:49.653583",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 137,
+  "total_jobs_analyzed": 149,
   "scoring": {
-    "average": 31.4,
+    "average": 30.3,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 67,
-      "low": 7,
-      "irrelevant": 58
+      "good": 4,
+      "medium": 70,
+      "low": 10,
+      "irrelevant": 65
     },
     "top_jobs": [
-      {
-        "title": "Medical Science Liaison, Oncology, Italy, Israel, Turkey & Greece",
-        "company": "IQVIA",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=3dafa39e805100c7"
-      },
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
@@ -62,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4379665201"
       },
       {
+        "title": "Medical Science Liaison, Oncology, Italy, Israel, Turkey & Greece",
+        "company": "IQVIA",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=3dafa39e805100c7"
+      },
+      {
         "title": "Medical Advisor Junior",
         "company": "Neopharmed Gentili S.P.A.",
         "score": 59,
@@ -92,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381897037"
-      },
-      {
-        "title": "Clinical Research Associate",
-        "company": "OPIS",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4383146011"
       },
       {
         "title": "Clinical Research Associate",
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4385594373"
       },
       {
-        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
-        "company": "Parexel",
+        "title": "Medical Affairs Associate",
+        "company": "Fondazione Telethon",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386347390"
+      },
+      {
+        "title": "Global Director Medical Affairs",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382428748"
+        "url": "https://www.linkedin.com/jobs/view/4384893307"
       }
     ]
   },
@@ -180,11 +180,16 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 21,
-        "reason": "Appare 21x in annunci a basso score"
+        "count": 23,
+        "reason": "Appare 23x in annunci a basso score"
       },
       {
         "word": "specialist",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "fsp",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
@@ -195,11 +200,6 @@
       },
       {
         "word": "clinical",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "fsp",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       }
@@ -234,13 +234,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 17 (-94%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 7/12 annunci da aziende nuove (58.3%)",
       "data": {
-        "current": 1,
-        "avg": 17.0,
-        "change_pct": -94.1
+        "new": 7,
+        "total": 12,
+        "pct": 58.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 42% (-58pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 41.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 58% (+58pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 58.3
       }
     },
     {
@@ -250,54 +270,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 60,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "cra"
-            ],
-            "pct": 43.8
-          },
-          {
             "id": 4,
-            "size": 24,
+            "size": 69,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 17.5
+            "pct": 46.3
+          },
+          {
+            "id": 2,
+            "size": 26,
+            "top_terms": [
+              "manager",
+              "product",
+              "project"
+            ],
+            "pct": 17.4
           },
           {
             "id": 0,
-            "size": 23,
+            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 16.8
-          },
-          {
-            "id": 2,
-            "size": 22,
-            "top_terms": [
-              "manager",
-              "product",
-              "operations"
-            ],
             "pct": 16.1
           },
           {
             "id": 1,
-            "size": 8,
+            "size": 18,
             "top_terms": [
-              "lead",
-              "medical",
-              "director"
+              "specialist",
+              "junior",
+              "marketing"
             ],
-            "pct": 5.8
+            "pct": 12.1
+          },
+          {
+            "id": 3,
+            "size": 12,
+            "top_terms": [
+              "clinical",
+              "research",
+              "associate"
+            ],
+            "pct": 8.1
           }
         ]
       }

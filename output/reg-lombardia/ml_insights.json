@@ -1,33 +1,41 @@
 {
-  "generated_at": "2026-03-16T07:53:48.333113",
+  "generated_at": "2026-03-17T07:40:49.881783",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 219,
+  "total_jobs_analyzed": 238,
   "scoring": {
-    "average": 15.9,
+    "average": 15.4,
     "distribution": {
       "excellent": 0,
-      "good": 14,
+      "good": 15,
       "medium": 24,
-      "low": 5,
-      "irrelevant": 176
+      "low": 7,
+      "irrelevant": 192
     },
     "top_jobs": [
       {
+        "title": "Regulatory Affairs Specialist - Medical Device",
+        "company": "Professional Recruitment",
+        "score": 69,
+        "site": "linkedin",
+        "date_posted": 1772582400000,
+        "url": "https://www.linkedin.com/jobs/view/4379665201"
+      },
+      {
         "title": "Regulatory Affairs Manager",
         "company": "AEB Group",
-        "score": 74,
+        "score": 69,
         "site": "linkedin",
         "date_posted": 1773360000000,
         "url": "https://www.linkedin.com/jobs/view/4383099997"
       },
       {
-        "title": "Regulatory Affairs Specialist - Medical Device",
-        "company": "Professional Recruitment",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1772582400000,
-        "url": "https://www.linkedin.com/jobs/view/4379665201"
+        "title": "Regulatory Affairs Specialist",
+        "company": "Genelife S.r.l.",
+        "score": 66,
+        "site": "indeed",
+        "date_posted": 1773619200000,
+        "url": "https://it.indeed.com/viewjob?jk=c9a7396fd352fee2"
       },
       {
         "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
@@ -86,6 +94,22 @@
         "url": "https://www.linkedin.com/jobs/view/4382289966"
       },
       {
+        "title": "REGULATORY AFFAIRS INTERN",
+        "company": "Intercos Group",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4380429928"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "INTERCOS SPA",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=2c9531a5a0e39677"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "Element Solutions Inc",
         "score": 60,
@@ -100,22 +124,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4373812387"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "INTERCOS SPA",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1773187200000,
-        "url": "https://it.indeed.com/viewjob?jk=2c9531a5a0e39677"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "SOL SpA",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=b3f1380b07816be4"
       },
       {
         "title": "Insurance Regulatory Specialist",
@@ -142,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4362746384"
       },
       {
-        "title": "Regulatory Affairs Specialist | Multinazionale Farmaceutica | Pharma & Life Sciences",
-        "company": "RADAR - Academy & Recruiting",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385333321"
+        "title": "Regulatory Affairs Specialist",
+        "company": "SOL SpA",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1773273600000,
+        "url": "https://it.indeed.com/viewjob?jk=b3f1380b07816be4"
       },
       {
         "title": "Director, Market activation and Regulatory Affairs",
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4383721247"
       },
       {
-        "title": "REGULATORY AFFAIRS INTERN",
-        "company": "Intercos Group",
-        "score": 56,
+        "title": "Regulatory Affairs Specialist | Multinazionale Farmaceutica | Pharma & Life Sciences",
+        "company": "RADAR - Academy & Recruiting",
+        "score": 57,
         "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4380429928"
-      },
-      {
-        "title": "Regulatory Affairs Associate",
-        "company": "Gi Group",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1772841600000,
-        "url": "https://www.linkedin.com/jobs/view/4381068089"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4385333321"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 29,
+        "reason": "Appare 29x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -200,8 +200,8 @@
       },
       {
         "word": "project",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       }
     ],
     "review": []
@@ -240,43 +240,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 27 (-93%)",
-      "data": {
-        "current": 2,
-        "avg": 27.1,
-        "change_pct": -92.6
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 8/19 annunci da aziende nuove (42.1%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 8,
+        "total": 19,
+        "pct": 42.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 0% (-60pp)",
+      "message": "📡 indeed: quota passata da 0% a 84% (+84pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 84.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 100% (+60pp)",
+      "message": "📡 linkedin: quota passata da 100% a 16% (-84pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 15.8
       }
     },
     {
@@ -286,54 +276,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 125,
+            "id": 0,
+            "size": 133,
             "top_terms": [
+              "farmacista",
               "italy",
-              "specialist",
-              "engineer"
-            ],
-            "pct": 57.1
-          },
-          {
-            "id": 1,
-            "size": 32,
-            "top_terms": [
-              "regulatory",
-              "affairs",
               "specialist"
             ],
-            "pct": 14.6
+            "pct": 55.9
           },
           {
             "id": 3,
-            "size": 30,
+            "size": 40,
             "top_terms": [
               "manager",
               "senior",
               "product"
             ],
-            "pct": 13.7
+            "pct": 16.8
+          },
+          {
+            "id": 1,
+            "size": 29,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 12.2
+          },
+          {
+            "id": 4,
+            "size": 24,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 10.1
           },
           {
             "id": 2,
-            "size": 23,
+            "size": 12,
             "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
+              "associate",
+              "affairs",
+              "regulatory"
             ],
-            "pct": 10.5
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "farmacista",
-              "roma",
-              "ctf"
-            ],
-            "pct": 4.1
+            "pct": 5.0
           }
         ]
       }

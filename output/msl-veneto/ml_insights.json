@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-16T07:53:48.008612",
+  "generated_at": "2026-03-17T07:40:49.561391",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 32,
   "scoring": {
-    "average": 29.4,
+    "average": 28.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 16,
-      "low": 2,
-      "irrelevant": 9
+      "medium": 17,
+      "low": 3,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4374112742"
+      },
+      {
+        "title": "Informatore scientifico, VENETO",
+        "company": "Aliveda",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1773273600000,
+        "url": "https://www.linkedin.com/jobs/view/4382766288"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -38,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4382766288"
       },
       {
-        "title": "Informatore scientifico, VENETO",
-        "company": "Aliveda",
+        "title": "Sr Clinical Research Associate",
+        "company": "Alira Health",
         "score": 47,
         "site": "linkedin",
-        "date_posted": 1773273600000,
-        "url": "https://www.linkedin.com/jobs/view/4382766288"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386529087"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -142,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4356098675"
       },
       {
+        "title": "Informatore Medico Scientifico (Venezia e Treviso)",
+        "company": "CSO Pharmitalia Contract Sales Organization SpA",
+        "score": 38,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384057507"
+      },
+      {
         "title": "Temporary Clinical Monitor",
         "company": "Jobbit",
         "score": 37,
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1773187200000,
         "url": "https://it.indeed.com/viewjob?jk=3345662fcd4d1a58"
-      },
-      {
-        "title": "HEALTH TECHNICIAN (WELLNESS)",
-        "company": "US Military Treatment Facilities under DHA",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=8e7b20b904f3871d"
-      },
-      {
-        "title": "IT SPECIALIST (SYSTEMS ADMINISTRATION)",
-        "company": "US Military Treatment Facilities under DHA",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1773100800000,
-        "url": "https://it.indeed.com/viewjob?jk=ab4836bfe03f6c2b"
       }
     ]
   },
@@ -185,31 +185,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 4,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "new": 5,
+        "total": 5,
+        "pct": 100.0
       }
     },
     {
@@ -220,53 +200,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 11,
+            "size": 15,
             "top_terms": [
-              "nf",
               "isf",
-              "verona"
+              "specialist",
+              "infermiere"
             ],
-            "pct": 40.7
+            "pct": 46.9
           },
           {
             "id": 2,
-            "size": 7,
+            "size": 8,
             "top_terms": [
               "scientifico",
               "informatore",
               "veneto"
             ],
-            "pct": 25.9
+            "pct": 25.0
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 4,
             "top_terms": [
               "clinical",
               "specialist",
               "verona"
             ],
-            "pct": 14.8
+            "pct": 12.5
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 3,
             "top_terms": [
               "verona",
               "padova",
               "scientifico"
             ],
-            "pct": 11.1
+            "pct": 9.4
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 2,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "nf",
+              "verona",
+              "informatore"
             ],
-            "pct": 7.4
+            "pct": 6.2
           }
         ]
       }
