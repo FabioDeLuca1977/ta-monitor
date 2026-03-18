@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-17T07:40:49.653583",
+  "generated_at": "2026-03-18T07:37:23.032437",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 149,
+  "total_jobs_analyzed": 159,
   "scoring": {
-    "average": 30.3,
+    "average": 29.8,
     "distribution": {
       "excellent": 0,
       "good": 4,
-      "medium": 70,
-      "low": 10,
-      "irrelevant": 65
+      "medium": 72,
+      "low": 13,
+      "irrelevant": 70
     },
     "top_jobs": [
       {
@@ -94,12 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4381897037"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "Medpace",
+        "title": "Stage Junior Medical Advisor Neurology",
+        "company": "Jobbit",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1773446400000,
-        "url": "https://www.linkedin.com/jobs/view/4332274670"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384739502"
       },
       {
         "title": "Medical Science Liaison (Respiratory)",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 23,
-        "reason": "Appare 23x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "fsp",
@@ -230,37 +230,33 @@
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "junior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 10 annunci ultimo scan vs media 15 (-33%)",
+      "data": {
+        "current": 10,
+        "avg": 14.9,
+        "change_pct": -32.9
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/12 annunci da aziende nuove (58.3%)",
+      "message": "📊 Ultimo scan: 3/10 annunci da aziende nuove (30.0%)",
       "data": {
-        "new": 7,
-        "total": 12,
-        "pct": 58.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 42% (-58pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 41.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 58% (+58pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 58.3
+        "new": 3,
+        "total": 10,
+        "pct": 30.0
       }
     },
     {
@@ -270,54 +266,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 69,
+            "id": 0,
+            "size": 46,
+            "top_terms": [
+              "cra",
+              "pharmacovigilance",
+              "senior"
+            ],
+            "pct": 28.9
+          },
+          {
+            "id": 3,
+            "size": 34,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 21.4
+          },
+          {
+            "id": 1,
+            "size": 31,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 46.3
+            "pct": 19.5
           },
           {
-            "id": 2,
-            "size": 26,
+            "id": 4,
+            "size": 31,
             "top_terms": [
               "manager",
               "product",
-              "project"
+              "affairs"
             ],
-            "pct": 17.4
+            "pct": 19.5
           },
           {
-            "id": 0,
-            "size": 24,
+            "id": 2,
+            "size": 17,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 16.1
-          },
-          {
-            "id": 1,
-            "size": 18,
-            "top_terms": [
-              "specialist",
-              "junior",
-              "marketing"
-            ],
-            "pct": 12.1
-          },
-          {
-            "id": 3,
-            "size": 12,
-            "top_terms": [
+              "associate",
               "clinical",
-              "research",
-              "associate"
+              "research"
             ],
-            "pct": 8.1
+            "pct": 10.7
           }
         ]
       }

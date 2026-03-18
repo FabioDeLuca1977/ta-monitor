@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-17T07:40:49.920764",
+  "generated_at": "2026-03-18T07:37:23.334745",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 43,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 13.0,
+    "average": 12.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 0,
-      "irrelevant": 38
+      "irrelevant": 39
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs & Quality Assurance Specialist",
         "company": "MEDAX SRL UNIPERSONALE",
-        "score": 65,
+        "score": 60,
         "site": "indeed",
         "date_posted": 1773100800000,
         "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
+      "data": {
+        "current": 1,
+        "avg": 4.8,
+        "change_pct": -79.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 4,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -245,14 +255,14 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 21,
+            "id": 4,
+            "size": 22,
             "top_terms": [
               "qualità",
               "writer",
-              "impiegato"
+              "data"
             ],
-            "pct": 48.8
+            "pct": 50.0
           },
           {
             "id": 3,
@@ -262,37 +272,37 @@
               "assurance",
               "specialist"
             ],
-            "pct": 23.3
+            "pct": 22.7
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 0,
+            "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "manager"
             ],
-            "pct": 11.6
+            "pct": 13.6
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 4,
             "top_terms": [
               "specialist",
               "writer",
               "impiegato"
             ],
-            "pct": 9.3
+            "pct": 9.1
           },
           {
-            "id": 0,
-            "size": 3,
+            "id": 2,
+            "size": 2,
             "top_terms": [
-              "responsabile",
-              "settore",
-              "btb"
+              "agriculture",
+              "project",
+              "field"
             ],
-            "pct": 7.0
+            "pct": 4.5
           }
         ]
       }

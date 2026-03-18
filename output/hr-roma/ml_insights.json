@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-17T07:40:49.326372",
+  "generated_at": "2026-03-18T07:37:22.675343",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 429,
+  "total_jobs_analyzed": 438,
   "scoring": {
-    "average": 15.5,
+    "average": 15.6,
     "distribution": {
       "excellent": 0,
-      "good": 20,
-      "medium": 44,
+      "good": 21,
+      "medium": 46,
       "low": 73,
-      "irrelevant": 292
+      "irrelevant": 298
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "HR Manager (IT - Remote)",
         "company": "ThinkingIT Corp.",
-        "score": 71,
+        "score": 70,
         "site": "indeed",
         "date_posted": 1771459200000,
         "url": "https://it.indeed.com/viewjob?jk=8435093b0586c1ab"
@@ -118,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4377781666"
       },
       {
+        "title": "ADDETTO/A RICERCA E SELEZIONE DEL PERSONALE",
+        "company": "FONDAZIONE LAVORO",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1771286400000,
+        "url": "https://www.linkedin.com/jobs/view/4372870383"
+      },
+      {
         "title": "Human Resources Business Partner",
         "company": "TIM",
         "score": 62,
@@ -134,12 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4383229094"
       },
       {
-        "title": "ADDETTO/A RICERCA E SELEZIONE DEL PERSONALE",
-        "company": "FONDAZIONE LAVORO",
-        "score": 61,
+        "title": "HR Recruiter",
+        "company": "Openjobmetis SpA",
+        "score": 62,
         "site": "linkedin",
-        "date_posted": 1771286400000,
-        "url": "https://www.linkedin.com/jobs/view/4372870383"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4385953009"
+      },
+      {
+        "title": "HR Generalist (Sostituzione Maternità)",
+        "company": "Cinecittà World Spa",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=3d163f6171aad00b"
       },
       {
         "title": "HR Generalist (Categorie Protette L.68/99)",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4353205273"
-      },
-      {
-        "title": "HR Specialist",
-        "company": "Stargate Security srl",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1773100800000,
-        "url": "https://it.indeed.com/viewjob?jk=a580c2c3686cd978"
-      },
-      {
-        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
-        "company": "EmmeBi Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382298747"
       }
     ]
   },
@@ -185,13 +185,13 @@
       },
       {
         "word": "risorse",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -199,7 +199,7 @@
         "reason": "Appare 16x in annunci a basso score"
       },
       {
-        "word": "time",
+        "word": "impiegato",
         "count": 15,
         "reason": "Appare 15x in annunci a basso score"
       }
@@ -207,6 +207,12 @@
     "review": []
   },
   "keyword_recommendations": [
+    {
+      "keyword": "categorie protette",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
     {
       "keyword": "acquisition manager",
       "frequency": 2,
@@ -220,7 +226,43 @@
       "confidence": 30
     },
     {
-      "keyword": "categorie protette",
+      "keyword": "generalist appartenente",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "appartenente alle",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "alle categorie",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "protette art",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "generalist appartenente alle",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "appartenente alle categorie",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "alle categorie protette",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -230,41 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 10 annunci ultimo scan vs media 35 (-71%)",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 33 (-73%)",
       "data": {
-        "current": 10,
-        "avg": 34.9,
-        "change_pct": -71.4
+        "current": 9,
+        "avg": 33.0,
+        "change_pct": -72.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/10 annunci da aziende nuove (20.0%)",
+      "message": "📊 Ultimo scan: 7/9 annunci da aziende nuove (77.8%)",
       "data": {
-        "new": 2,
-        "total": 10,
-        "pct": 20.0
+        "new": 7,
+        "total": 9,
+        "pct": 77.8
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 80% (+80pp)",
+      "message": "📡 indeed: quota passata da 80% a 44% (-36pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 80.0
+        "old_pct": 80.0,
+        "new_pct": 44.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 20% (-80pp)",
+      "message": "📡 linkedin: quota passata da 20% a 56% (+36pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 55.6
       }
     },
     {
@@ -274,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 235,
+            "id": 3,
+            "size": 305,
             "top_terms": [
               "manager",
-              "responsabile",
-              "junior"
-            ],
-            "pct": 54.8
-          },
-          {
-            "id": 2,
-            "size": 65,
-            "top_terms": [
-              "hr",
-              "specialist",
-              "generalist"
-            ],
-            "pct": 15.2
-          },
-          {
-            "id": 3,
-            "size": 50,
-            "top_terms": [
               "roma",
-              "sales",
-              "zona"
+              "hr"
             ],
-            "pct": 11.7
-          },
-          {
-            "id": 0,
-            "size": 44,
-            "top_terms": [
-              "addetto",
-              "vendite",
-              "time"
-            ],
-            "pct": 10.3
+            "pct": 69.6
           },
           {
             "id": 1,
-            "size": 35,
+            "size": 42,
             "top_terms": [
-              "risorse",
+              "addetto",
+              "vendite",
+              "personale"
+            ],
+            "pct": 9.6
+          },
+          {
+            "id": 2,
+            "size": 38,
+            "top_terms": [
               "umane",
+              "risorse",
               "impiegato"
             ],
+            "pct": 8.7
+          },
+          {
+            "id": 4,
+            "size": 36,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "talent"
+            ],
             "pct": 8.2
+          },
+          {
+            "id": 0,
+            "size": 17,
+            "top_terms": [
+              "junior",
+              "amministrazione",
+              "manager"
+            ],
+            "pct": 3.9
           }
         ]
       }
