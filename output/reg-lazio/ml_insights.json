@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-18T07:37:23.409795",
+  "generated_at": "2026-03-19T07:34:10.968049",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 110,
+  "total_jobs_analyzed": 119,
   "scoring": {
-    "average": 14.9,
+    "average": 15.0,
     "distribution": {
       "excellent": 0,
-      "good": 4,
+      "good": 5,
       "medium": 13,
-      "low": 5,
-      "irrelevant": 88
+      "low": 6,
+      "irrelevant": 95
     },
     "top_jobs": [
       {
@@ -46,6 +46,22 @@
         "url": "https://www.linkedin.com/jobs/view/4382048302"
       },
       {
+        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
+        "company": "Aruba SpA",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386981425"
+      },
+      {
+        "title": "Head of Regulatory Affairs Italy",
+        "company": "Merck Healthcare",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4366163549"
+      },
+      {
         "title": "Director of Regulatory Affairs",
         "company": "Confidential",
         "score": 57,
@@ -70,12 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=cb25b64b337026d5"
       },
       {
-        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
-        "company": "Aruba SpA",
+        "title": "Senior Regulatory Specialist",
+        "company": "Amaris Consulting",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386981425"
+        "url": "https://www.linkedin.com/jobs/view/4384478754"
       },
       {
         "title": "Regulatory Affairs Junior",
@@ -86,6 +102,14 @@
         "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
+        "title": "Stage Regulatory Affairs / Product Compliance",
+        "company": "Stanhome Italia",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383714021"
+      },
+      {
         "title": "Regulatory Compliance– REACH & SCIP",
         "company": "ADENTIS Italia",
         "score": 56,
@@ -94,20 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4384251524"
       },
       {
-        "title": "Senior Regulatory Specialist",
+        "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
         "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384478754"
-      },
-      {
-        "title": "Stage Regulatory Affairs / Product Compliance",
-        "company": "Stanhome Italia",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4383714021"
+        "site": "indeed",
+        "date_posted": 1773792000000,
+        "url": "https://it.indeed.com/viewjob?jk=3284c353192956a2"
       },
       {
         "title": "Global International Registrations and Regulatory Compliance",
@@ -116,14 +132,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381266614"
-      },
-      {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
       },
       {
         "title": "Regulatory Affairs Specialist I",
@@ -144,7 +152,7 @@
       {
         "title": "Quality Assurance Consultant - Pharma Sector",
         "company": "PQE Group",
-        "score": 45,
+        "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383149145"
@@ -158,20 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=6aa19e9d499d6b03"
       },
       {
-        "title": "cerca una balia a Sabaudia",
-        "company": "toptata",
-        "score": 27,
+        "title": "Regulatory Reporting Specialist",
+        "company": "Ford Motor Company",
+        "score": 22,
         "site": "indeed",
-        "date_posted": 1773187200000,
-        "url": "https://it.indeed.com/viewjob?jk=66e5cc923558e811"
-      },
-      {
-        "title": "cerca una balia à Sabaudia 04016",
-        "company": "toptata",
-        "score": 27,
-        "site": "indeed",
-        "date_posted": 1773187200000,
-        "url": "https://it.indeed.com/viewjob?jk=e2e40d7d01fcfb2f"
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=2f479c4c4ad2e6f6"
       }
     ]
   },
@@ -211,31 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/8 annunci da aziende nuove (62.5%)",
+      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 5,
-        "total": 8,
-        "pct": 62.5
+        "new": 3,
+        "total": 9,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 85% a 62% (-22pp)",
+      "message": "📡 indeed: quota passata da 62% a 100% (+38pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 84.6,
-        "new_pct": 62.5
+        "old_pct": 62.5,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 15% a 38% (+22pp)",
+      "message": "📡 linkedin: quota passata da 38% a 0% (-38pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 15.4,
-        "new_pct": 37.5
+        "old_pct": 37.5,
+        "new_pct": 0.0
       }
     },
     {
@@ -246,53 +246,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 59,
+            "size": 64,
             "top_terms": [
               "manager",
               "addetto",
-              "technician"
+              "officer"
             ],
-            "pct": 53.6
+            "pct": 53.8
           },
           {
-            "id": 1,
-            "size": 17,
+            "id": 3,
+            "size": 20,
             "top_terms": [
               "specialist",
-              "regulatory",
-              "programma"
+              "programma",
+              "gcap"
             ],
-            "pct": 15.5
+            "pct": 16.8
           },
           {
-            "id": 4,
-            "size": 14,
+            "id": 2,
+            "size": 15,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.7
+            "pct": 12.6
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 12,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 10.9
+            "pct": 10.1
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 8,
             "top_terms": [
               "internship",
               "operations",
               "sterile"
             ],
-            "pct": 7.3
+            "pct": 6.7
           }
         ]
       }

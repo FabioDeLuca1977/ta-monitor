@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-18T07:37:23.151747",
+  "generated_at": "2026-03-19T07:34:10.725728",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 38,
+  "total_jobs_analyzed": 39,
   "scoring": {
-    "average": 14.5,
+    "average": 14.2,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 3,
       "low": 2,
-      "irrelevant": 30
+      "irrelevant": 31
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Product & Regulatory Compliance Specialist",
         "company": "Joinrs",
-        "score": 55,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4338121535"
@@ -48,7 +48,7 @@
       {
         "title": "Senior International Regulatory Specialist",
         "company": "Orthofix",
-        "score": 55,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
@@ -96,18 +96,10 @@
       {
         "title": "Quality Assurance – Sistema e processi",
         "company": "AxL Spa – ALTI PROFILI",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377738619"
-      },
-      {
-        "title": "Strategic Product Manager – Chilled Water Systems",
-        "company": "Vertiv",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1773187200000,
-        "url": "https://it.indeed.com/viewjob?jk=79b9126b1cd190c3"
       },
       {
         "title": "IT Business Analyst - Quality Assurance",
@@ -126,12 +118,12 @@
         "url": "https://it.indeed.com/viewjob?jk=4bd7bc99a145ff54"
       },
       {
-        "title": "Regional Manager - Italy",
-        "company": "KellyDeli",
-        "score": 8,
+        "title": "Tecnico Esercizio Padova",
+        "company": "Snam",
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1772409600000,
-        "url": "https://it.indeed.com/viewjob?jk=8198136cc8903bc3"
+        "date_posted": 1773792000000,
+        "url": "https://it.indeed.com/viewjob?jk=1b5ab98457e37b0b"
       },
       {
         "title": "Quality Assurance Expert",
@@ -140,6 +132,14 @@
         "site": "linkedin",
         "date_posted": 1772582400000,
         "url": "https://www.linkedin.com/jobs/view/4378920583"
+      },
+      {
+        "title": "Regional Manager - Italy",
+        "company": "KellyDeli",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1772409600000,
+        "url": "https://it.indeed.com/viewjob?jk=8198136cc8903bc3"
       },
       {
         "title": "Addetto sistema qualità alimentare",
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=ab4836bfe03f6c2b"
       },
       {
+        "title": "Strategic Product Manager – Chilled Water Systems",
+        "company": "Vertiv",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1773187200000,
+        "url": "https://it.indeed.com/viewjob?jk=79b9126b1cd190c3"
+      },
+      {
         "title": "Addetto a centro estetico/addetta a centro estetico",
         "company": "Esthétique Emanuelle",
         "score": 7,
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=c6cdf4af20a544cb"
-      },
-      {
-        "title": "Addetto/a pressa e sistema preselezione rifiuti – Padova",
-        "company": "Gruppo Hera",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384473040"
       }
     ]
   },
@@ -189,12 +189,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "sistema",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "tecnico",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "tecnico",
+        "word": "sistema",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -209,33 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
       "data": {
-        "new": 5,
-        "total": 5,
-        "pct": 100.0
+        "current": 1,
+        "avg": 4.8,
+        "change_pct": -78.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 40% (-60pp)",
+      "message": "📡 indeed: quota passata da 40% a 100% (+60pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 40.0
+        "old_pct": 40.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 60% (+60pp)",
+      "message": "📡 linkedin: quota passata da 60% a 0% (-60pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 60.0
+        "old_pct": 60.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -246,13 +246,13 @@
         "clusters": [
           {
             "id": 2,
-            "size": 21,
+            "size": 23,
             "top_terms": [
               "addetto",
               "manager",
-              "meccanico"
+              "specialist"
             ],
-            "pct": 55.3
+            "pct": 59.0
           },
           {
             "id": 1,
@@ -262,37 +262,37 @@
               "affairs",
               "specialist"
             ],
-            "pct": 13.2
+            "pct": 12.8
           },
           {
             "id": 4,
             "size": 5,
             "top_terms": [
-              "assurance",
               "quality",
-              "expert"
+              "assurance",
+              "gmp"
             ],
-            "pct": 13.2
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "tecnico",
-              "camper",
-              "padova"
-            ],
-            "pct": 10.5
+            "pct": 12.8
           },
           {
             "id": 0,
-            "size": 3,
+            "size": 4,
             "top_terms": [
-              "specialist",
-              "compliance",
-              "product"
+              "tecnico",
+              "padova",
+              "camper"
             ],
-            "pct": 7.9
+            "pct": 10.3
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "pd",
+              "auditor",
+              "senior"
+            ],
+            "pct": 5.1
           }
         ]
       }
