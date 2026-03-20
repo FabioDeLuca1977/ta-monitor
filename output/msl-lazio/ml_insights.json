@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-19T07:34:10.687237",
+  "generated_at": "2026-03-20T07:31:38.708770",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 52,
+  "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 33.4,
+    "average": 33.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 28,
+      "medium": 30,
       "low": 3,
-      "irrelevant": 19
+      "irrelevant": 20
     },
     "top_jobs": [
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 69,
+        "score": 70,
         "site": "indeed",
         "date_posted": 1773705600000,
         "url": "https://it.indeed.com/viewjob?jk=fec5dbd7c5febc45"
@@ -46,20 +46,20 @@
         "url": "https://it.bebee.com/job/724d3e06f92a65e2dfefa16b7eb69b31?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
+        "title": "Director Regional Medical Affairs (all genders) EU5CAN Lung Cancer",
+        "company": "MSD",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=87711e3c90313bc0"
+      },
+      {
         "title": "Medical Science Liaison - Italy",
         "company": "PTC Therapeutics, Inc.",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1773360000000,
         "url": "https://www.linkedin.com/jobs/view/4338739416"
-      },
-      {
-        "title": "Director Regional Medical Affairs (all genders) EU5CAN Lung Cancer",
-        "company": "MSD",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=87711e3c90313bc0"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4374614779"
       },
       {
-        "title": "Regulatory Affairs manager & Affiliate Quality - Maternity Cover",
-        "company": "Zoetis",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4380677625"
-      },
-      {
         "title": "Medical Science Liaison",
         "company": "Syneos Health Commercial Solutions",
         "score": 55,
@@ -86,20 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
-        "title": "Medical Affairs Scientist Oncology Breast Cancer",
-        "company": "Pfizer",
+        "title": "Regulatory Affairs manager & Affiliate Quality - Maternity Cover",
+        "company": "Zoetis",
         "score": 54,
         "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4378841330"
-      },
-      {
-        "title": "Medical Science Liaison, Oncology (RCC)",
-        "company": "Amplity",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385271426"
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4380677625"
       },
       {
         "title": "Senior Manager Regulatory Affairs",
@@ -124,6 +108,22 @@
         "site": "indeed",
         "date_posted": 1773360000000,
         "url": "https://it.indeed.com/viewjob?jk=385c6c702c81412f"
+      },
+      {
+        "title": "Medical Science Liaison, Oncology (RCC)",
+        "company": "Amplity",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4385271426"
+      },
+      {
+        "title": "Medical Affairs Scientist Oncology Breast Cancer",
+        "company": "Pfizer",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4378841330"
       },
       {
         "title": "Regulatory Affairs Consultant",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4369990305"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "TRIO - Translational Research in Oncology",
+        "title": "Regulatory Affairs Specialist",
+        "company": "LHH",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4364244677"
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4381179443"
       },
       {
-        "title": "Clinical Monitoring Analyst (Cluepoints) - Remote",
-        "company": "IQVIA",
+        "title": "Regulatory Affairs Specialist I",
+        "company": "Thermo Fisher Scientific",
         "score": 48,
-        "site": "indeed",
-        "date_posted": 1773619200000,
-        "url": "https://it.indeed.com/viewjob?jk=95c884b1c4080099"
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4382009659"
       }
     ]
   },
@@ -190,6 +190,11 @@
       },
       {
         "word": "italy",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "school",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -224,13 +229,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-42%)",
+      "data": {
+        "current": 3,
+        "avg": 5.2,
+        "change_pct": -42.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/5 annunci da aziende nuove (40.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
         "new": 2,
-        "total": 5,
-        "pct": 40.0
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
@@ -240,14 +255,14 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 21,
+            "id": 1,
+            "size": 32,
             "top_terms": [
               "medical",
               "italy",
               "liaison"
             ],
-            "pct": 40.4
+            "pct": 58.2
           },
           {
             "id": 0,
@@ -257,37 +272,37 @@
               "affairs",
               "specialist"
             ],
-            "pct": 21.2
-          },
-          {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
-              "manager",
-              "product",
-              "associate"
-            ],
-            "pct": 13.5
-          },
-          {
-            "id": 2,
-            "size": 7,
-            "top_terms": [
-              "specialist",
-              "fishery",
-              "programma"
-            ],
-            "pct": 13.5
+            "pct": 20.0
           },
           {
             "id": 4,
             "size": 6,
             "top_terms": [
-              "analyst",
-              "clinical",
-              "research"
+              "manager",
+              "product",
+              "associate"
             ],
-            "pct": 11.5
+            "pct": 10.9
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "specialist",
+              "medical",
+              "fishery"
+            ],
+            "pct": 7.3
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "programma",
+              "gcap",
+              "specialist"
+            ],
+            "pct": 3.6
           }
         ]
       }

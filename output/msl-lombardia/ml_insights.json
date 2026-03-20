@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-19T07:34:10.617083",
+  "generated_at": "2026-03-20T07:31:38.622163",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 174,
+  "total_jobs_analyzed": 177,
   "scoring": {
-    "average": 30.9,
+    "average": 30.5,
     "distribution": {
       "excellent": 0,
       "good": 7,
-      "medium": 80,
-      "low": 16,
-      "irrelevant": 71
+      "medium": 82,
+      "low": 15,
+      "irrelevant": 73
     },
     "top_jobs": [
       {
@@ -94,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4371297560"
       },
       {
-        "title": "Central Medical Affairs Coordinator",
-        "company": "Nordberg Medical",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1772582400000,
-        "url": "https://www.linkedin.com/jobs/view/4380955990"
-      },
-      {
         "title": "Jr regulatory affairs specialist - categoria protetta art 1 l. 68/99",
         "company": "Randstad Italia",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1773705600000,
         "url": "https://www.linkedin.com/jobs/view/4383138459"
+      },
+      {
+        "title": "Central Medical Affairs Coordinator",
+        "company": "Nordberg Medical",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1772582400000,
+        "url": "https://www.linkedin.com/jobs/view/4380955990"
       },
       {
         "title": "Head of Medical Affairs - Italy",
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -240,33 +240,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 14 (-79%)",
+      "data": {
+        "current": 3,
+        "avg": 14.5,
+        "change_pct": -79.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/15 annunci da aziende nuove (40.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 6,
-        "total": 15,
-        "pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 27% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 26.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 73% (+33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 73.3
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
@@ -276,54 +266,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 106,
+            "id": 2,
+            "size": 68,
             "top_terms": [
-              "manager",
               "medical",
-              "specialist"
+              "cra",
+              "lead"
             ],
-            "pct": 60.9
+            "pct": 38.4
+          },
+          {
+            "id": 0,
+            "size": 32,
+            "top_terms": [
+              "clinical",
+              "specialist",
+              "research"
+            ],
+            "pct": 18.1
           },
           {
             "id": 1,
-            "size": 27,
+            "size": 30,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.5
+            "pct": 16.9
           },
           {
-            "id": 2,
-            "size": 17,
+            "id": 3,
+            "size": 28,
             "top_terms": [
-              "director",
-              "medical",
-              "global"
+              "manager",
+              "product",
+              "project"
             ],
-            "pct": 9.8
-          },
-          {
-            "id": 0,
-            "size": 15,
-            "top_terms": [
-              "clinical",
-              "associate",
-              "research"
-            ],
-            "pct": 8.6
+            "pct": 15.8
           },
           {
             "id": 4,
-            "size": 9,
+            "size": 19,
             "top_terms": [
-              "cra",
-              "senior",
-              "fsp"
+              "director",
+              "medical",
+              "affairs"
             ],
-            "pct": 5.2
+            "pct": 10.7
           }
         ]
       }

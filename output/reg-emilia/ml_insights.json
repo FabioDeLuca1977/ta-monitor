@@ -1,46 +1,62 @@
 {
-  "generated_at": "2026-03-19T07:34:10.895550",
+  "generated_at": "2026-03-20T07:31:38.954379",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 47,
+  "total_jobs_analyzed": 50,
   "scoring": {
-    "average": 12.8,
+    "average": 13.9,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 3,
-      "low": 1,
+      "good": 1,
+      "medium": 6,
+      "low": 2,
       "irrelevant": 41
     },
     "top_jobs": [
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Illumia",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387809282"
+      },
+      {
         "title": "Regulatory Affairs & Quality Assurance Specialist",
         "company": "MEDAX SRL UNIPERSONALE",
-        "score": 61,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1773100800000,
         "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
       },
       {
-        "title": "Regulatory Affairs Specialist - REACH e CLP",
-        "company": "Lavoropiù SpA",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384850619"
-      },
-      {
         "title": "Regulatory Affair Coordinator",
         "company": "Cefla",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383334187"
       },
       {
+        "title": "Quality Assurance - Regulatory Affairs Reach e CLP",
+        "company": "Lavoropiù SpA",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387803714"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - REACH e CLP",
+        "company": "Lavoropiù SpA",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384850619"
+      },
+      {
         "title": "Non-Pharma Global Regulatory Affairs Manager",
         "company": "Alfasigma group",
-        "score": 56,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1772496000000,
         "url": "https://it.indeed.com/viewjob?jk=9afdaa04d6b4c602"
@@ -62,6 +78,14 @@
         "url": "https://www.linkedin.com/jobs/view/4385921296"
       },
       {
+        "title": "Quality Assurance Sr. Specialist",
+        "company": "LINCOTEK GROUP",
+        "score": 21,
+        "site": "indeed",
+        "date_posted": 1773878400000,
+        "url": "https://it.indeed.com/viewjob?jk=aadffcf355555d12"
+      },
+      {
         "title": "Quality Assurance Specialist",
         "company": "Dentsply Sirona",
         "score": 18,
@@ -78,20 +102,28 @@
         "url": "https://it.indeed.com/viewjob?jk=e07175466e17ae11"
       },
       {
-        "title": "Bid Costing Manager",
-        "company": "ALSTOM",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1773619200000,
-        "url": "https://it.indeed.com/viewjob?jk=5e3a2774cccd07f1"
-      },
-      {
         "title": "Quality Assurance Manager",
         "company": "CASTAGNOLI VITERIE",
-        "score": 15,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4384004222"
+      },
+      {
+        "title": "LIMS/MODA & GMP Documentation Specialist",
+        "company": "PQE Group",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377397158"
+      },
+      {
+        "title": "CUSTOMER QUALITY ASSURANCE SPECIALIST",
+        "company": "O.M.P. Officine Mazzocco Pagnoni",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382037285"
       },
       {
         "title": "Software Quality Assurance Specialist (Maranello)",
@@ -110,28 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382585094"
       },
       {
-        "title": "Project Manager Documentazione Tecnica - Agriculture field",
-        "company": "Star7",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=e69b05d322e596b7"
-      },
-      {
-        "title": "Process Validation Specialist",
-        "company": "LINCOTEK GROUP",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
-      },
-      {
         "title": "Manager, Regulatory Lead",
         "company": "Alfasigma group",
         "score": 12,
         "site": "indeed",
         "date_posted": 1772496000000,
         "url": "https://it.indeed.com/viewjob?jk=8491f0c2daec0e36"
+      },
+      {
+        "title": "Bid Costing Manager",
+        "company": "ALSTOM",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1773619200000,
+        "url": "https://it.indeed.com/viewjob?jk=5e3a2774cccd07f1"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST - ISO 9001 & MOCA",
@@ -142,42 +166,28 @@
         "url": "https://www.linkedin.com/jobs/view/4355234223"
       },
       {
-        "title": "LIMS/MODA & GMP Documentation Specialist",
-        "company": "PQE Group",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377397158"
-      },
-      {
-        "title": "CUSTOMER QUALITY ASSURANCE SPECIALIST",
-        "company": "O.M.P. Officine Mazzocco Pagnoni",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382037285"
-      },
-      {
         "title": "Quality Assurance Specialist - Reggio Emilia -",
         "company": "Centrale del Latte d'Italia S.p.A.",
         "score": 11,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4385370129"
-      },
-      {
-        "title": "Medical Science Liaison Dermatology - Emilia Romagna, Triveneto, Marche",
-        "company": "AbbVie",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1773619200000,
-        "url": "https://it.indeed.com/viewjob?jk=8aaa52dfda37f98b"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "quality",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
       {
         "word": "manager",
         "count": 6,
@@ -192,59 +202,46 @@
         "word": "qualità",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "iso",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "project",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [],
-  "anomalies": [
+  "keyword_recommendations": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-32%)",
-      "data": {
-        "current": 3,
-        "avg": 4.4,
-        "change_pct": -31.8
-      }
-    },
+      "keyword": "reach clp",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    }
+  ],
+  "anomalies": [
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 2,
+        "new": 1,
         "total": 3,
-        "pct": 66.7
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 linkedin: quota passata da 33% a 67% (+33pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
+        "channel": "linkedin",
+        "old_pct": 33.3,
         "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "message": "📡 indeed: quota passata da 67% a 33% (-33pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
+        "channel": "indeed",
+        "old_pct": 66.7,
         "new_pct": 33.3
       }
     },
@@ -256,53 +253,53 @@
         "clusters": [
           {
             "id": 4,
-            "size": 23,
+            "size": 21,
             "top_terms": [
               "qualità",
-              "writer",
-              "data"
+              "impiegato",
+              "bologna"
             ],
-            "pct": 48.9
+            "pct": 42.0
           },
           {
-            "id": 3,
-            "size": 11,
+            "id": 1,
+            "size": 16,
             "top_terms": [
+              "specialist",
               "quality",
-              "assurance",
-              "specialist"
+              "assurance"
             ],
-            "pct": 23.4
+            "pct": 32.0
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "manager"
             ],
-            "pct": 12.8
+            "pct": 16.0
           },
           {
             "id": 0,
-            "size": 4,
-            "top_terms": [
-              "specialist",
-              "writer",
-              "tecnica"
-            ],
-            "pct": 8.5
-          },
-          {
-            "id": 1,
             "size": 3,
             "top_terms": [
-              "project",
               "field",
-              "agriculture"
+              "agriculture",
+              "project"
             ],
-            "pct": 6.4
+            "pct": 6.0
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "writer",
+              "tecnica",
+              "affairs"
+            ],
+            "pct": 4.0
           }
         ]
       }

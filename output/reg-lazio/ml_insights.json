@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-19T07:34:10.968049",
+  "generated_at": "2026-03-20T07:31:39.038747",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 119,
+  "total_jobs_analyzed": 126,
   "scoring": {
-    "average": 15.0,
+    "average": 14.5,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 13,
+      "good": 4,
+      "medium": 15,
       "low": 6,
-      "irrelevant": 95
+      "irrelevant": 101
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Senior Manager Regulatory Affairs",
         "company": "OMISAN Schalcon",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380259432"
@@ -46,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382048302"
       },
       {
-        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
-        "company": "Aruba SpA",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386981425"
-      },
-      {
         "title": "Head of Regulatory Affairs Italy",
         "company": "Merck Healthcare",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4366163549"
+      },
+      {
+        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
+        "company": "Aruba SpA",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386981425"
       },
       {
         "title": "Director of Regulatory Affairs",
@@ -94,6 +94,14 @@
         "url": "https://www.linkedin.com/jobs/view/4384478754"
       },
       {
+        "title": "Regulatory Affairs Consultant",
+        "company": "Amaris Consulting",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1773792000000,
+        "url": "https://it.indeed.com/viewjob?jk=3284c353192956a2"
+      },
+      {
         "title": "Regulatory Affairs Junior",
         "company": "Gruppo SAVIO",
         "score": 56,
@@ -118,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4384251524"
       },
       {
-        "title": "Regulatory Affairs Consultant",
-        "company": "Amaris Consulting",
-        "score": 56,
-        "site": "indeed",
+        "title": "QA Operations GMP Compliance Intern",
+        "company": "Merck Healthcare",
+        "score": 55,
+        "site": "linkedin",
         "date_posted": 1773792000000,
-        "url": "https://it.indeed.com/viewjob?jk=3284c353192956a2"
+        "url": "https://www.linkedin.com/jobs/view/4387457533"
       },
       {
         "title": "Global International Registrations and Regulatory Compliance",
@@ -136,7 +144,7 @@
       {
         "title": "Regulatory Affairs Specialist I",
         "company": "Thermo Fisher Scientific",
-        "score": 50,
+        "score": 49,
         "site": "indeed",
         "date_posted": 1773014400000,
         "url": "https://it.indeed.com/viewjob?jk=888f0a020fc5d5a4"
@@ -160,18 +168,10 @@
       {
         "title": "Sr Associate, Quality Assurance",
         "company": "Alfasigma group",
-        "score": 34,
+        "score": 29,
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=6aa19e9d499d6b03"
-      },
-      {
-        "title": "Regulatory Reporting Specialist",
-        "company": "Ford Motor Company",
-        "score": 22,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=2f479c4c4ad2e6f6"
       }
     ]
   },
@@ -194,14 +194,14 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "operations",
+        "word": "lead",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "auditor",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "operations",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,31 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
       "data": {
         "new": 3,
-        "total": 9,
-        "pct": 33.3
+        "total": 7,
+        "pct": 42.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 62% a 100% (+38pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 62.5,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 38% a 0% (-38pp)",
+      "message": "📡 linkedin: quota passata da 0% a 29% (+29pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 37.5,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 28.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 71% (-29pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 71.4
       }
     },
     {
@@ -246,53 +246,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 64,
+            "size": 72,
             "top_terms": [
               "manager",
               "addetto",
-              "officer"
+              "lead"
             ],
-            "pct": 53.8
+            "pct": 57.1
           },
           {
             "id": 3,
-            "size": 20,
+            "size": 21,
             "top_terms": [
               "specialist",
-              "programma",
-              "gcap"
+              "regulatory",
+              "senior"
             ],
-            "pct": 16.8
+            "pct": 16.7
           },
           {
-            "id": 2,
-            "size": 15,
+            "id": 1,
+            "size": 16,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.6
+            "pct": 12.7
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 12,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 10.1
+            "pct": 9.5
           },
           {
-            "id": 4,
-            "size": 8,
+            "id": 2,
+            "size": 5,
             "top_terms": [
-              "internship",
-              "operations",
-              "sterile"
+              "assistant",
+              "auditor",
+              "rm"
             ],
-            "pct": 6.7
+            "pct": 4.0
           }
         ]
       }

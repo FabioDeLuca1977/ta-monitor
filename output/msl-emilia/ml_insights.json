@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-03-19T07:34:10.646541",
+  "generated_at": "2026-03-20T07:31:38.660704",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 27,
   "scoring": {
-    "average": 23.8,
+    "average": 24.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 10,
+      "medium": 12,
       "low": 1,
-      "irrelevant": 13
+      "irrelevant": 14
     },
     "top_jobs": [
       {
-        "title": "Medical Science Liaison Dermatology - Emilia Romagna, Triveneto, Marche",
-        "company": "AbbVie",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1773619200000,
-        "url": "https://it.indeed.com/viewjob?jk=8aaa52dfda37f98b"
-      },
-      {
         "title": "Medical Director, Global Evidence Generation Lead",
         "company": "Alfasigma",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381888577"
+      },
+      {
+        "title": "Medical Science Liaison Dermatology - Emilia Romagna, Triveneto, Marche",
+        "company": "AbbVie",
+        "score": 53,
+        "site": "indeed",
+        "date_posted": 1773619200000,
+        "url": "https://it.indeed.com/viewjob?jk=8aaa52dfda37f98b"
       },
       {
         "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
@@ -46,12 +46,12 @@
         "url": "https://it.indeed.com/viewjob?jk=9afdaa04d6b4c602"
       },
       {
-        "title": "Regulatory Affairs Specialist - REACH e CLP",
-        "company": "Lavoropiù SpA",
+        "title": "Regulatory Affairs Specialist",
+        "company": "Illumia",
         "score": 48,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384850619"
+        "url": "https://www.linkedin.com/jobs/view/4387809282"
       },
       {
         "title": "Regulatory Affairs & Quality Assurance Specialist",
@@ -62,12 +62,28 @@
         "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
       },
       {
+        "title": "Regulatory Affairs Specialist - REACH e CLP",
+        "company": "Lavoropiù SpA",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384850619"
+      },
+      {
         "title": "Clinical Specialist",
         "company": "Coloplast",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4376074024"
+      },
+      {
+        "title": "Quality Assurance - Regulatory Affairs Reach e CLP",
+        "company": "Lavoropiù SpA",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387803714"
       },
       {
         "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
@@ -102,12 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4383334187"
       },
       {
-        "title": "Process Validation Specialist",
+        "title": "Quality Assurance Sr. Specialist",
         "company": "LINCOTEK GROUP",
-        "score": 13,
+        "score": 17,
         "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
+        "date_posted": 1773878400000,
+        "url": "https://it.indeed.com/viewjob?jk=aadffcf355555d12"
       },
       {
         "title": "Manager, Customer Engagement and Customer Experience",
@@ -134,9 +150,17 @@
         "url": "https://it.indeed.com/viewjob?jk=79016f12b6496b13"
       },
       {
+        "title": "Process Validation Specialist",
+        "company": "LINCOTEK GROUP",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1773273600000,
+        "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
+      },
+      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
-        "score": 7,
+        "score": 6,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4355910005"
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383316808"
-      },
-      {
-        "title": "Principal Manufacturing Engineer",
-        "company": "Transmedics",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=0a9a3b0d5ffe610f"
-      },
-      {
-        "title": "Senior Process Development Engineer",
-        "company": "Transmedics",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1772496000000,
-        "url": "https://it.indeed.com/viewjob?jk=e2996d8ca56c7db7"
-      },
-      {
-        "title": "Associate Technical Consultant",
-        "company": "Medtronic",
-        "score": 3,
-        "site": "indeed",
-        "date_posted": 1773100800000,
-        "url": "https://it.indeed.com/viewjob?jk=ed7d8548930c664a"
       }
     ]
   },
@@ -194,90 +194,90 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-65%)",
-      "data": {
-        "current": 1,
-        "avg": 2.9,
-        "change_pct": -65.2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "data": {
+        "channel": "indeed",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 33.3
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
             "id": 0,
-            "size": 9,
+            "size": 8,
             "top_terms": [
-              "manager",
               "regulatory",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 37.5
+            "pct": 29.6
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 7,
             "top_terms": [
               "cra",
               "emilia",
-              "senior"
+              "medical"
             ],
-            "pct": 29.2
+            "pct": 25.9
           },
           {
             "id": 1,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "field"
-            ],
-            "pct": 20.8
-          },
-          {
-            "id": 3,
-            "size": 3,
+            "size": 4,
             "top_terms": [
               "engineer",
               "principal",
-              "specialist"
+              "process"
             ],
-            "pct": 12.5
+            "pct": 14.8
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "clinical",
+              "specialist",
+              "electrophysiology"
+            ],
+            "pct": 14.8
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "manager",
+              "lead",
+              "evidence"
+            ],
+            "pct": 14.8
           }
         ]
       }

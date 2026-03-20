@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-19T07:34:10.725728",
+  "generated_at": "2026-03-20T07:31:38.754249",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 39,
+  "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 14.2,
+    "average": 14.0,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 3,
       "low": 2,
-      "irrelevant": 31
+      "irrelevant": 32
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Product & Regulatory Compliance Specialist",
         "company": "Joinrs",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4338121535"
@@ -48,7 +48,7 @@
       {
         "title": "Senior International Regulatory Specialist",
         "company": "Orthofix",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
@@ -64,7 +64,7 @@
       {
         "title": "Architectural & Technical Compliance Manager Job",
         "company": "Arkema",
-        "score": 39,
+        "score": 34,
         "site": "indeed",
         "date_posted": 1773619200000,
         "url": "https://it.indeed.com/viewjob?jk=94a850266bdb7931"
@@ -86,6 +86,14 @@
         "url": "https://it.indeed.com/viewjob?jk=a3ce09fca156c9e4"
       },
       {
+        "title": "Marketing & Communication Specialist",
+        "company": "Magnolia srl",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1773878400000,
+        "url": "https://it.indeed.com/viewjob?jk=e7841aef218bbb1f"
+      },
+      {
         "title": "Quality Assurance Specialist",
         "company": "Dentsply Sirona",
         "score": 14,
@@ -96,7 +104,7 @@
       {
         "title": "Quality Assurance – Sistema e processi",
         "company": "AxL Spa – ALTI PROFILI",
-        "score": 13,
+        "score": 12,
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377738619"
@@ -126,20 +134,20 @@
         "url": "https://it.indeed.com/viewjob?jk=1b5ab98457e37b0b"
       },
       {
+        "title": "Regional Manager - Italy",
+        "company": "KellyDeli",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1772409600000,
+        "url": "https://it.indeed.com/viewjob?jk=8198136cc8903bc3"
+      },
+      {
         "title": "Quality Assurance Expert",
         "company": "Fidia Pharma",
         "score": 8,
         "site": "linkedin",
         "date_posted": 1772582400000,
         "url": "https://www.linkedin.com/jobs/view/4378920583"
-      },
-      {
-        "title": "Regional Manager - Italy",
-        "company": "KellyDeli",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1772409600000,
-        "url": "https://it.indeed.com/viewjob?jk=8198136cc8903bc3"
       },
       {
         "title": "Addetto sistema qualità alimentare",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1773187200000,
         "url": "https://it.indeed.com/viewjob?jk=79b9126b1cd190c3"
-      },
-      {
-        "title": "Addetto a centro estetico/addetta a centro estetico",
-        "company": "Esthétique Emanuelle",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=c6cdf4af20a544cb"
       }
     ]
   },
@@ -211,31 +211,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
         "current": 1,
-        "avg": 4.8,
-        "change_pct": -78.9
+        "avg": 4.3,
+        "change_pct": -76.9
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 40% a 100% (+60pp)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 40.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 60% a 0% (-60pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 60.0,
-        "new_pct": 0.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
@@ -245,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 23,
+            "id": 3,
+            "size": 22,
             "top_terms": [
               "addetto",
               "manager",
-              "specialist"
+              "meccanico"
             ],
-            "pct": 59.0
+            "pct": 55.0
           },
           {
-            "id": 1,
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "expert"
+            ],
+            "pct": 12.5
+          },
+          {
+            "id": 4,
             "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.8
+            "pct": 12.5
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 1,
+            "size": 4,
             "top_terms": [
-              "quality",
-              "assurance",
-              "gmp"
+              "specialist",
+              "compliance",
+              "product"
             ],
-            "pct": 12.8
+            "pct": 10.0
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "tecnico",
               "padova",
               "camper"
             ],
-            "pct": 10.3
-          },
-          {
-            "id": 3,
-            "size": 2,
-            "top_terms": [
-              "pd",
-              "auditor",
-              "senior"
-            ],
-            "pct": 5.1
+            "pct": 10.0
           }
         ]
       }
