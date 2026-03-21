@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-20T07:31:38.511652",
+  "generated_at": "2026-03-21T07:20:20.695149",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 41,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 29.4,
+    "average": 29.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 23,
+      "medium": 27,
       "low": 4,
-      "irrelevant": 14
+      "irrelevant": 15
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
-        "title": "Informatore scientifico del farmaco",
-        "company": "Grafton Recruitment",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4384465949"
-      },
-      {
         "title": "Informatore medico scientifico",
         "company": "Eberlife Farmaceutici S.p.A.",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1773792000000,
         "url": "https://www.linkedin.com/jobs/view/4385061633"
+      },
+      {
+        "title": "Informatore Medico Scientifico M/F",
+        "company": "KOLINPHARMA S.p.A",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1773878400000,
+        "url": "https://www.linkedin.com/jobs/view/4387326721"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4378178500"
       },
       {
-        "title": "Sr Clinical Research Associate",
-        "company": "Alira Health",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386529087"
-      },
-      {
         "title": "Informatore Scientifico del Farmaco",
         "company": "Hays",
         "score": 47,
@@ -62,12 +54,44 @@
         "url": "https://www.linkedin.com/jobs/view/4384085161"
       },
       {
+        "title": "Informatore scientifico del farmaco",
+        "company": "Grafton Recruitment",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1773705600000,
+        "url": "https://www.linkedin.com/jobs/view/4384465949"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "AxL Spa – ALTI PROFILI",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4385758124"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Jobtech",
         "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4385332082"
+      },
+      {
+        "title": "Sr Clinical Research Associate",
+        "company": "Alira Health",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386529087"
+      },
+      {
+        "title": "Informatore Scientifico Specialist - Vicenza e Padova",
+        "company": "Pharma Line srl",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4345963815"
       },
       {
         "title": "Informatore scientifico",
@@ -126,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4381296008"
       },
       {
+        "title": "MSL Cardiometabolic (Nord Est)",
+        "company": "Jefferson Wells Italia",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384197040"
+      },
+      {
         "title": "informatore scientifico del farmaco",
         "company": "Cadigroup",
         "score": 42,
@@ -140,38 +172,6 @@
         "site": "linkedin",
         "date_posted": 1773273600000,
         "url": "https://www.linkedin.com/jobs/view/4382766288"
-      },
-      {
-        "title": "Informatore scientifico, VENETO",
-        "company": "Aliveda",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1773273600000,
-        "url": "https://www.linkedin.com/jobs/view/4382766288"
-      },
-      {
-        "title": "Informatore Scientifico Dietetico - Baby Food",
-        "company": "NewPrinces Group",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4387825084"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco Dermatologia - Trentino/Veneto",
-        "company": "LHH",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1772841600000,
-        "url": "https://www.linkedin.com/jobs/view/4365567852"
-      },
-      {
-        "title": "Informatore Scientifico Dermatologia e Ginecologia (Area di riferimento Verona/Vicenza/Padova/Rovigo)",
-        "company": "Chaberton Professionals",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4379842560"
       }
     ]
   },
@@ -189,43 +189,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-49%)",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+34%)",
       "data": {
-        "current": 2,
-        "avg": 3.9,
-        "change_pct": -48.7
+        "current": 5,
+        "avg": 3.7,
+        "change_pct": 34.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "new": 4,
+        "total": 5,
+        "pct": 80.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 80% (-20pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 80.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 20% (+20pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 20.0
       }
     },
     {
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 19,
+            "id": 0,
+            "size": 22,
             "top_terms": [
               "nf",
               "isf",
-              "clinical"
+              "verona"
             ],
-            "pct": 46.3
+            "pct": 47.8
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 10,
             "top_terms": [
               "scientifico",
               "informatore",
               "farmaco"
             ],
-            "pct": 24.4
+            "pct": 21.7
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 6,
             "top_terms": [
               "specialist",
               "clinical",
-              "affairs"
+              "vicenza"
             ],
-            "pct": 14.6
+            "pct": 13.0
           },
           {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "verona",
-              "padova",
-              "scientifico"
-            ],
-            "pct": 7.3
-          },
-          {
-            "id": 3,
-            "size": 3,
+            "id": 1,
+            "size": 4,
             "top_terms": [
               "medico",
               "scientifico",
               "informatore"
             ],
-            "pct": 7.3
+            "pct": 8.7
+          },
+          {
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 8.7
           }
         ]
       }

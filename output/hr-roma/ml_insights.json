@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-20T14:54:17.020939",
+  "generated_at": "2026-03-21T07:20:20.416099",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
   "total_jobs_analyzed": 440,
   "scoring": {
-    "average": 15.4,
+    "average": 15.1,
     "distribution": {
       "excellent": 1,
-      "good": 19,
-      "medium": 47,
+      "good": 18,
+      "medium": 48,
       "low": 73,
       "irrelevant": 300
     },
@@ -16,18 +16,10 @@
       {
         "title": "HR Specialist – Selezione e Gestione Risorse Umane",
         "company": "EmmeBi Group",
-        "score": 82,
+        "score": 83,
         "site": "linkedin",
         "date_posted": 1773878400000,
         "url": "https://www.linkedin.com/jobs/view/4387375901"
-      },
-      {
-        "title": "Head hunter/HR Recruiter Senior - Fiumicino",
-        "company": "EASYDIGITALGROUP",
-        "score": 72,
-        "site": "indeed",
-        "date_posted": 1773964800000,
-        "url": "https://it.indeed.com/viewjob?jk=538bde2bee4e09c8"
       },
       {
         "title": "TALENT ACQUISITION & EMPLOYER BRANDING SPECIALIST",
@@ -38,12 +30,12 @@
         "url": "https://it.indeed.com/viewjob?jk=fe61a8003ba3dfe8"
       },
       {
-        "title": "HR Manager",
-        "company": "Rome Business School",
-        "score": 70,
+        "title": "Head hunter/HR Recruiter Senior - Fiumicino",
+        "company": "EASYDIGITALGROUP",
+        "score": 71,
         "site": "indeed",
-        "date_posted": 1771891200000,
-        "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
+        "date_posted": 1773964800000,
+        "url": "https://it.indeed.com/viewjob?jk=538bde2bee4e09c8"
       },
       {
         "title": "Senior Human Resources Officer (Talent Acquisition)",
@@ -52,6 +44,14 @@
         "site": "indeed",
         "date_posted": 1773792000000,
         "url": "https://it.indeed.com/viewjob?jk=900dbc9dfbe0fc1d"
+      },
+      {
+        "title": "HR Manager",
+        "company": "Rome Business School",
+        "score": 68,
+        "site": "indeed",
+        "date_posted": 1771891200000,
+        "url": "https://it.indeed.com/viewjob?jk=9e4d4e850de8c641"
       },
       {
         "title": "HR Manager",
@@ -68,14 +68,6 @@
         "site": "linkedin",
         "date_posted": 1771891200000,
         "url": "https://www.linkedin.com/jobs/view/4376408804"
-      },
-      {
-        "title": "Talent Acquisition Specialist",
-        "company": "MioDottore",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1771718400000,
-        "url": "https://www.linkedin.com/jobs/view/4374991693"
       },
       {
         "title": "HR Generalist",
@@ -142,20 +134,28 @@
         "url": "https://www.linkedin.com/jobs/view/4377781666"
       },
       {
+        "title": "HR Generalist (Sostituzione Maternità)",
+        "company": "Cinecittà World Spa",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1772668800000,
+        "url": "https://it.indeed.com/viewjob?jk=3d163f6171aad00b"
+      },
+      {
+        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
+        "company": "EmmeBi Group",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382298747"
+      },
+      {
         "title": "ADDETTO/A RICERCA E SELEZIONE DEL PERSONALE",
         "company": "FONDAZIONE LAVORO",
         "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4372870383"
-      },
-      {
-        "title": "HR Generalist (Categorie Protette L.68/99)",
-        "company": "FILMMASTER",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=9bb6d72ced10d28a"
       },
       {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4353205273"
       },
       {
-        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
-        "company": "EmmeBi Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382298747"
+        "title": "Stage HR Generalist",
+        "company": "Cerballiance",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1772409600000,
+        "url": "https://it.indeed.com/viewjob?jk=bae3581301fc03dd"
       }
     ]
   },
@@ -185,8 +185,13 @@
       },
       {
         "word": "responsabile",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
+      },
+      {
+        "word": "impiegato",
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "sales",
@@ -267,21 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 12 annunci ultimo scan vs media 33 (-64%)",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 34 (-88%)",
       "data": {
-        "current": 12,
-        "avg": 32.9,
-        "change_pct": -63.6
+        "current": 4,
+        "avg": 33.5,
+        "change_pct": -88.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 6,
-        "total": 12,
+        "new": 2,
+        "total": 4,
         "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 25% (-25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 75% (+25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -291,14 +316,24 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 288,
+            "id": 0,
+            "size": 267,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "senior"
+            ],
+            "pct": 60.7
+          },
+          {
+            "id": 1,
+            "size": 81,
             "top_terms": [
               "roma",
-              "hr",
-              "responsabile"
+              "addetto",
+              "vendite"
             ],
-            "pct": 65.5
+            "pct": 18.4
           },
           {
             "id": 4,
@@ -306,39 +341,29 @@
             "top_terms": [
               "risorse",
               "umane",
-              "addetto"
+              "impiegato"
             ],
             "pct": 9.3
           },
           {
-            "id": 0,
-            "size": 38,
-            "top_terms": [
-              "specialist",
-              "hr",
-              "talent"
-            ],
-            "pct": 8.6
-          },
-          {
-            "id": 1,
-            "size": 37,
-            "top_terms": [
-              "addetto",
-              "vendite",
-              "time"
-            ],
-            "pct": 8.4
-          },
-          {
-            "id": 3,
-            "size": 36,
+            "id": 2,
+            "size": 34,
             "top_terms": [
               "manager",
               "project",
-              "hr"
+              "international"
             ],
-            "pct": 8.2
+            "pct": 7.7
+          },
+          {
+            "id": 3,
+            "size": 17,
+            "top_terms": [
+              "junior",
+              "amministrazione",
+              "talent"
+            ],
+            "pct": 3.9
           }
         ]
       }

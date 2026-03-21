@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-20T07:31:39.038747",
+  "generated_at": "2026-03-21T07:20:21.245693",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 126,
+  "total_jobs_analyzed": 129,
   "scoring": {
-    "average": 14.5,
+    "average": 14.0,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 15,
-      "low": 6,
-      "irrelevant": 101
+      "low": 5,
+      "irrelevant": 105
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs manager & Affiliate Quality - Maternity Cover",
         "company": "Zoetis",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380677625"
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4382048302"
       },
       {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
-      },
-      {
         "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
         "company": "Aruba SpA",
         "score": 58,
@@ -70,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4380286522"
       },
       {
+        "title": "Regulatory Affairs Junior",
+        "company": "Gruppo SAVIO",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4378950465"
+      },
+      {
         "title": "Pharma Quality & Regulatory Specialist",
         "company": "DHL Supply Chain",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4374040980"
-      },
-      {
-        "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
-        "company": "APIS Srl Agenzia per il Lavoro",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=cb25b64b337026d5"
       },
       {
         "title": "Senior Regulatory Specialist",
@@ -100,14 +92,6 @@
         "site": "indeed",
         "date_posted": 1773792000000,
         "url": "https://it.indeed.com/viewjob?jk=3284c353192956a2"
-      },
-      {
-        "title": "Regulatory Affairs Junior",
-        "company": "Gruppo SAVIO",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
@@ -140,6 +124,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381266614"
+      },
+      {
+        "title": "Head of Regulatory Affairs Italy",
+        "company": "Merck Healthcare",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4366163549"
+      },
+      {
+        "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
+        "company": "APIS Srl Agenzia per il Lavoro",
+        "score": 52,
+        "site": "indeed",
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=cb25b64b337026d5"
       },
       {
         "title": "Regulatory Affairs Specialist I",
@@ -180,8 +180,13 @@
     "add_blacklist": [
       {
         "word": "assurance",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "lead",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "programma",
@@ -194,11 +199,6 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "lead",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
         "word": "operations",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
@@ -209,33 +209,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 10 (-69%)",
+      "data": {
+        "current": 3,
+        "avg": 9.7,
+        "change_pct": -69.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 3,
-        "total": 7,
-        "pct": 42.9
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 29% (+29pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 28.6
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 71% (-29pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 71.4
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
@@ -245,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 72,
+            "id": 1,
+            "size": 64,
             "top_terms": [
               "manager",
               "addetto",
-              "lead"
+              "officer"
             ],
-            "pct": 57.1
+            "pct": 49.6
           },
           {
-            "id": 3,
-            "size": 21,
+            "id": 0,
+            "size": 28,
             "top_terms": [
               "specialist",
               "regulatory",
-              "senior"
+              "affairs"
             ],
-            "pct": 16.7
-          },
-          {
-            "id": 1,
-            "size": 16,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 12.7
+            "pct": 21.7
           },
           {
             "id": 4,
-            "size": 12,
+            "size": 14,
             "top_terms": [
-              "assurance",
               "quality",
+              "assurance",
               "specialist"
             ],
-            "pct": 9.5
+            "pct": 10.9
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 12,
             "top_terms": [
-              "assistant",
-              "auditor",
-              "rm"
+              "lead",
+              "programma",
+              "gcap"
             ],
-            "pct": 4.0
+            "pct": 9.3
+          },
+          {
+            "id": 3,
+            "size": 11,
+            "top_terms": [
+              "compliance",
+              "internship",
+              "operations"
+            ],
+            "pct": 8.5
           }
         ]
       }
