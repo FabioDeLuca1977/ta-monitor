@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-21T07:20:21.112757",
+  "generated_at": "2026-03-22T07:27:50.835185",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
   "total_jobs_analyzed": 310,
   "scoring": {
-    "average": 14.7,
+    "average": 14.5,
     "distribution": {
       "excellent": 0,
       "good": 17,
       "medium": 32,
-      "low": 12,
-      "irrelevant": 249
+      "low": 11,
+      "irrelevant": 250
     },
     "top_jobs": [
       {
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 36,
-        "reason": "Appare 36x in annunci a basso score"
+        "count": 37,
+        "reason": "Appare 37x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 29,
+        "reason": "Appare 29x in annunci a basso score"
       },
       {
         "word": "senior",

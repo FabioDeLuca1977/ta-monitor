@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-21T07:20:21.245693",
+  "generated_at": "2026-03-22T07:27:50.975422",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 129,
+  "total_jobs_analyzed": 132,
   "scoring": {
-    "average": 14.0,
+    "average": 13.5,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 15,
-      "low": 5,
-      "irrelevant": 105
+      "low": 6,
+      "irrelevant": 107
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4381179443"
@@ -40,18 +40,10 @@
       {
         "title": "Regulatory Affairs Specialist I",
         "company": "myGwork - LGBTQ+ Business Community",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4382048302"
-      },
-      {
-        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
-        "company": "Aruba SpA",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386981425"
       },
       {
         "title": "Director of Regulatory Affairs",
@@ -78,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4374040980"
       },
       {
+        "title": "Regulatory Compliance– REACH & SCIP",
+        "company": "ADENTIS Italia",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384251524"
+      },
+      {
         "title": "Senior Regulatory Specialist",
         "company": "Amaris Consulting",
         "score": 57,
@@ -86,36 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4384478754"
       },
       {
-        "title": "Regulatory Affairs Consultant",
-        "company": "Amaris Consulting",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1773792000000,
-        "url": "https://it.indeed.com/viewjob?jk=3284c353192956a2"
-      },
-      {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383714021"
-      },
-      {
-        "title": "Regulatory Compliance– REACH & SCIP",
-        "company": "ADENTIS Italia",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384251524"
-      },
-      {
-        "title": "QA Operations GMP Compliance Intern",
-        "company": "Merck Healthcare",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1773792000000,
-        "url": "https://www.linkedin.com/jobs/view/4387457533"
       },
       {
         "title": "Global International Registrations and Regulatory Compliance",
@@ -134,12 +110,36 @@
         "url": "https://www.linkedin.com/jobs/view/4366163549"
       },
       {
+        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
+        "company": "Aruba SpA",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386981425"
+      },
+      {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
         "company": "APIS Srl Agenzia per il Lavoro",
-        "score": 52,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1773360000000,
         "url": "https://it.indeed.com/viewjob?jk=cb25b64b337026d5"
+      },
+      {
+        "title": "Regulatory Affairs Consultant",
+        "company": "Amaris Consulting",
+        "score": 52,
+        "site": "indeed",
+        "date_posted": 1773792000000,
+        "url": "https://it.indeed.com/viewjob?jk=3284c353192956a2"
+      },
+      {
+        "title": "QA Operations GMP Compliance Intern",
+        "company": "Merck Healthcare",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1773792000000,
+        "url": "https://www.linkedin.com/jobs/view/4387457533"
       },
       {
         "title": "Regulatory Affairs Specialist I",
@@ -211,21 +211,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 10 (-69%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 9 (-67%)",
       "data": {
         "current": 3,
-        "avg": 9.7,
-        "change_pct": -69.0
+        "avg": 9.2,
+        "change_pct": -67.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 2,
+        "new": 1,
         "total": 3,
-        "pct": 66.7
+        "pct": 33.3
       }
     },
     {
@@ -236,53 +236,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 64,
+            "size": 95,
             "top_terms": [
               "manager",
-              "addetto",
-              "officer"
+              "specialist",
+              "compliance"
             ],
-            "pct": 49.6
+            "pct": 72.0
           },
           {
-            "id": 0,
-            "size": 28,
+            "id": 2,
+            "size": 14,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
+              "assurance",
+              "quality",
+              "specialist"
             ],
-            "pct": 21.7
+            "pct": 10.6
           },
           {
             "id": 4,
             "size": 14,
             "top_terms": [
-              "quality",
-              "assurance",
+              "regulatory",
+              "affairs",
               "specialist"
             ],
-            "pct": 10.9
+            "pct": 10.6
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 0,
+            "size": 7,
             "top_terms": [
-              "lead",
-              "programma",
-              "gcap"
+              "specialist",
+              "quality",
+              "regulatory"
             ],
-            "pct": 9.3
+            "pct": 5.3
           },
           {
             "id": 3,
-            "size": 11,
+            "size": 2,
             "top_terms": [
-              "compliance",
-              "internship",
-              "operations"
+              "manufacturing",
+              "sterile",
+              "pds"
             ],
-            "pct": 8.5
+            "pct": 1.5
           }
         ]
       }
