@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-22T07:27:50.411037",
+  "generated_at": "2026-03-23T07:46:09.265170",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 47,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 30.1,
+    "average": 29.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 28,
+      "medium": 27,
       "low": 4,
       "irrelevant": 15
     },
@@ -16,18 +16,10 @@
       {
         "title": "Senior Clinical Research Associate",
         "company": "Alira Health",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": 1773619200000,
         "url": "https://www.linkedin.com/jobs/view/4386508727"
-      },
-      {
-        "title": "Informatore Medico Scientifico M/F",
-        "company": "KOLINPHARMA S.p.A",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4387326721"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -96,26 +88,10 @@
       {
         "title": "Informatore scientifico",
         "company": "Pharmera",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4374283868"
-      },
-      {
-        "title": "Regulatory Affairs",
-        "company": "Randstad Professional Italia",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384490252"
-      },
-      {
-        "title": "Clinical Specialist (f/m/d)",
-        "company": "W. L. Gore & Associates",
-        "score": 43,
-        "site": "indeed",
-        "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=e50b3c514abc4a60"
       },
       {
         "title": "ISF Agente Monomandatario",
@@ -134,12 +110,28 @@
         "url": "https://www.linkedin.com/jobs/view/4383042478"
       },
       {
+        "title": "Regulatory Affairs",
+        "company": "Randstad Professional Italia",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384490252"
+      },
+      {
         "title": "Informatore medico scientifico",
         "company": "Eberlife Farmaceutici S.p.A.",
         "score": 43,
         "site": "linkedin",
         "date_posted": 1773792000000,
         "url": "https://www.linkedin.com/jobs/view/4385061633"
+      },
+      {
+        "title": "Informatore Medico Scientifico M/F",
+        "company": "KOLINPHARMA S.p.A",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": 1773878400000,
+        "url": "https://www.linkedin.com/jobs/view/4387326721"
       },
       {
         "title": "Informatore scientifico commerciale | Veneto",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4374112742"
+      },
+      {
+        "title": "Informatore scientifico commerciale, VENETO",
+        "company": "Aliveda",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1773273600000,
+        "url": "https://www.linkedin.com/jobs/view/4382766288"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
       "data": {
         "current": 1,
-        "avg": 3.8,
-        "change_pct": -73.9
+        "avg": 4.1,
+        "change_pct": -75.6
       }
     },
     {
@@ -235,44 +235,44 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 20,
+            "id": 4,
+            "size": 19,
             "top_terms": [
               "nf",
               "isf",
               "infermiere"
             ],
-            "pct": 42.6
+            "pct": 41.3
           },
           {
-            "id": 3,
-            "size": 10,
+            "id": 1,
+            "size": 13,
             "top_terms": [
               "scientifico",
               "informatore",
               "farmaco"
             ],
-            "pct": 21.3
-          },
-          {
-            "id": 4,
-            "size": 7,
-            "top_terms": [
-              "medico",
-              "scientifico",
-              "informatore"
-            ],
-            "pct": 14.9
+            "pct": 28.3
           },
           {
             "id": 0,
-            "size": 6,
+            "size": 5,
             "top_terms": [
               "specialist",
               "clinical",
               "vicenza"
             ],
-            "pct": 12.8
+            "pct": 10.9
+          },
+          {
+            "id": 3,
+            "size": 5,
+            "top_terms": [
+              "medico",
+              "scientifico",
+              "informatore"
+            ],
+            "pct": 10.9
           },
           {
             "id": 2,
@@ -282,7 +282,7 @@
               "regulatory",
               "specialist"
             ],
-            "pct": 8.5
+            "pct": 8.7
           }
         ]
       }

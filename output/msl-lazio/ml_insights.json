@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-22T07:27:50.618011",
+  "generated_at": "2026-03-23T07:46:09.469139",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 32.0,
+    "average": 31.4,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 31,
+      "medium": 29,
       "low": 3,
-      "irrelevant": 22
+      "irrelevant": 23
     },
     "top_jobs": [
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 65,
+        "score": 66,
         "site": "indeed",
         "date_posted": 1773705600000,
         "url": "https://it.indeed.com/viewjob?jk=fec5dbd7c5febc45"
@@ -24,7 +24,7 @@
       {
         "title": "Medical Advisor",
         "company": "JX Executive",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1772496000000,
         "url": "https://www.linkedin.com/jobs/view/4378160848"
@@ -54,20 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4374614779"
       },
       {
-        "title": "Medical Science Liaison",
-        "company": "Syneos Health Commercial Solutions",
-        "score": 55,
+        "title": "Medical Affairs Scientist Oncology Breast Cancer",
+        "company": "Pfizer",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4364981952"
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4378841330"
       },
       {
         "title": "Regulatory Affairs manager & Affiliate Quality - Maternity Cover",
         "company": "Zoetis",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380677625"
+      },
+      {
+        "title": "Medical Science Liaison",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
         "title": "Director Regional Medical Affairs (all genders) EU5CAN Lung Cancer",
@@ -76,14 +84,6 @@
         "site": "indeed",
         "date_posted": 1773360000000,
         "url": "https://it.indeed.com/viewjob?jk=87711e3c90313bc0"
-      },
-      {
-        "title": "Senior Manager Regulatory Affairs",
-        "company": "OMISAN Schalcon",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4380259432"
       },
       {
         "title": "Clinical Development Medical Science Director",
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4385271426"
       },
       {
-        "title": "Medical Affairs Scientist Oncology Breast Cancer",
-        "company": "Pfizer",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4378841330"
-      },
-      {
         "title": "Senior Medical Science Liaison Italy Rare Tumor",
         "company": "Merck Healthcare",
         "score": 50,
@@ -132,22 +124,6 @@
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4379947378"
-      },
-      {
-        "title": "Country Medical Lead, Italy",
-        "company": "Guardant Health",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4342482448"
-      },
-      {
-        "title": "Senior Clinical Research Associate",
-        "company": "TRIO - Translational Research in Oncology",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4369990305"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4382048302"
+      },
+      {
+        "title": "Clinical Research Associate",
+        "company": "TRIO - Translational Research in Oncology",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4364244677"
+      },
+      {
+        "title": "Country Medical Lead, Italy",
+        "company": "Guardant Health",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4342482448"
+      },
+      {
+        "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
+        "company": "Allergan Aesthetics, an AbbVie Company",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4376900293"
       }
     ]
   },
@@ -190,6 +190,11 @@
       },
       {
         "word": "italy",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "temporary",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -231,31 +236,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
         "current": 1,
-        "avg": 4.8,
-        "change_pct": -78.9
+        "avg": 4.3,
+        "change_pct": -76.8
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -265,54 +270,54 @@
       "data": {
         "clusters": [
           {
+            "id": 0,
+            "size": 18,
+            "top_terms": [
+              "monitoring",
+              "analyst",
+              "cra"
+            ],
+            "pct": 31.6
+          },
+          {
             "id": 2,
-            "size": 19,
-            "top_terms": [
-              "specialist",
-              "lead",
-              "analyst"
-            ],
-            "pct": 32.8
-          },
-          {
-            "id": 3,
-            "size": 13,
-            "top_terms": [
-              "medical",
-              "liaison",
-              "science"
-            ],
-            "pct": 22.4
-          },
-          {
-            "id": 4,
             "size": 13,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 22.4
+            "pct": 22.8
           },
           {
             "id": 1,
+            "size": 11,
+            "top_terms": [
+              "medical",
+              "liaison",
+              "science"
+            ],
+            "pct": 19.3
+          },
+          {
+            "id": 4,
             "size": 8,
             "top_terms": [
               "manager",
-              "product",
+              "clinical",
               "associate"
             ],
-            "pct": 13.8
+            "pct": 14.0
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 3,
+            "size": 7,
             "top_terms": [
-              "senior",
-              "cra",
-              "security"
+              "specialist",
+              "programma",
+              "gcap"
             ],
-            "pct": 8.6
+            "pct": 12.3
           }
         ]
       }

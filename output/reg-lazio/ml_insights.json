@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-22T07:27:50.975422",
+  "generated_at": "2026-03-23T07:46:09.818137",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 132,
+  "total_jobs_analyzed": 131,
   "scoring": {
-    "average": 13.5,
+    "average": 13.0,
     "distribution": {
       "excellent": 0,
       "good": 4,
-      "medium": 15,
+      "medium": 14,
       "low": 6,
       "irrelevant": 107
     },
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380677625"
-      },
-      {
-        "title": "Senior Manager Regulatory Affairs",
-        "company": "OMISAN Schalcon",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4380259432"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -46,9 +38,17 @@
         "url": "https://www.linkedin.com/jobs/view/4382048302"
       },
       {
+        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
+        "company": "Aruba SpA",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386981425"
+      },
+      {
         "title": "Director of Regulatory Affairs",
         "company": "Confidential",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380286522"
@@ -96,7 +96,7 @@
       {
         "title": "Global International Registrations and Regulatory Compliance",
         "company": "OMISAN farmaceutici",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381266614"
@@ -104,18 +104,10 @@
       {
         "title": "Head of Regulatory Affairs Italy",
         "company": "Merck Healthcare",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4366163549"
-      },
-      {
-        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
-        "company": "Aruba SpA",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386981425"
       },
       {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
@@ -134,20 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=3284c353192956a2"
       },
       {
+        "title": "Regulatory Affairs Specialist I",
+        "company": "Thermo Fisher Scientific",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1773014400000,
+        "url": "https://it.indeed.com/viewjob?jk=888f0a020fc5d5a4"
+      },
+      {
         "title": "QA Operations GMP Compliance Intern",
         "company": "Merck Healthcare",
         "score": 50,
         "site": "linkedin",
         "date_posted": 1773792000000,
         "url": "https://www.linkedin.com/jobs/view/4387457533"
-      },
-      {
-        "title": "Regulatory Affairs Specialist I",
-        "company": "Thermo Fisher Scientific",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1773014400000,
-        "url": "https://it.indeed.com/viewjob?jk=888f0a020fc5d5a4"
       },
       {
         "title": "Regulatory Compliance Supervisor - Fix Term Contract",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=6aa19e9d499d6b03"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Kuehne+Nagel",
+        "score": 23,
+        "site": "linkedin",
+        "date_posted": 1773964800000,
+        "url": "https://www.linkedin.com/jobs/view/4369775533"
       }
     ]
   },
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 9 (-67%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 10 (-70%)",
       "data": {
         "current": 3,
-        "avg": 9.2,
-        "change_pct": -67.4
+        "avg": 9.8,
+        "change_pct": -69.5
       }
     },
     {
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 95,
+            "id": 0,
+            "size": 89,
             "top_terms": [
               "manager",
-              "specialist",
-              "compliance"
+              "compliance",
+              "addetto"
             ],
-            "pct": 72.0
+            "pct": 67.9
           },
           {
-            "id": 2,
+            "id": 1,
+            "size": 15,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 11.5
+          },
+          {
+            "id": 4,
             "size": 14,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 10.6
+            "pct": 10.7
           },
           {
-            "id": 4,
-            "size": 14,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 10.6
-          },
-          {
-            "id": 0,
+            "id": 3,
             "size": 7,
             "top_terms": [
-              "specialist",
-              "quality",
-              "regulatory"
+              "gcap",
+              "programma",
+              "security"
             ],
             "pct": 5.3
           },
           {
-            "id": 3,
-            "size": 2,
+            "id": 2,
+            "size": 6,
             "top_terms": [
-              "manufacturing",
-              "sterile",
-              "pds"
+              "specialist",
+              "quality",
+              "week"
             ],
-            "pct": 1.5
+            "pct": 4.6
           }
         ]
       }

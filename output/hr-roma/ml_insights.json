@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-22T07:27:50.193600",
+  "generated_at": "2026-03-23T07:46:09.054611",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 346,
+  "total_jobs_analyzed": 337,
   "scoring": {
-    "average": 16.9,
+    "average": 17.0,
     "distribution": {
-      "excellent": 1,
-      "good": 14,
-      "medium": 46,
-      "low": 67,
-      "irrelevant": 218
+      "excellent": 0,
+      "good": 15,
+      "medium": 44,
+      "low": 66,
+      "irrelevant": 212
     },
     "top_jobs": [
       {
         "title": "HR Specialist – Selezione e Gestione Risorse Umane",
         "company": "EmmeBi Group",
-        "score": 82,
+        "score": 76,
         "site": "linkedin",
         "date_posted": 1773878400000,
         "url": "https://www.linkedin.com/jobs/view/4387375901"
@@ -24,7 +24,7 @@
       {
         "title": "Head hunter/HR Recruiter Senior - Fiumicino",
         "company": "EASYDIGITALGROUP",
-        "score": 73,
+        "score": 75,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=538bde2bee4e09c8"
@@ -64,34 +64,10 @@
       {
         "title": "Senior Human Resources Officer (Talent Acquisition)",
         "company": "Food and Agriculture Organization of the United Nations",
-        "score": 65,
+        "score": 64,
         "site": "indeed",
         "date_posted": 1773792000000,
         "url": "https://it.indeed.com/viewjob?jk=900dbc9dfbe0fc1d"
-      },
-      {
-        "title": "HR Business Partner",
-        "company": "Le Graal",
-        "score": 63,
-        "site": "google",
-        "date_posted": 1773964800000,
-        "url": "https://bebee.com/it/jobs/hr-business-partner-le-graal-roma--jooble-4839736499659119967?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Talent Acquisition Manager - Retail GDO",
-        "company": "Hays",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377781666"
-      },
-      {
-        "title": "Talent Acquisition Specialist",
-        "company": "Openjobmetis SpA",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4387117006"
       },
       {
         "title": "Human Resources Business Partner",
@@ -100,6 +76,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4369142800"
+      },
+      {
+        "title": "HR Business Partner",
+        "company": "Le Graal",
+        "score": 62,
+        "site": "google",
+        "date_posted": 1773964800000,
+        "url": "https://bebee.com/it/jobs/hr-business-partner-le-graal-roma--jooble-4839736499659119967?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Talent Acquisition Manager - Retail GDO",
+        "company": "Hays",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4381729939"
       },
       {
         "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
@@ -116,6 +108,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4372870383"
+      },
+      {
+        "title": "Talent Acquisition Specialist",
+        "company": "Openjobmetis SpA",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387117006"
       },
       {
         "title": "HR RECRUITER SPECIALIST",
@@ -150,28 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=bae3581301fc03dd"
       },
       {
-        "title": "Junior Talent Acquisition Intern",
-        "company": "PQE Group",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385019467"
-      },
-      {
-        "title": "Talent Acquisition Trainee - Spanish & Italian Market",
-        "company": "Ecolab",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1772668800000,
-        "url": "https://it.indeed.com/viewjob?jk=6963987ec332548f"
-      },
-      {
         "title": "HR Generalist (Sostituzione Maternità)",
         "company": "Cinecittà World Spa",
         "score": 57,
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=3d163f6171aad00b"
+      },
+      {
+        "title": "Head of Tech Talent & Employer Branding",
+        "company": "Exein",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382877550"
+      },
+      {
+        "title": "HR Recruiter (Chinese-speaking)",
+        "company": "GOFO",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383229094"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -192,11 +192,6 @@
         "word": "impiegato",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "time",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
       }
     ],
     "review": []
@@ -267,40 +262,40 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 26 (-77%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 26 (-96%)",
       "data": {
-        "current": 6,
-        "avg": 26.2,
-        "change_pct": -77.1
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 6/6 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 6,
-        "total": 6,
-        "pct": 100.0
+        "current": 1,
+        "avg": 25.8,
+        "change_pct": -96.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 google: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
       "data": {
-        "channel": "google",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 80.0,
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 google: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "google",
+        "old_pct": 66.7,
         "new_pct": 0.0
       }
     },
@@ -311,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 171,
-            "top_terms": [
-              "manager",
-              "responsabile",
-              "junior"
-            ],
-            "pct": 49.4
-          },
-          {
-            "id": 3,
-            "size": 66,
+            "id": 0,
+            "size": 206,
             "top_terms": [
               "addetto",
               "roma",
-              "personale"
+              "responsabile"
             ],
-            "pct": 19.1
-          },
-          {
-            "id": 1,
-            "size": 39,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 11.3
+            "pct": 61.1
           },
           {
             "id": 2,
-            "size": 38,
+            "size": 37,
             "top_terms": [
-              "hr",
-              "intern",
-              "generalist"
+              "umane",
+              "risorse",
+              "impiegato"
             ],
             "pct": 11.0
           },
           {
-            "id": 0,
+            "id": 1,
+            "size": 34,
+            "top_terms": [
+              "hr",
+              "recruiter",
+              "generalist"
+            ],
+            "pct": 10.1
+          },
+          {
+            "id": 3,
             "size": 32,
+            "top_terms": [
+              "manager",
+              "talent",
+              "acquisition"
+            ],
+            "pct": 9.5
+          },
+          {
+            "id": 4,
+            "size": 28,
             "top_terms": [
               "specialist",
               "hr",
-              "talent"
+              "administration"
             ],
-            "pct": 9.2
+            "pct": 8.3
           }
         ]
       }

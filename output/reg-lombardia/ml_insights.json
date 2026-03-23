@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-22T07:27:50.835185",
+  "generated_at": "2026-03-23T07:46:09.682641",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 310,
+  "total_jobs_analyzed": 305,
   "scoring": {
-    "average": 14.5,
+    "average": 14.3,
     "distribution": {
       "excellent": 0,
-      "good": 17,
+      "good": 15,
       "medium": 32,
-      "low": 11,
-      "irrelevant": 250
+      "low": 10,
+      "irrelevant": 248
     },
     "top_jobs": [
       {
@@ -28,6 +28,14 @@
         "site": "linkedin",
         "date_posted": 1772409600000,
         "url": "https://www.linkedin.com/jobs/view/4377734342"
+      },
+      {
+        "title": "Non-Pharma Global Regulatory Affairs Manager",
+        "company": "Alfasigma",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1772409600000,
+        "url": "https://www.linkedin.com/jobs/view/4377374447"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -55,22 +63,6 @@
       },
       {
         "title": "Regulatory Affairs Specialist",
-        "company": "Gi Group",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381051535"
-      },
-      {
-        "title": "Non-Pharma Global Regulatory Affairs Manager",
-        "company": "Alfasigma",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377374447"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
         "company": "Cosmo I Building Health Confidence",
         "score": 63,
         "site": "linkedin",
@@ -94,19 +86,11 @@
         "url": "https://www.linkedin.com/jobs/view/4383138459"
       },
       {
-        "title": "Lead Regulatory Affairs Manager, International",
-        "company": "Exact Sciences",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1773878400000,
-        "url": "https://it.indeed.com/viewjob?jk=996072c08be4d091"
-      },
-      {
         "title": "Regulatory Affairs Manager - Plant Protection Products",
         "company": "ADAMA Ltd.",
         "score": 62,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1772841600000,
         "url": "https://www.linkedin.com/jobs/view/4362746384"
       },
       {
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": 1772668800000,
         "url": "https://www.linkedin.com/jobs/view/4374599863"
+      },
+      {
+        "title": "Associate Director Regulatory Affairs",
+        "company": "Philogen S.p.A.",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4369075105"
+      },
+      {
+        "title": "Director, Market activation and Regulatory Affairs",
+        "company": "Cespira",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383721247"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 37,
-        "reason": "Appare 37x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 29,
-        "reason": "Appare 29x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 27,
-        "reason": "Appare 27x in annunci a basso score"
+        "count": 28,
+        "reason": "Appare 28x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 28,
+        "reason": "Appare 28x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -200,19 +200,13 @@
       },
       {
         "word": "sales",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
-    {
-      "keyword": "junior regulatory",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
     {
       "keyword": "affairs associate",
       "frequency": 3,
@@ -220,13 +214,19 @@
       "confidence": 45
     },
     {
-      "keyword": "junior",
+      "keyword": "junior regulatory",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "associate",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
     },
     {
-      "keyword": "associate",
+      "keyword": "junior",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
@@ -240,13 +240,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 23 (-91%)",
+      "data": {
+        "current": 2,
+        "avg": 23.3,
+        "change_pct": -91.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 12/21 annunci da aziende nuove (57.1%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 12,
-        "total": 21,
-        "pct": 57.1
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 24% a 0% (-24pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 23.8,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 76% a 100% (+24pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 76.2,
+        "new_pct": 100.0
       }
     },
     {
@@ -257,53 +287,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 180,
+            "size": 170,
             "top_terms": [
               "specialist",
-              "sales",
-              "farmacista"
+              "italy",
+              "sales"
             ],
-            "pct": 58.1
-          },
-          {
-            "id": 4,
-            "size": 42,
-            "top_terms": [
-              "manager",
-              "senior",
-              "project"
-            ],
-            "pct": 13.5
+            "pct": 55.7
           },
           {
             "id": 2,
-            "size": 39,
+            "size": 48,
+            "top_terms": [
+              "manager",
+              "senior",
+              "product"
+            ],
+            "pct": 15.7
+          },
+          {
+            "id": 1,
+            "size": 45,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.6
+            "pct": 14.8
           },
           {
-            "id": 1,
-            "size": 34,
+            "id": 3,
+            "size": 33,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 11.0
+            "pct": 10.8
           },
           {
-            "id": 3,
-            "size": 15,
+            "id": 4,
+            "size": 9,
             "top_terms": [
-              "medical",
-              "affairs",
-              "director"
+              "farmacista",
+              "roma",
+              "ctf"
             ],
-            "pct": 4.8
+            "pct": 3.0
           }
         ]
       }
