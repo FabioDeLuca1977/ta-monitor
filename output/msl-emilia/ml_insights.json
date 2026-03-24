@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-23T07:46:09.418414",
+  "generated_at": "2026-03-24T07:37:20.329713",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 26,
   "scoring": {
-    "average": 24.2,
+    "average": 24.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 12,
       "low": 1,
-      "irrelevant": 14
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381888577"
-      },
-      {
-        "title": "Medical Science Liaison Dermatology - Emilia Romagna, Triveneto, Marche",
-        "company": "AbbVie",
-        "score": 53,
-        "site": "indeed",
-        "date_posted": 1773619200000,
-        "url": "https://it.indeed.com/viewjob?jk=8aaa52dfda37f98b"
       },
       {
         "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
@@ -44,6 +36,14 @@
         "site": "indeed",
         "date_posted": 1772496000000,
         "url": "https://it.indeed.com/viewjob?jk=9afdaa04d6b4c602"
+      },
+      {
+        "title": "Medical Science Liaison Dermatology - Emilia Romagna, Triveneto, Marche",
+        "company": "AbbVie",
+        "score": 48,
+        "site": "indeed",
+        "date_posted": 1773619200000,
+        "url": "https://it.indeed.com/viewjob?jk=8aaa52dfda37f98b"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -162,7 +162,7 @@
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1772928000000,
         "url": "https://www.linkedin.com/jobs/view/4355910005"
       },
       {
@@ -179,12 +179,12 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "engineer",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "engineer",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -230,6 +230,16 @@
       "data": {
         "clusters": [
           {
+            "id": 0,
+            "size": 8,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 30.8
+          },
+          {
             "id": 4,
             "size": 7,
             "top_terms": [
@@ -237,47 +247,37 @@
               "emilia",
               "medical"
             ],
-            "pct": 25.9
-          },
-          {
-            "id": 0,
-            "size": 6,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 22.2
+            "pct": 26.9
           },
           {
             "id": 1,
-            "size": 5,
+            "size": 4,
             "top_terms": [
-              "specialist",
               "clinical",
+              "specialist",
               "electrophysiology"
             ],
-            "pct": 18.5
+            "pct": 15.4
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 4,
             "top_terms": [
               "manager",
-              "regulatory",
-              "lead"
+              "lead",
+              "evidence"
             ],
-            "pct": 18.5
+            "pct": 15.4
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 3,
             "top_terms": [
               "engineer",
               "principal",
               "process"
             ],
-            "pct": 14.8
+            "pct": 11.5
           }
         ]
       }

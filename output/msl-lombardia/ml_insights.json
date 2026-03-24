@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-23T07:46:09.380109",
+  "generated_at": "2026-03-24T07:37:20.292178",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 190,
+  "total_jobs_analyzed": 191,
   "scoring": {
-    "average": 29.9,
+    "average": 29.6,
     "distribution": {
       "excellent": 0,
       "good": 6,
-      "medium": 91,
+      "medium": 90,
       "low": 13,
-      "irrelevant": 80
+      "irrelevant": 82
     },
     "top_jobs": [
       {
@@ -28,6 +28,14 @@
         "site": "linkedin",
         "date_posted": 1772582400000,
         "url": "https://www.linkedin.com/jobs/view/4380931992"
+      },
+      {
+        "title": "Medical Science Liaison (MSL), Italy",
+        "company": "Nordberg Medical",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4385588393"
       },
       {
         "title": "Medical Science Liaison - Nord & Centro Italia",
@@ -54,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
-        "title": "Medical Science Liaison (MSL), Italy",
-        "company": "Nordberg Medical",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385588393"
-      },
-      {
         "title": "Medical Advisor Junior",
         "company": "Neopharmed Gentili S.P.A.",
         "score": 59,
@@ -74,8 +74,8 @@
         "company": "Professional Recruitment",
         "score": 58,
         "site": "linkedin",
-        "date_posted": 1772582400000,
-        "url": "https://www.linkedin.com/jobs/view/4379665201"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4381863007"
       },
       {
         "title": "Head of Medical Affairs - Italy",
@@ -92,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381897037"
+      },
+      {
+        "title": "International Medical Advisor - Oncology",
+        "company": "Barrington James",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4376580779"
       },
       {
         "title": "Medical Science Liaison (Respiratory)",
@@ -142,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
-        "title": "(Associate) Medical Director - Neurology",
-        "company": "Thermo Fisher Scientific",
-        "score": 55,
+        "title": "Medical Affairs Clinician - Italy",
+        "company": "Evolus",
+        "score": 56,
         "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4353693016"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
         "title": "Junior Regulatory Affairs Medical Device",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386347390"
-      },
-      {
-        "title": "Global Director Medical Affairs",
-        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384893307"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 27,
-        "reason": "Appare 27x in annunci a basso score"
+        "count": 26,
+        "reason": "Appare 26x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -194,14 +194,14 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "access",
+        "word": "associate",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "access",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,21 +214,9 @@
       "confidence": 70
     },
     {
-      "keyword": "director italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "director medical",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "global",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     },
     {
@@ -241,42 +229,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 14 (-93%)",
+      "severity": "medium",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 13 (-31%)",
       "data": {
-        "current": 1,
-        "avg": 13.5,
-        "change_pct": -92.6
+        "current": 9,
+        "avg": 13.0,
+        "change_pct": -30.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 3,
+        "total": 9,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 linkedin: quota passata da 100% a 56% (-44pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 55.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 indeed: quota passata da 0% a 44% (+44pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 44.4
       }
     },
     {
@@ -287,53 +275,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 68,
+            "size": 74,
             "top_terms": [
-              "cra",
               "specialist",
-              "senior"
+              "cra",
+              "clinical"
             ],
-            "pct": 35.8
-          },
-          {
-            "id": 4,
-            "size": 39,
-            "top_terms": [
-              "medical",
-              "director",
-              "lead"
-            ],
-            "pct": 20.5
+            "pct": 38.7
           },
           {
             "id": 1,
-            "size": 33,
+            "size": 47,
+            "top_terms": [
+              "medical",
+              "director",
+              "associate"
+            ],
+            "pct": 24.6
+          },
+          {
+            "id": 4,
+            "size": 32,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.4
+            "pct": 16.8
           },
           {
-            "id": 3,
-            "size": 28,
+            "id": 2,
+            "size": 25,
             "top_terms": [
               "manager",
               "product",
               "access"
             ],
-            "pct": 14.7
+            "pct": 13.1
           },
           {
-            "id": 2,
-            "size": 22,
+            "id": 3,
+            "size": 13,
             "top_terms": [
-              "clinical",
-              "associate",
-              "research"
+              "lead",
+              "medical",
+              "international"
             ],
-            "pct": 11.6
+            "pct": 6.8
           }
         ]
       }

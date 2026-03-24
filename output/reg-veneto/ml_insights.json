@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-23T07:46:09.516947",
+  "generated_at": "2026-03-24T07:37:20.428522",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 15.2,
+    "average": 14.7,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 5,
+      "good": 2,
+      "medium": 6,
       "low": 2,
       "irrelevant": 36
     },
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1772496000000,
         "url": "https://www.linkedin.com/jobs/view/4378178500"
-      },
-      {
-        "title": "Regulatory Affairs Specialist – International market",
-        "company": "Labomar S.r.l.",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1773964800000,
-        "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4384490252"
+      },
+      {
+        "title": "Regulatory Affairs Specialist – International market",
+        "company": "Labomar S.r.l.",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1773964800000,
+        "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
       },
       {
         "title": "Senior International Regulatory Specialist",
@@ -80,7 +80,7 @@
       {
         "title": "Architectural & Technical Compliance Manager Job",
         "company": "Arkema",
-        "score": 34,
+        "score": 29,
         "site": "indeed",
         "date_posted": 1773619200000,
         "url": "https://it.indeed.com/viewjob?jk=94a850266bdb7931"
@@ -96,7 +96,7 @@
       {
         "title": "IT & Digital Manager Factory",
         "company": "Reckitt",
-        "score": 19,
+        "score": 14,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=905fa943faed577f"
@@ -118,20 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4385742830"
       },
       {
-        "title": "Quality Assurance – Sistema e processi",
-        "company": "AxL Spa – ALTI PROFILI",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377738619"
-      },
-      {
         "title": "IT Business Analyst - Quality Assurance",
         "company": "FIS",
         "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4384144953"
+      },
+      {
+        "title": "Estetista",
+        "company": "Florida Beauty Store",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1774224000000,
+        "url": "https://it.indeed.com/viewjob?jk=b65d26cb1d2b1eca"
+      },
+      {
+        "title": "Impiegato commerciale",
+        "company": "Tsvi srl",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1774224000000,
+        "url": "https://it.indeed.com/viewjob?jk=7c4c6422fd292049"
       },
       {
         "title": "Export Compliance Specialist",
@@ -150,28 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=e7841aef218bbb1f"
       },
       {
-        "title": "Tecnico impiantista",
-        "company": "FONDERIE DI MONTORSO",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1773964800000,
-        "url": "https://it.indeed.com/viewjob?jk=ced9b29b73762f0c"
-      },
-      {
-        "title": "Venice Marine Surveyor",
-        "company": "RINA",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1773964800000,
-        "url": "https://it.indeed.com/viewjob?jk=5617102e8952e0b0"
-      },
-      {
-        "title": "Regional Manager - Italy",
-        "company": "KellyDeli",
+        "title": "Quality Assurance Expert",
+        "company": "Fidia Pharma",
         "score": 8,
-        "site": "indeed",
-        "date_posted": 1772409600000,
-        "url": "https://it.indeed.com/viewjob?jk=8198136cc8903bc3"
+        "site": "linkedin",
+        "date_posted": 1772582400000,
+        "url": "https://www.linkedin.com/jobs/view/4378920583"
+      },
+      {
+        "title": "Addetto sistema qualità alimentare",
+        "company": "Randstad Italia",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4378926194"
       }
     ]
   },
@@ -179,27 +179,27 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
         "word": "tecnico",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "quality",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "addetto",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "sistema",
+        "word": "padova",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,43 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+50%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-55%)",
       "data": {
-        "current": 6,
-        "avg": 4.0,
-        "change_pct": 50.0
+        "current": 2,
+        "avg": 4.4,
+        "change_pct": -54.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 6,
-        "pct": 83.3
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 22,
+            "id": 0,
+            "size": 27,
             "top_terms": [
-              "manager",
-              "meccanico",
-              "project"
+              "specialist",
+              "addetto",
+              "product"
             ],
-            "pct": 47.8
+            "pct": 58.7
           },
           {
-            "id": 0,
-            "size": 10,
+            "id": 1,
+            "size": 7,
             "top_terms": [
               "regulatory",
-              "specialist",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 21.7
+            "pct": 15.2
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 6,
             "top_terms": [
               "assurance",
               "quality",
-              "specialist"
+              "gmp"
             ],
             "pct": 13.0
           },
           {
-            "id": 2,
-            "size": 5,
+            "id": 4,
+            "size": 4,
             "top_terms": [
               "tecnico",
               "padova",
-              "camper"
+              "impiegato"
             ],
-            "pct": 10.9
+            "pct": 8.7
           },
           {
-            "id": 4,
-            "size": 3,
+            "id": 3,
+            "size": 2,
             "top_terms": [
-              "addetto",
-              "sistema",
-              "padova"
+              "camper",
+              "tecnico",
+              "technical"
             ],
-            "pct": 6.5
+            "pct": 4.3
           }
         ]
       }

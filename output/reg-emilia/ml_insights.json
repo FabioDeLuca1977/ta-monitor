@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-23T07:46:09.731220",
+  "generated_at": "2026-03-24T07:37:20.642172",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 13.0,
+    "average": 12.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -32,10 +32,18 @@
       {
         "title": "Regulatory Affair Coordinator",
         "company": "Cefla",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383334187"
+      },
+      {
+        "title": "Quality Assurance - Regulatory Affairs Reach e CLP",
+        "company": "Lavoropiù SpA",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387803714"
       },
       {
         "title": "Regulatory Affairs Specialist - REACH e CLP",
@@ -44,14 +52,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4384850619"
-      },
-      {
-        "title": "Quality Assurance - Regulatory Affairs Reach e CLP",
-        "company": "Lavoropiù SpA",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4387803714"
       },
       {
         "title": "Non-Pharma Global Regulatory Affairs Manager",
@@ -64,7 +64,7 @@
       {
         "title": "Regulatory Affairs",
         "company": "Content Group",
-        "score": 48,
+        "score": 47,
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=f00864ccd9de870d"
@@ -78,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4385921296"
       },
       {
-        "title": "Quality Assurance Manager",
-        "company": "CASTAGNOLI VITERIE",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384004222"
+        "title": "Senior Product Manager - Digital Solutions",
+        "company": "Allegion",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1774224000000,
+        "url": "https://it.indeed.com/viewjob?jk=6ecc09f74954092c"
       },
       {
         "title": "Quality Assurance Sr. Specialist",
@@ -94,12 +94,12 @@
         "url": "https://it.indeed.com/viewjob?jk=aadffcf355555d12"
       },
       {
-        "title": "LIMS/MODA & GMP Documentation Specialist",
-        "company": "PQE Group",
-        "score": 13,
+        "title": "Quality Assurance Manager",
+        "company": "CASTAGNOLI VITERIE",
+        "score": 15,
         "site": "linkedin",
-        "date_posted": 1772409600000,
-        "url": "https://www.linkedin.com/jobs/view/4377397158"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384004222"
       },
       {
         "title": "Software Quality Assurance Specialist (Maranello)",
@@ -126,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4385508214"
       },
       {
+        "title": "LIMS/MODA & GMP Documentation Specialist",
+        "company": "PQE Group",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384050652"
+      },
+      {
         "title": "Project Manager Junior - Agriculture field",
         "company": "STAR Italia",
         "score": 13,
@@ -150,12 +158,12 @@
         "url": "https://it.indeed.com/viewjob?jk=8491f0c2daec0e36"
       },
       {
-        "title": "Bid Costing Manager",
-        "company": "ALSTOM",
+        "title": "SAP Controlling Business Analyst",
+        "company": "Datalogic",
         "score": 12,
         "site": "indeed",
-        "date_posted": 1773619200000,
-        "url": "https://it.indeed.com/viewjob?jk=5e3a2774cccd07f1"
+        "date_posted": 1774224000000,
+        "url": "https://it.indeed.com/viewjob?jk=0b95a14278544c4b"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST - ISO 9001 & MOCA",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4355234223"
-      },
-      {
-        "title": "Quality Assurance Specialist - Reggio Emilia -",
-        "company": "Centrale del Latte d'Italia S.p.A.",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385370129"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -218,31 +218,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 25% (-42pp)",
+      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 75% (+42pp)",
+      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -252,14 +252,14 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 26,
+            "id": 2,
+            "size": 28,
             "top_terms": [
               "qualità",
-              "impiegato",
-              "writer"
+              "bologna",
+              "responsabile"
             ],
-            "pct": 48.1
+            "pct": 51.9
           },
           {
             "id": 1,
@@ -272,32 +272,32 @@
             "pct": 24.1
           },
           {
-            "id": 0,
-            "size": 8,
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
-              "manager"
+              "specialist"
             ],
-            "pct": 14.8
+            "pct": 13.0
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "specialist",
+              "tecnico",
+              "impiegato"
+            ],
+            "pct": 5.6
           },
           {
             "id": 4,
-            "size": 4,
-            "top_terms": [
-              "specialist",
-              "writer",
-              "impiegato"
-            ],
-            "pct": 7.4
-          },
-          {
-            "id": 2,
             "size": 3,
             "top_terms": [
-              "agriculture",
-              "project",
-              "field"
+              "manager",
+              "regulatory",
+              "tecnico"
             ],
             "pct": 5.6
           }
