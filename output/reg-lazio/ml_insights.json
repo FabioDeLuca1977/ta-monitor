@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-24T07:37:20.729016",
+  "generated_at": "2026-03-25T07:35:19.975301",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 131,
+  "total_jobs_analyzed": 121,
   "scoring": {
-    "average": 13.6,
+    "average": 14.5,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 16,
       "low": 5,
-      "irrelevant": 106
+      "irrelevant": 96
     },
     "top_jobs": [
       {
@@ -46,28 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4386981425"
       },
       {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
-      },
-      {
         "title": "Director of Regulatory Affairs",
         "company": "Confidential",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1772755200000,
         "url": "https://www.linkedin.com/jobs/view/4380286522"
-      },
-      {
-        "title": "Regulatory Affairs Junior",
-        "company": "Gruppo SAVIO",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
         "title": "Pharma Quality & Regulatory Specialist",
@@ -78,12 +62,28 @@
         "url": "https://www.linkedin.com/jobs/view/4374040980"
       },
       {
+        "title": "Head of Regulatory Affairs Italy",
+        "company": "Merck Healthcare",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4366163549"
+      },
+      {
         "title": "Senior Regulatory Specialist",
         "company": "Amaris Consulting",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4384478754"
+      },
+      {
+        "title": "Regulatory Affairs Junior",
+        "company": "Gruppo SAVIO",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1772668800000,
+        "url": "https://www.linkedin.com/jobs/view/4378950465"
       },
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
@@ -120,7 +120,7 @@
       {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
         "company": "APIS Srl Agenzia per il Lavoro",
-        "score": 53,
+        "score": 52,
         "site": "indeed",
         "date_posted": 1773360000000,
         "url": "https://it.indeed.com/viewjob?jk=cb25b64b337026d5"
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "assurance",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "programma",
+        "word": "senior",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "gcap",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "operations",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "compliance",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "operations",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "consultant",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,22 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "new_company_surge",
+      "type": "volume_drop",
       "severity": "medium",
-      "message": "🆕 Philip Morris International: 2 posizioni, non presente negli scan precedenti",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 9 (-44%)",
       "data": {
-        "company": "Philip Morris International",
-        "count": 2
+        "current": 5,
+        "avg": 8.9,
+        "change_pct": -44.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/9 annunci da aziende nuove (77.8%)",
+      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
       "data": {
-        "new": 7,
-        "total": 9,
-        "pct": 77.8
+        "new": 1,
+        "total": 5,
+        "pct": 20.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 66,
+            "size": 52,
             "top_terms": [
-              "compliance",
               "addetto",
-              "assistant"
+              "roma",
+              "medical"
             ],
-            "pct": 50.4
-          },
-          {
-            "id": 4,
-            "size": 23,
-            "top_terms": [
-              "specialist",
-              "gcap",
-              "programma"
-            ],
-            "pct": 17.6
-          },
-          {
-            "id": 2,
-            "size": 19,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "compliance"
-            ],
-            "pct": 14.5
-          },
-          {
-            "id": 1,
-            "size": 14,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 10.7
+            "pct": 43.0
           },
           {
             "id": 3,
-            "size": 9,
+            "size": 27,
+            "top_terms": [
+              "specialist",
+              "affairs",
+              "regulatory"
+            ],
+            "pct": 22.3
+          },
+          {
+            "id": 2,
+            "size": 15,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 12.4
+          },
+          {
+            "id": 4,
+            "size": 14,
             "top_terms": [
               "manager",
-              "operations",
-              "programma"
+              "senior",
+              "operations"
             ],
-            "pct": 6.9
+            "pct": 11.6
+          },
+          {
+            "id": 1,
+            "size": 13,
+            "top_terms": [
+              "compliance",
+              "regulatory",
+              "operations"
+            ],
+            "pct": 10.7
           }
         ]
       }

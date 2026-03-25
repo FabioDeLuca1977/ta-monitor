@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-24T07:37:20.292178",
+  "generated_at": "2026-03-25T07:35:19.550342",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 191,
+  "total_jobs_analyzed": 194,
   "scoring": {
-    "average": 29.6,
+    "average": 29.4,
     "distribution": {
       "excellent": 0,
-      "good": 6,
+      "good": 5,
       "medium": 90,
-      "low": 13,
-      "irrelevant": 82
+      "low": 16,
+      "irrelevant": 83
     },
     "top_jobs": [
       {
@@ -46,19 +46,11 @@
         "url": "https://it.indeed.com/viewjob?jk=1fa9af4c1df1764e"
       },
       {
-        "title": "Medical Affairs Lead Epilepsy",
-        "company": "Neuraxpharm",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4374294703"
-      },
-      {
         "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
         "company": "Teva Pharmaceuticals",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1772755200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
@@ -70,44 +62,36 @@
         "url": "https://www.linkedin.com/jobs/view/4371297560"
       },
       {
-        "title": "Regulatory Affairs Specialist - Medical Device",
-        "company": "Professional Recruitment",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4381863007"
-      },
-      {
-        "title": "Head of Medical Affairs - Italy",
-        "company": "UCB",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4380179284"
-      },
-      {
-        "title": "Medical Director, Global Evidence Generation Lead",
-        "company": "Alfasigma",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4381897037"
-      },
-      {
         "title": "International Medical Advisor - Oncology",
         "company": "Barrington James",
-        "score": 57,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4376580779"
       },
       {
-        "title": "Medical Science Liaison (Respiratory)",
-        "company": "Jefferson Wells Italia",
-        "score": 56,
+        "title": "Regulatory Affairs Specialist - Medical Device",
+        "company": "Professional Recruitment",
+        "score": 58,
         "site": "linkedin",
-        "date_posted": 1772496000000,
-        "url": "https://www.linkedin.com/jobs/view/4380307354"
+        "date_posted": 1773014400000,
+        "url": "https://www.linkedin.com/jobs/view/4381863007"
+      },
+      {
+        "title": "Medical Director, Global Evidence Generation Lead",
+        "company": "Alfasigma",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1773014400000,
+        "url": "https://www.linkedin.com/jobs/view/4381897037"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "SOL Group",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1774310400000,
+        "url": "https://www.linkedin.com/jobs/view/4389599361"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -134,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
+        "title": "Medical Affairs Lead Epilepsy",
+        "company": "Neuraxpharm",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1773705600000,
+        "url": "https://www.linkedin.com/jobs/view/4374294703"
+      },
+      {
         "title": "Medical Director",
         "company": "EVERSANA INTOUCH",
         "score": 56,
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
+        "title": "Director, Medical Affairs LIVE Italy",
+        "company": "Gilead Sciences",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4374040619"
+      },
+      {
         "title": "Junior Regulatory Affairs Medical Device",
         "company": "Jobbit",
         "score": 55,
@@ -180,13 +180,18 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "fsp",
@@ -197,11 +202,6 @@
         "word": "associate",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "access",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 60
     },
     {
       "keyword": "director medical",
@@ -228,43 +228,51 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "new_company_surge",
       "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 13 (-31%)",
+      "message": "🆕 CSL: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 9,
-        "avg": 13.0,
-        "change_pct": -30.8
+        "company": "CSL",
+        "count": 2
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Campari Group: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Campari Group",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 9/15 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 3,
-        "total": 9,
-        "pct": 33.3
+        "new": 9,
+        "total": 15,
+        "pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 56% (-44pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 55.6
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 44% (+44pp)",
+      "message": "📡 indeed: quota passata da 44% a 80% (+36pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 44.4
+        "old_pct": 44.4,
+        "new_pct": 80.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 56% a 20% (-36pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 55.6,
+        "new_pct": 20.0
       }
     },
     {
@@ -274,54 +282,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 74,
+            "id": 1,
+            "size": 73,
             "top_terms": [
               "specialist",
               "cra",
-              "clinical"
+              "pharmacovigilance"
             ],
-            "pct": 38.7
+            "pct": 37.6
           },
           {
-            "id": 1,
-            "size": 47,
+            "id": 0,
+            "size": 41,
             "top_terms": [
               "medical",
               "director",
-              "associate"
+              "lead"
             ],
-            "pct": 24.6
+            "pct": 21.1
           },
           {
-            "id": 4,
-            "size": 32,
+            "id": 2,
+            "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 16.8
-          },
-          {
-            "id": 2,
-            "size": 25,
-            "top_terms": [
-              "manager",
-              "product",
-              "access"
-            ],
-            "pct": 13.1
+            "pct": 16.0
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 27,
             "top_terms": [
-              "lead",
-              "medical",
-              "international"
+              "manager",
+              "product",
+              "senior"
             ],
-            "pct": 6.8
+            "pct": 13.9
+          },
+          {
+            "id": 4,
+            "size": 22,
+            "top_terms": [
+              "clinical",
+              "research",
+              "associate"
+            ],
+            "pct": 11.3
           }
         ]
       }

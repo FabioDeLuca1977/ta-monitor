@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-24T07:37:20.642172",
+  "generated_at": "2026-03-25T07:35:19.892492",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 54,
+  "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 12.8,
+    "average": 12.7,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 5,
       "low": 0,
-      "irrelevant": 47
+      "irrelevant": 50
     },
     "top_jobs": [
       {
@@ -34,7 +34,7 @@
         "company": "Cefla",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773014400000,
         "url": "https://www.linkedin.com/jobs/view/4383334187"
       },
       {
@@ -64,18 +64,10 @@
       {
         "title": "Regulatory Affairs",
         "company": "Content Group",
-        "score": 47,
+        "score": 48,
         "site": "indeed",
         "date_posted": 1772668800000,
         "url": "https://it.indeed.com/viewjob?jk=f00864ccd9de870d"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "Adecco",
-        "score": 18,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4385921296"
       },
       {
         "title": "Senior Product Manager - Digital Solutions",
@@ -134,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4384050652"
       },
       {
+        "title": "Quality Assurance Specialist",
+        "company": "Adecco",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1773705600000,
+        "url": "https://www.linkedin.com/jobs/view/4385921296"
+      },
+      {
         "title": "Project Manager Junior - Agriculture field",
         "company": "STAR Italia",
         "score": 13,
@@ -184,17 +184,17 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
+        "word": "qualità",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
         "word": "responsabile",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "field",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "qualità",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
@@ -218,31 +218,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 4,
+        "total": 4,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -252,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 28,
+            "id": 4,
+            "size": 26,
             "top_terms": [
-              "qualità",
               "bologna",
-              "responsabile"
+              "manager",
+              "engineer"
             ],
-            "pct": 51.9
+            "pct": 45.6
+          },
+          {
+            "id": 0,
+            "size": 17,
+            "top_terms": [
+              "specialist",
+              "assurance",
+              "quality"
+            ],
+            "pct": 29.8
           },
           {
             "id": 1,
-            "size": 13,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 24.1
-          },
-          {
-            "id": 3,
             "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.0
+            "pct": 12.3
           },
           {
-            "id": 0,
-            "size": 3,
+            "id": 3,
+            "size": 4,
             "top_terms": [
-              "specialist",
-              "tecnico",
-              "impiegato"
+              "qualità",
+              "sistema",
+              "controllo"
             ],
-            "pct": 5.6
+            "pct": 7.0
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 3,
             "top_terms": [
-              "manager",
-              "regulatory",
-              "tecnico"
+              "agriculture",
+              "project",
+              "field"
             ],
-            "pct": 5.6
+            "pct": 5.3
           }
         ]
       }
