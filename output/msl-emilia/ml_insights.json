@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-25T07:35:19.582796",
+  "generated_at": "2026-03-26T07:42:25.734284",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 27.0,
+    "average": 26.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 12,
+      "medium": 11,
       "low": 1,
       "irrelevant": 11
     },
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4384850619"
       },
       {
+        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
+        "company": "myGwork - LGBTQ+ Business Community",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4382092606"
+      },
+      {
         "title": "Clinical Specialist",
         "company": "Coloplast",
         "score": 42,
@@ -86,28 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4387803714"
       },
       {
-        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
-        "company": "Boston Scientific",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1773014400000,
-        "url": "https://www.linkedin.com/jobs/view/4383323495"
-      },
-      {
         "title": "Electrophysiology Field Clinical Specialist Graduate- Bologna (Italy).",
         "company": "myGwork - LGBTQ+ Business Community",
         "score": 41,
         "site": "linkedin",
-        "date_posted": 1772755200000,
+        "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4376672103"
-      },
-      {
-        "title": "Field Clinical Specialist - Electrophysiology (m/f/d)",
-        "company": "myGwork - LGBTQ+ Business Community",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1773100800000,
-        "url": "https://www.linkedin.com/jobs/view/4382092606"
       },
       {
         "title": "Regulatory Affair Coordinator",
@@ -134,20 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=2c4381ca19ef0fd6"
       },
       {
+        "title": "Principal, Statistical Programmer",
+        "company": "Alira Health",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1774396800000,
+        "url": "https://it.indeed.com/viewjob?jk=39b868aad82ac075"
+      },
+      {
         "title": "Manager, Regulatory Lead",
         "company": "Alfasigma group",
         "score": 8,
         "site": "indeed",
         "date_posted": 1772496000000,
         "url": "https://it.indeed.com/viewjob?jk=8491f0c2daec0e36"
-      },
-      {
-        "title": "Territory Manager Surgical",
-        "company": "Edwards Lifesciences",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1772582400000,
-        "url": "https://it.indeed.com/viewjob?jk=79016f12b6496b13"
       },
       {
         "title": "Process Validation Specialist",
@@ -172,18 +164,20 @@
         "site": "linkedin",
         "date_posted": 1773014400000,
         "url": "https://www.linkedin.com/jobs/view/4383316808"
+      },
+      {
+        "title": "Associate Technical Consultant",
+        "company": "Medtronic",
+        "score": 3,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=ed7d8548930c664a"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
-    "add_blacklist": [
-      {
-        "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      }
-    ],
+    "add_blacklist": [],
     "review": []
   },
   "keyword_recommendations": [],
@@ -191,11 +185,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
       "data": {
         "current": 1,
-        "avg": 3.3,
-        "change_pct": -69.6
+        "avg": 3.1,
+        "change_pct": -68.2
       }
     },
     {
@@ -211,21 +205,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,24 +229,24 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 2,
             "size": 11,
             "top_terms": [
-              "manager",
+              "cra",
               "regulatory",
-              "emilia"
+              "manager"
             ],
-            "pct": 45.8
+            "pct": 47.8
           },
           {
-            "id": 0,
-            "size": 6,
+            "id": 1,
+            "size": 5,
             "top_terms": [
               "specialist",
               "clinical",
-              "field"
+              "electrophysiology"
             ],
-            "pct": 25.0
+            "pct": 21.7
           },
           {
             "id": 3,
@@ -260,19 +254,19 @@
             "top_terms": [
               "affairs",
               "regulatory",
-              "assurance"
+              "specialist"
             ],
-            "pct": 20.8
+            "pct": 21.7
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 2,
             "top_terms": [
-              "cra",
+              "principal",
               "specialist",
-              "regulatory"
+              "experience"
             ],
-            "pct": 8.3
+            "pct": 8.7
           }
         ]
       }
