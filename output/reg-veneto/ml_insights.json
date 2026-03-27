@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-26T07:42:25.832996",
+  "generated_at": "2026-03-27T07:43:02.911047",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 44,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 14.4,
+    "average": 14.3,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 3,
       "low": 3,
-      "irrelevant": 35
+      "irrelevant": 37
     },
     "top_jobs": [
       {
@@ -72,7 +72,7 @@
       {
         "title": "Architectural & Technical Compliance Manager Job",
         "company": "Arkema",
-        "score": 28,
+        "score": 29,
         "site": "indeed",
         "date_posted": 1773619200000,
         "url": "https://it.indeed.com/viewjob?jk=94a850266bdb7931"
@@ -86,12 +86,28 @@
         "url": "https://it.indeed.com/viewjob?jk=cbc01132d61a64cb"
       },
       {
+        "title": "HSE Specialist",
+        "company": "Dentsply Sirona",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1774483200000,
+        "url": "https://it.indeed.com/viewjob?jk=c709f4ffb5f063d6"
+      },
+      {
         "title": "IT & Digital Manager Factory",
         "company": "Reckitt",
         "score": 14,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=905fa943faed577f"
+      },
+      {
+        "title": "Quality assurance specialist – Business Unit Transformers (F/M/D)",
+        "company": "Hitachi Energy",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390023267"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -110,52 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4385742830"
       },
       {
-        "title": "Temporary Quality Manager",
-        "company": "Jefferson Wells Italia",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4387800941"
-      },
-      {
-        "title": "Quality assurance specialist – Business Unit Transformers (F/M/D)",
-        "company": "Hitachi Energy",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4390023267"
-      },
-      {
         "title": "IT Business Analyst - Quality Assurance",
         "company": "FIS",
         "score": 11,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4384144953"
-      },
-      {
-        "title": "Estetista",
-        "company": "Florida Beauty Store",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1774224000000,
-        "url": "https://it.indeed.com/viewjob?jk=b65d26cb1d2b1eca"
-      },
-      {
-        "title": "Impiegato commerciale",
-        "company": "Tsvi srl",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1774224000000,
-        "url": "https://it.indeed.com/viewjob?jk=7c4c6422fd292049"
-      },
-      {
-        "title": "Marketing & Communication Specialist",
-        "company": "Magnolia srl",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1773878400000,
-        "url": "https://it.indeed.com/viewjob?jk=e7841aef218bbb1f"
       },
       {
         "title": "Quality & Hse Operational Engineer",
@@ -172,6 +148,30 @@
         "site": "indeed",
         "date_posted": 1774310400000,
         "url": "https://it.indeed.com/viewjob?jk=d452c039c956c700"
+      },
+      {
+        "title": "Operatore Gruppi Elettrogeni",
+        "company": "Powering srl",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1774310400000,
+        "url": "https://it.indeed.com/viewjob?jk=aef6d5c2311a9e4b"
+      },
+      {
+        "title": "Temporary Quality Manager",
+        "company": "Jefferson Wells Italia",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": 1773878400000,
+        "url": "https://www.linkedin.com/jobs/view/4387800941"
+      },
+      {
+        "title": "Automation Engineer",
+        "company": "Dentsply Sirona",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1774483200000,
+        "url": "https://it.indeed.com/viewjob?jk=8d31aafa96ba7fef"
       }
     ]
   },
@@ -211,31 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 4,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 33% (-47pp)",
+      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 67% (+47pp)",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -245,14 +245,14 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 25,
+            "id": 1,
+            "size": 26,
             "top_terms": [
-              "tecnico",
               "specialist",
-              "commerciale"
+              "commerciale",
+              "addetto"
             ],
-            "pct": 56.8
+            "pct": 56.5
           },
           {
             "id": 3,
@@ -260,9 +260,9 @@
             "top_terms": [
               "quality",
               "assurance",
-              "specialist"
+              "manager"
             ],
-            "pct": 15.9
+            "pct": 15.2
           },
           {
             "id": 4,
@@ -272,27 +272,27 @@
               "affairs",
               "specialist"
             ],
-            "pct": 13.6
-          },
-          {
-            "id": 1,
-            "size": 3,
-            "top_terms": [
-              "expert",
-              "assurance",
-              "quality"
-            ],
-            "pct": 6.8
+            "pct": 13.0
           },
           {
             "id": 2,
+            "size": 4,
+            "top_terms": [
+              "tecnico",
+              "padova",
+              "impiegato"
+            ],
+            "pct": 8.7
+          },
+          {
+            "id": 0,
             "size": 3,
             "top_terms": [
-              "addetto",
-              "sistema",
-              "padova"
+              "senior",
+              "auditor",
+              "pd"
             ],
-            "pct": 6.8
+            "pct": 6.5
           }
         ]
       }

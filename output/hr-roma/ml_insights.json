@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-03-26T07:42:25.413400",
+  "generated_at": "2026-03-27T07:43:02.494706",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 273,
+  "total_jobs_analyzed": 252,
   "scoring": {
-    "average": 18.9,
+    "average": 19.2,
     "distribution": {
       "excellent": 0,
-      "good": 12,
-      "medium": 42,
-      "low": 60,
-      "irrelevant": 159
+      "good": 13,
+      "medium": 38,
+      "low": 53,
+      "irrelevant": 148
     },
     "top_jobs": [
-      {
-        "title": "HR Specialist – Selezione e Gestione Risorse Umane",
-        "company": "EmmeBi Group",
-        "score": 73,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4387375901"
-      },
       {
         "title": "Head hunter/HR Recruiter Senior - Fiumicino",
         "company": "EASYDIGITALGROUP",
@@ -30,20 +22,28 @@
         "url": "https://it.indeed.com/viewjob?jk=538bde2bee4e09c8"
       },
       {
+        "title": "HR Specialist – Selezione e Gestione Risorse Umane",
+        "company": "EmmeBi Group",
+        "score": 68,
+        "site": "linkedin",
+        "date_posted": 1773878400000,
+        "url": "https://www.linkedin.com/jobs/view/4387375901"
+      },
+      {
+        "title": "HR Specialist – Selezione e Gestione Risorse Umane",
+        "company": "Mcc service",
+        "score": 68,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390743000"
+      },
+      {
         "title": "HR Talent Acquisition & Employer Branding",
         "company": "Adecco",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386671476"
-      },
-      {
-        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
-        "company": "Letuelezioni",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4381063114"
       },
       {
         "title": "HR Recruiter Specialist(protected category under Law 68/99).",
@@ -60,6 +60,14 @@
         "site": "indeed",
         "date_posted": 1774310400000,
         "url": "https://it.indeed.com/viewjob?jk=58e1a2e090ecc1be"
+      },
+      {
+        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
+        "company": "Letuelezioni",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1772755200000,
+        "url": "https://www.linkedin.com/jobs/view/4381063114"
       },
       {
         "title": "Talent Acquisition Intern",
@@ -90,7 +98,7 @@
         "company": "FONDAZIONE LAVORO",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4372870383"
       },
       {
@@ -134,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4387283505"
       },
       {
+        "title": "HR Generalist",
+        "company": "NTWK",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1773273600000,
+        "url": "https://it.indeed.com/viewjob?jk=43e3e64850df4b52"
+      },
+      {
         "title": "HR Specialist",
         "company": "Stargate Security srl",
         "score": 56,
@@ -142,19 +158,11 @@
         "url": "https://it.indeed.com/viewjob?jk=a580c2c3686cd978"
       },
       {
-        "title": "HR Generalist",
-        "company": "NTWK",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1773014400000,
-        "url": "https://it.indeed.com/viewjob?jk=6ce0f939d71e0143"
-      },
-      {
         "title": "Head of Tech Talent & Employer Branding",
         "company": "Exein",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4382877550"
       },
       {
@@ -162,16 +170,8 @@
         "company": "GOFO",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4383229094"
-      },
-      {
-        "title": "HR Business Partner Specialist",
-        "company": "Multiversity Group",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382577692"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "roma",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
-      },
-      {
-        "word": "ufficio",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "impiegato",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "ufficio",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -261,51 +261,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 21 (-71%)",
-      "data": {
-        "current": 6,
-        "avg": 20.5,
-        "change_pct": -70.8
-      }
-    },
-    {
-      "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 ITALCONSULT: 2 posizioni, non presente negli scan precedenti",
+      "message": "Volume in calo: 10 annunci ultimo scan vs media 17 (-42%)",
       "data": {
-        "company": "ITALCONSULT",
-        "count": 2
+        "current": 10,
+        "avg": 17.3,
+        "change_pct": -42.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/10 annunci da aziende nuove (20.0%)",
       "data": {
-        "new": 3,
-        "total": 6,
-        "pct": 50.0
+        "new": 2,
+        "total": 10,
+        "pct": 20.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 73% a 33% (-39pp)",
+      "message": "📡 indeed: quota passata da 33% a 60% (+27pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 72.7,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 27% a 67% (+39pp)",
+      "message": "📡 linkedin: quota passata da 67% a 40% (-27pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 27.3,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 40.0
       }
     },
     {
@@ -316,53 +307,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 172,
+            "size": 165,
             "top_terms": [
               "addetto",
-              "roma",
-              "manager"
+              "hr",
+              "roma"
             ],
-            "pct": 63.0
+            "pct": 65.5
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 37,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 13.6
-          },
-          {
-            "id": 3,
-            "size": 32,
-            "top_terms": [
-              "hr",
-              "recruiter",
-              "specialist"
-            ],
-            "pct": 11.7
+            "pct": 14.7
           },
           {
             "id": 4,
-            "size": 24,
+            "size": 28,
             "top_terms": [
               "specialist",
               "payroll",
               "talent"
             ],
-            "pct": 8.8
+            "pct": 11.1
           },
           {
-            "id": 1,
-            "size": 8,
+            "id": 3,
+            "size": 13,
             "top_terms": [
-              "junior",
-              "pubblica",
-              "amministrazione"
+              "recruiter",
+              "hr",
+              "specialist"
             ],
-            "pct": 2.9
+            "pct": 5.2
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "intern",
+              "talent",
+              "acquisition"
+            ],
+            "pct": 3.6
           }
         ]
       }

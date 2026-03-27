@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-26T07:42:25.583996",
+  "generated_at": "2026-03-27T07:43:02.656754",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 30.8,
+    "average": 30.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 25,
-      "low": 4,
+      "medium": 22,
+      "low": 5,
       "irrelevant": 11
     },
     "top_jobs": [
@@ -86,36 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4383042478"
       },
       {
-        "title": "Informatore Medico Scientifico M/F",
-        "company": "KOLINPHARMA S.p.A",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4387326721"
-      },
-      {
         "title": "MSL Cardiometabolic (Nord Est)",
         "company": "Jefferson Wells Italia",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4384197040"
-      },
-      {
-        "title": "informatore scientifico del farmaco",
-        "company": "Cadigroup",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1773100800000,
-        "url": "https://www.linkedin.com/jobs/view/4374112742"
-      },
-      {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1772668800000,
-        "url": "https://www.linkedin.com/jobs/view/4381444347"
       },
       {
         "title": "Informatore scientifico commerciale, VENETO",
@@ -124,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1773273600000,
         "url": "https://www.linkedin.com/jobs/view/4382766288"
+      },
+      {
+        "title": "informatore scientifico del farmaco",
+        "company": "Cadigroup",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4374112742"
       },
       {
         "title": "Informatore scientifico, VENETO",
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4389462810"
       },
       {
+        "title": "Field Clinical Specialist THV - North Italy",
+        "company": "Edwards Lifesciences",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4356098675"
+      },
+      {
         "title": "INFORMATORE SCIENTIFICO OSPEDALIERO (Triveneto - Verona/Padova/Venezia)",
         "company": "Cristalfarma",
         "score": 41,
         "site": "linkedin",
         "date_posted": 1773014400000,
         "url": "https://www.linkedin.com/jobs/view/4381854610"
+      },
+      {
+        "title": "Informatore Scientifico Dietetico - Baby Food",
+        "company": "NewPrinces Group",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387825084"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
       "data": {
         "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.8
+        "avg": 3.4,
+        "change_pct": -70.3
       }
     },
     {
@@ -211,21 +211,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 14,
+            "id": 0,
+            "size": 17,
             "top_terms": [
-              "engineer",
-              "process",
+              "specialist",
+              "clinical",
               "verona"
             ],
-            "pct": 35.0
+            "pct": 44.7
           },
           {
-            "id": 4,
-            "size": 12,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "scientifico",
               "informatore",
               "medico"
             ],
-            "pct": 30.0
-          },
-          {
-            "id": 2,
-            "size": 9,
-            "top_terms": [
-              "specialist",
-              "affairs",
-              "regulatory"
-            ],
-            "pct": 22.5
+            "pct": 26.3
           },
           {
             "id": 1,
-            "size": 3,
+            "size": 4,
             "top_terms": [
-              "veneto",
-              "commerciale",
-              "scientifico"
+              "farmaco",
+              "scientifico",
+              "informatore"
             ],
-            "pct": 7.5
+            "pct": 10.5
           },
           {
-            "id": 0,
-            "size": 2,
+            "id": 2,
+            "size": 4,
             "top_terms": [
-              "isf",
-              "verona",
+              "engineer",
+              "process",
               "venezia"
             ],
-            "pct": 5.0
+            "pct": 10.5
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 7.9
           }
         ]
       }

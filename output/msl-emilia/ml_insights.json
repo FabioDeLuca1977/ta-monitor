@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-26T07:42:25.734284",
+  "generated_at": "2026-03-27T07:43:02.805040",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 23,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 26.5,
+    "average": 26.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 11,
       "low": 1,
-      "irrelevant": 11
+      "irrelevant": 12
     },
     "top_jobs": [
       {
         "title": "Medical Director, Global Evidence Generation Lead",
         "company": "Alfasigma",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1773014400000,
         "url": "https://www.linkedin.com/jobs/view/4381888577"
@@ -110,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4383334187"
       },
       {
-        "title": "Quality Assurance Sr. Specialist",
-        "company": "LINCOTEK GROUP",
-        "score": 12,
+        "title": "HSE Specialist",
+        "company": "Dentsply Sirona",
+        "score": 14,
         "site": "indeed",
-        "date_posted": 1773878400000,
-        "url": "https://it.indeed.com/viewjob?jk=aadffcf355555d12"
+        "date_posted": 1774483200000,
+        "url": "https://it.indeed.com/viewjob?jk=85c4c161a219497e"
       },
       {
         "title": "Manager, Customer Engagement and Customer Experience",
@@ -134,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=39b868aad82ac075"
       },
       {
+        "title": "Automation Engineer",
+        "company": "Dentsply Sirona",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1774483200000,
+        "url": "https://it.indeed.com/viewjob?jk=8d31aafa96ba7fef"
+      },
+      {
         "title": "Manager, Regulatory Lead",
         "company": "Alfasigma group",
         "score": 8,
@@ -150,76 +158,63 @@
         "url": "https://it.indeed.com/viewjob?jk=12cf73b48299688e"
       },
       {
+        "title": "Quality Assurance Sr. Specialist",
+        "company": "LINCOTEK GROUP",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1773878400000,
+        "url": "https://it.indeed.com/viewjob?jk=aadffcf355555d12"
+      },
+      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
         "date_posted": 1772928000000,
         "url": "https://www.linkedin.com/jobs/view/4355910005"
-      },
-      {
-        "title": "EDUCATORE /EDUCATRICE | CRA VILLA MINOZZO",
-        "company": "COOPSELIOS",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": 1773014400000,
-        "url": "https://www.linkedin.com/jobs/view/4383316808"
-      },
-      {
-        "title": "Associate Technical Consultant",
-        "company": "Medtronic",
-        "score": 3,
-        "site": "indeed",
-        "date_posted": 1773100800000,
-        "url": "https://it.indeed.com/viewjob?jk=ed7d8548930c664a"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
-    "add_blacklist": [],
+    "add_blacklist": [
+      {
+        "word": "specialist",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      }
+    ],
     "review": []
   },
   "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-36%)",
       "data": {
-        "current": 1,
+        "current": 2,
         "avg": 3.1,
-        "change_pct": -68.2
+        "change_pct": -36.4
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Dentsply Sirona: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Dentsply Sirona",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
       }
     },
     {
@@ -229,44 +224,44 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 11,
+            "id": 1,
+            "size": 8,
             "top_terms": [
-              "cra",
-              "regulatory",
-              "manager"
+              "principal",
+              "engineer",
+              "medical"
             ],
-            "pct": 47.8
+            "pct": 33.3
           },
           {
-            "id": 1,
-            "size": 5,
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 29.2
+          },
+          {
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "specialist",
               "clinical",
               "electrophysiology"
             ],
-            "pct": 21.7
+            "pct": 29.2
           },
           {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 21.7
-          },
-          {
-            "id": 0,
+            "id": 2,
             "size": 2,
             "top_terms": [
-              "principal",
+              "cra",
               "specialist",
               "experience"
             ],
-            "pct": 8.7
+            "pct": 8.3
           }
         ]
       }

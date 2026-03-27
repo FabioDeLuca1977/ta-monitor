@@ -1,25 +1,33 @@
 {
-  "generated_at": "2026-03-26T07:42:25.786368",
+  "generated_at": "2026-03-27T07:43:02.862919",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 55,
+  "total_jobs_analyzed": 61,
   "scoring": {
-    "average": 29.0,
+    "average": 26.8,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 24,
-      "low": 4,
-      "irrelevant": 26
+      "good": 2,
+      "medium": 22,
+      "low": 5,
+      "irrelevant": 32
     },
     "top_jobs": [
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 60,
+        "score": 63,
         "site": "indeed",
         "date_posted": 1773705600000,
         "url": "https://it.indeed.com/viewjob?jk=fec5dbd7c5febc45"
+      },
+      {
+        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
+        "company": "Amplity",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390716325"
       },
       {
         "title": "Medical Science Liaison Italy: KOL Engagement",
@@ -48,7 +56,7 @@
       {
         "title": "Head of Medical Affairs, Italy",
         "company": "Genmab",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4374614779"
@@ -62,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
-        "title": "Regulatory Affairs manager & Affiliate Quality - Maternity Cover",
-        "company": "Zoetis",
+        "title": "Medical Science Liaison, Oncology (RCC)",
+        "company": "Amplity",
         "score": 54,
         "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4380677625"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4385271426"
       },
       {
         "title": "Director Regional Medical Affairs (all genders) EU5CAN Lung Cancer",
@@ -78,28 +86,20 @@
         "url": "https://it.indeed.com/viewjob?jk=87711e3c90313bc0"
       },
       {
-        "title": "Medical Science Liaison - Italy",
-        "company": "PTC Therapeutics, Inc.",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4338739416"
-      },
-      {
-        "title": "Medical Science Liaison, Oncology (RCC)",
-        "company": "Amplity",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385271426"
-      },
-      {
         "title": "Clinical Development Medical Science Director",
         "company": "Angelini Pharma",
         "score": 52,
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4383717643"
+      },
+      {
+        "title": "Medical Science Liaison - Italy",
+        "company": "PTC Therapeutics, Inc.",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1773360000000,
+        "url": "https://www.linkedin.com/jobs/view/4338739416"
       },
       {
         "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
@@ -112,7 +112,7 @@
       {
         "title": "Senior Medical Science Liaison Italy Rare Tumor",
         "company": "Merck Healthcare",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4317855974"
@@ -124,14 +124,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4342482448"
-      },
-      {
-        "title": "Regulatory Affairs Specialist I",
-        "company": "Thermo Fisher Scientific",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1773100800000,
-        "url": "https://www.linkedin.com/jobs/view/4382009659"
       },
       {
         "title": "Regulatory Affairs Specialist I",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4364244677"
+      },
+      {
+        "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
+        "company": "Aruba SpA",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386981425"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "italy",
+        "word": "specialist",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
         "word": "temporary",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "position",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "days",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 6,
+      "frequency": 7,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 60
+      "confidence": 70
     },
     {
       "keyword": "liaison italy",
@@ -234,33 +234,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-51%)",
+      "message": "Volume in crescita: 8 annunci ultimo scan vs media 4 (+96%)",
       "data": {
-        "current": 2,
+        "current": 8,
         "avg": 4.1,
-        "change_pct": -50.9
+        "change_pct": 96.2
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/8 annunci da aziende nuove (25.0%)",
+      "data": {
+        "new": 2,
+        "total": 8,
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 0% (-75pp)",
+      "message": "📡 indeed: quota passata da 0% a 88% (+88pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 87.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 100% (+75pp)",
+      "message": "📡 linkedin: quota passata da 100% a 12% (-88pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 12.5
       }
     },
     {
@@ -270,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 22,
+            "id": 3,
+            "size": 26,
             "top_terms": [
-              "marketing",
-              "coordinator",
-              "italy"
+              "specialist",
+              "senior",
+              "temporary"
             ],
-            "pct": 40.0
+            "pct": 42.6
           },
           {
             "id": 2,
-            "size": 11,
+            "size": 12,
             "top_terms": [
               "medical",
               "liaison",
               "science"
             ],
-            "pct": 20.0
+            "pct": 19.7
           },
           {
-            "id": 4,
-            "size": 11,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 20.0
-          },
-          {
-            "id": 3,
-            "size": 7,
+            "id": 1,
+            "size": 9,
             "top_terms": [
               "manager",
               "clinical",
               "product"
             ],
-            "pct": 12.7
+            "pct": 14.8
           },
           {
-            "id": 1,
-            "size": 4,
+            "id": 0,
+            "size": 8,
             "top_terms": [
-              "senior",
-              "cra",
-              "services"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 7.3
+            "pct": 13.1
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "regional",
+              "lead",
+              "marketing"
+            ],
+            "pct": 9.8
           }
         ]
       }
