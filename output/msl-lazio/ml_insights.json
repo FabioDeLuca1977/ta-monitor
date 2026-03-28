@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-27T07:43:02.862919",
+  "generated_at": "2026-03-28T07:32:38.990252",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 61,
+  "total_jobs_analyzed": 62,
   "scoring": {
-    "average": 26.8,
+    "average": 26.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 22,
       "low": 5,
-      "irrelevant": 32
+      "irrelevant": 33
     },
     "top_jobs": [
       {
@@ -28,22 +28,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390716325"
-      },
-      {
-        "title": "Medical Science Liaison Italy: KOL Engagement",
-        "company": "Resourcing Life Science",
-        "score": 58,
-        "site": "google",
-        "date_posted": 1773100800000,
-        "url": "https://it.bebee.com/job/724d3e06f92a65e2dfefa16b7eb69b31?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Amaris Consulting",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1774310400000,
-        "url": "https://www.linkedin.com/jobs/view/4388082342"
       },
       {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
@@ -86,6 +70,14 @@
         "url": "https://it.indeed.com/viewjob?jk=87711e3c90313bc0"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Amaris Consulting",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1774310400000,
+        "url": "https://www.linkedin.com/jobs/view/4388082342"
+      },
+      {
         "title": "Clinical Development Medical Science Director",
         "company": "Angelini Pharma",
         "score": 52,
@@ -104,7 +96,7 @@
       {
         "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
         "company": "Allergan Aesthetics, an AbbVie Company",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4376900293"
@@ -126,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4342482448"
       },
       {
+        "title": "Medical Lead Europe",
+        "company": "Talentmark",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390945528"
+      },
+      {
         "title": "Regulatory Affairs Specialist I",
         "company": "myGwork - LGBTQ+ Business Community",
         "score": 48,
@@ -142,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4386664956"
       },
       {
-        "title": "Director of Regulatory Affairs",
-        "company": "Confidential",
-        "score": 47,
+        "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
+        "company": "Pharma Point",
+        "score": 48,
         "site": "linkedin",
-        "date_posted": 1772755200000,
-        "url": "https://www.linkedin.com/jobs/view/4380286522"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4392287127"
       },
       {
         "title": "Medical Advisor - Dermatology",
@@ -185,8 +185,8 @@
       },
       {
         "word": "specialist",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "temporary",
@@ -209,24 +209,24 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
-    },
-    {
-      "keyword": "liaison italy",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "science liaison italy",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 60
     },
     {
       "keyword": "medical scientific",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "liaison italy",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "science liaison italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -235,42 +235,42 @@
   "anomalies": [
     {
       "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 8 annunci ultimo scan vs media 4 (+96%)",
+      "severity": "medium",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+39%)",
       "data": {
-        "current": 8,
-        "avg": 4.1,
-        "change_pct": 96.2
+        "current": 6,
+        "avg": 4.3,
+        "change_pct": 39.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/8 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
       "data": {
-        "new": 2,
-        "total": 8,
-        "pct": 25.0
+        "new": 5,
+        "total": 6,
+        "pct": 83.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 88% (+88pp)",
+      "message": "📡 indeed: quota passata da 88% a 67% (-21pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 87.5
+        "old_pct": 87.5,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 12% (-88pp)",
+      "message": "📡 linkedin: quota passata da 12% a 33% (+21pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 12.5
+        "old_pct": 12.5,
+        "new_pct": 33.3
       }
     },
     {
@@ -280,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 26,
-            "top_terms": [
-              "specialist",
-              "senior",
-              "temporary"
-            ],
-            "pct": 42.6
-          },
-          {
-            "id": 2,
-            "size": 12,
+            "id": 4,
+            "size": 34,
             "top_terms": [
               "medical",
-              "liaison",
-              "science"
+              "lead",
+              "italy"
             ],
-            "pct": 19.7
+            "pct": 54.8
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 11,
             "top_terms": [
               "manager",
               "clinical",
-              "product"
+              "site"
             ],
-            "pct": 14.8
+            "pct": 17.7
           },
           {
             "id": 0,
             "size": 8,
             "top_terms": [
               "regulatory",
-              "affairs",
-              "specialist"
+              "specialist",
+              "affairs"
             ],
-            "pct": 13.1
+            "pct": 12.9
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 3,
+            "size": 5,
             "top_terms": [
-              "regional",
-              "lead",
-              "marketing"
+              "science",
+              "liaison",
+              "medical"
             ],
-            "pct": 9.8
+            "pct": 8.1
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "msl",
+              "central",
+              "scientific"
+            ],
+            "pct": 6.5
           }
         ]
       }
