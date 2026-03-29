@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-28T07:32:39.250877",
+  "generated_at": "2026-03-29T07:36:31.953839",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 62,
+  "total_jobs_analyzed": 60,
   "scoring": {
-    "average": 12.5,
+    "average": 12.6,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 4,
       "low": 0,
-      "irrelevant": 55
+      "irrelevant": 53
     },
     "top_jobs": [
       {
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4383334187"
       },
       {
-        "title": "Office manager & sales support",
-        "company": "Montevideo Portal",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1774396800000,
-        "url": "https://it.indeed.com/viewjob?jk=65358726e8b12384"
-      },
-      {
         "title": "Quality Assurance Consultant",
         "company": "JSB Solutions srl",
         "score": 16,
@@ -119,11 +111,11 @@
       },
       {
         "title": "Quality Assurance Specialist",
-        "company": "PQE Group",
+        "company": "Dentsply Sirona",
         "score": 12,
         "site": "linkedin",
-        "date_posted": 1773187200000,
-        "url": "https://www.linkedin.com/jobs/view/4382585094"
+        "date_posted": 1773360000000,
+        "url": "https://www.linkedin.com/jobs/view/4385508214"
       },
       {
         "title": "Software Quality Assurance Specialist (Maranello)",
@@ -132,14 +124,6 @@
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4383744718"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "Dentsply Sirona",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4385508214"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4390010521"
       },
       {
+        "title": "Office manager & sales support",
+        "company": "Montevideo Portal",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1774396800000,
+        "url": "https://it.indeed.com/viewjob?jk=65358726e8b12384"
+      },
+      {
         "title": "Quality Assurance Specialist - Reggio Emilia -",
         "company": "Centrale del Latte d'Italia S.p.A.",
         "score": 11,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773360000000,
         "url": "https://www.linkedin.com/jobs/view/4385370129"
+      },
+      {
+        "title": "Quality Assurance Sr. Specialist",
+        "company": "LINCOTEK GROUP",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1773878400000,
+        "url": "https://it.indeed.com/viewjob?jk=aadffcf355555d12"
       }
     ]
   },
@@ -228,20 +228,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
+        "channel": "linkedin",
+        "old_pct": 33.3,
         "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
+      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
+        "channel": "indeed",
+        "old_pct": 66.7,
         "new_pct": 50.0
       }
     },
@@ -252,24 +252,34 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 29,
+            "id": 2,
+            "size": 28,
             "top_terms": [
               "manager",
               "commerciale",
-              "engineer"
+              "qualità"
             ],
-            "pct": 46.8
+            "pct": 46.7
           },
           {
             "id": 0,
-            "size": 19,
+            "size": 11,
+            "top_terms": [
+              "specialist",
+              "quality",
+              "assurance"
+            ],
+            "pct": 18.3
+          },
+          {
+            "id": 4,
+            "size": 10,
             "top_terms": [
               "quality",
               "assurance",
-              "specialist"
+              "customer"
             ],
-            "pct": 30.6
+            "pct": 16.7
           },
           {
             "id": 1,
@@ -279,27 +289,17 @@
               "affairs",
               "specialist"
             ],
-            "pct": 11.3
+            "pct": 11.7
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 4,
             "top_terms": [
-              "specialist",
-              "supervisor",
-              "customer"
+              "engineer",
+              "product",
+              "field"
             ],
-            "pct": 6.5
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "supervisor",
-              "qa",
-              "customer"
-            ],
-            "pct": 4.8
+            "pct": 6.7
           }
         ]
       }

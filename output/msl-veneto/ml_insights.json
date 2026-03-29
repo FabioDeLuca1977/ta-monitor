@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T07:32:38.782204",
+  "generated_at": "2026-03-29T07:36:31.458864",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 43,
@@ -42,7 +42,7 @@
         "company": "Jobtech",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773360000000,
         "url": "https://www.linkedin.com/jobs/view/4385332082"
       },
       {
@@ -218,21 +218,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 57% (-43pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 57.1
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 0% a 43% (+43pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 42.9
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 57% (-43pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 57.1
       }
     },
     {
