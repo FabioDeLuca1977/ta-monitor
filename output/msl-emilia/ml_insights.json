@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-29T07:36:31.617747",
+  "generated_at": "2026-03-30T08:16:08.587144",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 62,
   "scoring": {
-    "average": 35.6,
+    "average": 35.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -46,14 +46,6 @@
         "url": "https://it.jooble.org/jdp/-4302750752164216609?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Field-Based Oncology Medical Science Liaison",
-        "company": "MSD Italia",
-        "score": 57,
-        "site": "google",
-        "date_posted": 1774310400000,
-        "url": "https://it.trabajo.org/offerta-3782-c711b693a6f3939f8b27105201b29f37?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
         "company": "Pharma Point",
         "score": 56,
@@ -68,6 +60,14 @@
         "site": "google",
         "date_posted": 1774569600000,
         "url": "https://it.trabajo.org/offerta-3833-d32232d6345090d714033db633adcbd6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Field-Based Oncology Medical Science Liaison",
+        "company": "MSD Italia",
+        "score": 56,
+        "site": "google",
+        "date_posted": 1774310400000,
+        "url": "https://it.trabajo.org/offerta-3782-c711b693a6f3939f8b27105201b29f37?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Medical Scientific Liaison – Primary Care",
@@ -110,14 +110,6 @@
         "url": "https://bebee.com/it/jobs/medical-science-liaison-msl-respiratorio-adecco-roma--jooble-2593194529149311517?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Clinical Specialist (Operating Room Experience) -Bologna / Firenze",
-        "company": "BD",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1774483200000,
-        "url": "https://www.linkedin.com/jobs/view/4390724047"
-      },
-      {
         "title": "MSL Ospedaliero: Neurologia",
         "company": "Cristalfarma",
         "score": 50,
@@ -150,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
-        "title": "Medical Science Liaison - South-Italy",
-        "company": "Novocure",
-        "score": 48,
-        "site": "google",
-        "date_posted": 1774137600000,
-        "url": "https://it.jooble.org/jdp/-7993009453211496816?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Regulatory Affairs & Quality Assurance Specialist",
         "company": "MEDAX SRL UNIPERSONALE",
         "score": 47,
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": 1773273600000,
         "url": "https://www.linkedin.com/jobs/view/4384850619"
+      },
+      {
+        "title": "Medical Science Liaison - Interventional Radiology (Italy based)",
+        "company": "Guerbet",
+        "score": 47,
+        "site": "google",
+        "date_posted": 1773619200000,
+        "url": "https://it.jooble.org/jdp/7328530292970886997?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Remote Medical Science Liaison - Endocrinology & Rare Diseases",
+        "company": "Ascendis Pharma",
+        "score": 47,
+        "site": "google",
+        "date_posted": 1773532800000,
+        "url": "https://it.jooble.org/jdp/4364402044986925871?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       }
     ]
   },
@@ -275,6 +275,16 @@
     {
       "type": "channel_shift",
       "severity": "low",
+      "message": "📡 indeed: quota passata da 40% a 0% (-40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 40.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
       "message": "📡 google: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "google",
@@ -293,63 +303,53 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 40% a 0% (-40pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 40.0,
-        "new_pct": 0.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 24,
-            "top_terms": [
-              "liaison",
-              "medical",
-              "science"
-            ],
-            "pct": 38.7
-          },
-          {
-            "id": 4,
-            "size": 11,
+            "id": 0,
+            "size": 18,
             "top_terms": [
               "msl",
-              "oncology",
+              "cra",
+              "engineer"
+            ],
+            "pct": 29.0
+          },
+          {
+            "id": 1,
+            "size": 12,
+            "top_terms": [
+              "scientific",
+              "medical",
+              "liaison"
+            ],
+            "pct": 19.4
+          },
+          {
+            "id": 3,
+            "size": 12,
+            "top_terms": [
+              "science",
+              "liaison",
+              "medical"
+            ],
+            "pct": 19.4
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "specialist",
+              "clinical",
               "field"
             ],
             "pct": 17.7
           },
           {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "bologna"
-            ],
-            "pct": 14.5
-          },
-          {
-            "id": 1,
-            "size": 9,
-            "top_terms": [
-              "medical",
-              "italy",
-              "liaison"
-            ],
-            "pct": 14.5
-          },
-          {
-            "id": 2,
+            "id": 4,
             "size": 9,
             "top_terms": [
               "regulatory",

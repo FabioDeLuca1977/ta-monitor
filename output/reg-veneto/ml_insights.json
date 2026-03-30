@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-29T07:36:31.735790",
+  "generated_at": "2026-03-30T08:16:08.710157",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 71,
+  "total_jobs_analyzed": 70,
   "scoring": {
-    "average": 19.2,
+    "average": 18.9,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 9,
       "low": 11,
-      "irrelevant": 47
+      "irrelevant": 46
     },
     "top_jobs": [
       {
@@ -54,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4385332082"
       },
       {
-        "title": "Junior Qa Specialist Gmp Pharma",
-        "company": "Acarpia Farmaceutici S.R.L.",
+        "title": "Qa Specialist: Gmp",
+        "company": "Guna Spa",
         "score": 56,
         "site": "google",
-        "date_posted": 1774483200000,
-        "url": "https://it.trabajo.org/offerta-3833-e10104ea14dcf508467fd36c613b3a53?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        "date_posted": 1774569600000,
+        "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Senior International Regulatory Specialist",
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4367239299"
       },
       {
-        "title": "Qa Specialist: Gmp",
-        "company": "Guna Spa",
-        "score": 55,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Regulatory Affairs Specialist – International market",
         "company": "Labomar S.r.l.",
         "score": 52,
@@ -86,9 +78,17 @@
         "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
       },
       {
+        "title": "Junior Qa Specialist Gmp Pharma",
+        "company": "Acarpia Farmaceutici S.R.L.",
+        "score": 50,
+        "site": "google",
+        "date_posted": 1774483200000,
+        "url": "https://it.trabajo.org/offerta-3833-e10104ea14dcf508467fd36c613b3a53?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Quality Assurance Pharma",
         "company": "Altro",
-        "score": 51,
+        "score": 46,
         "site": "google",
         "date_posted": 1774483200000,
         "url": "https://it.trabajo.org/offerta-3833-962ab04718dc06281a95f9184dee7e04?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -142,14 +142,6 @@
         "url": "https://it.jooble.org/jdp/4165051911481337386?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Qa & Compliance Leader — Pharma",
-        "company": "Suanfarma Cdmo",
-        "score": 33,
-        "site": "google",
-        "date_posted": 1774483200000,
-        "url": "https://it.trabajo.org/offerta-3833-d5c733cdb0659938b784c978193c8679?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "QA/QC Specialist",
         "company": "Pharma Point",
         "score": 32,
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1773619200000,
         "url": "https://it.indeed.com/viewjob?jk=94a850266bdb7931"
+      },
+      {
+        "title": "Qa & Compliance Leader — Pharma",
+        "company": "Suanfarma Cdmo",
+        "score": 28,
+        "site": "google",
+        "date_posted": 1774483200000,
+        "url": "https://it.trabajo.org/offerta-3833-d5c733cdb0659938b784c978193c8679?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       }
     ]
   },
@@ -224,11 +224,11 @@
     {
       "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in crescita: 26 annunci ultimo scan vs media 4 (+593%)",
+      "message": "Volume in crescita: 26 annunci ultimo scan vs media 4 (+550%)",
       "data": {
         "current": 26,
-        "avg": 3.8,
-        "change_pct": 593.3
+        "avg": 4.0,
+        "change_pct": 550.0
       }
     },
     {
@@ -262,21 +262,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 google: quota passata da 0% a 96% (+96pp)",
-      "data": {
-        "channel": "google",
-        "old_pct": 0.0,
-        "new_pct": 96.2
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 100% a 4% (-96pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 100.0,
         "new_pct": 3.8
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 google: quota passata da 0% a 96% (+96pp)",
+      "data": {
+        "channel": "google",
+        "old_pct": 0.0,
+        "new_pct": 96.2
       }
     },
     {
@@ -287,13 +287,13 @@
         "clusters": [
           {
             "id": 0,
-            "size": 30,
+            "size": 29,
             "top_terms": [
               "specialist",
               "commerciale",
               "product"
             ],
-            "pct": 42.3
+            "pct": 41.4
           },
           {
             "id": 2,
@@ -303,7 +303,7 @@
               "quality",
               "specialist"
             ],
-            "pct": 23.9
+            "pct": 24.3
           },
           {
             "id": 1,
@@ -313,7 +313,7 @@
               "pharma",
               "specialist"
             ],
-            "pct": 19.7
+            "pct": 20.0
           },
           {
             "id": 3,
@@ -323,7 +323,7 @@
               "affairs",
               "specialist"
             ],
-            "pct": 7.0
+            "pct": 7.1
           },
           {
             "id": 4,
@@ -333,7 +333,7 @@
               "padova",
               "addetto"
             ],
-            "pct": 7.0
+            "pct": 7.1
           }
         ]
       }

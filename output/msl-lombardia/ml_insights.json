@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-29T07:36:31.570180",
+  "generated_at": "2026-03-30T08:16:08.537487",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 182,
+  "total_jobs_analyzed": 180,
   "scoring": {
-    "average": 30.0,
+    "average": 29.9,
     "distribution": {
       "excellent": 0,
       "good": 6,
-      "medium": 85,
+      "medium": 84,
       "low": 15,
-      "irrelevant": 76
+      "irrelevant": 75
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4381997937"
-      },
-      {
-        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
-        "company": "Amplity",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4390704814"
       },
       {
         "title": "Medical Advisor Biologics - Dermatology",
@@ -62,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4390016439"
       },
       {
+        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
+        "company": "Amplity",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390704814"
+      },
+      {
         "title": "Medical Advisor Junior",
         "company": "Neopharmed Gentili S.P.A.",
         "score": 58,
@@ -92,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4376580779"
-      },
-      {
-        "title": "Medical Monitor (Gastroenterology)",
-        "company": "PSI CRO",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4389191212"
       },
       {
         "title": "Psychiatry - Medical Director",
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
-        "title": "Director, Medical Affairs LIVE Italy",
-        "company": "Gilead Sciences",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4374040619"
-      },
-      {
         "title": "Medical Affairs Associate",
         "company": "Fondazione Telethon",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386347390"
+      },
+      {
+        "title": "Medical Science Liaison - Nord & Centro Italia",
+        "company": "Theras",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1773792000000,
+        "url": "https://it.indeed.com/viewjob?jk=1fa9af4c1df1764e"
+      },
+      {
+        "title": "Director, Medical Affairs LIVE Italy",
+        "company": "Gilead Sciences",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1773360000000,
+        "url": "https://www.linkedin.com/jobs/view/4374040619"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -199,7 +199,7 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "fsp",
+        "word": "market",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       }
@@ -230,11 +230,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 13 (-69%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 13 (-92%)",
       "data": {
-        "current": 4,
-        "avg": 12.7,
-        "change_pct": -68.5
+        "current": 1,
+        "avg": 12.8,
+        "change_pct": -92.2
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 25% a 0% (-25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 25.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 75% a 100% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 75.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -244,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 86,
+            "id": 0,
+            "size": 78,
             "top_terms": [
               "specialist",
               "cra",
               "italy"
             ],
-            "pct": 47.3
+            "pct": 43.3
           },
           {
-            "id": 4,
-            "size": 33,
+            "id": 2,
+            "size": 30,
             "top_terms": [
               "medical",
               "director",
               "lead"
             ],
-            "pct": 18.1
+            "pct": 16.7
           },
           {
-            "id": 2,
-            "size": 28,
+            "id": 1,
+            "size": 27,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.4
+            "pct": 15.0
           },
           {
-            "id": 0,
-            "size": 24,
+            "id": 3,
+            "size": 23,
             "top_terms": [
               "manager",
               "senior",
               "project"
             ],
-            "pct": 13.2
+            "pct": 12.8
           },
           {
-            "id": 3,
-            "size": 11,
+            "id": 4,
+            "size": 22,
             "top_terms": [
-              "research",
+              "clinical",
               "associate",
-              "clinical"
+              "research"
             ],
-            "pct": 6.0
+            "pct": 12.2
           }
         ]
       }

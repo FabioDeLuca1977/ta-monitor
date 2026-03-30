@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-29T07:36:31.677706",
+  "generated_at": "2026-03-30T08:16:08.649097",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 63,
+  "total_jobs_analyzed": 62,
   "scoring": {
-    "average": 26.2,
+    "average": 25.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 22,
+      "medium": 21,
       "low": 5,
       "irrelevant": 34
     },
@@ -16,7 +16,7 @@
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 63,
+        "score": 64,
         "site": "indeed",
         "date_posted": 1773705600000,
         "url": "https://it.indeed.com/viewjob?jk=fec5dbd7c5febc45"
@@ -34,13 +34,13 @@
         "company": "Genmab",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773446400000,
         "url": "https://www.linkedin.com/jobs/view/4374614779"
       },
       {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
         "company": "Teva Pharmaceuticals",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4382117194"
@@ -70,20 +70,20 @@
         "url": "https://it.indeed.com/viewjob?jk=87711e3c90313bc0"
       },
       {
+        "title": "Senior Medical Science Liaison Italy Rare Tumor",
+        "company": "Merck Healthcare",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4317855974"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Amaris Consulting",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1774310400000,
         "url": "https://www.linkedin.com/jobs/view/4388082342"
-      },
-      {
-        "title": "Medical Science Liaison - Italy",
-        "company": "PTC Therapeutics, Inc.",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4338739416"
       },
       {
         "title": "Clinical Development Medical Science Director",
@@ -94,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4383717643"
       },
       {
-        "title": "Senior Medical Science Liaison Italy Rare Tumor",
-        "company": "Merck Healthcare",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4317855974"
-      },
-      {
         "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
         "company": "Allergan Aesthetics, an AbbVie Company",
         "score": 51,
@@ -110,20 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4376900293"
       },
       {
+        "title": "Medical Lead Europe",
+        "company": "Talentmark",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390945528"
+      },
+      {
         "title": "Country Medical Lead, Italy",
         "company": "Guardant Health",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773446400000,
         "url": "https://www.linkedin.com/jobs/view/4342482448"
-      },
-      {
-        "title": "Medical Lead Europe",
-        "company": "Talentmark",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4390945528"
       },
       {
         "title": "Regulatory Affairs Specialist I",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386981425"
+      },
+      {
+        "title": "MSL Cardiometabolic (Centro Italia)",
+        "company": "Jefferson Wells Italia",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1773187200000,
+        "url": "https://www.linkedin.com/jobs/view/4384147782"
       }
     ]
   },
@@ -209,21 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 6,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 60
-    },
-    {
-      "keyword": "liaison italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "science liaison italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 50
     },
     {
       "keyword": "medical scientific",
@@ -236,21 +224,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
       "data": {
         "current": 1,
-        "avg": 4.4,
-        "change_pct": -77.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "avg": 4.7,
+        "change_pct": -78.7
       }
     },
     {
@@ -264,60 +242,70 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 27,
+            "id": 3,
+            "size": 19,
+            "top_terms": [
+              "manager",
+              "clinical",
+              "senior"
+            ],
+            "pct": 30.6
+          },
+          {
+            "id": 0,
+            "size": 18,
+            "top_terms": [
+              "specialist",
+              "engineer",
+              "coordinator"
+            ],
+            "pct": 29.0
+          },
+          {
+            "id": 1,
+            "size": 11,
             "top_terms": [
               "medical",
               "lead",
               "italy"
             ],
-            "pct": 42.9
-          },
-          {
-            "id": 3,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "clinical",
-              "site"
-            ],
-            "pct": 17.5
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "liaison",
-              "medical",
-              "msl"
-            ],
-            "pct": 14.3
-          },
-          {
-            "id": 1,
-            "size": 8,
-            "top_terms": [
-              "specialist",
-              "temporary",
-              "364"
-            ],
-            "pct": 12.7
+            "pct": 17.7
           },
           {
             "id": 4,
             "size": 8,
             "top_terms": [
+              "msl",
+              "liaison",
+              "medical"
+            ],
+            "pct": 12.9
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.7
+            "pct": 9.7
           }
         ]
       }

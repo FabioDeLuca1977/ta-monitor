@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-29T07:36:31.328316",
+  "generated_at": "2026-03-30T08:16:08.293896",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 181,
+  "total_jobs_analyzed": 183,
   "scoring": {
-    "average": 25.2,
+    "average": 24.8,
     "distribution": {
       "excellent": 0,
       "good": 8,
       "medium": 44,
-      "low": 51,
-      "irrelevant": 78
+      "low": 49,
+      "irrelevant": 82
     },
     "top_jobs": [
       {
@@ -134,6 +134,14 @@
         "url": "https://www.linkedin.com/jobs/view/4387283505"
       },
       {
+        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
+        "company": "EmmeBi Group",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1773100800000,
+        "url": "https://www.linkedin.com/jobs/view/4382298747"
+      },
+      {
         "title": "Junior Talent Acquisition Intern",
         "company": "PQE Group",
         "score": 56,
@@ -150,28 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4388394745"
       },
       {
+        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
+        "company": "Mcc service",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390932453"
+      },
+      {
         "title": "HR Generalist",
         "company": "NTWK",
         "score": 55,
         "site": "indeed",
         "date_posted": 1773273600000,
         "url": "https://it.indeed.com/viewjob?jk=43e3e64850df4b52"
-      },
-      {
-        "title": "HR Recruiter (Chinese-speaking)",
-        "company": "GOFO",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1773187200000,
-        "url": "https://www.linkedin.com/jobs/view/4383229094"
-      },
-      {
-        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
-        "company": "EmmeBi Group",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1773100800000,
-        "url": "https://www.linkedin.com/jobs/view/4382298747"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "impiegato",
@@ -199,9 +199,9 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "intern",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "research",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -270,13 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-86%)",
+      "data": {
+        "current": 2,
+        "avg": 13.9,
+        "change_pct": -85.6
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/13 annunci da aziende nuove (38.5%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 5,
-        "total": 13,
-        "pct": 38.5
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
@@ -286,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 112,
-            "top_terms": [
-              "specialist",
-              "talent",
-              "intern"
-            ],
-            "pct": 61.9
-          },
-          {
             "id": 0,
-            "size": 26,
+            "size": 71,
             "top_terms": [
-              "addetto",
-              "risorse",
-              "umane"
+              "operatore",
+              "roma",
+              "manager"
             ],
-            "pct": 14.4
+            "pct": 38.8
           },
           {
             "id": 4,
-            "size": 20,
+            "size": 49,
             "top_terms": [
               "umane",
               "risorse",
-              "impiegato"
+              "addetto"
             ],
-            "pct": 11.0
+            "pct": 26.8
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 26,
             "top_terms": [
-              "recruiter",
               "hr",
-              "specialist"
+              "recruiter",
+              "generalist"
             ],
-            "pct": 9.4
+            "pct": 14.2
+          },
+          {
+            "id": 3,
+            "size": 24,
+            "top_terms": [
+              "specialist",
+              "payroll",
+              "talent"
+            ],
+            "pct": 13.1
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 13,
             "top_terms": [
-              "business",
-              "partner",
-              "hr"
+              "intern",
+              "human",
+              "resources"
             ],
-            "pct": 3.3
+            "pct": 7.1
           }
         ]
       }
