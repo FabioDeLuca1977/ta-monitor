@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-30T08:16:08.649097",
+  "generated_at": "2026-03-31T07:50:04.049170",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 62,
+  "total_jobs_analyzed": 61,
   "scoring": {
-    "average": 25.2,
+    "average": 25.4,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 21,
+      "medium": 20,
       "low": 5,
       "irrelevant": 34
     },
@@ -16,7 +16,7 @@
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 64,
+        "score": 63,
         "site": "indeed",
         "date_posted": 1773705600000,
         "url": "https://it.indeed.com/viewjob?jk=fec5dbd7c5febc45"
@@ -40,7 +40,7 @@
       {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
         "company": "Teva Pharmaceuticals",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4382117194"
@@ -94,6 +94,14 @@
         "url": "https://www.linkedin.com/jobs/view/4383717643"
       },
       {
+        "title": "Country Medical Lead, Italy",
+        "company": "Guardant Health",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": 1773446400000,
+        "url": "https://www.linkedin.com/jobs/view/4342482448"
+      },
+      {
         "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
         "company": "Allergan Aesthetics, an AbbVie Company",
         "score": 51,
@@ -108,14 +116,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390945528"
-      },
-      {
-        "title": "Country Medical Lead, Italy",
-        "company": "Guardant Health",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1773446400000,
-        "url": "https://www.linkedin.com/jobs/view/4342482448"
       },
       {
         "title": "Regulatory Affairs Specialist I",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "temporary",
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 5,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 60
     },
     {
       "keyword": "medical scientific",
@@ -224,31 +224,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-78%)",
       "data": {
         "current": 1,
-        "avg": 4.7,
-        "change_pct": -78.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "avg": 4.6,
+        "change_pct": -78.3
       }
     },
     {
@@ -258,54 +238,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 19,
-            "top_terms": [
-              "manager",
-              "clinical",
-              "senior"
-            ],
-            "pct": 30.6
-          },
-          {
-            "id": 0,
-            "size": 18,
-            "top_terms": [
-              "specialist",
-              "engineer",
-              "coordinator"
-            ],
-            "pct": 29.0
-          },
-          {
             "id": 1,
-            "size": 11,
+            "size": 17,
             "top_terms": [
               "medical",
-              "lead",
-              "italy"
+              "italy",
+              "msl"
             ],
-            "pct": 17.7
+            "pct": 27.9
           },
           {
             "id": 4,
+            "size": 17,
+            "top_terms": [
+              "senior",
+              "engineer",
+              "coordinator"
+            ],
+            "pct": 27.9
+          },
+          {
+            "id": 0,
+            "size": 13,
+            "top_terms": [
+              "manager",
+              "clinical",
+              "site"
+            ],
+            "pct": 21.3
+          },
+          {
+            "id": 3,
             "size": 8,
             "top_terms": [
-              "msl",
-              "liaison",
-              "medical"
+              "affairs",
+              "regulatory",
+              "specialist"
             ],
-            "pct": 12.9
+            "pct": 13.1
           },
           {
             "id": 2,
             "size": 6,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "specialist",
+              "qa",
+              "fishery"
             ],
-            "pct": 9.7
+            "pct": 9.8
           }
         ]
       }

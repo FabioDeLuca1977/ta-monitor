@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-03-30T08:16:08.293896",
+  "generated_at": "2026-03-31T07:50:03.700418",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 183,
+  "total_jobs_analyzed": 181,
   "scoring": {
-    "average": 24.8,
+    "average": 23.8,
     "distribution": {
       "excellent": 0,
-      "good": 8,
-      "medium": 44,
-      "low": 49,
-      "irrelevant": 82
+      "good": 7,
+      "medium": 42,
+      "low": 47,
+      "irrelevant": 85
     },
     "top_jobs": [
       {
-        "title": "HR Specialist – Selezione e Gestione Risorse Umane",
-        "company": "EmmeBi Group",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4387375901"
-      },
-      {
         "title": "HR Talent Acquisition & Employer Branding",
         "company": "Adecco",
-        "score": 64,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386671476"
       },
       {
         "title": "HR Specialist – Selezione e Gestione Risorse Umane",
+        "company": "EmmeBi Group",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": 1773878400000,
+        "url": "https://www.linkedin.com/jobs/view/4387375901"
+      },
+      {
+        "title": "HR Specialist – Selezione e Gestione Risorse Umane",
         "company": "Mcc service",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390743000"
@@ -40,23 +40,23 @@
       {
         "title": "HR Manager - Administration & Payroll",
         "company": "MatchGuru",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4391593111"
       },
       {
-        "title": "Talent Acquisition Manager - Retail GDO",
-        "company": "Hays",
-        "score": 61,
+        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
+        "company": "Letuelezioni",
+        "score": 62,
         "site": "linkedin",
-        "date_posted": 1773014400000,
-        "url": "https://www.linkedin.com/jobs/view/4381729939"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4385972264"
       },
       {
         "title": "Head hunter/HR Recruiter Senior - Fiumicino",
         "company": "EASYDIGITALGROUP",
-        "score": 61,
+        "score": 62,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=538bde2bee4e09c8"
@@ -68,14 +68,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4369142800"
-      },
-      {
-        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
-        "company": "Letuelezioni",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385972264"
       },
       {
         "title": "Talent Acquisition Specialist",
@@ -134,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4387283505"
       },
       {
+        "title": "Talent Acquisition Intern",
+        "company": "Alkemy Group",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1773964800000,
+        "url": "https://www.linkedin.com/jobs/view/4388394745"
+      },
+      {
         "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
         "company": "EmmeBi Group",
         "score": 56,
@@ -150,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4385019467"
       },
       {
-        "title": "Talent Acquisition Intern",
-        "company": "Alkemy Group",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1773964800000,
-        "url": "https://www.linkedin.com/jobs/view/4388394745"
-      },
-      {
         "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
         "company": "Mcc service",
         "score": 56,
@@ -170,8 +162,16 @@
         "company": "NTWK",
         "score": 55,
         "site": "indeed",
-        "date_posted": 1773273600000,
-        "url": "https://it.indeed.com/viewjob?jk=43e3e64850df4b52"
+        "date_posted": 1773619200000,
+        "url": "https://it.indeed.com/viewjob?jk=3aa7e72976109c1d"
+      },
+      {
+        "title": "HR Specialist",
+        "company": "Stargate Security srl",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1773100800000,
+        "url": "https://it.indeed.com/viewjob?jk=a580c2c3686cd978"
       }
     ]
   },
@@ -180,45 +180,33 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
-        "word": "impiegato",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "ufficio",
+        "word": "personale",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "personale",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "conferimento",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "research",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "dell",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "incarico",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
-    {
-      "keyword": "categorie protette",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "senior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
     {
       "keyword": "gestione",
       "frequency": 4,
@@ -226,43 +214,55 @@
       "confidence": 40
     },
     {
-      "keyword": "generalist appartenente",
+      "keyword": "categorie protette",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "appartenente alle",
+      "keyword": "specialist sistemi",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "alle categorie",
+      "keyword": "sistemi gestione",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "protette art",
+      "keyword": "gestione utenze",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "generalist appartenente alle",
+      "keyword": "utenze domestiche",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "appartenente alle categorie",
+      "keyword": "specialist sistemi gestione",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "alle categorie protette",
+      "keyword": "sistemi gestione utenze",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "gestione utenze domestiche",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "hr talent",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -270,23 +270,42 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-86%)",
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 AZIENDA SANITARIA LOCALE ROMA 2 DI ROMA: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 2,
-        "avg": 13.9,
-        "change_pct": -85.6
+        "company": "AZIENDA SANITARIA LOCALE ROMA 2 DI ROMA",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 9/16 annunci da aziende nuove (56.2%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 9,
+        "total": 16,
+        "pct": 56.2
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 12% (-38pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 12.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 88% (+38pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 87.5
       }
     },
     {
@@ -296,54 +315,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 71,
-            "top_terms": [
-              "operatore",
-              "roma",
-              "manager"
-            ],
-            "pct": 38.8
-          },
-          {
             "id": 4,
-            "size": 49,
+            "size": 79,
             "top_terms": [
-              "umane",
-              "risorse",
-              "addetto"
+              "intern",
+              "operatore",
+              "talent"
             ],
-            "pct": 26.8
+            "pct": 43.6
           },
           {
             "id": 1,
-            "size": 26,
+            "size": 32,
+            "top_terms": [
+              "addetto",
+              "risorse",
+              "umane"
+            ],
+            "pct": 17.7
+          },
+          {
+            "id": 2,
+            "size": 27,
             "top_terms": [
               "hr",
               "recruiter",
               "generalist"
             ],
-            "pct": 14.2
+            "pct": 14.9
           },
           {
             "id": 3,
-            "size": 24,
+            "size": 26,
             "top_terms": [
               "specialist",
               "payroll",
-              "talent"
+              "hr"
             ],
-            "pct": 13.1
+            "pct": 14.4
           },
           {
-            "id": 2,
-            "size": 13,
+            "id": 0,
+            "size": 17,
             "top_terms": [
-              "intern",
-              "human",
-              "resources"
+              "umane",
+              "risorse",
+              "impiegato"
             ],
-            "pct": 7.1
+            "pct": 9.4
           }
         ]
       }

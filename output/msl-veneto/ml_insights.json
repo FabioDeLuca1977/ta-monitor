@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-30T08:16:08.427063",
+  "generated_at": "2026-03-31T07:50:03.834534",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 43,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 29.4,
+    "average": 29.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 22,
-      "low": 7,
+      "low": 8,
       "irrelevant": 14
     },
     "top_jobs": [
       {
         "title": "LTC Clinical Specialist",
         "company": "Essity",
-        "score": 54,
+        "score": 49,
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
@@ -54,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
+        "title": "Informatore Scientifico Specialist - Vicenza e Padova",
+        "company": "Pharma Line srl",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4345963815"
+      },
+      {
         "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
         "company": "myGwork - LGBTQ+ Business Community",
         "score": 46,
         "site": "linkedin",
         "date_posted": 1774483200000,
         "url": "https://www.linkedin.com/jobs/view/4391198486"
-      },
-      {
-        "title": "Informatore Scientifico Specialist - Vicenza e Padova",
-        "company": "Pharma Line srl",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4345963815"
       },
       {
         "title": "Regulatory Affairs",
@@ -100,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1773273600000,
         "url": "https://www.linkedin.com/jobs/view/4383042478"
+      },
+      {
+        "title": "ISF Ginecologia",
+        "company": "PROCARE HEALTH",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386646967"
       },
       {
         "title": "Informatore scientifico, VENETO",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1773273600000,
         "url": "https://www.linkedin.com/jobs/view/4356098675"
-      },
-      {
-        "title": "INFORMATORE SCIENTIFICO OSPEDALIERO (Triveneto - Verona/Padova/Venezia)",
-        "company": "Cristalfarma",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1773014400000,
-        "url": "https://www.linkedin.com/jobs/view/4381854610"
       }
     ]
   },
@@ -189,43 +189,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 7 annunci ultimo scan vs media 3 (+114%)",
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-48%)",
       "data": {
-        "current": 7,
-        "avg": 3.3,
-        "change_pct": 113.9
+        "current": 2,
+        "avg": 3.8,
+        "change_pct": -47.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 7,
-        "pct": 71.4
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 57% (-43pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 57.1
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 43% (+43pp)",
+      "message": "📡 linkedin: quota passata da 43% a 100% (+57pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 42.9
+        "old_pct": 42.9,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 57% a 0% (-57pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 57.1,
+        "new_pct": 0.0
       }
     },
     {
@@ -236,53 +236,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 12,
+            "size": 15,
             "top_terms": [
-              "engineer",
-              "process",
-              "food"
-            ],
-            "pct": 27.9
-          },
-          {
-            "id": 2,
-            "size": 12,
-            "top_terms": [
-              "informatore",
-              "scientifico",
-              "medico"
-            ],
-            "pct": 27.9
-          },
-          {
-            "id": 4,
-            "size": 9,
-            "top_terms": [
+              "isf",
               "clinical",
-              "specialist",
-              "field"
+              "vicenza"
             ],
-            "pct": 20.9
-          },
-          {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "verona",
-              "padova",
-              "scientifico"
-            ],
-            "pct": 11.6
+            "pct": 34.1
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 14,
+            "top_terms": [
+              "scientifico",
+              "informatore",
+              "medico"
+            ],
+            "pct": 31.8
+          },
+          {
+            "id": 0,
+            "size": 8,
             "top_terms": [
               "specialist",
-              "affairs",
-              "regulatory"
+              "clinical",
+              "field"
             ],
-            "pct": 11.6
+            "pct": 18.2
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "engineer",
+              "process",
+              "vicenza"
+            ],
+            "pct": 9.1
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 6.8
           }
         ]
       }

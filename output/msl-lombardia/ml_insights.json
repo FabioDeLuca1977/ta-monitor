@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-30T08:16:08.537487",
+  "generated_at": "2026-03-31T07:50:03.941459",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 180,
+  "total_jobs_analyzed": 176,
   "scoring": {
     "average": 29.9,
     "distribution": {
       "excellent": 0,
       "good": 6,
-      "medium": 84,
+      "medium": 81,
       "low": 15,
-      "irrelevant": 75
+      "irrelevant": 74
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": 1773100800000,
         "url": "https://www.linkedin.com/jobs/view/4381997937"
+      },
+      {
+        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
+        "company": "Amplity",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390704814"
       },
       {
         "title": "Medical Advisor Biologics - Dermatology",
@@ -54,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4390016439"
       },
       {
-        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
-        "company": "Amplity",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4390704814"
-      },
-      {
         "title": "Medical Advisor Junior",
         "company": "Neopharmed Gentili S.P.A.",
         "score": 58,
@@ -72,18 +72,10 @@
       {
         "title": "Regulatory Affairs Specialist - Medical Device",
         "company": "Professional Recruitment",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4382881726"
-      },
-      {
-        "title": "Medical Director, Global Evidence Generation Lead",
-        "company": "Alfasigma",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1773014400000,
-        "url": "https://www.linkedin.com/jobs/view/4381897037"
       },
       {
         "title": "International Medical Advisor - Oncology",
@@ -92,6 +84,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4376580779"
+      },
+      {
+        "title": "Medical Monitor (Gastroenterology)",
+        "company": "PSI CRO",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4389191212"
       },
       {
         "title": "Psychiatry - Medical Director",
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
-        "title": "Medical Affairs Clinician - Italy",
-        "company": "Evolus",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4342294307"
-      },
-      {
         "title": "Medical Affairs Associate",
         "company": "Fondazione Telethon",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386347390"
+      },
+      {
+        "title": "(Associate) Medical Director - Rheumatology, EMEA",
+        "company": "Thermo Fisher Scientific",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4374569822"
       },
       {
         "title": "Medical Science Liaison - Nord & Centro Italia",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=1fa9af4c1df1764e"
       },
       {
-        "title": "Director, Medical Affairs LIVE Italy",
-        "company": "Gilead Sciences",
-        "score": 54,
+        "title": "Medical Affairs Clinician - Italy",
+        "company": "Evolus",
+        "score": 55,
         "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4374040619"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4342294307"
       }
     ]
   },
@@ -199,9 +199,9 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "market",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "quality",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -229,32 +229,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 13 (-92%)",
+      "severity": "medium",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 12 (-42%)",
       "data": {
-        "current": 1,
-        "avg": 12.8,
-        "change_pct": -92.2
+        "current": 7,
+        "avg": 12.1,
+        "change_pct": -42.0
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
+      "data": {
+        "new": 5,
+        "total": 7,
+        "pct": 71.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 25% a 0% (-25pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 25.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 linkedin: quota passata da 100% a 29% (-71pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 75.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 28.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 71% (+71pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 71.4
       }
     },
     {
@@ -264,54 +274,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 78,
-            "top_terms": [
-              "specialist",
-              "cra",
-              "italy"
-            ],
-            "pct": 43.3
-          },
-          {
             "id": 2,
-            "size": 30,
-            "top_terms": [
-              "medical",
-              "director",
-              "lead"
-            ],
-            "pct": 16.7
-          },
-          {
-            "id": 1,
-            "size": 27,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 15.0
-          },
-          {
-            "id": 3,
-            "size": 23,
+            "size": 74,
             "top_terms": [
               "manager",
-              "senior",
-              "project"
+              "associate",
+              "clinical"
             ],
-            "pct": 12.8
+            "pct": 42.0
           },
           {
             "id": 4,
-            "size": 22,
+            "size": 35,
             "top_terms": [
+              "specialist",
               "clinical",
-              "associate",
-              "research"
+              "sales"
             ],
-            "pct": 12.2
+            "pct": 19.9
+          },
+          {
+            "id": 1,
+            "size": 29,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 16.5
+          },
+          {
+            "id": 3,
+            "size": 28,
+            "top_terms": [
+              "medical",
+              "director",
+              "advisor"
+            ],
+            "pct": 15.9
+          },
+          {
+            "id": 0,
+            "size": 10,
+            "top_terms": [
+              "cra",
+              "senior",
+              "fsp"
+            ],
+            "pct": 5.7
           }
         ]
       }

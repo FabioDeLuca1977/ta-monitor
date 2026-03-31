@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-03-30T08:16:08.710157",
+  "generated_at": "2026-03-31T07:50:04.109027",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 70,
+  "total_jobs_analyzed": 71,
   "scoring": {
-    "average": 18.9,
+    "average": 18.3,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 9,
-      "low": 11,
-      "irrelevant": 46
+      "good": 3,
+      "medium": 10,
+      "low": 10,
+      "irrelevant": 48
     },
     "top_jobs": [
-      {
-        "title": "Quality Assurance Specialist — Gmp Compliance",
-        "company": "Recordati",
-        "score": 63,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-643bc0ebd14fceafbd68b835ee13f79f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "AxL Spa – ALTI PROFILI",
@@ -30,17 +22,9 @@
         "url": "https://www.linkedin.com/jobs/view/4385758124"
       },
       {
-        "title": "Pharma Quality Assurance Specialist — Gmp",
-        "company": "Brenntag",
-        "score": 62,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-5f50a7407e040e25a5dd97d41d411171?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4384490252"
@@ -48,18 +32,26 @@
       {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Jobtech",
-        "score": 59,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1773360000000,
         "url": "https://www.linkedin.com/jobs/view/4385332082"
       },
       {
-        "title": "Qa Specialist: Gmp",
-        "company": "Guna Spa",
-        "score": 56,
+        "title": "Pharma Quality Assurance Specialist — Gmp",
+        "company": "Brenntag",
+        "score": 57,
         "site": "google",
         "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        "url": "https://it.trabajo.org/offerta-3833-5f50a7407e040e25a5dd97d41d411171?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Quality Assurance Specialist — Gmp Compliance",
+        "company": "Recordati",
+        "score": 57,
+        "site": "google",
+        "date_posted": 1774569600000,
+        "url": "https://it.trabajo.org/offerta-3833-643bc0ebd14fceafbd68b835ee13f79f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Senior International Regulatory Specialist",
@@ -72,15 +64,23 @@
       {
         "title": "Regulatory Affairs Specialist – International market",
         "company": "Labomar S.r.l.",
-        "score": 52,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
       },
       {
+        "title": "Qa Specialist: Gmp",
+        "company": "Guna Spa",
+        "score": 51,
+        "site": "google",
+        "date_posted": 1774569600000,
+        "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Junior Qa Specialist Gmp Pharma",
         "company": "Acarpia Farmaceutici S.R.L.",
-        "score": 50,
+        "score": 51,
         "site": "google",
         "date_posted": 1774483200000,
         "url": "https://it.trabajo.org/offerta-3833-e10104ea14dcf508467fd36c613b3a53?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -179,27 +179,27 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "quality",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "pharma",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "business",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
         "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "commerciale",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "tecnico",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "padova",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -222,61 +222,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 26 annunci ultimo scan vs media 4 (+550%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-51%)",
       "data": {
-        "current": 26,
-        "avg": 4.0,
-        "change_pct": 550.0
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Altro: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Altro",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Translated Srl: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Translated Srl",
-        "count": 2
+        "current": 3,
+        "avg": 6.2,
+        "change_pct": -51.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 24/26 annunci da aziende nuove (92.3%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 24,
-        "total": 26,
-        "pct": 92.3
+        "new": 3,
+        "total": 3,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 4% (-96pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 3.8
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 google: quota passata da 0% a 96% (+96pp)",
+      "message": "📡 google: quota passata da 96% a 0% (-96pp)",
       "data": {
         "channel": "google",
-        "old_pct": 0.0,
-        "new_pct": 96.2
+        "old_pct": 96.2,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 4% a 100% (+96pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 3.8,
+        "new_pct": 100.0
       }
     },
     {
@@ -286,54 +268,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 29,
+            "id": 1,
+            "size": 33,
             "top_terms": [
               "specialist",
               "commerciale",
-              "product"
+              "tecnico"
             ],
-            "pct": 41.4
+            "pct": 46.5
           },
           {
-            "id": 2,
-            "size": 17,
+            "id": 3,
+            "size": 16,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 24.3
+            "pct": 22.5
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 14,
             "top_terms": [
               "qa",
               "pharma",
               "specialist"
             ],
-            "pct": 20.0
+            "pct": 19.7
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 7.1
+            "pct": 7.0
           },
           {
             "id": 4,
-            "size": 5,
+            "size": 3,
             "top_terms": [
-              "tecnico",
-              "padova",
-              "addetto"
+              "product",
+              "specialist",
+              "systems"
             ],
-            "pct": 7.1
+            "pct": 4.2
           }
         ]
       }
