@@ -1,34 +1,18 @@
 {
-  "generated_at": "2026-03-31T07:50:03.941459",
+  "generated_at": "2026-04-01T07:55:13.437624",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 176,
+  "total_jobs_analyzed": 170,
   "scoring": {
-    "average": 29.9,
+    "average": 28.9,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 81,
-      "low": 15,
+      "good": 5,
+      "medium": 75,
+      "low": 16,
       "irrelevant": 74
     },
     "top_jobs": [
-      {
-        "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
-        "company": "Teva Pharmaceuticals",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1773100800000,
-        "url": "https://www.linkedin.com/jobs/view/4381997937"
-      },
-      {
-        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
-        "company": "Amplity",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4390704814"
-      },
       {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
@@ -62,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4390016439"
       },
       {
+        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
+        "company": "Amplity",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390704814"
+      },
+      {
         "title": "Medical Advisor Junior",
         "company": "Neopharmed Gentili S.P.A.",
         "score": 58,
@@ -72,7 +64,7 @@
       {
         "title": "Regulatory Affairs Specialist - Medical Device",
         "company": "Professional Recruitment",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1773187200000,
         "url": "https://www.linkedin.com/jobs/view/4382881726"
@@ -84,14 +76,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4376580779"
-      },
-      {
-        "title": "Medical Monitor (Gastroenterology)",
-        "company": "PSI CRO",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4389191212"
       },
       {
         "title": "Psychiatry - Medical Director",
@@ -118,6 +102,14 @@
         "url": "https://www.linkedin.com/jobs/view/4331970392"
       },
       {
+        "title": "Medical Science Liaison - Nord & Centro Italia",
+        "company": "Theras",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1773792000000,
+        "url": "https://it.indeed.com/viewjob?jk=1fa9af4c1df1764e"
+      },
+      {
         "title": "Medical Affairs Lead Epilepsy",
         "company": "Neuraxpharm",
         "score": 56,
@@ -142,36 +134,44 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
+        "title": "Medical Affairs Clinician - Italy",
+        "company": "Evolus",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4342294307"
+      },
+      {
         "title": "Medical Affairs Associate",
         "company": "Fondazione Telethon",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773619200000,
         "url": "https://www.linkedin.com/jobs/view/4386347390"
       },
       {
-        "title": "(Associate) Medical Director - Rheumatology, EMEA",
-        "company": "Thermo Fisher Scientific",
+        "title": "Director, Medical Affairs LIVE Italy",
+        "company": "Gilead Sciences",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4374569822"
+        "date_posted": 1773360000000,
+        "url": "https://www.linkedin.com/jobs/view/4374040619"
       },
       {
-        "title": "Medical Science Liaison - Nord & Centro Italia",
-        "company": "Theras",
-        "score": 55,
+        "title": "Medical Science Liaison, Oncology, Italy, Israel, Turkey & Greece",
+        "company": "IQVIA",
+        "score": 54,
         "site": "indeed",
-        "date_posted": 1773792000000,
-        "url": "https://it.indeed.com/viewjob?jk=1fa9af4c1df1764e"
+        "date_posted": 1773360000000,
+        "url": "https://it.indeed.com/viewjob?jk=3dafa39e805100c7"
       },
       {
-        "title": "Medical Affairs Clinician - Italy",
-        "company": "Evolus",
-        "score": 55,
+        "title": "Global Director Medical Affairs",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4342294307"
+        "date_posted": 1773273600000,
+        "url": "https://www.linkedin.com/jobs/view/4384893307"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 21,
-        "reason": "Appare 21x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -190,8 +190,8 @@
       },
       {
         "word": "senior",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "global",
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 60
     },
     {
       "keyword": "oncology italy",
@@ -230,41 +230,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 12 (-42%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 12 (-49%)",
       "data": {
-        "current": 7,
-        "avg": 12.1,
-        "change_pct": -42.0
+        "current": 6,
+        "avg": 11.7,
+        "change_pct": -48.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
+      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 5,
-        "total": 7,
-        "pct": 71.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 29% (-71pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 28.6
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 71% (+71pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 71.4
+        "new": 3,
+        "total": 6,
+        "pct": 50.0
       }
     },
     {
@@ -274,44 +254,44 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 74,
-            "top_terms": [
-              "manager",
-              "associate",
-              "clinical"
-            ],
-            "pct": 42.0
-          },
-          {
             "id": 4,
-            "size": 35,
+            "size": 74,
             "top_terms": [
               "specialist",
               "clinical",
-              "sales"
+              "associate"
             ],
-            "pct": 19.9
+            "pct": 43.5
           },
           {
-            "id": 1,
-            "size": 29,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 16.5
-          },
-          {
-            "id": 3,
-            "size": 28,
+            "id": 2,
+            "size": 35,
             "top_terms": [
               "medical",
               "director",
               "advisor"
             ],
-            "pct": 15.9
+            "pct": 20.6
+          },
+          {
+            "id": 1,
+            "size": 28,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "medical"
+            ],
+            "pct": 16.5
+          },
+          {
+            "id": 3,
+            "size": 23,
+            "top_terms": [
+              "manager",
+              "senior",
+              "project"
+            ],
+            "pct": 13.5
           },
           {
             "id": 0,
@@ -321,7 +301,7 @@
               "senior",
               "fsp"
             ],
-            "pct": 5.7
+            "pct": 5.9
           }
         ]
       }

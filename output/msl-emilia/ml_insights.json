@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-31T07:50:03.989035",
+  "generated_at": "2026-04-01T07:55:13.482683",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 60,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 34.8,
+    "average": 34.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 31,
+      "medium": 30,
       "low": 15,
-      "irrelevant": 13
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -24,18 +24,10 @@
       {
         "title": "Remote Field Medical Liaison - Rare Diseases",
         "company": "Ascendis Pharma",
-        "score": 57,
+        "score": 56,
         "site": "google",
         "date_posted": 1774396800000,
         "url": "https://it.jooble.org/jdp/-4302750752164216609?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Field-Based Oncology Medical Science Liaison",
-        "company": "MSD Italia",
-        "score": 56,
-        "site": "google",
-        "date_posted": 1774310400000,
-        "url": "https://it.trabajo.org/offerta-3782-c711b693a6f3939f8b27105201b29f37?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Medical Science Liaison Italy: KOL Engagement & Insights",
@@ -70,6 +62,14 @@
         "url": "https://it.indeed.com/viewjob?jk=9afdaa04d6b4c602"
       },
       {
+        "title": "Clinical Specialist",
+        "company": "THD SpA",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1774828800000,
+        "url": "https://www.linkedin.com/jobs/view/4395055155"
+      },
+      {
         "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
         "company": "Pharma Point",
         "score": 51,
@@ -84,6 +84,14 @@
         "site": "google",
         "date_posted": 1774569600000,
         "url": "https://it.trabajo.org/offerta-3833-d32232d6345090d714033db633adcbd6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Field-Based Oncology Medical Science Liaison",
+        "company": "MSD Italia",
+        "score": 51,
+        "site": "google",
+        "date_posted": 1774310400000,
+        "url": "https://it.trabajo.org/offerta-3782-c711b693a6f3939f8b27105201b29f37?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Medical science liaison/msl (respiratorio)",
@@ -128,18 +136,10 @@
       {
         "title": "Regulatory Affairs Specialist - REACH e CLP",
         "company": "Lavoropiù SpA",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": 1773273600000,
         "url": "https://www.linkedin.com/jobs/view/4384850619"
-      },
-      {
-        "title": "Regulatory Affairs & Quality Assurance Specialist",
-        "company": "MEDAX SRL UNIPERSONALE",
-        "score": 47,
-        "site": "indeed",
-        "date_posted": 1773100800000,
-        "url": "https://it.indeed.com/viewjob?jk=57feff842e9c436e"
       },
       {
         "title": "Medical Science Liaison - Interventional Radiology (Italy based)",
@@ -202,98 +202,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 33 annunci ultimo scan vs media 4 (+756%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-88%)",
       "data": {
-        "current": 33,
-        "avg": 3.9,
-        "change_pct": 755.6
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Ascendis Pharma: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Ascendis Pharma",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Adecco: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Adecco",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Novocure Inc.: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Novocure Inc.",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Jefferson Wells Italia: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Jefferson Wells Italia",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Teva Pharmaceuticals: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Teva Pharmaceuticals",
-        "count": 2
+        "current": 1,
+        "avg": 8.1,
+        "change_pct": -87.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 31/33 annunci da aziende nuove (93.9%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 31,
-        "total": 33,
-        "pct": 93.9
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 60% a 0% (-60pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 60.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 google: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 google: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "google",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 40% a 0% (-40pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 40.0,
-        "new_pct": 0.0
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -304,53 +249,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 18,
+            "size": 26,
             "top_terms": [
-              "scientific",
-              "liaison",
-              "medical"
+              "msl",
+              "field",
+              "italy"
             ],
-            "pct": 30.0
+            "pct": 44.8
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 13,
             "top_terms": [
               "science",
               "liaison",
               "medical"
             ],
-            "pct": 21.7
+            "pct": 22.4
           },
           {
-            "id": 4,
-            "size": 12,
-            "top_terms": [
-              "msl",
-              "field",
-              "oncology"
-            ],
-            "pct": 20.0
-          },
-          {
-            "id": 3,
-            "size": 9,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "bologna"
-            ],
-            "pct": 15.0
-          },
-          {
-            "id": 2,
+            "id": 0,
             "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.3
+            "pct": 13.8
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "bologna"
+            ],
+            "pct": 10.3
+          },
+          {
+            "id": 3,
+            "size": 5,
+            "top_terms": [
+              "scientific",
+              "liaison",
+              "medical"
+            ],
+            "pct": 8.6
           }
         ]
       }
