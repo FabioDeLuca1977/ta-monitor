@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-01T07:55:13.603361",
+  "generated_at": "2026-04-02T07:48:02.558972",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 71,
+  "total_jobs_analyzed": 72,
   "scoring": {
-    "average": 18.4,
+    "average": 18.8,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 11,
-      "low": 9,
+      "low": 10,
       "irrelevant": 48
     },
     "top_jobs": [
@@ -34,7 +34,7 @@
         "company": "Randstad Professional Italia",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773705600000,
         "url": "https://www.linkedin.com/jobs/view/4384490252"
       },
       {
@@ -66,7 +66,7 @@
         "company": "Orthofix",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773705600000,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
       },
       {
@@ -78,6 +78,14 @@
         "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
       },
       {
+        "title": "Qa Specialist: Gmp",
+        "company": "Guna Spa",
+        "score": 51,
+        "site": "google",
+        "date_posted": 1774569600000,
+        "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Junior Qa Specialist Gmp Pharma",
         "company": "Acarpia Farmaceutici S.R.L.",
         "score": 51,
@@ -86,17 +94,9 @@
         "url": "https://it.trabajo.org/offerta-3833-e10104ea14dcf508467fd36c613b3a53?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Qa Specialist: Gmp",
-        "company": "Guna Spa",
-        "score": 50,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Quality Assurance Pharma",
         "company": "Altro",
-        "score": 47,
+        "score": 46,
         "site": "google",
         "date_posted": 1774483200000,
         "url": "https://it.trabajo.org/offerta-3833-962ab04718dc06281a95f9184dee7e04?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -126,20 +126,28 @@
         "url": "https://it.jooble.org/jdp/-2992254592009307340?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Quality Assurance Operations Manager",
-        "company": "Boehringer Ingelheim",
-        "score": 38,
-        "site": "indeed",
-        "date_posted": 1774396800000,
-        "url": "https://it.indeed.com/viewjob?jk=6884eec860d84746"
-      },
-      {
         "title": "Pharma QA Specialist: GMP & CAPA Compliance",
         "company": "AMARIS GROUP SA",
         "score": 35,
         "site": "google",
         "date_posted": null,
         "url": "https://it.jooble.org/jdp/4165051911481337386?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Quality Assurance Operations Manager",
+        "company": "Boehringer Ingelheim",
+        "score": 34,
+        "site": "indeed",
+        "date_posted": 1774396800000,
+        "url": "https://it.indeed.com/viewjob?jk=6884eec860d84746"
+      },
+      {
+        "title": "Responsabile Amministrativo",
+        "company": "Magazzini Zanchetta ",
+        "score": 32,
+        "site": "indeed",
+        "date_posted": 1775001600000,
+        "url": "https://it.indeed.com/viewjob?jk=bcd1d54d0f7ba5da"
       },
       {
         "title": "GMP QA Specialist – Pharma, Flexible Hours",
@@ -164,14 +172,6 @@
         "site": "google",
         "date_posted": 1774483200000,
         "url": "https://it.trabajo.org/offerta-3833-d5c733cdb0659938b784c978193c8679?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "QA/QC Specialist",
-        "company": "Pharma Point",
-        "score": 27,
-        "site": "google",
-        "date_posted": 1774310400000,
-        "url": "https://bebee.com/it/jobs/qa-qc-specialist-pharma-point-rome--talent-76aba53fb90f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "assurance",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "pharma",
@@ -194,12 +194,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "business",
+        "word": "director",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "tecnico",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -222,33 +222,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-51%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
       "data": {
-        "current": 3,
-        "avg": 6.2,
-        "change_pct": -51.5
+        "new": 5,
+        "total": 5,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -258,34 +258,34 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 1,
             "size": 34,
             "top_terms": [
               "specialist",
-              "manager",
+              "director",
               "engineer"
             ],
-            "pct": 47.9
+            "pct": 47.2
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 15,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 21.1
+            "pct": 20.8
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 14,
             "top_terms": [
               "qa",
               "pharma",
               "specialist"
             ],
-            "pct": 18.3
+            "pct": 19.4
           },
           {
             "id": 2,
@@ -295,7 +295,7 @@
               "affairs",
               "specialist"
             ],
-            "pct": 8.5
+            "pct": 8.3
           },
           {
             "id": 4,
@@ -303,7 +303,7 @@
             "top_terms": [
               "tecnico",
               "padova",
-              "venice"
+              "vicenza"
             ],
             "pct": 4.2
           }

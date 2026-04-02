@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-01T07:55:13.334579",
+  "generated_at": "2026-04-02T07:48:02.283953",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 45,
+  "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 32.1,
+    "average": 31.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 25,
-      "low": 8,
+      "medium": 23,
+      "low": 7,
       "irrelevant": 12
     },
     "top_jobs": [
       {
         "title": "Medical Advisor - Gastrointestinal (GI) Oncology",
         "company": "GSK",
-        "score": 59,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393544955"
@@ -38,20 +38,20 @@
         "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
       },
       {
+        "title": "Informatore medico scientifico",
+        "company": "Manpower",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1774915200000,
+        "url": "https://www.linkedin.com/jobs/view/4395860498"
+      },
+      {
         "title": "Medical Representative/ISF Specialty Care",
         "company": "Fidia Pharma",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395658496"
-      },
-      {
-        "title": "Senior Clinical Research Associate",
-        "company": "Alira Health",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1773619200000,
-        "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -102,11 +102,19 @@
         "url": "https://www.linkedin.com/jobs/view/4391198486"
       },
       {
+        "title": "Senior Clinical Research Associate",
+        "company": "Alira Health",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386508727"
+      },
+      {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
         "score": 44,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773705600000,
         "url": "https://www.linkedin.com/jobs/view/4384490252"
       },
       {
@@ -118,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4392275238"
       },
       {
-        "title": "Informatore Scientifico del Farmaco",
-        "company": "Hays",
+        "title": "Informatore scientifico del farmaco",
+        "company": "Grafton Recruitment",
         "score": 43,
         "site": "linkedin",
-        "date_posted": 1773619200000,
-        "url": "https://www.linkedin.com/jobs/view/4384085161"
+        "date_posted": 1773705600000,
+        "url": "https://www.linkedin.com/jobs/view/4384465949"
       },
       {
         "title": "ISF",
@@ -134,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4383042478"
       },
       {
-        "title": "Informatore scientifico del farmaco",
-        "company": "Grafton Recruitment",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4384465949"
-      },
-      {
         "title": "ISF Ginecologia",
         "company": "PROCARE HEALTH",
         "score": 43,
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4386646967"
       },
       {
-        "title": "MSL Cardiometabolic (Nord Est)",
-        "company": "Jefferson Wells Italia",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1773187200000,
-        "url": "https://www.linkedin.com/jobs/view/4384197040"
-      },
-      {
-        "title": "Informatore scientifico, VENETO",
-        "company": "Aliveda",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1773273600000,
-        "url": "https://www.linkedin.com/jobs/view/4382766288"
-      },
-      {
         "title": "Informatore Scientifico Dietetico - Baby Food",
         "company": "NewPrinces Group",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4387825084"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco Verona",
+        "company": "Stewart Italia srl",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4389462810"
+      },
+      {
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4381444347"
       }
     ]
   },
@@ -189,22 +189,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "new_company_surge",
+      "type": "volume_drop",
       "severity": "medium",
-      "message": "🆕 Fidia Pharma: 2 posizioni, non presente negli scan precedenti",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-45%)",
       "data": {
-        "company": "Fidia Pharma",
-        "count": 2
+        "current": 2,
+        "avg": 3.6,
+        "change_pct": -45.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 4,
-        "total": 4,
-        "pct": 100.0
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
@@ -214,54 +215,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 17,
+            "id": 1,
+            "size": 14,
             "top_terms": [
-              "clinical",
-              "specialist",
-              "field"
-            ],
-            "pct": 37.8
-          },
-          {
-            "id": 0,
-            "size": 15,
-            "top_terms": [
-              "informatore",
               "scientifico",
+              "informatore",
               "medico"
             ],
             "pct": 33.3
           },
           {
-            "id": 1,
-            "size": 5,
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "engineer",
+              "process",
+              "medical"
+            ],
+            "pct": 26.2
+          },
+          {
+            "id": 4,
+            "size": 10,
+            "top_terms": [
+              "clinical",
+              "specialist",
+              "field"
+            ],
+            "pct": 23.8
+          },
+          {
+            "id": 0,
+            "size": 4,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 11.1
+            "pct": 9.5
           },
           {
-            "id": 2,
-            "size": 4,
-            "top_terms": [
-              "engineer",
-              "process",
-              "vicenza"
-            ],
-            "pct": 8.9
-          },
-          {
-            "id": 4,
-            "size": 4,
+            "id": 3,
+            "size": 3,
             "top_terms": [
               "isf",
               "medical",
-              "vicenza"
+              "triveneto"
             ],
-            "pct": 8.9
+            "pct": 7.1
           }
         ]
       }

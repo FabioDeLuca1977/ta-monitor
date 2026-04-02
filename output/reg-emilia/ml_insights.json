@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-01T07:55:13.826104",
+  "generated_at": "2026-04-02T07:48:02.780963",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 73,
+  "total_jobs_analyzed": 72,
   "scoring": {
-    "average": 10.2,
+    "average": 10.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 5,
       "low": 0,
-      "irrelevant": 66
+      "irrelevant": 65
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4387809282"
@@ -70,9 +70,17 @@
         "url": "https://www.linkedin.com/jobs/view/4389086681"
       },
       {
+        "title": "Maritime Security Senior Manager",
+        "company": "Snam",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1775001600000,
+        "url": "https://it.indeed.com/viewjob?jk=49211339c7397133"
+      },
+      {
         "title": "Quality Assurance Manager",
         "company": "CASTAGNOLI VITERIE",
-        "score": 16,
+        "score": 15,
         "site": "linkedin",
         "date_posted": 1773532800000,
         "url": "https://www.linkedin.com/jobs/view/4384004222"
@@ -95,14 +103,6 @@
       },
       {
         "title": "Quality Assurance Specialist",
-        "company": "Dentsply Sirona",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4385392976"
-      },
-      {
-        "title": "Quality Assurance Specialist",
         "company": "Adecco",
         "score": 13,
         "site": "linkedin",
@@ -118,12 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4390010521"
       },
       {
-        "title": "Office manager & sales support",
-        "company": "Montevideo Portal",
+        "title": "Quality Assurance Specialist",
+        "company": "PQE Group",
         "score": 13,
-        "site": "indeed",
-        "date_posted": 1774396800000,
-        "url": "https://it.indeed.com/viewjob?jk=65358726e8b12384"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396440990"
       },
       {
         "title": "Quality Assurance Sr. Specialist",
@@ -140,6 +140,14 @@
         "site": "linkedin",
         "date_posted": 1773878400000,
         "url": "https://www.linkedin.com/jobs/view/4382037285"
+      },
+      {
+        "title": "QC Sr. Supervisor",
+        "company": "LINCOTEK GROUP",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1775001600000,
+        "url": "https://it.indeed.com/viewjob?jk=e2f9b4423a09ed9e"
       },
       {
         "title": "Quality Assurance Consultant",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1774828800000,
         "url": "https://it.indeed.com/viewjob?jk=4c18119339003231"
-      },
-      {
-        "title": "Tecnico Esercizio Distretto - Bologna",
-        "company": "Snam",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1774915200000,
-        "url": "https://it.indeed.com/viewjob?jk=0a667d21469ac811"
       }
     ]
   },
@@ -216,71 +216,53 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 16 annunci ultimo scan vs media 6 (+181%)",
-      "data": {
-        "current": 16,
-        "avg": 5.7,
-        "change_pct": 180.7
-      }
-    },
-    {
-      "type": "new_company_surge",
+      "type": "volume_drop",
       "severity": "medium",
-      "message": "🆕 BENU Farmacia: 7 posizioni, non presente negli scan precedenti",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-41%)",
       "data": {
-        "company": "BENU Farmacia",
-        "count": 7
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Lafarmaciapunto | B Corp: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Lafarmaciapunto | B Corp",
-        "count": 2
+        "current": 4,
+        "avg": 6.8,
+        "change_pct": -41.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 15/16 annunci da aziende nuove (93.8%)",
+      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
       "data": {
-        "new": 15,
-        "total": 16,
-        "pct": 93.8
+        "new": 1,
+        "total": 4,
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 google: quota passata da 0% a 94% (+94pp)",
+      "message": "📡 google: quota passata da 94% a 0% (-94pp)",
       "data": {
         "channel": "google",
-        "old_pct": 0.0,
-        "new_pct": 93.8
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "old_pct": 93.8,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 6% (-44pp)",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 6% a 75% (+69pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 6.2
+        "old_pct": 6.2,
+        "new_pct": 75.0
       }
     },
     {
@@ -290,54 +272,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 25,
-            "top_terms": [
-              "engineer",
-              "manager",
-              "field"
-            ],
-            "pct": 34.2
-          },
-          {
             "id": 0,
-            "size": 17,
+            "size": 33,
             "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
+              "specialist",
+              "manager",
+              "sales"
             ],
-            "pct": 23.3
+            "pct": 45.8
           },
           {
             "id": 2,
-            "size": 12,
+            "size": 17,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
+              "assurance",
+              "quality",
+              "specialist"
             ],
-            "pct": 16.4
+            "pct": 23.6
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 12,
             "top_terms": [
               "farmacista",
               "farmacia",
               "zona"
             ],
-            "pct": 16.4
+            "pct": 16.7
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 6,
             "top_terms": [
-              "bologna",
-              "commerciale",
-              "romagna"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 9.6
+            "pct": 8.3
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "engineer",
+              "service",
+              "product"
+            ],
+            "pct": 5.6
           }
         ]
       }
