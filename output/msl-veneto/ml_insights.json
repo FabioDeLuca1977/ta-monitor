@@ -1,33 +1,25 @@
 {
-  "generated_at": "2026-04-02T07:48:02.283953",
+  "generated_at": "2026-04-03T07:43:53.573742",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 31.9,
+    "average": 29.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 23,
+      "medium": 22,
       "low": 7,
-      "irrelevant": 12
+      "irrelevant": 15
     },
     "top_jobs": [
       {
         "title": "Medical Advisor - Gastrointestinal (GI) Oncology",
         "company": "GSK",
-        "score": 56,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393544955"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco - Padova",
-        "company": "Jakin SA",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1774828800000,
-        "url": "https://www.linkedin.com/jobs/view/4392908036"
       },
       {
         "title": "LTC Clinical Specialist",
@@ -70,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4378178500"
       },
       {
+        "title": "Informatore Scientifico del Farmaco - Padova",
+        "company": "Jakin SA",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1774828800000,
+        "url": "https://www.linkedin.com/jobs/view/4392908036"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Jobtech",
         "score": 46,
@@ -92,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4345963815"
-      },
-      {
-        "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
-        "company": "myGwork - LGBTQ+ Business Community",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1774483200000,
-        "url": "https://www.linkedin.com/jobs/view/4391198486"
       },
       {
         "title": "Senior Clinical Research Associate",
@@ -134,22 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4384465949"
       },
       {
-        "title": "ISF",
-        "company": "Aurora Biofarma",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1773273600000,
-        "url": "https://www.linkedin.com/jobs/view/4383042478"
-      },
-      {
-        "title": "ISF Ginecologia",
-        "company": "PROCARE HEALTH",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386646967"
-      },
-      {
         "title": "Informatore Scientifico Dietetico - Baby Food",
         "company": "NewPrinces Group",
         "score": 42,
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381444347"
+      },
+      {
+        "title": "ISF Ginecologia",
+        "company": "PROCARE HEALTH",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386646967"
+      },
+      {
+        "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
+        "company": "Boston Scientific",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390363754"
+      },
+      {
+        "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
+        "company": "myGwork - LGBTQ+ Business Community",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1774483200000,
+        "url": "https://www.linkedin.com/jobs/view/4391198486"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -189,23 +189,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-45%)",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+41%)",
       "data": {
-        "current": 2,
-        "avg": 3.6,
-        "change_pct": -45.0
+        "current": 5,
+        "avg": 3.5,
+        "change_pct": 41.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/5 annunci da aziende nuove (40.0%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 2,
+        "total": 5,
+        "pct": 40.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 40% (-60pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 40.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 60% (+60pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 60.0
       }
     },
     {
@@ -216,53 +236,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 14,
-            "top_terms": [
-              "scientifico",
-              "informatore",
-              "medico"
-            ],
-            "pct": 33.3
-          },
-          {
-            "id": 2,
-            "size": 11,
-            "top_terms": [
-              "engineer",
-              "process",
-              "medical"
-            ],
-            "pct": 26.2
-          },
-          {
-            "id": 4,
-            "size": 10,
+            "size": 19,
             "top_terms": [
               "clinical",
               "specialist",
-              "field"
+              "health"
             ],
-            "pct": 23.8
+            "pct": 43.2
           },
           {
             "id": 0,
+            "size": 13,
+            "top_terms": [
+              "informatore",
+              "scientifico",
+              "medico"
+            ],
+            "pct": 29.5
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "engineer",
+              "process",
+              "manufacturing"
+            ],
+            "pct": 11.4
+          },
+          {
+            "id": 3,
             "size": 4,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 9.5
+            "pct": 9.1
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 3,
             "top_terms": [
-              "isf",
               "medical",
-              "triveneto"
+              "isf",
+              "marche"
             ],
-            "pct": 7.1
+            "pct": 6.8
           }
         ]
       }

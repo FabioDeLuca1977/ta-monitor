@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-02T07:48:02.499618",
+  "generated_at": "2026-04-03T07:43:53.778903",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 62,
+  "total_jobs_analyzed": 60,
   "scoring": {
-    "average": 24.9,
+    "average": 25.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 20,
-      "low": 4,
-      "irrelevant": 36
+      "medium": 21,
+      "low": 5,
+      "irrelevant": 32
     },
     "top_jobs": [
       {
@@ -78,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4385271426"
       },
       {
-        "title": "Medical Advisor - Dermatology",
-        "company": "AbbVie",
-        "score": 52,
-        "site": "indeed",
-        "date_posted": 1773360000000,
-        "url": "https://it.indeed.com/viewjob?jk=385c6c702c81412f"
-      },
-      {
         "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
         "company": "Allergan Aesthetics, an AbbVie Company",
         "score": 52,
@@ -128,7 +120,7 @@
       {
         "title": "Medical Lead Europe",
         "company": "Talentmark",
-        "score": 49,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390945528"
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392287127"
+      },
+      {
+        "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
+        "company": "Adecco",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396947575"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
+        "word": "specialist",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
         "word": "temporary",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "position",
@@ -234,43 +234,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+39%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-32%)",
       "data": {
-        "current": 6,
-        "avg": 4.3,
-        "change_pct": 39.3
+        "current": 3,
+        "avg": 4.4,
+        "change_pct": -31.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 6,
-        "pct": 66.7
+        "new": 3,
+        "total": 3,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -281,53 +281,53 @@
         "clusters": [
           {
             "id": 3,
-            "size": 24,
-            "top_terms": [
-              "manager",
-              "senior",
-              "field"
-            ],
-            "pct": 38.7
-          },
-          {
-            "id": 1,
-            "size": 15,
+            "size": 16,
             "top_terms": [
               "medical",
-              "liaison",
-              "science"
-            ],
-            "pct": 24.2
-          },
-          {
-            "id": 4,
-            "size": 9,
-            "top_terms": [
-              "specialist",
-              "qa",
-              "temporary"
-            ],
-            "pct": 14.5
-          },
-          {
-            "id": 0,
-            "size": 8,
-            "top_terms": [
-              "research",
               "italy",
-              "remote"
+              "liaison"
             ],
-            "pct": 12.9
+            "pct": 26.7
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 15,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "officer",
+              "engineer",
+              "coordinator"
             ],
-            "pct": 9.7
+            "pct": 25.0
+          },
+          {
+            "id": 1,
+            "size": 12,
+            "top_terms": [
+              "manager",
+              "senior",
+              "clinical"
+            ],
+            "pct": 20.0
+          },
+          {
+            "id": 4,
+            "size": 12,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 20.0
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "research",
+              "position",
+              "days"
+            ],
+            "pct": 8.3
           }
         ]
       }

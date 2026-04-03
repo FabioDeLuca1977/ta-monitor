@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-02T07:48:02.780963",
+  "generated_at": "2026-04-03T07:43:54.056673",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 72,
+  "total_jobs_analyzed": 71,
   "scoring": {
     "average": 10.3,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 5,
+      "good": 4,
+      "medium": 3,
       "low": 0,
-      "irrelevant": 65
+      "irrelevant": 64
     },
     "top_jobs": [
       {
@@ -22,6 +22,14 @@
         "url": "https://it.indeed.com/viewjob?jk=f64affe1a0aaca3f"
       },
       {
+        "title": "Quality Assurance - Regulatory Affairs Reach e CLP",
+        "company": "Lavoropiù SpA",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387803714"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
         "score": 62,
@@ -30,33 +38,25 @@
         "url": "https://www.linkedin.com/jobs/view/4387809282"
       },
       {
-        "title": "Quality Assurance - Regulatory Affairs Reach e CLP",
-        "company": "Lavoropiù SpA",
-        "score": 58,
+        "title": "Regulatory Affairs",
+        "company": "COC Farmaceutici",
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4387803714"
+        "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
         "title": "Quality Assurance & Qualified Person Manager",
         "company": "SGB Humangest Holding",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395041812"
       },
       {
-        "title": "Regulatory Affairs Specialist - REACH e CLP",
-        "company": "Lavoropiù SpA",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1773273600000,
-        "url": "https://www.linkedin.com/jobs/view/4384850619"
-      },
-      {
         "title": "Non-Pharma Global Regulatory Affairs Manager",
         "company": "Alfasigma group",
-        "score": 56,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1772496000000,
         "url": "https://it.indeed.com/viewjob?jk=9afdaa04d6b4c602"
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4384004222"
       },
       {
-        "title": "LIMS/MODA & GMP Documentation Specialist",
-        "company": "PQE Group",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1773619200000,
-        "url": "https://www.linkedin.com/jobs/view/4384050652"
-      },
-      {
         "title": "Manager, Regulatory Lead",
         "company": "Alfasigma group",
         "score": 13,
@@ -102,20 +94,20 @@
         "url": "https://it.indeed.com/viewjob?jk=8491f0c2daec0e36"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "Adecco",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4385921296"
-      },
-      {
         "title": "Quality Assurance Specialist - Ortofrutta (GlobalGap, Grasp)",
         "company": "Hays",
         "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390010521"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Adecco",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4391430677"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -158,20 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=4d898f03460bdd3e"
       },
       {
-        "title": "HSE Specialist",
-        "company": "Dentsply Sirona",
-        "score": 10,
+        "title": "Manufacturing Site Operations Director",
+        "company": "Celanese",
+        "score": 11,
         "site": "indeed",
-        "date_posted": 1774483200000,
-        "url": "https://it.indeed.com/viewjob?jk=c709f4ffb5f063d6"
+        "date_posted": 1775088000000,
+        "url": "https://it.indeed.com/viewjob?jk=63bc29687d7995c5"
       },
       {
-        "title": "Service Administration Engineer – categorie protette",
-        "company": "VEM Sistemi",
+        "title": "Tecnico Esercizio Distretto - Bologna",
+        "company": "Snam",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1774828800000,
-        "url": "https://it.indeed.com/viewjob?jk=4c18119339003231"
+        "date_posted": 1774915200000,
+        "url": "https://it.indeed.com/viewjob?jk=0a667d21469ac811"
+      },
+      {
+        "title": "Sales Account",
+        "company": "NEGRELLI INFISSI SRL",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1775001600000,
+        "url": "https://it.indeed.com/viewjob?jk=4780cfe81b0d925b"
       }
     ]
   },
@@ -179,90 +179,53 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
-      },
-      {
         "word": "farmacista",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "bologna",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "engineer",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "farmacia",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "reach clp",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-41%)",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-40%)",
       "data": {
         "current": 4,
-        "avg": 6.8,
-        "change_pct": -41.2
+        "avg": 6.7,
+        "change_pct": -40.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 1,
+        "new": 3,
         "total": 4,
-        "pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 google: quota passata da 94% a 0% (-94pp)",
-      "data": {
-        "channel": "google",
-        "old_pct": 93.8,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 6% a 75% (+69pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 6.2,
-        "new_pct": 75.0
+        "pct": 75.0
       }
     },
     {
@@ -273,53 +236,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 33,
+            "size": 32,
             "top_terms": [
-              "specialist",
               "manager",
+              "bologna",
               "sales"
             ],
-            "pct": 45.8
+            "pct": 45.1
           },
           {
-            "id": 2,
-            "size": 17,
+            "id": 1,
+            "size": 16,
             "top_terms": [
-              "assurance",
               "quality",
+              "assurance",
               "specialist"
             ],
-            "pct": 23.6
+            "pct": 22.5
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 12,
             "top_terms": [
               "farmacista",
               "farmacia",
               "zona"
             ],
-            "pct": 16.7
+            "pct": 16.9
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 6,
             "top_terms": [
-              "regulatory",
               "affairs",
+              "regulatory",
               "specialist"
             ],
-            "pct": 8.3
+            "pct": 8.5
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 4,
+            "size": 5,
             "top_terms": [
               "engineer",
               "service",
               "product"
             ],
-            "pct": 5.6
+            "pct": 7.0
           }
         ]
       }
