@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-04-03T07:43:53.443061",
+  "generated_at": "2026-04-04T07:35:08.005377",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 179,
+  "total_jobs_analyzed": 180,
   "scoring": {
-    "average": 23.6,
+    "average": 23.3,
     "distribution": {
       "excellent": 0,
       "good": 9,
-      "medium": 38,
-      "low": 48,
-      "irrelevant": 84
+      "medium": 37,
+      "low": 47,
+      "irrelevant": 87
     },
     "top_jobs": [
-      {
-        "title": "Avviso di selezione per n.1 HR Generalist Ufficio Risorse Umane (31 marzo - 10 aprile 2026)",
-        "company": "ENEA Tech E Biomedical",
-        "score": 70,
-        "site": "indeed",
-        "date_posted": 1774915200000,
-        "url": "https://it.indeed.com/viewjob?jk=1415056297e026c2"
-      },
       {
         "title": "HR Specialist – Selezione e Gestione Risorse Umane",
         "company": "EmmeBi Group",
@@ -44,6 +36,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386671476"
+      },
+      {
+        "title": "Avviso di selezione per n.1 HR Generalist Ufficio Risorse Umane (31 marzo - 10 aprile 2026)",
+        "company": "ENEA Tech E Biomedical",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1774915200000,
+        "url": "https://it.indeed.com/viewjob?jk=1415056297e026c2"
       },
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
@@ -110,20 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4388394745"
       },
       {
-        "title": "Human Resources Manager",
-        "company": "FlexCar",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1775088000000,
-        "url": "https://it.indeed.com/viewjob?jk=55603d3acc02ed17"
-      },
-      {
         "title": "Junior Talent Acquisition Intern",
         "company": "PQE Group",
         "score": 56,
         "site": "linkedin",
-        "date_posted": 1773792000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4385019467"
+      },
+      {
+        "title": "Human Resources Manager",
+        "company": "FlexCar",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1775088000000,
+        "url": "https://it.indeed.com/viewjob?jk=55603d3acc02ed17"
       },
       {
         "title": "HR Generalist",
@@ -142,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4393466611"
       },
       {
-        "title": "Hr generalist appartenente alle categorie protette (art. 1 l. 68/99)",
-        "company": "Ferrovie dello Stato Italiane S.p.A.",
-        "score": 54,
+        "title": "HR Generalist appartenente alle Categorie Protette art.1 legge 68/99",
+        "company": "Grafton Recruitment",
+        "score": 55,
         "site": "linkedin",
-        "date_posted": 1773792000000,
-        "url": "https://www.linkedin.com/jobs/view/4383335202"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4397058786"
       },
       {
         "title": "HR Consultant Intern",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4386657969"
       },
       {
-        "title": "HR Generalist appartenente alle Categorie Protette art.1 legge 68/99",
-        "company": "Grafton Recruitment",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4397058786"
-      },
-      {
         "title": "HR Recruiter Specialist(protected category under Law 68/99).",
         "company": "Txt Group",
         "score": 53,
         "site": "indeed",
         "date_posted": 1774310400000,
         "url": "https://it.indeed.com/viewjob?jk=45d9ff36ec5f4331"
+      },
+      {
+        "title": "HR Recruiter Specialist (cat. protetta L.68/99)",
+        "company": "Txt Group",
+        "score": 53,
+        "site": "indeed",
+        "date_posted": 1774310400000,
+        "url": "https://it.indeed.com/viewjob?jk=58e1a2e090ecc1be"
       }
     ]
   },
@@ -180,41 +180,41 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
-      },
-      {
-        "word": "personale",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "conferimento",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "dell",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "incarico",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "quinquennale",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
-      "keyword": "acquisition intern",
+      "keyword": "hr talent",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "hr talent",
+      "keyword": "acquisition intern",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -250,33 +250,43 @@
       "confidence": 30
     },
     {
-      "keyword": "generalist appartenente",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "junior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "appartenente alle",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "intern",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "alle categorie",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "gestione",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-47%)",
+      "data": {
+        "current": 7,
+        "avg": 13.3,
+        "change_pct": -47.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 10/13 annunci da aziende nuove (76.9%)",
+      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
       "data": {
-        "new": 10,
-        "total": 13,
-        "pct": 76.9
+        "new": 3,
+        "total": 7,
+        "pct": 42.9
       }
     },
     {
@@ -286,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 124,
-            "top_terms": [
-              "specialist",
-              "hr",
-              "recruiter"
-            ],
-            "pct": 69.3
-          },
-          {
-            "id": 4,
-            "size": 30,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 16.8
-          },
-          {
             "id": 2,
-            "size": 12,
+            "size": 113,
             "top_terms": [
               "addetto",
-              "vendite",
-              "ufficio"
+              "hr",
+              "intern"
             ],
-            "pct": 6.7
+            "pct": 62.8
           },
           {
             "id": 3,
-            "size": 7,
+            "size": 35,
             "top_terms": [
-              "direttore",
-              "incarico",
-              "dell"
+              "umane",
+              "risorse",
+              "addetto"
             ],
-            "pct": 3.9
+            "pct": 19.4
+          },
+          {
+            "id": 0,
+            "size": 14,
+            "top_terms": [
+              "recruiter",
+              "hr",
+              "68"
+            ],
+            "pct": 7.8
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 9,
             "top_terms": [
-              "impiegato",
-              "risorse",
-              "umane"
+              "specialist",
+              "payroll",
+              "roma"
             ],
-            "pct": 3.4
+            "pct": 5.0
+          },
+          {
+            "id": 4,
+            "size": 9,
+            "top_terms": [
+              "quinquennale",
+              "direttore",
+              "conferimento"
+            ],
+            "pct": 5.0
           }
         ]
       }

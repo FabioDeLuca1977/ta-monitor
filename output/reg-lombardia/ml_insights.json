@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-04-03T07:43:54.000130",
+  "generated_at": "2026-04-04T07:35:08.557039",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 292,
+  "total_jobs_analyzed": 281,
   "scoring": {
-    "average": 15.8,
+    "average": 16.4,
     "distribution": {
       "excellent": 0,
       "good": 19,
-      "medium": 32,
-      "low": 15,
-      "irrelevant": 226
+      "medium": 33,
+      "low": 16,
+      "irrelevant": 213
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Specialist - Medical Device",
-        "company": "Professional Recruitment",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1773792000000,
-        "url": "https://www.linkedin.com/jobs/view/4386868338"
-      },
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
@@ -32,10 +24,26 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Sentinel Diagnostics",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1774828800000,
         "url": "https://www.linkedin.com/jobs/view/4392935502"
+      },
+      {
+        "title": "Junior Regulatory Affairs Specialist",
+        "company": "Adecco",
+        "score": 68,
+        "site": "linkedin",
+        "date_posted": 1775088000000,
+        "url": "https://www.linkedin.com/jobs/view/4379831537"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - Medical Device",
+        "company": "Professional Recruitment",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1773792000000,
+        "url": "https://www.linkedin.com/jobs/view/4386868338"
       },
       {
         "title": "Quality Assurance & Regulatory Affairs Specialist",
@@ -70,12 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4393908068"
       },
       {
-        "title": "Senior Manager Regulatory Affairs",
-        "company": "Fraser Dove International",
+        "title": "SCM External Regulatory Compliance Manager",
+        "company": "Hitachi Energy",
         "score": 63,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4395855634"
+        "url": "https://www.linkedin.com/jobs/view/4387958263"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "SOL Group",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1774310400000,
+        "url": "https://www.linkedin.com/jobs/view/4389599361"
       },
       {
         "title": "Regulatory Affairs Manager - Plant Protection Products",
@@ -86,28 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4362746384"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "SOL Group",
+        "title": "Senior Manager Regulatory Affairs",
+        "company": "Fraser Dove International",
         "score": 62,
         "site": "linkedin",
-        "date_posted": 1774310400000,
-        "url": "https://www.linkedin.com/jobs/view/4389599361"
-      },
-      {
-        "title": "LEGAL SPECIALIST AFFARI REGOLATORI",
-        "company": "Unoenergy",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1775001600000,
-        "url": "https://it.indeed.com/viewjob?jk=8f4ef2f574473cd2"
-      },
-      {
-        "title": "SCM External Regulatory Compliance Manager",
-        "company": "Hitachi Energy",
-        "score": 60,
-        "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4387958263"
+        "url": "https://www.linkedin.com/jobs/view/4395855634"
       },
       {
         "title": "Regulatory Specialist",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
-        "title": "JUNIOR REGULATORY AFFAIRS (PACKAGING)",
-        "company": null,
+        "title": "LEGAL SPECIALIST AFFARI REGOLATORI",
+        "company": "Unoenergy",
         "score": 59,
         "site": "indeed",
-        "date_posted": 1774310400000,
-        "url": "https://it.indeed.com/viewjob?jk=ceccd5fbab092a9b"
+        "date_posted": 1775001600000,
+        "url": "https://it.indeed.com/viewjob?jk=8f4ef2f574473cd2"
       }
     ]
   },
@@ -179,24 +179,29 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "associate",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
-      },
-      {
         "word": "sales",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
-      },
-      {
-        "word": "director",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "lead",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "word": "associate",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "director",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "management",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -204,18 +209,24 @@
   "keyword_recommendations": [
     {
       "keyword": "junior regulatory",
-      "frequency": 3,
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 60
     },
     {
-      "keyword": "affairs officer",
+      "keyword": "junior",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
+    },
+    {
+      "keyword": "lead regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "lead regulatory",
+      "keyword": "affairs officer",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -225,23 +236,17 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/18 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 4/16 annunci da aziende nuove (25.0%)",
       "data": {
-        "new": 9,
-        "total": 18,
-        "pct": 50.0
+        "new": 4,
+        "total": 16,
+        "pct": 25.0
       }
     },
     {
@@ -251,54 +256,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 167,
+            "id": 3,
+            "size": 156,
             "top_terms": [
+              "senior",
               "specialist",
-              "sales",
+              "sales"
+            ],
+            "pct": 55.5
+          },
+          {
+            "id": 1,
+            "size": 38,
+            "top_terms": [
+              "manager",
+              "project",
               "senior"
             ],
-            "pct": 57.2
+            "pct": 13.5
           },
           {
             "id": 4,
-            "size": 42,
-            "top_terms": [
-              "manager",
-              "senior",
-              "project"
-            ],
-            "pct": 14.4
-          },
-          {
-            "id": 3,
-            "size": 37,
+            "size": 36,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 12.7
+            "pct": 12.8
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 33,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 11.3
+            "pct": 11.7
           },
           {
-            "id": 2,
-            "size": 13,
+            "id": 0,
+            "size": 18,
             "top_terms": [
-              "associate",
-              "director",
-              "medical"
+              "lead",
+              "management",
+              "systems"
             ],
-            "pct": 4.5
+            "pct": 6.4
           }
         ]
       }

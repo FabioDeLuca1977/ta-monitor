@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-03T07:43:53.838904",
+  "generated_at": "2026-04-04T07:35:08.398471",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 75,
+  "total_jobs_analyzed": 74,
   "scoring": {
-    "average": 17.7,
+    "average": 16.6,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 11,
+      "medium": 10,
       "low": 10,
       "irrelevant": 51
     },
@@ -32,39 +32,15 @@
       {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1773705600000,
         "url": "https://www.linkedin.com/jobs/view/4384490252"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Jobtech",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1773360000000,
-        "url": "https://www.linkedin.com/jobs/view/4385332082"
-      },
-      {
-        "title": "Quality Assurance Specialist — Gmp Compliance",
-        "company": "Recordati",
-        "score": 58,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-643bc0ebd14fceafbd68b835ee13f79f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Pharma Quality Assurance Specialist — Gmp",
-        "company": "Brenntag",
-        "score": 57,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-5f50a7407e040e25a5dd97d41d411171?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Senior International Regulatory Specialist",
         "company": "Orthofix",
-        "score": 55,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1773705600000,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
@@ -78,9 +54,25 @@
         "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
       },
       {
+        "title": "Quality Assurance Specialist — Gmp Compliance",
+        "company": "Recordati",
+        "score": 53,
+        "site": "google",
+        "date_posted": 1774569600000,
+        "url": "https://it.trabajo.org/offerta-3833-643bc0ebd14fceafbd68b835ee13f79f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Pharma Quality Assurance Specialist — Gmp",
+        "company": "Brenntag",
+        "score": 52,
+        "site": "google",
+        "date_posted": 1774569600000,
+        "url": "https://it.trabajo.org/offerta-3833-5f50a7407e040e25a5dd97d41d411171?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Qa Specialist: Gmp",
         "company": "Guna Spa",
-        "score": 51,
+        "score": 46,
         "site": "google",
         "date_posted": 1774569600000,
         "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -136,7 +128,7 @@
       {
         "title": "Quality Assurance Operations Manager",
         "company": "Boehringer Ingelheim",
-        "score": 34,
+        "score": 33,
         "site": "indeed",
         "date_posted": 1774396800000,
         "url": "https://it.indeed.com/viewjob?jk=6884eec860d84746"
@@ -172,6 +164,14 @@
         "site": "google",
         "date_posted": 1773619200000,
         "url": "https://it.jooble.org/jdp/5794071326708032885?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "QA/QC Specialist",
+        "company": "Pharma Point",
+        "score": 27,
+        "site": "google",
+        "date_posted": 1774310400000,
+        "url": "https://bebee.com/it/jobs/qa-qc-specialist-pharma-point-rome--talent-76aba53fb90f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       }
     ]
   },
@@ -189,17 +189,17 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
+        "word": "business",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
         "word": "pharma",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "director",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "tecnico",
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -218,11 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 7 (-54%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-54%)",
       "data": {
         "current": 3,
         "avg": 6.5,
-        "change_pct": -54.2
+        "change_pct": -53.5
       }
     },
     {
@@ -236,80 +236,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
+            "id": 4,
             "size": 31,
             "top_terms": [
-              "director",
-              "engineer",
+              "tecnico",
+              "operatore",
               "venice"
             ],
-            "pct": 41.3
+            "pct": 41.9
           },
           {
             "id": 0,
-            "size": 18,
+            "size": 20,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 24.0
-          },
-          {
-            "id": 1,
-            "size": 17,
-            "top_terms": [
-              "qa",
-              "specialist",
-              "pharma"
-            ],
-            "pct": 22.7
+            "pct": 27.0
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 13,
+            "top_terms": [
+              "qa",
+              "pharma",
+              "specialist"
+            ],
+            "pct": 17.6
+          },
+          {
+            "id": 1,
+            "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 8.0
+            "pct": 6.8
           },
           {
-            "id": 4,
-            "size": 3,
+            "id": 3,
+            "size": 5,
             "top_terms": [
-              "tecnico",
-              "padova",
-              "vicenza"
+              "manager",
+              "quality",
+              "compliance"
             ],
-            "pct": 4.0
+            "pct": 6.8
           }
         ]
       }
