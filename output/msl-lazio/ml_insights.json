@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-04T07:35:08.337112",
+  "generated_at": "2026-04-05T07:41:01.423539",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 60,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 25.7,
+    "average": 25.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 22,
+      "medium": 21,
       "low": 6,
-      "irrelevant": 31
+      "irrelevant": 30
     },
     "top_jobs": [
       {
@@ -34,7 +34,7 @@
         "company": "Genmab",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1773446400000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4374614779"
       },
       {
@@ -64,7 +64,7 @@
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "AYES - Management & Technology Consulting",
-        "score": 54,
+        "score": 53,
         "site": "linkedin",
         "date_posted": 1774915200000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
@@ -92,14 +92,6 @@
         "site": "linkedin",
         "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4390989901"
-      },
-      {
-        "title": "Country Medical Lead, Italy",
-        "company": "Guardant Health",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1773446400000,
-        "url": "https://www.linkedin.com/jobs/view/4342482448"
       },
       {
         "title": "Senior Medical Science Liaison Italy Rare Tumor",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4396947575"
+      },
+      {
+        "title": "Head of Regulatory Affairs Italy",
+        "company": "Merck Healthcare",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4366163549"
       }
     ]
   },
@@ -180,11 +180,6 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "italy",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
@@ -194,12 +189,17 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "temporary",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "italy",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "position",
+        "word": "temporary",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "senior",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 60
     },
     {
       "keyword": "medical scientific",
@@ -236,41 +236,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-55%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
-        "current": 2,
-        "avg": 4.5,
-        "change_pct": -55.2
+        "current": 1,
+        "avg": 4.4,
+        "change_pct": -77.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -280,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 22,
-            "top_terms": [
-              "manager",
-              "senior",
-              "clinical"
-            ],
-            "pct": 36.7
-          },
-          {
-            "id": 1,
-            "size": 14,
+            "id": 2,
+            "size": 16,
             "top_terms": [
               "medical",
               "liaison",
-              "science"
+              "italy"
             ],
-            "pct": 23.3
+            "pct": 27.6
+          },
+          {
+            "id": 0,
+            "size": 14,
+            "top_terms": [
+              "director",
+              "officer",
+              "engineer"
+            ],
+            "pct": 24.1
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 11,
+            "top_terms": [
+              "manager",
+              "clinical",
+              "senior"
+            ],
+            "pct": 19.0
+          },
+          {
+            "id": 1,
+            "size": 10,
             "top_terms": [
               "specialist",
               "qa",
-              "associate"
+              "lazio"
             ],
-            "pct": 21.7
+            "pct": 17.2
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 7,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 11.7
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "officer",
-              "school",
-              "accelerator"
-            ],
-            "pct": 6.7
+            "pct": 12.1
           }
         ]
       }

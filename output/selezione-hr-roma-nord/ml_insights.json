@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-04T07:35:08.099196",
+  "generated_at": "2026-04-05T07:41:01.192816",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 180,
+  "total_jobs_analyzed": 182,
   "scoring": {
-    "average": 24.2,
+    "average": 24.1,
     "distribution": {
       "excellent": 0,
       "good": 12,
-      "medium": 40,
+      "medium": 41,
       "low": 42,
-      "irrelevant": 86
+      "irrelevant": 87
     },
     "top_jobs": [
       {
@@ -64,7 +64,7 @@
       {
         "title": "Senior Human Resources Officer (Talent Acquisition)",
         "company": "Food and Agriculture Organization of the United Nations",
-        "score": 64,
+        "score": 65,
         "site": "indeed",
         "date_posted": 1773792000000,
         "url": "https://it.indeed.com/viewjob?jk=900dbc9dfbe0fc1d"
@@ -86,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4391593111"
       },
       {
-        "title": "Junior Talent Acquisition Intern",
-        "company": "PQE Group",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385019467"
-      },
-      {
         "title": "Head hunter/HR Recruiter Senior - Fiumicino",
         "company": "EASYDIGITALGROUP",
         "score": 62,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=538bde2bee4e09c8"
+      },
+      {
+        "title": "Junior Talent Acquisition Intern",
+        "company": "PQE Group",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1774483200000,
+        "url": "https://www.linkedin.com/jobs/view/4391077203"
       },
       {
         "title": "Human Resources Business Partner",
@@ -150,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4393466611"
       },
       {
-        "title": "Talent Enablement Partner (HRBP) — EU & Travel",
-        "company": "Nordberg Medical",
-        "score": 54,
-        "site": "google",
-        "date_posted": 1773619200000,
-        "url": "https://bebee.com/it/jobs/talent-enablement-partner-hrbp-eu-travel-nordberg-medical-rome--talent-655b0ca21cda?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "HR Consultant Intern",
         "company": "Adecco",
         "score": 54,
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4386657969"
       },
       {
-        "title": "HR Recruiter Specialist(protected category under Law 68/99).",
-        "company": "Txt Group",
+        "title": "Stage Curriculare – Junior HR Recruiter 2026",
+        "company": "MArteLive",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4397580164"
+      },
+      {
+        "title": "Talent Enablement Partner (HRBP) — EU & Travel",
+        "company": "Nordberg Medical",
         "score": 53,
-        "site": "indeed",
-        "date_posted": 1774310400000,
-        "url": "https://it.indeed.com/viewjob?jk=45d9ff36ec5f4331"
+        "site": "google",
+        "date_posted": 1773619200000,
+        "url": "https://bebee.com/it/jobs/talent-enablement-partner-hrbp-eu-travel-nordberg-medical-rome--talent-655b0ca21cda?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       }
     ]
   },
@@ -184,24 +184,24 @@
         "reason": "Appare 20x in annunci a basso score"
       },
       {
-        "word": "conferimento",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "dell",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "dell",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "conferimento",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "incarico",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "quinquennale",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
@@ -220,12 +220,6 @@
       "confidence": 30
     },
     {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "intern",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -236,27 +230,53 @@
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "junior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-47%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-86%)",
       "data": {
-        "current": 7,
-        "avg": 13.3,
-        "change_pct": -47.4
+        "current": 2,
+        "avg": 13.8,
+        "change_pct": -85.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 3,
-        "total": 7,
-        "pct": 42.9
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 29% a 50% (+21pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 28.6,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 71% a 50% (-21pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 71.4,
+        "new_pct": 50.0
       }
     },
     {
@@ -266,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 113,
+            "id": 3,
+            "size": 93,
             "top_terms": [
-              "addetto",
-              "hr",
+              "specialist",
+              "roma",
               "intern"
             ],
-            "pct": 62.8
-          },
-          {
-            "id": 3,
-            "size": 35,
-            "top_terms": [
-              "umane",
-              "risorse",
-              "addetto"
-            ],
-            "pct": 19.4
+            "pct": 51.1
           },
           {
             "id": 0,
-            "size": 14,
+            "size": 44,
             "top_terms": [
-              "recruiter",
-              "hr",
-              "68"
+              "addetto",
+              "risorse",
+              "umane"
             ],
-            "pct": 7.8
+            "pct": 24.2
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 18,
             "top_terms": [
-              "specialist",
-              "payroll",
-              "roma"
+              "recruiter",
+              "68",
+              "99"
             ],
-            "pct": 5.0
+            "pct": 9.9
           },
           {
             "id": 4,
-            "size": 9,
+            "size": 17,
             "top_terms": [
-              "quinquennale",
-              "direttore",
-              "conferimento"
+              "hr",
+              "generalist",
+              "administration"
             ],
-            "pct": 5.0
+            "pct": 9.3
+          },
+          {
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "dell",
+              "quinquennale",
+              "direttore"
+            ],
+            "pct": 5.5
           }
         ]
       }

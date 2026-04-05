@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-04T07:35:08.705043",
+  "generated_at": "2026-04-05T07:41:01.776610",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 132,
+  "total_jobs_analyzed": 130,
   "scoring": {
-    "average": 14.2,
+    "average": 14.1,
     "distribution": {
       "excellent": 0,
       "good": 6,
       "medium": 16,
       "low": 2,
-      "irrelevant": 108
+      "irrelevant": 106
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "AYES - Management & Technology Consulting",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
@@ -62,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4397318496"
       },
       {
+        "title": "Regulatory Affairs Consultant",
+        "company": "Pharma D&S",
+        "score": 59,
+        "site": "google",
+        "date_posted": 1774828800000,
+        "url": "https://it.trabajo.org/offerta-3397-710cd5ae74ba8f8f72bdf8590377497b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Amaris Consulting",
         "score": 58,
@@ -70,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4388082342"
       },
       {
-        "title": "Regulatory Affairs Consultant",
-        "company": "Pharma D&S",
+        "title": "Head of Regulatory Affairs Italy",
+        "company": "Merck Healthcare",
         "score": 58,
-        "site": "google",
-        "date_posted": 1774828800000,
-        "url": "https://it.trabajo.org/offerta-3397-710cd5ae74ba8f8f72bdf8590377497b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4366163549"
       },
       {
         "title": "Pharma Quality & Regulatory Specialist",
@@ -84,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389005683"
-      },
-      {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
       },
       {
         "title": "Regulatory Compliance Expert",
@@ -120,7 +120,7 @@
       {
         "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
         "company": "Aruba SpA",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1773705600000,
         "url": "https://www.linkedin.com/jobs/view/4386981425"
@@ -128,7 +128,7 @@
       {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
         "company": "APIS Srl Agenzia per il Lavoro",
-        "score": 52,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1774396800000,
         "url": "https://it.indeed.com/viewjob?jk=d10766763cc2edee"
@@ -199,7 +199,7 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "roma",
+        "word": "supervisor",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -230,11 +230,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 10 (-38%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 10 (-42%)",
       "data": {
         "current": 6,
-        "avg": 9.7,
-        "change_pct": -38.1
+        "avg": 10.3,
+        "change_pct": -41.9
       }
     },
     {
@@ -254,54 +254,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 62,
-            "top_terms": [
-              "manager",
-              "assistant",
-              "director"
-            ],
-            "pct": 47.0
-          },
-          {
             "id": 1,
-            "size": 21,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 15.9
-          },
-          {
-            "id": 2,
-            "size": 18,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "pharma"
-            ],
-            "pct": 13.6
-          },
-          {
-            "id": 3,
-            "size": 18,
-            "top_terms": [
-              "specialist",
-              "qa",
-              "validation"
-            ],
-            "pct": 13.6
-          },
-          {
-            "id": 4,
-            "size": 13,
+            "size": 67,
             "top_terms": [
               "officer",
               "senior",
-              "fishery"
+              "assistant"
             ],
-            "pct": 9.8
+            "pct": 51.5
+          },
+          {
+            "id": 2,
+            "size": 19,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "pharma"
+            ],
+            "pct": 14.6
+          },
+          {
+            "id": 4,
+            "size": 18,
+            "top_terms": [
+              "specialist",
+              "validation",
+              "law"
+            ],
+            "pct": 13.8
+          },
+          {
+            "id": 3,
+            "size": 15,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 11.5
+          },
+          {
+            "id": 0,
+            "size": 11,
+            "top_terms": [
+              "manager",
+              "program",
+              "cmc"
+            ],
+            "pct": 8.5
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-04T07:35:08.398471",
+  "generated_at": "2026-04-05T07:41:01.481819",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 74,
+  "total_jobs_analyzed": 73,
   "scoring": {
-    "average": 16.6,
+    "average": 16.4,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 10,
       "low": 10,
-      "irrelevant": 51
+      "irrelevant": 50
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "AxL Spa – ALTI PROFILI",
         "score": 62,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1773964800000,
         "url": "https://www.linkedin.com/jobs/view/4385758124"
       },
       {
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affairs Specialist – International market",
         "company": "Labomar S.r.l.",
-        "score": 54,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
@@ -142,14 +142,6 @@
         "url": "https://it.talent.com/view?id=611850586919931555&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Responsabile Amministrativo",
-        "company": "Magazzini Zanchetta ",
-        "score": 31,
-        "site": "indeed",
-        "date_posted": 1775001600000,
-        "url": "https://it.indeed.com/viewjob?jk=bcd1d54d0f7ba5da"
-      },
-      {
         "title": "Architectural & Technical Compliance Manager Job",
         "company": "Arkema",
         "score": 28,
@@ -172,6 +164,14 @@
         "site": "google",
         "date_posted": 1774310400000,
         "url": "https://bebee.com/it/jobs/qa-qc-specialist-pharma-point-rome--talent-76aba53fb90f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Responsabile Amministrativo",
+        "company": "Magazzini Zanchetta ",
+        "score": 26,
+        "site": "indeed",
+        "date_posted": 1775001600000,
+        "url": "https://it.indeed.com/viewjob?jk=bcd1d54d0f7ba5da"
       }
     ]
   },
@@ -218,11 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-54%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-53%)",
       "data": {
         "current": 3,
-        "avg": 6.5,
-        "change_pct": -53.5
+        "avg": 6.4,
+        "change_pct": -52.9
       }
     },
     {
@@ -242,52 +242,52 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 31,
-            "top_terms": [
-              "tecnico",
-              "operatore",
-              "venice"
-            ],
-            "pct": 41.9
-          },
-          {
             "id": 0,
-            "size": 20,
+            "size": 27,
             "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
+              "manager",
+              "venice",
+              "amministrativo"
             ],
-            "pct": 27.0
+            "pct": 37.0
           },
           {
             "id": 2,
+            "size": 21,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "pharma"
+            ],
+            "pct": 28.8
+          },
+          {
+            "id": 4,
             "size": 13,
             "top_terms": [
               "qa",
               "pharma",
               "specialist"
             ],
-            "pct": 17.6
+            "pct": 17.8
           },
           {
             "id": 1,
-            "size": 5,
+            "size": 7,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "specialist",
+              "marketing",
+              "hse"
             ],
-            "pct": 6.8
+            "pct": 9.6
           },
           {
             "id": 3,
             "size": 5,
             "top_terms": [
-              "manager",
-              "quality",
-              "compliance"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
             "pct": 6.8
           }
