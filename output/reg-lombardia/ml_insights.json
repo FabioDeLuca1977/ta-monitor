@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-04-05T07:41:01.634809",
+  "generated_at": "2026-04-06T08:19:28.969996",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 283,
+  "total_jobs_analyzed": 286,
   "scoring": {
-    "average": 16.2,
+    "average": 16.1,
     "distribution": {
       "excellent": 0,
       "good": 19,
-      "medium": 34,
-      "low": 13,
-      "irrelevant": 217
+      "medium": 35,
+      "low": 12,
+      "irrelevant": 220
     },
     "top_jobs": [
+      {
+        "title": "REGULATORY AFFAIRS SPECIALIST",
+        "company": "Quanta System Spa",
+        "score": 72,
+        "site": "linkedin",
+        "date_posted": 1775260800000,
+        "url": "https://www.linkedin.com/jobs/view/4339821354"
+      },
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
@@ -20,22 +28,6 @@
         "site": "linkedin",
         "date_posted": 1773792000000,
         "url": "https://www.linkedin.com/jobs/view/4377177028"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Sentinel Diagnostics",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1774828800000,
-        "url": "https://www.linkedin.com/jobs/view/4392935502"
-      },
-      {
-        "title": "Junior Regulatory Affairs Specialist",
-        "company": "Adecco",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4379831537"
       },
       {
         "title": "Regulatory Affairs Specialist - Medical Device",
@@ -46,9 +38,17 @@
         "url": "https://www.linkedin.com/jobs/view/4386868338"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Sentinel Diagnostics",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1774828800000,
+        "url": "https://www.linkedin.com/jobs/view/4392935502"
+      },
+      {
         "title": "Quality Assurance & Regulatory Affairs Specialist",
         "company": "Cefla",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389078848"
@@ -78,36 +78,36 @@
         "url": "https://www.linkedin.com/jobs/view/4393908068"
       },
       {
+        "title": "Junior Regulatory Affairs Specialist",
+        "company": "Adecco",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1775088000000,
+        "url": "https://www.linkedin.com/jobs/view/4379831537"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "SOL Group",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1774310400000,
         "url": "https://www.linkedin.com/jobs/view/4389599361"
       },
       {
-        "title": "Regulatory Affairs Manager - Plant Protection Products",
-        "company": "ADAMA Ltd.",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4362746384"
-      },
-      {
         "title": "Senior Manager Regulatory Affairs",
         "company": "Fraser Dove International",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395855634"
       },
       {
-        "title": "Jr regulatory affairs specialist - categoria protetta art 1 l. 68/99",
-        "company": "Randstad Italia",
-        "score": 60,
+        "title": "Regulatory Affairs Manager - Plant Protection Products",
+        "company": "ADAMA Ltd.",
+        "score": 61,
         "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4383138459"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4362746384"
       },
       {
         "title": "SCM External Regulatory Compliance Manager",
@@ -115,7 +115,7 @@
         "score": 60,
         "site": "linkedin",
         "date_posted": 1773964800000,
-        "url": "https://www.linkedin.com/jobs/view/4387960158"
+        "url": "https://www.linkedin.com/jobs/view/4387958263"
       },
       {
         "title": "Regulatory Specialist",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
-        "title": "Quality Assurance & Qualified Person Manager",
-        "company": "SGB Humangest Holding",
+        "title": "Jr regulatory affairs specialist - categoria protetta art 1 l. 68/99",
+        "company": "Randstad Italia",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396942918"
+        "date_posted": 1773705600000,
+        "url": "https://www.linkedin.com/jobs/view/4383138459"
       }
     ]
   },
@@ -179,14 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "sales",
+        "word": "associate",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "associate",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "word": "sales",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -195,8 +195,8 @@
       },
       {
         "word": "director",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "management",
@@ -242,41 +242,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 20 (-85%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 20 (-75%)",
       "data": {
-        "current": 3,
-        "avg": 20.0,
-        "change_pct": -85.0
+        "current": 5,
+        "avg": 20.1,
+        "change_pct": -75.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
       "data": {
-        "new": 1,
-        "total": 3,
-        "pct": 33.3
+        "new": 4,
+        "total": 5,
+        "pct": 80.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 31% a 67% (+35pp)",
+      "message": "📡 linkedin: quota passata da 67% a 40% (-27pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 31.2,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 40.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 69% a 33% (-35pp)",
+      "message": "📡 indeed: quota passata da 33% a 60% (+27pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 68.8,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 60.0
       }
     },
     {
@@ -286,34 +286,34 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 170,
+            "id": 0,
+            "size": 153,
             "top_terms": [
               "specialist",
-              "senior",
-              "engineer"
+              "engineer",
+              "senior"
             ],
-            "pct": 60.1
+            "pct": 53.5
           },
           {
-            "id": 2,
-            "size": 41,
+            "id": 4,
+            "size": 40,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 14.5
+            "pct": 14.0
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 36,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.7
+            "pct": 12.6
           },
           {
             "id": 1,
@@ -323,17 +323,17 @@
               "assurance",
               "specialist"
             ],
-            "pct": 12.0
+            "pct": 11.9
           },
           {
-            "id": 0,
-            "size": 2,
+            "id": 2,
+            "size": 23,
             "top_terms": [
-              "estetista",
-              "validation",
-              "cost"
+              "associate",
+              "director",
+              "medical"
             ],
-            "pct": 0.7
+            "pct": 8.0
           }
         ]
       }

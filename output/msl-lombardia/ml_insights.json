@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-05T07:41:01.324917",
+  "generated_at": "2026-04-06T08:19:28.656511",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
   "total_jobs_analyzed": 158,
   "scoring": {
-    "average": 30.7,
+    "average": 30.5,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 75,
-      "low": 16,
-      "irrelevant": 64
+      "low": 15,
+      "irrelevant": 65
     },
     "top_jobs": [
       {
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
-        "title": "Medical Science Liaison Rare Diseases Italy",
-        "company": "Recordati S.p.A",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1775088000000,
-        "url": "https://it.indeed.com/viewjob?jk=c832a394475adaf5"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Medical Device",
         "company": "Professional Recruitment",
         "score": 57,
@@ -76,22 +68,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392885690"
-      },
-      {
-        "title": "Medical Science Liaison - Italy",
-        "company": "DeepHealth",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1775088000000,
-        "url": "https://it.indeed.com/viewjob?jk=e9469bbe7858bdd3"
-      },
-      {
-        "title": "MSL Dermatology - Center of Italy",
-        "company": "UCB",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1775088000000,
-        "url": "https://it.indeed.com/viewjob?jk=4c7a2c90f9538895"
       },
       {
         "title": "Medical Affairs Lead Epilepsy",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4331970392"
+      },
+      {
+        "title": "Global Director Medical Affairs",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1773878400000,
+        "url": "https://www.linkedin.com/jobs/view/4388106069"
+      },
+      {
+        "title": "Medical Affairs Associate",
+        "company": "Fondazione Telethon",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1773619200000,
+        "url": "https://www.linkedin.com/jobs/view/4386347390"
+      },
+      {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -230,11 +230,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 11 (-54%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 12 (-58%)",
       "data": {
         "current": 5,
-        "avg": 10.9,
-        "change_pct": -54.2
+        "avg": 11.8,
+        "change_pct": -57.5
       }
     },
     {
@@ -265,53 +265,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 92,
+            "size": 67,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 42.4
+          },
+          {
+            "id": 1,
+            "size": 38,
             "top_terms": [
               "specialist",
-              "clinical",
-              "cra"
+              "regulatory",
+              "affairs"
             ],
-            "pct": 58.2
+            "pct": 24.1
           },
           {
             "id": 4,
-            "size": 24,
+            "size": 25,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "medical"
+              "medical",
+              "liaison",
+              "italy"
             ],
-            "pct": 15.2
+            "pct": 15.8
           },
           {
             "id": 2,
-            "size": 20,
-            "top_terms": [
-              "manager",
-              "project",
-              "program"
-            ],
-            "pct": 12.7
-          },
-          {
-            "id": 3,
-            "size": 15,
+            "size": 16,
             "top_terms": [
               "director",
               "medical",
               "associate"
             ],
-            "pct": 9.5
+            "pct": 10.1
           },
           {
-            "id": 1,
-            "size": 7,
+            "id": 3,
+            "size": 12,
             "top_terms": [
-              "liaison",
-              "science",
-              "medical"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 4.4
+            "pct": 7.6
           }
         ]
       }

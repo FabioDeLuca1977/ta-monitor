@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-05T07:41:01.776610",
+  "generated_at": "2026-04-06T08:19:29.111107",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 130,
+  "total_jobs_analyzed": 128,
   "scoring": {
-    "average": 14.1,
+    "average": 14.0,
     "distribution": {
       "excellent": 0,
       "good": 6,
       "medium": 16,
-      "low": 2,
-      "irrelevant": 106
+      "low": 1,
+      "irrelevant": 105
     },
     "top_jobs": [
       {
@@ -96,10 +96,18 @@
       {
         "title": "Regulatory Compliance Expert",
         "company": "EOLO",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386671123"
+      },
+      {
+        "title": "Senior Regulatory Specialist",
+        "company": "Amaris Consulting",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1773705600000,
+        "url": "https://www.linkedin.com/jobs/view/4384478754"
       },
       {
         "title": "Senior Regulatory Affairs CMC - Sterile & Biotech (USA)",
@@ -108,14 +116,6 @@
         "site": "google",
         "date_posted": 1774310400000,
         "url": "https://it.jooble.org/jdp/-6813736468297366986?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Senior Regulatory Specialist",
-        "company": "Amaris Consulting",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4384478754"
       },
       {
         "title": "Regulatory Affairs Specialist  - Trust Services / Digital Trust",
@@ -128,7 +128,7 @@
       {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
         "company": "APIS Srl Agenzia per il Lavoro",
-        "score": 53,
+        "score": 52,
         "site": "indeed",
         "date_posted": 1774396800000,
         "url": "https://it.indeed.com/viewjob?jk=d10766763cc2edee"
@@ -229,22 +229,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 10 (-42%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 11 (-91%)",
       "data": {
-        "current": 6,
-        "avg": 10.3,
-        "change_pct": -41.9
+        "current": 1,
+        "avg": 10.6,
+        "change_pct": -90.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 6,
-        "pct": 50.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 17% a 0% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 16.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 83% a 100% (+17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 83.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -254,54 +274,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 67,
+            "id": 0,
+            "size": 66,
             "top_terms": [
-              "officer",
-              "senior",
-              "assistant"
+              "manager",
+              "assistant",
+              "senior"
             ],
-            "pct": 51.5
+            "pct": 51.6
           },
           {
             "id": 2,
             "size": 19,
             "top_terms": [
-              "quality",
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 14.8
+          },
+          {
+            "id": 1,
+            "size": 18,
+            "top_terms": [
               "assurance",
+              "quality",
               "pharma"
             ],
-            "pct": 14.6
+            "pct": 14.1
           },
           {
             "id": 4,
             "size": 18,
             "top_terms": [
               "specialist",
-              "validation",
-              "law"
+              "qa",
+              "validation"
             ],
-            "pct": 13.8
+            "pct": 14.1
           },
           {
             "id": 3,
-            "size": 15,
+            "size": 7,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "officer",
+              "fishery",
+              "senior"
             ],
-            "pct": 11.5
-          },
-          {
-            "id": 0,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "program",
-              "cmc"
-            ],
-            "pct": 8.5
+            "pct": 5.5
           }
         ]
       }

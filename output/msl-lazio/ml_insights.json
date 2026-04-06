@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T07:41:01.423539",
+  "generated_at": "2026-04-06T08:19:28.755751",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 58,
@@ -98,7 +98,7 @@
         "company": "Merck Healthcare",
         "score": 51,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774051200000,
         "url": "https://www.linkedin.com/jobs/view/4317855974"
       },
       {
@@ -236,11 +236,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
       "data": {
         "current": 1,
-        "avg": 4.4,
-        "change_pct": -77.2
+        "avg": 4.8,
+        "change_pct": -78.9
       }
     },
     {
