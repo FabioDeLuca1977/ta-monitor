@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-06T08:19:28.814635",
+  "generated_at": "2026-04-07T07:50:30.012501",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 73,
   "scoring": {
-    "average": 16.3,
+    "average": 15.7,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 10,
-      "low": 10,
-      "irrelevant": 50
+      "low": 9,
+      "irrelevant": 51
     },
     "top_jobs": [
       {
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affairs Specialist – International market",
         "company": "Labomar S.r.l.",
-        "score": 53,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
@@ -142,14 +142,6 @@
         "url": "https://it.talent.com/view?id=611850586919931555&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Architectural & Technical Compliance Manager Job",
-        "company": "Arkema",
-        "score": 28,
-        "site": "indeed",
-        "date_posted": 1773619200000,
-        "url": "https://it.indeed.com/viewjob?jk=94a850266bdb7931"
-      },
-      {
         "title": "Global Pharma QA & Compliance Specialist",
         "company": "Amaris Consulting",
         "score": 28,
@@ -164,6 +156,14 @@
         "site": "google",
         "date_posted": 1774310400000,
         "url": "https://bebee.com/it/jobs/qa-qc-specialist-pharma-point-rome--talent-76aba53fb90f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Digital Marketing Specialist (Paid Ads & Funnel)",
+        "company": "ENRICO SALVATORE CUCINOTTA",
+        "score": 26,
+        "site": "indeed",
+        "date_posted": 1774310400000,
+        "url": "https://it.indeed.com/viewjob?jk=7e9912983a8c2eb5"
       },
       {
         "title": "Responsabile Amministrativo",
@@ -218,21 +218,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-53%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
       "data": {
-        "current": 3,
-        "avg": 6.4,
-        "change_pct": -52.9
+        "current": 1,
+        "avg": 6.5,
+        "change_pct": -84.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -243,46 +263,36 @@
         "clusters": [
           {
             "id": 0,
-            "size": 27,
+            "size": 28,
             "top_terms": [
-              "manager",
-              "venice",
-              "amministrativo"
+              "engineer",
+              "amministrativo",
+              "venice"
             ],
-            "pct": 37.0
+            "pct": 38.4
           },
           {
             "id": 2,
-            "size": 21,
+            "size": 19,
             "top_terms": [
               "quality",
               "assurance",
-              "pharma"
-            ],
-            "pct": 28.8
-          },
-          {
-            "id": 4,
-            "size": 13,
-            "top_terms": [
-              "qa",
-              "pharma",
               "specialist"
             ],
-            "pct": 17.8
+            "pct": 26.0
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 17,
             "top_terms": [
+              "qa",
               "specialist",
-              "marketing",
-              "hse"
+              "pharma"
             ],
-            "pct": 9.6
+            "pct": 23.3
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 5,
             "top_terms": [
               "regulatory",
@@ -290,6 +300,16 @@
               "specialist"
             ],
             "pct": 6.8
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "operatore",
+              "vicenza",
+              "italy"
+            ],
+            "pct": 5.5
           }
         ]
       }
