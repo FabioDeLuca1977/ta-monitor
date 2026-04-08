@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-07T07:50:29.761392",
+  "generated_at": "2026-04-08T07:52:42.693397",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 33,
+  "total_jobs_analyzed": 31,
   "scoring": {
     "average": 30.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 18,
-      "low": 4,
-      "irrelevant": 11
+      "medium": 16,
+      "low": 5,
+      "irrelevant": 10
     },
     "top_jobs": [
       {
         "title": "Medical Advisor - Gastrointestinal (GI) Oncology",
         "company": "GSK",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393544955"
@@ -24,7 +24,7 @@
       {
         "title": "Medical Representative/ISF Specialty Care",
         "company": "Fidia Pharma",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395658496"
@@ -70,44 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4392275238"
       },
       {
-        "title": "Regulatory Affairs",
-        "company": "Randstad Professional Italia",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4384490252"
-      },
-      {
         "title": "LTC Clinical Specialist",
         "company": "Essity",
-        "score": 44,
+        "score": 43,
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
-      },
-      {
-        "title": "Informatore medico scientifico",
-        "company": "Manpower",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1774915200000,
-        "url": "https://www.linkedin.com/jobs/view/4395860498"
-      },
-      {
-        "title": "ISF Ginecologia",
-        "company": "PROCARE HEALTH",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386646967"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco - Padova",
-        "company": "Jakin SA",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1774828800000,
-        "url": "https://www.linkedin.com/jobs/view/4392908036"
       },
       {
         "title": "Informatore Scientifico Dietetico - Baby Food",
@@ -132,6 +100,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4381444347"
+      },
+      {
+        "title": "ISF Ginecologia",
+        "company": "PROCARE HEALTH",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386646967"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco - Padova",
+        "company": "Jakin SA",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1774828800000,
+        "url": "https://www.linkedin.com/jobs/view/4392908036"
       },
       {
         "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395038933"
+      },
+      {
+        "title": "Informatore medico scientifico",
+        "company": "Manpower",
+        "score": 39,
+        "site": "linkedin",
+        "date_posted": 1774915200000,
+        "url": "https://www.linkedin.com/jobs/view/4395860498"
+      },
+      {
+        "title": "Informatore medico scientifico Padova",
+        "company": "Lo.Li.Pharma srl",
+        "score": 38,
+        "site": "linkedin",
+        "date_posted": 1773964800000,
+        "url": "https://www.linkedin.com/jobs/view/4385733164"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
       "data": {
         "current": 1,
-        "avg": 3.6,
-        "change_pct": -71.9
+        "avg": 3.8,
+        "change_pct": -73.3
       }
     },
     {
@@ -235,44 +235,44 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 12,
-            "top_terms": [
-              "specialist",
-              "italy",
-              "medical"
-            ],
-            "pct": 36.4
-          },
-          {
-            "id": 1,
+            "id": 0,
             "size": 10,
             "top_terms": [
               "informatore",
               "scientifico",
               "medico"
             ],
-            "pct": 30.3
+            "pct": 32.3
           },
           {
-            "id": 0,
+            "id": 2,
+            "size": 8,
+            "top_terms": [
+              "medical",
+              "isf",
+              "italy"
+            ],
+            "pct": 25.8
+          },
+          {
+            "id": 1,
             "size": 5,
             "top_terms": [
               "clinical",
               "specialist",
               "vicenza"
             ],
-            "pct": 15.2
+            "pct": 16.1
           },
           {
-            "id": 2,
-            "size": 3,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "specialist",
+              "field",
+              "affairs"
             ],
-            "pct": 9.1
+            "pct": 16.1
           },
           {
             "id": 3,
@@ -282,7 +282,7 @@
               "vicenza",
               "marche"
             ],
-            "pct": 9.1
+            "pct": 9.7
           }
         ]
       }

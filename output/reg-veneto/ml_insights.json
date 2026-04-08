@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-07T07:50:30.012501",
+  "generated_at": "2026-04-08T07:52:42.951713",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 73,
+  "total_jobs_analyzed": 71,
   "scoring": {
-    "average": 15.7,
+    "average": 14.6,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 10,
+      "good": 2,
+      "medium": 9,
       "low": 9,
       "irrelevant": 51
     },
@@ -16,7 +16,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "AxL Spa – ALTI PROFILI",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1773964800000,
         "url": "https://www.linkedin.com/jobs/view/4385758124"
@@ -24,31 +24,15 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fidia Pharma",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4378178500"
       },
       {
-        "title": "Regulatory Affairs",
-        "company": "Randstad Professional Italia",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4384490252"
-      },
-      {
-        "title": "Senior International Regulatory Specialist",
-        "company": "Orthofix",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1773705600000,
-        "url": "https://www.linkedin.com/jobs/view/4367239299"
-      },
-      {
         "title": "Regulatory Affairs Specialist – International market",
         "company": "Labomar S.r.l.",
-        "score": 54,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1773964800000,
         "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
@@ -70,9 +54,17 @@
         "url": "https://it.trabajo.org/offerta-3833-5f50a7407e040e25a5dd97d41d411171?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
+        "title": "Quality Assurance Lead: QMS & Compliance (Pharma)",
+        "company": "Translated Srl",
+        "score": 47,
+        "site": "google",
+        "date_posted": 1774051200000,
+        "url": "https://it.talent.com/view?id=611623013724987266&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Qa Specialist: Gmp",
         "company": "Guna Spa",
-        "score": 46,
+        "score": 45,
         "site": "google",
         "date_posted": 1774569600000,
         "url": "https://it.trabajo.org/offerta-3833-19df749195a4cf6c08773792529a1da2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -80,18 +72,10 @@
       {
         "title": "Junior Qa Specialist Gmp Pharma",
         "company": "Acarpia Farmaceutici S.R.L.",
-        "score": 46,
+        "score": 45,
         "site": "google",
         "date_posted": 1774483200000,
         "url": "https://it.trabajo.org/offerta-3833-e10104ea14dcf508467fd36c613b3a53?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Quality Assurance Lead: QMS & Compliance (Pharma)",
-        "company": "Translated Srl",
-        "score": 46,
-        "site": "google",
-        "date_posted": 1774051200000,
-        "url": "https://it.talent.com/view?id=611623013724987266&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST JUNIOR - SETTORE FARMACEUTICO",
@@ -120,7 +104,7 @@
       {
         "title": "Pharma QA Specialist: GMP & CAPA Compliance",
         "company": "AMARIS GROUP SA",
-        "score": 35,
+        "score": 36,
         "site": "google",
         "date_posted": null,
         "url": "https://it.jooble.org/jdp/4165051911481337386?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1775001600000,
         "url": "https://it.indeed.com/viewjob?jk=bcd1d54d0f7ba5da"
+      },
+      {
+        "title": "Qa & Compliance Leader — Pharma",
+        "company": "Suanfarma Cdmo",
+        "score": 23,
+        "site": "google",
+        "date_posted": 1774483200000,
+        "url": "https://it.trabajo.org/offerta-3833-d5c733cdb0659938b784c978193c8679?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "QA Internship — Pharma Documentation",
+        "company": "Opella Healthcare Group SAS",
+        "score": 21,
+        "site": "google",
+        "date_posted": 1773446400000,
+        "url": "https://it.trabajo.org/offerta-3189-ffe9d879dc24b52f827937724a634b41?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "business",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "pharma",
+        "word": "engineer",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "business",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,41 +218,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-51%)",
       "data": {
-        "current": 1,
-        "avg": 6.5,
-        "change_pct": -84.7
+        "current": 3,
+        "avg": 6.2,
+        "change_pct": -51.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -262,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 28,
+            "id": 3,
+            "size": 23,
             "top_terms": [
-              "engineer",
               "amministrativo",
+              "operatore",
               "venice"
             ],
-            "pct": 38.4
+            "pct": 32.4
+          },
+          {
+            "id": 0,
+            "size": 19,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 26.8
           },
           {
             "id": 2,
-            "size": 19,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 26.0
-          },
-          {
-            "id": 1,
-            "size": 17,
+            "size": 14,
             "top_terms": [
               "qa",
-              "specialist",
-              "pharma"
+              "pharma",
+              "specialist"
             ],
-            "pct": 23.3
+            "pct": 19.7
           },
           {
             "id": 4,
-            "size": 5,
+            "size": 9,
             "top_terms": [
-              "regulatory",
+              "specialist",
               "affairs",
-              "specialist"
+              "regulatory"
             ],
-            "pct": 6.8
+            "pct": 12.7
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 1,
+            "size": 6,
             "top_terms": [
-              "operatore",
-              "vicenza",
-              "italy"
+              "engineer",
+              "process",
+              "gmp"
             ],
-            "pct": 5.5
+            "pct": 8.5
           }
         ]
       }

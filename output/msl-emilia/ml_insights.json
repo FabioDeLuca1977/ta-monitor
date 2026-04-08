@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-07T07:50:29.898367",
+  "generated_at": "2026-04-08T07:52:42.834974",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 56,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 33.7,
+    "average": 32.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 29,
+      "medium": 28,
       "low": 15,
-      "irrelevant": 11
+      "irrelevant": 14
     },
     "top_jobs": [
       {
         "title": "Ass. Director, Medical Science Liaison Manager",
         "company": "MSD",
-        "score": 61,
+        "score": 60,
         "site": "google",
         "date_posted": 1774569600000,
         "url": "https://it.trabajo.org/offerta-3397-aeae0c38862040ceffe222c79631be25?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -54,20 +54,20 @@
         "url": "https://it.trabajo.org/offerta-3782-c711b693a6f3939f8b27105201b29f37?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Medical Scientific Liaison (MSL) - Central Italy",
-        "company": "Teva Pharmaceuticals",
-        "score": 50,
-        "site": "google",
-        "date_posted": 1772841600000,
-        "url": "https://it.indeed.com/viewjob?jk=885fdb9269d76570&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Medical science liaison/msl (respiratorio)",
         "company": "Adecco",
         "score": 50,
         "site": "google",
         "date_posted": null,
         "url": "https://bebee.com/it/jobs/medical-science-liaison-msl-respiratorio-adecco-roma--jooble-2593194529149311517?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Regulatory Affairs Junior",
+        "company": "COC Farmaceutici",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1775088000000,
+        "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -86,6 +86,14 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
+        "title": "Medical Scientific Liaison (MSL) - Central Italy",
+        "company": "Teva Pharmaceuticals",
+        "score": 49,
+        "site": "google",
+        "date_posted": 1772841600000,
+        "url": "https://it.indeed.com/viewjob?jk=885fdb9269d76570&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Real World Evidence Specialist",
         "company": "VIVISOL",
         "score": 49,
@@ -100,14 +108,6 @@
         "site": "google",
         "date_posted": 1774569600000,
         "url": "https://it.talent.com/view?id=612465904320847664&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
-        "company": "Pharma Point",
-        "score": 46,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.linkedin.com/jobs/view/therapeutic-medical-scientist-msl-central-italy-at-pharma-point-4392287127?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Medical Science Liaison - Interventional Radiology (Italy based)",
@@ -132,6 +132,14 @@
         "site": "google",
         "date_posted": 1773446400000,
         "url": "https://it.jooble.org/jdp/-8639443283187105633?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
+        "company": "Pharma Point",
+        "score": 45,
+        "site": "google",
+        "date_posted": 1774569600000,
+        "url": "https://it.linkedin.com/jobs/view/therapeutic-medical-scientist-msl-central-italy-at-pharma-point-4392287127?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Medical Science Liaison: Scientific Info For Healthcare Pros",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393427025"
-      },
-      {
-        "title": "Medical Scientific Liaison – Primary Care",
-        "company": "Altro",
-        "score": 44,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-acf88391fd4dbd0fb594aa5cf7342ad1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -189,31 +189,31 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-82%)",
-      "data": {
-        "current": 1,
-        "avg": 5.5,
-        "change_pct": -81.8
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 2,
+        "total": 4,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 google: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "google",
         "old_pct": 100.0,
         "new_pct": 0.0
       }
@@ -221,11 +221,11 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 google: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "google",
+        "channel": "indeed",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 50.0
       }
     },
     {
@@ -236,53 +236,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 22,
+            "size": 28,
             "top_terms": [
-              "medical",
               "liaison",
+              "medical",
               "science"
             ],
-            "pct": 39.3
+            "pct": 48.3
           },
           {
-            "id": 0,
-            "size": 19,
+            "id": 3,
+            "size": 13,
             "top_terms": [
               "msl",
               "oncology",
               "field"
             ],
-            "pct": 33.9
+            "pct": 22.4
+          },
+          {
+            "id": 4,
+            "size": 10,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "sr"
+            ],
+            "pct": 17.2
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 10.7
+            "pct": 8.6
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 0,
+            "size": 2,
             "top_terms": [
-              "clinical",
-              "specialist",
-              "experience"
+              "engineer",
+              "supervisor",
+              "lazio"
             ],
-            "pct": 10.7
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "specialist",
-              "turkey",
-              "engagement"
-            ],
-            "pct": 5.4
+            "pct": 3.4
           }
         ]
       }
