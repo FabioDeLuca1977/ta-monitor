@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-04-08T07:52:42.891793",
+  "generated_at": "2026-04-09T07:55:30.981019",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 25.3,
+    "average": 27.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 21,
-      "low": 6,
-      "irrelevant": 29
+      "medium": 22,
+      "low": 7,
+      "irrelevant": 27
     },
     "top_jobs": [
       {
+        "title": "Beauty Medical Advisor",
+        "company": "CENTRI MED",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1775088000000,
+        "url": "https://www.linkedin.com/jobs/view/4396465213"
+      },
+      {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
         "company": "Amplity",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390716325"
@@ -38,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382117194"
       },
       {
-        "title": "Stage Medical Affairs",
-        "company": "ManpowerGroup",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4398459327"
-      },
-      {
         "title": "Medical Science Liaison",
         "company": "Syneos Health Commercial Solutions",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4364981952"
+      },
+      {
+        "title": "Stage Medical Affairs",
+        "company": "ManpowerGroup",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4398459327"
       },
       {
         "title": "Medical Science Liaison, Oncology (RCC)",
@@ -88,10 +96,18 @@
       {
         "title": "Senior Medical Science Liaison Italy Rare Tumor",
         "company": "Merck Healthcare",
-        "score": 50,
+        "score": 51,
         "site": "linkedin",
         "date_posted": 1774051200000,
         "url": "https://www.linkedin.com/jobs/view/4317855974"
+      },
+      {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Amaris Consulting",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1774310400000,
+        "url": "https://www.linkedin.com/jobs/view/4388082342"
       },
       {
         "title": "Medical Lead Europe",
@@ -102,25 +118,9 @@
         "url": "https://www.linkedin.com/jobs/view/4390945528"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "BSP Pharmaceuticals S.p.A.",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1774224000000,
-        "url": "https://www.linkedin.com/jobs/view/4386664956"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Amaris Consulting",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1774310400000,
-        "url": "https://www.linkedin.com/jobs/view/4388082342"
-      },
-      {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "AYES - Management & Technology Consulting",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": 1774915200000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
@@ -130,7 +130,7 @@
         "company": "TRIO - Translational Research in Oncology",
         "score": 47,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774310400000,
         "url": "https://www.linkedin.com/jobs/view/4389462390"
       },
       {
@@ -150,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4398280292"
       },
       {
-        "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
-        "company": "Pharma Point",
-        "score": 46,
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4392287127"
+        "url": "https://www.linkedin.com/jobs/view/4395983594"
       },
       {
         "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4396947575"
       },
       {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 44,
+        "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
+        "company": "Pharma Point",
+        "score": 45,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
+        "url": "https://www.linkedin.com/jobs/view/4392287127"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "specialist",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -194,12 +194,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "research",
+        "word": "italy",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "temporary",
+        "word": "field",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -228,33 +228,52 @@
   ],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+41%)",
+      "data": {
+        "current": 6,
+        "avg": 4.2,
+        "change_pct": 41.2
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Arithmos: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Arithmos",
+        "count": 2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 2,
-        "total": 4,
-        "pct": 50.0
+        "new": 4,
+        "total": 6,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 75% (+75pp)",
+      "message": "📡 linkedin: quota passata da 75% a 50% (-25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 25% (-75pp)",
+      "message": "📡 indeed: quota passata da 25% a 50% (+25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -264,54 +283,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 34,
+            "id": 1,
+            "size": 15,
             "top_terms": [
-              "specialist",
-              "director",
-              "senior"
+              "medical",
+              "italy",
+              "science"
             ],
-            "pct": 59.6
+            "pct": 26.3
           },
           {
-            "id": 4,
+            "id": 2,
+            "size": 15,
+            "top_terms": [
+              "specialist",
+              "affairs",
+              "regulatory"
+            ],
+            "pct": 26.3
+          },
+          {
+            "id": 0,
+            "size": 13,
+            "top_terms": [
+              "coordinator",
+              "engineer",
+              "director"
+            ],
+            "pct": 22.8
+          },
+          {
+            "id": 3,
             "size": 8,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "manager",
+              "clinical",
+              "field"
             ],
             "pct": 14.0
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 6,
             "top_terms": [
+              "senior",
               "manager",
-              "clinical",
-              "senior"
+              "clinical"
             ],
             "pct": 10.5
-          },
-          {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "liaison",
-              "science",
-              "medical"
-            ],
-            "pct": 8.8
-          },
-          {
-            "id": 0,
-            "size": 4,
-            "top_terms": [
-              "msl",
-              "italy",
-              "therapeutic"
-            ],
-            "pct": 7.0
           }
         ]
       }

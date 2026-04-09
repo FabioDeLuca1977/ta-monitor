@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-08T07:52:42.789057",
+  "generated_at": "2026-04-09T07:55:30.883588",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 148,
+  "total_jobs_analyzed": 151,
   "scoring": {
-    "average": 30.7,
+    "average": 30.8,
     "distribution": {
       "excellent": 0,
-      "good": 2,
+      "good": 3,
       "medium": 74,
-      "low": 11,
-      "irrelevant": 61
+      "low": 12,
+      "irrelevant": 62
     },
     "top_jobs": [
       {
@@ -28,6 +28,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390704814"
+      },
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1775347200000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Associate Medical Director",
@@ -50,8 +58,8 @@
         "company": "Professional Recruitment",
         "score": 58,
         "site": "linkedin",
-        "date_posted": 1773792000000,
-        "url": "https://www.linkedin.com/jobs/view/4386868338"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390115834"
       },
       {
         "title": "Medical Advisor Cardiovascular",
@@ -63,19 +71,11 @@
       },
       {
         "title": "Clinical Research Associate",
-        "company": "Medpace",
+        "company": "Linical",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1775347200000,
-        "url": "https://www.linkedin.com/jobs/view/4332274670"
-      },
-      {
-        "title": "International Medical Advisor - Oncology",
-        "company": "Barrington James",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1774224000000,
-        "url": "https://www.linkedin.com/jobs/view/4376580779"
+        "date_posted": 1775520000000,
+        "url": "https://www.linkedin.com/jobs/view/4398255784"
       },
       {
         "title": "Medical Monitor (Gastroenterology)",
@@ -94,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
+        "title": "International Medical Advisor - Oncology",
+        "company": "Barrington James",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1774224000000,
+        "url": "https://www.linkedin.com/jobs/view/4376580779"
+      },
+      {
         "title": "Medical Affairs Clinician - Italy",
         "company": "Evolus",
         "score": 55,
         "site": "linkedin",
         "date_posted": 1774224000000,
         "url": "https://www.linkedin.com/jobs/view/4342294307"
-      },
-      {
-        "title": "Medical Director",
-        "company": "EVERSANA INTOUCH",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4387300474"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4394781112"
       },
       {
-        "title": "Medical Science Liaison - Nord & Centro Italia",
-        "company": "Theras",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1773792000000,
-        "url": "https://it.indeed.com/viewjob?jk=1fa9af4c1df1764e"
-      },
-      {
         "title": "Global Director Medical Affairs",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 54,
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
-        "title": "Regulatory Affairs Manager",
-        "company": "AEB Group",
+        "title": "Director, Future Forward Medical Affairs",
+        "company": "Intuitive",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4397178739"
+      },
+      {
+        "title": "Central Medical Affairs Coordinator",
+        "company": "Nordberg Medical",
         "score": 53,
         "site": "linkedin",
-        "date_posted": 1773964800000,
-        "url": "https://www.linkedin.com/jobs/view/4385736662"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4380955990"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -214,6 +214,12 @@
       "confidence": 80
     },
     {
+      "keyword": "international medical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "director medical",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -224,31 +230,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/8 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 4/12 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 6,
-        "total": 8,
-        "pct": 75.0
+        "new": 4,
+        "total": 12,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 38% (-29pp)",
+      "message": "📡 linkedin: quota passata da 38% a 83% (+46pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 37.5
+        "old_pct": 37.5,
+        "new_pct": 83.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 62% (+29pp)",
+      "message": "📡 indeed: quota passata da 62% a 17% (-46pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 62.5
+        "old_pct": 62.5,
+        "new_pct": 16.7
       }
     },
     {
@@ -258,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 100,
+            "id": 4,
+            "size": 64,
             "top_terms": [
-              "specialist",
-              "manager",
-              "medical"
+              "medical",
+              "research",
+              "italy"
             ],
-            "pct": 67.6
+            "pct": 42.4
           },
           {
-            "id": 4,
-            "size": 19,
+            "id": 2,
+            "size": 28,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "product"
+            ],
+            "pct": 18.5
+          },
+          {
+            "id": 1,
+            "size": 22,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.8
-          },
-          {
-            "id": 1,
-            "size": 16,
-            "top_terms": [
-              "director",
-              "medical",
-              "affairs"
-            ],
-            "pct": 10.8
+            "pct": 14.6
           },
           {
             "id": 3,
-            "size": 9,
+            "size": 19,
             "top_terms": [
-              "research",
-              "clinical",
-              "associate"
+              "manager",
+              "project",
+              "senior"
             ],
-            "pct": 6.1
+            "pct": 12.6
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 0,
+            "size": 18,
             "top_terms": [
-              "market",
-              "access",
-              "specialist"
+              "director",
+              "medical",
+              "associate"
             ],
-            "pct": 2.7
+            "pct": 11.9
           }
         ]
       }

@@ -1,46 +1,54 @@
 {
-  "generated_at": "2026-04-08T07:52:43.163610",
+  "generated_at": "2026-04-09T07:55:31.251324",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 67,
+  "total_jobs_analyzed": 65,
   "scoring": {
-    "average": 9.3,
+    "average": 9.8,
     "distribution": {
       "excellent": 0,
       "good": 4,
-      "medium": 2,
+      "medium": 3,
       "low": 0,
-      "irrelevant": 61
+      "irrelevant": 58
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1773878400000,
         "url": "https://www.linkedin.com/jobs/view/4387809282"
       },
       {
-        "title": "Regulatory Affairs Junior",
-        "company": "COC Farmaceutici",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4393427025"
-      },
-      {
         "title": "Regulatory Affairs",
         "company": "COC Farmaceutici",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
+        "title": "Regulatory Affairs Junior",
+        "company": "COC Farmaceutici",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1775088000000,
+        "url": "https://www.linkedin.com/jobs/view/4393427025"
+      },
+      {
+        "title": "Regulatory Affairs Junior - Assistente Affari Regolatori",
+        "company": "Lavoropiù SpA",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399296018"
+      },
+      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 61,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=f64affe1a0aaca3f"
@@ -56,7 +64,7 @@
       {
         "title": "Regulatory Affair Coordinator",
         "company": "Cefla",
-        "score": 50,
+        "score": 49,
         "site": "linkedin",
         "date_posted": 1774224000000,
         "url": "https://www.linkedin.com/jobs/view/4389086681"
@@ -64,7 +72,7 @@
       {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 18,
+        "score": 17,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398457330"
@@ -118,38 +126,6 @@
         "url": "https://it.indeed.com/viewjob?jk=aadffcf355555d12"
       },
       {
-        "title": "CUSTOMER QUALITY ASSURANCE SPECIALIST",
-        "company": "O.M.P. Officine Mazzocco Pagnoni",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4382037285"
-      },
-      {
-        "title": "Maritime Security Senior Manager",
-        "company": "Snam",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1775001600000,
-        "url": "https://it.indeed.com/viewjob?jk=49211339c7397133"
-      },
-      {
-        "title": "Project Manager Junior - Agriculture field",
-        "company": "STAR Italia",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1773792000000,
-        "url": "https://it.indeed.com/viewjob?jk=e07175466e17ae11"
-      },
-      {
-        "title": "QUALITY ASSURANCE",
-        "company": "MM Operations",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4389711198"
-      },
-      {
         "title": "Quality Assurance - Tirocinio",
         "company": "Gruppo Montenegro",
         "score": 8,
@@ -166,12 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4391787180"
       },
       {
+        "title": "Medico Responsabile in Psichiatria",
+        "company": "Kos Group",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1775606400000,
+        "url": "https://it.indeed.com/viewjob?jk=2de13aa86b926f26"
+      },
+      {
         "title": "Senior Product Manager - Digital Solutions",
         "company": "Allegion",
         "score": 7,
         "site": "indeed",
         "date_posted": 1774224000000,
         "url": "https://it.indeed.com/viewjob?jk=6ecc09f74954092c"
+      },
+      {
+        "title": "Quality assurance settore metalmeccanico",
+        "company": "Adecco",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1773964800000,
+        "url": "https://www.linkedin.com/jobs/view/4385753528"
+      },
+      {
+        "title": "Office manager & sales support",
+        "company": "Montevideo Portal",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1774396800000,
+        "url": "https://it.indeed.com/viewjob?jk=65358726e8b12384"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "farmacista",
@@ -199,53 +199,40 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "farmacia",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "affairs junior",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-69%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-68%)",
       "data": {
         "current": 2,
-        "avg": 6.5,
-        "change_pct": -69.2
+        "avg": 6.3,
+        "change_pct": -68.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 2,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "pct": 100.0
       }
     },
     {
@@ -255,54 +242,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 26,
+            "id": 4,
+            "size": 27,
             "top_terms": [
-              "bologna",
-              "supervisor",
-              "senior"
+              "engineer",
+              "specialist",
+              "sales"
             ],
-            "pct": 38.8
+            "pct": 41.5
           },
           {
-            "id": 4,
-            "size": 17,
+            "id": 1,
+            "size": 15,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 25.4
+            "pct": 23.1
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 12,
             "top_terms": [
               "farmacista",
               "farmacia",
               "collaboratore"
             ],
-            "pct": 17.9
-          },
-          {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
-              "engineer",
-              "field",
-              "manager"
-            ],
-            "pct": 10.4
+            "pct": 18.5
           },
           {
             "id": 2,
+            "size": 6,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "junior"
+            ],
+            "pct": 9.2
+          },
+          {
+            "id": 3,
             "size": 5,
             "top_terms": [
-              "specialist",
-              "affairs",
-              "regulatory"
+              "bologna",
+              "elettrico",
+              "tecnico"
             ],
-            "pct": 7.5
+            "pct": 7.7
           }
         ]
       }
