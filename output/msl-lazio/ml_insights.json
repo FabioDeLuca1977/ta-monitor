@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-09T07:55:30.981019",
+  "generated_at": "2026-04-10T08:33:45.378059",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 57,
+  "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 27.2,
+    "average": 27.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 22,
-      "low": 7,
-      "irrelevant": 27
+      "medium": 21,
+      "low": 6,
+      "irrelevant": 26
     },
     "top_jobs": [
       {
         "title": "Beauty Medical Advisor",
         "company": "CENTRI MED",
-        "score": 66,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4396465213"
@@ -54,28 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
-        "title": "Stage Medical Affairs",
-        "company": "ManpowerGroup",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4398459327"
-      },
-      {
         "title": "Medical Science Liaison, Oncology (RCC)",
         "company": "Amplity",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4385271426"
-      },
-      {
-        "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
-        "company": "Allergan Aesthetics, an AbbVie Company",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4376900293"
       },
       {
         "title": "Clinical Development Medical Science Director",
@@ -94,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4390989901"
       },
       {
+        "title": "Stage Medical Affairs",
+        "company": "ManpowerGroup",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4398459327"
+      },
+      {
         "title": "Senior Medical Science Liaison Italy Rare Tumor",
         "company": "Merck Healthcare",
-        "score": 51,
+        "score": 50,
         "site": "linkedin",
         "date_posted": 1774051200000,
         "url": "https://www.linkedin.com/jobs/view/4317855974"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Amaris Consulting",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1774310400000,
-        "url": "https://www.linkedin.com/jobs/view/4388082342"
       },
       {
         "title": "Medical Lead Europe",
@@ -124,6 +108,22 @@
         "site": "linkedin",
         "date_posted": 1774915200000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
+      },
+      {
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4395983594"
+      },
+      {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Amaris Consulting",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1774310400000,
+        "url": "https://www.linkedin.com/jobs/view/4388082342"
       },
       {
         "title": "Clinical Research Associate",
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4398280292"
       },
       {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4395983594"
-      },
-      {
-        "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
-        "company": "Adecco",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396947575"
-      },
-      {
         "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
         "company": "Pharma Point",
         "score": 45,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392287127"
+      },
+      {
+        "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
+        "company": "Adecco",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396947575"
+      },
+      {
+        "title": "Regulatory Affairs & Auditor GxP (Pharmacovigilanza, GCP)",
+        "company": "fortil",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396343419"
       }
     ]
   },
@@ -194,12 +194,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "italy",
+        "word": "field",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "field",
+        "word": "italy",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 6,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 60
+      "confidence": 50
     },
     {
       "keyword": "liaison italy",
@@ -230,11 +230,11 @@
     {
       "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+41%)",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+38%)",
       "data": {
         "current": 6,
-        "avg": 4.2,
-        "change_pct": 41.2
+        "avg": 4.4,
+        "change_pct": 37.5
       }
     },
     {
@@ -283,54 +283,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 15,
-            "top_terms": [
-              "medical",
-              "italy",
-              "science"
-            ],
-            "pct": 26.3
-          },
-          {
-            "id": 2,
-            "size": 15,
-            "top_terms": [
-              "specialist",
-              "affairs",
-              "regulatory"
-            ],
-            "pct": 26.3
-          },
-          {
             "id": 0,
-            "size": 13,
-            "top_terms": [
-              "coordinator",
-              "engineer",
-              "director"
-            ],
-            "pct": 22.8
-          },
-          {
-            "id": 3,
-            "size": 8,
+            "size": 24,
             "top_terms": [
               "manager",
-              "clinical",
-              "field"
+              "director",
+              "lead"
             ],
-            "pct": 14.0
+            "pct": 44.4
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 11,
+            "top_terms": [
+              "medical",
+              "liaison",
+              "italy"
+            ],
+            "pct": 20.4
+          },
+          {
+            "id": 2,
+            "size": 7,
+            "top_terms": [
+              "specialist",
+              "qa",
+              "lazio"
+            ],
+            "pct": 13.0
+          },
+          {
+            "id": 3,
+            "size": 7,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "head"
+            ],
+            "pct": 13.0
+          },
+          {
+            "id": 1,
+            "size": 5,
             "top_terms": [
               "senior",
               "manager",
               "clinical"
             ],
-            "pct": 10.5
+            "pct": 9.3
           }
         ]
       }
