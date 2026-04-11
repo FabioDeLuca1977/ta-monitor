@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-10T08:33:45.439899",
+  "generated_at": "2026-04-11T07:31:46.887751",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 75,
   "scoring": {
-    "average": 14.2,
+    "average": 14.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 9,
+      "medium": 10,
       "low": 9,
-      "irrelevant": 55
+      "irrelevant": 54
     },
     "top_jobs": [
       {
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4378178500"
       },
       {
-        "title": "Regulatory Affairs Specialist – International market",
-        "company": "Labomar S.r.l.",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1773964800000,
-        "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
-      },
-      {
         "title": "Quality Assurance Specialist — Gmp Compliance",
         "company": "Recordati",
         "score": 53,
@@ -52,6 +44,22 @@
         "site": "google",
         "date_posted": 1774569600000,
         "url": "https://it.trabajo.org/offerta-3833-5f50a7407e040e25a5dd97d41d411171?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Regulatory Affairs Specialist – International market",
+        "company": "Labomar S.r.l.",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1773964800000,
+        "url": "https://it.indeed.com/viewjob?jk=1f7d5aa2c672e4b7"
+      },
+      {
+        "title": "Senior quality assurance GMP",
+        "company": "Adecco",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399007104"
       },
       {
         "title": "Qa Specialist: Gmp",
@@ -104,7 +112,7 @@
       {
         "title": "Pharma QA Specialist: GMP & CAPA Compliance",
         "company": "AMARIS GROUP SA",
-        "score": 35,
+        "score": 36,
         "site": "google",
         "date_posted": null,
         "url": "https://it.jooble.org/jdp/4165051911481337386?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -164,14 +172,6 @@
         "site": "google",
         "date_posted": 1773446400000,
         "url": "https://it.trabajo.org/offerta-3189-ffe9d879dc24b52f827937724a634b41?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Responsabile Amministrativo",
-        "company": "Magazzini Zanchetta ",
-        "score": 21,
-        "site": "indeed",
-        "date_posted": 1775001600000,
-        "url": "https://it.indeed.com/viewjob?jk=bcd1d54d0f7ba5da"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -194,12 +194,12 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "business",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "pharma",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "business",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -216,33 +216,13 @@
   ],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 7 (-70%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 40% (-27pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 60% (+27pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 60.0
+        "current": 2,
+        "avg": 6.6,
+        "change_pct": -69.9
       }
     },
     {
@@ -252,27 +232,27 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 36,
+            "id": 3,
+            "size": 27,
             "top_terms": [
-              "specialist",
               "engineer",
-              "addetto"
+              "addetto",
+              "amministrativo"
             ],
-            "pct": 48.0
+            "pct": 36.0
           },
           {
-            "id": 2,
-            "size": 15,
+            "id": 1,
+            "size": 21,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 20.0
+            "pct": 28.0
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 15,
             "top_terms": [
               "qa",
@@ -283,21 +263,21 @@
           },
           {
             "id": 4,
-            "size": 5,
+            "size": 8,
             "top_terms": [
-              "manager",
-              "quality",
-              "assurance"
+              "specialist",
+              "affairs",
+              "regulatory"
             ],
-            "pct": 6.7
+            "pct": 10.7
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 4,
             "top_terms": [
-              "business",
-              "analyst",
-              "assurance"
+              "manager",
+              "assurance",
+              "quality"
             ],
             "pct": 5.3
           }

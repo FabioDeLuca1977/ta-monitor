@@ -1,9 +1,12 @@
 {
-  "date": "2026-04-10T08:24:25.003542",
+  "date": "2026-04-11T07:27:20.386982",
   "profile": "reg-lombardia",
-  "total_raw": 0,
-  "filtered_irrelevant": 0,
-  "new_jobs": 0,
-  "duplicates_removed": 0,
-  "channels": []
+  "total_raw": 529,
+  "filtered_irrelevant": 356,
+  "new_jobs": 29,
+  "duplicates_removed": 108,
+  "channels": [
+    "indeed",
+    "linkedin"
+  ]
 }

@@ -1,9 +1,12 @@
 {
-  "date": "2026-04-10T07:51:07.481822",
+  "date": "2026-04-11T07:07:47.976336",
   "profile": "msl-veneto",
-  "total_raw": 0,
-  "filtered_irrelevant": 0,
-  "new_jobs": 0,
-  "duplicates_removed": 0,
-  "channels": []
+  "total_raw": 66,
+  "filtered_irrelevant": 51,
+  "new_jobs": 1,
+  "duplicates_removed": 9,
+  "channels": [
+    "indeed",
+    "linkedin"
+  ]
 }

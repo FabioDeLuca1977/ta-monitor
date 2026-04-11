@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-10T08:33:45.182063",
+  "generated_at": "2026-04-11T07:31:46.645825",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 34,
   "scoring": {
-    "average": 29.9,
+    "average": 28.8,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 18,
+      "medium": 17,
       "low": 5,
-      "irrelevant": 11
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -22,17 +22,9 @@
         "url": "https://www.linkedin.com/jobs/view/4393544955"
       },
       {
-        "title": "Informatore Medico Scientifico",
-        "company": "REVALMA INC SRL SOCIETÀ BENEFIT",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1775520000000,
-        "url": "https://www.linkedin.com/jobs/view/4398215547"
-      },
-      {
         "title": "Medical Representative/ISF Specialty Care",
         "company": "Fidia Pharma",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395658496"
@@ -70,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4345963815"
       },
       {
+        "title": "LTC Clinical Specialist",
+        "company": "Essity",
+        "score": 44,
+        "site": "indeed",
+        "date_posted": 1774569600000,
+        "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
+      },
+      {
         "title": "Informatore Scientifico",
         "company": "EPITECH GROUP SPA",
         "score": 44,
@@ -78,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4392275238"
       },
       {
-        "title": "LTC Clinical Specialist",
-        "company": "Essity",
-        "score": 43,
-        "site": "indeed",
-        "date_posted": 1774569600000,
-        "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
+        "title": "Informatore Medico Scientifico",
+        "company": "REVALMA INC SRL SOCIETÀ BENEFIT",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1775520000000,
+        "url": "https://www.linkedin.com/jobs/view/4398215547"
       },
       {
         "title": "ISF Ginecologia",
@@ -100,14 +100,6 @@
         "site": "linkedin",
         "date_posted": 1774310400000,
         "url": "https://www.linkedin.com/jobs/view/4389462810"
-      },
-      {
-        "title": "Informatore Scientifico Dietetico - Baby Food",
-        "company": "NewPrinces Group",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1773878400000,
-        "url": "https://www.linkedin.com/jobs/view/4387825084"
       },
       {
         "title": "Informatore scientifico commerciale | Veneto",
@@ -138,7 +130,7 @@
         "company": "Boston Scientific",
         "score": 41,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774396800000,
         "url": "https://www.linkedin.com/jobs/view/4390363754"
       },
       {
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395038933"
+      },
+      {
+        "title": "Informatore medico scientifico",
+        "company": "Manpower",
+        "score": 39,
+        "site": "linkedin",
+        "date_posted": 1774915200000,
+        "url": "https://www.linkedin.com/jobs/view/4395860498"
       }
     ]
   },
@@ -189,33 +189,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "data": {
+        "current": 1,
+        "avg": 4.1,
+        "change_pct": -75.8
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
+      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -225,34 +235,34 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 12,
+            "id": 1,
+            "size": 11,
             "top_terms": [
               "informatore",
               "scientifico",
               "medico"
             ],
-            "pct": 35.3
-          },
-          {
-            "id": 3,
-            "size": 11,
-            "top_terms": [
-              "italy",
-              "isf",
-              "medical"
-            ],
             "pct": 32.4
           },
           {
-            "id": 1,
-            "size": 6,
+            "id": 3,
+            "size": 10,
+            "top_terms": [
+              "medical",
+              "isf",
+              "specialist"
+            ],
+            "pct": 29.4
+          },
+          {
+            "id": 2,
+            "size": 8,
             "top_terms": [
               "clinical",
               "specialist",
-              "health"
+              "field"
             ],
-            "pct": 17.6
+            "pct": 23.5
           },
           {
             "id": 4,
@@ -260,17 +270,17 @@
             "top_terms": [
               "engineer",
               "vicenza",
-              "verona"
+              "marche"
             ],
             "pct": 8.8
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 2,
             "top_terms": [
-              "marche",
-              "triveneto",
-              "neuromodulation"
+              "vicenza",
+              "italy",
+              "representative"
             ],
             "pct": 5.9
           }
