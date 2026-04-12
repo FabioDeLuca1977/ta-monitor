@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-11T07:31:46.744083",
+  "generated_at": "2026-04-12T07:46:19.043859",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 174,
+  "total_jobs_analyzed": 165,
   "scoring": {
-    "average": 29.5,
+    "average": 29.8,
     "distribution": {
       "excellent": 0,
       "good": 6,
-      "medium": 77,
-      "low": 14,
-      "irrelevant": 77
+      "medium": 74,
+      "low": 12,
+      "irrelevant": 73
     },
     "top_jobs": [
       {
-        "title": "Medical Science Liaison (MSL), Italy",
-        "company": "Nordberg Medical",
+        "title": "(Associate) Medical Director - Neurology",
+        "company": "Thermo Fisher Scientific",
         "score": 65,
         "site": "linkedin",
-        "date_posted": 1775260800000,
-        "url": "https://www.linkedin.com/jobs/view/4385588393"
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4385464808"
       },
       {
         "title": "Medical Affairs Support 6",
         "company": "IQVIA",
-        "score": 64,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4397603246"
@@ -32,7 +32,7 @@
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
@@ -50,7 +50,7 @@
         "company": "Amplity",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774483200000,
         "url": "https://www.linkedin.com/jobs/view/4390704814"
       },
       {
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
+        "title": "Medical Science Liaison (MSL), Italy",
+        "company": "Nordberg Medical",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1775260800000,
+        "url": "https://www.linkedin.com/jobs/view/4385588393"
+      },
+      {
         "title": "Regulatory Affairs Specialist - Medical Device",
         "company": "Professional Recruitment",
         "score": 58,
@@ -78,11 +86,19 @@
         "url": "https://www.linkedin.com/jobs/view/4390115834"
       },
       {
+        "title": "Director, Future Forward Medical Affairs",
+        "company": "Intuitive",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4397178739"
+      },
+      {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774483200000,
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
@@ -142,20 +158,12 @@
         "url": "https://www.linkedin.com/jobs/view/4325551725"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "BeOne Medicines",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1775606400000,
-        "url": "https://www.linkedin.com/jobs/view/4375702724"
-      },
-      {
         "title": "International Medical Advisor - Oncology",
         "company": "Barrington James",
         "score": 55,
         "site": "linkedin",
-        "date_posted": 1774224000000,
-        "url": "https://www.linkedin.com/jobs/view/4376580779"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4392397494"
       },
       {
         "title": "Medical Science Liaison Paediatric Oncology - Milan",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4394781112"
-      },
-      {
-        "title": "Medical Affairs  Internship",
-        "company": "GE HealthCare",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4392989370"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "specialist",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -194,14 +194,14 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "clinical",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "clinical",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "cra",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,65 +218,53 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "international",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 29 annunci ultimo scan vs media 11 (+160%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 12 (-76%)",
       "data": {
-        "current": 29,
-        "avg": 11.2,
-        "change_pct": 160.0
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Flex: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Flex",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Hays: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Hays",
-        "count": 2
+        "current": 3,
+        "avg": 12.5,
+        "change_pct": -75.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 16/29 annunci da aziende nuove (55.2%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 16,
-        "total": 29,
-        "pct": 55.2
+        "new": 1,
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 83% a 48% (-35pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 83.3,
-        "new_pct": 48.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 17% a 52% (+35pp)",
+      "message": "📡 indeed: quota passata da 52% a 0% (-52pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 16.7,
-        "new_pct": 51.7
+        "old_pct": 51.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 48% a 100% (+52pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 48.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -286,54 +274,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 67,
+            "id": 1,
+            "size": 72,
             "top_terms": [
               "specialist",
-              "quality",
-              "italy"
+              "italy",
+              "cra"
             ],
-            "pct": 38.5
+            "pct": 43.6
           },
           {
-            "id": 1,
-            "size": 39,
+            "id": 0,
+            "size": 38,
             "top_terms": [
               "medical",
               "director",
-              "italy"
+              "affairs"
             ],
-            "pct": 22.4
-          },
-          {
-            "id": 2,
-            "size": 23,
-            "top_terms": [
-              "manager",
-              "senior",
-              "project"
-            ],
-            "pct": 13.2
+            "pct": 23.0
           },
           {
             "id": 4,
             "size": 23,
             "top_terms": [
-              "clinical",
-              "research",
-              "associate"
+              "manager",
+              "project",
+              "senior"
             ],
-            "pct": 13.2
+            "pct": 13.9
           },
           {
             "id": 3,
-            "size": 22,
+            "size": 20,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.6
+            "pct": 12.1
+          },
+          {
+            "id": 2,
+            "size": 12,
+            "top_terms": [
+              "research",
+              "clinical",
+              "associate"
+            ],
+            "pct": 7.3
           }
         ]
       }

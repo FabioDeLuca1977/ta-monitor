@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-11T07:31:47.037365",
+  "generated_at": "2026-04-12T07:46:19.331876",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 285,
+  "total_jobs_analyzed": 273,
   "scoring": {
-    "average": 16.1,
+    "average": 15.7,
     "distribution": {
       "excellent": 0,
-      "good": 23,
+      "good": 20,
       "medium": 32,
-      "low": 9,
-      "irrelevant": 221
+      "low": 7,
+      "irrelevant": 214
     },
     "top_jobs": [
       {
@@ -38,28 +38,12 @@
         "url": "https://www.linkedin.com/jobs/view/4390115834"
       },
       {
-        "title": "REGULATORY AFFAIRS SPECIALIST",
-        "company": "Quanta System Spa",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1775260800000,
-        "url": "https://www.linkedin.com/jobs/view/4339821354"
-      },
-      {
         "title": "Quality Assurance & Regulatory Affairs Specialist",
         "company": "Cefla",
         "score": 66,
         "site": "linkedin",
         "date_posted": 1774224000000,
         "url": "https://www.linkedin.com/jobs/view/4389078848"
-      },
-      {
-        "title": "Regulatory Affairs Manager",
-        "company": "AEB Group",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1773964800000,
-        "url": "https://www.linkedin.com/jobs/view/4385736662"
       },
       {
         "title": "CMC Regulatory Specialist",
@@ -102,6 +86,14 @@
         "url": "https://www.linkedin.com/jobs/view/4392935502"
       },
       {
+        "title": "REGULATORY AFFAIRS SPECIALIST",
+        "company": "Quanta System Spa",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1775260800000,
+        "url": "https://www.linkedin.com/jobs/view/4339821354"
+      },
+      {
         "title": "Regulatory Affairs Specialist - Extra EU",
         "company": "Mynameis",
         "score": 62,
@@ -142,28 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
-        "title": "Regulatory Specialist",
-        "company": "IRCA Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1774310400000,
-        "url": "https://www.linkedin.com/jobs/view/4389487359"
-      },
-      {
-        "title": "Regulatory affairs specialist settore cosmetico",
-        "company": "Randstad Italia",
-        "score": 60,
+        "title": "Lead Regulatory Affairs Manager, International",
+        "company": "Exact Sciences",
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4390571872"
-      },
-      {
-        "title": "SCM External Regulatory Compliance Manager",
-        "company": "Hitachi Energy",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1773964800000,
-        "url": "https://www.linkedin.com/jobs/view/4387960158"
+        "url": "https://www.linkedin.com/jobs/view/4387965325"
       },
       {
         "title": "Regulatory Specialist",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": 1774483200000,
         "url": "https://www.linkedin.com/jobs/view/4364100617"
+      },
+      {
+        "title": "R&D and Regulatory Specialist",
+        "company": "Fedrigoni Group",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4373812387"
+      },
+      {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
+      },
+      {
+        "title": "Junior Regulatory Affairs Specialist",
+        "company": "Adecco",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1775088000000,
+        "url": "https://www.linkedin.com/jobs/view/4379831537"
       }
     ]
   },
@@ -179,19 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "sales",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
-      },
-      {
-        "word": "director",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
         "word": "engineer",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
+      },
+      {
+        "word": "director",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "sales",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -214,12 +214,6 @@
       "confidence": 45
     },
     {
-      "keyword": "lead regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "specialist settore",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -233,6 +227,12 @@
     },
     {
       "keyword": "affairs officer",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "lead regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -258,23 +258,32 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 29 annunci ultimo scan vs media 18 (+59%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 19 (-74%)",
       "data": {
-        "current": 29,
-        "avg": 18.3,
-        "change_pct": 58.6
+        "current": 5,
+        "avg": 19.1,
+        "change_pct": -73.9
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Wolters Kluwer: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Wolters Kluwer",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 19/29 annunci da aziende nuove (65.5%)",
+      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 19,
-        "total": 29,
-        "pct": 65.5
+        "new": 5,
+        "total": 5,
+        "pct": 100.0
       }
     },
     {
@@ -284,54 +293,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
+            "id": 0,
             "size": 165,
             "top_terms": [
               "specialist",
-              "sales",
-              "engineer"
+              "engineer",
+              "senior"
             ],
-            "pct": 57.9
+            "pct": 60.4
           },
           {
-            "id": 0,
-            "size": 36,
+            "id": 1,
+            "size": 34,
+            "top_terms": [
+              "manager",
+              "project",
+              "senior"
+            ],
+            "pct": 12.5
+          },
+          {
+            "id": 4,
+            "size": 33,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.6
+            "pct": 12.1
           },
           {
-            "id": 4,
-            "size": 36,
+            "id": 3,
+            "size": 31,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 12.6
-          },
-          {
-            "id": 1,
-            "size": 29,
-            "top_terms": [
-              "manager",
-              "project",
-              "compliance"
-            ],
-            "pct": 10.2
+            "pct": 11.4
           },
           {
             "id": 2,
-            "size": 19,
+            "size": 10,
             "top_terms": [
-              "senior",
-              "manager",
-              "contract"
+              "expert",
+              "advisor",
+              "solution"
             ],
-            "pct": 6.7
+            "pct": 3.7
           }
         ]
       }

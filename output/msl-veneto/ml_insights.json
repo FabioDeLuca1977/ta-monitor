@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-11T07:31:46.645825",
+  "generated_at": "2026-04-12T07:46:18.949792",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 34,
+  "total_jobs_analyzed": 29,
   "scoring": {
-    "average": 28.8,
+    "average": 28.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 17,
-      "low": 5,
-      "irrelevant": 12
+      "medium": 15,
+      "low": 3,
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -22,25 +22,25 @@
         "url": "https://www.linkedin.com/jobs/view/4393544955"
       },
       {
+        "title": "Informatore medico scientifico",
+        "company": "Eberlife Farmaceutici S.p.A.",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4399018361"
+      },
+      {
         "title": "Medical Representative/ISF Specialty Care",
         "company": "Fidia Pharma",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395658496"
       },
       {
         "title": "Regulatory Affairs Specialist",
-        "company": "AxL Spa – ALTI PROFILI",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1773964800000,
-        "url": "https://www.linkedin.com/jobs/view/4385758124"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
         "company": "Fidia Pharma",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4378178500"
@@ -52,22 +52,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386508727"
-      },
-      {
-        "title": "Informatore Scientifico Specialist - Vicenza e Padova",
-        "company": "Pharma Line srl",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1773964800000,
-        "url": "https://www.linkedin.com/jobs/view/4345963815"
-      },
-      {
-        "title": "LTC Clinical Specialist",
-        "company": "Essity",
-        "score": 44,
-        "site": "indeed",
-        "date_posted": 1774569600000,
-        "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
       },
       {
         "title": "Informatore Scientifico",
@@ -84,6 +68,14 @@
         "site": "linkedin",
         "date_posted": 1775520000000,
         "url": "https://www.linkedin.com/jobs/view/4398215547"
+      },
+      {
+        "title": "LTC Clinical Specialist",
+        "company": "Essity",
+        "score": 43,
+        "site": "indeed",
+        "date_posted": 1774569600000,
+        "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
       },
       {
         "title": "ISF Ginecologia",
@@ -127,14 +119,6 @@
       },
       {
         "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
-        "company": "Boston Scientific",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1774396800000,
-        "url": "https://www.linkedin.com/jobs/view/4390363754"
-      },
-      {
-        "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
         "company": "myGwork - LGBTQ+ Business Community",
         "score": 41,
         "site": "linkedin",
@@ -148,14 +132,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4356098675"
-      },
-      {
-        "title": "Sales & Clinical Specialist - Emilia-Romagna",
-        "company": "Hartmann",
-        "score": 39,
-        "site": "indeed",
-        "date_posted": 1773964800000,
-        "url": "https://it.indeed.com/viewjob?jk=1e64eaa3b4277ea6"
       },
       {
         "title": "INFORMATORE MEDICO SCIENTIFICO",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": 1774915200000,
         "url": "https://www.linkedin.com/jobs/view/4395860498"
+      },
+      {
+        "title": "Informatore Medico-Target Pediatrico (Verona)",
+        "company": "IQVIA Italia",
+        "score": 36,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4393464954"
+      },
+      {
+        "title": "Infermiere a Domicilio Belluno e Provincia",
+        "company": "QuiCare",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1775779200000,
+        "url": "https://it.indeed.com/viewjob?jk=6e830fd382dfd648"
+      },
+      {
+        "title": "HEALTH SYSTEM SPECIALIST",
+        "company": "US Military Treatment Facilities under DHA",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1775606400000,
+        "url": "https://it.indeed.com/viewjob?jk=ff88da1254200753"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-71%)",
       "data": {
         "current": 1,
-        "avg": 4.1,
-        "change_pct": -75.8
+        "avg": 3.5,
+        "change_pct": -71.4
       }
     },
     {
@@ -211,20 +211,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 11,
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "specialist",
+              "medical",
+              "isf"
+            ],
+            "pct": 34.5
+          },
+          {
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "informatore",
               "scientifico",
               "medico"
             ],
-            "pct": 32.4
+            "pct": 24.1
           },
           {
-            "id": 3,
-            "size": 10,
-            "top_terms": [
-              "medical",
-              "isf",
-              "specialist"
-            ],
-            "pct": 29.4
-          },
-          {
-            "id": 2,
-            "size": 8,
+            "id": 4,
+            "size": 6,
             "top_terms": [
               "clinical",
               "specialist",
               "field"
             ],
-            "pct": 23.5
+            "pct": 20.7
           },
           {
-            "id": 4,
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "farmaco",
+              "padova",
+              "scientifico"
+            ],
+            "pct": 10.3
+          },
+          {
+            "id": 1,
             "size": 3,
             "top_terms": [
               "engineer",
               "vicenza",
-              "marche"
+              "verona"
             ],
-            "pct": 8.8
-          },
-          {
-            "id": 0,
-            "size": 2,
-            "top_terms": [
-              "vicenza",
-              "italy",
-              "representative"
-            ],
-            "pct": 5.9
+            "pct": 10.3
           }
         ]
       }

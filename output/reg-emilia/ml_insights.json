@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-11T07:31:47.087409",
+  "generated_at": "2026-04-12T07:46:19.380148",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 68,
+  "total_jobs_analyzed": 62,
   "scoring": {
-    "average": 10.0,
+    "average": 10.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 6,
       "low": 1,
-      "irrelevant": 59
+      "irrelevant": 53
     },
     "top_jobs": [
       {
@@ -32,18 +32,10 @@
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 59,
+        "score": 58,
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=f64affe1a0aaca3f"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Illumia",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1775520000000,
-        "url": "https://it.indeed.com/viewjob?jk=c1c834b9c0082394"
       },
       {
         "title": "Quality Assurance & Qualified Person Manager",
@@ -54,9 +46,17 @@
         "url": "https://www.linkedin.com/jobs/view/4395041812"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Illumia",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1775520000000,
+        "url": "https://it.indeed.com/viewjob?jk=c1c834b9c0082394"
+      },
+      {
         "title": "Regulatory Affairs Junior",
         "company": "COC Farmaceutici",
-        "score": 55,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4393427025"
@@ -92,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398457330"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "Adecco",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4391430677"
       },
       {
         "title": "Quality Assurance Specialist - Ortofrutta (GlobalGap, Grasp)",
@@ -158,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4391787180"
       },
       {
-        "title": "Medico Responsabile in Psichiatria",
-        "company": "Kos Group",
+        "title": "Quality Assurance",
+        "company": "Sherwin-Williams",
         "score": 8,
         "site": "indeed",
-        "date_posted": 1775606400000,
-        "url": "https://it.indeed.com/viewjob?jk=2de13aa86b926f26"
+        "date_posted": 1775174400000,
+        "url": "https://it.indeed.com/viewjob?jk=4d62168bd6baa997"
       },
       {
         "title": "Senior Product Manager - Digital Solutions",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1774224000000,
         "url": "https://it.indeed.com/viewjob?jk=6ecc09f74954092c"
+      },
+      {
+        "title": "Junior Quality Assurance",
+        "company": "SGB Humangest Holding",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1774483200000,
+        "url": "https://www.linkedin.com/jobs/view/4391096470"
       }
     ]
   },
@@ -179,29 +179,29 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
-      },
-      {
         "word": "farmacista",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
+        "word": "quality",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
         "word": "engineer",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -232,44 +232,34 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 31,
+            "id": 3,
+            "size": 25,
             "top_terms": [
-              "supervisor",
-              "engineer",
-              "manager"
+              "specialist",
+              "senior",
+              "bologna"
             ],
-            "pct": 45.6
+            "pct": 40.3
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 1,
+            "size": 14,
             "top_terms": [
               "assurance",
               "quality",
-              "customer"
+              "specialist"
             ],
-            "pct": 17.6
+            "pct": 22.6
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 12,
             "top_terms": [
               "farmacista",
               "farmacia",
               "collaboratore"
             ],
-            "pct": 17.6
-          },
-          {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "assurance"
-            ],
-            "pct": 10.3
+            "pct": 19.4
           },
           {
             "id": 4,
@@ -279,7 +269,17 @@
               "affairs",
               "junior"
             ],
-            "pct": 8.8
+            "pct": 9.7
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "engineer",
+              "categorie",
+              "protette"
+            ],
+            "pct": 8.1
           }
         ]
       }

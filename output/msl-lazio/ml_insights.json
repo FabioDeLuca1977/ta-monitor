@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-11T07:31:46.832870",
+  "generated_at": "2026-04-12T07:46:19.132347",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 27.7,
+    "average": 27.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -98,7 +98,7 @@
         "company": "Merck Healthcare",
         "score": 50,
         "site": "linkedin",
-        "date_posted": 1774051200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4317855974"
       },
       {
@@ -106,7 +106,7 @@
         "company": "Talentmark",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4390945528"
       },
       {
@@ -162,7 +162,7 @@
         "company": "Pharma Point",
         "score": 45,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4392287127"
       },
       {
@@ -213,33 +213,33 @@
   ],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-81%)",
       "data": {
-        "new": 4,
-        "total": 6,
-        "pct": 66.7
+        "current": 1,
+        "avg": 5.2,
+        "change_pct": -80.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -249,24 +249,14 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 16,
-            "top_terms": [
-              "specialist",
-              "italy",
-              "qa"
-            ],
-            "pct": 27.6
-          },
-          {
             "id": 3,
-            "size": 14,
+            "size": 18,
             "top_terms": [
-              "supervisor",
-              "coordinator",
-              "engineer"
+              "director",
+              "lead",
+              "supervisor"
             ],
-            "pct": 24.1
+            "pct": 31.0
           },
           {
             "id": 1,
@@ -280,13 +270,23 @@
           },
           {
             "id": 2,
-            "size": 9,
+            "size": 11,
+            "top_terms": [
+              "specialist",
+              "qa",
+              "temporary"
+            ],
+            "pct": 19.0
+          },
+          {
+            "id": 0,
+            "size": 10,
             "top_terms": [
               "manager",
-              "senior",
-              "clinical"
+              "clinical",
+              "senior"
             ],
-            "pct": 15.5
+            "pct": 17.2
           },
           {
             "id": 4,

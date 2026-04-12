@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-11T07:31:46.784596",
+  "generated_at": "2026-04-12T07:46:19.085303",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 61,
   "scoring": {
-    "average": 32.2,
+    "average": 31.6,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 30,
+      "medium": 29,
       "low": 15,
-      "irrelevant": 15
+      "irrelevant": 16
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Field Medical Science Liaison - Lazio | Scientific Engagement",
         "company": "Jefferson Wells Italia",
-        "score": 54,
+        "score": 53,
         "site": "google",
         "date_posted": 1773619200000,
         "url": "https://it.jooble.org/jdp/8839009348796978556?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -118,14 +118,6 @@
         "url": "https://it.linkedin.com/jobs/view/therapeutic-medical-scientist-msl-central-italy-at-pharma-point-4392287127?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Medical Science Liaison: Scientific Info For Healthcare Pros",
-        "company": "Aliveda",
-        "score": 46,
-        "site": "google",
-        "date_posted": 1774569600000,
-        "url": "https://it.trabajo.org/offerta-3833-d32232d6345090d714033db633adcbd6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Remote Medical Science Liaison - Endocrinology & Rare Diseases",
         "company": "Ascendis Pharma",
         "score": 46,
@@ -142,12 +134,12 @@
         "url": "https://it.jooble.org/jdp/-8639443283187105633?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Regulatory Affairs",
-        "company": "COC Farmaceutici",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4393427025"
+        "title": "Medical Science Liaison: Scientific Info For Healthcare Pros",
+        "company": "Aliveda",
+        "score": 45,
+        "site": "google",
+        "date_posted": 1774569600000,
+        "url": "https://it.trabajo.org/offerta-3833-d32232d6345090d714033db633adcbd6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Senior Neurology Medical Science Liaison — PD Trials",
@@ -164,6 +156,14 @@
         "site": "google",
         "date_posted": 1772668800000,
         "url": "https://it.jooble.org/jdp/1287087542263311468?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "COC Farmaceutici",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
         "title": "Medical Scientific Liaison – Primary Care",
@@ -191,41 +191,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-66%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-83%)",
       "data": {
-        "current": 2,
-        "avg": 5.9,
-        "change_pct": -66.1
+        "current": 1,
+        "avg": 6.0,
+        "change_pct": -83.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -236,43 +236,43 @@
         "clusters": [
           {
             "id": 0,
-            "size": 24,
+            "size": 23,
             "top_terms": [
               "msl",
-              "field",
+              "supervisor",
               "engineer"
             ],
-            "pct": 39.3
+            "pct": 37.7
           },
           {
             "id": 2,
-            "size": 16,
+            "size": 15,
             "top_terms": [
-              "liaison",
+              "science",
               "medical",
-              "science"
+              "liaison"
             ],
-            "pct": 26.2
+            "pct": 24.6
           },
           {
             "id": 1,
-            "size": 11,
+            "size": 10,
             "top_terms": [
               "specialist",
               "clinical",
-              "bologna"
+              "experience"
             ],
-            "pct": 18.0
+            "pct": 16.4
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 8,
             "top_terms": [
-              "senior",
+              "scientific",
               "liaison",
-              "science"
+              "medical"
             ],
-            "pct": 8.2
+            "pct": 13.1
           },
           {
             "id": 4,
