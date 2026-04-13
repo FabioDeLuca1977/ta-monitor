@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-12T07:46:19.085303",
+  "generated_at": "2026-04-13T08:35:58.153424",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 61,
   "scoring": {
-    "average": 31.6,
+    "average": 31.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -70,19 +70,11 @@
         "url": "https://it.indeed.com/viewjob?jk=885fdb9269d76570&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Clinical Specialist (Operating Room Experience) - Bologna / Firenze",
-        "company": "BD",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4399878809"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
+        "title": "Clinical Specialist (Operating Room Experience) - Bologna / Firenze",
+        "company": "BD",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4399878809"
+      },
+      {
         "title": "Medical Scientific Liaison – Primary Care",
         "company": "Altro",
         "score": 44,
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-83%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
       "data": {
         "current": 1,
-        "avg": 6.0,
-        "change_pct": -83.3
+        "avg": 6.7,
+        "change_pct": -85.0
       }
     },
     {
@@ -211,21 +211,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 50.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,47 +235,47 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 23,
+            "id": 4,
+            "size": 26,
             "top_terms": [
               "msl",
-              "supervisor",
-              "engineer"
+              "engineer",
+              "supervisor"
             ],
-            "pct": 37.7
+            "pct": 42.6
           },
           {
-            "id": 2,
-            "size": 15,
+            "id": 0,
+            "size": 17,
             "top_terms": [
-              "science",
+              "liaison",
               "medical",
-              "liaison"
+              "science"
             ],
-            "pct": 24.6
+            "pct": 27.9
           },
           {
             "id": 1,
-            "size": 10,
+            "size": 8,
             "top_terms": [
               "specialist",
               "clinical",
-              "experience"
-            ],
-            "pct": 16.4
-          },
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "scientific",
-              "liaison",
-              "medical"
+              "devices"
             ],
             "pct": 13.1
           },
           {
-            "id": 4,
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "based",
+              "oncology",
+              "field"
+            ],
+            "pct": 8.2
+          },
+          {
+            "id": 3,
             "size": 5,
             "top_terms": [
               "regulatory",

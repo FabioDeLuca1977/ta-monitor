@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-12T07:46:19.185272",
+  "generated_at": "2026-04-13T08:35:58.253033",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 70,
+  "total_jobs_analyzed": 71,
   "scoring": {
-    "average": 13.4,
+    "average": 13.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 9,
       "low": 9,
-      "irrelevant": 51
+      "irrelevant": 52
     },
     "top_jobs": [
       {
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=bcd1d54d0f7ba5da"
       },
       {
-        "title": "Pharma Technologist Specialist",
-        "company": "Labomar S.r.l.",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1775779200000,
-        "url": "https://it.indeed.com/viewjob?jk=d9cd83d6414dac67"
+        "title": "Manufacturing Quality Assurance - Entry Professional",
+        "company": "ACCA Careers",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1775865600000,
+        "url": "https://www.linkedin.com/jobs/view/4400980588"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -221,18 +221,38 @@
       "message": "Volume in calo: 2 annunci ultimo scan vs media 7 (-71%)",
       "data": {
         "current": 2,
-        "avg": 6.8,
-        "change_pct": -70.6
+        "avg": 6.9,
+        "change_pct": -71.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 2,
-        "pct": 50.0
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -242,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 28,
+            "id": 1,
+            "size": 27,
             "top_terms": [
               "engineer",
               "addetto",
               "amministrativo"
             ],
-            "pct": 40.0
+            "pct": 38.0
           },
           {
-            "id": 4,
-            "size": 16,
+            "id": 2,
+            "size": 14,
             "top_terms": [
               "assurance",
               "quality",
-              "pharma"
+              "expert"
             ],
-            "pct": 22.9
+            "pct": 19.7
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 13,
             "top_terms": [
               "qa",
               "pharma",
               "specialist"
             ],
-            "pct": 18.6
+            "pct": 18.3
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 9,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "gmp"
+            ],
+            "pct": 12.7
+          },
+          {
+            "id": 3,
+            "size": 8,
             "top_terms": [
               "specialist",
               "pharma",
-              "hse"
+              "internship"
             ],
-            "pct": 12.9
-          },
-          {
-            "id": 2,
-            "size": 4,
-            "top_terms": [
-              "gmp",
-              "quality",
-              "assurance"
-            ],
-            "pct": 5.7
+            "pct": 11.3
           }
         ]
       }

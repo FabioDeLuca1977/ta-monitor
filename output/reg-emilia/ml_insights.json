@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-12T07:46:19.380148",
+  "generated_at": "2026-04-13T08:35:58.444203",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 62,
   "scoring": {
-    "average": 10.5,
+    "average": 10.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 6,
-      "low": 1,
-      "irrelevant": 53
+      "low": 0,
+      "irrelevant": 54
     },
     "top_jobs": [
       {
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
-        "title": "Quality Assurance Head Farmaceutico",
-        "company": "Chaberton Professionals",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4398824679"
-      },
-      {
         "title": "Regulatory Affair Coordinator",
         "company": "Cefla",
         "score": 49,
@@ -78,9 +70,17 @@
         "url": "https://www.linkedin.com/jobs/view/4389086681"
       },
       {
+        "title": "Quality Assurance Head Farmaceutico",
+        "company": "Chaberton Professionals",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4398824679"
+      },
+      {
         "title": "SW Quality Assurance specialist",
         "company": "Labora Partners",
-        "score": 23,
+        "score": 18,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4397280859"
@@ -118,14 +118,6 @@
         "url": "https://it.indeed.com/viewjob?jk=b64b56ee2350f987"
       },
       {
-        "title": "Head of Competence Center",
-        "company": "Applied",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1775692800000,
-        "url": "https://it.indeed.com/viewjob?jk=0bb0992c8d5d2007"
-      },
-      {
         "title": "Batch Record Reviewer",
         "company": "Philip Morris International U.S.",
         "score": 10,
@@ -134,20 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=10dbde7f80edf352"
       },
       {
+        "title": "Quality Assurance",
+        "company": "OPOCRIN GROUP",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": 1774569600000,
+        "url": "https://www.linkedin.com/jobs/view/4391787180"
+      },
+      {
         "title": "Quality Assurance - Tirocinio",
         "company": "Gruppo Montenegro",
         "score": 8,
         "site": "linkedin",
         "date_posted": 1774396800000,
         "url": "https://www.linkedin.com/jobs/view/4390352373"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "OPOCRIN GROUP",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4391787180"
       },
       {
         "title": "Quality Assurance",
@@ -166,6 +158,14 @@
         "url": "https://it.indeed.com/viewjob?jk=6ecc09f74954092c"
       },
       {
+        "title": "Customer Quality Assurance  automotive",
+        "company": "Adecco",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1774569600000,
+        "url": "https://www.linkedin.com/jobs/view/4392681381"
+      },
+      {
         "title": "Junior Quality Assurance",
         "company": "SGB Humangest Holding",
         "score": 7,
@@ -179,27 +179,27 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "quality",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
         "word": "farmacista",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "word": "specialist",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }

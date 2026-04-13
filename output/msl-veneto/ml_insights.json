@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T07:46:18.949792",
+  "generated_at": "2026-04-13T08:35:58.019879",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 29,
@@ -58,7 +58,7 @@
         "company": "EPITECH GROUP SPA",
         "score": 44,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4392275238"
       },
       {
@@ -86,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4386646967"
       },
       {
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1774569600000,
+        "url": "https://www.linkedin.com/jobs/view/4381444347"
+      },
+      {
         "title": "Informatore Scientifico del Farmaco Verona",
         "company": "Stewart Italia srl",
         "score": 42,
         "site": "linkedin",
         "date_posted": 1774310400000,
         "url": "https://www.linkedin.com/jobs/view/4389462810"
-      },
-      {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4381444347"
       },
       {
         "title": "Informatore Scientifico del Farmaco - Padova",
@@ -211,21 +211,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {

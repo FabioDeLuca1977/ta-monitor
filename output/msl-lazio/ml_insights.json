@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-04-12T07:46:19.132347",
+  "generated_at": "2026-04-13T08:35:58.200400",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 27.6,
+    "average": 27.4,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 21,
       "low": 8,
-      "irrelevant": 27
+      "irrelevant": 26
     },
     "top_jobs": [
-      {
-        "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
-        "company": "Allergan Aesthetics, an AbbVie Company",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4376900293"
-      },
       {
         "title": "Beauty Medical Advisor",
         "company": "CENTRI MED",
@@ -32,7 +24,7 @@
       {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
         "company": "Amplity",
-        "score": 59,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1774483200000,
         "url": "https://www.linkedin.com/jobs/view/4390716325"
@@ -44,6 +36,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4374614779"
+      },
+      {
+        "title": "AA Clinical Specialist Manager - Italy, Greece, Cyprus and Malta Cluster",
+        "company": "Allergan Aesthetics, an AbbVie Company",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4376900293"
       },
       {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4398459327"
       },
       {
-        "title": "Medical Science Liaison, Oncology (RCC)",
-        "company": "Amplity",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385271426"
-      },
-      {
         "title": "Clinical Development Medical Science Director",
         "company": "Angelini Pharma",
         "score": 52,
@@ -94,12 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4390989901"
       },
       {
-        "title": "Senior Medical Science Liaison Italy Rare Tumor",
-        "company": "Merck Healthcare",
-        "score": 50,
+        "title": "Medical Science Liaison, Oncology (RCC)",
+        "company": "Amplity",
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4317855974"
+        "url": "https://www.linkedin.com/jobs/view/4385271426"
       },
       {
         "title": "Medical Lead Europe",
@@ -126,12 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
+        "title": "Senior Medical Science Liaison Italy Rare Tumor",
+        "company": "Merck Healthcare",
         "score": 49,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4395983594"
+        "url": "https://www.linkedin.com/jobs/view/4317855974"
       },
       {
         "title": "Clinical Research Associate",
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4398280292"
       },
       {
+        "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
+        "company": "Adecco",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396947575"
+      },
+      {
         "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
         "company": "Pharma Point",
         "score": 45,
@@ -166,18 +166,28 @@
         "url": "https://www.linkedin.com/jobs/view/4392287127"
       },
       {
-        "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
-        "company": "Adecco",
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
         "score": 45,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396947575"
+        "url": "https://www.linkedin.com/jobs/view/4395983594"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "manager",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "specialist",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
       {
         "word": "senior",
         "count": 4,
@@ -194,42 +204,20 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 6,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 60
-    },
-    {
-      "keyword": "liaison italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "science liaison italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 50
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-81%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-80%)",
       "data": {
         "current": 1,
-        "avg": 5.2,
-        "change_pct": -80.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "avg": 5.1,
+        "change_pct": -80.4
       }
     },
     {
@@ -243,50 +231,60 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 18,
+            "id": 0,
+            "size": 17,
             "top_terms": [
               "director",
               "lead",
               "supervisor"
             ],
-            "pct": 31.0
+            "pct": 29.8
           },
           {
             "id": 1,
             "size": 12,
             "top_terms": [
               "medical",
-              "liaison",
-              "science"
+              "science",
+              "liaison"
             ],
-            "pct": 20.7
+            "pct": 21.1
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 11,
             "top_terms": [
               "specialist",
               "qa",
               "temporary"
             ],
-            "pct": 19.0
+            "pct": 19.3
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 10,
             "top_terms": [
               "manager",
               "clinical",
               "senior"
             ],
-            "pct": 17.2
+            "pct": 17.5
           },
           {
             "id": 4,
@@ -296,7 +294,7 @@
               "regulatory",
               "head"
             ],
-            "pct": 12.1
+            "pct": 12.3
           }
         ]
       }

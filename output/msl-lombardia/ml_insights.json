@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-12T07:46:19.043859",
+  "generated_at": "2026-04-13T08:35:58.112763",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 165,
+  "total_jobs_analyzed": 163,
   "scoring": {
-    "average": 29.8,
+    "average": 29.0,
     "distribution": {
       "excellent": 0,
-      "good": 6,
+      "good": 4,
       "medium": 74,
       "low": 12,
       "irrelevant": 73
@@ -22,28 +22,12 @@
         "url": "https://www.linkedin.com/jobs/view/4385464808"
       },
       {
-        "title": "Medical Affairs Support 6",
-        "company": "IQVIA",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4397603246"
-      },
-      {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1775347200000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
@@ -102,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
-        "title": "Medical Monitor (Gastroenterology)",
-        "company": "PSI CRO",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1774396800000,
-        "url": "https://www.linkedin.com/jobs/view/4389191212"
-      },
-      {
         "title": "Medical Advisor Cardiovascular",
         "company": "AstraZeneca",
         "score": 57,
@@ -126,36 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
-        "title": "Dermatologist - Medical Director",
-        "company": "Medpace",
+        "title": "Medical Monitor (Gastroenterology)",
+        "company": "PSI CRO",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331270944"
+        "date_posted": 1774396800000,
+        "url": "https://www.linkedin.com/jobs/view/4389191212"
       },
       {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "Pediatric / Neuromuscular - Medical Director",
-        "company": "Medpace",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331970392"
-      },
-      {
-        "title": "Clinical Research Associate, Site Management - Italy",
+        "title": "Medical Affairs Support 6",
         "company": "IQVIA",
         "score": 56,
         "site": "linkedin",
         "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4325551725"
+        "url": "https://www.linkedin.com/jobs/view/4397603246"
       },
       {
         "title": "International Medical Advisor - Oncology",
@@ -166,12 +126,52 @@
         "url": "https://www.linkedin.com/jobs/view/4392397494"
       },
       {
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
+      },
+      {
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Pediatric / Neuromuscular - Medical Director",
+        "company": "Medpace",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331970392"
+      },
+      {
         "title": "Medical Science Liaison Paediatric Oncology - Milan",
         "company": "Norgine",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4394781112"
+      },
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1775347200000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
+      {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
       }
     ]
   },
@@ -230,31 +230,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 12 (-76%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 13 (-62%)",
       "data": {
-        "current": 3,
-        "avg": 12.5,
-        "change_pct": -75.9
+        "current": 5,
+        "avg": 13.2,
+        "change_pct": -62.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 1,
-        "total": 3,
-        "pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 52% a 0% (-52pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 51.7,
-        "new_pct": 0.0
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
@@ -268,6 +258,16 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 52% a 0% (-52pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 51.7,
+        "new_pct": 0.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
@@ -275,53 +275,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 72,
+            "size": 86,
+            "top_terms": [
+              "director",
+              "medical",
+              "manager"
+            ],
+            "pct": 52.8
+          },
+          {
+            "id": 2,
+            "size": 27,
             "top_terms": [
               "specialist",
-              "italy",
-              "cra"
+              "sales",
+              "clinical"
             ],
-            "pct": 43.6
+            "pct": 16.6
           },
           {
             "id": 0,
-            "size": 38,
-            "top_terms": [
-              "medical",
-              "director",
-              "affairs"
-            ],
-            "pct": 23.0
-          },
-          {
-            "id": 4,
-            "size": 23,
-            "top_terms": [
-              "manager",
-              "project",
-              "senior"
-            ],
-            "pct": 13.9
-          },
-          {
-            "id": 3,
-            "size": 20,
+            "size": 21,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.1
+            "pct": 12.9
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 4,
+            "size": 16,
+            "top_terms": [
+              "liaison",
+              "msl",
+              "italy"
+            ],
+            "pct": 9.8
+          },
+          {
+            "id": 3,
+            "size": 13,
             "top_terms": [
               "research",
               "clinical",
               "associate"
             ],
-            "pct": 7.3
+            "pct": 8.0
           }
         ]
       }
