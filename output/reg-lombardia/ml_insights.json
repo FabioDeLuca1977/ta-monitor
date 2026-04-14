@@ -1,30 +1,22 @@
 {
-  "generated_at": "2026-04-13T08:35:58.396601",
+  "generated_at": "2026-04-14T08:20:42.057213",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 271,
+  "total_jobs_analyzed": 287,
   "scoring": {
-    "average": 15.1,
+    "average": 14.9,
     "distribution": {
       "excellent": 0,
-      "good": 20,
+      "good": 21,
       "medium": 30,
-      "low": 5,
-      "irrelevant": 216
+      "low": 8,
+      "irrelevant": 228
     },
     "top_jobs": [
       {
-        "title": "Head of Regulatory Affairs",
-        "company": "Jobgether",
-        "score": 72,
-        "site": "linkedin",
-        "date_posted": 1775779200000,
-        "url": "https://www.linkedin.com/jobs/view/4397696232"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Medical Device",
         "company": "Professional Recruitment",
-        "score": 68,
+        "score": 69,
         "site": "linkedin",
         "date_posted": 1774396800000,
         "url": "https://www.linkedin.com/jobs/view/4390115834"
@@ -32,10 +24,18 @@
       {
         "title": "Quality Assurance & Regulatory Affairs Specialist",
         "company": "Cefla",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": 1774224000000,
         "url": "https://www.linkedin.com/jobs/view/4389078848"
+      },
+      {
+        "title": "Head of Regulatory Affairs",
+        "company": "Jobgether",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4397696232"
       },
       {
         "title": "Regulatory Specialist",
@@ -142,6 +142,22 @@
         "url": "https://www.linkedin.com/jobs/view/4387965325"
       },
       {
+        "title": "Regulatory affairs specialist settore cosmetico",
+        "company": "Randstad Italia",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1774483200000,
+        "url": "https://www.linkedin.com/jobs/view/4390571872"
+      },
+      {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "Element Solutions Inc",
         "score": 60,
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4373812387"
-      },
-      {
-        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
-        "company": "Parexel",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4382428748"
-      },
-      {
-        "title": "Junior Regulatory Affairs Specialist",
-        "company": "Adecco",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4379831537"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "engineer",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "director",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "director",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
         "word": "sales",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -258,32 +258,42 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 20 (-71%)",
-      "data": {
-        "current": 6,
-        "avg": 20.4,
-        "change_pct": -70.6
-      }
-    },
-    {
       "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 Wolters Kluwer: 2 posizioni, non presente negli scan precedenti",
+      "message": "🆕 Sibill: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "company": "Wolters Kluwer",
+        "company": "Sibill",
         "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/6 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 9/18 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 6,
-        "total": 6,
-        "pct": 100.0
+        "new": 9,
+        "total": 18,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 83% (+17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 83.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 17% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 16.7
       }
     },
     {
@@ -293,54 +303,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 154,
+            "id": 0,
+            "size": 169,
             "top_terms": [
               "specialist",
               "engineer",
-              "sales"
+              "senior"
             ],
-            "pct": 56.8
+            "pct": 58.9
           },
           {
-            "id": 2,
-            "size": 37,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 13.7
-          },
-          {
-            "id": 1,
-            "size": 33,
+            "id": 4,
+            "size": 36,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.2
+            "pct": 12.5
           },
           {
-            "id": 0,
-            "size": 26,
+            "id": 2,
+            "size": 33,
             "top_terms": [
               "manager",
               "project",
-              "finance"
+              "senior"
             ],
-            "pct": 9.6
+            "pct": 11.5
           },
           {
-            "id": 4,
-            "size": 21,
+            "id": 3,
+            "size": 32,
             "top_terms": [
-              "senior",
-              "manager",
-              "project"
+              "quality",
+              "assurance",
+              "specialist"
             ],
-            "pct": 7.7
+            "pct": 11.1
+          },
+          {
+            "id": 1,
+            "size": 17,
+            "top_terms": [
+              "director",
+              "market",
+              "cmc"
+            ],
+            "pct": 5.9
           }
         ]
       }

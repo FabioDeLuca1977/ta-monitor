@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-13T08:35:58.444203",
+  "generated_at": "2026-04-14T08:20:42.111153",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 62,
+  "total_jobs_analyzed": 64,
   "scoring": {
-    "average": 10.2,
+    "average": 10.1,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 6,
       "low": 0,
-      "irrelevant": 54
+      "irrelevant": 56
     },
     "top_jobs": [
       {
@@ -118,12 +118,12 @@
         "url": "https://it.indeed.com/viewjob?jk=b64b56ee2350f987"
       },
       {
-        "title": "Batch Record Reviewer",
-        "company": "Philip Morris International U.S.",
+        "title": "MANOVALE EDILE SPECIALIZZATO",
+        "company": "EDAL SRL",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1775779200000,
-        "url": "https://it.indeed.com/viewjob?jk=10dbde7f80edf352"
+        "date_posted": 1776124800000,
+        "url": "https://it.indeed.com/viewjob?jk=61f8fa054d86eb8d"
       },
       {
         "title": "Quality Assurance",
@@ -150,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=4d62168bd6baa997"
       },
       {
+        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
+        "company": "Jefferson Wells Italia",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401044611"
+      },
+      {
         "title": "Senior Product Manager - Digital Solutions",
         "company": "Allegion",
         "score": 7,
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4392681381"
-      },
-      {
-        "title": "Junior Quality Assurance",
-        "company": "SGB Humangest Holding",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1774483200000,
-        "url": "https://www.linkedin.com/jobs/view/4391096470"
       }
     ]
   },
@@ -216,13 +216,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-68%)",
+      "data": {
+        "current": 2,
+        "avg": 6.2,
+        "change_pct": -67.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
@@ -232,14 +242,14 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 25,
+            "id": 0,
+            "size": 27,
             "top_terms": [
+              "manager",
               "specialist",
-              "senior",
-              "bologna"
+              "senior"
             ],
-            "pct": 40.3
+            "pct": 42.2
           },
           {
             "id": 1,
@@ -249,7 +259,7 @@
               "quality",
               "specialist"
             ],
-            "pct": 22.6
+            "pct": 21.9
           },
           {
             "id": 2,
@@ -259,27 +269,27 @@
               "farmacia",
               "collaboratore"
             ],
-            "pct": 19.4
+            "pct": 18.8
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "junior"
             ],
-            "pct": 9.7
+            "pct": 9.4
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 5,
             "top_terms": [
               "engineer",
               "categorie",
               "protette"
             ],
-            "pct": 8.1
+            "pct": 7.8
           }
         ]
       }

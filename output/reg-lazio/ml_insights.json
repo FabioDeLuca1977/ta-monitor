@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-13T08:35:58.518786",
+  "generated_at": "2026-04-14T08:20:42.193299",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 114,
+  "total_jobs_analyzed": 117,
   "scoring": {
     "average": 14.6,
     "distribution": {
       "excellent": 0,
       "good": 5,
       "medium": 16,
-      "low": 3,
-      "irrelevant": 90
+      "low": 4,
+      "irrelevant": 92
     },
     "top_jobs": [
       {
@@ -80,7 +80,7 @@
       {
         "title": "Director of Regulatory Affairs - AI",
         "company": "Randstad Digital Italia",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4398809240"
@@ -88,7 +88,7 @@
       {
         "title": "Frelancer Regulatory Affairs Consultant CMC Expert",
         "company": "PQE Group",
-        "score": 56,
+        "score": 57,
         "site": "google",
         "date_posted": 1774915200000,
         "url": "https://it.trabajo.org/offerta-4112-4d5c0892f1e80888b5930114eeda755f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
@@ -118,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4366163549"
       },
       {
+        "title": "Regulatory Affairs Consultant",
+        "company": "Pharma D&S",
+        "score": 54,
+        "site": "google",
+        "date_posted": 1774828800000,
+        "url": "https://it.trabajo.org/offerta-3397-710cd5ae74ba8f8f72bdf8590377497b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "Director of Regulatory Affairs",
         "company": "Confidential",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398280292"
-      },
-      {
-        "title": "Regulatory Affairs Consultant",
-        "company": "Pharma D&S",
-        "score": 53,
-        "site": "google",
-        "date_posted": 1774828800000,
-        "url": "https://it.trabajo.org/offerta-3397-710cd5ae74ba8f8f72bdf8590377497b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
@@ -242,40 +242,40 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 9 (-89%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 9 (-66%)",
       "data": {
-        "current": 1,
-        "avg": 9.4,
-        "change_pct": -89.4
+        "current": 3,
+        "avg": 8.8,
+        "change_pct": -65.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
@@ -287,53 +287,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 64,
+            "size": 53,
             "top_terms": [
-              "specialist",
               "senior",
-              "officer"
+              "affairs",
+              "director"
             ],
-            "pct": 56.1
+            "pct": 45.3
           },
           {
             "id": 1,
-            "size": 16,
+            "size": 25,
             "top_terms": [
-              "affairs",
+              "specialist",
               "regulatory",
-              "cmc"
+              "affairs"
             ],
-            "pct": 14.0
-          },
-          {
-            "id": 2,
-            "size": 14,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "pharma"
-            ],
-            "pct": 12.3
-          },
-          {
-            "id": 3,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "senior",
-              "safety"
-            ],
-            "pct": 9.6
+            "pct": 21.4
           },
           {
             "id": 4,
-            "size": 9,
+            "size": 18,
             "top_terms": [
-              "specialist",
-              "validation",
-              "quality"
+              "quality",
+              "assurance",
+              "pharma"
             ],
-            "pct": 7.9
+            "pct": 15.4
+          },
+          {
+            "id": 3,
+            "size": 13,
+            "top_terms": [
+              "manager",
+              "senior",
+              "cmc"
+            ],
+            "pct": 11.1
+          },
+          {
+            "id": 2,
+            "size": 8,
+            "top_terms": [
+              "validation",
+              "consultant",
+              "affairs"
+            ],
+            "pct": 6.8
           }
         ]
       }

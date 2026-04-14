@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-13T08:35:58.019879",
+  "generated_at": "2026-04-14T08:20:41.655117",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 29,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 28.0,
+    "average": 26.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 15,
+      "medium": 14,
       "low": 3,
       "irrelevant": 11
     },
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393544955"
-      },
-      {
-        "title": "Informatore medico scientifico",
-        "company": "Eberlife Farmaceutici S.p.A.",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1775779200000,
-        "url": "https://www.linkedin.com/jobs/view/4399018361"
       },
       {
         "title": "Medical Representative/ISF Specialty Care",
@@ -54,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
-        "title": "Informatore Scientifico",
-        "company": "EPITECH GROUP SPA",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4392275238"
-      },
-      {
         "title": "Informatore Medico Scientifico",
         "company": "REVALMA INC SRL SOCIETÀ BENEFIT",
         "score": 44,
         "site": "linkedin",
         "date_posted": 1775520000000,
         "url": "https://www.linkedin.com/jobs/view/4398215547"
+      },
+      {
+        "title": "Informatore medico scientifico",
+        "company": "Eberlife Farmaceutici S.p.A.",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4399018361"
       },
       {
         "title": "LTC Clinical Specialist",
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4393464954"
       },
       {
-        "title": "Infermiere a Domicilio Belluno e Provincia",
-        "company": "QuiCare",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1775779200000,
-        "url": "https://it.indeed.com/viewjob?jk=6e830fd382dfd648"
-      },
-      {
         "title": "HEALTH SYSTEM SPECIALIST",
         "company": "US Military Treatment Facilities under DHA",
         "score": 9,
         "site": "indeed",
         "date_posted": 1775606400000,
         "url": "https://it.indeed.com/viewjob?jk=ff88da1254200753"
+      },
+      {
+        "title": "Infermiere a Domicilio Belluno e Provincia",
+        "company": "QuiCare",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1775779200000,
+        "url": "https://it.indeed.com/viewjob?jk=6e830fd382dfd648"
+      },
+      {
+        "title": "SUPERVISORY CLINICAL LABORATORY SCIENTIST",
+        "company": "US Military Treatment Facilities under DHA",
+        "score": 1,
+        "site": "indeed",
+        "date_posted": 1774569600000,
+        "url": "https://it.indeed.com/viewjob?jk=5571df9f23b124fd"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-71%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
       "data": {
         "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.4
+        "avg": 3.4,
+        "change_pct": -70.4
       }
     },
     {
@@ -211,21 +211,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 100.0,
         "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -242,17 +242,17 @@
               "medical",
               "isf"
             ],
-            "pct": 34.5
+            "pct": 35.7
           },
           {
             "id": 3,
-            "size": 7,
+            "size": 6,
             "top_terms": [
               "informatore",
-              "scientifico",
-              "medico"
+              "medico",
+              "scientifico"
             ],
-            "pct": 24.1
+            "pct": 21.4
           },
           {
             "id": 4,
@@ -262,7 +262,7 @@
               "specialist",
               "field"
             ],
-            "pct": 20.7
+            "pct": 21.4
           },
           {
             "id": 0,
@@ -272,7 +272,7 @@
               "padova",
               "scientifico"
             ],
-            "pct": 10.3
+            "pct": 10.7
           },
           {
             "id": 1,
@@ -282,7 +282,7 @@
               "vicenza",
               "verona"
             ],
-            "pct": 10.3
+            "pct": 10.7
           }
         ]
       }

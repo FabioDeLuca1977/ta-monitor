@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-13T08:35:58.200400",
+  "generated_at": "2026-04-14T08:20:41.851942",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 57,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 27.4,
+    "average": 27.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 21,
-      "low": 8,
+      "low": 9,
       "irrelevant": 26
     },
     "top_jobs": [
@@ -54,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4382117194"
       },
       {
+        "title": "Stage Medical Affairs",
+        "company": "ManpowerGroup",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4398459327"
+      },
+      {
         "title": "Medical Science Liaison",
         "company": "Syneos Health Commercial Solutions",
         "score": 55,
@@ -62,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
-        "title": "Stage Medical Affairs",
-        "company": "ManpowerGroup",
-        "score": 55,
+        "title": "Medical Science Liaison, Oncology (RCC)",
+        "company": "Amplity",
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4398459327"
+        "url": "https://www.linkedin.com/jobs/view/4385271426"
       },
       {
         "title": "Clinical Development Medical Science Director",
@@ -86,12 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4390989901"
       },
       {
-        "title": "Medical Science Liaison, Oncology (RCC)",
-        "company": "Amplity",
-        "score": 52,
+        "title": "Senior Medical Science Liaison Italy Rare Tumor",
+        "company": "Merck Healthcare",
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4385271426"
+        "url": "https://www.linkedin.com/jobs/view/4317855974"
       },
       {
         "title": "Medical Lead Europe",
@@ -118,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
-        "title": "Senior Medical Science Liaison Italy Rare Tumor",
-        "company": "Merck Healthcare",
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
         "score": 49,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4317855974"
+        "url": "https://www.linkedin.com/jobs/view/4395983594"
       },
       {
         "title": "Clinical Research Associate",
@@ -150,28 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4398280292"
       },
       {
+        "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
+        "company": "Pharma Point",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1774569600000,
+        "url": "https://www.linkedin.com/jobs/view/4392287127"
+      },
+      {
         "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
         "company": "Adecco",
         "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4396947575"
-      },
-      {
-        "title": "Therapeutic Medical Scientist (MSL) - Central Italy",
-        "company": "Pharma Point",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4392287127"
-      },
-      {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4395983594"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "specialist",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -204,40 +204,52 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 5,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 60
+    },
+    {
+      "keyword": "liaison italy",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "science liaison italy",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-80%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
-        "current": 1,
-        "avg": 5.1,
-        "change_pct": -80.4
+        "new": 2,
+        "total": 4,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 indeed: quota passata da 0% a 75% (+75pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 25% (-75pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -247,44 +259,34 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 17,
+            "id": 2,
+            "size": 23,
             "top_terms": [
-              "director",
-              "lead",
+              "specialist",
+              "associate",
               "supervisor"
             ],
-            "pct": 29.8
-          },
-          {
-            "id": 1,
-            "size": 12,
-            "top_terms": [
-              "medical",
-              "science",
-              "liaison"
-            ],
-            "pct": 21.1
+            "pct": 39.7
           },
           {
             "id": 3,
-            "size": 11,
+            "size": 15,
             "top_terms": [
-              "specialist",
-              "qa",
-              "temporary"
+              "medical",
+              "italy",
+              "liaison"
             ],
-            "pct": 19.3
+            "pct": 25.9
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 10,
             "top_terms": [
               "manager",
               "clinical",
               "senior"
             ],
-            "pct": 17.5
+            "pct": 17.2
           },
           {
             "id": 4,
@@ -294,7 +296,17 @@
               "regulatory",
               "head"
             ],
-            "pct": 12.3
+            "pct": 12.1
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "cra",
+              "senior",
+              "scientist"
+            ],
+            "pct": 5.2
           }
         ]
       }
