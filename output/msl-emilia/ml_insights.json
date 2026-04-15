@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-14T08:20:41.799027",
+  "generated_at": "2026-04-15T08:19:36.011753",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 29,
   "scoring": {
-    "average": 21.1,
+    "average": 20.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 11,
-      "low": 1,
-      "irrelevant": 17
+      "low": 0,
+      "irrelevant": 18
     },
     "top_jobs": [
       {
@@ -54,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
-        "title": "LTC Clinical Specialist",
-        "company": "Essity",
-        "score": 42,
+        "title": "Regulatory Affairs Junior - Assistente Affari Regolatori",
+        "company": "Lavoropiù SpA",
+        "score": 43,
         "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4392658825"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399296018"
       },
       {
         "title": "Clinical Specialist",
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4395055155"
       },
       {
+        "title": "Clinical Specialist Chirurgia",
+        "company": "Carlo Bianchi S.r.l.",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396455737"
+      },
+      {
         "title": "Clinical Specialist",
         "company": "Coloplast",
         "score": 42,
@@ -78,20 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4376074024"
       },
       {
-        "title": "Regulatory Affairs Junior - Assistente Affari Regolatori",
-        "company": "Lavoropiù SpA",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399296018"
-      },
-      {
-        "title": "Clinical Specialist Chirurgia",
-        "company": "Carlo Bianchi S.r.l.",
+        "title": "LTC Clinical Specialist",
+        "company": "Essity",
         "score": 41,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396455737"
+        "date_posted": 1774569600000,
+        "url": "https://www.linkedin.com/jobs/view/4392658825"
       },
       {
         "title": "Clinical Specialist (Operating Room Experience) -Bologna / Firenze",
@@ -102,20 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4390724047"
       },
       {
-        "title": "Regulatory Affair Coordinator",
-        "company": "Cefla",
-        "score": 35,
-        "site": "linkedin",
-        "date_posted": 1774224000000,
-        "url": "https://www.linkedin.com/jobs/view/4389086681"
-      },
-      {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 15,
+        "score": 17,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398457330"
+      },
+      {
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
         "title": "Product Owner",
@@ -150,14 +150,6 @@
         "url": "https://it.indeed.com/viewjob?jk=69bc4f7f95210242"
       },
       {
-        "title": "MANUFACTURING ENGINEER",
-        "company": "LINCOTEK GROUP",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1775520000000,
-        "url": "https://it.indeed.com/viewjob?jk=c166af5a64057fad"
-      },
-      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
         "score": 7,
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1775001600000,
         "url": "https://it.indeed.com/viewjob?jk=c3f23fd2c1f95161"
+      },
+      {
+        "title": "Batch Record Reviewer",
+        "company": "Philip Morris International U.S.",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1775779200000,
+        "url": "https://it.indeed.com/viewjob?jk=10dbde7f80edf352"
       }
     ]
   },
@@ -180,6 +180,16 @@
     "add_blacklist": [
       {
         "word": "specialist",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "medical",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "devices",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -191,19 +201,19 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-64%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-61%)",
       "data": {
         "current": 1,
-        "avg": 2.8,
-        "change_pct": -64.3
+        "avg": 2.5,
+        "change_pct": -60.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 100.0
       }
@@ -211,9 +221,9 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 100.0,
         "new_pct": 0.0
       }
@@ -225,17 +235,17 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
+            "id": 1,
             "size": 13,
             "top_terms": [
-              "supervisor",
-              "manager",
-              "medical"
+              "cra",
+              "engineer",
+              "manager"
             ],
             "pct": 44.8
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 7,
             "top_terms": [
               "specialist",
@@ -246,31 +256,31 @@
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 4,
             "top_terms": [
               "regulatory",
               "affairs",
               "junior"
             ],
-            "pct": 17.2
+            "pct": 13.8
           },
           {
-            "id": 1,
-            "size": 2,
+            "id": 4,
+            "size": 3,
             "top_terms": [
-              "cra",
-              "supervisor",
-              "jr"
+              "medical",
+              "devices",
+              "specialist"
             ],
-            "pct": 6.9
+            "pct": 10.3
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 2,
             "top_terms": [
-              "engineer",
               "supervisor",
-              "jr"
+              "specialist",
+              "room"
             ],
             "pct": 6.9
           }

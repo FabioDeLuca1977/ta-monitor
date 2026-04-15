@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-14T08:20:42.193299",
+  "generated_at": "2026-04-15T08:19:36.360473",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 117,
   "scoring": {
-    "average": 14.6,
+    "average": 15.1,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 16,
+      "good": 8,
+      "medium": 13,
       "low": 4,
       "irrelevant": 92
     },
@@ -38,6 +38,14 @@
         "url": "https://it.trabajo.org/offerta-1941-a0c480182c5b014f12bd25fc5131d2ea?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
+        "title": "Pharma Quality & Regulatory Specialist",
+        "company": "DHL Supply Chain",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1774310400000,
+        "url": "https://www.linkedin.com/jobs/view/4389005683"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "Aruba SpA",
         "score": 60,
@@ -54,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4396343419"
       },
       {
-        "title": "Pharma Quality & Regulatory Specialist",
-        "company": "DHL Supply Chain",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1774310400000,
-        "url": "https://www.linkedin.com/jobs/view/4389005683"
-      },
-      {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
-        "score": 59,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
+      },
+      {
+        "title": "Director of Regulatory Affairs - AI",
+        "company": "Randstad Digital Italia",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -78,12 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4388082342"
       },
       {
-        "title": "Director of Regulatory Affairs - AI",
-        "company": "Randstad Digital Italia",
+        "title": "Head of Regulatory Affairs Italy",
+        "company": "Merck Healthcare",
         "score": 58,
         "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4398809240"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4366163549"
+      },
+      {
+        "title": "Director of Regulatory Affairs",
+        "company": "Confidential",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4398280292"
       },
       {
         "title": "Frelancer Regulatory Affairs Consultant CMC Expert",
@@ -96,26 +112,10 @@
       {
         "title": "Senior Regulatory Affairs CMC - Sterile & Biotech (USA)",
         "company": "Amaris Consulting",
-        "score": 56,
+        "score": 55,
         "site": "google",
         "date_posted": 1774310400000,
         "url": "https://it.jooble.org/jdp/-6813736468297366986?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Regulatory Compliance Expert",
-        "company": "EOLO",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1774224000000,
-        "url": "https://www.linkedin.com/jobs/view/4386671123"
-      },
-      {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
       },
       {
         "title": "Regulatory Affairs Consultant",
@@ -126,12 +126,12 @@
         "url": "https://it.trabajo.org/offerta-3397-710cd5ae74ba8f8f72bdf8590377497b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Director of Regulatory Affairs",
-        "company": "Confidential",
+        "title": "Regulatory Compliance Expert",
+        "company": "EOLO",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4398280292"
+        "url": "https://www.linkedin.com/jobs/view/4397053060"
       },
       {
         "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
@@ -168,7 +168,7 @@
       {
         "title": "Quality Assurance Pharma",
         "company": "Amaris Consulting",
-        "score": 42,
+        "score": 41,
         "site": "indeed",
         "date_posted": 1774915200000,
         "url": "https://it.indeed.com/viewjob?jk=cf3dccef3f7699d3"
@@ -178,11 +178,6 @@
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
-      },
       {
         "word": "assurance",
         "count": 10,
@@ -199,9 +194,9 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "risk",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "lead",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -240,43 +235,13 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 9 (-66%)",
-      "data": {
-        "current": 3,
-        "avg": 8.8,
-        "change_pct": -65.8
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "new": 5,
+        "total": 7,
+        "pct": 71.4
       }
     },
     {
@@ -286,27 +251,27 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 53,
+            "id": 4,
+            "size": 51,
             "top_terms": [
-              "senior",
-              "affairs",
-              "director"
+              "roma",
+              "assistant",
+              "senior"
             ],
-            "pct": 45.3
+            "pct": 43.6
           },
           {
             "id": 1,
-            "size": 25,
+            "size": 21,
             "top_terms": [
               "specialist",
-              "regulatory",
-              "affairs"
+              "qa",
+              "law"
             ],
-            "pct": 21.4
+            "pct": 17.9
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 18,
             "top_terms": [
               "quality",
@@ -317,23 +282,23 @@
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 16,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 13.7
+          },
+          {
+            "id": 0,
+            "size": 11,
             "top_terms": [
               "manager",
               "senior",
-              "cmc"
+              "development"
             ],
-            "pct": 11.1
-          },
-          {
-            "id": 2,
-            "size": 8,
-            "top_terms": [
-              "validation",
-              "consultant",
-              "affairs"
-            ],
-            "pct": 6.8
+            "pct": 9.4
           }
         ]
       }

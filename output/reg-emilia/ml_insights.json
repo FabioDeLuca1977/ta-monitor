@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-14T08:20:42.111153",
+  "generated_at": "2026-04-15T08:19:36.288516",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 64,
+  "total_jobs_analyzed": 60,
   "scoring": {
-    "average": 10.1,
+    "average": 9.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 6,
+      "medium": 5,
       "low": 0,
-      "irrelevant": 56
+      "irrelevant": 53
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 58,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=f64affe1a0aaca3f"
@@ -46,28 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4395041812"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Illumia",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1775520000000,
-        "url": "https://it.indeed.com/viewjob?jk=c1c834b9c0082394"
-      },
-      {
         "title": "Regulatory Affairs Junior",
         "company": "COC Farmaceutici",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
-        "title": "Regulatory Affair Coordinator",
-        "company": "Cefla",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1774224000000,
-        "url": "https://www.linkedin.com/jobs/view/4389086681"
+        "title": "Regulatory Affairs Specialist",
+        "company": "Illumia",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1775520000000,
+        "url": "https://it.indeed.com/viewjob?jk=c1c834b9c0082394"
       },
       {
         "title": "Quality Assurance Head Farmaceutico",
@@ -88,7 +80,7 @@
       {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398457330"
@@ -110,12 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4396440990"
       },
       {
-        "title": "Senior Engineer - Quality Assurance",
-        "company": "Philip Morris International U.S.",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1775520000000,
-        "url": "https://it.indeed.com/viewjob?jk=b64b56ee2350f987"
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
         "title": "MANOVALE EDILE SPECIALIZZATO",
@@ -124,6 +116,14 @@
         "site": "indeed",
         "date_posted": 1776124800000,
         "url": "https://it.indeed.com/viewjob?jk=61f8fa054d86eb8d"
+      },
+      {
+        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
+        "company": "Jefferson Wells Italia",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401044611"
       },
       {
         "title": "Quality Assurance",
@@ -150,28 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=4d62168bd6baa997"
       },
       {
-        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
-        "company": "Jefferson Wells Italia",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4401044611"
-      },
-      {
-        "title": "Senior Product Manager - Digital Solutions",
-        "company": "Allegion",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1774224000000,
-        "url": "https://it.indeed.com/viewjob?jk=6ecc09f74954092c"
-      },
-      {
         "title": "Customer Quality Assurance  automotive",
         "company": "Adecco",
         "score": 7,
         "site": "linkedin",
         "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4392681381"
+      },
+      {
+        "title": "Customer Quality Assurance",
+        "company": "Etjca Group",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1774483200000,
+        "url": "https://www.linkedin.com/jobs/view/4390567716"
+      },
+      {
+        "title": "Quality Assurance Engineer",
+        "company": "EPM Scientific",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1774569600000,
+        "url": "https://www.linkedin.com/jobs/view/4391580239"
       }
     ]
   },
@@ -179,24 +179,24 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
         "word": "farmacista",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
+        "word": "quality",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
         "word": "specialist",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -218,21 +218,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-68%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-83%)",
       "data": {
-        "current": 2,
-        "avg": 6.2,
-        "change_pct": -67.7
+        "current": 1,
+        "avg": 5.9,
+        "change_pct": -83.1
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -242,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 27,
-            "top_terms": [
-              "manager",
-              "specialist",
-              "senior"
-            ],
-            "pct": 42.2
-          },
-          {
             "id": 1,
-            "size": 14,
+            "size": 26,
             "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
+              "specialist",
+              "manager",
+              "supervisor"
             ],
-            "pct": 21.9
+            "pct": 43.3
           },
           {
             "id": 2,
+            "size": 13,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 21.7
+          },
+          {
+            "id": 0,
             "size": 12,
             "top_terms": [
               "farmacista",
               "farmacia",
-              "collaboratore"
+              "zona"
             ],
-            "pct": 18.8
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "junior"
-            ],
-            "pct": 9.4
+            "pct": 20.0
           },
           {
             "id": 4,
             "size": 5,
             "top_terms": [
-              "engineer",
-              "categorie",
-              "protette"
+              "regulatory",
+              "affairs",
+              "junior"
             ],
-            "pct": 7.8
+            "pct": 8.3
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "protette",
+              "categorie",
+              "commerciale"
+            ],
+            "pct": 6.7
           }
         ]
       }

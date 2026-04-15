@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-04-14T08:20:41.655117",
+  "generated_at": "2026-04-15T08:19:35.882343",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 28,
+  "total_jobs_analyzed": 30,
   "scoring": {
-    "average": 26.9,
+    "average": 28.8,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 14,
-      "low": 3,
-      "irrelevant": 11
+      "medium": 15,
+      "low": 5,
+      "irrelevant": 10
     },
     "top_jobs": [
       {
+        "title": "Informatore scientifico del farmaco",
+        "company": "AxL Spa – ALTI PROFILI",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4399544086"
+      },
+      {
         "title": "Medical Advisor - Gastrointestinal (GI) Oncology",
         "company": "GSK",
-        "score": 56,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393544955"
@@ -32,7 +40,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fidia Pharma",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4378178500"
@@ -44,14 +52,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386508727"
-      },
-      {
-        "title": "Informatore Medico Scientifico",
-        "company": "REVALMA INC SRL SOCIETÀ BENEFIT",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1775520000000,
-        "url": "https://www.linkedin.com/jobs/view/4398215547"
       },
       {
         "title": "Informatore medico scientifico",
@@ -68,14 +68,6 @@
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=83993bcffd660479"
-      },
-      {
-        "title": "ISF Ginecologia",
-        "company": "PROCARE HEALTH",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4386646967"
       },
       {
         "title": "Informatore scientifico commerciale | Veneto",
@@ -118,12 +110,28 @@
         "url": "https://www.linkedin.com/jobs/view/4391198486"
       },
       {
+        "title": "ISF Ginecologia",
+        "company": "PROCARE HEALTH",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386646967"
+      },
+      {
         "title": "Field Clinical Specialist THV - North Italy",
         "company": "Edwards Lifesciences",
         "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4356098675"
+      },
+      {
+        "title": "Field Clinical Specialist, Cardiac Rhythm Management (Treviso/Pordenone) - Defined-Term Contract",
+        "company": "Boston Scientific",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402009227"
       },
       {
         "title": "INFORMATORE MEDICO SCIENTIFICO",
@@ -142,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4395860498"
       },
       {
+        "title": "Informatore Medico Scientifico",
+        "company": "REVALMA INC SRL SOCIETÀ BENEFIT",
+        "score": 39,
+        "site": "linkedin",
+        "date_posted": 1775520000000,
+        "url": "https://www.linkedin.com/jobs/view/4398215547"
+      },
+      {
         "title": "Informatore Medico-Target Pediatrico (Verona)",
         "company": "IQVIA Italia",
         "score": 36,
@@ -150,28 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4393464954"
       },
       {
-        "title": "HEALTH SYSTEM SPECIALIST",
-        "company": "US Military Treatment Facilities under DHA",
-        "score": 9,
+        "title": "Quality Assurance Assistant JD",
+        "company": "FL MEDICAL",
+        "score": 31,
         "site": "indeed",
-        "date_posted": 1775606400000,
-        "url": "https://it.indeed.com/viewjob?jk=ff88da1254200753"
-      },
-      {
-        "title": "Infermiere a Domicilio Belluno e Provincia",
-        "company": "QuiCare",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1775779200000,
-        "url": "https://it.indeed.com/viewjob?jk=6e830fd382dfd648"
-      },
-      {
-        "title": "SUPERVISORY CLINICAL LABORATORY SCIENTIST",
-        "company": "US Military Treatment Facilities under DHA",
-        "score": 1,
-        "site": "indeed",
-        "date_posted": 1774569600000,
-        "url": "https://it.indeed.com/viewjob?jk=5571df9f23b124fd"
+        "date_posted": 1776124800000,
+        "url": "https://it.indeed.com/viewjob?jk=f4328cebac03771c"
       }
     ]
   },
@@ -189,43 +189,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
-      "data": {
-        "current": 1,
-        "avg": 3.4,
-        "change_pct": -70.4
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 100.0,
-        "new_pct": 0.0
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 33.3
       }
     },
     {
@@ -235,54 +225,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 1,
             "size": 10,
             "top_terms": [
-              "specialist",
-              "medical",
-              "isf"
-            ],
-            "pct": 35.7
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
               "informatore",
-              "medico",
-              "scientifico"
+              "scientifico",
+              "medico"
             ],
-            "pct": 21.4
-          },
-          {
-            "id": 4,
-            "size": 6,
-            "top_terms": [
-              "clinical",
-              "specialist",
-              "field"
-            ],
-            "pct": 21.4
+            "pct": 33.3
           },
           {
             "id": 0,
-            "size": 3,
+            "size": 8,
             "top_terms": [
-              "farmaco",
-              "padova",
-              "scientifico"
+              "medical",
+              "isf",
+              "representative"
             ],
-            "pct": 10.7
+            "pct": 26.7
           },
           {
-            "id": 1,
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "field"
+            ],
+            "pct": 20.0
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "engineer",
-              "vicenza",
+              "quality",
               "verona"
             ],
-            "pct": 10.7
+            "pct": 10.0
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "clinical",
+              "health",
+              "verona"
+            ],
+            "pct": 10.0
           }
         ]
       }

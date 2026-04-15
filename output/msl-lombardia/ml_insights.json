@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-04-14T08:20:41.759721",
+  "generated_at": "2026-04-15T08:19:35.978613",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 173,
+  "total_jobs_analyzed": 180,
   "scoring": {
-    "average": 28.6,
+    "average": 29.2,
     "distribution": {
       "excellent": 0,
-      "good": 4,
+      "good": 6,
       "medium": 76,
-      "low": 13,
-      "irrelevant": 80
+      "low": 19,
+      "irrelevant": 79
     },
     "top_jobs": [
       {
+        "title": "Associate Medical Director, Italy",
+        "company": "CYTOKINETICS",
+        "score": 63,
+        "site": "indeed",
+        "date_posted": 1776124800000,
+        "url": "https://it.indeed.com/viewjob?jk=c6989289f36e6690"
+      },
+      {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1774569600000,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
@@ -24,7 +32,7 @@
       {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
         "company": "Amplity",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1774483200000,
         "url": "https://www.linkedin.com/jobs/view/4390704814"
@@ -36,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1774396800000,
         "url": "https://www.linkedin.com/jobs/view/4390016439"
+      },
+      {
+        "title": "Medical Science Liaison (MSL), Italy",
+        "company": "Nordberg Medical",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1775260800000,
+        "url": "https://www.linkedin.com/jobs/view/4385588393"
       },
       {
         "title": "(Associate) Medical Director - Neurology",
@@ -70,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4397603246"
       },
       {
-        "title": "Medical Science Liaison (MSL), Italy",
-        "company": "Nordberg Medical",
+        "title": "Medical Scientific Liaison - Protein Diagnostics",
+        "company": "Thermo Fisher Scientific",
         "score": 59,
-        "site": "linkedin",
-        "date_posted": 1775260800000,
-        "url": "https://www.linkedin.com/jobs/view/4385588393"
+        "site": "indeed",
+        "date_posted": 1776124800000,
+        "url": "https://it.indeed.com/viewjob?jk=1be3b4ce7b053737"
       },
       {
-        "title": "Director, Future Forward Medical Affairs",
-        "company": "Intuitive",
+        "title": "Medical Advisor Cardiovascular",
+        "company": "AstraZeneca",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4397178739"
+        "url": "https://www.linkedin.com/jobs/view/4392885690"
       },
       {
         "title": "Medical Affairs Director, Chronic & Prevention",
@@ -102,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
-        "title": "Medical Advisor Cardiovascular",
-        "company": "AstraZeneca",
+        "title": "Medical Director",
+        "company": "Alexion Pharmaceuticals",
         "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4392885690"
+        "site": "indeed",
+        "date_posted": 1776124800000,
+        "url": "https://it.indeed.com/viewjob?jk=f771851661e37568"
       },
       {
-        "title": "Medical Affairs Clinician - Italy",
-        "company": "Evolus",
+        "title": "International Medical Advisor - Oncology",
+        "company": "Barrington James",
         "score": 56,
         "site": "linkedin",
-        "date_posted": 1774224000000,
-        "url": "https://www.linkedin.com/jobs/view/4342294307"
+        "date_posted": 1774828800000,
+        "url": "https://www.linkedin.com/jobs/view/4392397494"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -150,28 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
-        "title": "Medical Information Internship",
-        "company": "Sanofi",
+        "title": "Medical Affairs Clinician - Italy",
+        "company": "Evolus",
         "score": 56,
-        "site": "indeed",
-        "date_posted": 1776038400000,
-        "url": "https://it.indeed.com/viewjob?jk=a8ca59f23152cfb7"
-      },
-      {
-        "title": "International Medical Advisor - Oncology",
-        "company": "Barrington James",
-        "score": 55,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4392397494"
-      },
-      {
-        "title": "Medical Science Liaison Paediatric Oncology - Milan",
-        "company": "Norgine",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4394781112"
+        "url": "https://www.linkedin.com/jobs/view/4342294307"
       }
     ]
   },
@@ -199,9 +199,9 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "cra",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "sales",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,12 +209,24 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 8,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 80
     },
     {
       "keyword": "international medical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "medical scientific",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -230,31 +242,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/12 annunci da aziende nuove (41.7%)",
+      "message": "📊 Ultimo scan: 6/13 annunci da aziende nuove (46.2%)",
       "data": {
-        "new": 5,
-        "total": 12,
-        "pct": 41.7
+        "new": 6,
+        "total": 13,
+        "pct": 46.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 75% (+75pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 25% (-75pp)",
+      "message": "📡 linkedin: quota passata da 36% a 8% (-28pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 25.0
+        "old_pct": 35.7,
+        "new_pct": 7.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 64% a 92% (+28pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 64.3,
+        "new_pct": 92.3
       }
     },
     {
@@ -264,54 +276,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 83,
+            "id": 0,
+            "size": 91,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
+              "manager",
+              "clinical",
+              "research"
             ],
-            "pct": 48.0
+            "pct": 50.6
           },
           {
             "id": 2,
-            "size": 32,
+            "size": 30,
             "top_terms": [
-              "medical",
-              "director",
-              "affairs"
+              "specialist",
+              "sales",
+              "clinical"
             ],
-            "pct": 18.5
+            "pct": 16.7
           },
           {
             "id": 4,
-            "size": 29,
+            "size": 24,
             "top_terms": [
-              "manager",
-              "project",
-              "senior"
+              "director",
+              "medical",
+              "affairs"
             ],
-            "pct": 16.8
+            "pct": 13.3
+          },
+          {
+            "id": 1,
+            "size": 22,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 12.2
           },
           {
             "id": 3,
-            "size": 16,
-            "top_terms": [
-              "liaison",
-              "msl",
-              "science"
-            ],
-            "pct": 9.2
-          },
-          {
-            "id": 0,
             "size": 13,
             "top_terms": [
-              "research",
-              "clinical",
-              "associate"
+              "liaison",
+              "science",
+              "medical"
             ],
-            "pct": 7.5
+            "pct": 7.2
           }
         ]
       }
