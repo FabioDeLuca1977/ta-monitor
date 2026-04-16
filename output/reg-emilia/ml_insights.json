@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-15T08:19:36.288516",
+  "generated_at": "2026-04-16T08:48:48.753922",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 60,
+  "total_jobs_analyzed": 62,
   "scoring": {
-    "average": 9.8,
+    "average": 10.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 5,
+      "medium": 6,
       "low": 0,
-      "irrelevant": 53
+      "irrelevant": 54
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 59,
+        "score": 58,
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=f64affe1a0aaca3f"
@@ -42,13 +42,21 @@
         "company": "SGB Humangest Holding",
         "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774828800000,
         "url": "https://www.linkedin.com/jobs/view/4395041812"
+      },
+      {
+        "title": "Regulatory Affairs Consultant",
+        "company": "Whitelab",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1776211200000,
+        "url": "https://it.indeed.com/viewjob?jk=a8a4074f39a3293f"
       },
       {
         "title": "Regulatory Affairs Junior",
         "company": "COC Farmaceutici",
-        "score": 55,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4393427025"
@@ -56,7 +64,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
-        "score": 54,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1775520000000,
         "url": "https://it.indeed.com/viewjob?jk=c1c834b9c0082394"
@@ -76,6 +84,14 @@
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4397280859"
+      },
+      {
+        "title": "Senior Verification, Validation Engineer_Medical Device",
+        "company": "Grafton Recruitment",
+        "score": 18,
+        "site": "linkedin",
+        "date_posted": 1776211200000,
+        "url": "https://www.linkedin.com/jobs/view/4399937608"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -118,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=61f8fa054d86eb8d"
       },
       {
+        "title": "VENDITORE CON ESPERIENZA - FISSO + PROVVIGIONI",
+        "company": "Immobiliare in Cloud",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1776211200000,
+        "url": "https://it.indeed.com/viewjob?jk=42f41ac2e8969ac5"
+      },
+      {
         "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
         "company": "Jefferson Wells Italia",
         "score": 9,
@@ -148,30 +172,6 @@
         "site": "indeed",
         "date_posted": 1775174400000,
         "url": "https://it.indeed.com/viewjob?jk=4d62168bd6baa997"
-      },
-      {
-        "title": "Customer Quality Assurance  automotive",
-        "company": "Adecco",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4392681381"
-      },
-      {
-        "title": "Customer Quality Assurance",
-        "company": "Etjca Group",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1774483200000,
-        "url": "https://www.linkedin.com/jobs/view/4390567716"
-      },
-      {
-        "title": "Quality Assurance Engineer",
-        "company": "EPM Scientific",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4391580239"
       }
     ]
   },
@@ -194,14 +194,14 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "specialist",
+        "word": "engineer",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "specialist",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -217,32 +217,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-83%)",
+      "severity": "medium",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 6 (-31%)",
       "data": {
-        "current": 1,
-        "avg": 5.9,
-        "change_pct": -83.1
+        "current": 4,
+        "avg": 5.8,
+        "change_pct": -31.0
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 4,
+        "total": 4,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 75% (+75pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 25% (-75pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -253,13 +263,13 @@
         "clusters": [
           {
             "id": 1,
-            "size": 26,
+            "size": 29,
             "top_terms": [
+              "engineer",
               "specialist",
-              "manager",
-              "supervisor"
+              "manager"
             ],
-            "pct": 43.3
+            "pct": 46.8
           },
           {
             "id": 2,
@@ -269,37 +279,37 @@
               "assurance",
               "specialist"
             ],
-            "pct": 21.7
+            "pct": 21.0
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 12,
             "top_terms": [
               "farmacista",
               "farmacia",
               "zona"
             ],
-            "pct": 20.0
+            "pct": 19.4
           },
           {
             "id": 4,
-            "size": 5,
+            "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "junior"
             ],
-            "pct": 8.3
+            "pct": 9.7
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 0,
+            "size": 2,
             "top_terms": [
-              "protette",
-              "categorie",
-              "commerciale"
+              "supervisor",
+              "zona",
+              "tecnico"
             ],
-            "pct": 6.7
+            "pct": 3.2
           }
         ]
       }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-15T08:19:36.011753",
+  "generated_at": "2026-04-16T08:48:48.453101",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 29,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 20.4,
+    "average": 19.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 11,
+      "medium": 10,
       "low": 0,
       "irrelevant": 18
     },
@@ -18,7 +18,7 @@
         "company": "Gruppo Hera",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1774828800000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4376074024"
       },
       {
-        "title": "LTC Clinical Specialist",
-        "company": "Essity",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4392658825"
-      },
-      {
         "title": "Clinical Specialist (Operating Room Experience) -Bologna / Firenze",
         "company": "BD",
         "score": 40,
@@ -104,7 +96,7 @@
       {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398457330"
@@ -112,7 +104,7 @@
       {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
@@ -126,36 +118,36 @@
         "url": "https://it.indeed.com/viewjob?jk=3478c4a377aff523"
       },
       {
-        "title": "Territory Manager - Emilia Romagna",
-        "company": "B. Braun",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1775606400000,
-        "url": "https://it.indeed.com/viewjob?jk=ef1f02549afc8853"
-      },
-      {
         "title": "Field Service Technician (Medical Devices) - Italy",
         "company": "IQVIA",
-        "score": 10,
+        "score": 9,
         "site": "indeed",
         "date_posted": 1774569600000,
         "url": "https://it.indeed.com/viewjob?jk=e91f5fb811e04225"
       },
       {
+        "title": "Senior CRA",
+        "company": "Thermo Fisher Scientific",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1774396800000,
+        "url": "https://www.linkedin.com/jobs/view/4389193185"
+      },
+      {
         "title": "Purchasing Manager",
         "company": "Dentsply Sirona",
-        "score": 8,
+        "score": 7,
         "site": "indeed",
         "date_posted": 1775001600000,
         "url": "https://it.indeed.com/viewjob?jk=69bc4f7f95210242"
       },
       {
-        "title": "Senior CRA",
-        "company": "Thermo Fisher Scientific",
+        "title": "Territory Manager - Emilia Romagna",
+        "company": "B. Braun",
         "score": 7,
         "site": "indeed",
-        "date_posted": 1774310400000,
-        "url": "https://it.indeed.com/viewjob?jk=4c47336293cea67c"
+        "date_posted": 1775606400000,
+        "url": "https://it.indeed.com/viewjob?jk=ef1f02549afc8853"
       },
       {
         "title": "EMEA Power & IT Systems Pricing Governance Specialist",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1775779200000,
         "url": "https://it.indeed.com/viewjob?jk=10dbde7f80edf352"
+      },
+      {
+        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
+        "company": "Elleuno scs",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400973107"
       }
     ]
   },
@@ -201,11 +201,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-61%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-63%)",
       "data": {
         "current": 1,
-        "avg": 2.5,
-        "change_pct": -60.7
+        "avg": 2.7,
+        "change_pct": -63.0
       }
     },
     {
@@ -236,53 +236,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 13,
+            "size": 11,
             "top_terms": [
-              "cra",
+              "supervisor",
               "engineer",
               "manager"
             ],
-            "pct": 44.8
+            "pct": 39.3
           },
           {
             "id": 2,
-            "size": 7,
+            "size": 8,
             "top_terms": [
               "specialist",
               "clinical",
-              "supervisor"
+              "room"
             ],
-            "pct": 24.1
+            "pct": 28.6
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 4,
             "top_terms": [
               "regulatory",
               "affairs",
               "junior"
             ],
-            "pct": 13.8
+            "pct": 14.3
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 3,
             "top_terms": [
               "medical",
               "devices",
               "specialist"
             ],
-            "pct": 10.3
+            "pct": 10.7
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 2,
             "top_terms": [
-              "supervisor",
+              "cra",
               "specialist",
-              "room"
+              "supervisor"
             ],
-            "pct": 6.9
+            "pct": 7.1
           }
         ]
       }
