@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-17T08:20:05.424077",
+  "generated_at": "2026-04-18T07:43:42.223722",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 45,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 15.1,
+    "average": 15.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 9,
       "low": 0,
-      "irrelevant": 36
+      "irrelevant": 35
     },
     "top_jobs": [
       {
@@ -56,7 +56,7 @@
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Whitelab",
-        "score": 56,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1776211200000,
         "url": "https://it.indeed.com/viewjob?jk=a8a4074f39a3293f"
@@ -72,7 +72,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
-        "score": 51,
+        "score": 50,
         "site": "indeed",
         "date_posted": 1775520000000,
         "url": "https://it.indeed.com/viewjob?jk=c1c834b9c0082394"
@@ -106,7 +106,7 @@
         "company": "PQE Group",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775001600000,
         "url": "https://www.linkedin.com/jobs/view/4396440990"
       },
       {
@@ -134,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4397280859"
       },
       {
-        "title": "MANOVALE EDILE SPECIALIZZATO",
-        "company": "EDAL SRL",
-        "score": 10,
+        "title": "Auditor II Retail",
+        "company": "NSF International",
+        "score": 11,
         "site": "indeed",
-        "date_posted": 1776124800000,
-        "url": "https://it.indeed.com/viewjob?jk=61f8fa054d86eb8d"
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=56a33549fe5c46f8"
       },
       {
         "title": "VENDITORE CON ESPERIENZA - FISSO + PROVVIGIONI",
@@ -150,28 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=42f41ac2e8969ac5"
       },
       {
-        "title": "Quality Assurance",
-        "company": "OPOCRIN GROUP",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4391787180"
+        "title": "Process Engineer",
+        "company": "Dentsply Sirona",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=c8962b7645cd2ec7"
       },
       {
-        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
-        "company": "Jefferson Wells Italia",
-        "score": 8,
+        "title": "Associate - Quality Assurance Formulation Line",
+        "company": "Eli Lilly and Company",
+        "score": 10,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4401044611"
+        "url": "https://www.linkedin.com/jobs/view/4379862046"
       },
       {
-        "title": "Customer Quality Assurance  automotive",
-        "company": "Adecco",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4392681381"
+        "title": "Operatore / Operatrice telefonica",
+        "company": "CONSULTING AND SOLUTION SRL",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=c0ba1196b29efdf3"
       }
     ]
   },
@@ -195,11 +195,11 @@
       },
       {
         "word": "specialist",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "categorie",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -216,43 +216,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-53%)",
-      "data": {
-        "current": 2,
-        "avg": 4.3,
-        "change_pct": -53.5
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 100% (+75pp)",
+      "message": "📡 linkedin: quota passata da 100% a 25% (-75pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 0% (-75pp)",
+      "message": "📡 indeed: quota passata da 0% a 75% (+75pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -262,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 21,
+            "id": 0,
+            "size": 19,
             "top_terms": [
+              "field",
               "manager",
-              "supervisor",
-              "specialist"
+              "tecnico"
             ],
-            "pct": 46.7
+            "pct": 43.2
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 10,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 22.2
+            "pct": 22.7
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 7,
             "top_terms": [
               "affairs",
               "regulatory",
               "junior"
             ],
-            "pct": 15.6
+            "pct": 15.9
           },
           {
-            "id": 0,
-            "size": 4,
+            "id": 1,
+            "size": 5,
             "top_terms": [
               "engineer",
-              "assurance",
-              "quality"
+              "senior",
+              "assurance"
             ],
-            "pct": 8.9
+            "pct": 11.4
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 3,
             "top_terms": [
               "categorie",
               "protette",
               "engineer"
             ],
-            "pct": 6.7
+            "pct": 6.8
           }
         ]
       }
