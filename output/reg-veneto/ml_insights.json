@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-18T07:43:42.032617",
+  "generated_at": "2026-04-19T07:54:40.564840",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 256,
+  "total_jobs_analyzed": 254,
   "scoring": {
-    "average": 34.9,
+    "average": 34.7,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 146,
-      "low": 4,
-      "irrelevant": 97
+      "good": 8,
+      "medium": 147,
+      "low": 3,
+      "irrelevant": 96
     },
     "top_jobs": [
       {
@@ -78,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4401300648"
       },
       {
-        "title": "Regulatory Affairs & Product Safety Specialist",
-        "company": "Wilmar International",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4402092707"
-      },
-      {
         "title": "Regulatory Compliance Assurance Manager",
         "company": "Revolut",
         "score": 59,
@@ -108,14 +100,6 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4400395159"
-      },
-      {
-        "title": "Regulatory Manager, North America (NAM)",
-        "company": "Acadian Seaplants",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4399538209"
       },
       {
         "title": "Specialist Regulatory Affairs",
@@ -150,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4399042042"
       },
       {
-        "title": "Senior Regulatory Compliance Manager - UAE",
-        "company": "Wise",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1775865600000,
-        "url": "https://www.linkedin.com/jobs/view/4362020428"
-      },
-      {
         "title": "Regulatory Specialist",
         "company": "IRCA Group",
         "score": 57,
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4400796325"
+      },
+      {
+        "title": "Senior Manager - Associate Director, Regulatory Affairs, Japan",
+        "company": "BeOne Medicines",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1775952000000,
+        "url": "https://www.linkedin.com/jobs/view/4357667083"
+      },
+      {
+        "title": "Senior Manager Quality Assurance & Regulatory Affairs",
+        "company": "EPM Scientific",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4398824969"
+      },
+      {
+        "title": "Submission Content Manager, Regulatory Affairs Operations",
+        "company": "Olema Oncology",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4388310143"
       }
     ]
   },
@@ -208,12 +208,6 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "director regulatory",
-      "frequency": 8,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 90
-    },
-    {
       "keyword": "senior regulatory",
       "frequency": 7,
       "source": "bigram/trigram da titoli rilevanti",
@@ -226,7 +220,7 @@
       "confidence": 90
     },
     {
-      "keyword": "global regulatory",
+      "keyword": "director regulatory",
       "frequency": 7,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 90
@@ -238,8 +232,14 @@
       "confidence": 90
     },
     {
+      "keyword": "global regulatory",
+      "frequency": 6,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 90
+    },
+    {
       "keyword": "senior",
-      "frequency": 19,
+      "frequency": 18,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
@@ -250,33 +250,33 @@
       "confidence": 80
     },
     {
-      "keyword": "global",
-      "frequency": 8,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 80
-    },
-    {
       "keyword": "senior manager",
       "frequency": 5,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 75
     },
     {
-      "keyword": "director global",
-      "frequency": 5,
+      "keyword": "associate director regulatory",
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 75
+      "confidence": 60
+    },
+    {
+      "keyword": "director global",
+      "frequency": 4,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 21 (-91%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 23 (-91%)",
       "data": {
         "current": 2,
-        "avg": 21.2,
-        "change_pct": -90.6
+        "avg": 22.9,
+        "change_pct": -91.3
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 92,
+            "id": 0,
+            "size": 89,
             "top_terms": [
-              "specialist",
               "compliance",
+              "specialist",
               "regulatory"
             ],
-            "pct": 35.9
+            "pct": 35.0
           },
           {
             "id": 1,
-            "size": 47,
+            "size": 53,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 18.4
+            "pct": 20.9
           },
           {
             "id": 2,
-            "size": 45,
+            "size": 38,
             "top_terms": [
-              "director",
-              "cmc",
-              "regulatory"
+              "quality",
+              "assurance",
+              "specialist"
             ],
-            "pct": 17.6
+            "pct": 15.0
           },
           {
-            "id": 0,
-            "size": 36,
+            "id": 3,
+            "size": 37,
+            "top_terms": [
+              "cmc",
+              "director",
+              "global"
+            ],
+            "pct": 14.6
+          },
+          {
+            "id": 4,
+            "size": 37,
             "top_terms": [
               "manager",
               "regulatory",
               "affairs"
             ],
-            "pct": 14.1
-          },
-          {
-            "id": 3,
-            "size": 36,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 14.1
+            "pct": 14.6
           }
         ]
       }

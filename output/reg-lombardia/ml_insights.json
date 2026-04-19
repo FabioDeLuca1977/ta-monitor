@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-18T07:43:42.180868",
+  "generated_at": "2026-04-19T07:54:40.713575",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 269,
+  "total_jobs_analyzed": 266,
   "scoring": {
-    "average": 16.0,
+    "average": 15.6,
     "distribution": {
       "excellent": 0,
-      "good": 19,
-      "medium": 31,
-      "low": 7,
-      "irrelevant": 212
+      "good": 18,
+      "medium": 29,
+      "low": 8,
+      "irrelevant": 211
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Specialist",
         "company": "IRCA Group",
-        "score": 65,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4389487359"
@@ -60,14 +60,6 @@
         "site": "linkedin",
         "date_posted": 1774828800000,
         "url": "https://www.linkedin.com/jobs/view/4391055573"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Sentinel Diagnostics",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1774828800000,
-        "url": "https://www.linkedin.com/jobs/view/4392935502"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST",
@@ -134,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4402361872"
       },
       {
+        "title": "R&D and Regulatory Specialist",
+        "company": "Fedrigoni Group",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1774915200000,
+        "url": "https://www.linkedin.com/jobs/view/4373812387"
+      },
+      {
         "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
         "company": "Parexel",
         "score": 61,
@@ -142,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
-        "title": "R&D and Regulatory Specialist",
-        "company": "Fedrigoni Group",
-        "score": 60,
+        "title": "Regulatory Specialist",
+        "company": "Carboline",
+        "score": 61,
         "site": "linkedin",
-        "date_posted": 1774915200000,
-        "url": "https://www.linkedin.com/jobs/view/4373812387"
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4388904492"
       },
       {
         "title": "Junior Regulatory Affairs Specialist",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4379831537"
       },
       {
-        "title": "Regulatory Specialist",
-        "company": "Carboline",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4388904492"
-      },
-      {
         "title": "Quality Assurance & Qualified Person Manager",
         "company": "SGB Humangest Holding",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4396942918"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - Settore Healthcare",
+        "company": "Uriach Italy",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4395961652"
       }
     ]
   },
@@ -197,16 +197,17 @@
         "word": "account",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "project",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
+    {
+      "keyword": "junior regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
     {
       "keyword": "lead regulatory",
       "frequency": 2,
@@ -232,12 +233,6 @@
       "confidence": 30
     },
     {
-      "keyword": "junior regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "senior",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -246,33 +241,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 20 (-65%)",
+      "data": {
+        "current": 7,
+        "avg": 19.9,
+        "change_pct": -64.9
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/18 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
       "data": {
-        "new": 9,
-        "total": 18,
-        "pct": 50.0
+        "new": 3,
+        "total": 7,
+        "pct": 42.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 12% a 39% (+26pp)",
+      "message": "📡 linkedin: quota passata da 39% a 14% (-25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 12.5,
-        "new_pct": 38.9
+        "old_pct": 38.9,
+        "new_pct": 14.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 88% a 61% (-26pp)",
+      "message": "📡 indeed: quota passata da 61% a 86% (+25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 87.5,
-        "new_pct": 61.1
+        "old_pct": 61.1,
+        "new_pct": 85.7
       }
     },
     {
@@ -282,54 +287,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 146,
+            "id": 0,
+            "size": 169,
             "top_terms": [
               "specialist",
-              "analyst",
-              "italy"
+              "engineer",
+              "account"
             ],
-            "pct": 54.3
+            "pct": 63.5
           },
           {
-            "id": 1,
-            "size": 39,
+            "id": 3,
+            "size": 34,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "manager",
+              "project",
+              "senior"
             ],
-            "pct": 14.5
+            "pct": 12.8
           },
           {
             "id": 2,
-            "size": 35,
+            "size": 29,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 13.0
+            "pct": 10.9
           },
           {
             "id": 4,
-            "size": 25,
+            "size": 27,
             "top_terms": [
-              "engineer",
-              "project",
-              "senior"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 9.3
+            "pct": 10.2
           },
           {
-            "id": 0,
-            "size": 24,
+            "id": 1,
+            "size": 7,
             "top_terms": [
-              "manager",
-              "technology",
-              "senior"
+              "qualified",
+              "person",
+              "pharmacovigilance"
             ],
-            "pct": 8.9
+            "pct": 2.6
           }
         ]
       }

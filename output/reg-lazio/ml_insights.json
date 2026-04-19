@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-18T07:43:42.305485",
+  "generated_at": "2026-04-19T07:54:40.835784",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 111,
+  "total_jobs_analyzed": 110,
   "scoring": {
     "average": 12.3,
     "distribution": {
@@ -10,7 +10,7 @@
       "good": 3,
       "medium": 9,
       "low": 5,
-      "irrelevant": 94
+      "irrelevant": 93
     },
     "top_jobs": [
       {
@@ -48,9 +48,9 @@
       {
         "title": "Regulatory Compliance Expert",
         "company": "EOLO",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4397053060"
       },
       {
@@ -60,14 +60,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398280292"
-      },
-      {
-        "title": "Director of Regulatory Affairs - AI",
-        "company": "Randstad Digital Italia",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
         "title": "Head of Regulatory Affairs (MedTech)",
@@ -84,6 +76,14 @@
         "site": "linkedin",
         "date_posted": 1775001600000,
         "url": "https://www.linkedin.com/jobs/view/4366163549"
+      },
+      {
+        "title": "Director of Regulatory Affairs - AI",
+        "company": "Randstad Digital Italia",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
         "title": "Quality Assurance Consultant - Pharma Sector",
@@ -150,14 +150,6 @@
         "url": "https://it.indeed.com/viewjob?jk=7cae02af377ebd75"
       },
       {
-        "title": "Regulatory Site Officer",
-        "company": "Sanofi",
-        "score": 19,
-        "site": "indeed",
-        "date_posted": 1776211200000,
-        "url": "https://it.indeed.com/viewjob?jk=fdae4d9cb9d29e43"
-      },
-      {
         "title": "Consumer & Enterprise Affairs Specialist",
         "company": "Iliad Italia",
         "score": 18,
@@ -166,12 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=3c694717738e3746"
       },
       {
-        "title": "Ethics & Whistleblowing Manager",
-        "company": "Leonardo",
-        "score": 17,
+        "title": "Consultant",
+        "company": "Wolters Kluwer",
+        "score": 18,
         "site": "indeed",
-        "date_posted": 1776211200000,
-        "url": "https://it.indeed.com/viewjob?jk=71b0ded1d133c2e1"
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=45b9020295a8a905"
+      },
+      {
+        "title": "Senior Protection Assistant (Quality Assurance)",
+        "company": "United Nations High Commissioner For Refugees (UNHCR)",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=a6a0b58e915dbf2d"
       }
     ]
   },
@@ -180,13 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -194,14 +199,9 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "officer",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "associate",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -223,42 +223,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 8 (-64%)",
+      "severity": "medium",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 8 (-38%)",
       "data": {
-        "current": 3,
-        "avg": 8.3,
-        "change_pct": -63.9
+        "current": 5,
+        "avg": 8.1,
+        "change_pct": -38.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/5 annunci da aziende nuove (40.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 5,
+        "pct": 40.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 67% (+47pp)",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 33% (-47pp)",
+      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -269,53 +269,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 54,
+            "size": 63,
             "top_terms": [
-              "tecnico",
-              "roma",
-              "senior"
+              "manager",
+              "senior",
+              "officer"
             ],
-            "pct": 48.6
-          },
-          {
-            "id": 3,
-            "size": 21,
-            "top_terms": [
-              "specialist",
-              "qa",
-              "validation"
-            ],
-            "pct": 18.9
-          },
-          {
-            "id": 1,
-            "size": 16,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "associate"
-            ],
-            "pct": 14.4
+            "pct": 57.3
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 20,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "director"
+              "specialist",
+              "manufacturing",
+              "quality"
             ],
-            "pct": 9.0
+            "pct": 18.2
           },
           {
             "id": 4,
-            "size": 10,
+            "size": 14,
             "top_terms": [
-              "manager",
-              "program",
-              "safety"
+              "assurance",
+              "quality",
+              "associate"
             ],
-            "pct": 9.0
+            "pct": 12.7
+          },
+          {
+            "id": 1,
+            "size": 8,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "director"
+            ],
+            "pct": 7.3
+          },
+          {
+            "id": 3,
+            "size": 5,
+            "top_terms": [
+              "roma",
+              "tecnico",
+              "assurance"
+            ],
+            "pct": 4.5
           }
         ]
       }

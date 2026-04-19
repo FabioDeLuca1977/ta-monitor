@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-18T07:43:41.946201",
+  "generated_at": "2026-04-19T07:54:40.480350",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 55,
+  "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 28.2,
+    "average": 28.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 20,
       "low": 9,
-      "irrelevant": 24
+      "irrelevant": 23
     },
     "top_jobs": [
       {
         "title": "Beauty Medical Advisor",
         "company": "CENTRI MED",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4396465213"
@@ -58,7 +58,7 @@
         "company": "Syneos Health Commercial Solutions",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775174400000,
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
@@ -213,11 +213,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-37%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-41%)",
       "data": {
         "current": 3,
-        "avg": 4.7,
-        "change_pct": -36.5
+        "avg": 5.1,
+        "change_pct": -41.2
       }
     },
     {
@@ -247,54 +247,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 17,
-            "top_terms": [
-              "supervisor",
-              "cra",
-              "italy"
-            ],
-            "pct": 30.9
-          },
-          {
-            "id": 0,
-            "size": 12,
+            "id": 1,
+            "size": 25,
             "top_terms": [
               "specialist",
               "product",
-              "lazio"
+              "italy"
             ],
-            "pct": 21.8
+            "pct": 46.3
           },
           {
-            "id": 2,
-            "size": 11,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "director"
-            ],
-            "pct": 20.0
-          },
-          {
-            "id": 1,
-            "size": 8,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "medical",
               "science",
               "liaison"
             ],
-            "pct": 14.5
+            "pct": 18.5
           },
           {
-            "id": 3,
-            "size": 7,
+            "id": 0,
+            "size": 9,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "head"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 2,
+            "size": 8,
             "top_terms": [
               "manager",
               "senior",
               "global"
             ],
-            "pct": 12.7
+            "pct": 14.8
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
+              "supervisor",
+              "technical",
+              "wound"
+            ],
+            "pct": 3.7
           }
         ]
       }

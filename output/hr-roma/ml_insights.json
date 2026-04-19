@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-18T07:43:41.590448",
+  "generated_at": "2026-04-19T07:54:40.132635",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 194,
+  "total_jobs_analyzed": 182,
   "scoring": {
-    "average": 25.8,
+    "average": 25.9,
     "distribution": {
       "excellent": 0,
-      "good": 10,
-      "medium": 51,
-      "low": 55,
-      "irrelevant": 78
+      "good": 9,
+      "medium": 48,
+      "low": 54,
+      "irrelevant": 71
     },
     "top_jobs": [
       {
@@ -22,20 +22,36 @@
         "url": "https://www.linkedin.com/jobs/view/4401096606"
       },
       {
-        "title": "HR Manager - Administration & Payroll",
-        "company": "MatchGuru",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4391593111"
-      },
-      {
         "title": "Junior HR Specialist - Ufficio Risorse Umane",
         "company": "Jobs Service",
         "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399628506"
+      },
+      {
+        "title": "HR SPECIALIST",
+        "company": "WJOB",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1775520000000,
+        "url": "https://www.linkedin.com/jobs/view/4398210766"
+      },
+      {
+        "title": "Junior HR Manager - Gestione del Benessere",
+        "company": "sh-operation21",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399688281"
+      },
+      {
+        "title": "HR Specialist",
+        "company": "Prisma Srl",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399733754"
       },
       {
         "title": "HR TALENT ACQUISITION",
@@ -46,36 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4402532471"
       },
       {
-        "title": "HR SPECIALIST",
-        "company": "WJOB",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1775520000000,
-        "url": "https://www.linkedin.com/jobs/view/4398210766"
-      },
-      {
         "title": "Stage HR Recruiter: Selezione e Recruiting",
         "company": "Valori S.p.A.",
         "score": 61,
         "site": "google",
         "date_posted": 1775606400000,
         "url": "https://www.jobijoba.it/annunci-di-lavoro/13/892c634679343ffbf7d1f836cd38ec4a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Junior HR Manager - Gestione del Benessere",
-        "company": "sh-operation21",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399688281"
-      },
-      {
-        "title": "HR Specialist",
-        "company": "Prisma Srl",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399733754"
       },
       {
         "title": "Avviso di selezione per n.1 HR Generalist Ufficio Risorse Umane (31 marzo - 10 aprile 2026)",
@@ -108,14 +100,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402700591"
-      },
-      {
-        "title": "HR Specialist – Sistemi Gestione Utenze Domestiche",
-        "company": "Mcc service",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1774569600000,
-        "url": "https://www.linkedin.com/jobs/view/4390932453"
       },
       {
         "title": "Talent Acquisition Partner - Sales",
@@ -166,12 +150,28 @@
         "url": "https://it.talent.com/view?id=614013933421724372&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
+        "title": "HR Recruiter Specialist(protected category under Law 68/99).",
+        "company": "TXT GROUP",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4389559754"
+      },
+      {
         "title": "HR Recruiter",
         "company": "Sielte Spa",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4393466611"
+      },
+      {
+        "title": "HR Generalist",
+        "company": "NTWK",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1774828800000,
+        "url": "https://it.indeed.com/viewjob?jk=c591aaf37b036451"
       }
     ]
   },
@@ -263,8 +263,8 @@
       "message": "Volume in calo: 5 annunci ultimo scan vs media 15 (-66%)",
       "data": {
         "current": 5,
-        "avg": 14.5,
-        "change_pct": -65.6
+        "avg": 14.8,
+        "change_pct": -66.1
       }
     },
     {
@@ -305,53 +305,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 75,
+            "size": 85,
             "top_terms": [
+              "recruiter",
               "day",
-              "roma",
               "recruiting"
             ],
-            "pct": 38.7
+            "pct": 46.7
+          },
+          {
+            "id": 3,
+            "size": 28,
+            "top_terms": [
+              "hr",
+              "business",
+              "partner"
+            ],
+            "pct": 15.4
           },
           {
             "id": 2,
-            "size": 46,
+            "size": 26,
             "top_terms": [
-              "hr",
-              "specialist",
-              "talent"
-            ],
-            "pct": 23.7
-          },
-          {
-            "id": 1,
-            "size": 34,
-            "top_terms": [
-              "umane",
               "risorse",
+              "umane",
               "addetto"
             ],
-            "pct": 17.5
+            "pct": 14.3
           },
           {
             "id": 4,
-            "size": 24,
+            "size": 23,
             "top_terms": [
               "addetto",
               "personale",
               "ufficio"
             ],
-            "pct": 12.4
+            "pct": 12.6
           },
           {
-            "id": 3,
-            "size": 15,
+            "id": 1,
+            "size": 20,
             "top_terms": [
-              "recruiter",
-              "hr",
-              "settore"
+              "specialist",
+              "talent",
+              "hr"
             ],
-            "pct": 7.7
+            "pct": 11.0
           }
         ]
       }
