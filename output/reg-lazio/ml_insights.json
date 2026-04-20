@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-19T07:54:40.835784",
+  "generated_at": "2026-04-20T08:44:48.487911",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 110,
+  "total_jobs_analyzed": 108,
   "scoring": {
-    "average": 12.3,
+    "average": 11.9,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 9,
       "low": 5,
-      "irrelevant": 93
+      "irrelevant": 91
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "AYES - Management & Technology Consulting",
-        "score": 69,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1775001600000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs & Auditor GxP (Pharmacovigilanza, GCP)",
         "company": "fortil",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4396343419"
@@ -32,15 +32,15 @@
       {
         "title": "Regulatory Specialist",
         "company": "Aruba SpA",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775174400000,
         "url": "https://www.linkedin.com/jobs/view/4397318496"
       },
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4398280292"
       },
       {
-        "title": "Head of Regulatory Affairs (MedTech)",
-        "company": "Jefferson Wells Italia",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402500296"
-      },
-      {
         "title": "Head of Regulatory Affairs Italy",
         "company": "Merck Healthcare",
         "score": 54,
@@ -86,9 +78,17 @@
         "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
+        "title": "Head of Regulatory Affairs (MedTech)",
+        "company": "Jefferson Wells Italia",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402500296"
+      },
+      {
         "title": "Quality Assurance Consultant - Pharma Sector",
         "company": "PQE Group",
-        "score": 44,
+        "score": 45,
         "site": "linkedin",
         "date_posted": 1774915200000,
         "url": "https://www.linkedin.com/jobs/view/4383149145"
@@ -150,28 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=7cae02af377ebd75"
       },
       {
-        "title": "Consumer & Enterprise Affairs Specialist",
-        "company": "Iliad Italia",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=3c694717738e3746"
-      },
-      {
-        "title": "Consultant",
-        "company": "Wolters Kluwer",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=45b9020295a8a905"
-      },
-      {
         "title": "Senior Protection Assistant (Quality Assurance)",
         "company": "United Nations High Commissioner For Refugees (UNHCR)",
         "score": 16,
         "site": "indeed",
         "date_posted": 1776384000000,
         "url": "https://it.indeed.com/viewjob?jk=a6a0b58e915dbf2d"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Randstad Italia",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": 1775088000000,
+        "url": "https://www.linkedin.com/jobs/view/4393095883"
+      },
+      {
+        "title": "Regulatory Site Officer",
+        "company": "Sanofi",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1776211200000,
+        "url": "https://it.indeed.com/viewjob?jk=fdae4d9cb9d29e43"
       }
     ]
   },
@@ -223,41 +223,41 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 8 (-38%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-88%)",
       "data": {
-        "current": 5,
-        "avg": 8.1,
-        "change_pct": -38.1
+        "current": 1,
+        "avg": 8.2,
+        "change_pct": -87.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/5 annunci da aziende nuove (40.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 5,
-        "pct": 40.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -268,54 +268,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 63,
+            "id": 1,
+            "size": 60,
             "top_terms": [
-              "manager",
-              "senior",
-              "officer"
+              "regulatory",
+              "officer",
+              "senior"
             ],
-            "pct": 57.3
+            "pct": 55.6
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 20,
             "top_terms": [
               "specialist",
-              "manufacturing",
-              "quality"
+              "affairs",
+              "regulatory"
             ],
-            "pct": 18.2
+            "pct": 18.5
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 14,
             "top_terms": [
               "assurance",
               "quality",
               "associate"
             ],
-            "pct": 12.7
+            "pct": 13.0
           },
           {
-            "id": 1,
-            "size": 8,
+            "id": 2,
+            "size": 10,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "director"
+              "manager",
+              "program",
+              "safety"
             ],
-            "pct": 7.3
+            "pct": 9.3
           },
           {
-            "id": 3,
-            "size": 5,
+            "id": 4,
+            "size": 4,
             "top_terms": [
-              "roma",
               "tecnico",
-              "assurance"
+              "roma",
+              "vaccine"
             ],
-            "pct": 4.5
+            "pct": 3.7
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-19T07:54:40.429542",
+  "generated_at": "2026-04-20T08:44:48.085203",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 27,
   "scoring": {
-    "average": 22.0,
+    "average": 21.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 11,
       "low": 0,
-      "irrelevant": 15
+      "irrelevant": 16
     },
     "top_jobs": [
       {
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4376074024"
       },
       {
+        "title": "Regulatory Affairs Junior - Assistente Affari Regolatori",
+        "company": "Lavoropiù SpA",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399296018"
+      },
+      {
         "title": "Regulatory Affairs Stageur",
         "company": "JSB Solutions",
         "score": 42,
@@ -86,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4396455737"
       },
       {
-        "title": "Regulatory Affairs Junior - Assistente Affari Regolatori",
-        "company": "Lavoropiù SpA",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399296018"
-      },
-      {
         "title": "Clinical Specialist (Operating Room Experience) - Bologna / Firenze",
         "company": "BD",
         "score": 40,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4399878809"
+      },
+      {
+        "title": "Patient Journey Manager - Finland",
+        "company": "Kyowa Kirin International",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1776556800000,
+        "url": "https://it.indeed.com/viewjob?jk=dad9875fc150cecf"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -164,20 +172,17 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389193185"
-      },
-      {
-        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
-        "company": "Elleuno scs",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4400973107"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
       {
         "word": "specialist",
         "count": 3,
@@ -194,43 +199,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+30%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-58%)",
       "data": {
-        "current": 3,
-        "avg": 2.3,
-        "change_pct": 30.4
+        "current": 1,
+        "avg": 2.4,
+        "change_pct": -57.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -243,11 +248,21 @@
             "id": 3,
             "size": 9,
             "top_terms": [
-              "manager",
+              "engineer",
               "medical",
               "devices"
             ],
-            "pct": 34.6
+            "pct": 33.3
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "junior"
+            ],
+            "pct": 22.2
           },
           {
             "id": 1,
@@ -257,17 +272,17 @@
               "clinical",
               "regulatory"
             ],
-            "pct": 23.1
+            "pct": 22.2
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 3,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "junior"
+              "manager",
+              "specialist",
+              "regulatory"
             ],
-            "pct": 23.1
+            "pct": 11.1
           },
           {
             "id": 4,
@@ -277,17 +292,7 @@
               "specialist",
               "regulatory"
             ],
-            "pct": 11.5
-          },
-          {
-            "id": 0,
-            "size": 2,
-            "top_terms": [
-              "engineer",
-              "specialist",
-              "regulatory"
-            ],
-            "pct": 7.7
+            "pct": 11.1
           }
         ]
       }

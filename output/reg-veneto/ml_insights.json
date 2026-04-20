@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-19T07:54:40.564840",
+  "generated_at": "2026-04-20T08:44:48.217947",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 254,
+  "total_jobs_analyzed": 253,
   "scoring": {
-    "average": 34.7,
+    "average": 34.6,
     "distribution": {
       "excellent": 0,
       "good": 8,
       "medium": 147,
       "low": 3,
-      "irrelevant": 96
+      "irrelevant": 95
     },
     "top_jobs": [
       {
@@ -150,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4400796325"
       },
       {
-        "title": "Senior Manager - Associate Director, Regulatory Affairs, Japan",
-        "company": "BeOne Medicines",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1775952000000,
-        "url": "https://www.linkedin.com/jobs/view/4357667083"
-      },
-      {
         "title": "Senior Manager Quality Assurance & Regulatory Affairs",
         "company": "EPM Scientific",
         "score": 57,
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": 1775779200000,
         "url": "https://www.linkedin.com/jobs/view/4388310143"
+      },
+      {
+        "title": "R&D - GRA - Regulatory Affairs Manager -BJ",
+        "company": "Sanofi",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4401784910"
       }
     ]
   },
@@ -275,8 +275,8 @@
       "message": "Volume in calo: 2 annunci ultimo scan vs media 23 (-91%)",
       "data": {
         "current": 2,
-        "avg": 22.9,
-        "change_pct": -91.3
+        "avg": 22.8,
+        "change_pct": -91.2
       }
     },
     {
@@ -292,21 +292,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 71% a 0% (-71pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 71.4,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 29% a 100% (+71pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 28.6,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 71% a 0% (-71pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 71.4,
+        "new_pct": 0.0
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 89,
-            "top_terms": [
-              "compliance",
-              "specialist",
-              "regulatory"
-            ],
-            "pct": 35.0
-          },
-          {
             "id": 1,
-            "size": 53,
+            "size": 82,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "specialist",
+              "medical",
+              "engineer"
             ],
-            "pct": 20.9
+            "pct": 32.4
           },
           {
             "id": 2,
-            "size": 38,
+            "size": 73,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "manager"
+            ],
+            "pct": 28.9
+          },
+          {
+            "id": 3,
+            "size": 39,
             "top_terms": [
               "quality",
               "assurance",
-              "specialist"
+              "manager"
+            ],
+            "pct": 15.4
+          },
+          {
+            "id": 0,
+            "size": 38,
+            "top_terms": [
+              "director",
+              "cmc",
+              "associate"
             ],
             "pct": 15.0
           },
           {
-            "id": 3,
-            "size": 37,
-            "top_terms": [
-              "cmc",
-              "director",
-              "global"
-            ],
-            "pct": 14.6
-          },
-          {
             "id": 4,
-            "size": 37,
+            "size": 21,
             "top_terms": [
-              "manager",
+              "compliance",
               "regulatory",
-              "affairs"
+              "manager"
             ],
-            "pct": 14.6
+            "pct": 8.3
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-19T07:54:40.132635",
+  "generated_at": "2026-04-20T08:44:47.788951",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 182,
+  "total_jobs_analyzed": 181,
   "scoring": {
-    "average": 25.9,
+    "average": 25.6,
     "distribution": {
       "excellent": 0,
       "good": 9,
-      "medium": 48,
-      "low": 54,
-      "irrelevant": 71
+      "medium": 47,
+      "low": 53,
+      "irrelevant": 72
     },
     "top_jobs": [
       {
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "dell",
@@ -190,8 +190,8 @@
       },
       {
         "word": "personale",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "conferimento",
@@ -209,15 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "junior hr",
-      "frequency": 4,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
-    },
-    {
-      "keyword": "junior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 45
     },
     {
       "keyword": "ufficio risorse",
@@ -250,7 +244,7 @@
       "confidence": 30
     },
     {
-      "keyword": "stage",
+      "keyword": "junior",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -260,11 +254,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 15 (-66%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 16 (-69%)",
       "data": {
         "current": 5,
-        "avg": 14.8,
-        "change_pct": -66.1
+        "avg": 16.0,
+        "change_pct": -68.8
       }
     },
     {
@@ -280,21 +274,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 22% a 40% (+18pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 22.2,
-        "new_pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 78% a 60% (-18pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 77.8,
         "new_pct": 60.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 22% a 40% (+18pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 22.2,
+        "new_pct": 40.0
       }
     },
     {
@@ -304,54 +298,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 85,
-            "top_terms": [
-              "recruiter",
-              "day",
-              "recruiting"
-            ],
-            "pct": 46.7
-          },
-          {
             "id": 3,
-            "size": 28,
+            "size": 105,
             "top_terms": [
               "hr",
-              "business",
+              "recruiting",
               "partner"
             ],
-            "pct": 15.4
+            "pct": 58.0
           },
           {
             "id": 2,
-            "size": 26,
+            "size": 28,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 14.3
+            "pct": 15.5
+          },
+          {
+            "id": 1,
+            "size": 23,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "talent"
+            ],
+            "pct": 12.7
           },
           {
             "id": 4,
-            "size": 23,
+            "size": 14,
             "top_terms": [
               "addetto",
               "personale",
               "ufficio"
             ],
-            "pct": 12.6
+            "pct": 7.7
           },
           {
-            "id": 1,
-            "size": 20,
+            "id": 0,
+            "size": 11,
             "top_terms": [
-              "specialist",
-              "talent",
-              "hr"
+              "recruiter",
+              "hr",
+              "sector"
             ],
-            "pct": 11.0
+            "pct": 6.1
           }
         ]
       }

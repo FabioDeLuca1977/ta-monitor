@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-19T07:54:40.480350",
+  "generated_at": "2026-04-20T08:44:48.136213",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 28.6,
+    "average": 28.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -42,7 +42,7 @@
         "company": "Genmab",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775260800000,
         "url": "https://www.linkedin.com/jobs/view/4374614779"
       },
       {
@@ -223,21 +223,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 50.0,
         "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -248,53 +248,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 25,
+            "size": 22,
             "top_terms": [
-              "specialist",
-              "product",
-              "italy"
+              "italy",
+              "liaison",
+              "science"
             ],
-            "pct": 46.3
+            "pct": 40.7
           },
           {
             "id": 3,
-            "size": 10,
+            "size": 12,
             "top_terms": [
-              "medical",
-              "science",
-              "liaison"
+              "specialist",
+              "product",
+              "lazio"
             ],
-            "pct": 18.5
+            "pct": 22.2
           },
           {
             "id": 0,
             "size": 9,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "head"
+              "manager",
+              "senior",
+              "global"
             ],
             "pct": 16.7
           },
           {
             "id": 2,
-            "size": 8,
+            "size": 7,
             "top_terms": [
-              "manager",
-              "senior",
-              "global"
+              "affairs",
+              "regulatory",
+              "head"
             ],
-            "pct": 14.8
+            "pct": 13.0
           },
           {
             "id": 4,
-            "size": 2,
+            "size": 4,
             "top_terms": [
-              "supervisor",
-              "technical",
-              "wound"
+              "medical",
+              "affairs",
+              "global"
             ],
-            "pct": 3.7
+            "pct": 7.4
           }
         ]
       }

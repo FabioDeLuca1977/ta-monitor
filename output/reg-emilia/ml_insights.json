@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T07:54:40.754658",
+  "generated_at": "2026-04-20T08:44:48.407938",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 40,
@@ -233,21 +233,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 75.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 25.0,
+        "new_pct": 0.0
       }
     },
     {

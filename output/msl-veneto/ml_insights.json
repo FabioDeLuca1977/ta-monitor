@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-19T07:54:40.282414",
+  "generated_at": "2026-04-20T08:44:47.936765",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 255,
+  "total_jobs_analyzed": 256,
   "scoring": {
-    "average": 44.9,
+    "average": 44.7,
     "distribution": {
       "excellent": 0,
       "good": 9,
-      "medium": 211,
+      "medium": 212,
       "low": 3,
       "irrelevant": 32
     },
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4401550850"
-      },
-      {
-        "title": "Field Medical Advisor Immunology",
-        "company": "Johnson & Johnson Innovative Medicine",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1775952000000,
-        "url": "https://www.linkedin.com/jobs/view/4388730023"
       },
       {
         "title": "Medical Science Liaison Manager, Solid Tumor Pipeline",
@@ -62,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4392666823"
       },
       {
-        "title": "Medical Science Liaison (m/w/d) (MSL) - Region Nord",
-        "company": "ADVANZ PHARMA",
+        "title": "Field Medical Advisor Immunology",
+        "company": "Johnson & Johnson Innovative Medicine",
         "score": 61,
         "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4391075139"
+        "date_posted": 1775952000000,
+        "url": "https://www.linkedin.com/jobs/view/4388730023"
       },
       {
         "title": "Manager, Medical Affairs & Academics",
@@ -78,12 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4401373248"
       },
       {
-        "title": "Informatore Scientifico Specialist - Vicenza e Padova",
-        "company": "Pharma Line srl",
+        "title": "Medical Science Liaison (MSL) Neurology Southeast",
+        "company": "Vor Bio",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1776297600000,
-        "url": "https://www.linkedin.com/jobs/view/4402124762"
+        "date_posted": 1776211200000,
+        "url": "https://www.linkedin.com/jobs/view/4387668507"
+      },
+      {
+        "title": "Medical Science Liaison (m/w/d) (MSL) - Region Nord",
+        "company": "ADVANZ PHARMA",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4391075139"
       },
       {
         "title": "Medical Science Liaison -IMMU",
@@ -118,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4401778223"
       },
       {
-        "title": "Medical Science Liaison (MSL) Neurology Southeast",
-        "company": "Vor Bio",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4387668507"
-      },
-      {
         "title": "Pfizer Medical Affairs Talent Community",
         "company": "Pfizer",
         "score": 59,
@@ -140,14 +132,6 @@
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4402022887"
-      },
-      {
-        "title": "Clinical Development Medical Manager",
-        "company": "Novartis Pharma Schweiz",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1775952000000,
-        "url": "https://www.linkedin.com/jobs/view/4401034947"
       },
       {
         "title": "(Sr.) Regional Medical Advisor / (Sr.) Medical Science Liaison",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4399785217"
+      },
+      {
+        "title": "Senior Manager - Medical Affairs & Nutrition Science",
+        "company": "Danone",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4401582611"
+      },
+      {
+        "title": "Associate Director Medical Science Liaison - Central",
+        "company": "IQVIA",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4400785638"
       }
     ]
   },
@@ -220,14 +220,14 @@
       "confidence": 90
     },
     {
-      "keyword": "oncology",
+      "keyword": "specialist",
       "frequency": 11,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
     {
-      "keyword": "specialist",
-      "frequency": 11,
+      "keyword": "oncology",
+      "frequency": 10,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
@@ -244,19 +244,19 @@
       "confidence": 60
     },
     {
+      "keyword": "senior",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
+    },
+    {
       "keyword": "affairs specialist",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "liaison oncology",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "science liaison oncology",
+      "keyword": "senior medical",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -266,11 +266,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 28 (-96%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 26 (-96%)",
       "data": {
         "current": 1,
-        "avg": 28.2,
-        "change_pct": -96.5
+        "avg": 25.5,
+        "change_pct": -96.1
       }
     },
     {
@@ -286,20 +286,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
@@ -310,54 +310,54 @@
       "data": {
         "clusters": [
           {
+            "id": 3,
+            "size": 79,
+            "top_terms": [
+              "pharmacovigilance",
+              "safety",
+              "informatore"
+            ],
+            "pct": 30.9
+          },
+          {
             "id": 2,
-            "size": 88,
+            "size": 69,
             "top_terms": [
               "medical",
               "director",
               "advisor"
             ],
-            "pct": 34.5
+            "pct": 27.0
           },
           {
             "id": 1,
-            "size": 69,
-            "top_terms": [
-              "pharmacovigilance",
-              "safety",
-              "drug"
-            ],
-            "pct": 27.1
-          },
-          {
-            "id": 0,
-            "size": 41,
+            "size": 37,
             "top_terms": [
               "clinical",
               "research",
               "associate"
             ],
-            "pct": 16.1
+            "pct": 14.5
           },
           {
             "id": 4,
-            "size": 40,
+            "size": 37,
+            "top_terms": [
+              "liaison",
+              "science",
+              "medical"
+            ],
+            "pct": 14.5
+          },
+          {
+            "id": 0,
+            "size": 34,
             "top_terms": [
               "affairs",
               "regulatory",
-              "medical"
+              "manager"
             ],
-            "pct": 15.7
-          },
-          {
-            "id": 3,
-            "size": 17,
-            "top_terms": [
-              "informatore",
-              "scientifico",
-              "farmaco"
-            ],
-            "pct": 6.7
+            "pct": 13.3
           }
         ]
       }

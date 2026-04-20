@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T07:54:40.713575",
+  "generated_at": "2026-04-20T08:44:48.367660",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
   "total_jobs_analyzed": 266,
@@ -7,12 +7,20 @@
     "average": 15.6,
     "distribution": {
       "excellent": 0,
-      "good": 18,
-      "medium": 29,
-      "low": 8,
-      "irrelevant": 211
+      "good": 20,
+      "medium": 27,
+      "low": 6,
+      "irrelevant": 213
     },
     "top_jobs": [
+      {
+        "title": "Regulatory Specialist",
+        "company": "Element Solutions Inc",
+        "score": 71,
+        "site": "linkedin",
+        "date_posted": 1776384000000,
+        "url": "https://www.linkedin.com/jobs/view/4400798105"
+      },
       {
         "title": "Regulatory Affairs Specialist - Cosmesi",
         "company": "Hays",
@@ -44,14 +52,6 @@
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4389487359"
-      },
-      {
-        "title": "Associate Start Up & Regulatory Manager",
-        "company": "IQVIA",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=328f33a100a37f28"
       },
       {
         "title": "CMC Regulatory Specialist",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4379831537"
       },
       {
-        "title": "Quality Assurance & Qualified Person Manager",
-        "company": "SGB Humangest Holding",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4396942918"
+        "title": "Associate Start Up & Regulatory Manager",
+        "company": "IQVIA",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=328f33a100a37f28"
       },
       {
-        "title": "Regulatory Affairs Specialist - Settore Healthcare",
-        "company": "Uriach Italy",
-        "score": 59,
+        "title": "Affari regolatori",
+        "company": "Cosmetic Tailors",
+        "score": 60,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4395961652"
+        "date_posted": 1776556800000,
+        "url": "https://www.linkedin.com/jobs/view/4401249292"
       }
     ]
   },
@@ -195,6 +195,11 @@
       },
       {
         "word": "account",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "project",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       }
@@ -243,41 +248,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 20 (-65%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 20 (-75%)",
       "data": {
-        "current": 7,
-        "avg": 19.9,
-        "change_pct": -64.9
+        "current": 5,
+        "avg": 20.1,
+        "change_pct": -75.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 7,
-        "pct": 42.9
+        "new": 5,
+        "total": 5,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 39% a 14% (-25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 38.9,
-        "new_pct": 14.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 61% a 86% (+25pp)",
+      "message": "📡 indeed: quota passata da 86% a 40% (-46pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 61.1,
-        "new_pct": 85.7
+        "old_pct": 85.7,
+        "new_pct": 40.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 14% a 60% (+46pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 14.3,
+        "new_pct": 60.0
       }
     },
     {
@@ -287,17 +292,17 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 169,
+            "id": 3,
+            "size": 161,
             "top_terms": [
               "specialist",
               "engineer",
               "account"
             ],
-            "pct": 63.5
+            "pct": 60.5
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 34,
             "top_terms": [
               "manager",
@@ -307,34 +312,34 @@
             "pct": 12.8
           },
           {
-            "id": 2,
-            "size": 29,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 10.9
-          },
-          {
             "id": 4,
-            "size": 27,
+            "size": 34,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 10.2
+            "pct": 12.8
           },
           {
-            "id": 1,
-            "size": 7,
+            "id": 2,
+            "size": 33,
             "top_terms": [
-              "qualified",
-              "person",
-              "pharmacovigilance"
+              "quality",
+              "assurance",
+              "specialist"
             ],
-            "pct": 2.6
+            "pct": 12.4
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "b2b",
+              "commerciale",
+              "alto"
+            ],
+            "pct": 1.5
           }
         ]
       }
