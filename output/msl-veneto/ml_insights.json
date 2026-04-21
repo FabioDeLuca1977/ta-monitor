@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-20T08:44:47.936765",
+  "generated_at": "2026-04-21T08:27:01.648585",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 256,
+  "total_jobs_analyzed": 257,
   "scoring": {
-    "average": 44.7,
+    "average": 43.5,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 212,
+      "good": 6,
+      "medium": 215,
       "low": 3,
-      "irrelevant": 32
+      "irrelevant": 33
     },
     "top_jobs": [
       {
@@ -28,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4402085672"
-      },
-      {
-        "title": "Field Medical Advisor Emerging Therapies, MAEG, International",
-        "company": "argenx",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4399556112"
       },
       {
         "title": "Medical Advisor",
@@ -62,28 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4388730023"
       },
       {
-        "title": "Manager, Medical Affairs & Academics",
-        "company": "Windsor Regional Hospital",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4401373248"
-      },
-      {
         "title": "Medical Science Liaison (MSL) Neurology Southeast",
         "company": "Vor Bio",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4387668507"
-      },
-      {
-        "title": "Medical Science Liaison (m/w/d) (MSL) - Region Nord",
-        "company": "ADVANZ PHARMA",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4391075139"
       },
       {
         "title": "Medical Science Liaison -IMMU",
@@ -102,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399776166"
       },
       {
-        "title": "Medical Scientific Liaison Hematology (m/f/d)",
-        "company": "GSK",
+        "title": "Assistant Manager, Medical Affairs - Education",
+        "company": "Alexandra Hospital, Singapore",
         "score": 59,
         "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4393567025"
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4401573933"
       },
       {
         "title": "Eastern Regional Field Medical Director - Hematology/Oncology",
@@ -142,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4356411422"
       },
       {
-        "title": "Assistant Manager, Medical Affairs - Education",
-        "company": "Alexandra Hospital, Singapore",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1776124800000,
-        "url": "https://www.linkedin.com/jobs/view/4401573933"
-      },
-      {
         "title": "Manager, Medical Affairs, Evidence Generation Operations",
         "company": "Legend Biotech",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4399785217"
+      },
+      {
+        "title": "Field Medical Advisor Emerging Therapies, MAEG, International",
+        "company": "argenx",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4399556112"
       },
       {
         "title": "Senior Manager - Medical Affairs & Nutrition Science",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4400785638"
+      },
+      {
+        "title": "Medical Advisor Springworks",
+        "company": "Merck Healthcare",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4398812261"
+      },
+      {
+        "title": "German Medical Advisor Endocrinology",
+        "company": "HeliosX Group",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4368350783"
+      },
+      {
+        "title": "Medical Advisor (f/m/d)",
+        "company": "Nia Health GmbH",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400169548"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "clinical",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "research",
@@ -208,39 +208,39 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "director medical",
-      "frequency": 7,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 90
-    },
-    {
       "keyword": "manager medical",
       "frequency": 6,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 90
     },
     {
-      "keyword": "specialist",
-      "frequency": 11,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 80
+      "keyword": "director medical",
+      "frequency": 6,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 90
     },
     {
       "keyword": "oncology",
-      "frequency": 10,
+      "frequency": 9,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
-    },
-    {
-      "keyword": "scientifico farmaco",
-      "frequency": 5,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 75
     },
     {
       "keyword": "affairs manager",
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
+    },
+    {
+      "keyword": "scientifico farmaco",
+      "frequency": 4,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
+    },
+    {
+      "keyword": "specialist",
+      "frequency": 6,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 60
     },
     {
@@ -250,57 +250,33 @@
       "confidence": 50
     },
     {
-      "keyword": "affairs specialist",
+      "keyword": "senior medical",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "senior medical",
-      "frequency": 3,
+      "keyword": "hematology",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
+    },
+    {
+      "keyword": "clinical development",
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 26 (-96%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 23 (-96%)",
       "data": {
         "current": 1,
-        "avg": 25.5,
-        "change_pct": -96.1
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "avg": 23.3,
+        "change_pct": -95.7
       }
     },
     {
@@ -310,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 79,
+            "id": 0,
+            "size": 91,
             "top_terms": [
               "pharmacovigilance",
               "safety",
               "informatore"
             ],
-            "pct": 30.9
-          },
-          {
-            "id": 2,
-            "size": 69,
-            "top_terms": [
-              "medical",
-              "director",
-              "advisor"
-            ],
-            "pct": 27.0
-          },
-          {
-            "id": 1,
-            "size": 37,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 14.5
+            "pct": 35.4
           },
           {
             "id": 4,
-            "size": 37,
+            "size": 65,
             "top_terms": [
+              "medical",
               "liaison",
-              "science",
-              "medical"
+              "advisor"
             ],
-            "pct": 14.5
+            "pct": 25.3
           },
           {
-            "id": 0,
+            "id": 3,
+            "size": 38,
+            "top_terms": [
+              "director",
+              "medical",
+              "affairs"
+            ],
+            "pct": 14.8
+          },
+          {
+            "id": 2,
             "size": 34,
             "top_terms": [
               "affairs",
               "regulatory",
               "manager"
             ],
-            "pct": 13.3
+            "pct": 13.2
+          },
+          {
+            "id": 1,
+            "size": 29,
+            "top_terms": [
+              "research",
+              "clinical",
+              "associate"
+            ],
+            "pct": 11.3
           }
         ]
       }

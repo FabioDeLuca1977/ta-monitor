@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-20T08:44:48.085203",
+  "generated_at": "2026-04-21T08:27:01.788232",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 27,
   "scoring": {
-    "average": 21.9,
+    "average": 20.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 11,
+      "medium": 10,
       "low": 0,
-      "irrelevant": 16
+      "irrelevant": 17
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4387809282"
-      },
-      {
-        "title": "Regulatory Affairs Specialist - Energy",
-        "company": "Gruppo Hera",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1774828800000,
-        "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
         "title": "Real World Evidence Specialist",
@@ -54,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4393427025"
       },
       {
+        "title": "Regulatory Affairs Stageur",
+        "company": "JSB Solutions",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400189414"
+      },
+      {
         "title": "Clinical Specialist",
         "company": "THD SpA",
         "score": 42,
@@ -76,14 +76,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399296018"
-      },
-      {
-        "title": "Regulatory Affairs Stageur",
-        "company": "JSB Solutions",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
         "title": "Clinical Specialist Chirurgia",
@@ -126,20 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
-        "title": "Process Engineer",
+        "title": "Procurement Digital and AI Lead",
         "company": "Dentsply Sirona",
-        "score": 10,
+        "score": 11,
         "site": "indeed",
-        "date_posted": 1776384000000,
-        "url": "https://it.indeed.com/viewjob?jk=c8962b7645cd2ec7"
-      },
-      {
-        "title": "Product Owner",
-        "company": "LINCOTEK GROUP",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1776038400000,
-        "url": "https://it.indeed.com/viewjob?jk=3478c4a377aff523"
+        "date_posted": 1776643200000,
+        "url": "https://it.indeed.com/viewjob?jk=105e53971478b331"
       },
       {
         "title": "Purchasing Manager",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389193185"
+      },
+      {
+        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
+        "company": "Elleuno scs",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400973107"
+      },
+      {
+        "title": "Direttore/direttrice per CRA a Mirandola (MO)",
+        "company": "Codess Sociale Soc Coop",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4403487731"
       }
     ]
   },
@@ -201,41 +201,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-58%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-54%)",
       "data": {
         "current": 1,
-        "avg": 2.4,
-        "change_pct": -57.7
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "avg": 2.2,
+        "change_pct": -53.8
       }
     },
     {
@@ -245,24 +215,14 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 9,
+            "id": 2,
+            "size": 10,
             "top_terms": [
               "engineer",
               "medical",
               "devices"
             ],
-            "pct": 33.3
-          },
-          {
-            "id": 0,
-            "size": 6,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "junior"
-            ],
-            "pct": 22.2
+            "pct": 37.0
           },
           {
             "id": 1,
@@ -275,7 +235,17 @@
             "pct": 22.2
           },
           {
-            "id": 2,
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "junior"
+            ],
+            "pct": 18.5
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "manager",
