@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-04-21T08:27:02.059661",
+  "generated_at": "2026-04-22T08:22:58.047787",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 279,
+  "total_jobs_analyzed": 293,
   "scoring": {
-    "average": 15.7,
+    "average": 15.2,
     "distribution": {
       "excellent": 0,
       "good": 22,
       "medium": 30,
-      "low": 5,
-      "irrelevant": 222
+      "low": 3,
+      "irrelevant": 238
     },
     "top_jobs": [
+      {
+        "title": "Scientific and Regulatory Affairs Manager",
+        "company": "Henkel",
+        "score": 74,
+        "site": "indeed",
+        "date_posted": 1776729600000,
+        "url": "https://it.indeed.com/viewjob?jk=cfdd15acb40344cd"
+      },
       {
         "title": "Regulatory Affair Intern - Medical Device",
         "company": "Abbott",
@@ -20,6 +28,14 @@
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=b84395cf5563a1f5"
+      },
+      {
+        "title": "REGULATORY MANAGER",
+        "company": "INTERCOSMETICS MILANO",
+        "score": 68,
+        "site": "indeed",
+        "date_posted": 1776729600000,
+        "url": "https://it.indeed.com/viewjob?jk=6945280a711c794c"
       },
       {
         "title": "Quality Assurance & Regulatory Affairs Specialist",
@@ -31,27 +47,11 @@
       },
       {
         "title": "Regulatory Specialist",
-        "company": "IRCA Group",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1776124800000,
-        "url": "https://www.linkedin.com/jobs/view/4389487359"
-      },
-      {
-        "title": "Regulatory Specialist",
         "company": "Element Solutions Inc",
         "score": 65,
         "site": "linkedin",
         "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4400798105"
-      },
-      {
-        "title": "CMC Regulatory Specialist",
-        "company": "Grafton Recruitment",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1774828800000,
-        "url": "https://www.linkedin.com/jobs/view/4391055573"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST",
@@ -84,14 +84,6 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401052278"
-      },
-      {
-        "title": "REGULATORY AFFAIRS OFFICER (FS)",
-        "company": "Cooper Consumer Health Italy",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1775001600000,
-        "url": "https://www.linkedin.com/jobs/view/4393000679"
       },
       {
         "title": "Senior Manager Regulatory Affairs",
@@ -134,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
+        "title": "Associate Start Up & Regulatory Manager",
+        "company": "IQVIA",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=328f33a100a37f28"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "De Nora",
         "score": 61,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4387965325"
       },
       {
-        "title": "Associate Start Up & Regulatory Manager",
-        "company": "IQVIA",
+        "title": "Regulatory Specialist",
+        "company": "IRCA Group",
         "score": 60,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=328f33a100a37f28"
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4389487359"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "italy",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "project",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "director",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "sales",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "account",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       }
@@ -248,31 +248,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/17 annunci da aziende nuove (52.9%)",
+      "message": "📊 Ultimo scan: 17/23 annunci da aziende nuove (73.9%)",
       "data": {
-        "new": 9,
-        "total": 17,
-        "pct": 52.9
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 40% a 76% (+36pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 40.0,
-        "new_pct": 76.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 60% a 24% (-36pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 60.0,
-        "new_pct": 23.5
+        "new": 17,
+        "total": 23,
+        "pct": 73.9
       }
     },
     {
@@ -283,53 +263,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 161,
+            "size": 187,
             "top_terms": [
               "specialist",
-              "engineer",
-              "compliance"
-            ],
-            "pct": 57.7
-          },
-          {
-            "id": 1,
-            "size": 38,
-            "top_terms": [
               "quality",
-              "assurance",
-              "specialist"
+              "assurance"
             ],
-            "pct": 13.6
+            "pct": 63.8
           },
           {
             "id": 4,
-            "size": 37,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 13.3
-          },
-          {
-            "id": 2,
-            "size": 33,
+            "size": 40,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 11.8
+            "pct": 13.7
+          },
+          {
+            "id": 1,
+            "size": 36,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 12.3
           },
           {
             "id": 3,
+            "size": 20,
+            "top_terms": [
+              "director",
+              "associate",
+              "development"
+            ],
+            "pct": 6.8
+          },
+          {
+            "id": 2,
             "size": 10,
             "top_terms": [
               "account",
               "executive",
               "key"
             ],
-            "pct": 3.6
+            "pct": 3.4
           }
         ]
       }

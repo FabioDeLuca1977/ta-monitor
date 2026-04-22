@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-04-21T08:27:02.097839",
+  "generated_at": "2026-04-22T08:22:58.089907",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 44,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 14.8,
+    "average": 14.1,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 5,
-      "low": 0,
-      "irrelevant": 36
+      "medium": 4,
+      "low": 1,
+      "irrelevant": 38
     },
     "top_jobs": [
       {
-        "title": "Regulatory Affairs",
-        "company": "COC Farmaceutici",
-        "score": 60,
+        "title": "Regulatory Affairs Specialist - Energy",
+        "company": "Gruppo Hera",
+        "score": 71,
         "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4393427025"
+        "date_posted": 1776643200000,
+        "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
         "title": "Regulatory Affairs Junior - Assistente Affari Regolatori",
@@ -38,17 +38,9 @@
         "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
-        "title": "Quality Assurance & Qualified Person Manager",
-        "company": "SGB Humangest Holding",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1774828800000,
-        "url": "https://www.linkedin.com/jobs/view/4395041812"
-      },
-      {
         "title": "Regulatory Affairs Junior",
         "company": "COC Farmaceutici",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4393427025"
@@ -78,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4398824679"
       },
       {
+        "title": "Junior Quality Assurance Specialist",
+        "company": "SGB Humangest Holding",
+        "score": 22,
+        "site": "linkedin",
+        "date_posted": 1776643200000,
+        "url": "https://www.linkedin.com/jobs/view/4401613481"
+      },
+      {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 15,
@@ -88,7 +88,15 @@
       {
         "title": "Technical Support Specialist – DACH and Benelux Markets",
         "company": "Geotab",
-        "score": 15,
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1776643200000,
+        "url": "https://it.indeed.com/viewjob?jk=bd1be889f765a483"
+      },
+      {
+        "title": "Copy of Technical Support Specialist – DACH and Benelux Markets",
+        "company": "Geotab",
+        "score": 14,
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=bd1be889f765a483"
@@ -110,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4397280859"
       },
       {
-        "title": "RA Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399728867"
-      },
-      {
         "title": "Senior Verification, Validation Engineer_Medical Device",
         "company": "Grafton Recruitment",
         "score": 13,
@@ -134,12 +134,28 @@
         "url": "https://www.linkedin.com/jobs/view/4402168144"
       },
       {
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
+      },
+      {
         "title": "General Manager",
         "company": "Hines",
         "score": 12,
         "site": "indeed",
         "date_posted": 1776384000000,
         "url": "https://it.indeed.com/viewjob?jk=6bb2d28654a9e67c"
+      },
+      {
+        "title": "Quality Assurance Specialist – Categoria Protetta (L. 68/99)",
+        "company": "INCO",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401961170"
       },
       {
         "title": "Associate - Quality Assurance Formulation Line",
@@ -150,28 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4379862046"
       },
       {
-        "title": "Manutentore",
-        "company": "House Of Nine S.r.l.",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1776470400000,
-        "url": "https://it.indeed.com/viewjob?jk=2b7ac38c3f18f7f8"
-      },
-      {
         "title": "Sales Account Divisione Legno Borgo San Lorenzo (FI)",
         "company": "Würth",
         "score": 10,
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=40ab21668a8daf09"
-      },
-      {
-        "title": "Progettista schemi elettrici - Automotive Field",
-        "company": "Star7",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=c98ac17711b0788f"
       }
     ]
   },
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -200,6 +195,11 @@
       },
       {
         "word": "field",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -218,11 +218,11 @@
     {
       "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+41%)",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+34%)",
       "data": {
         "current": 5,
-        "avg": 3.5,
-        "change_pct": 41.0
+        "avg": 3.7,
+        "change_pct": 34.1
       }
     },
     {
@@ -236,60 +236,80 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 60% (+60pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 60.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 40% (-60pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 40.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 2,
             "size": 22,
             "top_terms": [
-              "field",
               "manutentore",
-              "tecnico"
+              "tecnico",
+              "sales"
             ],
-            "pct": 50.0
+            "pct": 47.8
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 0,
+            "size": 8,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 15.9
+            "pct": 17.4
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 6,
             "top_terms": [
               "affairs",
               "regulatory",
               "junior"
             ],
-            "pct": 13.6
+            "pct": 13.0
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 5,
             "top_terms": [
               "engineer",
               "senior",
               "assurance"
             ],
-            "pct": 11.4
+            "pct": 10.9
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "manager",
               "field",
-              "assurance"
+              "manager",
+              "tecnico"
             ],
-            "pct": 9.1
+            "pct": 10.9
           }
         ]
       }

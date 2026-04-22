@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-21T08:27:01.506377",
+  "generated_at": "2026-04-22T08:22:57.450893",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 193,
+  "total_jobs_analyzed": 195,
   "scoring": {
-    "average": 26.2,
+    "average": 26.4,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 54,
-      "low": 57,
-      "irrelevant": 73
+      "good": 11,
+      "medium": 52,
+      "low": 55,
+      "irrelevant": 77
     },
     "top_jobs": [
       {
@@ -22,28 +22,36 @@
         "url": "https://www.linkedin.com/jobs/view/4401096606"
       },
       {
+        "title": "HR Generalist",
+        "company": "Task Force Service Srl",
+        "score": 67,
+        "site": "indeed",
+        "date_posted": 1776729600000,
+        "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
+      },
+      {
+        "title": "HR Talent Acquisition & Employer Branding",
+        "company": "Adecco",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386671476"
+      },
+      {
+        "title": "HR Generalist - Recruiter",
+        "company": "Conflavoro PMI",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404283147"
+      },
+      {
         "title": "Junior HR Specialist - Ufficio Risorse Umane",
         "company": "Jobs Service",
         "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399628506"
-      },
-      {
-        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
-        "company": "Letuelezioni",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4404548743"
-      },
-      {
-        "title": "HR TALENT ACQUISITION",
-        "company": "FiberCop",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402532471"
       },
       {
         "title": "HR SPECIALIST",
@@ -78,12 +86,28 @@
         "url": "https://www.linkedin.com/jobs/view/4399733754"
       },
       {
+        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
+        "company": "Letuelezioni",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404548743"
+      },
+      {
         "title": "Avviso di selezione per n.1 HR Generalist Ufficio Risorse Umane (31 marzo - 10 aprile 2026)",
         "company": "ENEA Tech E Biomedical",
         "score": 60,
         "site": "indeed",
         "date_posted": 1774915200000,
         "url": "https://it.indeed.com/viewjob?jk=1415056297e026c2"
+      },
+      {
+        "title": "HR TALENT ACQUISITION",
+        "company": "FiberCop",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402532471"
       },
       {
         "title": "HR Specialist Tecnologie per il Benessere",
@@ -110,6 +134,14 @@
         "url": "https://bebee.com/it/jobs/talent-acquisition-specialist-golden-ratio-exchange-roma--jobrap-304733752982608281633711?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
+        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
+        "company": "DGS",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4353205273"
+      },
+      {
         "title": "HR Business Partner",
         "company": "Eataly",
         "score": 58,
@@ -134,44 +166,12 @@
         "url": "https://it.talent.com/view?id=614013933421724372&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
-        "company": "DGS",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4353205273"
-      },
-      {
         "title": "Junior HR Specialist - Clienti",
         "company": "sh-operation21",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399690266"
-      },
-      {
-        "title": "Stage Talent Acquisition",
-        "company": "Dan John",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4403484791"
-      },
-      {
-        "title": "IT & HR Consultant",
-        "company": "Tron Group Holding",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4403429750"
-      },
-      {
-        "title": "HR Consultant | Roma",
-        "company": "Ali Professional",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4397732258"
       }
     ]
   },
@@ -179,29 +179,29 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "addetto",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "word": "dell",
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
-        "word": "dell",
+        "word": "addetto",
         "count": 13,
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "personale",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
         "word": "conferimento",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "incarico",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "direttore",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,6 +209,12 @@
   "keyword_recommendations": [
     {
       "keyword": "junior hr",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "hr talent",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -244,39 +250,57 @@
       "confidence": 30
     },
     {
-      "keyword": "hr talent",
+      "keyword": "acquisition employer",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "snai italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "italy people",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "partnering specialist",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "junior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 11 annunci ultimo scan vs media 17 (-34%)",
+      "data": {
+        "current": 11,
+        "avg": 16.7,
+        "change_pct": -34.2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/12 annunci da aziende nuove (58.3%)",
+      "message": "📊 Ultimo scan: 3/11 annunci da aziende nuove (27.3%)",
       "data": {
-        "new": 7,
-        "total": 12,
-        "pct": 58.3
+        "new": 3,
+        "total": 11,
+        "pct": 27.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 38% a 18% (-20pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 38.5,
+        "new_pct": 18.2
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 62% a 82% (+20pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 61.5,
+        "new_pct": 81.8
       }
     },
     {
@@ -286,54 +310,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 91,
+            "id": 4,
+            "size": 118,
             "top_terms": [
-              "recruiter",
-              "tecnico",
-              "dell"
+              "specialist",
+              "recruiting",
+              "roma"
             ],
-            "pct": 47.2
+            "pct": 60.5
           },
           {
             "id": 2,
-            "size": 35,
+            "size": 33,
             "top_terms": [
+              "addetto",
               "umane",
-              "risorse",
-              "addetto"
+              "risorse"
             ],
-            "pct": 18.1
+            "pct": 16.9
+          },
+          {
+            "id": 1,
+            "size": 22,
+            "top_terms": [
+              "hr",
+              "recruiter",
+              "generalist"
+            ],
+            "pct": 11.3
           },
           {
             "id": 3,
-            "size": 34,
+            "size": 13,
             "top_terms": [
-              "hr",
-              "business",
-              "partner"
+              "dell",
+              "conferimento",
+              "incarico"
             ],
-            "pct": 17.6
+            "pct": 6.7
           },
           {
             "id": 0,
-            "size": 23,
+            "size": 9,
             "top_terms": [
-              "specialist",
               "talent",
-              "hr"
+              "acquisition",
+              "specialist"
             ],
-            "pct": 11.9
-          },
-          {
-            "id": 4,
-            "size": 10,
-            "top_terms": [
-              "day",
-              "recruiting",
-              "operatore"
-            ],
-            "pct": 5.2
+            "pct": 4.6
           }
         ]
       }
