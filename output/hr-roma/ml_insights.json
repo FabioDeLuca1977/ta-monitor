@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-22T08:22:57.450893",
+  "generated_at": "2026-04-23T08:28:09.765835",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 195,
+  "total_jobs_analyzed": 193,
   "scoring": {
-    "average": 26.4,
+    "average": 27.3,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 52,
-      "low": 55,
-      "irrelevant": 77
+      "good": 12,
+      "medium": 55,
+      "low": 52,
+      "irrelevant": 74
     },
     "top_jobs": [
       {
@@ -30,6 +30,14 @@
         "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
       },
       {
+        "title": "HR Generalist - Recruiter",
+        "company": "Conflavoro PMI",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404283147"
+      },
+      {
         "title": "HR Talent Acquisition & Employer Branding",
         "company": "Adecco",
         "score": 65,
@@ -38,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4386671476"
       },
       {
-        "title": "HR Generalist - Recruiter",
-        "company": "Conflavoro PMI",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4404283147"
-      },
-      {
         "title": "Junior HR Specialist - Ufficio Risorse Umane",
         "company": "Jobs Service",
         "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399628506"
+      },
+      {
+        "title": "Junior HR Manager - Gestione del Benessere",
+        "company": "sh-operation21",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399688281"
       },
       {
         "title": "HR SPECIALIST",
@@ -70,14 +78,6 @@
         "url": "https://www.jobijoba.it/annunci-di-lavoro/13/892c634679343ffbf7d1f836cd38ec4a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
       },
       {
-        "title": "Junior HR Manager - Gestione del Benessere",
-        "company": "sh-operation21",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399688281"
-      },
-      {
         "title": "HR Specialist",
         "company": "Prisma Srl",
         "score": 61,
@@ -94,17 +94,17 @@
         "url": "https://www.linkedin.com/jobs/view/4404548743"
       },
       {
-        "title": "Avviso di selezione per n.1 HR Generalist Ufficio Risorse Umane (31 marzo - 10 aprile 2026)",
-        "company": "ENEA Tech E Biomedical",
-        "score": 60,
+        "title": "HR Business Partner (2 posts)",
+        "company": "European Space Agency",
+        "score": 61,
         "site": "indeed",
-        "date_posted": 1774915200000,
-        "url": "https://it.indeed.com/viewjob?jk=1415056297e026c2"
+        "date_posted": 1776816000000,
+        "url": "https://it.indeed.com/viewjob?jk=674a47ea8cd8f453"
       },
       {
         "title": "HR TALENT ACQUISITION",
         "company": "FiberCop",
-        "score": 59,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402532471"
@@ -142,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4353205273"
       },
       {
+        "title": "Junior HR Specialist - Clienti",
+        "company": "sh-operation21",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399690266"
+      },
+      {
         "title": "HR Business Partner",
         "company": "Eataly",
         "score": 58,
@@ -150,12 +158,12 @@
         "url": "https://www.linkedin.com/jobs/view/4403482322"
       },
       {
-        "title": "Addetto/a Ricerca e Selezione – Settore Informatica e Servizi HR",
-        "company": "key-absolute",
-        "score": 57,
+        "title": "HR Generalist - Tecnologie per l'acqua",
+        "company": "Tuolavoro-Lazio",
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4394465915"
+        "url": "https://www.linkedin.com/jobs/view/4404467555"
       },
       {
         "title": "Senior HR Recruiter – Industrial Sector (Brescia)",
@@ -164,14 +172,6 @@
         "site": "google",
         "date_posted": 1775520000000,
         "url": "https://it.talent.com/view?id=614013933421724372&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Junior HR Specialist - Clienti",
-        "company": "sh-operation21",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399690266"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "dell",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "conferimento",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "incarico",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "direttore",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       }
     ],
     "review": []
@@ -220,10 +220,10 @@
       "confidence": 45
     },
     {
-      "keyword": "ufficio risorse",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "keyword": "junior",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
       "keyword": "partner centro",
@@ -256,51 +256,66 @@
       "confidence": 30
     },
     {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
+      "keyword": "snai italy",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "italy people",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 11 annunci ultimo scan vs media 17 (-34%)",
+      "severity": "high",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 17 (-52%)",
       "data": {
-        "current": 11,
-        "avg": 16.7,
-        "change_pct": -34.2
+        "current": 8,
+        "avg": 16.8,
+        "change_pct": -52.4
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Tuolavoro-Lazio: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Tuolavoro-Lazio",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/11 annunci da aziende nuove (27.3%)",
+      "message": "📊 Ultimo scan: 6/8 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 3,
-        "total": 11,
-        "pct": 27.3
+        "new": 6,
+        "total": 8,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 38% a 18% (-20pp)",
+      "message": "📡 linkedin: quota passata da 18% a 75% (+57pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 38.5,
-        "new_pct": 18.2
+        "old_pct": 18.2,
+        "new_pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 62% a 82% (+20pp)",
+      "message": "📡 indeed: quota passata da 82% a 25% (-57pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 61.5,
-        "new_pct": 81.8
+        "old_pct": 81.8,
+        "new_pct": 25.0
       }
     },
     {
@@ -310,54 +325,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 118,
+            "id": 0,
+            "size": 83,
             "top_terms": [
-              "specialist",
-              "recruiting",
-              "roma"
-            ],
-            "pct": 60.5
-          },
-          {
-            "id": 2,
-            "size": 33,
-            "top_terms": [
-              "addetto",
-              "umane",
-              "risorse"
-            ],
-            "pct": 16.9
-          },
-          {
-            "id": 1,
-            "size": 22,
-            "top_terms": [
-              "hr",
               "recruiter",
-              "generalist"
+              "day",
+              "recruiting"
             ],
-            "pct": 11.3
+            "pct": 43.0
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 57,
             "top_terms": [
-              "dell",
-              "conferimento",
-              "incarico"
+              "hr",
+              "specialist",
+              "talent"
             ],
-            "pct": 6.7
+            "pct": 29.5
           },
           {
-            "id": 0,
-            "size": 9,
+            "id": 2,
+            "size": 26,
             "top_terms": [
-              "talent",
-              "acquisition",
-              "specialist"
+              "risorse",
+              "umane",
+              "addetto"
             ],
-            "pct": 4.6
+            "pct": 13.5
+          },
+          {
+            "id": 1,
+            "size": 15,
+            "top_terms": [
+              "addetto",
+              "personale",
+              "ufficio"
+            ],
+            "pct": 7.8
+          },
+          {
+            "id": 4,
+            "size": 12,
+            "top_terms": [
+              "dell",
+              "incarico",
+              "conferimento"
+            ],
+            "pct": 6.2
           }
         ]
       }

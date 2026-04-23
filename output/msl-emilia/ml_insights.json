@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-22T08:22:57.748457",
+  "generated_at": "2026-04-23T08:28:10.071766",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 20.7,
+    "average": 19.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 10,
+      "medium": 8,
       "low": 0,
-      "irrelevant": 17
+      "irrelevant": 16
     },
     "top_jobs": [
       {
@@ -30,28 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4387809282"
       },
       {
-        "title": "Real World Evidence Specialist",
-        "company": "VIVISOL",
-        "score": 46,
-        "site": "google",
-        "date_posted": null,
-        "url": "https://it.trabajo.org/offerta-1941-c05e2e734de46c2817efa14aa3d15180?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
-        "title": "Regulatory Affairs",
-        "company": "COC Farmaceutici",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4393427025"
-      },
-      {
         "title": "Regulatory Affairs Junior",
         "company": "COC Farmaceutici",
         "score": 43,
         "site": "linkedin",
         "date_posted": 1775088000000,
         "url": "https://www.linkedin.com/jobs/view/4393427025"
+      },
+      {
+        "title": "Regulatory Affairs Stageur",
+        "company": "JSB Solutions",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
         "title": "Clinical Specialist",
@@ -70,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4399296018"
       },
       {
-        "title": "Regulatory Affairs Stageur",
-        "company": "JSB Solutions",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4400189414"
-      },
-      {
         "title": "Clinical Specialist Chirurgia",
         "company": "Carlo Bianchi S.r.l.",
         "score": 41,
@@ -94,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4399878809"
       },
       {
-        "title": "Patient Journey Manager - Finland",
-        "company": "Kyowa Kirin International",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1776556800000,
-        "url": "https://it.indeed.com/viewjob?jk=dad9875fc150cecf"
-      },
-      {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 15,
@@ -116,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
+      },
+      {
+        "title": "Patient Journey Manager - Finland",
+        "company": "Kyowa Kirin International",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1776556800000,
+        "url": "https://it.indeed.com/viewjob?jk=dad9875fc150cecf"
       },
       {
         "title": "Procurement Digital and AI Lead",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4403487731"
+      },
+      {
+        "title": "Process Engineer",
+        "company": "Dentsply Sirona",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=c8962b7645cd2ec7"
+      },
+      {
+        "title": "MANUFACTURING ENGINEER",
+        "company": "LINCOTEK GROUP",
+        "score": 3,
+        "site": "indeed",
+        "date_posted": 1775520000000,
+        "url": "https://it.indeed.com/viewjob?jk=c166af5a64057fad"
       }
     ]
   },
@@ -201,11 +201,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-54%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-52%)",
       "data": {
         "current": 1,
-        "avg": 2.2,
-        "change_pct": -53.8
+        "avg": 2.1,
+        "change_pct": -52.2
       }
     },
     {
@@ -241,58 +241,48 @@
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
             "id": 3,
-            "size": 10,
+            "size": 13,
             "top_terms": [
-              "engineer",
-              "medical",
-              "devices"
+              "specialist",
+              "clinical",
+              "engineer"
             ],
-            "pct": 37.0
+            "pct": 54.2
           },
           {
-            "id": 2,
-            "size": 6,
+            "id": 0,
+            "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "junior"
             ],
-            "pct": 22.2
+            "pct": 20.8
           },
           {
             "id": 1,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "regulatory"
-            ],
-            "pct": 18.5
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "manager",
-              "specialist",
-              "regulatory"
-            ],
-            "pct": 11.1
-          },
-          {
-            "id": 4,
             "size": 3,
             "top_terms": [
               "cra",
               "specialist",
               "regulatory"
             ],
-            "pct": 11.1
+            "pct": 12.5
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "manager",
+              "specialist",
+              "regulatory"
+            ],
+            "pct": 12.5
           }
         ]
       }

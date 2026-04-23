@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-22T08:22:58.089907",
+  "generated_at": "2026-04-23T08:28:10.416991",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 46,
+  "total_jobs_analyzed": 48,
   "scoring": {
-    "average": 14.1,
+    "average": 14.6,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 4,
+      "medium": 5,
       "low": 1,
-      "irrelevant": 38
+      "irrelevant": 39
     },
     "top_jobs": [
       {
@@ -56,7 +56,7 @@
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Whitelab",
-        "score": 51,
+        "score": 47,
         "site": "indeed",
         "date_posted": 1776211200000,
         "url": "https://it.indeed.com/viewjob?jk=a8a4074f39a3293f"
@@ -68,6 +68,14 @@
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4398824679"
+      },
+      {
+        "title": "Quality Assurance Consultant (settore farmaceutico)",
+        "company": "fortil",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404468538"
       },
       {
         "title": "Junior Quality Assurance Specialist",
@@ -84,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398457330"
+      },
+      {
+        "title": "Compensation & Benefits Specialist",
+        "company": "Coesia",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1776816000000,
+        "url": "https://it.indeed.com/viewjob?jk=03e06ed115942beb"
       },
       {
         "title": "Technical Support Specialist – DACH and Benelux Markets",
@@ -116,14 +132,6 @@
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4397280859"
-      },
-      {
-        "title": "Senior Verification, Validation Engineer_Medical Device",
-        "company": "Grafton Recruitment",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4399937608"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4379862046"
-      },
-      {
-        "title": "Sales Account Divisione Legno Borgo San Lorenzo (FI)",
-        "company": "Würth",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=40ab21668a8daf09"
       }
     ]
   },
@@ -195,8 +195,8 @@
       },
       {
         "word": "field",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -216,43 +216,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+34%)",
-      "data": {
-        "current": 5,
-        "avg": 3.7,
-        "change_pct": 34.1
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 60% (+60pp)",
+      "message": "📡 linkedin: quota passata da 60% a 33% (-27pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 60.0
+        "old_pct": 60.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 40% (-60pp)",
+      "message": "📡 indeed: quota passata da 40% a 67% (+27pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 40.0
+        "old_pct": 40.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -262,14 +252,14 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 22,
+            "id": 1,
+            "size": 25,
             "top_terms": [
+              "elettrico",
               "manutentore",
-              "tecnico",
-              "sales"
+              "head"
             ],
-            "pct": 47.8
+            "pct": 52.1
           },
           {
             "id": 0,
@@ -279,37 +269,37 @@
               "quality",
               "specialist"
             ],
-            "pct": 17.4
+            "pct": 16.7
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 6,
             "top_terms": [
               "affairs",
               "regulatory",
               "junior"
             ],
-            "pct": 13.0
+            "pct": 12.5
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 5,
             "top_terms": [
               "engineer",
               "senior",
               "assurance"
             ],
-            "pct": 10.9
+            "pct": 10.4
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 2,
+            "size": 4,
             "top_terms": [
-              "field",
               "manager",
-              "tecnico"
+              "field",
+              "technical"
             ],
-            "pct": 10.9
+            "pct": 8.3
           }
         ]
       }

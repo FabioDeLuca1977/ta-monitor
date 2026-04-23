@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-22T08:22:57.714112",
+  "generated_at": "2026-04-23T08:28:10.037988",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 183,
+  "total_jobs_analyzed": 184,
   "scoring": {
-    "average": 27.6,
+    "average": 27.9,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 73,
+      "good": 6,
+      "medium": 74,
       "low": 16,
-      "irrelevant": 89
+      "irrelevant": 88
     },
     "top_jobs": [
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
@@ -54,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4402435466"
       },
       {
-        "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
-        "company": "Teva Pharmaceuticals",
-        "score": 59,
+        "title": "Medical Advisor Hematology- Italy",
+        "company": "Amgen Italia",
+        "score": 60,
         "site": "linkedin",
-        "date_posted": 1775001600000,
-        "url": "https://www.linkedin.com/jobs/view/4381997937"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405262408"
       },
       {
-        "title": "Medical Advisor Cardiovascular",
-        "company": "AstraZeneca",
+        "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
+        "company": "Teva Pharmaceuticals",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1775001600000,
-        "url": "https://www.linkedin.com/jobs/view/4392885690"
+        "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
         "title": "Medical Affairs Director, Chronic & Prevention",
@@ -84,6 +84,14 @@
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=b84395cf5563a1f5"
+      },
+      {
+        "title": "Medical Advisor Cardiovascular",
+        "company": "AstraZeneca",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1775001600000,
+        "url": "https://www.linkedin.com/jobs/view/4392885690"
       },
       {
         "title": "Medical Monitor (Gastroenterology)",
@@ -110,36 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4402522369"
       },
       {
-        "title": "Medical Advisor Biologics - Dermatology",
-        "company": "Galderma",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4380931992"
-      },
-      {
         "title": "Junior Medical Advisor",
         "company": "KOLINPHARMA S.p.A",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4403923357"
-      },
-      {
-        "title": "Pediatric / Neuromuscular - Medical Director",
-        "company": "Medpace",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1775260800000,
-        "url": "https://www.linkedin.com/jobs/view/4331970392"
-      },
-      {
-        "title": "Dermatologist - Medical Director",
-        "company": "Medpace",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1775174400000,
-        "url": "https://www.linkedin.com/jobs/view/4331270944"
       },
       {
         "title": "Medical Science Liaison Paediatric Oncology - Milan",
@@ -156,6 +140,22 @@
         "site": "linkedin",
         "date_posted": 1775260800000,
         "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Pediatric / Neuromuscular - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1775260800000,
+        "url": "https://www.linkedin.com/jobs/view/4331970392"
+      },
+      {
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1775174400000,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
       },
       {
         "title": "Hepatology - Medical Director",
@@ -185,8 +185,8 @@
       },
       {
         "word": "senior",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "project",
@@ -209,7 +209,7 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 8,
+      "frequency": 9,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
@@ -222,33 +222,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 14 (-64%)",
+      "data": {
+        "current": 5,
+        "avg": 13.8,
+        "change_pct": -63.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/10 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 5,
-        "total": 10,
-        "pct": 50.0
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 55% a 10% (-45pp)",
+      "message": "📡 linkedin: quota passata da 10% a 60% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 54.5,
-        "new_pct": 10.0
+        "old_pct": 10.0,
+        "new_pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 45% a 90% (+45pp)",
+      "message": "📡 indeed: quota passata da 90% a 40% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 45.5,
-        "new_pct": 90.0
+        "old_pct": 90.0,
+        "new_pct": 40.0
       }
     },
     {
@@ -258,14 +268,24 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 62,
+            "id": 0,
+            "size": 55,
             "top_terms": [
               "engineer",
-              "senior",
-              "cra"
+              "italy",
+              "senior"
             ],
-            "pct": 33.9
+            "pct": 29.9
+          },
+          {
+            "id": 2,
+            "size": 44,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 23.9
           },
           {
             "id": 3,
@@ -273,39 +293,29 @@
             "top_terms": [
               "medical",
               "director",
-              "affairs"
+              "italy"
             ],
-            "pct": 21.3
+            "pct": 21.2
           },
           {
-            "id": 2,
-            "size": 36,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 19.7
-          },
-          {
-            "id": 0,
-            "size": 35,
+            "id": 1,
+            "size": 26,
             "top_terms": [
               "manager",
-              "affairs",
-              "market"
+              "project",
+              "clinical"
             ],
-            "pct": 19.1
+            "pct": 14.1
           },
           {
             "id": 4,
-            "size": 11,
+            "size": 20,
             "top_terms": [
-              "research",
               "clinical",
+              "research",
               "associate"
             ],
-            "pct": 6.0
+            "pct": 10.9
           }
         ]
       }

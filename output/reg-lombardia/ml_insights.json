@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-22T08:22:58.047787",
+  "generated_at": "2026-04-23T08:28:10.371460",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 293,
+  "total_jobs_analyzed": 298,
   "scoring": {
-    "average": 15.2,
+    "average": 14.9,
     "distribution": {
       "excellent": 0,
-      "good": 22,
-      "medium": 30,
-      "low": 3,
-      "irrelevant": 238
+      "good": 20,
+      "medium": 28,
+      "low": 5,
+      "irrelevant": 245
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://it.indeed.com/viewjob?jk=cfdd15acb40344cd"
       },
       {
-        "title": "Regulatory Affair Intern - Medical Device",
-        "company": "Abbott",
-        "score": 69,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=b84395cf5563a1f5"
-      },
-      {
         "title": "REGULATORY MANAGER",
         "company": "INTERCOSMETICS MILANO",
-        "score": 68,
+        "score": 69,
         "site": "indeed",
         "date_posted": 1776729600000,
         "url": "https://it.indeed.com/viewjob?jk=6945280a711c794c"
+      },
+      {
+        "title": "Regulatory Affair Intern - Medical Device",
+        "company": "Abbott",
+        "score": 68,
+        "site": "indeed",
+        "date_posted": 1776643200000,
+        "url": "https://it.indeed.com/viewjob?jk=b84395cf5563a1f5"
       },
       {
         "title": "Quality Assurance & Regulatory Affairs Specialist",
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Specialist",
         "company": "Element Solutions Inc",
-        "score": 65,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4400798105"
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4401052278"
       },
       {
-        "title": "Senior Manager Regulatory Affairs",
-        "company": "Fraser Dove International",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1774915200000,
-        "url": "https://www.linkedin.com/jobs/view/4395855634"
-      },
-      {
         "title": "Head of Regulatory Affairs",
         "company": "Jobgether",
         "score": 62,
@@ -126,6 +118,30 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
+        "title": "Regulatory Specialist",
+        "company": "Carboline",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4388904492"
+      },
+      {
+        "title": "Lead Regulatory Affairs Manager, International",
+        "company": "Exact Sciences",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387965325"
+      },
+      {
+        "title": "Regulatory Specialist",
+        "company": "IRCA Group",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4389487359"
+      },
+      {
         "title": "Associate Start Up & Regulatory Manager",
         "company": "IQVIA",
         "score": 61,
@@ -144,34 +160,18 @@
       {
         "title": "R&D and Regulatory Specialist",
         "company": "Fedrigoni Group",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
-        "date_posted": 1774915200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4373812387"
       },
       {
-        "title": "Regulatory Specialist",
-        "company": "Carboline",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4388904492"
-      },
-      {
-        "title": "Lead Regulatory Affairs Manager, International",
-        "company": "Exact Sciences",
+        "title": "Regulatory Affairs Specialist - Mendrisio site (Ticino)",
+        "company": "Sintetica",
         "score": 60,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4387965325"
-      },
-      {
-        "title": "Regulatory Specialist",
-        "company": "IRCA Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1776124800000,
-        "url": "https://www.linkedin.com/jobs/view/4389487359"
+        "url": "https://www.linkedin.com/jobs/view/4403635106"
       }
     ]
   },
@@ -179,9 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "senior",
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
+      },
+      {
         "word": "italy",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
+      },
+      {
+        "word": "director",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "project",
@@ -189,19 +199,9 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "director",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
         "word": "engineer",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "sales",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,30 +214,6 @@
       "confidence": 30
     },
     {
-      "keyword": "manager regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "assurance qualified",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "person manager",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "senior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "consultant",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -245,6 +221,15 @@
     }
   ],
   "anomalies": [
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Indie Campers: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Indie Campers",
+        "count": 2
+      }
+    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
@@ -262,54 +247,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 187,
+            "id": 1,
+            "size": 181,
             "top_terms": [
               "specialist",
-              "quality",
-              "assurance"
+              "engineer",
+              "italy"
             ],
-            "pct": 63.8
+            "pct": 60.7
+          },
+          {
+            "id": 2,
+            "size": 38,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 12.8
           },
           {
             "id": 4,
-            "size": 40,
+            "size": 37,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 13.7
+            "pct": 12.4
           },
           {
-            "id": 1,
-            "size": 36,
+            "id": 3,
+            "size": 35,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.3
+            "pct": 11.7
           },
           {
-            "id": 3,
-            "size": 20,
+            "id": 0,
+            "size": 7,
             "top_terms": [
-              "director",
-              "associate",
-              "development"
+              "tecnico",
+              "ferrotranviario",
+              "ingegnere"
             ],
-            "pct": 6.8
-          },
-          {
-            "id": 2,
-            "size": 10,
-            "top_terms": [
-              "account",
-              "executive",
-              "key"
-            ],
-            "pct": 3.4
+            "pct": 2.3
           }
         ]
       }

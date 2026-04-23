@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-22T08:22:57.874974",
+  "generated_at": "2026-04-23T08:28:10.206026",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 252,
+  "total_jobs_analyzed": 251,
   "scoring": {
-    "average": 33.3,
+    "average": 33.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 155,
-      "low": 2,
-      "irrelevant": 95
+      "low": 3,
+      "irrelevant": 93
     },
     "top_jobs": [
       {
@@ -44,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401034969"
+      },
+      {
+        "title": "QARA (Quality Assurance and Regulatory Affairs) Program Manager (x/f/m)",
+        "company": "Doctolib",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402506091"
       },
       {
         "title": "Senior Manager Quality Assurance & Regulatory Affairs",
@@ -150,14 +158,6 @@
         "url": "https://www.linkedin.com/jobs/view/4382275852"
       },
       {
-        "title": "QARA (Quality Assurance and Regulatory Affairs) Program Manager (x/f/m)",
-        "company": "Doctolib",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402506091"
-      },
-      {
         "title": "Regulatory Affairs Specialist, Human Nutrition",
         "company": "Ravago",
         "score": 55,
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 23,
-        "reason": "Appare 23x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "director",
@@ -208,28 +208,28 @@
   },
   "keyword_recommendations": [
     {
+      "keyword": "senior regulatory",
+      "frequency": 7,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 90
+    },
+    {
       "keyword": "manager regulatory",
       "frequency": 6,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 90
     },
     {
-      "keyword": "senior regulatory",
-      "frequency": 6,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 90
-    },
-    {
       "keyword": "senior",
-      "frequency": 14,
+      "frequency": 16,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
     {
       "keyword": "senior manager",
-      "frequency": 4,
+      "frequency": 5,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
+      "confidence": 75
     },
     {
       "keyword": "associate director",
@@ -256,13 +256,13 @@
       "confidence": 45
     },
     {
-      "keyword": "director regulatory",
+      "keyword": "manager senior",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "associate director regulatory",
+      "keyword": "specialist regulatory",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -272,21 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 21 (-95%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 21 (-85%)",
       "data": {
-        "current": 1,
-        "avg": 20.9,
-        "change_pct": -95.2
+        "current": 3,
+        "avg": 20.7,
+        "change_pct": -85.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -296,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 96,
+            "id": 2,
+            "size": 80,
             "top_terms": [
-              "compliance",
               "specialist",
-              "regulatory"
+              "engineer",
+              "medical"
             ],
-            "pct": 38.1
+            "pct": 31.9
           },
           {
-            "id": 2,
-            "size": 51,
+            "id": 3,
+            "size": 71,
             "top_terms": [
               "affairs",
               "regulatory",
-              "specialist"
+              "manager"
             ],
-            "pct": 20.2
+            "pct": 28.3
           },
           {
-            "id": 0,
-            "size": 38,
+            "id": 4,
+            "size": 40,
             "top_terms": [
-              "manager",
-              "regulatory",
-              "affairs"
+              "director",
+              "cmc",
+              "regulatory"
             ],
-            "pct": 15.1
+            "pct": 15.9
           },
           {
             "id": 1,
-            "size": 37,
+            "size": 39,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 14.7
+            "pct": 15.5
           },
           {
-            "id": 3,
-            "size": 30,
+            "id": 0,
+            "size": 21,
             "top_terms": [
-              "cmc",
-              "director",
-              "regulatory"
+              "compliance",
+              "regulatory",
+              "manager"
             ],
-            "pct": 11.9
+            "pct": 8.4
           }
         ]
       }
