@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-23T08:28:09.765835",
+  "generated_at": "2026-04-24T08:36:58.570580",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 193,
+  "total_jobs_analyzed": 198,
   "scoring": {
-    "average": 27.3,
+    "average": 27.1,
     "distribution": {
       "excellent": 0,
-      "good": 12,
+      "good": 11,
       "medium": 55,
-      "low": 52,
-      "irrelevant": 74
+      "low": 56,
+      "irrelevant": 76
     },
     "top_jobs": [
       {
@@ -30,20 +30,20 @@
         "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
       },
       {
-        "title": "HR Generalist - Recruiter",
-        "company": "Conflavoro PMI",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4404283147"
-      },
-      {
         "title": "HR Talent Acquisition & Employer Branding",
         "company": "Adecco",
         "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386671476"
+      },
+      {
+        "title": "HR Generalist - Recruiter",
+        "company": "Conflavoro PMI",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404283147"
       },
       {
         "title": "Junior HR Specialist - Ufficio Risorse Umane",
@@ -102,9 +102,17 @@
         "url": "https://it.indeed.com/viewjob?jk=674a47ea8cd8f453"
       },
       {
+        "title": "Talent Acquisition Specialist",
+        "company": "Golden Ratio Exchange",
+        "score": 59,
+        "site": "google",
+        "date_posted": null,
+        "url": "https://bebee.com/it/jobs/talent-acquisition-specialist-golden-ratio-exchange-roma--jobrap-304733752982608281633711?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      {
         "title": "HR TALENT ACQUISITION",
         "company": "FiberCop",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402532471"
@@ -126,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4398102554"
       },
       {
-        "title": "Talent Acquisition Specialist",
-        "company": "Golden Ratio Exchange",
-        "score": 58,
-        "site": "google",
-        "date_posted": null,
-        "url": "https://bebee.com/it/jobs/talent-acquisition-specialist-golden-ratio-exchange-roma--jobrap-304733752982608281633711?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
-      },
-      {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
         "company": "DGS",
         "score": 58,
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4353205273"
       },
       {
-        "title": "Junior HR Specialist - Clienti",
-        "company": "sh-operation21",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399690266"
-      },
-      {
         "title": "HR Business Partner",
         "company": "Eataly",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4403482322"
+      },
+      {
+        "title": "HR RECRUITER SPECIALIST",
+        "company": "WJOB",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402800172"
       },
       {
         "title": "HR Generalist - Tecnologie per l'acqua",
@@ -185,8 +185,8 @@
       },
       {
         "word": "addetto",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "conferimento",
@@ -250,19 +250,19 @@
       "confidence": 30
     },
     {
-      "keyword": "acquisition employer",
+      "keyword": "appartenente alle",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "snai italy",
+      "keyword": "alle categorie",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "italy people",
+      "keyword": "categorie protette",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -271,51 +271,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 17 (-52%)",
-      "data": {
-        "current": 8,
-        "avg": 16.8,
-        "change_pct": -52.4
-      }
-    },
-    {
-      "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 Tuolavoro-Lazio: 2 posizioni, non presente negli scan precedenti",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 17 (-48%)",
       "data": {
-        "company": "Tuolavoro-Lazio",
-        "count": 2
+        "current": 9,
+        "avg": 17.2,
+        "change_pct": -47.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/8 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 4/9 annunci da aziende nuove (44.4%)",
       "data": {
-        "new": 6,
-        "total": 8,
-        "pct": 75.0
+        "new": 4,
+        "total": 9,
+        "pct": 44.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 18% a 75% (+57pp)",
+      "message": "📡 linkedin: quota passata da 67% a 44% (-22pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 18.2,
-        "new_pct": 75.0
+        "old_pct": 66.7,
+        "new_pct": 44.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 82% a 25% (-57pp)",
+      "message": "📡 indeed: quota passata da 33% a 56% (+22pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 81.8,
-        "new_pct": 25.0
+        "old_pct": 33.3,
+        "new_pct": 55.6
       }
     },
     {
@@ -326,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 83,
+            "size": 100,
             "top_terms": [
+              "addetto",
               "recruiter",
-              "day",
               "recruiting"
             ],
-            "pct": 43.0
+            "pct": 50.5
+          },
+          {
+            "id": 1,
+            "size": 45,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "talent"
+            ],
+            "pct": 22.7
           },
           {
             "id": 3,
-            "size": 57,
-            "top_terms": [
-              "hr",
-              "specialist",
-              "talent"
-            ],
-            "pct": 29.5
-          },
-          {
-            "id": 2,
-            "size": 26,
+            "size": 28,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 13.5
-          },
-          {
-            "id": 1,
-            "size": 15,
-            "top_terms": [
-              "addetto",
-              "personale",
-              "ufficio"
-            ],
-            "pct": 7.8
+            "pct": 14.1
           },
           {
             "id": 4,
+            "size": 13,
+            "top_terms": [
+              "partner",
+              "business",
+              "hr"
+            ],
+            "pct": 6.6
+          },
+          {
+            "id": 2,
             "size": 12,
             "top_terms": [
               "dell",
-              "incarico",
-              "conferimento"
+              "conferimento",
+              "incarico"
             ],
-            "pct": 6.2
+            "pct": 6.1
           }
         ]
       }

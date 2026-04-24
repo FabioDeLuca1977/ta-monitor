@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-23T08:28:10.206026",
+  "generated_at": "2026-04-24T08:36:58.953941",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 251,
+  "total_jobs_analyzed": 249,
   "scoring": {
-    "average": 33.4,
+    "average": 33.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 155,
-      "low": 3,
-      "irrelevant": 93
+      "low": 2,
+      "irrelevant": 92
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Associate Regulatory Affairs and Quality Assurance Manager, APAC",
         "company": "Sinclair",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401034969"
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4387864536"
       },
       {
-        "title": "Clinical Regulatory Analyst | $30/hr Remote",
-        "company": "Crossing Hurdles",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4401199798"
-      },
-      {
         "title": "Manager, Regulatory Compliance",
         "company": "Income Insurance Limited",
         "score": 56,
@@ -134,28 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399989108"
       },
       {
-        "title": "Regulatory Affairs Manager",
-        "company": "ORIC Pharmaceuticals Inc.",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1776124800000,
-        "url": "https://www.linkedin.com/jobs/view/4395215959"
-      },
-      {
         "title": "Regulatory Affairs & Quality Assurance Specialist",
         "company": "CooperVision",
         "score": 55,
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401300648"
-      },
-      {
-        "title": "Regulatory Affairs Manager, India & South Asia",
-        "company": "Align Technology",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4382275852"
       },
       {
         "title": "Regulatory Affairs Specialist, Human Nutrition",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4379132645"
+      },
+      {
+        "title": "Clinical Regulatory Analyst | $30/hr Remote",
+        "company": "Crossing Hurdles",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401199798"
+      },
+      {
+        "title": "Regulatory Affairs Manager",
+        "company": "ORIC Pharmaceuticals Inc.",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4395215959"
+      },
+      {
+        "title": "Specialist Regulatory Affairs",
+        "company": "Abbott",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4397382133"
       }
     ]
   },
@@ -185,13 +185,13 @@
       },
       {
         "word": "assurance",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "director",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "cmc",
@@ -200,8 +200,8 @@
       },
       {
         "word": "specialist",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       }
     ],
     "review": []
@@ -221,7 +221,7 @@
     },
     {
       "keyword": "senior",
-      "frequency": 16,
+      "frequency": 14,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
@@ -272,41 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 21 (-85%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 21 (-90%)",
       "data": {
-        "current": 3,
-        "avg": 20.7,
-        "change_pct": -85.5
+        "current": 2,
+        "avg": 20.6,
+        "change_pct": -90.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
+      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 50.0
       }
     },
     {
@@ -316,24 +316,34 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 80,
+            "id": 0,
+            "size": 74,
             "top_terms": [
               "specialist",
-              "engineer",
-              "medical"
+              "medical",
+              "engineer"
             ],
-            "pct": 31.9
+            "pct": 29.7
           },
           {
-            "id": 3,
-            "size": 71,
+            "id": 2,
+            "size": 73,
             "top_terms": [
               "affairs",
               "regulatory",
               "manager"
             ],
-            "pct": 28.3
+            "pct": 29.3
+          },
+          {
+            "id": 1,
+            "size": 41,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 16.5
           },
           {
             "id": 4,
@@ -343,20 +353,10 @@
               "cmc",
               "regulatory"
             ],
-            "pct": 15.9
+            "pct": 16.1
           },
           {
-            "id": 1,
-            "size": 39,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 15.5
-          },
-          {
-            "id": 0,
+            "id": 3,
             "size": 21,
             "top_terms": [
               "compliance",
