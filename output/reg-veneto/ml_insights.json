@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-24T08:36:58.953941",
+  "generated_at": "2026-04-25T07:51:32.692604",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 249,
+  "total_jobs_analyzed": 248,
   "scoring": {
-    "average": 33.5,
+    "average": 33.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 155,
       "low": 2,
-      "irrelevant": 92
+      "irrelevant": 91
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Associate Regulatory Affairs and Quality Assurance Manager, APAC",
         "company": "Sinclair",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401034969"
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4395215959"
       },
       {
-        "title": "Specialist Regulatory Affairs",
-        "company": "Abbott",
+        "title": "Regulatory Affairs Specialist II (IVD/Medical Devices)",
+        "company": "Thermo Fisher Scientific",
         "score": 54,
         "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4397382133"
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4399012356"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "director",
@@ -208,20 +208,20 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "senior regulatory",
-      "frequency": 7,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 90
-    },
-    {
       "keyword": "manager regulatory",
       "frequency": 6,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 90
     },
     {
+      "keyword": "senior regulatory",
+      "frequency": 6,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 90
+    },
+    {
       "keyword": "senior",
-      "frequency": 14,
+      "frequency": 13,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
@@ -272,41 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 21 (-90%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 20 (-85%)",
       "data": {
-        "current": 2,
-        "avg": 20.6,
-        "change_pct": -90.3
+        "current": 3,
+        "avg": 20.4,
+        "change_pct": -85.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 indeed: quota passata da 33% a 67% (+33pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "channel": "indeed",
+        "old_pct": 33.3,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
+      "message": "📡 linkedin: quota passata da 67% a 33% (-33pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 33.3
       }
     },
     {
@@ -317,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 74,
+            "size": 83,
             "top_terms": [
               "specialist",
-              "medical",
-              "engineer"
+              "compliance",
+              "regulatory"
             ],
-            "pct": 29.7
-          },
-          {
-            "id": 2,
-            "size": 73,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "manager"
-            ],
-            "pct": 29.3
-          },
-          {
-            "id": 1,
-            "size": 41,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 16.5
+            "pct": 33.5
           },
           {
             "id": 4,
-            "size": 40,
+            "size": 46,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "consultant"
+            ],
+            "pct": 18.5
+          },
+          {
+            "id": 2,
+            "size": 44,
             "top_terms": [
               "director",
               "cmc",
-              "regulatory"
+              "associate"
             ],
-            "pct": 16.1
+            "pct": 17.7
           },
           {
             "id": 3,
-            "size": 21,
+            "size": 38,
             "top_terms": [
-              "compliance",
-              "regulatory",
-              "manager"
+              "assurance",
+              "quality",
+              "specialist"
             ],
-            "pct": 8.4
+            "pct": 15.3
+          },
+          {
+            "id": 1,
+            "size": 37,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 14.9
           }
         ]
       }

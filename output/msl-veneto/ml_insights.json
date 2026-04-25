@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-24T08:36:58.709650",
+  "generated_at": "2026-04-25T07:51:32.458231",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 262,
+  "total_jobs_analyzed": 259,
   "scoring": {
-    "average": 42.2,
+    "average": 42.3,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 218,
-      "low": 5,
-      "irrelevant": 34
+      "good": 2,
+      "medium": 221,
+      "low": 4,
+      "irrelevant": 32
     },
     "top_jobs": [
       {
@@ -24,34 +24,18 @@
       {
         "title": "Field Medical Advisor Immunology",
         "company": "Johnson & Johnson Innovative Medicine",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1775952000000,
         "url": "https://www.linkedin.com/jobs/view/4388730023"
       },
       {
-        "title": "Informatore Scientifico del Farmaco (ISF)",
-        "company": "Professional Recruitment",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1776729600000,
-        "url": "https://www.linkedin.com/jobs/view/4403927543"
-      },
-      {
         "title": "Medical - Medical Manager - Shanghai",
         "company": "Sanofi",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1775779200000,
         "url": "https://www.linkedin.com/jobs/view/4368805713"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco (ISF) - Verona",
-        "company": "Professional Recruitment",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1776729600000,
-        "url": "https://www.linkedin.com/jobs/view/4403927543"
       },
       {
         "title": "(Sr.) Regional Medical Advisor / (Sr.) Medical Science Liaison",
@@ -150,20 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4401443940"
       },
       {
-        "title": "Manager, Medical Affairs",
-        "company": "American Diabetes Association",
-        "score": 55,
+        "title": "Informatore Scientifico del Farmaco (ISF)",
+        "company": "Professional Recruitment",
+        "score": 56,
         "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4397624744"
-      },
-      {
-        "title": "Medical Affairs Manager",
-        "company": "elemed",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399941573"
+        "date_posted": 1776729600000,
+        "url": "https://www.linkedin.com/jobs/view/4403927543"
       },
       {
         "title": "Manager, Community Outreach and Clinical Liaison",
@@ -172,6 +148,30 @@
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4402043028"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco (ISF) - Verona",
+        "company": "Professional Recruitment",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1776729600000,
+        "url": "https://www.linkedin.com/jobs/view/4403927543"
+      },
+      {
+        "title": "Medical Science Liaison -IMMU",
+        "company": "Novartis Pharma Schweiz",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1776211200000,
+        "url": "https://www.linkedin.com/jobs/view/4402914366"
+      },
+      {
+        "title": "Senior Manager - Medical Affairs & Nutrition Science",
+        "company": "Danone",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4401582611"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "clinical",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "research",
@@ -190,8 +190,8 @@
       },
       {
         "word": "assistant",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "cra",
@@ -220,22 +220,22 @@
       "confidence": 75
     },
     {
-      "keyword": "scientifico farmaco",
-      "frequency": 5,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 75
-    },
-    {
-      "keyword": "oncology",
-      "frequency": 7,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
-    },
-    {
       "keyword": "affairs manager",
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 60
+    },
+    {
+      "keyword": "oncology",
+      "frequency": 6,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 60
+    },
+    {
+      "keyword": "scientifico farmaco",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
     },
     {
       "keyword": "senior",
@@ -272,41 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 22 (-86%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 21 (-91%)",
       "data": {
-        "current": 3,
-        "avg": 21.6,
-        "change_pct": -86.1
+        "current": 2,
+        "avg": 21.4,
+        "change_pct": -90.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 1,
-        "total": 3,
-        "pct": 33.3
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 50.0
       }
     },
     {
@@ -317,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 98,
+            "size": 90,
             "top_terms": [
               "pharmacovigilance",
-              "regulatory",
-              "specialist"
+              "science",
+              "liaison"
             ],
-            "pct": 37.4
+            "pct": 34.7
           },
           {
-            "id": 1,
-            "size": 85,
+            "id": 2,
+            "size": 63,
             "top_terms": [
               "medical",
               "director",
               "advisor"
             ],
-            "pct": 32.4
+            "pct": 24.3
           },
           {
             "id": 3,
-            "size": 28,
+            "size": 46,
             "top_terms": [
-              "science",
-              "liaison",
-              "medical"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 10.7
+            "pct": 17.8
           },
           {
             "id": 4,
-            "size": 28,
+            "size": 39,
             "top_terms": [
-              "research",
-              "clinical",
-              "associate"
+              "affairs",
+              "regulatory",
+              "medical"
             ],
-            "pct": 10.7
+            "pct": 15.1
           },
           {
-            "id": 2,
-            "size": 23,
+            "id": 1,
+            "size": 21,
             "top_terms": [
               "informatore",
               "scientifico",
               "farmaco"
             ],
-            "pct": 8.8
+            "pct": 8.1
           }
         ]
       }

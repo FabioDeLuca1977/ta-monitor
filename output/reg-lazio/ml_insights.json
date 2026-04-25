@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-04-24T08:36:59.208200",
+  "generated_at": "2026-04-25T07:51:32.931718",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 109,
+  "total_jobs_analyzed": 102,
   "scoring": {
     "average": 13.6,
     "distribution": {
       "excellent": 0,
-      "good": 3,
+      "good": 2,
       "medium": 14,
       "low": 5,
-      "irrelevant": 87
+      "irrelevant": 81
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs CMC Specialist",
-        "company": "AYES - Management & Technology Consulting",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1775520000000,
-        "url": "https://www.linkedin.com/jobs/view/4389212589"
-      },
       {
         "title": "Regulatory affairs Specialist",
         "company": "Amaris Consulting",
@@ -30,36 +22,28 @@
         "url": "https://www.linkedin.com/jobs/view/4401648321"
       },
       {
-        "title": "Regulatory Affairs CMC - Sterility Assurance",
-        "company": "PQE Group",
-        "score": 61,
+        "title": "Regulatory Affairs CMC Specialist",
+        "company": "AYES - Management & Technology Consulting",
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4401612170"
+        "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
         "title": "Regulatory Affairs & Auditor GxP (Pharmacovigilanza, GCP)",
         "company": "fortil",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775606400000,
         "url": "https://www.linkedin.com/jobs/view/4396343419"
       },
       {
-        "title": "Regulatory Specialist",
-        "company": "Aruba SpA",
-        "score": 58,
+        "title": "Regulatory Affairs CMC - Sterility Assurance",
+        "company": "PQE Group",
+        "score": 59,
         "site": "linkedin",
-        "date_posted": 1775174400000,
-        "url": "https://www.linkedin.com/jobs/view/4397318496"
-      },
-      {
-        "title": "Director of Regulatory Affairs",
-        "company": "Confidential",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1775520000000,
-        "url": "https://www.linkedin.com/jobs/view/4398280292"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401612170"
       },
       {
         "title": "Regulatory Affairs Consultant",
@@ -70,20 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4387290311"
       },
       {
-        "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
-        "company": "APIS Srl Agenzia per il Lavoro",
+        "title": "Director of Regulatory Affairs",
+        "company": "Confidential",
         "score": 56,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=d524f40900d8f37d"
-      },
-      {
-        "title": "Regulatory Compliance Expert",
-        "company": "EOLO",
-        "score": 55,
         "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4397053060"
+        "date_posted": 1775520000000,
+        "url": "https://www.linkedin.com/jobs/view/4398280292"
       },
       {
         "title": "Head of Regulatory Affairs (MedTech)",
@@ -92,6 +68,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402500296"
+      },
+      {
+        "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
+        "company": "APIS Srl Agenzia per il Lavoro",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1776643200000,
+        "url": "https://it.indeed.com/viewjob?jk=d524f40900d8f37d"
       },
       {
         "title": "Director of Regulatory Affairs - AI",
@@ -128,10 +112,18 @@
       {
         "title": "Specialista Affari Regolatori",
         "company": "Società Gasdotti Italia",
-        "score": 49,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405256636"
+      },
+      {
+        "title": "Specialista Affari Regolatori - rinnovabili e permitting",
+        "company": "Elettricità Futura",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4403749920"
       },
       {
         "title": "Quality Assurance Pharma",
@@ -160,7 +152,7 @@
       {
         "title": "Accounting Manager",
         "company": "QUINTAS ENERGY",
-        "score": 29,
+        "score": 28,
         "site": "indeed",
         "date_posted": 1776038400000,
         "url": "https://it.indeed.com/viewjob?jk=08e5f619dcbc8b62"
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1775606400000,
         "url": "https://it.indeed.com/viewjob?jk=83ce8d50ba2ed171"
+      },
+      {
+        "title": "Drug Safety Manager",
+        "company": "Arithmos",
+        "score": 27,
+        "site": "indeed",
+        "date_posted": 1774224000000,
+        "url": "https://it.indeed.com/viewjob?jk=a68f093f66b32d31"
       }
     ]
   },
@@ -184,24 +184,24 @@
         "reason": "Appare 13x in annunci a basso score"
       },
       {
+        "word": "assurance",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
         "word": "associate",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "italy",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "manufacturing",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "assistant",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -223,22 +223,22 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-74%)",
+      "severity": "medium",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-43%)",
       "data": {
-        "current": 2,
-        "avg": 7.6,
-        "change_pct": -73.8
+        "current": 4,
+        "avg": 7.0,
+        "change_pct": -42.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
@@ -249,53 +249,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 55,
+            "size": 58,
             "top_terms": [
               "manager",
-              "tecnico",
-              "italy"
+              "associate",
+              "tecnico"
             ],
-            "pct": 50.5
+            "pct": 56.9
           },
           {
             "id": 1,
-            "size": 16,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 14.7
-          },
-          {
-            "id": 3,
-            "size": 16,
-            "top_terms": [
-              "specialist",
-              "manufacturing",
-              "quality"
-            ],
-            "pct": 14.7
-          },
-          {
-            "id": 4,
             "size": 13,
             "top_terms": [
               "assurance",
               "quality",
               "associate"
             ],
-            "pct": 11.9
+            "pct": 12.7
+          },
+          {
+            "id": 3,
+            "size": 13,
+            "top_terms": [
+              "specialist",
+              "manufacturing",
+              "quality"
+            ],
+            "pct": 12.7
           },
           {
             "id": 2,
-            "size": 9,
+            "size": 12,
             "top_terms": [
-              "senior",
-              "deployment",
-              "scientist"
+              "affairs",
+              "regulatory",
+              "specialist"
             ],
-            "pct": 8.3
+            "pct": 11.8
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "scientist",
+              "senior",
+              "deployment"
+            ],
+            "pct": 5.9
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-24T08:36:58.654816",
+  "generated_at": "2026-04-25T07:51:32.406372",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 198,
+  "total_jobs_analyzed": 196,
   "scoring": {
-    "average": 28.4,
+    "average": 29.1,
     "distribution": {
       "excellent": 0,
-      "good": 19,
+      "good": 20,
       "medium": 54,
-      "low": 51,
-      "irrelevant": 74
+      "low": 53,
+      "irrelevant": 69
     },
     "top_jobs": [
       {
@@ -44,14 +44,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4404548743"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "Task Force Service Srl",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1776729600000,
-        "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
       },
       {
         "title": "HR Generalist - Recruiter",
@@ -94,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4398102554"
       },
       {
-        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
-        "company": "DGS",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4353205273"
-      },
-      {
         "title": "Junior HR Specialist - Ufficio Risorse Umane",
         "company": "Jobs Service",
         "score": 64,
@@ -118,6 +102,22 @@
         "url": "https://www.linkedin.com/jobs/view/4404794800"
       },
       {
+        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
+        "company": "DGS",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4353205273"
+      },
+      {
+        "title": "Junior HR Manager - Gestione del Benessere",
+        "company": "sh-operation21",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399688281"
+      },
+      {
         "title": "Stage Talent Acquisition",
         "company": "Dan John",
         "score": 63,
@@ -126,12 +126,20 @@
         "url": "https://www.linkedin.com/jobs/view/4403484791"
       },
       {
-        "title": "Junior HR Manager - Gestione del Benessere",
-        "company": "sh-operation21",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399688281"
+        "title": "HR Generalist",
+        "company": "Task Force Service Srl",
+        "score": 63,
+        "site": "indeed",
+        "date_posted": 1776729600000,
+        "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
+      },
+      {
+        "title": "HR RECRUITER SPECIALIST - POMEZIA S. PALOMBA (SEDE)",
+        "company": "risparmio casa",
+        "score": 63,
+        "site": "indeed",
+        "date_posted": 1776988800000,
+        "url": "https://it.indeed.com/viewjob?jk=a625dbb96ba0efc3"
       },
       {
         "title": "Junior Talent Acquisition - Benessere Fisico",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1776816000000,
         "url": "https://it.indeed.com/viewjob?jk=674a47ea8cd8f453"
-      },
-      {
-        "title": "HR Specialist Tecnologie per il Benessere",
-        "company": "sh-operation21",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402700591"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "dell",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
-      },
-      {
-        "word": "addetto",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "conferimento",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "incarico",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "direttore",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "addetto",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,15 +209,15 @@
   "keyword_recommendations": [
     {
       "keyword": "junior hr",
-      "frequency": 3,
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 60
     },
     {
       "keyword": "junior",
-      "frequency": 4,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 50
     },
     {
       "keyword": "partner centro",
@@ -250,63 +250,33 @@
       "confidence": 30
     },
     {
-      "keyword": "appartenente alle",
+      "keyword": "acquisition employer",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "alle categorie",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "stage",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "categorie protette",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "benessere",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 17 (-48%)",
-      "data": {
-        "current": 9,
-        "avg": 17.2,
-        "change_pct": -47.6
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/9 annunci da aziende nuove (44.4%)",
+      "message": "📊 Ultimo scan: 5/13 annunci da aziende nuove (38.5%)",
       "data": {
-        "new": 4,
-        "total": 9,
-        "pct": 44.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 44% (-22pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 44.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 56% (+22pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 55.6
+        "new": 5,
+        "total": 13,
+        "pct": 38.5
       }
     },
     {
@@ -317,53 +287,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 100,
+            "size": 85,
             "top_terms": [
-              "addetto",
-              "recruiter",
-              "recruiting"
+              "recruiting",
+              "roma",
+              "day"
             ],
-            "pct": 50.5
+            "pct": 43.4
           },
           {
             "id": 1,
-            "size": 45,
+            "size": 51,
             "top_terms": [
-              "specialist",
               "hr",
+              "specialist",
               "talent"
             ],
-            "pct": 22.7
+            "pct": 26.0
+          },
+          {
+            "id": 2,
+            "size": 36,
+            "top_terms": [
+              "addetto",
+              "umane",
+              "risorse"
+            ],
+            "pct": 18.4
           },
           {
             "id": 3,
-            "size": 28,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 14.1
-          },
-          {
-            "id": 4,
             "size": 13,
             "top_terms": [
-              "partner",
-              "business",
-              "hr"
+              "recruiter",
+              "hr",
+              "freelancer"
             ],
             "pct": 6.6
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 4,
+            "size": 11,
             "top_terms": [
               "dell",
-              "conferimento",
-              "incarico"
+              "incarico",
+              "conferimento"
             ],
-            "pct": 6.1
+            "pct": 5.6
           }
         ]
       }

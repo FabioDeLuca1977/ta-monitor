@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-24T08:36:59.136176",
+  "generated_at": "2026-04-25T07:51:32.864136",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 48,
+  "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 15.2,
+    "average": 15.3,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 8,
+      "good": 3,
+      "medium": 5,
       "low": 0,
-      "irrelevant": 39
+      "irrelevant": 34
     },
     "top_jobs": [
       {
@@ -24,31 +24,23 @@
       {
         "title": "Regulatory Affairs Junior - Assistente Affari Regolatori",
         "company": "Lavoropiù SpA",
-        "score": 59,
+        "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775606400000,
         "url": "https://www.linkedin.com/jobs/view/4399296018"
       },
       {
         "title": "Regulatory Affairs Stageur",
         "company": "JSB Solutions",
-        "score": 59,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
-        "title": "Regulatory Affairs Junior",
-        "company": "COC Farmaceutici",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1775088000000,
-        "url": "https://www.linkedin.com/jobs/view/4393427025"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
-        "score": 51,
+        "score": 50,
         "site": "indeed",
         "date_posted": 1775520000000,
         "url": "https://it.indeed.com/viewjob?jk=c1c834b9c0082394"
@@ -150,28 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4402168144"
       },
       {
-        "title": "General Manager",
-        "company": "Hines",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1776384000000,
-        "url": "https://it.indeed.com/viewjob?jk=6bb2d28654a9e67c"
-      },
-      {
         "title": "Quality Assurance Specialist – Categoria Protetta (L. 68/99)",
         "company": "INCO",
-        "score": 12,
+        "score": 11,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401961170"
       },
       {
-        "title": "Assistente Impianto Discariche Post Gestione Temporary - Imola",
-        "company": "Gruppo Hera",
-        "score": 11,
+        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
+        "company": "Jefferson Wells Italia",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401044611"
+      },
+      {
+        "title": "Associate - Quality Assurance Formulation Line",
+        "company": "Eli Lilly and Company",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4379862046"
+      },
+      {
+        "title": "Technical Support Specialist – DACH and Benelux Markets",
+        "company": "Geotab",
+        "score": 9,
         "site": "indeed",
-        "date_posted": 1776729600000,
-        "url": "https://it.indeed.com/viewjob?jk=6086e4b2c2b1caeb"
+        "date_posted": 1776643200000,
+        "url": "https://it.indeed.com/viewjob?jk=bd1be889f765a483"
       }
     ]
   },
@@ -189,59 +189,62 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "field",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
         "word": "engineer",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "medical",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "affairs junior",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
+    {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
+      "data": {
+        "current": 1,
+        "avg": 3.7,
+        "change_pct": -73.2
+      }
+    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 75.0,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -253,53 +256,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 26,
+            "size": 22,
             "top_terms": [
               "specialist",
               "field",
               "sales"
             ],
-            "pct": 54.2
+            "pct": 52.4
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 8,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 16.7
+            "pct": 19.0
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 6,
             "top_terms": [
-              "affairs",
               "regulatory",
-              "junior"
+              "affairs",
+              "specialist"
             ],
-            "pct": 12.5
+            "pct": 14.3
           },
           {
             "id": 0,
-            "size": 4,
+            "size": 3,
             "top_terms": [
               "engineer",
               "senior",
-              "temporary"
+              "technical"
             ],
-            "pct": 8.3
+            "pct": 7.1
           },
           {
-            "id": 4,
-            "size": 4,
+            "id": 3,
+            "size": 3,
             "top_terms": [
               "manager",
               "temporary",
-              "field"
+              "support"
             ],
-            "pct": 8.3
+            "pct": 7.1
           }
         ]
       }
