@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-25T07:51:32.692604",
+  "generated_at": "2026-04-26T08:14:08.564205",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 248,
+  "total_jobs_analyzed": 247,
   "scoring": {
-    "average": 33.6,
+    "average": 33.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 155,
-      "low": 2,
+      "low": 1,
       "irrelevant": 91
     },
     "top_jobs": [
@@ -40,7 +40,7 @@
       {
         "title": "Associate Regulatory Affairs and Quality Assurance Manager, APAC",
         "company": "Sinclair",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401034969"
@@ -110,6 +110,14 @@
         "url": "https://www.linkedin.com/jobs/view/4387864536"
       },
       {
+        "title": "Clinical Regulatory Analyst | $30/hr Remote",
+        "company": "Crossing Hurdles",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401199798"
+      },
+      {
         "title": "Manager, Regulatory Compliance",
         "company": "Income Insurance Limited",
         "score": 56,
@@ -150,14 +158,6 @@
         "url": "https://www.linkedin.com/jobs/view/4379132645"
       },
       {
-        "title": "Clinical Regulatory Analyst | $30/hr Remote",
-        "company": "Crossing Hurdles",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4401199798"
-      },
-      {
         "title": "Regulatory Affairs Manager",
         "company": "ORIC Pharmaceuticals Inc.",
         "score": 54,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4395215959"
       },
       {
-        "title": "Regulatory Affairs Specialist II (IVD/Medical Devices)",
-        "company": "Thermo Fisher Scientific",
+        "title": "Specialist Regulatory Affairs",
+        "company": "Abbott",
         "score": 54,
         "site": "linkedin",
-        "date_posted": 1775779200000,
-        "url": "https://www.linkedin.com/jobs/view/4399012356"
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4397382133"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "director",
@@ -208,28 +208,28 @@
   },
   "keyword_recommendations": [
     {
+      "keyword": "senior regulatory",
+      "frequency": 7,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 90
+    },
+    {
       "keyword": "manager regulatory",
       "frequency": 6,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 90
     },
     {
-      "keyword": "senior regulatory",
-      "frequency": 6,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 90
-    },
-    {
       "keyword": "senior",
-      "frequency": 13,
+      "frequency": 14,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
     {
       "keyword": "senior manager",
-      "frequency": 5,
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 75
+      "confidence": 60
     },
     {
       "keyword": "associate director",
@@ -256,13 +256,13 @@
       "confidence": 45
     },
     {
-      "keyword": "manager senior",
+      "keyword": "specialist regulatory",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "specialist regulatory",
+      "keyword": "director regulatory",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -272,11 +272,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 20 (-85%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 22 (-86%)",
       "data": {
         "current": 3,
-        "avg": 20.4,
-        "change_pct": -85.3
+        "avg": 22.2,
+        "change_pct": -86.5
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 83,
+            "id": 3,
+            "size": 90,
             "top_terms": [
-              "specialist",
-              "compliance",
-              "regulatory"
+              "quality",
+              "assurance",
+              "specialist"
             ],
-            "pct": 33.5
-          },
-          {
-            "id": 4,
-            "size": 46,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "consultant"
-            ],
-            "pct": 18.5
+            "pct": 36.4
           },
           {
             "id": 2,
-            "size": 44,
+            "size": 56,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 22.7
+          },
+          {
+            "id": 4,
+            "size": 42,
             "top_terms": [
               "director",
               "cmc",
-              "associate"
+              "regulatory"
             ],
-            "pct": 17.7
-          },
-          {
-            "id": 3,
-            "size": 38,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 15.3
+            "pct": 17.0
           },
           {
             "id": 1,
-            "size": 37,
+            "size": 38,
             "top_terms": [
               "manager",
               "regulatory",
               "affairs"
             ],
-            "pct": 14.9
+            "pct": 15.4
+          },
+          {
+            "id": 0,
+            "size": 21,
+            "top_terms": [
+              "compliance",
+              "regulatory",
+              "manager"
+            ],
+            "pct": 8.5
           }
         ]
       }

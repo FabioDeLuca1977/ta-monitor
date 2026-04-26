@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-25T07:51:32.828309",
+  "generated_at": "2026-04-26T08:14:08.723992",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 272,
+  "total_jobs_analyzed": 276,
   "scoring": {
-    "average": 14.8,
+    "average": 14.4,
     "distribution": {
       "excellent": 0,
       "good": 17,
       "medium": 25,
-      "low": 4,
-      "irrelevant": 226
+      "low": 5,
+      "irrelevant": 229
     },
     "top_jobs": [
       {
         "title": "Scientific and Regulatory Affairs Manager",
         "company": "Henkel",
-        "score": 68,
+        "score": 69,
         "site": "indeed",
         "date_posted": 1776729600000,
         "url": "https://it.indeed.com/viewjob?jk=cfdd15acb40344cd"
@@ -42,7 +42,7 @@
         "company": "Mynameis",
         "score": 63,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775779200000,
         "url": "https://www.linkedin.com/jobs/view/4400389424"
       },
       {
@@ -70,20 +70,20 @@
         "url": "https://it.indeed.com/viewjob?jk=6945280a711c794c"
       },
       {
+        "title": "Regulatory Affairs | Brescia",
+        "company": "Biopharmed",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4343985374"
+      },
+      {
         "title": "Head of Regulatory Affairs",
         "company": "Jobgether",
         "score": 62,
         "site": "linkedin",
         "date_posted": 1775779200000,
         "url": "https://www.linkedin.com/jobs/view/4397696232"
-      },
-      {
-        "title": "Regulatory Affairs | Brescia",
-        "company": "Biopharmed",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
         "title": "Regulatory Affairs Manager - Plant Protection Products",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4395961652"
       },
       {
-        "title": "Quality Assurance & Qualified Person Manager & RSSP",
-        "company": "Gammatom srl",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1775520000000,
-        "url": "https://it.indeed.com/viewjob?jk=12d64899a3f1cdf5"
-      },
-      {
         "title": "Regulatory Affairs Senior Specialist – Southern Europe (Office Base)",
         "company": "Avon",
         "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4377256609"
+      },
+      {
+        "title": "Quality Assurance & Qualified Person Manager & RSSP",
+        "company": "Gammatom srl",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1775520000000,
+        "url": "https://it.indeed.com/viewjob?jk=12d64899a3f1cdf5"
       }
     ]
   },
@@ -180,13 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
+      },
+      {
+        "word": "italy",
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -194,14 +199,9 @@
         "reason": "Appare 18x in annunci a basso score"
       },
       {
-        "word": "italy",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
-      },
-      {
-        "word": "project",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "word": "director",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       }
     ],
     "review": []
@@ -222,13 +222,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 21 (-71%)",
+      "data": {
+        "current": 6,
+        "avg": 20.8,
+        "change_pct": -71.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/14 annunci da aziende nuove (57.1%)",
+      "message": "📊 Ultimo scan: 1/6 annunci da aziende nuove (16.7%)",
       "data": {
-        "new": 8,
-        "total": 14,
-        "pct": 57.1
+        "new": 1,
+        "total": 6,
+        "pct": 16.7
       }
     },
     {
@@ -238,54 +248,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 144,
+            "id": 1,
+            "size": 151,
             "top_terms": [
               "engineer",
-              "italy",
+              "specialist",
               "analyst"
             ],
-            "pct": 52.9
+            "pct": 54.7
           },
           {
-            "id": 3,
-            "size": 36,
+            "id": 2,
+            "size": 37,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 13.4
+          },
+          {
+            "id": 4,
+            "size": 35,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.2
-          },
-          {
-            "id": 1,
-            "size": 35,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "clinical"
-            ],
-            "pct": 12.9
+            "pct": 12.7
           },
           {
             "id": 0,
-            "size": 30,
+            "size": 29,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 11.0
+            "pct": 10.5
           },
           {
-            "id": 2,
-            "size": 27,
+            "id": 3,
+            "size": 24,
             "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
+              "italy",
+              "associate",
+              "director"
             ],
-            "pct": 9.9
+            "pct": 8.7
           }
         ]
       }
