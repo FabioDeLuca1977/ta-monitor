@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-26T08:14:08.434348",
+  "generated_at": "2026-04-27T09:01:15.767203",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 18.8,
+    "average": 18.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -88,18 +88,10 @@
       {
         "title": "Patient Journey Manager - Finland",
         "company": "Kyowa Kirin International",
-        "score": 13,
+        "score": 8,
         "site": "indeed",
         "date_posted": 1776556800000,
         "url": "https://it.indeed.com/viewjob?jk=dad9875fc150cecf"
-      },
-      {
-        "title": "AI Team Lead Video Editor",
-        "company": "CapsLock",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
         "title": "Territory Manager - Emilia Romagna",
@@ -130,7 +122,7 @@
         "company": "Elleuno scs",
         "score": 5,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1775952000000,
         "url": "https://www.linkedin.com/jobs/view/4400973107"
       },
       {
@@ -140,6 +132,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4403487731"
+      },
+      {
+        "title": "AI Team Lead Video Editor",
+        "company": "CapsLock",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
         "title": "Medico per CRA Mirandola",
@@ -201,21 +201,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 50.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {

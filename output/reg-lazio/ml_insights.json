@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-26T08:14:08.844804",
+  "generated_at": "2026-04-27T09:01:16.199282",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 102,
+  "total_jobs_analyzed": 105,
   "scoring": {
-    "average": 13.4,
+    "average": 13.6,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 12,
-      "low": 5,
-      "irrelevant": 81
+      "low": 6,
+      "irrelevant": 83
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "AYES - Management & Technology Consulting",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": 1775779200000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
@@ -62,17 +62,9 @@
         "url": "https://www.linkedin.com/jobs/view/4387290311"
       },
       {
-        "title": "Senior Auditor – Regulatory Compliance",
-        "company": "Banca del Fucino",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4401284858"
-      },
-      {
         "title": "Regulatory Affairs Internship",
         "company": "Allianz Italia",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402800391"
@@ -80,10 +72,18 @@
       {
         "title": "Director of Regulatory Affairs",
         "company": "Confidential",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1775520000000,
         "url": "https://www.linkedin.com/jobs/view/4398280292"
+      },
+      {
+        "title": "Senior Auditor – Regulatory Compliance",
+        "company": "Banca del Fucino",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401284858"
       },
       {
         "title": "Director of Regulatory Affairs - AI",
@@ -104,7 +104,7 @@
       {
         "title": "Head of Regulatory Affairs Italy",
         "company": "Merck Healthcare",
-        "score": 51,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4366163549"
@@ -112,7 +112,7 @@
       {
         "title": "Specialista Affari Regolatori",
         "company": "Società Gasdotti Italia",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405256636"
@@ -120,7 +120,7 @@
       {
         "title": "Specialista Affari Regolatori - rinnovabili e permitting",
         "company": "Elettricità Futura",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4403749920"
@@ -152,7 +152,15 @@
       {
         "title": "parrucchiera",
         "company": null,
-        "score": 29,
+        "score": 28,
+        "site": "indeed",
+        "date_posted": 1776816000000,
+        "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
+      },
+      {
+        "title": "parrucchiera",
+        "company": "Helena Hair Lab",
+        "score": 28,
         "site": "indeed",
         "date_posted": 1776816000000,
         "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1775606400000,
         "url": "https://it.indeed.com/viewjob?jk=83ce8d50ba2ed171"
-      },
-      {
-        "title": "Drug Safety Manager",
-        "company": "Arithmos",
-        "score": 27,
-        "site": "indeed",
-        "date_posted": 1774224000000,
-        "url": "https://it.indeed.com/viewjob?jk=a68f093f66b32d31"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "associate",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -224,21 +224,41 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 8 (-47%)",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 8 (-49%)",
       "data": {
         "current": 4,
-        "avg": 7.5,
-        "change_pct": -46.9
+        "avg": 7.8,
+        "change_pct": -48.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
+        "new": 4,
         "total": 4,
-        "pct": 75.0
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -249,53 +269,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 58,
+            "size": 62,
             "top_terms": [
               "manager",
-              "associate",
-              "tecnico"
-            ],
-            "pct": 56.9
-          },
-          {
-            "id": 1,
-            "size": 13,
-            "top_terms": [
               "assurance",
-              "quality",
-              "associate"
-            ],
-            "pct": 12.7
-          },
-          {
-            "id": 3,
-            "size": 13,
-            "top_terms": [
-              "specialist",
-              "manufacturing",
               "quality"
             ],
-            "pct": 12.7
-          },
-          {
-            "id": 2,
-            "size": 12,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 11.8
+            "pct": 59.0
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 15,
             "top_terms": [
-              "scientist",
-              "senior",
-              "deployment"
+              "specialist",
+              "quality",
+              "manufacturing"
             ],
-            "pct": 5.9
+            "pct": 14.3
+          },
+          {
+            "id": 1,
+            "size": 14,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 13.3
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "associate",
+              "assurance",
+              "quality"
+            ],
+            "pct": 10.5
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "parrucchiera",
+              "tributario",
+              "lead"
+            ],
+            "pct": 2.9
           }
         ]
       }

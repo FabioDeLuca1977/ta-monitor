@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-26T08:14:08.143901",
+  "generated_at": "2026-04-27T09:01:15.466688",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 178,
+  "total_jobs_analyzed": 176,
   "scoring": {
     "average": 26.1,
     "distribution": {
       "excellent": 0,
       "good": 10,
       "medium": 45,
-      "low": 55,
-      "irrelevant": 68
+      "low": 52,
+      "irrelevant": 69
     },
     "top_jobs": [
       {
@@ -96,18 +96,10 @@
       {
         "title": "HR TALENT ACQUISITION",
         "company": "FiberCop",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402532471"
-      },
-      {
-        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
-        "company": "DGS",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4353205273"
+        "url": "https://www.linkedin.com/jobs/view/4402532471"
       },
       {
         "title": "HR Specialist Tecnologie per il Benessere",
@@ -126,12 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4398102554"
       },
       {
-        "title": "Junior HR Specialist - Clienti",
-        "company": "sh-operation21",
+        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
+        "company": "DGS",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399690266"
+        "url": "https://www.linkedin.com/jobs/view/4353205273"
       },
       {
         "title": "HR Generalist - Tecnologie per l'acqua",
@@ -142,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4404467555"
       },
       {
-        "title": "Junior HR Specialist - Servizi Spese",
-        "company": "Tuolavoro-Lazio",
-        "score": 57,
+        "title": "Junior HR Specialist - Clienti",
+        "company": "sh-operation21",
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405320881"
+        "url": "https://www.linkedin.com/jobs/view/4399690266"
       },
       {
         "title": "Stage Talent Acquisition",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402800172"
+      },
+      {
+        "title": "Junior HR Specialist - Servizi Spese",
+        "company": "Tuolavoro-Lazio",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405320881"
       }
     ]
   },
@@ -264,13 +264,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
+      "data": {
+        "current": 1,
+        "avg": 15.9,
+        "change_pct": -93.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/13 annunci da aziende nuove (38.5%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 13,
-        "pct": 38.5
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 31% a 0% (-31pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 30.8,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 69% a 100% (+31pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 69.2,
+        "new_pct": 100.0
       }
     },
     {
@@ -280,44 +310,34 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 83,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "responsabile"
-            ],
-            "pct": 46.6
-          },
-          {
             "id": 1,
-            "size": 33,
+            "size": 99,
             "top_terms": [
               "specialist",
-              "hr",
-              "talent"
+              "addetto",
+              "personale"
             ],
-            "pct": 18.5
+            "pct": 56.2
           },
           {
             "id": 4,
-            "size": 28,
+            "size": 42,
             "top_terms": [
               "hr",
-              "business",
-              "partner"
+              "specialist",
+              "business"
             ],
-            "pct": 15.7
+            "pct": 23.9
           },
           {
             "id": 2,
-            "size": 23,
+            "size": 22,
             "top_terms": [
-              "addetto",
+              "umane",
               "risorse",
-              "umane"
+              "addetto"
             ],
-            "pct": 12.9
+            "pct": 12.5
           },
           {
             "id": 3,
@@ -328,6 +348,16 @@
               "conferimento"
             ],
             "pct": 6.2
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "civile",
+              "ingegnere",
+              "senior"
+            ],
+            "pct": 1.1
           }
         ]
       }

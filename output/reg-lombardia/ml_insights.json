@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-26T08:14:08.723992",
+  "generated_at": "2026-04-27T09:01:16.070264",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 276,
+  "total_jobs_analyzed": 275,
   "scoring": {
-    "average": 14.4,
+    "average": 14.2,
     "distribution": {
       "excellent": 0,
       "good": 17,
       "medium": 25,
       "low": 5,
-      "irrelevant": 229
+      "irrelevant": 228
     },
     "top_jobs": [
       {
         "title": "Scientific and Regulatory Affairs Manager",
         "company": "Henkel",
-        "score": 69,
+        "score": 68,
         "site": "indeed",
         "date_posted": 1776729600000,
         "url": "https://it.indeed.com/viewjob?jk=cfdd15acb40344cd"
@@ -102,20 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
+        "title": "Lead Regulatory Affairs Manager, International",
+        "company": "Exact Sciences",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1775865600000,
+        "url": "https://www.linkedin.com/jobs/view/4387965325"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "Carboline",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4388904492"
-      },
-      {
-        "title": "Lead Regulatory Affairs Manager, International",
-        "company": "Exact Sciences",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4387965325"
       },
       {
         "title": "Regulatory Specialist",
@@ -150,20 +150,20 @@
         "url": "https://www.linkedin.com/jobs/view/4373812387"
       },
       {
+        "title": "Regulatory Affairs Senior Specialist – Southern Europe (Office Base)",
+        "company": "Avon",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1775865600000,
+        "url": "https://www.linkedin.com/jobs/view/4377256609"
+      },
+      {
         "title": "Regulatory Affairs Specialist - Settore Healthcare",
         "company": "Uriach Italy",
         "score": 59,
         "site": "linkedin",
         "date_posted": 1775606400000,
         "url": "https://www.linkedin.com/jobs/view/4395961652"
-      },
-      {
-        "title": "Regulatory Affairs Senior Specialist – Southern Europe (Office Base)",
-        "company": "Avon",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4377256609"
       },
       {
         "title": "Quality Assurance & Qualified Person Manager & RSSP",
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 30,
+        "reason": "Appare 30x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -224,21 +224,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 21 (-71%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 20 (-90%)",
       "data": {
-        "current": 6,
-        "avg": 20.8,
-        "change_pct": -71.1
+        "current": 2,
+        "avg": 19.5,
+        "change_pct": -89.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/6 annunci da aziende nuove (16.7%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 6,
-        "pct": 16.7
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 17% a 0% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 16.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 83% a 100% (+17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 83.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -248,27 +268,17 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 151,
+            "id": 0,
+            "size": 146,
             "top_terms": [
               "engineer",
-              "specialist",
+              "director",
               "analyst"
             ],
-            "pct": 54.7
+            "pct": 53.1
           },
           {
-            "id": 2,
-            "size": 37,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 13.4
-          },
-          {
-            "id": 4,
+            "id": 1,
             "size": 35,
             "top_terms": [
               "regulatory",
@@ -278,24 +288,34 @@
             "pct": 12.7
           },
           {
-            "id": 0,
-            "size": 29,
+            "id": 3,
+            "size": 35,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "senior"
+            ],
+            "pct": 12.7
+          },
+          {
+            "id": 4,
+            "size": 31,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 10.5
+            "pct": 11.3
           },
           {
-            "id": 3,
-            "size": 24,
+            "id": 2,
+            "size": 28,
             "top_terms": [
-              "italy",
-              "associate",
-              "director"
+              "quality",
+              "assurance",
+              "specialist"
             ],
-            "pct": 8.7
+            "pct": 10.2
           }
         ]
       }

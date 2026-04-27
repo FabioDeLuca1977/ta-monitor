@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-26T08:14:08.767019",
+  "generated_at": "2026-04-27T09:01:16.115552",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 15.1,
+    "average": 14.8,
     "distribution": {
       "excellent": 0,
       "good": 3,
@@ -54,14 +54,6 @@
         "url": "https://it.indeed.com/viewjob?jk=a8a4074f39a3293f"
       },
       {
-        "title": "Stage Regulatory Affair Assistant | Bologna",
-        "company": "Intertek",
-        "score": 47,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=a805b7177c966455"
-      },
-      {
         "title": "Quality Assurance Head Farmaceutico",
         "company": "Chaberton Professionals",
         "score": 42,
@@ -78,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4404468538"
       },
       {
-        "title": "Sales Consultant (formazione e consulenza HR)",
-        "company": "Randstad",
-        "score": 19,
+        "title": "Stage Regulatory Affair Assistant | Bologna",
+        "company": "Intertek",
+        "score": 42,
         "site": "indeed",
         "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
+        "url": "https://it.indeed.com/viewjob?jk=a805b7177c966455"
       },
       {
         "title": "Junior Quality Assurance Specialist",
@@ -94,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4401613481"
       },
       {
-        "title": "Security Governance Manager",
-        "company": "Prometeia Spa",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=c16e61adda2345ed"
-      },
-      {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 15,
         "site": "linkedin",
         "date_posted": 1775606400000,
         "url": "https://www.linkedin.com/jobs/view/4398457330"
+      },
+      {
+        "title": "Sales Consultant (formazione e consulenza HR)",
+        "company": "Randstad",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
       },
       {
         "title": "RA Specialist - Medical Devices",
@@ -140,6 +132,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401961170"
+      },
+      {
+        "title": "Security Governance Manager",
+        "company": "Prometeia Spa",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=c16e61adda2345ed"
       },
       {
         "title": "Associate - Quality Assurance Formulation Line",
@@ -231,21 +231,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
