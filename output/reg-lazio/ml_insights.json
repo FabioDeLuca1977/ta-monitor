@@ -1,38 +1,30 @@
 {
-  "generated_at": "2026-04-27T09:01:16.199282",
+  "generated_at": "2026-04-28T08:58:44.040689",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 105,
+  "total_jobs_analyzed": 108,
   "scoring": {
-    "average": 13.6,
+    "average": 13.4,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 12,
       "low": 6,
-      "irrelevant": 83
+      "irrelevant": 86
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "AYES - Management & Technology Consulting",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
-        "date_posted": 1775779200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
-      },
-      {
-        "title": "Regulatory affairs Specialist",
-        "company": "Amaris Consulting",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1776643200000,
-        "url": "https://www.linkedin.com/jobs/view/4401648321"
       },
       {
         "title": "Regulatory Affairs & Auditor GxP (Pharmacovigilanza, GCP)",
         "company": "fortil",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1775606400000,
         "url": "https://www.linkedin.com/jobs/view/4396343419"
@@ -40,23 +32,23 @@
       {
         "title": "Regulatory Affairs CMC - Sterility Assurance",
         "company": "PQE Group",
-        "score": 61,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401612170"
       },
       {
-        "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
-        "company": "APIS Srl Agenzia per il Lavoro",
-        "score": 57,
-        "site": "indeed",
+        "title": "Regulatory affairs Specialist",
+        "company": "Amaris Consulting",
+        "score": 62,
+        "site": "linkedin",
         "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=d524f40900d8f37d"
+        "url": "https://www.linkedin.com/jobs/view/4401648321"
       },
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
-        "score": 56,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
@@ -64,7 +56,7 @@
       {
         "title": "Regulatory Affairs Internship",
         "company": "Allianz Italia",
-        "score": 55,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402800391"
@@ -72,7 +64,7 @@
       {
         "title": "Director of Regulatory Affairs",
         "company": "Confidential",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": 1775520000000,
         "url": "https://www.linkedin.com/jobs/view/4398280292"
@@ -80,7 +72,7 @@
       {
         "title": "Senior Auditor – Regulatory Compliance",
         "company": "Banca del Fucino",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401284858"
@@ -88,23 +80,31 @@
       {
         "title": "Director of Regulatory Affairs - AI",
         "company": "Randstad Digital Italia",
-        "score": 52,
+        "score": 53,
         "site": "linkedin",
-        "date_posted": 1775692800000,
+        "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
         "title": "Head of Regulatory Affairs (MedTech)",
         "company": "Jefferson Wells Italia",
-        "score": 52,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402500296"
       },
       {
+        "title": "Addetta al regolatorio (o Regulatory Affairs Specialist)",
+        "company": "APIS Srl Agenzia per il Lavoro",
+        "score": 53,
+        "site": "indeed",
+        "date_posted": 1776643200000,
+        "url": "https://it.indeed.com/viewjob?jk=d524f40900d8f37d"
+      },
+      {
         "title": "Head of Regulatory Affairs Italy",
         "company": "Merck Healthcare",
-        "score": 52,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4366163549"
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "associate",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -224,41 +224,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 8 (-49%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 8 (-37%)",
       "data": {
-        "current": 4,
-        "avg": 7.8,
-        "change_pct": -48.5
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 4,
-        "total": 4,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "current": 5,
+        "avg": 7.9,
+        "change_pct": -36.9
       }
     },
     {
@@ -269,53 +239,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 62,
+            "size": 61,
             "top_terms": [
               "manager",
-              "assurance",
-              "quality"
+              "senior",
+              "associate"
             ],
-            "pct": 59.0
+            "pct": 56.5
           },
           {
             "id": 4,
-            "size": 15,
+            "size": 16,
             "top_terms": [
               "specialist",
-              "quality",
-              "manufacturing"
+              "manufacturing",
+              "quality"
             ],
-            "pct": 14.3
+            "pct": 14.8
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 14,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.3
+            "pct": 13.0
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 11,
             "top_terms": [
-              "associate",
               "assurance",
-              "quality"
+              "quality",
+              "associate"
             ],
-            "pct": 10.5
+            "pct": 10.2
           },
           {
             "id": 3,
-            "size": 3,
+            "size": 6,
             "top_terms": [
-              "parrucchiera",
-              "tributario",
-              "lead"
+              "tecnico",
+              "roma",
+              "responsabile"
             ],
-            "pct": 2.9
+            "pct": 5.6
           }
         ]
       }

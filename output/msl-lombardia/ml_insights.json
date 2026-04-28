@@ -1,22 +1,38 @@
 {
-  "generated_at": "2026-04-27T09:01:15.735146",
+  "generated_at": "2026-04-28T08:58:43.584820",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 173,
+  "total_jobs_analyzed": 184,
   "scoring": {
-    "average": 27.0,
+    "average": 27.3,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 70,
-      "low": 15,
-      "irrelevant": 85
+      "good": 6,
+      "medium": 72,
+      "low": 16,
+      "irrelevant": 90
     },
     "top_jobs": [
       {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1777161600000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
+      {
+        "title": "Medical Communication Specialist Eucerin",
+        "company": "Beiersdorf SpA",
+        "score": 64,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=d95821eeb3dac98c"
+      },
+      {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4380931992"
@@ -24,7 +40,7 @@
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
@@ -38,12 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4402435466"
       },
       {
+        "title": "Senior Clinical Research Associate (CRA) - Client-dedicated - ITALY",
+        "company": "Thermo Fisher Scientific",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=2ad3f6509f422833"
+      },
+      {
         "title": "Medical Affairs Director, Chronic & Prevention",
         "company": "Mölnlycke Health Care",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399510850"
+      },
+      {
+        "title": "Medical Monitor (Gastroenterology)",
+        "company": "PSI CRO",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1775692800000,
+        "url": "https://www.linkedin.com/jobs/view/4398806622"
       },
       {
         "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
@@ -54,12 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
-        "title": "unior Regulatory Affairs Specialist",
-        "company": "BEAUTICON VALLEY Holding",
+        "title": "Principal Biostatistician Medical Affairs",
+        "company": "Jobgether",
         "score": 58,
         "site": "linkedin",
-        "date_posted": 1776988800000,
-        "url": "https://www.linkedin.com/jobs/view/4403721850"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406282977"
+      },
+      {
+        "title": "REGULATORY AFFAIRS SPECIALIST",
+        "company": "Quanta System Spa",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1777161600000,
+        "url": "https://www.linkedin.com/jobs/view/4339821354"
       },
       {
         "title": "Medical Affairs Clinician - Italy",
@@ -86,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4403923357"
       },
       {
-        "title": "(Associate) Medical Director - Rheumatology, EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1776988800000,
-        "url": "https://it.indeed.com/viewjob?jk=e4517f89fe8140ca"
+        "title": "International Medical Science Liaison, Oncology",
+        "company": "IQVIA",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1775606400000,
+        "url": "https://www.linkedin.com/jobs/view/4384494774"
       },
       {
         "title": "Medical Science Liaison Paediatric Oncology - Milan",
@@ -132,46 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402807584"
-      },
-      {
-        "title": "Dermatologist - Medical Director",
-        "company": "Medpace",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331270944"
-      },
-      {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "Medical Affairs Support 6",
-        "company": "IQVIA",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4397603246"
-      },
-      {
-        "title": "International Medical Science Liaison, Oncology",
-        "company": "IQVIA",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1775606400000,
-        "url": "https://www.linkedin.com/jobs/view/4384494774"
-      },
-      {
-        "title": "(Associate) Medical Director - Neurology",
-        "company": "Thermo Fisher Scientific",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1775779200000,
-        "url": "https://www.linkedin.com/jobs/view/4385464808"
       }
     ]
   },
@@ -179,29 +179,24 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "specialist",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
         "word": "engineer",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "fsp",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "project",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "access",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,9 +204,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 8,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 80
     },
     {
       "keyword": "medical scientific",
@@ -228,43 +223,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 12 (-67%)",
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 16 annunci ultimo scan vs media 12 (+33%)",
       "data": {
-        "current": 4,
-        "avg": 12.1,
-        "change_pct": -66.9
+        "current": 16,
+        "avg": 12.0,
+        "change_pct": 33.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 5/16 annunci da aziende nuove (31.2%)",
       "data": {
-        "new": 2,
-        "total": 4,
-        "pct": 50.0
+        "new": 5,
+        "total": 16,
+        "pct": 31.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 83% a 100% (+17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 83.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 17% a 0% (-17pp)",
+      "message": "📡 indeed: quota passata da 0% a 75% (+75pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 16.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 25% (-75pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -274,54 +269,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 66,
+            "id": 2,
+            "size": 82,
             "top_terms": [
-              "italy",
-              "clinical",
+              "manager",
+              "specialist",
               "engineer"
             ],
-            "pct": 38.2
+            "pct": 44.6
           },
           {
-            "id": 3,
-            "size": 36,
+            "id": 0,
+            "size": 39,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 20.8
+            "pct": 21.2
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 25,
-            "top_terms": [
-              "manager",
-              "senior",
-              "cra"
-            ],
-            "pct": 14.5
-          },
-          {
-            "id": 0,
-            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.9
+            "pct": 13.6
           },
           {
             "id": 4,
-            "size": 22,
+            "size": 25,
             "top_terms": [
-              "specialist",
-              "sales",
-              "clinical"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 12.7
+            "pct": 13.6
+          },
+          {
+            "id": 3,
+            "size": 13,
+            "top_terms": [
+              "senior",
+              "cra",
+              "dedicated"
+            ],
+            "pct": 7.1
           }
         ]
       }

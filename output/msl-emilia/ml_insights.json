@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-04-27T09:01:15.767203",
+  "generated_at": "2026-04-28T08:58:43.616725",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 21,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 18.3,
+    "average": 17.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 6,
       "low": 1,
-      "irrelevant": 14
+      "irrelevant": 17
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Specialist - Energy",
-        "company": "Gruppo Hera",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1776643200000,
-        "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
@@ -28,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4387809282"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - Energy",
+        "company": "Gruppo Hera",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1776643200000,
+        "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
         "title": "Regulatory Affairs Stageur",
@@ -56,7 +56,7 @@
       {
         "title": "Clinical Specialist (Operating Room Experience) - Bologna / Firenze",
         "company": "BD",
-        "score": 40,
+        "score": 41,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4399878809"
@@ -68,6 +68,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402893829"
+      },
+      {
+        "title": "Administrative Office Manager",
+        "company": "Polonord Adeste Srl",
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
+      },
+      {
+        "title": "Continuous Improvement Manager",
+        "company": "Berluti",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=76f38aaa69588a20"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -110,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4389193185"
       },
       {
-        "title": "Procurement Digital and AI Lead",
-        "company": "Dentsply Sirona",
+        "title": "Medico per CRA Mirandola",
+        "company": "Codess Sociale Soc Coop",
         "score": 6,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=105e53971478b331"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406393331"
       },
       {
         "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
@@ -142,20 +158,12 @@
         "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
-        "title": "Medico per CRA Mirandola",
-        "company": "Codess Sociale Soc Coop",
+        "title": "AI Video Editor Team Lead",
+        "company": "CapsLock",
         "score": 5,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4406393331"
-      },
-      {
-        "title": "MANUFACTURING ENGINEER",
-        "company": "LINCOTEK GROUP",
-        "score": 3,
         "site": "indeed",
-        "date_posted": 1775520000000,
-        "url": "https://it.indeed.com/viewjob?jk=c166af5a64057fad"
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
         "title": "Product Owner",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1776038400000,
         "url": "https://it.indeed.com/viewjob?jk=3478c4a377aff523"
-      },
-      {
-        "title": "Batch Record Reviewer",
-        "company": "Philip Morris International U.S.",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1775779200000,
-        "url": "https://it.indeed.com/viewjob?jk=10dbde7f80edf352"
       }
     ]
   },
@@ -179,9 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "manager",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
         "word": "cra",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "lead",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -189,32 +199,42 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-50%)",
+      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+43%)",
       "data": {
-        "current": 1,
-        "avg": 2.0,
-        "change_pct": -50.0
+        "current": 3,
+        "avg": 2.1,
+        "change_pct": 42.9
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "data": {
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
@@ -225,44 +245,44 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 3,
             "size": 11,
             "top_terms": [
-              "manager",
               "engineer",
+              "specialist",
+              "lead"
+            ],
+            "pct": 45.8
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "regulatory",
+              "affairs",
               "specialist"
             ],
-            "pct": 52.4
+            "pct": 20.8
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "cra",
+              "mirandola",
+              "video"
+            ],
+            "pct": 16.7
           },
           {
             "id": 1,
             "size": 4,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "manager",
+              "video",
+              "team"
             ],
-            "pct": 19.0
-          },
-          {
-            "id": 2,
-            "size": 4,
-            "top_terms": [
-              "cra",
-              "mirandola",
-              "specialist"
-            ],
-            "pct": 19.0
-          },
-          {
-            "id": 3,
-            "size": 2,
-            "top_terms": [
-              "lead",
-              "ai",
-              "specialist"
-            ],
-            "pct": 9.5
+            "pct": 16.7
           }
         ]
       }

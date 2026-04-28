@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-27T09:01:15.619589",
+  "generated_at": "2026-04-28T08:58:43.467653",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 257,
   "scoring": {
-    "average": 42.4,
+    "average": 42.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 219,
+      "medium": 220,
       "low": 5,
-      "irrelevant": 31
+      "irrelevant": 30
     },
     "top_jobs": [
       {
@@ -44,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4402085672"
+      },
+      {
+        "title": "Field Medical Advisor Emerging Therapies, MAEG, International",
+        "company": "argenx",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4399556112"
       },
       {
         "title": "Medical Advisor",
@@ -94,20 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4357631277"
       },
       {
-        "title": "Specialties Medical Manager",
-        "company": "STADA España",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4392666823"
-      },
-      {
-        "title": "Field Medical Advisor Emerging Therapies, MAEG, International",
-        "company": "argenx",
+        "title": "Medical Science Liaison (m/w/d) (MSL) - Region Nord",
+        "company": "ADVANZ PHARMA",
         "score": 56,
         "site": "linkedin",
         "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4399556112"
+        "url": "https://www.linkedin.com/jobs/view/4391075139"
       },
       {
         "title": "Drug Safety Specialist - Medical Writing",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4387668507"
       },
       {
-        "title": "Medical Science Liaison (m/w/d) (MSL) - Region Nord",
-        "company": "ADVANZ PHARMA",
-        "score": 55,
+        "title": "Medical Science Liaison -IMMU",
+        "company": "Novartis Pharma Schweiz",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4391075139"
+        "date_posted": 1776211200000,
+        "url": "https://www.linkedin.com/jobs/view/4402914366"
       }
     ]
   },
@@ -214,12 +214,6 @@
       "confidence": 90
     },
     {
-      "keyword": "oncology",
-      "frequency": 7,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
-    },
-    {
       "keyword": "affairs manager",
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
@@ -235,6 +229,12 @@
       "keyword": "scientifico farmaco",
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
+    },
+    {
+      "keyword": "oncology",
+      "frequency": 6,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 60
     },
     {
@@ -272,41 +272,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 23 (-91%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 21 (-95%)",
       "data": {
-        "current": 2,
-        "avg": 23.2,
-        "change_pct": -91.4
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "current": 1,
+        "avg": 21.3,
+        "change_pct": -95.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -317,53 +307,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 101,
-            "top_terms": [
-              "director",
-              "pharmacovigilance",
-              "medical"
-            ],
-            "pct": 39.3
-          },
-          {
-            "id": 4,
-            "size": 56,
+            "size": 117,
             "top_terms": [
               "medical",
-              "advisor",
-              "science"
+              "director",
+              "advisor"
             ],
-            "pct": 21.8
-          },
-          {
-            "id": 1,
-            "size": 43,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 16.7
+            "pct": 45.5
           },
           {
             "id": 2,
-            "size": 37,
+            "size": 46,
             "top_terms": [
               "affairs",
-              "regulatory",
+              "manager",
+              "regulatory"
+            ],
+            "pct": 17.9
+          },
+          {
+            "id": 4,
+            "size": 37,
+            "top_terms": [
+              "liaison",
+              "science",
               "medical"
             ],
             "pct": 14.4
           },
           {
+            "id": 1,
+            "size": 36,
+            "top_terms": [
+              "clinical",
+              "research",
+              "associate"
+            ],
+            "pct": 14.0
+          },
+          {
             "id": 3,
-            "size": 20,
+            "size": 21,
             "top_terms": [
               "informatore",
               "scientifico",
               "farmaco"
             ],
-            "pct": 7.8
+            "pct": 8.2
           }
         ]
       }

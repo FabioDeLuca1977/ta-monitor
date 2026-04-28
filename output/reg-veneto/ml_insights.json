@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-27T09:01:15.904240",
+  "generated_at": "2026-04-28T08:58:43.748666",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 248,
+  "total_jobs_analyzed": 249,
   "scoring": {
-    "average": 33.6,
+    "average": 33.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 155,
       "low": 1,
-      "irrelevant": 92
+      "irrelevant": 93
     },
     "top_jobs": [
       {
@@ -44,14 +44,6 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401034969"
-      },
-      {
-        "title": "QARA (Quality Assurance and Regulatory Affairs) Program Manager (x/f/m)",
-        "company": "Doctolib",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402506091"
       },
       {
         "title": "Senior Manager Quality Assurance & Regulatory Affairs",
@@ -100,6 +92,14 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401073614"
+      },
+      {
+        "title": "QARA (Quality Assurance and Regulatory Affairs) Program Manager (x/f/m)",
+        "company": "Doctolib",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402506091"
       },
       {
         "title": "Senior Regulatory Affairs Manager CMC for NCE",
@@ -185,8 +185,8 @@
       },
       {
         "word": "assurance",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "director",
@@ -221,15 +221,15 @@
     },
     {
       "keyword": "senior",
-      "frequency": 15,
+      "frequency": 14,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
     {
       "keyword": "senior manager",
-      "frequency": 5,
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 75
+      "confidence": 60
     },
     {
       "keyword": "associate director",
@@ -256,13 +256,13 @@
       "confidence": 45
     },
     {
-      "keyword": "manager senior",
+      "keyword": "specialist regulatory",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "specialist regulatory",
+      "keyword": "director regulatory",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -272,41 +272,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 22 (-96%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 22 (-87%)",
       "data": {
-        "current": 1,
-        "avg": 22.5,
-        "change_pct": -95.5
+        "current": 3,
+        "avg": 22.4,
+        "change_pct": -86.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
       }
     },
     {
@@ -316,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 78,
+            "id": 0,
+            "size": 99,
             "top_terms": [
-              "affairs",
               "regulatory",
-              "manager"
+              "affairs",
+              "compliance"
             ],
-            "pct": 31.5
+            "pct": 39.8
           },
           {
-            "id": 0,
-            "size": 70,
+            "id": 1,
+            "size": 42,
             "top_terms": [
-              "medical",
-              "specialist",
-              "engineer"
+              "director",
+              "cmc",
+              "regulatory"
             ],
-            "pct": 28.2
+            "pct": 16.9
           },
           {
             "id": 2,
-            "size": 40,
+            "size": 37,
             "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
+              "specialist",
+              "regulatory",
+              "affairs"
             ],
-            "pct": 16.1
-          },
-          {
-            "id": 4,
-            "size": 39,
-            "top_terms": [
-              "cmc",
-              "director",
-              "global"
-            ],
-            "pct": 15.7
+            "pct": 14.9
           },
           {
             "id": 3,
-            "size": 21,
+            "size": 36,
             "top_terms": [
-              "compliance",
-              "regulatory",
-              "manager"
+              "assurance",
+              "quality",
+              "specialist"
             ],
-            "pct": 8.5
+            "pct": 14.5
+          },
+          {
+            "id": 4,
+            "size": 35,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 14.1
           }
         ]
       }
