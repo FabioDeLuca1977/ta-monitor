@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-28T08:58:43.584820",
+  "generated_at": "2026-04-29T08:54:34.045019",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 184,
+  "total_jobs_analyzed": 193,
   "scoring": {
-    "average": 27.3,
+    "average": 28.1,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 72,
+      "good": 8,
+      "medium": 76,
       "low": 16,
-      "irrelevant": 90
+      "irrelevant": 93
     },
     "top_jobs": [
       {
@@ -30,6 +30,14 @@
         "url": "https://it.indeed.com/viewjob?jk=d95821eeb3dac98c"
       },
       {
+        "title": "(Senior) Medical Science Liaisons (Sr. MSL)  - Center-North Italy",
+        "company": "Genmab",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1777248000000,
+        "url": "https://www.linkedin.com/jobs/view/4405218254"
+      },
+      {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
         "score": 62,
@@ -44,6 +52,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
+      },
+      {
+        "title": "Medical Scientific Liaison (MSL) Oncologia, Lung Cancer, Emilia Romagna e Marche",
+        "company": "Johnson & Johnson",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1777334400000,
+        "url": "https://it.indeed.com/viewjob?jk=c476de6d9225d3fb"
       },
       {
         "title": "Clinical trial & medical affairs manager",
@@ -66,8 +82,16 @@
         "company": "Mölnlycke Health Care",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4399510850"
+      },
+      {
+        "title": "Medical Affairs Specialist",
+        "company": "Tintinelli & CO S.R.L.",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405557111"
       },
       {
         "title": "Medical Monitor (Gastroenterology)",
@@ -102,11 +126,27 @@
         "url": "https://www.linkedin.com/jobs/view/4339821354"
       },
       {
+        "title": "Medical Science Liaison - Biologics",
+        "company": "Galderma",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1777334400000,
+        "url": "https://it.indeed.com/viewjob?jk=149704307e157070"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "SOL Group",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1777248000000,
+        "url": "https://www.linkedin.com/jobs/view/4405111289"
+      },
+      {
         "title": "Medical Affairs Clinician - Italy",
         "company": "Evolus",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
@@ -126,52 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4403923357"
       },
       {
-        "title": "International Medical Science Liaison, Oncology",
-        "company": "IQVIA",
-        "score": 56,
+        "title": "Clinical Research Associate",
+        "company": "Medpace",
+        "score": 57,
         "site": "linkedin",
-        "date_posted": 1775606400000,
-        "url": "https://www.linkedin.com/jobs/view/4384494774"
-      },
-      {
-        "title": "Medical Science Liaison Paediatric Oncology - Milan",
-        "company": "Norgine",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1775520000000,
-        "url": "https://www.linkedin.com/jobs/view/4394781112"
-      },
-      {
-        "title": "Medical Director",
-        "company": "Alexion Pharmaceuticals, Inc.",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402544242"
-      },
-      {
-        "title": "Medical Director",
-        "company": "EVERSANA INTOUCH",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1776470400000,
-        "url": "https://www.linkedin.com/jobs/view/4403598089"
-      },
-      {
-        "title": "Scientific and Regulatory Affairs Manager",
-        "company": "Henkel",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1776729600000,
-        "url": "https://it.indeed.com/viewjob?jk=cfdd15acb40344cd"
-      },
-      {
-        "title": "Medical Science Liaison (m/f/x) - Nephrology",
-        "company": "CSL",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402807584"
+        "date_posted": 1777248000000,
+        "url": "https://www.linkedin.com/jobs/view/4332274670"
       }
     ]
   },
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "engineer",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "fsp",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "fsp",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "global",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "project",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "access",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -204,18 +204,24 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 8,
+      "frequency": 9,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
     {
       "keyword": "medical scientific",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "director italy",
+      "keyword": "emilia romagna",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -225,41 +231,50 @@
     {
       "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in crescita: 16 annunci ultimo scan vs media 12 (+33%)",
+      "message": "Volume in crescita: 18 annunci ultimo scan vs media 12 (+44%)",
       "data": {
-        "current": 16,
-        "avg": 12.0,
-        "change_pct": 33.3
+        "current": 18,
+        "avg": 12.5,
+        "change_pct": 44.0
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 SIA: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "SIA",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/16 annunci da aziende nuove (31.2%)",
+      "message": "📊 Ultimo scan: 10/18 annunci da aziende nuove (55.6%)",
       "data": {
-        "new": 5,
-        "total": 16,
-        "pct": 31.2
+        "new": 10,
+        "total": 18,
+        "pct": 55.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 75% (+75pp)",
+      "message": "📡 indeed: quota passata da 75% a 56% (-19pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 55.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 25% (-75pp)",
+      "message": "📡 linkedin: quota passata da 25% a 44% (+19pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 44.4
       }
     },
     {
@@ -269,54 +284,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 82,
+            "id": 0,
+            "size": 102,
             "top_terms": [
               "manager",
               "specialist",
-              "engineer"
+              "medical"
             ],
-            "pct": 44.6
+            "pct": 52.8
           },
           {
-            "id": 0,
-            "size": 39,
+            "id": 3,
+            "size": 31,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 21.2
+            "pct": 16.1
           },
           {
-            "id": 1,
-            "size": 25,
+            "id": 2,
+            "size": 26,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.6
+            "pct": 13.5
           },
           {
             "id": 4,
-            "size": 25,
+            "size": 19,
             "top_terms": [
-              "clinical",
-              "research",
-              "associate"
+              "engineer",
+              "senior",
+              "cra"
             ],
-            "pct": 13.6
+            "pct": 9.8
           },
           {
-            "id": 3,
-            "size": 13,
+            "id": 1,
+            "size": 15,
             "top_terms": [
-              "senior",
-              "cra",
-              "dedicated"
+              "research",
+              "clinical",
+              "associate"
             ],
-            "pct": 7.1
+            "pct": 7.8
           }
         ]
       }
