@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-29T08:54:33.866178",
+  "generated_at": "2026-04-30T08:55:39.863053",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 178,
+  "total_jobs_analyzed": 177,
   "scoring": {
-    "average": 27.5,
+    "average": 27.7,
     "distribution": {
       "excellent": 0,
-      "good": 17,
-      "medium": 45,
+      "good": 16,
+      "medium": 46,
       "low": 48,
-      "irrelevant": 68
+      "irrelevant": 67
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "EIB Trainee - Human Resources Directorate - Talent & Culture Department - Talent Acquisition Unit - based in Luxembourg",
         "company": "European Investment Bank (EIB)",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4407569648"
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4404794800"
       },
       {
-        "title": "Talent Acquisition Partner - Sales",
-        "company": "MioDottore",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1775779200000,
-        "url": "https://www.linkedin.com/jobs/view/4398102554"
-      },
-      {
         "title": "Junior HR Specialist - Ufficio Risorse Umane",
         "company": "Jobs Service",
         "score": 63,
@@ -92,6 +84,14 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4353205273"
+      },
+      {
+        "title": "Talent Acquisition Partner - Sales",
+        "company": "MioDottore",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1775779200000,
+        "url": "https://www.linkedin.com/jobs/view/4398102554"
       },
       {
         "title": "Stage Talent Acquisition",
@@ -126,19 +126,11 @@
         "url": "https://it.indeed.com/viewjob?jk=acd5e8d96f3953fa"
       },
       {
-        "title": "Junior HR Manager - Gestione del Benessere",
-        "company": "sh-operation21",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4399688281"
-      },
-      {
         "title": "HR Specialist",
         "company": "Prisma Srl",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4399733754"
       },
       {
@@ -150,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4407869611"
       },
       {
+        "title": "Junior HR Manager - Gestione del Benessere",
+        "company": "sh-operation21",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4399688281"
+      },
+      {
         "title": "HR RECRUITER SPECIALIST - POMEZIA S. PALOMBA (SEDE)",
         "company": "risparmio casa",
         "score": 58,
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=a625dbb96ba0efc3"
       },
       {
+        "title": "Addetto/a Selezione Personale – Area Risorse Umane",
+        "company": "key-absolute",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406986579"
+      },
+      {
         "title": "Junior HR Specialist - Clienti",
         "company": "sh-operation21",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4399690266"
-      },
-      {
-        "title": "Junior HR Specialist - Servizi Spese",
-        "company": "Tuolavoro-Lazio",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405320881"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "addetto",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "conferimento",
@@ -260,21 +260,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 10 annunci ultimo scan vs media 15 (-35%)",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 15 (-48%)",
       "data": {
-        "current": 10,
-        "avg": 15.3,
-        "change_pct": -34.5
+        "current": 8,
+        "avg": 15.4,
+        "change_pct": -47.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/10 annunci da aziende nuove (90.0%)",
+      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 9,
-        "total": 10,
-        "pct": 90.0
+        "new": 4,
+        "total": 8,
+        "pct": 50.0
       }
     },
     {
@@ -285,53 +285,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 88,
+            "size": 84,
             "top_terms": [
               "addetto",
-              "personale",
-              "dell"
+              "manager",
+              "sales"
             ],
-            "pct": 49.4
+            "pct": 47.5
           },
           {
-            "id": 1,
-            "size": 25,
+            "id": 2,
+            "size": 29,
             "top_terms": [
               "hr",
               "business",
               "partner"
             ],
-            "pct": 14.0
-          },
-          {
-            "id": 3,
-            "size": 24,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 13.5
+            "pct": 16.4
           },
           {
             "id": 4,
-            "size": 24,
+            "size": 28,
+            "top_terms": [
+              "risorse",
+              "umane",
+              "personale"
+            ],
+            "pct": 15.8
+          },
+          {
+            "id": 1,
+            "size": 27,
             "top_terms": [
               "specialist",
               "hr",
               "recruiter"
             ],
-            "pct": 13.5
+            "pct": 15.3
           },
           {
-            "id": 2,
-            "size": 17,
+            "id": 3,
+            "size": 9,
             "top_terms": [
-              "talent",
-              "acquisition",
-              "sales"
+              "dell",
+              "conferimento",
+              "incarico"
             ],
-            "pct": 9.6
+            "pct": 5.1
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-29T08:54:34.511541",
+  "generated_at": "2026-04-30T08:55:40.516288",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 113,
+  "total_jobs_analyzed": 111,
   "scoring": {
-    "average": 14.2,
+    "average": 13.6,
     "distribution": {
       "excellent": 0,
-      "good": 5,
+      "good": 4,
       "medium": 13,
-      "low": 5,
-      "irrelevant": 90
+      "low": 3,
+      "irrelevant": 91
     },
     "top_jobs": [
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini Engineering",
-        "score": 69,
+        "score": 70,
         "site": "linkedin",
         "date_posted": 1777248000000,
         "url": "https://www.linkedin.com/jobs/view/4405167716"
@@ -24,23 +24,15 @@
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "AYES - Management & Technology Consulting",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
-        "title": "Regulatory Affairs & Auditor GxP (Pharmacovigilanza, GCP)",
-        "company": "fortil",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1775606400000,
-        "url": "https://www.linkedin.com/jobs/view/4396343419"
-      },
-      {
         "title": "Regulatory Affairs CMC - Sterility Assurance",
         "company": "PQE Group",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401612170"
@@ -56,7 +48,7 @@
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1775692800000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
@@ -82,7 +74,7 @@
         "company": "Randstad Digital Italia",
         "score": 55,
         "site": "linkedin",
-        "date_posted": 1776038400000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
@@ -134,20 +126,20 @@
         "url": "https://www.linkedin.com/jobs/view/4403749920"
       },
       {
-        "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
-        "company": "OpsArmy Careers",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4406923886"
-      },
-      {
         "title": "Quality Assurance Pharma",
         "company": "Amaris Consulting",
         "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401924260"
+      },
+      {
+        "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
+        "company": "OpsArmy Careers",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406923886"
       },
       {
         "title": "Farmacovigilanza",
@@ -158,9 +150,17 @@
         "url": "https://www.linkedin.com/jobs/view/4400478718"
       },
       {
+        "title": "Quality Assurance Manager (Medical Devices) - fixed term contract",
+        "company": "Jefferson Wells Italia",
+        "score": 23,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402263110"
+      },
+      {
         "title": "parrucchiera",
         "company": null,
-        "score": 28,
+        "score": 23,
         "site": "indeed",
         "date_posted": 1776816000000,
         "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
@@ -168,7 +168,7 @@
       {
         "title": "parrucchiera",
         "company": "Helena Hair Lab",
-        "score": 28,
+        "score": 23,
         "site": "indeed",
         "date_posted": 1776816000000,
         "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -216,43 +216,13 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 11 annunci ultimo scan vs media 8 (+40%)",
-      "data": {
-        "current": 11,
-        "avg": 7.8,
-        "change_pct": 40.2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/11 annunci da aziende nuove (72.7%)",
+      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 8,
-        "total": 11,
-        "pct": 72.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 82% (-18pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 81.8
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 18% (+18pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 18.2
+        "new": 2,
+        "total": 6,
+        "pct": 33.3
       }
     },
     {
@@ -269,47 +239,47 @@
               "scientist",
               "associate"
             ],
-            "pct": 54.9
+            "pct": 55.9
           },
           {
-            "id": 3,
-            "size": 16,
+            "id": 4,
+            "size": 18,
             "top_terms": [
               "specialist",
-              "technology",
-              "data"
+              "quality",
+              "manufacturing"
             ],
-            "pct": 14.2
+            "pct": 16.2
           },
           {
-            "id": 1,
-            "size": 15,
+            "id": 2,
+            "size": 13,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.3
+            "pct": 11.7
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 3,
+            "size": 11,
             "top_terms": [
-              "quality",
               "assurance",
-              "specialist"
+              "quality",
+              "associate"
             ],
-            "pct": 10.6
+            "pct": 9.9
           },
           {
-            "id": 4,
-            "size": 8,
+            "id": 1,
+            "size": 7,
             "top_terms": [
               "manager",
-              "ethics",
-              "mbse"
+              "mbse",
+              "ethics"
             ],
-            "pct": 7.1
+            "pct": 6.3
           }
         ]
       }

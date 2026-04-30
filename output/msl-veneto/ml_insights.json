@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-29T08:54:33.926103",
+  "generated_at": "2026-04-30T08:55:39.925143",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 261,
+  "total_jobs_analyzed": 264,
   "scoring": {
-    "average": 42.5,
+    "average": 42.4,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 223,
-      "low": 5,
-      "irrelevant": 31
+      "medium": 224,
+      "low": 6,
+      "irrelevant": 32
     },
     "top_jobs": [
       {
@@ -126,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4401443940"
       },
       {
+        "title": "Informatore Scientifico del Farmaco",
+        "company": "AGpharma",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1777420800000,
+        "url": "https://www.linkedin.com/jobs/view/4396666448"
+      },
+      {
         "title": "Manager, Medical Affairs & Academics",
         "company": "Windsor Regional Hospital",
         "score": 55,
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4402914366"
-      },
-      {
-        "title": "ADIUM: Medical Science Liaison",
-        "company": "Advice Uruguay",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1776124800000,
-        "url": "https://www.linkedin.com/jobs/view/4399776166"
       }
     ]
   },
@@ -215,9 +215,9 @@
     },
     {
       "keyword": "scientifico farmaco",
-      "frequency": 5,
+      "frequency": 6,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 75
+      "confidence": 90
     },
     {
       "keyword": "oncology",
@@ -272,11 +272,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 21 (-77%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 22 (-77%)",
       "data": {
         "current": 5,
-        "avg": 21.3,
-        "change_pct": -76.6
+        "avg": 21.6,
+        "change_pct": -76.8
       }
     },
     {
@@ -292,21 +292,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 20% (+20pp)",
+      "message": "📡 linkedin: quota passata da 80% a 60% (-20pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 20.0
+        "channel": "linkedin",
+        "old_pct": 80.0,
+        "new_pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 80% (-20pp)",
+      "message": "📡 indeed: quota passata da 20% a 40% (+20pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 80.0
+        "channel": "indeed",
+        "old_pct": 20.0,
+        "new_pct": 40.0
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 91,
-            "top_terms": [
-              "clinical",
-              "research",
-              "pharmacovigilance"
-            ],
-            "pct": 34.9
-          },
-          {
             "id": 1,
-            "size": 72,
+            "size": 97,
             "top_terms": [
               "medical",
               "director",
               "advisor"
             ],
-            "pct": 27.6
-          },
-          {
-            "id": 2,
-            "size": 44,
-            "top_terms": [
-              "science",
-              "medical",
-              "liaison"
-            ],
-            "pct": 16.9
+            "pct": 36.7
           },
           {
             "id": 0,
-            "size": 32,
-            "top_terms": [
-              "regulatory",
-              "specialist",
-              "affairs"
-            ],
-            "pct": 12.3
-          },
-          {
-            "id": 3,
-            "size": 22,
+            "size": 47,
             "top_terms": [
               "informatore",
               "scientifico",
-              "farmaco"
+              "isf"
             ],
-            "pct": 8.4
+            "pct": 17.8
+          },
+          {
+            "id": 4,
+            "size": 46,
+            "top_terms": [
+              "clinical",
+              "research",
+              "associate"
+            ],
+            "pct": 17.4
+          },
+          {
+            "id": 3,
+            "size": 39,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "medical"
+            ],
+            "pct": 14.8
+          },
+          {
+            "id": 2,
+            "size": 35,
+            "top_terms": [
+              "pharmacovigilance",
+              "safety",
+              "drug"
+            ],
+            "pct": 13.3
           }
         ]
       }

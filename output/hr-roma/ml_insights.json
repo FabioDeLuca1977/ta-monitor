@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-29T08:54:33.778051",
+  "generated_at": "2026-04-30T08:55:39.770845",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 178,
+  "total_jobs_analyzed": 177,
   "scoring": {
-    "average": 26.6,
+    "average": 27.0,
     "distribution": {
       "excellent": 0,
       "good": 9,
       "medium": 51,
       "low": 48,
-      "irrelevant": 70
+      "irrelevant": 69
     },
     "top_jobs": [
       {
@@ -62,20 +62,20 @@
         "url": "https://it.indeed.com/viewjob?jk=acd5e8d96f3953fa"
       },
       {
+        "title": "HR Specialist",
+        "company": "Prisma Srl",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4399733754"
+      },
+      {
         "title": "Junior HR Manager - Gestione del Benessere",
         "company": "sh-operation21",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4399688281"
-      },
-      {
-        "title": "HR Specialist",
-        "company": "Prisma Srl",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399733754"
       },
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
@@ -86,20 +86,36 @@
         "url": "https://www.linkedin.com/jobs/view/4404548743"
       },
       {
-        "title": "HR TALENT ACQUISITION",
-        "company": "FiberCop",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402532471"
-      },
-      {
         "title": "HR RECRUITER SPECIALIST - POMEZIA S. PALOMBA (SEDE)",
         "company": "risparmio casa",
         "score": 59,
         "site": "indeed",
         "date_posted": 1776988800000,
         "url": "https://it.indeed.com/viewjob?jk=a625dbb96ba0efc3"
+      },
+      {
+        "title": "HR TALENT ACQUISITION",
+        "company": "FiberCop",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402532471"
+      },
+      {
+        "title": "HR Specialist Tecnologie per il Benessere",
+        "company": "sh-operation21",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402700591"
+      },
+      {
+        "title": "Stage HR Generalist",
+        "company": "Cerba HealthCare Italia",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4407418745"
       },
       {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
@@ -126,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399690266"
       },
       {
-        "title": "HR Specialist Tecnologie per il Benessere",
-        "company": "sh-operation21",
+        "title": "HR Generalist - Tecnologie per l'acqua",
+        "company": "Tuolavoro-Lazio",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402700591"
+        "url": "https://www.linkedin.com/jobs/view/4404467555"
       },
       {
         "title": "Junior HR Specialist - Servizi Spese",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4403429750"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "Task Force Service Srl",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1776729600000,
-        "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
-      },
-      {
-        "title": "HR RECRUITER SPECIALIST",
-        "company": "WJOB",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402800172"
       }
     ]
   },
@@ -185,13 +185,8 @@
       },
       {
         "word": "addetto",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "personale",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "conferimento",
@@ -200,6 +195,11 @@
       },
       {
         "word": "incarico",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "direttore",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       }
@@ -272,21 +272,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 10 annunci ultimo scan vs media 15 (-35%)",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 15 (-48%)",
       "data": {
-        "current": 10,
-        "avg": 15.3,
-        "change_pct": -34.5
+        "current": 8,
+        "avg": 15.4,
+        "change_pct": -47.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/10 annunci da aziende nuove (90.0%)",
+      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 9,
-        "total": 10,
-        "pct": 90.0
+        "new": 4,
+        "total": 8,
+        "pct": 50.0
       }
     },
     {
@@ -297,53 +297,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 88,
+            "size": 84,
             "top_terms": [
               "addetto",
-              "personale",
-              "dell"
+              "manager",
+              "sales"
             ],
-            "pct": 49.4
+            "pct": 47.5
           },
           {
-            "id": 1,
-            "size": 25,
+            "id": 2,
+            "size": 29,
             "top_terms": [
               "hr",
               "business",
               "partner"
             ],
-            "pct": 14.0
-          },
-          {
-            "id": 3,
-            "size": 24,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 13.5
+            "pct": 16.4
           },
           {
             "id": 4,
-            "size": 24,
+            "size": 28,
+            "top_terms": [
+              "risorse",
+              "umane",
+              "personale"
+            ],
+            "pct": 15.8
+          },
+          {
+            "id": 1,
+            "size": 27,
             "top_terms": [
               "specialist",
               "hr",
               "recruiter"
             ],
-            "pct": 13.5
+            "pct": 15.3
           },
           {
-            "id": 2,
-            "size": 17,
+            "id": 3,
+            "size": 9,
             "top_terms": [
-              "talent",
-              "acquisition",
-              "sales"
+              "dell",
+              "conferimento",
+              "incarico"
             ],
-            "pct": 9.6
+            "pct": 5.1
           }
         ]
       }

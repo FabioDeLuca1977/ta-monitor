@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-29T08:54:34.077164",
+  "generated_at": "2026-04-30T08:55:40.077843",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 22,
+  "total_jobs_analyzed": 20,
   "scoring": {
-    "average": 17.5,
+    "average": 16.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 5,
+      "medium": 4,
       "low": 3,
-      "irrelevant": 14
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -36,14 +36,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4400189414"
-      },
-      {
-        "title": "Clinical Specialist",
-        "company": "Coloplast",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1775606400000,
-        "url": "https://www.linkedin.com/jobs/view/4376074024"
       },
       {
         "title": "Clinical Specialist (Operating Room Experience) - Bologna / Firenze",
@@ -82,7 +74,7 @@
         "company": "PQE Group",
         "score": 17,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776124800000,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
@@ -102,28 +94,12 @@
         "url": "https://it.indeed.com/viewjob?jk=dad9875fc150cecf"
       },
       {
-        "title": "Territory Manager - Emilia Romagna",
-        "company": "B. Braun",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1775606400000,
-        "url": "https://it.indeed.com/viewjob?jk=ef1f02549afc8853"
-      },
-      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389193185"
-      },
-      {
-        "title": "Product Owner",
-        "company": "LINCOTEK GROUP",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1776038400000,
-        "url": "https://it.indeed.com/viewjob?jk=3478c4a377aff523"
       },
       {
         "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
@@ -166,9 +142,33 @@
         "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
+        "title": "Product Owner",
+        "company": "LINCOTEK GROUP",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1776038400000,
+        "url": "https://it.indeed.com/viewjob?jk=3478c4a377aff523"
+      },
+      {
+        "title": "Batch Record Reviewer",
+        "company": "Philip Morris International U.S.",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1775779200000,
+        "url": "https://it.indeed.com/viewjob?jk=10dbde7f80edf352"
+      },
+      {
+        "title": "Process Engineer",
+        "company": "Dentsply Sirona",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=c8962b7645cd2ec7"
+      },
+      {
         "title": "Procurement Digital and AI Lead",
         "company": "Dentsply Sirona",
-        "score": 1,
+        "score": 0,
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=105e53971478b331"
@@ -184,11 +184,6 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
         "word": "lead",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
@@ -201,11 +196,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-52%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-53%)",
       "data": {
         "current": 1,
         "avg": 2.1,
-        "change_pct": -52.4
+        "change_pct": -52.6
       }
     },
     {
@@ -225,14 +220,24 @@
       "data": {
         "clusters": [
           {
+            "id": 3,
+            "size": 8,
+            "top_terms": [
+              "lead",
+              "ai",
+              "regulatory"
+            ],
+            "pct": 40.0
+          },
+          {
             "id": 0,
-            "size": 11,
+            "size": 5,
             "top_terms": [
               "specialist",
-              "regulatory",
-              "affairs"
+              "affairs",
+              "regulatory"
             ],
-            "pct": 50.0
+            "pct": 25.0
           },
           {
             "id": 1,
@@ -242,27 +247,17 @@
               "mirandola",
               "video"
             ],
-            "pct": 18.2
+            "pct": 20.0
           },
           {
             "id": 2,
-            "size": 4,
+            "size": 3,
             "top_terms": [
               "manager",
               "video",
               "team"
             ],
-            "pct": 18.2
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "lead",
-              "ai",
-              "video"
-            ],
-            "pct": 13.6
+            "pct": 15.0
           }
         ]
       }

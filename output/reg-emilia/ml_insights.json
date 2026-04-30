@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-29T08:54:34.429487",
+  "generated_at": "2026-04-30T08:55:40.433074",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 12.5,
+    "average": 13.6,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 3,
+      "medium": 4,
       "low": 1,
-      "irrelevant": 35
+      "irrelevant": 34
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Illumia",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4387809282"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -38,9 +38,17 @@
         "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
+        "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
+        "company": "PQE Group",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406055583"
+      },
+      {
         "title": "Regulatory Affairs Consultant",
         "company": "Whitelab",
-        "score": 47,
+        "score": 46,
         "site": "indeed",
         "date_posted": 1776211200000,
         "url": "https://it.indeed.com/viewjob?jk=a8a4074f39a3293f"
@@ -70,14 +78,6 @@
         "url": "https://it.indeed.com/viewjob?jk=64b971018f9d36e0"
       },
       {
-        "title": "RA Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399728867"
-      },
-      {
         "title": "Sales Consultant (formazione e consulenza HR)",
         "company": "Randstad",
         "score": 14,
@@ -100,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4401613481"
+      },
+      {
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
         "title": "SW Quality Assurance specialist",
@@ -142,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4379862046"
       },
       {
-        "title": "Compensation & Benefits Specialist",
-        "company": "Coesia",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1776816000000,
-        "url": "https://it.indeed.com/viewjob?jk=03e06ed115942beb"
-      },
-      {
         "title": "SENIOR R&D ENGINEER MEDICAL DEVICE (ACTIVE)",
         "company": "Grafton Recruitment",
         "score": 10,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4401044611"
       },
       {
-        "title": "Senior Verification, Validation Engineer_Medical Device",
-        "company": "Grafton Recruitment",
+        "title": "Quality Assurance",
+        "company": "Sherwin-Williams",
         "score": 8,
         "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4399937608"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396583284"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "senior",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -210,42 +210,32 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-45%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
       "data": {
-        "current": 2,
-        "avg": 3.6,
-        "change_pct": -45.0
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "current": 1,
+        "avg": 3.7,
+        "change_pct": -73.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
