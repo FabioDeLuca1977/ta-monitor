@@ -1,38 +1,30 @@
 {
-  "generated_at": "2026-04-30T08:55:40.133724",
+  "generated_at": "2026-05-01T08:44:37.573255",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 59,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 27.3,
+    "average": 27.1,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 23,
-      "low": 4,
-      "irrelevant": 29
+      "good": 1,
+      "medium": 25,
+      "low": 5,
+      "irrelevant": 27
     },
     "top_jobs": [
       {
         "title": "Medical Science Liaison",
         "company": "Syneos Health Commercial Solutions",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1777075200000,
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
-        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
-        "company": "Amplity",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4390716325"
-      },
-      {
         "title": "Medical Science Liaison (m/f/x) - Nephrology",
         "company": "CSL Plasma",
-        "score": 60,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1776988800000,
         "url": "https://it.indeed.com/viewjob?jk=a802a63314b572b5"
@@ -40,15 +32,23 @@
       {
         "title": "Medical Science Liaison",
         "company": "Organon Pharmaceuticals",
-        "score": 59,
+        "score": 58,
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=3f473cc230e07a07"
       },
       {
+        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
+        "company": "Amplity",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4390716325"
+      },
+      {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
         "company": "Teva Pharmaceuticals",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4382117194"
@@ -64,7 +64,7 @@
       {
         "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
         "company": "Alma Laboris - Official Page",
-        "score": 55,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4400480695"
@@ -72,7 +72,7 @@
       {
         "title": "Medical Science Liaison, Oncology (RCC)",
         "company": "Amplity",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4385271426"
@@ -86,6 +86,14 @@
         "url": "https://it.indeed.com/viewjob?jk=5afa1d8293fc267b"
       },
       {
+        "title": "Clinical Development Medical Science Director",
+        "company": "Angelini Pharma",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396450100"
+      },
+      {
         "title": "(Senior) Medical Science Liaisons (Sr. MSL)  - Center-North Italy",
         "company": "Genmab",
         "score": 51,
@@ -94,17 +102,9 @@
         "url": "https://www.linkedin.com/jobs/view/4405218254"
       },
       {
-        "title": "Clinical Development Medical Science Director",
-        "company": "Angelini Pharma",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396450100"
-      },
-      {
         "title": "Chief Medical Officer",
         "company": "Home Recruitment Ltd",
-        "score": 50,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401628210"
@@ -122,7 +122,7 @@
         "company": "Worldwide Clinical Trials",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4401465916"
       },
       {
@@ -154,7 +154,7 @@
         "company": "Randstad Digital Italia",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
@@ -162,7 +162,7 @@
         "company": "Jefferson Wells Italia",
         "score": 43,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4402500296"
       },
       {
@@ -185,8 +185,8 @@
       },
       {
         "word": "manager",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "lead",
@@ -194,7 +194,7 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "product",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -218,41 +218,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-58%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-57%)",
       "data": {
         "current": 2,
-        "avg": 4.8,
-        "change_pct": -57.9
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "avg": 4.7,
+        "change_pct": -57.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 17% a 100% (+83pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 16.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 83% a 0% (-83pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 83.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -262,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 27,
+            "id": 4,
+            "size": 20,
             "top_terms": [
-              "manager",
-              "associate",
-              "officer"
+              "lead",
+              "programmer",
+              "engineer"
             ],
-            "pct": 45.8
-          },
-          {
-            "id": 0,
-            "size": 10,
-            "top_terms": [
-              "science",
-              "liaison",
-              "medical"
-            ],
-            "pct": 16.9
+            "pct": 34.5
           },
           {
             "id": 1,
+            "size": 12,
+            "top_terms": [
+              "medical",
+              "science",
+              "liaison"
+            ],
+            "pct": 20.7
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "specialist",
+              "associate",
+              "research"
+            ],
+            "pct": 19.0
+          },
+          {
+            "id": 0,
             "size": 10,
             "top_terms": [
               "affairs",
               "regulatory",
               "head"
             ],
-            "pct": 16.9
+            "pct": 17.2
           },
           {
             "id": 3,
-            "size": 7,
-            "top_terms": [
-              "specialist",
-              "product",
-              "italy"
-            ],
-            "pct": 11.9
-          },
-          {
-            "id": 4,
             "size": 5,
             "top_terms": [
-              "lead",
-              "video",
-              "editor"
+              "manager",
+              "field",
+              "sr"
             ],
-            "pct": 8.5
+            "pct": 8.6
           }
         ]
       }

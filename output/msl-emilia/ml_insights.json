@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-30T08:55:40.077843",
+  "generated_at": "2026-05-01T08:44:37.524580",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 20,
+  "total_jobs_analyzed": 19,
   "scoring": {
-    "average": 16.6,
+    "average": 14.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 4,
-      "low": 3,
-      "irrelevant": 13
+      "medium": 3,
+      "low": 2,
+      "irrelevant": 14
     },
     "top_jobs": [
       {
@@ -38,14 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
-        "title": "Clinical Specialist (Operating Room Experience) - Bologna / Firenze",
-        "company": "BD",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": 1775692800000,
-        "url": "https://www.linkedin.com/jobs/view/4399878809"
-      },
-      {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek Italia",
         "score": 33,
@@ -62,14 +54,6 @@
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
       },
       {
-        "title": "Administrative Office Manager",
-        "company": "Polonord Adeste Srl",
-        "score": 20,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
-      },
-      {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 17,
@@ -78,9 +62,17 @@
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
+        "title": "Administrative Office Manager",
+        "company": "Polonord Adeste Srl",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
+      },
+      {
         "title": "Continuous Improvement Manager",
         "company": "Berluti",
-        "score": 17,
+        "score": 12,
         "site": "indeed",
         "date_posted": 1777248000000,
         "url": "https://it.indeed.com/viewjob?jk=76f38aaa69588a20"
@@ -98,7 +90,7 @@
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4389193185"
       },
       {
@@ -118,28 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4403487731"
       },
       {
-        "title": "AI Team Lead Video Editor",
-        "company": "CapsLock",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
-      },
-      {
         "title": "Medico per CRA Mirandola",
         "company": "Codess Sociale Soc Coop",
         "score": 5,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406393331"
-      },
-      {
-        "title": "AI Video Editor Team Lead",
-        "company": "CapsLock",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
         "title": "Product Owner",
@@ -172,6 +148,22 @@
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=105e53971478b331"
+      },
+      {
+        "title": "AI Team Lead Video Editor",
+        "company": "CapsLock",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
+      },
+      {
+        "title": "AI Video Editor Team Lead",
+        "company": "CapsLock",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       }
     ]
   },
@@ -182,6 +174,11 @@
         "word": "cra",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "lead",
@@ -196,11 +193,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-53%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-56%)",
       "data": {
         "current": 1,
-        "avg": 2.1,
-        "change_pct": -52.6
+        "avg": 2.2,
+        "change_pct": -55.6
       }
     },
     {
@@ -211,55 +208,6 @@
         "new": 1,
         "total": 1,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "role_clusters",
-      "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
-      "data": {
-        "clusters": [
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "lead",
-              "ai",
-              "regulatory"
-            ],
-            "pct": 40.0
-          },
-          {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "affairs",
-              "regulatory"
-            ],
-            "pct": 25.0
-          },
-          {
-            "id": 1,
-            "size": 4,
-            "top_terms": [
-              "cra",
-              "mirandola",
-              "video"
-            ],
-            "pct": 20.0
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "manager",
-              "video",
-              "team"
-            ],
-            "pct": 15.0
-          }
-        ]
       }
     }
   ],
