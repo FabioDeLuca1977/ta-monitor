@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-01T08:44:37.281090",
+  "generated_at": "2026-05-02T08:16:59.166626",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 177,
+  "total_jobs_analyzed": 171,
   "scoring": {
-    "average": 27.6,
+    "average": 27.3,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 52,
-      "low": 49,
-      "irrelevant": 67
+      "good": 8,
+      "medium": 51,
+      "low": 46,
+      "irrelevant": 66
     },
     "top_jobs": [
       {
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4407569648"
       },
       {
-        "title": "HR Business Partner",
-        "company": "We-Com",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1777334400000,
-        "url": "https://it.indeed.com/viewjob?jk=acd5e8d96f3953fa"
-      },
-      {
         "title": "HR Specialist",
         "company": "Prisma Srl",
         "score": 60,
@@ -94,52 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399688281"
       },
       {
-        "title": "HR RECRUITER SPECIALIST - POMEZIA S. PALOMBA (SEDE)",
-        "company": "risparmio casa",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1776988800000,
-        "url": "https://it.indeed.com/viewjob?jk=a625dbb96ba0efc3"
-      },
-      {
         "title": "HR TALENT ACQUISITION",
         "company": "FiberCop",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4402532471"
-      },
-      {
-        "title": "HR Specialist Tecnologie per il Benessere",
-        "company": "sh-operation21",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402700591"
-      },
-      {
-        "title": "Stage HR Generalist",
-        "company": "Cerba HealthCare Italia",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4407418745"
-      },
-      {
-        "title": "Talent Acquisition Specialist - Focus on Sales Roles",
-        "company": "TeamSystem",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4368714171"
-      },
-      {
-        "title": "Talent Acquisition Partner - Sales",
-        "company": "MioDottore",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1775779200000,
-        "url": "https://www.linkedin.com/jobs/view/4398102554"
       },
       {
         "title": "Junior HR Specialist - Clienti",
@@ -158,12 +110,12 @@
         "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
       },
       {
-        "title": "HR Generalist - Tecnologie per l'acqua",
-        "company": "Tuolavoro-Lazio",
+        "title": "Talent Acquisition Partner - Sales",
+        "company": "MioDottore",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4404467555"
+        "url": "https://www.linkedin.com/jobs/view/4404442531"
       },
       {
         "title": "Junior HR Specialist - Servizi Spese",
@@ -172,6 +124,54 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405320881"
+      },
+      {
+        "title": "Stage HR Generalist",
+        "company": "Cerba HealthCare Italia",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4407418745"
+      },
+      {
+        "title": "Talent Acquisition Specialist - Focus on Sales Roles",
+        "company": "TeamSystem",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4368714171"
+      },
+      {
+        "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
+        "company": "DGS",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4353205273"
+      },
+      {
+        "title": "Stage Talent Acquisition",
+        "company": "Dan John",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4403484791"
+      },
+      {
+        "title": "HR Specialist Tecnologie per il Benessere",
+        "company": "sh-operation21",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4402700591"
+      },
+      {
+        "title": "IT & HR Consultant",
+        "company": "Tron Group Holding",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4403429750"
       }
     ]
   },
@@ -264,13 +264,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-86%)",
+      "data": {
+        "current": 2,
+        "avg": 14.1,
+        "change_pct": -85.8
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 6,
-        "total": 12,
-        "pct": 50.0
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -280,54 +310,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 84,
+            "id": 0,
+            "size": 78,
             "top_terms": [
+              "addetto",
               "dell",
-              "manager",
-              "sales"
+              "direttore"
             ],
-            "pct": 47.5
+            "pct": 45.6
+          },
+          {
+            "id": 2,
+            "size": 27,
+            "top_terms": [
+              "hr",
+              "business",
+              "partner"
+            ],
+            "pct": 15.8
           },
           {
             "id": 3,
-            "size": 32,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 18.1
-          },
-          {
-            "id": 4,
-            "size": 29,
+            "size": 25,
             "top_terms": [
               "specialist",
               "hr",
-              "talent"
+              "recruiter"
             ],
-            "pct": 16.4
+            "pct": 14.6
           },
           {
             "id": 1,
             "size": 23,
             "top_terms": [
-              "hr",
-              "generalist",
-              "consultant"
+              "risorse",
+              "umane",
+              "addetto"
             ],
-            "pct": 13.0
+            "pct": 13.5
           },
           {
-            "id": 0,
-            "size": 9,
+            "id": 4,
+            "size": 18,
             "top_terms": [
-              "business",
-              "partner",
-              "hr"
+              "talent",
+              "acquisition",
+              "68"
             ],
-            "pct": 5.1
+            "pct": 10.5
           }
         ]
       }

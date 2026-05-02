@@ -1,30 +1,22 @@
 {
-  "generated_at": "2026-05-01T08:44:37.613011",
+  "generated_at": "2026-05-02T08:16:59.527247",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 10.4,
+    "average": 9.0,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 1,
+      "good": 0,
+      "medium": 2,
       "low": 1,
-      "irrelevant": 36
+      "irrelevant": 35
     },
     "top_jobs": [
       {
-        "title": "Regulatory Affairs",
-        "company": "Randstad Professional Italia",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384490252"
-      },
-      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Jobtech",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405217316"
@@ -32,15 +24,15 @@
       {
         "title": "IT Business Analyst – Regulatory Compliance (DORA/NIS2)",
         "company": "Proxima Group",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4400180891"
+        "score": 51,
+        "site": "indeed",
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=03088079b4c1ec62"
       },
       {
         "title": "Quality Assurance Assistant JD",
         "company": "FL MEDICAL",
-        "score": 34,
+        "score": 35,
         "site": "indeed",
         "date_posted": 1776124800000,
         "url": "https://it.indeed.com/viewjob?jk=f4328cebac03771c"
@@ -54,20 +46,20 @@
         "url": "https://it.indeed.com/viewjob?jk=585fa17cb6ec714c"
       },
       {
-        "title": "Quality assurance specialist – Business Unit Transformers (F/M/D)",
-        "company": "Hitachi Energy",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1775865600000,
-        "url": "https://www.linkedin.com/jobs/view/4398742816"
-      },
-      {
         "title": "Quality Assurance Specialist",
         "company": "Dentsply Sirona",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402168144"
+        "date_posted": 1776297600000,
+        "url": "https://www.linkedin.com/jobs/view/4402168155"
+      },
+      {
+        "title": "Quality assurance specialist – Business Unit Transformers (F/M/D)",
+        "company": "Hitachi Energy",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1775865600000,
+        "url": "https://www.linkedin.com/jobs/view/4398742816"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -112,7 +104,7 @@
       {
         "title": "Business Analyst – Quality Assurance",
         "company": "LHH",
-        "score": 9,
+        "score": 8,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405696767"
@@ -132,6 +124,14 @@
         "site": "linkedin",
         "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4402936689"
+      },
+      {
+        "title": "Senior IT Support Specialist",
+        "company": "PMAS technologies",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=dd9213acc4b28678"
       },
       {
         "title": "Addetto/a Sistema Qualità, Sicurezza e Ambiente - Settore Metalmeccanico",
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=388bf33d196da789"
       },
       {
-        "title": "Senior IT Support Specialist",
-        "company": "PMAS technologies",
-        "score": 6,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=dd9213acc4b28678"
-      },
-      {
         "title": "| COMPUTER SYSTEM VALIDATION & DATA INTEGRITY CONSULTANT – GMP | 149566 |",
         "company": "Orienta Agenzia per il Lavoro",
         "score": 6,
         "site": "linkedin",
         "date_posted": 1776211200000,
         "url": "https://www.linkedin.com/jobs/view/4399925959"
+      },
+      {
+        "title": "STAGE GMP & QUALITY",
+        "company": "Bauli Group",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404801890"
       }
     ]
   },
@@ -189,17 +189,17 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "support",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "sistema",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "specialist",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "engineer",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "support",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-37%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-39%)",
       "data": {
         "current": 2,
-        "avg": 3.2,
-        "change_pct": -36.8
+        "avg": 3.3,
+        "change_pct": -38.9
       }
     },
     {
@@ -255,44 +255,44 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 21,
+            "id": 3,
+            "size": 20,
             "top_terms": [
               "telemarketing",
-              "commerciale",
-              "sistema"
+              "specialist",
+              "commerciale"
             ],
-            "pct": 52.5
+            "pct": 52.6
           },
           {
             "id": 1,
-            "size": 11,
+            "size": 9,
             "top_terms": [
               "assurance",
-              "specialist",
-              "quality"
+              "quality",
+              "specialist"
             ],
-            "pct": 27.5
+            "pct": 23.7
           },
           {
-            "id": 3,
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "system",
+              "gmp",
+              "quality"
+            ],
+            "pct": 10.5
+          },
+          {
+            "id": 2,
             "size": 3,
             "top_terms": [
               "engineer",
               "chief",
               "telemarketing"
             ],
-            "pct": 7.5
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "system",
-              "gmp",
-              "support"
-            ],
-            "pct": 7.5
+            "pct": 7.9
           },
           {
             "id": 0,
@@ -300,9 +300,9 @@
             "top_terms": [
               "manager",
               "telemarketing",
-              "quality"
+              "system"
             ],
-            "pct": 5.0
+            "pct": 5.3
           }
         ]
       }

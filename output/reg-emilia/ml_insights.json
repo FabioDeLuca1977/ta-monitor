@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-01T08:44:37.819455",
+  "generated_at": "2026-05-02T08:16:59.746088",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 39,
   "scoring": {
-    "average": 13.6,
+    "average": 13.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 4,
       "low": 2,
-      "irrelevant": 32
+      "irrelevant": 31
     },
     "top_jobs": [
       {
@@ -34,7 +34,7 @@
         "company": "JSB Solutions",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776297600000,
         "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
@@ -64,7 +64,7 @@
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
-        "score": 37,
+        "score": 36,
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=a805b7177c966455"
@@ -82,8 +82,8 @@
         "company": "Dentsply Sirona",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402168144"
+        "date_posted": 1776297600000,
+        "url": "https://www.linkedin.com/jobs/view/4402168155"
       },
       {
         "title": "Junior Quality Assurance Specialist",
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4405556584"
       },
       {
+        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
+        "company": "Jefferson Wells Italia",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4401044611"
+      },
+      {
         "title": "Sales Consultant (formazione e consulenza HR)",
         "company": "Randstad",
         "score": 9,
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
-      },
-      {
-        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
-        "company": "Jefferson Wells Italia",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4401044611"
       },
       {
         "title": "Quality Assurance",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4396583284"
       },
       {
-        "title": "Senior Verification, Validation Engineer_Medical Device",
-        "company": "Grafton Recruitment",
+        "title": "General Manager",
+        "company": "Hines",
         "score": 7,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4399937608"
+        "site": "indeed",
+        "date_posted": 1776384000000,
+        "url": "https://it.indeed.com/viewjob?jk=6bb2d28654a9e67c"
       }
     ]
   },
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
       "data": {
         "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.8
+        "avg": 3.8,
+        "change_pct": -73.7
       }
     },
     {
@@ -255,44 +255,34 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 20,
+            "id": 0,
+            "size": 19,
             "top_terms": [
               "specialist",
               "field",
               "sales"
             ],
-            "pct": 50.0
+            "pct": 48.7
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 7,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 17.5
+            "pct": 17.9
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.5
-          },
-          {
-            "id": 0,
-            "size": 4,
-            "top_terms": [
-              "engineer",
-              "senior",
-              "device"
-            ],
-            "pct": 10.0
+            "pct": 12.8
           },
           {
             "id": 3,
@@ -302,7 +292,17 @@
               "temporary",
               "support"
             ],
-            "pct": 10.0
+            "pct": 10.3
+          },
+          {
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "engineer",
+              "senior",
+              "device"
+            ],
+            "pct": 10.3
           }
         ]
       }

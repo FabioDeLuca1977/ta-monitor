@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-01T08:44:37.524580",
+  "generated_at": "2026-05-02T08:16:59.428515",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 19,
+  "total_jobs_analyzed": 18,
   "scoring": {
-    "average": 14.4,
+    "average": 15.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 3,
       "low": 2,
-      "irrelevant": 14
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -34,7 +34,7 @@
         "company": "JSB Solutions",
         "score": 43,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776297600000,
         "url": "https://www.linkedin.com/jobs/view/4400189414"
       },
       {
@@ -94,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4389193185"
       },
       {
-        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
-        "company": "Elleuno scs",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": 1775952000000,
-        "url": "https://www.linkedin.com/jobs/view/4400973107"
-      },
-      {
         "title": "Direttore/direttrice per CRA a Mirandola (MO)",
         "company": "Codess Sociale Soc Coop",
         "score": 5,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4403487731"
+      },
+      {
+        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
+        "company": "Elleuno scs",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": 1775952000000,
+        "url": "https://www.linkedin.com/jobs/view/4400973107"
       },
       {
         "title": "Medico per CRA Mirandola",
@@ -124,14 +124,6 @@
         "site": "indeed",
         "date_posted": 1776038400000,
         "url": "https://it.indeed.com/viewjob?jk=3478c4a377aff523"
-      },
-      {
-        "title": "Batch Record Reviewer",
-        "company": "Philip Morris International U.S.",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1775779200000,
-        "url": "https://it.indeed.com/viewjob?jk=10dbde7f80edf352"
       },
       {
         "title": "Process Engineer",
@@ -193,11 +185,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-56%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-59%)",
       "data": {
         "current": 1,
-        "avg": 2.2,
-        "change_pct": -55.6
+        "avg": 2.4,
+        "change_pct": -58.8
       }
     },
     {
