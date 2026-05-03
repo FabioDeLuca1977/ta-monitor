@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-02T08:16:59.166626",
+  "generated_at": "2026-05-03T08:34:22.904301",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 171,
+  "total_jobs_analyzed": 174,
   "scoring": {
-    "average": 27.3,
+    "average": 27.2,
     "distribution": {
       "excellent": 0,
-      "good": 8,
+      "good": 9,
       "medium": 51,
-      "low": 46,
-      "irrelevant": 66
+      "low": 47,
+      "irrelevant": 67
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4401096606"
-      },
-      {
-        "title": "Plant HR Manager",
-        "company": "Alfasigma group",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1777420800000,
-        "url": "https://it.indeed.com/viewjob?jk=edf44e8c1a798c3f"
       },
       {
         "title": "HR Generalist - Recruiter",
@@ -54,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4399628506"
       },
       {
+        "title": "Plant HR Manager",
+        "company": "Alfasigma group",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1777420800000,
+        "url": "https://it.indeed.com/viewjob?jk=edf44e8c1a798c3f"
+      },
+      {
         "title": "EIB Trainee - Human Resources Directorate - Talent & Culture Department - Talent Acquisition Unit - based in Luxembourg",
         "company": "European Investment Bank (EIB)",
         "score": 61,
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4399733754"
       },
       {
+        "title": "Junior HR Manager - Gestione del Benessere",
+        "company": "sh-operation21",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1776038400000,
+        "url": "https://www.linkedin.com/jobs/view/4399688281"
+      },
+      {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
         "score": 60,
@@ -78,12 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4404548743"
       },
       {
-        "title": "Junior HR Manager - Gestione del Benessere",
-        "company": "sh-operation21",
+        "title": "HR Business Partner, EU One PXT",
+        "company": "Amazon",
         "score": 59,
         "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4399688281"
+        "date_posted": 1777593600000,
+        "url": "https://www.linkedin.com/jobs/view/4400240730"
       },
       {
         "title": "HR TALENT ACQUISITION",
@@ -100,14 +108,6 @@
         "site": "linkedin",
         "date_posted": 1776038400000,
         "url": "https://www.linkedin.com/jobs/view/4399690266"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "Task Force Service Srl",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1776729600000,
-        "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
       },
       {
         "title": "Talent Acquisition Partner - Sales",
@@ -142,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4368714171"
       },
       {
+        "title": "Stage Talent Acquisition",
+        "company": "Dan John",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1776384000000,
+        "url": "https://www.linkedin.com/jobs/view/4403484791"
+      },
+      {
         "title": "Senior Talent Acquisition Specialist | Management Consulting & Advisory",
         "company": "DGS",
         "score": 56,
@@ -150,19 +158,11 @@
         "url": "https://www.linkedin.com/jobs/view/4353205273"
       },
       {
-        "title": "Stage Talent Acquisition",
-        "company": "Dan John",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4403484791"
-      },
-      {
         "title": "HR Specialist Tecnologie per il Benessere",
         "company": "sh-operation21",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4402700591"
       },
       {
@@ -266,41 +266,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-86%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 13 (-77%)",
       "data": {
-        "current": 2,
-        "avg": 14.1,
-        "change_pct": -85.8
+        "current": 3,
+        "avg": 13.2,
+        "change_pct": -77.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -310,54 +310,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 78,
-            "top_terms": [
-              "addetto",
-              "dell",
-              "direttore"
-            ],
-            "pct": 45.6
-          },
-          {
-            "id": 2,
-            "size": 27,
+            "id": 1,
+            "size": 110,
             "top_terms": [
               "hr",
-              "business",
-              "partner"
+              "addetto",
+              "business"
             ],
-            "pct": 15.8
+            "pct": 63.2
           },
           {
             "id": 3,
-            "size": 25,
+            "size": 27,
             "top_terms": [
               "specialist",
               "hr",
               "recruiter"
             ],
-            "pct": 14.6
+            "pct": 15.5
           },
           {
-            "id": 1,
-            "size": 23,
+            "id": 2,
+            "size": 22,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 13.5
+            "pct": 12.6
+          },
+          {
+            "id": 0,
+            "size": 9,
+            "top_terms": [
+              "dell",
+              "conferimento",
+              "incarico"
+            ],
+            "pct": 5.2
           },
           {
             "id": 4,
-            "size": 18,
+            "size": 6,
             "top_terms": [
-              "talent",
+              "sales",
               "acquisition",
-              "68"
+              "partner"
             ],
-            "pct": 10.5
+            "pct": 3.4
           }
         ]
       }

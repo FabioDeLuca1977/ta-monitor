@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-02T08:16:59.414494",
+  "generated_at": "2026-05-03T08:34:23.157203",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 186,
+  "total_jobs_analyzed": 181,
   "scoring": {
-    "average": 28.1,
+    "average": 27.6,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 80,
+      "good": 4,
+      "medium": 75,
       "low": 13,
-      "irrelevant": 90
+      "irrelevant": 89
     },
     "top_jobs": [
       {
@@ -18,8 +18,16 @@
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 62,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
+      },
+      {
+        "title": "Medical Advisor Biologics - Dermatology",
+        "company": "Galderma",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1776297600000,
+        "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
         "title": "Hepatology - Medical Director",
@@ -86,22 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Cosmo I Building Health Confidence",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1777420800000,
-        "url": "https://www.linkedin.com/jobs/view/4406048779"
-      },
-      {
-        "title": "Medical Advisor Biologics - Dermatology",
-        "company": "Galderma",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1776297600000,
-        "url": "https://www.linkedin.com/jobs/view/4380931992"
-      },
-      {
         "title": "Medical Advisor Junior",
         "company": "Neopharmed Gentili S.P.A.",
         "score": 57,
@@ -126,36 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4403923357"
       },
       {
-        "title": "Medical Scientific Liaison (MSL) Oncologia, Lung Cancer, Emilia Romagna e Marche",
-        "company": "Johnson & Johnson",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1777334400000,
-        "url": "https://it.indeed.com/viewjob?jk=c476de6d9225d3fb"
-      },
-      {
-        "title": "Clinical Research Associate",
-        "company": "BeOne Medicines",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1777420800000,
-        "url": "https://www.linkedin.com/jobs/view/4375702724"
-      },
-      {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1777507200000,
         "url": "https://www.linkedin.com/jobs/view/4377177028"
-      },
-      {
-        "title": "Medical Director",
-        "company": "Alexion Pharmaceuticals, Inc.",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4402544242"
       },
       {
         "title": "Medical Director",
@@ -172,6 +140,38 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402807584"
+      },
+      {
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
+      },
+      {
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Medical Scientific Liaison (MSL) Oncologia, Lung Cancer, Emilia Romagna e Marche",
+        "company": "Johnson & Johnson",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1777334400000,
+        "url": "https://it.indeed.com/viewjob?jk=c476de6d9225d3fb"
+      },
+      {
+        "title": "Medical Science Liaison Paediatric Oncology - Milan",
+        "company": "Norgine",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4394781112"
       }
     ]
   },
@@ -230,33 +230,27 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "international",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-45%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-48%)",
       "data": {
         "current": 7,
-        "avg": 12.8,
-        "change_pct": -45.3
+        "avg": 13.4,
+        "change_pct": -47.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
       "data": {
-        "new": 3,
+        "new": 4,
         "total": 7,
-        "pct": 42.9
+        "pct": 57.1
       }
     },
     {
@@ -286,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 78,
+            "id": 0,
+            "size": 59,
             "top_terms": [
-              "specialist",
               "engineer",
-              "medical"
+              "senior",
+              "italy"
             ],
-            "pct": 41.9
+            "pct": 32.6
           },
           {
-            "id": 0,
-            "size": 38,
+            "id": 2,
+            "size": 37,
+            "top_terms": [
+              "medical",
+              "director",
+              "italy"
+            ],
+            "pct": 20.4
+          },
+          {
+            "id": 3,
+            "size": 32,
             "top_terms": [
               "manager",
               "access",
               "market"
             ],
-            "pct": 20.4
+            "pct": 17.7
           },
           {
             "id": 1,
+            "size": 28,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "research"
+            ],
+            "pct": 15.5
+          },
+          {
+            "id": 4,
             "size": 25,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.4
-          },
-          {
-            "id": 3,
-            "size": 24,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 12.9
-          },
-          {
-            "id": 4,
-            "size": 21,
-            "top_terms": [
-              "medical",
-              "director",
-              "italy"
-            ],
-            "pct": 11.3
+            "pct": 13.8
           }
         ]
       }

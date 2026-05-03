@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T08:16:59.428515",
+  "generated_at": "2026-05-03T08:34:23.171962",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 18,
@@ -18,7 +18,7 @@
         "company": "Illumia",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4387809282"
       },
       {
@@ -98,16 +98,8 @@
         "company": "Codess Sociale Soc Coop",
         "score": 5,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4403487731"
-      },
-      {
-        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
-        "company": "Elleuno scs",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": 1775952000000,
-        "url": "https://www.linkedin.com/jobs/view/4400973107"
       },
       {
         "title": "Medico per CRA Mirandola",
@@ -116,6 +108,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406393331"
+      },
+      {
+        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
+        "company": "Elleuno scs",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4407461389"
       },
       {
         "title": "Product Owner",
@@ -200,6 +200,26 @@
         "new": 1,
         "total": 1,
         "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 25.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 75.0,
+        "new_pct": 100.0
       }
     }
   ],

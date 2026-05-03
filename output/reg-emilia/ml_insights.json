@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T08:16:59.746088",
+  "generated_at": "2026-05-03T08:34:23.491663",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 39,
@@ -18,7 +18,7 @@
         "company": "Illumia",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4387809282"
       },
       {
@@ -130,7 +130,7 @@
         "company": "Eli Lilly and Company",
         "score": 10,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4379862046"
       },
       {
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
       "data": {
         "current": 1,
-        "avg": 3.8,
-        "change_pct": -73.7
+        "avg": 4.2,
+        "change_pct": -76.3
       }
     },
     {

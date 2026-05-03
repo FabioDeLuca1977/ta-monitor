@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-02T08:16:59.296011",
+  "generated_at": "2026-05-03T08:34:23.037316",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 39,
   "scoring": {
-    "average": 34.8,
+    "average": 34.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 24,
-      "low": 9,
-      "irrelevant": 7
+      "medium": 23,
+      "low": 8,
+      "irrelevant": 8
     },
     "top_jobs": [
       {
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4408752466"
       },
       {
-        "title": "Informatore Scientifico del Farmaco",
-        "company": "AGpharma",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1777420800000,
-        "url": "https://www.linkedin.com/jobs/view/4396666448"
-      },
-      {
         "title": "Medical Representative/ISF Specialty Care",
         "company": "Fidia Pharma",
         "score": 49,
@@ -52,14 +44,6 @@
         "site": "linkedin",
         "date_posted": 1776729600000,
         "url": "https://www.linkedin.com/jobs/view/4403927543"
-      },
-      {
-        "title": "Informatore Medico Scientifico",
-        "company": "Agaton",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1777420800000,
-        "url": "https://www.linkedin.com/jobs/view/4408234313"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -102,6 +86,14 @@
         "url": "https://www.linkedin.com/jobs/view/2147623905"
       },
       {
+        "title": "Informatore Scientifico del Farmaco",
+        "company": "AGpharma",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1777420800000,
+        "url": "https://www.linkedin.com/jobs/view/4396666448"
+      },
+      {
         "title": "Informatore Scientifico Specialist - Vicenza e Padova",
         "company": "Pharma Line srl",
         "score": 45,
@@ -110,12 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4402124762"
       },
       {
-        "title": "informatore scientifico del farmaco",
-        "company": "Cadigroup",
-        "score": 42,
+        "title": "Informatore Medico Scientifico",
+        "company": "Agaton",
+        "score": 43,
         "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4374112742"
+        "date_posted": 1777420800000,
+        "url": "https://www.linkedin.com/jobs/view/4408234313"
       },
       {
         "title": "Informatore Scientifico del Farmaco",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4356098675"
+      },
+      {
+        "title": "ISF - Venezia",
+        "company": "Hays",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405531191"
       }
     ]
   },
@@ -180,23 +180,16 @@
     "add_blacklist": [],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "scientifico farmaco",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-69%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-71%)",
       "data": {
         "current": 1,
-        "avg": 3.2,
-        "change_pct": -69.2
+        "avg": 3.5,
+        "change_pct": -71.1
       }
     },
     {
@@ -216,16 +209,6 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 13,
-            "top_terms": [
-              "farmaco",
-              "scientifico",
-              "informatore"
-            ],
-            "pct": 32.5
-          },
-          {
             "id": 1,
             "size": 10,
             "top_terms": [
@@ -233,17 +216,27 @@
               "specialist",
               "field"
             ],
-            "pct": 25.0
+            "pct": 25.6
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 10,
             "top_terms": [
-              "specialty",
-              "medical",
-              "commerciale"
+              "farmaco",
+              "scientifico",
+              "informatore"
             ],
-            "pct": 20.0
+            "pct": 25.6
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "assistant",
+              "commerciale",
+              "informatore"
+            ],
+            "pct": 23.1
           },
           {
             "id": 0,
@@ -253,17 +246,17 @@
               "informatore",
               "scientifico"
             ],
-            "pct": 15.0
+            "pct": 15.4
           },
           {
-            "id": 2,
-            "size": 3,
+            "id": 3,
+            "size": 4,
             "top_terms": [
-              "assistant",
-              "youth",
-              "program"
+              "specialty",
+              "medical",
+              "isf"
             ],
-            "pct": 7.5
+            "pct": 10.3
           }
         ]
       }
