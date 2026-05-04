@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-03T08:34:23.580327",
+  "generated_at": "2026-05-04T09:01:55.672073",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 114,
+  "total_jobs_analyzed": 117,
   "scoring": {
-    "average": 14.6,
+    "average": 14.1,
     "distribution": {
       "excellent": 0,
       "good": 6,
       "medium": 13,
-      "low": 3,
-      "irrelevant": 92
+      "low": 4,
+      "irrelevant": 94
     },
     "top_jobs": [
       {
@@ -26,7 +26,7 @@
         "company": "AYES - Management & Technology Consulting",
         "score": 68,
         "site": "linkedin",
-        "date_posted": 1776384000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
@@ -70,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4387290311"
       },
       {
-        "title": "Director of Regulatory Affairs - AI",
-        "company": "Randstad Digital Italia",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4398809240"
-      },
-      {
         "title": "Regulatory Affairs Internship",
         "company": "Allianz Italia",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402800391"
+      },
+      {
+        "title": "Director of Regulatory Affairs - AI",
+        "company": "Randstad Digital Italia",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1776211200000,
+        "url": "https://www.linkedin.com/jobs/view/4398809240"
       },
       {
         "title": "Senior Auditor – Regulatory Compliance",
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4403749920"
       },
       {
+        "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
+        "company": "OpsArmy Careers",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406923886"
+      },
+      {
         "title": "Quality Assurance Pharma",
         "company": "Amaris Consulting",
         "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401924260"
-      },
-      {
-        "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
-        "company": "OpsArmy Careers",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4406923886"
       },
       {
         "title": "Farmacovigilanza",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4400478718"
       },
       {
-        "title": "Quality Assurance Manager (Medical Devices) - fixed term contract",
-        "company": "Jefferson Wells Italia",
+        "title": "parrucchiera",
+        "company": null,
         "score": 23,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4402263110"
+        "site": "indeed",
+        "date_posted": 1776816000000,
+        "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
       }
     ]
   },
@@ -218,11 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 9 (-65%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 9 (-66%)",
       "data": {
         "current": 3,
-        "avg": 8.5,
-        "change_pct": -64.9
+        "avg": 8.8,
+        "change_pct": -65.8
       }
     },
     {
@@ -236,80 +236,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
+            "id": 1,
+            "size": 63,
+            "top_terms": [
+              "senior",
+              "manager",
+              "tecnico"
+            ],
+            "pct": 53.8
+          },
+          {
             "id": 0,
-            "size": 81,
+            "size": 18,
             "top_terms": [
               "specialist",
-              "senior",
-              "associate"
-            ],
-            "pct": 71.1
-          },
-          {
-            "id": 4,
-            "size": 13,
-            "top_terms": [
               "regulatory",
-              "affairs",
-              "specialist"
+              "affairs"
             ],
-            "pct": 11.4
-          },
-          {
-            "id": 1,
-            "size": 12,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "manager"
-            ],
-            "pct": 10.5
-          },
-          {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "manager",
-              "mbse",
-              "ethics"
-            ],
-            "pct": 4.4
+            "pct": 15.4
           },
           {
             "id": 3,
-            "size": 3,
+            "size": 13,
             "top_terms": [
-              "junior",
               "assurance",
-              "quality"
+              "quality",
+              "specialist"
             ],
-            "pct": 2.6
+            "pct": 11.1
+          },
+          {
+            "id": 2,
+            "size": 12,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "manufacturing"
+            ],
+            "pct": 10.3
+          },
+          {
+            "id": 4,
+            "size": 11,
+            "top_terms": [
+              "associate",
+              "junior",
+              "diritto"
+            ],
+            "pct": 9.4
           }
         ]
       }
