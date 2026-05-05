@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-04T09:01:55.320214",
+  "generated_at": "2026-05-05T08:40:59.989714",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 27.4,
+    "average": 28.0,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 25,
-      "low": 4,
-      "irrelevant": 27
+      "good": 0,
+      "medium": 28,
+      "low": 2,
+      "irrelevant": 25
     },
     "top_jobs": [
       {
         "title": "Medical Science Liaison",
         "company": "Organon Pharmaceuticals",
-        "score": 61,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=3f473cc230e07a07"
@@ -24,7 +24,7 @@
       {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
         "company": "Amplity",
-        "score": 60,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1776384000000,
         "url": "https://www.linkedin.com/jobs/view/4390716325"
@@ -32,7 +32,7 @@
       {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
         "company": "Teva Pharmaceuticals",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4382117194"
@@ -40,7 +40,7 @@
       {
         "title": "Medical Affairs Supervisor",
         "company": "Randstad Italia",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408641019"
@@ -62,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
+        "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
+        "company": "Alma Laboris - Official Page",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1776297600000,
+        "url": "https://www.linkedin.com/jobs/view/4400480695"
+      },
+      {
         "title": "Medical Science Liaison (m/f/x) - Nephrology",
         "company": "CSL Plasma",
         "score": 54,
@@ -72,7 +80,7 @@
       {
         "title": "Medical Science Liaison, Oncology (RCC)",
         "company": "Amplity",
-        "score": 54,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4385271426"
@@ -86,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4396450100"
       },
       {
-        "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
-        "company": "Alma Laboris - Official Page",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1776297600000,
-        "url": "https://www.linkedin.com/jobs/view/4400480695"
-      },
-      {
         "title": "(Senior) Medical Science Liaisons (Sr. MSL)  - Center-North Italy",
         "company": "Genmab",
         "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405218254"
+      },
+      {
+        "title": "Clinical Research Associate - Italy - Remote",
+        "company": "Worldwide Clinical Trials",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1776211200000,
+        "url": "https://www.linkedin.com/jobs/view/4401465916"
       },
       {
         "title": "Chief Medical Officer",
@@ -116,14 +124,6 @@
         "site": "indeed",
         "date_posted": 1776816000000,
         "url": "https://it.indeed.com/viewjob?jk=3fd50793b2bfc4c0"
-      },
-      {
-        "title": "Clinical Research Associate - Italy - Remote",
-        "company": "Worldwide Clinical Trials",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1776211200000,
-        "url": "https://www.linkedin.com/jobs/view/4401465916"
       },
       {
         "title": "Regulatory affairs Specialist",
@@ -146,7 +146,7 @@
         "company": "AYES - Management & Technology Consulting",
         "score": 47,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776902400000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
@@ -184,22 +184,22 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
         "word": "product",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "lead",
+        "word": "italy",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "team",
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "lead",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -218,11 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
       "data": {
         "current": 1,
-        "avg": 4.4,
-        "change_pct": -77.2
+        "avg": 4.2,
+        "change_pct": -75.9
       }
     },
     {
@@ -243,53 +243,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 18,
+            "size": 23,
             "top_terms": [
-              "programmer",
-              "engineer",
-              "pharmacovigilance"
+              "manager",
+              "pharmacovigilance",
+              "engineer"
             ],
-            "pct": 31.0
+            "pct": 41.8
           },
           {
             "id": 2,
-            "size": 17,
-            "top_terms": [
-              "medical",
-              "science",
-              "liaison"
-            ],
-            "pct": 29.3
-          },
-          {
-            "id": 3,
             "size": 11,
             "top_terms": [
               "affairs",
               "regulatory",
               "head"
             ],
-            "pct": 19.0
+            "pct": 20.0
           },
           {
             "id": 1,
+            "size": 10,
+            "top_terms": [
+              "medical",
+              "liaison",
+              "science"
+            ],
+            "pct": 18.2
+          },
+          {
+            "id": 4,
             "size": 7,
             "top_terms": [
               "specialist",
               "product",
               "marche"
             ],
-            "pct": 12.1
+            "pct": 12.7
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 3,
+            "size": 4,
             "top_terms": [
-              "manager",
-              "field",
-              "sr"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 8.6
+            "pct": 7.3
           }
         ]
       }

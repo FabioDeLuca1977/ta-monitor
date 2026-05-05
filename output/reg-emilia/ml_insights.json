@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-04T09:01:55.582602",
+  "generated_at": "2026-05-05T08:41:00.245914",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 39,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 13.7,
+    "average": 14.1,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 4,
       "low": 2,
-      "irrelevant": 31
+      "irrelevant": 30
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
         "company": "PQE Group",
-        "score": 53,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Whitelab",
-        "score": 46,
+        "score": 45,
         "site": "indeed",
         "date_posted": 1776211200000,
         "url": "https://it.indeed.com/viewjob?jk=a8a4074f39a3293f"
@@ -72,7 +72,7 @@
       {
         "title": "Construction Environmental Health & Safety Manager",
         "company": "Vertiv",
-        "score": 32,
+        "score": 27,
         "site": "indeed",
         "date_posted": 1777248000000,
         "url": "https://it.indeed.com/viewjob?jk=64b971018f9d36e0"
@@ -94,17 +94,9 @@
         "url": "https://www.linkedin.com/jobs/view/4401613481"
       },
       {
-        "title": "RA Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1776124800000,
-        "url": "https://www.linkedin.com/jobs/view/4399728867"
-      },
-      {
         "title": "Quality Assurance Specialist – Categoria Protetta (L. 68/99)",
         "company": "INCO",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401961170"
@@ -112,10 +104,18 @@
       {
         "title": "Specialist, Quality Assurance GCP",
         "company": "Alfasigma group",
-        "score": 12,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1753315200000,
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
+      },
+      {
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1776124800000,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
         "title": "Associate - Quality Assurance Formulation Line",
@@ -134,17 +134,17 @@
         "url": "https://www.linkedin.com/jobs/view/4405556584"
       },
       {
-        "title": "TEMPORARY RISK & CHANGE MANAGER – CAPITAL PROJECTS (PHARMA / LIFE SCIENCES)",
-        "company": "Jefferson Wells Italia",
-        "score": 9,
-        "site": "linkedin",
-        "date_posted": 1776038400000,
-        "url": "https://www.linkedin.com/jobs/view/4401044611"
+        "title": "Sales Development Representative (SDR) - Outbound B2B",
+        "company": "Qboxmail",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1777852800000,
+        "url": "https://it.indeed.com/viewjob?jk=c21659c1e7b34eef"
       },
       {
         "title": "Sales Consultant (formazione e consulenza HR)",
         "company": "Randstad",
-        "score": 9,
+        "score": 8,
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
@@ -199,7 +199,7 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "sales",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -214,8 +214,8 @@
       "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
       "data": {
         "current": 1,
-        "avg": 4.2,
-        "change_pct": -76.3
+        "avg": 4.1,
+        "change_pct": -75.7
       }
     },
     {
@@ -229,26 +229,6 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
@@ -258,21 +238,21 @@
             "id": 0,
             "size": 19,
             "top_terms": [
+              "sales",
               "specialist",
-              "field",
-              "sales"
+              "field"
             ],
-            "pct": 48.7
+            "pct": 50.0
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 7,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 17.9
+            "pct": 18.4
           },
           {
             "id": 2,
@@ -282,27 +262,27 @@
               "affairs",
               "specialist"
             ],
-            "pct": 12.8
+            "pct": 13.2
           },
           {
             "id": 3,
-            "size": 4,
-            "top_terms": [
-              "manager",
-              "temporary",
-              "support"
-            ],
-            "pct": 10.3
-          },
-          {
-            "id": 4,
             "size": 4,
             "top_terms": [
               "engineer",
               "senior",
               "device"
             ],
-            "pct": 10.3
+            "pct": 10.5
+          },
+          {
+            "id": 1,
+            "size": 3,
+            "top_terms": [
+              "manager",
+              "technical",
+              "engineer"
+            ],
+            "pct": 7.9
           }
         ]
       }

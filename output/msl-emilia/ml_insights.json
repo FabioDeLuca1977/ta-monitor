@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T09:01:55.265261",
+  "generated_at": "2026-05-05T08:40:59.936805",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 18,
@@ -62,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
+        "title": "Production Planner",
+        "company": "LINCOTEK GROUP",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1777852800000,
+        "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
+      },
+      {
         "title": "Administrative Office Manager",
         "company": "Polonord Adeste Srl",
-        "score": 15,
+        "score": 10,
         "site": "indeed",
         "date_posted": 1777248000000,
         "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
-      },
-      {
-        "title": "Continuous Improvement Manager",
-        "company": "Berluti",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=76f38aaa69588a20"
       },
       {
         "title": "Patient Journey Manager - Finland",
@@ -83,7 +83,15 @@
         "score": 8,
         "site": "indeed",
         "date_posted": 1776556800000,
-        "url": "https://it.indeed.com/viewjob?jk=dad9875fc150cecf"
+        "url": "https://it.indeed.com/viewjob?jk=3c54ecf08c071daf"
+      },
+      {
+        "title": "Continuous Improvement Manager",
+        "company": "Berluti",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=76f38aaa69588a20"
       },
       {
         "title": "Senior CRA",
@@ -116,14 +124,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4407461389"
-      },
-      {
-        "title": "Product Owner",
-        "company": "LINCOTEK GROUP",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1776038400000,
-        "url": "https://it.indeed.com/viewjob?jk=3478c4a377aff523"
       },
       {
         "title": "Process Engineer",
@@ -200,26 +200,6 @@
         "new": 1,
         "total": 1,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 100.0
       }
     }
   ],

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-04T09:01:55.134314",
+  "generated_at": "2026-05-05T08:40:59.808676",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 41,
   "scoring": {
-    "average": 35.3,
+    "average": 35.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 25,
+      "medium": 26,
       "low": 8,
       "irrelevant": 7
     },
@@ -18,7 +18,7 @@
         "company": "GSK",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1776211200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393544955"
       },
       {
@@ -52,14 +52,6 @@
         "site": "linkedin",
         "date_posted": 1777680000000,
         "url": "https://www.linkedin.com/jobs/view/4407268684"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Jobtech",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405217316"
       },
       {
         "title": "Senior Clinical Research Associate",
@@ -102,12 +94,28 @@
         "url": "https://www.linkedin.com/jobs/view/4396666448"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Jobtech",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405217316"
+      },
+      {
         "title": "Informatore Scientifico Specialist - Vicenza e Padova",
         "company": "Pharma Line srl",
         "score": 45,
         "site": "linkedin",
         "date_posted": 1776297600000,
         "url": "https://www.linkedin.com/jobs/view/4402124762"
+      },
+      {
+        "title": "Clinical Specialist Trach",
+        "company": "Atos Medical",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1777507200000,
+        "url": "https://www.linkedin.com/jobs/view/4407646931"
       },
       {
         "title": "Informatore Medico Scientifico",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4407732077"
-      },
-      {
-        "title": "Field Clinical Specialist, Neuromodulation (Triveneto & Marche)",
-        "company": "Boston Scientific",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1776297600000,
-        "url": "https://www.linkedin.com/jobs/view/4390363754"
       }
     ]
   },
@@ -185,11 +185,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-42%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-44%)",
       "data": {
         "current": 2,
         "avg": 3.5,
-        "change_pct": -42.1
+        "change_pct": -43.6
       }
     },
     {
@@ -209,54 +209,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 11,
+            "id": 3,
+            "size": 13,
             "top_terms": [
-              "farmaco",
-              "isf",
-              "scientifico"
+              "informatore",
+              "scientifico",
+              "farmaco"
             ],
-            "pct": 27.5
+            "pct": 31.7
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 10,
             "top_terms": [
               "assistant",
-              "medical",
-              "specialty"
+              "market",
+              "regulatory"
             ],
-            "pct": 25.0
+            "pct": 24.4
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "medico",
+              "informatore",
+              "scientifico"
+            ],
+            "pct": 17.1
           },
           {
             "id": 2,
-            "size": 9,
+            "size": 7,
             "top_terms": [
               "clinical",
               "specialist",
               "field"
             ],
-            "pct": 22.5
-          },
-          {
-            "id": 3,
-            "size": 7,
-            "top_terms": [
-              "medico",
-              "scientifico",
-              "informatore"
-            ],
-            "pct": 17.5
+            "pct": 17.1
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 4,
             "top_terms": [
-              "veneto",
-              "commerciale",
-              "informatore"
+              "isf",
+              "venezia",
+              "medical"
             ],
-            "pct": 7.5
+            "pct": 9.8
           }
         ]
       }
