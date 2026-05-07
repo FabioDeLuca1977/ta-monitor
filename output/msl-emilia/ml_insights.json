@@ -1,30 +1,22 @@
 {
-  "generated_at": "2026-05-05T08:40:59.936805",
+  "generated_at": "2026-05-07T09:04:06.984654",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 18,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 15.2,
+    "average": 14.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 3,
-      "low": 2,
-      "irrelevant": 13
+      "medium": 2,
+      "low": 3,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Illumia",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1776384000000,
-        "url": "https://www.linkedin.com/jobs/view/4387809282"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -46,20 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4402893829"
       },
       {
+        "title": "Stage Regulatory Affair Assistant | Bologna",
+        "company": "Intertek",
+        "score": 33,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4409235899"
+      },
+      {
         "title": "Specialist, Quality Assurance GCP",
         "company": "Alfasigma group",
         "score": 25,
         "site": "indeed",
         "date_posted": 1753315200000,
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
-      },
-      {
-        "title": "RA Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1776124800000,
-        "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
         "title": "Production Planner",
@@ -185,11 +177,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-65%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-62%)",
       "data": {
         "current": 1,
-        "avg": 2.8,
-        "change_pct": -64.7
+        "avg": 2.7,
+        "change_pct": -62.5
       }
     },
     {
@@ -200,6 +192,26 @@
         "new": 1,
         "total": 1,
         "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     }
   ],
