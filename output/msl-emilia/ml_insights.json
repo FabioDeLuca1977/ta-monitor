@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-07T09:04:06.984654",
+  "generated_at": "2026-05-08T08:14:55.350668",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 19,
   "scoring": {
-    "average": 14.2,
+    "average": 14.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 2,
-      "low": 3,
-      "irrelevant": 12
+      "low": 4,
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -22,12 +22,12 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
-        "title": "Regulatory Affairs Stageur",
+        "title": "Global Regulatory Affairs Senior Consultant",
         "company": "JSB Solutions",
         "score": 43,
         "site": "linkedin",
-        "date_posted": 1776297600000,
-        "url": "https://www.linkedin.com/jobs/view/4400189414"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
@@ -54,12 +54,12 @@
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
       },
       {
-        "title": "Production Planner",
-        "company": "LINCOTEK GROUP",
-        "score": 14,
+        "title": "HR & LR Partner",
+        "company": "DOW",
+        "score": 20,
         "site": "indeed",
-        "date_posted": 1777852800000,
-        "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
+        "date_posted": 1778112000000,
+        "url": "https://it.indeed.com/viewjob?jk=268fc5fe88a28264"
       },
       {
         "title": "Administrative Office Manager",
@@ -68,6 +68,22 @@
         "site": "indeed",
         "date_posted": 1777248000000,
         "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
+      },
+      {
+        "title": "Production Planner",
+        "company": "LINCOTEK GROUP",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1777852800000,
+        "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
+      },
+      {
+        "title": "Senior Design Engineer",
+        "company": "Transmedics",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1778112000000,
+        "url": "https://it.indeed.com/viewjob?jk=0a14160e2f0b474d"
       },
       {
         "title": "Patient Journey Manager - Finland",
@@ -90,7 +106,7 @@
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
-        "date_posted": 1776211200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389193185"
       },
       {
@@ -175,43 +191,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-62%)",
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+31%)",
       "data": {
-        "current": 1,
-        "avg": 2.7,
-        "change_pct": -62.5
+        "current": 3,
+        "avg": 2.3,
+        "change_pct": 31.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 100.0,
-        "new_pct": 0.0
+        "new_pct": 33.3
       }
     }
   ],
