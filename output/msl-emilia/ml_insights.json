@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T08:14:55.350668",
+  "generated_at": "2026-05-09T08:31:57.247534",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 19,
@@ -134,6 +134,14 @@
         "url": "https://www.linkedin.com/jobs/view/4407461389"
       },
       {
+        "title": "AI Team Lead Video Editor",
+        "company": "CapsLock",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
+      },
+      {
         "title": "Process Engineer",
         "company": "Dentsply Sirona",
         "score": 0,
@@ -148,14 +156,6 @@
         "site": "indeed",
         "date_posted": 1776643200000,
         "url": "https://it.indeed.com/viewjob?jk=105e53971478b331"
-      },
-      {
-        "title": "AI Team Lead Video Editor",
-        "company": "CapsLock",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
         "title": "AI Video Editor Team Lead",
@@ -176,12 +176,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "lead",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "lead",
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -190,16 +190,6 @@
   },
   "keyword_recommendations": [],
   "anomalies": [
-    {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+31%)",
-      "data": {
-        "current": 3,
-        "avg": 2.3,
-        "change_pct": 31.3
-      }
-    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",

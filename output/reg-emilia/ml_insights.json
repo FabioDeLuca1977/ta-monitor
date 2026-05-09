@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T08:14:55.658743",
+  "generated_at": "2026-05-09T08:31:57.545134",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 31,
+  "total_jobs_analyzed": 35,
   "scoring": {
     "average": 13.5,
     "distribution": {
@@ -10,13 +10,13 @@
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 25
+      "irrelevant": 29
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 60,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -42,7 +42,7 @@
         "company": "fortil",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4404468538"
       },
       {
@@ -62,6 +62,14 @@
         "url": "https://it.indeed.com/viewjob?jk=64b971018f9d36e0"
       },
       {
+        "title": "PROJECT MANAGER AFTER SALES",
+        "company": "I.M.A. INDUSTRIA MACCHINE AUTOMATICHE",
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=33eff879a185903c"
+      },
+      {
         "title": "Customer Sales Support Specialist",
         "company": "DHL",
         "score": 16,
@@ -70,12 +78,12 @@
         "url": "https://it.indeed.com/viewjob?jk=f95d56cf8067fdde"
       },
       {
-        "title": "Junior Quality Assurance Specialist",
-        "company": "SGB Humangest Holding",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1776643200000,
-        "url": "https://www.linkedin.com/jobs/view/4401613481"
+        "title": "Cleaning validation specialist",
+        "company": "Capgemini",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=de111dc537ef0b46"
       },
       {
         "title": "Quality Assurance Specialist – Categoria Protetta (L. 68/99)",
@@ -84,6 +92,14 @@
         "site": "linkedin",
         "date_posted": 1776729600000,
         "url": "https://www.linkedin.com/jobs/view/4401961170"
+      },
+      {
+        "title": "Junior Quality Assurance Specialist",
+        "company": "SGB Humangest Holding",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1776643200000,
+        "url": "https://www.linkedin.com/jobs/view/4401613481"
       },
       {
         "title": "Specialist, Quality Assurance GCP",
@@ -126,6 +142,14 @@
         "url": "https://it.indeed.com/viewjob?jk=ec817ee6b832fda0"
       },
       {
+        "title": "Validation Engineer",
+        "company": "Coesia",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=6e190b867aa8ec17"
+      },
+      {
         "title": "Sales Consultant (formazione e consulenza HR)",
         "company": "Randstad",
         "score": 8,
@@ -142,36 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4396583284"
       },
       {
-        "title": "General Manager",
-        "company": "Hines",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1776384000000,
-        "url": "https://it.indeed.com/viewjob?jk=6bb2d28654a9e67c"
-      },
-      {
         "title": "Security Governance Manager",
         "company": "Prometeia Spa",
         "score": 7,
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=c16e61adda2345ed"
-      },
-      {
-        "title": "Compensation & Benefits Specialist",
-        "company": "Coesia",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1776816000000,
-        "url": "https://it.indeed.com/viewjob?jk=03e06ed115942beb"
-      },
-      {
-        "title": "Technical Support Specialist – DACH and Benelux Markets",
-        "company": "Geotab",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=bd1be889f765a483"
       }
     ]
   },
@@ -180,23 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "assurance",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "sales",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "sales",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -204,23 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-38%)",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+50%)",
       "data": {
-        "current": 2,
-        "avg": 3.2,
-        "change_pct": -37.9
+        "current": 5,
+        "avg": 3.3,
+        "change_pct": 50.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 4,
+        "total": 5,
+        "pct": 80.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 60% (-40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 60.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 40% (+40pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 40.0
       }
     },
     {
@@ -230,24 +255,34 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 16,
+            "id": 4,
+            "size": 14,
             "top_terms": [
-              "engineer",
+              "specialist",
               "regulatory",
-              "specialist"
+              "field"
             ],
-            "pct": 51.6
+            "pct": 40.0
           },
           {
             "id": 0,
-            "size": 6,
+            "size": 8,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 19.4
+            "pct": 22.9
+          },
+          {
+            "id": 3,
+            "size": 5,
+            "top_terms": [
+              "engineer",
+              "senior",
+              "validation"
+            ],
+            "pct": 14.3
           },
           {
             "id": 1,
@@ -257,27 +292,17 @@
               "consultant",
               "support"
             ],
-            "pct": 12.9
+            "pct": 11.4
           },
           {
             "id": 2,
-            "size": 3,
+            "size": 4,
             "top_terms": [
               "manager",
-              "technical",
-              "support"
+              "sales",
+              "validation"
             ],
-            "pct": 9.7
-          },
-          {
-            "id": 4,
-            "size": 2,
-            "top_terms": [
-              "field",
-              "technical",
-              "support"
-            ],
-            "pct": 6.5
+            "pct": 11.4
           }
         ]
       }

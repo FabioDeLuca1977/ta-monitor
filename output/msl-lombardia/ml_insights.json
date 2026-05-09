@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-08T08:14:55.335316",
+  "generated_at": "2026-05-09T08:31:57.233148",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 178,
+  "total_jobs_analyzed": 175,
   "scoring": {
-    "average": 28.7,
+    "average": 29.5,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 83,
-      "low": 10,
-      "irrelevant": 82
+      "medium": 85,
+      "low": 9,
+      "irrelevant": 78
     },
     "top_jobs": [
       {
@@ -26,7 +26,7 @@
         "company": "Galderma",
         "score": 62,
         "site": "linkedin",
-        "date_posted": 1776297600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
@@ -36,6 +36,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411264071"
+      },
+      {
+        "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
+        "company": "Teva Pharmaceuticals",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1776816000000,
+        "url": "https://www.linkedin.com/jobs/view/4381997937"
       },
       {
         "title": "Medical Affairs Specialist",
@@ -54,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4403923357"
       },
       {
-        "title": "Medical Scientific Liaison (MSL) - Northern-Eastern Italy",
-        "company": "Teva Pharmaceuticals",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4381997937"
-      },
-      {
         "title": "Medical Monitor (Gastroenterology)",
         "company": "PSI CRO",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4401604991"
+      },
+      {
+        "title": "Medical Advisor Lung Cancer",
+        "company": "AstraZeneca",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412107301"
       },
       {
         "title": "Medical Director",
@@ -114,7 +122,7 @@
         "company": "CSL",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4402807584"
       },
       {
@@ -124,14 +132,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4394781112"
-      },
-      {
-        "title": "Sr. Clinical Research Associate",
-        "company": "ICON Strategic Solutions",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1777939200000,
-        "url": "https://www.linkedin.com/jobs/view/4371891989"
       },
       {
         "title": "Stage in Medical Affairs",
@@ -150,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4409954292"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Recordati S.p.A",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=488fa890cbf8540a"
+      },
+      {
         "title": "Director, Medical Affairs LIVE Italy",
         "company": "Gilead Sciences",
         "score": 55,
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4374040619"
       },
       {
-        "title": "Medical Advisor Hematology- Italy",
-        "company": "Amgen Italia",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405262408"
-      },
-      {
-        "title": "Principal Biostatistician Medical Affairs",
-        "company": "Jobgether",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4406282977"
+        "title": "Medical Communication Specialist Eucerin",
+        "company": "Beiersdorf SpA",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=d95821eeb3dac98c"
       }
     ]
   },
@@ -184,24 +184,24 @@
         "reason": "Appare 25x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
         "word": "senior",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "engineer",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "specialist",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "italy",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "access",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,12 +209,24 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 9,
+      "frequency": 8,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
     },
     {
+      "keyword": "international",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
+    },
+    {
       "keyword": "medical scientific",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "international medical",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -226,37 +238,27 @@
       "confidence": 30
     },
     {
-      "keyword": "emilia romagna",
+      "keyword": "lung cancer",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "international",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
+      "keyword": "emilia romagna",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 13 (-39%)",
-      "data": {
-        "current": 8,
-        "avg": 13.1,
-        "change_pct": -38.8
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
       "data": {
-        "new": 4,
-        "total": 8,
-        "pct": 50.0
+        "new": 5,
+        "total": 11,
+        "pct": 45.5
       }
     },
     {
@@ -267,53 +269,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 70,
+            "size": 72,
             "top_terms": [
+              "manager",
               "specialist",
-              "senior",
               "engineer"
             ],
-            "pct": 39.3
+            "pct": 41.1
           },
           {
-            "id": 2,
-            "size": 34,
+            "id": 4,
+            "size": 32,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 19.1
+            "pct": 18.3
           },
           {
             "id": 1,
-            "size": 30,
+            "size": 28,
+            "top_terms": [
+              "clinical",
+              "associate",
+              "research"
+            ],
+            "pct": 16.0
+          },
+          {
+            "id": 2,
+            "size": 28,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 16.9
+            "pct": 16.0
           },
           {
             "id": 3,
-            "size": 30,
+            "size": 15,
             "top_terms": [
-              "manager",
-              "access",
-              "market"
+              "senior",
+              "cra",
+              "ai"
             ],
-            "pct": 16.9
-          },
-          {
-            "id": 4,
-            "size": 14,
-            "top_terms": [
-              "research",
-              "clinical",
-              "associate"
-            ],
-            "pct": 7.9
+            "pct": 8.6
           }
         ]
       }

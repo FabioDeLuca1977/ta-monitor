@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-08T08:14:55.447191",
+  "generated_at": "2026-05-09T08:31:57.338604",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 41,
   "scoring": {
-    "average": 10.0,
+    "average": 10.6,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 2,
-      "low": 0,
+      "low": 1,
       "irrelevant": 37
     },
     "top_jobs": [
@@ -18,7 +18,7 @@
         "company": "Jobtech",
         "score": 62,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4405217316"
       },
       {
@@ -38,25 +38,33 @@
         "url": "https://it.indeed.com/viewjob?jk=03088079b4c1ec62"
       },
       {
+        "title": "Customer Quality Assurance Manager",
+        "company": "LHH",
+        "score": 20,
+        "site": "linkedin",
+        "date_posted": 1777939200000,
+        "url": "https://www.linkedin.com/jobs/view/4398907982"
+      },
+      {
+        "title": "QHSE Manager & RSPP (f/m/d)",
+        "company": "Freudenberg Group",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=6a1fb3ace602f4d5"
+      },
+      {
         "title": "Global Product Manager",
         "company": "Vertiv",
-        "score": 17,
+        "score": 16,
         "site": "indeed",
         "date_posted": 1778112000000,
         "url": "https://it.indeed.com/viewjob?jk=631b2b5e41f95d0f"
       },
       {
-        "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
-        "company": "Rentokil Initial",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1777939200000,
-        "url": "https://it.indeed.com/viewjob?jk=484249e9dbe07f41"
-      },
-      {
         "title": "Information Technology Specialist (Network)",
         "company": "US Department of Defense Education Activity",
-        "score": 14,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1778112000000,
         "url": "https://it.indeed.com/viewjob?jk=ab5d5d8ab7aa04f0"
@@ -84,6 +92,14 @@
         "site": "indeed",
         "date_posted": 1777852800000,
         "url": "https://it.indeed.com/viewjob?jk=5c4a7f331e585c79"
+      },
+      {
+        "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
+        "company": "Rentokil Initial",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1777939200000,
+        "url": "https://it.indeed.com/viewjob?jk=484249e9dbe07f41"
       },
       {
         "title": "Quality Assurance Specialist (Product Distribution)",
@@ -134,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=af143190a42377ec"
       },
       {
+        "title": "Electronic Lead Engineer",
+        "company": "EPTA GROUP",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=0db9d274d1c394d8"
+      },
+      {
         "title": "Business Analyst – Quality Assurance",
         "company": "LHH",
         "score": 9,
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410291676"
-      },
-      {
-        "title": "Senior IT Support Specialist",
-        "company": "PMAS technologies",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=dd9213acc4b28678"
-      },
-      {
-        "title": "Quality Assurance Supervisor",
-        "company": "UNOX S.p.A.",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405217500"
-      },
-      {
-        "title": "Market Access Manager Specialty",
-        "company": "GSK",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1777420800000,
-        "url": "https://it.indeed.com/viewjob?jk=585fa17cb6ec714c"
       }
     ]
   },
@@ -189,7 +189,7 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "support",
+        "word": "manager",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
@@ -199,7 +199,7 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "market",
+        "word": "support",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,32 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 3 (+76%)",
-      "data": {
-        "current": 6,
-        "avg": 3.4,
-        "change_pct": 76.5
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Vertiv: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Vertiv",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 5,
-        "total": 6,
-        "pct": 83.3
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 86% a 67% (-19pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 85.7,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 14% a 33% (+19pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 14.3,
+        "new_pct": 33.3
       }
     },
     {
@@ -244,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 26,
+            "id": 4,
+            "size": 23,
             "top_terms": [
+              "engineer",
               "support",
-              "market",
               "program"
             ],
-            "pct": 65.0
-          },
-          {
-            "id": 2,
-            "size": 7,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 17.5
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "specialist",
-              "management",
-              "quality"
-            ],
-            "pct": 7.5
+            "pct": 56.1
           },
           {
             "id": 1,
-            "size": 2,
+            "size": 8,
             "top_terms": [
-              "global",
-              "product",
-              "manager"
+              "specialist",
+              "quality",
+              "assurance"
             ],
-            "pct": 5.0
+            "pct": 19.5
           },
           {
             "id": 3,
-            "size": 2,
+            "size": 5,
             "top_terms": [
-              "sistema",
-              "responsabile",
+              "manager",
+              "product",
+              "security"
+            ],
+            "pct": 12.2
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "telemarketing",
+              "operatore",
               "qualità"
             ],
-            "pct": 5.0
+            "pct": 7.3
+          },
+          {
+            "id": 2,
+            "size": 2,
+            "top_terms": [
+              "verona",
+              "risk",
+              "industrial"
+            ],
+            "pct": 4.9
           }
         ]
       }
