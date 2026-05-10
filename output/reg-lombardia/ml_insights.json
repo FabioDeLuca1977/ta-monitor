@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-09T08:31:57.509116",
+  "generated_at": "2026-05-10T08:44:14.916952",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 291,
+  "total_jobs_analyzed": 278,
   "scoring": {
-    "average": 15.5,
+    "average": 15.6,
     "distribution": {
       "excellent": 0,
-      "good": 18,
-      "medium": 34,
+      "good": 19,
+      "medium": 31,
       "low": 13,
-      "irrelevant": 226
+      "irrelevant": 215
     },
     "top_jobs": [
       {
@@ -28,22 +28,6 @@
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=488fa890cbf8540a"
-      },
-      {
-        "title": "Regulatory Specialist",
-        "company": "Carboline",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1776729600000,
-        "url": "https://www.linkedin.com/jobs/view/4388904492"
-      },
-      {
-        "title": "Regulatory Specialist",
-        "company": "Volcke Aerosol",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4408878230"
       },
       {
         "title": "SCM External Regulatory Compliance Manager",
@@ -86,20 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4406478223"
       },
       {
-        "title": "REGULATORY AFFAIRS SPECIALIST",
-        "company": "A2A",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=77679f0a70691e97"
-      },
-      {
         "title": "Regulatory Affairs Manager - Plant Protection Products",
         "company": "ADAMA Ltd.",
         "score": 62,
         "site": "linkedin",
-        "date_posted": 1776384000000,
-        "url": "https://www.linkedin.com/jobs/view/4402361872"
+        "date_posted": 1776556800000,
+        "url": "https://www.linkedin.com/jobs/view/4362746384"
       },
       {
         "title": "Regulatory Affairs | Brescia",
@@ -110,12 +86,28 @@
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
+        "title": "Regulatory Affairs Associate - onsite (interim contract)",
+        "company": "Gi Group",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1777939200000,
+        "url": "https://www.linkedin.com/jobs/view/4409309241"
+      },
+      {
         "title": "Regulatory Affairs",
         "company": "Adecco",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408863940"
+      },
+      {
+        "title": "REGULATORY AFFAIRS SPECIALIST",
+        "company": "A2A",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1778112000000,
+        "url": "https://it.indeed.com/viewjob?jk=77679f0a70691e97"
       },
       {
         "title": "Regulatory Affairs Specialist - Mendrisio site (Ticino)",
@@ -136,10 +128,18 @@
       {
         "title": "Regulatory Affairs Specialist – Product & Chemicals",
         "company": "Mynameis",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4407817667"
+      },
+      {
+        "title": "Regulatory Specialist",
+        "company": "Carboline",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1776729600000,
+        "url": "https://www.linkedin.com/jobs/view/4388904492"
       },
       {
         "title": "Lead Regulatory Affairs Manager, International",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4408405803"
       },
       {
+        "title": "Regulatory Specialist",
+        "company": "Volcke Aerosol",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4408878230"
+      },
+      {
         "title": "REGULATORY MANAGER",
         "company": "INTERCOSMETICS MILANO",
         "score": 59,
         "site": "indeed",
         "date_posted": 1776729600000,
         "url": "https://it.indeed.com/viewjob?jk=6945280a711c794c"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Pharmaxima Srl",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=72a8e54cb75621b8"
       }
     ]
   },
@@ -185,16 +185,11 @@
       },
       {
         "word": "director",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "project",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "associate",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       },
@@ -234,33 +229,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 20 (-80%)",
+      "data": {
+        "current": 4,
+        "avg": 19.6,
+        "change_pct": -79.6
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 11/22 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 11,
-        "total": 22,
-        "pct": 50.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 95% (+35pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 95.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 5% (-35pp)",
+      "message": "📡 linkedin: quota passata da 5% a 75% (+70pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 4.5
+        "old_pct": 4.5,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 95% a 25% (-70pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 95.5,
+        "new_pct": 25.0
       }
     },
     {
@@ -271,53 +276,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 165,
-            "top_terms": [
-              "engineer",
-              "specialist",
-              "senior"
-            ],
-            "pct": 56.7
-          },
-          {
-            "id": 3,
-            "size": 42,
+            "size": 188,
             "top_terms": [
               "manager",
-              "clinical",
-              "project"
+              "project",
+              "italy"
             ],
-            "pct": 14.4
+            "pct": 67.6
           },
           {
             "id": 1,
+            "size": 36,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 12.9
+          },
+          {
+            "id": 2,
             "size": 35,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.0
+            "pct": 12.6
           },
           {
-            "id": 2,
-            "size": 31,
+            "id": 3,
+            "size": 13,
             "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
+              "associate",
+              "research",
+              "italy"
             ],
-            "pct": 10.7
+            "pct": 4.7
           },
           {
             "id": 4,
-            "size": 18,
+            "size": 6,
             "top_terms": [
-              "italy",
-              "associate",
-              "research"
+              "analyst",
+              "qc",
+              "fraud"
             ],
-            "pct": 6.2
+            "pct": 2.2
           }
         ]
       }

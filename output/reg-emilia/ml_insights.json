@@ -1,33 +1,25 @@
 {
-  "generated_at": "2026-05-09T08:31:57.545134",
+  "generated_at": "2026-05-10T08:44:14.951787",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 35,
+  "total_jobs_analyzed": 32,
   "scoring": {
-    "average": 13.5,
+    "average": 14.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 29
+      "irrelevant": 26
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 62,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
-      {
-        "title": "Global Regulatory Affairs Senior Consultant",
-        "company": "JSB Solutions srl",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1778025600000,
-        "url": "https://it.indeed.com/viewjob?jk=1ccf136f6df88cdc"
       },
       {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
@@ -36,6 +28,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
+      },
+      {
+        "title": "Global Regulatory Affairs Senior Consultant",
+        "company": "JSB Solutions srl",
+        "score": 51,
+        "site": "indeed",
+        "date_posted": 1778025600000,
+        "url": "https://it.indeed.com/viewjob?jk=1ccf136f6df88cdc"
       },
       {
         "title": "Quality Assurance Consultant (settore farmaceutico)",
@@ -48,7 +48,7 @@
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
-        "score": 37,
+        "score": 36,
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=a805b7177c966455"
@@ -110,28 +110,12 @@
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
       },
       {
-        "title": "Associate - Quality Assurance Formulation Line",
-        "company": "Eli Lilly and Company",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": 1776384000000,
-        "url": "https://www.linkedin.com/jobs/view/4379862046"
-      },
-      {
         "title": "SENIOR R&D ENGINEER MEDICAL DEVICE (ACTIVE)",
         "company": "Grafton Recruitment",
         "score": 10,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405556584"
-      },
-      {
-        "title": "Technical designer & documentation engineer",
-        "company": "I-TECH INDUSTRIES",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778025600000,
-        "url": "https://it.indeed.com/viewjob?jk=972132bd643796e3"
       },
       {
         "title": "Tecnico Elettrico/Elettronico - Documentazione tecnica",
@@ -150,12 +134,12 @@
         "url": "https://it.indeed.com/viewjob?jk=6e190b867aa8ec17"
       },
       {
-        "title": "Sales Consultant (formazione e consulenza HR)",
-        "company": "Randstad",
-        "score": 8,
+        "title": "Estetista",
+        "company": null,
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
+        "date_posted": 1778284800000,
+        "url": "https://it.indeed.com/viewjob?jk=2a2d92ad6c6baec2"
       },
       {
         "title": "Quality Assurance",
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4396583284"
       },
       {
+        "title": "Sales Consultant (formazione e consulenza HR)",
+        "company": "Randstad",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
+      },
+      {
         "title": "Security Governance Manager",
         "company": "Prometeia Spa",
         "score": 7,
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=c16e61adda2345ed"
+      },
+      {
+        "title": "Junior Quality Assurance - Ortofrutta (GlobalGap, Grasp)",
+        "company": "Hays",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412121620"
       }
     ]
   },
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "sales",
@@ -199,9 +194,9 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "engineer",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +204,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+50%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
       "data": {
-        "current": 5,
-        "avg": 3.3,
-        "change_pct": 50.0
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
-      "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
+        "current": 1,
+        "avg": 3.1,
+        "change_pct": -67.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 60% (-40pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 40% (+40pp)",
+      "message": "📡 linkedin: quota passata da 40% a 0% (-40pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 40.0
+        "old_pct": 40.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 60% a 100% (+40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 60.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -255,34 +240,24 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 14,
+            "id": 2,
+            "size": 16,
             "top_terms": [
+              "engineer",
               "specialist",
-              "regulatory",
-              "field"
+              "regulatory"
             ],
-            "pct": 40.0
+            "pct": 50.0
           },
           {
             "id": 0,
-            "size": 8,
+            "size": 7,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 22.9
-          },
-          {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "engineer",
-              "senior",
-              "validation"
-            ],
-            "pct": 14.3
+            "pct": 21.9
           },
           {
             "id": 1,
@@ -292,17 +267,27 @@
               "consultant",
               "support"
             ],
-            "pct": 11.4
+            "pct": 12.5
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 3,
+            "size": 3,
             "top_terms": [
               "manager",
               "sales",
               "validation"
             ],
-            "pct": 11.4
+            "pct": 9.4
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
+              "field",
+              "validation",
+              "medical"
+            ],
+            "pct": 6.2
           }
         ]
       }

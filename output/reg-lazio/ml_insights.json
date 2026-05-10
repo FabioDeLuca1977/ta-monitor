@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-09T08:31:57.627342",
+  "generated_at": "2026-05-10T08:44:15.031801",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 116,
+  "total_jobs_analyzed": 113,
   "scoring": {
-    "average": 15.2,
+    "average": 15.3,
     "distribution": {
       "excellent": 0,
       "good": 5,
       "medium": 15,
       "low": 5,
-      "irrelevant": 91
+      "irrelevant": 88
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "AYES - Management & Technology Consulting",
         "score": 68,
         "site": "linkedin",
-        "date_posted": 1776902400000,
+        "date_posted": 1776988800000,
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
@@ -142,20 +142,20 @@
         "url": "https://it.indeed.com/viewjob?jk=de7f7a01b84a3e98"
       },
       {
-        "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
-        "company": "OpsArmy Careers",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4406923886"
-      },
-      {
         "title": "Quality Assurance Pharma",
         "company": "Amaris Consulting",
         "score": 46,
         "site": "linkedin",
         "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4393599595"
+      },
+      {
+        "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
+        "company": "OpsArmy Careers",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406923886"
       },
       {
         "title": "PQ Persona Qualificata",
@@ -184,11 +184,6 @@
         "reason": "Appare 14x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
         "word": "associate",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
@@ -197,6 +192,11 @@
         "word": "manager",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "junior",
@@ -209,43 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 14 annunci ultimo scan vs media 8 (+78%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-75%)",
       "data": {
-        "current": 14,
-        "avg": 7.8,
-        "change_pct": 78.4
+        "current": 2,
+        "avg": 7.9,
+        "change_pct": -74.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 10/14 annunci da aziende nuove (71.4%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 10,
-        "total": 14,
-        "pct": 71.4
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 93% (+18pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 92.9
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 7% (-18pp)",
+      "message": "📡 linkedin: quota passata da 7% a 100% (+93pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 7.1
+        "old_pct": 7.1,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 93% a 0% (-93pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 92.9,
+        "new_pct": 0.0
       }
     },
     {
@@ -256,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 62,
+            "size": 56,
             "top_terms": [
-              "manager",
               "senior",
-              "associate"
+              "associate",
+              "parrucchiera"
             ],
-            "pct": 53.4
-          },
-          {
-            "id": 3,
-            "size": 17,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 14.7
+            "pct": 49.6
           },
           {
             "id": 1,
-            "size": 16,
+            "size": 19,
             "top_terms": [
               "specialist",
-              "labeling",
-              "management"
+              "program",
+              "quality"
             ],
-            "pct": 13.8
+            "pct": 16.8
           },
           {
             "id": 2,
-            "size": 11,
+            "size": 13,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 11.5
+          },
+          {
+            "id": 3,
+            "size": 13,
+            "top_terms": [
+              "manager",
+              "medical",
+              "director"
+            ],
+            "pct": 11.5
+          },
+          {
+            "id": 4,
+            "size": 12,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 9.5
-          },
-          {
-            "id": 4,
-            "size": 10,
-            "top_terms": [
-              "business",
-              "italy",
-              "lead"
-            ],
-            "pct": 8.6
+            "pct": 10.6
           }
         ]
       }

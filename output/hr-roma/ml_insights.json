@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-09T08:31:57.002119",
+  "generated_at": "2026-05-10T08:44:14.431517",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 187,
+  "total_jobs_analyzed": 183,
   "scoring": {
     "average": 25.4,
     "distribution": {
       "excellent": 0,
-      "good": 8,
-      "medium": 47,
-      "low": 52,
-      "irrelevant": 80
+      "good": 7,
+      "medium": 46,
+      "low": 53,
+      "irrelevant": 77
     },
     "top_jobs": [
       {
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4409934005"
       },
       {
-        "title": "HR Generalist Intern",
-        "company": "OIS Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411877696"
-      },
-      {
         "title": "HR Officer Gestione Clienti Acquisto",
         "company": "key-absolute",
         "score": 59,
@@ -126,28 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4404442531"
       },
       {
-        "title": "HR Generalist",
-        "company": "Task Force Service Srl",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1776729600000,
-        "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
-      },
-      {
         "title": "Plant HR Manager",
         "company": "Alfasigma group",
         "score": 57,
         "site": "indeed",
         "date_posted": 1777420800000,
         "url": "https://it.indeed.com/viewjob?jk=edf44e8c1a798c3f"
-      },
-      {
-        "title": "Talent Acquisition Specialist - Focus on Sales Roles",
-        "company": "TeamSystem",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4368714171"
       },
       {
         "title": "Junior HR Talent Acquisition",
@@ -158,20 +134,44 @@
         "url": "https://www.linkedin.com/jobs/view/4409667902"
       },
       {
+        "title": "HR Generalist",
+        "company": "Task Force Service Srl",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1776729600000,
+        "url": "https://it.indeed.com/viewjob?jk=84367d6f4f4b42ce"
+      },
+      {
+        "title": "Talent Acquisition Specialist - Focus on Sales Roles",
+        "company": "TeamSystem",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4368714171"
+      },
+      {
+        "title": "HR Generalist Intern",
+        "company": "OIS Group",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411877696"
+      },
+      {
+        "title": "Ice Cream HR Generalist Intern",
+        "company": "The Magnum Ice Cream Company",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4376767068"
+      },
+      {
         "title": "Junior Talent Acquisition - Benessere Fisico",
         "company": "Tuolavoro-Lazio",
         "score": 55,
         "site": "linkedin",
         "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4404464533"
-      },
-      {
-        "title": "HR CONSULTANT – Sviluppo Commerciale & HR Solutions",
-        "company": "WJOB",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4403702846"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
-      },
-      {
-        "word": "umane",
         "count": 18,
         "reason": "Appare 18x in annunci a basso score"
       },
       {
+        "word": "umane",
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
+      },
+      {
         "word": "dell",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -200,8 +200,8 @@
       },
       {
         "word": "direttore",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -238,12 +238,6 @@
       "confidence": 30
     },
     {
-      "keyword": "categorie protette",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "partner eu",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -266,37 +260,53 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "partner eu one",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 15 (-93%)",
+      "data": {
+        "current": 1,
+        "avg": 15.2,
+        "change_pct": -93.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/12 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 12,
-        "pct": 25.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 46% a 67% (+21pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 46.2,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 54% a 33% (-21pp)",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 53.8,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -307,53 +317,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 89,
+            "size": 104,
             "top_terms": [
               "addetto",
-              "manager",
+              "talent",
               "personale"
             ],
-            "pct": 47.6
+            "pct": 56.8
           },
           {
-            "id": 0,
-            "size": 46,
+            "id": 3,
+            "size": 28,
             "top_terms": [
               "hr",
-              "specialist",
-              "recruiter"
+              "generalist",
+              "business"
             ],
-            "pct": 24.6
+            "pct": 15.3
           },
           {
-            "id": 2,
-            "size": 25,
+            "id": 4,
+            "size": 24,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 13.4
+            "pct": 13.1
           },
           {
-            "id": 4,
-            "size": 19,
+            "id": 2,
+            "size": 22,
             "top_terms": [
-              "talent",
-              "acquisition",
-              "resources"
+              "specialist",
+              "hr",
+              "talent"
             ],
-            "pct": 10.2
+            "pct": 12.0
           },
           {
-            "id": 3,
-            "size": 8,
+            "id": 0,
+            "size": 5,
             "top_terms": [
-              "dell",
-              "incarico",
-              "conferimento"
+              "recruiter",
+              "junior",
+              "specialist"
             ],
-            "pct": 4.3
+            "pct": 2.7
           }
         ]
       }
