@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-10T08:44:15.031801",
+  "generated_at": "2026-05-11T10:15:39.361681",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 113,
   "scoring": {
-    "average": 15.3,
+    "average": 14.2,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 15,
-      "low": 5,
-      "irrelevant": 88
+      "good": 4,
+      "medium": 14,
+      "low": 4,
+      "irrelevant": 91
     },
     "top_jobs": [
       {
@@ -28,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4401612170"
-      },
-      {
-        "title": "Regulatory affairs Specialist",
-        "company": "Amaris Consulting",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1776643200000,
-        "url": "https://www.linkedin.com/jobs/view/4401648321"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -70,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4387290311"
       },
       {
-        "title": "Regulatory Affair Specialist",
-        "company": "Capgemini",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
-      },
-      {
         "title": "Regulatory Affairs Internship",
         "company": "Allianz Italia",
         "score": 56,
         "site": "linkedin",
         "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4402800391"
+      },
+      {
+        "title": "Regulatory Affair Specialist",
+        "company": "Capgemini",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
       },
       {
         "title": "Senior Auditor – Regulatory Compliance",
@@ -118,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4405256636"
       },
       {
-        "title": "Specialista Affari Regolatori - rinnovabili e permitting",
-        "company": "Elettricità Futura",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4403749920"
-      },
-      {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini Engineering",
         "score": 48,
@@ -158,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4406923886"
       },
       {
+        "title": "Quality Assurance Consultant - Pharma Sector",
+        "company": "PQE Group",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4383149145"
+      },
+      {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
         "score": 45,
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4412124851"
       },
       {
-        "title": "Quality Assurance Consultant - Pharma Sector",
-        "company": "PQE Group",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4383149145"
+        "title": "parrucchiera",
+        "company": null,
+        "score": 23,
+        "site": "indeed",
+        "date_posted": 1776816000000,
+        "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
+      },
+      {
+        "title": "parrucchiera",
+        "company": "Helena Hair Lab",
+        "score": 23,
+        "site": "indeed",
+        "date_posted": 1776816000000,
+        "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -211,41 +211,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-75%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 8 (-62%)",
       "data": {
-        "current": 2,
+        "current": 3,
         "avg": 7.9,
-        "change_pct": -74.8
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "change_pct": -61.8
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 7% a 100% (+93pp)",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 7.1,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 93% a 0% (-93pp)",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 92.9,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -255,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 56,
+            "id": 1,
+            "size": 51,
             "top_terms": [
-              "senior",
               "associate",
-              "parrucchiera"
+              "parrucchiera",
+              "affairs"
             ],
-            "pct": 49.6
+            "pct": 45.1
           },
           {
-            "id": 1,
-            "size": 19,
+            "id": 0,
+            "size": 21,
             "top_terms": [
               "specialist",
-              "program",
-              "quality"
+              "regulatory",
+              "affairs"
             ],
-            "pct": 16.8
+            "pct": 18.6
           },
           {
             "id": 2,
-            "size": 13,
+            "size": 18,
             "top_terms": [
-              "assurance",
               "quality",
+              "assurance",
               "specialist"
             ],
-            "pct": 11.5
-          },
-          {
-            "id": 3,
-            "size": 13,
-            "top_terms": [
-              "manager",
-              "medical",
-              "director"
-            ],
-            "pct": 11.5
+            "pct": 15.9
           },
           {
             "id": 4,
             "size": 12,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "manager",
+              "medical",
+              "director"
             ],
             "pct": 10.6
+          },
+          {
+            "id": 3,
+            "size": 11,
+            "top_terms": [
+              "senior",
+              "business",
+              "italy"
+            ],
+            "pct": 9.7
           }
         ]
       }

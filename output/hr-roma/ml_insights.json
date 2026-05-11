@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-10T08:44:14.431517",
+  "generated_at": "2026-05-11T10:15:38.755873",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 183,
+  "total_jobs_analyzed": 184,
   "scoring": {
     "average": 25.4,
     "distribution": {
       "excellent": 0,
       "good": 7,
-      "medium": 46,
+      "medium": 47,
       "low": 53,
       "irrelevant": 77
     },
@@ -82,7 +82,7 @@
         "company": "Tuolavoro-Lazio",
         "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776988800000,
         "url": "https://www.linkedin.com/jobs/view/4405320881"
       },
       {
@@ -272,11 +272,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 15 (-93%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 14 (-93%)",
       "data": {
         "current": 1,
-        "avg": 15.2,
-        "change_pct": -93.4
+        "avg": 14.1,
+        "change_pct": -92.9
       }
     },
     {
@@ -290,80 +290,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 104,
-            "top_terms": [
-              "addetto",
-              "talent",
-              "personale"
-            ],
-            "pct": 56.8
-          },
-          {
-            "id": 3,
-            "size": 28,
+            "id": 0,
+            "size": 112,
             "top_terms": [
               "hr",
-              "generalist",
-              "business"
+              "talent",
+              "manager"
             ],
-            "pct": 15.3
-          },
-          {
-            "id": 4,
-            "size": 24,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 13.1
+            "pct": 60.9
           },
           {
             "id": 2,
-            "size": 22,
+            "size": 24,
             "top_terms": [
               "specialist",
               "hr",
               "talent"
             ],
-            "pct": 12.0
+            "pct": 13.0
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 1,
+            "size": 23,
             "top_terms": [
-              "recruiter",
-              "junior",
-              "specialist"
+              "risorse",
+              "umane",
+              "addetto"
             ],
-            "pct": 2.7
+            "pct": 12.5
+          },
+          {
+            "id": 3,
+            "size": 17,
+            "top_terms": [
+              "addetto",
+              "vendite",
+              "part"
+            ],
+            "pct": 9.2
+          },
+          {
+            "id": 4,
+            "size": 8,
+            "top_terms": [
+              "dell",
+              "quinquennale",
+              "conferimento"
+            ],
+            "pct": 4.3
           }
         ]
       }

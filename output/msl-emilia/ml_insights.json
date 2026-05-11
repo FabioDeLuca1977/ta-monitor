@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-10T08:44:14.665149",
+  "generated_at": "2026-05-11T10:15:38.989816",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 18,
   "scoring": {
-    "average": 15.5,
+    "average": 16.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 2,
-      "low": 4,
-      "irrelevant": 11
+      "medium": 3,
+      "low": 3,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -24,10 +24,18 @@
       {
         "title": "Global Regulatory Affairs Senior Consultant",
         "company": "JSB Solutions",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
+      },
+      {
+        "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
+        "company": "Banca Più",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412750131"
       },
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
@@ -56,7 +64,7 @@
       {
         "title": "HR & LR Partner",
         "company": "DOW",
-        "score": 20,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1778112000000,
         "url": "https://it.indeed.com/viewjob?jk=268fc5fe88a28264"
@@ -68,14 +76,6 @@
         "site": "indeed",
         "date_posted": 1777248000000,
         "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
-      },
-      {
-        "title": "Senior Design Engineer",
-        "company": "Transmedics",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=0a14160e2f0b474d"
       },
       {
         "title": "Production Planner",
@@ -114,7 +114,7 @@
         "company": "Codess Sociale Soc Coop",
         "score": 5,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776988800000,
         "url": "https://www.linkedin.com/jobs/view/4406393331"
       },
       {
@@ -124,6 +124,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4407461389"
+      },
+      {
+        "title": "Senior Design Engineer",
+        "company": "Transmedics",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1778112000000,
+        "url": "https://it.indeed.com/viewjob?jk=0a14160e2f0b474d"
       },
       {
         "title": "Procurement Digital and AI Lead",
@@ -175,33 +183,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-65%)",
+      "data": {
+        "current": 1,
+        "avg": 2.8,
+        "change_pct": -64.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     }
   ],

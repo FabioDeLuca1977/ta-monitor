@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-10T08:44:14.651840",
+  "generated_at": "2026-05-11T10:15:38.976237",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 168,
+  "total_jobs_analyzed": 167,
   "scoring": {
-    "average": 30.2,
+    "average": 29.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 85,
+      "medium": 82,
       "low": 8,
-      "irrelevant": 73
+      "irrelevant": 75
     },
     "top_jobs": [
       {
@@ -48,18 +48,10 @@
       {
         "title": "Junior Medical Advisor",
         "company": "KOLINPHARMA S.p.A",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1776729600000,
         "url": "https://www.linkedin.com/jobs/view/4403923357"
-      },
-      {
-        "title": "Medical Advisor Lung Cancer",
-        "company": "AstraZeneca",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412107301"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -86,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
-        "title": "Medical Affairs Clinician - Italy",
-        "company": "Evolus",
+        "title": "Medical Advisor Lung Cancer",
+        "company": "AstraZeneca",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4342294307"
+        "url": "https://www.linkedin.com/jobs/view/4412107301"
       },
       {
         "title": "Medical Advisor Biologics - Dermatology",
@@ -106,8 +98,16 @@
         "company": "CSL",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1776988800000,
         "url": "https://www.linkedin.com/jobs/view/4402807584"
+      },
+      {
+        "title": "Medical Communication Specialist Eucerin",
+        "company": "Beiersdorf SpA",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=d95821eeb3dac98c"
       },
       {
         "title": "Medical Science Liaison Paediatric Oncology - Milan",
@@ -116,6 +116,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4394781112"
+      },
+      {
+        "title": "Medical Affairs Clinician - Italy",
+        "company": "Evolus",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
         "title": "Stage in Medical Affairs",
@@ -150,28 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4405218254"
       },
       {
-        "title": "Medical Scientific Liaison - Protein Diagnostics",
-        "company": "Thermo Fisher Scientific",
+        "title": "Medical Science Liaison Oncology | Emilia Romagna e Triveneto",
+        "company": "Amgen Italia",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399950883"
+        "url": "https://www.linkedin.com/jobs/view/4407885105"
       },
       {
-        "title": "Medical Communication Specialist Eucerin",
-        "company": "Beiersdorf SpA",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=d95821eeb3dac98c"
-      },
-      {
-        "title": "Medical Science Liaison Oncology | Emilia Romagna e Triveneto",
-        "company": "Amgen Italia",
+        "title": "International Medical Science Liaison, Oncology",
+        "company": "IQVIA",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4407885105"
+        "url": "https://www.linkedin.com/jobs/view/4384494774"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -209,15 +209,27 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 60
     },
     {
       "keyword": "medical scientific",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
+    },
+    {
+      "keyword": "international",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
+    },
+    {
+      "keyword": "international medical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     },
     {
       "keyword": "lung cancer",
@@ -230,83 +242,47 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "field clinical",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "clinical specialist",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "specialist graduate",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "graduate new",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "new cardio",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "milan",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 12 (-52%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 13 (-76%)",
       "data": {
-        "current": 6,
-        "avg": 12.5,
-        "change_pct": -51.9
+        "current": 3,
+        "avg": 12.6,
+        "change_pct": -76.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 4,
-        "total": 6,
-        "pct": 66.7
+        "new": 1,
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 55% a 100% (+45pp)",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 54.5,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 45% a 0% (-45pp)",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 45.5,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -317,53 +293,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 58,
+            "size": 63,
+            "top_terms": [
+              "senior",
+              "specialist",
+              "engineer"
+            ],
+            "pct": 37.7
+          },
+          {
+            "id": 4,
+            "size": 33,
+            "top_terms": [
+              "medical",
+              "director",
+              "liaison"
+            ],
+            "pct": 19.8
+          },
+          {
+            "id": 2,
+            "size": 29,
+            "top_terms": [
+              "clinical",
+              "research",
+              "associate"
+            ],
+            "pct": 17.4
+          },
+          {
+            "id": 3,
+            "size": 27,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 16.2
+          },
+          {
+            "id": 1,
+            "size": 15,
             "top_terms": [
               "manager",
               "access",
               "market"
             ],
-            "pct": 34.5
-          },
-          {
-            "id": 2,
-            "size": 46,
-            "top_terms": [
-              "medical",
-              "director",
-              "senior"
-            ],
-            "pct": 27.4
-          },
-          {
-            "id": 4,
-            "size": 29,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 17.3
-          },
-          {
-            "id": 1,
-            "size": 20,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "sales"
-            ],
-            "pct": 11.9
-          },
-          {
-            "id": 3,
-            "size": 15,
-            "top_terms": [
-              "research",
-              "clinical",
-              "associate"
-            ],
-            "pct": 8.9
+            "pct": 9.0
           }
         ]
       }
