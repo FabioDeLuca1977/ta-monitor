@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-05-11T10:15:39.276619",
+  "generated_at": "2026-05-12T09:17:00.608756",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 34,
+  "total_jobs_analyzed": 37,
   "scoring": {
-    "average": 14.9,
+    "average": 15.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 5,
+      "medium": 6,
       "low": 2,
-      "irrelevant": 27
+      "irrelevant": 29
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
+        "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
+        "company": "Banca Privata Leasing S.p.a.",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1778457600000,
+        "url": "https://it.indeed.com/viewjob?jk=64a6d8ff87ea25c6"
+      },
+      {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
         "company": "PQE Group",
-        "score": 56,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
-      },
-      {
-        "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
-        "company": "Banca Più",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412750131"
       },
       {
         "title": "Global Regulatory Affairs Senior Consultant",
@@ -44,6 +44,14 @@
         "site": "indeed",
         "date_posted": 1778025600000,
         "url": "https://it.indeed.com/viewjob?jk=1ccf136f6df88cdc"
+      },
+      {
+        "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
+        "company": "Banca Più",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412750131"
       },
       {
         "title": "Quality Assurance Consultant (settore farmaceutico)",
@@ -70,20 +78,20 @@
         "url": "https://it.indeed.com/viewjob?jk=64b971018f9d36e0"
       },
       {
-        "title": "PROJECT MANAGER AFTER SALES",
-        "company": "I.M.A. INDUSTRIA MACCHINE AUTOMATICHE",
-        "score": 19,
+        "title": "ICT TechOps Quality Specialist - Temporary Support (12 Months)",
+        "company": "Menarini",
+        "score": 15,
         "site": "indeed",
-        "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=33eff879a185903c"
+        "date_posted": 1778457600000,
+        "url": "https://it.indeed.com/viewjob?jk=6ed983305a8b2945"
       },
       {
-        "title": "Cleaning validation specialist",
-        "company": "Capgemini",
+        "title": "PROJECT MANAGER AFTER SALES",
+        "company": "I.M.A. INDUSTRIA MACCHINE AUTOMATICHE",
         "score": 14,
         "site": "indeed",
         "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=de111dc537ef0b46"
+        "url": "https://it.indeed.com/viewjob?jk=33eff879a185903c"
       },
       {
         "title": "Junior Quality Assurance Specialist",
@@ -134,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4405556584"
       },
       {
-        "title": "Validation Engineer",
-        "company": "Coesia",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=6e190b867aa8ec17"
-      },
-      {
         "title": "Estetista",
         "company": null,
         "score": 10,
         "site": "indeed",
         "date_posted": 1778284800000,
         "url": "https://it.indeed.com/viewjob?jk=2a2d92ad6c6baec2"
+      },
+      {
+        "title": "Cleaning validation specialist",
+        "company": "Capgemini",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=de111dc537ef0b46"
       },
       {
         "title": "Quality Assurance",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
-      },
-      {
-        "title": "Security Governance Manager",
-        "company": "Prometeia Spa",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=c16e61adda2345ed"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -211,19 +211,19 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
+        "new": 3,
         "total": 3,
-        "pct": 66.7
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 0.0,
         "new_pct": 100.0
       }
@@ -231,9 +231,9 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 100.0,
         "new_pct": 0.0
       }
@@ -246,53 +246,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 15,
+            "size": 13,
             "top_terms": [
+              "validation",
               "engineer",
-              "specialist",
-              "validation"
+              "senior"
             ],
-            "pct": 44.1
-          },
-          {
-            "id": 2,
-            "size": 8,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 23.5
+            "pct": 35.1
           },
           {
             "id": 0,
-            "size": 5,
+            "size": 9,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "stage"
+              "quality",
+              "assurance",
+              "specialist"
             ],
-            "pct": 14.7
+            "pct": 24.3
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 8,
             "top_terms": [
-              "sales",
-              "manager",
-              "consultant"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 11.8
+            "pct": 21.6
           },
           {
             "id": 4,
-            "size": 2,
+            "size": 4,
             "top_terms": [
-              "field",
-              "validation",
-              "manager"
+              "sales",
+              "consultant",
+              "customer"
             ],
-            "pct": 5.9
+            "pct": 10.8
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "manager",
+              "sales",
+              "legal"
+            ],
+            "pct": 8.1
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-11T10:15:39.039862",
+  "generated_at": "2026-05-12T09:17:00.347854",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 56,
+  "total_jobs_analyzed": 60,
   "scoring": {
-    "average": 28.1,
+    "average": 26.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 25,
       "low": 3,
-      "irrelevant": 26
+      "irrelevant": 30
     },
     "top_jobs": [
       {
         "title": "Medical Director, Medical Affairs",
         "company": "Vertex Pharmaceuticals",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411889408"
@@ -30,12 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4408424291"
       },
       {
-        "title": "Medical Science Liaison",
-        "company": "Organon Pharmaceuticals",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=3f473cc230e07a07"
+        "title": "Medical Scientific Liaison (MSL) - Central Italy",
+        "company": "Teva Pharmaceuticals",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1776816000000,
+        "url": "https://www.linkedin.com/jobs/view/4382117194"
+      },
+      {
+        "title": "Medical Affairs Supervisor",
+        "company": "Randstad Italia",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4408641019"
       },
       {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
@@ -46,27 +54,11 @@
         "url": "https://www.linkedin.com/jobs/view/4390716325"
       },
       {
-        "title": "Medical Scientific Liaison (MSL) - Central Italy",
-        "company": "Teva Pharmaceuticals",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1776816000000,
-        "url": "https://www.linkedin.com/jobs/view/4382117194"
-      },
-      {
-        "title": "Medical Affairs Supervisor",
-        "company": "Randstad Italia",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4408641019"
-      },
-      {
         "title": "Head of Medical Affairs, Italy",
         "company": "Genmab",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777075200000,
         "url": "https://www.linkedin.com/jobs/view/4374614779"
       },
       {
@@ -78,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4364981952"
       },
       {
+        "title": "Medical Science Liaison (m/f/x) - Nephrology",
+        "company": "CSL Plasma",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1776988800000,
+        "url": "https://it.indeed.com/viewjob?jk=a802a63314b572b5"
+      },
+      {
         "title": "Medical Science Liaison, Oncology (RCC)",
         "company": "Amplity",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4385271426"
-      },
-      {
-        "title": "Medical Science Liaison (m/f/x) - Nephrology",
-        "company": "CSL Plasma",
-        "score": 53,
-        "site": "indeed",
-        "date_posted": 1776988800000,
-        "url": "https://it.indeed.com/viewjob?jk=a802a63314b572b5"
       },
       {
         "title": "Clinical Development Medical Science Director",
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
+        "title": "Field Clinical Specialist THV - Lazio/Campania",
+        "company": "Edwards Lifesciences",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411739069"
+      },
+      {
         "title": "Regulatory Affairs Internship",
         "company": "Allianz Italia",
         "score": 43,
@@ -185,13 +185,13 @@
       },
       {
         "word": "lead",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "italy",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "team",
@@ -199,9 +199,9 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "management",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "senior",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -216,33 +216,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-78%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "current": 1,
-        "avg": 4.6,
-        "change_pct": -78.2
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 100% (+60pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 0% (-60pp)",
+      "message": "📡 indeed: quota passata da 0% a 80% (+80pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 80.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 20% (-80pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 20.0
       }
     },
     {
@@ -252,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 21,
+            "id": 4,
+            "size": 23,
             "top_terms": [
-              "italy",
               "lead",
-              "manager"
+              "senior",
+              "pharmacovigilance"
             ],
-            "pct": 37.5
-          },
-          {
-            "id": 1,
-            "size": 13,
-            "top_terms": [
-              "medical",
-              "affairs",
-              "director"
-            ],
-            "pct": 23.2
+            "pct": 38.3
           },
           {
             "id": 3,
             "size": 11,
             "top_terms": [
               "specialist",
-              "revenue",
-              "cluster"
+              "management",
+              "revenue"
             ],
-            "pct": 19.6
+            "pct": 18.3
           },
           {
-            "id": 4,
-            "size": 7,
+            "id": 1,
+            "size": 9,
+            "top_terms": [
+              "medical",
+              "director",
+              "affairs"
+            ],
+            "pct": 15.0
+          },
+          {
+            "id": 2,
+            "size": 9,
             "top_terms": [
               "liaison",
               "science",
               "medical"
             ],
-            "pct": 12.5
+            "pct": 15.0
           },
           {
             "id": 0,
-            "size": 4,
+            "size": 8,
             "top_terms": [
-              "pharmacovigilance",
-              "consultant",
-              "internship"
+              "regulatory",
+              "affairs",
+              "head"
             ],
-            "pct": 7.1
+            "pct": 13.3
           }
         ]
       }

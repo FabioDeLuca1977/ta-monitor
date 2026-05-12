@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-11T10:15:38.877787",
+  "generated_at": "2026-05-12T09:17:00.165664",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 32.9,
+    "average": 32.8,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 25,
-      "low": 9,
+      "medium": 26,
+      "low": 8,
       "irrelevant": 12
     },
     "top_jobs": [
       {
         "title": "Medical Advisor - Gastrointestinal (GI) Oncology",
         "company": "GSK",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393544955"
@@ -102,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4409612295"
       },
       {
-        "title": "Biocides Regulatory Affairs - Market Leader Company",
-        "company": "NonStop Consulting",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4410039965"
-      },
-      {
         "title": "Informatore medico scientifico",
         "company": "ManpowerGroup",
         "score": 43,
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4396666448"
       },
       {
+        "title": "Clinical Specialist",
+        "company": "Atos Medical",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4407646931"
+      },
+      {
         "title": "ISF",
         "company": "Aurora Biofarma",
         "score": 42,
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
       "data": {
         "current": 1,
-        "avg": 4.1,
-        "change_pct": -75.6
+        "avg": 3.8,
+        "change_pct": -73.3
       }
     },
     {
@@ -211,20 +211,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -235,17 +235,17 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 17,
+            "id": 0,
+            "size": 20,
             "top_terms": [
-              "manager",
               "isf",
-              "medical"
+              "manager",
+              "veneto"
             ],
-            "pct": 37.0
+            "pct": 43.5
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 12,
             "top_terms": [
               "scientifico",
@@ -256,16 +256,16 @@
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 6,
             "top_terms": [
               "specialist",
               "clinical",
-              "sales"
+              "italy"
             ],
-            "pct": 15.2
+            "pct": 13.0
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 6,
             "top_terms": [
               "medico",
@@ -275,14 +275,14 @@
             "pct": 13.0
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 3,
+            "size": 2,
             "top_terms": [
               "senior",
-              "affairs",
-              "regulatory"
+              "clinical",
+              "youth"
             ],
-            "pct": 8.7
+            "pct": 4.3
           }
         ]
       }

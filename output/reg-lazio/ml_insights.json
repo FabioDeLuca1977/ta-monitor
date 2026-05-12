@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-11T10:15:39.361681",
+  "generated_at": "2026-05-12T09:17:00.705400",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 113,
+  "total_jobs_analyzed": 122,
   "scoring": {
-    "average": 14.2,
+    "average": 13.5,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 14,
-      "low": 4,
-      "irrelevant": 91
+      "low": 2,
+      "irrelevant": 102
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs CMC - Sterility Assurance",
         "company": "PQE Group",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1776643200000,
         "url": "https://www.linkedin.com/jobs/view/4401612170"
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "BSP Pharmaceuticals S.p.A.",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1777420800000,
         "url": "https://www.linkedin.com/jobs/view/4406074339"
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4397318496"
       },
       {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1776816000000,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
-      },
-      {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
         "score": 58,
@@ -64,18 +56,18 @@
       {
         "title": "Regulatory Affairs Internship",
         "company": "Allianz Italia",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4402800391"
       },
       {
-        "title": "Regulatory Affair Specialist",
-        "company": "Capgemini",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
+        "title": "Head of Regulatory Affairs Italy",
+        "company": "Merck Healthcare",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1776816000000,
+        "url": "https://www.linkedin.com/jobs/view/4366163549"
       },
       {
         "title": "Senior Auditor – Regulatory Compliance",
@@ -94,12 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=d524f40900d8f37d"
       },
       {
-        "title": "Diario della prova colloquio del conferimento, per titoli e colloquio, dell'incarico quinquennale, a valenza regionale, di dirigente qualified person.",
-        "company": "Azienda Ospedaliera «S. Camillo - Forlanini» di Roma",
+        "title": "Regulatory Affair Specialist",
+        "company": "Capgemini",
         "score": 52,
         "site": "indeed",
         "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=7ddabbf21351b8a7"
+        "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
       },
       {
         "title": "Specialista Affari Regolatori",
@@ -124,6 +116,14 @@
         "site": "indeed",
         "date_posted": 1777334400000,
         "url": "https://it.indeed.com/viewjob?jk=de7f7a01b84a3e98"
+      },
+      {
+        "title": "Diario della prova colloquio del conferimento, per titoli e colloquio, dell'incarico quinquennale, a valenza regionale, di dirigente qualified person.",
+        "company": "Azienda Ospedaliera «S. Camillo - Forlanini» di Roma",
+        "score": 47,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=7ddabbf21351b8a7"
       },
       {
         "title": "Quality Assurance Pharma",
@@ -159,19 +159,19 @@
       },
       {
         "title": "parrucchiera",
-        "company": null,
-        "score": 23,
+        "company": "Helena Hair Lab",
+        "score": 24,
         "site": "indeed",
         "date_posted": 1776816000000,
         "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
       },
       {
-        "title": "parrucchiera",
-        "company": "Helena Hair Lab",
+        "title": "Project Manager Medtech | Medical Devices",
+        "company": "S4BT - Solutions for Business & Technology",
         "score": 23,
-        "site": "indeed",
-        "date_posted": 1776816000000,
-        "url": "https://it.indeed.com/viewjob?jk=bea082c11fee5aaa"
+        "site": "linkedin",
+        "date_posted": 1777939200000,
+        "url": "https://www.linkedin.com/jobs/view/4409361527"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
-      },
-      {
-        "word": "associate",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "italy",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "associate",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "senior",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "junior",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 8 (-62%)",
+      "message": "Volume in crescita: 12 annunci ultimo scan vs media 8 (+53%)",
       "data": {
-        "current": 3,
+        "current": 12,
         "avg": 7.9,
-        "change_pct": -61.8
+        "change_pct": 52.7
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 7/12 annunci da aziende nuove (58.3%)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "new": 7,
+        "total": 12,
+        "pct": 58.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 33% a 75% (+42pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 25% (-42pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 25.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
+            "id": 3,
+            "size": 68,
+            "top_terms": [
+              "manager",
+              "senior",
+              "associate"
+            ],
+            "pct": 55.7
+          },
+          {
             "id": 1,
-            "size": 51,
-            "top_terms": [
-              "associate",
-              "parrucchiera",
-              "affairs"
-            ],
-            "pct": 45.1
-          },
-          {
-            "id": 0,
             "size": 21,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 18.6
-          },
-          {
-            "id": 2,
-            "size": 18,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 15.9
+            "pct": 17.2
+          },
+          {
+            "id": 2,
+            "size": 18,
+            "top_terms": [
+              "specialist",
+              "management",
+              "labeling"
+            ],
+            "pct": 14.8
           },
           {
             "id": 4,
-            "size": 12,
-            "top_terms": [
-              "manager",
-              "medical",
-              "director"
-            ],
-            "pct": 10.6
-          },
-          {
-            "id": 3,
             "size": 11,
             "top_terms": [
-              "senior",
-              "business",
-              "italy"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 9.7
+            "pct": 9.0
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "business",
+              "cybersecurity",
+              "digital"
+            ],
+            "pct": 3.3
           }
         ]
       }
