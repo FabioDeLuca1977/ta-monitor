@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-12T09:17:00.290586",
+  "generated_at": "2026-05-13T09:19:20.964425",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 18,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 15.9,
+    "average": 17.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 3,
       "low": 3,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "Gruppo Hera",
         "score": 47,
         "site": "linkedin",
-        "date_posted": 1776643200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
@@ -62,6 +62,14 @@
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
       },
       {
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
+      },
+      {
         "title": "HR & LR Partner",
         "company": "DOW",
         "score": 15,
@@ -76,14 +84,6 @@
         "site": "indeed",
         "date_posted": 1777248000000,
         "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
-      },
-      {
-        "title": "Patient Journey Manager - Finland",
-        "company": "Kyowa Kirin International",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1776556800000,
-        "url": "https://it.indeed.com/viewjob?jk=3c54ecf08c071daf"
       },
       {
         "title": "Continuous Improvement Manager",
@@ -126,28 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=0a14160e2f0b474d"
       },
       {
+        "title": "Direttore/direttrice per CRA a Mirandola (MO)",
+        "company": "Codess Sociale Soc Coop",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4413483479"
+      },
+      {
         "title": "Production Planner",
         "company": "LINCOTEK GROUP",
-        "score": 4,
+        "score": 3,
         "site": "indeed",
         "date_posted": 1777852800000,
         "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
-      },
-      {
-        "title": "Procurement Digital and AI Lead",
-        "company": "Dentsply Sirona",
-        "score": 1,
-        "site": "indeed",
-        "date_posted": 1776643200000,
-        "url": "https://it.indeed.com/viewjob?jk=105e53971478b331"
-      },
-      {
-        "title": "AI Team Lead Video Editor",
-        "company": "CapsLock",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
       },
       {
         "title": "AI Video Editor Team Lead",
@@ -164,18 +156,8 @@
     "add_blacklist": [
       {
         "word": "cra",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "lead",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -183,43 +165,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-65%)",
-      "data": {
-        "current": 1,
-        "avg": 2.8,
-        "change_pct": -64.7
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
+        "total": 2,
+        "pct": 50.0
       }
     }
   ],

@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-05-12T09:17:00.276070",
+  "generated_at": "2026-05-13T09:19:20.950967",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 174,
+  "total_jobs_analyzed": 172,
   "scoring": {
-    "average": 29.0,
+    "average": 29.1,
     "distribution": {
       "excellent": 0,
-      "good": 2,
+      "good": 3,
       "medium": 83,
-      "low": 8,
-      "irrelevant": 81
+      "low": 7,
+      "irrelevant": 79
     },
     "top_jobs": [
+      {
+        "title": "Junior Medical Affairs Manager",
+        "company": "SINCLAIR",
+        "score": 70,
+        "site": "indeed",
+        "date_posted": 1778544000000,
+        "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
+      },
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
@@ -24,7 +32,7 @@
       {
         "title": "Clinical Development Medical Director (Associate Director)",
         "company": "Pfizer",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411264071"
@@ -46,14 +54,6 @@
         "url": "https://www.linkedin.com/jobs/view/4405557111"
       },
       {
-        "title": "Junior Medical Advisor",
-        "company": "KOLINPHARMA S.p.A",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1776729600000,
-        "url": "https://www.linkedin.com/jobs/view/4403923357"
-      },
-      {
         "title": "Medical Advisor Lung Cancer",
         "company": "AstraZeneca",
         "score": 58,
@@ -70,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
-        "title": "Psychiatry - Medical Director",
+        "title": "Hepatology - Medical Director",
         "company": "Medpace",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1777075200000,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
+        "date_posted": 1777161600000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -84,14 +84,6 @@
         "site": "linkedin",
         "date_posted": 1777075200000,
         "url": "https://www.linkedin.com/jobs/view/4331270944"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1777161600000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Medical Affairs Clinician - Italy",
@@ -142,12 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4405218254"
       },
       {
-        "title": "Medical Science Liaison Oncology | Emilia Romagna e Triveneto",
-        "company": "Amgen Italia",
+        "title": "Medical Science Liaison Northwest Italy",
+        "company": "Madrigal Pharmaceuticals",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4407885105"
+        "url": "https://www.linkedin.com/jobs/view/4413570055"
+      },
+      {
+        "title": "Director, Medical Affairs LIVE Italy",
+        "company": "Gilead Sciences",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1777161600000,
+        "url": "https://www.linkedin.com/jobs/view/4374040619"
       },
       {
         "title": "Principal Biostatistician Medical Affairs",
@@ -179,19 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "manager",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "word": "senior",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "engineer",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "access",
@@ -200,8 +195,13 @@
       },
       {
         "word": "specialist",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "market",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -246,13 +246,22 @@
   ],
   "anomalies": [
     {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Groupe Pierre Fabre: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Groupe Pierre Fabre",
+        "count": 2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 6/9 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 3,
+        "new": 6,
         "total": 9,
-        "pct": 33.3
+        "pct": 66.7
       }
     },
     {
@@ -263,13 +272,13 @@
         "clusters": [
           {
             "id": 2,
-            "size": 78,
+            "size": 59,
             "top_terms": [
-              "clinical",
+              "engineer",
               "specialist",
-              "associate"
+              "senior"
             ],
-            "pct": 44.8
+            "pct": 34.3
           },
           {
             "id": 1,
@@ -279,37 +288,37 @@
               "access",
               "market"
             ],
-            "pct": 18.4
+            "pct": 18.6
           },
           {
-            "id": 3,
-            "size": 27,
+            "id": 4,
+            "size": 31,
+            "top_terms": [
+              "medical",
+              "director",
+              "liaison"
+            ],
+            "pct": 18.0
+          },
+          {
+            "id": 0,
+            "size": 25,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.5
+            "pct": 14.5
           },
           {
-            "id": 4,
-            "size": 26,
+            "id": 3,
+            "size": 25,
             "top_terms": [
-              "medical",
-              "director",
-              "advisor"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 14.9
-          },
-          {
-            "id": 0,
-            "size": 11,
-            "top_terms": [
-              "liaison",
-              "science",
-              "medical"
-            ],
-            "pct": 6.3
+            "pct": 14.5
           }
         ]
       }

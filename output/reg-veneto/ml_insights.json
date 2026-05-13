@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-12T09:17:00.397021",
+  "generated_at": "2026-05-13T09:19:21.072657",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 43,
   "scoring": {
-    "average": 10.2,
+    "average": 9.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 2,
-      "low": 2,
-      "irrelevant": 38
+      "low": 1,
+      "irrelevant": 39
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 50,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
@@ -48,7 +48,7 @@
       {
         "title": "Customer Quality Assurance Manager",
         "company": "LHH",
-        "score": 20,
+        "score": 15,
         "site": "linkedin",
         "date_posted": 1777939200000,
         "url": "https://www.linkedin.com/jobs/view/4398907982"
@@ -80,18 +80,10 @@
       {
         "title": "QHSE Manager & RSPP (f/m/d)",
         "company": "Freudenberg Group",
-        "score": 12,
+        "score": 11,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=6a1fb3ace602f4d5"
-      },
-      {
-        "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
-        "company": "Rentokil Initial",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1777939200000,
-        "url": "https://it.indeed.com/viewjob?jk=484249e9dbe07f41"
       },
       {
         "title": "Cyber Security Compliance Consultant",
@@ -116,14 +108,6 @@
         "site": "indeed",
         "date_posted": 1778112000000,
         "url": "https://it.indeed.com/viewjob?jk=ab5d5d8ab7aa04f0"
-      },
-      {
-        "title": "Estetista",
-        "company": null,
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778284800000,
-        "url": "https://it.indeed.com/viewjob?jk=2a2d92ad6c6baec2"
       },
       {
         "title": "Tecnico Automotive Assistenza Diagnosi e Diagnosi da Remoto",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1777852800000,
         "url": "https://it.indeed.com/viewjob?jk=5c4a7f331e585c79"
+      },
+      {
+        "title": "STAGE GMP & QUALITY",
+        "company": "Bauli Group",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": 1776816000000,
+        "url": "https://www.linkedin.com/jobs/view/4404801890"
+      },
+      {
+        "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
+        "company": "Rentokil Initial",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1777939200000,
+        "url": "https://it.indeed.com/viewjob?jk=484249e9dbe07f41"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "security",
+        "word": "support",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "operatore",
+        "word": "security",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -210,42 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-46%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
       "data": {
-        "current": 2,
-        "avg": 3.7,
-        "change_pct": -46.3
+        "current": 1,
+        "avg": 3.8,
+        "change_pct": -73.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 20,
-            "top_terms": [
-              "tecnico",
-              "telemarketing",
-              "operatore"
-            ],
-            "pct": 46.5
-          },
-          {
             "id": 0,
-            "size": 7,
+            "size": 26,
             "top_terms": [
               "specialist",
-              "quality",
-              "assurance"
+              "tecnico",
+              "estetista"
             ],
-            "pct": 16.3
+            "pct": 60.5
           },
           {
             "id": 3,
-            "size": 6,
+            "size": 8,
             "top_terms": [
               "quality",
               "assurance",
-              "analyst"
+              "specialist"
             ],
-            "pct": 14.0
+            "pct": 18.6
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "manager",
+              "product",
+              "security"
+            ],
+            "pct": 9.3
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 3,
             "top_terms": [
-              "manager",
-              "security",
-              "product"
+              "qualità",
+              "sistema",
+              "responsabile"
             ],
-            "pct": 14.0
+            "pct": 7.0
           },
           {
             "id": 1,
-            "size": 4,
+            "size": 2,
             "top_terms": [
-              "compliance",
-              "market",
-              "regulatory"
+              "verona",
+              "risk",
+              "industrial"
             ],
-            "pct": 9.3
+            "pct": 4.7
           }
         ]
       }

@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-12T09:17:00.608756",
+  "generated_at": "2026-05-13T09:19:21.282617",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 37,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 15.1,
+    "average": 16.1,
     "distribution": {
       "excellent": 0,
-      "good": 0,
-      "medium": 6,
+      "good": 1,
+      "medium": 5,
       "low": 2,
-      "irrelevant": 29
+      "irrelevant": 30
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 58,
+        "score": 61,
         "site": "linkedin",
-        "date_posted": 1776643200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
@@ -56,7 +56,7 @@
       {
         "title": "Quality Assurance Consultant (settore farmaceutico)",
         "company": "fortil",
-        "score": 42,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4404468538"
@@ -78,6 +78,14 @@
         "url": "https://it.indeed.com/viewjob?jk=64b971018f9d36e0"
       },
       {
+        "title": "General Manager - Student Housing",
+        "company": "Hines",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1778544000000,
+        "url": "https://it.indeed.com/viewjob?jk=473b03b6cfe93906"
+      },
+      {
         "title": "ICT TechOps Quality Specialist - Temporary Support (12 Months)",
         "company": "Menarini",
         "score": 15,
@@ -86,20 +94,36 @@
         "url": "https://it.indeed.com/viewjob?jk=6ed983305a8b2945"
       },
       {
+        "title": "Documentation Specialist – Technical Documentation",
+        "company": "TMC",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1778544000000,
+        "url": "https://it.indeed.com/viewjob?jk=2e8df5c257000db4"
+      },
+      {
         "title": "PROJECT MANAGER AFTER SALES",
         "company": "I.M.A. INDUSTRIA MACCHINE AUTOMATICHE",
-        "score": 14,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=33eff879a185903c"
       },
       {
-        "title": "Junior Quality Assurance Specialist",
-        "company": "SGB Humangest Holding",
+        "title": "PROJECT MANAGER AFTER SALES",
+        "company": "IMA Life North America",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=33eff879a185903c"
+      },
+      {
+        "title": "Quality Assurance Specialist – Categoria Protetta (L. 68/99)",
+        "company": "INCO",
         "score": 12,
         "site": "linkedin",
-        "date_posted": 1776643200000,
-        "url": "https://www.linkedin.com/jobs/view/4401613481"
+        "date_posted": 1776729600000,
+        "url": "https://www.linkedin.com/jobs/view/4401961170"
       },
       {
         "title": "Specialist, Quality Assurance GCP",
@@ -118,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4412672591"
       },
       {
-        "title": "Quality Assurance Specialist – Categoria Protetta (L. 68/99)",
-        "company": "INCO",
-        "score": 11,
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 12,
         "site": "linkedin",
-        "date_posted": 1776729600000,
-        "url": "https://www.linkedin.com/jobs/view/4401961170"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
         "title": "Customer Sales Support Specialist",
@@ -142,33 +166,9 @@
         "url": "https://www.linkedin.com/jobs/view/4405556584"
       },
       {
-        "title": "Estetista",
-        "company": null,
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778284800000,
-        "url": "https://it.indeed.com/viewjob?jk=2a2d92ad6c6baec2"
-      },
-      {
-        "title": "Cleaning validation specialist",
-        "company": "Capgemini",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=de111dc537ef0b46"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1776988800000,
-        "url": "https://www.linkedin.com/jobs/view/4396583284"
-      },
-      {
         "title": "Sales Consultant (formazione e consulenza HR)",
         "company": "Randstad",
-        "score": 8,
+        "score": 9,
         "site": "indeed",
         "date_posted": 1776902400000,
         "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
@@ -179,19 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "specialist",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "sales",
@@ -199,9 +194,14 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
+        "word": "manager",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 3 (+106%)",
+      "data": {
+        "current": 6,
+        "avg": 2.9,
+        "change_pct": 106.2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
       "data": {
-        "new": 3,
-        "total": 3,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "new": 5,
+        "total": 6,
+        "pct": 83.3
       }
     },
     {
@@ -245,54 +235,54 @@
       "data": {
         "clusters": [
           {
+            "id": 2,
+            "size": 15,
+            "top_terms": [
+              "specialist",
+              "sales",
+              "estetista"
+            ],
+            "pct": 39.5
+          },
+          {
             "id": 1,
-            "size": 13,
+            "size": 7,
             "top_terms": [
-              "validation",
-              "engineer",
-              "senior"
-            ],
-            "pct": 35.1
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "quality",
               "assurance",
+              "quality",
               "specialist"
             ],
-            "pct": 24.3
-          },
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 21.6
+            "pct": 18.4
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 6,
             "top_terms": [
-              "sales",
-              "consultant",
-              "customer"
+              "regulatory",
+              "affairs",
+              "stage"
             ],
-            "pct": 10.8
+            "pct": 15.8
           },
           {
-            "id": 2,
-            "size": 3,
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "validation",
+              "engineer",
+              "specialist"
+            ],
+            "pct": 13.2
+          },
+          {
+            "id": 3,
+            "size": 5,
             "top_terms": [
               "manager",
-              "sales",
-              "legal"
+              "after",
+              "project"
             ],
-            "pct": 8.1
+            "pct": 13.2
           }
         ]
       }

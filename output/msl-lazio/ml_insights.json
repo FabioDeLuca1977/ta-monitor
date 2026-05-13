@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-12T09:17:00.347854",
+  "generated_at": "2026-05-13T09:19:21.023394",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 60,
+  "total_jobs_analyzed": 63,
   "scoring": {
-    "average": 26.6,
+    "average": 26.1,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 25,
+      "medium": 24,
       "low": 3,
-      "irrelevant": 30
+      "irrelevant": 34
     },
     "top_jobs": [
       {
@@ -22,17 +22,17 @@
         "url": "https://www.linkedin.com/jobs/view/4411889408"
       },
       {
-        "title": "Medical Science Liaison",
-        "company": "Warman O'Brien",
-        "score": 60,
+        "title": "SENIOR MEDICAL SCIENCE LIAISON",
+        "company": "Angelini Pharma",
+        "score": 63,
         "site": "linkedin",
-        "date_posted": 1777939200000,
-        "url": "https://www.linkedin.com/jobs/view/4408424291"
+        "date_posted": 1778457600000,
+        "url": "https://www.linkedin.com/jobs/view/4413046066"
       },
       {
         "title": "Medical Scientific Liaison (MSL) - Central Italy",
         "company": "Teva Pharmaceuticals",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4382117194"
@@ -40,7 +40,7 @@
       {
         "title": "Medical Affairs Supervisor",
         "company": "Randstad Italia",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408641019"
@@ -48,7 +48,7 @@
       {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
         "company": "Amplity",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390716325"
@@ -68,6 +68,14 @@
         "site": "linkedin",
         "date_posted": 1777075200000,
         "url": "https://www.linkedin.com/jobs/view/4364981952"
+      },
+      {
+        "title": "Medical Science Liaison",
+        "company": "Warman O'Brien",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1777939200000,
+        "url": "https://www.linkedin.com/jobs/view/4408424291"
       },
       {
         "title": "Medical Science Liaison (m/f/x) - Nephrology",
@@ -126,6 +134,14 @@
         "url": "https://www.linkedin.com/jobs/view/4401465916"
       },
       {
+        "title": "Clinical Research Associate",
+        "company": "TRIO - Translational Research in Oncology",
+        "score": 48,
+        "site": "indeed",
+        "date_posted": 1776988800000,
+        "url": "https://it.indeed.com/viewjob?jk=5afa1d8293fc267b"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "BSP Pharmaceuticals S.p.A.",
         "score": 48,
@@ -134,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4406074339"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "TRIO - Translational Research in Oncology",
-        "score": 47,
-        "site": "indeed",
-        "date_posted": 1776988800000,
-        "url": "https://it.indeed.com/viewjob?jk=5afa1d8293fc267b"
+        "title": "Clinical Monitoring Analyst (Cluepoints) - Remote",
+        "company": "IQVIA",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1778457600000,
+        "url": "https://www.linkedin.com/jobs/view/4385243862"
       },
       {
         "title": "Regulatory Affairs CMC Specialist",
@@ -150,28 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4389212589"
       },
       {
-        "title": "Field Clinical Specialist THV - Lazio/Campania",
-        "company": "Edwards Lifesciences",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411739069"
-      },
-      {
         "title": "Regulatory Affairs Internship",
         "company": "Allianz Italia",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1776816000000,
         "url": "https://www.linkedin.com/jobs/view/4402800391"
-      },
-      {
-        "title": "Head of Regulatory Affairs Italy",
-        "company": "Merck Healthcare",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1776816000000,
-        "url": "https://www.linkedin.com/jobs/view/4366163549"
       }
     ]
   },
@@ -184,24 +184,24 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "lead",
+        "word": "italy",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "italy",
+        "word": "lead",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "team",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -212,37 +212,33 @@
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
+    },
+    {
+      "keyword": "senior medical science",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 7 annunci ultimo scan vs media 5 (+50%)",
+      "data": {
+        "current": 7,
+        "avg": 4.7,
+        "change_pct": 50.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 2/7 annunci da aziende nuove (28.6%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 80% (+80pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 20% (-80pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 20.0
+        "new": 2,
+        "total": 7,
+        "pct": 28.6
       }
     },
     {
@@ -253,53 +249,53 @@
         "clusters": [
           {
             "id": 4,
-            "size": 23,
+            "size": 37,
             "top_terms": [
-              "lead",
-              "senior",
-              "pharmacovigilance"
+              "affairs",
+              "medical",
+              "italy"
             ],
-            "pct": 38.3
+            "pct": 58.7
           },
           {
-            "id": 3,
-            "size": 11,
+            "id": 0,
+            "size": 10,
             "top_terms": [
               "specialist",
-              "management",
-              "revenue"
+              "revenue",
+              "cluster"
             ],
-            "pct": 18.3
-          },
-          {
-            "id": 1,
-            "size": 9,
-            "top_terms": [
-              "medical",
-              "director",
-              "affairs"
-            ],
-            "pct": 15.0
+            "pct": 15.9
           },
           {
             "id": 2,
-            "size": 9,
+            "size": 7,
             "top_terms": [
               "liaison",
               "science",
               "medical"
             ],
-            "pct": 15.0
+            "pct": 11.1
           },
           {
-            "id": 0,
-            "size": 8,
+            "id": 3,
+            "size": 5,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "head"
+              "lead",
+              "team",
+              "italy"
             ],
-            "pct": 13.3
+            "pct": 7.9
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "manager",
+              "market",
+              "field"
+            ],
+            "pct": 6.3
           }
         ]
       }
