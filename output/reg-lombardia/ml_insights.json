@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-14T09:13:27.545288",
+  "generated_at": "2026-05-15T09:25:30.281348",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 281,
+  "total_jobs_analyzed": 275,
   "scoring": {
     "average": 14.9,
     "distribution": {
       "excellent": 0,
       "good": 16,
-      "medium": 30,
-      "low": 13,
-      "irrelevant": 222
+      "medium": 27,
+      "low": 12,
+      "irrelevant": 220
     },
     "top_jobs": [
       {
         "title": "Senior Regulatory Affairs CMC Specialist",
         "company": "Recordati",
-        "score": 68,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4377177029"
@@ -38,20 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4407767154"
       },
       {
-        "title": "Scientific and Regulatory Affairs Manager",
-        "company": "Henkel",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1776816000000,
-        "url": "https://www.linkedin.com/jobs/view/4404914214"
-      },
-      {
         "title": "SCM External Regulatory Compliance Manager",
         "company": "Hitachi Energy",
         "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4407608882"
+      },
+      {
+        "title": "Scientific and Regulatory Affairs Manager",
+        "company": "Henkel",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404914214"
       },
       {
         "title": "Regulatory Affairs Specialist – REACH & Cosmetics",
@@ -68,6 +68,14 @@
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=488fa890cbf8540a"
+      },
+      {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
         "title": "Regulatory Affairs | Brescia",
@@ -106,16 +114,8 @@
         "company": "Mynameis",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777334400000,
         "url": "https://www.linkedin.com/jobs/view/4407817667"
-      },
-      {
-        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
-        "company": "Parexel",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1777075200000,
-        "url": "https://www.linkedin.com/jobs/view/4382428748"
       },
       {
         "title": "Regulatory Affairs Specialist JR – Settore Chimico",
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4387965325"
       },
       {
-        "title": "Regulatory Affairs Manager",
-        "company": "Boehringer Ingelheim",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=08ee4175d8d4693c"
-      },
-      {
         "title": "Quality Assurance & Qualified Person Manager",
         "company": "SGB Humangest Holding",
         "score": 59,
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4403586332"
       },
       {
-        "title": "International Regulatory Affairs Project Manager",
-        "company": "Recordati S.p.A",
+        "title": "Regulatory Affairs Manager",
+        "company": "Boehringer Ingelheim",
         "score": 58,
         "site": "indeed",
-        "date_posted": 1775088000000,
-        "url": "https://it.indeed.com/viewjob?jk=c10f7d7d71108ce6"
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=08ee4175d8d4693c"
+      },
+      {
+        "title": "Regulatory Affairs Intern.",
+        "company": "De Nora",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400547917"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 35,
-        "reason": "Appare 35x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "italy",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
-        "word": "director",
+        "word": "project",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "project",
+        "word": "associate",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       }
@@ -207,18 +207,6 @@
     "review": []
   },
   "keyword_recommendations": [
-    {
-      "keyword": "lead regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs consultant",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
     {
       "keyword": "specialist jr",
       "frequency": 2,
@@ -256,7 +244,19 @@
       "confidence": 30
     },
     {
+      "keyword": "affairs consultant",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "assurance qualified",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "lead regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -270,23 +270,31 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "new_company_surge",
       "severity": "medium",
-      "message": "Volume in calo: 11 annunci ultimo scan vs media 19 (-43%)",
+      "message": "🆕 ALTEN: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 11,
-        "avg": 19.3,
-        "change_pct": -43.0
+        "company": "ALTEN",
+        "count": 2
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Hr capital srl: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Hr capital srl",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/11 annunci da aziende nuove (36.4%)",
+      "message": "📊 Ultimo scan: 11/22 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 4,
-        "total": 11,
-        "pct": 36.4
+        "new": 11,
+        "total": 22,
+        "pct": 50.0
       }
     },
     {
@@ -296,8 +304,8 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 148,
+            "id": 1,
+            "size": 145,
             "top_terms": [
               "engineer",
               "senior",
@@ -306,44 +314,44 @@
             "pct": 52.7
           },
           {
-            "id": 4,
-            "size": 39,
+            "id": 2,
+            "size": 42,
             "top_terms": [
               "manager",
               "project",
               "clinical"
             ],
-            "pct": 13.9
+            "pct": 15.3
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 36,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 12.8
+            "pct": 13.1
           },
           {
-            "id": 1,
-            "size": 31,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 11.0
-          },
-          {
-            "id": 2,
-            "size": 27,
+            "id": 3,
+            "size": 28,
             "top_terms": [
               "specialist",
-              "treasury",
-              "data"
+              "compliance",
+              "treasury"
             ],
-            "pct": 9.6
+            "pct": 10.2
+          },
+          {
+            "id": 0,
+            "size": 24,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 8.7
           }
         ]
       }

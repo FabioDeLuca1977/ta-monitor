@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-14T09:13:27.580873",
+  "generated_at": "2026-05-15T09:25:30.320922",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 39,
+  "total_jobs_analyzed": 36,
   "scoring": {
-    "average": 17.7,
+    "average": 17.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 7,
+      "medium": 6,
       "low": 2,
-      "irrelevant": 29
+      "irrelevant": 27
     },
     "top_jobs": [
       {
@@ -22,9 +22,17 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
+        "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
+        "company": "PQE Group",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4406055583"
+      },
+      {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
         "company": "Banca Privata Leasing S.p.a.",
-        "score": 57,
+        "score": 51,
         "site": "indeed",
         "date_posted": 1778457600000,
         "url": "https://it.indeed.com/viewjob?jk=64a6d8ff87ea25c6"
@@ -32,18 +40,10 @@
       {
         "title": "Global Regulatory Affairs Senior Consultant",
         "company": "JSB Solutions",
-        "score": 55,
+        "score": 49,
         "site": "linkedin",
         "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
-        "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
-        "company": "PQE Group",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4406055583"
       },
       {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
@@ -56,7 +56,7 @@
       {
         "title": "Global Regulatory Affairs Senior Consultant",
         "company": "JSB Solutions srl",
-        "score": 45,
+        "score": 44,
         "site": "indeed",
         "date_posted": 1778025600000,
         "url": "https://it.indeed.com/viewjob?jk=1ccf136f6df88cdc"
@@ -68,14 +68,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410386289"
-      },
-      {
-        "title": "Quality Assurance Consultant (settore farmaceutico)",
-        "company": "fortil",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1776816000000,
-        "url": "https://www.linkedin.com/jobs/view/4404468538"
       },
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
@@ -100,14 +92,6 @@
         "site": "indeed",
         "date_posted": 1778544000000,
         "url": "https://it.indeed.com/viewjob?jk=473b03b6cfe93906"
-      },
-      {
-        "title": "ICT TechOps Quality Specialist - Temporary Support (12 Months)",
-        "company": "Menarini",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1778457600000,
-        "url": "https://it.indeed.com/viewjob?jk=6ed983305a8b2945"
       },
       {
         "title": "Documentation Specialist – Technical Documentation",
@@ -136,7 +120,7 @@
       {
         "title": "Specialist, Quality Assurance GCP",
         "company": "Alfasigma group",
-        "score": 12,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1753315200000,
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
@@ -158,20 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
-        "title": "Customer Sales Support Specialist",
-        "company": "DHL",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=f95d56cf8067fdde"
-      },
-      {
         "title": "SENIOR R&D ENGINEER MEDICAL DEVICE (ACTIVE)",
         "company": "Grafton Recruitment",
         "score": 10,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777334400000,
         "url": "https://www.linkedin.com/jobs/view/4405556584"
+      },
+      {
+        "title": "Cleaning validation specialist",
+        "company": "Capgemini",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=de111dc537ef0b46"
+      },
+      {
+        "title": "ICT TechOps Quality Specialist - Temporary Support (12 Months)",
+        "company": "Menarini",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1778457600000,
+        "url": "https://it.indeed.com/viewjob?jk=6ed983305a8b2945"
+      },
+      {
+        "title": "Sales Consultant (formazione e consulenza HR)",
+        "company": "Randstad",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1776902400000,
+        "url": "https://it.indeed.com/viewjob?jk=48f7e551313d26b7"
       }
     ]
   },
@@ -245,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 12,
+            "id": 2,
+            "size": 14,
             "top_terms": [
-              "sales",
-              "qualità",
-              "estetista"
+              "validation",
+              "specialist",
+              "sales"
             ],
-            "pct": 30.8
+            "pct": 38.9
           },
           {
             "id": 0,
-            "size": 9,
-            "top_terms": [
-              "specialist",
-              "validation",
-              "support"
-            ],
-            "pct": 23.1
-          },
-          {
-            "id": 1,
             "size": 8,
             "top_terms": [
-              "assurance",
               "quality",
-              "consultant"
+              "assurance",
+              "specialist"
             ],
-            "pct": 20.5
+            "pct": 22.2
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
               "stage"
             ],
-            "pct": 17.9
+            "pct": 19.4
+          },
+          {
+            "id": 1,
+            "size": 5,
+            "top_terms": [
+              "manager",
+              "after",
+              "project"
+            ],
+            "pct": 13.9
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 2,
             "top_terms": [
-              "manager",
+              "estetista",
               "validation",
-              "junior"
+              "legal"
             ],
-            "pct": 7.7
+            "pct": 5.6
           }
         ]
       }

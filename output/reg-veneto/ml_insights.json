@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-14T09:13:27.390489",
+  "generated_at": "2026-05-15T09:25:30.127214",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 43,
+  "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 11.2,
+    "average": 10.4,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 2,
+      "good": 1,
+      "medium": 3,
       "low": 1,
-      "irrelevant": 38
+      "irrelevant": 37
     },
     "top_jobs": [
       {
@@ -22,12 +22,12 @@
         "url": "https://www.linkedin.com/jobs/view/4410608268"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Jobtech",
-        "score": 61,
+        "title": "Group Regulatory Specialist",
+        "company": "Plank",
+        "score": 58,
         "site": "linkedin",
-        "date_posted": 1776816000000,
-        "url": "https://www.linkedin.com/jobs/view/4405217316"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411143656"
       },
       {
         "title": "Biocides Regulatory Affairs - Market Leader Company",
@@ -48,7 +48,7 @@
       {
         "title": "Addetto/a Qualificata alla pulizie Camere d'albergo",
         "company": "Suite Pacinotti & Prada'",
-        "score": 29,
+        "score": 30,
         "site": "indeed",
         "date_posted": 1778371200000,
         "url": "https://it.indeed.com/viewjob?jk=235f3736689fdc51"
@@ -78,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4406456548"
       },
       {
-        "title": "Global Product Manager",
-        "company": "Vertiv",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=631b2b5e41f95d0f"
-      },
-      {
         "title": "QHSE Manager & RSPP (f/m/d)",
         "company": "Freudenberg Group",
         "score": 11,
@@ -94,36 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=6a1fb3ace602f4d5"
       },
       {
-        "title": "Cyber Security Compliance Consultant",
-        "company": "ARSENALIA GmbH",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1778457600000,
-        "url": "https://it.indeed.com/viewjob?jk=2a16a532e0a4ac7c"
-      },
-      {
         "title": "Quality Operations Engineer",
         "company": "Orthofix",
         "score": 11,
         "site": "indeed",
         "date_posted": 1778630400000,
         "url": "https://it.indeed.com/viewjob?jk=b9cf5712fc757094"
-      },
-      {
-        "title": "Quality Assurance Specialist (Product Distribution)",
-        "company": "GSK",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1776816000000,
-        "url": "https://it.indeed.com/viewjob?jk=5397259ce864e62f"
-      },
-      {
-        "title": "Information Technology Specialist (Network)",
-        "company": "US Department of Defense Education Activity",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=ab5d5d8ab7aa04f0"
       },
       {
         "title": "TECNICO FRIGORISTA",
@@ -154,7 +122,7 @@
         "company": "UNOX S.p.A.",
         "score": 8,
         "site": "linkedin",
-        "date_posted": 1776816000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405217500"
       },
       {
@@ -168,10 +136,42 @@
       {
         "title": "Security Manager",
         "company": "Applied Materials",
-        "score": 7,
+        "score": 6,
         "site": "indeed",
         "date_posted": 1777852800000,
         "url": "https://it.indeed.com/viewjob?jk=5c4a7f331e585c79"
+      },
+      {
+        "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
+        "company": "Rentokil Initial",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1777939200000,
+        "url": "https://it.indeed.com/viewjob?jk=484249e9dbe07f41"
+      },
+      {
+        "title": "Global Product Manager",
+        "company": "Vertiv",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1778112000000,
+        "url": "https://it.indeed.com/viewjob?jk=631b2b5e41f95d0f"
+      },
+      {
+        "title": "Cyber Security Compliance Consultant",
+        "company": "ARSENALIA GmbH",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1778457600000,
+        "url": "https://it.indeed.com/viewjob?jk=2a16a532e0a4ac7c"
+      },
+      {
+        "title": "Addetta/o Telemarketing",
+        "company": "CEZ Intermediazioni",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=9056e7f0c58eb945"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -194,12 +194,12 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "support",
+        "word": "market",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "security",
+        "word": "support",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-45%)",
+      "data": {
+        "current": 2,
+        "avg": 3.6,
+        "change_pct": -45.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -246,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 22,
+            "size": 26,
             "top_terms": [
-              "specialist",
-              "manager",
-              "regulatory"
+              "tecnico",
+              "estetista",
+              "engineer"
             ],
-            "pct": 51.2
-          },
-          {
-            "id": 2,
-            "size": 9,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 20.9
-          },
-          {
-            "id": 1,
-            "size": 5,
-            "top_terms": [
-              "security",
-              "consultant",
-              "compliance"
-            ],
-            "pct": 11.6
-          },
-          {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "support",
-              "assistant",
-              "sales"
-            ],
-            "pct": 11.6
+            "pct": 61.9
           },
           {
             "id": 4,
+            "size": 6,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "analyst"
+            ],
+            "pct": 14.3
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "manager",
+              "security",
+              "market"
+            ],
+            "pct": 9.5
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 9.5
+          },
+          {
+            "id": 2,
             "size": 2,
             "top_terms": [
-              "tecnico",
               "verona",
-              "manager"
+              "risk",
+              "governance"
             ],
-            "pct": 4.7
+            "pct": 4.8
           }
         ]
       }
