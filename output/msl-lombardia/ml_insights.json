@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-15T09:25:30.006055",
+  "generated_at": "2026-05-16T08:41:14.491065",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 179,
+  "total_jobs_analyzed": 193,
   "scoring": {
-    "average": 29.0,
+    "average": 28.7,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 83,
-      "low": 7,
-      "irrelevant": 84
+      "good": 6,
+      "medium": 86,
+      "low": 12,
+      "irrelevant": 89
     },
     "top_jobs": [
       {
         "title": "Junior Medical Affairs Manager",
         "company": "SINCLAIR",
-        "score": 70,
+        "score": 66,
         "site": "indeed",
         "date_posted": 1778544000000,
         "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
@@ -54,6 +54,14 @@
         "url": "https://it.indeed.com/viewjob?jk=3a3e3b2d801f72d8"
       },
       {
+        "title": "Clinical Research Associate (CRA)",
+        "company": "Evidenze",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1778716800000,
+        "url": "https://www.linkedin.com/jobs/view/4411139649"
+      },
+      {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
         "score": 59,
@@ -62,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "De Nora",
+        "title": "Regulatory Affairs Specialist – Cosmetico",
+        "company": "AxL S.p.A. - Agenzia per il Lavoro",
         "score": 58,
         "site": "linkedin",
-        "date_posted": 1778544000000,
-        "url": "https://www.linkedin.com/jobs/view/4404321297"
+        "date_posted": 1778716800000,
+        "url": "https://www.linkedin.com/jobs/view/4411188286"
       },
       {
         "title": "Hepatology - Medical Director",
@@ -126,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4402807584"
       },
       {
-        "title": "Medical Science Liaison South Europe",
-        "company": "LivaNova",
+        "title": "Medical Communication Specialist Eucerin",
+        "company": "Beiersdorf SpA",
         "score": 56,
-        "site": "linkedin",
-        "date_posted": 1776902400000,
-        "url": "https://www.linkedin.com/jobs/view/4396456761"
+        "site": "indeed",
+        "date_posted": 1777248000000,
+        "url": "https://it.indeed.com/viewjob?jk=d95821eeb3dac98c"
       },
       {
         "title": "Medical Advisor Lung Cancer",
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4402875758"
       },
       {
-        "title": "Medical Scientific Liaison - Protein Diagnostics",
-        "company": "Thermo Fisher Scientific",
-        "score": 55,
+        "title": "Medical Science Liaison South Europe",
+        "company": "LivaNova",
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399950883"
-      },
-      {
-        "title": "Medical Science Liaison Northwest Italy",
-        "company": "Madrigal Pharmaceuticals",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4413570055"
+        "url": "https://www.linkedin.com/jobs/view/4396456761"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "italy",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "contract",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "technical",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,21 +209,15 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 5,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 60
     },
     {
       "keyword": "medical scientific",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
-    },
-    {
-      "keyword": "international",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
     },
     {
       "keyword": "lung cancer",
@@ -238,7 +232,7 @@
       "confidence": 30
     },
     {
-      "keyword": "international medical",
+      "keyword": "junior medical",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -248,17 +242,57 @@
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "international",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "junior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 23 annunci ultimo scan vs media 13 (+76%)",
+      "data": {
+        "current": 23,
+        "avg": 13.1,
+        "change_pct": 75.9
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 ALMA LABORIS Business School: 5 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "ALMA LABORIS Business School",
+        "count": 5
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 LHH: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "LHH",
+        "count": 2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/14 annunci da aziende nuove (35.7%)",
+      "message": "📊 Ultimo scan: 17/23 annunci da aziende nuove (73.9%)",
       "data": {
-        "new": 5,
-        "total": 14,
-        "pct": 35.7
+        "new": 17,
+        "total": 23,
+        "pct": 73.9
       }
     },
     {
@@ -268,54 +302,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 81,
+            "id": 2,
+            "size": 76,
             "top_terms": [
               "medical",
-              "engineer",
-              "director"
+              "director",
+              "affairs"
             ],
-            "pct": 45.3
+            "pct": 39.4
           },
           {
-            "id": 3,
-            "size": 35,
+            "id": 0,
+            "size": 47,
+            "top_terms": [
+              "clinical",
+              "specialist",
+              "research"
+            ],
+            "pct": 24.4
+          },
+          {
+            "id": 4,
+            "size": 32,
             "top_terms": [
               "manager",
               "access",
               "market"
             ],
-            "pct": 19.6
+            "pct": 16.6
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.4
+            "pct": 12.4
           },
           {
             "id": 1,
-            "size": 22,
+            "size": 14,
             "top_terms": [
-              "specialist",
-              "clinical",
-              "field"
+              "senior",
+              "cra",
+              "oncology"
             ],
-            "pct": 12.3
-          },
-          {
-            "id": 2,
-            "size": 17,
-            "top_terms": [
-              "research",
-              "clinical",
-              "associate"
-            ],
-            "pct": 9.5
+            "pct": 7.3
           }
         ]
       }

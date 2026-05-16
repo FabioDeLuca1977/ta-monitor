@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-05-15T09:25:30.019610",
+  "generated_at": "2026-05-16T08:41:14.524976",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 19,
+  "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 16.5,
+    "average": 17.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 3,
-      "low": 3,
+      "medium": 4,
+      "low": 4,
       "irrelevant": 13
     },
     "top_jobs": [
       {
+        "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
+        "company": "IGEA S.p.A.",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412015231"
+      },
+      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -39,14 +47,6 @@
       },
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
-        "company": "Intertek Italia",
-        "score": 33,
-        "site": "linkedin",
-        "date_posted": 1776902400000,
-        "url": "https://www.linkedin.com/jobs/view/4402893829"
-      },
-      {
-        "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
         "score": 33,
         "site": "linkedin",
@@ -62,9 +62,25 @@
         "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
       },
       {
+        "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
+        "company": "Grafton Recruitment",
+        "score": 23,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411598286"
+      },
+      {
+        "title": "Direzione Medica Settore Farmacetuco",
+        "company": "ALMA LABORIS Business School",
+        "score": 20,
+        "site": "indeed",
+        "date_posted": 1775606400000,
+        "url": "https://it.indeed.com/viewjob?jk=881a3a4ede38fa00"
+      },
+      {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
@@ -150,14 +166,6 @@
         "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
       },
       {
-        "title": "AI Video Editor Team Lead",
-        "company": "CapsLock",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1776902400000,
-        "url": "https://it.indeed.com/viewjob?jk=6e6f430725a8c03d"
-      },
-      {
         "title": "Senior Design Engineer",
         "company": "Transmedics",
         "score": 0,
@@ -181,33 +189,101 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 4 annunci ultimo scan vs media 2 (+88%)",
+      "data": {
+        "current": 4,
+        "avg": 2.1,
+        "change_pct": 88.2
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 ALMA LABORIS Business School: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "ALMA LABORIS Business School",
+        "count": 2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 4,
+        "total": 4,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 100.0,
-        "new_pct": 0.0
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "role_clusters",
+      "severity": "info",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "data": {
+        "clusters": [
+          {
+            "id": 1,
+            "size": 10,
+            "top_terms": [
+              "manager",
+              "engineer",
+              "settore"
+            ],
+            "pct": 47.6
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "stage"
+            ],
+            "pct": 19.0
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "cra",
+              "mirandola",
+              "senior"
+            ],
+            "pct": 19.0
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "specialist",
+              "medical",
+              "stage"
+            ],
+            "pct": 14.3
+          }
+        ]
       }
     }
   ],

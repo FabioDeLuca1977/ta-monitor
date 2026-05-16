@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-15T09:25:30.079012",
+  "generated_at": "2026-05-16T08:41:14.595339",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 61,
+  "total_jobs_analyzed": 72,
   "scoring": {
-    "average": 22.5,
+    "average": 22.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 18,
-      "low": 4,
-      "irrelevant": 37
+      "medium": 22,
+      "low": 6,
+      "irrelevant": 42
     },
     "top_jobs": [
       {
@@ -54,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4414596036"
       },
       {
+        "title": "Medical Science Liaison (m/f/x) - Nephrology",
+        "company": "CSL Plasma",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1777420800000,
+        "url": "https://it.indeed.com/viewjob?jk=4ea66fcb09d811d4"
+      },
+      {
         "title": "Medical Science Liaison",
         "company": "Warman O'Brien",
         "score": 56,
         "site": "linkedin",
         "date_posted": 1777939200000,
         "url": "https://www.linkedin.com/jobs/view/4408424291"
-      },
-      {
-        "title": "Medical Science Liaison (m/f/x) - Nephrology",
-        "company": "CSL Plasma",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1777420800000,
-        "url": "https://it.indeed.com/viewjob?jk=4ea66fcb09d811d4"
       },
       {
         "title": "Medical Science Liaison, Oncology (RCC)",
@@ -82,7 +82,7 @@
         "company": "Angelini Pharma",
         "score": 52,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777420800000,
         "url": "https://www.linkedin.com/jobs/view/4396450100"
       },
       {
@@ -98,7 +98,7 @@
         "company": "BSP Pharmaceuticals S.p.A.",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777420800000,
         "url": "https://www.linkedin.com/jobs/view/4406074339"
       },
       {
@@ -118,12 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4408006330"
       },
       {
-        "title": "SPECIALISTA IN ONCOLOGIA MEDICA - UOC ONCOLOGIA MEDICA",
-        "company": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+        "title": "Pharma Medical Affairs",
+        "company": "ALMA LABORIS Business School",
         "score": 45,
+        "site": "indeed",
+        "date_posted": 1777420800000,
+        "url": "https://it.indeed.com/viewjob?jk=30ccccaee08f8da8"
+      },
+      {
+        "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
+        "company": "ALMA LABORIS Business School",
+        "score": 45,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
+      },
+      {
+        "title": "MSL-MA Italy",
+        "company": "Astellas Pharma",
+        "score": 44,
         "site": "linkedin",
-        "date_posted": 1778544000000,
-        "url": "https://www.linkedin.com/jobs/view/4413292184"
+        "date_posted": 1777248000000,
+        "url": "https://www.linkedin.com/jobs/view/4405993123"
       },
       {
         "title": "Regulatory Affairs CMC - Sterility Assurance",
@@ -134,28 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4401612170"
       },
       {
-        "title": "MSL-MA Italy",
-        "company": "Astellas Pharma",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1777248000000,
-        "url": "https://www.linkedin.com/jobs/view/4405993123"
-      },
-      {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
         "score": 43,
         "site": "linkedin",
         "date_posted": 1777593600000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
-      },
-      {
-        "title": "Field Clinical Specialist THV - Lazio/Campania",
-        "company": "Edwards Lifesciences",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411739069"
       },
       {
         "title": "Clinical Monitoring Analyst (Cluepoints) - Remote",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4385243862"
       },
       {
-        "title": "Pharmacovigilance consultant",
-        "company": "J il tuo agente AI",
-        "score": 41,
+        "title": "Field Clinical Specialist THV - Lazio/Campania",
+        "company": "Edwards Lifesciences",
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4410282918"
+        "url": "https://www.linkedin.com/jobs/view/4411739069"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "lead",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "services",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "policy",
@@ -209,13 +209,52 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 12 annunci ultimo scan vs media 5 (+140%)",
+      "data": {
+        "current": 12,
+        "avg": 5.0,
+        "change_pct": 140.0
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 ALMA LABORIS Business School: 5 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "ALMA LABORIS Business School",
+        "count": 5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 5,
-        "total": 5,
-        "pct": 100.0
+        "new": 6,
+        "total": 12,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 40% a 17% (-23pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 40.0,
+        "new_pct": 16.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 60% a 83% (+23pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 60.0,
+        "new_pct": 83.3
       }
     },
     {
@@ -225,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 29,
+            "id": 0,
+            "size": 51,
             "top_terms": [
-              "medical",
-              "affairs",
-              "director"
+              "clinical",
+              "italy",
+              "lead"
             ],
-            "pct": 47.5
-          },
-          {
-            "id": 3,
-            "size": 12,
-            "top_terms": [
-              "specialist",
-              "lazio",
-              "cluster"
-            ],
-            "pct": 19.7
+            "pct": 70.8
           },
           {
             "id": 1,
-            "size": 10,
+            "size": 7,
             "top_terms": [
-              "associate",
-              "italy",
-              "research"
+              "specialist",
+              "quality",
+              "cra"
             ],
-            "pct": 16.4
+            "pct": 9.7
           },
           {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "lead",
-              "team",
-              "management"
-            ],
-            "pct": 8.2
-          },
-          {
-            "id": 2,
+            "id": 3,
             "size": 5,
             "top_terms": [
               "liaison",
               "science",
               "medical"
             ],
-            "pct": 8.2
+            "pct": 6.9
+          },
+          {
+            "id": 4,
+            "size": 5,
+            "top_terms": [
+              "medical",
+              "affairs",
+              "pharma"
+            ],
+            "pct": 6.9
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "consultant",
+              "affairs"
+            ],
+            "pct": 5.6
           }
         ]
       }
