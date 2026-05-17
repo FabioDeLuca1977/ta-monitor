@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T08:41:14.367127",
+  "generated_at": "2026-05-17T08:57:44.805237",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 43,
+  "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 29.9,
+    "average": 29.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 21,
+      "medium": 20,
       "low": 7,
       "irrelevant": 15
     },
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4410608268"
       },
       {
-        "title": "Informatore Scientifico del Farmaco",
-        "company": "AGpharma",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1777420800000,
-        "url": "https://www.linkedin.com/jobs/view/4396666448"
-      },
-      {
         "title": "Biocides Regulatory Affairs - Market Leader Company",
         "company": "NonStop Consulting",
         "score": 43,
@@ -98,7 +90,7 @@
         "company": "Atos Medical",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777507200000,
         "url": "https://www.linkedin.com/jobs/view/4407646931"
       },
       {
@@ -106,7 +98,7 @@
         "company": "PharmaNutra",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777507200000,
         "url": "https://www.linkedin.com/jobs/view/4399259337"
       },
       {
@@ -132,14 +124,6 @@
         "site": "linkedin",
         "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4411704164"
-      },
-      {
-        "title": "Field Clinical Specialist THV - North Italy",
-        "company": "Edwards Lifesciences",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1776988800000,
-        "url": "https://www.linkedin.com/jobs/view/4356098675"
       },
       {
         "title": "ISF - Venezia",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411577747"
+      },
+      {
+        "title": "Field Clinical Specialist THV - North Italy",
+        "company": "Edwards Lifesciences",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4356098675"
+      },
+      {
+        "title": "ISF/AGENTI MONOMANDATARI - VENETO (Treviso)",
+        "company": "Cristalfarma",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412921335"
       }
     ]
   },
@@ -194,16 +194,6 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-46%)",
-      "data": {
-        "current": 2,
-        "avg": 3.7,
-        "change_pct": -46.3
-      }
-    },
-    {
       "type": "new_company_surge",
       "severity": "medium",
       "message": "🆕 ALMA LABORIS Business School: 2 posizioni, non presente negli scan precedenti",
@@ -215,31 +205,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 0% (-40pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 100% (+40pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 100.0
       }
     },
     {
@@ -253,50 +223,50 @@
             "size": 15,
             "top_terms": [
               "manager",
-              "product",
-              "assistant"
+              "senior",
+              "product"
             ],
-            "pct": 34.9
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "medico",
-              "informatore",
-              "scientifico"
-            ],
-            "pct": 20.9
-          },
-          {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "senior"
-            ],
-            "pct": 16.3
+            "pct": 35.7
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 10,
             "top_terms": [
-              "farmaco",
-              "scientifico",
-              "informatore"
+              "informatore",
+              "medico",
+              "scientifico"
             ],
-            "pct": 14.0
+            "pct": 23.8
           },
           {
             "id": 3,
-            "size": 6,
+            "size": 7,
             "top_terms": [
               "isf",
               "veneto",
               "venezia"
             ],
-            "pct": 14.0
+            "pct": 16.7
+          },
+          {
+            "id": 1,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "italy"
+            ],
+            "pct": 14.3
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "farmaco",
+              "scientifico",
+              "informatore"
+            ],
+            "pct": 9.5
           }
         ]
       }

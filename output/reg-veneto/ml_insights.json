@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-16T08:41:14.646196",
+  "generated_at": "2026-05-17T08:57:45.034513",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 41,
+  "total_jobs_analyzed": 40,
   "scoring": {
     "average": 10.3,
     "distribution": {
@@ -10,7 +10,7 @@
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 35
+      "irrelevant": 34
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Biocides Regulatory Affairs - Market Leader Company",
         "company": "NonStop Consulting",
-        "score": 53,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410039965"
@@ -40,7 +40,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 50,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
@@ -48,7 +48,7 @@
       {
         "title": "Addetto/a Qualificata alla pulizie Camere d'albergo",
         "company": "Suite Pacinotti & Prada'",
-        "score": 29,
+        "score": 30,
         "site": "indeed",
         "date_posted": 1778371200000,
         "url": "https://it.indeed.com/viewjob?jk=235f3736689fdc51"
@@ -66,37 +66,21 @@
         "company": "Job Italia Spa Agenzia per il Lavoro",
         "score": 15,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777507200000,
         "url": "https://www.linkedin.com/jobs/view/4406456548"
       },
       {
         "title": "Customer Quality Assurance Manager",
         "company": "LHH",
-        "score": 14,
+        "score": 15,
         "site": "linkedin",
         "date_posted": 1777939200000,
         "url": "https://www.linkedin.com/jobs/view/4398907982"
       },
       {
-        "title": "Quality Operations Engineer",
-        "company": "Orthofix",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1778630400000,
-        "url": "https://it.indeed.com/viewjob?jk=b9cf5712fc757094"
-      },
-      {
-        "title": "TECNICO FRIGORISTA",
-        "company": "Zorzi",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778630400000,
-        "url": "https://it.indeed.com/viewjob?jk=54ef03f7c3f978e2"
-      },
-      {
         "title": "Business Analyst ? Quality Assurance",
         "company": "J il tuo agente AI",
-        "score": 9,
+        "score": 10,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410291676"
@@ -112,7 +96,7 @@
       {
         "title": "Market Access Manager Specialty",
         "company": "GSK",
-        "score": 7,
+        "score": 8,
         "site": "indeed",
         "date_posted": 1777420800000,
         "url": "https://it.indeed.com/viewjob?jk=dfcf4fd0a5fdf8d6"
@@ -124,14 +108,6 @@
         "site": "indeed",
         "date_posted": 1777939200000,
         "url": "https://it.indeed.com/viewjob?jk=484249e9dbe07f41"
-      },
-      {
-        "title": "QHSE Manager & RSPP (f/m/d)",
-        "company": "Freudenberg Group",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=6a1fb3ace602f4d5"
       },
       {
         "title": "Security Manager",
@@ -150,12 +126,28 @@
         "url": "https://it.indeed.com/viewjob?jk=631b2b5e41f95d0f"
       },
       {
+        "title": "QHSE Manager & RSPP (f/m/d)",
+        "company": "Freudenberg Group",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1778198400000,
+        "url": "https://it.indeed.com/viewjob?jk=6a1fb3ace602f4d5"
+      },
+      {
         "title": "Cyber Security Compliance Consultant",
         "company": "ARSENALIA GmbH",
         "score": 6,
         "site": "indeed",
         "date_posted": 1778457600000,
         "url": "https://it.indeed.com/viewjob?jk=2a16a532e0a4ac7c"
+      },
+      {
+        "title": "Quality Operations Engineer",
+        "company": "Orthofix",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1778630400000,
+        "url": "https://it.indeed.com/viewjob?jk=b9cf5712fc757094"
       },
       {
         "title": "Addetta/o Telemarketing",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1778112000000,
         "url": "https://it.indeed.com/viewjob?jk=ab5d5d8ab7aa04f0"
+      },
+      {
+        "title": "Tecnico Automotive Assistenza Diagnosi e Diagnosi da Remoto",
+        "company": "Launch Italy",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1778371200000,
+        "url": "https://it.indeed.com/viewjob?jk=f6ef45b223ce9f2c"
       }
     ]
   },
@@ -230,21 +230,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 0.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -254,54 +254,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 28,
+            "id": 3,
+            "size": 25,
+            "top_terms": [
+              "tecnico",
+              "support",
+              "engineer"
+            ],
+            "pct": 62.5
+          },
+          {
+            "id": 2,
+            "size": 5,
             "top_terms": [
               "specialist",
               "regulatory",
-              "tecnico"
+              "leader"
             ],
-            "pct": 68.3
+            "pct": 12.5
           },
           {
-            "id": 4,
-            "size": 5,
-            "top_terms": [
-              "manager",
-              "product",
-              "junior"
-            ],
-            "pct": 12.2
-          },
-          {
-            "id": 3,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "assurance",
               "quality",
               "customer"
             ],
-            "pct": 9.8
+            "pct": 10.0
           },
           {
-            "id": 0,
-            "size": 2,
+            "id": 1,
+            "size": 4,
             "top_terms": [
-              "assistant",
-              "sales",
-              "support"
+              "manager",
+              "security",
+              "product"
             ],
-            "pct": 4.9
+            "pct": 10.0
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 2,
             "top_terms": [
               "estetista",
               "verona",
               "tecnico"
             ],
-            "pct": 4.9
+            "pct": 5.0
           }
         ]
       }

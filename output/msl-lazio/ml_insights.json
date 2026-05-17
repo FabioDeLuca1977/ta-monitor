@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-16T08:41:14.595339",
+  "generated_at": "2026-05-17T08:57:44.993717",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 72,
+  "total_jobs_analyzed": 71,
   "scoring": {
-    "average": 22.6,
+    "average": 22.7,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 22,
       "low": 6,
-      "irrelevant": 42
+      "irrelevant": 41
     },
     "top_jobs": [
       {
         "title": "Medical Director, Medical Affairs",
         "company": "Vertex Pharmaceuticals",
-        "score": 66,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411889408"
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4390716325"
       },
       {
-        "title": "Medical Affairs Supervisor",
-        "company": "Randstad Italia",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4408641019"
-      },
-      {
         "title": "SENIOR MEDICAL SCIENCE LIAISON",
         "company": "Angelini Pharma",
         "score": 59,
@@ -46,12 +38,12 @@
         "url": "https://www.linkedin.com/jobs/view/4413046066"
       },
       {
-        "title": "Senior Clinical Research Associate",
-        "company": "Translational Oncology Research, LLC",
-        "score": 57,
+        "title": "Medical Affairs Supervisor",
+        "company": "Randstad Italia",
+        "score": 58,
         "site": "linkedin",
-        "date_posted": 1778630400000,
-        "url": "https://www.linkedin.com/jobs/view/4414596036"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4408641019"
       },
       {
         "title": "Medical Science Liaison (m/f/x) - Nephrology",
@@ -86,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4396450100"
       },
       {
-        "title": "Chief Medical Officer",
-        "company": "Home Recruitment Ltd",
-        "score": 50,
+        "title": "Senior Clinical Research Associate",
+        "company": "Translational Oncology Research, LLC",
+        "score": 52,
         "site": "linkedin",
-        "date_posted": 1776988800000,
-        "url": "https://www.linkedin.com/jobs/view/4401628210"
+        "date_posted": 1778630400000,
+        "url": "https://www.linkedin.com/jobs/view/4414596036"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -110,28 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4401465916"
       },
       {
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412082502"
+      },
+      {
         "title": "Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
         "score": 47,
         "site": "linkedin",
         "date_posted": 1777334400000,
         "url": "https://www.linkedin.com/jobs/view/4408006330"
-      },
-      {
-        "title": "Pharma Medical Affairs",
-        "company": "ALMA LABORIS Business School",
-        "score": 45,
-        "site": "indeed",
-        "date_posted": 1777420800000,
-        "url": "https://it.indeed.com/viewjob?jk=30ccccaee08f8da8"
-      },
-      {
-        "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
-        "company": "ALMA LABORIS Business School",
-        "score": 45,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
       },
       {
         "title": "MSL-MA Italy",
@@ -152,10 +136,26 @@
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1777593600000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
+      },
+      {
+        "title": "Pharma Medical Affairs",
+        "company": "ALMA LABORIS Business School",
+        "score": 44,
+        "site": "indeed",
+        "date_posted": 1777420800000,
+        "url": "https://it.indeed.com/viewjob?jk=30ccccaee08f8da8"
+      },
+      {
+        "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
+        "company": "ALMA LABORIS Business School",
+        "score": 44,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
       },
       {
         "title": "Clinical Monitoring Analyst (Cluepoints) - Remote",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4385243862"
       },
       {
-        "title": "Field Clinical Specialist THV - Lazio/Campania",
-        "company": "Edwards Lifesciences",
+        "title": "Pharmacovigilance consultant",
+        "company": "J il tuo agente AI",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411739069"
+        "url": "https://www.linkedin.com/jobs/view/4410282918"
       }
     ]
   },
@@ -209,52 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 12 annunci ultimo scan vs media 5 (+140%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-83%)",
       "data": {
-        "current": 12,
-        "avg": 5.0,
-        "change_pct": 140.0
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 ALMA LABORIS Business School: 5 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "ALMA LABORIS Business School",
-        "count": 5
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 6,
-        "total": 12,
-        "pct": 50.0
+        "current": 1,
+        "avg": 5.8,
+        "change_pct": -82.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 17% (-23pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 16.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 83% (+23pp)",
+      "message": "📡 indeed: quota passata da 83% a 0% (-83pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 83.3
+        "old_pct": 83.3,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 17% a 100% (+83pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 16.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -265,53 +246,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 51,
+            "size": 28,
             "top_terms": [
-              "clinical",
-              "italy",
-              "lead"
+              "lead",
+              "manager",
+              "intelligence"
             ],
-            "pct": 70.8
+            "pct": 39.4
           },
           {
-            "id": 1,
-            "size": 7,
+            "id": 2,
+            "size": 13,
             "top_terms": [
               "specialist",
-              "quality",
-              "cra"
+              "cra",
+              "senior"
             ],
-            "pct": 9.7
+            "pct": 18.3
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 13,
             "top_terms": [
-              "liaison",
+              "medical",
               "science",
-              "medical"
+              "liaison"
             ],
-            "pct": 6.9
+            "pct": 18.3
+          },
+          {
+            "id": 1,
+            "size": 12,
+            "top_terms": [
+              "clinical",
+              "associate",
+              "research"
+            ],
+            "pct": 16.9
           },
           {
             "id": 4,
             "size": 5,
             "top_terms": [
-              "medical",
-              "affairs",
-              "pharma"
+              "management",
+              "p4",
+              "lead"
             ],
-            "pct": 6.9
-          },
-          {
-            "id": 2,
-            "size": 4,
-            "top_terms": [
-              "regulatory",
-              "consultant",
-              "affairs"
-            ],
-            "pct": 5.6
+            "pct": 7.0
           }
         ]
       }

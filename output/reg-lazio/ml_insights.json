@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-05-16T08:41:14.956638",
+  "generated_at": "2026-05-17T08:57:45.306273",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 130,
+  "total_jobs_analyzed": 129,
   "scoring": {
-    "average": 11.0,
+    "average": 10.9,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 9,
-      "low": 3,
+      "low": 2,
       "irrelevant": 114
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs CMC - Sterility Assurance",
-        "company": "PQE Group",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4401612170"
-      },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "BSP Pharmaceuticals S.p.A.",
@@ -28,6 +20,14 @@
         "site": "linkedin",
         "date_posted": 1777420800000,
         "url": "https://www.linkedin.com/jobs/view/4406074339"
+      },
+      {
+        "title": "Regulatory Affairs CMC - Sterility Assurance",
+        "company": "PQE Group",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4401612170"
       },
       {
         "title": "Regulatory Specialist",
@@ -56,7 +56,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini",
-        "score": 55,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
@@ -72,7 +72,7 @@
       {
         "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
         "company": "OpsArmy Careers",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1777420800000,
         "url": "https://www.linkedin.com/jobs/view/4406923886"
@@ -96,7 +96,7 @@
       {
         "title": "Quality Assurance Consultant - Pharma Sector",
         "company": "PQE Group",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4383149145"
@@ -104,7 +104,7 @@
       {
         "title": "Quality Assurance Consultant  - Pharma Sector",
         "company": "PQE Group",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411155671"
@@ -124,14 +124,6 @@
         "site": "indeed",
         "date_posted": 1776297600000,
         "url": "https://it.indeed.com/viewjob?jk=0b2b4e60b33d5674"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "fortil",
-        "score": 22,
-        "site": "linkedin",
-        "date_posted": 1778630400000,
-        "url": "https://www.linkedin.com/jobs/view/4414160735"
       },
       {
         "title": "Industria Farmaceutica",
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4405659732"
       },
       {
+        "title": "Quality Assurance Specialist",
+        "company": "fortil",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1778630400000,
+        "url": "https://www.linkedin.com/jobs/view/4414160735"
+      },
+      {
         "title": "Quality Assurance Compliance Specialist",
         "company": "Tubilux Pharma",
         "score": 16,
@@ -194,14 +194,14 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "italy",
+        "word": "engineer",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "medical",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "junior",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,22 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 ALMA LABORIS Business School: 4 posizioni, non presente negli scan precedenti",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 9 (-89%)",
       "data": {
-        "company": "ALMA LABORIS Business School",
-        "count": 4
+        "current": 1,
+        "avg": 9.1,
+        "change_pct": -89.1
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 7/11 annunci da aziende nuove (63.6%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 73% a 100% (+27pp)",
       "data": {
-        "new": 7,
-        "total": 11,
-        "pct": 63.6
+        "channel": "indeed",
+        "old_pct": 72.7,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 27% a 0% (-27pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 27.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,53 +246,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 79,
+            "size": 89,
             "top_terms": [
               "specialist",
-              "sales",
+              "senior",
               "engineer"
             ],
-            "pct": 60.8
-          },
-          {
-            "id": 2,
-            "size": 24,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 18.5
-          },
-          {
-            "id": 0,
-            "size": 12,
-            "top_terms": [
-              "manager",
-              "field",
-              "delivery"
-            ],
-            "pct": 9.2
+            "pct": 69.0
           },
           {
             "id": 3,
-            "size": 9,
+            "size": 20,
             "top_terms": [
-              "regulatory",
-              "affairs",
+              "assurance",
+              "quality",
               "specialist"
             ],
-            "pct": 6.9
+            "pct": 15.5
+          },
+          {
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "manager",
+              "delivery",
+              "field"
+            ],
+            "pct": 7.8
           },
           {
             "id": 4,
             "size": 6,
             "top_terms": [
-              "technology",
-              "science",
-              "manufacturing"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 4.6
+            "pct": 4.7
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "specialist",
+              "health",
+              "engineer"
+            ],
+            "pct": 3.1
           }
         ]
       }

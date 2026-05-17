@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-16T08:41:14.853921",
+  "generated_at": "2026-05-17T08:57:45.215724",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 36,
+  "total_jobs_analyzed": 35,
   "scoring": {
-    "average": 16.3,
+    "average": 16.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 8,
       "low": 1,
-      "irrelevant": 27
+      "irrelevant": 26
     },
     "top_jobs": [
       {
@@ -104,7 +104,7 @@
       {
         "title": "Customer Quality Assurance Specialist",
         "company": "IMA Group",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412672591"
@@ -150,14 +150,6 @@
         "url": "https://it.indeed.com/viewjob?jk=2e8df5c257000db4"
       },
       {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1776988800000,
-        "url": "https://www.linkedin.com/jobs/view/4396583284"
-      },
-      {
         "title": "PROJECT MANAGER AFTER SALES",
         "company": "I.M.A. INDUSTRIA MACCHINE AUTOMATICHE",
         "score": 8,
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=33eff879a185903c"
+      },
+      {
+        "title": "Junior Quality Assurance - Ortofrutta (GlobalGap, Grasp)",
+        "company": "Hays",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412121620"
       }
     ]
   },
@@ -185,13 +185,13 @@
       },
       {
         "word": "quality",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-39%)",
       "data": {
         "current": 2,
-        "avg": 3.4,
-        "change_pct": -41.2
+        "avg": 3.3,
+        "change_pct": -39.4
       }
     },
     {
@@ -231,20 +231,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 50.0
       }
     },
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 2,
             "size": 13,
             "top_terms": [
-              "manager",
-              "sales",
+              "regulatory",
+              "affairs",
               "qualità"
             ],
-            "pct": 36.1
+            "pct": 37.1
           },
           {
-            "id": 2,
-            "size": 8,
+            "id": 0,
+            "size": 7,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 22.2
+            "pct": 20.0
           },
           {
             "id": 1,
             "size": 7,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "stage"
+              "validation",
+              "engineer",
+              "device"
             ],
-            "pct": 19.4
+            "pct": 20.0
           },
           {
             "id": 4,
             "size": 6,
             "top_terms": [
-              "validation",
-              "engineer",
-              "device"
+              "manager",
+              "sales",
+              "project"
             ],
-            "pct": 16.7
+            "pct": 17.1
           },
           {
             "id": 3,
             "size": 2,
             "top_terms": [
-              "documentation",
-              "technical",
-              "engineer"
+              "estetista",
+              "validation",
+              "legal"
             ],
-            "pct": 5.6
+            "pct": 5.7
           }
         ]
       }
