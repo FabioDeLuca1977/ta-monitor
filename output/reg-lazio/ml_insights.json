@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-17T08:57:45.306273",
+  "generated_at": "2026-05-18T10:41:19.254990",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 129,
+  "total_jobs_analyzed": 134,
   "scoring": {
-    "average": 10.9,
+    "average": 11.3,
     "distribution": {
       "excellent": 0,
-      "good": 4,
+      "good": 5,
       "medium": 9,
-      "low": 2,
-      "irrelevant": 114
+      "low": 3,
+      "irrelevant": 117
     },
     "top_jobs": [
       {
@@ -30,6 +30,14 @@
         "url": "https://www.linkedin.com/jobs/view/4401612170"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Adecco",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412275205"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "Aruba SpA",
         "score": 62,
@@ -42,7 +50,7 @@
         "company": "Amaris Consulting",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1777593600000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
       },
       {
@@ -56,7 +64,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini",
-        "score": 54,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
@@ -126,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=0b2b4e60b33d5674"
       },
       {
+        "title": "Senior Quality Assurance Manager",
+        "company": null,
+        "score": 23,
+        "site": "indeed",
+        "date_posted": 1778976000000,
+        "url": "https://it.indeed.com/viewjob?jk=90aedcb748645238"
+      },
+      {
         "title": "Industria Farmaceutica",
         "company": "ALMA LABORIS Business School",
         "score": 20,
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4405659732"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "fortil",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1778630400000,
-        "url": "https://www.linkedin.com/jobs/view/4414160735"
-      },
-      {
-        "title": "Quality Assurance Compliance Specialist",
-        "company": "Tubilux Pharma",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415070536"
       }
     ]
   },
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 23,
-        "reason": "Appare 23x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -202,6 +197,11 @@
         "word": "junior",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "italy",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -210,32 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 9 (-89%)",
+      "severity": "medium",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 9 (-46%)",
       "data": {
-        "current": 1,
-        "avg": 9.1,
-        "change_pct": -89.1
+        "current": 5,
+        "avg": 9.2,
+        "change_pct": -45.7
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
+      "data": {
+        "new": 1,
+        "total": 5,
+        "pct": 20.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 73% a 100% (+27pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 72.7,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 27% a 0% (-27pp)",
+      "message": "📡 linkedin: quota passata da 0% a 40% (+40pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 27.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 40.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 60% (-40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 60.0
       }
     },
     {
@@ -246,53 +256,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 89,
+            "size": 95,
             "top_terms": [
               "specialist",
-              "senior",
-              "engineer"
+              "manager",
+              "senior"
             ],
-            "pct": 69.0
-          },
-          {
-            "id": 3,
-            "size": 20,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 15.5
+            "pct": 70.9
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 22,
             "top_terms": [
-              "manager",
-              "delivery",
-              "field"
+              "assurance",
+              "quality",
+              "manager"
             ],
-            "pct": 7.8
+            "pct": 16.4
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 4.7
+            "pct": 5.2
           },
           {
             "id": 0,
+            "size": 6,
+            "top_terms": [
+              "engineer",
+              "process",
+              "junior"
+            ],
+            "pct": 4.5
+          },
+          {
+            "id": 4,
             "size": 4,
             "top_terms": [
-              "specialist",
-              "health",
-              "engineer"
+              "medical",
+              "director",
+              "project"
             ],
-            "pct": 3.1
+            "pct": 3.0
           }
         ]
       }

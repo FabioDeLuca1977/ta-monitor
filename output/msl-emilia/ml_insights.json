@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-17T08:57:44.936424",
+  "generated_at": "2026-05-18T10:41:18.852471",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 20,
   "scoring": {
-    "average": 18.5,
+    "average": 18.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
-        "title": "Product Support Specialist JR - Emilia Romagna",
-        "company": "Stryker",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
-      },
-      {
         "title": "Administrative Office Manager",
         "company": "Polonord Adeste Srl",
         "score": 10,
@@ -110,12 +102,12 @@
         "url": "https://it.indeed.com/viewjob?jk=268fc5fe88a28264"
       },
       {
-        "title": "Molding Engineer",
-        "company": "Dikton S.r.l.",
-        "score": 10,
+        "title": "Product Support Specialist JR - Emilia Romagna",
+        "company": "Stryker",
+        "score": 9,
         "site": "indeed",
         "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=626aa04416d30768"
+        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
       },
       {
         "title": "Continuous Improvement Manager",
@@ -148,6 +140,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413483479"
+      },
+      {
+        "title": "Molding Engineer",
+        "company": "Dikton S.r.l.",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1778716800000,
+        "url": "https://it.indeed.com/viewjob?jk=626aa04416d30768"
       },
       {
         "title": "Production Planner",
@@ -220,20 +220,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 50.0
       }
     },

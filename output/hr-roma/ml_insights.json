@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-17T08:57:44.683449",
+  "generated_at": "2026-05-18T10:41:18.573455",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 192,
+  "total_jobs_analyzed": 193,
   "scoring": {
-    "average": 25.6,
+    "average": 25.7,
     "distribution": {
       "excellent": 0,
       "good": 10,
       "medium": 47,
-      "low": 54,
+      "low": 55,
       "irrelevant": 81
     },
     "top_jobs": [
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4407757095"
       },
       {
-        "title": "HR Recruiter",
-        "company": "Datamanagement italia",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1778457600000,
-        "url": "https://it.indeed.com/viewjob?jk=ee04f7e62a3708df"
-      },
-      {
         "title": "HR Generalist",
         "company": "Conflavoro PMI",
         "score": 60,
@@ -84,6 +76,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410173974"
+      },
+      {
+        "title": "HR Recruiter",
+        "company": "Datamanagement italia",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1778457600000,
+        "url": "https://it.indeed.com/viewjob?jk=ee04f7e62a3708df"
       },
       {
         "title": "HR Generalist",
@@ -271,51 +271,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 10 annunci ultimo scan vs media 15 (-34%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 15 (-93%)",
       "data": {
-        "current": 10,
-        "avg": 15.2,
-        "change_pct": -34.1
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 ALMA LABORIS Business School: 5 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "ALMA LABORIS Business School",
-        "count": 5
+        "current": 1,
+        "avg": 14.8,
+        "change_pct": -93.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/10 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 8,
-        "total": 10,
-        "pct": 80.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 36% a 80% (+44pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 36.4,
-        "new_pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 64% a 20% (-44pp)",
+      "message": "📡 linkedin: quota passata da 20% a 100% (+80pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 63.6,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -326,13 +317,13 @@
         "clusters": [
           {
             "id": 0,
-            "size": 103,
+            "size": 109,
             "top_terms": [
+              "addetto",
               "junior",
-              "roma",
-              "sales"
+              "roma"
             ],
-            "pct": 53.6
+            "pct": 56.5
           },
           {
             "id": 2,
@@ -342,17 +333,17 @@
               "generalist",
               "business"
             ],
-            "pct": 14.6
+            "pct": 14.5
           },
           {
-            "id": 1,
-            "size": 25,
+            "id": 4,
+            "size": 24,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 13.0
+            "pct": 12.4
           },
           {
             "id": 3,
@@ -365,14 +356,14 @@
             "pct": 10.9
           },
           {
-            "id": 4,
-            "size": 15,
+            "id": 1,
+            "size": 11,
             "top_terms": [
-              "addetto",
-              "vendite",
-              "segreteria"
+              "personale",
+              "selezione",
+              "addetto"
             ],
-            "pct": 7.8
+            "pct": 5.7
           }
         ]
       }
