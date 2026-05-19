@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-18T10:41:18.915130",
+  "generated_at": "2026-05-19T10:21:12.802111",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 72,
+  "total_jobs_analyzed": 77,
   "scoring": {
     "average": 22.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 23,
-      "low": 6,
-      "irrelevant": 41
+      "medium": 25,
+      "low": 7,
+      "irrelevant": 43
     },
     "top_jobs": [
       {
@@ -32,18 +32,10 @@
       {
         "title": "Medical Affairs Supervisor",
         "company": "Randstad Italia",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408641019"
-      },
-      {
-        "title": "SENIOR MEDICAL SCIENCE LIAISON",
-        "company": "Angelini Pharma",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4413046066"
       },
       {
         "title": "Medical Science Liaison (m/f/x) - Nephrology",
@@ -70,12 +62,28 @@
         "url": "https://www.linkedin.com/jobs/view/4385271426"
       },
       {
+        "title": "SENIOR MEDICAL SCIENCE LIAISON",
+        "company": "Angelini Pharma",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1778457600000,
+        "url": "https://www.linkedin.com/jobs/view/4413046066"
+      },
+      {
         "title": "Clinical Development Medical Science Director",
         "company": "Angelini Pharma",
-        "score": 52,
+        "score": 53,
         "site": "linkedin",
         "date_posted": 1777420800000,
         "url": "https://www.linkedin.com/jobs/view/4396450100"
+      },
+      {
+        "title": "Medical Specialist - Remote",
+        "company": "YO IT Consulting",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412860388"
       },
       {
         "title": "Senior Clinical Research Associate",
@@ -84,6 +92,14 @@
         "site": "linkedin",
         "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4414596036"
+      },
+      {
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412082502"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -100,14 +116,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401465916"
-      },
-      {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412082502"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -160,18 +168,10 @@
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1777593600000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
-      },
-      {
-        "title": "Clinical Monitoring Analyst (Cluepoints) - Remote",
-        "company": "IQVIA",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4385243862"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -194,12 +194,12 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "policy",
+        "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "government",
+        "word": "management",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,23 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-82%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
       "data": {
-        "current": 1,
-        "avg": 5.5,
-        "change_pct": -81.7
+        "new": 4,
+        "total": 6,
+        "pct": 66.7
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -235,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 51,
+            "id": 1,
+            "size": 56,
             "top_terms": [
               "medical",
-              "director",
-              "lead"
+              "italy",
+              "clinical"
             ],
-            "pct": 70.8
+            "pct": 72.7
           },
           {
-            "id": 1,
-            "size": 9,
+            "id": 3,
+            "size": 8,
             "top_terms": [
               "specialist",
-              "clinical",
-              "sales"
+              "product",
+              "quality"
             ],
-            "pct": 12.5
+            "pct": 10.4
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "liaison",
               "science",
               "medical"
             ],
-            "pct": 6.9
+            "pct": 6.5
           },
           {
-            "id": 3,
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "management",
+              "p4",
+              "lead"
+            ],
+            "pct": 5.2
+          },
+          {
+            "id": 4,
             "size": 4,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 5.6
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "cra",
-              "senior",
-              "italy"
-            ],
-            "pct": 4.2
+            "pct": 5.2
           }
         ]
       }

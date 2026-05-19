@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-05-18T10:41:18.821347",
+  "generated_at": "2026-05-19T10:21:12.711310",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 195,
+  "total_jobs_analyzed": 205,
   "scoring": {
     "average": 28.7,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 90,
-      "low": 13,
-      "irrelevant": 89
+      "good": 6,
+      "medium": 91,
+      "low": 16,
+      "irrelevant": 92
     },
     "top_jobs": [
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1778976000000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
       {
         "title": "Junior Medical Affairs Manager",
         "company": "SINCLAIR",
@@ -20,6 +28,14 @@
         "site": "indeed",
         "date_posted": 1778544000000,
         "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
+      },
+      {
+        "title": "(Associate) Medical Director - Rheumatology, EMEA",
+        "company": "Thermo Fisher Scientific",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": 1778976000000,
+        "url": "https://www.linkedin.com/jobs/view/4404170968"
       },
       {
         "title": "Medical Advisor",
@@ -32,10 +48,18 @@
       {
         "title": "Clinical Development Medical Director (Associate Director)",
         "company": "Pfizer",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411264071"
+      },
+      {
+        "title": "Health Economics, Market Access & Reimbursement Manager - Lung & Solid Tumors",
+        "company": "Johnson & Johnson Innovative Medicine",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1778716800000,
+        "url": "https://www.linkedin.com/jobs/view/4414582363"
       },
       {
         "title": "Medical Advisor Biologics - Dermatology",
@@ -68,14 +92,6 @@
         "site": "indeed",
         "date_posted": 1778716800000,
         "url": "https://it.indeed.com/viewjob?jk=77bd1e01ac6d9209"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1777161600000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Medical Affairs Clinician - Italy",
@@ -142,14 +158,6 @@
         "url": "https://www.linkedin.com/jobs/view/4405218254"
       },
       {
-        "title": "Medical Communication Specialist Eucerin",
-        "company": "Beiersdorf SpA",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=d95821eeb3dac98c"
-      },
-      {
         "title": "Medical Science Liaison Northwest Italy",
         "company": "Madrigal Pharmaceuticals",
         "score": 56,
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402875758"
-      },
-      {
-        "title": "Medical Affairs Internship",
-        "company": "Sanofi",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=3a3e3b2d801f72d8"
       }
     ]
   },
@@ -189,19 +189,19 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "access",
+        "word": "specialist",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "contract",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "market",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "italy",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -220,6 +220,18 @@
       "confidence": 45
     },
     {
+      "keyword": "health economics",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "lung",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
+    },
+    {
       "keyword": "lung cancer",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -232,84 +244,39 @@
       "confidence": 30
     },
     {
+      "keyword": "communication specialist",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "specialist eucerin",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "communication specialist eucerin",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "junior medical",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "health economics",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "lung",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "international",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-48%)",
-      "data": {
-        "current": 7,
-        "avg": 13.4,
-        "change_pct": -47.9
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Regeneron: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Regeneron",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 4/12 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 3,
-        "total": 7,
-        "pct": 42.9
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 17% a 43% (+26pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 16.7,
-        "new_pct": 42.9
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 83% a 57% (-26pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 83.3,
-        "new_pct": 57.1
+        "new": 4,
+        "total": 12,
+        "pct": 33.3
       }
     },
     {
@@ -319,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 65,
+            "id": 3,
+            "size": 74,
             "top_terms": [
-              "senior",
               "engineer",
-              "contract"
+              "senior",
+              "specialist"
             ],
-            "pct": 33.3
+            "pct": 36.1
           },
           {
             "id": 2,
-            "size": 42,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 21.5
-          },
-          {
-            "id": 0,
-            "size": 39,
-            "top_terms": [
-              "medical",
-              "director",
-              "affairs"
-            ],
-            "pct": 20.0
-          },
-          {
-            "id": 3,
-            "size": 32,
+            "size": 43,
             "top_terms": [
               "manager",
               "access",
               "market"
             ],
-            "pct": 16.4
+            "pct": 21.0
+          },
+          {
+            "id": 4,
+            "size": 36,
+            "top_terms": [
+              "medical",
+              "director",
+              "affairs"
+            ],
+            "pct": 17.6
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 27,
             "top_terms": [
-              "research",
               "clinical",
+              "research",
               "associate"
             ],
-            "pct": 8.7
+            "pct": 13.2
+          },
+          {
+            "id": 0,
+            "size": 25,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 12.2
           }
         ]
       }

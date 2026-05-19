@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-18T10:41:19.254990",
+  "generated_at": "2026-05-19T10:21:13.140004",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 134,
+  "total_jobs_analyzed": 141,
   "scoring": {
-    "average": 11.3,
+    "average": 10.7,
     "distribution": {
       "excellent": 0,
       "good": 5,
       "medium": 9,
       "low": 3,
-      "irrelevant": 117
+      "irrelevant": 124
     },
     "top_jobs": [
       {
@@ -56,7 +56,7 @@
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
-        "score": 59,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415339755"
@@ -64,7 +64,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini",
-        "score": 55,
+        "score": 51,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
@@ -80,7 +80,7 @@
       {
         "title": "Data Labeling Specialist (Multilingual Audio – Labeler & Reviewer) | Rome",
         "company": "OpsArmy Careers",
-        "score": 46,
+        "score": 47,
         "site": "linkedin",
         "date_posted": 1777420800000,
         "url": "https://www.linkedin.com/jobs/view/4406923886"
@@ -150,14 +150,6 @@
         "url": "https://it.indeed.com/viewjob?jk=2c49682f46bd050d"
       },
       {
-        "title": "Sales & Therapy Specialist TMTI - Tuscany & North",
-        "company": "Abbott",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1778803200000,
-        "url": "https://it.indeed.com/viewjob?jk=81f28e2beb01b768"
-      },
-      {
         "title": "Project Manager Medtech | Medical Devices",
         "company": "S4BT - Solutions for Business & Technology",
         "score": 17,
@@ -167,11 +159,19 @@
       },
       {
         "title": "Quality Assurance Specialist",
-        "company": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+        "company": "fortil",
         "score": 17,
         "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4405659732"
+        "date_posted": 1778630400000,
+        "url": "https://www.linkedin.com/jobs/view/4414160735"
+      },
+      {
+        "title": "Quality Assurance Compliance Specialist",
+        "company": "Tubilux Pharma",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415070536"
       }
     ]
   },
@@ -190,13 +190,13 @@
       },
       {
         "word": "engineer",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "junior",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -209,43 +209,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 9 (-46%)",
-      "data": {
-        "current": 5,
-        "avg": 9.2,
-        "change_pct": -45.7
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
+      "message": "📊 Ultimo scan: 2/8 annunci da aziende nuove (25.0%)",
       "data": {
-        "new": 1,
-        "total": 5,
-        "pct": 20.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 40% (+40pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 60% (-40pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 60.0
+        "new": 2,
+        "total": 8,
+        "pct": 25.0
       }
     },
     {
@@ -255,54 +225,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 95,
+            "id": 4,
+            "size": 67,
             "top_terms": [
-              "specialist",
-              "manager",
+              "engineer",
+              "lead",
               "senior"
             ],
-            "pct": 70.9
+            "pct": 47.5
           },
           {
             "id": 2,
+            "size": 29,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "quality"
+            ],
+            "pct": 20.6
+          },
+          {
+            "id": 1,
             "size": 22,
             "top_terms": [
               "assurance",
               "quality",
               "manager"
             ],
-            "pct": 16.4
-          },
-          {
-            "id": 3,
-            "size": 7,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 5.2
+            "pct": 15.6
           },
           {
             "id": 0,
-            "size": 6,
+            "size": 14,
             "top_terms": [
-              "engineer",
-              "process",
-              "junior"
+              "manager",
+              "data",
+              "delivery"
             ],
-            "pct": 4.5
+            "pct": 9.9
           },
           {
-            "id": 4,
-            "size": 4,
+            "id": 3,
+            "size": 9,
             "top_terms": [
-              "medical",
-              "director",
-              "project"
+              "sales",
+              "roma",
+              "account"
             ],
-            "pct": 3.0
+            "pct": 6.4
           }
         ]
       }
