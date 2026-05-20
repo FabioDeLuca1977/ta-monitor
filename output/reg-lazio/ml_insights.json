@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-05-19T10:21:13.140004",
+  "generated_at": "2026-05-20T10:10:56.422700",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 141,
+  "total_jobs_analyzed": 140,
   "scoring": {
-    "average": 10.7,
+    "average": 11.0,
     "distribution": {
       "excellent": 0,
       "good": 5,
       "medium": 9,
       "low": 3,
-      "irrelevant": 124
+      "irrelevant": 123
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "BSP Pharmaceuticals S.p.A.",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1777420800000,
-        "url": "https://www.linkedin.com/jobs/view/4406074339"
-      },
       {
         "title": "Regulatory Affairs CMC - Sterility Assurance",
         "company": "PQE Group",
@@ -28,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4401612170"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "BSP Pharmaceuticals S.p.A.",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1777420800000,
+        "url": "https://www.linkedin.com/jobs/view/4406074339"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affairs Consultant",
         "company": "Amaris Consulting",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1777593600000,
         "url": "https://www.linkedin.com/jobs/view/4387290311"
@@ -56,7 +56,7 @@
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
-        "score": 56,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415339755"
@@ -64,7 +64,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini",
-        "score": 51,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
@@ -150,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=2c49682f46bd050d"
       },
       {
+        "title": "Associate Technology implementation consultant",
+        "company": "Wolters Kluwer",
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1779148800000,
+        "url": "https://it.indeed.com/viewjob?jk=6b1cfd135f6d2fc2"
+      },
+      {
         "title": "Project Manager Medtech | Medical Devices",
         "company": "S4BT - Solutions for Business & Technology",
         "score": 17,
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4414160735"
-      },
-      {
-        "title": "Quality Assurance Compliance Specialist",
-        "company": "Tubilux Pharma",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415070536"
       }
     ]
   },
@@ -180,13 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 26,
+        "reason": "Appare 26x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
+      },
+      {
+        "word": "associate",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -197,11 +202,6 @@
         "word": "junior",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,13 +209,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 10 (-37%)",
+      "data": {
+        "current": 6,
+        "avg": 9.6,
+        "change_pct": -37.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/8 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 2,
-        "total": 8,
-        "pct": 25.0
+        "new": 4,
+        "total": 6,
+        "pct": 66.7
       }
     },
     {
@@ -225,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 67,
+            "id": 0,
+            "size": 65,
             "top_terms": [
+              "senior",
               "engineer",
-              "lead",
-              "senior"
-            ],
-            "pct": 47.5
-          },
-          {
-            "id": 2,
-            "size": 29,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "quality"
-            ],
-            "pct": 20.6
-          },
-          {
-            "id": 1,
-            "size": 22,
-            "top_terms": [
-              "assurance",
-              "quality",
               "manager"
             ],
-            "pct": 15.6
-          },
-          {
-            "id": 0,
-            "size": 14,
-            "top_terms": [
-              "manager",
-              "data",
-              "delivery"
-            ],
-            "pct": 9.9
+            "pct": 46.4
           },
           {
             "id": 3,
-            "size": 9,
+            "size": 29,
             "top_terms": [
-              "sales",
-              "roma",
-              "account"
+              "specialist",
+              "program",
+              "quality"
             ],
-            "pct": 6.4
+            "pct": 20.7
+          },
+          {
+            "id": 2,
+            "size": 24,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 17.1
+          },
+          {
+            "id": 4,
+            "size": 14,
+            "top_terms": [
+              "medical",
+              "director",
+              "operations"
+            ],
+            "pct": 10.0
+          },
+          {
+            "id": 1,
+            "size": 8,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 5.7
           }
         ]
       }

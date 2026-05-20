@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-19T10:21:12.711310",
+  "generated_at": "2026-05-20T10:10:56.110061",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 205,
+  "total_jobs_analyzed": 198,
   "scoring": {
-    "average": 28.7,
+    "average": 29.2,
     "distribution": {
       "excellent": 0,
       "good": 6,
-      "medium": 91,
-      "low": 16,
-      "irrelevant": 92
+      "medium": 88,
+      "low": 18,
+      "irrelevant": 86
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1778976000000,
         "url": "https://www.linkedin.com/jobs/view/4331970390"
-      },
-      {
-        "title": "Junior Medical Affairs Manager",
-        "company": "SINCLAIR",
-        "score": 66,
-        "site": "indeed",
-        "date_posted": 1778544000000,
-        "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
       },
       {
         "title": "(Associate) Medical Director - Rheumatology, EMEA",
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411264071"
+      },
+      {
+        "title": "Junior Medical Affairs Manager",
+        "company": "SINCLAIR",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1778544000000,
+        "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
       },
       {
         "title": "Health Economics, Market Access & Reimbursement Manager - Lung & Solid Tumors",
@@ -94,6 +94,14 @@
         "url": "https://it.indeed.com/viewjob?jk=77bd1e01ac6d9209"
       },
       {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA Laboratories",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416901960"
+      },
+      {
         "title": "Medical Affairs Clinician - Italy",
         "company": "Evolus",
         "score": 57,
@@ -110,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4411652146"
       },
       {
-        "title": "Medical Advisor Lung Cancer",
-        "company": "AstraZeneca",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412107301"
-      },
-      {
         "title": "Medical Affairs Lead BH",
         "company": "Neuraxpharm",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411500965"
+      },
+      {
+        "title": "Medical Science Liaison South Europe",
+        "company": "LivaNova",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396456761"
       },
       {
         "title": "Psychiatry - Medical Director",
@@ -142,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4331270944"
       },
       {
+        "title": "International Medical Science Liaison, Oncology",
+        "company": "IQVIA",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1777420800000,
+        "url": "https://www.linkedin.com/jobs/view/4384494774"
+      },
+      {
         "title": "Medical Science Liaison Paediatric Oncology - Milan",
         "company": "Norgine",
         "score": 56,
@@ -150,28 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4394781112"
       },
       {
-        "title": "(Senior) Medical Science Liaisons (Sr. MSL)  - Center-North Italy",
-        "company": "Genmab",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1777248000000,
-        "url": "https://www.linkedin.com/jobs/view/4405218254"
-      },
-      {
-        "title": "Medical Science Liaison Northwest Italy",
-        "company": "Madrigal Pharmaceuticals",
+        "title": "Medical Advisor Lung Cancer",
+        "company": "AstraZeneca",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4413570055"
-      },
-      {
-        "title": "(Associate) Medical Director - Neurology",
-        "company": "Thermo Fisher Scientific",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4402875758"
+        "url": "https://www.linkedin.com/jobs/view/4412107301"
       }
     ]
   },
@@ -179,29 +179,29 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "senior",
+        "word": "specialist",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "contract",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "senior",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "italy",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "contract",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,49 +214,13 @@
       "confidence": 50
     },
     {
-      "keyword": "medical scientific",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
       "keyword": "health economics",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "lung",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
-      "keyword": "lung cancer",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "emilia romagna",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "communication specialist",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "specialist eucerin",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "communication specialist eucerin",
+      "keyword": "medical scientific",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -266,17 +230,63 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "economics market",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "access reimbursement",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "reimbursement manager",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "manager lung",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "lung solid",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "health economics market",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 14 (-33%)",
+      "data": {
+        "current": 9,
+        "avg": 13.5,
+        "change_pct": -33.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/12 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 4/9 annunci da aziende nuove (44.4%)",
       "data": {
         "new": 4,
-        "total": 12,
-        "pct": 33.3
+        "total": 9,
+        "pct": 44.4
       }
     },
     {
@@ -286,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 74,
-            "top_terms": [
-              "engineer",
-              "senior",
-              "specialist"
-            ],
-            "pct": 36.1
-          },
-          {
-            "id": 2,
-            "size": 43,
-            "top_terms": [
-              "manager",
-              "access",
-              "market"
-            ],
-            "pct": 21.0
-          },
-          {
-            "id": 4,
-            "size": 36,
-            "top_terms": [
-              "medical",
-              "director",
-              "affairs"
-            ],
-            "pct": 17.6
-          },
-          {
             "id": 1,
-            "size": 27,
+            "size": 92,
             "top_terms": [
               "clinical",
               "research",
               "associate"
             ],
-            "pct": 13.2
+            "pct": 46.5
+          },
+          {
+            "id": 2,
+            "size": 41,
+            "top_terms": [
+              "manager",
+              "access",
+              "market"
+            ],
+            "pct": 20.7
+          },
+          {
+            "id": 4,
+            "size": 33,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 3,
+            "size": 19,
+            "top_terms": [
+              "medical",
+              "liaison",
+              "milan"
+            ],
+            "pct": 9.6
           },
           {
             "id": 0,
-            "size": 25,
+            "size": 13,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "director",
+              "medical",
+              "emea"
             ],
-            "pct": 12.2
+            "pct": 6.6
           }
         ]
       }

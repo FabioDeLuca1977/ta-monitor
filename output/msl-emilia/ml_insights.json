@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-05-19T10:21:12.739893",
+  "generated_at": "2026-05-20T10:10:56.131250",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 19.5,
+    "average": 22.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 5,
+      "medium": 6,
       "low": 4,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
+      {
+        "title": "Senior Regulatory Affairs Specialist - Medical Devices",
+        "company": "Jefferson Wells Italia",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416693195"
+      },
       {
         "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
         "company": "IGEA S.p.A.",
@@ -32,7 +40,7 @@
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -72,7 +80,7 @@
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
-        "score": 23,
+        "score": 22,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
@@ -88,18 +96,10 @@
       {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 16,
+        "score": 19,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
-      },
-      {
-        "title": "Administrative Office Manager",
-        "company": "Polonord Adeste Srl",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=238afaa8e75e7a0c"
       },
       {
         "title": "HR & LR Partner",
@@ -110,6 +110,14 @@
         "url": "https://it.indeed.com/viewjob?jk=268fc5fe88a28264"
       },
       {
+        "title": "Media Buyer (Google&Meta)",
+        "company": "CapsLock",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1779148800000,
+        "url": "https://it.indeed.com/viewjob?jk=5dd221289581cd8d"
+      },
+      {
         "title": "Product Support Specialist JR - Emilia Romagna",
         "company": "Stryker",
         "score": 9,
@@ -118,28 +126,12 @@
         "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
       },
       {
-        "title": "Continuous Improvement Manager",
-        "company": "Berluti",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1777248000000,
-        "url": "https://it.indeed.com/viewjob?jk=76f38aaa69588a20"
-      },
-      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
-        "score": 6,
+        "score": 7,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4389193185"
-      },
-      {
-        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
-        "company": "Elleuno scs",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": 1777248000000,
-        "url": "https://www.linkedin.com/jobs/view/4407461389"
       },
       {
         "title": "Direttore/direttrice per CRA a Mirandola (MO)",
@@ -148,6 +140,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413483479"
+      },
+      {
+        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
+        "company": "Elleuno scs",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4413426472"
       },
       {
         "title": "Molding Engineer",
@@ -160,7 +160,7 @@
       {
         "title": "Production Planner",
         "company": "LINCOTEK GROUP",
-        "score": 4,
+        "score": 3,
         "site": "indeed",
         "date_posted": 1777852800000,
         "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
@@ -238,33 +238,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-55%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "current": 1,
-        "avg": 2.2,
-        "change_pct": -55.0
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -274,32 +274,32 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 11,
+            "id": 3,
+            "size": 10,
             "top_terms": [
-              "manager",
-              "engineer",
-              "settore"
+              "specialist",
+              "settore",
+              "marketing"
             ],
-            "pct": 52.4
+            "pct": 47.6
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 1,
+            "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "stage"
             ],
-            "pct": 19.0
+            "pct": 23.8
           },
           {
             "id": 0,
             "size": 3,
             "top_terms": [
-              "specialist",
-              "medical",
-              "stage"
+              "engineer",
+              "senior",
+              "manager"
             ],
             "pct": 14.3
           },
@@ -309,7 +309,7 @@
             "top_terms": [
               "cra",
               "senior",
-              "stage"
+              "specialist"
             ],
             "pct": 14.3
           }

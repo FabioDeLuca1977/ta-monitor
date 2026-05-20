@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-19T10:21:12.845236",
+  "generated_at": "2026-05-20T10:10:56.207549",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 44,
+  "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 12.2,
+    "average": 13.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 4,
       "low": 2,
-      "irrelevant": 36
+      "irrelevant": 32
     },
     "top_jobs": [
       {
@@ -38,9 +38,17 @@
         "url": "https://www.linkedin.com/jobs/view/4411143656"
       },
       {
+        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
+        "company": "Arethusa",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412751752"
+      },
+      {
         "title": "Regulatory Affairs Expert",
         "company": "Fidia Pharma",
-        "score": 56,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412260439"
@@ -48,18 +56,10 @@
       {
         "title": "Biocides Regulatory Affairs - Market Leader Company",
         "company": "NonStop Consulting",
-        "score": 54,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410039965"
-      },
-      {
-        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
-        "company": "Arethusa",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412751752"
       },
       {
         "title": "Junior Product Manager (Gestore di Prodotto Junior)",
@@ -72,26 +72,26 @@
       {
         "title": "Addetto/a Qualificata alla pulizie Camere d'albergo",
         "company": "Suite Pacinotti & Prada'",
-        "score": 25,
+        "score": 24,
         "site": "indeed",
         "date_posted": 1778371200000,
         "url": "https://it.indeed.com/viewjob?jk=235f3736689fdc51"
       },
       {
-        "title": "Customer Quality Assurance Manager",
-        "company": "LHH",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1777939200000,
-        "url": "https://www.linkedin.com/jobs/view/4398907982"
-      },
-      {
         "title": "Quality Assurance & Quality Management System Manager",
         "company": "ISG International Service Group",
-        "score": 14,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415671084"
+      },
+      {
+        "title": "Customer Quality Assurance Manager",
+        "company": "LHH",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": 1777939200000,
+        "url": "https://www.linkedin.com/jobs/view/4398907982"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -110,28 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4412289121"
       },
       {
+        "title": "Operatore telefonico outbound",
+        "company": "Be SMarketing s.c.",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1779062400000,
+        "url": "https://it.indeed.com/viewjob?jk=bbff23802d05de21"
+      },
+      {
         "title": "Business Analyst ? Quality Assurance",
         "company": "J il tuo agente AI",
         "score": 10,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410291676"
-      },
-      {
-        "title": "Operatore telefonico outbound",
-        "company": "Be SMarketing s.c.",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1779062400000,
-        "url": "https://it.indeed.com/viewjob?jk=bbff23802d05de21"
-      },
-      {
-        "title": "Quality Assurance Supervisor",
-        "company": "UNOX S.p.A.",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405217500"
       },
       {
         "title": "Market Access Manager Specialty",
@@ -142,20 +134,28 @@
         "url": "https://it.indeed.com/viewjob?jk=dfcf4fd0a5fdf8d6"
       },
       {
-        "title": "Security Manager",
-        "company": "Applied Materials",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1777852800000,
-        "url": "https://it.indeed.com/viewjob?jk=5c4a7f331e585c79"
-      },
-      {
         "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
         "company": "Rentokil Initial",
-        "score": 6,
+        "score": 7,
         "site": "indeed",
         "date_posted": 1777939200000,
         "url": "https://it.indeed.com/viewjob?jk=484249e9dbe07f41"
+      },
+      {
+        "title": "Quality Assurance Supervisor",
+        "company": "UNOX S.p.A.",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405217500"
+      },
+      {
+        "title": "Security Manager",
+        "company": "Applied Materials",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1777852800000,
+        "url": "https://it.indeed.com/viewjob?jk=5c4a7f331e585c79"
       },
       {
         "title": "Global Product Manager",
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -199,7 +199,7 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "management",
+        "word": "consultant",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -221,21 +221,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 100.0,
         "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -245,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 24,
+            "id": 0,
+            "size": 23,
             "top_terms": [
-              "support",
+              "manager",
               "estetista",
-              "operatore"
+              "engineer"
             ],
-            "pct": 54.5
+            "pct": 57.5
           },
           {
             "id": 2,
-            "size": 8,
+            "size": 7,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 18.2
-          },
-          {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "manager",
-              "product",
-              "junior"
-            ],
-            "pct": 11.4
+            "pct": 17.5
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 11.4
+            "pct": 15.0
+          },
+          {
+            "id": 1,
+            "size": 2,
+            "top_terms": [
+              "operatore",
+              "verona",
+              "sustainability"
+            ],
+            "pct": 5.0
           },
           {
             "id": 4,
             "size": 2,
             "top_terms": [
+              "tecnico",
               "verona",
-              "risk",
               "sustainability"
             ],
-            "pct": 4.5
+            "pct": 5.0
           }
         ]
       }

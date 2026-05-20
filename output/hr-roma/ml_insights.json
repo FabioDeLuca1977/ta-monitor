@@ -1,41 +1,25 @@
 {
-  "generated_at": "2026-05-19T10:21:12.470964",
+  "generated_at": "2026-05-20T10:10:55.931552",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 196,
+  "total_jobs_analyzed": 195,
   "scoring": {
     "average": 25.7,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 50,
-      "low": 56,
+      "good": 8,
+      "medium": 51,
+      "low": 55,
       "irrelevant": 81
     },
     "top_jobs": [
       {
         "title": "HR Manager",
         "company": "Randstad Professional Italia",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411169865"
-      },
-      {
-        "title": "EIB Trainee - Human Resources Directorate - Talent & Culture Department - Talent Acquisition Unit - based in Luxembourg",
-        "company": "European Investment Bank (EIB)",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1777334400000,
-        "url": "https://www.linkedin.com/jobs/view/4407569648"
-      },
-      {
-        "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
-        "company": "DAN JOHN ITALIA SPA",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1778544000000,
-        "url": "https://it.indeed.com/viewjob?jk=9948bb63a586dd49"
       },
       {
         "title": "HR Specialist Casa",
@@ -46,6 +30,14 @@
         "url": "https://www.linkedin.com/jobs/view/4409391699"
       },
       {
+        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
+        "company": "Letuelezioni",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1777420800000,
+        "url": "https://www.linkedin.com/jobs/view/4408259909"
+      },
+      {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
         "score": 61,
@@ -54,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4407757095"
       },
       {
-        "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
-        "company": "Letuelezioni",
+        "title": "Plant HR Manager",
+        "company": "Alfasigma group",
         "score": 60,
-        "site": "linkedin",
+        "site": "indeed",
         "date_posted": 1777420800000,
-        "url": "https://www.linkedin.com/jobs/view/4408259909"
+        "url": "https://it.indeed.com/viewjob?jk=edf44e8c1a798c3f"
       },
       {
         "title": "HR Generalist",
@@ -84,14 +76,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411173328"
-      },
-      {
-        "title": "Plant HR Manager",
-        "company": "Alfasigma group",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1777420800000,
-        "url": "https://it.indeed.com/viewjob?jk=edf44e8c1a798c3f"
       },
       {
         "title": "Talent Acquisition Partner",
@@ -150,17 +134,9 @@
         "url": "https://www.linkedin.com/jobs/view/4368714171"
       },
       {
-        "title": "Stage HR Generalist",
-        "company": "Cerba HealthCare Italia",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1777248000000,
-        "url": "https://www.linkedin.com/jobs/view/4407418745"
-      },
-      {
         "title": "Junior HR Talent Acquisition",
         "company": "Palazzo Ripetta | Relais & Châteaux",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4409667902"
@@ -168,10 +144,34 @@
       {
         "title": "HR Generalist Intern",
         "company": "OIS Group",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411877696"
+      },
+      {
+        "title": "Ice Cream HR Generalist Intern",
+        "company": "The Magnum Ice Cream Company",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4376767068"
+      },
+      {
+        "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
+        "company": "DAN JOHN ITALIA SPA",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1778544000000,
+        "url": "https://it.indeed.com/viewjob?jk=9948bb63a586dd49"
+      },
+      {
+        "title": "Junior Talent Acquisition - Soluzioni Casa",
+        "company": "key-absolute",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4409980178"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 21,
-        "reason": "Appare 21x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
+      },
+      {
+        "word": "dell",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "roma",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "senior",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -262,7 +262,7 @@
       "confidence": 30
     },
     {
-      "keyword": "junior talent",
+      "keyword": "partner eu",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -270,43 +270,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 15 (-59%)",
-      "data": {
-        "current": 6,
-        "avg": 14.6,
-        "change_pct": -58.9
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 8/12 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 4,
-        "total": 6,
+        "new": 8,
+        "total": 12,
         "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -316,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 101,
+            "id": 2,
+            "size": 100,
             "top_terms": [
               "addetto",
               "roma",
               "sales"
             ],
-            "pct": 51.5
-          },
-          {
-            "id": 1,
-            "size": 29,
-            "top_terms": [
-              "hr",
-              "generalist",
-              "partner"
-            ],
-            "pct": 14.8
+            "pct": 51.3
           },
           {
             "id": 4,
-            "size": 28,
+            "size": 51,
             "top_terms": [
+              "hr",
               "specialist",
-              "talent",
-              "acquisition"
+              "generalist"
             ],
-            "pct": 14.3
+            "pct": 26.2
+          },
+          {
+            "id": 0,
+            "size": 25,
+            "top_terms": [
+              "umane",
+              "risorse",
+              "addetto"
+            ],
+            "pct": 12.8
           },
           {
             "id": 3,
-            "size": 27,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 13.8
-          },
-          {
-            "id": 2,
-            "size": 11,
+            "size": 12,
             "top_terms": [
               "personale",
               "selezione",
               "addetto"
             ],
-            "pct": 5.6
+            "pct": 6.2
+          },
+          {
+            "id": 1,
+            "size": 7,
+            "top_terms": [
+              "recruiter",
+              "junior",
+              "hr"
+            ],
+            "pct": 3.6
           }
         ]
       }
