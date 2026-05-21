@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-20T10:10:56.353600",
+  "generated_at": "2026-05-21T10:17:49.916844",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 44,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 17.9,
+    "average": 18.5,
     "distribution": {
       "excellent": 0,
-      "good": 1,
+      "good": 2,
       "medium": 10,
       "low": 0,
-      "irrelevant": 33
+      "irrelevant": 34
     },
     "top_jobs": [
       {
@@ -22,12 +22,12 @@
         "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
-        "title": "Quality Assurance & Qualified Person Manager",
-        "company": "SGB Humangest Holding",
-        "score": 58,
+        "title": "Regulatory Affairs Specialist - Energy",
+        "company": "Gruppo Hera",
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412278010"
+        "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
         "title": "Regulatory Specialist",
@@ -38,20 +38,28 @@
         "url": "https://www.linkedin.com/jobs/view/4416632316"
       },
       {
-        "title": "Regulatory Affairs Specialist - Energy",
-        "company": "Gruppo Hera",
+        "title": "Quality Assurance & Qualified Person Manager",
+        "company": "SGB Humangest Holding",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4392674060"
+        "url": "https://www.linkedin.com/jobs/view/4412278010"
       },
       {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
         "company": "PQE Group",
-        "score": 56,
+        "score": 53,
         "site": "linkedin",
-        "date_posted": 1777420800000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
+      },
+      {
+        "title": "Regulatory Compliance Engineer",
+        "company": "Toyota Material Handling Manufacturing Italy SpA",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4413669819"
       },
       {
         "title": "Global Regulatory Affairs Senior Consultant",
@@ -80,7 +88,7 @@
       {
         "title": "Global Regulatory Affairs Senior Consultant",
         "company": "JSB Solutions srl",
-        "score": 45,
+        "score": 44,
         "site": "indeed",
         "date_posted": 1778025600000,
         "url": "https://it.indeed.com/viewjob?jk=1ccf136f6df88cdc"
@@ -96,7 +104,7 @@
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4409235899"
@@ -104,10 +112,18 @@
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
-        "score": 17,
+        "score": 18,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "In Job",
+        "score": 18,
+        "site": "linkedin",
+        "date_posted": 1779235200000,
+        "url": "https://www.linkedin.com/jobs/view/4417041864"
       },
       {
         "title": "Product Manager Cybersecurity (m/f/d)",
@@ -128,10 +144,18 @@
       {
         "title": "Customer Success Migration Specialist (12 Month Contract)",
         "company": "Geotab",
-        "score": 14,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1779148800000,
         "url": "https://it.indeed.com/viewjob?jk=e85fd738811297a3"
+      },
+      {
+        "title": "Customer Quality Assurance Specialist",
+        "company": "IMA Group",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412672591"
       },
       {
         "title": "Senior Quality & Assurance Manager, Fabric",
@@ -142,36 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=7d9b186f28ec0663"
       },
       {
-        "title": "Specialist, Quality Assurance GCP",
-        "company": "Alfasigma group",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1753315200000,
-        "url": "https://it.indeed.com/viewjob?jk=ebddab39430930c1"
-      },
-      {
-        "title": "Customer Quality Assurance Specialist",
-        "company": "IMA Group",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412672591"
-      },
-      {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
-      },
-      {
-        "title": "Junior Legal Counsel (International Trade & Corporate)",
-        "company": "WEFIN SRL",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1779235200000,
-        "url": "https://it.indeed.com/viewjob?jk=663225ca4762b7dc"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -199,9 +199,9 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "sales",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "junior",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,23 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+54%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "current": 5,
-        "avg": 3.2,
-        "change_pct": 53.8
+        "new": 3,
+        "total": 3,
+        "pct": 100.0
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 60% a 0% (-60pp)",
       "data": {
-        "new": 5,
-        "total": 5,
-        "pct": 100.0
+        "channel": "indeed",
+        "old_pct": 60.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 40% a 100% (+60pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 40.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -235,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 16,
+            "id": 4,
+            "size": 13,
             "top_terms": [
-              "specialist",
-              "validation",
-              "estetista"
+              "sales",
+              "estetista",
+              "addetto"
             ],
-            "pct": 36.4
+            "pct": 28.3
           },
           {
-            "id": 2,
-            "size": 9,
+            "id": 0,
+            "size": 10,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 20.5
+            "pct": 21.7
           },
           {
             "id": 3,
-            "size": 9,
+            "size": 10,
             "top_terms": [
               "regulatory",
-              "senior",
-              "medical"
+              "affairs",
+              "stage"
             ],
-            "pct": 20.5
+            "pct": 21.7
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "specialist",
+              "validation",
+              "12"
+            ],
+            "pct": 19.6
           },
           {
             "id": 1,
-            "size": 6,
-            "top_terms": [
-              "manager",
-              "project",
-              "after"
-            ],
-            "pct": 13.6
-          },
-          {
-            "id": 4,
             "size": 4,
             "top_terms": [
-              "stage",
-              "legal",
-              "corporate"
+              "manager",
+              "senior",
+              "device"
             ],
-            "pct": 9.1
+            "pct": 8.7
           }
         ]
       }
