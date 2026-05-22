@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-21T10:17:49.674535",
+  "generated_at": "2026-05-22T10:09:37.032266",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 69,
+  "total_jobs_analyzed": 66,
   "scoring": {
-    "average": 22.0,
+    "average": 22.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 19,
+      "medium": 20,
       "low": 8,
-      "irrelevant": 40
+      "irrelevant": 36
     },
     "top_jobs": [
       {
@@ -24,18 +24,10 @@
       {
         "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
         "company": "Amplity",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4390716325"
-      },
-      {
-        "title": "Medical Affairs Supervisor",
-        "company": "Randstad Italia",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1777852800000,
-        "url": "https://www.linkedin.com/jobs/view/4408641019"
       },
       {
         "title": "Medical Science Liaison",
@@ -46,20 +38,12 @@
         "url": "https://www.linkedin.com/jobs/view/4408424291"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA Laboratories",
+        "title": "Medical Science Liaison Italy W/M",
+        "company": "SERB Pharmaceuticals",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416917838"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415927696"
+        "url": "https://www.linkedin.com/jobs/view/4416580742"
       },
       {
         "title": "SENIOR MEDICAL SCIENCE LIAISON",
@@ -68,6 +52,22 @@
         "site": "linkedin",
         "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4413046066"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA Laboratories",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416917838"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415927696"
       },
       {
         "title": "Medical Specialist - Remote",
@@ -118,14 +118,6 @@
         "url": "https://it.indeed.com/viewjob?jk=30ccccaee08f8da8"
       },
       {
-        "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
-        "company": "ALMA LABORIS Business School",
-        "score": 45,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
-      },
-      {
         "title": "Regulatory Affairs CMC - Sterility Assurance",
         "company": "PQE Group",
         "score": 44,
@@ -142,12 +134,28 @@
         "url": "https://www.linkedin.com/jobs/view/4387290311"
       },
       {
+        "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
+        "company": "ALMA LABORIS Business School",
+        "score": 44,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
+      },
+      {
         "title": "MSL-MA Italy",
         "company": "Astellas Pharma",
         "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405993123"
+      },
+      {
+        "title": "MSL Italy",
+        "company": "SERB Pharmaceuticals",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417492939"
       },
       {
         "title": "PhD / Doctoral Researcher opportunity in neuro-oncology, nanomedicine and image-guided deliveryI",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411739069"
-      },
-      {
-        "title": "Hospital Clinical Specialist",
-        "company": "Essity",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412026146"
       }
     ]
   },
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "senior",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "services",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "cra",
@@ -200,6 +195,11 @@
       },
       {
         "word": "lead",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "product",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -266,31 +266,50 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-61%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-59%)",
       "data": {
         "current": 2,
-        "avg": 5.2,
-        "change_pct": -61.2
+        "avg": 4.9,
+        "change_pct": -59.4
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 SERB Pharmaceuticals: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "company": "SERB Pharmaceuticals",
+        "count": 2
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -300,54 +319,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 32,
-            "top_terms": [
-              "specialist",
-              "product",
-              "quality"
-            ],
-            "pct": 46.4
-          },
-          {
             "id": 4,
-            "size": 16,
-            "top_terms": [
-              "medical",
-              "affairs",
-              "director"
-            ],
-            "pct": 23.2
-          },
-          {
-            "id": 3,
-            "size": 10,
+            "size": 24,
             "top_terms": [
               "senior",
-              "lead",
-              "specialist"
+              "regulatory",
+              "affairs"
             ],
-            "pct": 14.5
+            "pct": 36.4
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 15,
             "top_terms": [
-              "clinical",
               "specialist",
-              "associate"
+              "sales",
+              "clinical"
             ],
-            "pct": 13.0
+            "pct": 22.7
           },
           {
             "id": 0,
-            "size": 2,
+            "size": 12,
             "top_terms": [
-              "nephrology",
-              "metabolic",
-              "experience"
+              "medical",
+              "director",
+              "affairs"
             ],
-            "pct": 2.9
+            "pct": 18.2
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "italy",
+              "msl",
+              "clinical"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "lead",
+              "management",
+              "senior"
+            ],
+            "pct": 6.1
           }
         ]
       }

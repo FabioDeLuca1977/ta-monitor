@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T10:17:49.916844",
+  "generated_at": "2026-05-22T10:09:37.259420",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 46,
@@ -7,8 +7,8 @@
     "average": 18.5,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 10,
+      "good": 1,
+      "medium": 11,
       "low": 0,
       "irrelevant": 34
     },
@@ -16,18 +16,10 @@
       {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416693195"
-      },
-      {
-        "title": "Regulatory Affairs Specialist - Energy",
-        "company": "Gruppo Hera",
         "score": 60,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4392674060"
+        "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
         "title": "Regulatory Specialist",
@@ -36,6 +28,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416632316"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - Energy",
+        "company": "Gruppo Hera",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
         "title": "Quality Assurance & Qualified Person Manager",
@@ -104,9 +104,9 @@
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
-        "score": 42,
+        "score": 40,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4409235899"
       },
       {
@@ -134,20 +134,20 @@
         "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
       },
       {
-        "title": "Senior Territory Manager",
-        "company": "Caterpillar",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1779062400000,
-        "url": "https://it.indeed.com/viewjob?jk=a882a52c421c7964"
-      },
-      {
         "title": "Customer Success Migration Specialist (12 Month Contract)",
         "company": "Geotab",
         "score": 15,
         "site": "indeed",
         "date_posted": 1779148800000,
         "url": "https://it.indeed.com/viewjob?jk=e85fd738811297a3"
+      },
+      {
+        "title": "Powertrain Test Facilities Maintenance Specialist",
+        "company": "Ferrari spa",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1779148800000,
+        "url": "https://it.indeed.com/viewjob?jk=7c501495e7677d15"
       },
       {
         "title": "Customer Quality Assurance Specialist",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4412672591"
       },
       {
-        "title": "Senior Quality & Assurance Manager, Fabric",
-        "company": "Ralph Lauren",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1778803200000,
-        "url": "https://it.indeed.com/viewjob?jk=7d9b186f28ec0663"
-      },
-      {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
+      },
+      {
+        "title": "Senior Quality & Assurance Manager, Fabric",
+        "company": "Ralph Lauren",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1778803200000,
+        "url": "https://it.indeed.com/viewjob?jk=7d9b186f28ec0663"
       }
     ]
   },
@@ -209,32 +209,42 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-71%)",
+      "data": {
+        "current": 1,
+        "avg": 3.5,
+        "change_pct": -71.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 0% (-60pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 60.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 100% (+60pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -245,52 +255,52 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
+            "id": 2,
             "size": 13,
             "top_terms": [
+              "manager",
               "sales",
-              "estetista",
-              "addetto"
+              "estetista"
             ],
             "pct": 28.3
           },
           {
-            "id": 0,
-            "size": 10,
+            "id": 1,
+            "size": 11,
             "top_terms": [
-              "assurance",
               "quality",
+              "assurance",
               "junior"
             ],
+            "pct": 23.9
+          },
+          {
+            "id": 4,
+            "size": 10,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
             "pct": 21.7
+          },
+          {
+            "id": 0,
+            "size": 8,
+            "top_terms": [
+              "validation",
+              "engineer",
+              "device"
+            ],
+            "pct": 17.4
           },
           {
             "id": 3,
-            "size": 10,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "stage"
-            ],
-            "pct": 21.7
-          },
-          {
-            "id": 2,
-            "size": 9,
-            "top_terms": [
-              "specialist",
-              "validation",
-              "12"
-            ],
-            "pct": 19.6
-          },
-          {
-            "id": 1,
             "size": 4,
             "top_terms": [
-              "manager",
-              "senior",
-              "device"
+              "stage",
+              "legal",
+              "corporate"
             ],
             "pct": 8.7
           }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-21T10:17:49.470438",
+  "generated_at": "2026-05-22T10:09:36.843012",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 41,
   "scoring": {
-    "average": 29.1,
+    "average": 27.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 23,
+      "medium": 21,
       "low": 4,
-      "irrelevant": 15
+      "irrelevant": 16
     },
     "top_jobs": [
       {
         "title": "Sales & Clinical Specialist - Veneto",
         "company": "Hartmann",
-        "score": 49,
+        "score": 50,
         "site": "indeed",
         "date_posted": 1779148800000,
         "url": "https://it.indeed.com/viewjob?jk=b2a1bd4ef67b6449"
@@ -28,22 +28,6 @@
         "site": "linkedin",
         "date_posted": 1778025600000,
         "url": "https://www.linkedin.com/jobs/view/4409773802"
-      },
-      {
-        "title": "ISF Informatore Scientifico del Farmaco Verona",
-        "company": "Stewart Italia srl",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1777507200000,
-        "url": "https://www.linkedin.com/jobs/view/4408752466"
-      },
-      {
-        "title": "Informatore Medico Scientifico",
-        "company": "Salugea",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4412285230"
       },
       {
         "title": "Clinical Research Associate",
@@ -78,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4413675692"
       },
       {
+        "title": "Informatore Scientifico del Farmaco",
+        "company": "Grafton Recruitment",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": 1778112000000,
+        "url": "https://www.linkedin.com/jobs/view/4409612295"
+      },
+      {
         "title": "Informatore Medico Scientifico",
         "company": "Agaton",
         "score": 43,
@@ -94,12 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4412800542"
       },
       {
-        "title": "Biocides Regulatory Affairs - Market Leader Company",
-        "company": "NonStop Consulting",
-        "score": 42,
+        "title": "Informatore Medico Scientifico",
+        "company": "Salugea",
+        "score": 43,
         "site": "linkedin",
-        "date_posted": 1777852800000,
-        "url": "https://www.linkedin.com/jobs/view/4410039965"
+        "date_posted": 1779062400000,
+        "url": "https://www.linkedin.com/jobs/view/4412285230"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco",
+        "company": "MENARINI Group",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4413671688"
       },
       {
         "title": "|  INFORMATORE SCIENTIFICO | 150120 |",
@@ -110,6 +110,14 @@
         "url": "https://www.linkedin.com/jobs/view/4408198562"
       },
       {
+        "title": "Biocides Regulatory Affairs - Market Leader Company",
+        "company": "NonStop Consulting",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1777852800000,
+        "url": "https://www.linkedin.com/jobs/view/4410039965"
+      },
+      {
         "title": "Informatore scientifico commerciale | Veneto",
         "company": "PharmaNutra",
         "score": 42,
@@ -118,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399259337"
       },
       {
-        "title": "Informatore Scientifico del Farmaco",
-        "company": "Grafton Recruitment",
+        "title": "Informatore Scientifico Verona/Vicenza/Padova",
+        "company": "Chaberton Professionals",
         "score": 42,
         "site": "linkedin",
-        "date_posted": 1778112000000,
-        "url": "https://www.linkedin.com/jobs/view/4409612295"
+        "date_posted": 1778198400000,
+        "url": "https://www.linkedin.com/jobs/view/4411704164"
       },
       {
         "title": "Regulatory Affairs Expert",
@@ -142,22 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4411579890"
       },
       {
-        "title": "Informatore Scientifico del Farmaco",
-        "company": "MENARINI Group",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4413671688"
-      },
-      {
-        "title": "Clinical Specialist Trach",
-        "company": "Atos Medical",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1777507200000,
-        "url": "https://www.linkedin.com/jobs/view/4407646931"
-      },
-      {
         "title": "ISF/AGENTI MONOMANDATARI - VENETO (Treviso)",
         "company": "Cristalfarma",
         "score": 41,
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410600149"
+      },
+      {
+        "title": "Venditore-ISF / Medicina estetica mininvasiva - Veneto",
+        "company": "Chaberton Professionals",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411577747"
       }
     ]
   },
@@ -194,43 +194,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 4 annunci ultimo scan vs media 3 (+37%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
       "data": {
-        "current": 4,
-        "avg": 2.9,
-        "change_pct": 36.8
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 4,
-        "total": 4,
-        "pct": 100.0
+        "current": 1,
+        "avg": 3.1,
+        "change_pct": -67.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 25% (-75pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 75% (+75pp)",
+      "message": "📡 linkedin: quota passata da 75% a 0% (-75pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 25% a 100% (+75pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 25.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -240,24 +230,24 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 17,
+            "id": 2,
+            "size": 20,
             "top_terms": [
               "manager",
               "senior",
-              "program"
+              "manufacturing"
             ],
-            "pct": 40.5
+            "pct": 48.8
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 0,
+            "size": 7,
             "top_terms": [
-              "informatore",
               "scientifico",
+              "informatore",
               "medico"
             ],
-            "pct": 28.6
+            "pct": 17.1
           },
           {
             "id": 1,
@@ -267,27 +257,27 @@
               "regulatory",
               "specialist"
             ],
-            "pct": 11.9
+            "pct": 12.2
+          },
+          {
+            "id": 4,
+            "size": 5,
+            "top_terms": [
+              "veneto",
+              "isf",
+              "clinical"
+            ],
+            "pct": 12.2
           },
           {
             "id": 3,
             "size": 4,
             "top_terms": [
-              "specialist",
-              "clinical",
-              "italy"
-            ],
-            "pct": 9.5
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "veneto",
+              "farmaco",
               "isf",
-              "verona"
+              "scientifico"
             ],
-            "pct": 9.5
+            "pct": 9.8
           }
         ]
       }

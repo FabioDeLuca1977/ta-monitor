@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-21T10:17:49.336431",
+  "generated_at": "2026-05-22T10:09:36.714119",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 190,
+  "total_jobs_analyzed": 189,
   "scoring": {
-    "average": 25.2,
+    "average": 25.7,
     "distribution": {
       "excellent": 0,
       "good": 9,
-      "medium": 45,
-      "low": 55,
-      "irrelevant": 81
+      "medium": 47,
+      "low": 54,
+      "irrelevant": 79
     },
     "top_jobs": [
       {
@@ -46,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4409391699"
       },
       {
-        "title": "HR Generalist",
-        "company": "Conflavoro PMI",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4409934005"
+        "title": "Senior HR Officer",
+        "company": "LAV - LEGA ANTI VIVISEZIONE",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1779321600000,
+        "url": "https://it.indeed.com/viewjob?jk=9a152c293af20caa"
       },
       {
         "title": "Talent Acquisition Partner",
@@ -62,12 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4410497416"
       },
       {
-        "title": "Talent Acquisition Specialist - Sales",
-        "company": "MioDottore",
+        "title": "HR Generalist",
+        "company": "Conflavoro PMI",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411392513"
+        "date_posted": 1778025600000,
+        "url": "https://www.linkedin.com/jobs/view/4409934005"
       },
       {
         "title": "HR Generalist",
@@ -86,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4411173328"
       },
       {
-        "title": "Talent Acquisition Specialist - Focus on Sales Roles",
-        "company": "TeamSystem",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1777507200000,
-        "url": "https://www.linkedin.com/jobs/view/4368714171"
-      },
-      {
         "title": "Junior HR Talent Acquisition",
         "company": "Palazzo Ripetta | Relais & Châteaux",
         "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4409667902"
+      },
+      {
+        "title": "Talent Acquisition Specialist - Sales",
+        "company": "MioDottore",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411392513"
       },
       {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
@@ -118,11 +118,19 @@
         "url": "https://www.linkedin.com/jobs/view/4416088916"
       },
       {
+        "title": "Talent Acquisition Specialist - Focus on Sales Roles",
+        "company": "TeamSystem",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4368714171"
+      },
+      {
         "title": "Junior Talent Acquisition - Soluzioni Casa",
         "company": "key-absolute",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778025600000,
         "url": "https://www.linkedin.com/jobs/view/4409980178"
       },
       {
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416168702"
-      },
-      {
-        "title": "Stage nel dipartimento di Talent Acquisition (Future Talent Focus)",
-        "company": "MSD",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1778630400000,
-        "url": "https://it.indeed.com/viewjob?jk=41db9c4806865fbb"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "rome",
+        "word": "sales",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -270,13 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 14 (-57%)",
+      "data": {
+        "current": 6,
+        "avg": 14.1,
+        "change_pct": -57.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/13 annunci da aziende nuove (38.5%)",
+      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 5,
-        "total": 13,
-        "pct": 38.5
+        "new": 4,
+        "total": 6,
+        "pct": 66.7
       }
     },
     {
@@ -286,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 93,
+            "id": 2,
+            "size": 89,
             "top_terms": [
               "sales",
-              "specialist",
+              "addetto",
               "roma"
             ],
-            "pct": 48.9
-          },
-          {
-            "id": 1,
-            "size": 36,
-            "top_terms": [
-              "hr",
-              "generalist",
-              "specialist"
-            ],
-            "pct": 18.9
+            "pct": 47.1
           },
           {
             "id": 0,
-            "size": 26,
+            "size": 29,
+            "top_terms": [
+              "specialist",
+              "senior",
+              "hr"
+            ],
+            "pct": 15.3
+          },
+          {
+            "id": 1,
+            "size": 29,
+            "top_terms": [
+              "hr",
+              "generalist",
+              "recruiter"
+            ],
+            "pct": 15.3
+          },
+          {
+            "id": 4,
+            "size": 28,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 13.7
-          },
-          {
-            "id": 2,
-            "size": 24,
-            "top_terms": [
-              "addetto",
-              "personale",
-              "selezione"
-            ],
-            "pct": 12.6
+            "pct": 14.8
           },
           {
             "id": 3,
-            "size": 11,
+            "size": 14,
             "top_terms": [
-              "senior",
-              "consultant",
-              "specialist"
+              "personale",
+              "selezione",
+              "addetto"
             ],
-            "pct": 5.8
+            "pct": 7.4
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-21T10:17:50.008554",
+  "generated_at": "2026-05-22T10:09:37.342918",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 127,
+  "total_jobs_analyzed": 121,
   "scoring": {
-    "average": 10.7,
+    "average": 11.1,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 7,
-      "low": 2,
-      "irrelevant": 114
+      "low": 3,
+      "irrelevant": 107
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4401612170"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Adecco",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412275205"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "Aruba SpA",
         "score": 62,
         "site": "linkedin",
-        "date_posted": 1777593600000,
+        "date_posted": 1778284800000,
         "url": "https://www.linkedin.com/jobs/view/4397318496"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Adecco",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412275205"
       },
       {
         "title": "Regulatory Affairs Consultant",
@@ -48,7 +48,7 @@
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415339755"
@@ -56,7 +56,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini",
-        "score": 54,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
@@ -110,6 +110,14 @@
         "url": "https://it.indeed.com/viewjob?jk=0b2b4e60b33d5674"
       },
       {
+        "title": "Manager – Compliance",
+        "company": "Deloitte",
+        "score": 25,
+        "site": "indeed",
+        "date_posted": 1779321600000,
+        "url": "https://it.indeed.com/viewjob?jk=4ea73a63e66f8d13"
+      },
+      {
         "title": "Industria Farmaceutica",
         "company": "ALMA LABORIS Business School",
         "score": 20,
@@ -134,6 +142,14 @@
         "url": "https://it.indeed.com/viewjob?jk=90aedcb748645238"
       },
       {
+        "title": "Senior Quality Assurance Manager",
+        "company": "Maglificio Azzurra Fashion Group",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1778976000000,
+        "url": "https://it.indeed.com/viewjob?jk=90aedcb748645238"
+      },
+      {
         "title": "Project Manager Medtech | Medical Devices",
         "company": "S4BT - Solutions for Business & Technology",
         "score": 17,
@@ -142,36 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4409361527"
       },
       {
+        "title": "Quality Assurance Compliance Specialist",
+        "company": "Tubilux Pharma",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415070536"
+      },
+      {
         "title": "Associate Technical Specialist – Automation - Core Diagnostics - Europe",
         "company": "Abbott",
         "score": 17,
         "site": "indeed",
         "date_posted": 1779148800000,
         "url": "https://it.indeed.com/viewjob?jk=57c85d74c97b5305"
-      },
-      {
-        "title": "Quality Assurance Compliance Specialist",
-        "company": "Tubilux Pharma",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415070536"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=f760cc54a5468563"
-      },
-      {
-        "title": "Quality Assurance Manager",
-        "company": "Grafton Recruitment",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1777507200000,
-        "url": "https://www.linkedin.com/jobs/view/4406492665"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -189,19 +189,19 @@
         "reason": "Appare 15x in annunci a basso score"
       },
       {
-        "word": "associate",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "junior",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
         "word": "engineer",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "associate",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "italy",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,23 +209,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 9 (-43%)",
-      "data": {
-        "current": 5,
-        "avg": 8.7,
-        "change_pct": -42.6
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "new": 2,
+        "total": 6,
+        "pct": 33.3
       }
     },
     {
@@ -235,54 +225,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 3,
             "size": 54,
             "top_terms": [
               "engineer",
-              "lead",
-              "sales"
+              "manager",
+              "senior"
             ],
-            "pct": 42.5
-          },
-          {
-            "id": 3,
-            "size": 28,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "product"
-            ],
-            "pct": 22.0
-          },
-          {
-            "id": 1,
-            "size": 24,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 18.9
+            "pct": 44.6
           },
           {
             "id": 2,
-            "size": 14,
+            "size": 24,
             "top_terms": [
-              "manager",
-              "italy",
-              "digital"
+              "quality",
+              "assurance",
+              "manager"
             ],
-            "pct": 11.0
+            "pct": 19.8
+          },
+          {
+            "id": 1,
+            "size": 20,
+            "top_terms": [
+              "specialist",
+              "product",
+              "regulatory"
+            ],
+            "pct": 16.5
           },
           {
             "id": 4,
+            "size": 16,
+            "top_terms": [
+              "italy",
+              "affairs",
+              "regulatory"
+            ],
+            "pct": 13.2
+          },
+          {
+            "id": 0,
             "size": 7,
             "top_terms": [
-              "medical",
-              "director",
-              "italy"
+              "lead",
+              "process",
+              "validation"
             ],
-            "pct": 5.5
+            "pct": 5.8
           }
         ]
       }

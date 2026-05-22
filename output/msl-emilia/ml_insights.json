@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-21T10:17:49.612340",
+  "generated_at": "2026-05-22T10:09:36.977078",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 20,
   "scoring": {
-    "average": 21.6,
+    "average": 21.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -66,7 +66,7 @@
         "company": "Intertek",
         "score": 33,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4409235899"
       },
       {
@@ -110,19 +110,11 @@
         "url": "https://it.indeed.com/viewjob?jk=5dd221289581cd8d"
       },
       {
-        "title": "Product Support Specialist JR - Emilia Romagna",
-        "company": "Stryker",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
-      },
-      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778025600000,
         "url": "https://www.linkedin.com/jobs/view/4389193185"
       },
       {
@@ -142,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4413426472"
       },
       {
-        "title": "Molding Engineer",
-        "company": "Dikton S.r.l.",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=626aa04416d30768"
-      },
-      {
         "title": "Production Planner",
         "company": "LINCOTEK GROUP",
         "score": 4,
@@ -158,12 +142,28 @@
         "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
       },
       {
+        "title": "Product Support Specialist JR - Emilia Romagna",
+        "company": "Stryker",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1778716800000,
+        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
+      },
+      {
         "title": "Senior Design Engineer",
         "company": "Transmedics",
         "score": 0,
         "site": "indeed",
         "date_posted": 1778112000000,
         "url": "https://it.indeed.com/viewjob?jk=0a14160e2f0b474d"
+      },
+      {
+        "title": "Molding Engineer",
+        "company": "Dikton S.r.l.",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1778716800000,
+        "url": "https://it.indeed.com/viewjob?jk=626aa04416d30768"
       },
       {
         "title": "Neolaureati Farmacia e Chimica",
@@ -250,20 +250,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 50.0
       }
     },
@@ -274,32 +274,32 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 8,
-            "top_terms": [
-              "settore",
-              "medicale",
-              "marketing"
-            ],
-            "pct": 40.0
-          },
-          {
-            "id": 2,
-            "size": 6,
+            "id": 0,
+            "size": 11,
             "top_terms": [
               "regulatory",
-              "affairs",
-              "specialist"
+              "specialist",
+              "affairs"
             ],
-            "pct": 30.0
+            "pct": 55.0
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 3,
             "top_terms": [
               "cra",
               "senior",
               "stage"
+            ],
+            "pct": 15.0
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "settore",
+              "medicale",
+              "marketing"
             ],
             "pct": 15.0
           },
