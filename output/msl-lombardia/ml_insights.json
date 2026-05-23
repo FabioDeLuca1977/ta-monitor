@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-05-22T10:09:36.949339",
+  "generated_at": "2026-05-23T09:00:16.195039",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 199,
+  "total_jobs_analyzed": 195,
   "scoring": {
-    "average": 30.2,
+    "average": 30.0,
     "distribution": {
       "excellent": 0,
-      "good": 8,
+      "good": 6,
       "medium": 91,
-      "low": 15,
+      "low": 13,
       "irrelevant": 85
     },
     "top_jobs": [
-      {
-        "title": "Medical Advisor Biologics - Dermatology",
-        "company": "Galderma",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4380931992"
-      },
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
@@ -36,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1778976000000,
         "url": "https://www.linkedin.com/jobs/view/4331970390"
-      },
-      {
-        "title": "Junior Medical Affairs Manager",
-        "company": "SINCLAIR",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1778544000000,
-        "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
       },
       {
         "title": "Junior Medical Science Liaison Lung Cancer – Toscana e Umbria (Maternity Leave Cover)",
@@ -62,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4411264071"
       },
       {
-        "title": "Medical Science Liaison Amyloidosis (Puglia, Campania, Basilicata, Calabria Sicilia)",
-        "company": "AstraZeneca",
+        "title": "Junior Medical Affairs Manager",
+        "company": "SINCLAIR",
         "score": 60,
         "site": "indeed",
-        "date_posted": 1779321600000,
-        "url": "https://it.indeed.com/viewjob?jk=379f9312df52d473"
+        "date_posted": 1778544000000,
+        "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
       },
       {
         "title": "Associate Medical Director, Italy",
@@ -86,20 +70,28 @@
         "url": "https://www.linkedin.com/jobs/view/4404170968"
       },
       {
+        "title": "Medical Science Liaison Amyloidosis (Puglia, Campania, Basilicata, Calabria Sicilia)",
+        "company": "AstraZeneca",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1779321600000,
+        "url": "https://it.indeed.com/viewjob?jk=379f9312df52d473"
+      },
+      {
         "title": "Medical Science Liaison Amyloidosis (Toscana, Umbria, Lazio, Molise, Sardegna)",
         "company": "AstraZeneca",
-        "score": 58,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1779321600000,
         "url": "https://it.indeed.com/viewjob?jk=32d0d87738bbbe32"
       },
       {
-        "title": "Medical Affairs Clinician - Italy",
-        "company": "Evolus",
-        "score": 57,
+        "title": "Medical Advisor Biologics - Dermatology",
+        "company": "Galderma",
+        "score": 58,
         "site": "linkedin",
-        "date_posted": 1777852800000,
-        "url": "https://www.linkedin.com/jobs/view/4342294307"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
         "title": "Medical Affairs Lead BH",
@@ -126,12 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4331270944"
       },
       {
+        "title": "Quality & Regulatory Affairs Specialist - Extra EU",
+        "company": "Mynameis",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1779235200000,
+        "url": "https://www.linkedin.com/jobs/view/4417080641"
+      },
+      {
         "title": "Stage in Medical Affairs",
         "company": "Johnson & Johnson Innovative Medicine",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4411652146"
+      },
+      {
+        "title": "Medical Affairs Clinician - Italy",
+        "company": "Evolus",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1777852800000,
+        "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
         "title": "(Associate) Medical Director - Neurology",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1779235200000,
         "url": "https://www.linkedin.com/jobs/view/4416117540"
-      },
-      {
-        "title": "Quality & Regulatory Affairs Specialist - Extra EU",
-        "company": "Mynameis",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1779235200000,
-        "url": "https://www.linkedin.com/jobs/view/4417080641"
       }
     ]
   },
@@ -185,13 +185,13 @@
       },
       {
         "word": "market",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -270,32 +270,23 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 20 annunci ultimo scan vs media 13 (+56%)",
-      "data": {
-        "current": 20,
-        "avg": 12.8,
-        "change_pct": 56.4
-      }
-    },
-    {
-      "type": "new_company_surge",
+      "type": "volume_drop",
       "severity": "medium",
-      "message": "🆕 Cytokinetics: 2 posizioni, non presente negli scan precedenti",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 13 (-40%)",
       "data": {
-        "company": "Cytokinetics",
-        "count": 2
+        "current": 8,
+        "avg": 13.4,
+        "change_pct": -40.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/20 annunci da aziende nuove (45.0%)",
+      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 9,
-        "total": 20,
-        "pct": 45.0
+        "new": 4,
+        "total": 8,
+        "pct": 50.0
       }
     },
     {
@@ -305,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 100,
+            "id": 3,
+            "size": 102,
             "top_terms": [
               "medical",
               "director",
-              "italy"
+              "manager"
             ],
-            "pct": 50.3
+            "pct": 52.3
           },
           {
-            "id": 4,
-            "size": 37,
+            "id": 2,
+            "size": 35,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 17.9
+          },
+          {
+            "id": 1,
+            "size": 29,
             "top_terms": [
               "clinical",
               "research",
               "associate"
             ],
-            "pct": 18.6
+            "pct": 14.9
           },
           {
-            "id": 2,
-            "size": 29,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 14.6
-          },
-          {
-            "id": 3,
-            "size": 18,
+            "id": 0,
+            "size": 16,
             "top_terms": [
               "access",
               "market",
               "manager"
             ],
-            "pct": 9.0
+            "pct": 8.2
           },
           {
-            "id": 1,
-            "size": 15,
+            "id": 4,
+            "size": 13,
             "top_terms": [
-              "senior",
-              "cra",
-              "manager"
+              "coordinator",
+              "milan",
+              "it"
             ],
-            "pct": 7.5
+            "pct": 6.7
           }
         ]
       }

@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-05-22T10:09:37.259420",
+  "generated_at": "2026-05-23T09:00:16.536270",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 46,
+  "total_jobs_analyzed": 47,
   "scoring": {
-    "average": 18.5,
+    "average": 18.0,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 11,
+      "good": 2,
+      "medium": 10,
       "low": 0,
-      "irrelevant": 34
+      "irrelevant": 35
     },
     "top_jobs": [
+      {
+        "title": "Regulatory Affairs Specialist - Energy",
+        "company": "Gruppo Hera",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4392674060"
+      },
       {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
@@ -30,14 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4416632316"
       },
       {
-        "title": "Regulatory Affairs Specialist - Energy",
-        "company": "Gruppo Hera",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
-      {
         "title": "Quality Assurance & Qualified Person Manager",
         "company": "SGB Humangest Holding",
         "score": 57,
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
         "company": "PQE Group",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
@@ -126,30 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4417041864"
       },
       {
-        "title": "Product Manager Cybersecurity (m/f/d)",
-        "company": "Danfoss",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
-      },
-      {
-        "title": "Customer Success Migration Specialist (12 Month Contract)",
-        "company": "Geotab",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=e85fd738811297a3"
-      },
-      {
-        "title": "Powertrain Test Facilities Maintenance Specialist",
-        "company": "Ferrari spa",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=7c501495e7677d15"
-      },
-      {
         "title": "Customer Quality Assurance Specialist",
         "company": "IMA Group",
         "score": 13,
@@ -166,12 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
-        "title": "Senior Quality & Assurance Manager, Fabric",
-        "company": "Ralph Lauren",
+        "title": "Product Manager Cybersecurity (m/f/d)",
+        "company": "Danfoss",
         "score": 12,
         "site": "indeed",
-        "date_posted": 1778803200000,
-        "url": "https://it.indeed.com/viewjob?jk=7d9b186f28ec0663"
+        "date_posted": 1779148800000,
+        "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
+      },
+      {
+        "title": "Senior Territory Manager",
+        "company": "Caterpillar",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1779062400000,
+        "url": "https://it.indeed.com/viewjob?jk=a882a52c421c7964"
+      },
+      {
+        "title": "Forwarding Management Administrator Italy (Pantigliate)",
+        "company": "CEVA Logistics",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1779408000000,
+        "url": "https://it.indeed.com/viewjob?jk=baea30fe51b35731"
+      },
+      {
+        "title": "Customer Success Migration Specialist (12 Month Contract)",
+        "company": "Geotab",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1779148800000,
+        "url": "https://it.indeed.com/viewjob?jk=e85fd738811297a3"
       }
     ]
   },
@@ -194,12 +194,12 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "junior",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "junior",
+        "word": "engineer",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-71%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
       "data": {
         "current": 1,
         "avg": 3.5,
-        "change_pct": -71.1
+        "change_pct": -71.7
       }
     },
     {
@@ -229,80 +229,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 0,
             "size": 13,
             "top_terms": [
-              "manager",
-              "sales",
-              "estetista"
+              "sistema",
+              "estetista",
+              "sales"
             ],
-            "pct": 28.3
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "junior"
-            ],
-            "pct": 23.9
-          },
-          {
-            "id": 4,
-            "size": 10,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 21.7
-          },
-          {
-            "id": 0,
-            "size": 8,
-            "top_terms": [
-              "validation",
-              "engineer",
-              "device"
-            ],
-            "pct": 17.4
+            "pct": 27.7
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 10,
             "top_terms": [
-              "stage",
-              "legal",
-              "corporate"
+              "assurance",
+              "quality",
+              "junior"
             ],
-            "pct": 8.7
+            "pct": 21.3
+          },
+          {
+            "id": 4,
+            "size": 9,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "stage"
+            ],
+            "pct": 19.1
+          },
+          {
+            "id": 2,
+            "size": 8,
+            "top_terms": [
+              "specialist",
+              "validation",
+              "documentation"
+            ],
+            "pct": 17.0
+          },
+          {
+            "id": 1,
+            "size": 7,
+            "top_terms": [
+              "manager",
+              "senior",
+              "device"
+            ],
+            "pct": 14.9
           }
         ]
       }

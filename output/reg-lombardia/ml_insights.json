@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-22T10:09:37.221034",
+  "generated_at": "2026-05-23T09:00:16.492661",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 282,
+  "total_jobs_analyzed": 285,
   "scoring": {
-    "average": 16.6,
+    "average": 16.4,
     "distribution": {
       "excellent": 0,
       "good": 18,
-      "medium": 35,
+      "medium": 34,
       "low": 10,
-      "irrelevant": 219
+      "irrelevant": 223
     },
     "top_jobs": [
       {
@@ -38,20 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4416280064"
       },
       {
-        "title": "Quality & Regulatory Specialist",
-        "company": "PERMEDICA SPA",
-        "score": 64,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=386e46d6b3d599bd"
-      },
-      {
         "title": "Regulatory Affairs Manager",
         "company": "MEDSPA Srl",
         "score": 63,
         "site": "linkedin",
         "date_posted": 1777852800000,
         "url": "https://www.linkedin.com/jobs/view/4407767154"
+      },
+      {
+        "title": "Scientific and Regulatory Affairs Manager",
+        "company": "Henkel",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404914214"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4407442995"
       },
       {
-        "title": "SCM External Regulatory Compliance Manager",
-        "company": "Hitachi Energy",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1777593600000,
-        "url": "https://www.linkedin.com/jobs/view/4407907840"
-      },
-      {
         "title": "Regulatory Affairs Specialist – REACH & Cosmetics",
         "company": "Hays",
         "score": 62,
@@ -78,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4412551142"
       },
       {
-        "title": "Scientific and Regulatory Affairs Manager",
-        "company": "Henkel",
+        "title": "SCM External Regulatory Compliance Manager",
+        "company": "Hitachi Energy",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4404914214"
+        "url": "https://www.linkedin.com/jobs/view/4407907840"
       },
       {
         "title": "Regulatory Affairs Specialist – Cosmetico",
@@ -118,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4413674804"
       },
       {
-        "title": "Regulatory Affairs",
-        "company": "Adecco",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1778025600000,
-        "url": "https://www.linkedin.com/jobs/view/4408863940"
-      },
-      {
         "title": "Regulatory Affairs Program Owner",
         "company": "PQE Group",
         "score": 61,
@@ -134,20 +118,36 @@
         "url": "https://www.linkedin.com/jobs/view/4401605988"
       },
       {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4382428748"
+      },
+      {
         "title": "Regulatory Affairs | Brescia",
         "company": "Biopharmed",
         "score": 61,
         "site": "linkedin",
-        "date_posted": 1777593600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
-        "title": "Regulatory Affairs Manager - Plant Protection Products",
-        "company": "ADAMA Ltd.",
+        "title": "Regulatory Affairs",
+        "company": "Adecco",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414344339"
+      },
+      {
+        "title": "Regulatory Affairs Specialist JR – Settore Chimico",
+        "company": "Ali Professional",
         "score": 60,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4362746384"
+        "url": "https://www.linkedin.com/jobs/view/4408729883"
       },
       {
         "title": "International Regulatory Affairs Project Manager",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4408772783"
       },
       {
-        "title": "Regulatory Specialist",
-        "company": "Volcke Aerosol",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1778025600000,
-        "url": "https://www.linkedin.com/jobs/view/4408878230"
-      },
-      {
         "title": "Lead Regulatory Affairs Manager, International",
         "company": "Exact Sciences",
         "score": 59,
         "site": "linkedin",
         "date_posted": 1777766400000,
         "url": "https://www.linkedin.com/jobs/view/4387965325"
+      },
+      {
+        "title": "Regulatory Specialist",
+        "company": "Volcke Aerosol",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1778025600000,
+        "url": "https://www.linkedin.com/jobs/view/4408878230"
       }
     ]
   },
@@ -179,17 +179,22 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "quality",
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
+      },
+      {
         "word": "assurance",
         "count": 30,
         "reason": "Appare 30x in annunci a basso score"
       },
       {
-        "word": "italy",
+        "word": "junior",
         "count": 13,
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "junior",
+        "word": "italy",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
@@ -197,30 +202,19 @@
         "word": "clinical",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "product",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
-      "keyword": "affairs consultant",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "lead regulatory",
+      "keyword": "junior regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "junior regulatory",
+      "keyword": "lead regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -262,6 +256,12 @@
       "confidence": 30
     },
     {
+      "keyword": "affairs consultant",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "gomma plastica",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -270,13 +270,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 13 annunci ultimo scan vs media 19 (-33%)",
+      "data": {
+        "current": 13,
+        "avg": 19.4,
+        "change_pct": -33.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 15/23 annunci da aziende nuove (65.2%)",
+      "message": "📊 Ultimo scan: 10/13 annunci da aziende nuove (76.9%)",
       "data": {
-        "new": 15,
-        "total": 23,
-        "pct": 65.2
+        "new": 10,
+        "total": 13,
+        "pct": 76.9
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 35% a 15% (-19pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 34.8,
+        "new_pct": 15.4
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 65% a 85% (+19pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 65.2,
+        "new_pct": 84.6
       }
     },
     {
@@ -286,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 142,
+            "id": 0,
+            "size": 149,
             "top_terms": [
               "specialist",
-              "compliance",
+              "junior",
               "engineer"
             ],
-            "pct": 50.4
+            "pct": 52.3
           },
           {
             "id": 4,
-            "size": 46,
+            "size": 45,
             "top_terms": [
               "manager",
               "clinical",
-              "project"
+              "compliance"
             ],
-            "pct": 16.3
+            "pct": 15.8
           },
           {
-            "id": 3,
-            "size": 41,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 14.5
-          },
-          {
-            "id": 1,
-            "size": 34,
+            "id": 2,
+            "size": 33,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 12.1
+            "pct": 11.6
           },
           {
-            "id": 0,
-            "size": 19,
+            "id": 3,
+            "size": 32,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 11.2
+          },
+          {
+            "id": 1,
+            "size": 26,
             "top_terms": [
               "senior",
-              "executive",
-              "account"
+              "italy",
+              "executive"
             ],
-            "pct": 6.7
+            "pct": 9.1
           }
         ]
       }
