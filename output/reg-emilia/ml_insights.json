@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-05-23T09:00:16.536270",
+  "generated_at": "2026-05-24T09:12:37.892848",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 47,
+  "total_jobs_analyzed": 48,
   "scoring": {
-    "average": 18.0,
+    "average": 17.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 10,
       "low": 0,
-      "irrelevant": 35
+      "irrelevant": 36
     },
     "top_jobs": [
+      {
+        "title": "Senior Regulatory Affairs Specialist - Medical Devices",
+        "company": "Jefferson Wells Italia",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416693195"
+      },
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist - Medical Devices",
-        "company": "Jefferson Wells Italia",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
         "title": "Regulatory Specialist",
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
         "company": "PQE Group",
-        "score": 54,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
@@ -104,7 +104,7 @@
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
-        "score": 40,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4409235899"
@@ -118,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4411598286"
       },
       {
-        "title": "Quality Assurance",
-        "company": "In Job",
-        "score": 18,
-        "site": "linkedin",
-        "date_posted": 1779235200000,
-        "url": "https://www.linkedin.com/jobs/view/4417041864"
-      },
-      {
         "title": "Customer Quality Assurance Specialist",
         "company": "IMA Group",
         "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412672591"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "In Job",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1779235200000,
+        "url": "https://www.linkedin.com/jobs/view/4417041864"
       },
       {
         "title": "RA Specialist - Medical Devices",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=baea30fe51b35731"
       },
       {
-        "title": "Customer Success Migration Specialist (12 Month Contract)",
-        "company": "Geotab",
-        "score": 10,
+        "title": "Senior CRA",
+        "company": "Thermo Fisher Scientific",
+        "score": 11,
         "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=e85fd738811297a3"
+        "date_posted": 1779494400000,
+        "url": "https://it.indeed.com/viewjob?jk=17e706de17d4173b"
       }
     ]
   },
@@ -214,8 +214,8 @@
       "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
       "data": {
         "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.7
+        "avg": 3.6,
+        "change_pct": -72.3
       }
     },
     {
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 13,
+            "id": 3,
+            "size": 16,
             "top_terms": [
-              "sistema",
+              "senior",
               "estetista",
-              "sales"
+              "sistema"
             ],
-            "pct": 27.7
+            "pct": 33.3
           },
           {
-            "id": 3,
-            "size": 10,
+            "id": 0,
+            "size": 9,
+            "top_terms": [
+              "specialist",
+              "validation",
+              "regulatory"
+            ],
+            "pct": 18.8
+          },
+          {
+            "id": 1,
+            "size": 8,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 21.3
+            "pct": 16.7
           },
           {
             "id": 4,
-            "size": 9,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "stage"
-            ],
-            "pct": 19.1
-          },
-          {
-            "id": 2,
             "size": 8,
-            "top_terms": [
-              "specialist",
-              "validation",
-              "documentation"
-            ],
-            "pct": 17.0
-          },
-          {
-            "id": 1,
-            "size": 7,
             "top_terms": [
               "manager",
               "senior",
-              "device"
+              "after"
             ],
-            "pct": 14.9
+            "pct": 16.7
+          },
+          {
+            "id": 2,
+            "size": 7,
+            "top_terms": [
+              "regulatory",
+              "stage",
+              "affairs"
+            ],
+            "pct": 14.6
           }
         ]
       }

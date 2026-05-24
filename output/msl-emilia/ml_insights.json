@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T09:00:16.226723",
+  "generated_at": "2026-05-24T09:12:37.607794",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 20,
@@ -274,32 +274,32 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 8,
-            "top_terms": [
-              "settore",
-              "medicale",
-              "marketing"
-            ],
-            "pct": 40.0
-          },
-          {
-            "id": 2,
-            "size": 6,
+            "id": 0,
+            "size": 11,
             "top_terms": [
               "regulatory",
-              "affairs",
-              "specialist"
+              "specialist",
+              "affairs"
             ],
-            "pct": 30.0
+            "pct": 55.0
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 3,
             "top_terms": [
               "cra",
               "senior",
               "stage"
+            ],
+            "pct": 15.0
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "settore",
+              "medicale",
+              "marketing"
             ],
             "pct": 15.0
           },

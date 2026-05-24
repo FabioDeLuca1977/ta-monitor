@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-23T09:00:16.079132",
+  "generated_at": "2026-05-24T09:12:37.474858",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 28.3,
+    "average": 28.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 19,
-      "low": 6,
-      "irrelevant": 16
+      "low": 5,
+      "irrelevant": 15
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Informatore Scientifico del Farmaco (ISF)",
         "company": "Professional Recruitment",
-        "score": 59,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1779235200000,
         "url": "https://www.linkedin.com/jobs/view/4416128293"
@@ -50,7 +50,7 @@
         "company": "Alira Health",
         "score": 47,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4412161477"
       },
       {
@@ -122,7 +122,7 @@
         "company": "PharmaNutra",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4411885538"
       },
       {
@@ -239,24 +239,24 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 16,
+            "id": 4,
+            "size": 14,
             "top_terms": [
-              "manager",
-              "health",
-              "manufacturing"
+              "affairs",
+              "regulatory",
+              "senior"
             ],
-            "pct": 38.1
+            "pct": 35.0
           },
           {
             "id": 0,
-            "size": 12,
+            "size": 9,
             "top_terms": [
               "scientifico",
               "informatore",
               "medico"
             ],
-            "pct": 28.6
+            "pct": 22.5
           },
           {
             "id": 1,
@@ -266,27 +266,27 @@
               "specialist",
               "research"
             ],
-            "pct": 14.3
+            "pct": 15.0
           },
           {
             "id": 2,
-            "size": 4,
+            "size": 6,
             "top_terms": [
-              "isf",
               "veneto",
-              "verona"
+              "isf",
+              "scientifico"
             ],
-            "pct": 9.5
+            "pct": 15.0
           },
           {
-            "id": 4,
-            "size": 4,
+            "id": 3,
+            "size": 5,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "manager",
+              "product",
+              "junior"
             ],
-            "pct": 9.5
+            "pct": 12.5
           }
         ]
       }

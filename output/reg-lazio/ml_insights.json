@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-23T09:00:16.627286",
+  "generated_at": "2026-05-24T09:12:37.977822",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 124,
+  "total_jobs_analyzed": 122,
   "scoring": {
-    "average": 10.4,
+    "average": 10.5,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 6,
+      "good": 3,
+      "medium": 7,
       "low": 3,
-      "irrelevant": 111
+      "irrelevant": 109
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415339755"
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini",
-        "score": 55,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
@@ -58,7 +58,7 @@
         "company": "MedicAir",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4412124851"
       },
       {
@@ -118,22 +118,6 @@
         "url": "https://it.indeed.com/viewjob?jk=2c49682f46bd050d"
       },
       {
-        "title": "Senior Quality Assurance Manager",
-        "company": null,
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1778976000000,
-        "url": "https://it.indeed.com/viewjob?jk=90aedcb748645238"
-      },
-      {
-        "title": "Senior Quality Assurance Manager",
-        "company": "Maglificio Azzurra Fashion Group",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1778976000000,
-        "url": "https://it.indeed.com/viewjob?jk=90aedcb748645238"
-      },
-      {
         "title": "Country Manager Italy",
         "company": "AXA",
         "score": 18,
@@ -156,6 +140,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415070536"
+      },
+      {
+        "title": "Senior Quality Assurance Manager",
+        "company": null,
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1778976000000,
+        "url": "https://it.indeed.com/viewjob?jk=90aedcb748645238"
+      },
+      {
+        "title": "Senior Quality Assurance Manager",
+        "company": "Maglificio Azzurra Fashion Group",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1778976000000,
+        "url": "https://it.indeed.com/viewjob?jk=90aedcb748645238"
       },
       {
         "title": "Quality Assurance Manager",
@@ -210,22 +210,32 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 8 (-41%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 9 (-88%)",
       "data": {
-        "current": 5,
-        "avg": 8.5,
-        "change_pct": -41.2
+        "current": 1,
+        "avg": 8.6,
+        "change_pct": -88.4
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 20% a 0% (-20pp)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "channel": "linkedin",
+        "old_pct": 20.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 80% a 100% (+20pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -235,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 74,
+            "id": 4,
+            "size": 63,
             "top_terms": [
-              "specialist",
               "manager",
-              "sales"
-            ],
-            "pct": 59.7
-          },
-          {
-            "id": 1,
-            "size": 26,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 21.0
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "engineer",
-              "rome",
+              "italy",
               "senior"
             ],
-            "pct": 7.3
-          },
-          {
-            "id": 4,
-            "size": 8,
-            "top_terms": [
-              "italy",
-              "manager",
-              "rome"
-            ],
-            "pct": 6.5
+            "pct": 51.6
           },
           {
             "id": 3,
-            "size": 7,
+            "size": 24,
             "top_terms": [
-              "lead",
-              "validation",
-              "process"
+              "quality",
+              "assurance",
+              "manager"
             ],
-            "pct": 5.6
+            "pct": 19.7
+          },
+          {
+            "id": 2,
+            "size": 20,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "validation"
+            ],
+            "pct": 16.4
+          },
+          {
+            "id": 0,
+            "size": 10,
+            "top_terms": [
+              "engineer",
+              "junior",
+              "rome"
+            ],
+            "pct": 8.2
+          },
+          {
+            "id": 1,
+            "size": 5,
+            "top_terms": [
+              "program",
+              "term",
+              "production"
+            ],
+            "pct": 4.1
           }
         ]
       }

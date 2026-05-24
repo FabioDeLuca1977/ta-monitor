@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-05-23T09:00:16.492661",
+  "generated_at": "2026-05-24T09:12:37.853913",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
   "total_jobs_analyzed": 285,
   "scoring": {
-    "average": 16.4,
+    "average": 16.2,
     "distribution": {
       "excellent": 0,
-      "good": 18,
-      "medium": 34,
-      "low": 10,
-      "irrelevant": 223
+      "good": 20,
+      "medium": 32,
+      "low": 9,
+      "irrelevant": 224
     },
     "top_jobs": [
+      {
+        "title": "Regulatory Affairs CMC Specialist",
+        "company": "Recordati",
+        "score": 78,
+        "site": "linkedin",
+        "date_posted": 1779408000000,
+        "url": "https://www.linkedin.com/jobs/view/4377177028"
+      },
       {
         "title": "Regulatory Affairs - ambito Gomma Plastica",
         "company": "Adecco",
@@ -110,20 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4413674804"
       },
       {
-        "title": "Regulatory Affairs Program Owner",
-        "company": "PQE Group",
-        "score": 61,
+        "title": "Regulatory Compliance Counsel",
+        "company": "VF Corporation",
+        "score": 62,
         "site": "linkedin",
-        "date_posted": 1777939200000,
-        "url": "https://www.linkedin.com/jobs/view/4401605988"
+        "date_posted": 1779408000000,
+        "url": "https://www.linkedin.com/jobs/view/4407616688"
       },
       {
         "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
         "company": "Parexel",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778284800000,
         "url": "https://www.linkedin.com/jobs/view/4382428748"
+      },
+      {
+        "title": "Regulatory Affairs Program Owner",
+        "company": "PQE Group",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1777939200000,
+        "url": "https://www.linkedin.com/jobs/view/4401605988"
       },
       {
         "title": "Regulatory Affairs | Brescia",
@@ -146,7 +162,7 @@
         "company": "Ali Professional",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4408729883"
       },
       {
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408772783"
-      },
-      {
-        "title": "Lead Regulatory Affairs Manager, International",
-        "company": "Exact Sciences",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1777766400000,
-        "url": "https://www.linkedin.com/jobs/view/4387965325"
-      },
-      {
-        "title": "Regulatory Specialist",
-        "company": "Volcke Aerosol",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1778025600000,
-        "url": "https://www.linkedin.com/jobs/view/4408878230"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
+        "count": 35,
+        "reason": "Appare 35x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "junior",
@@ -194,12 +194,12 @@
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "italy",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "word": "clinical",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "clinical",
+        "word": "data",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       }
@@ -208,13 +208,7 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "junior regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "lead regulatory",
+      "keyword": "affairs consultant",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -256,7 +250,13 @@
       "confidence": 30
     },
     {
-      "keyword": "affairs consultant",
+      "keyword": "junior regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "lead regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -271,42 +271,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 13 annunci ultimo scan vs media 19 (-33%)",
+      "severity": "high",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 20 (-80%)",
       "data": {
-        "current": 13,
-        "avg": 19.4,
-        "change_pct": -33.1
+        "current": 4,
+        "avg": 20.1,
+        "change_pct": -80.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 10/13 annunci da aziende nuove (76.9%)",
+      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
       "data": {
-        "new": 10,
-        "total": 13,
-        "pct": 76.9
+        "new": 1,
+        "total": 4,
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 35% a 15% (-19pp)",
+      "message": "📡 linkedin: quota passata da 15% a 75% (+60pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 34.8,
-        "new_pct": 15.4
+        "old_pct": 15.4,
+        "new_pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 65% a 85% (+19pp)",
+      "message": "📡 indeed: quota passata da 85% a 25% (-60pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 65.2,
-        "new_pct": 84.6
+        "old_pct": 84.6,
+        "new_pct": 25.0
       }
     },
     {
@@ -316,24 +316,14 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 149,
-            "top_terms": [
-              "specialist",
-              "junior",
-              "engineer"
-            ],
-            "pct": 52.3
-          },
-          {
             "id": 4,
-            "size": 45,
+            "size": 193,
             "top_terms": [
               "manager",
-              "clinical",
+              "senior",
               "compliance"
             ],
-            "pct": 15.8
+            "pct": 67.7
           },
           {
             "id": 2,
@@ -346,24 +336,34 @@
             "pct": 11.6
           },
           {
-            "id": 3,
-            "size": 32,
+            "id": 1,
+            "size": 30,
             "top_terms": [
-              "regulatory",
               "affairs",
+              "regulatory",
               "specialist"
             ],
-            "pct": 11.2
+            "pct": 10.5
           },
           {
-            "id": 1,
-            "size": 26,
+            "id": 3,
+            "size": 27,
             "top_terms": [
-              "senior",
-              "italy",
-              "executive"
+              "specialist",
+              "compliance",
+              "technical"
             ],
-            "pct": 9.1
+            "pct": 9.5
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "total",
+              "ges",
+              "rewards"
+            ],
+            "pct": 0.7
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-23T09:00:15.942719",
+  "generated_at": "2026-05-24T09:12:37.347100",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 192,
+  "total_jobs_analyzed": 194,
   "scoring": {
-    "average": 25.3,
+    "average": 24.8,
     "distribution": {
       "excellent": 0,
-      "good": 10,
+      "good": 9,
       "medium": 43,
-      "low": 58,
-      "irrelevant": 81
+      "low": 59,
+      "irrelevant": 83
     },
     "top_jobs": [
       {
         "title": "HR Specialist - Recruiter",
         "company": "Nico srl",
-        "score": 73,
+        "score": 68,
         "site": "indeed",
         "date_posted": 1779235200000,
         "url": "https://it.indeed.com/viewjob?jk=419d5d53bd751dbf"
@@ -38,14 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4411169865"
       },
       {
-        "title": "HR Specialist Casa",
-        "company": "key-absolute",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1777939200000,
-        "url": "https://www.linkedin.com/jobs/view/4409391699"
-      },
-      {
         "title": "Senior HR Officer",
         "company": "LAV - LEGA ANTI VIVISEZIONE",
         "score": 61,
@@ -54,20 +46,20 @@
         "url": "https://it.indeed.com/viewjob?jk=9a152c293af20caa"
       },
       {
+        "title": "Talent Acquisition Specialist - Sales",
+        "company": "MioDottore",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1778198400000,
+        "url": "https://www.linkedin.com/jobs/view/4411392513"
+      },
+      {
         "title": "Junior HR Talent Acquisition",
         "company": "Palazzo Ripetta | Relais & Châteaux",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4409667902"
-      },
-      {
-        "title": "Talent Acquisition Specialist - Sales",
-        "company": "MioDottore",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411392513"
       },
       {
         "title": "Talent Acquisition Partner",
@@ -94,6 +86,14 @@
         "url": "https://www.linkedin.com/jobs/view/4411173328"
       },
       {
+        "title": "HR Specialist Casa",
+        "company": "key-absolute",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1777939200000,
+        "url": "https://www.linkedin.com/jobs/view/4409391699"
+      },
+      {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
         "company": "DAN JOHN ITALIA SPA",
         "score": 59,
@@ -114,7 +114,7 @@
         "company": "OIS Group",
         "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4411877696"
       },
       {
@@ -124,14 +124,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4376767068"
-      },
-      {
-        "title": "Junior Talent Acquisition - Soluzioni Casa",
-        "company": "key-absolute",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1778025600000,
-        "url": "https://www.linkedin.com/jobs/view/4409980178"
       },
       {
         "title": "HR generalist per Soluzioni Acqua",
@@ -146,8 +138,24 @@
         "company": "BANCOMAT",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4412158043"
+      },
+      {
+        "title": "Junior Talent Acquisition - Soluzioni Casa",
+        "company": "key-absolute",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1778025600000,
+        "url": "https://www.linkedin.com/jobs/view/4409980178"
+      },
+      {
+        "title": "Junior HR Generalist per Gestione Richieste Clienti",
+        "company": "Tuolavoro-Lazio",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416168702"
       },
       {
         "title": "HR Recruiter",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415616217"
-      },
-      {
-        "title": "HR Business Partner Specialist",
-        "company": "Multiversity Group",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4413319098"
       }
     ]
   },
@@ -200,8 +200,8 @@
       },
       {
         "word": "rome",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -271,22 +271,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 14 (-36%)",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 15 (-80%)",
       "data": {
-        "current": 9,
-        "avg": 14.1,
-        "change_pct": -36.1
+        "current": 3,
+        "avg": 14.7,
+        "change_pct": -79.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/9 annunci da aziende nuove (44.4%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 4,
-        "total": 9,
-        "pct": 44.4
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 11% a 33% (+22pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 11.1,
+        "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 89% a 67% (-22pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 88.9,
+        "new_pct": 66.7
       }
     },
     {
@@ -296,54 +316,54 @@
       "data": {
         "clusters": [
           {
+            "id": 0,
+            "size": 103,
+            "top_terms": [
+              "specialist",
+              "sales",
+              "roma"
+            ],
+            "pct": 53.1
+          },
+          {
             "id": 1,
-            "size": 127,
+            "size": 34,
             "top_terms": [
               "hr",
-              "specialist",
-              "generalist"
+              "generalist",
+              "specialist"
             ],
-            "pct": 66.1
-          },
-          {
-            "id": 0,
-            "size": 20,
-            "top_terms": [
-              "umane",
-              "risorse",
-              "ufficio"
-            ],
-            "pct": 10.4
-          },
-          {
-            "id": 4,
-            "size": 19,
-            "top_terms": [
-              "addetto",
-              "risorse",
-              "umane"
-            ],
-            "pct": 9.9
+            "pct": 17.5
           },
           {
             "id": 2,
-            "size": 15,
+            "size": 29,
             "top_terms": [
-              "personale",
-              "selezione",
+              "risorse",
+              "umane",
               "addetto"
             ],
-            "pct": 7.8
+            "pct": 14.9
           },
           {
             "id": 3,
-            "size": 11,
+            "size": 22,
             "top_terms": [
-              "sales",
-              "rome",
-              "marketing"
+              "addetto",
+              "personale",
+              "selezione"
             ],
-            "pct": 5.7
+            "pct": 11.3
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "dell",
+              "incarico",
+              "conferimento"
+            ],
+            "pct": 3.1
           }
         ]
       }
