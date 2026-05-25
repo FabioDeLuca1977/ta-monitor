@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-24T09:12:37.704802",
+  "generated_at": "2026-05-25T10:49:28.048100",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 43,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 13.7,
+    "average": 14.0,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 4,
+      "good": 3,
+      "medium": 3,
       "low": 2,
-      "irrelevant": 35
+      "irrelevant": 36
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4410608268"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "NEWCHEM SPA",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4413675692"
+      },
+      {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
         "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412800542"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "NEWCHEM SPA",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4413675692"
       },
       {
         "title": "Group Regulatory Specialist",
@@ -56,7 +56,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 50,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
@@ -72,7 +72,7 @@
       {
         "title": "Addetto/a Qualificata alla pulizie Camere d'albergo",
         "company": "Suite Pacinotti & Prada'",
-        "score": 25,
+        "score": 24,
         "site": "indeed",
         "date_posted": 1778371200000,
         "url": "https://it.indeed.com/viewjob?jk=235f3736689fdc51"
@@ -80,7 +80,7 @@
       {
         "title": "Market Access Manager Public Health",
         "company": "GSK",
-        "score": 17,
+        "score": 18,
         "site": "indeed",
         "date_posted": 1779408000000,
         "url": "https://it.indeed.com/viewjob?jk=242f7dbcb64d3407"
@@ -102,20 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4398907982"
       },
       {
-        "title": "Quality Assurance & Quality Management System Manager",
-        "company": "ISG International Service Group",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415671084"
-      },
-      {
         "title": "Quality Assurance & Auditing Manager",
         "company": "Penta - Child Health Research",
         "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4414376445"
+      },
+      {
+        "title": "Quality Assurance & Quality Management System Manager",
+        "company": "ISG International Service Group",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415671084"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -142,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4415690950"
       },
       {
+        "title": "Personale di Galleria",
+        "company": "Galleria d'Arte Contini",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1779580800000,
+        "url": "https://it.indeed.com/viewjob?jk=10f4ad53f86fc02e"
+      },
+      {
         "title": "STAMPATORE ESPERTO OFFSET",
         "company": null,
         "score": 10,
@@ -150,28 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=3787f6ee14192172"
       },
       {
+        "title": "Assistente di Galleria",
+        "company": "Galleria d'Arte Contini",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1779580800000,
+        "url": "https://it.indeed.com/viewjob?jk=3e801d913ea0a8f5"
+      },
+      {
         "title": "Quality Assurance Supervisor",
         "company": "UNOX S.p.A.",
         "score": 8,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4405217500"
-      },
-      {
-        "title": "QHSE Manager & RSPP (f/m/d)",
-        "company": "Freudenberg Group",
-        "score": 6,
-        "site": "indeed",
-        "date_posted": 1778198400000,
-        "url": "https://it.indeed.com/viewjob?jk=6a1fb3ace602f4d5"
-      },
-      {
-        "title": "Global Product Manager",
-        "company": "Vertiv",
-        "score": 6,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=631b2b5e41f95d0f"
       }
     ]
   },
@@ -211,40 +211,49 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-43%)",
       "data": {
         "current": 2,
-        "avg": 3.4,
-        "change_pct": -41.5
+        "avg": 3.5,
+        "change_pct": -42.9
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Galleria d'Arte Contini: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Galleria d'Arte Contini",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 2,
-        "pct": 50.0
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
@@ -256,53 +265,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 27,
+            "size": 25,
             "top_terms": [
-              "manager",
-              "operatore",
+              "tecnico",
+              "estetista",
               "esperto"
             ],
-            "pct": 62.8
+            "pct": 56.8
           },
           {
-            "id": 2,
-            "size": 6,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "manager"
-            ],
-            "pct": 14.0
-          },
-          {
-            "id": 3,
+            "id": 0,
             "size": 6,
             "top_terms": [
               "regulatory",
               "specialist",
               "affairs"
             ],
-            "pct": 14.0
+            "pct": 13.6
           },
           {
-            "id": 0,
-            "size": 2,
+            "id": 3,
+            "size": 6,
             "top_terms": [
-              "estetista",
-              "tecnico",
-              "specialist"
+              "quality",
+              "assurance",
+              "manager"
             ],
-            "pct": 4.7
+            "pct": 13.6
           },
           {
             "id": 4,
+            "size": 5,
+            "top_terms": [
+              "manager",
+              "product",
+              "security"
+            ],
+            "pct": 11.4
+          },
+          {
+            "id": 2,
             "size": 2,
             "top_terms": [
+              "operatore",
               "tecnico",
-              "specialist",
-              "affairs"
+              "galleria"
             ],
-            "pct": 4.7
+            "pct": 4.5
           }
         ]
       }

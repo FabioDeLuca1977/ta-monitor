@@ -1,65 +1,41 @@
 {
-  "generated_at": "2026-05-24T09:12:37.580600",
+  "generated_at": "2026-05-25T10:49:27.924037",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 198,
+  "total_jobs_analyzed": 195,
   "scoring": {
-    "average": 30.0,
+    "average": 30.2,
     "distribution": {
       "excellent": 0,
-      "good": 7,
-      "medium": 92,
+      "good": 5,
+      "medium": 94,
       "low": 14,
-      "irrelevant": 85
+      "irrelevant": 82
     },
     "top_jobs": [
       {
+        "title": "Medical Advisor",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1778284800000,
+        "url": "https://www.linkedin.com/jobs/view/4372114590"
+      },
+      {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4380931992"
       },
       {
-        "title": "Medical Advisor",
-        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4372114590"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1778976000000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
-      },
-      {
         "title": "Junior Medical Affairs Manager",
         "company": "SINCLAIR",
-        "score": 61,
+        "score": 60,
         "site": "indeed",
         "date_posted": 1778544000000,
         "url": "https://it.indeed.com/viewjob?jk=b874b39ce50e2dea"
-      },
-      {
-        "title": "Clinical Development Medical Director (Associate Director)",
-        "company": "Pfizer",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1778025600000,
-        "url": "https://www.linkedin.com/jobs/view/4411264071"
-      },
-      {
-        "title": "Junior Medical Science Liaison Lung Cancer – Toscana e Umbria (Maternity Leave Cover)",
-        "company": "AstraZeneca",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1779321600000,
-        "url": "https://it.indeed.com/viewjob?jk=a7748a020114c70f"
       },
       {
         "title": "Associate Medical Director, Italy",
@@ -70,60 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4416547483"
       },
       {
-        "title": "(Associate) Medical Director - Rheumatology, EMEA",
-        "company": "Thermo Fisher Scientific",
+        "title": "CMO Manager",
+        "company": "IBSA Group",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1779580800000,
+        "url": "https://www.linkedin.com/jobs/view/4414854244"
+      },
+      {
+        "title": "Clinical Development Medical Director (Associate Director)",
+        "company": "Pfizer",
         "score": 59,
         "site": "linkedin",
-        "date_posted": 1778976000000,
-        "url": "https://www.linkedin.com/jobs/view/4404170968"
-      },
-      {
-        "title": "Medical Science Liaison Amyloidosis (Puglia, Campania, Basilicata, Calabria Sicilia)",
-        "company": "AstraZeneca",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1779321600000,
-        "url": "https://it.indeed.com/viewjob?jk=379f9312df52d473"
-      },
-      {
-        "title": "Medical Science Liaison Amyloidosis (Toscana, Umbria, Lazio, Molise, Sardegna)",
-        "company": "AstraZeneca",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1779321600000,
-        "url": "https://it.indeed.com/viewjob?jk=32d0d87738bbbe32"
-      },
-      {
-        "title": "Medical Affairs Clinician - Italy",
-        "company": "Evolus",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1777852800000,
-        "url": "https://www.linkedin.com/jobs/view/4342294307"
-      },
-      {
-        "title": "Medical Affairs Lead BH",
-        "company": "Neuraxpharm",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411500965"
-      },
-      {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "Dermatologist - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331270944"
+        "date_posted": 1778025600000,
+        "url": "https://www.linkedin.com/jobs/view/4411264071"
       },
       {
         "title": "Regulatory Affairs CMC Specialist",
@@ -142,6 +78,22 @@
         "url": "https://www.linkedin.com/jobs/view/4411652146"
       },
       {
+        "title": "Medical Affairs Clinician - Italy",
+        "company": "Evolus",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1777852800000,
+        "url": "https://www.linkedin.com/jobs/view/4342294307"
+      },
+      {
+        "title": "Medical Affairs Lead BH",
+        "company": "Neuraxpharm",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411500965"
+      },
+      {
         "title": "(Associate) Medical Director - Neurology",
         "company": "Thermo Fisher Scientific",
         "score": 56,
@@ -150,34 +102,87 @@
         "url": "https://www.linkedin.com/jobs/view/4402875758"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA Laboratories",
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416901960"
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
+      },
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1778976000000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
+      {
+        "title": "Junior Medical Science Liaison Lung Cancer – Toscana e Umbria (Maternity Leave Cover)",
+        "company": "AstraZeneca",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1779321600000,
+        "url": "https://it.indeed.com/viewjob?jk=a7748a020114c70f"
+      },
+      {
+        "title": "Medical Scientific Liaison - Protein Diagnostics",
+        "company": "Thermo Fisher Scientific",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1778284800000,
+        "url": "https://www.linkedin.com/jobs/view/4399950883"
+      },
+      {
+        "title": "Medical Science Liaison Northwest Italy",
+        "company": "Madrigal Pharmaceuticals",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4413570055"
+      },
+      {
+        "title": "Scientific and Regulatory Affairs Manager",
+        "company": "Henkel",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4404914214"
+      },
+      {
+        "title": "Health Economics, Market Access & Reimbursement Manager - Lung & Solid Tumors",
+        "company": "Johnson & Johnson Innovative Medicine",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1778716800000,
+        "url": "https://www.linkedin.com/jobs/view/4414582363"
       },
       {
         "title": "Medical Science Liaison Paediatric Oncology - Milan",
         "company": "Norgine",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4394781112"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415915989"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "clinical",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
       {
         "word": "access",
         "count": 13,
@@ -197,27 +202,16 @@
         "word": "senior",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
-      "keyword": "junior medical",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
       "keyword": "health economics",
-      "frequency": 3,
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 60
     },
     {
       "keyword": "lung",
@@ -232,10 +226,22 @@
       "confidence": 40
     },
     {
-      "keyword": "junior",
+      "keyword": "health",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
+    },
+    {
+      "keyword": "economics",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
+    },
+    {
+      "keyword": "medical scientific",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     },
     {
       "keyword": "lung cancer",
@@ -244,7 +250,7 @@
       "confidence": 30
     },
     {
-      "keyword": "medical scientific",
+      "keyword": "junior medical",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,12 +266,6 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "reimbursement manager",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
@@ -275,38 +275,18 @@
       "message": "Volume in calo: 4 annunci ultimo scan vs media 14 (-71%)",
       "data": {
         "current": 4,
-        "avg": 13.9,
-        "change_pct": -71.1
+        "avg": 13.6,
+        "change_pct": -70.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 2,
+        "new": 3,
         "total": 4,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "pct": 75.0
       }
     },
     {
@@ -316,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 64,
+            "id": 4,
+            "size": 67,
             "top_terms": [
               "specialist",
               "italy",
               "field"
             ],
-            "pct": 32.3
+            "pct": 34.4
           },
           {
-            "id": 4,
-            "size": 40,
+            "id": 3,
+            "size": 39,
             "top_terms": [
               "medical",
               "director",
               "liaison"
             ],
-            "pct": 20.2
+            "pct": 20.0
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 34,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 17.2
-          },
-          {
-            "id": 2,
-            "size": 33,
             "top_terms": [
               "manager",
               "access",
               "market"
             ],
-            "pct": 16.7
+            "pct": 17.4
           },
           {
             "id": 1,
+            "size": 28,
+            "top_terms": [
+              "research",
+              "clinical",
+              "associate"
+            ],
+            "pct": 14.4
+          },
+          {
+            "id": 2,
             "size": 27,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.6
+            "pct": 13.8
           }
         ]
       }

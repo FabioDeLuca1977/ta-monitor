@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-24T09:12:37.663975",
+  "generated_at": "2026-05-25T10:49:28.007656",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 68,
+  "total_jobs_analyzed": 67,
   "scoring": {
-    "average": 21.6,
+    "average": 21.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 19,
+      "medium": 18,
       "low": 9,
       "irrelevant": 38
     },
@@ -16,7 +16,7 @@
       {
         "title": "Medical Director, Medical Affairs",
         "company": "Vertex Pharmaceuticals",
-        "score": 65,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1778198400000,
         "url": "https://www.linkedin.com/jobs/view/4411889408"
@@ -26,7 +26,7 @@
         "company": "Amplity",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778284800000,
         "url": "https://www.linkedin.com/jobs/view/4390716325"
       },
       {
@@ -36,6 +36,22 @@
         "site": "linkedin",
         "date_posted": 1777939200000,
         "url": "https://www.linkedin.com/jobs/view/4408424291"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA Laboratories",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416917838"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415927696"
       },
       {
         "title": "Medical Science Liaison Italy W/M",
@@ -52,22 +68,6 @@
         "site": "linkedin",
         "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4413046066"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA Laboratories",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416917838"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415927696"
       },
       {
         "title": "Medical Specialist - Remote",
@@ -126,14 +126,6 @@
         "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
       },
       {
-        "title": "Regulatory Affairs CMC - Sterility Assurance",
-        "company": "PQE Group",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1777852800000,
-        "url": "https://www.linkedin.com/jobs/view/4401612170"
-      },
-      {
         "title": "MSL-MA Italy",
         "company": "Astellas Pharma",
         "score": 44,
@@ -150,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4417492939"
       },
       {
-        "title": "PhD Opportunity in Medical Physics, Neuro-Oncology, Therapeutic Ultrasound, and AI for Life Sciences",
-        "company": "University of Rome Tor Vergata",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414806568"
-      },
-      {
         "title": "Field Clinical Specialist THV - Lazio/Campania",
         "company": "Edwards Lifesciences",
         "score": 42,
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412026146"
+      },
+      {
+        "title": "PhD Opportunity in Medical Physics, Neuro-Oncology, Therapeutic Ultrasound, and AI for Life Sciences",
+        "company": "University of Rome Tor Vergata",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414806568"
+      },
+      {
+        "title": "Farmacovigilanza",
+        "company": "ALMA LABORIS Business School",
+        "score": 40,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=0b2b4e60b33d5674"
       }
     ]
   },
@@ -266,21 +266,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-81%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-80%)",
       "data": {
         "current": 1,
-        "avg": 5.2,
-        "change_pct": -80.6
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "avg": 5.1,
+        "change_pct": -80.3
       }
     },
     {
@@ -294,6 +284,16 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
@@ -301,53 +301,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 33,
+            "size": 25,
             "top_terms": [
-              "specialist",
-              "senior",
-              "product"
+              "italy",
+              "msl",
+              "maintenance"
             ],
-            "pct": 48.5
+            "pct": 37.3
           },
           {
             "id": 1,
-            "size": 11,
+            "size": 16,
             "top_terms": [
-              "medical",
-              "director",
-              "affairs"
+              "specialist",
+              "clinical",
+              "remote"
             ],
-            "pct": 16.2
-          },
-          {
-            "id": 3,
-            "size": 10,
-            "top_terms": [
-              "italy",
-              "liaison",
-              "science"
-            ],
-            "pct": 14.7
+            "pct": 23.9
           },
           {
             "id": 2,
-            "size": 9,
+            "size": 12,
             "top_terms": [
-              "clinical",
-              "sales",
-              "specialist"
+              "medical",
+              "science",
+              "liaison"
             ],
-            "pct": 13.2
+            "pct": 17.9
           },
           {
             "id": 4,
+            "size": 9,
+            "top_terms": [
+              "senior",
+              "affairs",
+              "pharma"
+            ],
+            "pct": 13.4
+          },
+          {
+            "id": 3,
             "size": 5,
             "top_terms": [
               "lead",
               "international",
               "management"
             ],
-            "pct": 7.4
+            "pct": 7.5
           }
         ]
       }

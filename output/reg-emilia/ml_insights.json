@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T09:12:37.892848",
+  "generated_at": "2026-05-25T10:49:28.233611",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 48,
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
       "data": {
         "current": 1,
-        "avg": 3.6,
-        "change_pct": -72.3
+        "avg": 3.9,
+        "change_pct": -74.5
       }
     },
     {
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 16,
-            "top_terms": [
-              "senior",
-              "estetista",
-              "sistema"
-            ],
-            "pct": 33.3
-          },
-          {
             "id": 0,
-            "size": 9,
+            "size": 17,
             "top_terms": [
-              "specialist",
-              "validation",
-              "regulatory"
+              "manager",
+              "sales",
+              "estetista"
             ],
-            "pct": 18.8
+            "pct": 35.4
           },
           {
             "id": 1,
-            "size": 8,
+            "size": 10,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
+            "pct": 20.8
+          },
+          {
+            "id": 3,
+            "size": 10,
+            "top_terms": [
+              "regulatory",
+              "specialist",
+              "affairs"
+            ],
+            "pct": 20.8
+          },
+          {
+            "id": 2,
+            "size": 8,
+            "top_terms": [
+              "validation",
+              "senior",
+              "device"
+            ],
             "pct": 16.7
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 3,
             "top_terms": [
-              "manager",
-              "senior",
-              "after"
+              "corporate",
+              "legal",
+              "junior"
             ],
-            "pct": 16.7
-          },
-          {
-            "id": 2,
-            "size": 7,
-            "top_terms": [
-              "regulatory",
-              "stage",
-              "affairs"
-            ],
-            "pct": 14.6
+            "pct": 6.2
           }
         ]
       }
