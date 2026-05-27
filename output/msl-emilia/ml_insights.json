@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-05-25T10:49:27.951089",
+  "generated_at": "2026-05-27T10:37:29.536836",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 21,
+  "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 22.5,
+    "average": 24.4,
     "distribution": {
       "excellent": 0,
-      "good": 0,
-      "medium": 7,
-      "low": 3,
-      "irrelevant": 11
+      "good": 1,
+      "medium": 8,
+      "low": 4,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
+        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
+        "company": "ALMA LABORIS Business School",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416693195"
@@ -24,7 +32,7 @@
       {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Bologna/Genoa",
         "company": "Boston Scientific",
-        "score": 52,
+        "score": 51,
         "site": "indeed",
         "date_posted": 1779667200000,
         "url": "https://it.indeed.com/viewjob?jk=a07d2d726aad435e"
@@ -62,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
+        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan",
+        "company": "Boston Scientific",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411669590"
+      },
+      {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
         "company": "Banca Più",
         "score": 40,
@@ -78,9 +94,17 @@
         "url": "https://www.linkedin.com/jobs/view/4409235899"
       },
       {
+        "title": "Process Validation Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 25,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4414896589"
+      },
+      {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
-        "score": 24,
+        "score": 23,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
@@ -96,10 +120,18 @@
       {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4399728867"
+      },
+      {
+        "title": "Product Specialist Junior - settore medical device",
+        "company": "Lavoropiù SpA",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4419415873"
       },
       {
         "title": "HR & LR Partner",
@@ -108,6 +140,14 @@
         "site": "indeed",
         "date_posted": 1778112000000,
         "url": "https://it.indeed.com/viewjob?jk=268fc5fe88a28264"
+      },
+      {
+        "title": "Affari Regolatori",
+        "company": "ALMA LABORIS Business School",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
       },
       {
         "title": "Senior CRA",
@@ -120,7 +160,7 @@
       {
         "title": "Direttore/direttrice per CRA a Mirandola (MO)",
         "company": "Codess Sociale Soc Coop",
-        "score": 5,
+        "score": 6,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413483479"
@@ -132,46 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413426472"
-      },
-      {
-        "title": "Media Buyer (Google&Meta)",
-        "company": "CapsLock",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=5dd221289581cd8d"
-      },
-      {
-        "title": "Production Planner",
-        "company": "LINCOTEK GROUP",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1777852800000,
-        "url": "https://it.indeed.com/viewjob?jk=fb4df77c845ff03a"
-      },
-      {
-        "title": "Product Support Specialist JR - Emilia Romagna",
-        "company": "Stryker",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
-      },
-      {
-        "title": "Senior Design Engineer",
-        "company": "Transmedics",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=0a14160e2f0b474d"
-      },
-      {
-        "title": "Molding Engineer",
-        "company": "Dikton S.r.l.",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=626aa04416d30768"
       }
     ]
   },
@@ -180,6 +180,11 @@
     "add_blacklist": [
       {
         "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "specialist",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -238,90 +243,100 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-65%)",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+75%)",
       "data": {
-        "current": 1,
+        "current": 5,
         "avg": 2.9,
-        "change_pct": -65.0
+        "change_pct": 75.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "total": 5,
+        "pct": 20.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 100% a 40% (-60pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 40.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 60% (+60pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 60.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 9,
+            "id": 3,
+            "size": 12,
             "top_terms": [
-              "settore",
-              "clinical",
-              "bologna"
-            ],
-            "pct": 42.9
-          },
-          {
-            "id": 2,
-            "size": 6,
-            "top_terms": [
+              "engineer",
               "specialist",
-              "affairs",
-              "regulatory"
+              "settore"
             ],
-            "pct": 28.6
+            "pct": 48.0
           },
           {
             "id": 0,
+            "size": 5,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "stage"
+            ],
+            "pct": 20.0
+          },
+          {
+            "id": 1,
             "size": 3,
             "top_terms": [
               "cra",
               "senior",
               "stage"
             ],
-            "pct": 14.3
+            "pct": 12.0
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 3,
             "top_terms": [
-              "engineer",
-              "senior",
-              "manager"
+              "devices",
+              "medical",
+              "specialist"
             ],
-            "pct": 14.3
+            "pct": 12.0
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
+              "evidence",
+              "medicale",
+              "marketing"
+            ],
+            "pct": 8.0
           }
         ]
       }

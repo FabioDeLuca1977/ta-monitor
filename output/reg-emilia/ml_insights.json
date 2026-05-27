@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-25T10:49:28.233611",
+  "generated_at": "2026-05-27T10:37:29.853405",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 48,
+  "total_jobs_analyzed": 50,
   "scoring": {
-    "average": 17.8,
+    "average": 17.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 10,
-      "low": 0,
-      "irrelevant": 36
+      "low": 1,
+      "irrelevant": 37
     },
     "top_jobs": [
       {
@@ -62,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4413669819"
       },
       {
+        "title": "Affari Regolatori",
+        "company": "ALMA LABORIS Business School",
+        "score": 53,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
+      },
+      {
         "title": "Global Regulatory Affairs Senior Consultant",
         "company": "JSB Solutions",
-        "score": 49,
+        "score": 50,
         "site": "linkedin",
         "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
-        "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
-        "company": "Banca Più",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412750131"
       },
       {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
@@ -88,7 +88,7 @@
       {
         "title": "Global Regulatory Affairs Senior Consultant",
         "company": "JSB Solutions srl",
-        "score": 44,
+        "score": 45,
         "site": "indeed",
         "date_posted": 1778025600000,
         "url": "https://it.indeed.com/viewjob?jk=1ccf136f6df88cdc"
@@ -104,10 +104,18 @@
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
-        "score": 43,
+        "score": 41,
         "site": "linkedin",
         "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4409235899"
+      },
+      {
+        "title": "Process Validation Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 21,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
@@ -116,6 +124,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
+      },
+      {
+        "title": "Maintenance Supervisor and Capital Plan Specialist",
+        "company": "Phibro Animal Health Corporation",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1779667200000,
+        "url": "https://it.indeed.com/viewjob?jk=d3c053da585dfeac"
       },
       {
         "title": "Customer Quality Assurance Specialist",
@@ -142,36 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
-        "title": "Product Manager Cybersecurity (m/f/d)",
-        "company": "Danfoss",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
-      },
-      {
-        "title": "Senior Territory Manager",
-        "company": "Caterpillar",
+        "title": "Specialista Agilità & Sistema di Gestione Integrato",
+        "company": "JObros",
         "score": 11,
-        "site": "indeed",
-        "date_posted": 1779062400000,
-        "url": "https://it.indeed.com/viewjob?jk=a882a52c421c7964"
-      },
-      {
-        "title": "Forwarding Management Administrator Italy (Pantigliate)",
-        "company": "CEVA Logistics",
-        "score": 11,
-        "site": "indeed",
+        "site": "linkedin",
         "date_posted": 1779408000000,
-        "url": "https://it.indeed.com/viewjob?jk=baea30fe51b35731"
+        "url": "https://www.linkedin.com/jobs/view/4414091431"
       },
       {
-        "title": "Senior CRA",
-        "company": "Thermo Fisher Scientific",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1779494400000,
-        "url": "https://it.indeed.com/viewjob?jk=17e706de17d4173b"
+        "title": "SENIOR R&D ENGINEER MEDICAL DEVICE (ACTIVE)",
+        "company": "Grafton Recruitment",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405556584"
       }
     ]
   },
@@ -200,8 +200,8 @@
       },
       {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,23 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+33%)",
       "data": {
-        "current": 1,
-        "avg": 3.9,
-        "change_pct": -74.5
+        "current": 5,
+        "avg": 3.8,
+        "change_pct": 33.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 60% (-40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 60.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 40% (+40pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 40.0
       }
     },
     {
@@ -235,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 17,
+            "id": 2,
+            "size": 30,
             "top_terms": [
+              "specialist",
               "manager",
-              "sales",
-              "estetista"
+              "engineer"
             ],
-            "pct": 35.4
+            "pct": 60.0
           },
           {
             "id": 1,
-            "size": 10,
+            "size": 9,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 20.8
+            "pct": 18.0
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "global",
+              "affairs",
+              "consultant"
+            ],
+            "pct": 8.0
           },
           {
             "id": 3,
-            "size": 10,
+            "size": 4,
             "top_terms": [
-              "regulatory",
-              "specialist",
-              "affairs"
+              "devices",
+              "medical",
+              "specialist"
             ],
-            "pct": 20.8
-          },
-          {
-            "id": 2,
-            "size": 8,
-            "top_terms": [
-              "validation",
-              "senior",
-              "device"
-            ],
-            "pct": 16.7
+            "pct": 8.0
           },
           {
             "id": 4,
             "size": 3,
             "top_terms": [
-              "corporate",
-              "legal",
-              "junior"
+              "sistema",
+              "validation",
+              "customer"
             ],
-            "pct": 6.2
+            "pct": 6.0
           }
         ]
       }
