@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-27T10:37:29.853405",
+  "generated_at": "2026-05-28T10:46:32.933515",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 50,
+  "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 17.6,
+    "average": 18.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 10,
-      "low": 1,
-      "irrelevant": 37
+      "low": 2,
+      "irrelevant": 38
     },
     "top_jobs": [
       {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416693195"
@@ -24,9 +24,9 @@
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
@@ -80,7 +80,7 @@
       {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
         "company": "Banca Privata Leasing S.p.a.",
-        "score": 46,
+        "score": 47,
         "site": "indeed",
         "date_posted": 1778457600000,
         "url": "https://it.indeed.com/viewjob?jk=64a6d8ff87ea25c6"
@@ -104,10 +104,18 @@
       {
         "title": "Stage Regulatory Affair Assistant | Bologna",
         "company": "Intertek",
-        "score": 41,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1778112000000,
         "url": "https://www.linkedin.com/jobs/view/4409235899"
+      },
+      {
+        "title": "Chief Technology Officer (CTO)",
+        "company": "Saas.group",
+        "score": 30,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=45d781eca6814997"
       },
       {
         "title": "Process Validation Specialist - Medical Devices",
@@ -118,12 +126,36 @@
         "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
+        "title": "IT Service Manager",
+        "company": "Philip Morris International",
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
+      },
+      {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
         "score": 18,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
+      },
+      {
+        "title": "Contract Manager",
+        "company": "AEP Ticketing solutions",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=48e466a9b18295d4"
+      },
+      {
+        "title": "R: Project Manager ERTMS Wayside",
+        "company": "ALSTOM",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
       },
       {
         "title": "Maintenance Supervisor and Capital Plan Specialist",
@@ -140,44 +172,17 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412672591"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "In Job",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1779235200000,
-        "url": "https://www.linkedin.com/jobs/view/4417041864"
-      },
-      {
-        "title": "RA Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4399728867"
-      },
-      {
-        "title": "Specialista Agilità & Sistema di Gestione Integrato",
-        "company": "JObros",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": 1779408000000,
-        "url": "https://www.linkedin.com/jobs/view/4414091431"
-      },
-      {
-        "title": "SENIOR R&D ENGINEER MEDICAL DEVICE (ACTIVE)",
-        "company": "Grafton Recruitment",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405556584"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "manager",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
       {
         "word": "quality",
         "count": 9,
@@ -187,11 +192,6 @@
         "word": "assurance",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "manager",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "junior",
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+33%)",
-      "data": {
-        "current": 5,
-        "avg": 3.8,
-        "change_pct": 33.3
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "new": 4,
+        "total": 4,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 60% (-40pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 40% (+40pp)",
+      "message": "📡 linkedin: quota passata da 40% a 0% (-40pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 40.0
+        "old_pct": 40.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 60% a 100% (+40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 60.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -255,44 +245,44 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 30,
+            "id": 0,
+            "size": 16,
             "top_terms": [
-              "specialist",
-              "manager",
-              "engineer"
+              "engineer",
+              "documentation",
+              "senior"
             ],
-            "pct": 60.0
+            "pct": 30.8
           },
           {
-            "id": 1,
-            "size": 9,
+            "id": 2,
+            "size": 15,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 28.8
+          },
+          {
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 18.0
+            "pct": 19.2
           },
           {
-            "id": 0,
-            "size": 4,
+            "id": 1,
+            "size": 8,
             "top_terms": [
-              "global",
-              "affairs",
-              "consultant"
+              "manager",
+              "project",
+              "contract"
             ],
-            "pct": 8.0
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "devices",
-              "medical",
-              "specialist"
-            ],
-            "pct": 8.0
+            "pct": 15.4
           },
           {
             "id": 4,
@@ -300,9 +290,9 @@
             "top_terms": [
               "sistema",
               "validation",
-              "customer"
+              "junior"
             ],
-            "pct": 6.0
+            "pct": 5.8
           }
         ]
       }

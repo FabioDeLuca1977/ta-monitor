@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-27T10:37:29.649289",
+  "generated_at": "2026-05-28T10:46:32.723033",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 49,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 15.7,
+    "average": 17.2,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 4,
-      "low": 4,
-      "irrelevant": 37
+      "good": 2,
+      "medium": 6,
+      "low": 5,
+      "irrelevant": 31
     },
     "top_jobs": [
       {
         "title": "Senior International Regulatory Specialist",
         "company": "Orthofix",
-        "score": 64,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
@@ -30,17 +30,33 @@
         "url": "https://www.linkedin.com/jobs/view/4410608268"
       },
       {
+        "title": "Regulatory Affairs Expert",
+        "company": "Fidia Pharma",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412260439"
+      },
+      {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412800542"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "NEWCHEM SPA",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4413675692"
+      },
+      {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4417882353"
@@ -54,27 +70,11 @@
         "url": "https://www.linkedin.com/jobs/view/4411143656"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "NEWCHEM SPA",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4413675692"
-      },
-      {
-        "title": "Regulatory Affairs Expert",
-        "company": "Fidia Pharma",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412260439"
-      },
-      {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 49,
+        "score": 54,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
       },
       {
@@ -112,18 +112,26 @@
       {
         "title": "Customer Quality Assurance Manager",
         "company": "LHH",
-        "score": 15,
+        "score": 21,
         "site": "linkedin",
-        "date_posted": 1777939200000,
+        "date_posted": 1779321600000,
         "url": "https://www.linkedin.com/jobs/view/4398907982"
       },
       {
         "title": "Quality Assurance & Quality Management System Manager",
         "company": "ISG International Service Group",
-        "score": 15,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415671084"
+      },
+      {
+        "title": "Quality Assurance & Auditing Manager",
+        "company": "Penta - Child Health Research",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414376445"
       },
       {
         "title": "Therapeutic Specialist Oncology - Veneto / Friuli Venezia Giulia",
@@ -132,14 +140,6 @@
         "site": "indeed",
         "date_posted": 1779667200000,
         "url": "https://it.indeed.com/viewjob?jk=322866af815c830a"
-      },
-      {
-        "title": "Quality Assurance & Auditing Manager",
-        "company": "Penta - Child Health Research",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414376445"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -152,7 +152,7 @@
       {
         "title": "Market Access Manager Public Health",
         "company": "GSK",
-        "score": 12,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1779408000000,
         "url": "https://it.indeed.com/viewjob?jk=242f7dbcb64d3407"
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4417186211"
       },
       {
-        "title": "Personale di Galleria",
-        "company": "Galleria d'Arte Contini",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1779580800000,
-        "url": "https://it.indeed.com/viewjob?jk=10f4ad53f86fc02e"
+        "title": "Responsabile Sistema Integrato QHSE",
+        "company": "Spring s.r.l.",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": 1779408000000,
+        "url": "https://www.linkedin.com/jobs/view/4414096259"
       }
     ]
   },
@@ -179,14 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "manager",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "quality",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "operatore",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "manager",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "esperto",
@@ -206,11 +211,11 @@
     {
       "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+67%)",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 3 (+74%)",
       "data": {
         "current": 6,
-        "avg": 3.6,
-        "change_pct": 67.4
+        "avg": 3.5,
+        "change_pct": 73.7
       }
     },
     {
@@ -226,21 +231,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -250,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 26,
-            "top_terms": [
-              "tecnico",
-              "operatore",
-              "estetista"
-            ],
-            "pct": 53.1
-          },
-          {
             "id": 0,
-            "size": 8,
+            "size": 25,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
+              "manager",
+              "tecnico",
+              "engineer"
             ],
-            "pct": 16.3
+            "pct": 56.8
           },
           {
             "id": 1,
-            "size": 8,
+            "size": 7,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 16.3
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "manager",
-              "product",
-              "qhse"
-            ],
-            "pct": 8.2
+            "pct": 15.9
           },
           {
             "id": 4,
+            "size": 7,
+            "top_terms": [
+              "regulatory",
+              "specialist",
+              "affairs"
+            ],
+            "pct": 15.9
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "esperto",
               "offset",
               "stampatore"
             ],
-            "pct": 6.1
+            "pct": 6.8
+          },
+          {
+            "id": 2,
+            "size": 2,
+            "top_terms": [
+              "negozi",
+              "coordinati",
+              "sistema"
+            ],
+            "pct": 4.5
           }
         ]
       }

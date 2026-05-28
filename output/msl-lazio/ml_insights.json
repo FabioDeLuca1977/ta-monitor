@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-27T10:37:29.600353",
+  "generated_at": "2026-05-28T10:46:32.676849",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 71,
   "scoring": {
-    "average": 22.5,
+    "average": 22.9,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 20,
-      "low": 10,
+      "medium": 21,
+      "low": 9,
       "irrelevant": 38
     },
     "top_jobs": [
@@ -46,12 +46,28 @@
         "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
       },
       {
-        "title": "Medical Science Liaison",
-        "company": "Warman O'Brien",
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA Laboratories",
         "score": 55,
         "site": "linkedin",
-        "date_posted": 1777939200000,
-        "url": "https://www.linkedin.com/jobs/view/4408424291"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416917838"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415927696"
+      },
+      {
+        "title": "Medical Science Liaison Italy W/M",
+        "company": "SERB Pharmaceuticals",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416580742"
       },
       {
         "title": "SENIOR MEDICAL SCIENCE LIAISON",
@@ -62,28 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4413046066"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA Laboratories",
+        "title": "Regulatory Affairs Manager",
+        "company": "PQE Group",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416917838"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415927696"
-      },
-      {
-        "title": "Medical Science Liaison Italy W/M",
-        "company": "SERB Pharmaceuticals",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416580742"
+        "url": "https://www.linkedin.com/jobs/view/4417223802"
       },
       {
         "title": "Regulatory Affairs Analyst (f/m/d)",
@@ -94,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4415288407"
       },
       {
+        "title": "Clinical Development Medical Science Director",
+        "company": "Angelini Pharma",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396450100"
+      },
+      {
         "title": "Medical Specialist - Remote",
         "company": "YO IT Consulting",
         "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412860388"
-      },
-      {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412082502"
       },
       {
         "title": "Clinical Research Associate - Italy - Remote",
@@ -132,6 +132,14 @@
         "site": "linkedin",
         "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4414596036"
+      },
+      {
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412082502"
       },
       {
         "title": "Pharma Medical Affairs",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417492939"
-      },
-      {
-        "title": "PhD Opportunity in Medical Physics, Neuro-Oncology, Therapeutic Ultrasound, and AI for Life Sciences",
-        "company": "University of Rome Tor Vergata",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414806568"
       }
     ]
   },
@@ -266,31 +266,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 2,
+        "new": 3,
         "total": 4,
-        "pct": 50.0
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 75% (+25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 25% (-25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -300,54 +300,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 34,
+            "id": 0,
+            "size": 25,
             "top_terms": [
-              "affairs",
-              "medical",
-              "director"
+              "remote",
+              "manager",
+              "clinical"
             ],
-            "pct": 47.9
+            "pct": 35.2
           },
           {
             "id": 2,
-            "size": 17,
+            "size": 16,
             "top_terms": [
               "specialist",
-              "quality",
-              "clinical"
+              "clinical",
+              "sales"
             ],
-            "pct": 23.9
+            "pct": 22.5
           },
           {
-            "id": 3,
-            "size": 10,
+            "id": 1,
+            "size": 14,
             "top_terms": [
               "medical",
-              "liaison",
-              "science"
+              "affairs",
+              "director"
             ],
-            "pct": 14.1
-          },
-          {
-            "id": 0,
-            "size": 6,
-            "top_terms": [
-              "senior",
-              "cra",
-              "lead"
-            ],
-            "pct": 8.5
+            "pct": 19.7
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 9,
             "top_terms": [
               "lead",
-              "international",
-              "management"
+              "senior",
+              "international"
             ],
-            "pct": 5.6
+            "pct": 12.7
+          },
+          {
+            "id": 3,
+            "size": 7,
+            "top_terms": [
+              "italy",
+              "msl",
+              "liaison"
+            ],
+            "pct": 9.9
           }
         ]
       }
