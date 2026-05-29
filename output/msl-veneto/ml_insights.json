@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-28T10:46:32.454238",
+  "generated_at": "2026-05-29T10:35:19.170816",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 50,
+  "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 28.5,
+    "average": 27.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 23,
-      "low": 6,
-      "irrelevant": 20
+      "medium": 24,
+      "low": 5,
+      "irrelevant": 22
     },
     "top_jobs": [
       {
@@ -28,6 +28,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4418193739"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco",
+        "company": "Aurora Biofarma",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4415202060"
       },
       {
         "title": "Medical Representative/ISF Specialty Care",
@@ -70,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4417415303"
       },
       {
-        "title": "Senior Clinical Research Associate",
-        "company": "Alira Health",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1778198400000,
-        "url": "https://www.linkedin.com/jobs/view/4412161477"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "AxL Spa – ALTI PROFILI",
         "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4410608268"
+      },
+      {
+        "title": "Senior Clinical Research Associate",
+        "company": "Alira Health",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1778198400000,
+        "url": "https://www.linkedin.com/jobs/view/4412161477"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4416802247"
       },
       {
-        "title": "ISF/AGENTI MONOMANDATARI - VENETO (Treviso)",
-        "company": "Cristalfarma",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4412921335"
-      },
-      {
-        "title": "ISF Immunology - Triveneto",
-        "company": "Pharma Point",
-        "score": 41,
+        "title": "ISF - VENEZIA",
+        "company": "Hays",
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4410600149"
+        "url": "https://www.linkedin.com/jobs/view/4417629192"
       }
     ]
   },
@@ -187,6 +187,21 @@
         "word": "assistant",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "infermiere",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "libero",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "professionista",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -196,31 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 4,
-        "total": 4,
-        "pct": 100.0
+        "new": 1,
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 29% a 50% (+21pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 28.6,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 71% a 50% (-21pp)",
+      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 71.4,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -230,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
+            "id": 0,
             "size": 23,
             "top_terms": [
-              "isf",
-              "regulatory",
-              "affairs"
+              "clinical",
+              "senior",
+              "manufacturing"
             ],
-            "pct": 46.0
+            "pct": 44.2
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 12,
             "top_terms": [
               "scientifico",
               "informatore",
               "medico"
             ],
-            "pct": 24.0
+            "pct": 23.1
           },
           {
-            "id": 2,
-            "size": 6,
+            "id": 1,
+            "size": 7,
             "top_terms": [
-              "clinical",
-              "specialist",
-              "research"
+              "isf",
+              "veneto",
+              "venezia"
             ],
-            "pct": 12.0
+            "pct": 13.5
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 6,
             "top_terms": [
               "manager",
               "product",
               "junior"
             ],
-            "pct": 12.0
+            "pct": 11.5
           },
           {
-            "id": 0,
-            "size": 3,
+            "id": 2,
+            "size": 4,
             "top_terms": [
-              "medical",
-              "isf",
-              "junior"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 6.0
+            "pct": 7.7
           }
         ]
       }
