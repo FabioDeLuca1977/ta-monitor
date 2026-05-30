@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T10:35:19.741516",
+  "generated_at": "2026-05-30T09:06:26.308581",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 123,
@@ -14,25 +14,25 @@
     },
     "top_jobs": [
       {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo group",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
-      },
-      {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
-        "score": 65,
+        "score": 69,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417223802"
       },
       {
+        "title": "Regulatory Affairs Analyst (f/m/d)",
+        "company": "Axpo group",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Adecco",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412275205"
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Specialist",
         "company": "Aruba SpA",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1778284800000,
         "url": "https://www.linkedin.com/jobs/view/4397318496"
@@ -48,7 +48,7 @@
       {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
-        "score": 55,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415339755"
@@ -56,7 +56,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Capgemini",
-        "score": 48,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1778198400000,
         "url": "https://it.indeed.com/viewjob?jk=cc5bde7386642e93"
@@ -64,7 +64,7 @@
       {
         "title": "Junior Quality Assurance Systems & Compliance – Settore Farmaceutico",
         "company": "Openjobmetis SpA",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4417899473"
@@ -80,10 +80,10 @@
       {
         "title": "Quality Assurance Pharma",
         "company": "Amaris Consulting",
-        "score": 45,
+        "score": 46,
         "site": "linkedin",
-        "date_posted": 1778544000000,
-        "url": "https://www.linkedin.com/jobs/view/4404578460"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4393599595"
       },
       {
         "title": "Quality Assurance Consultant  - Pharma Sector",
@@ -142,14 +142,6 @@
         "url": "https://it.indeed.com/viewjob?jk=d53a819873ea8ffd"
       },
       {
-        "title": "Data Protection and Compliance Manager",
-        "company": "Leonardo",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=d7937bf9eed76740"
-      },
-      {
         "title": "Senior Consultant / Manager in ambito “Risk, Audit & Compliance“",
         "company": "NTT DATA",
         "score": 18,
@@ -166,12 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=e270df5791d2e02b"
       },
       {
-        "title": "PDS Analytical Development & GMP Technician",
-        "company": "Thermo Fisher Scientific",
+        "title": "Quality Assurance Compliance Specialist",
+        "company": "Tubilux Pharma",
         "score": 17,
         "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4415273168"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415070536"
+      },
+      {
+        "title": "Junior Public Affairs Specialist",
+        "company": "DocPlanner",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=609891ce113e1dd5"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "associate",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "engineer",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "italy",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       }
@@ -209,52 +209,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 8 (-41%)",
-      "data": {
-        "current": 5,
-        "avg": 8.4,
-        "change_pct": -40.7
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Vestas: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Vestas",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 83% a 100% (+17pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 83.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 17% a 0% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 16.7,
-        "new_pct": 0.0
+        "new": 3,
+        "total": 7,
+        "pct": 42.9
       }
     },
     {
@@ -264,54 +225,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 66,
+            "id": 1,
+            "size": 49,
             "top_terms": [
-              "specialist",
-              "associate",
-              "affairs"
+              "italy",
+              "lead",
+              "associate"
             ],
-            "pct": 53.7
+            "pct": 39.8
           },
           {
-            "id": 4,
+            "id": 0,
+            "size": 29,
+            "top_terms": [
+              "specialist",
+              "manager",
+              "regulatory"
+            ],
+            "pct": 23.6
+          },
+          {
+            "id": 3,
             "size": 24,
             "top_terms": [
               "quality",
               "assurance",
-              "manager"
+              "specialist"
             ],
             "pct": 19.5
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 16,
             "top_terms": [
-              "manager",
-              "compliance",
-              "italy"
+              "engineer",
+              "senior",
+              "project"
             ],
             "pct": 13.0
           },
           {
-            "id": 1,
-            "size": 11,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "engineer",
-              "senior",
-              "security"
+              "professional",
+              "contract",
+              "officer"
             ],
-            "pct": 8.9
-          },
-          {
-            "id": 2,
-            "size": 6,
-            "top_terms": [
-              "lead",
-              "accounts",
-              "technical"
-            ],
-            "pct": 4.9
+            "pct": 4.1
           }
         ]
       }

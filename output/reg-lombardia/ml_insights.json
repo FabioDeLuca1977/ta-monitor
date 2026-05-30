@@ -1,33 +1,25 @@
 {
-  "generated_at": "2026-05-29T10:35:19.607087",
+  "generated_at": "2026-05-30T09:06:26.176234",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 295,
+  "total_jobs_analyzed": 296,
   "scoring": {
-    "average": 15.7,
+    "average": 15.4,
     "distribution": {
       "excellent": 0,
-      "good": 20,
-      "medium": 32,
+      "good": 22,
+      "medium": 30,
       "low": 7,
-      "irrelevant": 236
+      "irrelevant": 237
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
-        "score": 72,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1779408000000,
         "url": "https://www.linkedin.com/jobs/view/4377177028"
-      },
-      {
-        "title": "Regulatory Affairs",
-        "company": "ATTAL Group",
-        "score": 70,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4419453183"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST  COSMETICO & CHIMICO (REACH)",
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4377177029"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "ATTAL Group",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1779753600000,
+        "url": "https://www.linkedin.com/jobs/view/4419453183"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -118,6 +118,22 @@
         "url": "https://www.linkedin.com/jobs/view/4413674804"
       },
       {
+        "title": "Regulatory Affairs Program Owner",
+        "company": "PQE Group",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411579612"
+      },
+      {
+        "title": "Regulatory Affairs - ambito Gomma Plastica",
+        "company": "Adecco",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1779321600000,
+        "url": "https://www.linkedin.com/jobs/view/4413654944"
+      },
+      {
         "title": "International Regulatory Affairs Project Manager",
         "company": "Recordati",
         "score": 61,
@@ -126,33 +142,9 @@
         "url": "https://www.linkedin.com/jobs/view/4408772783"
       },
       {
-        "title": "Regulatory Affairs Program Owner",
-        "company": "PQE Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411579612"
-      },
-      {
-        "title": "Regulatory Manager",
-        "company": "LHH",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416280064"
-      },
-      {
-        "title": "Regulatory Affairs - ambito Gomma Plastica",
-        "company": "Adecco",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1779321600000,
-        "url": "https://www.linkedin.com/jobs/view/4413654944"
-      },
-      {
         "title": "Regulatory Affairs | Brescia",
         "company": "Biopharmed",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4343985374"
@@ -160,18 +152,26 @@
       {
         "title": "Regulatory Affairs",
         "company": "Adecco",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4414344339"
       },
       {
-        "title": "Regulatory Affairs Intern.",
-        "company": "De Nora",
+        "title": "Regulatory Specialist - Maternity Cover",
+        "company": "SD Worx",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4418874377"
+      },
+      {
+        "title": "Regulatory Affairs Manager - Plant Protection Products",
+        "company": "ADAMA Ltd.",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1779580800000,
-        "url": "https://www.linkedin.com/jobs/view/4400547917"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4362746384"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "junior",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "clinical",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
-      },
-      {
-        "word": "associate",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
+      },
+      {
+        "word": "medical",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       }
     ],
     "review": []
@@ -270,22 +270,52 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 13 annunci ultimo scan vs media 20 (-36%)",
+      "data": {
+        "current": 13,
+        "avg": 20.2,
+        "change_pct": -35.7
+      }
+    },
+    {
       "type": "new_company_surge",
       "severity": "medium",
-      "message": "🆕 Medpace: 5 posizioni, non presente negli scan precedenti",
+      "message": "🆕 Alfasigma: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "company": "Medpace",
-        "count": 5
+        "company": "Alfasigma",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 11/15 annunci da aziende nuove (73.3%)",
+      "message": "📊 Ultimo scan: 8/13 annunci da aziende nuove (61.5%)",
       "data": {
-        "new": 11,
-        "total": 15,
-        "pct": 73.3
+        "new": 8,
+        "total": 13,
+        "pct": 61.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 87% a 62% (-25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 86.7,
+        "new_pct": 61.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 13% a 38% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 13.3,
+        "new_pct": 38.5
       }
     },
     {
@@ -295,54 +325,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 177,
+            "id": 4,
+            "size": 190,
             "top_terms": [
               "manager",
               "senior",
-              "associate"
+              "compliance"
             ],
-            "pct": 60.0
+            "pct": 64.2
           },
           {
-            "id": 4,
+            "id": 1,
             "size": 39,
             "top_terms": [
               "regulatory",
               "affairs",
-              "specialist"
+              "manager"
             ],
             "pct": 13.2
           },
           {
-            "id": 1,
-            "size": 29,
+            "id": 3,
+            "size": 30,
             "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
+              "specialist",
+              "compliance",
+              "technical"
             ],
-            "pct": 9.8
+            "pct": 10.1
           },
           {
             "id": 0,
             "size": 26,
             "top_terms": [
-              "specialist",
-              "technical",
-              "quality"
+              "assurance",
+              "quality",
+              "specialist"
             ],
             "pct": 8.8
           },
           {
-            "id": 3,
-            "size": 24,
+            "id": 2,
+            "size": 11,
             "top_terms": [
-              "compliance",
-              "expert",
-              "risk"
+              "consultant",
+              "junior",
+              "qhse"
             ],
-            "pct": 8.1
+            "pct": 3.7
           }
         ]
       }

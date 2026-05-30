@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-29T10:35:19.305024",
+  "generated_at": "2026-05-30T09:06:25.875136",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 218,
+  "total_jobs_analyzed": 221,
   "scoring": {
-    "average": 29.2,
+    "average": 28.5,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 100,
-      "low": 14,
-      "irrelevant": 100
+      "good": 5,
+      "medium": 98,
+      "low": 12,
+      "irrelevant": 106
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": 1778284800000,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
+      },
+      {
+        "title": "Medical Advisor Biologics - Dermatology",
+        "company": "Galderma",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414626829"
       },
       {
         "title": "Junior Medical Affairs Manager",
@@ -54,44 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4418969053"
       },
       {
-        "title": "Medical Advisor Biologics - Dermatology",
-        "company": "Galderma",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1778198400000,
-        "url": "https://www.linkedin.com/jobs/view/4380931992"
-      },
-      {
         "title": "Medical Affairs Lead BH",
         "company": "Neuraxpharm",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411500965"
-      },
-      {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "Dermatologist - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331270944"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1778976000000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "(Associate) Medical Director - Neurology",
@@ -108,6 +84,30 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4404914214"
+      },
+      {
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
+      },
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1778976000000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
@@ -134,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
-        "title": "Medical Advisor Rare Bone, Endocrine Disorders & Rare Tumors",
-        "company": "Alexion Pharmaceuticals",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=008591c3092c6ec3"
-      },
-      {
         "title": "Medical Science Liaison - Biologics",
         "company": "Galderma",
         "score": 56,
@@ -154,8 +146,8 @@
         "company": "Madrigal Pharmaceuticals",
         "score": 55,
         "site": "linkedin",
-        "date_posted": 1778544000000,
-        "url": "https://www.linkedin.com/jobs/view/4413570055"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414712525"
       },
       {
         "title": "Health Economics, Market Access & Reimbursement Manager - Lung & Solid Tumors",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4394781112"
+      },
+      {
+        "title": "International Medical Science Liaison, Oncology",
+        "company": "IQVIA",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4384494774"
       }
     ]
   },
@@ -184,22 +184,22 @@
         "reason": "Appare 15x in annunci a basso score"
       },
       {
+        "word": "specialist",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
         "word": "market",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "word": "senior",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "senior",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -220,13 +220,13 @@
       "confidence": 45
     },
     {
-      "keyword": "italy",
+      "keyword": "lung",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
     },
     {
-      "keyword": "lung",
+      "keyword": "italy",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
@@ -236,6 +236,12 @@
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
+    },
+    {
+      "keyword": "medical scientific",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     },
     {
       "keyword": "lung cancer",
@@ -260,33 +266,37 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "manager lung",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 15 (-40%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
       "data": {
-        "current": 9,
-        "avg": 14.9,
-        "change_pct": -39.7
+        "new": 5,
+        "total": 11,
+        "pct": 45.5
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/9 annunci da aziende nuove (55.6%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 56% a 73% (+17pp)",
       "data": {
-        "new": 5,
-        "total": 9,
-        "pct": 55.6
+        "channel": "indeed",
+        "old_pct": 55.6,
+        "new_pct": 72.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 44% a 27% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 44.4,
+        "new_pct": 27.3
       }
     },
     {
@@ -296,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 122,
-            "top_terms": [
-              "manager",
-              "senior",
-              "access"
-            ],
-            "pct": 56.0
-          },
-          {
-            "id": 3,
-            "size": 35,
+            "id": 1,
+            "size": 143,
             "top_terms": [
               "medical",
-              "liaison",
-              "science"
+              "manager",
+              "director"
             ],
-            "pct": 16.1
+            "pct": 64.7
           },
           {
-            "id": 1,
-            "size": 28,
+            "id": 2,
+            "size": 29,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.8
+            "pct": 13.1
           },
           {
-            "id": 2,
-            "size": 18,
+            "id": 0,
+            "size": 17,
             "top_terms": [
               "research",
               "clinical",
               "associate"
             ],
-            "pct": 8.3
+            "pct": 7.7
+          },
+          {
+            "id": 3,
+            "size": 16,
+            "top_terms": [
+              "senior",
+              "manager",
+              "oncology"
+            ],
+            "pct": 7.2
           },
           {
             "id": 4,
-            "size": 15,
+            "size": 16,
             "top_terms": [
-              "director",
-              "medical",
-              "associate"
+              "access",
+              "market",
+              "manager"
             ],
-            "pct": 6.9
+            "pct": 7.2
           }
         ]
       }

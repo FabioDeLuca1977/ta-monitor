@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-05-29T10:35:19.337910",
+  "generated_at": "2026-05-30T09:06:25.911051",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 23.8,
+    "average": 26.8,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 8,
+      "good": 0,
+      "medium": 11,
       "low": 3,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
-      {
-        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
-      },
       {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
@@ -28,6 +20,38 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416693195"
+      },
+      {
+        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
+        "company": "ALMA LABORIS Business School",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
+      },
+      {
+        "title": "Global Regulatory Affairs Consultant",
+        "company": "JSB Solutions",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4408880332"
+      },
+      {
+        "title": "Head of Global Regulatory Affairs CMC",
+        "company": "Alfasigma group",
+        "score": 52,
+        "site": "indeed",
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
+      },
+      {
+        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
+        "company": "Boston Scientific",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4411667555"
       },
       {
         "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
@@ -62,14 +86,6 @@
         "url": "https://it.indeed.com/viewjob?jk=a07d2d726aad435e"
       },
       {
-        "title": "Global Regulatory Affairs Senior Consultant",
-        "company": "JSB Solutions",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1778112000000,
-        "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan",
         "company": "Boston Scientific",
         "score": 41,
@@ -88,7 +104,7 @@
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
-        "score": 23,
+        "score": 22,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
@@ -134,22 +150,6 @@
         "url": "https://it.indeed.com/viewjob?jk=17e706de17d4173b"
       },
       {
-        "title": "HR & LR Partner",
-        "company": "DOW",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1778112000000,
-        "url": "https://it.indeed.com/viewjob?jk=268fc5fe88a28264"
-      },
-      {
-        "title": "Affari Regolatori",
-        "company": "ALMA LABORIS Business School",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
-      },
-      {
         "title": "Direttore/direttrice per CRA a Mirandola (MO)",
         "company": "Codess Sociale Soc Coop",
         "score": 5,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4413426472"
       },
       {
-        "title": "Product Support Specialist JR - Emilia Romagna",
-        "company": "Stryker",
-        "score": 4,
+        "title": "Affari Regolatori",
+        "company": "ALMA LABORIS Business School",
+        "score": 5,
         "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
       }
     ]
   },
@@ -239,64 +239,50 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "global regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+84%)",
+      "severity": "medium",
+      "message": "Volume in crescita: 4 annunci ultimo scan vs media 3 (+33%)",
       "data": {
-        "current": 5,
-        "avg": 2.7,
-        "change_pct": 84.2
+        "current": 4,
+        "avg": 3.0,
+        "change_pct": 33.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 1,
-        "total": 5,
-        "pct": 20.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 40% (-60pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 60% (+60pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 60.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 12,
+            "id": 4,
+            "size": 11,
             "top_terms": [
-              "engineer",
               "settore",
-              "clinical"
+              "engineer",
+              "product"
             ],
-            "pct": 50.0
+            "pct": 44.0
           },
           {
             "id": 1,
@@ -306,17 +292,17 @@
               "regulatory",
               "junior"
             ],
-            "pct": 20.8
+            "pct": 20.0
           },
           {
             "id": 0,
-            "size": 4,
+            "size": 3,
             "top_terms": [
-              "specialist",
+              "devices",
               "medical",
-              "devices"
+              "specialist"
             ],
-            "pct": 16.7
+            "pct": 12.0
           },
           {
             "id": 2,
@@ -326,7 +312,17 @@
               "senior",
               "specialist"
             ],
-            "pct": 12.5
+            "pct": 12.0
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "cardiology",
+              "field",
+              "interventional"
+            ],
+            "pct": 12.0
           }
         ]
       }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T10:35:19.170816",
+  "generated_at": "2026-05-30T09:06:25.747343",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 52,
@@ -7,20 +7,12 @@
     "average": 27.8,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 24,
+      "good": 0,
+      "medium": 25,
       "low": 5,
       "irrelevant": 22
     },
     "top_jobs": [
-      {
-        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 62,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=8011aeebc0157fd3"
-      },
       {
         "title": "Regional Medical Advisor",
         "company": "GSK",
@@ -30,12 +22,28 @@
         "url": "https://www.linkedin.com/jobs/view/4418193739"
       },
       {
+        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
+        "company": "ALMA LABORIS Business School",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=8011aeebc0157fd3"
+      },
+      {
         "title": "Informatore Scientifico del Farmaco",
         "company": "Aurora Biofarma",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4415202060"
+      },
+      {
+        "title": "informatore scientifico del farmaco",
+        "company": "Cadigroup",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4420273658"
       },
       {
         "title": "Medical Representative/ISF Specialty Care",
@@ -82,7 +90,7 @@
         "company": "AxL Spa – ALTI PROFILI",
         "score": 47,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4410608268"
       },
       {
@@ -119,27 +127,11 @@
       },
       {
         "title": "Informatore Scientifico del Farmaco",
-        "company": "Grafton Recruitment",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1778112000000,
-        "url": "https://www.linkedin.com/jobs/view/4409612295"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco",
         "company": "MENARINI Group",
         "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413671688"
-      },
-      {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1778198400000,
-        "url": "https://www.linkedin.com/jobs/view/4411885538"
       },
       {
         "title": "Informatore Scientifico Verona/Vicenza/Padova",
@@ -150,12 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4411704164"
       },
       {
-        "title": "Field Clinical Specialist THV - North Italy",
-        "company": "Edwards Lifesciences",
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1778198400000,
+        "url": "https://www.linkedin.com/jobs/view/4411885538"
+      },
+      {
+        "title": "Venditore-ISF / Medicina estetica mininvasiva - Veneto",
+        "company": "Chaberton Professionals",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4356098675"
+        "url": "https://www.linkedin.com/jobs/view/4411577747"
       },
       {
         "title": "Informatore Scientifico Commerciale - VENETO varie zone",
@@ -180,13 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "assistant",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "infermiere",
@@ -202,40 +197,32 @@
         "word": "professionista",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "assistant",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "scientifico farmaco",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 3,
-        "pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 33.3
+        "pct": 66.7
       }
     },
     {
@@ -246,26 +233,26 @@
         "clusters": [
           {
             "id": 0,
-            "size": 23,
+            "size": 22,
             "top_terms": [
-              "clinical",
-              "senior",
-              "manufacturing"
+              "manager",
+              "health",
+              "service"
             ],
-            "pct": 44.2
+            "pct": 42.3
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 12,
             "top_terms": [
-              "scientifico",
               "informatore",
+              "scientifico",
               "medico"
             ],
             "pct": 23.1
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 7,
             "top_terms": [
               "isf",
@@ -278,21 +265,21 @@
             "id": 4,
             "size": 6,
             "top_terms": [
-              "manager",
-              "product",
-              "junior"
+              "clinical",
+              "senior",
+              "research"
             ],
             "pct": 11.5
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 3,
+            "size": 5,
             "top_terms": [
-              "regulatory",
               "affairs",
+              "regulatory",
               "specialist"
             ],
-            "pct": 7.7
+            "pct": 9.6
           }
         ]
       }
