@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-30T09:06:25.971757",
+  "generated_at": "2026-05-31T09:23:04.117624",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 70,
+  "total_jobs_analyzed": 67,
   "scoring": {
-    "average": 23.6,
+    "average": 24.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 23,
+      "medium": 24,
       "low": 8,
-      "irrelevant": 37
+      "irrelevant": 33
     },
     "top_jobs": [
       {
         "title": "Medical Director, Medical Affairs",
         "company": "Vertex Pharmaceuticals",
-        "score": 66,
+        "score": 65,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4414712533"
       },
       {
@@ -26,24 +26,8 @@
         "company": "Amplity",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4414709146"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA Laboratories",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416917838"
-      },
-      {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415927696"
       },
       {
         "title": "Medical Science Liaison Italy W/M",
@@ -62,20 +46,36 @@
         "url": "https://www.linkedin.com/jobs/view/4418949238"
       },
       {
-        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
-      },
-      {
         "title": "SENIOR MEDICAL SCIENCE LIAISON",
         "company": "Angelini Pharma",
         "score": 54,
         "site": "linkedin",
         "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4413046066"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA Laboratories",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416917838"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415927696"
+      },
+      {
+        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
+        "company": "ALMA LABORIS Business School",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -86,20 +86,28 @@
         "url": "https://www.linkedin.com/jobs/view/4417223802"
       },
       {
+        "title": "Clinical Development Medical Science Director",
+        "company": "Angelini Pharma",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396450100"
+      },
+      {
+        "title": "Regulatory Affairs Analyst",
+        "company": "Axpo Italia",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4420437603"
+      },
+      {
         "title": "Medical Specialist - Remote",
         "company": "YO IT Consulting",
         "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412860388"
-      },
-      {
-        "title": "Clinical Development Medical Science Director",
-        "company": "Angelini Pharma",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396450100"
       },
       {
         "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
@@ -114,7 +122,7 @@
         "company": "Worldwide Clinical Trials",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4414712529"
       },
       {
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1776297600000,
         "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
-      },
-      {
-        "title": "MSL-MA Italy",
-        "company": "Astellas Pharma",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4405993123"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "intern",
@@ -194,12 +194,12 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "cra",
+        "word": "senior",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "sales",
+        "word": "product",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -265,32 +265,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-42%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-60%)",
       "data": {
-        "current": 3,
-        "avg": 5.2,
-        "change_pct": -41.8
+        "current": 2,
+        "avg": 5.0,
+        "change_pct": -60.0
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -300,54 +310,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 27,
+            "id": 0,
+            "size": 54,
             "top_terms": [
-              "italy",
-              "intern",
-              "product"
+              "specialist",
+              "medical",
+              "italy"
             ],
-            "pct": 38.6
+            "pct": 80.6
           },
           {
             "id": 2,
-            "size": 15,
-            "top_terms": [
-              "medical",
-              "director",
-              "science"
-            ],
-            "pct": 21.4
-          },
-          {
-            "id": 0,
-            "size": 13,
-            "top_terms": [
-              "specialist",
-              "affairs",
-              "regulatory"
-            ],
-            "pct": 18.6
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "clinical",
-              "senior",
-              "research"
-            ],
-            "pct": 15.7
-          },
-          {
-            "id": 4,
             "size": 4,
             "top_terms": [
               "lead",
               "international",
               "temporary"
             ],
-            "pct": 5.7
+            "pct": 6.0
+          },
+          {
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "analyst"
+            ],
+            "pct": 6.0
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "research",
+              "associate",
+              "clinical"
+            ],
+            "pct": 4.5
+          },
+          {
+            "id": 1,
+            "size": 2,
+            "top_terms": [
+              "experience",
+              "metabolic",
+              "cardiology"
+            ],
+            "pct": 3.0
           }
         ]
       }

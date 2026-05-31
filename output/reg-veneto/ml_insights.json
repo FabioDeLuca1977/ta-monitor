@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-30T09:06:26.016332",
+  "generated_at": "2026-05-31T09:23:04.163625",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 45,
+  "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 17.6,
+    "average": 18.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 8,
-      "low": 5,
-      "irrelevant": 31
+      "low": 3,
+      "irrelevant": 30
     },
     "top_jobs": [
       {
@@ -46,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4367239299"
       },
       {
-        "title": "Group Regulatory Specialist",
-        "company": "Plank",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411143656"
-      },
-      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "NEWCHEM SPA",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413675692"
+      },
+      {
+        "title": "Group Regulatory Specialist",
+        "company": "Plank",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1778716800000,
+        "url": "https://www.linkedin.com/jobs/view/4411143656"
       },
       {
         "title": "Quality Assurance Specialist - Pharma",
@@ -112,7 +112,7 @@
       {
         "title": "Quality Assurance Specialist - Vicenza",
         "company": "Eurofins PSS Insourcing Solutions",
-        "score": 22,
+        "score": 17,
         "site": "linkedin",
         "date_posted": 1779840000000,
         "url": "https://www.linkedin.com/jobs/view/4417215462"
@@ -120,18 +120,10 @@
       {
         "title": "Quality Assurance Specialist - Vicenza",
         "company": "Eurofins",
-        "score": 22,
+        "score": 17,
         "site": "linkedin",
         "date_posted": 1779840000000,
         "url": "https://www.linkedin.com/jobs/view/4419868821"
-      },
-      {
-        "title": "Quality Assurance & Quality Management System Manager",
-        "company": "ISG International Service Group",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415671084"
       },
       {
         "title": "Customer Quality Assurance Manager",
@@ -148,6 +140,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4414376445"
+      },
+      {
+        "title": "Quality Assurance & Quality Management System Manager",
+        "company": "ISG International Service Group",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415671084"
       },
       {
         "title": "Technical Support Specialist / Impiegato Tecnico Post-Vendita",
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "manager",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "sistema",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "manager",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -211,11 +211,11 @@
     {
       "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+38%)",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+35%)",
       "data": {
         "current": 5,
-        "avg": 3.6,
-        "change_pct": 37.5
+        "avg": 3.7,
+        "change_pct": 35.1
       }
     },
     {
@@ -231,21 +231,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 20% (+20pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 20.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 100% a 80% (-20pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 100.0,
         "new_pct": 80.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 20% (+20pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 20.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 22,
+            "id": 3,
+            "size": 17,
             "top_terms": [
-              "manager",
               "esperto",
-              "engineer"
+              "manager",
+              "compliance"
             ],
-            "pct": 48.9
+            "pct": 40.5
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 10,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 22.2
+            "pct": 23.8
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.3
+            "pct": 14.3
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "addetto",
               "sistema",
+              "addetto",
               "coordinati"
             ],
-            "pct": 8.9
+            "pct": 11.9
           },
           {
-            "id": 2,
-            "size": 3,
+            "id": 0,
+            "size": 4,
             "top_terms": [
               "tecnico",
               "specialist",
               "vicenza"
             ],
-            "pct": 6.7
+            "pct": 9.5
           }
         ]
       }

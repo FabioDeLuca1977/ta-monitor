@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-30T09:06:26.221297",
+  "generated_at": "2026-05-31T09:23:04.359444",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 49,
+  "total_jobs_analyzed": 45,
   "scoring": {
-    "average": 19.0,
+    "average": 18.8,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 8,
+      "medium": 7,
       "low": 1,
-      "irrelevant": 37
+      "irrelevant": 34
     },
     "top_jobs": [
       {
@@ -58,7 +58,7 @@
         "company": "PQE Group",
         "score": 53,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
       },
       {
@@ -88,34 +88,18 @@
       {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
         "company": "Banca Privata Leasing S.p.a.",
-        "score": 47,
+        "score": 46,
         "site": "indeed",
         "date_posted": 1778457600000,
         "url": "https://it.indeed.com/viewjob?jk=64a6d8ff87ea25c6"
       },
       {
-        "title": "Global Quality Assurance Consultant - Pharma",
-        "company": "Akkodis",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1778630400000,
-        "url": "https://www.linkedin.com/jobs/view/4410386289"
-      },
-      {
         "title": "Chief Technology Officer (CTO)",
         "company": "Saas.group",
-        "score": 30,
+        "score": 25,
         "site": "indeed",
         "date_posted": 1779840000000,
         "url": "https://it.indeed.com/viewjob?jk=45d781eca6814997"
-      },
-      {
-        "title": "IT Service Manager",
-        "company": "Philip Morris International",
-        "score": 19,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
       },
       {
         "title": "Head of Global Labeling and Regulatory Policy",
@@ -134,30 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4411598286"
       },
       {
-        "title": "Contract Manager",
-        "company": "AEP Ticketing solutions",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=48e466a9b18295d4"
-      },
-      {
-        "title": "R: Project Manager ERTMS Wayside",
-        "company": "ALSTOM",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
-      },
-      {
-        "title": "Customer Sales Support Manager",
-        "company": "DHL",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=a2578024a2cd2e61"
-      },
-      {
         "title": "Process Validation Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 16,
@@ -166,12 +126,52 @@
         "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
+        "title": "IT Service Manager",
+        "company": "Philip Morris International",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
+      },
+      {
         "title": "Specialist, Quality Assurance GCP",
         "company": "Alfasigma",
         "score": 14,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417633363"
+      },
+      {
+        "title": "Customer Quality Assurance Specialist",
+        "company": "IMA Group",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1778544000000,
+        "url": "https://www.linkedin.com/jobs/view/4412672591"
+      },
+      {
+        "title": "Contract Manager",
+        "company": "AEP Ticketing solutions",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=48e466a9b18295d4"
+      },
+      {
+        "title": "R: Project Manager ERTMS Wayside",
+        "company": "ALSTOM",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
+      },
+      {
+        "title": "Customer Sales Support Manager",
+        "company": "DHL",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=a2578024a2cd2e61"
       }
     ]
   },
@@ -185,23 +185,23 @@
       },
       {
         "word": "quality",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "junior",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "assurance",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "validation",
+        "word": "junior",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "customer",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -261,34 +261,34 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 17,
+            "id": 4,
+            "size": 14,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "global"
+              "specialist",
+              "maintenance",
+              "italy"
             ],
-            "pct": 34.7
-          },
-          {
-            "id": 0,
-            "size": 11,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "junior"
-            ],
-            "pct": 22.4
+            "pct": 31.1
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 12,
             "top_terms": [
-              "specialist",
-              "validation",
-              "maintenance"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 20.4
+            "pct": 26.7
+          },
+          {
+            "id": 1,
+            "size": 8,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "junior"
+            ],
+            "pct": 17.8
           },
           {
             "id": 3,
@@ -298,17 +298,17 @@
               "contract",
               "senior"
             ],
-            "pct": 16.3
+            "pct": 17.8
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 3,
             "top_terms": [
               "sistema",
               "validation",
               "head"
             ],
-            "pct": 6.1
+            "pct": 6.7
           }
         ]
       }

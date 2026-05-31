@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-05-30T09:06:25.875136",
+  "generated_at": "2026-05-31T09:23:04.005024",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 221,
+  "total_jobs_analyzed": 213,
   "scoring": {
     "average": 28.5,
     "distribution": {
       "excellent": 0,
       "good": 5,
-      "medium": 98,
-      "low": 12,
-      "irrelevant": 106
+      "medium": 95,
+      "low": 11,
+      "irrelevant": 102
     },
     "top_jobs": [
+      {
+        "title": "Medical Advisor Biologics - Dermatology",
+        "company": "Galderma",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1778716800000,
+        "url": "https://www.linkedin.com/jobs/view/4414626829"
+      },
       {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1778284800000,
         "url": "https://www.linkedin.com/jobs/view/4372114590"
-      },
-      {
-        "title": "Medical Advisor Biologics - Dermatology",
-        "company": "Galderma",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414626829"
       },
       {
         "title": "Junior Medical Affairs Manager",
@@ -66,7 +66,7 @@
         "company": "Neuraxpharm",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4411500965"
       },
       {
@@ -74,7 +74,7 @@
         "company": "Thermo Fisher Scientific",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4402875758"
       },
       {
@@ -82,7 +82,7 @@
         "company": "Henkel",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4404914214"
       },
       {
@@ -146,7 +146,7 @@
         "company": "Madrigal Pharmaceuticals",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4414712525"
       },
       {
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4394781112"
       },
       {
-        "title": "International Medical Science Liaison, Oncology",
-        "company": "IQVIA",
+        "title": "CMO Manager",
+        "company": "IBSA Group",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4384494774"
+        "date_posted": 1779580800000,
+        "url": "https://www.linkedin.com/jobs/view/4414854244"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "specialist",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "market",
@@ -200,8 +200,8 @@
       },
       {
         "word": "engineer",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -220,12 +220,6 @@
       "confidence": 45
     },
     {
-      "keyword": "lung",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
       "keyword": "italy",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
@@ -239,12 +233,6 @@
     },
     {
       "keyword": "medical scientific",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "lung cancer",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -266,37 +254,49 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "manager lung",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "lung solid",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 15 (-93%)",
       "data": {
-        "new": 5,
-        "total": 11,
-        "pct": 45.5
+        "current": 1,
+        "avg": 15.1,
+        "change_pct": -93.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 56% a 73% (+17pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 55.6,
-        "new_pct": 72.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 44% a 27% (-17pp)",
+      "message": "📡 linkedin: quota passata da 27% a 100% (+73pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 44.4,
-        "new_pct": 27.3
+        "old_pct": 27.3,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 73% a 0% (-73pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 72.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -306,14 +306,34 @@
       "data": {
         "clusters": [
           {
+            "id": 0,
+            "size": 88,
+            "top_terms": [
+              "manager",
+              "access",
+              "market"
+            ],
+            "pct": 41.3
+          },
+          {
             "id": 1,
-            "size": 143,
+            "size": 41,
             "top_terms": [
               "medical",
-              "manager",
-              "director"
+              "director",
+              "liaison"
             ],
-            "pct": 64.7
+            "pct": 19.2
+          },
+          {
+            "id": 3,
+            "size": 35,
+            "top_terms": [
+              "senior",
+              "specialist",
+              "clinical"
+            ],
+            "pct": 16.4
           },
           {
             "id": 2,
@@ -323,37 +343,17 @@
               "affairs",
               "specialist"
             ],
-            "pct": 13.1
+            "pct": 13.6
           },
           {
-            "id": 0,
-            "size": 17,
+            "id": 4,
+            "size": 20,
             "top_terms": [
               "research",
               "clinical",
               "associate"
             ],
-            "pct": 7.7
-          },
-          {
-            "id": 3,
-            "size": 16,
-            "top_terms": [
-              "senior",
-              "manager",
-              "oncology"
-            ],
-            "pct": 7.2
-          },
-          {
-            "id": 4,
-            "size": 16,
-            "top_terms": [
-              "access",
-              "market",
-              "manager"
-            ],
-            "pct": 7.2
+            "pct": 9.4
           }
         ]
       }

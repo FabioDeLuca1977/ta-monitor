@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-30T09:06:25.747343",
+  "generated_at": "2026-05-31T09:23:03.881437",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 52,
+  "total_jobs_analyzed": 48,
   "scoring": {
-    "average": 27.8,
+    "average": 27.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 25,
+      "medium": 22,
       "low": 5,
-      "irrelevant": 22
+      "irrelevant": 21
     },
     "top_jobs": [
       {
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4418195524"
       },
       {
-        "title": "Informatore medico scientifico",
-        "company": "Eberlife Farmaceutici S.p.A.",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4416894651"
-      },
-      {
         "title": "Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
         "score": 48,
@@ -86,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4417415303"
       },
       {
+        "title": "Senior Clinical Research Associate",
+        "company": "Alira Health",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1779321600000,
+        "url": "https://www.linkedin.com/jobs/view/4386508727"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "AxL Spa – ALTI PROFILI",
         "score": 47,
         "site": "linkedin",
         "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4410608268"
-      },
-      {
-        "title": "Senior Clinical Research Associate",
-        "company": "Alira Health",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1778198400000,
-        "url": "https://www.linkedin.com/jobs/view/4412161477"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -126,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4412800542"
       },
       {
+        "title": "Informatore medico scientifico",
+        "company": "Eberlife Farmaceutici S.p.A.",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4416894651"
+      },
+      {
         "title": "Informatore Scientifico del Farmaco",
         "company": "MENARINI Group",
         "score": 43,
@@ -134,28 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4413671688"
       },
       {
-        "title": "Informatore Scientifico Verona/Vicenza/Padova",
-        "company": "Chaberton Professionals",
+        "title": "ISF Immunology - Triveneto",
+        "company": "Pharma Point",
         "score": 42,
         "site": "linkedin",
-        "date_posted": 1778198400000,
-        "url": "https://www.linkedin.com/jobs/view/4411704164"
+        "date_posted": 1778630400000,
+        "url": "https://www.linkedin.com/jobs/view/4410600149"
       },
       {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1778198400000,
-        "url": "https://www.linkedin.com/jobs/view/4411885538"
-      },
-      {
-        "title": "Venditore-ISF / Medicina estetica mininvasiva - Veneto",
-        "company": "Chaberton Professionals",
+        "title": "Field Clinical Specialist THV - North Italy",
+        "company": "Edwards Lifesciences",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411577747"
+        "url": "https://www.linkedin.com/jobs/view/4356098675"
       },
       {
         "title": "Informatore Scientifico Commerciale - VENETO varie zone",
@@ -172,17 +164,20 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417629192"
+      },
+      {
+        "title": "ISF/AGENTI MONOMANDATARI - VENETO (Treviso)",
+        "company": "Cristalfarma",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1778457600000,
+        "url": "https://www.linkedin.com/jobs/view/4412921335"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
       {
         "word": "infermiere",
         "count": 3,
@@ -195,6 +190,11 @@
       },
       {
         "word": "professionista",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -233,53 +233,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 22,
+            "size": 21,
             "top_terms": [
               "manager",
               "health",
               "service"
             ],
-            "pct": 42.3
+            "pct": 43.8
           },
           {
             "id": 1,
-            "size": 12,
+            "size": 10,
             "top_terms": [
-              "informatore",
               "scientifico",
+              "informatore",
               "medico"
             ],
-            "pct": 23.1
+            "pct": 20.8
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 3,
+            "size": 6,
             "top_terms": [
               "isf",
-              "veneto",
-              "venezia"
+              "venezia",
+              "veneto"
             ],
-            "pct": 13.5
+            "pct": 12.5
           },
           {
             "id": 4,
             "size": 6,
             "top_terms": [
-              "clinical",
-              "senior",
-              "research"
+              "regulatory",
+              "affairs",
+              "senior"
             ],
-            "pct": 11.5
+            "pct": 12.5
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 5,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "clinical",
+              "specialist",
+              "research"
             ],
-            "pct": 9.6
+            "pct": 10.4
           }
         ]
       }

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-30T09:06:25.911051",
+  "generated_at": "2026-05-31T09:23:04.052157",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 26.8,
+    "average": 26.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -144,7 +144,7 @@
       {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
-        "score": 11,
+        "score": 6,
         "site": "indeed",
         "date_posted": 1779494400000,
         "url": "https://it.indeed.com/viewjob?jk=17e706de17d4173b"
@@ -249,16 +249,6 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 4 annunci ultimo scan vs media 3 (+33%)",
-      "data": {
-        "current": 4,
-        "avg": 3.0,
-        "change_pct": 33.3
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
       "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
@@ -298,9 +288,9 @@
             "id": 0,
             "size": 3,
             "top_terms": [
-              "devices",
-              "medical",
-              "specialist"
+              "cardiology",
+              "field",
+              "interventional"
             ],
             "pct": 12.0
           },
@@ -318,9 +308,9 @@
             "id": 3,
             "size": 3,
             "top_terms": [
-              "cardiology",
-              "field",
-              "interventional"
+              "devices",
+              "medical",
+              "specialist"
             ],
             "pct": 12.0
           }
