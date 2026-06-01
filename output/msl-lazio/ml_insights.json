@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-31T09:23:04.117624",
+  "generated_at": "2026-06-01T12:11:56.214476",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 67,
   "scoring": {
-    "average": 24.9,
+    "average": 24.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -94,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4396450100"
       },
       {
-        "title": "Regulatory Affairs Analyst",
-        "company": "Axpo Italia",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4420437603"
-      },
-      {
         "title": "Medical Specialist - Remote",
         "company": "YO IT Consulting",
         "score": 52,
@@ -140,6 +132,14 @@
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4415288407"
+      },
+      {
+        "title": "Regulatory Affairs Analyst",
+        "company": "Axpo Italia",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4420437603"
       },
       {
         "title": "Senior Clinical Research Associate",
@@ -266,11 +266,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-60%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-63%)",
       "data": {
         "current": 2,
-        "avg": 5.0,
-        "change_pct": -60.0
+        "avg": 5.4,
+        "change_pct": -63.1
       }
     },
     {
@@ -310,54 +310,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 54,
-            "top_terms": [
-              "specialist",
-              "medical",
-              "italy"
-            ],
-            "pct": 80.6
-          },
-          {
-            "id": 2,
-            "size": 4,
+            "id": 1,
+            "size": 25,
             "top_terms": [
               "lead",
-              "international",
-              "temporary"
+              "intern",
+              "food"
             ],
-            "pct": 6.0
+            "pct": 37.3
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 13,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "analyst"
+              "specialist",
+              "clinical",
+              "remote"
             ],
-            "pct": 6.0
+            "pct": 19.4
           },
           {
             "id": 3,
-            "size": 3,
+            "size": 12,
             "top_terms": [
-              "research",
-              "associate",
-              "clinical"
+              "italy",
+              "medical",
+              "msl"
             ],
-            "pct": 4.5
+            "pct": 17.9
           },
           {
-            "id": 1,
-            "size": 2,
+            "id": 2,
+            "size": 10,
             "top_terms": [
-              "experience",
-              "metabolic",
-              "cardiology"
+              "affairs",
+              "regulatory",
+              "medical"
             ],
-            "pct": 3.0
+            "pct": 14.9
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "senior",
+              "intelligence",
+              "research"
+            ],
+            "pct": 10.4
           }
         ]
       }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-31T09:23:04.052157",
+  "generated_at": "2026-06-01T12:11:56.155563",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 25,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 26.6,
+    "average": 25.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 11,
+      "medium": 10,
       "low": 3,
       "irrelevant": 11
     },
@@ -30,14 +30,6 @@
         "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
       },
       {
-        "title": "Global Regulatory Affairs Consultant",
-        "company": "JSB Solutions",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
         "title": "Head of Global Regulatory Affairs CMC",
         "company": "Alfasigma group",
         "score": 52,
@@ -46,25 +38,9 @@
         "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
-        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
-        "company": "Boston Scientific",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4411667555"
-      },
-      {
-        "title": "Marketing & Clinical Evidence Generation Manager - Settore Medicale",
-        "company": "IGEA S.p.A.",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412015231"
-      },
-      {
         "title": "Marketing and Clinical Evidence Generation Manager - Settore Medicale",
         "company": "IGEA S.p.A.",
-        "score": 50,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412870997"
@@ -78,12 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
+        "title": "Global Regulatory Affairs Consultant",
+        "company": "JSB Solutions",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4408880332"
+      },
+      {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Bologna/Genoa",
         "company": "Boston Scientific",
         "score": 46,
         "site": "indeed",
         "date_posted": 1779667200000,
         "url": "https://it.indeed.com/viewjob?jk=a07d2d726aad435e"
+      },
+      {
+        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
+        "company": "Boston Scientific",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4411667555"
       },
       {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan",
@@ -104,9 +96,9 @@
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
-        "score": 22,
+        "score": 23,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778803200000,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
       },
       {
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
+      },
+      {
+        "title": "Head of DSO Italy",
+        "company": "Straumann Group",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=d95e9d7d03d08e01"
       }
     ]
   },
@@ -191,62 +191,7 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "marketing clinical",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "clinical evidence",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "generation manager",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "manager settore",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "settore medicale",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "marketing clinical evidence",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "generation manager settore",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "manager settore medicale",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "global regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "new_jobs_ratio",
@@ -261,38 +206,38 @@
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 11,
+            "id": 1,
+            "size": 14,
             "top_terms": [
               "settore",
-              "engineer",
-              "product"
-            ],
-            "pct": 44.0
-          },
-          {
-            "id": 1,
-            "size": 5,
-            "top_terms": [
               "affairs",
-              "regulatory",
               "junior"
             ],
-            "pct": 20.0
+            "pct": 58.3
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "devices",
+              "specialist",
+              "medical"
+            ],
+            "pct": 16.7
           },
           {
             "id": 0,
             "size": 3,
             "top_terms": [
               "cardiology",
-              "field",
-              "interventional"
+              "interventional",
+              "field"
             ],
-            "pct": 12.0
+            "pct": 12.5
           },
           {
             "id": 2,
@@ -302,17 +247,7 @@
               "senior",
               "specialist"
             ],
-            "pct": 12.0
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "devices",
-              "medical",
-              "specialist"
-            ],
-            "pct": 12.0
+            "pct": 12.5
           }
         ]
       }

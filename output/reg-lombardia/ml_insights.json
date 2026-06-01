@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-31T09:23:04.316106",
+  "generated_at": "2026-06-01T12:11:56.410831",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 275,
+  "total_jobs_analyzed": 276,
   "scoring": {
-    "average": 15.9,
+    "average": 15.7,
     "distribution": {
       "excellent": 0,
-      "good": 21,
-      "medium": 31,
-      "low": 5,
+      "good": 20,
+      "medium": 32,
+      "low": 6,
       "irrelevant": 218
     },
     "top_jobs": [
@@ -272,41 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 19 (-79%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 20 (-95%)",
       "data": {
-        "current": 4,
-        "avg": 19.4,
-        "change_pct": -79.3
+        "current": 1,
+        "avg": 19.6,
+        "change_pct": -94.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 4,
-        "pct": 50.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 38% a 75% (+37pp)",
+      "message": "📡 linkedin: quota passata da 75% a 0% (-75pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 38.5,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 62% a 25% (-37pp)",
+      "message": "📡 indeed: quota passata da 25% a 100% (+75pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 61.5,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 144,
+            "id": 3,
+            "size": 154,
             "top_terms": [
-              "engineer",
-              "senior",
-              "specialist"
+              "specialist",
+              "compliance",
+              "senior"
             ],
-            "pct": 52.4
+            "pct": 55.8
           },
           {
             "id": 0,
-            "size": 41,
+            "size": 46,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.9
+            "pct": 16.7
           },
           {
-            "id": 2,
-            "size": 36,
+            "id": 4,
+            "size": 37,
             "top_terms": [
               "manager",
               "clinical",
-              "associate"
+              "senior"
             ],
-            "pct": 13.1
+            "pct": 13.4
           },
           {
-            "id": 3,
-            "size": 35,
+            "id": 1,
+            "size": 27,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 12.7
+            "pct": 9.8
           },
           {
-            "id": 4,
-            "size": 19,
+            "id": 2,
+            "size": 12,
             "top_terms": [
-              "compliance",
-              "risk",
-              "manager"
+              "business",
+              "finance",
+              "operations"
             ],
-            "pct": 6.9
+            "pct": 4.3
           }
         ]
       }

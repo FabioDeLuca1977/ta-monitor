@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-31T09:23:04.359444",
+  "generated_at": "2026-06-01T12:11:56.454091",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 45,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 18.8,
+    "average": 19.1,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 7,
       "low": 1,
-      "irrelevant": 34
+      "irrelevant": 33
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist - Medical Devices",
-        "company": "Jefferson Wells Italia",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416693195"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
+      },
+      {
+        "title": "Senior Regulatory Affairs Specialist - Medical Devices",
+        "company": "Jefferson Wells Italia",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
         "title": "Regulatory Specialist",
@@ -114,7 +114,7 @@
         "company": "Grafton Recruitment",
         "score": 18,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778803200000,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
       },
       {
@@ -261,54 +261,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 14,
+            "id": 0,
+            "size": 16,
             "top_terms": [
               "specialist",
               "maintenance",
               "italy"
             ],
-            "pct": 31.1
+            "pct": 36.4
           },
           {
             "id": 2,
-            "size": 12,
+            "size": 9,
             "top_terms": [
               "regulatory",
               "affairs",
-              "specialist"
+              "global"
             ],
-            "pct": 26.7
+            "pct": 20.5
           },
           {
             "id": 1,
-            "size": 8,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "junior"
-            ],
-            "pct": 17.8
-          },
-          {
-            "id": 3,
             "size": 8,
             "top_terms": [
               "manager",
               "contract",
               "senior"
             ],
-            "pct": 17.8
+            "pct": 18.2
           },
           {
-            "id": 0,
+            "id": 3,
+            "size": 8,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "junior"
+            ],
+            "pct": 18.2
+          },
+          {
+            "id": 4,
             "size": 3,
             "top_terms": [
               "sistema",
               "validation",
               "head"
             ],
-            "pct": 6.7
+            "pct": 6.8
           }
         ]
       }

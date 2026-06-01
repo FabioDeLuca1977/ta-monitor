@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-31T09:23:03.881437",
+  "generated_at": "2026-06-01T12:11:56.000692",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 48,
   "scoring": {
-    "average": 27.1,
+    "average": 28.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 22,
-      "low": 5,
-      "irrelevant": 21
+      "medium": 24,
+      "low": 4,
+      "irrelevant": 20
     },
     "top_jobs": [
       {
@@ -31,27 +31,19 @@
       },
       {
         "title": "Informatore Scientifico del Farmaco",
-        "company": "Aurora Biofarma",
+        "company": "Grafton Recruitment",
         "score": 53,
         "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4415202060"
+        "date_posted": 1780099200000,
+        "url": "https://www.linkedin.com/jobs/view/4418318860"
       },
       {
-        "title": "informatore scientifico del farmaco",
-        "company": "Cadigroup",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4420273658"
-      },
-      {
-        "title": "Medical Representative/ISF Specialty Care",
-        "company": "Fidia Pharma",
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
         "score": 52,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4395658496"
+        "date_posted": 1780099200000,
+        "url": "https://www.linkedin.com/jobs/view/4411885538"
       },
       {
         "title": "Informatore Scientifico del Farmaco (ISF)",
@@ -70,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4418195524"
       },
       {
+        "title": "Medical Representative/ISF Specialty Care",
+        "company": "Fidia Pharma",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4395658496"
+      },
+      {
         "title": "Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
         "score": 48,
@@ -78,12 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4417415303"
       },
       {
-        "title": "Senior Clinical Research Associate",
-        "company": "Alira Health",
+        "title": "Informatore Scientifico del Farmaco",
+        "company": "Aurora Biofarma",
         "score": 48,
         "site": "linkedin",
-        "date_posted": 1779321600000,
-        "url": "https://www.linkedin.com/jobs/view/4386508727"
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4415202060"
+      },
+      {
+        "title": "informatore scientifico del farmaco",
+        "company": "Cadigroup",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4420273658"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -92,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4410608268"
+      },
+      {
+        "title": "Senior Clinical Research Associate",
+        "company": "Alira Health",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1779321600000,
+        "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -142,14 +158,6 @@
         "url": "https://www.linkedin.com/jobs/view/4410600149"
       },
       {
-        "title": "Field Clinical Specialist THV - North Italy",
-        "company": "Edwards Lifesciences",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4356098675"
-      },
-      {
         "title": "Informatore Scientifico Commerciale - VENETO varie zone",
         "company": "SANITPHARMA S.R.L.",
         "score": 42,
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417629192"
-      },
-      {
-        "title": "ISF/AGENTI MONOMANDATARI - VENETO (Treviso)",
-        "company": "Cristalfarma",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4412921335"
       }
     ]
   },
@@ -206,23 +206,46 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "scientifico farmaco",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
+    {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-48%)",
+      "data": {
+        "current": 2,
+        "avg": 3.8,
+        "change_pct": -47.8
+      }
+    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 2,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -233,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 21,
-            "top_terms": [
-              "manager",
-              "health",
-              "service"
-            ],
-            "pct": 43.8
-          },
-          {
-            "id": 1,
-            "size": 10,
-            "top_terms": [
-              "scientifico",
-              "informatore",
-              "medico"
-            ],
-            "pct": 20.8
-          },
-          {
-            "id": 3,
-            "size": 6,
+            "size": 22,
             "top_terms": [
               "isf",
-              "venezia",
-              "veneto"
+              "medical",
+              "manufacturing"
             ],
-            "pct": 12.5
+            "pct": 45.8
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "informatore",
+              "scientifico",
+              "farmaco"
+            ],
+            "pct": 22.9
           },
           {
             "id": 4,
             "size": 6,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "senior"
+              "clinical",
+              "specialist",
+              "field"
             ],
             "pct": 12.5
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 5,
             "top_terms": [
-              "clinical",
-              "specialist",
-              "research"
+              "manager",
+              "health",
+              "junior"
             ],
             "pct": 10.4
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 8.3
           }
         ]
       }
