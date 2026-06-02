@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-06-01T12:11:56.256630",
+  "generated_at": "2026-06-02T10:57:39.722838",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 18.2,
+    "average": 19.2,
     "distribution": {
       "excellent": 0,
-      "good": 1,
+      "good": 2,
       "medium": 8,
       "low": 3,
-      "irrelevant": 30
+      "irrelevant": 29
     },
     "top_jobs": [
       {
+        "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
+        "company": "NonStop Consulting",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4421823097"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "AxL Spa – ALTI PROFILI",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4410608268"
@@ -48,7 +56,7 @@
       {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "NEWCHEM SPA",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413675692"
@@ -56,7 +64,7 @@
       {
         "title": "Group Regulatory Specialist",
         "company": "Plank",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4411143656"
@@ -64,7 +72,7 @@
       {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
-        "score": 54,
+        "score": 49,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4417882353"
@@ -72,7 +80,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
@@ -126,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4419868821"
       },
       {
-        "title": "Quality Assurance & Quality Management System Manager",
-        "company": "ISG International Service Group",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415671084"
-      },
-      {
         "title": "Customer Quality Assurance Manager",
         "company": "LHH",
         "score": 16,
@@ -150,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4414376445"
       },
       {
-        "title": "Technical Support Specialist / Impiegato Tecnico Post-Vendita",
-        "company": "Sistema Project Italia s.r.l.",
+        "title": "Quality Assurance & Quality Management System Manager",
+        "company": "ISG International Service Group",
         "score": 15,
-        "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=71114d785d6d0c73"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415671084"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4412289121"
       },
       {
-        "title": "Therapeutic Specialist Oncology - Veneto / Friuli Venezia Giulia",
-        "company": "Gilead Sciences",
+        "title": "Technical Support Specialist / Impiegato Tecnico Post-Vendita",
+        "company": "Sistema Project Italia s.r.l.",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1779667200000,
-        "url": "https://it.indeed.com/viewjob?jk=322866af815c830a"
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=71114d785d6d0c73"
       }
     ]
   },
@@ -194,14 +194,14 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "addetto",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "addetto",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "esperto",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -229,73 +229,43 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 80% a 100% (+20pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 80.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 20% a 0% (-20pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 20.0,
-        "new_pct": 0.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 19,
+            "id": 2,
+            "size": 17,
             "top_terms": [
+              "manager",
               "tecnico",
-              "esperto",
               "compliance"
             ],
-            "pct": 45.2
+            "pct": 40.5
           },
           {
-            "id": 1,
-            "size": 8,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "quality",
-              "specialist",
-              "assurance"
+              "assurance",
+              "specialist"
             ],
-            "pct": 19.0
+            "pct": 23.8
           },
           {
-            "id": 2,
-            "size": 6,
+            "id": 4,
+            "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.3
+            "pct": 19.0
           },
           {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "manager",
-              "quality",
-              "assurance"
-            ],
-            "pct": 11.9
-          },
-          {
-            "id": 4,
+            "id": 1,
             "size": 4,
             "top_terms": [
               "addetto",
@@ -303,6 +273,16 @@
               "coordinati"
             ],
             "pct": 9.5
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "esperto",
+              "stampatore",
+              "offset"
+            ],
+            "pct": 7.1
           }
         ]
       }

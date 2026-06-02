@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-01T12:11:56.214476",
+  "generated_at": "2026-06-02T10:57:39.680865",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 67,
   "scoring": {
-    "average": 24.8,
+    "average": 24.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -36,14 +36,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416580742"
-      },
-      {
-        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
-        "company": "QuiCare",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1779667200000,
-        "url": "https://www.linkedin.com/jobs/view/4418949238"
       },
       {
         "title": "SENIOR MEDICAL SCIENCE LIAISON",
@@ -106,8 +98,16 @@
         "company": "Angelini Pharma",
         "score": 50,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1778889600000,
         "url": "https://www.linkedin.com/jobs/view/4412082502"
+      },
+      {
+        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
+        "company": "QuiCare",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4418949238"
       },
       {
         "title": "Clinical Research Associate - Italy - Remote",
@@ -266,11 +266,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-63%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-66%)",
       "data": {
         "current": 2,
-        "avg": 5.4,
-        "change_pct": -63.1
+        "avg": 5.9,
+        "change_pct": -66.2
       }
     },
     {
@@ -311,53 +311,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 25,
+            "size": 53,
             "top_terms": [
-              "lead",
-              "intern",
-              "food"
-            ],
-            "pct": 37.3
-          },
-          {
-            "id": 4,
-            "size": 13,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "remote"
-            ],
-            "pct": 19.4
-          },
-          {
-            "id": 3,
-            "size": 12,
-            "top_terms": [
-              "italy",
               "medical",
-              "msl"
+              "specialist",
+              "italy"
             ],
-            "pct": 17.9
-          },
-          {
-            "id": 2,
-            "size": 10,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "medical"
-            ],
-            "pct": 14.9
+            "pct": 79.1
           },
           {
             "id": 0,
-            "size": 7,
+            "size": 4,
             "top_terms": [
-              "senior",
-              "intelligence",
-              "research"
+              "lead",
+              "international",
+              "temporary"
             ],
-            "pct": 10.4
+            "pct": 6.0
+          },
+          {
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "analyst"
+            ],
+            "pct": 6.0
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "research",
+              "associate",
+              "clinical"
+            ],
+            "pct": 4.5
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "sales",
+              "specialist",
+              "clinical"
+            ],
+            "pct": 4.5
           }
         ]
       }

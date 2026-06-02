@@ -1,41 +1,33 @@
 {
-  "generated_at": "2026-06-01T12:11:56.454091",
+  "generated_at": "2026-06-02T10:57:39.919608",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 44,
+  "total_jobs_analyzed": 43,
   "scoring": {
-    "average": 19.1,
+    "average": 18.0,
     "distribution": {
       "excellent": 0,
-      "good": 3,
+      "good": 2,
       "medium": 7,
       "low": 1,
       "irrelevant": 33
     },
     "top_jobs": [
       {
-        "title": "Head of Global Regulatory Affairs CMC",
-        "company": "Alfasigma group",
+        "title": "Senior Regulatory Affairs Specialist - Medical Devices",
+        "company": "Jefferson Wells Italia",
         "score": 62,
-        "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1778457600000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist - Medical Devices",
-        "company": "Jefferson Wells Italia",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
         "title": "Regulatory Specialist",
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412278010"
+      },
+      {
+        "title": "Head of Global Regulatory Affairs CMC",
+        "company": "Alfasigma group",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
@@ -86,14 +86,6 @@
         "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
       },
       {
-        "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
-        "company": "Banca Privata Leasing S.p.a.",
-        "score": 46,
-        "site": "indeed",
-        "date_posted": 1778457600000,
-        "url": "https://it.indeed.com/viewjob?jk=64a6d8ff87ea25c6"
-      },
-      {
         "title": "Chief Technology Officer (CTO)",
         "company": "Saas.group",
         "score": 25,
@@ -102,28 +94,12 @@
         "url": "https://it.indeed.com/viewjob?jk=45d781eca6814997"
       },
       {
-        "title": "Head of Global Labeling and Regulatory Policy",
-        "company": "Alfasigma group",
-        "score": 19,
-        "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=66d605ecc26221ee"
-      },
-      {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
         "score": 18,
         "site": "linkedin",
         "date_posted": 1778803200000,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
-      },
-      {
-        "title": "Process Validation Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": 1779667200000,
-        "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
         "title": "IT Service Manager",
@@ -140,6 +116,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417633363"
+      },
+      {
+        "title": "Head of Global Labeling and Regulatory Policy",
+        "company": "Alfasigma group",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=66d605ecc26221ee"
       },
       {
         "title": "Customer Quality Assurance Specialist",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1779840000000,
         "url": "https://it.indeed.com/viewjob?jk=a2578024a2cd2e61"
+      },
+      {
+        "title": "RA Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1778630400000,
+        "url": "https://www.linkedin.com/jobs/view/4399728867"
+      },
+      {
+        "title": "Process Validation Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4414896589"
       }
     ]
   },
@@ -261,54 +261,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 1,
             "size": 16,
             "top_terms": [
               "specialist",
               "maintenance",
               "italy"
             ],
-            "pct": 36.4
+            "pct": 37.2
+          },
+          {
+            "id": 0,
+            "size": 9,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "junior"
+            ],
+            "pct": 20.9
           },
           {
             "id": 2,
-            "size": 9,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "global"
-            ],
-            "pct": 20.5
-          },
-          {
-            "id": 1,
             "size": 8,
             "top_terms": [
               "manager",
               "contract",
               "senior"
             ],
-            "pct": 18.2
-          },
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "junior"
-            ],
-            "pct": 18.2
+            "pct": 18.6
           },
           {
             "id": 4,
+            "size": 7,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "global"
+            ],
+            "pct": 16.3
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "sistema",
               "validation",
               "head"
             ],
-            "pct": 6.8
+            "pct": 7.0
           }
         ]
       }

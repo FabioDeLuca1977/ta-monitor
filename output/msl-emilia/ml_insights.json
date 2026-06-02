@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-01T12:11:56.155563",
+  "generated_at": "2026-06-02T10:57:39.622947",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 25.2,
+    "average": 24.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 10,
-      "low": 3,
-      "irrelevant": 11
+      "medium": 9,
+      "low": 2,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -28,14 +28,6 @@
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
-      },
-      {
-        "title": "Head of Global Regulatory Affairs CMC",
-        "company": "Alfasigma group",
-        "score": 52,
-        "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
         "title": "Marketing and Clinical Evidence Generation Manager - Settore Medicale",
@@ -62,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
-        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Bologna/Genoa",
-        "company": "Boston Scientific",
-        "score": 46,
+        "title": "Head of Global Regulatory Affairs CMC",
+        "company": "Alfasigma group",
+        "score": 47,
         "site": "indeed",
-        "date_posted": 1779667200000,
-        "url": "https://it.indeed.com/viewjob?jk=a07d2d726aad435e"
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
@@ -78,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4411667555"
       },
       {
+        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Bologna/Genoa",
+        "company": "Boston Scientific",
+        "score": 41,
+        "site": "indeed",
+        "date_posted": 1779667200000,
+        "url": "https://it.indeed.com/viewjob?jk=a07d2d726aad435e"
+      },
+      {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan",
         "company": "Boston Scientific",
         "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411669590"
-      },
-      {
-        "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
-        "company": "Banca Più",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4412750131"
       },
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
@@ -110,14 +102,6 @@
         "url": "https://it.indeed.com/viewjob?jk=881a3a4ede38fa00"
       },
       {
-        "title": "Process Validation Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 20,
-        "site": "linkedin",
-        "date_posted": 1779667200000,
-        "url": "https://www.linkedin.com/jobs/view/4414896589"
-      },
-      {
         "title": "RA Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 16,
@@ -132,6 +116,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4419415873"
+      },
+      {
+        "title": "Process Validation Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
         "title": "Senior CRA",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=d95e9d7d03d08e01"
+      },
+      {
+        "title": "Product Support Specialist JR - Emilia Romagna",
+        "company": "Stryker",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1778716800000,
+        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
       }
     ]
   },
@@ -179,12 +179,17 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "specialist",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
         "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "specialist",
+        "word": "medical",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -211,43 +216,43 @@
         "clusters": [
           {
             "id": 1,
-            "size": 14,
+            "size": 15,
             "top_terms": [
-              "settore",
-              "affairs",
-              "junior"
-            ],
-            "pct": 58.3
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "devices",
+              "medical",
               "specialist",
-              "medical"
+              "affairs"
             ],
-            "pct": 16.7
+            "pct": 65.2
           },
           {
             "id": 0,
-            "size": 3,
-            "top_terms": [
-              "cardiology",
-              "interventional",
-              "field"
-            ],
-            "pct": 12.5
-          },
-          {
-            "id": 2,
             "size": 3,
             "top_terms": [
               "cra",
               "senior",
               "specialist"
             ],
-            "pct": 12.5
+            "pct": 13.0
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "cardiology",
+              "interventional",
+              "field"
+            ],
+            "pct": 13.0
+          },
+          {
+            "id": 2,
+            "size": 2,
+            "top_terms": [
+              "settore",
+              "manager",
+              "clinical"
+            ],
+            "pct": 8.7
           }
         ]
       }
