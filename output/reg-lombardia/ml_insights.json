@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-02T10:57:39.876365",
+  "generated_at": "2026-06-03T11:37:46.284011",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 282,
+  "total_jobs_analyzed": 274,
   "scoring": {
-    "average": 15.9,
+    "average": 16.1,
     "distribution": {
       "excellent": 0,
-      "good": 23,
-      "medium": 31,
-      "low": 7,
-      "irrelevant": 221
+      "good": 25,
+      "medium": 28,
+      "low": 6,
+      "irrelevant": 215
     },
     "top_jobs": [
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Grafton Recruitment",
-        "score": 70,
-        "site": "linkedin",
-        "date_posted": 1780272000000,
-        "url": "https://www.linkedin.com/jobs/view/4418744689"
-      },
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
@@ -30,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4377177028"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Grafton Recruitment",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1780272000000,
+        "url": "https://www.linkedin.com/jobs/view/4418744689"
+      },
+      {
         "title": "Senior Regulatory Affairs CMC Specialist",
         "company": "Recordati",
-        "score": 65,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4377177029"
-      },
-      {
-        "title": "Regulatory Affairs",
-        "company": "ATTAL Group",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4419453183"
       },
       {
         "title": "Scientific and Regulatory Affairs Manager",
@@ -86,6 +78,14 @@
         "url": "https://www.linkedin.com/jobs/view/4423739060"
       },
       {
+        "title": "Country Regulatory Manager (M/W)",
+        "company": "SBM",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1780358400000,
+        "url": "https://it.indeed.com/viewjob?jk=ab59f548a919ce34"
+      },
+      {
         "title": "Regulatory Affairs Specialist – Cosmetico",
         "company": "AxL S.p.A. - Agenzia per il Lavoro",
         "score": 61,
@@ -100,14 +100,6 @@
         "site": "linkedin",
         "date_posted": 1778544000000,
         "url": "https://www.linkedin.com/jobs/view/4404321297"
-      },
-      {
-        "title": "SCM External Regulatory Compliance Manager",
-        "company": "Hitachi Energy",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1778630400000,
-        "url": "https://www.linkedin.com/jobs/view/4412583669"
       },
       {
         "title": "Regulatory Affairs Specialist -Erba",
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4411744140"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist – Cosmetics & Medical Devices",
+        "company": "Betafarma S.p.A.",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4419606667"
+      },
+      {
         "title": "Regulatory Affairs Program Owner",
         "company": "PQE Group",
         "score": 60,
@@ -180,33 +180,39 @@
     "add_blacklist": [
       {
         "word": "assurance",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
-        "word": "clinical",
+        "word": "compliance",
         "count": 13,
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "medical",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "junior",
+        "word": "clinical",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "associate",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "risk",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
+    {
+      "keyword": "senior",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
+    },
     {
       "keyword": "international regulatory",
       "frequency": 3,
@@ -214,10 +220,10 @@
       "confidence": 45
     },
     {
-      "keyword": "senior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "keyword": "senior regulatory",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
     },
     {
       "keyword": "international",
@@ -226,19 +232,13 @@
       "confidence": 40
     },
     {
-      "keyword": "specialist cosmetico",
+      "keyword": "junior regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "affairs specialist cosmetico",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "manager regulatory",
+      "keyword": "gomma plastica",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -250,13 +250,13 @@
       "confidence": 30
     },
     {
-      "keyword": "junior regulatory",
+      "keyword": "specialist cosmetico",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "gomma plastica",
+      "keyword": "affairs specialist cosmetico",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -272,41 +272,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 10 annunci ultimo scan vs media 19 (-49%)",
+      "message": "Volume in calo: 11 annunci ultimo scan vs media 19 (-41%)",
       "data": {
-        "current": 10,
-        "avg": 19.4,
-        "change_pct": -48.5
+        "current": 11,
+        "avg": 18.8,
+        "change_pct": -41.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/10 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 10/11 annunci da aziende nuove (90.9%)",
       "data": {
-        "new": 6,
-        "total": 10,
-        "pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 20% (+20pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 20.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 80% (-20pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 80.0
+        "new": 10,
+        "total": 11,
+        "pct": 90.9
       }
     },
     {
@@ -316,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 158,
+            "id": 1,
+            "size": 160,
             "top_terms": [
+              "manager",
               "senior",
-              "compliance",
-              "specialist"
+              "risk"
             ],
-            "pct": 56.0
+            "pct": 58.4
           },
           {
-            "id": 2,
-            "size": 44,
+            "id": 0,
+            "size": 39,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.6
-          },
-          {
-            "id": 3,
-            "size": 42,
-            "top_terms": [
-              "manager",
-              "regulatory",
-              "clinical"
-            ],
-            "pct": 14.9
-          },
-          {
-            "id": 1,
-            "size": 25,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 8.9
+            "pct": 14.2
           },
           {
             "id": 4,
-            "size": 13,
+            "size": 30,
             "top_terms": [
-              "technical",
-              "coordinator",
-              "marketing"
+              "specialist",
+              "compliance",
+              "technical"
             ],
-            "pct": 4.6
+            "pct": 10.9
+          },
+          {
+            "id": 2,
+            "size": 26,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 9.5
+          },
+          {
+            "id": 3,
+            "size": 19,
+            "top_terms": [
+              "medical",
+              "product",
+              "devices"
+            ],
+            "pct": 6.9
           }
         ]
       }

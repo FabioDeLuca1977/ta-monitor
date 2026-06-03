@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-02T10:57:39.722838",
+  "generated_at": "2026-06-03T11:37:46.132632",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 19.2,
+    "average": 19.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 8,
       "low": 3,
-      "irrelevant": 29
+      "irrelevant": 27
     },
     "top_jobs": [
       {
@@ -32,26 +32,18 @@
       {
         "title": "Regulatory Affairs Expert",
         "company": "Fidia Pharma",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412260439"
       },
       {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412800542"
-      },
-      {
-        "title": "Senior International Regulatory Specialist",
-        "company": "Orthofix",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4367239299"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -70,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4411143656"
       },
       {
+        "title": "Senior International Regulatory Specialist",
+        "company": "Orthofix",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1779753600000,
+        "url": "https://www.linkedin.com/jobs/view/4367239299"
+      },
+      {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
         "score": 49,
@@ -82,7 +82,7 @@
         "company": "Arethusa",
         "score": 48,
         "site": "linkedin",
-        "date_posted": 1778457600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
       },
       {
@@ -104,7 +104,7 @@
       {
         "title": "Opportunità di Lavoro – Categorie Protette (L.68/99)",
         "company": "Newpharm",
-        "score": 25,
+        "score": 20,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=14f9f75c7dc1f613"
@@ -112,7 +112,7 @@
       {
         "title": "Marketing Farmaceutico",
         "company": "ALMA LABORIS Business School",
-        "score": 25,
+        "score": 20,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=54949be1bc94e8a8"
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4415671084"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "CEAM Cavi Speciali Srl",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412289121"
-      },
-      {
         "title": "Technical Support Specialist / Impiegato Tecnico Post-Vendita",
         "company": "Sistema Project Italia s.r.l.",
         "score": 10,
         "site": "indeed",
         "date_posted": 1780012800000,
         "url": "https://it.indeed.com/viewjob?jk=71114d785d6d0c73"
+      },
+      {
+        "title": "Responsabile Qualità di Sistema",
+        "company": "Adecco Permanent Recruitment",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4417220975"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "sistema",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
       "data": {
         "current": 1,
-        "avg": 3.7,
-        "change_pct": -73.2
+        "avg": 3.9,
+        "change_pct": -74.4
       }
     },
     {
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 17,
-            "top_terms": [
-              "manager",
-              "tecnico",
-              "compliance"
-            ],
-            "pct": 40.5
-          },
-          {
-            "id": 3,
-            "size": 10,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 23.8
-          },
-          {
             "id": 4,
+            "size": 15,
+            "top_terms": [
+              "esperto",
+              "tecnico",
+              "assistente"
+            ],
+            "pct": 37.5
+          },
+          {
+            "id": 2,
             "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 19.0
+            "pct": 20.0
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 17.5
+          },
+          {
+            "id": 3,
+            "size": 6,
+            "top_terms": [
+              "sistema",
+              "addetto",
+              "coordinati"
+            ],
+            "pct": 15.0
           },
           {
             "id": 1,
             "size": 4,
             "top_terms": [
-              "addetto",
-              "sistema",
-              "coordinati"
+              "manager",
+              "assurance",
+              "quality"
             ],
-            "pct": 9.5
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "esperto",
-              "stampatore",
-              "offset"
-            ],
-            "pct": 7.1
+            "pct": 10.0
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-02T10:57:39.680865",
+  "generated_at": "2026-06-03T11:37:46.090738",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 67,
+  "total_jobs_analyzed": 63,
   "scoring": {
-    "average": 24.5,
+    "average": 24.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 24,
+      "medium": 23,
       "low": 8,
-      "irrelevant": 33
+      "irrelevant": 30
     },
     "top_jobs": [
       {
@@ -38,14 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4416580742"
       },
       {
-        "title": "SENIOR MEDICAL SCIENCE LIAISON",
-        "company": "Angelini Pharma",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4413046066"
-      },
-      {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA Laboratories",
         "score": 54,
@@ -62,14 +54,6 @@
         "url": "https://www.linkedin.com/jobs/view/4415927696"
       },
       {
-        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
-      },
-      {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
         "score": 54,
@@ -80,7 +64,7 @@
       {
         "title": "Clinical Development Medical Science Director",
         "company": "Angelini Pharma",
-        "score": 53,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4396450100"
@@ -88,7 +72,7 @@
       {
         "title": "Medical Specialist - Remote",
         "company": "YO IT Consulting",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412860388"
@@ -110,6 +94,14 @@
         "url": "https://www.linkedin.com/jobs/view/4418949238"
       },
       {
+        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
+        "company": "ALMA LABORIS Business School",
+        "score": 49,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
+      },
+      {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
         "score": 48,
@@ -122,16 +114,8 @@
         "company": "Adecco",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412275205"
-      },
-      {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo Group",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4415288407"
       },
       {
         "title": "Regulatory Affairs Analyst",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1776297600000,
         "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
+      },
+      {
+        "title": "MSL-MA Italy",
+        "company": "Astellas Pharma",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4405993123"
+      },
+      {
+        "title": "MSL Italy",
+        "company": "SERB Pharmaceuticals",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417492939"
       }
     ]
   },
@@ -187,16 +187,6 @@
         "word": "intern",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "lead",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "product",
@@ -266,41 +256,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-66%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-64%)",
       "data": {
         "current": 2,
-        "avg": 5.9,
-        "change_pct": -66.2
+        "avg": 5.5,
+        "change_pct": -63.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 2,
+        "new": 1,
         "total": 2,
-        "pct": 100.0
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -310,54 +300,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 53,
+            "id": 2,
+            "size": 34,
             "top_terms": [
-              "medical",
-              "specialist",
-              "italy"
+              "italy",
+              "senior",
+              "intern"
             ],
-            "pct": 79.1
-          },
-          {
-            "id": 0,
-            "size": 4,
-            "top_terms": [
-              "lead",
-              "international",
-              "temporary"
-            ],
-            "pct": 6.0
+            "pct": 54.0
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 12,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "analyst"
+              "medical",
+              "director",
+              "affairs"
             ],
-            "pct": 6.0
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "research",
-              "associate",
-              "clinical"
-            ],
-            "pct": 4.5
+            "pct": 19.0
           },
           {
             "id": 3,
-            "size": 3,
+            "size": 10,
             "top_terms": [
-              "sales",
               "specialist",
-              "clinical"
+              "clinical",
+              "technical"
             ],
-            "pct": 4.5
+            "pct": 15.9
+          },
+          {
+            "id": 1,
+            "size": 5,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "analyst"
+            ],
+            "pct": 7.9
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "neuro",
+              "opportunity",
+              "phd"
+            ],
+            "pct": 3.2
           }
         ]
       }

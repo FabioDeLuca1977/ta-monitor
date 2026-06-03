@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-02T10:57:39.467814",
+  "generated_at": "2026-06-03T11:37:45.881287",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 49,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 28.0,
+    "average": 26.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 25,
-      "low": 4,
+      "medium": 23,
+      "low": 3,
       "irrelevant": 20
     },
     "top_jobs": [
@@ -24,34 +24,18 @@
       {
         "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
         "company": "ALMA LABORIS Business School",
-        "score": 57,
+        "score": 52,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=8011aeebc0157fd3"
       },
       {
-        "title": "Informatore Scientifico del Farmaco",
-        "company": "Grafton Recruitment",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1780099200000,
-        "url": "https://www.linkedin.com/jobs/view/4418318860"
-      },
-      {
         "title": "Medical Representative/ISF Specialty Care",
         "company": "Fidia Pharma",
-        "score": 52,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4395658496"
-      },
-      {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1780099200000,
-        "url": "https://www.linkedin.com/jobs/view/4411885538"
       },
       {
         "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
@@ -86,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4417415303"
       },
       {
+        "title": "Senior Clinical Research Associate",
+        "company": "Alira Health",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1779321600000,
+        "url": "https://www.linkedin.com/jobs/view/4386508727"
+      },
+      {
         "title": "Informatore Scientifico del Farmaco",
         "company": "Aurora Biofarma",
         "score": 48,
@@ -102,20 +94,28 @@
         "url": "https://www.linkedin.com/jobs/view/4420273658"
       },
       {
+        "title": "Informatore Scientifico del Farmaco",
+        "company": "Grafton Recruitment",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1780099200000,
+        "url": "https://www.linkedin.com/jobs/view/4418318860"
+      },
+      {
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1780099200000,
+        "url": "https://www.linkedin.com/jobs/view/4411885538"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "AxL Spa – ALTI PROFILI",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1778630400000,
         "url": "https://www.linkedin.com/jobs/view/4410608268"
-      },
-      {
-        "title": "Senior Clinical Research Associate",
-        "company": "Alira Health",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1779321600000,
-        "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -138,7 +138,7 @@
         "company": "Fidia Pharma",
         "score": 43,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412260439"
       },
       {
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-75%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
       "data": {
         "current": 1,
-        "avg": 4.0,
-        "change_pct": -75.0
+        "avg": 4.1,
+        "change_pct": -75.6
       }
     },
     {
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 22,
+            "id": 0,
+            "size": 23,
             "top_terms": [
-              "isf",
               "medical",
-              "manufacturing"
+              "clinical",
+              "sales"
             ],
-            "pct": 44.9
+            "pct": 50.0
           },
           {
-            "id": 0,
-            "size": 11,
+            "id": 4,
+            "size": 10,
             "top_terms": [
               "informatore",
               "scientifico",
               "farmaco"
             ],
-            "pct": 22.4
+            "pct": 21.7
+          },
+          {
+            "id": 1,
+            "size": 5,
+            "top_terms": [
+              "venezia",
+              "libero",
+              "infermiere"
+            ],
+            "pct": 10.9
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 5,
             "top_terms": [
-              "affairs",
               "regulatory",
+              "affairs",
               "specialist"
             ],
-            "pct": 12.2
+            "pct": 10.9
           },
           {
             "id": 3,
-            "size": 5,
-            "top_terms": [
-              "clinical",
-              "specialist",
-              "research"
-            ],
-            "pct": 10.2
-          },
-          {
-            "id": 4,
-            "size": 5,
+            "size": 3,
             "top_terms": [
               "manager",
               "program",
-              "junior"
+              "health"
             ],
-            "pct": 10.2
+            "pct": 6.5
           }
         ]
       }

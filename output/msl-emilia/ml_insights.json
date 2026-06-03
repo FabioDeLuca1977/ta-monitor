@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-02T10:57:39.622947",
+  "generated_at": "2026-06-03T11:37:46.034013",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 24.0,
+    "average": 21.8,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 9,
+      "medium": 8,
       "low": 2,
-      "irrelevant": 12
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -22,33 +22,25 @@
         "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
-        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
-      },
-      {
         "title": "Marketing and Clinical Evidence Generation Manager - Settore Medicale",
         "company": "IGEA S.p.A.",
-        "score": 51,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412870997"
       },
       {
-        "title": "Regulatory Affairs Specialist - Energy",
-        "company": "Gruppo Hera",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1778457600000,
-        "url": "https://www.linkedin.com/jobs/view/4392674060"
+        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
+        "company": "ALMA LABORIS Business School",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
       },
       {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
@@ -126,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
+        "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
+        "company": "Transmedics",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1780358400000,
+        "url": "https://it.indeed.com/viewjob?jk=68813663b4fea5cf"
+      },
+      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4413426472"
       },
       {
-        "title": "Affari Regolatori",
-        "company": "ALMA LABORIS Business School",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
-      },
-      {
-        "title": "Head of DSO Italy",
-        "company": "Straumann Group",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=d95e9d7d03d08e01"
-      },
-      {
         "title": "Product Support Specialist JR - Emilia Romagna",
         "company": "Stryker",
         "score": 4,
         "site": "indeed",
         "date_posted": 1778716800000,
         "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
+      },
+      {
+        "title": "Molding Engineer",
+        "company": "Dikton S.r.l.",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1778716800000,
+        "url": "https://it.indeed.com/viewjob?jk=626aa04416d30768"
+      },
+      {
+        "title": "Neolaureati Farmacia e Chimica",
+        "company": "ALMA LABORIS Business School",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1776297600000,
+        "url": "https://it.indeed.com/viewjob?jk=4f599a64360d3f3c"
       }
     ]
   },
@@ -199,13 +199,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
+      "data": {
+        "current": 1,
+        "avg": 3.7,
+        "change_pct": -72.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -216,21 +246,31 @@
         "clusters": [
           {
             "id": 1,
-            "size": 15,
+            "size": 13,
             "top_terms": [
               "medical",
               "specialist",
               "affairs"
             ],
-            "pct": 65.2
+            "pct": 56.5
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "clinical",
+              "field",
+              "cardiology"
+            ],
+            "pct": 17.4
           },
           {
             "id": 0,
             "size": 3,
             "top_terms": [
-              "cra",
-              "senior",
-              "specialist"
+              "engineer",
+              "device",
+              "manager"
             ],
             "pct": 13.0
           },
@@ -238,21 +278,11 @@
             "id": 3,
             "size": 3,
             "top_terms": [
-              "cardiology",
-              "interventional",
-              "field"
+              "cra",
+              "senior",
+              "specialist"
             ],
             "pct": 13.0
-          },
-          {
-            "id": 2,
-            "size": 2,
-            "top_terms": [
-              "settore",
-              "manager",
-              "clinical"
-            ],
-            "pct": 8.7
           }
         ]
       }
