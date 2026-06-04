@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-03T11:37:46.132632",
+  "generated_at": "2026-06-04T10:30:14.939497",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 19.3,
+    "average": 19.1,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 8,
+      "good": 1,
+      "medium": 9,
       "low": 3,
       "irrelevant": 27
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
-        "company": "NonStop Consulting",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4421823097"
-      },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "AxL Spa – ALTI PROFILI",
@@ -30,20 +22,28 @@
         "url": "https://www.linkedin.com/jobs/view/4410608268"
       },
       {
-        "title": "Regulatory Affairs Expert",
-        "company": "Fidia Pharma",
-        "score": 58,
+        "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
+        "company": "NonStop Consulting",
+        "score": 59,
         "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4412260439"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4421823097"
       },
       {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
         "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412800542"
+      },
+      {
+        "title": "Regulatory Affairs Expert",
+        "company": "Fidia Pharma",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1779062400000,
+        "url": "https://www.linkedin.com/jobs/view/4412260439"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -118,22 +118,6 @@
         "url": "https://it.indeed.com/viewjob?jk=54949be1bc94e8a8"
       },
       {
-        "title": "Quality Assurance Specialist - Vicenza",
-        "company": "Eurofins PSS Insourcing Solutions",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4417215462"
-      },
-      {
-        "title": "Quality Assurance Specialist - Vicenza",
-        "company": "Eurofins",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4419868821"
-      },
-      {
         "title": "Customer Quality Assurance Manager",
         "company": "LHH",
         "score": 16,
@@ -154,8 +138,24 @@
         "company": "ISG International Service Group",
         "score": 15,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4415671084"
+      },
+      {
+        "title": "Quality Assurance Specialist - Vicenza",
+        "company": "Eurofins PSS Insourcing Solutions",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4417215462"
+      },
+      {
+        "title": "Quality Assurance Specialist - Vicenza",
+        "company": "Eurofins",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4419868821"
       },
       {
         "title": "Technical Support Specialist / Impiegato Tecnico Post-Vendita",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=71114d785d6d0c73"
       },
       {
-        "title": "Responsabile Qualità di Sistema",
-        "company": "Adecco Permanent Recruitment",
-        "score": 9,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4417220975"
+        "title": "Purchasing Internship",
+        "company": "Steelco S.p.A",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1780444800000,
+        "url": "https://it.indeed.com/viewjob?jk=144f4f146654a828"
       }
     ]
   },
@@ -194,14 +194,14 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "addetto",
+        "word": "manager",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "esperto",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "addetto",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
       "data": {
         "current": 1,
-        "avg": 3.9,
-        "change_pct": -74.4
+        "avg": 3.5,
+        "change_pct": -71.8
       }
     },
     {
@@ -229,60 +229,80 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 4,
+            "id": 0,
             "size": 15,
             "top_terms": [
               "esperto",
-              "tecnico",
+              "manager",
               "assistente"
             ],
             "pct": 37.5
           },
           {
             "id": 2,
-            "size": 8,
+            "size": 10,
             "top_terms": [
               "regulatory",
-              "affairs",
-              "specialist"
+              "specialist",
+              "affairs"
             ],
-            "pct": 20.0
+            "pct": 25.0
           },
           {
-            "id": 0,
-            "size": 7,
+            "id": 3,
+            "size": 9,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 17.5
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
-              "sistema",
-              "addetto",
-              "coordinati"
-            ],
-            "pct": 15.0
+            "pct": 22.5
           },
           {
             "id": 1,
             "size": 4,
             "top_terms": [
-              "manager",
-              "assurance",
-              "quality"
+              "addetto",
+              "sistema",
+              "coordinati"
             ],
             "pct": 10.0
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
+              "responsabile",
+              "sistema",
+              "vicenza"
+            ],
+            "pct": 5.0
           }
         ]
       }

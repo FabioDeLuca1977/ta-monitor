@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-03T11:37:46.404763",
+  "generated_at": "2026-06-04T10:30:15.222248",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 102,
+  "total_jobs_analyzed": 106,
   "scoring": {
-    "average": 10.5,
+    "average": 10.9,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 5,
       "low": 2,
-      "irrelevant": 91
+      "irrelevant": 95
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
-        "score": 68,
+        "score": 69,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417223802"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Analyst",
         "company": "Axpo Italia",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4420437603"
@@ -32,7 +32,7 @@
       {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Adecco",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412275205"
@@ -40,34 +40,26 @@
       {
         "title": "Regulatory Specialist",
         "company": "Aruba SpA",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4397318496"
       },
       {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo group",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
-      },
-      {
         "title": "Stage Regulatory Affairs / Product Compliance",
         "company": "Stanhome Italia",
-        "score": 55,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1778803200000,
         "url": "https://www.linkedin.com/jobs/view/4415339755"
       },
       {
-        "title": "Quality Assurance Consultant  - Pharma Sector",
-        "company": "PQE Group",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": 1778716800000,
-        "url": "https://www.linkedin.com/jobs/view/4411155671"
+        "title": "Regulatory Affairs Analyst (f/m/d)",
+        "company": "Axpo group",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
       },
       {
         "title": "Quality Assurance Pharma",
@@ -76,6 +68,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4393599595"
+      },
+      {
+        "title": "Quality Assurance Consultant  - Pharma Sector",
+        "company": "PQE Group",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1778716800000,
+        "url": "https://www.linkedin.com/jobs/view/4411155671"
       },
       {
         "title": "Junior Quality Assurance Systems & Compliance – Settore Farmaceutico",
@@ -118,20 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4415070536"
       },
       {
-        "title": "Associate Pricing Manager, Finance Allergan Aesthetics",
-        "company": "AbbVie",
-        "score": 14,
+        "title": "Private Sector Engagement and Partnership Specialist Energy Finance Specialist (Open all applicants)",
+        "company": "United Nations Development Programme",
+        "score": 17,
         "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=d53a819873ea8ffd"
-      },
-      {
-        "title": "Senior Project Manager",
-        "company": "Turner & Townsend Pty Limited",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=5a333173fbb69a27"
+        "date_posted": 1780444800000,
+        "url": "https://it.indeed.com/viewjob?jk=7e80d2cdb452f401"
       },
       {
         "title": "Associate Pricing Manager Italy & Greece - Allergan Aesthetics",
@@ -148,6 +140,14 @@
         "site": "indeed",
         "date_posted": 1780358400000,
         "url": "https://it.indeed.com/viewjob?jk=965f09f5ff2b570d"
+      },
+      {
+        "title": "GMP Calibration Documentation Specialist",
+        "company": "fortil",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424258012"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -195,8 +195,8 @@
       },
       {
         "word": "engineer",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -216,23 +216,23 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 7 (-58%)",
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 10 annunci ultimo scan vs media 7 (+46%)",
       "data": {
-        "current": 3,
-        "avg": 7.1,
-        "change_pct": -57.6
+        "current": 10,
+        "avg": 6.9,
+        "change_pct": 45.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 7/10 annunci da aziende nuove (70.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 7,
+        "total": 10,
+        "pct": 70.0
       }
     },
     {
@@ -242,54 +242,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 57,
+            "id": 1,
+            "size": 53,
             "top_terms": [
-              "quality",
-              "assurance",
-              "associate"
+              "associate",
+              "engineer",
+              "italy"
             ],
-            "pct": 55.9
+            "pct": 50.0
+          },
+          {
+            "id": 0,
+            "size": 16,
+            "top_terms": [
+              "manager",
+              "senior",
+              "compliance"
+            ],
+            "pct": 15.1
           },
           {
             "id": 4,
-            "size": 15,
+            "size": 16,
             "top_terms": [
-              "specialist",
               "quality",
-              "assurance"
+              "assurance",
+              "specialist"
             ],
-            "pct": 14.7
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "senior",
-              "manager",
-              "engineer"
-            ],
-            "pct": 10.8
-          },
-          {
-            "id": 3,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "compliance",
-              "audit"
-            ],
-            "pct": 10.8
+            "pct": 15.1
           },
           {
             "id": 2,
+            "size": 13,
+            "top_terms": [
+              "specialist",
+              "product",
+              "gmp"
+            ],
+            "pct": 12.3
+          },
+          {
+            "id": 3,
             "size": 8,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 7.8
+            "pct": 7.5
           }
         ]
       }

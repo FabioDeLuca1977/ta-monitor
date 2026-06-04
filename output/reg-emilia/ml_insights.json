@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-03T11:37:46.327080",
+  "generated_at": "2026-06-04T10:30:15.140519",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 17.4,
+    "average": 17.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 7,
       "low": 1,
-      "irrelevant": 31
+      "irrelevant": 29
     },
     "top_jobs": [
       {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416693195"
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Compliance & Sustainable Packaging Consultant - Medical Devices",
         "company": "PQE Group",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1778716800000,
         "url": "https://www.linkedin.com/jobs/view/4406055583"
@@ -80,7 +80,7 @@
       {
         "title": "Chief Technology Officer (CTO)",
         "company": "Saas.group",
-        "score": 25,
+        "score": 20,
         "site": "indeed",
         "date_posted": 1779840000000,
         "url": "https://it.indeed.com/viewjob?jk=45d781eca6814997"
@@ -94,22 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4411598286"
       },
       {
-        "title": "IT Service Manager",
-        "company": "Philip Morris International",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
-      },
-      {
-        "title": "Specialist, Quality Assurance GCP",
-        "company": "Alfasigma",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4417633363"
-      },
-      {
         "title": "Head of Global Labeling and Regulatory Policy",
         "company": "Alfasigma group",
         "score": 14,
@@ -118,44 +102,20 @@
         "url": "https://it.indeed.com/viewjob?jk=66d605ecc26221ee"
       },
       {
+        "title": "Specialist, Quality Assurance GCP",
+        "company": "Alfasigma",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417633363"
+      },
+      {
         "title": "Customer Quality Assurance Specialist",
         "company": "IMA Group",
         "score": 13,
         "site": "linkedin",
-        "date_posted": 1778544000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412672591"
-      },
-      {
-        "title": "Contract Manager",
-        "company": "AEP Ticketing solutions",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=48e466a9b18295d4"
-      },
-      {
-        "title": "R: Project Manager ERTMS Wayside",
-        "company": "ALSTOM",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
-      },
-      {
-        "title": "Customer Sales Support Manager",
-        "company": "DHL",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=a2578024a2cd2e61"
-      },
-      {
-        "title": "RA Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1778630400000,
-        "url": "https://www.linkedin.com/jobs/view/4399728867"
       },
       {
         "title": "Process Validation Specialist - Medical Devices",
@@ -166,12 +126,52 @@
         "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
-        "title": "Senior Quality & Assurance Manager, Fabric",
-        "company": "Ralph Lauren",
+        "title": "IT Service Manager",
+        "company": "Philip Morris International",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "In Job",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": 1779235200000,
+        "url": "https://www.linkedin.com/jobs/view/4417041864"
+      },
+      {
+        "title": "Contract Manager",
+        "company": "AEP Ticketing solutions",
         "score": 8,
         "site": "indeed",
-        "date_posted": 1778803200000,
-        "url": "https://it.indeed.com/viewjob?jk=7d9b186f28ec0663"
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=48e466a9b18295d4"
+      },
+      {
+        "title": "R: Project Manager ERTMS Wayside",
+        "company": "ALSTOM",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
+      },
+      {
+        "title": "Customer Sales Support Manager",
+        "company": "DHL",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=a2578024a2cd2e61"
+      },
+      {
+        "title": "Product Manager Cybersecurity (m/f/d)",
+        "company": "Danfoss",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1779148800000,
+        "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
       }
     ]
   },
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "junior",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "customer",
@@ -216,42 +216,23 @@
   ],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Alfasigma group: 2 posizioni, non presente negli scan precedenti",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
       "data": {
-        "company": "Alfasigma group",
-        "count": 2
+        "current": 1,
+        "avg": 3.7,
+        "change_pct": -73.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 100.0
       }
     },
     {
@@ -261,54 +242,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 18,
+            "id": 0,
+            "size": 17,
             "top_terms": [
-              "medical",
               "regulatory",
-              "devices"
+              "medical",
+              "specialist"
             ],
-            "pct": 45.0
+            "pct": 44.7
           },
           {
-            "id": 1,
-            "size": 8,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 20.0
+            "pct": 26.3
           },
           {
-            "id": 3,
-            "size": 7,
+            "id": 4,
+            "size": 6,
             "top_terms": [
               "manager",
               "contract",
               "customer"
             ],
-            "pct": 17.5
+            "pct": 15.8
           },
           {
-            "id": 0,
-            "size": 4,
-            "top_terms": [
-              "specialist",
-              "maintenance",
-              "regulatory"
-            ],
-            "pct": 10.0
-          },
-          {
-            "id": 4,
+            "id": 2,
             "size": 3,
             "top_terms": [
               "sistema",
               "specialist",
               "assurance"
             ],
-            "pct": 7.5
+            "pct": 7.9
+          },
+          {
+            "id": 1,
+            "size": 2,
+            "top_terms": [
+              "maintenance",
+              "specialist",
+              "global"
+            ],
+            "pct": 5.3
           }
         ]
       }
