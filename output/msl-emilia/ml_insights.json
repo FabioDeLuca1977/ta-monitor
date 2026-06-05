@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-04T10:30:14.837617",
+  "generated_at": "2026-06-05T10:27:51.226507",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 20,
+  "total_jobs_analyzed": 22,
   "scoring": {
-    "average": 21.2,
+    "average": 19.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 7,
       "low": 2,
-      "irrelevant": 11
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "Jefferson Wells Italia",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779148800000,
         "url": "https://www.linkedin.com/jobs/view/4416693195"
       },
       {
@@ -30,14 +30,6 @@
         "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
       },
       {
-        "title": "Global Regulatory Affairs Consultant",
-        "company": "JSB Solutions",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
         "title": "Head of Global Regulatory Affairs CMC",
         "company": "Alfasigma group",
         "score": 47,
@@ -46,12 +38,12 @@
         "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
-        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
-        "company": "Boston Scientific",
-        "score": 46,
+        "title": "Global Regulatory Affairs Consultant",
+        "company": "JSB Solutions",
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4411667555"
+        "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Bologna/Genoa",
@@ -68,6 +60,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411669590"
+      },
+      {
+        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
+        "company": "Boston Scientific",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4411667555"
       },
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
@@ -88,7 +88,7 @@
       {
         "title": "Product Specialist Junior - settore medical device",
         "company": "Lavoropiù SpA",
-        "score": 15,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4419415873"
@@ -116,6 +116,22 @@
         "site": "indeed",
         "date_posted": 1779494400000,
         "url": "https://it.indeed.com/viewjob?jk=17e706de17d4173b"
+      },
+      {
+        "title": "CRA (Level II)",
+        "company": "Thermo Fisher Scientific",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4420779783"
+      },
+      {
+        "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
+        "company": "Elleuno scs",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423543025"
       },
       {
         "title": "Product Support Specialist JR - Emilia Romagna",
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
-      },
-      {
-        "title": "Head of DSO Italy",
-        "company": "Straumann Group",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=d95e9d7d03d08e01"
-      },
-      {
-        "title": "Field Service Engineer",
-        "company": "Cellply",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1677801600000,
-        "url": "https://it.indeed.com/viewjob?jk=8ed05a7b6b62f796"
       }
     ]
   },
@@ -187,6 +187,11 @@
         "word": "specialist",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -194,23 +199,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "current": 1,
-        "avg": 3.2,
-        "change_pct": -68.4
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -220,14 +235,14 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 11,
+            "id": 2,
+            "size": 12,
             "top_terms": [
-              "head",
               "affairs",
-              "settore"
+              "medical",
+              "specialist"
             ],
-            "pct": 55.0
+            "pct": 54.5
           },
           {
             "id": 1,
@@ -237,27 +252,27 @@
               "field",
               "device"
             ],
-            "pct": 20.0
+            "pct": 18.2
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 3,
             "top_terms": [
-              "cardiology",
-              "clinical",
-              "interventional"
+              "graduate",
+              "interventional",
+              "cardiology"
             ],
-            "pct": 15.0
+            "pct": 13.6
           },
           {
             "id": 3,
-            "size": 2,
+            "size": 3,
             "top_terms": [
-              "devices",
-              "medical",
+              "cra",
+              "senior",
               "specialist"
             ],
-            "pct": 10.0
+            "pct": 13.6
           }
         ]
       }

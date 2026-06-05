@@ -1,30 +1,22 @@
 {
-  "generated_at": "2026-06-04T10:30:14.939497",
+  "generated_at": "2026-06-05T10:27:51.324550",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 19.1,
+    "average": 17.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 9,
+      "medium": 7,
       "low": 3,
       "irrelevant": 27
     },
     "top_jobs": [
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "AxL Spa – ALTI PROFILI",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1778630400000,
-        "url": "https://www.linkedin.com/jobs/view/4410608268"
-      },
-      {
         "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
         "company": "NonStop Consulting",
-        "score": 59,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421823097"
@@ -32,7 +24,7 @@
       {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412800542"
@@ -40,7 +32,7 @@
       {
         "title": "Regulatory Affairs Expert",
         "company": "Fidia Pharma",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412260439"
@@ -48,23 +40,15 @@
       {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "NEWCHEM SPA",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413675692"
       },
       {
-        "title": "Group Regulatory Specialist",
-        "company": "Plank",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1778716800000,
-        "url": "https://www.linkedin.com/jobs/view/4411143656"
-      },
-      {
         "title": "Senior International Regulatory Specialist",
         "company": "Orthofix",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
@@ -116,6 +100,14 @@
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=54949be1bc94e8a8"
+      },
+      {
+        "title": "IT Manager ERP e Sistemi Informativi",
+        "company": "Supporto HR",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
       },
       {
         "title": "Customer Quality Assurance Manager",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1780444800000,
         "url": "https://it.indeed.com/viewjob?jk=144f4f146654a828"
+      },
+      {
+        "title": "Addetto/a carico e scarico per sistema di negozi coordinati",
+        "company": "Giucas",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1779062400000,
+        "url": "https://www.linkedin.com/jobs/view/4415690950"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "sistema",
@@ -194,9 +194,9 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "specialist",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
       "data": {
         "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.8
+        "avg": 3.4,
+        "change_pct": -70.3
       }
     },
     {
@@ -229,60 +229,50 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 4,
             "size": 15,
             "top_terms": [
               "esperto",
-              "manager",
+              "galleria",
               "assistente"
             ],
-            "pct": 37.5
+            "pct": 39.5
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 7,
             "top_terms": [
-              "regulatory",
-              "specialist",
-              "affairs"
+              "manager",
+              "quality",
+              "assurance"
             ],
-            "pct": 25.0
+            "pct": 18.4
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "quality",
+              "assurance"
+            ],
+            "pct": 15.8
           },
           {
             "id": 3,
-            "size": 9,
+            "size": 6,
             "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
+              "regulatory",
+              "affairs",
+              "senior"
             ],
-            "pct": 22.5
+            "pct": 15.8
           },
           {
             "id": 1,
@@ -292,17 +282,7 @@
               "sistema",
               "coordinati"
             ],
-            "pct": 10.0
-          },
-          {
-            "id": 4,
-            "size": 2,
-            "top_terms": [
-              "responsabile",
-              "sistema",
-              "vicenza"
-            ],
-            "pct": 5.0
+            "pct": 10.5
           }
         ]
       }
