@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-05T10:27:51.226507",
+  "generated_at": "2026-06-06T09:11:00.560858",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 22,
+  "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 19.4,
+    "average": 20.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 7,
       "low": 2,
-      "irrelevant": 13
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -30,20 +30,20 @@
         "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
       },
       {
-        "title": "Head of Global Regulatory Affairs CMC",
-        "company": "Alfasigma group",
-        "score": 47,
-        "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
-      },
-      {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
+      },
+      {
+        "title": "Head of Global Regulatory Affairs CMC",
+        "company": "Alfasigma group",
+        "score": 42,
+        "site": "indeed",
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Bologna/Genoa",
@@ -72,7 +72,7 @@
       {
         "title": "R&D ENGINEER MANAGER MEDICAL DEVICE",
         "company": "Grafton Recruitment",
-        "score": 24,
+        "score": 23,
         "site": "linkedin",
         "date_posted": 1778803200000,
         "url": "https://www.linkedin.com/jobs/view/4411598286"
@@ -88,7 +88,7 @@
       {
         "title": "Product Specialist Junior - settore medical device",
         "company": "Lavoropiù SpA",
-        "score": 16,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4419415873"
@@ -96,18 +96,18 @@
       {
         "title": "Process Validation Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 15,
+        "score": 14,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
-        "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
-        "company": "Transmedics",
-        "score": 10,
+        "title": "Quality Engineer",
+        "company": "LINCOTEK GROUP",
+        "score": 13,
         "site": "indeed",
-        "date_posted": 1780358400000,
-        "url": "https://it.indeed.com/viewjob?jk=68813663b4fea5cf"
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=b877334f75171d8c"
       },
       {
         "title": "Senior CRA",
@@ -126,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4420779783"
       },
       {
+        "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
+        "company": "Transmedics",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1780358400000,
+        "url": "https://it.indeed.com/viewjob?jk=68813663b4fea5cf"
+      },
+      {
         "title": "Coordinatore/coordinatrice per CRA Castel San Pietro Terme (BO)",
         "company": "Elleuno scs",
         "score": 5,
@@ -134,20 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4423543025"
       },
       {
-        "title": "Product Support Specialist JR - Emilia Romagna",
-        "company": "Stryker",
-        "score": 4,
+        "title": "Field Service Engineer",
+        "company": "Cellply",
+        "score": 1,
         "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=775735a4aa5c06c7"
-      },
-      {
-        "title": "Molding Engineer",
-        "company": "Dikton S.r.l.",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1778716800000,
-        "url": "https://it.indeed.com/viewjob?jk=626aa04416d30768"
+        "date_posted": 1677801600000,
+        "url": "https://it.indeed.com/viewjob?jk=8ed05a7b6b62f796"
       },
       {
         "title": "Neolaureati Farmacia e Chimica",
@@ -179,17 +179,12 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "engineer",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
         "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -199,21 +194,31 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-60%)",
+      "data": {
+        "current": 1,
+        "avg": 2.5,
+        "change_pct": -60.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 0.0,
         "new_pct": 100.0
       }
@@ -221,9 +226,9 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 100.0,
         "new_pct": 0.0
       }
@@ -236,43 +241,43 @@
         "clusters": [
           {
             "id": 2,
-            "size": 12,
+            "size": 11,
             "top_terms": [
               "affairs",
               "medical",
-              "specialist"
+              "head"
             ],
-            "pct": 54.5
+            "pct": 52.4
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "engineer",
               "field",
               "device"
             ],
-            "pct": 18.2
+            "pct": 19.0
           },
           {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "graduate",
-              "interventional",
-              "cardiology"
-            ],
-            "pct": 13.6
-          },
-          {
-            "id": 3,
+            "id": 1,
             "size": 3,
             "top_terms": [
               "cra",
               "senior",
               "specialist"
             ],
-            "pct": 13.6
+            "pct": 14.3
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "graduate",
+              "interventional",
+              "cardiology"
+            ],
+            "pct": 14.3
           }
         ]
       }

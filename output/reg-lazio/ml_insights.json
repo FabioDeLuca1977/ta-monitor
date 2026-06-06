@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-05T10:27:51.601436",
+  "generated_at": "2026-06-06T09:11:00.919310",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 107,
+  "total_jobs_analyzed": 104,
   "scoring": {
-    "average": 11.0,
+    "average": 10.4,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 6,
+      "medium": 4,
       "low": 2,
-      "irrelevant": 96
+      "irrelevant": 95
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
-        "score": 68,
+        "score": 69,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417223802"
@@ -40,23 +40,15 @@
       {
         "title": "Regulatory Affairs Analyst",
         "company": "Axpo Italia",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4420437603"
       },
       {
-        "title": "Stage Regulatory Affairs / Product Compliance",
-        "company": "Stanhome Italia",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1778803200000,
-        "url": "https://www.linkedin.com/jobs/view/4415339755"
-      },
-      {
         "title": "Regulatory Affairs Analyst (f/m/d)",
         "company": "Axpo group",
-        "score": 55,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
@@ -68,14 +60,6 @@
         "site": "linkedin",
         "date_posted": 1779148800000,
         "url": "https://www.linkedin.com/jobs/view/4393599595"
-      },
-      {
-        "title": "Quality Assurance Consultant  - Pharma Sector",
-        "company": "PQE Group",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1778716800000,
-        "url": "https://www.linkedin.com/jobs/view/4411155671"
       },
       {
         "title": "Junior Quality Assurance Systems & Compliance – Settore Farmaceutico",
@@ -118,14 +102,6 @@
         "url": "https://it.indeed.com/viewjob?jk=ed3cbd98afc4809a"
       },
       {
-        "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
-        "company": "Rentokil Initial",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1780531200000,
-        "url": "https://it.indeed.com/viewjob?jk=0fd88a50042bbda7"
-      },
-      {
         "title": "Quality System & Compliance Manager",
         "company": "HAUPT PHARMA",
         "score": 18,
@@ -134,9 +110,25 @@
         "url": "https://it.indeed.com/viewjob?jk=48c3a9308be32a36"
       },
       {
+        "title": "Field Medical Manager - Europe",
+        "company": "サイネオス・ヘルス",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=9c03761abed0a4aa"
+      },
+      {
+        "title": "QUALITY SPECIALIST - PEST MANAGEMENT EXPERT",
+        "company": "Rentokil Initial",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1780531200000,
+        "url": "https://it.indeed.com/viewjob?jk=0fd88a50042bbda7"
+      },
+      {
         "title": "Quality Assurance Compliance Specialist",
         "company": "Tubilux Pharma",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": 1778803200000,
         "url": "https://www.linkedin.com/jobs/view/4415070536"
@@ -150,12 +142,20 @@
         "url": "https://it.indeed.com/viewjob?jk=a1c893f9c315226e"
       },
       {
-        "title": "Associate Pricing Manager Italy & Greece - Allergan Aesthetics",
-        "company": "AbbVie",
-        "score": 14,
+        "title": "Quality Assurance Manager",
+        "company": "Grafton Recruitment",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4421172535"
+      },
+      {
+        "title": "Equipment Validation Specialist",
+        "company": "Thermo Fisher Scientific",
+        "score": 15,
         "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=d53a819873ea8ffd"
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=a3a439ed18275919"
       },
       {
         "title": "Internal Audit Manager (100% remote)",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=832f024758b818ad"
       },
       {
-        "title": "Programme Specialist",
-        "company": "Food and Agriculture Organization of the United Nations",
+        "title": "GMP Calibration Documentation Specialist",
+        "company": "fortil",
         "score": 14,
-        "site": "indeed",
-        "date_posted": 1780358400000,
-        "url": "https://it.indeed.com/viewjob?jk=965f09f5ff2b570d"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424258012"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -194,12 +194,12 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "compliance",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "compliance",
+        "word": "engineer",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -218,31 +218,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 3,
-        "total": 7,
-        "pct": 42.9
+        "new": 2,
+        "total": 6,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 0% (-40pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 100% (+40pp)",
+      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -253,53 +253,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 55,
+            "size": 59,
             "top_terms": [
-              "engineer",
+              "manager",
               "senior",
-              "associate"
+              "compliance"
             ],
-            "pct": 51.4
+            "pct": 56.7
           },
           {
             "id": 3,
-            "size": 17,
+            "size": 19,
             "top_terms": [
-              "assurance",
               "quality",
+              "assurance",
               "specialist"
             ],
-            "pct": 15.9
-          },
-          {
-            "id": 1,
-            "size": 14,
-            "top_terms": [
-              "specialist",
-              "junior",
-              "sales"
-            ],
-            "pct": 13.1
+            "pct": 18.3
           },
           {
             "id": 2,
-            "size": 14,
+            "size": 10,
             "top_terms": [
-              "manager",
-              "compliance",
-              "senior"
+              "specialist",
+              "validation",
+              "product"
             ],
-            "pct": 13.1
+            "pct": 9.6
           },
           {
-            "id": 4,
-            "size": 7,
+            "id": 1,
+            "size": 8,
             "top_terms": [
               "affairs",
               "regulatory",
               "analyst"
             ],
-            "pct": 6.5
+            "pct": 7.7
+          },
+          {
+            "id": 4,
+            "size": 8,
+            "top_terms": [
+              "associate",
+              "ii",
+              "aesthetics"
+            ],
+            "pct": 7.7
           }
         ]
       }

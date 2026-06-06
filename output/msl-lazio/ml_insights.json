@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-05T10:27:51.281412",
+  "generated_at": "2026-06-06T09:11:00.610893",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 27.2,
+    "average": 27.7,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 23,
+      "good": 4,
+      "medium": 20,
       "low": 7,
-      "irrelevant": 26
+      "irrelevant": 24
     },
     "top_jobs": [
       {
@@ -26,32 +26,32 @@
         "company": "Vertex Pharmaceuticals",
         "score": 65,
         "site": "linkedin",
-        "date_posted": 1778716800000,
+        "date_posted": 1779580800000,
         "url": "https://www.linkedin.com/jobs/view/4414712533"
       },
       {
-        "title": "Medical Science Liaison (MSL) - Hemato-Oncology - Italy",
-        "company": "Amplity",
-        "score": 59,
+        "title": "Field Medical Manager - Europe",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 62,
         "site": "linkedin",
-        "date_posted": 1778716800000,
-        "url": "https://www.linkedin.com/jobs/view/4414709146"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424717617"
+      },
+      {
+        "title": "Sr Manager, Medical Science Liaison - LAZIO / ABRUZZO / UMBRIA",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423570263"
       },
       {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779235200000,
         "url": "https://www.linkedin.com/jobs/view/4415927696"
-      },
-      {
-        "title": "Sr Manager, Medical Science Liaison - LAZIO / ABRUZZO / UMBRIA",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423570263"
       },
       {
         "title": "Medical Science Liaison Italy W/M",
@@ -64,7 +64,7 @@
       {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
-        "score": 54,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417223802"
@@ -86,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4412860388"
       },
       {
-        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
-        "company": "QuiCare",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1779667200000,
-        "url": "https://www.linkedin.com/jobs/view/4418949238"
-      },
-      {
         "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
         "company": "Angelini Pharma",
         "score": 49,
         "site": "linkedin",
         "date_posted": 1778889600000,
         "url": "https://www.linkedin.com/jobs/view/4412082502"
+      },
+      {
+        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
+        "company": "QuiCare",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4418949238"
       },
       {
         "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
@@ -110,20 +110,20 @@
         "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
       },
       {
-        "title": "Clinical Research Associate - Italy - Remote",
-        "company": "Worldwide Clinical Trials",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1778716800000,
-        "url": "https://www.linkedin.com/jobs/view/4414712529"
-      },
-      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Adecco",
         "score": 48,
         "site": "linkedin",
         "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4412275205"
+      },
+      {
+        "title": "Clinical Research Associate - Italy - Remote",
+        "company": "Worldwide Clinical Trials",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414712529"
       },
       {
         "title": "Senior Clinical Research Associate",
@@ -144,18 +144,18 @@
       {
         "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
         "company": "ALMA LABORIS Business School",
-        "score": 45,
+        "score": 44,
         "site": "indeed",
         "date_posted": 1776297600000,
         "url": "https://it.indeed.com/viewjob?jk=667d2ba4d2057210"
       },
       {
-        "title": "MSL-MA Italy",
-        "company": "Astellas Pharma",
+        "title": "MSL Italy",
+        "company": "SERB Pharmaceuticals",
         "score": 43,
         "site": "linkedin",
-        "date_posted": 1779148800000,
-        "url": "https://www.linkedin.com/jobs/view/4405993123"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417492939"
       },
       {
         "title": "Regulatory Affairs Analyst (f/m/d)",
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "intern",
@@ -191,52 +191,45 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "italy",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-40%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-31%)",
       "data": {
         "current": 3,
-        "avg": 5.0,
-        "change_pct": -40.0
+        "avg": 4.3,
+        "change_pct": -30.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 3,
-        "pct": 33.3
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
+      "message": "📡 indeed: quota passata da 67% a 33% (-33pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 66.7,
         "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
+      "message": "📡 linkedin: quota passata da 33% a 67% (+33pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 33.3,
         "new_pct": 66.7
       }
     },
@@ -247,54 +240,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 23,
+            "id": 0,
+            "size": 26,
             "top_terms": [
+              "specialist",
               "italy",
-              "msl",
-              "field"
+              "sales"
             ],
-            "pct": 39.7
+            "pct": 47.3
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 12,
             "top_terms": [
               "medical",
               "affairs",
               "director"
             ],
-            "pct": 29.3
-          },
-          {
-            "id": 4,
-            "size": 8,
-            "top_terms": [
-              "senior",
-              "clinical",
-              "specialist"
-            ],
-            "pct": 13.8
-          },
-          {
-            "id": 0,
-            "size": 7,
-            "top_terms": [
-              "specialist",
-              "sales",
-              "nutrition"
-            ],
-            "pct": 12.1
+            "pct": 21.8
           },
           {
             "id": 2,
+            "size": 8,
+            "top_terms": [
+              "manager",
+              "field",
+              "intern"
+            ],
+            "pct": 14.5
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "senior"
+            ],
+            "pct": 10.9
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "stage",
               "diseases",
               "temporary"
             ],
-            "pct": 5.2
+            "pct": 5.5
           }
         ]
       }
