@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-06T09:11:00.843331",
+  "generated_at": "2026-06-07T09:32:57.622360",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 37,
+  "total_jobs_analyzed": 35,
   "scoring": {
-    "average": 15.9,
+    "average": 16.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 6,
       "low": 1,
-      "irrelevant": 29
+      "irrelevant": 27
     },
     "top_jobs": [
       {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1779148800000,
         "url": "https://www.linkedin.com/jobs/view/4416693195"
@@ -64,7 +64,7 @@
       {
         "title": "Affari Regolatori",
         "company": "ALMA LABORIS Business School",
-        "score": 43,
+        "score": 44,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
@@ -142,14 +142,6 @@
         "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
       },
       {
-        "title": "Senior Quality & Assurance Manager, Fabric",
-        "company": "Ralph Lauren",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1778803200000,
-        "url": "https://it.indeed.com/viewjob?jk=7d9b186f28ec0663"
-      },
-      {
         "title": "Contract Manager",
         "company": "AEP Ticketing solutions",
         "score": 8,
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1779840000000,
         "url": "https://it.indeed.com/viewjob?jk=a2578024a2cd2e61"
+      },
+      {
+        "title": "Product Manager Cybersecurity (m/f/d)",
+        "company": "Danfoss",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1779148800000,
+        "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
       }
     ]
   },
@@ -218,11 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
       "data": {
         "current": 1,
-        "avg": 3.6,
-        "change_pct": -72.2
+        "avg": 3.8,
+        "change_pct": -73.5
       }
     },
     {
@@ -242,54 +242,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 2,
             "size": 18,
             "top_terms": [
+              "regulatory",
               "specialist",
-              "cra",
-              "regulatory"
+              "cra"
             ],
-            "pct": 48.6
-          },
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "manager",
-              "senior",
-              "assurance"
-            ],
-            "pct": 21.6
-          },
-          {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "junior",
-              "assurance",
-              "quality"
-            ],
-            "pct": 13.5
+            "pct": 51.4
           },
           {
             "id": 1,
-            "size": 3,
+            "size": 6,
             "top_terms": [
-              "sistema",
-              "specialista",
-              "head"
+              "assurance",
+              "quality",
+              "junior"
             ],
-            "pct": 8.1
+            "pct": 17.1
+          },
+          {
+            "id": 3,
+            "size": 6,
+            "top_terms": [
+              "manager",
+              "contract",
+              "customer"
+            ],
+            "pct": 17.1
           },
           {
             "id": 4,
             "size": 3,
             "top_terms": [
-              "global",
-              "regulatory",
+              "specialista",
+              "sistema",
               "head"
             ],
-            "pct": 8.1
+            "pct": 8.6
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "maintenance",
+              "specialist",
+              "specialista"
+            ],
+            "pct": 5.7
           }
         ]
       }

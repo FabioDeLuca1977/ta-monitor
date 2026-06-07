@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-06T09:11:00.653753",
+  "generated_at": "2026-06-07T09:32:57.431968",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 43,
+  "total_jobs_analyzed": 39,
   "scoring": {
-    "average": 17.1,
+    "average": 16.7,
     "distribution": {
       "excellent": 0,
-      "good": 3,
+      "good": 2,
       "medium": 5,
-      "low": 5,
-      "irrelevant": 30
+      "low": 4,
+      "irrelevant": 28
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421823097"
-      },
-      {
-        "title": "Regulatory Affairs",
-        "company": "Randstad Professional Italia",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4412800542"
       },
       {
         "title": "Regulatory Affairs Expert",
@@ -40,7 +32,7 @@
       {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "NEWCHEM SPA",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1779321600000,
         "url": "https://www.linkedin.com/jobs/view/4413675692"
@@ -54,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4367239299"
       },
       {
-        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
-        "company": "Arethusa",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412751752"
-      },
-      {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
         "score": 49,
@@ -70,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4417882353"
       },
       {
+        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
+        "company": "Arethusa",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412751752"
+      },
+      {
         "title": "Senior quality assurance GMP",
         "company": "Adecco",
         "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417957067"
-      },
-      {
-        "title": "Junior Product Manager (Gestore di Prodotto Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 26,
-        "site": "indeed",
-        "date_posted": 1776297600000,
-        "url": "https://it.indeed.com/viewjob?jk=29f44d056ee8acd3"
       },
       {
         "title": "Quality Assurance Manager",
@@ -126,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
       },
       {
-        "title": "Quality Assurance & Quality Management System Manager",
-        "company": "ISG International Service Group",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4415671084"
-      },
-      {
         "title": "Customer Quality Assurance Manager",
         "company": "LHH",
         "score": 15,
@@ -148,6 +124,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4414376445"
+      },
+      {
+        "title": "Quality Assurance & Quality Management System Manager",
+        "company": "ISG International Service Group",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": 1779062400000,
+        "url": "https://www.linkedin.com/jobs/view/4415671084"
       },
       {
         "title": "Quality Assurance Specialist - Vicenza",
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4419868821"
       },
       {
-        "title": "Purchasing Internship",
-        "company": "Steelco S.p.A",
+        "title": "MECHANICAL ENGINEER (IRONING SYSTEMS)",
+        "company": "De'Longhi",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1780444800000,
-        "url": "https://it.indeed.com/viewjob?jk=144f4f146654a828"
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=a0efe238ae8ceeaa"
+      },
+      {
+        "title": "Tecnico Cogenerazione",
+        "company": "Carrier",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1780531200000,
+        "url": "https://it.indeed.com/viewjob?jk=11ac9aad9fa5f30a"
+      },
+      {
+        "title": "Market Access Manager Public Health",
+        "company": "GSK",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1779408000000,
+        "url": "https://it.indeed.com/viewjob?jk=242f7dbcb64d3407"
       }
     ]
   },
@@ -194,12 +194,12 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "addetto",
+        "word": "assurance",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "assurance",
+        "word": "addetto",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -209,52 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+45%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-71%)",
       "data": {
-        "current": 5,
+        "current": 1,
         "avg": 3.5,
-        "change_pct": 44.7
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 SteelcoBelimed Inc.: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "SteelcoBelimed Inc.",
-        "count": 2
+        "change_pct": -71.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 5,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 80% (-20pp)",
+      "message": "📡 linkedin: quota passata da 20% a 0% (-20pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 80.0
+        "channel": "linkedin",
+        "old_pct": 20.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 20% (+20pp)",
+      "message": "📡 indeed: quota passata da 80% a 100% (+20pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 20.0
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -264,44 +255,44 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 18,
+            "id": 0,
+            "size": 16,
             "top_terms": [
-              "esperto",
+              "tecnico",
               "galleria",
-              "assistente"
+              "esperto"
             ],
-            "pct": 41.9
+            "pct": 41.0
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 7,
             "top_terms": [
+              "regulatory",
               "manager",
-              "quality",
-              "assurance"
+              "affairs"
             ],
-            "pct": 16.3
+            "pct": 17.9
           },
           {
             "id": 3,
-            "size": 7,
+            "size": 6,
             "top_terms": [
               "specialist",
               "quality",
               "assurance"
             ],
-            "pct": 16.3
+            "pct": 15.4
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 1,
+            "size": 5,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "senior"
+              "quality",
+              "assurance",
+              "manager"
             ],
-            "pct": 14.0
+            "pct": 12.8
           },
           {
             "id": 2,
@@ -311,7 +302,7 @@
               "sistema",
               "negozi"
             ],
-            "pct": 11.6
+            "pct": 12.8
           }
         ]
       }
