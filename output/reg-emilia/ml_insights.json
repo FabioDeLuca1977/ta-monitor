@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T09:32:57.622360",
+  "generated_at": "2026-06-08T11:36:58.606252",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 35,
+  "total_jobs_analyzed": 36,
   "scoring": {
-    "average": 16.7,
+    "average": 16.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 6,
       "low": 1,
-      "irrelevant": 27
+      "irrelevant": 28
     },
     "top_jobs": [
       {
@@ -78,6 +78,14 @@
         "url": "https://it.indeed.com/viewjob?jk=45d781eca6814997"
       },
       {
+        "title": "Compliance Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4421922940"
+      },
+      {
         "title": "Specialist, Quality Assurance GCP",
         "company": "Alfasigma",
         "score": 13,
@@ -102,22 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
-        "title": "CTC 1",
-        "company": "Thermo Fisher Scientific",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1780531200000,
-        "url": "https://it.indeed.com/viewjob?jk=f9809ee78e43202c"
-      },
-      {
-        "title": "CRA (Level II)",
-        "company": "Thermo Fisher Scientific",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1780531200000,
-        "url": "https://it.indeed.com/viewjob?jk=7b68b153e316c3e0"
-      },
-      {
         "title": "Head of Global Labeling and Regulatory Policy",
         "company": "Alfasigma group",
         "score": 10,
@@ -126,20 +118,20 @@
         "url": "https://it.indeed.com/viewjob?jk=66d605ecc26221ee"
       },
       {
-        "title": "Medico Specialista",
-        "company": "Kos Group",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1780531200000,
-        "url": "https://it.indeed.com/viewjob?jk=14067e32fa7e7add"
-      },
-      {
         "title": "IT Service Manager",
         "company": "Philip Morris International",
         "score": 9,
         "site": "indeed",
         "date_posted": 1779840000000,
         "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
+      },
+      {
+        "title": "Senior Quality & Assurance Manager, Fabric",
+        "company": "Ralph Lauren",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1778803200000,
+        "url": "https://it.indeed.com/viewjob?jk=7d9b186f28ec0663"
       },
       {
         "title": "Contract Manager",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1779148800000,
         "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
+      },
+      {
+        "title": "Addetto/a Anagrafiche nel Sistema Produttivo",
+        "company": "key-absolute",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1779148800000,
+        "url": "https://www.linkedin.com/jobs/view/4415939706"
       }
     ]
   },
@@ -218,21 +218,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-71%)",
       "data": {
         "current": 1,
-        "avg": 3.8,
-        "change_pct": -73.5
+        "avg": 3.5,
+        "change_pct": -71.4
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -242,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 18,
+            "id": 4,
+            "size": 12,
             "top_terms": [
-              "regulatory",
-              "specialist",
-              "cra"
+              "cra",
+              "specialista",
+              "sistema"
             ],
-            "pct": 51.4
+            "pct": 33.3
           },
           {
-            "id": 1,
-            "size": 6,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "junior"
-            ],
-            "pct": 17.1
-          },
-          {
-            "id": 3,
-            "size": 6,
+            "id": 0,
+            "size": 7,
             "top_terms": [
               "manager",
               "contract",
               "customer"
             ],
-            "pct": 17.1
+            "pct": 19.4
           },
           {
-            "id": 4,
-            "size": 3,
+            "id": 2,
+            "size": 7,
             "top_terms": [
-              "specialista",
-              "sistema",
+              "assurance",
+              "quality",
+              "junior"
+            ],
+            "pct": 19.4
+          },
+          {
+            "id": 3,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "maintenance",
+              "medical"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "global",
               "head"
             ],
-            "pct": 8.6
-          },
-          {
-            "id": 0,
-            "size": 2,
-            "top_terms": [
-              "maintenance",
-              "specialist",
-              "specialista"
-            ],
-            "pct": 5.7
+            "pct": 11.1
           }
         ]
       }

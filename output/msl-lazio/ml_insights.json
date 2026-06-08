@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-06-07T09:32:57.389248",
+  "generated_at": "2026-06-08T11:36:58.371223",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 29.0,
+    "average": 29.2,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 18,
+      "good": 5,
+      "medium": 16,
       "low": 5,
       "irrelevant": 20
     },
     "top_jobs": [
+      {
+        "title": "Field Medical Advisor / MSL - Italy",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423308214"
+      },
       {
         "title": "Medical Director, Medical Affairs",
         "company": "Vertex Pharmaceuticals",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1779580800000,
         "url": "https://www.linkedin.com/jobs/view/4414712533"
-      },
-      {
-        "title": "Field Medical Advisor / MSL - Italy",
-        "company": "Syneos Health Commercial Solutions",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423308214"
       },
       {
         "title": "Field Medical Manager - Europe",
@@ -38,20 +38,28 @@
         "url": "https://www.linkedin.com/jobs/view/4424717617"
       },
       {
+        "title": "Sr Manager, Medical Science Liaison - LAZIO / ABRUZZO / UMBRIA",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423570263"
+      },
+      {
+        "title": "Medical Affairs Manager, Italy",
+        "company": "Johnson & Johnson MedTech",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4425424534"
+      },
+      {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779408000000,
         "url": "https://www.linkedin.com/jobs/view/4415927696"
-      },
-      {
-        "title": "Sr Manager, Medical Science Liaison - LAZIO / ABRUZZO / UMBRIA",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423570263"
       },
       {
         "title": "Medical Science Liaison Italy W/M",
@@ -62,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4416580742"
       },
       {
+        "title": "Clinical Development Medical Science Director",
+        "company": "Angelini Pharma",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396450100"
+      },
+      {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
         "score": 53,
@@ -70,17 +86,9 @@
         "url": "https://www.linkedin.com/jobs/view/4417223802"
       },
       {
-        "title": "Clinical Development Medical Science Director",
-        "company": "Angelini Pharma",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396450100"
-      },
-      {
         "title": "Medical Specialist - Remote",
         "company": "YO IT Consulting",
-        "score": 51,
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1779148800000,
         "url": "https://www.linkedin.com/jobs/view/4412860388"
@@ -124,14 +132,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420489006"
-      },
-      {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1778889600000,
-        "url": "https://www.linkedin.com/jobs/view/4412082502"
       },
       {
         "title": "MSL Italy",
@@ -191,36 +191,53 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "italy",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
+    {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "data": {
+        "current": 1,
+        "avg": 4.1,
+        "change_pct": -75.6
+      }
+    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 67% (+33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 33% (-33pp)",
+      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -230,17 +247,17 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 3,
             "size": 32,
             "top_terms": [
               "italy",
-              "specialist",
-              "manager"
+              "manager",
+              "specialist"
             ],
             "pct": 69.6
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 4,
             "top_terms": [
               "medical",
@@ -250,7 +267,7 @@
             "pct": 8.7
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "regulatory",
@@ -260,12 +277,12 @@
             "pct": 8.7
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 3,
             "top_terms": [
-              "cra",
-              "senior",
-              "italy"
+              "stage",
+              "diseases",
+              "technical"
             ],
             "pct": 6.5
           },
@@ -273,9 +290,9 @@
             "id": 4,
             "size": 3,
             "top_terms": [
-              "stage",
-              "diseases",
-              "technical"
+              "cra",
+              "senior",
+              "italy"
             ],
             "pct": 6.5
           }

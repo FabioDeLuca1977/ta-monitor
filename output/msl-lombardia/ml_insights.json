@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-07T09:32:57.326217",
+  "generated_at": "2026-06-08T11:36:58.307691",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 179,
+  "total_jobs_analyzed": 180,
   "scoring": {
     "average": 29.0,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 84,
-      "low": 7,
+      "low": 8,
       "irrelevant": 84
     },
     "top_jobs": [
@@ -46,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4424713695"
       },
       {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1779408000000,
+        "url": "https://www.linkedin.com/jobs/view/4415915989"
+      },
+      {
         "title": "MEDICAL MANAGER",
         "company": "MediAbout",
         "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421165620"
-      },
-      {
-        "title": "Sr Manager, Medical Science Liaison - LOMBARDIA EST / TRIVENETO",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423576208"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -70,28 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4421112133"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415915989"
-      },
-      {
-        "title": "Stage In Medical Communication/Education Manager",
-        "company": "latoC",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4419078198"
-      },
-      {
         "title": "Senior Regulatory Affairs Specialist – Cosmetics & Medical Devices",
         "company": "Betafarma S.p.A.",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4419606667"
+      },
+      {
+        "title": "Sr Manager, Medical Science Liaison - LOMBARDIA EST / TRIVENETO",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423576208"
       },
       {
         "title": "Medical Affairs Lead BH",
@@ -142,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4420452489"
       },
       {
+        "title": "Stage In Medical Communication/Education Manager",
+        "company": "latoC",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4419078198"
+      },
+      {
         "title": "Medical Science Liaison",
         "company": "Jobgether",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424292764"
-      },
-      {
-        "title": "Clinical Research Associate",
-        "company": "ICON plc",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1780531200000,
-        "url": "https://it.indeed.com/viewjob?jk=20735f3e9260f0f3"
       },
       {
         "title": "Scientific and Regulatory Affairs Manager",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": 1779321600000,
         "url": "https://www.linkedin.com/jobs/view/4384494774"
+      },
+      {
+        "title": "(Associate) Medical Director - Rheumatology, EMEA",
+        "company": "Thermo Fisher Scientific",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1778976000000,
+        "url": "https://www.linkedin.com/jobs/view/4404170968"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "access",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "market",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -208,15 +208,33 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "manager europe",
+      "keyword": "senior manager",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
+      "keyword": "manager clinical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "development onco",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "senior manager clinical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "manager europe",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
@@ -236,21 +254,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 12 (-60%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 13 (-76%)",
       "data": {
-        "current": 5,
-        "avg": 12.4,
-        "change_pct": -59.8
+        "current": 3,
+        "avg": 12.6,
+        "change_pct": -76.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 60% a 100% (+40pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 60.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 40% a 0% (-40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 40.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -260,54 +298,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 58,
+            "id": 1,
+            "size": 68,
             "top_terms": [
-              "specialist",
+              "manager",
               "senior",
               "italy"
             ],
-            "pct": 32.4
-          },
-          {
-            "id": 1,
-            "size": 37,
-            "top_terms": [
-              "manager",
-              "access",
-              "market"
-            ],
-            "pct": 20.7
+            "pct": 37.8
           },
           {
             "id": 2,
-            "size": 34,
-            "top_terms": [
-              "medical",
-              "science",
-              "liaison"
-            ],
-            "pct": 19.0
-          },
-          {
-            "id": 4,
-            "size": 30,
+            "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 16.8
+            "pct": 17.2
           },
           {
             "id": 3,
-            "size": 20,
+            "size": 31,
             "top_terms": [
-              "associate",
+              "medical",
+              "science",
+              "liaison"
+            ],
+            "pct": 17.2
+          },
+          {
+            "id": 0,
+            "size": 27,
+            "top_terms": [
               "clinical",
+              "associate",
               "research"
             ],
-            "pct": 11.2
+            "pct": 15.0
+          },
+          {
+            "id": 4,
+            "size": 23,
+            "top_terms": [
+              "director",
+              "access",
+              "market"
+            ],
+            "pct": 12.8
           }
         ]
       }

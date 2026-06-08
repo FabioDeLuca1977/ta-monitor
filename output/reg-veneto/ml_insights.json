@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T09:32:57.431968",
+  "generated_at": "2026-06-08T11:36:58.415097",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 39,
+  "total_jobs_analyzed": 37,
   "scoring": {
-    "average": 16.7,
+    "average": 16.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 5,
       "low": 4,
-      "irrelevant": 28
+      "irrelevant": 26
     },
     "top_jobs": [
       {
@@ -118,17 +118,9 @@
         "url": "https://www.linkedin.com/jobs/view/4398907982"
       },
       {
-        "title": "Quality Assurance & Auditing Manager",
-        "company": "Penta - Child Health Research",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414376445"
-      },
-      {
         "title": "Quality Assurance & Quality Management System Manager",
         "company": "ISG International Service Group",
-        "score": 14,
+        "score": 15,
         "site": "linkedin",
         "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4415671084"
@@ -158,20 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=a0efe238ae8ceeaa"
       },
       {
-        "title": "Tecnico Cogenerazione",
-        "company": "Carrier",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1780531200000,
-        "url": "https://it.indeed.com/viewjob?jk=11ac9aad9fa5f30a"
-      },
-      {
         "title": "Market Access Manager Public Health",
         "company": "GSK",
         "score": 7,
         "site": "indeed",
         "date_posted": 1779408000000,
         "url": "https://it.indeed.com/viewjob?jk=242f7dbcb64d3407"
+      },
+      {
+        "title": "Addetto/a informazioni - Sistema negozi coordinati",
+        "company": "Giucas",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1779408000000,
+        "url": "https://www.linkedin.com/jobs/view/4417186211"
+      },
+      {
+        "title": "Addetto/a confezionamento sistema negozi coordinati",
+        "company": "Giucas",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4419060664"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "sistema",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -195,13 +195,13 @@
       },
       {
         "word": "assurance",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-71%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
       "data": {
         "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.1
+        "avg": 3.6,
+        "change_pct": -72.2
       }
     },
     {
@@ -262,47 +262,47 @@
               "galleria",
               "esperto"
             ],
-            "pct": 41.0
+            "pct": 43.2
           },
           {
             "id": 4,
             "size": 7,
             "top_terms": [
-              "regulatory",
-              "manager",
-              "affairs"
-            ],
-            "pct": 17.9
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
               "specialist",
               "quality",
               "assurance"
             ],
-            "pct": 15.4
+            "pct": 18.9
           },
           {
             "id": 1,
             "size": 5,
             "top_terms": [
+              "manager",
               "quality",
-              "assurance",
-              "manager"
+              "assurance"
             ],
-            "pct": 12.8
+            "pct": 13.5
           },
           {
             "id": 2,
             "size": 5,
             "top_terms": [
+              "regulatory",
+              "affairs",
+              "senior"
+            ],
+            "pct": 13.5
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
               "addetto",
               "sistema",
               "negozi"
             ],
-            "pct": 12.8
+            "pct": 10.8
           }
         ]
       }
