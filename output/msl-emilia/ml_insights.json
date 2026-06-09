@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-08T11:36:58.323030",
+  "generated_at": "2026-06-09T10:24:22.300717",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 18,
+  "total_jobs_analyzed": 19,
   "scoring": {
-    "average": 21.1,
+    "average": 20.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 7,
       "low": 0,
-      "irrelevant": 11
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
         "company": "ALMA LABORIS Business School",
-        "score": 50,
+        "score": 49,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
@@ -80,15 +80,23 @@
       {
         "title": "Process Validation Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 15,
+        "score": 14,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4414896589"
       },
       {
+        "title": "RA Specialist (510k) - Medical Devices",
+        "company": "PQE Group",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4421950235"
+      },
+      {
         "title": "Quality Engineer",
         "company": "LINCOTEK GROUP",
-        "score": 13,
+        "score": 8,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=b877334f75171d8c"
@@ -97,9 +105,9 @@
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
-        "site": "indeed",
-        "date_posted": 1779494400000,
-        "url": "https://it.indeed.com/viewjob?jk=17e706de17d4173b"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414871143"
       },
       {
         "title": "CRA (Level II)",
@@ -168,6 +176,16 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
+        "word": "specialist",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "medical",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
         "word": "engineer",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
@@ -180,29 +198,19 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-59%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-61%)",
       "data": {
         "current": 1,
-        "avg": 2.4,
-        "change_pct": -58.8
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "avg": 2.6,
+        "change_pct": -61.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 100.0,
         "new_pct": 0.0
       }
@@ -210,9 +218,9 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 100.0
       }

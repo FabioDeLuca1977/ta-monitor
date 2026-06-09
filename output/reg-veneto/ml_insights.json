@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-06-08T11:36:58.415097",
+  "generated_at": "2026-06-09T10:24:22.394875",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 37,
   "scoring": {
-    "average": 16.9,
+    "average": 16.6,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 5,
-      "low": 4,
-      "irrelevant": 26
+      "good": 3,
+      "medium": 4,
+      "low": 2,
+      "irrelevant": 28
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
         "company": "NonStop Consulting",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421823097"
       },
       {
-        "title": "Regulatory Affairs Expert",
-        "company": "Fidia Pharma",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4412260439"
-      },
-      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "NEWCHEM SPA",
-        "score": 58,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1779321600000,
         "url": "https://www.linkedin.com/jobs/view/4413675692"
+      },
+      {
+        "title": "REGULATORY SPECIALIST",
+        "company": "Colorificio Paulin S.p.A.",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4421952309"
       },
       {
         "title": "Senior International Regulatory Specialist",
@@ -70,22 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4417957067"
       },
       {
-        "title": "Quality Assurance Manager",
-        "company": "SteelcoBelimed Inc.",
-        "score": 23,
-        "site": "indeed",
-        "date_posted": 1780617600000,
-        "url": "https://it.indeed.com/viewjob?jk=14c367d68e50f917"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "SteelcoBelimed Inc.",
-        "score": 21,
-        "site": "indeed",
-        "date_posted": 1780617600000,
-        "url": "https://it.indeed.com/viewjob?jk=3f0a52192415b8d9"
-      },
-      {
         "title": "Opportunità di Lavoro – Categorie Protette (L.68/99)",
         "company": "Newpharm",
         "score": 20,
@@ -102,20 +86,20 @@
         "url": "https://it.indeed.com/viewjob?jk=54949be1bc94e8a8"
       },
       {
-        "title": "IT Manager ERP e Sistemi Informativi",
-        "company": "Supporto HR",
+        "title": "Quality Assurance Manager",
+        "company": "SteelcoBelimed Inc.",
         "score": 18,
         "site": "indeed",
         "date_posted": 1780617600000,
-        "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
+        "url": "https://it.indeed.com/viewjob?jk=14c367d68e50f917"
       },
       {
-        "title": "Customer Quality Assurance Manager",
-        "company": "LHH",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1779321600000,
-        "url": "https://www.linkedin.com/jobs/view/4398907982"
+        "title": "Quality Assurance Specialist",
+        "company": "SteelcoBelimed Inc.",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=3f0a52192415b8d9"
       },
       {
         "title": "Quality Assurance & Quality Management System Manager",
@@ -124,6 +108,14 @@
         "site": "linkedin",
         "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4415671084"
+      },
+      {
+        "title": "IT Manager ERP e Sistemi Informativi",
+        "company": "Supporto HR",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
       },
       {
         "title": "Quality Assurance Specialist - Vicenza",
@@ -142,12 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4419868821"
       },
       {
-        "title": "MECHANICAL ENGINEER (IRONING SYSTEMS)",
-        "company": "De'Longhi",
+        "title": "Specialista Contatti Aziendali e Supporto alla Rete Commerciale – Part Time",
+        "company": "MEDIA COMPANY srl",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1780876800000,
+        "url": "https://it.indeed.com/viewjob?jk=7b0fef767d15100b"
+      },
+      {
+        "title": "Operatore macchine utensili CNC",
+        "company": null,
         "score": 10,
         "site": "indeed",
-        "date_posted": 1780617600000,
-        "url": "https://it.indeed.com/viewjob?jk=a0efe238ae8ceeaa"
+        "date_posted": 1780876800000,
+        "url": "https://it.indeed.com/viewjob?jk=1af365296b4a53b5"
       },
       {
         "title": "Market Access Manager Public Health",
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "sistema",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "addetto",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "esperto",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
-      "data": {
-        "current": 1,
-        "avg": 3.6,
-        "change_pct": -72.2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 0% (-20pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 100% (+20pp)",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -255,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 4,
             "size": 16,
             "top_terms": [
-              "tecnico",
-              "galleria",
-              "esperto"
+              "manager",
+              "operatore",
+              "galleria"
             ],
             "pct": 43.2
           },
           {
-            "id": 4,
-            "size": 7,
+            "id": 3,
+            "size": 8,
             "top_terms": [
-              "specialist",
               "quality",
-              "assurance"
+              "assurance",
+              "specialist"
             ],
-            "pct": 18.9
+            "pct": 21.6
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "regulatory",
+              "specialist",
+              "affairs"
+            ],
+            "pct": 13.5
           },
           {
             "id": 1,
             "size": 5,
             "top_terms": [
-              "manager",
-              "quality",
-              "assurance"
+              "sistema",
+              "addetto",
+              "negozi"
             ],
             "pct": 13.5
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 3,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "senior"
+              "tecnico",
+              "esperto",
+              "specialist"
             ],
-            "pct": 13.5
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "addetto",
-              "sistema",
-              "negozi"
-            ],
-            "pct": 10.8
+            "pct": 8.1
           }
         ]
       }

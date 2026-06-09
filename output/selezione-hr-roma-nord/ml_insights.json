@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-06-08T11:36:58.152075",
+  "generated_at": "2026-06-09T10:24:22.129346",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 178,
+  "total_jobs_analyzed": 186,
   "scoring": {
-    "average": 24.3,
+    "average": 23.6,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 46,
-      "low": 37,
-      "irrelevant": 86
+      "good": 10,
+      "medium": 45,
+      "low": 40,
+      "irrelevant": 91
     },
     "top_jobs": [
+      {
+        "title": "Talent Acquisition – Roma (Categorie Protette L.68/99)",
+        "company": "ManpowerGroup Italia",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4415295954"
+      },
       {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "MioDottore",
@@ -30,12 +38,12 @@
         "url": "https://www.linkedin.com/jobs/view/4420726615"
       },
       {
-        "title": "Talent Acquisition – Roma (Categorie Protette L.68/99)",
-        "company": "ManpowerGroup Italia",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415295954"
+        "title": "HR Recruiter",
+        "company": "Il Metodo by Effetto Domino",
+        "score": 64,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=b5d59a796df2e838"
       },
       {
         "title": "HRBP Lead Specialist - Head of Human Resources Business Partner Corporate",
@@ -86,6 +94,14 @@
         "url": "https://www.linkedin.com/jobs/view/4420716126"
       },
       {
+        "title": "Ice Cream HR Generalist Intern",
+        "company": "The Magnum Ice Cream Company",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414759359"
+      },
+      {
         "title": "CYS - Talent Acquisition Intern - PO",
         "company": "Leonardo",
         "score": 59,
@@ -94,17 +110,9 @@
         "url": "https://it.indeed.com/viewjob?jk=d0d0b953999155c4"
       },
       {
-        "title": "Ice Cream HR Generalist Intern",
-        "company": "The Magnum Ice Cream Company",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414759359"
-      },
-      {
         "title": "HR Specialist - Retail & Hospitality",
         "company": "Il Gianfornaio",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1780099200000,
         "url": "https://www.linkedin.com/jobs/view/4418330736"
@@ -126,28 +134,28 @@
         "url": "https://www.linkedin.com/jobs/view/4416168702"
       },
       {
-        "title": "HR generalist per Soluzioni Acqua",
-        "company": "Tuolavoro-Lazio",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1779235200000,
-        "url": "https://www.linkedin.com/jobs/view/4416171599"
-      },
-      {
         "title": "Junior HR Specialist - Soluzioni Gestione Familiare",
         "company": "key-absolute",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4418841487"
       },
       {
-        "title": "HR Recruiter",
-        "company": "Sielte Spa",
-        "score": 55,
+        "title": "HR RECRUITER",
+        "company": "E-work",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1779926400000,
+        "url": "https://it.indeed.com/viewjob?jk=9835c5a268267e6a"
+      },
+      {
+        "title": "Addetto/a selezione personale per call center",
+        "company": "key-absolute",
+        "score": 56,
         "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4415616217"
+        "date_posted": 1780531200000,
+        "url": "https://www.linkedin.com/jobs/view/4424467196"
       },
       {
         "title": "HR Business Partner Specialist",
@@ -156,14 +164,6 @@
         "site": "linkedin",
         "date_posted": 1779148800000,
         "url": "https://www.linkedin.com/jobs/view/4413319098"
-      },
-      {
-        "title": "HR RECRUITER",
-        "company": "E-work",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1779926400000,
-        "url": "https://it.indeed.com/viewjob?jk=9835c5a268267e6a"
       },
       {
         "title": "HR Recruiter",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
-        "word": "junior",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "impiegato",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "dell",
@@ -199,7 +199,7 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "impiegato",
+        "word": "junior",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -232,6 +232,24 @@
       "confidence": 30
     },
     {
+      "keyword": "personale call",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "call center",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "personale call center",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "umane ricerca",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -240,43 +258,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 12 (-68%)",
-      "data": {
-        "current": 4,
-        "avg": 12.4,
-        "change_pct": -67.8
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
       "data": {
-        "new": 2,
-        "total": 4,
-        "pct": 50.0
+        "new": 5,
+        "total": 11,
+        "pct": 45.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 75% (-25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 25% (+25pp)",
+      "message": "📡 indeed: quota passata da 25% a 82% (+57pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 81.8
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 75% a 18% (-57pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 75.0,
+        "new_pct": 18.2
       }
     },
     {
@@ -286,54 +294,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 100,
-            "top_terms": [
-              "specialist",
-              "roma",
-              "sales"
-            ],
-            "pct": 56.2
-          },
-          {
-            "id": 3,
-            "size": 34,
-            "top_terms": [
-              "umane",
-              "risorse",
-              "addetto"
-            ],
-            "pct": 19.1
-          },
-          {
-            "id": 4,
-            "size": 23,
+            "id": 1,
+            "size": 93,
             "top_terms": [
               "hr",
               "recruiter",
-              "business"
+              "manager"
             ],
-            "pct": 12.9
+            "pct": 50.0
           },
           {
-            "id": 1,
-            "size": 17,
+            "id": 0,
+            "size": 37,
             "top_terms": [
-              "personale",
-              "selezione",
+              "risorse",
+              "umane",
               "addetto"
             ],
-            "pct": 9.6
+            "pct": 19.9
+          },
+          {
+            "id": 3,
+            "size": 30,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "operations"
+            ],
+            "pct": 16.1
+          },
+          {
+            "id": 4,
+            "size": 17,
+            "top_terms": [
+              "selezione",
+              "personale",
+              "addetto"
+            ],
+            "pct": 9.1
           },
           {
             "id": 2,
-            "size": 4,
+            "size": 9,
             "top_terms": [
-              "generalist",
-              "hr",
-              "intern"
+              "partner",
+              "business",
+              "hr"
             ],
-            "pct": 2.2
+            "pct": 4.8
           }
         ]
       }

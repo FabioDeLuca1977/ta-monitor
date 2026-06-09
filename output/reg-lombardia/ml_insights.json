@@ -1,34 +1,18 @@
 {
-  "generated_at": "2026-06-08T11:36:58.562190",
+  "generated_at": "2026-06-09T10:24:22.543953",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 263,
+  "total_jobs_analyzed": 265,
   "scoring": {
-    "average": 16.3,
+    "average": 16.2,
     "distribution": {
       "excellent": 0,
-      "good": 21,
-      "medium": 30,
-      "low": 4,
-      "irrelevant": 208
+      "good": 22,
+      "medium": 29,
+      "low": 5,
+      "irrelevant": 209
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Cosmo I Building Health Confidence",
-        "score": 71,
-        "site": "linkedin",
-        "date_posted": 1780617600000,
-        "url": "https://www.linkedin.com/jobs/view/4421112133"
-      },
-      {
-        "title": "Junior Regulatory Affairs Specialist",
-        "company": "Chematek SpA",
-        "score": 69,
-        "site": "linkedin",
-        "date_posted": 1780617600000,
-        "url": "https://www.linkedin.com/jobs/view/4424172472"
-      },
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
@@ -46,6 +30,14 @@
         "url": "https://www.linkedin.com/jobs/view/4404321297"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Cosmo I Building Health Confidence",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1780617600000,
+        "url": "https://www.linkedin.com/jobs/view/4421112133"
+      },
+      {
         "title": "Line Manager, Regulatory Affairs",
         "company": "Jobgether",
         "score": 65,
@@ -54,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4423739060"
       },
       {
-        "title": "Regulatory Affairs Specialist - Pharma Prodotto finito",
-        "company": "Hays",
-        "score": 62,
+        "title": "Junior Regulatory Affairs Specialist",
+        "company": "Chematek SpA",
+        "score": 64,
         "site": "linkedin",
-        "date_posted": 1779408000000,
-        "url": "https://www.linkedin.com/jobs/view/4414343470"
+        "date_posted": 1780617600000,
+        "url": "https://www.linkedin.com/jobs/view/4424172472"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -70,12 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4417209933"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Grafton Recruitment",
+        "title": "Senior Regulatory Affairs Specialist – Cosmetics & Medical Devices",
+        "company": "Betafarma S.p.A.",
         "score": 62,
         "site": "linkedin",
-        "date_posted": 1780272000000,
-        "url": "https://www.linkedin.com/jobs/view/4418744689"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4419606667"
       },
       {
         "title": "Scientific and Regulatory Affairs Manager",
@@ -134,14 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4411744140"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist – Cosmetics & Medical Devices",
-        "company": "Betafarma S.p.A.",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4419606667"
-      },
-      {
         "title": "Regulatory Affairs | Brescia",
         "company": "Biopharmed",
         "score": 60,
@@ -158,12 +142,28 @@
         "url": "https://www.linkedin.com/jobs/view/4414344339"
       },
       {
+        "title": "Regulatory Affairs - ambito Gomma Plastica",
+        "company": "Adecco",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1779321600000,
+        "url": "https://www.linkedin.com/jobs/view/4413654944"
+      },
+      {
         "title": "Regulatory Manager",
         "company": "LHH",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1779062400000,
         "url": "https://www.linkedin.com/jobs/view/4416280064"
+      },
+      {
+        "title": "Regulatory Affairs Analyst (f/m/d)",
+        "company": "Axpo Group",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4419185454"
       },
       {
         "title": "Regulatory Affairs",
@@ -185,8 +185,13 @@
       },
       {
         "word": "italy",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
+      },
+      {
+        "word": "associate",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "clinical",
@@ -194,12 +199,7 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "associate",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "product",
+        "word": "lead",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       }
@@ -209,12 +209,6 @@
   "keyword_recommendations": [
     {
       "keyword": "international regulatory",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "junior regulatory",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -238,13 +232,13 @@
       "confidence": 30
     },
     {
-      "keyword": "gomma plastica",
+      "keyword": "affairs intern",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "affairs intern",
+      "keyword": "junior regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,33 +254,37 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 18 (-78%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 6/15 annunci da aziende nuove (40.0%)",
       "data": {
-        "current": 4,
-        "avg": 18.5,
-        "change_pct": -78.4
+        "new": 6,
+        "total": 15,
+        "pct": 40.0
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 25% a 67% (+42pp)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "channel": "indeed",
+        "old_pct": 25.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 75% a 33% (-42pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 75.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -296,54 +294,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 121,
+            "id": 1,
+            "size": 149,
             "top_terms": [
               "senior",
-              "engineer",
-              "consultant"
+              "specialist",
+              "medical"
             ],
-            "pct": 46.0
+            "pct": 56.2
           },
           {
             "id": 4,
-            "size": 41,
+            "size": 40,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.6
+            "pct": 15.1
           },
           {
-            "id": 0,
-            "size": 37,
-            "top_terms": [
-              "specialist",
-              "medical",
-              "director"
-            ],
-            "pct": 14.1
-          },
-          {
-            "id": 1,
+            "id": 2,
             "size": 37,
             "top_terms": [
               "manager",
-              "senior",
-              "clinical"
+              "regulatory",
+              "product"
             ],
-            "pct": 14.1
+            "pct": 14.0
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 27,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 10.3
+            "pct": 10.2
+          },
+          {
+            "id": 3,
+            "size": 12,
+            "top_terms": [
+              "lead",
+              "sterile",
+              "safety"
+            ],
+            "pct": 4.5
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-08T11:36:58.606252",
+  "generated_at": "2026-06-09T10:24:22.587662",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 36,
   "scoring": {
-    "average": 16.2,
+    "average": 15.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 6,
+      "medium": 5,
       "low": 1,
-      "irrelevant": 28
+      "irrelevant": 29
     },
     "top_jobs": [
       {
         "title": "Senior Regulatory Affairs Specialist - Medical Devices",
         "company": "Jefferson Wells Italia",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1779148800000,
         "url": "https://www.linkedin.com/jobs/view/4416693195"
@@ -28,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1779148800000,
         "url": "https://www.linkedin.com/jobs/view/4416632316"
-      },
-      {
-        "title": "Quality Assurance & Qualified Person Manager",
-        "company": "SGB Humangest Holding",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4412278010"
       },
       {
         "title": "Global Regulatory Affairs Consultant",
@@ -64,7 +56,7 @@
       {
         "title": "Affari Regolatori",
         "company": "ALMA LABORIS Business School",
-        "score": 44,
+        "score": 43,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
@@ -86,6 +78,14 @@
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
+        "title": "DIGITAL SALES SPECIALIST",
+        "company": "Auto Azzurra Stoe Srl",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1780876800000,
+        "url": "https://it.indeed.com/viewjob?jk=45b366ffb34cebff"
+      },
+      {
         "title": "Specialist, Quality Assurance GCP",
         "company": "Alfasigma",
         "score": 13,
@@ -104,7 +104,7 @@
       {
         "title": "Process Validation Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 12,
+        "score": 11,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4414896589"
@@ -118,12 +118,28 @@
         "url": "https://it.indeed.com/viewjob?jk=66d605ecc26221ee"
       },
       {
+        "title": "BDR Outbound B2B",
+        "company": "Qboxmail",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=39a313163a94804e"
+      },
+      {
         "title": "IT Service Manager",
         "company": "Philip Morris International",
         "score": 9,
         "site": "indeed",
         "date_posted": 1779840000000,
         "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
+      },
+      {
+        "title": "R: Project Manager ERTMS Wayside",
+        "company": "ALSTOM",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
       },
       {
         "title": "Senior Quality & Assurance Manager, Fabric",
@@ -142,14 +158,6 @@
         "url": "https://it.indeed.com/viewjob?jk=48e466a9b18295d4"
       },
       {
-        "title": "R: Project Manager ERTMS Wayside",
-        "company": "ALSTOM",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
-      },
-      {
         "title": "Customer Sales Support Manager",
         "company": "DHL",
         "score": 8,
@@ -158,20 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=a2578024a2cd2e61"
       },
       {
-        "title": "Product Manager Cybersecurity (m/f/d)",
-        "company": "Danfoss",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1779148800000,
-        "url": "https://it.indeed.com/viewjob?jk=01bd85e43bb4ea5f"
-      },
-      {
-        "title": "Addetto/a Anagrafiche nel Sistema Produttivo",
-        "company": "key-absolute",
-        "score": 7,
+        "title": "QUALITY ASSURANCE JUNIOR",
+        "company": "ADHR- MONTECCHIO EMILIA",
+        "score": 8,
         "site": "linkedin",
-        "date_posted": 1779148800000,
-        "url": "https://www.linkedin.com/jobs/view/4415939706"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4418774660"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "quality",
@@ -217,20 +217,30 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-71%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
       "data": {
-        "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.4
+        "current": 2,
+        "avg": 3.4,
+        "change_pct": -41.2
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 0.0,
         "new_pct": 100.0
       }
@@ -238,9 +248,9 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 100.0,
         "new_pct": 0.0
       }
@@ -252,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 12,
+            "id": 1,
+            "size": 21,
             "top_terms": [
+              "specialist",
               "cra",
-              "specialista",
-              "sistema"
+              "specialista"
             ],
-            "pct": 33.3
-          },
-          {
-            "id": 0,
-            "size": 7,
-            "top_terms": [
-              "manager",
-              "contract",
-              "customer"
-            ],
-            "pct": 19.4
-          },
-          {
-            "id": 2,
-            "size": 7,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "junior"
-            ],
-            "pct": 19.4
+            "pct": 58.3
           },
           {
             "id": 3,
             "size": 6,
             "top_terms": [
-              "specialist",
-              "maintenance",
-              "medical"
+              "assurance",
+              "quality",
+              "junior"
             ],
             "pct": 16.7
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 4,
             "top_terms": [
-              "regulatory",
-              "global",
-              "head"
+              "manager",
+              "contract",
+              "specialista"
             ],
             "pct": 11.1
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "global",
+              "regulatory",
+              "head"
+            ],
+            "pct": 8.3
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "maintenance",
+              "specialist",
+              "specialista"
+            ],
+            "pct": 5.6
           }
         ]
       }
