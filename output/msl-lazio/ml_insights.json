@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-06-09T10:24:22.350510",
+  "generated_at": "2026-06-10T10:36:32.724230",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 46,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 28.1,
+    "average": 29.3,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 16,
-      "low": 5,
-      "irrelevant": 21
+      "low": 4,
+      "irrelevant": 20
     },
     "top_jobs": [
       {
-        "title": "Medical Director, Medical Affairs",
-        "company": "Vertex Pharmaceuticals",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1779580800000,
-        "url": "https://www.linkedin.com/jobs/view/4414712533"
-      },
-      {
         "title": "Field Medical Advisor / MSL - Italy",
         "company": "Syneos Health Commercial Solutions",
-        "score": 65,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423308214"
       },
       {
+        "title": "Medical Director, Medical Affairs",
+        "company": "Vertex Pharmaceuticals",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4414712533"
+      },
+      {
         "title": "Field Medical Manager - Europe",
         "company": "Syneos Health Commercial Solutions",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424717617"
@@ -40,7 +40,7 @@
       {
         "title": "Medical Affairs Manager, Italy",
         "company": "Johnson & Johnson MedTech",
-        "score": 60,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425424534"
@@ -50,16 +50,24 @@
         "company": "IQVIA",
         "score": 59,
         "site": "linkedin",
-        "date_posted": 1779408000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415927696"
       },
       {
         "title": "Sr Manager, Medical Science Liaison - LAZIO / ABRUZZO / UMBRIA",
         "company": "Alnylam Pharmaceuticals",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423570263"
+      },
+      {
+        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426533104"
       },
       {
         "title": "Medical Science Liaison Italy W/M",
@@ -70,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4416580742"
       },
       {
-        "title": "Clinical Development Medical Science Director",
-        "company": "Angelini Pharma",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4396450100"
-      },
-      {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
         "score": 53,
@@ -86,12 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4417223802"
       },
       {
-        "title": "Medical Specialist - Remote",
-        "company": "YO IT Consulting",
-        "score": 51,
+        "title": "Clinical Development Medical Science Director",
+        "company": "Angelini Pharma",
+        "score": 52,
         "site": "linkedin",
-        "date_posted": 1779148800000,
-        "url": "https://www.linkedin.com/jobs/view/4412860388"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4396450100"
       },
       {
         "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
@@ -112,7 +112,7 @@
       {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4414712529"
@@ -120,7 +120,7 @@
       {
         "title": "Senior Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420489006"
@@ -168,7 +168,7 @@
       {
         "title": "PhD Opportunity in Medical Physics, Neuro-Oncology, Therapeutic Ultrasound, and AI for Life Sciences",
         "company": "University of Rome Tor Vergata",
-        "score": 40,
+        "score": 41,
         "site": "linkedin",
         "date_posted": 1779494400000,
         "url": "https://www.linkedin.com/jobs/view/4414806568"
@@ -178,11 +178,6 @@
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "specialist",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
       {
         "word": "intern",
         "count": 3,
@@ -199,40 +194,40 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 3,
+      "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
+      "confidence": 40
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
       "data": {
-        "current": 1,
-        "avg": 4.1,
-        "change_pct": -75.6
+        "new": 1,
+        "total": 4,
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
       "data": {
         "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
+      "data": {
+        "channel": "indeed",
         "old_pct": 100.0,
-        "new_pct": 0.0
+        "new_pct": 75.0
       }
     },
     {
@@ -242,54 +237,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 30,
-            "top_terms": [
-              "specialist",
-              "italy",
-              "cra"
-            ],
-            "pct": 65.2
-          },
-          {
             "id": 3,
-            "size": 6,
+            "size": 13,
             "top_terms": [
               "medical",
-              "director",
-              "affairs"
+              "italy",
+              "director"
             ],
-            "pct": 13.0
+            "pct": 29.5
+          },
+          {
+            "id": 0,
+            "size": 11,
+            "top_terms": [
+              "lead",
+              "engineer",
+              "cra"
+            ],
+            "pct": 25.0
           },
           {
             "id": 2,
+            "size": 10,
+            "top_terms": [
+              "specialist",
+              "affairs",
+              "regulatory"
+            ],
+            "pct": 22.7
+          },
+          {
+            "id": 1,
+            "size": 6,
+            "top_terms": [
+              "manager",
+              "field",
+              "intern"
+            ],
+            "pct": 13.6
+          },
+          {
+            "id": 4,
             "size": 4,
             "top_terms": [
               "stage",
               "dipartimento",
               "diseases"
             ],
-            "pct": 8.7
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "manager",
-              "field",
-              "europe"
-            ],
-            "pct": 6.5
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "analyst"
-            ],
-            "pct": 6.5
+            "pct": 9.1
           }
         ]
       }

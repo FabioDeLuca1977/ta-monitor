@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-09T10:24:22.394875",
+  "generated_at": "2026-06-10T10:36:32.761315",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 37,
   "scoring": {
-    "average": 16.6,
+    "average": 17.4,
     "distribution": {
       "excellent": 0,
       "good": 3,
@@ -26,7 +26,7 @@
         "company": "NEWCHEM SPA",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1779321600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4413675692"
       },
       {
@@ -40,7 +40,7 @@
       {
         "title": "Senior International Regulatory Specialist",
         "company": "Orthofix",
-        "score": 55,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
@@ -54,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4417882353"
       },
       {
+        "title": "Senior quality assurance GMP",
+        "company": "Adecco",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417957067"
+      },
+      {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
         "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
-      },
-      {
-        "title": "Senior quality assurance GMP",
-        "company": "Adecco",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4417957067"
       },
       {
         "title": "Opportunità di Lavoro – Categorie Protette (L.68/99)",
@@ -88,7 +88,7 @@
       {
         "title": "Quality Assurance Manager",
         "company": "SteelcoBelimed Inc.",
-        "score": 18,
+        "score": 19,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=14c367d68e50f917"
@@ -96,18 +96,10 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "SteelcoBelimed Inc.",
-        "score": 16,
+        "score": 17,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=3f0a52192415b8d9"
-      },
-      {
-        "title": "Quality Assurance & Quality Management System Manager",
-        "company": "ISG International Service Group",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1779062400000,
-        "url": "https://www.linkedin.com/jobs/view/4415671084"
       },
       {
         "title": "IT Manager ERP e Sistemi Informativi",
@@ -142,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=7b0fef767d15100b"
       },
       {
+        "title": "Estetista",
+        "company": null,
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=221ed719f6c6a4d2"
+      },
+      {
         "title": "Operatore macchine utensili CNC",
         "company": null,
         "score": 10,
@@ -150,28 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=1af365296b4a53b5"
       },
       {
-        "title": "Market Access Manager Public Health",
-        "company": "GSK",
-        "score": 7,
+        "title": "System Administrator",
+        "company": "Cst logistica trasporti",
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1779408000000,
-        "url": "https://it.indeed.com/viewjob?jk=242f7dbcb64d3407"
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=1dd5fc43782623ec"
       },
       {
-        "title": "Addetto/a informazioni - Sistema negozi coordinati",
-        "company": "Giucas",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1779408000000,
-        "url": "https://www.linkedin.com/jobs/view/4417186211"
+        "title": "Operatore macchine utensili CNC",
+        "company": "Officina meccanica casu andrea",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1780876800000,
+        "url": "https://it.indeed.com/viewjob?jk=1af365296b4a53b5"
       },
       {
-        "title": "Addetto/a confezionamento sistema negozi coordinati",
-        "company": "Giucas",
-        "score": 7,
+        "title": "KERING EYEWEAR Demand Planner",
+        "company": "Kering Eyewear",
+        "score": 10,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4419060664"
+        "date_posted": 1780617600000,
+        "url": "https://www.linkedin.com/jobs/view/4424520457"
       }
     ]
   },
@@ -180,16 +180,11 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "sistema",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "assurance",
+        "word": "sistema",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
@@ -199,7 +194,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "esperto",
+        "word": "assurance",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "tecnico",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -211,31 +211,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
@@ -246,26 +226,26 @@
         "clusters": [
           {
             "id": 4,
-            "size": 16,
+            "size": 15,
             "top_terms": [
               "manager",
-              "operatore",
-              "galleria"
+              "demand",
+              "planner"
             ],
-            "pct": 43.2
+            "pct": 40.5
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 8,
             "top_terms": [
               "quality",
-              "assurance",
-              "specialist"
+              "specialist",
+              "assurance"
             ],
             "pct": 21.6
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 5,
             "top_terms": [
               "regulatory",
@@ -275,24 +255,24 @@
             "pct": 13.5
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "sistema",
               "addetto",
-              "negozi"
+              "coordinati"
             ],
             "pct": 13.5
           },
           {
-            "id": 2,
-            "size": 3,
+            "id": 3,
+            "size": 4,
             "top_terms": [
               "tecnico",
               "esperto",
               "specialist"
             ],
-            "pct": 8.1
+            "pct": 10.8
           }
         ]
       }

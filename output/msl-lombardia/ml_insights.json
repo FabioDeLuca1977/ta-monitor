@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-09T10:24:22.286123",
+  "generated_at": "2026-06-10T10:36:32.653974",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 179,
+  "total_jobs_analyzed": 174,
   "scoring": {
-    "average": 27.8,
+    "average": 28.2,
     "distribution": {
       "excellent": 0,
       "good": 5,
-      "medium": 80,
+      "medium": 77,
       "low": 7,
-      "irrelevant": 87
+      "irrelevant": 85
     },
     "top_jobs": [
       {
@@ -70,11 +70,19 @@
         "url": "https://www.linkedin.com/jobs/view/4421165620"
       },
       {
+        "title": "Regulatory Affairs Specialist (Medical Device)",
+        "company": "Jefferson Wells Italia",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426337115"
+      },
+      {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1779408000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4415915989"
       },
       {
@@ -142,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4404914214"
       },
       {
-        "title": "International Medical Science Liaison, Oncology",
-        "company": "IQVIA",
-        "score": 54,
+        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 55,
         "site": "linkedin",
-        "date_posted": 1779321600000,
-        "url": "https://www.linkedin.com/jobs/view/4384494774"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426512688"
       },
       {
         "title": "Sr Associate Medical Science Liaison Hematology",
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4418969053"
       },
       {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 53,
-        "site": "indeed",
-        "date_posted": 1767830400000,
-        "url": "https://it.indeed.com/viewjob?jk=2d1313262f805a6c"
-      },
-      {
-        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
-        "company": "Parexel",
-        "score": 53,
+        "title": "International Medical Science Liaison, Oncology",
+        "company": "IQVIA",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4424589840"
+        "date_posted": 1779321600000,
+        "url": "https://www.linkedin.com/jobs/view/4384494774"
       }
     ]
   },
@@ -190,8 +190,8 @@
       },
       {
         "word": "clinical",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "market",
@@ -224,31 +224,50 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 12 (-43%)",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 12 (-33%)",
       "data": {
-        "current": 7,
-        "avg": 12.3,
-        "change_pct": -43.0
+        "current": 8,
+        "avg": 11.9,
+        "change_pct": -32.5
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Stanley Black & Decker: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Stanley Black & Decker",
+        "count": 2
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 3/8 annunci da aziende nuove (37.5%)",
+      "data": {
+        "new": 3,
+        "total": 8,
+        "pct": 37.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 57% (+57pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 57.1
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 43% (-57pp)",
+      "message": "📡 linkedin: quota passata da 56% a 25% (-31pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 42.9
+        "old_pct": 55.6,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 44% a 75% (+31pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 44.4,
+        "new_pct": 75.0
       }
     },
     {
@@ -258,54 +277,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
+            "id": 4,
             "size": 64,
             "top_terms": [
               "manager",
-              "senior",
-              "italy"
+              "italy",
+              "lead"
             ],
-            "pct": 35.8
+            "pct": 36.8
           },
           {
-            "id": 1,
-            "size": 35,
+            "id": 0,
+            "size": 38,
             "top_terms": [
               "medical",
               "science",
               "liaison"
             ],
-            "pct": 19.6
+            "pct": 21.8
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.3
+            "pct": 17.8
           },
           {
             "id": 2,
-            "size": 28,
+            "size": 29,
             "top_terms": [
               "clinical",
-              "research",
-              "associate"
+              "senior",
+              "research"
             ],
-            "pct": 15.6
+            "pct": 16.7
           },
           {
-            "id": 0,
-            "size": 21,
+            "id": 1,
+            "size": 12,
             "top_terms": [
               "access",
-              "lead",
-              "market"
+              "market",
+              "government"
             ],
-            "pct": 11.7
+            "pct": 6.9
           }
         ]
       }
