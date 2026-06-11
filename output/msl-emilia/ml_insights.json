@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-10T10:36:32.682722",
+  "generated_at": "2026-06-11T11:06:06.698572",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 20,
   "scoring": {
-    "average": 19.6,
+    "average": 19.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -16,7 +16,7 @@
       {
         "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
         "company": "ALMA LABORIS Business School",
-        "score": 50,
+        "score": 49,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
@@ -42,7 +42,7 @@
         "company": "Boston Scientific",
         "score": 41,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4411669590"
       },
       {
@@ -82,7 +82,7 @@
         "company": "Lavoropiù SpA",
         "score": 15,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4419415873"
       },
       {
@@ -120,10 +120,10 @@
       {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1779494400000,
-        "url": "https://it.indeed.com/viewjob?jk=17e706de17d4173b"
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": 1779580800000,
+        "url": "https://www.linkedin.com/jobs/view/4414871143"
       },
       {
         "title": "CRA (Level II)",
@@ -179,17 +179,17 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
         "word": "specialist",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "medical",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -241,13 +241,23 @@
         "clusters": [
           {
             "id": 2,
-            "size": 10,
+            "size": 7,
             "top_terms": [
               "medical",
               "affairs",
               "junior"
             ],
-            "pct": 50.0
+            "pct": 35.0
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "italy",
+              "head",
+              "graduate"
+            ],
+            "pct": 30.0
           },
           {
             "id": 1,
@@ -258,16 +268,6 @@
               "specialist"
             ],
             "pct": 20.0
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "graduate",
-              "interventional",
-              "cardiology"
-            ],
-            "pct": 15.0
           },
           {
             "id": 3,

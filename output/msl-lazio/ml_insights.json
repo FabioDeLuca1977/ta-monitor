@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-06-10T10:36:32.724230",
+  "generated_at": "2026-06-11T11:06:06.740455",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 44,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 29.3,
+    "average": 30.7,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 16,
+      "good": 5,
+      "medium": 17,
       "low": 4,
       "irrelevant": 20
     },
     "top_jobs": [
       {
+        "title": "Field Medical Advisor - Italy",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 73,
+        "site": "linkedin",
+        "date_posted": 1780963200000,
+        "url": "https://www.linkedin.com/jobs/view/4426342053"
+      },
+      {
         "title": "Field Medical Advisor / MSL - Italy",
         "company": "Syneos Health Commercial Solutions",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423308214"
@@ -24,9 +32,9 @@
       {
         "title": "Medical Director, Medical Affairs",
         "company": "Vertex Pharmaceuticals",
-        "score": 66,
+        "score": 65,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4414712533"
       },
       {
@@ -50,13 +58,13 @@
         "company": "IQVIA",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4415927696"
       },
       {
         "title": "Sr Manager, Medical Science Liaison - LAZIO / ABRUZZO / UMBRIA",
         "company": "Alnylam Pharmaceuticals",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423570263"
@@ -64,7 +72,7 @@
       {
         "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
         "company": "Alnylam Pharmaceuticals",
-        "score": 58,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426533104"
@@ -96,7 +104,7 @@
       {
         "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
         "company": "ALMA LABORIS Business School",
-        "score": 51,
+        "score": 50,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
@@ -104,7 +112,7 @@
       {
         "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
         "company": "QuiCare",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4418949238"
@@ -112,7 +120,7 @@
       {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4414712529"
@@ -120,10 +128,18 @@
       {
         "title": "Senior Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
-        "score": 46,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420489006"
+      },
+      {
+        "title": "Oncology Medical Head, International",
+        "company": "Pfizer",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4427139715"
       },
       {
         "title": "MSL Italy",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411739069"
-      },
-      {
-        "title": "Hospital Clinical Specialist",
-        "company": "Essity",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4420139037"
-      },
-      {
-        "title": "PhD Opportunity in Medical Physics, Neuro-Oncology, Therapeutic Ultrasound, and AI for Life Sciences",
-        "company": "University of Rome Tor Vergata",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1779494400000,
-        "url": "https://www.linkedin.com/jobs/view/4414806568"
       }
     ]
   },
@@ -194,40 +194,40 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 4,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 50
     }
   ],
   "anomalies": [
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 4,
-        "pct": 25.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "message": "📡 linkedin: quota passata da 25% a 67% (+42pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
+      "message": "📡 indeed: quota passata da 75% a 33% (-42pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -237,54 +237,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 13,
+            "id": 0,
+            "size": 33,
             "top_terms": [
               "medical",
-              "italy",
-              "director"
-            ],
-            "pct": 29.5
-          },
-          {
-            "id": 0,
-            "size": 11,
-            "top_terms": [
-              "lead",
-              "engineer",
-              "cra"
-            ],
-            "pct": 25.0
-          },
-          {
-            "id": 2,
-            "size": 10,
-            "top_terms": [
               "specialist",
-              "affairs",
-              "regulatory"
+              "italy"
             ],
-            "pct": 22.7
+            "pct": 71.7
           },
           {
-            "id": 1,
-            "size": 6,
-            "top_terms": [
-              "manager",
-              "field",
-              "intern"
-            ],
-            "pct": 13.6
-          },
-          {
-            "id": 4,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "stage",
               "dipartimento",
               "diseases"
             ],
-            "pct": 9.1
+            "pct": 8.7
+          },
+          {
+            "id": 1,
+            "size": 3,
+            "top_terms": [
+              "liaison",
+              "science",
+              "medical"
+            ],
+            "pct": 6.5
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "analyst"
+            ],
+            "pct": 6.5
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "cra",
+              "senior",
+              "italy"
+            ],
+            "pct": 6.5
           }
         ]
       }

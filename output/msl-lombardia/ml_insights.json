@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-10T10:36:32.653974",
+  "generated_at": "2026-06-11T11:06:06.670698",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 174,
+  "total_jobs_analyzed": 173,
   "scoring": {
-    "average": 28.2,
+    "average": 28.7,
     "distribution": {
       "excellent": 0,
-      "good": 5,
+      "good": 7,
       "medium": 77,
-      "low": 7,
-      "irrelevant": 85
+      "low": 5,
+      "irrelevant": 84
     },
     "top_jobs": [
       {
@@ -22,12 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4423300417"
       },
       {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 66,
+        "title": "Medical Science Liaison Lead",
+        "company": "Pharma Point",
+        "score": 65,
         "site": "linkedin",
-        "date_posted": 1780790400000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
+        "date_posted": 1781049600000,
+        "url": "https://www.linkedin.com/jobs/view/4423119251"
+      },
+      {
+        "title": "NextGen Medical Affairs Manager, THV",
+        "company": "Edwards Lifesciences",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423153487"
       },
       {
         "title": "Medical Advisor",
@@ -54,12 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4424713695"
       },
       {
-        "title": "Sr Manager, Medical Science Liaison - LOMBARDIA EST / TRIVENETO",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 59,
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 60,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423576208"
+        "date_posted": 1780790400000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "MEDICAL MANAGER",
@@ -70,9 +78,25 @@
         "url": "https://www.linkedin.com/jobs/view/4421165620"
       },
       {
+        "title": "(Associate) Medical Director - Rheumatology, EMEA",
+        "company": "Thermo Fisher Scientific",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1780790400000,
+        "url": "https://www.linkedin.com/jobs/view/4404170968"
+      },
+      {
+        "title": "Sr Manager, Medical Science Liaison - LOMBARDIA EST / TRIVENETO",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423576208"
+      },
+      {
         "title": "Regulatory Affairs Specialist (Medical Device)",
         "company": "Jefferson Wells Italia",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426337115"
@@ -82,15 +106,23 @@
         "company": "IQVIA",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4415915989"
+      },
+      {
+        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426512688"
       },
       {
         "title": "Medical Affairs Clinician - Italy",
         "company": "Evolus",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4342294307"
       },
       {
@@ -108,14 +140,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411500965"
-      },
-      {
-        "title": "Medical Science Liaison Paediatric Oncology - Milan",
-        "company": "Norgine",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1779235200000,
-        "url": "https://www.linkedin.com/jobs/view/4394781112"
       },
       {
         "title": "Medical Science Liaison - Biologics",
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4404914214"
-      },
-      {
-        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426512688"
-      },
-      {
-        "title": "Sr Associate Medical Science Liaison Hematology",
-        "company": "Amgen Italia",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1779667200000,
-        "url": "https://www.linkedin.com/jobs/view/4418969053"
-      },
-      {
-        "title": "International Medical Science Liaison, Oncology",
-        "company": "IQVIA",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1779321600000,
-        "url": "https://www.linkedin.com/jobs/view/4384494774"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "associate",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -209,12 +209,42 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
+    },
+    {
+      "keyword": "rare",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
     },
     {
+      "keyword": "rare diseases",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "liaison lead",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "science liaison lead",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "international",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "diseases",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -222,52 +252,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 12 (-33%)",
-      "data": {
-        "current": 8,
-        "avg": 11.9,
-        "change_pct": -32.5
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Stanley Black & Decker: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Stanley Black & Decker",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/8 annunci da aziende nuove (37.5%)",
+      "message": "📊 Ultimo scan: 5/13 annunci da aziende nuove (38.5%)",
       "data": {
-        "new": 3,
-        "total": 8,
-        "pct": 37.5
+        "new": 5,
+        "total": 13,
+        "pct": 38.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 56% a 25% (-31pp)",
+      "message": "📡 linkedin: quota passata da 25% a 62% (+37pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 55.6,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 61.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 44% a 75% (+31pp)",
+      "message": "📡 indeed: quota passata da 75% a 38% (-37pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 44.4,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 38.5
       }
     },
     {
@@ -277,47 +288,47 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 64,
+            "id": 0,
+            "size": 69,
             "top_terms": [
               "manager",
-              "italy",
-              "lead"
+              "senior",
+              "specialist"
             ],
-            "pct": 36.8
+            "pct": 39.9
           },
           {
-            "id": 0,
-            "size": 38,
+            "id": 2,
+            "size": 41,
             "top_terms": [
               "medical",
-              "science",
-              "liaison"
+              "liaison",
+              "science"
             ],
-            "pct": 21.8
+            "pct": 23.7
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.8
+            "pct": 17.9
           },
           {
-            "id": 2,
-            "size": 29,
+            "id": 4,
+            "size": 20,
             "top_terms": [
+              "associate",
               "clinical",
-              "senior",
               "research"
             ],
-            "pct": 16.7
+            "pct": 11.6
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 12,
             "top_terms": [
               "access",
