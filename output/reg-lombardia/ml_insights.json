@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-11T11:06:06.919375",
+  "generated_at": "2026-06-12T10:53:44.123372",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 266,
+  "total_jobs_analyzed": 255,
   "scoring": {
-    "average": 15.8,
+    "average": 15.9,
     "distribution": {
       "excellent": 0,
-      "good": 20,
+      "good": 18,
       "medium": 27,
-      "low": 3,
-      "irrelevant": 216
+      "low": 2,
+      "irrelevant": 208
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426337115"
-      },
-      {
-        "title": "Regulatory Affairs CMC Specialist",
-        "company": "Recordati",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1779408000000,
-        "url": "https://www.linkedin.com/jobs/view/4377177028"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -42,7 +34,7 @@
         "company": "SD Worx",
         "score": 66,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4418874377"
       },
       {
@@ -56,7 +48,7 @@
       {
         "title": "Junior Regulatory Affairs Specialist",
         "company": "Chematek SpA",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1780617600000,
         "url": "https://www.linkedin.com/jobs/view/4424172472"
@@ -66,7 +58,7 @@
         "company": "PQE Group",
         "score": 63,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779840000000,
         "url": "https://www.linkedin.com/jobs/view/4417209933"
       },
       {
@@ -78,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4420722805"
       },
       {
-        "title": "REGULATORY AFFAIRS SPECIALIST  COSMETICO & CHIMICO (REACH)",
-        "company": "Emilav | Agenzia per il Lavoro",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1779667200000,
-        "url": "https://www.linkedin.com/jobs/view/4418956922"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "W&H Sterilization s.r.l.",
         "score": 62,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4414897277"
+      },
+      {
+        "title": "REGULATORY AFFAIRS SPECIALIST  COSMETICO & CHIMICO (REACH)",
+        "company": "Emilav | Agenzia per il Lavoro",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4418956922"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -150,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Grafton Recruitment",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1780272000000,
-        "url": "https://www.linkedin.com/jobs/view/4418744689"
-      },
-      {
         "title": "Regulatory Affairs – PVC / Materiali Plastici",
         "company": "ALFATHERM SPA",
         "score": 61,
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4421928816"
       },
       {
-        "title": "International Regulatory Affairs Project Manager",
-        "company": "Recordati",
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Grafton Recruitment",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1779321600000,
-        "url": "https://www.linkedin.com/jobs/view/4408772783"
+        "date_posted": 1780272000000,
+        "url": "https://www.linkedin.com/jobs/view/4418744689"
+      },
+      {
+        "title": "Lead Regulatory Affairs Manager, International",
+        "company": "Exact Sciences",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1779667200000,
+        "url": "https://www.linkedin.com/jobs/view/4387965325"
+      },
+      {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1775433600000,
+        "url": "https://it.indeed.com/viewjob?jk=f4b45308d26db851"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
+        "count": 29,
+        "reason": "Appare 29x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "associate",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "word": "italy",
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
+      },
+      {
+        "word": "lead",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       }
     ],
     "review": []
@@ -221,20 +221,38 @@
     },
     {
       "keyword": "international regulatory",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "international",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 30
     },
     {
       "keyword": "senior regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "manager regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "group regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "affairs toys",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "international",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     },
     {
@@ -254,11 +272,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 10/19 annunci da aziende nuove (52.6%)",
+      "message": "📊 Ultimo scan: 7/14 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 10,
-        "total": 19,
-        "pct": 52.6
+        "new": 7,
+        "total": 14,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 84% a 64% (-20pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 84.2,
+        "new_pct": 64.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 16% a 36% (+20pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 15.8,
+        "new_pct": 35.7
       }
     },
     {
@@ -268,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 168,
+            "id": 0,
+            "size": 138,
             "top_terms": [
               "manager",
-              "senior",
-              "italy"
+              "associate",
+              "medical"
             ],
-            "pct": 63.2
+            "pct": 54.1
           },
           {
-            "id": 1,
-            "size": 38,
+            "id": 4,
+            "size": 37,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.3
-          },
-          {
-            "id": 4,
-            "size": 28,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 10.5
+            "pct": 14.5
           },
           {
             "id": 2,
-            "size": 24,
+            "size": 28,
             "top_terms": [
-              "specialist",
-              "product",
-              "management"
+              "senior",
+              "underwriter",
+              "italy"
             ],
-            "pct": 9.0
+            "pct": 11.0
           },
           {
-            "id": 0,
-            "size": 8,
+            "id": 3,
+            "size": 27,
             "top_terms": [
-              "technical",
-              "support",
-              "acquisition"
+              "specialist",
+              "sales",
+              "product"
             ],
-            "pct": 3.0
+            "pct": 10.6
+          },
+          {
+            "id": 1,
+            "size": 25,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 9.8
           }
         ]
       }

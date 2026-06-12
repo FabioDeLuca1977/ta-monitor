@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-06-11T11:06:06.443024",
+  "generated_at": "2026-06-12T10:53:43.649693",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 181,
+  "total_jobs_analyzed": 183,
   "scoring": {
-    "average": 23.0,
+    "average": 23.1,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 35,
-      "low": 47,
-      "irrelevant": 90
+      "good": 10,
+      "medium": 32,
+      "low": 50,
+      "irrelevant": 91
     },
     "top_jobs": [
+      {
+        "title": "METODO SPA - HR RECRUITER - ROMA EST",
+        "company": "METODO SPA",
+        "score": 67,
+        "site": "indeed",
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
+      },
       {
         "title": "HR Manager",
         "company": "Grafton Recruitment",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420726615"
-      },
-      {
-        "title": "METODO SPA - HR RECRUITER - ROMA EST",
-        "company": "METODO SPA",
-        "score": 66,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
       },
       {
         "title": "HRBP Lead Specialist - Head of Human Resources Business Partner Corporate",
@@ -54,20 +54,20 @@
         "url": "https://it.indeed.com/viewjob?jk=587c15bfa6934999"
       },
       {
+        "title": "Ice Cream HR Generalist Intern",
+        "company": "The Magnum Ice Cream Company",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4414759359"
+      },
+      {
         "title": "Talent Acquisition – Roma (Categorie Protette L.68/99)",
         "company": "ManpowerGroup Italia",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4415295954"
-      },
-      {
-        "title": "Ice Cream HR Generalist Intern",
-        "company": "The Magnum Ice Cream Company",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414759359"
       },
       {
         "title": "Talent Acquisition Specialist - Sales",
@@ -78,6 +78,14 @@
         "url": "https://www.linkedin.com/jobs/view/4411392513"
       },
       {
+        "title": "HR Specialist - Retail & Hospitality",
+        "company": "Il Gianfornaio",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1780099200000,
+        "url": "https://www.linkedin.com/jobs/view/4418330736"
+      },
+      {
         "title": "HR Specialist- Organizzazione ,People Development & Industrial Relations",
         "company": "Ecosfera Servizi S.p.A.",
         "score": 60,
@@ -86,19 +94,27 @@
         "url": "https://www.linkedin.com/jobs/view/4420716126"
       },
       {
-        "title": "HR Specialist - Retail & Hospitality",
-        "company": "Il Gianfornaio",
-        "score": 59,
+        "title": "Risorse Umane - Ricerca e Selezione del Personale",
+        "company": "Tuolavoro-Lazio",
+        "score": 58,
         "site": "linkedin",
-        "date_posted": 1780099200000,
-        "url": "https://www.linkedin.com/jobs/view/4418330736"
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4418806082"
+      },
+      {
+        "title": "Recruiter & HR Administration - Roma (RM)",
+        "company": "Openjobmetis SpA",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424432265"
       },
       {
         "title": "Junior HR Specialist - Soluzioni Gestione Familiare",
         "company": "key-absolute",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1779840000000,
         "url": "https://www.linkedin.com/jobs/view/4418841487"
       },
       {
@@ -110,28 +126,28 @@
         "url": "https://it.indeed.com/viewjob?jk=353a47062e08ba77"
       },
       {
-        "title": "Risorse Umane - Ricerca e Selezione del Personale",
-        "company": "Tuolavoro-Lazio",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4418806082"
-      },
-      {
-        "title": "Recruiter & HR Administration - Roma (RM)",
-        "company": "Openjobmetis SpA",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4424432265"
-      },
-      {
         "title": "HR RECRUITER",
         "company": "E-work",
         "score": 56,
         "site": "indeed",
         "date_posted": 1779926400000,
         "url": "https://it.indeed.com/viewjob?jk=9835c5a268267e6a"
+      },
+      {
+        "title": "HR Business Partner Specialist",
+        "company": "Multiversity Group",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1779753600000,
+        "url": "https://www.linkedin.com/jobs/view/4415291963"
+      },
+      {
+        "title": "HR Recruiter",
+        "company": "Talenti - Agenzia per il lavoro",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423380265"
       },
       {
         "title": "HR Consultant | Adecco Portugal | Alverca",
@@ -150,28 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=d8856dc1addde31a"
       },
       {
-        "title": "HR Business Partner Specialist",
-        "company": "Multiversity Group",
+        "title": "Senior HR Officer",
+        "company": "LAV",
         "score": 55,
         "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4415291963"
-      },
-      {
-        "title": "HR Recruiter",
-        "company": "Talenti - Agenzia per il lavoro",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423380265"
-      },
-      {
-        "title": "HR Business Partner, EU One PXT",
-        "company": "Amazon",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1779408000000,
-        "url": "https://www.linkedin.com/jobs/view/4400240730"
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4417215962"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
+        "word": "impiegato",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "junior",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "impiegato",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,6 +209,12 @@
   "keyword_recommendations": [
     {
       "keyword": "junior hr",
+      "frequency": 4,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
+    },
+    {
+      "keyword": "ricerca selezione",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -220,19 +226,7 @@
       "confidence": 40
     },
     {
-      "keyword": "senior hr",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "umane ricerca",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "ricerca selezione",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -242,47 +236,67 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "stage curriculare",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "curriculare junior",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "stage curriculare junior",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "curriculare junior hr",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "gestione",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 12 (-35%)",
-      "data": {
-        "current": 8,
-        "avg": 12.4,
-        "change_pct": -35.3
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/11 annunci da aziende nuove (27.3%)",
       "data": {
-        "new": 4,
-        "total": 8,
-        "pct": 50.0
+        "new": 3,
+        "total": 11,
+        "pct": 27.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 19% a 0% (-19pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 18.8,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 81% a 100% (+19pp)",
+      "message": "📡 indeed: quota passata da 100% a 64% (-36pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 81.2,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 63.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 36% (+36pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 36.4
       }
     },
     {
@@ -293,53 +307,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 92,
+            "size": 73,
+            "top_terms": [
+              "roma",
+              "manager",
+              "junior"
+            ],
+            "pct": 39.9
+          },
+          {
+            "id": 1,
+            "size": 37,
+            "top_terms": [
+              "risorse",
+              "umane",
+              "addetto"
+            ],
+            "pct": 20.2
+          },
+          {
+            "id": 3,
+            "size": 28,
             "top_terms": [
               "hr",
               "recruiter",
-              "roma"
+              "partner"
             ],
-            "pct": 50.8
+            "pct": 15.3
           },
           {
             "id": 4,
-            "size": 31,
+            "size": 26,
             "top_terms": [
               "specialist",
               "people",
               "culture"
             ],
-            "pct": 17.1
+            "pct": 14.2
           },
           {
             "id": 2,
-            "size": 24,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "impiegato"
-            ],
-            "pct": 13.3
-          },
-          {
-            "id": 1,
             "size": 19,
             "top_terms": [
-              "addetto",
-              "umane",
-              "risorse"
-            ],
-            "pct": 10.5
-          },
-          {
-            "id": 3,
-            "size": 15,
-            "top_terms": [
               "selezione",
-              "personale",
-              "addetto"
+              "addetto",
+              "personale"
             ],
-            "pct": 8.3
+            "pct": 10.4
           }
         ]
       }

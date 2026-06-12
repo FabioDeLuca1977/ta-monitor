@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-11T11:06:06.777883",
+  "generated_at": "2026-06-12T10:53:43.984597",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 39,
   "scoring": {
-    "average": 17.4,
+    "average": 16.0,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 4,
+      "medium": 3,
       "low": 2,
-      "irrelevant": 30
+      "irrelevant": 31
     },
     "top_jobs": [
       {
@@ -46,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4367239299"
       },
       {
-        "title": "Quality Assurance Specialist - Pharma",
-        "company": "Mérieux NutriSciences Italia",
+        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
+        "company": "Arethusa",
         "score": 49,
         "site": "linkedin",
-        "date_posted": 1779667200000,
-        "url": "https://www.linkedin.com/jobs/view/4417882353"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4412751752"
       },
       {
         "title": "Senior quality assurance GMP",
@@ -60,14 +60,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417957067"
-      },
-      {
-        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
-        "company": "Arethusa",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412751752"
       },
       {
         "title": "Opportunità di Lavoro – Categorie Protette (L.68/99)",
@@ -96,7 +88,7 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "SteelcoBelimed Inc.",
-        "score": 16,
+        "score": 17,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=3f0a52192415b8d9"
@@ -134,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4419868821"
       },
       {
-        "title": "Specialista Contatti Aziendali e Supporto alla Rete Commerciale – Part Time",
-        "company": "MEDIA COMPANY srl",
-        "score": 11,
+        "title": "SAINT LAURENT Addetto Ufficio Acquisti Calzature (Contingent)",
+        "company": "Saint Laurent",
+        "score": 12,
         "site": "indeed",
-        "date_posted": 1780876800000,
-        "url": "https://it.indeed.com/viewjob?jk=7b0fef767d15100b"
+        "date_posted": 1781136000000,
+        "url": "https://it.indeed.com/viewjob?jk=d07b0f9c85f061e6"
       },
       {
         "title": "Estetista",
@@ -150,14 +142,6 @@
         "url": "https://it.indeed.com/viewjob?jk=221ed719f6c6a4d2"
       },
       {
-        "title": "Operatore macchine utensili CNC",
-        "company": null,
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1780876800000,
-        "url": "https://it.indeed.com/viewjob?jk=1af365296b4a53b5"
-      },
-      {
         "title": "System Administrator",
         "company": "Cst logistica trasporti",
         "score": 10,
@@ -166,12 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=1dd5fc43782623ec"
       },
       {
-        "title": "Operatore macchine utensili CNC",
-        "company": "Officina meccanica casu andrea",
+        "title": "KERING EYEWEAR Demand Planner",
+        "company": "Kering Eyewear",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": 1780617600000,
+        "url": "https://www.linkedin.com/jobs/view/4424520457"
+      },
+      {
+        "title": "Dottore Commercialista",
+        "company": "Evo Advisors",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1780876800000,
-        "url": "https://it.indeed.com/viewjob?jk=1af365296b4a53b5"
+        "date_posted": 1781136000000,
+        "url": "https://it.indeed.com/viewjob?jk=9a249a4e60f008c7"
+      },
+      {
+        "title": "Specialist Onco-Haematology (Veneto e Trentino-Alto Adige)",
+        "company": "GSK",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423643270"
       }
     ]
   },
@@ -189,14 +189,14 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "sistema",
+        "word": "addetto",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "addetto",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "sistema",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "tecnico",
@@ -209,43 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+62%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-71%)",
       "data": {
-        "current": 5,
-        "avg": 3.1,
-        "change_pct": 61.8
+        "current": 1,
+        "avg": 3.5,
+        "change_pct": -71.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/5 annunci da aziende nuove (40.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 5,
-        "pct": 40.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 60% (+35pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 40% (-35pp)",
+      "message": "📡 indeed: quota passata da 40% a 100% (+60pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 40.0
+        "old_pct": 40.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 60% a 0% (-60pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 60.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,7 +255,7 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 1,
             "size": 21,
             "top_terms": [
               "tecnico",
@@ -265,17 +265,17 @@
             "pct": 53.8
           },
           {
-            "id": 1,
-            "size": 6,
+            "id": 0,
+            "size": 5,
             "top_terms": [
               "assurance",
               "quality",
-              "specialist"
+              "vicenza"
             ],
-            "pct": 15.4
+            "pct": 12.8
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "regulatory",
@@ -286,16 +286,16 @@
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 5,
             "top_terms": [
-              "sistema",
               "addetto",
+              "sistema",
               "onco"
             ],
-            "pct": 10.3
+            "pct": 12.8
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 3,
             "top_terms": [
               "haematology",

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-11T11:06:06.956544",
+  "generated_at": "2026-06-12T10:53:44.162181",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 35,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 14.5,
+    "average": 13.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 4,
-      "low": 3,
-      "irrelevant": 28
+      "low": 1,
+      "irrelevant": 33
     },
     "top_jobs": [
       {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
-        "score": 55,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
@@ -46,22 +46,6 @@
         "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
       },
       {
-        "title": "RA Specialist (510k) - Medical Devices",
-        "company": "PQE Group",
-        "score": 22,
-        "site": "linkedin",
-        "date_posted": 1780876800000,
-        "url": "https://www.linkedin.com/jobs/view/4421950235"
-      },
-      {
-        "title": "Chief Technology Officer (CTO)",
-        "company": "Saas.group",
-        "score": 20,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=45d781eca6814997"
-      },
-      {
         "title": "Regulatory & Quality specialist",
         "company": "I-TECH INDUSTRIES",
         "score": 20,
@@ -70,12 +54,28 @@
         "url": "https://it.indeed.com/viewjob?jk=507a0ea42e68105c"
       },
       {
+        "title": "RA Specialist (510k) - Medical Devices",
+        "company": "PQE Group",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1780876800000,
+        "url": "https://www.linkedin.com/jobs/view/4421950235"
+      },
+      {
         "title": "R&D MANAGER - ARIETE",
         "company": "De'Longhi",
-        "score": 18,
+        "score": 17,
         "site": "indeed",
         "date_posted": 1781049600000,
         "url": "https://it.indeed.com/viewjob?jk=887715d433cfac19"
+      },
+      {
+        "title": "Quality Manager – RFID Manufacturing",
+        "company": "Beontag",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1781136000000,
+        "url": "https://it.indeed.com/viewjob?jk=0ff72288379daac8"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
-        "title": "DIGITAL SALES SPECIALIST",
-        "company": "Auto Azzurra Stoe Srl",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1780876800000,
-        "url": "https://it.indeed.com/viewjob?jk=45b366ffb34cebff"
-      },
-      {
         "title": "Operatori Telemarketing Editoriale in sede",
         "company": "Maria Elena Golfarelli",
         "score": 15,
@@ -102,9 +94,17 @@
         "url": "https://it.indeed.com/viewjob?jk=f2e9cebb2ca0a8eb"
       },
       {
+        "title": "Sales Specialist- Modena",
+        "company": "R-STORE S.p.A",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1781136000000,
+        "url": "https://it.indeed.com/viewjob?jk=d699bb74929aaba6"
+      },
+      {
         "title": "Technical Support Specialist",
         "company": "Geotab",
-        "score": 15,
+        "score": 14,
         "site": "indeed",
         "date_posted": 1781049600000,
         "url": "https://it.indeed.com/viewjob?jk=c1d7a835d32b253e"
@@ -136,7 +136,7 @@
       {
         "title": "Process Validation Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 12,
+        "score": 11,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4414896589"
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=39a313163a94804e"
       },
       {
+        "title": "DIGITAL SALES SPECIALIST",
+        "company": "Auto Azzurra Stoe Srl",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1780876800000,
+        "url": "https://it.indeed.com/viewjob?jk=45b366ffb34cebff"
+      },
+      {
         "title": "MECHANICAL ENGINEER - ARIETE",
         "company": "De'Longhi",
         "score": 10,
         "site": "indeed",
         "date_posted": 1781049600000,
         "url": "https://it.indeed.com/viewjob?jk=e1fe8e05900f52ed"
-      },
-      {
-        "title": "IT Service Manager",
-        "company": "Philip Morris International",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1779840000000,
-        "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "manager",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "quality",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
+        "word": "medical",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -216,52 +216,13 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+67%)",
-      "data": {
-        "current": 5,
-        "avg": 3.0,
-        "change_pct": 66.7
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 De'Longhi: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "De'Longhi",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 5,
-        "total": 5,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 20% (-20pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 20.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 80% (+20pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 80.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
@@ -271,34 +232,34 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 19,
+            "id": 1,
+            "size": 20,
             "top_terms": [
               "engineer",
-              "cra",
-              "specialist"
+              "specialist",
+              "sales"
             ],
-            "pct": 54.3
+            "pct": 52.6
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 3,
+            "size": 6,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 14.3
+            "pct": 15.8
           },
           {
-            "id": 1,
-            "size": 4,
+            "id": 4,
+            "size": 5,
             "top_terms": [
               "manager",
               "it",
               "ariete"
             ],
-            "pct": 11.4
+            "pct": 13.2
           },
           {
             "id": 2,
@@ -308,17 +269,17 @@
               "affairs",
               "global"
             ],
-            "pct": 11.4
+            "pct": 10.5
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 3,
             "top_terms": [
               "medical",
               "devices",
               "specialist"
             ],
-            "pct": 8.6
+            "pct": 7.9
           }
         ]
       }

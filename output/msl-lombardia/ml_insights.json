@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-11T11:06:06.670698",
+  "generated_at": "2026-06-12T10:53:43.875413",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 173,
+  "total_jobs_analyzed": 167,
   "scoring": {
-    "average": 28.7,
+    "average": 29.0,
     "distribution": {
       "excellent": 0,
       "good": 7,
-      "medium": 77,
-      "low": 5,
-      "irrelevant": 84
+      "medium": 75,
+      "low": 7,
+      "irrelevant": 78
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Medical Science Liaison Lead",
         "company": "Pharma Point",
-        "score": 65,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1781049600000,
         "url": "https://www.linkedin.com/jobs/view/4423119251"
@@ -102,20 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4426337115"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
+        "title": "Clinical Research Associate I",
+        "company": "Precision For Medicine",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4415915989"
-      },
-      {
-        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426512688"
+        "date_posted": 1781049600000,
+        "url": "https://www.linkedin.com/jobs/view/4416129219"
       },
       {
         "title": "Medical Affairs Clinician - Italy",
@@ -124,6 +116,14 @@
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4342294307"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1779753600000,
+        "url": "https://www.linkedin.com/jobs/view/4415915989"
       },
       {
         "title": "Senior Regulatory Affairs Specialist – Cosmetics & Medical Devices",
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4411500965"
       },
       {
+        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426512688"
+      },
+      {
         "title": "Medical Science Liaison - Biologics",
         "company": "Galderma",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420452489"
-      },
-      {
-        "title": "Stage In Medical Communication/Education Manager",
-        "company": "latoC",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4419078198"
       },
       {
         "title": "Medical Science Liaison",
@@ -189,19 +189,19 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "clinical",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
         "word": "market",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
+        "word": "clinical",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
         "word": "associate",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -238,12 +238,6 @@
       "confidence": 30
     },
     {
-      "keyword": "international",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "diseases",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -254,31 +248,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/13 annunci da aziende nuove (38.5%)",
+      "message": "📊 Ultimo scan: 7/10 annunci da aziende nuove (70.0%)",
       "data": {
-        "new": 5,
-        "total": 13,
-        "pct": 38.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 62% (+37pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 61.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 38% (-37pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 38.5
+        "new": 7,
+        "total": 10,
+        "pct": 70.0
       }
     },
     {
@@ -288,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 69,
+            "id": 3,
+            "size": 70,
             "top_terms": [
               "manager",
-              "senior",
+              "access",
               "specialist"
             ],
-            "pct": 39.9
-          },
-          {
-            "id": 2,
-            "size": 41,
-            "top_terms": [
-              "medical",
-              "liaison",
-              "science"
-            ],
-            "pct": 23.7
+            "pct": 41.9
           },
           {
             "id": 1,
-            "size": 31,
+            "size": 38,
+            "top_terms": [
+              "medical",
+              "director",
+              "liaison"
+            ],
+            "pct": 22.8
+          },
+          {
+            "id": 0,
+            "size": 32,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.9
+            "pct": 19.2
           },
           {
             "id": 4,
-            "size": 20,
+            "size": 15,
             "top_terms": [
-              "associate",
               "clinical",
+              "associate",
               "research"
             ],
-            "pct": 11.6
+            "pct": 9.0
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 12,
             "top_terms": [
-              "access",
-              "market",
-              "government"
+              "senior",
+              "cra",
+              "clinical"
             ],
-            "pct": 6.9
+            "pct": 7.2
           }
         ]
       }
