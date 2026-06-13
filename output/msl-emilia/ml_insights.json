@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-12T10:53:43.903508",
+  "generated_at": "2026-06-13T10:00:06.920908",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 20,
+  "total_jobs_analyzed": 19,
   "scoring": {
-    "average": 19.5,
+    "average": 17.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 7,
+      "medium": 6,
       "low": 0,
       "irrelevant": 13
     },
@@ -38,14 +38,6 @@
         "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
-        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan",
-        "company": "Boston Scientific",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4411669590"
-      },
-      {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
         "company": "Boston Scientific",
         "score": 41,
@@ -68,14 +60,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423103963"
-      },
-      {
-        "title": "IT Help Desk Technician - Entry level",
-        "company": "Mozarc Medical",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1780963200000,
-        "url": "https://it.indeed.com/viewjob?jk=ddd9c2753e38b2b5"
       },
       {
         "title": "Product Specialist Junior - settore medical device",
@@ -102,20 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4421950235"
       },
       {
-        "title": "Head of P&O Moulded Glass Italy",
-        "company": "Gerresheimer",
-        "score": 10,
+        "title": "IT Help Desk Technician - Entry level",
+        "company": "Mozarc Medical",
+        "score": 11,
         "site": "indeed",
         "date_posted": 1780963200000,
-        "url": "https://it.indeed.com/viewjob?jk=f12a9519ba867dd5"
-      },
-      {
-        "title": "Quality Engineer",
-        "company": "LINCOTEK GROUP",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1780617600000,
-        "url": "https://it.indeed.com/viewjob?jk=b877334f75171d8c"
+        "url": "https://it.indeed.com/viewjob?jk=ddd9c2753e38b2b5"
       },
       {
         "title": "Senior CRA",
@@ -142,12 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4423543025"
       },
       {
-        "title": "Affari Regolatori",
-        "company": "ALMA LABORIS Business School",
-        "score": 0,
+        "title": "Head of P&O Moulded Glass Italy",
+        "company": "Gerresheimer",
+        "score": 5,
         "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=f12a9519ba867dd5"
+      },
+      {
+        "title": "Quality Engineer",
+        "company": "LINCOTEK GROUP",
+        "score": 3,
+        "site": "indeed",
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=b877334f75171d8c"
+      },
+      {
+        "title": "Field Service Engineer",
+        "company": "Cellply",
+        "score": 1,
+        "site": "indeed",
+        "date_posted": 1677801600000,
+        "url": "https://it.indeed.com/viewjob?jk=8ed05a7b6b62f796"
       },
       {
         "title": "Head of DSO Italy",
@@ -158,20 +150,20 @@
         "url": "https://it.indeed.com/viewjob?jk=d95e9d7d03d08e01"
       },
       {
+        "title": "Affari Regolatori",
+        "company": "ALMA LABORIS Business School",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
+      },
+      {
         "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
         "company": "Transmedics",
         "score": 0,
         "site": "indeed",
         "date_posted": 1780358400000,
         "url": "https://it.indeed.com/viewjob?jk=68813663b4fea5cf"
-      },
-      {
-        "title": "Field Service Engineer",
-        "company": "Cellply",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1677801600000,
-        "url": "https://it.indeed.com/viewjob?jk=8ed05a7b6b62f796"
       }
     ]
   },
@@ -216,16 +208,6 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
       "data": {
         "channel": "linkedin",
@@ -234,52 +216,13 @@
       }
     },
     {
-      "type": "role_clusters",
-      "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
-        "clusters": [
-          {
-            "id": 2,
-            "size": 7,
-            "top_terms": [
-              "medical",
-              "affairs",
-              "junior"
-            ],
-            "pct": 35.0
-          },
-          {
-            "id": 0,
-            "size": 6,
-            "top_terms": [
-              "italy",
-              "head",
-              "graduate"
-            ],
-            "pct": 30.0
-          },
-          {
-            "id": 1,
-            "size": 4,
-            "top_terms": [
-              "cra",
-              "level",
-              "specialist"
-            ],
-            "pct": 20.0
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "engineer",
-              "field",
-              "specialist"
-            ],
-            "pct": 15.0
-          }
-        ]
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     }
   ],

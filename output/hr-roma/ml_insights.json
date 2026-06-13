@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-12T10:53:43.649693",
+  "generated_at": "2026-06-13T10:00:06.680657",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
   "total_jobs_analyzed": 183,
   "scoring": {
-    "average": 23.1,
+    "average": 22.9,
     "distribution": {
       "excellent": 0,
-      "good": 10,
-      "medium": 32,
-      "low": 50,
-      "irrelevant": 91
+      "good": 8,
+      "medium": 35,
+      "low": 47,
+      "irrelevant": 93
     },
     "top_jobs": [
       {
@@ -36,22 +36,6 @@
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4419100601"
-      },
-      {
-        "title": "HR Recruiter",
-        "company": "Il Metodo by Effetto Domino",
-        "score": 64,
-        "site": "indeed",
-        "date_posted": 1780963200000,
-        "url": "https://it.indeed.com/viewjob?jk=b5d59a796df2e838"
-      },
-      {
-        "title": "HR Officer (Payroll, Time & Audit Operations Lead) P4",
-        "company": "World Food Programme",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1780963200000,
-        "url": "https://it.indeed.com/viewjob?jk=587c15bfa6934999"
       },
       {
         "title": "Ice Cream HR Generalist Intern",
@@ -94,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4420716126"
       },
       {
-        "title": "Risorse Umane - Ricerca e Selezione del Personale",
-        "company": "Tuolavoro-Lazio",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4418806082"
+        "title": "HR Recruiter",
+        "company": "Il Metodo by Effetto Domino",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=b5d59a796df2e838"
       },
       {
         "title": "Recruiter & HR Administration - Roma (RM)",
@@ -108,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424432265"
+      },
+      {
+        "title": "Risorse Umane - Ricerca e Selezione del Personale",
+        "company": "Tuolavoro-Lazio",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4418806082"
       },
       {
         "title": "Junior HR Specialist - Soluzioni Gestione Familiare",
@@ -150,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4423380265"
       },
       {
+        "title": "HR Officer (Payroll, Time & Audit Operations Lead) P4",
+        "company": "World Food Programme",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=587c15bfa6934999"
+      },
+      {
         "title": "HR Consultant | Adecco Portugal | Alverca",
         "company": "The Adecco Group",
         "score": 56,
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "impiegato",
@@ -270,33 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 12 (-36%)",
+      "data": {
+        "current": 8,
+        "avg": 12.5,
+        "change_pct": -36.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/11 annunci da aziende nuove (27.3%)",
+      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 3,
-        "total": 11,
-        "pct": 27.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 64% (-36pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 63.6
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 36% (+36pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 36.4
+        "new": 4,
+        "total": 8,
+        "pct": 50.0
       }
     },
     {
@@ -306,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 73,
+            "id": 3,
+            "size": 78,
             "top_terms": [
-              "roma",
               "manager",
-              "junior"
+              "junior",
+              "roma"
             ],
-            "pct": 39.9
+            "pct": 42.6
           },
           {
-            "id": 1,
-            "size": 37,
+            "id": 0,
+            "size": 39,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 20.2
+            "pct": 21.3
           },
           {
-            "id": 3,
-            "size": 28,
+            "id": 2,
+            "size": 27,
+            "top_terms": [
+              "specialist",
+              "people",
+              "hr"
+            ],
+            "pct": 14.8
+          },
+          {
+            "id": 4,
+            "size": 24,
             "top_terms": [
               "hr",
               "recruiter",
               "partner"
             ],
-            "pct": 15.3
+            "pct": 13.1
           },
           {
-            "id": 4,
-            "size": 26,
-            "top_terms": [
-              "specialist",
-              "people",
-              "culture"
-            ],
-            "pct": 14.2
-          },
-          {
-            "id": 2,
-            "size": 19,
+            "id": 1,
+            "size": 15,
             "top_terms": [
               "selezione",
-              "addetto",
-              "personale"
+              "personale",
+              "addetto"
             ],
-            "pct": 10.4
+            "pct": 8.2
           }
         ]
       }

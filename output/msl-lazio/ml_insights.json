@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-12T10:53:43.945765",
+  "generated_at": "2026-06-13T10:00:06.963065",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 45,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 27.9,
+    "average": 29.5,
     "distribution": {
       "excellent": 0,
       "good": 4,
-      "medium": 15,
-      "low": 4,
-      "irrelevant": 22
+      "medium": 16,
+      "low": 5,
+      "irrelevant": 19
     },
     "top_jobs": [
-      {
-        "title": "Field Medical Advisor - Italy",
-        "company": "Syneos Health Commercial Solutions",
-        "score": 72,
-        "site": "linkedin",
-        "date_posted": 1780963200000,
-        "url": "https://www.linkedin.com/jobs/view/4426342053"
-      },
       {
         "title": "Field Medical Advisor / MSL - Italy",
         "company": "Syneos Health Commercial Solutions",
@@ -30,9 +22,17 @@
         "url": "https://www.linkedin.com/jobs/view/4423308214"
       },
       {
+        "title": "Field Medical Advisor - Italy",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1780963200000,
+        "url": "https://www.linkedin.com/jobs/view/4426342053"
+      },
+      {
         "title": "Field Medical Manager - Europe",
         "company": "Syneos Health Commercial Solutions",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424717617"
@@ -40,7 +40,7 @@
       {
         "title": "Medical Affairs Manager, Italy",
         "company": "Johnson & Johnson MedTech",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425424534"
@@ -64,10 +64,18 @@
       {
         "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
         "company": "Alnylam Pharmaceuticals",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426533104"
+      },
+      {
+        "title": "Pharma Medical Affairs",
+        "company": "ALMA LABORIS Business School",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1781222400000,
+        "url": "https://it.indeed.com/viewjob?jk=2326a63203c8a2c8"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -78,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4417223802"
       },
       {
-        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 51,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
-      },
-      {
         "title": "Clinical Development Medical Science Director",
         "company": "Angelini Pharma",
-        "score": 51,
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4396450100"
+      },
+      {
+        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
+        "company": "ALMA LABORIS Business School",
+        "score": 49,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=0b63f6c42d3d0b18"
       },
       {
         "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
@@ -104,7 +112,7 @@
       {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4414712529"
@@ -114,7 +122,7 @@
         "company": "TRIO - Translational Research in Oncology",
         "score": 47,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1780012800000,
         "url": "https://www.linkedin.com/jobs/view/4420489006"
       },
       {
@@ -126,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4427139715"
       },
       {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo Group",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4415288407"
-      },
-      {
         "title": "Regulatory Affairs Analyst",
         "company": "Axpo Italia",
-        "score": 43,
+        "score": 45,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4420437603"
+      },
+      {
+        "title": "Sr. Spclst, Value Market Access New Products Oncology",
+        "company": "MSD Italia",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4428167395"
       },
       {
         "title": "Field Clinical Specialist THV - Lazio/Campania",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1779494400000,
         "url": "https://www.linkedin.com/jobs/view/4414806568"
-      },
-      {
-        "title": "PHARMACOVIGILANCE STAGE",
-        "company": "Res Excelsa",
-        "score": 39,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4419683365"
       }
     ]
   },
@@ -201,43 +201,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-49%)",
-      "data": {
-        "current": 2,
-        "avg": 3.9,
-        "change_pct": -48.8
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -247,54 +237,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 24,
+            "id": 2,
+            "size": 27,
             "top_terms": [
+              "associate",
               "manager",
-              "field",
-              "affairs"
+              "medical"
             ],
-            "pct": 53.3
+            "pct": 61.4
           },
           {
-            "id": 3,
-            "size": 8,
+            "id": 1,
+            "size": 6,
             "top_terms": [
-              "specialist",
-              "medical",
-              "oncology"
+              "affairs",
+              "regulatory",
+              "medical"
             ],
-            "pct": 17.8
+            "pct": 13.6
           },
           {
             "id": 0,
-            "size": 6,
+            "size": 4,
             "top_terms": [
-              "associate",
-              "director",
-              "clinical"
+              "specialist",
+              "clinical",
+              "technical"
             ],
-            "pct": 13.3
+            "pct": 9.1
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "stage",
               "dipartimento",
               "diseases"
             ],
-            "pct": 8.9
+            "pct": 9.1
           },
           {
             "id": 4,
             "size": 3,
             "top_terms": [
-              "cra",
-              "senior",
-              "italy"
+              "field",
+              "medical",
+              "advisor"
             ],
-            "pct": 6.7
+            "pct": 6.8
           }
         ]
       }
