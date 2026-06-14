@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-13T10:00:06.771821",
+  "generated_at": "2026-06-14T10:15:57.922102",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 183,
+  "total_jobs_analyzed": 182,
   "scoring": {
-    "average": 23.8,
+    "average": 23.6,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 42,
-      "low": 38,
+      "good": 9,
+      "medium": 44,
+      "low": 37,
       "irrelevant": 92
     },
     "top_jobs": [
       {
-        "title": "METODO SPA - HR RECRUITER - ROMA EST",
-        "company": "METODO SPA",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
+        "title": "Talent Acquisition Specialist - Sales",
+        "company": "MioDottore",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1780012800000,
+        "url": "https://www.linkedin.com/jobs/view/4411392513"
       },
       {
         "title": "Talent Acquisition – Roma (Categorie Protette L.68/99)",
@@ -30,20 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4415295954"
       },
       {
-        "title": "Talent Acquisition Specialist - Sales",
-        "company": "MioDottore",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411392513"
-      },
-      {
         "title": "HR Manager",
         "company": "Grafton Recruitment",
-        "score": 66,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420726615"
+      },
+      {
+        "title": "HR Manager",
+        "company": "PayOn",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4425740072"
       },
       {
         "title": "HRBP Lead Specialist - Head of Human Resources Business Partner Corporate",
@@ -70,12 +70,12 @@
         "url": "https://it.indeed.com/viewjob?jk=353a47062e08ba77"
       },
       {
-        "title": "Addetto/a selezione personale per supermercati",
-        "company": "Cosma solution",
-        "score": 61,
+        "title": "METODO SPA - HR RECRUITER - ROMA EST",
+        "company": "METODO SPA",
+        "score": 62,
         "site": "indeed",
         "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=d8856dc1addde31a"
+        "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
       },
       {
         "title": "Ice Cream HR Generalist Intern",
@@ -86,9 +86,17 @@
         "url": "https://www.linkedin.com/jobs/view/4414759359"
       },
       {
+        "title": "CYS - Talent Acquisition Intern - PO",
+        "company": "Leonardo",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1780012800000,
+        "url": "https://it.indeed.com/viewjob?jk=d0d0b953999155c4"
+      },
+      {
         "title": "HR Specialist - Retail & Hospitality",
         "company": "Il Gianfornaio",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1780099200000,
         "url": "https://www.linkedin.com/jobs/view/4418330736"
@@ -96,18 +104,10 @@
       {
         "title": "HR Specialist- Organizzazione ,People Development & Industrial Relations",
         "company": "Ecosfera Servizi S.p.A.",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420716126"
-      },
-      {
-        "title": "CYS - Talent Acquisition Intern - PO",
-        "company": "Leonardo",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=d0d0b953999155c4"
       },
       {
         "title": "HR Recruiter",
@@ -166,18 +166,23 @@
         "url": "https://www.linkedin.com/jobs/view/4426730608"
       },
       {
-        "title": "| STAGE AREA RICERCA E SELEZIONE DEL PERSONALE | 152725 |",
-        "company": "Orienta Agenzia per il Lavoro",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4417642339"
+        "title": "Addetto/a selezione personale per supermercati",
+        "company": "Cosma solution",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=d8856dc1addde31a"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "addetto",
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
+      },
       {
         "word": "impiegato",
         "count": 9,
@@ -204,50 +209,20 @@
   "keyword_recommendations": [
     {
       "keyword": "junior hr",
-      "frequency": 4,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
+      "confidence": 45
     },
     {
       "keyword": "junior",
-      "frequency": 5,
+      "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 40
     },
     {
       "keyword": "umane ricerca",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "stage curriculare",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "curriculare junior",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "stage curriculare junior",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "curriculare junior hr",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "stage",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     },
     {
@@ -260,22 +235,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 12 (-36%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 13 (-84%)",
       "data": {
-        "current": 8,
-        "avg": 12.5,
-        "change_pct": -36.0
+        "current": 2,
+        "avg": 12.9,
+        "change_pct": -84.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 8,
-        "pct": 50.0
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 62% a 0% (-62pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 62.5,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 38% a 100% (+62pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 37.5,
+        "new_pct": 100.0
       }
     },
     {
@@ -285,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 78,
-            "top_terms": [
-              "manager",
-              "junior",
-              "roma"
-            ],
-            "pct": 42.6
-          },
-          {
             "id": 0,
-            "size": 39,
+            "size": 71,
             "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
+              "roma",
+              "junior",
+              "manager"
             ],
-            "pct": 21.3
-          },
-          {
-            "id": 2,
-            "size": 27,
-            "top_terms": [
-              "specialist",
-              "people",
-              "hr"
-            ],
-            "pct": 14.8
-          },
-          {
-            "id": 4,
-            "size": 24,
-            "top_terms": [
-              "hr",
-              "recruiter",
-              "partner"
-            ],
-            "pct": 13.1
+            "pct": 39.0
           },
           {
             "id": 1,
-            "size": 15,
+            "size": 31,
             "top_terms": [
+              "addetto",
               "selezione",
-              "personale",
-              "addetto"
+              "personale"
             ],
-            "pct": 8.2
+            "pct": 17.0
+          },
+          {
+            "id": 3,
+            "size": 29,
+            "top_terms": [
+              "risorse",
+              "umane",
+              "impiegato"
+            ],
+            "pct": 15.9
+          },
+          {
+            "id": 4,
+            "size": 28,
+            "top_terms": [
+              "hr",
+              "recruiter",
+              "manager"
+            ],
+            "pct": 15.4
+          },
+          {
+            "id": 2,
+            "size": 23,
+            "top_terms": [
+              "specialist",
+              "people",
+              "culture"
+            ],
+            "pct": 12.6
           }
         ]
       }

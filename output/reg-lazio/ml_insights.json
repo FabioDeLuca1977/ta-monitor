@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-13T10:00:07.247068",
+  "generated_at": "2026-06-14T10:15:58.382172",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 103,
+  "total_jobs_analyzed": 101,
   "scoring": {
     "average": 11.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 7,
-      "low": 4,
-      "irrelevant": 90
+      "low": 3,
+      "irrelevant": 89
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
-        "score": 66,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1779840000000,
         "url": "https://www.linkedin.com/jobs/view/4417223802"
@@ -30,20 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4397318496"
       },
       {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo group",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
-      },
-      {
         "title": "Regulatory Affairs Analyst",
         "company": "Axpo Italia",
-        "score": 57,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4420437603"
+      },
+      {
+        "title": "Regulatory Affairs Analyst (f/m/d)",
+        "company": "Axpo group",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1779753600000,
+        "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
       },
       {
         "title": "Quality Assurance Specialist - Settore Packaging / Pharma (f/m/nb)",
@@ -72,7 +72,7 @@
       {
         "title": "Junior Quality Assurance Systems & Compliance – Settore Farmaceutico",
         "company": "Openjobmetis SpA",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4417899473"
@@ -86,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4421938093"
       },
       {
-        "title": "Istruttore Pilates",
-        "company": "Evolution Fitness",
-        "score": 30,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=4bc47921fe3b0649"
-      },
-      {
         "title": "Specification Engineer - Lazio",
         "company": "Eaton",
         "score": 25,
         "site": "indeed",
         "date_posted": 1780790400000,
         "url": "https://it.indeed.com/viewjob?jk=9cdf7ebed092f818"
+      },
+      {
+        "title": "Istruttore Pilates",
+        "company": "Evolution Fitness",
+        "score": 25,
+        "site": "indeed",
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=4bc47921fe3b0649"
       },
       {
         "title": "WW Compensation & Benefits and HR Transformation Manager",
@@ -112,7 +112,7 @@
       {
         "title": "Inventory Control & Quality Assurance Operations Manager , ICQA",
         "company": "Amazon",
-        "score": 20,
+        "score": 19,
         "site": "linkedin",
         "date_posted": 1780963200000,
         "url": "https://www.linkedin.com/jobs/view/4425934702"
@@ -128,7 +128,7 @@
       {
         "title": "Quality Assurance Specialist - Settore Difesa / Ferroviario",
         "company": "Randstad Italia",
-        "score": 16,
+        "score": 17,
         "site": "linkedin",
         "date_posted": 1780876800000,
         "url": "https://www.linkedin.com/jobs/view/4421941700"
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4421172535"
       },
       {
+        "title": "HR Officer (Payroll, Time & Audit Operations Lead) P4",
+        "company": "World Food Programme",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=587c15bfa6934999"
+      },
+      {
+        "title": "Quality Assurance Specialist ambito Data Center/Infrastructure",
+        "company": "Esprimo S.r.l.",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1780012800000,
+        "url": "https://www.linkedin.com/jobs/view/4413320105"
+      },
+      {
         "title": "Quality Assurance Specialist Middle - Cisterna Latina",
         "company": "Michael Page",
-        "score": 13,
+        "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420130135"
-      },
-      {
-        "title": "GMP Calibration Documentation Specialist",
-        "company": "fortil",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4424258012"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "ITTELLA ITALY SRL",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4421150517"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 23,
+        "reason": "Appare 23x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "associate",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "intern",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "project",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -252,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 58,
+            "id": 3,
+            "size": 56,
             "top_terms": [
               "manager",
-              "senior",
-              "engineer"
+              "intern",
+              "associate"
             ],
-            "pct": 56.3
+            "pct": 55.4
           },
           {
             "id": 1,
-            "size": 20,
+            "size": 17,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 19.4
+            "pct": 16.8
           },
           {
             "id": 0,
-            "size": 13,
+            "size": 12,
             "top_terms": [
               "specialist",
               "calibration",
               "gmp"
             ],
-            "pct": 12.6
+            "pct": 11.9
+          },
+          {
+            "id": 4,
+            "size": 9,
+            "top_terms": [
+              "project",
+              "lead",
+              "development"
+            ],
+            "pct": 8.9
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 7,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "analyst"
+              "engineer",
+              "assurance",
+              "quality"
             ],
-            "pct": 5.8
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
-              "intern",
-              "business",
-              "field"
-            ],
-            "pct": 5.8
+            "pct": 6.9
           }
         ]
       }

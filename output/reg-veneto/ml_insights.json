@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-13T10:00:07.000870",
+  "generated_at": "2026-06-14T10:15:58.147023",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 15.7,
+    "average": 15.3,
     "distribution": {
       "excellent": 0,
       "good": 3,
@@ -16,7 +16,7 @@
       {
         "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
         "company": "NonStop Consulting",
-        "score": 64,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421823097"
@@ -40,26 +40,26 @@
       {
         "title": "Senior International Regulatory Specialist",
         "company": "Orthofix",
-        "score": 57,
+        "score": 53,
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4367239299"
+      },
+      {
+        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
+        "company": "Arethusa",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1780012800000,
+        "url": "https://www.linkedin.com/jobs/view/4412751752"
       },
       {
         "title": "Senior quality assurance GMP",
         "company": "Adecco",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1780012800000,
         "url": "https://www.linkedin.com/jobs/view/4417957067"
-      },
-      {
-        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
-        "company": "Arethusa",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4412751752"
       },
       {
         "title": "Opportunità di Lavoro – Categorie Protette (L.68/99)",
@@ -84,14 +84,6 @@
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=14c367d68e50f917"
-      },
-      {
-        "title": "Sales Specialist- Venezia",
-        "company": "R-STORE S.p.A",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=d3a5c659fec90297"
       },
       {
         "title": "Quality Assurance Specialist - Vicenza",
@@ -134,14 +126,6 @@
         "url": "https://it.indeed.com/viewjob?jk=c64dac7ebb3e0197"
       },
       {
-        "title": "System Administrator",
-        "company": "Cst logistica trasporti",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=1dd5fc43782623ec"
-      },
-      {
         "title": "Dottore Commercialista",
         "company": "Evo Advisors",
         "score": 10,
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423644152"
+      },
+      {
+        "title": "IT Manager ERP e Sistemi Informativi",
+        "company": "Supporto HR",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1780617600000,
+        "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
+      },
+      {
+        "title": "Sales Specialist- Venezia",
+        "company": "R-STORE S.p.A",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=d3a5c659fec90297"
       }
     ]
   },
@@ -231,20 +231,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 50.0
       }
     },
@@ -260,7 +260,7 @@
             "top_terms": [
               "specialist",
               "venezia",
-              "haematology"
+              "onco"
             ],
             "pct": 52.6
           },
@@ -268,8 +268,8 @@
             "id": 2,
             "size": 5,
             "top_terms": [
-              "assurance",
               "quality",
+              "assurance",
               "vicenza"
             ],
             "pct": 13.2
@@ -290,7 +290,7 @@
             "top_terms": [
               "addetto",
               "sistema",
-              "operatore"
+              "vicenza"
             ],
             "pct": 13.2
           },
