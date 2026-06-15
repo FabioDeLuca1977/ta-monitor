@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-14T10:15:58.382172",
+  "generated_at": "2026-06-15T12:57:49.509593",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 101,
+  "total_jobs_analyzed": 99,
   "scoring": {
-    "average": 11.3,
+    "average": 11.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 7,
       "low": 3,
-      "irrelevant": 89
+      "irrelevant": 87
     },
     "top_jobs": [
       {
@@ -26,7 +26,7 @@
         "company": "Aruba SpA",
         "score": 62,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1780185600000,
         "url": "https://www.linkedin.com/jobs/view/4397318496"
       },
       {
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Affairs Analyst (f/m/d)",
         "company": "Axpo group",
-        "score": 54,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
@@ -72,7 +72,7 @@
       {
         "title": "Junior Quality Assurance Systems & Compliance – Settore Farmaceutico",
         "company": "Openjobmetis SpA",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1779667200000,
         "url": "https://www.linkedin.com/jobs/view/4417899473"
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4421938093"
       },
       {
-        "title": "Specification Engineer - Lazio",
-        "company": "Eaton",
-        "score": 25,
-        "site": "indeed",
-        "date_posted": 1780790400000,
-        "url": "https://it.indeed.com/viewjob?jk=9cdf7ebed092f818"
-      },
-      {
         "title": "Istruttore Pilates",
         "company": "Evolution Fitness",
         "score": 25,
@@ -102,17 +94,17 @@
         "url": "https://it.indeed.com/viewjob?jk=4bc47921fe3b0649"
       },
       {
-        "title": "WW Compensation & Benefits and HR Transformation Manager",
-        "company": "Fendi",
-        "score": 21,
+        "title": "Specification Engineer - Lazio",
+        "company": "Eaton",
+        "score": 20,
         "site": "indeed",
-        "date_posted": 1781136000000,
-        "url": "https://it.indeed.com/viewjob?jk=b0bc8102008bb080"
+        "date_posted": 1780790400000,
+        "url": "https://it.indeed.com/viewjob?jk=9cdf7ebed092f818"
       },
       {
         "title": "Inventory Control & Quality Assurance Operations Manager , ICQA",
         "company": "Amazon",
-        "score": 19,
+        "score": 20,
         "site": "linkedin",
         "date_posted": 1780963200000,
         "url": "https://www.linkedin.com/jobs/view/4425934702"
@@ -128,10 +120,18 @@
       {
         "title": "Quality Assurance Specialist - Settore Difesa / Ferroviario",
         "company": "Randstad Italia",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": 1780876800000,
         "url": "https://www.linkedin.com/jobs/view/4421941700"
+      },
+      {
+        "title": "WW Compensation & Benefits and HR Transformation Manager",
+        "company": "Fendi",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1781136000000,
+        "url": "https://it.indeed.com/viewjob?jk=b0bc8102008bb080"
       },
       {
         "title": "Pharma Medical Affairs",
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4421172535"
       },
       {
-        "title": "HR Officer (Payroll, Time & Audit Operations Lead) P4",
-        "company": "World Food Programme",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1780963200000,
-        "url": "https://it.indeed.com/viewjob?jk=587c15bfa6934999"
-      },
-      {
-        "title": "Quality Assurance Specialist ambito Data Center/Infrastructure",
-        "company": "Esprimo S.r.l.",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1780012800000,
-        "url": "https://www.linkedin.com/jobs/view/4413320105"
-      },
-      {
         "title": "Quality Assurance Specialist Middle - Cisterna Latina",
         "company": "Michael Page",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420130135"
+      },
+      {
+        "title": "GMP Calibration Documentation Specialist",
+        "company": "fortil",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424258012"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "ITTELLA ITALY SRL",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4421150517"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 23,
-        "reason": "Appare 23x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -228,21 +228,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 100.0,
         "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -252,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 56,
+            "id": 0,
+            "size": 50,
             "top_terms": [
               "manager",
-              "intern",
-              "associate"
+              "associate",
+              "officer"
             ],
-            "pct": 55.4
+            "pct": 50.5
+          },
+          {
+            "id": 4,
+            "size": 24,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 24.2
           },
           {
             "id": 1,
-            "size": 17,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 16.8
-          },
-          {
-            "id": 0,
             "size": 12,
             "top_terms": [
               "specialist",
               "calibration",
               "gmp"
             ],
-            "pct": 11.9
-          },
-          {
-            "id": 4,
-            "size": 9,
-            "top_terms": [
-              "project",
-              "lead",
-              "development"
-            ],
-            "pct": 8.9
+            "pct": 12.1
           },
           {
             "id": 2,
-            "size": 7,
+            "size": 10,
             "top_terms": [
-              "engineer",
-              "assurance",
-              "quality"
+              "intern",
+              "project",
+              "manager"
             ],
-            "pct": 6.9
+            "pct": 10.1
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "stage",
+              "qualificata",
+              "persona"
+            ],
+            "pct": 3.0
           }
         ]
       }
