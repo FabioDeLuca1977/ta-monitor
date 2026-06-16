@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-15T12:57:49.435201",
+  "generated_at": "2026-06-16T11:52:25.388899",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 39,
   "scoring": {
-    "average": 12.9,
+    "average": 12.8,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -16,7 +16,7 @@
       {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
-        "score": 55,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
@@ -30,6 +30,14 @@
         "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
       },
       {
+        "title": "Stagista Regulatory Affairs",
+        "company": "NUTRACEUTICA S.R.L.",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4425799115"
+      },
+      {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
         "company": "Banca Più",
         "score": 52,
@@ -38,28 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4423103963"
       },
       {
-        "title": "Affari Regolatori",
-        "company": "ALMA LABORIS Business School",
-        "score": 43,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
-      },
-      {
-        "title": "RA Specialist (510k) - Medical Devices",
-        "company": "PQE Group",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1780876800000,
-        "url": "https://www.linkedin.com/jobs/view/4421950235"
-      },
-      {
         "title": "Quality Assurance",
         "company": "falorni pharma",
         "score": 16,
         "site": "indeed",
         "date_posted": 1781481600000,
         "url": "https://it.indeed.com/viewjob?jk=1fb42a1c8fce405b"
+      },
+      {
+        "title": "Quality Assurance Stageur",
+        "company": "JSB Solutions srl",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1781481600000,
+        "url": "https://it.indeed.com/viewjob?jk=63cb3bed3aa0a18c"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -86,14 +86,6 @@
         "url": "https://it.indeed.com/viewjob?jk=285c882eb9e5fd3a"
       },
       {
-        "title": "Responsabile Sistema di Gestione Integrato",
-        "company": "JObros",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4424844969"
-      },
-      {
         "title": "Specialist, Quality Assurance GCP",
         "company": "Alfasigma",
         "score": 13,
@@ -108,6 +100,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4412672591"
+      },
+      {
+        "title": "RA Specialist (510k) - Medical Devices",
+        "company": "PQE Group",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1780876800000,
+        "url": "https://www.linkedin.com/jobs/view/4421950235"
       },
       {
         "title": "R&D MANAGER - ARIETE",
@@ -142,14 +142,6 @@
         "url": "https://it.indeed.com/viewjob?jk=66d605ecc26221ee"
       },
       {
-        "title": "DIGITAL SALES SPECIALIST",
-        "company": "Auto Azzurra Stoe Srl",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1780876800000,
-        "url": "https://it.indeed.com/viewjob?jk=45b366ffb34cebff"
-      },
-      {
         "title": "Operatori Telemarketing Editoriale in sede",
         "company": "Maria Elena Golfarelli",
         "score": 10,
@@ -158,20 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=f2e9cebb2ca0a8eb"
       },
       {
-        "title": "Field Services Coordinator (12 Month Contract)",
-        "company": "Geotab",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1781222400000,
-        "url": "https://it.indeed.com/viewjob?jk=5da2e7fa66b80dd3"
-      },
-      {
         "title": "Sales Specialist- Modena",
         "company": "R-STORE S.p.A",
         "score": 10,
         "site": "indeed",
         "date_posted": 1781136000000,
         "url": "https://it.indeed.com/viewjob?jk=d699bb74929aaba6"
+      },
+      {
+        "title": "IT Service Manager",
+        "company": "Philip Morris International",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=15663cf2562c9f11"
+      },
+      {
+        "title": "R: Project Manager ERTMS Wayside",
+        "company": "ALSTOM",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1779840000000,
+        "url": "https://it.indeed.com/viewjob?jk=5bae91f4e1876e5c"
       }
     ]
   },
@@ -180,21 +180,21 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "manager",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assurance",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
@@ -218,11 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-35%)",
       "data": {
         "current": 2,
-        "avg": 3.4,
-        "change_pct": -40.5
+        "avg": 3.1,
+        "change_pct": -35.1
       }
     },
     {
@@ -238,21 +238,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -262,52 +262,52 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 2,
             "size": 14,
             "top_terms": [
-              "engineer",
-              "level",
-              "mechanical"
+              "regulatory",
+              "affairs",
+              "global"
             ],
             "pct": 35.9
           },
           {
             "id": 1,
-            "size": 8,
+            "size": 7,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "customer"
+            ],
+            "pct": 17.9
+          },
+          {
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "specialist",
               "sales",
               "medical"
             ],
-            "pct": 20.5
+            "pct": 17.9
           },
           {
             "id": 4,
             "size": 7,
             "top_terms": [
               "manager",
-              "contract",
+              "it",
               "ariete"
             ],
             "pct": 17.9
           },
           {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "customer"
-            ],
-            "pct": 15.4
-          },
-          {
-            "id": 2,
+            "id": 0,
             "size": 4,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "global"
+              "engineer",
+              "mechanical",
+              "settore"
             ],
             "pct": 10.3
           }

@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-15T12:57:49.158288",
+  "generated_at": "2026-06-16T11:52:25.130783",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 18,
+  "total_jobs_analyzed": 16,
   "scoring": {
-    "average": 18.6,
+    "average": 17.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 6,
+      "medium": 5,
       "low": 0,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
-      {
-        "title": "Junior Medical Affairs Associate (Associato Medical Affairs Junior)",
-        "company": "ALMA LABORIS Business School",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=95da430e152d2605"
-      },
       {
         "title": "Head of Global Regulatory Affairs CMC",
         "company": "Alfasigma group",
@@ -64,7 +56,7 @@
       {
         "title": "Product Specialist Junior - settore medical device",
         "company": "Lavoropiù SpA",
-        "score": 15,
+        "score": 14,
         "site": "linkedin",
         "date_posted": 1779753600000,
         "url": "https://www.linkedin.com/jobs/view/4419415873"
@@ -134,28 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=b877334f75171d8c"
       },
       {
-        "title": "Field Service Engineer",
-        "company": "Cellply",
-        "score": 1,
-        "site": "indeed",
-        "date_posted": 1677801600000,
-        "url": "https://it.indeed.com/viewjob?jk=8ed05a7b6b62f796"
-      },
-      {
-        "title": "Affari Regolatori",
-        "company": "ALMA LABORIS Business School",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=fd35c6b8b9b2043d"
-      },
-      {
         "title": "Principal Mechanical Design Engineer (with CAD Expertise)",
         "company": "Transmedics",
         "score": 0,
         "site": "indeed",
         "date_posted": 1780358400000,
         "url": "https://it.indeed.com/viewjob?jk=68813663b4fea5cf"
+      },
+      {
+        "title": "Field Service Engineer",
+        "company": "Cellply",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1677801600000,
+        "url": "https://it.indeed.com/viewjob?jk=8ed05a7b6b62f796"
       }
     ]
   },
@@ -189,12 +173,12 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-53%)",
+      "severity": "medium",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-47%)",
       "data": {
         "current": 1,
-        "avg": 2.1,
-        "change_pct": -52.9
+        "avg": 1.9,
+        "change_pct": -46.7
       }
     },
     {

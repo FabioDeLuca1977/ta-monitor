@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-15T12:57:49.144522",
+  "generated_at": "2026-06-16T11:52:25.117878",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
   "total_jobs_analyzed": 174,
   "scoring": {
-    "average": 29.2,
+    "average": 29.6,
     "distribution": {
       "excellent": 0,
-      "good": 7,
-      "medium": 80,
-      "low": 5,
-      "irrelevant": 82
+      "good": 6,
+      "medium": 81,
+      "low": 7,
+      "irrelevant": 80
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423300417"
-      },
-      {
-        "title": "NextGen Medical Affairs Manager, THV",
-        "company": "Edwards Lifesciences",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423153487"
       },
       {
         "title": "Medical Advisor",
@@ -54,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4424713695"
       },
       {
-        "title": "Medical Science Liaison, Oncology",
-        "company": "IQVIA",
+        "title": "NextGen Medical Affairs Manager, THV",
+        "company": "Edwards Lifesciences",
         "score": 62,
-        "site": "indeed",
-        "date_posted": 1781222400000,
-        "url": "https://it.indeed.com/viewjob?jk=905f3d741b8e8508"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423153487"
       },
       {
         "title": "Medical Science Liaison Lead",
@@ -86,20 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4421165620"
       },
       {
-        "title": "Regulatory Affairs Specialist (Medical Device)",
-        "company": "Jefferson Wells Italia",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426337115"
-      },
-      {
-        "title": "Medical Affairs Lead BH",
-        "company": "Neuraxpharm",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411500965"
+        "title": "Medical Science Liaison, Oncology",
+        "company": "IQVIA",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1781222400000,
+        "url": "https://it.indeed.com/viewjob?jk=905f3d741b8e8508"
       },
       {
         "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
@@ -108,6 +92,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426512688"
+      },
+      {
+        "title": "Regulatory Affairs Specialist (Medical Device)",
+        "company": "Jefferson Wells Italia",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426337115"
+      },
+      {
+        "title": "Regulatory Affair Intern - Medical Device",
+        "company": "Abbott",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4428824495"
       },
       {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
@@ -126,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4419606667"
       },
       {
+        "title": "Medical Affairs Lead BH",
+        "company": "Neuraxpharm",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411500965"
+      },
+      {
         "title": "Hepatology - Medical Director",
         "company": "Medpace",
         "score": 56,
@@ -140,14 +148,6 @@
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4420452489"
-      },
-      {
-        "title": "Stage In Medical Communication/Education Manager",
-        "company": "latoC",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4419078198"
       },
       {
         "title": "Medical Science Liaison",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4404914214"
       },
       {
-        "title": "Medical Science Liaison Oncology | Emilia Romagna e Triveneto",
-        "company": "Amgen Italia",
-        "score": 55,
+        "title": "Stage In Medical Communication/Education Manager",
+        "company": "latoC",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4428608449"
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4419078198"
       }
     ]
   },
@@ -179,14 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "specialist",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "word": "director",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "access",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "word": "specialist",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "market",
@@ -194,14 +194,14 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "director",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "access",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "emea",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -242,27 +242,23 @@
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "international",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 12 (-67%)",
-      "data": {
-        "current": 4,
-        "avg": 12.1,
-        "change_pct": -67.1
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 8/13 annunci da aziende nuove (61.5%)",
       "data": {
-        "new": 1,
-        "total": 4,
-        "pct": 25.0
+        "new": 8,
+        "total": 13,
+        "pct": 61.5
       }
     },
     {
@@ -273,53 +269,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 70,
+            "size": 61,
             "top_terms": [
-              "manager",
+              "senior",
               "specialist",
-              "senior"
+              "clinical"
             ],
-            "pct": 40.2
+            "pct": 35.1
           },
           {
             "id": 1,
+            "size": 34,
+            "top_terms": [
+              "manager",
+              "access",
+              "market"
+            ],
+            "pct": 19.5
+          },
+          {
+            "id": 3,
             "size": 33,
             "top_terms": [
               "medical",
               "liaison",
-              "science"
+              "director"
             ],
             "pct": 19.0
           },
           {
             "id": 4,
-            "size": 30,
+            "size": 32,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.2
+            "pct": 18.4
           },
           {
             "id": 2,
-            "size": 22,
+            "size": 14,
             "top_terms": [
-              "clinical",
+              "associate",
               "research",
-              "associate"
+              "clinical"
             ],
-            "pct": 12.6
-          },
-          {
-            "id": 3,
-            "size": 19,
-            "top_terms": [
-              "access",
-              "market",
-              "italy"
-            ],
-            "pct": 10.9
+            "pct": 8.0
           }
         ]
       }

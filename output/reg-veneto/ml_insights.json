@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-15T12:57:49.248504",
+  "generated_at": "2026-06-16T11:52:25.212160",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 39,
+  "total_jobs_analyzed": 37,
   "scoring": {
-    "average": 16.4,
+    "average": 14.8,
     "distribution": {
       "excellent": 0,
-      "good": 3,
+      "good": 2,
       "medium": 4,
-      "low": 2,
+      "low": 1,
       "irrelevant": 30
     },
     "top_jobs": [
@@ -22,36 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4421823097"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "NEWCHEM SPA",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4413675692"
-      },
-      {
         "title": "REGULATORY SPECIALIST",
         "company": "Colorificio Paulin S.p.A.",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421952309"
       },
       {
-        "title": "Senior International Regulatory Specialist",
-        "company": "Orthofix",
-        "score": 57,
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "NEWCHEM SPA",
+        "score": 59,
         "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4367239299"
-      },
-      {
-        "title": "Senior quality assurance GMP",
-        "company": "Adecco",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1780012800000,
-        "url": "https://www.linkedin.com/jobs/view/4417957067"
+        "date_posted": 1779840000000,
+        "url": "https://www.linkedin.com/jobs/view/4413675692"
       },
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
@@ -60,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1780012800000,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
+      },
+      {
+        "title": "Senior quality assurance GMP",
+        "company": "Adecco",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1780012800000,
+        "url": "https://www.linkedin.com/jobs/view/4417957067"
       },
       {
         "title": "PQ Persona Qualificata",
@@ -76,14 +68,6 @@
         "site": "indeed",
         "date_posted": 1779753600000,
         "url": "https://it.indeed.com/viewjob?jk=14f9f75c7dc1f613"
-      },
-      {
-        "title": "Marketing Farmaceutico",
-        "company": "ALMA LABORIS Business School",
-        "score": 20,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=54949be1bc94e8a8"
       },
       {
         "title": "Quality Assurance & Auditing Manager",
@@ -126,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=3f0a52192415b8d9"
       },
       {
-        "title": "Responsible Person",
-        "company": "H.Essers",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1781222400000,
-        "url": "https://it.indeed.com/viewjob?jk=c64dac7ebb3e0197"
-      },
-      {
         "title": "Specialist Onco-Haematology (Veneto e Trentino-Alto Adige)",
         "company": "GSK",
         "score": 10,
@@ -166,12 +142,36 @@
         "url": "https://it.indeed.com/viewjob?jk=13828fa0a66cba97"
       },
       {
+        "title": "Esperto Diritto Tributario",
+        "company": "ALMA LABORIS Business School",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1781568000000,
+        "url": "https://it.indeed.com/viewjob?jk=668faee38ba922f9"
+      },
+      {
         "title": "IT Manager ERP e Sistemi Informativi",
         "company": "Supporto HR",
         "score": 9,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
+      },
+      {
+        "title": "Sales Specialist- Venezia",
+        "company": "R-STORE S.p.A",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=d3a5c659fec90297"
+      },
+      {
+        "title": "Addetto/a movimentazione merci sistema produttivo",
+        "company": "Giucas",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1780012800000,
+        "url": "https://www.linkedin.com/jobs/view/4422018459"
       }
     ]
   },
@@ -189,17 +189,17 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "sistema",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
         "word": "addetto",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "tecnico",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "sistema",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-37%)",
+      "data": {
+        "current": 2,
+        "avg": 3.2,
+        "change_pct": -37.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 33% (-17pp)",
+      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 67% (+17pp)",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 20,
+            "id": 1,
+            "size": 19,
             "top_terms": [
-              "specialist",
-              "venezia",
-              "haematology"
+              "tecnico",
+              "estetista",
+              "esperto"
             ],
-            "pct": 51.3
+            "pct": 51.4
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 18.9
           },
           {
             "id": 2,
-            "size": 6,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "vicenza"
-            ],
-            "pct": 15.4
-          },
-          {
-            "id": 1,
-            "size": 5,
-            "top_terms": [
-              "addetto",
-              "sistema",
-              "operatore"
-            ],
-            "pct": 12.8
-          },
-          {
-            "id": 3,
-            "size": 5,
+            "size": 4,
             "top_terms": [
               "regulatory",
-              "specialist",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 12.8
+            "pct": 10.8
           },
           {
             "id": 4,
+            "size": 4,
+            "top_terms": [
+              "addetto",
+              "sistema",
+              "nord"
+            ],
+            "pct": 10.8
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
-              "tecnico",
-              "specialist",
-              "vicenza"
+              "onco",
+              "haematology",
+              "specialist"
             ],
-            "pct": 7.7
+            "pct": 8.1
           }
         ]
       }
