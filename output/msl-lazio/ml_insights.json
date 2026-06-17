@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-16T11:52:25.174572",
+  "generated_at": "2026-06-17T11:38:15.318524",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 48,
+  "total_jobs_analyzed": 51,
   "scoring": {
-    "average": 26.8,
+    "average": 25.9,
     "distribution": {
       "excellent": 0,
       "good": 4,
       "medium": 15,
       "low": 4,
-      "irrelevant": 25
+      "irrelevant": 28
     },
     "top_jobs": [
       {
@@ -22,17 +22,9 @@
         "url": "https://www.linkedin.com/jobs/view/4423308214"
       },
       {
-        "title": "Field Medical Advisor - Italy",
-        "company": "Syneos Health Commercial Solutions",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1780963200000,
-        "url": "https://www.linkedin.com/jobs/view/4426342053"
-      },
-      {
         "title": "Field Medical Manager - Europe",
         "company": "Syneos Health Commercial Solutions",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424717617"
@@ -46,25 +38,33 @@
         "url": "https://www.linkedin.com/jobs/view/4425424534"
       },
       {
+        "title": "Field Medical Advisor - Italy",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1780963200000,
+        "url": "https://www.linkedin.com/jobs/view/4426342053"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1780272000000,
+        "url": "https://www.linkedin.com/jobs/view/4415927696"
+      },
+      {
         "title": "Sr Manager, Medical Science Liaison - LAZIO / ABRUZZO / UMBRIA",
         "company": "Alnylam Pharmaceuticals",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423570263"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4415927696"
-      },
-      {
         "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
         "company": "Alnylam Pharmaceuticals",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426533104"
@@ -72,7 +72,7 @@
       {
         "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
         "company": "ALMA LABORIS Business School",
-        "score": 54,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1781568000000,
         "url": "https://it.indeed.com/viewjob?jk=21af306c3c773382"
@@ -120,7 +120,7 @@
       {
         "title": "Oncology Medical Head, International",
         "company": "Pfizer",
-        "score": 47,
+        "score": 45,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4427139715"
@@ -128,7 +128,7 @@
       {
         "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
         "company": "Angelini Pharma",
-        "score": 47,
+        "score": 45,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426407509"
@@ -144,7 +144,7 @@
       {
         "title": "Sr. Spclst, Value Market Access New Products Oncology",
         "company": "MSD Italia",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428167395"
@@ -160,7 +160,7 @@
       {
         "title": "Hospital Clinical Specialist",
         "company": "Essity",
-        "score": 42,
+        "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420139037"
@@ -179,6 +179,16 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "engineer",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "stage",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
         "word": "intern",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
@@ -189,12 +199,7 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "stage",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
+        "word": "specialist",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -218,12 +223,12 @@
   "anomalies": [
     {
       "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+51%)",
+      "severity": "medium",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 4 (+41%)",
       "data": {
         "current": 5,
-        "avg": 3.3,
-        "change_pct": 51.2
+        "avg": 3.5,
+        "change_pct": 41.3
       }
     },
     {
@@ -237,80 +242,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 60% (+60pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 40% (-60pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 40.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 26,
-            "top_terms": [
-              "associate",
-              "medical",
-              "italy"
-            ],
-            "pct": 54.2
-          },
-          {
             "id": 0,
-            "size": 9,
+            "size": 22,
             "top_terms": [
-              "affairs",
-              "manager",
-              "medical"
+              "medical",
+              "cra",
+              "associate"
             ],
-            "pct": 18.8
+            "pct": 43.1
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 11,
             "top_terms": [
-              "intern",
-              "technical",
-              "business"
+              "manager",
+              "affairs",
+              "medical"
             ],
-            "pct": 12.5
+            "pct": 21.6
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "campania"
+            ],
+            "pct": 17.6
           },
           {
             "id": 3,
+            "size": 5,
+            "top_terms": [
+              "engineer",
+              "quality",
+              "junior"
+            ],
+            "pct": 9.8
+          },
+          {
+            "id": 1,
             "size": 4,
             "top_terms": [
               "stage",
               "dipartimento",
               "diseases"
             ],
-            "pct": 8.3
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "junior"
-            ],
-            "pct": 6.2
+            "pct": 7.8
           }
         ]
       }

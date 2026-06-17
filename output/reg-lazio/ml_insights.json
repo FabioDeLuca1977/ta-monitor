@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-16T11:52:25.460111",
+  "generated_at": "2026-06-17T11:38:15.467745",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 102,
+  "total_jobs_analyzed": 106,
   "scoring": {
-    "average": 10.4,
+    "average": 10.3,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 6,
-      "low": 3,
-      "irrelevant": 91
+      "good": 4,
+      "medium": 4,
+      "low": 2,
+      "irrelevant": 96
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Manager",
         "company": "PQE Group",
-        "score": 66,
+        "score": 69,
         "site": "linkedin",
         "date_posted": 1779840000000,
         "url": "https://www.linkedin.com/jobs/view/4417223802"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Specialist",
         "company": "Aruba SpA",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1780185600000,
         "url": "https://www.linkedin.com/jobs/view/4397318496"
@@ -32,23 +32,23 @@
       {
         "title": "Regulatory Affairs Analyst",
         "company": "Axpo Italia",
-        "score": 57,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1779926400000,
         "url": "https://www.linkedin.com/jobs/view/4420437603"
       },
       {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo group",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1779753600000,
-        "url": "https://it.indeed.com/viewjob?jk=9fed87f397b794f9"
+        "title": "Regulatory Specialist",
+        "company": "EOLO",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426852119"
       },
       {
         "title": "Quality Assurance Specialist - Settore Packaging / Pharma (f/m/nb)",
         "company": "Randstad Italia",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421101551"
@@ -94,12 +94,12 @@
         "url": "https://it.indeed.com/viewjob?jk=9cdf7ebed092f818"
       },
       {
-        "title": "Inventory Control & Quality Assurance Operations Manager , ICQA",
-        "company": "Amazon",
-        "score": 20,
-        "site": "linkedin",
-        "date_posted": 1780963200000,
-        "url": "https://www.linkedin.com/jobs/view/4425934702"
+        "title": "PM - Edge Device Specialist",
+        "company": "Terna",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1781568000000,
+        "url": "https://it.indeed.com/viewjob?jk=f868acec439a0da7"
       },
       {
         "title": "WW Compensation & Benefits and HR Transformation Manager",
@@ -108,6 +108,14 @@
         "site": "indeed",
         "date_posted": 1781136000000,
         "url": "https://it.indeed.com/viewjob?jk=b0bc8102008bb080"
+      },
+      {
+        "title": "QA Deviation Specialist – Sterile Manufacturing",
+        "company": "Amaris Consulting",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1781568000000,
+        "url": "https://it.indeed.com/viewjob?jk=307f8b155424dc26"
       },
       {
         "title": "Quality Assurance Manager",
@@ -120,10 +128,18 @@
       {
         "title": "Quality Assurance Associate",
         "company": "Gruppo Lo.Li. Pharma",
-        "score": 14,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1781222400000,
         "url": "https://it.indeed.com/viewjob?jk=7b79c987111d2e06"
+      },
+      {
+        "title": "Inventory Control & Quality Assurance Operations Manager , ICQA",
+        "company": "Amazon",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": 1780963200000,
+        "url": "https://www.linkedin.com/jobs/view/4425934702"
       },
       {
         "title": "Quality Assurance Specialist Middle - Cisterna Latina",
@@ -132,14 +148,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420130135"
-      },
-      {
-        "title": "GMP Calibration Documentation Specialist",
-        "company": "fortil",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4424258012"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4425665855"
       },
       {
-        "title": "HR Officer (Payroll, Time & Audit Operations Lead) P4",
-        "company": "World Food Programme",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1780963200000,
-        "url": "https://it.indeed.com/viewjob?jk=587c15bfa6934999"
-      },
-      {
-        "title": "GMP Calibration Ducumentation Specialist",
-        "company": "fortil",
+        "title": "Quality Assurance & Process Validation Specialist",
+        "company": "Michael Page",
         "score": 13,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4427958290"
+        "url": "https://www.linkedin.com/jobs/view/4423619772"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -190,8 +190,8 @@
       },
       {
         "word": "engineer",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -199,30 +199,23 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "intern",
+        "word": "compliance",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "affairs analyst",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 6/8 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 4,
+        "new": 6,
         "total": 8,
-        "pct": 50.0
+        "pct": 75.0
       }
     },
     {
@@ -233,53 +226,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 56,
+            "size": 60,
             "top_terms": [
+              "engineer",
               "manager",
-              "officer",
-              "associate"
+              "officer"
             ],
-            "pct": 54.9
+            "pct": 56.6
           },
           {
             "id": 1,
-            "size": 20,
+            "size": 22,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 19.6
+            "pct": 20.8
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 13,
             "top_terms": [
               "specialist",
               "calibration",
-              "gmp"
+              "management"
             ],
-            "pct": 12.7
+            "pct": 12.3
           },
           {
-            "id": 4,
-            "size": 7,
+            "id": 2,
+            "size": 9,
             "top_terms": [
-              "engineer",
-              "aerospace",
-              "defence"
+              "regulatory",
+              "affairs",
+              "analyst"
             ],
-            "pct": 6.9
+            "pct": 8.5
           },
           {
             "id": 3,
-            "size": 6,
+            "size": 2,
             "top_terms": [
+              "marketing",
               "intern",
-              "business",
-              "field"
+              "estetista"
             ],
-            "pct": 5.9
+            "pct": 1.9
           }
         ]
       }

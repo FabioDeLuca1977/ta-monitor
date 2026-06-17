@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-06-16T11:52:25.130783",
+  "generated_at": "2026-06-17T11:38:15.295083",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 16,
+  "total_jobs_analyzed": 15,
   "scoring": {
-    "average": 17.7,
+    "average": 17.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 5,
       "low": 0,
-      "irrelevant": 11
+      "irrelevant": 10
     },
     "top_jobs": [
+      {
+        "title": "Global Regulatory Affairs Consultant",
+        "company": "JSB Solutions",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4408880332"
+      },
       {
         "title": "Head of Global Regulatory Affairs CMC",
         "company": "Alfasigma group",
@@ -20,22 +28,6 @@
         "site": "indeed",
         "date_posted": 1780012800000,
         "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
-      },
-      {
-        "title": "Global Regulatory Affairs Consultant",
-        "company": "JSB Solutions",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
-        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
-        "company": "Boston Scientific",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4411667555"
       },
       {
         "title": "Field Clinical Specialist Graduate Interventional Cardiology- Bologna/Genoa",
@@ -46,6 +38,14 @@
         "url": "https://www.linkedin.com/jobs/view/4418951340"
       },
       {
+        "title": "Field Clinical Specialist Graduate Interventional Cardiology- Milan (Floating)",
+        "company": "Boston Scientific",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1780704000000,
+        "url": "https://www.linkedin.com/jobs/view/4411667555"
+      },
+      {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
         "company": "Banca Più",
         "score": 40,
@@ -54,17 +54,9 @@
         "url": "https://www.linkedin.com/jobs/view/4423103963"
       },
       {
-        "title": "Product Specialist Junior - settore medical device",
-        "company": "Lavoropiù SpA",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4419415873"
-      },
-      {
         "title": "Process Validation Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 14,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421932277"
@@ -72,7 +64,7 @@
       {
         "title": "RA Specialist (510k) - Medical Devices",
         "company": "PQE Group",
-        "score": 14,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421950235"
@@ -80,7 +72,7 @@
       {
         "title": "IT Help Desk Technician - Entry level",
         "company": "Mozarc Medical",
-        "score": 11,
+        "score": 6,
         "site": "indeed",
         "date_posted": 1780963200000,
         "url": "https://it.indeed.com/viewjob?jk=ddd9c2753e38b2b5"
@@ -110,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4423543025"
       },
       {
-        "title": "Head of P&O Moulded Glass Italy",
-        "company": "Gerresheimer",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1780963200000,
-        "url": "https://it.indeed.com/viewjob?jk=f12a9519ba867dd5"
-      },
-      {
         "title": "Quality Engineer",
         "company": "LINCOTEK GROUP",
         "score": 3,
@@ -140,22 +124,20 @@
         "site": "indeed",
         "date_posted": 1677801600000,
         "url": "https://it.indeed.com/viewjob?jk=8ed05a7b6b62f796"
+      },
+      {
+        "title": "Head of P&O Moulded Glass Italy",
+        "company": "Gerresheimer",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=f12a9519ba867dd5"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "specialist",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "medical",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
       {
         "word": "engineer",
         "count": 3,
@@ -174,21 +156,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-47%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-43%)",
       "data": {
         "current": 1,
-        "avg": 1.9,
-        "change_pct": -46.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "avg": 1.8,
+        "change_pct": -42.9
       }
     },
     {
@@ -199,6 +171,16 @@
         "channel": "linkedin",
         "old_pct": 33.3,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     }
   ],

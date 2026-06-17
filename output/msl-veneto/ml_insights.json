@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-16T11:52:25.015295",
+  "generated_at": "2026-06-17T11:38:15.235248",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 38,
+  "total_jobs_analyzed": 32,
   "scoring": {
     "average": 33.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 20,
-      "low": 7,
-      "irrelevant": 10
+      "medium": 17,
+      "low": 6,
+      "irrelevant": 8
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Sr Manager, Medical Science Liaison - LOMBARDIA EST / TRIVENETO",
         "company": "Alnylam Pharmaceuticals",
-        "score": 58,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423571259"
@@ -32,7 +32,7 @@
       {
         "title": "Medical Advisor - Gastrointestinal (GI) Oncology",
         "company": "GSK",
-        "score": 56,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424717196"
@@ -40,18 +40,10 @@
       {
         "title": "Medical Scientific Liaison - Pipeline Oncology (Nord Italia)",
         "company": "GSK",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423637784"
-      },
-      {
-        "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
-        "company": "NonStop Consulting",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4421823097"
       },
       {
         "title": "Clinical Research Associate",
@@ -62,36 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4417415303"
       },
       {
+        "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
+        "company": "NonStop Consulting",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1780272000000,
+        "url": "https://www.linkedin.com/jobs/view/4421823097"
+      },
+      {
         "title": "Informatore Scientifico del Farmaco (ISF)",
         "company": "Professional Recruitment",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1780444800000,
         "url": "https://www.linkedin.com/jobs/view/4424082240"
       },
       {
-        "title": "Medical Representative/ISF Specialty Care",
-        "company": "Fidia Pharma",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4395658496"
-      },
-      {
         "title": "Senior Clinical Research Associate",
         "company": "Alira Health",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386508727"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "NEWCHEM SPA",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4413675692"
       },
       {
         "title": "ISF Specialist Pediatric (f/m/nb)",
@@ -116,30 +100,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420732016"
-      },
-      {
-        "title": "ISF - Ginecologia",
-        "company": "WeHunt",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4425591960"
-      },
-      {
-        "title": "ISF - VENEZIA",
-        "company": "Hays",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4417629192"
-      },
-      {
-        "title": "Informatore Scientifico Commerciale - VENETO varie zone",
-        "company": "SANITPHARMA S.R.L.",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4416802247"
       },
       {
         "title": "Informatore Scientifico del Farmaco target Dermatologico",
@@ -172,6 +132,46 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426365926"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco (Padova)",
+        "company": "Maven Pharma srl",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426962335"
+      },
+      {
+        "title": "ISF - VENEZIA",
+        "company": "Hays",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1779926400000,
+        "url": "https://www.linkedin.com/jobs/view/4417629192"
+      },
+      {
+        "title": "ISF - Ginecologia",
+        "company": "WeHunt",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4425591960"
+      },
+      {
+        "title": "Informatore medico scientifico",
+        "company": "ManpowerGroup",
+        "score": 39,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4420730570"
+      },
+      {
+        "title": "Informatore Medico Scientifico M/F",
+        "company": "KOLINPHARMA S.p.A",
+        "score": 39,
+        "site": "linkedin",
+        "date_posted": 1780876800000,
+        "url": "https://www.linkedin.com/jobs/view/4425085875"
       }
     ]
   },
@@ -210,11 +210,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
       "data": {
         "current": 1,
-        "avg": 4.1,
-        "change_pct": -75.7
+        "avg": 3.1,
+        "change_pct": -67.7
       }
     },
     {
@@ -228,6 +228,26 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 0.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
@@ -238,30 +258,30 @@
             "size": 15,
             "top_terms": [
               "manager",
-              "service",
-              "sales"
+              "medical",
+              "service"
             ],
-            "pct": 39.5
+            "pct": 46.9
           },
           {
-            "id": 4,
-            "size": 13,
+            "id": 1,
+            "size": 7,
             "top_terms": [
               "informatore",
               "scientifico",
               "medico"
             ],
-            "pct": 34.2
+            "pct": 21.9
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 5,
             "top_terms": [
-              "medical",
-              "liaison",
-              "oncology"
+              "farmaco",
+              "scientifico",
+              "informatore"
             ],
-            "pct": 13.2
+            "pct": 15.6
           },
           {
             "id": 2,
@@ -271,17 +291,17 @@
               "venezia",
               "specialist"
             ],
-            "pct": 7.9
+            "pct": 9.4
           },
           {
             "id": 3,
             "size": 2,
             "top_terms": [
-              "commerciale",
-              "veneto",
-              "scientifico"
+              "associate",
+              "research",
+              "clinical"
             ],
-            "pct": 5.3
+            "pct": 6.2
           }
         ]
       }

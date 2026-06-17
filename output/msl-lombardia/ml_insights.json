@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-16T11:52:25.117878",
+  "generated_at": "2026-06-17T11:38:15.288558",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 174,
+  "total_jobs_analyzed": 184,
   "scoring": {
-    "average": 29.6,
+    "average": 29.5,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 81,
-      "low": 7,
-      "irrelevant": 80
+      "good": 5,
+      "medium": 82,
+      "low": 13,
+      "irrelevant": 84
     },
     "top_jobs": [
       {
@@ -22,6 +22,14 @@
         "url": "https://www.linkedin.com/jobs/view/4423300417"
       },
       {
+        "title": "NextGen Medical Affairs Manager, THV",
+        "company": "Edwards Lifesciences",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423153487"
+      },
+      {
         "title": "Medical Advisor",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 62,
@@ -30,28 +38,12 @@
         "url": "https://www.linkedin.com/jobs/view/4372114590"
       },
       {
-        "title": "Medical Advisor Biologics - Dermatology",
-        "company": "Galderma",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4414626829"
-      },
-      {
         "title": "Field Medical Manager - Europe",
         "company": "Syneos Health Commercial Solutions",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424713695"
-      },
-      {
-        "title": "NextGen Medical Affairs Manager, THV",
-        "company": "Edwards Lifesciences",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423153487"
       },
       {
         "title": "Medical Science Liaison Lead",
@@ -78,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4421165620"
       },
       {
+        "title": "Regulatory Affairs Specialist (Medical Device)",
+        "company": "Jefferson Wells Italia",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426337115"
+      },
+      {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
         "score": 58,
@@ -86,20 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=905f3d741b8e8508"
       },
       {
-        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
-        "company": "Alnylam Pharmaceuticals",
+        "title": "Medical Advisor Biologics - Dermatology",
+        "company": "Galderma",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426512688"
-      },
-      {
-        "title": "Regulatory Affairs Specialist (Medical Device)",
-        "company": "Jefferson Wells Italia",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426337115"
+        "url": "https://www.linkedin.com/jobs/view/4414626829"
       },
       {
         "title": "Regulatory Affair Intern - Medical Device",
@@ -110,12 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4428824495"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 56,
+        "title": "Clinical Research Associate",
+        "company": "PHIDEALIVE Srl",
+        "score": 57,
         "site": "linkedin",
-        "date_posted": 1779753600000,
-        "url": "https://www.linkedin.com/jobs/view/4415915989"
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4426406081"
       },
       {
         "title": "Senior Regulatory Affairs Specialist – Cosmetics & Medical Devices",
@@ -142,12 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
-        "title": "Medical Science Liaison - Biologics",
-        "company": "Galderma",
+        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426512688"
+      },
+      {
+        "title": "Stage In Medical Communication/Education Manager",
+        "company": "latoC",
         "score": 55,
         "site": "linkedin",
         "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4420452489"
+        "url": "https://www.linkedin.com/jobs/view/4419078198"
       },
       {
         "title": "Medical Science Liaison",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4404914214"
       },
       {
-        "title": "Stage In Medical Communication/Education Manager",
-        "company": "latoC",
-        "score": 54,
+        "title": "Medical Science Liaison Oncology | Emilia Romagna e Triveneto",
+        "company": "Amgen Italia",
+        "score": 55,
         "site": "linkedin",
-        "date_posted": 1779926400000,
-        "url": "https://www.linkedin.com/jobs/view/4419078198"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4428608449"
       }
     ]
   },
@@ -179,27 +179,27 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "director",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
         "word": "specialist",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "market",
+        "word": "clinical",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "market",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "access",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "emea",
+        "word": "director",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -238,7 +238,7 @@
       "confidence": 30
     },
     {
-      "keyword": "diseases",
+      "keyword": "emea",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -252,13 +252,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 17 annunci ultimo scan vs media 12 (+43%)",
+      "data": {
+        "current": 17,
+        "avg": 11.9,
+        "change_pct": 42.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/13 annunci da aziende nuove (61.5%)",
+      "message": "📊 Ultimo scan: 10/17 annunci da aziende nuove (58.8%)",
       "data": {
-        "new": 8,
-        "total": 13,
-        "pct": 61.5
+        "new": 10,
+        "total": 17,
+        "pct": 58.8
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 38% a 71% (+32pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 38.5,
+        "new_pct": 70.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 62% a 29% (-32pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 61.5,
+        "new_pct": 29.4
       }
     },
     {
@@ -268,54 +298,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 61,
+            "id": 1,
+            "size": 83,
             "top_terms": [
-              "senior",
               "specialist",
+              "associate",
               "clinical"
             ],
-            "pct": 35.1
+            "pct": 45.1
           },
           {
-            "id": 1,
-            "size": 34,
+            "id": 0,
+            "size": 31,
             "top_terms": [
               "manager",
-              "access",
-              "market"
+              "project",
+              "trial"
             ],
-            "pct": 19.5
+            "pct": 16.8
           },
           {
             "id": 3,
-            "size": 33,
-            "top_terms": [
-              "medical",
-              "liaison",
-              "director"
-            ],
-            "pct": 19.0
-          },
-          {
-            "id": 4,
-            "size": 32,
+            "size": 30,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 18.4
+            "pct": 16.3
+          },
+          {
+            "id": 4,
+            "size": 29,
+            "top_terms": [
+              "medical",
+              "director",
+              "emea"
+            ],
+            "pct": 15.8
           },
           {
             "id": 2,
-            "size": 14,
+            "size": 11,
             "top_terms": [
-              "associate",
-              "research",
-              "clinical"
+              "liaison",
+              "science",
+              "medical"
             ],
-            "pct": 8.0
+            "pct": 6.0
           }
         ]
       }
