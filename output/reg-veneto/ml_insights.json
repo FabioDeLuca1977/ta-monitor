@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-17T11:38:15.337722",
+  "generated_at": "2026-06-18T11:05:51.788060",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 37,
+  "total_jobs_analyzed": 36,
   "scoring": {
     "average": 14.3,
     "distribution": {
@@ -10,13 +10,13 @@
       "good": 2,
       "medium": 4,
       "low": 0,
-      "irrelevant": 31
+      "irrelevant": 30
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
         "company": "NonStop Consulting",
-        "score": 61,
+        "score": 65,
         "site": "linkedin",
         "date_posted": 1780272000000,
         "url": "https://www.linkedin.com/jobs/view/4421823097"
@@ -40,7 +40,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 51,
+        "score": 50,
         "site": "linkedin",
         "date_posted": 1780012800000,
         "url": "https://www.linkedin.com/jobs/view/4412751752"
@@ -56,7 +56,7 @@
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -72,18 +72,10 @@
       {
         "title": "Quality Assurance Manager",
         "company": "SteelcoBelimed Inc.",
-        "score": 13,
+        "score": 14,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=14c367d68e50f917"
-      },
-      {
-        "title": "Quality Assurance Specialist - Vicenza",
-        "company": "Eurofins",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1779840000000,
-        "url": "https://www.linkedin.com/jobs/view/4419868821"
       },
       {
         "title": "Quality Assurance Specialist - Vicenza",
@@ -158,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=200523db4af6bf30"
       },
       {
+        "title": "Impiegata/o Commerciale Telefonica B2B",
+        "company": "MediaCom",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1781654400000,
+        "url": "https://it.indeed.com/viewjob?jk=b172fb9ea44a6eb1"
+      },
+      {
         "title": "IT Manager ERP e Sistemi Informativi",
         "company": "Supporto HR",
         "score": 9,
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
       },
       {
-        "title": "Sales Specialist- Venezia",
-        "company": "R-STORE S.p.A",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=d3a5c659fec90297"
+        "title": "Addetto al Sistema di Gestione",
+        "company": "Moltiply Group",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424190418"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "tecnico",
@@ -194,12 +194,12 @@
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "addetto",
+        "word": "onco",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "onco",
+        "word": "haematology",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-66%)",
+      "data": {
+        "current": 1,
+        "avg": 2.9,
+        "change_pct": -65.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 20,
+            "id": 0,
+            "size": 22,
             "top_terms": [
-              "addetto",
-              "specialista",
-              "estetista"
+              "tecnico",
+              "estetista",
+              "esperto"
             ],
-            "pct": 54.1
+            "pct": 61.1
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 1,
+            "size": 6,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 18.9
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "regulatory",
-              "manager",
-              "specialist"
-            ],
-            "pct": 10.8
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "tecnico",
-              "esperto",
-              "specialist"
-            ],
-            "pct": 8.1
+            "pct": 16.7
           },
           {
             "id": 3,
             "size": 3,
             "top_terms": [
-              "haematology",
               "onco",
+              "haematology",
               "specialist"
             ],
-            "pct": 8.1
+            "pct": 8.3
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "regulatory",
+              "manager",
+              "specialist"
+            ],
+            "pct": 8.3
+          },
+          {
+            "id": 2,
+            "size": 2,
+            "top_terms": [
+              "addetto",
+              "manager",
+              "assurance"
+            ],
+            "pct": 5.6
           }
         ]
       }
