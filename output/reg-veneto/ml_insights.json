@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-18T11:05:51.788060",
+  "generated_at": "2026-06-19T11:07:53.371747",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 36,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 14.3,
+    "average": 12.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 4,
-      "low": 0,
-      "irrelevant": 30
+      "medium": 3,
+      "low": 1,
+      "irrelevant": 32
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Manager - Biocidi e Fitofarmaci",
         "company": "NonStop Consulting",
-        "score": 65,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1780272000000,
         "url": "https://www.linkedin.com/jobs/view/4421823097"
@@ -24,7 +24,7 @@
       {
         "title": "REGULATORY SPECIALIST",
         "company": "Colorificio Paulin S.p.A.",
-        "score": 61,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421952309"
@@ -32,23 +32,15 @@
       {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4428055088"
       },
       {
-        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
-        "company": "Arethusa",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1780012800000,
-        "url": "https://www.linkedin.com/jobs/view/4412751752"
-      },
-      {
         "title": "Senior quality assurance GMP",
         "company": "Adecco",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1780012800000,
         "url": "https://www.linkedin.com/jobs/view/4417957067"
@@ -62,9 +54,17 @@
         "url": "https://www.linkedin.com/jobs/view/4425755875"
       },
       {
+        "title": "Market Access Manager Onco-Haematology",
+        "company": "GSK",
+        "score": 22,
+        "site": "indeed",
+        "date_posted": 1781740800000,
+        "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
+      },
+      {
         "title": "Quality Assurance & Auditing Manager",
         "company": "Penta - Child Health Research",
-        "score": 16,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428805774"
@@ -72,7 +72,7 @@
       {
         "title": "Quality Assurance Manager",
         "company": "SteelcoBelimed Inc.",
-        "score": 14,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=14c367d68e50f917"
@@ -118,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4423644152"
       },
       {
-        "title": "meccanico auto",
-        "company": "GPT AUTO SRLS",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1781481600000,
-        "url": "https://it.indeed.com/viewjob?jk=13828fa0a66cba97"
-      },
-      {
         "title": "Esperto Diritto Tributario",
         "company": "ALMA LABORIS Business School",
         "score": 10,
@@ -158,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=b172fb9ea44a6eb1"
       },
       {
+        "title": "Imagery Intelligence Analyst, Senior",
+        "company": "Booz Allen Hamilton",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1781740800000,
+        "url": "https://it.indeed.com/viewjob?jk=b3cc544c00bdb4e1"
+      },
+      {
         "title": "IT Manager ERP e Sistemi Informativi",
         "company": "Supporto HR",
         "score": 9,
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
       },
       {
-        "title": "Addetto al Sistema di Gestione",
-        "company": "Moltiply Group",
-        "score": 7,
+        "title": "Quality Assurance Intern",
+        "company": "DAINESE",
+        "score": 8,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4424190418"
+        "url": "https://www.linkedin.com/jobs/view/4430459403"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "tecnico",
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-66%)",
-      "data": {
-        "current": 1,
-        "avg": 2.9,
-        "change_pct": -65.7
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -255,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 22,
+            "id": 3,
+            "size": 21,
             "top_terms": [
-              "tecnico",
+              "addetto",
               "estetista",
-              "esperto"
+              "specialista"
             ],
-            "pct": 61.1
+            "pct": 55.3
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 7,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 16.7
+            "pct": 18.4
           },
           {
-            "id": 3,
-            "size": 3,
+            "id": 0,
+            "size": 4,
             "top_terms": [
-              "onco",
-              "haematology",
+              "tecnico",
+              "esperto",
               "specialist"
             ],
-            "pct": 8.3
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "regulatory",
-              "manager",
-              "specialist"
-            ],
-            "pct": 8.3
+            "pct": 10.5
           },
           {
             "id": 2,
+            "size": 4,
+            "top_terms": [
+              "haematology",
+              "onco",
+              "specialist"
+            ],
+            "pct": 10.5
+          },
+          {
+            "id": 4,
             "size": 2,
             "top_terms": [
-              "addetto",
-              "manager",
-              "assurance"
+              "utensili",
+              "cnc",
+              "operatore"
             ],
-            "pct": 5.6
+            "pct": 5.3
           }
         ]
       }

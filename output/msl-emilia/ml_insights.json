@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-18T11:05:51.669765",
+  "generated_at": "2026-06-19T11:07:53.264677",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 41,
   "scoring": {
-    "average": 39.4,
+    "average": 38.7,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 22,
+      "good": 5,
+      "medium": 23,
       "low": 0,
-      "irrelevant": 12
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -22,14 +22,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426804321"
       },
       {
-        "title": "Senior Medical Advisor",
-        "company": "MSD",
-        "score": 69,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4418920883"
-      },
-      {
         "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
         "company": "Moderna",
         "score": 65,
@@ -38,12 +30,12 @@
         "url": "https://www.linkedin.com/jobs/view/4369871593"
       },
       {
-        "title": "(Sr.) Country Medical Manager (GI)",
-        "company": "Roche",
-        "score": 63,
+        "title": "Senior Medical Advisor",
+        "company": "MSD",
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4379008263"
+        "url": "https://www.linkedin.com/jobs/view/4418920883"
       },
       {
         "title": "Medical Science Liaison",
@@ -62,12 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4416851042"
       },
       {
-        "title": "Medical Science Liaison, Endocrinology, (Los Angeles OR San Diego)",
-        "company": "Recordati Rare Diseases North America",
+        "title": "Medical Director, Medical Safety",
+        "company": "BioSpace",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1781308800000,
+        "url": "https://www.linkedin.com/jobs/view/4427907447"
+      },
+      {
+        "title": "(Sr.) Country Medical Manager (GI)",
+        "company": "Roche",
         "score": 58,
         "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4409448602"
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4379008263"
       },
       {
         "title": "Medical Advisor",
@@ -86,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4382286519"
       },
       {
-        "title": "Medical Director, Medical Safety",
-        "company": "BioSpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1781308800000,
-        "url": "https://www.linkedin.com/jobs/view/4427907447"
-      },
-      {
         "title": "Medical Science Liaison-Neuroimmunology, South Central",
         "company": "Johnson & Johnson Innovative Medicine",
         "score": 56,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4429556192"
+      },
+      {
+        "title": "Medical Science Liaison, Endocrinology, (Los Angeles OR San Diego)",
+        "company": "Recordati Rare Diseases North America",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4409448602"
       },
       {
         "title": "Medical Science Liaison,  Respiratory - Georgia (GA, AL, MS, TN)",
@@ -134,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4351361555"
       },
       {
-        "title": "Medical Science Liaison, Hematology-Oncology (12 month contract) - BC",
-        "company": "GSK",
-        "score": 52,
+        "title": "Medical Advisor Internal Medicine",
+        "company": "Pfizer",
+        "score": 53,
         "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4423639699"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4416696605"
       },
       {
         "title": "Sr Regional Medical Advisor",
@@ -150,17 +150,9 @@
         "url": "https://www.linkedin.com/jobs/view/4430423793"
       },
       {
-        "title": "Medical Advisor Internal Medicine",
-        "company": "Pfizer",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4416696605"
-      },
-      {
         "title": "Senior Pharmacovigilance Specialist",
         "company": "ProPharma",
-        "score": 51,
+        "score": 50,
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4417745817"
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4429984383"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - Energy",
+        "company": "Gruppo Hera",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4392674060"
       }
     ]
   },
@@ -179,12 +179,17 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
         "word": "engineer",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "cra",
+        "word": "specialist",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -207,50 +212,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 25 annunci ultimo scan vs media 2 (+1233%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-59%)",
       "data": {
-        "current": 25,
-        "avg": 1.9,
-        "change_pct": 1233.3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 GSK: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "GSK",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Abbott: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Abbott",
-        "count": 2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 BioSpace: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "BioSpace",
-        "count": 2
+        "current": 2,
+        "avg": 4.9,
+        "change_pct": -59.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 24/25 annunci da aziende nuove (96.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 24,
-        "total": 25,
-        "pct": 96.0
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 8% a 50% (+42pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 8.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 92% a 50% (-42pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 92.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -260,54 +258,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 16,
+            "id": 1,
+            "size": 12,
             "top_terms": [
-              "specialist",
-              "manager",
-              "cra"
+              "senior",
+              "pharmacovigilance",
+              "manager"
             ],
-            "pct": 40.0
+            "pct": 29.3
           },
           {
-            "id": 1,
+            "id": 4,
+            "size": 12,
+            "top_terms": [
+              "medical",
+              "advisor",
+              "affairs"
+            ],
+            "pct": 29.3
+          },
+          {
+            "id": 2,
             "size": 9,
             "top_terms": [
               "liaison",
               "science",
               "medical"
             ],
-            "pct": 22.5
-          },
-          {
-            "id": 3,
-            "size": 7,
-            "top_terms": [
-              "advisor",
-              "medical",
-              "regional"
-            ],
-            "pct": 17.5
-          },
-          {
-            "id": 4,
-            "size": 5,
-            "top_terms": [
-              "director",
-              "safety",
-              "associate"
-            ],
-            "pct": 12.5
+            "pct": 22.0
           },
           {
             "id": 0,
+            "size": 5,
+            "top_terms": [
+              "specialist",
+              "devices",
+              "clinical"
+            ],
+            "pct": 12.2
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "engineer",
               "field",
               "sr"
             ],
-            "pct": 7.5
+            "pct": 7.3
           }
         ]
       }
