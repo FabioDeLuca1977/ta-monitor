@@ -1,34 +1,18 @@
 {
-  "generated_at": "2026-06-19T11:07:53.569206",
+  "generated_at": "2026-06-20T09:54:50.828789",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 46,
+  "total_jobs_analyzed": 43,
   "scoring": {
-    "average": 20.0,
+    "average": 20.9,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 6,
-      "low": 0,
-      "irrelevant": 34
+      "good": 4,
+      "medium": 8,
+      "low": 1,
+      "irrelevant": 30
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs CMC Specialist",
-        "company": "Recordati",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4377177028"
-      },
-      {
-        "title": "Associate Director, Regulatory Affairs, CMC",
-        "company": "GE HealthCare",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4400288204"
-      },
       {
         "title": "Regulatory Affairs Analyst (f/m/d)",
         "company": "Axpo Group",
@@ -46,20 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4427736025"
       },
       {
-        "title": "Regulatory Affairs | Brescia",
-        "company": "Biopharmed",
+        "title": "Regulatory Affairs CMC Specialist",
+        "company": "Recordati",
         "score": 61,
         "site": "linkedin",
         "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4343985374"
+        "url": "https://www.linkedin.com/jobs/view/4377177028"
       },
       {
-        "title": "Regulatory Specialist",
-        "company": "Bespak",
+        "title": "Associate Director, Regulatory Affairs, CMC",
+        "company": "GE HealthCare",
         "score": 61,
         "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4427990387"
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4400288204"
       },
       {
         "title": "Regulatory Affairs Specialist - Energy",
@@ -78,6 +62,22 @@
         "url": "https://www.linkedin.com/jobs/view/4425799115"
       },
       {
+        "title": "Regulatory Affairs | Brescia",
+        "company": "Biopharmed",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4343985374"
+      },
+      {
+        "title": "Regulatory Specialist",
+        "company": "Bespak",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4427990387"
+      },
+      {
         "title": "Senior Specialist Regulatory Affairs",
         "company": "Abbott",
         "score": 56,
@@ -94,20 +94,28 @@
         "url": "https://www.linkedin.com/jobs/view/4430412334"
       },
       {
-        "title": "Head of Global Regulatory Affairs CMC",
-        "company": "Alfasigma group",
-        "score": 50,
-        "site": "indeed",
-        "date_posted": 1780012800000,
-        "url": "https://it.indeed.com/viewjob?jk=35f66bedfc2cb8f0"
+        "title": "Global Regulatory Affairs Consultant",
+        "company": "JSB Solutions",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
         "company": "Banca Più",
-        "score": 46,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423103963"
+      },
+      {
+        "title": "Assistenza domiciliare privata",
+        "company": "Davide Negri",
+        "score": 32,
+        "site": "indeed",
+        "date_posted": 1781827200000,
+        "url": "https://it.indeed.com/viewjob?jk=c520ef04827acf78"
       },
       {
         "title": "Italy Demand Planning Associate",
@@ -120,18 +128,10 @@
       {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 15,
+        "score": 14,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421922940"
-      },
-      {
-        "title": "Customer Quality Assurance Specialist",
-        "company": "IMA Group",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1780444800000,
-        "url": "https://www.linkedin.com/jobs/view/4412672591"
       },
       {
         "title": "ADDETTO CONTROLLO QUALITÀ TESSUTI",
@@ -180,16 +180,11 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "assurance",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
@@ -202,6 +197,11 @@
         "word": "devices",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "data": {
+        "current": 2,
+        "avg": 3.4,
+        "change_pct": -41.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 10% a 33% (+23pp)",
+      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 10.0,
-        "new_pct": 33.3
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 90% a 67% (-23pp)",
+      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 90.0,
-        "new_pct": 66.7
+        "channel": "indeed",
+        "old_pct": 33.3,
+        "new_pct": 50.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 21,
+            "id": 2,
+            "size": 20,
             "top_terms": [
               "specialist",
-              "engineer",
-              "sheq"
+              "sheq",
+              "sales"
             ],
-            "pct": 45.7
+            "pct": 46.5
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 12,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 26.1
+            "pct": 27.9
           },
           {
             "id": 3,
-            "size": 7,
+            "size": 5,
             "top_terms": [
               "assurance",
               "quality",
               "supervisor"
             ],
-            "pct": 15.2
+            "pct": 11.6
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "medical",
               "devices",
               "engineer"
             ],
-            "pct": 8.7
+            "pct": 9.3
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 2,
             "top_terms": [
               "level",
               "technical",
-              "head"
+              "ariete"
             ],
-            "pct": 4.3
+            "pct": 4.7
           }
         ]
       }

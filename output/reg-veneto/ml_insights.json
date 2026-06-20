@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-19T11:07:53.371747",
+  "generated_at": "2026-06-20T09:54:50.636766",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 12.9,
+    "average": 11.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 3,
+      "medium": 2,
       "low": 1,
-      "irrelevant": 32
+      "irrelevant": 33
     },
     "top_jobs": [
       {
@@ -32,18 +32,10 @@
       {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
-        "score": 58,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4428055088"
-      },
-      {
-        "title": "Senior quality assurance GMP",
-        "company": "Adecco",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1780012800000,
-        "url": "https://www.linkedin.com/jobs/view/4417957067"
       },
       {
         "title": "PQ Persona Qualificata",
@@ -62,9 +54,17 @@
         "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
       },
       {
+        "title": "Addetto/a informazione al pubblico in sistema di negozi coordinati",
+        "company": "Giucas",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1781740800000,
+        "url": "https://www.linkedin.com/jobs/view/4429091973"
+      },
+      {
         "title": "Quality Assurance & Auditing Manager",
         "company": "Penta - Child Health Research",
-        "score": 15,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428805774"
@@ -118,28 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4423644152"
       },
       {
-        "title": "Esperto Diritto Tributario",
-        "company": "ALMA LABORIS Business School",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1781568000000,
-        "url": "https://it.indeed.com/viewjob?jk=668faee38ba922f9"
-      },
-      {
         "title": "parrucchiera",
         "company": "Vexperience",
         "score": 10,
         "site": "indeed",
         "date_posted": 1781654400000,
         "url": "https://it.indeed.com/viewjob?jk=599323f464d405f7"
-      },
-      {
-        "title": "Specialista Analisi di Esercizio",
-        "company": "Terna",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1781568000000,
-        "url": "https://it.indeed.com/viewjob?jk=200523db4af6bf30"
       },
       {
         "title": "Impiegata/o Commerciale Telefonica B2B",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430459403"
+      },
+      {
+        "title": "Addetto al Sistema di Gestione",
+        "company": "Moltiply Group",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424190418"
+      },
+      {
+        "title": "FREELANCE Auditor ISO 13485 / Esperto Tecnico MDR 2017/745",
+        "company": "icim spa",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1751328000000,
+        "url": "https://it.indeed.com/viewjob?jk=26a452ae1e0de5aa"
       }
     ]
   },
@@ -189,7 +189,7 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "tecnico",
+        "word": "addetto",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-33%)",
+      "data": {
+        "current": 2,
+        "avg": 3.0,
+        "change_pct": -33.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 50.0
       }
     },
     {
@@ -245,37 +255,27 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 21,
+            "id": 0,
+            "size": 23,
             "top_terms": [
-              "addetto",
-              "estetista",
-              "specialista"
+              "tecnico",
+              "specialista",
+              "commerciale"
             ],
-            "pct": 55.3
+            "pct": 60.5
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 6,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 18.4
+            "pct": 15.8
           },
           {
-            "id": 0,
-            "size": 4,
-            "top_terms": [
-              "tecnico",
-              "esperto",
-              "specialist"
-            ],
-            "pct": 10.5
-          },
-          {
-            "id": 2,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "haematology",
@@ -285,12 +285,22 @@
             "pct": 10.5
           },
           {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "addetto",
+              "sistema",
+              "manager"
+            ],
+            "pct": 7.9
+          },
+          {
             "id": 4,
             "size": 2,
             "top_terms": [
+              "estetista",
               "utensili",
-              "cnc",
-              "operatore"
+              "toscana"
             ],
             "pct": 5.3
           }
