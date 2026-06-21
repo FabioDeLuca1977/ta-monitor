@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-20T09:54:50.536226",
+  "generated_at": "2026-06-21T10:28:48.893676",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 38.1,
+    "average": 38.2,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 23,
-      "low": 0,
-      "irrelevant": 12
+      "good": 3,
+      "medium": 25,
+      "low": 1,
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -30,36 +30,12 @@
         "url": "https://www.linkedin.com/jobs/view/4418920883"
       },
       {
-        "title": "Medical Science Liaison",
-        "company": "Syneos Health Commercial Solutions",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4428416810"
-      },
-      {
-        "title": "Medical Science Liaison-HTN-Beijing",
-        "company": "AstraZeneca",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4416851042"
-      },
-      {
         "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
         "company": "Moderna",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4369871593"
-      },
-      {
-        "title": "Medical Director, Medical Safety",
-        "company": "BioSpace",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1781308800000,
-        "url": "https://www.linkedin.com/jobs/view/4427907447"
       },
       {
         "title": "(Sr.) Country Medical Manager (GI)",
@@ -72,10 +48,42 @@
       {
         "title": "Medical Advisor",
         "company": "Ferring Pharmaceuticals",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417244137"
+      },
+      {
+        "title": "Medical Science Liaison",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4428416810"
+      },
+      {
+        "title": "Medical Science Liaison-HTN-Beijing",
+        "company": "AstraZeneca",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4416851042"
+      },
+      {
+        "title": "Medical Director, Medical Safety",
+        "company": "BioSpace",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1781308800000,
+        "url": "https://www.linkedin.com/jobs/view/4427907447"
+      },
+      {
+        "title": "IVD Senior Regional Scientific Manager, Thailand",
+        "company": "Mindray",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4382286519"
       },
       {
         "title": "Medical Advisor Internal Medicine",
@@ -84,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416696605"
-      },
-      {
-        "title": "IVD Senior Regional Scientific Manager, Thailand",
-        "company": "Mindray",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4382286519"
       },
       {
         "title": "Medical Science Liaison-Neuroimmunology, South Central",
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4430423793"
       },
       {
+        "title": "Pharmacovigilance Services Assoc Manager",
+        "company": "Accenture in India",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4351361555"
+      },
+      {
         "title": "Medical Science Liaison, Immunology - NY",
         "company": "Galderma",
         "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4429984383"
-      },
-      {
-        "title": "Pharmacovigilance Services Assoc Manager",
-        "company": "Accenture in India",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4351361555"
       },
       {
         "title": "Senior Director, Safety and Pharmacovigilance (PV)",
@@ -253,27 +253,17 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "medical",
-              "advisor",
-              "affairs"
-            ],
-            "pct": 27.5
-          },
-          {
             "id": 4,
-            "size": 10,
+            "size": 16,
             "top_terms": [
-              "manager",
+              "specialist",
               "senior",
-              "level"
+              "pharmacovigilance"
             ],
-            "pct": 25.0
+            "pct": 40.0
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 9,
             "top_terms": [
               "liaison",
@@ -283,17 +273,27 @@
             "pct": 22.5
           },
           {
-            "id": 0,
-            "size": 7,
+            "id": 2,
+            "size": 8,
             "top_terms": [
-              "specialist",
-              "devices",
-              "graduate"
+              "medical",
+              "advisor",
+              "regional"
             ],
-            "pct": 17.5
+            "pct": 20.0
           },
           {
-            "id": 2,
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "corporate"
+            ],
+            "pct": 10.0
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "engineer",
