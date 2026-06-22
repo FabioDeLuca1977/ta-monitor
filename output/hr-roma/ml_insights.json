@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-21T10:28:48.616490",
+  "generated_at": "2026-06-22T12:34:27.626628",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 215,
+  "total_jobs_analyzed": 213,
   "scoring": {
-    "average": 22.0,
+    "average": 21.8,
     "distribution": {
       "excellent": 0,
-      "good": 12,
-      "medium": 30,
-      "low": 63,
+      "good": 11,
+      "medium": 31,
+      "low": 61,
       "irrelevant": 110
     },
     "top_jobs": [
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426840945"
       },
       {
-        "title": "HR CONSULTANT - ICT SPECIALIST",
-        "company": "Alti Profili",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4425770175"
-      },
-      {
         "title": "HR Manager",
         "company": "Grafton Recruitment",
         "score": 66,
@@ -54,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4425740072"
       },
       {
+        "title": "HR CONSULTANT - ICT SPECIALIST",
+        "company": "Alti Profili",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4425770175"
+      },
+      {
         "title": "HR Manager",
         "company": "Hays",
         "score": 66,
@@ -68,14 +68,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411392513"
-      },
-      {
-        "title": "HR Specialist- Organizzazione ,People Development & Industrial Relations",
-        "company": "Ecosfera Servizi S.p.A.",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1780617600000,
-        "url": "https://www.linkedin.com/jobs/view/4420716126"
       },
       {
         "title": "HR RECRUITER",
@@ -134,14 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4427838966"
       },
       {
-        "title": "HR Consultant | Adecco Portugal | Alverca",
-        "company": "The Adecco Group",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426730608"
-      },
-      {
         "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
         "company": "SRS Servizi di Ricerche e Sviluppo S.r.l.",
         "score": 57,
@@ -158,12 +142,28 @@
         "url": "https://www.linkedin.com/jobs/view/4423380265"
       },
       {
+        "title": "HR Consultant | Adecco Portugal | Alverca",
+        "company": "The Adecco Group",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426730608"
+      },
+      {
         "title": "Talent Acquisition Intern L.68/99 Categoria Protetta",
         "company": "Alkemy Group",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428691909"
+      },
+      {
+        "title": "HR Recruiter",
+        "company": "Il Metodo by Effetto Domino",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1780963200000,
+        "url": "https://it.indeed.com/viewjob?jk=b5d59a796df2e838"
       },
       {
         "title": "HR Business Partner, EU One PXT",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 35,
-        "reason": "Appare 35x in annunci a basso score"
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -233,27 +233,38 @@
       "message": "Volume in calo: 3 annunci ultimo scan vs media 15 (-80%)",
       "data": {
         "current": 3,
-        "avg": 15.1,
-        "change_pct": -80.2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 AZIENDA SANITARIA LOCALE DI FROSINONE: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "AZIENDA SANITARIA LOCALE DI FROSINONE",
-        "count": 2
+        "avg": 15.0,
+        "change_pct": -80.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
+        "new": 3,
         "total": 3,
-        "pct": 66.7
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -263,54 +274,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 114,
+            "id": 2,
+            "size": 119,
             "top_terms": [
-              "hr",
-              "recruiter",
-              "junior"
+              "specialist",
+              "manager",
+              "roma"
             ],
-            "pct": 53.0
+            "pct": 55.9
           },
           {
             "id": 1,
-            "size": 43,
+            "size": 42,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 20.0
-          },
-          {
-            "id": 2,
-            "size": 21,
-            "top_terms": [
-              "selezione",
-              "addetto",
-              "personale"
-            ],
-            "pct": 9.8
+            "pct": 19.7
           },
           {
             "id": 3,
-            "size": 20,
+            "size": 27,
             "top_terms": [
-              "specialist",
-              "people",
-              "culture"
+              "hr",
+              "recruiter",
+              "manager"
             ],
-            "pct": 9.3
+            "pct": 12.7
           },
           {
             "id": 4,
-            "size": 17,
+            "size": 20,
             "top_terms": [
-              "manager",
-              "hr",
-              "account"
+              "addetto",
+              "selezione",
+              "personale"
             ],
-            "pct": 7.9
+            "pct": 9.4
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "tecnico",
+              "competenze",
+              "assistente"
+            ],
+            "pct": 2.3
           }
         ]
       }

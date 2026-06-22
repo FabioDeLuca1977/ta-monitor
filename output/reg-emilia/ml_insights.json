@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T10:28:49.162267",
+  "generated_at": "2026-06-22T12:34:28.182553",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 20.5,
+    "average": 20.1,
     "distribution": {
       "excellent": 0,
       "good": 3,
@@ -118,20 +118,20 @@
         "url": "https://it.indeed.com/viewjob?jk=c520ef04827acf78"
       },
       {
-        "title": "Italy Demand Planning Associate",
-        "company": "Menarini",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1781740800000,
-        "url": "https://it.indeed.com/viewjob?jk=0cb5330d2b426ca4"
-      },
-      {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 14,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421922940"
+      },
+      {
+        "title": "Italy Demand Planning Associate",
+        "company": "Menarini",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1781740800000,
+        "url": "https://it.indeed.com/viewjob?jk=0cb5330d2b426ca4"
       },
       {
         "title": "Quality Assurance Stageur",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=63cb3bed3aa0a18c"
       },
       {
-        "title": "SHEQ Specialist (f/m/d)",
-        "company": "Atlas Copco Group",
-        "score": 10,
+        "title": "R&D MANAGER - ARIETE",
+        "company": "De'Longhi",
+        "score": 8,
         "site": "indeed",
-        "date_posted": 1781395200000,
-        "url": "https://it.indeed.com/viewjob?jk=285c882eb9e5fd3a"
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=887715d433cfac19"
       }
     ]
   },
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
       "data": {
         "current": 1,
-        "avg": 3.3,
-        "change_pct": -69.8
+        "avg": 3.6,
+        "change_pct": -72.1
       }
     },
     {
@@ -246,26 +246,26 @@
         "clusters": [
           {
             "id": 1,
-            "size": 20,
+            "size": 21,
             "top_terms": [
               "specialist",
               "sheq",
               "sales"
             ],
-            "pct": 45.5
-          },
-          {
-            "id": 0,
-            "size": 10,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 22.7
+            "pct": 47.7
           },
           {
             "id": 2,
+            "size": 11,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 25.0
+          },
+          {
+            "id": 3,
             "size": 6,
             "top_terms": [
               "assurance",
@@ -275,17 +275,17 @@
             "pct": 13.6
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 0,
+            "size": 4,
             "top_terms": [
-              "engineer",
               "devices",
-              "medical"
+              "medical",
+              "engineer"
             ],
-            "pct": 13.6
+            "pct": 9.1
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 2,
             "top_terms": [
               "level",

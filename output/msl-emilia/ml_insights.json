@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T10:28:48.893676",
+  "generated_at": "2026-06-22T12:34:27.908523",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 38.2,
+    "average": 38.0,
     "distribution": {
       "excellent": 0,
       "good": 3,
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4429984383"
       },
       {
-        "title": "Senior Director, Safety and Pharmacovigilance (PV)",
-        "company": "Artiva Biotherapeutics",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1781395200000,
-        "url": "https://www.linkedin.com/jobs/view/4366261905"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
         "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
+      },
+      {
+        "title": "Medical Science Liaison, Hematology-Oncology (12 month contract) - BC",
+        "company": "GSK",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4423639699"
       }
     ]
   },
@@ -209,11 +209,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-82%)",
       "data": {
         "current": 1,
-        "avg": 4.9,
-        "change_pct": -79.5
+        "avg": 5.6,
+        "change_pct": -82.1
       }
     },
     {
