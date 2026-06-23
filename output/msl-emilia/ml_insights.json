@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-22T12:34:27.908523",
+  "generated_at": "2026-06-23T10:16:23.244007",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 38.0,
+    "average": 37.1,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 25,
-      "low": 1,
-      "irrelevant": 11
+      "good": 2,
+      "medium": 26,
+      "low": 0,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -22,14 +22,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426804321"
       },
       {
-        "title": "Senior Medical Advisor",
-        "company": "MSD",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4418920883"
-      },
-      {
         "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
         "company": "Moderna",
         "score": 60,
@@ -38,20 +30,12 @@
         "url": "https://www.linkedin.com/jobs/view/4369871593"
       },
       {
-        "title": "(Sr.) Country Medical Manager (GI)",
-        "company": "Roche",
-        "score": 58,
+        "title": "Senior Medical Advisor",
+        "company": "MSD",
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4379008263"
-      },
-      {
-        "title": "Medical Advisor",
-        "company": "Ferring Pharmaceuticals",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4417244137"
+        "url": "https://www.linkedin.com/jobs/view/4418920883"
       },
       {
         "title": "Medical Science Liaison",
@@ -62,9 +46,17 @@
         "url": "https://www.linkedin.com/jobs/view/4428416810"
       },
       {
+        "title": "Medical Advisor",
+        "company": "Ferring Pharmaceuticals",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417244137"
+      },
+      {
         "title": "Medical Science Liaison-HTN-Beijing",
         "company": "AstraZeneca",
-        "score": 57,
+        "score": 55,
         "site": "linkedin",
         "date_posted": 1781654400000,
         "url": "https://www.linkedin.com/jobs/view/4416851042"
@@ -78,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4427907447"
       },
       {
-        "title": "IVD Senior Regional Scientific Manager, Thailand",
-        "company": "Mindray",
+        "title": "(Sr.) Country Medical Manager (GI)",
+        "company": "Roche",
         "score": 53,
         "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4382286519"
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4379008263"
       },
       {
         "title": "Medical Advisor Internal Medicine",
@@ -92,6 +84,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4416696605"
+      },
+      {
+        "title": "IVD Senior Regional Scientific Manager, Thailand",
+        "company": "Mindray",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4382286519"
       },
       {
         "title": "Medical Science Liaison-Neuroimmunology, South Central",
@@ -142,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4430423793"
       },
       {
-        "title": "Pharmacovigilance Services Assoc Manager",
-        "company": "Accenture in India",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4351361555"
-      },
-      {
         "title": "Medical Science Liaison, Immunology - NY",
         "company": "Galderma",
         "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4429984383"
+      },
+      {
+        "title": "Pharmacovigilance Services Assoc Manager",
+        "company": "Accenture in India",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4351361555"
       },
       {
         "title": "Regulatory Affairs Specialist - Energy",
@@ -209,11 +209,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-82%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-85%)",
       "data": {
         "current": 1,
-        "avg": 5.6,
-        "change_pct": -82.1
+        "avg": 6.5,
+        "change_pct": -84.6
       }
     },
     {
@@ -229,21 +229,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 50.0,
         "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -253,47 +253,47 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 16,
-            "top_terms": [
-              "specialist",
-              "senior",
-              "pharmacovigilance"
-            ],
-            "pct": 40.0
-          },
-          {
-            "id": 1,
-            "size": 9,
-            "top_terms": [
-              "liaison",
-              "science",
-              "medical"
-            ],
-            "pct": 22.5
-          },
-          {
-            "id": 2,
-            "size": 8,
+            "id": 0,
+            "size": 21,
             "top_terms": [
               "medical",
-              "advisor",
-              "regional"
+              "manager",
+              "director"
+            ],
+            "pct": 52.5
+          },
+          {
+            "id": 4,
+            "size": 8,
+            "top_terms": [
+              "science",
+              "liaison",
+              "medical"
             ],
             "pct": 20.0
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 4,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "corporate"
+              "advisor",
+              "medical",
+              "senior"
             ],
             "pct": 10.0
           },
           {
             "id": 3,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 10.0
+          },
+          {
+            "id": 2,
             "size": 3,
             "top_terms": [
               "engineer",

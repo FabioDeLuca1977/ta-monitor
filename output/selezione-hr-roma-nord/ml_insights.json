@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-22T12:34:27.729484",
+  "generated_at": "2026-06-23T10:16:23.045896",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 213,
+  "total_jobs_analyzed": 212,
   "scoring": {
-    "average": 22.5,
+    "average": 21.8,
     "distribution": {
       "excellent": 0,
       "good": 12,
-      "medium": 41,
-      "low": 50,
-      "irrelevant": 110
+      "medium": 38,
+      "low": 51,
+      "irrelevant": 111
     },
     "top_jobs": [
-      {
-        "title": "Recruiter e HR Specialist",
-        "company": "LevelUp Distribuzione Estetica",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1781481600000,
-        "url": "https://it.indeed.com/viewjob?jk=1460e9868a5fee5a"
-      },
       {
         "title": "HR Generalist",
         "company": "VESCOGIARETTA Group",
@@ -54,22 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4425740072"
       },
       {
-        "title": "Talent Acquisition Lead",
-        "company": "Eneba",
-        "score": 66,
-        "site": "indeed",
-        "date_posted": 1781654400000,
-        "url": "https://it.indeed.com/viewjob?jk=1d6345c3c9752ada"
-      },
-      {
-        "title": "HR CONSULTANT - ICT SPECIALIST",
-        "company": "Alti Profili",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4425770175"
-      },
-      {
         "title": "HR Manager",
         "company": "Hays",
         "score": 66,
@@ -86,6 +62,22 @@
         "url": "https://www.linkedin.com/jobs/view/4428250950"
       },
       {
+        "title": "Talent Acquisition Lead",
+        "company": "Eneba",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1781654400000,
+        "url": "https://it.indeed.com/viewjob?jk=1d6345c3c9752ada"
+      },
+      {
+        "title": "Recruiter e HR Specialist",
+        "company": "LevelUp Distribuzione Estetica",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1781481600000,
+        "url": "https://it.indeed.com/viewjob?jk=1460e9868a5fee5a"
+      },
+      {
         "title": "Talent Acquisition Intern L.68/99 Categoria Protetta",
         "company": "Alkemy Group",
         "score": 62,
@@ -94,12 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4428691909"
       },
       {
-        "title": "HR RECRUITER",
-        "company": "LIHOS",
-        "score": 60,
+        "title": "HR Business Partner Centro Italia",
+        "company": "Würth Group",
+        "score": 62,
         "site": "indeed",
+        "date_posted": 1782086400000,
+        "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
+      },
+      {
+        "title": "HR CONSULTANT - ICT SPECIALIST",
+        "company": "Alti Profili",
+        "score": 61,
+        "site": "linkedin",
         "date_posted": 1781481600000,
-        "url": "https://it.indeed.com/viewjob?jk=b5fc02c03279e974"
+        "url": "https://www.linkedin.com/jobs/view/4425770175"
       },
       {
         "title": "HR Business Partner",
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4429925865"
       },
       {
-        "title": "HR Recruiter",
-        "company": "Talenti - Agenzia per il lavoro",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1780531200000,
-        "url": "https://www.linkedin.com/jobs/view/4423380265"
-      },
-      {
         "title": "HR Consultant | Adecco Portugal | Alverca",
         "company": "The Adecco Group",
         "score": 56,
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4426730608"
       },
       {
-        "title": "Addetto/a selezione personale per settore edilizia",
-        "company": "CAM",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1781481600000,
-        "url": "https://it.indeed.com/viewjob?jk=7e397324518b0aa3"
-      },
-      {
         "title": "HR Recruiter",
         "company": "Il Metodo by Effetto Domino",
         "score": 55,
         "site": "indeed",
         "date_posted": 1780963200000,
         "url": "https://it.indeed.com/viewjob?jk=b5d59a796df2e838"
+      },
+      {
+        "title": "HR Business Partner, EU One PXT",
+        "company": "Amazon",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400240730"
+      },
+      {
+        "title": "HR RECRUITER",
+        "company": "LIHOS",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1781481600000,
+        "url": "https://it.indeed.com/viewjob?jk=b5fc02c03279e974"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "risorse",
+        "count": 35,
+        "reason": "Appare 35x in annunci a basso score"
+      },
+      {
+        "word": "umane",
         "count": 34,
         "reason": "Appare 34x in annunci a basso score"
       },
       {
-        "word": "umane",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
+        "word": "addetto",
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
-        "word": "addetto",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "word": "impiegato",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "roma",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "settore",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -214,6 +214,12 @@
       "confidence": 40
     },
     {
+      "keyword": "call center",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "junior hr",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -224,47 +230,53 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "center",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 15 (-80%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-52%)",
       "data": {
-        "current": 3,
-        "avg": 15.0,
-        "change_pct": -80.0
+        "current": 7,
+        "avg": 14.6,
+        "change_pct": -52.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
       "data": {
-        "new": 3,
-        "total": 3,
-        "pct": 100.0
+        "new": 4,
+        "total": 7,
+        "pct": 57.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 indeed: quota passata da 100% a 57% (-43pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 57.1
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 43% (+43pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 42.9
       }
     },
     {
@@ -274,27 +286,27 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 119,
+            "id": 0,
+            "size": 120,
             "top_terms": [
               "specialist",
-              "manager",
-              "roma"
+              "addetto",
+              "personale"
             ],
-            "pct": 55.9
+            "pct": 56.6
           },
           {
-            "id": 1,
-            "size": 42,
+            "id": 2,
+            "size": 43,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 19.7
+            "pct": 20.3
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 27,
             "top_terms": [
               "hr",
@@ -305,23 +317,23 @@
           },
           {
             "id": 4,
-            "size": 20,
+            "size": 12,
             "top_terms": [
-              "addetto",
-              "selezione",
-              "personale"
+              "roma",
+              "direttore",
+              "sales"
             ],
-            "pct": 9.4
+            "pct": 5.7
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 3,
+            "size": 10,
             "top_terms": [
-              "tecnico",
-              "competenze",
-              "assistente"
+              "senior",
+              "hostess",
+              "host"
             ],
-            "pct": 2.3
+            "pct": 4.7
           }
         ]
       }

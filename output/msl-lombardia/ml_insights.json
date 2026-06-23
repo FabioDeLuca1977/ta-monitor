@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-22T12:34:27.875223",
+  "generated_at": "2026-06-23T10:16:23.204597",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 238,
+  "total_jobs_analyzed": 239,
   "scoring": {
-    "average": 35.7,
+    "average": 36.1,
     "distribution": {
       "excellent": 0,
       "good": 15,
-      "medium": 132,
-      "low": 13,
-      "irrelevant": 78
+      "medium": 135,
+      "low": 14,
+      "irrelevant": 75
     },
     "top_jobs": [
       {
@@ -110,20 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4429971282"
       },
       {
-        "title": "Medical Affairs Manager - Italy",
-        "company": "Chaberton Professionals",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4428537346"
-      },
-      {
         "title": "Medical Advisor Biologics - Dermatology",
         "company": "Galderma",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1780617600000,
-        "url": "https://www.linkedin.com/jobs/view/4414626829"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4427990295"
       },
       {
         "title": "Medical Advisor--IMMU",
@@ -132,6 +124,14 @@
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4414044585"
+      },
+      {
+        "title": "Medical Affairs Manager - Italy",
+        "company": "Chaberton Professionals",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4428537346"
       },
       {
         "title": "Medical Science Liaison",
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4416851042"
       },
       {
-        "title": "Medical Information Client Manager / Team Lead",
-        "company": "EVERSANA",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4429157191"
-      },
-      {
-        "title": "Medical Science Liaison / Senior Medical Science Liaison - United Kingdom",
-        "company": "Beeline Medicines",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4427746295"
-      },
-      {
         "title": "Oncology Medical Science Liaison/Sr Medical Science Liaison - Upstate New York/Connecticut",
         "company": "AstraZeneca",
         "score": 59,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4428028951"
+      },
+      {
+        "title": "Medical Science Liaison/Sr. MSL GU Oncology",
+        "company": "Astellas Pharma",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1781395200000,
+        "url": "https://www.linkedin.com/jobs/view/4409541331"
+      },
+      {
+        "title": "Sr Manager, Medical Science Liaison - LOMBARDIA EST / TRIVENETO",
+        "company": "Alnylam Pharmaceuticals",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1780531200000,
+        "url": "https://www.linkedin.com/jobs/view/4423576208"
       }
     ]
   },
@@ -179,27 +179,27 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "clinical",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "director",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "lead",
+        "word": "project",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "project",
+        "word": "clinical",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "director",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "lead",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "market",
+        "word": "associate",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -236,47 +236,53 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "international",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 17 (-76%)",
+      "severity": "medium",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 16 (-45%)",
       "data": {
-        "current": 4,
-        "avg": 16.7,
-        "change_pct": -76.1
+        "current": 9,
+        "avg": 16.4,
+        "change_pct": -45.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
       "data": {
         "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "total": 9,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 25% (-42pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 75% (+42pp)",
+      "message": "📡 indeed: quota passata da 75% a 44% (-31pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 44.4
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 25% a 56% (+31pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 25.0,
+        "new_pct": 55.6
       }
     },
     {
@@ -286,24 +292,34 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 86,
+            "id": 0,
+            "size": 99,
             "top_terms": [
-              "lead",
-              "senior",
-              "specialist"
+              "clinical",
+              "specialist",
+              "associate"
             ],
-            "pct": 36.1
+            "pct": 41.4
           },
           {
-            "id": 1,
-            "size": 61,
+            "id": 4,
+            "size": 42,
             "top_terms": [
               "manager",
               "medical",
-              "affairs"
+              "project"
             ],
-            "pct": 25.6
+            "pct": 17.6
+          },
+          {
+            "id": 2,
+            "size": 40,
+            "top_terms": [
+              "medical",
+              "director",
+              "advisor"
+            ],
+            "pct": 16.7
           },
           {
             "id": 3,
@@ -313,27 +329,17 @@
               "affairs",
               "specialist"
             ],
-            "pct": 14.3
+            "pct": 14.2
           },
           {
-            "id": 0,
-            "size": 33,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 13.9
-          },
-          {
-            "id": 4,
+            "id": 1,
             "size": 24,
             "top_terms": [
               "liaison",
               "science",
               "medical"
             ],
-            "pct": 10.1
+            "pct": 10.0
           }
         ]
       }
