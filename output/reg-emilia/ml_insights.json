@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-23T10:16:23.548540",
+  "generated_at": "2026-06-24T10:12:15.482650",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 48,
   "scoring": {
-    "average": 19.0,
+    "average": 18.9,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 9,
+      "good": 2,
+      "medium": 10,
       "low": 1,
       "irrelevant": 35
     },
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4377177028"
       },
       {
-        "title": "Associate Director, Regulatory Affairs, CMC",
-        "company": "GE HealthCare",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4400288204"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
         "score": 58,
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4343985374"
+      },
+      {
+        "title": "Associate Director, Regulatory Affairs, CMC",
+        "company": "GE HealthCare",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4400288204"
       },
       {
         "title": "Regulatory Specialist",
@@ -122,7 +122,7 @@
         "company": "PQE Group",
         "score": 15,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1780876800000,
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
@@ -246,33 +246,33 @@
         "clusters": [
           {
             "id": 2,
-            "size": 23,
+            "size": 24,
             "top_terms": [
               "specialist",
-              "sheq",
-              "sales"
+              "level",
+              "sheq"
             ],
-            "pct": 47.9
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 22.9
+            "pct": 50.0
           },
           {
             "id": 3,
-            "size": 8,
+            "size": 10,
             "top_terms": [
-              "quality",
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 20.8
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
               "assurance",
+              "quality",
               "stageur"
             ],
-            "pct": 16.7
+            "pct": 14.6
           },
           {
             "id": 4,
@@ -285,14 +285,14 @@
             "pct": 8.3
           },
           {
-            "id": 0,
-            "size": 2,
+            "id": 1,
+            "size": 3,
             "top_terms": [
-              "level",
-              "technical",
-              "supervisor"
+              "regulatory",
+              "specialist",
+              "compliance"
             ],
-            "pct": 4.2
+            "pct": 6.2
           }
         ]
       }

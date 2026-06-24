@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-23T10:16:23.300141",
+  "generated_at": "2026-06-24T10:12:15.237017",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 81,
+  "total_jobs_analyzed": 85,
   "scoring": {
-    "average": 36.3,
+    "average": 35.8,
     "distribution": {
       "excellent": 0,
       "good": 5,
-      "medium": 47,
+      "medium": 49,
       "low": 3,
-      "irrelevant": 26
+      "irrelevant": 28
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Future Medical Affairs Leadership Opportunities  Join Our Medical Affairs Talent Leaders Pipeline",
         "company": "BioSpace",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430191347"
@@ -62,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4423570263"
       },
       {
+        "title": "Medical Advisor",
+        "company": "Cadigroup",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432548580"
+      },
+      {
         "title": "Medical Affairs Manager, Italy",
         "company": "Johnson & Johnson MedTech",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1780876800000,
         "url": "https://www.linkedin.com/jobs/view/4425424534"
-      },
-      {
-        "title": "Medical Director",
-        "company": "Adecco",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4426829097"
       },
       {
         "title": "Associate Medical Director",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4427652222"
       },
       {
-        "title": "Group Leader Medical Affairs (Multiple Sclerosis)",
-        "company": "Roche",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4410254172"
-      },
-      {
         "title": "Executive Director, Medical Affairs",
         "company": "Premier Research",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4427541541"
+      },
+      {
+        "title": "MCO Medical Lead - Adult Vaccines",
+        "company": "Sanofi",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4419465176"
       }
     ]
   },
@@ -180,6 +180,11 @@
     "add_blacklist": [
       {
         "word": "engineer",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "senior",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
@@ -197,27 +202,22 @@
         "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "stage",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
+      "keyword": "director medical",
+      "frequency": 4,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
+    },
+    {
       "keyword": "italy",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
-    },
-    {
-      "keyword": "director medical",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
     },
     {
       "keyword": "manager italy",
@@ -236,47 +236,43 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "associate director",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
-      "data": {
-        "current": 1,
-        "avg": 6.7,
-        "change_pct": -85.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 4,
+        "total": 5,
+        "pct": 80.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 100% a 20% (-80pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 20.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 80% (+80pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 80.0
       }
     },
     {
@@ -286,54 +282,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 28,
+            "id": 4,
+            "size": 27,
             "top_terms": [
-              "lead",
-              "specialist",
-              "clinical"
+              "engineer",
+              "advisor",
+              "msl"
             ],
-            "pct": 34.6
+            "pct": 31.8
+          },
+          {
+            "id": 0,
+            "size": 23,
+            "top_terms": [
+              "medical",
+              "director",
+              "lead"
+            ],
+            "pct": 27.1
           },
           {
             "id": 3,
-            "size": 15,
-            "top_terms": [
-              "director",
-              "medical",
-              "associate"
-            ],
-            "pct": 18.5
-          },
-          {
-            "id": 4,
-            "size": 14,
-            "top_terms": [
-              "medical",
-              "engineer",
-              "field"
-            ],
-            "pct": 17.3
-          },
-          {
-            "id": 1,
             "size": 13,
             "top_terms": [
               "affairs",
               "medical",
               "director"
             ],
-            "pct": 16.0
+            "pct": 15.3
+          },
+          {
+            "id": 1,
+            "size": 11,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "device"
+            ],
+            "pct": 12.9
           },
           {
             "id": 2,
             "size": 11,
             "top_terms": [
               "manager",
-              "access",
-              "market"
+              "medical",
+              "europe"
             ],
-            "pct": 13.6
+            "pct": 12.9
           }
         ]
       }

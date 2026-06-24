@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-23T10:16:22.937529",
+  "generated_at": "2026-06-24T10:12:14.875741",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 212,
+  "total_jobs_analyzed": 213,
   "scoring": {
-    "average": 21.1,
+    "average": 20.8,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 30,
+      "good": 12,
+      "medium": 29,
       "low": 60,
-      "irrelevant": 111
+      "irrelevant": 112
     },
     "top_jobs": [
-      {
-        "title": "HR Generalist",
-        "company": "VESCOGIARETTA Group",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4426840945"
-      },
       {
         "title": "HR Manager",
         "company": "Grafton Recruitment",
@@ -46,6 +38,14 @@
         "url": "https://www.linkedin.com/jobs/view/4425304795"
       },
       {
+        "title": "JUNIOR HR GENERALIST",
+        "company": "BCUBE SPA",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=070f122fc19d49a1"
+      },
+      {
         "title": "Recruiter e HR Specialist",
         "company": "LevelUp Distribuzione Estetica",
         "score": 63,
@@ -54,12 +54,12 @@
         "url": "https://it.indeed.com/viewjob?jk=1460e9868a5fee5a"
       },
       {
-        "title": "HR Business Partner Centro Italia",
-        "company": "Würth Group",
+        "title": "HR Generalist",
+        "company": "VESCOGIARETTA Group",
         "score": 62,
-        "site": "indeed",
-        "date_posted": 1782086400000,
-        "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4426840945"
       },
       {
         "title": "HR CONSULTANT - ICT SPECIALIST",
@@ -76,6 +76,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411392513"
+      },
+      {
+        "title": "HR Business Partner Centro Italia",
+        "company": "Würth Group",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1782086400000,
+        "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
       },
       {
         "title": "Talent Acquisition Lead",
@@ -118,14 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4427838966"
       },
       {
-        "title": "HR Consultant | Adecco Portugal | Alverca",
-        "company": "The Adecco Group",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426730608"
-      },
-      {
         "title": "METODO SPA - HR RECRUITER - ROMA EST",
         "company": "METODO SPA",
         "score": 57,
@@ -134,12 +134,12 @@
         "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
       },
       {
-        "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
-        "company": "SRS Servizi di Ricerche e Sviluppo S.r.l.",
-        "score": 57,
+        "title": "HR Consultant | Adecco Portugal | Alverca",
+        "company": "The Adecco Group",
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429925865"
+        "url": "https://www.linkedin.com/jobs/view/4426730608"
       },
       {
         "title": "Talent Acquisition Intern L.68/99 Categoria Protetta",
@@ -148,6 +148,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428691909"
+      },
+      {
+        "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
+        "company": "SRS Servizi di Ricerche e Sviluppo S.r.l.",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429925865"
       },
       {
         "title": "HR Recruiter",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4400240730"
-      },
-      {
-        "title": "HR RECRUITER",
-        "company": "LIHOS",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1781481600000,
-        "url": "https://it.indeed.com/viewjob?jk=b5fc02c03279e974"
       }
     ]
   },
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "risorse",
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
+      },
+      {
+        "word": "umane",
         "count": 35,
         "reason": "Appare 35x in annunci a basso score"
       },
       {
-        "word": "umane",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
-      },
-      {
         "word": "addetto",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "impiegato",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "roma",
@@ -209,62 +209,62 @@
   "keyword_recommendations": [
     {
       "keyword": "junior hr",
-      "frequency": 2,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 45
+    },
+    {
+      "keyword": "junior",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
       "keyword": "categoria protetta",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-52%)",
+      "severity": "medium",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 15 (-38%)",
       "data": {
-        "current": 7,
+        "current": 9,
         "avg": 14.6,
-        "change_pct": -52.2
+        "change_pct": -38.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
+      "message": "📊 Ultimo scan: 4/9 annunci da aziende nuove (44.4%)",
       "data": {
         "new": 4,
-        "total": 7,
-        "pct": 57.1
+        "total": 9,
+        "pct": 44.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 57% (-43pp)",
+      "message": "📡 indeed: quota passata da 57% a 100% (+43pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 57.1
+        "old_pct": 57.1,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 43% (+43pp)",
+      "message": "📡 linkedin: quota passata da 43% a 0% (-43pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 42.9
+        "old_pct": 42.9,
+        "new_pct": 0.0
       }
     },
     {
@@ -274,54 +274,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 120,
+            "id": 1,
+            "size": 119,
             "top_terms": [
-              "specialist",
-              "addetto",
-              "personale"
+              "hr",
+              "manager",
+              "roma"
             ],
-            "pct": 56.6
+            "pct": 55.9
           },
           {
-            "id": 2,
-            "size": 43,
+            "id": 4,
+            "size": 42,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 20.3
+            "pct": 19.7
           },
           {
-            "id": 1,
-            "size": 27,
+            "id": 0,
+            "size": 20,
             "top_terms": [
+              "addetto",
+              "personale",
+              "selezione"
+            ],
+            "pct": 9.4
+          },
+          {
+            "id": 2,
+            "size": 16,
+            "top_terms": [
+              "junior",
               "hr",
-              "recruiter",
-              "manager"
+              "generalist"
             ],
-            "pct": 12.7
-          },
-          {
-            "id": 4,
-            "size": 12,
-            "top_terms": [
-              "roma",
-              "direttore",
-              "sales"
-            ],
-            "pct": 5.7
+            "pct": 7.5
           },
           {
             "id": 3,
-            "size": 10,
+            "size": 16,
             "top_terms": [
-              "senior",
-              "hostess",
-              "host"
+              "specialist",
+              "hr",
+              "culture"
             ],
-            "pct": 4.7
+            "pct": 7.5
           }
         ]
       }

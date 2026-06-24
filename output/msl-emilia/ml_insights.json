@@ -1,38 +1,30 @@
 {
-  "generated_at": "2026-06-23T10:16:23.244007",
+  "generated_at": "2026-06-24T10:12:15.179532",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 40,
+  "total_jobs_analyzed": 39,
   "scoring": {
-    "average": 37.1,
+    "average": 36.8,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 26,
+      "good": 0,
+      "medium": 28,
       "low": 0,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
       {
         "title": "Medical Scientific Liaison (MSL) - Oncology",
         "company": "Abbott",
-        "score": 64,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4426804321"
       },
       {
-        "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
-        "company": "Moderna",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4369871593"
-      },
-      {
         "title": "Senior Medical Advisor",
         "company": "MSD",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4418920883"
@@ -54,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4417244137"
       },
       {
-        "title": "Medical Science Liaison-HTN-Beijing",
-        "company": "AstraZeneca",
-        "score": 55,
+        "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
+        "company": "Moderna",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4416851042"
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4369871593"
       },
       {
         "title": "Medical Director, Medical Safety",
@@ -68,6 +60,14 @@
         "site": "linkedin",
         "date_posted": 1781308800000,
         "url": "https://www.linkedin.com/jobs/view/4427907447"
+      },
+      {
+        "title": "Medical Science Liaison-HTN-Beijing",
+        "company": "AstraZeneca",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4416851042"
       },
       {
         "title": "(Sr.) Country Medical Manager (GI)",
@@ -86,52 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4416696605"
       },
       {
-        "title": "IVD Senior Regional Scientific Manager, Thailand",
-        "company": "Mindray",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4382286519"
-      },
-      {
-        "title": "Medical Science Liaison-Neuroimmunology, South Central",
-        "company": "Johnson & Johnson Innovative Medicine",
+        "title": "Scientific Advisor",
+        "company": "Adecco",
         "score": 51,
         "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4429556192"
-      },
-      {
-        "title": "Medical Science Liaison, Endocrinology, (Los Angeles OR San Diego)",
-        "company": "Recordati Rare Diseases North America",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4409448602"
-      },
-      {
-        "title": "Medical Science Liaison,  Respiratory - Georgia (GA, AL, MS, TN)",
-        "company": "GSK",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4426843836"
-      },
-      {
-        "title": "Associate Director, Safety and Pharmacovigilance",
-        "company": "Kyverna Therapeutics",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4428095159"
-      },
-      {
-        "title": "ViiV Healthcare (GSK) Medical Science Liaison, San Diego & Palm Springs",
-        "company": "GSK",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4426882135"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429469367"
       },
       {
         "title": "Sr Regional Medical Advisor",
@@ -142,20 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4430423793"
       },
       {
-        "title": "Medical Science Liaison, Immunology - NY",
-        "company": "Galderma",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429984383"
-      },
-      {
         "title": "Pharmacovigilance Services Assoc Manager",
         "company": "Accenture in India",
         "score": 49,
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4351361555"
+      },
+      {
+        "title": "Medical Science Liaison, Immunology - NY",
+        "company": "Galderma",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429984383"
       },
       {
         "title": "Regulatory Affairs Specialist - Energy",
@@ -166,23 +126,58 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
+        "title": "IVD Senior Regional Scientific Manager, Thailand",
+        "company": "Mindray",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4382286519"
+      },
+      {
+        "title": "Medical Science Liaison-Neuroimmunology, South Central",
+        "company": "Johnson & Johnson Innovative Medicine",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4429556192"
+      },
+      {
+        "title": "Medical Science Liaison,  Respiratory - Georgia (GA, AL, MS, TN)",
+        "company": "GSK",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4426843836"
+      },
+      {
         "title": "Medical Science Liaison, Hematology-Oncology (12 month contract) - BC",
         "company": "GSK",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4423639699"
+      },
+      {
+        "title": "Associate Director, Safety and Pharmacovigilance",
+        "company": "Kyverna Therapeutics",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4428095159"
+      },
+      {
+        "title": "Medical Science Liaison, Endocrinology, (Los Angeles OR San Diego)",
+        "company": "Recordati Rare Diseases North America",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4409448602"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "engineer",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
       {
         "word": "specialist",
         "count": 3,
@@ -192,12 +187,6 @@
     "review": []
   },
   "keyword_recommendations": [
-    {
-      "keyword": "san diego",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
     {
       "keyword": "country medical",
       "frequency": 2,
@@ -209,11 +198,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-85%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-82%)",
       "data": {
         "current": 1,
-        "avg": 6.5,
-        "change_pct": -84.6
+        "avg": 5.4,
+        "change_pct": -81.6
       }
     },
     {
@@ -227,80 +216,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 21,
+            "id": 1,
+            "size": 15,
             "top_terms": [
-              "medical",
               "manager",
-              "director"
+              "director",
+              "safety"
             ],
-            "pct": 52.5
+            "pct": 38.5
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 9,
             "top_terms": [
-              "science",
               "liaison",
+              "science",
               "medical"
             ],
-            "pct": 20.0
+            "pct": 23.1
           },
           {
-            "id": 1,
-            "size": 4,
+            "id": 0,
+            "size": 6,
             "top_terms": [
-              "advisor",
-              "medical",
-              "senior"
+              "specialist",
+              "field",
+              "devices"
             ],
-            "pct": 10.0
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 10.0
+            "pct": 15.4
           },
           {
             "id": 2,
+            "size": 6,
+            "top_terms": [
+              "advisor",
+              "medical",
+              "regional"
+            ],
+            "pct": 15.4
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
-              "engineer",
-              "field",
-              "sr"
+              "regulatory",
+              "affairs",
+              "corporate"
             ],
-            "pct": 7.5
+            "pct": 7.7
           }
         ]
       }

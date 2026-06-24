@@ -1,33 +1,49 @@
 {
-  "generated_at": "2026-06-23T10:16:23.346208",
+  "generated_at": "2026-06-24T10:12:15.283667",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 39,
+  "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 9.3,
+    "average": 11.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 2,
+      "medium": 4,
       "low": 0,
-      "irrelevant": 36
+      "irrelevant": 37
     },
     "top_jobs": [
       {
         "title": "REGULATORY SPECIALIST",
         "company": "Colorificio Paulin S.p.A.",
-        "score": 64,
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1780876800000,
+        "url": "https://www.linkedin.com/jobs/view/4421952309"
+      },
+      {
+        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
+        "company": "Arethusa",
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4421952309"
+        "url": "https://www.linkedin.com/jobs/view/4432281842"
       },
       {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
-        "score": 54,
+        "score": 49,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4428055088"
+      },
+      {
+        "title": "Senior quality assurance GMP",
+        "company": "Adecco",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417957067"
       },
       {
         "title": "PQ Persona Qualificata",
@@ -48,7 +64,7 @@
       {
         "title": "Quality Assurance & Auditing Manager",
         "company": "Penta - Child Health Research",
-        "score": 15,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428805774"
@@ -84,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1781740800000,
         "url": "https://www.linkedin.com/jobs/view/4429091973"
+      },
+      {
+        "title": "Project Engineer Linee",
+        "company": "Terna",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=a62abba4af322d5e"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": 1780617600000,
         "url": "https://www.linkedin.com/jobs/view/4424190418"
-      },
-      {
-        "title": "FREELANCE Auditor ISO 13485 / Esperto Tecnico MDR 2017/745",
-        "company": "icim spa",
-        "score": 6,
-        "site": "indeed",
-        "date_posted": 1751328000000,
-        "url": "https://it.indeed.com/viewjob?jk=26a452ae1e0de5aa"
-      },
-      {
-        "title": "KERING EYEWEAR Demand Planner",
-        "company": "Kering Eyewear",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": 1780617600000,
-        "url": "https://www.linkedin.com/jobs/view/4424520457"
-      },
-      {
-        "title": "Sales Specialist- Venezia",
-        "company": "R-STORE S.p.A",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=d3a5c659fec90297"
       }
     ]
   },
@@ -209,23 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "current": 2,
-        "avg": 3.4,
-        "change_pct": -40.5
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 25% (-25pp)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 75% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -236,53 +246,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 23,
+            "size": 25,
             "top_terms": [
+              "specialista",
               "addetto",
-              "estetista",
-              "tecnico"
+              "sistema"
             ],
-            "pct": 59.0
+            "pct": 59.5
           },
           {
-            "id": 3,
-            "size": 7,
+            "id": 2,
+            "size": 8,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 17.9
+            "pct": 19.0
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 4,
             "top_terms": [
-              "haematology",
               "onco",
+              "haematology",
               "specialist"
             ],
-            "pct": 10.3
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "specialist",
-              "utensili",
-              "manager"
-            ],
-            "pct": 7.7
+            "pct": 9.5
           },
           {
             "id": 0,
+            "size": 3,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "toscana"
+            ],
+            "pct": 7.1
+          },
+          {
+            "id": 4,
             "size": 2,
             "top_terms": [
-              "utensili",
-              "cnc",
-              "operatore"
+              "estetista",
+              "toscana",
+              "tecnico"
             ],
-            "pct": 5.1
+            "pct": 4.8
           }
         ]
       }
