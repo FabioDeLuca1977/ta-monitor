@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-24T10:12:14.875741",
+  "generated_at": "2026-06-25T10:04:10.583002",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 213,
+  "total_jobs_analyzed": 216,
   "scoring": {
-    "average": 20.8,
+    "average": 21.0,
     "distribution": {
       "excellent": 0,
-      "good": 12,
-      "medium": 29,
-      "low": 60,
-      "irrelevant": 112
+      "good": 10,
+      "medium": 34,
+      "low": 61,
+      "irrelevant": 111
     },
     "top_jobs": [
       {
@@ -64,10 +64,18 @@
       {
         "title": "HR CONSULTANT - ICT SPECIALIST",
         "company": "Alti Profili",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4425770175"
+      },
+      {
+        "title": "HR Business Partner Centro Italia",
+        "company": "Würth Group",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1782086400000,
+        "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
       },
       {
         "title": "Talent Acquisition Specialist - Sales",
@@ -76,30 +84,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411392513"
-      },
-      {
-        "title": "HR Business Partner Centro Italia",
-        "company": "Würth Group",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1782086400000,
-        "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
-      },
-      {
-        "title": "Talent Acquisition Lead",
-        "company": "Eneba",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1781654400000,
-        "url": "https://it.indeed.com/viewjob?jk=1d6345c3c9752ada"
-      },
-      {
-        "title": "HR Business Partner",
-        "company": "TOD'S Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4429903469"
       },
       {
         "title": "Talent Acquisition Officer",
@@ -126,6 +110,14 @@
         "url": "https://www.linkedin.com/jobs/view/4427838966"
       },
       {
+        "title": "Junior HR generalist per benessere fisico",
+        "company": "Tuolavoro-Lazio",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432849336"
+      },
+      {
         "title": "METODO SPA - HR RECRUITER - ROMA EST",
         "company": "METODO SPA",
         "score": 57,
@@ -134,17 +126,9 @@
         "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
       },
       {
-        "title": "HR Consultant | Adecco Portugal | Alverca",
-        "company": "The Adecco Group",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426730608"
-      },
-      {
         "title": "Talent Acquisition Intern L.68/99 Categoria Protetta",
         "company": "Alkemy Group",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428691909"
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4400240730"
+      },
+      {
+        "title": "Talent Acquisition Lead",
+        "company": "Eneba",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1781654400000,
+        "url": "https://it.indeed.com/viewjob?jk=1d6345c3c9752ada"
+      },
+      {
+        "title": "HR Business Partner",
+        "company": "TOD'S Group",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4429903469"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 36,
-        "reason": "Appare 36x in annunci a basso score"
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 35,
-        "reason": "Appare 35x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "impiegato",
@@ -209,15 +209,15 @@
   "keyword_recommendations": [
     {
       "keyword": "junior hr",
-      "frequency": 3,
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 60
     },
     {
       "keyword": "junior",
-      "frequency": 4,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 50
     },
     {
       "keyword": "categoria protetta",
@@ -228,43 +228,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 15 (-38%)",
-      "data": {
-        "current": 9,
-        "avg": 14.6,
-        "change_pct": -38.2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/9 annunci da aziende nuove (44.4%)",
+      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
       "data": {
-        "new": 4,
-        "total": 9,
-        "pct": 44.4
+        "new": 5,
+        "total": 11,
+        "pct": 45.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 57% a 100% (+43pp)",
+      "message": "📡 indeed: quota passata da 100% a 64% (-36pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 57.1,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 63.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 43% a 0% (-43pp)",
+      "message": "📡 linkedin: quota passata da 0% a 36% (+36pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 42.9,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 36.4
       }
     },
     {
@@ -274,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 119,
+            "id": 3,
+            "size": 107,
             "top_terms": [
-              "hr",
-              "manager",
-              "roma"
+              "addetto",
+              "selezione",
+              "personale"
             ],
-            "pct": 55.9
+            "pct": 49.5
           },
           {
             "id": 4,
-            "size": 42,
+            "size": 44,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 19.7
+            "pct": 20.4
           },
           {
             "id": 0,
-            "size": 20,
+            "size": 36,
             "top_terms": [
-              "addetto",
-              "personale",
-              "selezione"
+              "hr",
+              "manager",
+              "recruiter"
             ],
-            "pct": 9.4
+            "pct": 16.7
           },
           {
             "id": 2,
-            "size": 16,
+            "size": 15,
             "top_terms": [
-              "junior",
-              "hr",
-              "generalist"
+              "day",
+              "sales",
+              "roma"
             ],
-            "pct": 7.5
+            "pct": 6.9
           },
           {
-            "id": 3,
-            "size": 16,
+            "id": 1,
+            "size": 14,
             "top_terms": [
               "specialist",
               "hr",
-              "culture"
+              "relations"
             ],
-            "pct": 7.5
+            "pct": 6.5
           }
         ]
       }

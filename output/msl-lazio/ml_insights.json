@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-24T10:12:15.237017",
+  "generated_at": "2026-06-25T10:04:10.943459",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 85,
+  "total_jobs_analyzed": 82,
   "scoring": {
-    "average": 35.8,
+    "average": 35.1,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 49,
-      "low": 3,
-      "irrelevant": 28
+      "good": 4,
+      "medium": 47,
+      "low": 4,
+      "irrelevant": 27
     },
     "top_jobs": [
-      {
-        "title": "Field Medical Advisor / MSL - Italy",
-        "company": "Syneos Health Commercial Solutions",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1780531200000,
-        "url": "https://www.linkedin.com/jobs/view/4423308214"
-      },
       {
         "title": "Field Medical Advisor Oncology",
         "company": "Johnson & Johnson Innovative Medicine",
@@ -40,7 +32,7 @@
       {
         "title": "Field Medical Manager - Europe",
         "company": "Syneos Health Commercial Solutions",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1780617600000,
         "url": "https://www.linkedin.com/jobs/view/4424717617"
@@ -70,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4432548580"
       },
       {
-        "title": "Medical Affairs Manager, Italy",
-        "company": "Johnson & Johnson MedTech",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1780876800000,
-        "url": "https://www.linkedin.com/jobs/view/4425424534"
-      },
-      {
         "title": "Associate Medical Director",
         "company": "Morgan State University",
         "score": 57,
@@ -96,7 +80,7 @@
       {
         "title": "Scientific Affairs Manager - Italy (Rome)",
         "company": "Rhythm Pharmaceuticals",
-        "score": 56,
+        "score": 57,
         "site": "indeed",
         "date_posted": 1781827200000,
         "url": "https://it.indeed.com/viewjob?jk=d514194f6aa54f36"
@@ -126,28 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4349327397"
       },
       {
-        "title": "Senior Director, Medical Affairs, Midsized Markets Europe",
-        "company": "Revolution Medicines",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4409725080"
-      },
-      {
         "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
         "company": "Alnylam Pharmaceuticals",
         "score": 54,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1780963200000,
         "url": "https://www.linkedin.com/jobs/view/4426533104"
-      },
-      {
-        "title": "(Senior) Medical Director - Cardiology, EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4427309760"
       },
       {
         "title": "Medical Manager – Neuroscience",
@@ -166,12 +134,44 @@
         "url": "https://www.linkedin.com/jobs/view/4427541541"
       },
       {
-        "title": "MCO Medical Lead - Adult Vaccines",
-        "company": "Sanofi",
+        "title": "Associate Director, Medical Affairs",
+        "company": "PTC Therapeutics, Inc.",
         "score": 53,
         "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4419465176"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432257464"
+      },
+      {
+        "title": "Junior Medical Science Liaison, Bulgaria",
+        "company": "IQVIA",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4384709184"
+      },
+      {
+        "title": "Medical Director",
+        "company": "Adecco",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4426829097"
+      },
+      {
+        "title": "Medical Director- Neurology",
+        "company": "IQVIA",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4426175411"
+      },
+      {
+        "title": "Medical Director, Medical Safety",
+        "company": "Jazz Pharmaceuticals",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1781308800000,
+        "url": "https://www.linkedin.com/jobs/view/4399067333"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -199,7 +199,7 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "cra",
+        "word": "sales",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -214,19 +214,7 @@
       "confidence": 60
     },
     {
-      "keyword": "italy",
-      "frequency": 5,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
-    },
-    {
-      "keyword": "manager italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs manager italy",
+      "keyword": "associate director",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -238,41 +226,51 @@
       "confidence": 30
     },
     {
-      "keyword": "associate director",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "italy",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
+      "data": {
+        "current": 1,
+        "avg": 6.8,
+        "change_pct": -85.2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 20% (-80pp)",
+      "message": "📡 indeed: quota passata da 20% a 100% (+80pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 80% (+80pp)",
+      "message": "📡 linkedin: quota passata da 80% a 0% (-80pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 80.0
+        "old_pct": 80.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -282,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 27,
-            "top_terms": [
-              "engineer",
-              "advisor",
-              "msl"
-            ],
-            "pct": 31.8
-          },
-          {
-            "id": 0,
-            "size": 23,
-            "top_terms": [
-              "medical",
-              "director",
-              "lead"
-            ],
-            "pct": 27.1
-          },
-          {
             "id": 3,
-            "size": 13,
+            "size": 31,
+            "top_terms": [
+              "manager",
+              "advisor",
+              "engineer"
+            ],
+            "pct": 37.8
+          },
+          {
+            "id": 4,
+            "size": 24,
+            "top_terms": [
+              "director",
+              "medical",
+              "associate"
+            ],
+            "pct": 29.3
+          },
+          {
+            "id": 1,
+            "size": 12,
             "top_terms": [
               "affairs",
               "medical",
               "director"
             ],
-            "pct": 15.3
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "device"
-            ],
-            "pct": 12.9
+            "pct": 14.6
           },
           {
             "id": 2,
-            "size": 11,
+            "size": 8,
             "top_terms": [
-              "manager",
-              "medical",
-              "europe"
+              "access",
+              "market",
+              "oncology"
             ],
-            "pct": 12.9
+            "pct": 9.8
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "specialist",
+              "device",
+              "clinical"
+            ],
+            "pct": 8.5
           }
         ]
       }

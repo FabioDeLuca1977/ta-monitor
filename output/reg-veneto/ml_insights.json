@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-24T10:12:15.283667",
+  "generated_at": "2026-06-25T10:04:10.990000",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 11.1,
+    "average": 11.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 0,
-      "irrelevant": 37
+      "irrelevant": 39
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 53,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
@@ -56,7 +56,7 @@
       {
         "title": "Market Access Manager Onco-Haematology",
         "company": "GSK",
-        "score": 17,
+        "score": 18,
         "site": "indeed",
         "date_posted": 1781740800000,
         "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
@@ -72,10 +72,26 @@
       {
         "title": "HSE Specialist",
         "company": "Coesia",
-        "score": 15,
+        "score": 14,
         "site": "indeed",
         "date_posted": 1782086400000,
         "url": "https://it.indeed.com/viewjob?jk=5e7375cffdd105f3"
+      },
+      {
+        "title": "HSE Specialist - ASPP",
+        "company": "Coesia",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1782086400000,
+        "url": "https://it.indeed.com/viewjob?jk=5e7375cffdd105f3"
+      },
+      {
+        "title": "EHS Specialist",
+        "company": "Carrier",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1782259200000,
+        "url": "https://it.indeed.com/viewjob?jk=bc6104fc96328874"
       },
       {
         "title": "Quality Assurance Manager",
@@ -142,36 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4423644152"
       },
       {
+        "title": "Purchasing Internship",
+        "company": "SteelcoBelimed Inc.",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1782345600000,
+        "url": "https://it.indeed.com/viewjob?jk=fe570dc3178b6174"
+      },
+      {
         "title": "IT Manager ERP e Sistemi Informativi",
         "company": "Supporto HR",
         "score": 9,
         "site": "indeed",
         "date_posted": 1780617600000,
         "url": "https://it.indeed.com/viewjob?jk=b45fa836de244954"
-      },
-      {
-        "title": "addetto al Quality Assurance Junior",
-        "company": "NEWCHEM SPA",
-        "score": 9,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4431211347"
-      },
-      {
-        "title": "Quality Assurance Intern",
-        "company": "DAINESE",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430459403"
-      },
-      {
-        "title": "Addetto al Sistema di Gestione",
-        "company": "Moltiply Group",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1780617600000,
-        "url": "https://www.linkedin.com/jobs/view/4424190418"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -211,31 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
       "data": {
-        "new": 3,
+        "new": 1,
         "total": 4,
-        "pct": 75.0
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 25% (-25pp)",
+      "message": "📡 indeed: quota passata da 25% a 75% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 75% (+25pp)",
+      "message": "📡 linkedin: quota passata da 75% a 25% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -245,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 25,
+            "id": 2,
+            "size": 23,
             "top_terms": [
-              "specialista",
-              "addetto",
-              "sistema"
+              "haematology",
+              "onco",
+              "engineer"
             ],
-            "pct": 59.5
+            "pct": 52.3
           },
           {
-            "id": 2,
-            "size": 8,
+            "id": 0,
+            "size": 9,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 19.0
+            "pct": 20.5
           },
           {
             "id": 3,
-            "size": 4,
-            "top_terms": [
-              "onco",
-              "haematology",
-              "specialist"
-            ],
-            "pct": 9.5
-          },
-          {
-            "id": 0,
-            "size": 3,
+            "size": 5,
             "top_terms": [
               "specialist",
-              "regulatory",
-              "toscana"
+              "hse",
+              "regulatory"
             ],
-            "pct": 7.1
+            "pct": 11.4
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "addetto",
+              "sistema",
+              "specialista"
+            ],
+            "pct": 9.1
           },
           {
             "id": 4,
-            "size": 2,
+            "size": 3,
             "top_terms": [
-              "estetista",
-              "toscana",
-              "tecnico"
+              "esperto",
+              "tecnico",
+              "toscana"
             ],
-            "pct": 4.8
+            "pct": 6.8
           }
         ]
       }
