@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-25T10:04:11.282392",
+  "generated_at": "2026-06-26T10:07:50.986534",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 135,
+  "total_jobs_analyzed": 133,
   "scoring": {
-    "average": 15.0,
+    "average": 14.9,
     "distribution": {
       "excellent": 0,
       "good": 8,
       "medium": 14,
       "low": 3,
-      "irrelevant": 110
+      "irrelevant": 108
     },
     "top_jobs": [
       {
         "title": "Senior Regulatory Specialist EU/UK, International Regulatory Affairs Prime Air",
         "company": "Amazon",
-        "score": 70,
+        "score": 69,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4402002230"
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Computer Futures",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4428821335"
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432400235"
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affairs Assistant",
         "company": "Alchem Partners",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4426863093"
@@ -56,7 +56,7 @@
       {
         "title": "Regulatory Specialist",
         "company": "EOLO",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426852119"
@@ -78,9 +78,17 @@
         "url": "https://www.linkedin.com/jobs/view/4427721408"
       },
       {
+        "title": "Sr. Manager, Global Regulatory Strategy",
+        "company": "Telix Pharmaceuticals Limited",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4427520463"
+      },
+      {
         "title": "Regulatory Affairs Executive",
         "company": "Sandoz UK & Ireland",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1781308800000,
         "url": "https://www.linkedin.com/jobs/view/4428370797"
@@ -88,23 +96,15 @@
       {
         "title": "Jr Executive- Regulatory Affairs",
         "company": "Kemin Industries",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4409780692"
       },
       {
-        "title": "Sr. Manager, Global Regulatory Strategy",
-        "company": "Telix Pharmaceuticals Limited",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4427520463"
-      },
-      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -235,42 +235,22 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 11 (-63%)",
+      "severity": "medium",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 10 (-33%)",
       "data": {
-        "current": 4,
-        "avg": 10.9,
-        "change_pct": -63.4
+        "current": 7,
+        "avg": 10.5,
+        "change_pct": -33.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
       "data": {
-        "new": 1,
-        "total": 4,
-        "pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 70% a 100% (+30pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 70.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 30% a 0% (-30pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 30.0,
-        "new_pct": 0.0
+        "new": 4,
+        "total": 7,
+        "pct": 57.1
       }
     },
     {
@@ -281,53 +261,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 72,
+            "size": 70,
             "top_terms": [
+              "engineer",
               "manager",
-              "regulatory",
-              "director"
+              "roma"
             ],
-            "pct": 53.3
-          },
-          {
-            "id": 3,
-            "size": 23,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 17.0
-          },
-          {
-            "id": 2,
-            "size": 21,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 15.6
+            "pct": 52.6
           },
           {
             "id": 1,
-            "size": 11,
+            "size": 22,
             "top_terms": [
-              "engineer",
-              "aerospace",
-              "assurance"
+              "regulatory",
+              "affairs",
+              "director"
             ],
-            "pct": 8.1
+            "pct": 16.5
+          },
+          {
+            "id": 3,
+            "size": 20,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 15.0
+          },
+          {
+            "id": 2,
+            "size": 15,
+            "top_terms": [
+              "specialist",
+              "calibration",
+              "gmp"
+            ],
+            "pct": 11.3
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 6,
             "top_terms": [
-              "roma",
-              "marketing",
-              "pubblico"
+              "senior",
+              "tecnico",
+              "europe"
             ],
-            "pct": 5.9
+            "pct": 4.5
           }
         ]
       }

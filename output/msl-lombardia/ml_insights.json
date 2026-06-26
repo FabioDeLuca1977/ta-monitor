@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-25T10:04:10.848842",
+  "generated_at": "2026-06-26T10:07:50.551191",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 243,
+  "total_jobs_analyzed": 244,
   "scoring": {
-    "average": 35.8,
+    "average": 35.6,
     "distribution": {
       "excellent": 0,
       "good": 13,
       "medium": 137,
       "low": 19,
-      "irrelevant": 74
+      "irrelevant": 75
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430191347"
+      },
+      {
+        "title": "Medical Advisor Oncology",
+        "company": "AbbVie",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4408677709"
       },
       {
         "title": "Field Medical Advisor Belgium - HAE & Immunoglobulins",
@@ -46,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4423672458"
       },
       {
-        "title": "Medical Advisor Oncology",
-        "company": "AbbVie",
+        "title": "NextGen Medical Affairs Manager, THV",
+        "company": "Edwards Lifesciences",
         "score": 62,
         "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4408677709"
+        "date_posted": 1781049600000,
+        "url": "https://www.linkedin.com/jobs/view/4423147593"
       },
       {
         "title": "Senior Specialist or Manager,Medical Strategic Operations(Medical Information)",
@@ -62,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4407323688"
       },
       {
-        "title": "NextGen Medical Affairs Manager, THV",
-        "company": "Edwards Lifesciences",
-        "score": 61,
+        "title": "Medical Affairs Manager (m/w/d) Amyloidosis",
+        "company": "AstraZeneca",
+        "score": 62,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423153487"
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4426606398"
       },
       {
         "title": "Field Medical Manager - Europe",
@@ -102,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4429971282"
       },
       {
-        "title": "Medical Affairs Manager (m/w/d) Amyloidosis",
-        "company": "AstraZeneca",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4426606398"
-      },
-      {
         "title": "Medical Affairs Manager - Italy",
         "company": "Chaberton Professionals",
         "score": 60,
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426337115"
       },
       {
-        "title": "Sr Manager, Medical Science Liaison - LOMBARDIA EST / TRIVENETO",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1780531200000,
-        "url": "https://www.linkedin.com/jobs/view/4423576208"
-      },
-      {
         "title": "MEDICAL MANAGER",
         "company": "MediAbout",
         "score": 58,
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4432248188"
+      },
+      {
+        "title": "Junior Medical Advisor M/F",
+        "company": "KOLINPHARMA S.p.A",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4428497632"
       }
     ]
   },
@@ -179,14 +179,9 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "director",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
         "word": "project",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "clinical",
@@ -194,14 +189,19 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "associate",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "director",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "lead",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "devices",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -212,12 +212,6 @@
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 60
-    },
-    {
-      "keyword": "manager medical",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
     },
     {
       "keyword": "senior manager",
@@ -254,41 +248,41 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 17 (-46%)",
+      "message": "Volume in calo: 10 annunci ultimo scan vs media 17 (-40%)",
       "data": {
-        "current": 9,
+        "current": 10,
         "avg": 16.7,
-        "change_pct": -46.2
+        "change_pct": -40.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/9 annunci da aziende nuove (22.2%)",
+      "message": "📊 Ultimo scan: 2/10 annunci da aziende nuove (20.0%)",
       "data": {
         "new": 2,
-        "total": 9,
-        "pct": 22.2
+        "total": 10,
+        "pct": 20.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 30% a 56% (+26pp)",
+      "message": "📡 indeed: quota passata da 56% a 40% (-16pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 30.0,
-        "new_pct": 55.6
+        "old_pct": 55.6,
+        "new_pct": 40.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 70% a 44% (-26pp)",
+      "message": "📡 linkedin: quota passata da 44% a 60% (+16pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 70.0,
-        "new_pct": 44.4
+        "old_pct": 44.4,
+        "new_pct": 60.0
       }
     },
     {
@@ -298,54 +292,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 95,
+            "id": 2,
+            "size": 106,
             "top_terms": [
-              "lead",
-              "manager",
-              "senior"
+              "clinical",
+              "associate",
+              "specialist"
             ],
-            "pct": 39.1
+            "pct": 43.4
           },
           {
             "id": 0,
-            "size": 51,
+            "size": 41,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "manager"
+              "medical",
+              "director",
+              "advisor"
             ],
-            "pct": 21.0
+            "pct": 16.8
+          },
+          {
+            "id": 1,
+            "size": 40,
+            "top_terms": [
+              "manager",
+              "project",
+              "affairs"
+            ],
+            "pct": 16.4
           },
           {
             "id": 4,
-            "size": 42,
+            "size": 35,
             "top_terms": [
-              "medical",
-              "advisor",
-              "director"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 17.3
-          },
-          {
-            "id": 2,
-            "size": 32,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 13.2
+            "pct": 14.3
           },
           {
             "id": 3,
-            "size": 23,
+            "size": 22,
             "top_terms": [
               "liaison",
               "science",
               "medical"
             ],
-            "pct": 9.5
+            "pct": 9.0
           }
         ]
       }
