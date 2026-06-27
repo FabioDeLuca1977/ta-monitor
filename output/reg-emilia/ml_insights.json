@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-26T10:07:50.896766",
+  "generated_at": "2026-06-27T09:15:42.794728",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 48,
+  "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 18.8,
+    "average": 19.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 11,
+      "medium": 12,
       "low": 1,
-      "irrelevant": 35
+      "irrelevant": 38
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4377177028"
+      },
+      {
+        "title": "Stagista Regulatory Affairs",
+        "company": "NUTRACEUTICA S.R.L.",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4425799115"
       },
       {
         "title": "Regulatory Affairs Analyst (f/m/d)",
@@ -38,9 +46,17 @@
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Morson Praxis",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4427736025"
+      },
+      {
         "title": "Associate Director, Regulatory Affairs, CMC",
         "company": "GE HealthCare",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4400288204"
@@ -56,7 +72,7 @@
       {
         "title": "Senior Specialist Regulatory Affairs",
         "company": "Abbott",
-        "score": 55,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428103603"
@@ -70,28 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Morson Praxis",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4427736025"
-      },
-      {
         "title": "Product Regulatory Compliance Specialist",
         "company": "BAT",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430412334"
       },
       {
-        "title": "Global Regulatory Affairs Consultant",
-        "company": "JSB Solutions",
-        "score": 53,
+        "title": "Regulatory Affairs Specialist - Cosmetics Industry",
+        "company": "Cosmoderma",
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4408880332"
+        "url": "https://www.linkedin.com/jobs/view/4433811762"
       },
       {
         "title": "Junior Corporate, Legal & Regulatory Affairs (stage)",
@@ -102,17 +110,17 @@
         "url": "https://www.linkedin.com/jobs/view/4423103963"
       },
       {
-        "title": "Stagista Regulatory Affairs",
-        "company": "NUTRACEUTICA S.R.L.",
-        "score": 49,
+        "title": "Global Regulatory Affairs Consultant",
+        "company": "JSB Solutions",
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4425799115"
+        "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
         "title": "Assistenza domiciliare privata",
         "company": "Davide Negri",
-        "score": 26,
+        "score": 21,
         "site": "indeed",
         "date_posted": 1781827200000,
         "url": "https://it.indeed.com/viewjob?jk=c520ef04827acf78"
@@ -120,10 +128,18 @@
       {
         "title": "Supplier Quality Management and Audit Category Specialist",
         "company": "Cargill",
-        "score": 15,
+        "score": 16,
         "site": "indeed",
         "date_posted": 1782345600000,
         "url": "https://it.indeed.com/viewjob?jk=517d92065cf99766"
+      },
+      {
+        "title": "IT Support Specialist",
+        "company": "Dentsply Sirona",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1782432000000,
+        "url": "https://it.indeed.com/viewjob?jk=eae5deed81858bcb"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": 1780876800000,
         "url": "https://www.linkedin.com/jobs/view/4421950235"
-      },
-      {
-        "title": "Regulatory & Quality specialist",
-        "company": "I-TECH INDUSTRIES",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=507a0ea42e68105c"
-      },
-      {
-        "title": "R&D MANAGER - ARIETE",
-        "company": "De'Longhi",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=887715d433cfac19"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "medical",
@@ -200,8 +200,8 @@
       },
       {
         "word": "engineer",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+57%)",
       "data": {
-        "current": 1,
-        "avg": 4.3,
-        "change_pct": -76.6
+        "current": 6,
+        "avg": 3.8,
+        "change_pct": 56.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 6/6 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 6,
+        "total": 6,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 21,
+            "id": 2,
+            "size": 22,
             "top_terms": [
-              "addetto",
               "specialist",
-              "sheq"
+              "bo",
+              "sales"
             ],
-            "pct": 43.8
+            "pct": 42.3
           },
           {
-            "id": 2,
-            "size": 11,
+            "id": 0,
+            "size": 13,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 22.9
+            "pct": 25.0
           },
           {
             "id": 4,
-            "size": 9,
+            "size": 7,
             "top_terms": [
               "quality",
               "assurance",
-              "specialist"
+              "stageur"
             ],
-            "pct": 18.8
+            "pct": 13.5
           },
           {
             "id": 1,
             "size": 5,
             "top_terms": [
-              "devices",
-              "medical",
-              "engineer"
+              "addetto",
+              "integrato",
+              "sistema"
             ],
-            "pct": 10.4
+            "pct": 9.6
           },
           {
             "id": 3,
-            "size": 2,
+            "size": 5,
             "top_terms": [
-              "sales",
-              "specialist",
-              "technical"
+              "medical",
+              "devices",
+              "engineer"
             ],
-            "pct": 4.2
+            "pct": 9.6
           }
         ]
       }

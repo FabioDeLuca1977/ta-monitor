@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-26T10:07:50.851696",
+  "generated_at": "2026-06-27T09:15:42.763067",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 275,
+  "total_jobs_analyzed": 279,
   "scoring": {
-    "average": 18.1,
+    "average": 17.9,
     "distribution": {
       "excellent": 0,
-      "good": 21,
-      "medium": 37,
-      "low": 10,
-      "irrelevant": 207
+      "good": 20,
+      "medium": 39,
+      "low": 11,
+      "irrelevant": 209
     },
     "top_jobs": [
-      {
-        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
-        "company": "Doxal Italia SpA",
-        "score": 72,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
-      },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
@@ -28,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1782259200000,
         "url": "https://www.linkedin.com/jobs/view/4432564402"
-      },
-      {
-        "title": "Regulatory Affairs Specialist- Area Gomma/Plastica",
-        "company": "Adecco",
-        "score": 69,
-        "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4432248188"
       },
       {
         "title": "Regulatory Affairs Specialist (Medical Device)",
@@ -48,7 +32,7 @@
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4377177028"
@@ -78,20 +62,28 @@
         "url": "https://www.linkedin.com/jobs/view/4428972149"
       },
       {
+        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
+        "company": "Doxal Italia SpA",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
+      },
+      {
         "title": "Clinical Regulatory Specialist",
         "company": "RadNet",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1781308800000,
         "url": "https://www.linkedin.com/jobs/view/4427240538"
       },
       {
-        "title": "Scientific and Regulatory Affairs Manager",
-        "company": "Henkel",
-        "score": 62,
+        "title": "Regulatory Affairs Specialist- Area Gomma/Plastica",
+        "company": "Adecco",
+        "score": 63,
         "site": "linkedin",
-        "date_posted": 1780617600000,
-        "url": "https://www.linkedin.com/jobs/view/4404914214"
+        "date_posted": 1782172800000,
+        "url": "https://www.linkedin.com/jobs/view/4432248188"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4427736025"
+      },
+      {
+        "title": "Director, CMC Regulatory Affairs",
+        "company": "GSK",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4427366748"
       }
     ]
   },
@@ -180,23 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 41,
-        "reason": "Appare 41x in annunci a basso score"
+        "count": 40,
+        "reason": "Appare 40x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 30,
+        "reason": "Appare 30x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "emea",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "italy",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -204,33 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "senior",
-      "frequency": 5,
+      "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
-    },
-    {
-      "keyword": "affairs support",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs settore",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "group regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs toys",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 40
     },
     {
       "keyword": "specialist pharma",
@@ -245,7 +226,19 @@
       "confidence": 30
     },
     {
+      "keyword": "affairs settore",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "international regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "affairs support",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -261,26 +254,49 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "affairs analyst",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "gomma plastica",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 MEDSPA Srl: 2 posizioni, non presente negli scan precedenti",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 9/17 annunci da aziende nuove (52.9%)",
       "data": {
-        "company": "MEDSPA Srl",
-        "count": 2
+        "new": 9,
+        "total": 17,
+        "pct": 52.9
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 12/18 annunci da aziende nuove (66.7%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 56% a 76% (+21pp)",
       "data": {
-        "new": 12,
-        "total": 18,
-        "pct": 66.7
+        "channel": "indeed",
+        "old_pct": 55.6,
+        "new_pct": 76.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 44% a 24% (-21pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 44.4,
+        "new_pct": 23.5
       }
     },
     {
@@ -290,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 148,
+            "id": 3,
+            "size": 136,
             "top_terms": [
               "specialist",
-              "senior",
-              "engineer"
+              "engineer",
+              "lead"
             ],
-            "pct": 53.8
+            "pct": 48.7
           },
           {
-            "id": 3,
-            "size": 43,
+            "id": 2,
+            "size": 56,
+            "top_terms": [
+              "manager",
+              "senior",
+              "project"
+            ],
+            "pct": 20.1
+          },
+          {
+            "id": 4,
+            "size": 46,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.6
-          },
-          {
-            "id": 4,
-            "size": 40,
-            "top_terms": [
-              "manager",
-              "project",
-              "senior"
-            ],
-            "pct": 14.5
+            "pct": 16.5
           },
           {
             "id": 1,
-            "size": 36,
+            "size": 39,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 13.1
+            "pct": 14.0
           },
           {
-            "id": 2,
-            "size": 8,
+            "id": 0,
+            "size": 2,
             "top_terms": [
-              "milano",
-              "tecnico",
-              "senior"
+              "parrucchiere",
+              "experience",
+              "milano"
             ],
-            "pct": 2.9
+            "pct": 0.7
           }
         ]
       }

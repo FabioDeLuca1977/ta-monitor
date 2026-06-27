@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-26T10:07:50.697553",
+  "generated_at": "2026-06-27T09:15:42.651922",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 53,
   "scoring": {
-    "average": 11.1,
+    "average": 11.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
-      "low": 1,
-      "irrelevant": 47
+      "low": 2,
+      "irrelevant": 46
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
@@ -48,10 +48,18 @@
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
+      },
+      {
+        "title": "MECHANICAL ENGINEER",
+        "company": "De'Longhi",
+        "score": 30,
+        "site": "indeed",
+        "date_posted": 1782432000000,
+        "url": "https://it.indeed.com/viewjob?jk=a71890c0a9d4a29d"
       },
       {
         "title": "Quality Assurance Specialist (Product Distribution) - Fixed Term Contract",
@@ -68,6 +76,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428805774"
+      },
+      {
+        "title": "IT Support Specialist",
+        "company": "Dentsply Sirona",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1782432000000,
+        "url": "https://it.indeed.com/viewjob?jk=eae5deed81858bcb"
       },
       {
         "title": "EHS Specialist",
@@ -94,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=60cad57150a8d7b0"
       },
       {
-        "title": "Quality Assurance Manager",
-        "company": "SteelcoBelimed Inc.",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1780617600000,
-        "url": "https://it.indeed.com/viewjob?jk=14c367d68e50f917"
-      },
-      {
         "title": "Market Access Manager Onco-Haematology",
         "company": "GSK",
         "score": 13,
@@ -116,14 +124,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417215462"
-      },
-      {
-        "title": "Project Engineer Linee",
-        "company": "Terna",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=a62abba4af322d5e"
       },
       {
         "title": "Addetto/a allo sviluppo contatti commerciali",
@@ -142,36 +142,36 @@
         "url": "https://it.indeed.com/viewjob?jk=09a89e18405b7c9b"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "SteelcoBelimed Inc.",
+        "title": "QUALITY ASSURANCE SPECIALIST",
+        "company": "CHR S.r.l.",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4433887992"
+      },
+      {
+        "title": "Direttore ristorante",
+        "company": null,
         "score": 11,
         "site": "indeed",
-        "date_posted": 1780617600000,
-        "url": "https://it.indeed.com/viewjob?jk=3f0a52192415b8d9"
-      },
-      {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423640515"
-      },
-      {
-        "title": "Specialist Onco-Haematology (Lazio Nord, Umbria, Toscana Sud)",
-        "company": "GSK",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4423648200"
+        "date_posted": 1782432000000,
+        "url": "https://it.indeed.com/viewjob?jk=0e4a46782dabf2d7"
       },
       {
         "title": "Specialist Onco-Haematology (Veneto e Trentino-Alto Adige)",
         "company": "GSK",
         "score": 10,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4423647200"
+      },
+      {
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4423640515"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "addetto",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "sistema",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "addetto",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "onco",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "haematology",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -209,23 +209,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 11 annunci ultimo scan vs media 4 (+188%)",
-      "data": {
-        "current": 11,
-        "avg": 3.8,
-        "change_pct": 188.1
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/11 annunci da aziende nuove (81.8%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 9,
-        "total": 11,
-        "pct": 81.8
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
@@ -235,27 +225,27 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 31,
+            "id": 2,
+            "size": 29,
             "top_terms": [
-              "addetto",
-              "sistema",
-              "specialista"
+              "specialista",
+              "internship",
+              "operatore"
             ],
-            "pct": 58.5
+            "pct": 54.7
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 10,
             "top_terms": [
-              "assurance",
               "quality",
+              "assurance",
               "specialist"
             ],
             "pct": 18.9
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 6,
             "top_terms": [
               "specialist",
@@ -265,24 +255,24 @@
             "pct": 11.3
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 4,
             "top_terms": [
-              "haematology",
               "onco",
+              "haematology",
               "specialist"
             ],
             "pct": 7.5
           },
           {
-            "id": 0,
-            "size": 2,
+            "id": 1,
+            "size": 4,
             "top_terms": [
-              "engineer",
-              "toscana",
-              "specialista"
+              "addetto",
+              "contatti",
+              "sistema"
             ],
-            "pct": 3.8
+            "pct": 7.5
           }
         ]
       }

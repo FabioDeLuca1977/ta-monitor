@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-26T10:07:50.429612",
+  "generated_at": "2026-06-27T09:15:42.464123",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 34,
+  "total_jobs_analyzed": 33,
   "scoring": {
-    "average": 37.6,
+    "average": 39.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 24,
+      "medium": 25,
       "low": 3,
-      "irrelevant": 7
+      "irrelevant": 5
     },
     "top_jobs": [
       {
@@ -58,7 +58,7 @@
         "company": "GSK",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4423637784"
       },
       {
@@ -102,22 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426163548"
       },
       {
-        "title": "Therapeutic Area Medical Director",
-        "company": "Medpace",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4354781552"
-      },
-      {
-        "title": "Medical Director (+ Equity) at Ollyinsurance",
-        "company": "Jack & Jill",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429024027"
-      },
-      {
         "title": "ISF Specialist Pediatric (f/m/nb)",
         "company": "Randstad Professional Italia",
         "score": 45,
@@ -134,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4427314791"
       },
       {
-        "title": "Informatore medico scientifico",
-        "company": "Manpower",
+        "title": "Therapeutic Area Medical Director",
+        "company": "Medpace",
         "score": 45,
         "site": "linkedin",
-        "date_posted": 1781827200000,
-        "url": "https://www.linkedin.com/jobs/view/4428250912"
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4354781552"
       },
       {
-        "title": "Informatore Scientifico del Farmaco - Treviso",
-        "company": "Jakin SA",
-        "score": 43,
+        "title": "Medical Director (+ Equity) at Ollyinsurance",
+        "company": "Jack & Jill",
+        "score": 45,
         "site": "linkedin",
-        "date_posted": 1780963200000,
-        "url": "https://www.linkedin.com/jobs/view/4426365926"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429024027"
       },
       {
         "title": "Informatore Scientifico - Treviso",
@@ -156,6 +140,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4420732016"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco - Treviso",
+        "company": "Jakin SA",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": 1780963200000,
+        "url": "https://www.linkedin.com/jobs/view/4426365926"
       },
       {
         "title": "Informatore Scientifico del Farmaco (Padova)",
@@ -172,18 +164,20 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4429003913"
+      },
+      {
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4423382156"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
-    "add_blacklist": [
-      {
-        "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      }
-    ],
+    "add_blacklist": [],
     "review": []
   },
   "keyword_recommendations": [],
@@ -191,11 +185,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
       "data": {
         "current": 1,
-        "avg": 4.1,
-        "change_pct": -75.8
+        "avg": 3.6,
+        "change_pct": -71.9
       }
     },
     {
@@ -215,54 +209,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 14,
+            "id": 0,
+            "size": 11,
             "top_terms": [
-              "isf",
-              "farmaco",
-              "specialist"
+              "treviso",
+              "loss",
+              "prevention"
             ],
-            "pct": 41.2
+            "pct": 33.3
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 7,
             "top_terms": [
               "informatore",
               "medico",
               "scientifico"
             ],
-            "pct": 20.6
+            "pct": 21.2
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 6,
             "top_terms": [
               "director",
               "medical",
               "senior"
             ],
-            "pct": 17.6
+            "pct": 18.2
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "manager",
               "medical",
               "sr"
             ],
-            "pct": 14.7
+            "pct": 15.2
           },
           {
-            "id": 2,
-            "size": 2,
+            "id": 4,
+            "size": 4,
             "top_terms": [
-              "scientific",
-              "italia",
-              "pipeline"
+              "isf",
+              "verona",
+              "farmaco"
             ],
-            "pct": 5.9
+            "pct": 12.1
           }
         ]
       }

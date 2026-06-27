@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-26T10:07:50.986534",
+  "generated_at": "2026-06-27T09:15:42.861113",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 133,
+  "total_jobs_analyzed": 135,
   "scoring": {
-    "average": 14.9,
+    "average": 14.6,
     "distribution": {
       "excellent": 0,
-      "good": 8,
-      "medium": 14,
+      "good": 9,
+      "medium": 13,
       "low": 3,
-      "irrelevant": 108
+      "irrelevant": 110
     },
     "top_jobs": [
       {
@@ -28,6 +28,22 @@
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4425757242"
+      },
+      {
+        "title": "Regulatory Submissions Coordinator (Study Start Up)",
+        "company": "Medpace",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4387761007"
+      },
+      {
+        "title": "Regulatory Submissions Associate Manager II - APAC",
+        "company": "Fortrea",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4427668058"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -62,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426852119"
       },
       {
-        "title": "Regulatory Submissions Associate Manager II - APAC",
-        "company": "Fortrea",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4427668058"
-      },
-      {
         "title": "Regulatory Affairs / Clinical Support Specialist",
         "company": "Epic Medical",
         "score": 60,
@@ -80,7 +88,7 @@
       {
         "title": "Sr. Manager, Global Regulatory Strategy",
         "company": "Telix Pharmaceuticals Limited",
-        "score": 59,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4427520463"
@@ -110,12 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
-        "title": "Regulatory Submissions Coordinator (Study Start Up)",
-        "company": "Medpace",
-        "score": 53,
+        "title": "Associate Director, Regulatory Affairs, Marketed Products Portfolio",
+        "company": "GE HealthCare",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4387761007"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4430102702"
       },
       {
         "title": "Regulatory Strategy Associate Director",
@@ -126,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4428419123"
       },
       {
-        "title": "Associate Director, Regulatory Affairs, Marketed Products Portfolio",
-        "company": "GE HealthCare",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430102702"
-      },
-      {
         "title": "Associate Director, Regulatory Strategy",
         "company": "Kardigan",
-        "score": 52,
+        "score": 53,
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4427666633"
+      },
+      {
+        "title": "Quality Assurance & Validation Specialist – Pharma (Nord/Centro/Sud Italia)",
+        "company": "fortil",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429971606"
       },
       {
         "title": "GxP Specialist",
@@ -158,17 +166,9 @@
         "url": "https://www.linkedin.com/jobs/view/4421101551"
       },
       {
-        "title": "Quality Assurance & Validation Specialist – Pharma (Nord/Centro/Sud Italia)",
-        "company": "fortil",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429971606"
-      },
-      {
         "title": "Pharmacovigilance Specialist (salary €40-45K)",
         "company": "Shionogi Europe",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430976820"
@@ -185,21 +185,21 @@
       },
       {
         "word": "assurance",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "director",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "medical",
+        "word": "gmp",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -236,21 +236,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 10 (-33%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 10 (-40%)",
       "data": {
-        "current": 7,
-        "avg": 10.5,
-        "change_pct": -33.3
+        "current": 6,
+        "avg": 9.9,
+        "change_pct": -39.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
+      "message": "📊 Ultimo scan: 1/6 annunci da aziende nuove (16.7%)",
       "data": {
-        "new": 4,
-        "total": 7,
-        "pct": 57.1
+        "new": 1,
+        "total": 6,
+        "pct": 16.7
       }
     },
     {
@@ -261,53 +261,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 70,
+            "size": 71,
             "top_terms": [
               "engineer",
-              "manager",
-              "roma"
+              "roma",
+              "consultant"
             ],
             "pct": 52.6
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 22,
             "top_terms": [
+              "specialist",
               "regulatory",
-              "affairs",
-              "director"
+              "affairs"
             ],
-            "pct": 16.5
+            "pct": 16.3
           },
           {
-            "id": 3,
-            "size": 20,
+            "id": 1,
+            "size": 19,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 15.0
+            "pct": 14.1
           },
           {
-            "id": 2,
-            "size": 15,
+            "id": 3,
+            "size": 13,
             "top_terms": [
-              "specialist",
-              "calibration",
-              "gmp"
+              "manager",
+              "program",
+              "regulatory"
             ],
-            "pct": 11.3
+            "pct": 9.6
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 10,
             "top_terms": [
-              "senior",
-              "tecnico",
-              "europe"
+              "director",
+              "associate",
+              "affairs"
             ],
-            "pct": 4.5
+            "pct": 7.4
           }
         ]
       }
