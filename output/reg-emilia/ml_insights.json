@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-27T09:15:42.794728",
+  "generated_at": "2026-06-28T09:32:53.271958",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 52,
+  "total_jobs_analyzed": 53,
   "scoring": {
-    "average": 19.1,
+    "average": 18.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 12,
       "low": 1,
-      "irrelevant": 38
+      "irrelevant": 39
     },
     "top_jobs": [
       {
@@ -96,7 +96,7 @@
       {
         "title": "Regulatory Affairs Specialist - Cosmetics Industry",
         "company": "Cosmoderma",
-        "score": 54,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433811762"
@@ -158,12 +158,12 @@
         "url": "https://www.linkedin.com/jobs/view/4432226101"
       },
       {
-        "title": "ADDETTO/A ALLA SALDATURA ROBOTIZZATA",
-        "company": "Forghieri S.r.l",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1782259200000,
-        "url": "https://it.indeed.com/viewjob?jk=b90e26083d7bbdef"
+        "title": "Specialist, Quality Assurance GCP",
+        "company": "Alfasigma",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4430684516"
       },
       {
         "title": "RA Specialist (510k) - Medical Devices",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "medical",
@@ -209,43 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+57%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
-        "current": 6,
-        "avg": 3.8,
-        "change_pct": 56.5
+        "current": 1,
+        "avg": 4.3,
+        "change_pct": -76.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/6 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 6,
-        "total": 6,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 22,
+            "id": 3,
+            "size": 24,
             "top_terms": [
+              "addetto",
               "specialist",
-              "bo",
-              "sales"
+              "bo"
             ],
-            "pct": 42.3
+            "pct": 45.3
           },
           {
-            "id": 0,
-            "size": 13,
+            "id": 4,
+            "size": 12,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 25.0
+            "pct": 22.6
           },
           {
-            "id": 4,
-            "size": 7,
+            "id": 2,
+            "size": 9,
             "top_terms": [
               "quality",
               "assurance",
-              "stageur"
+              "specialist"
             ],
-            "pct": 13.5
+            "pct": 17.0
           },
           {
             "id": 1,
-            "size": 5,
-            "top_terms": [
-              "addetto",
-              "integrato",
-              "sistema"
-            ],
-            "pct": 9.6
-          },
-          {
-            "id": 3,
             "size": 5,
             "top_terms": [
               "medical",
               "devices",
               "engineer"
             ],
-            "pct": 9.6
+            "pct": 9.4
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "it",
+              "support",
+              "specialist"
+            ],
+            "pct": 5.7
           }
         ]
       }

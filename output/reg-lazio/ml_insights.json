@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-27T09:15:42.861113",
+  "generated_at": "2026-06-28T09:32:53.352623",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 135,
+  "total_jobs_analyzed": 134,
   "scoring": {
     "average": 14.6,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 13,
+      "good": 11,
+      "medium": 11,
       "low": 3,
-      "irrelevant": 110
+      "irrelevant": 109
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Submissions Coordinator (Study Start Up)",
         "company": "Medpace",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4387761007"
@@ -70,6 +70,22 @@
         "url": "https://www.linkedin.com/jobs/view/4426863093"
       },
       {
+        "title": "Regulatory Affairs Executive",
+        "company": "Sandoz UK & Ireland",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1781308800000,
+        "url": "https://www.linkedin.com/jobs/view/4428370797"
+      },
+      {
+        "title": "Jr Executive- Regulatory Affairs",
+        "company": "Kemin Industries",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4409780692"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "EOLO",
         "score": 60,
@@ -92,22 +108,6 @@
         "site": "linkedin",
         "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4427520463"
-      },
-      {
-        "title": "Regulatory Affairs Executive",
-        "company": "Sandoz UK & Ireland",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1781308800000,
-        "url": "https://www.linkedin.com/jobs/view/4428370797"
-      },
-      {
-        "title": "Jr Executive- Regulatory Affairs",
-        "company": "Kemin Industries",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4409780692"
       },
       {
         "title": "Regulatory Affairs Intern",
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "director",
@@ -236,11 +236,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 10 (-40%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 11 (-44%)",
       "data": {
         "current": 6,
-        "avg": 9.9,
-        "change_pct": -39.5
+        "avg": 10.7,
+        "change_pct": -43.7
       }
     },
     {
@@ -261,53 +261,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 71,
+            "size": 62,
             "top_terms": [
               "engineer",
               "roma",
               "consultant"
             ],
-            "pct": 52.6
+            "pct": 46.3
           },
           {
-            "id": 2,
-            "size": 22,
+            "id": 4,
+            "size": 23,
             "top_terms": [
               "specialist",
               "regulatory",
               "affairs"
             ],
-            "pct": 16.3
+            "pct": 17.2
           },
           {
             "id": 1,
-            "size": 19,
+            "size": 18,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 14.1
+            "pct": 13.4
           },
           {
             "id": 3,
+            "size": 18,
+            "top_terms": [
+              "director",
+              "associate",
+              "affairs"
+            ],
+            "pct": 13.4
+          },
+          {
+            "id": 2,
             "size": 13,
             "top_terms": [
               "manager",
               "program",
               "regulatory"
             ],
-            "pct": 9.6
-          },
-          {
-            "id": 4,
-            "size": 10,
-            "top_terms": [
-              "director",
-              "associate",
-              "affairs"
-            ],
-            "pct": 7.4
+            "pct": 9.7
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-27T09:15:42.364175",
+  "generated_at": "2026-06-28T09:32:52.740003",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 206,
+  "total_jobs_analyzed": 213,
   "scoring": {
-    "average": 20.8,
+    "average": 20.4,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 31,
-      "low": 60,
-      "irrelevant": 106
+      "good": 10,
+      "medium": 30,
+      "low": 61,
+      "irrelevant": 112
     },
     "top_jobs": [
       {
         "title": "HR Manager",
         "company": "PayOn",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425740072"
@@ -24,7 +24,7 @@
       {
         "title": "HR Manager",
         "company": "Hays",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4425304795"
@@ -32,7 +32,7 @@
       {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
         "company": "Dan John",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433357730"
@@ -46,6 +46,14 @@
         "url": "https://it.indeed.com/viewjob?jk=1460e9868a5fee5a"
       },
       {
+        "title": "HR CONSULTANT - ICT SPECIALIST",
+        "company": "Alti Profili",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4425770175"
+      },
+      {
         "title": "HR Generalist",
         "company": "VESCOGIARETTA Group",
         "score": 62,
@@ -54,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4426840945"
       },
       {
-        "title": "HR CONSULTANT - ICT SPECIALIST",
-        "company": "Alti Profili",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4425770175"
-      },
-      {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "MioDottore",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411392513"
+      },
+      {
+        "title": "METODO SPA - HR RECRUITER - ROMA EST",
+        "company": "METODO SPA",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1781049600000,
+        "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
       },
       {
         "title": "Talent Acquisition Officer",
@@ -84,14 +92,6 @@
         "site": "indeed",
         "date_posted": 1782172800000,
         "url": "https://it.indeed.com/viewjob?jk=070f122fc19d49a1"
-      },
-      {
-        "title": "METODO SPA - HR RECRUITER - ROMA EST",
-        "company": "METODO SPA",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1781049600000,
-        "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
       },
       {
         "title": "Recruiter & HR Administration - Roma (RM)",
@@ -118,20 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4432849336"
       },
       {
+        "title": "Talent Acquisition Intern L.68/99 Categoria Protetta",
+        "company": "Alkemy Group",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4428691909"
+      },
+      {
         "title": "HR Business Partner Centro Italia",
         "company": "Würth Group",
         "score": 57,
         "site": "indeed",
         "date_posted": 1782086400000,
         "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
-      },
-      {
-        "title": "Talent Acquisition Intern L.68/99 Categoria Protetta",
-        "company": "Alkemy Group",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4428691909"
       },
       {
         "title": "Talent Acquisition Lead",
@@ -150,11 +150,19 @@
         "url": "https://www.linkedin.com/jobs/view/4429925865"
       },
       {
+        "title": "Addetto/a selezione personale",
+        "company": "Cosma solution",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1782432000000,
+        "url": "https://it.indeed.com/viewjob?jk=697b91a72ae198ec"
+      },
+      {
         "title": "HR Business Partner, EU One PXT",
         "company": "Amazon",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4400240730"
       },
       {
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1781481600000,
         "url": "https://it.indeed.com/viewjob?jk=b5fc02c03279e974"
-      },
-      {
-        "title": "HR Business Partner",
-        "company": "TOD'S Group",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4429903469"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "risorse",
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
+      },
+      {
+        "word": "umane",
         "count": 33,
         "reason": "Appare 33x in annunci a basso score"
       },
       {
-        "word": "umane",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
-      },
-      {
         "word": "addetto",
-        "count": 21,
-        "reason": "Appare 21x in annunci a basso score"
-      },
-      {
-        "word": "roma",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "impiegato",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "tempo",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -228,13 +228,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-52%)",
+      "data": {
+        "current": 7,
+        "avg": 14.7,
+        "change_pct": -52.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/11 annunci da aziende nuove (18.2%)",
+      "message": "📊 Ultimo scan: 2/7 annunci da aziende nuove (28.6%)",
       "data": {
         "new": 2,
-        "total": 11,
-        "pct": 18.2
+        "total": 7,
+        "pct": 28.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 36% a 14% (-22pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 36.4,
+        "new_pct": 14.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 64% a 86% (+22pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 63.6,
+        "new_pct": 85.7
       }
     },
     {
@@ -245,53 +275,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 114,
+            "size": 115,
             "top_terms": [
-              "hr",
+              "manager",
               "specialist",
-              "junior"
+              "senior"
             ],
-            "pct": 55.3
+            "pct": 54.0
           },
           {
             "id": 2,
-            "size": 41,
+            "size": 40,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 19.9
+            "pct": 18.8
           },
           {
             "id": 3,
-            "size": 18,
+            "size": 28,
             "top_terms": [
-              "roma",
-              "sales",
-              "day"
+              "hr",
+              "recruiter",
+              "generalist"
             ],
-            "pct": 8.7
+            "pct": 13.1
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 19,
             "top_terms": [
+              "addetto",
               "personale",
-              "selezione",
-              "addetto"
+              "selezione"
             ],
-            "pct": 8.3
+            "pct": 8.9
           },
           {
             "id": 4,
-            "size": 16,
+            "size": 11,
             "top_terms": [
-              "manager",
-              "hr",
-              "program"
+              "responsabile",
+              "umane",
+              "risorse"
             ],
-            "pct": 7.8
+            "pct": 5.2
           }
         ]
       }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T09:15:42.464123",
+  "generated_at": "2026-06-28T09:32:52.865590",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 33,
@@ -66,7 +66,7 @@
         "company": "Alira Health",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
@@ -138,8 +138,16 @@
         "company": "Hays",
         "score": 43,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4420732016"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco (Padova)",
+        "company": "Maven Pharma srl",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4426962335"
       },
       {
         "title": "Informatore Scientifico del Farmaco - Treviso",
@@ -148,14 +156,6 @@
         "site": "linkedin",
         "date_posted": 1780963200000,
         "url": "https://www.linkedin.com/jobs/view/4426365926"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco (Padova)",
-        "company": "Maven Pharma srl",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426962335"
       },
       {
         "title": "Informatore Scientifico - Verona",
@@ -185,11 +185,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-75%)",
       "data": {
         "current": 1,
-        "avg": 3.6,
-        "change_pct": -71.9
+        "avg": 4.0,
+        "change_pct": -75.0
       }
     },
     {
@@ -209,7 +209,7 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 2,
             "size": 11,
             "top_terms": [
               "treviso",
@@ -239,7 +239,7 @@
             "pct": 18.2
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 5,
             "top_terms": [
               "manager",
@@ -249,7 +249,7 @@
             "pct": 15.2
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "isf",

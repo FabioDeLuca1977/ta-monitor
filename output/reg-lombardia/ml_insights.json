@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-06-27T09:15:42.763067",
+  "generated_at": "2026-06-28T09:32:53.231322",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 279,
+  "total_jobs_analyzed": 275,
   "scoring": {
-    "average": 17.9,
+    "average": 17.7,
     "distribution": {
       "excellent": 0,
-      "good": 20,
-      "medium": 39,
-      "low": 11,
-      "irrelevant": 209
+      "good": 18,
+      "medium": 41,
+      "low": 9,
+      "irrelevant": 207
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "LHH",
-        "score": 71,
-        "site": "linkedin",
-        "date_posted": 1782259200000,
-        "url": "https://www.linkedin.com/jobs/view/4432564402"
-      },
       {
         "title": "Regulatory Affairs Specialist (Medical Device)",
         "company": "Jefferson Wells Italia",
@@ -34,7 +26,7 @@
         "company": "Recordati",
         "score": 66,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4377177028"
       },
       {
@@ -62,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4428972149"
       },
       {
-        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
-        "company": "Doxal Italia SpA",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
+        "title": "Regulatory Affairs Specialist",
+        "company": "LHH",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1782259200000,
+        "url": "https://www.linkedin.com/jobs/view/4432564402"
       },
       {
         "title": "Clinical Regulatory Specialist",
@@ -76,6 +68,14 @@
         "site": "linkedin",
         "date_posted": 1781308800000,
         "url": "https://www.linkedin.com/jobs/view/4427240538"
+      },
+      {
+        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
+        "company": "Doxal Italia SpA",
+        "score": 63,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
       },
       {
         "title": "Regulatory Affairs Specialist- Area Gomma/Plastica",
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426823698"
       },
       {
-        "title": "Regulatory Submissions Associate Manager II - APAC",
-        "company": "Fortrea",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4427668058"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Pharma",
         "company": "Hays",
         "score": 61,
@@ -138,7 +130,7 @@
         "company": "Biopharmed",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
@@ -146,7 +138,7 @@
         "company": "Recordati",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4408772783"
       },
       {
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4428867218"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Morson Praxis",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4427736025"
-      },
-      {
         "title": "Director, CMC Regulatory Affairs",
         "company": "GSK",
         "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4427366748"
+      },
+      {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Morson Praxis",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4427736025"
+      },
+      {
+        "title": "Regulatory Affairs / Quality Assurance Specialist",
+        "company": "Pharma Line Srl",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1781654400000,
+        "url": "https://it.indeed.com/viewjob?jk=34f75b2084f0f3ed"
       }
     ]
   },
@@ -194,9 +194,9 @@
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "emea",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "associate",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -207,12 +207,6 @@
     "review": []
   },
   "keyword_recommendations": [
-    {
-      "keyword": "senior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
     {
       "keyword": "specialist pharma",
       "frequency": 2,
@@ -266,37 +260,53 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "tecnico certificazioni",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 20 (-90%)",
+      "data": {
+        "current": 2,
+        "avg": 19.5,
+        "change_pct": -89.7
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 9/17 annunci da aziende nuove (52.9%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 9,
-        "total": 17,
-        "pct": 52.9
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 56% a 76% (+21pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 55.6,
-        "new_pct": 76.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 44% a 24% (-21pp)",
+      "message": "📡 linkedin: quota passata da 24% a 50% (+26pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 44.4,
-        "new_pct": 23.5
+        "old_pct": 23.5,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 76% a 50% (-26pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 76.5,
+        "new_pct": 50.0
       }
     },
     {
@@ -306,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 136,
-            "top_terms": [
-              "specialist",
-              "engineer",
-              "lead"
-            ],
-            "pct": 48.7
-          },
-          {
-            "id": 2,
-            "size": 56,
+            "id": 4,
+            "size": 168,
             "top_terms": [
               "manager",
               "senior",
-              "project"
+              "specialist"
             ],
-            "pct": 20.1
+            "pct": 61.1
           },
           {
-            "id": 4,
-            "size": 46,
+            "id": 2,
+            "size": 48,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 16.5
+            "pct": 17.5
           },
           {
-            "id": 1,
-            "size": 39,
+            "id": 3,
+            "size": 37,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 14.0
+            "pct": 13.5
+          },
+          {
+            "id": 1,
+            "size": 13,
+            "top_terms": [
+              "engineer",
+              "aerospace",
+              "senior"
+            ],
+            "pct": 4.7
           },
           {
             "id": 0,
-            "size": 2,
+            "size": 9,
             "top_terms": [
-              "parrucchiere",
-              "experience",
-              "milano"
+              "lead",
+              "pharmacovigilance",
+              "director"
             ],
-            "pct": 0.7
+            "pct": 3.3
           }
         ]
       }

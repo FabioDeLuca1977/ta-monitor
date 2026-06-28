@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-27T09:15:42.441664",
+  "generated_at": "2026-06-28T09:32:52.835342",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 206,
+  "total_jobs_analyzed": 213,
   "scoring": {
-    "average": 21.6,
+    "average": 21.1,
     "distribution": {
       "excellent": 0,
       "good": 12,
-      "medium": 37,
-      "low": 51,
-      "irrelevant": 106
+      "medium": 36,
+      "low": 53,
+      "irrelevant": 112
     },
     "top_jobs": [
       {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
         "company": "Dan John",
-        "score": 72,
+        "score": 73,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433357730"
@@ -56,7 +56,7 @@
       {
         "title": "Recruiter e HR Specialist",
         "company": "LevelUp Distribuzione Estetica",
-        "score": 63,
+        "score": 64,
         "site": "indeed",
         "date_posted": 1781481600000,
         "url": "https://it.indeed.com/viewjob?jk=1460e9868a5fee5a"
@@ -150,28 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
       },
       {
-        "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
-        "company": "SRS Servizi di Ricerche e Sviluppo S.r.l.",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429925865"
-      },
-      {
         "title": "HR Business Partner, EU One PXT",
         "company": "Amazon",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4400240730"
       },
       {
-        "title": "HR Business Partner",
-        "company": "TOD'S Group",
+        "title": "HR RECRUITER",
+        "company": "LIHOS",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1781481600000,
+        "url": "https://it.indeed.com/viewjob?jk=b5fc02c03279e974"
+      },
+      {
+        "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
+        "company": "SRS Servizi di Ricerche e Sviluppo S.r.l.",
         "score": 55,
         "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4429903469"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429925865"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "roma",
@@ -199,9 +199,9 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "settore",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "tempo",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -234,13 +234,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-52%)",
+      "data": {
+        "current": 7,
+        "avg": 14.7,
+        "change_pct": -52.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/11 annunci da aziende nuove (18.2%)",
+      "message": "📊 Ultimo scan: 2/7 annunci da aziende nuove (28.6%)",
       "data": {
         "new": 2,
-        "total": 11,
-        "pct": 18.2
+        "total": 7,
+        "pct": 28.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 36% a 14% (-22pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 36.4,
+        "new_pct": 14.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 64% a 86% (+22pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 63.6,
+        "new_pct": 85.7
       }
     },
     {
@@ -251,53 +281,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 114,
+            "size": 115,
             "top_terms": [
-              "hr",
+              "manager",
               "specialist",
-              "junior"
+              "senior"
             ],
-            "pct": 55.3
+            "pct": 54.0
           },
           {
             "id": 2,
-            "size": 41,
+            "size": 40,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 19.9
+            "pct": 18.8
           },
           {
             "id": 3,
-            "size": 18,
+            "size": 28,
             "top_terms": [
-              "roma",
-              "sales",
-              "day"
+              "hr",
+              "recruiter",
+              "generalist"
             ],
-            "pct": 8.7
+            "pct": 13.1
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 19,
             "top_terms": [
+              "addetto",
               "personale",
-              "selezione",
-              "addetto"
+              "selezione"
             ],
-            "pct": 8.3
+            "pct": 8.9
           },
           {
             "id": 4,
-            "size": 16,
+            "size": 11,
             "top_terms": [
-              "manager",
-              "hr",
-              "program"
+              "responsabile",
+              "umane",
+              "risorse"
             ],
-            "pct": 7.8
+            "pct": 5.2
           }
         ]
       }
