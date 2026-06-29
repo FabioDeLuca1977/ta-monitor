@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-28T09:32:53.231322",
+  "generated_at": "2026-06-29T11:39:18.950157",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 275,
+  "total_jobs_analyzed": 273,
   "scoring": {
-    "average": 17.7,
+    "average": 17.2,
     "distribution": {
       "excellent": 0,
-      "good": 18,
-      "medium": 41,
+      "good": 19,
+      "medium": 37,
       "low": 9,
-      "irrelevant": 207
+      "irrelevant": 208
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4426337115"
       },
       {
+        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
+        "company": "Doxal Italia SpA",
+        "score": 67,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
+      },
+      {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
         "score": 66,
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4377177028"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Recordati",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1782000000000,
-        "url": "https://www.linkedin.com/jobs/view/4411744140"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST",
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4427240538"
       },
       {
-        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
-        "company": "Doxal Italia SpA",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
-      },
-      {
         "title": "Regulatory Affairs Specialist- Area Gomma/Plastica",
         "company": "Adecco",
         "score": 63,
@@ -110,12 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4426823698"
       },
       {
-        "title": "Regulatory Affairs Specialist - Pharma",
-        "company": "Hays",
+        "title": "Regulatory Affairs Specialist",
+        "company": "Recordati",
         "score": 61,
         "site": "linkedin",
-        "date_posted": 1781740800000,
-        "url": "https://www.linkedin.com/jobs/view/4427823725"
+        "date_posted": 1782000000000,
+        "url": "https://www.linkedin.com/jobs/view/4411744140"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST - COSMETICI",
@@ -150,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4428867218"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Morson Praxis",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4427736025"
+      },
+      {
         "title": "Director, CMC Regulatory Affairs",
         "company": "GSK",
         "score": 60,
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4427366748"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Morson Praxis",
-        "score": 59,
+        "title": "Quality Assurance Specialist - Pharma",
+        "company": "agap2 Italia",
+        "score": 60,
         "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4427736025"
+        "date_posted": 1782432000000,
+        "url": "https://www.linkedin.com/jobs/view/4430632049"
       },
       {
-        "title": "Regulatory Affairs / Quality Assurance Specialist",
-        "company": "Pharma Line Srl",
+        "title": "Lead Regulatory Affairs Manager, International",
+        "company": "Exact Sciences",
         "score": 59,
-        "site": "indeed",
-        "date_posted": 1781654400000,
-        "url": "https://it.indeed.com/viewjob?jk=34f75b2084f0f3ed"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4387965325"
       }
     ]
   },
@@ -179,19 +179,9 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 40,
-        "reason": "Appare 40x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 30,
-        "reason": "Appare 30x in annunci a basso score"
-      },
-      {
         "word": "engineer",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -208,24 +198,6 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "specialist pharma",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs specialist pharma",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs settore",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "international regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -233,6 +205,12 @@
     },
     {
       "keyword": "affairs support",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "affairs settore",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -256,6 +234,18 @@
       "confidence": 30
     },
     {
+      "keyword": "assurance specialist",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "specialist pharma",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "gomma plastica",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -272,41 +262,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 20 (-90%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 19 (-74%)",
       "data": {
-        "current": 2,
-        "avg": 19.5,
-        "change_pct": -89.7
+        "current": 5,
+        "avg": 19.1,
+        "change_pct": -73.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 24% a 50% (+26pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 23.5,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 76% a 50% (-26pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 76.5,
-        "new_pct": 50.0
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
@@ -316,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 168,
+            "id": 0,
+            "size": 122,
             "top_terms": [
-              "manager",
-              "senior",
-              "specialist"
+              "specialist",
+              "engineer",
+              "associate"
             ],
-            "pct": 61.1
+            "pct": 44.7
           },
           {
-            "id": 2,
-            "size": 48,
+            "id": 3,
+            "size": 40,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.5
+            "pct": 14.7
           },
           {
-            "id": 3,
-            "size": 37,
+            "id": 2,
+            "size": 38,
+            "top_terms": [
+              "manager",
+              "project",
+              "regulatory"
+            ],
+            "pct": 13.9
+          },
+          {
+            "id": 4,
+            "size": 38,
+            "top_terms": [
+              "senior",
+              "lead",
+              "director"
+            ],
+            "pct": 13.9
+          },
+          {
+            "id": 1,
+            "size": 35,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 13.5
-          },
-          {
-            "id": 1,
-            "size": 13,
-            "top_terms": [
-              "engineer",
-              "aerospace",
-              "senior"
-            ],
-            "pct": 4.7
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "lead",
-              "pharmacovigilance",
-              "director"
-            ],
-            "pct": 3.3
+            "pct": 12.8
           }
         ]
       }
