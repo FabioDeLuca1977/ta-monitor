@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-06-29T11:39:18.805798",
+  "generated_at": "2026-06-30T10:30:39.753234",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 56,
   "scoring": {
-    "average": 11.3,
+    "average": 11.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 2,
-      "irrelevant": 51
+      "irrelevant": 49
     },
     "top_jobs": [
       {
-        "title": "REGULATORY SPECIALIST",
-        "company": "Colorificio Paulin S.p.A.",
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "NEWCHEM SPA",
         "score": 63,
         "site": "linkedin",
-        "date_posted": 1780876800000,
-        "url": "https://www.linkedin.com/jobs/view/4421952309"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 53,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
@@ -50,13 +50,13 @@
         "company": "MedicAir",
         "score": 43,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
       },
       {
         "title": "MECHANICAL ENGINEER",
         "company": "De'Longhi",
-        "score": 30,
+        "score": 25,
         "site": "indeed",
         "date_posted": 1782432000000,
         "url": "https://it.indeed.com/viewjob?jk=a71890c0a9d4a29d"
@@ -70,28 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4424739480"
       },
       {
-        "title": "JR QUALITY ASSURANCE",
-        "company": "Grafton Recruitment",
-        "score": 18,
-        "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4430619387"
-      },
-      {
         "title": "Quality Assurance & Auditing Manager",
         "company": "Penta - Child Health Research",
         "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428805774"
-      },
-      {
-        "title": "IT Support Specialist",
-        "company": "Dentsply Sirona",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=eae5deed81858bcb"
       },
       {
         "title": "Quality Assurance Manager",
@@ -118,20 +102,20 @@
         "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
       },
       {
+        "title": "JR QUALITY ASSURANCE",
+        "company": "Grafton Recruitment",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1782432000000,
+        "url": "https://www.linkedin.com/jobs/view/4430619387"
+      },
+      {
         "title": "Quality Assurance Specialist - Vicenza",
         "company": "Eurofins PSS Insourcing Solutions",
         "score": 12,
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4417215462"
-      },
-      {
-        "title": "Addetto/a allo sviluppo contatti commerciali",
-        "company": "Tao Technologies srls",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=46cd1701533ad26d"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -142,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4433887992"
       },
       {
-        "title": "Direttore ristorante",
-        "company": null,
+        "title": "IT Support Specialist",
+        "company": "Dentsply Sirona",
         "score": 11,
         "site": "indeed",
         "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=0e4a46782dabf2d7"
+        "url": "https://it.indeed.com/viewjob?jk=eae5deed81858bcb"
       },
       {
         "title": "Specialist Onco-Haematology (Veneto e Trentino-Alto Adige)",
@@ -170,8 +154,24 @@
         "company": "GSK",
         "score": 10,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4423648200"
+      },
+      {
+        "title": "EHS Specialist",
+        "company": "Carrier",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1782259200000,
+        "url": "https://it.indeed.com/viewjob?jk=bc6104fc96328874"
+      },
+      {
+        "title": "Supplier Quality Management and Audit Category Specialist",
+        "company": "Cargill",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1782345600000,
+        "url": "https://it.indeed.com/viewjob?jk=b506deaf93c84760"
       }
     ]
   },
@@ -211,31 +211,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-56%)",
       "data": {
-        "current": 1,
-        "avg": 4.8,
-        "change_pct": -78.9
+        "current": 2,
+        "avg": 4.5,
+        "change_pct": -55.6
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "data": {
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 75.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 25% a 0% (-25pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 25.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 3,
             "size": 32,
             "top_terms": [
-              "specialist",
-              "operatore",
-              "engineer"
+              "haematology",
+              "onco",
+              "qualità"
             ],
-            "pct": 55.2
+            "pct": 57.1
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 13,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 22.4
+            "pct": 23.2
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "specialist",
+              "hse",
+              "vicenza"
+            ],
+            "pct": 8.9
           },
           {
             "id": 4,
-            "size": 6,
-            "top_terms": [
-              "addetto",
-              "sistema",
-              "coordinati"
-            ],
-            "pct": 10.3
-          },
-          {
-            "id": 1,
             "size": 4,
             "top_terms": [
-              "onco",
-              "haematology",
-              "toscana"
+              "addetto",
+              "gestione",
+              "sistema"
             ],
-            "pct": 6.9
+            "pct": 7.1
           },
           {
             "id": 0,
-            "size": 3,
+            "size": 2,
             "top_terms": [
-              "qualità",
-              "sistema",
-              "specialista"
+              "internship",
+              "vicenza",
+              "negozi"
             ],
-            "pct": 5.2
+            "pct": 3.6
           }
         ]
       }

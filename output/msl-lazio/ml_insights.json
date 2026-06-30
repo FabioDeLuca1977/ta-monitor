@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T11:39:18.759755",
+  "generated_at": "2026-06-30T10:30:39.708312",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 81,
   "scoring": {
-    "average": 34.4,
+    "average": 34.2,
     "distribution": {
       "excellent": 0,
       "good": 3,
@@ -24,7 +24,7 @@
       {
         "title": "Future Medical Affairs Leadership Opportunities  Join Our Medical Affairs Talent Leaders Pipeline",
         "company": "BioSpace",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430191347"
@@ -44,14 +44,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432548580"
-      },
-      {
-        "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
-        "company": "BioSpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4427141969"
       },
       {
         "title": "Associate Medical Director",
@@ -102,20 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4427652222"
       },
       {
-        "title": "Director, Medical Affairs",
-        "company": "PTC Therapeutics",
+        "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
+        "company": "BioSpace",
         "score": 54,
-        "site": "indeed",
-        "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=128bdb08727bff1b"
-      },
-      {
-        "title": "Executive Director, Medical Affairs",
-        "company": "Premier Research",
-        "score": 53,
         "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4427541541"
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4427141969"
       },
       {
         "title": "Junior Medical Science Liaison, Bulgaria",
@@ -158,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399067333"
       },
       {
-        "title": "Medical Director (+ Equity) at Ollyinsurance",
-        "company": "Jack & Jill",
+        "title": "Executive Director, Medical Affairs",
+        "company": "Premier Research",
         "score": 52,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429024027"
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4427541541"
       },
       {
         "title": "Associate Director, Medical Affairs",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432257464"
+      },
+      {
+        "title": "Director, Neuroscience Medical Affairs",
+        "company": "IXICO",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4427387143"
+      },
+      {
+        "title": "Scientific Affairs Manager - Italy (Rome)",
+        "company": "Rhythm Pharmaceuticals",
+        "score": 51,
+        "site": "indeed",
+        "date_posted": 1781827200000,
+        "url": "https://it.indeed.com/viewjob?jk=d514194f6aa54f36"
       }
     ]
   },
@@ -189,17 +189,17 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
         "word": "market",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "access",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "director medical",
-      "frequency": 5,
+      "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 75
+      "confidence": 60
     },
     {
       "keyword": "associate director",
@@ -229,42 +229,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 8 (-34%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-88%)",
       "data": {
-        "current": 5,
-        "avg": 7.6,
-        "change_pct": -34.2
+        "current": 1,
+        "avg": 8.0,
+        "change_pct": -87.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 5,
-        "pct": 80.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 20% (-80pp)",
+      "message": "📡 linkedin: quota passata da 20% a 100% (+80pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 80% (+80pp)",
+      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 80.0
+        "old_pct": 80.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -274,37 +274,37 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 29,
-            "top_terms": [
-              "advisor",
-              "manager",
-              "oncology"
-            ],
-            "pct": 35.8
-          },
-          {
-            "id": 4,
-            "size": 25,
+            "id": 0,
+            "size": 31,
             "top_terms": [
               "medical",
               "director",
               "associate"
             ],
-            "pct": 30.9
+            "pct": 38.3
+          },
+          {
+            "id": 1,
+            "size": 28,
+            "top_terms": [
+              "advisor",
+              "manager",
+              "market"
+            ],
+            "pct": 34.6
           },
           {
             "id": 3,
-            "size": 14,
+            "size": 9,
             "top_terms": [
               "affairs",
               "medical",
-              "director"
+              "head"
             ],
-            "pct": 17.3
+            "pct": 11.1
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 9,
             "top_terms": [
               "specialist",
@@ -314,7 +314,7 @@
             "pct": 11.1
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "engineer",

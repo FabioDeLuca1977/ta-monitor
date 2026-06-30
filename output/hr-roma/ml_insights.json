@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-29T11:39:18.430177",
+  "generated_at": "2026-06-30T10:30:39.383771",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 206,
+  "total_jobs_analyzed": 201,
   "scoring": {
-    "average": 20.4,
+    "average": 20.6,
     "distribution": {
       "excellent": 0,
       "good": 9,
-      "medium": 29,
-      "low": 61,
-      "irrelevant": 107
+      "medium": 30,
+      "low": 57,
+      "irrelevant": 105
     },
     "top_jobs": [
       {
@@ -86,17 +86,9 @@
         "url": "https://it.indeed.com/viewjob?jk=070f122fc19d49a1"
       },
       {
-        "title": "Recruiter & HR Administration - Roma (RM)",
-        "company": "Openjobmetis SpA",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4424432265"
-      },
-      {
         "title": "METODO SPA - HR RECRUITER - ROMA EST",
         "company": "METODO SPA",
-        "score": 58,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1781049600000,
         "url": "https://it.indeed.com/viewjob?jk=53499a22e2010e35"
@@ -118,19 +110,19 @@
         "url": "https://www.linkedin.com/jobs/view/4432849336"
       },
       {
-        "title": "HR Business Partner Centro Italia",
-        "company": "Würth Group",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1782086400000,
-        "url": "https://it.indeed.com/viewjob?jk=4c7de10c3dae442c"
+        "title": "Recruiter & HR Administration - Roma (RM)",
+        "company": "Openjobmetis SpA",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424432265"
       },
       {
         "title": "Talent Acquisition Intern L.68/99 Categoria Protetta",
         "company": "Alkemy Group",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4428691909"
       },
       {
@@ -142,22 +134,6 @@
         "url": "https://it.indeed.com/viewjob?jk=1d6345c3c9752ada"
       },
       {
-        "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
-        "company": "SRS Servizi di Ricerche e Sviluppo S.r.l.",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429925865"
-      },
-      {
-        "title": "Addetto/a selezione personale",
-        "company": "Cosma solution",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=697b91a72ae198ec"
-      },
-      {
         "title": "HR Business Partner, EU One PXT",
         "company": "Amazon",
         "score": 55,
@@ -166,12 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4400240730"
       },
       {
+        "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
+        "company": "SRS Servizi di Ricerche e Sviluppo S.r.l.",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429925865"
+      },
+      {
+        "title": "HR Business Partner",
+        "company": "TOD'S Group",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4429903469"
+      },
+      {
         "title": "HR RECRUITER",
         "company": "LIHOS",
-        "score": 55,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1781481600000,
         "url": "https://it.indeed.com/viewjob?jk=b5fc02c03279e974"
+      },
+      {
+        "title": "HR Officer (Payroll, Time & Audit Operations Lead) P4",
+        "company": "World Food Programme",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1780963200000,
+        "url": "https://www.linkedin.com/jobs/view/4426307265"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "risorse",
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
+      },
+      {
+        "word": "umane",
         "count": 32,
         "reason": "Appare 32x in annunci a basso score"
       },
       {
-        "word": "umane",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
-      },
-      {
         "word": "addetto",
-        "count": 21,
-        "reason": "Appare 21x in annunci a basso score"
-      },
-      {
-        "word": "roma",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 23,
+        "reason": "Appare 23x in annunci a basso score"
       },
       {
         "word": "impiegato",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "roma",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -230,41 +230,31 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 15 (-93%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 14 (-57%)",
       "data": {
-        "current": 1,
-        "avg": 14.6,
-        "change_pct": -93.2
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "current": 6,
+        "avg": 13.9,
+        "change_pct": -56.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 14% a 100% (+86pp)",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 14.3,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 86% a 0% (-86pp)",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 85.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -274,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 119,
+            "id": 0,
+            "size": 98,
             "top_terms": [
-              "hr",
-              "junior",
-              "roma"
+              "manager",
+              "responsabile",
+              "senior"
             ],
-            "pct": 57.8
+            "pct": 48.8
           },
           {
-            "id": 2,
-            "size": 39,
+            "id": 4,
+            "size": 41,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 18.9
+            "pct": 20.4
           },
           {
-            "id": 4,
-            "size": 21,
+            "id": 2,
+            "size": 26,
             "top_terms": [
-              "personale",
+              "hr",
+              "roma",
+              "generalist"
+            ],
+            "pct": 12.9
+          },
+          {
+            "id": 1,
+            "size": 25,
+            "top_terms": [
               "addetto",
+              "personale",
               "selezione"
             ],
-            "pct": 10.2
+            "pct": 12.4
           },
           {
             "id": 3,
-            "size": 15,
-            "top_terms": [
-              "manager",
-              "program",
-              "account"
-            ],
-            "pct": 7.3
-          },
-          {
-            "id": 0,
-            "size": 12,
+            "size": 11,
             "top_terms": [
               "specialist",
               "hr",
               "talent"
             ],
-            "pct": 5.8
+            "pct": 5.5
           }
         ]
       }
