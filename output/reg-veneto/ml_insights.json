@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-30T10:30:39.753234",
+  "generated_at": "2026-07-01T11:17:03.032330",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 56,
   "scoring": {
-    "average": 11.1,
+    "average": 11.3,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
-      "low": 2,
-      "irrelevant": 49
+      "low": 1,
+      "irrelevant": 50
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 51,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
@@ -64,7 +64,7 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "SteelcoBelimed",
-        "score": 22,
+        "score": 17,
         "site": "linkedin",
         "date_posted": 1782518400000,
         "url": "https://www.linkedin.com/jobs/view/4424739480"
@@ -86,6 +86,14 @@
         "url": "https://www.linkedin.com/jobs/view/4424754375"
       },
       {
+        "title": "JR QUALITY ASSURANCE ( QUALITA' PROCESSO)",
+        "company": "Grafton Recruitment",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4431520519"
+      },
+      {
         "title": "Quality Assurance Specialist (Product Distribution) - Fixed Term Contract",
         "company": "GSK",
         "score": 15,
@@ -102,28 +110,20 @@
         "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
       },
       {
-        "title": "JR QUALITY ASSURANCE",
-        "company": "Grafton Recruitment",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4430619387"
-      },
-      {
-        "title": "Quality Assurance Specialist - Vicenza",
-        "company": "Eurofins PSS Insourcing Solutions",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4417215462"
-      },
-      {
         "title": "QUALITY ASSURANCE SPECIALIST",
         "company": "CHR S.r.l.",
         "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433887992"
+      },
+      {
+        "title": "JR QUALITY ASSURANCE",
+        "company": "Grafton Recruitment",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1782432000000,
+        "url": "https://www.linkedin.com/jobs/view/4430619387"
       },
       {
         "title": "IT Support Specialist",
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
         "word": "addetto",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "sistema",
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-56%)",
-      "data": {
-        "current": 2,
-        "avg": 4.5,
-        "change_pct": -55.6
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 4,
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 25% (-25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 50% a 75% (+25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -255,52 +245,52 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
+            "id": 1,
             "size": 32,
             "top_terms": [
-              "haematology",
-              "onco",
+              "specialist",
+              "hse",
               "qualità"
             ],
             "pct": 57.1
           },
           {
-            "id": 1,
-            "size": 13,
+            "id": 0,
+            "size": 12,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 23.2
+            "pct": 21.4
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 6,
             "top_terms": [
-              "specialist",
-              "hse",
-              "vicenza"
+              "addetto",
+              "sistema",
+              "coordinati"
             ],
-            "pct": 8.9
+            "pct": 10.7
           },
           {
             "id": 4,
             "size": 4,
             "top_terms": [
-              "addetto",
-              "gestione",
-              "sistema"
+              "onco",
+              "haematology",
+              "toscana"
             ],
             "pct": 7.1
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 2,
             "top_terms": [
-              "internship",
-              "vicenza",
-              "negozi"
+              "advisor",
+              "beauty",
+              "vicenza"
             ],
             "pct": 3.6
           }

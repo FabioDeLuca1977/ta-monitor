@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-30T10:30:39.708312",
+  "generated_at": "2026-07-01T11:17:02.979738",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 81,
+  "total_jobs_analyzed": 77,
   "scoring": {
-    "average": 34.2,
+    "average": 35.0,
     "distribution": {
       "excellent": 0,
-      "good": 3,
+      "good": 2,
       "medium": 47,
       "low": 4,
-      "irrelevant": 27
+      "irrelevant": 24
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Future Medical Affairs Leadership Opportunities  Join Our Medical Affairs Talent Leaders Pipeline",
         "company": "BioSpace",
-        "score": 64,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430191347"
@@ -32,9 +32,9 @@
       {
         "title": "Field Medical Advisor - Italy",
         "company": "Syneos Health Commercial Solutions",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
-        "date_posted": 1780963200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426342053"
       },
       {
@@ -54,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4427605291"
       },
       {
-        "title": "Medical Science Liaison, Lead (Associate Director) - Italy",
-        "company": "Alnylam Pharmaceuticals",
-        "score": 55,
+        "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
+        "company": "BioSpace",
+        "score": 56,
         "site": "linkedin",
-        "date_posted": 1780963200000,
-        "url": "https://www.linkedin.com/jobs/view/4426533104"
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4427141969"
       },
       {
         "title": "Manager Medical Information / Informationsbeauftragter (w/m/d)",
@@ -88,18 +88,10 @@
       {
         "title": "Medical Manager – Neuroscience",
         "company": "Novartis Saudi Arabia | نوفارتس السعودية",
-        "score": 55,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4427652222"
-      },
-      {
-        "title": "Vice President, Medical Affairs, Asia & Country Medical Director, Singapore",
-        "company": "BioSpace",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4427141969"
       },
       {
         "title": "Junior Medical Science Liaison, Bulgaria",
@@ -126,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4426829097"
       },
       {
-        "title": "Medical Director- Neurology",
-        "company": "IQVIA",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4426175411"
-      },
-      {
         "title": "Medical Director, Medical Safety",
         "company": "Jazz Pharmaceuticals",
         "score": 52,
@@ -158,20 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4432257464"
       },
       {
-        "title": "Director, Neuroscience Medical Affairs",
-        "company": "IXICO",
-        "score": 51,
+        "title": "Senior Director, Medical Affairs, Midsized Markets Europe",
+        "company": "Revolution Medicines",
+        "score": 50,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4427387143"
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4409725080"
       },
       {
-        "title": "Scientific Affairs Manager - Italy (Rome)",
-        "company": "Rhythm Pharmaceuticals",
-        "score": 51,
-        "site": "indeed",
-        "date_posted": 1781827200000,
-        "url": "https://it.indeed.com/viewjob?jk=d514194f6aa54f36"
+        "title": "Head Medical Affairs - Canada",
+        "company": "Astellas Pharma",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4427619060"
+      },
+      {
+        "title": "Group Leader Medical Affairs (Multiple Sclerosis)",
+        "company": "Roche",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4410254172"
+      },
+      {
+        "title": "Therapy Area Medical Lead, Biopharmaceutical - Egypt",
+        "company": "AstraZeneca",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4428494487"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "specialist",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -212,29 +212,17 @@
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 60
-    },
-    {
-      "keyword": "associate director",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "italy",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-88%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-87%)",
       "data": {
         "current": 1,
-        "avg": 8.0,
-        "change_pct": -87.5
+        "avg": 7.6,
+        "change_pct": -86.8
       }
     },
     {
@@ -248,80 +236,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 100% (+80pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 0.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 31,
-            "top_terms": [
-              "medical",
-              "director",
-              "associate"
-            ],
-            "pct": 38.3
-          },
-          {
-            "id": 1,
-            "size": 28,
+            "id": 2,
+            "size": 30,
             "top_terms": [
               "advisor",
-              "manager",
-              "market"
+              "medical",
+              "manager"
             ],
-            "pct": 34.6
+            "pct": 39.0
           },
           {
             "id": 3,
-            "size": 9,
+            "size": 19,
+            "top_terms": [
+              "director",
+              "medical",
+              "associate"
+            ],
+            "pct": 24.7
+          },
+          {
+            "id": 1,
+            "size": 14,
             "top_terms": [
               "affairs",
               "medical",
-              "head"
+              "director"
             ],
-            "pct": 11.1
+            "pct": 18.2
           },
           {
             "id": 4,
             "size": 9,
             "top_terms": [
               "specialist",
-              "device",
-              "clinical"
+              "technical",
+              "management"
             ],
-            "pct": 11.1
+            "pct": 11.7
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 0,
+            "size": 5,
             "top_terms": [
               "engineer",
-              "field",
+              "operations",
               "junior"
             ],
-            "pct": 4.9
+            "pct": 6.5
           }
         ]
       }

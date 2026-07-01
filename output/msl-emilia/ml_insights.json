@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-30T10:30:39.658272",
+  "generated_at": "2026-07-01T11:17:02.924940",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 38.0,
+    "average": 38.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 31,
+      "medium": 30,
       "low": 0,
-      "irrelevant": 11
+      "irrelevant": 10
     },
     "top_jobs": [
       {
@@ -72,7 +72,7 @@
       {
         "title": "Medical Director, Medical Safety",
         "company": "BioSpace",
-        "score": 53,
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1781308800000,
         "url": "https://www.linkedin.com/jobs/view/4427907447"
@@ -84,14 +84,6 @@
         "site": "linkedin",
         "date_posted": 1782432000000,
         "url": "https://www.linkedin.com/jobs/view/4433811762"
-      },
-      {
-        "title": "Sr Regional Medical Advisor",
-        "company": "Dr. Reddy's Laboratories",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430423793"
       },
       {
         "title": "Medical Advisor Internal Medicine",
@@ -110,20 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4429469367"
       },
       {
-        "title": "Medical Science Liaison-HTN-Beijing",
-        "company": "AstraZeneca",
+        "title": "Sr Regional Medical Advisor",
+        "company": "Dr. Reddy's Laboratories",
         "score": 50,
         "site": "linkedin",
-        "date_posted": 1781654400000,
-        "url": "https://www.linkedin.com/jobs/view/4416851042"
-      },
-      {
-        "title": "Medical Science Liaison, Immunology - NY",
-        "company": "Galderma",
-        "score": 49,
-        "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429984383"
+        "url": "https://www.linkedin.com/jobs/view/4430423793"
       },
       {
         "title": "Pharmacovigilance Services Assoc Manager",
@@ -134,28 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4351361555"
       },
       {
+        "title": "Medical Science Liaison-HTN-Beijing",
+        "company": "AstraZeneca",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": 1781654400000,
+        "url": "https://www.linkedin.com/jobs/view/4416851042"
+      },
+      {
+        "title": "Medical Science Liaison, Immunology - NY",
+        "company": "Galderma",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429984383"
+      },
+      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
         "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
-      {
-        "title": "Medical Science Liaison, Hematology-Oncology (12 month contract) - BC",
-        "company": "GSK",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4423639699"
-      },
-      {
-        "title": "IVD Senior Regional Scientific Manager, Thailand",
-        "company": "Mindray",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4382286519"
       },
       {
         "title": "Medical Science Liaison-Neuroimmunology, South Central",
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4429556192"
       },
       {
-        "title": "Medical Science Liaison, Endocrinology, (Los Angeles OR San Diego)",
-        "company": "Recordati Rare Diseases North America",
+        "title": "Medical Science Liaison,  Respiratory - Georgia (GA, AL, MS, TN)",
+        "company": "GSK",
         "score": 46,
         "site": "linkedin",
         "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4409448602"
+        "url": "https://www.linkedin.com/jobs/view/4426843836"
+      },
+      {
+        "title": "Medical Science Liaison, Hematology-Oncology (12 month contract) - BC",
+        "company": "GSK",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4423639699"
+      },
+      {
+        "title": "IVD Senior Regional Scientific Manager, Thailand",
+        "company": "Mindray",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4382286519"
       }
     ]
   },
@@ -198,41 +198,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-60%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
-        "current": 2,
-        "avg": 5.0,
-        "change_pct": -60.0
+        "current": 1,
+        "avg": 4.3,
+        "change_pct": -76.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -243,53 +243,53 @@
         "clusters": [
           {
             "id": 2,
-            "size": 12,
+            "size": 10,
             "top_terms": [
-              "manager",
-              "regional",
-              "scientific"
-            ],
-            "pct": 28.6
-          },
-          {
-            "id": 4,
-            "size": 9,
-            "top_terms": [
-              "medical",
-              "director",
-              "advisor"
-            ],
-            "pct": 21.4
-          },
-          {
-            "id": 0,
-            "size": 8,
-            "top_terms": [
-              "specialist",
-              "it",
-              "clinical"
-            ],
-            "pct": 19.0
-          },
-          {
-            "id": 1,
-            "size": 8,
-            "top_terms": [
-              "science",
               "liaison",
+              "science",
               "medical"
             ],
-            "pct": 19.0
+            "pct": 25.0
           },
           {
             "id": 3,
+            "size": 10,
+            "top_terms": [
+              "specialist",
+              "affairs",
+              "regulatory"
+            ],
+            "pct": 25.0
+          },
+          {
+            "id": 1,
+            "size": 9,
+            "top_terms": [
+              "director",
+              "safety",
+              "senior"
+            ],
+            "pct": 22.5
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "advisor",
+              "medical",
+              "regional"
+            ],
+            "pct": 15.0
+          },
+          {
+            "id": 4,
             "size": 5,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "manager",
+              "pharmacovigilance",
+              "sr"
             ],
-            "pct": 11.9
+            "pct": 12.5
           }
         ]
       }

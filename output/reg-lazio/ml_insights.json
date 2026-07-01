@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-30T10:30:40.019423",
+  "generated_at": "2026-07-01T11:17:03.320493",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 126,
+  "total_jobs_analyzed": 122,
   "scoring": {
-    "average": 14.1,
+    "average": 14.4,
     "distribution": {
       "excellent": 0,
       "good": 12,
       "medium": 8,
       "low": 3,
-      "irrelevant": 103
+      "irrelevant": 99
     },
     "top_jobs": [
       {
@@ -36,14 +36,6 @@
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4387761007"
-      },
-      {
-        "title": "Regulatory Submissions Associate Manager II - APAC",
-        "company": "Fortrea",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1781136000000,
-        "url": "https://www.linkedin.com/jobs/view/4427668058"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -110,6 +102,14 @@
         "url": "https://www.linkedin.com/jobs/view/4426852119"
       },
       {
+        "title": "Regulatory Submissions Associate Manager II - APAC",
+        "company": "Fortrea",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4427668058"
+      },
+      {
         "title": "Sr. Manager, Global Regulatory Strategy",
         "company": "Telix Pharmaceuticals Limited",
         "score": 57,
@@ -126,20 +126,20 @@
         "url": "https://www.linkedin.com/jobs/view/4428419123"
       },
       {
-        "title": "Associate Director, Regulatory Affairs, Marketed Products Portfolio",
-        "company": "GE HealthCare",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430102702"
-      },
-      {
         "title": "Associate Director, Regulatory Strategy",
         "company": "Kardigan",
         "score": 52,
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4427666633"
+      },
+      {
+        "title": "Associate Director, Regulatory Affairs, Marketed Products Portfolio",
+        "company": "GE HealthCare",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4430102702"
       },
       {
         "title": "Quality Assurance & Validation Specialist – Pharma (Nord/Centro/Sud Italia)",
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "director",
@@ -234,33 +234,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 9 (-56%)",
+      "data": {
+        "current": 4,
+        "avg": 9.1,
+        "change_pct": -55.9
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 5,
-        "total": 7,
-        "pct": 71.4
+        "new": 2,
+        "total": 4,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 43% (+43pp)",
+      "message": "📡 linkedin: quota passata da 43% a 0% (-43pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 42.9
+        "old_pct": 42.9,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 57% (-43pp)",
+      "message": "📡 indeed: quota passata da 57% a 100% (+43pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 57.1
+        "old_pct": 57.1,
+        "new_pct": 100.0
       }
     },
     {
@@ -271,53 +281,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 65,
+            "size": 61,
             "top_terms": [
               "manager",
               "consultant",
-              "director"
+              "program"
             ],
-            "pct": 51.6
-          },
-          {
-            "id": 1,
-            "size": 20,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "device"
-            ],
-            "pct": 15.9
+            "pct": 50.0
           },
           {
             "id": 3,
-            "size": 18,
+            "size": 24,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "director"
+              "specialist",
+              "quality",
+              "assurance"
             ],
-            "pct": 14.3
+            "pct": 19.7
           },
           {
             "id": 2,
-            "size": 15,
+            "size": 16,
             "top_terms": [
-              "quality",
-              "assurance",
-              "compliance"
+              "director",
+              "associate",
+              "quality"
             ],
-            "pct": 11.9
+            "pct": 13.1
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 12,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 9.8
+          },
+          {
+            "id": 1,
+            "size": 9,
             "top_terms": [
               "engineer",
-              "technology",
-              "management"
+              "assurance",
+              "quality"
             ],
-            "pct": 6.3
+            "pct": 7.4
           }
         ]
       }
