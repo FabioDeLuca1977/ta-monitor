@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-01T11:17:03.230863",
+  "generated_at": "2026-07-02T09:47:16.094699",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 49,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 18.7,
+    "average": 18.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 11,
+      "medium": 10,
       "low": 1,
-      "irrelevant": 36
+      "irrelevant": 34
     },
     "top_jobs": [
       {
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4433811762"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist",
+        "company": "Morson Praxis",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4427736025"
+      },
+      {
         "title": "Senior Specialist Regulatory Affairs",
         "company": "Abbott",
         "score": 55,
@@ -86,28 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4430412334"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "Morson Praxis",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4427736025"
-      },
-      {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
-        "title": "Stagista Regulatory Affairs",
-        "company": "NUTRACEUTICA S.R.L.",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4425799115"
       },
       {
         "title": "Assistenza domiciliare privata",
@@ -118,12 +110,12 @@
         "url": "https://it.indeed.com/viewjob?jk=c520ef04827acf78"
       },
       {
-        "title": "Specialist, Quality Assurance GCP",
-        "company": "Alfasigma",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430684516"
+        "title": "Quality Assurance Junior",
+        "company": "Fracm SpA",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1782950400000,
+        "url": "https://it.indeed.com/viewjob?jk=9478799b85e61d51"
       },
       {
         "title": "Sales Specialist- Casalecchio",
@@ -148,6 +140,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434957741"
+      },
+      {
+        "title": "Specialist, Quality Assurance GCP",
+        "company": "Alfasigma",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4430684516"
       },
       {
         "title": "IT Support Specialist",
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "gestione",
@@ -199,7 +194,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "sales",
+        "word": "engineer",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "sistema",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-50%)",
+      "data": {
+        "current": 2,
+        "avg": 4.0,
+        "change_pct": -50.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "linkedin",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 50.0
       }
     },
     {
@@ -246,53 +256,53 @@
         "clusters": [
           {
             "id": 3,
-            "size": 22,
+            "size": 14,
             "top_terms": [
-              "specialist",
               "engineer",
-              "sales"
+              "bo",
+              "segment"
             ],
-            "pct": 44.9
+            "pct": 30.4
           },
           {
             "id": 1,
-            "size": 12,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 24.5
-          },
-          {
-            "id": 0,
-            "size": 10,
+            "size": 11,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 20.4
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "sistema",
-              "integrato",
-              "gestione"
-            ],
-            "pct": 6.1
+            "pct": 23.9
           },
           {
             "id": 2,
-            "size": 2,
+            "size": 11,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 23.9
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "specialist",
+              "sales",
+              "tributario"
+            ],
+            "pct": 10.9
+          },
+          {
+            "id": 4,
+            "size": 5,
             "top_terms": [
               "addetto",
-              "technical",
-              "affairs"
+              "integrato",
+              "sistema"
             ],
-            "pct": 4.1
+            "pct": 10.9
           }
         ]
       }

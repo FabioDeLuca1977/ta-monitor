@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-01T11:17:02.979738",
+  "generated_at": "2026-07-02T09:47:15.848585",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 77,
+  "total_jobs_analyzed": 75,
   "scoring": {
-    "average": 35.0,
+    "average": 35.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 47,
       "low": 4,
-      "irrelevant": 24
+      "irrelevant": 22
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Future Medical Affairs Leadership Opportunities  Join Our Medical Affairs Talent Leaders Pipeline",
         "company": "BioSpace",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430191347"
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4427619060"
       },
       {
-        "title": "Group Leader Medical Affairs (Multiple Sclerosis)",
-        "company": "Roche",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4410254172"
-      },
-      {
         "title": "Therapy Area Medical Lead, Biopharmaceutical - Egypt",
         "company": "AstraZeneca",
         "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4428494487"
+      },
+      {
+        "title": "Scientific Affairs Manager - Italy (Rome)",
+        "company": "Rhythm Pharmaceuticals",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1781827200000,
+        "url": "https://it.indeed.com/viewjob?jk=d514194f6aa54f36"
       }
     ]
   },
@@ -218,11 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-87%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-86%)",
       "data": {
         "current": 1,
-        "avg": 7.6,
-        "change_pct": -86.8
+        "avg": 7.4,
+        "change_pct": -86.5
       }
     },
     {
@@ -242,54 +242,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 30,
+            "id": 0,
+            "size": 24,
+            "top_terms": [
+              "medical",
+              "affairs",
+              "lead"
+            ],
+            "pct": 32.0
+          },
+          {
+            "id": 1,
+            "size": 23,
             "top_terms": [
               "advisor",
-              "medical",
-              "manager"
+              "manager",
+              "italy"
             ],
-            "pct": 39.0
+            "pct": 30.7
           },
           {
             "id": 3,
-            "size": 19,
+            "size": 15,
             "top_terms": [
               "director",
               "medical",
               "associate"
             ],
-            "pct": 24.7
-          },
-          {
-            "id": 1,
-            "size": 14,
-            "top_terms": [
-              "affairs",
-              "medical",
-              "director"
-            ],
-            "pct": 18.2
+            "pct": 20.0
           },
           {
             "id": 4,
-            "size": 9,
+            "size": 10,
             "top_terms": [
               "specialist",
-              "technical",
-              "management"
+              "device",
+              "clinical"
             ],
-            "pct": 11.7
+            "pct": 13.3
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 2,
+            "size": 3,
             "top_terms": [
-              "engineer",
-              "operations",
-              "junior"
+              "msl",
+              "technical",
+              "europe"
             ],
-            "pct": 6.5
+            "pct": 4.0
           }
         ]
       }

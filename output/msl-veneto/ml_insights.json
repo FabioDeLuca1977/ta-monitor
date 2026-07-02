@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T11:17:02.760304",
+  "generated_at": "2026-07-02T09:47:15.634124",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 33,
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-42%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-48%)",
       "data": {
         "current": 2,
-        "avg": 3.4,
-        "change_pct": -41.9
+        "avg": 3.9,
+        "change_pct": -48.4
       }
     },
     {
@@ -211,21 +211,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 33.3,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,27 +235,27 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 12,
+            "id": 2,
+            "size": 13,
             "top_terms": [
+              "isf",
               "italy",
-              "specialist",
-              "verona"
+              "specialist"
             ],
-            "pct": 36.4
+            "pct": 39.4
           },
           {
             "id": 1,
-            "size": 8,
+            "size": 7,
             "top_terms": [
               "medical",
               "director",
-              "isf"
+              "senior"
             ],
-            "pct": 24.2
+            "pct": 21.2
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 6,
             "top_terms": [
               "informatore",
@@ -265,7 +265,7 @@
             "pct": 18.2
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 4,
             "top_terms": [
               "manager",
@@ -275,7 +275,7 @@
             "pct": 12.1
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 3,
             "top_terms": [
               "farmaco",

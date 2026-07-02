@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-01T11:17:03.032330",
+  "generated_at": "2026-07-02T09:47:15.900479",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 56,
+  "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 11.3,
+    "average": 11.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 50
+      "irrelevant": 49
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 53,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4423648200"
       },
       {
-        "title": "EHS Specialist",
-        "company": "Carrier",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1782259200000,
-        "url": "https://it.indeed.com/viewjob?jk=bc6104fc96328874"
-      },
-      {
         "title": "Supplier Quality Management and Audit Category Specialist",
         "company": "Cargill",
         "score": 10,
         "site": "indeed",
         "date_posted": 1782345600000,
         "url": "https://it.indeed.com/viewjob?jk=b506deaf93c84760"
+      },
+      {
+        "title": "Operatore telemarketing",
+        "company": "Etika agenzia immobiliare",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1782345600000,
+        "url": "https://it.indeed.com/viewjob?jk=60cad57150a8d7b0"
       }
     ]
   },
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-78%)",
+      "data": {
+        "current": 1,
+        "avg": 4.5,
+        "change_pct": -77.8
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 4,
-        "pct": 25.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 25% (-25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 75% (+25pp)",
+      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 25.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -245,52 +255,52 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 32,
-            "top_terms": [
-              "specialist",
-              "hse",
-              "qualità"
-            ],
-            "pct": 57.1
-          },
-          {
-            "id": 0,
-            "size": 12,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 21.4
-          },
-          {
             "id": 2,
-            "size": 6,
+            "size": 31,
             "top_terms": [
               "addetto",
               "sistema",
-              "coordinati"
+              "qualità"
             ],
-            "pct": 10.7
+            "pct": 56.4
           },
           {
-            "id": 4,
+            "id": 1,
+            "size": 12,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 21.8
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "hse",
+              "vicenza"
+            ],
+            "pct": 10.9
+          },
+          {
+            "id": 3,
             "size": 4,
             "top_terms": [
               "onco",
               "haematology",
-              "toscana"
+              "specialist"
             ],
-            "pct": 7.1
+            "pct": 7.3
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 2,
             "top_terms": [
-              "advisor",
-              "beauty",
-              "vicenza"
+              "operatore",
+              "vicenza",
+              "manager"
             ],
             "pct": 3.6
           }

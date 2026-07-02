@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-01T11:17:02.924940",
+  "generated_at": "2026-07-02T09:47:15.796483",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 40,
   "scoring": {
-    "average": 38.7,
+    "average": 38.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -198,11 +198,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
       "data": {
         "current": 1,
-        "avg": 4.3,
-        "change_pct": -76.9
+        "avg": 4.9,
+        "change_pct": -79.5
       }
     },
     {
@@ -218,16 +218,6 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
@@ -236,21 +226,21 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
-          {
-            "id": 2,
-            "size": 10,
-            "top_terms": [
-              "liaison",
-              "science",
-              "medical"
-            ],
-            "pct": 25.0
-          },
           {
             "id": 3,
             "size": 10,
@@ -265,31 +255,41 @@
             "id": 1,
             "size": 9,
             "top_terms": [
-              "director",
-              "safety",
-              "senior"
+              "liaison",
+              "science",
+              "medical"
             ],
             "pct": 22.5
           },
           {
-            "id": 0,
-            "size": 6,
+            "id": 4,
+            "size": 8,
+            "top_terms": [
+              "director",
+              "safety",
+              "senior"
+            ],
+            "pct": 20.0
+          },
+          {
+            "id": 2,
+            "size": 7,
             "top_terms": [
               "advisor",
               "medical",
               "regional"
             ],
-            "pct": 15.0
+            "pct": 17.5
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 0,
+            "size": 6,
             "top_terms": [
               "manager",
-              "pharmacovigilance",
-              "sr"
+              "country",
+              "medical"
             ],
-            "pct": 12.5
+            "pct": 15.0
           }
         ]
       }

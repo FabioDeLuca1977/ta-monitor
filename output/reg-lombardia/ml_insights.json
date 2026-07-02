@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-01T11:17:03.184944",
+  "generated_at": "2026-07-02T09:47:16.050764",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
   "total_jobs_analyzed": 269,
   "scoring": {
-    "average": 18.0,
+    "average": 17.9,
     "distribution": {
       "excellent": 0,
-      "good": 19,
-      "medium": 40,
+      "good": 18,
+      "medium": 39,
       "low": 9,
-      "irrelevant": 201
+      "irrelevant": 203
     },
     "top_jobs": [
       {
@@ -22,25 +22,9 @@
         "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
       },
       {
-        "title": "Regulatory Affairs CMC Specialist",
-        "company": "Recordati",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4377177028"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "LHH",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1782259200000,
-        "url": "https://www.linkedin.com/jobs/view/4432564402"
-      },
-      {
         "title": "Clinical Regulatory Specialist",
         "company": "RadNet",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1781308800000,
         "url": "https://www.linkedin.com/jobs/view/4427240538"
@@ -52,14 +36,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431936631"
-      },
-      {
-        "title": "REGULATORY MANAGER",
-        "company": null,
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=184b4a7ba1e80fcd"
       },
       {
         "title": "Quality Assurance & Regulatory Specialist",
@@ -86,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4430218670"
       },
       {
+        "title": "REGULATORY MANAGER",
+        "company": null,
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=184b4a7ba1e80fcd"
+      },
+      {
         "title": "Regulatory Affairs Specialist -Erba",
         "company": "Manpower",
         "score": 61,
@@ -110,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4411744140"
       },
       {
-        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
-        "company": "Doxal Italia SpA",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
-      },
-      {
         "title": "REGULATORY AFFAIRS SPECIALIST",
         "company": "Lavoropiù SpA",
         "score": 61,
@@ -132,6 +108,14 @@
         "site": "linkedin",
         "date_posted": 1782086400000,
         "url": "https://www.linkedin.com/jobs/view/4428972149"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "LHH",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1782259200000,
+        "url": "https://www.linkedin.com/jobs/view/4432564402"
       },
       {
         "title": "Regulatory Affairs Cosmetico",
@@ -150,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
-        "title": "International Regulatory Affairs Project Manager",
-        "company": "Recordati",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4408772783"
-      },
-      {
         "title": "Director, CMC Regulatory Affairs",
         "company": "GSK",
         "score": 60,
@@ -166,12 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4427366748"
       },
       {
+        "title": "Regulatory Submissions Associate Manager II - APAC",
+        "company": "Fortrea",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1781136000000,
+        "url": "https://www.linkedin.com/jobs/view/4427668058"
+      },
+      {
+        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
+        "company": "Doxal Italia SpA",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "Morson Praxis",
         "score": 59,
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4427736025"
+      },
+      {
+        "title": "Regulatory Affairs Specialist JR – Settore Chimico - Zona Castano Primo (MI)",
+        "company": "Ali Professional",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1781222400000,
+        "url": "https://www.linkedin.com/jobs/view/4419411743"
       }
     ]
   },
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
-        "word": "italy",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "associate",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "project",
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       }
     ],
     "review": []
@@ -202,6 +197,18 @@
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
+    },
+    {
+      "keyword": "assurance specialist",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "affairs analyst",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     },
     {
       "keyword": "senior regulatory",
@@ -222,19 +229,7 @@
       "confidence": 30
     },
     {
-      "keyword": "affairs analyst",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "manager regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "assurance specialist",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,32 +255,13 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 24 annunci ultimo scan vs media 18 (+37%)",
-      "data": {
-        "current": 24,
-        "avg": 17.5,
-        "change_pct": 37.1
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 AstraZeneca: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "AstraZeneca",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 18/24 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 11/16 annunci da aziende nuove (68.8%)",
       "data": {
-        "new": 18,
-        "total": 24,
-        "pct": 75.0
+        "new": 11,
+        "total": 16,
+        "pct": 68.8
       }
     },
     {
@@ -300,7 +276,7 @@
             "top_terms": [
               "senior",
               "specialist",
-              "associate"
+              "operator"
             ],
             "pct": 49.1
           },
@@ -315,27 +291,27 @@
             "pct": 17.8
           },
           {
-            "id": 3,
-            "size": 37,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 13.8
-          },
-          {
             "id": 2,
-            "size": 35,
+            "size": 36,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 13.0
+            "pct": 13.4
           },
           {
             "id": 4,
+            "size": 36,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 13.4
+          },
+          {
+            "id": 3,
             "size": 17,
             "top_terms": [
               "engineer",

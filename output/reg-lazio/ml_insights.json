@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-01T11:17:03.320493",
+  "generated_at": "2026-07-02T09:47:16.181742",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 122,
+  "total_jobs_analyzed": 121,
   "scoring": {
-    "average": 14.4,
+    "average": 14.3,
     "distribution": {
       "excellent": 0,
-      "good": 12,
-      "medium": 8,
+      "good": 10,
+      "medium": 10,
       "low": 3,
-      "irrelevant": 99
+      "irrelevant": 98
     },
     "top_jobs": [
       {
@@ -24,42 +24,10 @@
       {
         "title": "Regulatory Affairs Manager",
         "company": "Sonic Clinical Trials",
-        "score": 67,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4425757242"
-      },
-      {
-        "title": "Regulatory Submissions Coordinator (Study Start Up)",
-        "company": "Medpace",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4387761007"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Computer Futures",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4428821335"
-      },
-      {
-        "title": "Regulatory Affairs / Clinical Support Specialist",
-        "company": "Epic Medical",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4427721408"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "LHH",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4432400235"
       },
       {
         "title": "Regulatory Affairs Assistant",
@@ -68,6 +36,14 @@
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4426863093"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Computer Futures",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4428821335"
       },
       {
         "title": "Regulatory Affairs Executive",
@@ -86,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4409780692"
       },
       {
+        "title": "Regulatory Affairs / Clinical Support Specialist",
+        "company": "Epic Medical",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4427721408"
+      },
+      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
         "score": 61,
@@ -94,17 +78,25 @@
         "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "LHH",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432400235"
+      },
+      {
         "title": "Regulatory Specialist",
         "company": "EOLO",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4426852119"
       },
       {
         "title": "Regulatory Submissions Associate Manager II - APAC",
         "company": "Fortrea",
-        "score": 60,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1781136000000,
         "url": "https://www.linkedin.com/jobs/view/4427668058"
@@ -118,9 +110,17 @@
         "url": "https://www.linkedin.com/jobs/view/4427520463"
       },
       {
+        "title": "Associate Director, Regulatory Affairs, Marketed Products Portfolio",
+        "company": "GE HealthCare",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4430102702"
+      },
+      {
         "title": "Regulatory Strategy Associate Director",
         "company": "Vertex Pharmaceuticals",
-        "score": 53,
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1781654400000,
         "url": "https://www.linkedin.com/jobs/view/4428419123"
@@ -132,14 +132,6 @@
         "site": "linkedin",
         "date_posted": 1781222400000,
         "url": "https://www.linkedin.com/jobs/view/4427666633"
-      },
-      {
-        "title": "Associate Director, Regulatory Affairs, Marketed Products Portfolio",
-        "company": "GE HealthCare",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430102702"
       },
       {
         "title": "Quality Assurance & Validation Specialist – Pharma (Nord/Centro/Sud Italia)",
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4430976820"
       },
       {
+        "title": "Regulatory Submissions Coordinator (Study Start Up)",
+        "company": "Medpace",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4387761007"
+      },
+      {
         "title": "Quality Assurance Consultant - Sterile Pharmaceutical Manufacturing",
         "company": "PQE Group",
         "score": 42,
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -234,43 +234,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 9 (-56%)",
-      "data": {
-        "current": 4,
-        "avg": 9.1,
-        "change_pct": -55.9
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
       "data": {
-        "new": 2,
-        "total": 4,
-        "pct": 50.0
+        "new": 4,
+        "total": 7,
+        "pct": 57.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 43% a 0% (-43pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 42.9,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 57% a 100% (+43pp)",
+      "message": "📡 indeed: quota passata da 100% a 71% (-29pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 57.1,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 71.4
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 29% (+29pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 28.6
       }
     },
     {
@@ -281,46 +271,36 @@
         "clusters": [
           {
             "id": 0,
-            "size": 61,
-            "top_terms": [
-              "manager",
-              "consultant",
-              "program"
-            ],
-            "pct": 50.0
-          },
-          {
-            "id": 3,
-            "size": 24,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "assurance"
-            ],
-            "pct": 19.7
-          },
-          {
-            "id": 2,
-            "size": 16,
+            "size": 81,
             "top_terms": [
               "director",
               "associate",
               "quality"
             ],
-            "pct": 13.1
+            "pct": 66.9
           },
           {
-            "id": 4,
-            "size": 12,
+            "id": 1,
+            "size": 15,
+            "top_terms": [
+              "specialist",
+              "quality",
+              "assurance"
+            ],
+            "pct": 12.4
+          },
+          {
+            "id": 3,
+            "size": 11,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 9.8
+            "pct": 9.1
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 9,
             "top_terms": [
               "engineer",
@@ -328,6 +308,16 @@
               "quality"
             ],
             "pct": 7.4
+          },
+          {
+            "id": 4,
+            "size": 5,
+            "top_terms": [
+              "manager",
+              "program",
+              "junior"
+            ],
+            "pct": 4.1
           }
         ]
       }
