@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-07-03T10:09:29.370073",
+  "generated_at": "2026-07-04T09:24:51.108537",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 185,
+  "total_jobs_analyzed": 180,
   "scoring": {
-    "average": 20.8,
+    "average": 21.2,
     "distribution": {
       "excellent": 0,
       "good": 10,
-      "medium": 31,
-      "low": 41,
-      "irrelevant": 103
+      "medium": 30,
+      "low": 42,
+      "irrelevant": 98
     },
     "top_jobs": [
-      {
-        "title": "HR Talent Acquisition & Employer Branding Intern",
-        "company": "Ayvens",
-        "score": 76,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=14216df5ce56ddd5"
-      },
       {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
         "company": "Dan John",
@@ -28,6 +20,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433357730"
+      },
+      {
+        "title": "HR Talent Acquisition & Employer Branding Intern",
+        "company": "Ayvens",
+        "score": 71,
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=14216df5ce56ddd5"
+      },
+      {
+        "title": "HR Specialist - Attività professionali associate",
+        "company": "key-absolute",
+        "score": 70,
+        "site": "linkedin",
+        "date_posted": 1782864000000,
+        "url": "https://www.linkedin.com/jobs/view/4434396972"
       },
       {
         "title": "Talent Acquisition Manager",
@@ -86,14 +94,6 @@
         "url": "https://it.indeed.com/viewjob?jk=1d6345c3c9752ada"
       },
       {
-        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
-        "company": "Gi Group",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1782777600000,
-        "url": "https://www.linkedin.com/jobs/view/4431597780"
-      },
-      {
         "title": "Junior HR generalist per benessere fisico",
         "company": "Tuolavoro-Lazio",
         "score": 58,
@@ -114,16 +114,8 @@
         "company": "Randstad Italia",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781740800000,
         "url": "https://www.linkedin.com/jobs/view/4427838966"
-      },
-      {
-        "title": "Addetto/a selezione personale",
-        "company": "Cosma solution",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=697b91a72ae198ec"
       },
       {
         "title": "Recruiter & HR Administration - Roma (RM)",
@@ -134,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4424432265"
       },
       {
-        "title": "HR Business Partner, EU One PXT",
-        "company": "Amazon",
-        "score": 55,
+        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
+        "company": "Gi Group",
+        "score": 56,
         "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4400240730"
+        "date_posted": 1782777600000,
+        "url": "https://www.linkedin.com/jobs/view/4431597780"
       },
       {
         "title": "HR Generalist Junior-Appartenente alle Categorie Protette - Art. 1 L. 68/99",
@@ -148,14 +140,6 @@
         "site": "linkedin",
         "date_posted": 1781654400000,
         "url": "https://www.linkedin.com/jobs/view/4429925865"
-      },
-      {
-        "title": "JUNIOR HR GENERALIST",
-        "company": "BCUBE SPA",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=070f122fc19d49a1"
       },
       {
         "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1781481600000,
         "url": "https://it.indeed.com/viewjob?jk=b5fc02c03279e974"
+      },
+      {
+        "title": "JUNIOR HR GENERALIST",
+        "company": "BCUBE SPA",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=070f122fc19d49a1"
+      },
+      {
+        "title": "Addetto alla Segreteria - Ricerca e Selezione Categorie Protette legge 68/99",
+        "company": "Grafton Recruitment",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429865400"
       }
     ]
   },
@@ -190,8 +190,8 @@
       },
       {
         "word": "addetto",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 23,
+        "reason": "Appare 23x in annunci a basso score"
       },
       {
         "word": "impiegato",
@@ -224,37 +224,51 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "partner centro",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "centro italia",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "business partner centro",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "partner centro italia",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 12 (-35%)",
+      "data": {
+        "current": 8,
+        "avg": 12.3,
+        "change_pct": -34.9
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/8 annunci da aziende nuove (12.5%)",
       "data": {
-        "new": 6,
-        "total": 12,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 10% a 33% (+23pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 10.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 90% a 67% (-23pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 90.0,
-        "new_pct": 66.7
+        "new": 1,
+        "total": 8,
+        "pct": 12.5
       }
     },
     {
@@ -264,18 +278,18 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 96,
+            "id": 2,
+            "size": 105,
             "top_terms": [
-              "addetto",
-              "personale",
-              "senior"
+              "hr",
+              "specialist",
+              "manager"
             ],
-            "pct": 51.9
+            "pct": 58.3
           },
           {
-            "id": 4,
-            "size": 41,
+            "id": 3,
+            "size": 40,
             "top_terms": [
               "umane",
               "risorse",
@@ -284,34 +298,34 @@
             "pct": 22.2
           },
           {
-            "id": 2,
-            "size": 25,
-            "top_terms": [
-              "hr",
-              "specialist",
-              "generalist"
-            ],
-            "pct": 13.5
-          },
-          {
             "id": 0,
-            "size": 15,
+            "size": 22,
             "top_terms": [
-              "manager",
-              "acquisition",
-              "talent"
+              "addetto",
+              "personale",
+              "selezione"
             ],
-            "pct": 8.1
+            "pct": 12.2
           },
           {
-            "id": 3,
-            "size": 8,
+            "id": 4,
+            "size": 7,
             "top_terms": [
-              "responsabile",
-              "clienti",
-              "amministrativo"
+              "acquisition",
+              "talent",
+              "manager"
             ],
-            "pct": 4.3
+            "pct": 3.9
+          },
+          {
+            "id": 1,
+            "size": 6,
+            "top_terms": [
+              "dirigente",
+              "indeterminato",
+              "tempo"
+            ],
+            "pct": 3.3
           }
         ]
       }

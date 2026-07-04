@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-03T10:09:29.932860",
+  "generated_at": "2026-07-04T09:24:51.610945",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 109,
+  "total_jobs_analyzed": 111,
   "scoring": {
-    "average": 9.1,
+    "average": 9.2,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 4,
-      "low": 3,
-      "irrelevant": 99
+      "low": 4,
+      "irrelevant": 100
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 69,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432400235"
       },
       {
-        "title": "Regulatory Affairs Intern",
-        "company": "STERIS",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430767486"
-      },
-      {
         "title": "Regulatory Specialist",
         "company": "EOLO",
-        "score": 64,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4426852119"
+      },
+      {
+        "title": "Regulatory Affairs Intern",
+        "company": "STERIS",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1781827200000,
+        "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
         "title": "Quality Assurance & Validation Specialist – Pharma (Nord/Centro/Sud Italia)",
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4431908514"
       },
       {
+        "title": "Experienced - Financial Crime",
+        "company": "Deloitte",
+        "score": 34,
+        "site": "indeed",
+        "date_posted": 1783036800000,
+        "url": "https://it.indeed.com/viewjob?jk=05654cff050bbf66"
+      },
+      {
         "title": "Artwork and Packaging Specialist",
         "company": "Actial Farmaceutica Srl",
         "score": 25,
@@ -78,9 +86,17 @@
         "url": "https://it.indeed.com/viewjob?jk=815f051989090eac"
       },
       {
+        "title": "Senior Quality Assurance Manager",
+        "company": "Istituto Poligrafico e Zecca dello Stato (IPZS)",
+        "score": 25,
+        "site": "linkedin",
+        "date_posted": 1782864000000,
+        "url": "https://www.linkedin.com/jobs/view/4432392408"
+      },
+      {
         "title": "Manager Up – Compliance",
         "company": "Deloitte",
-        "score": 25,
+        "score": 24,
         "site": "indeed",
         "date_posted": 1782864000000,
         "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
@@ -88,7 +104,7 @@
       {
         "title": "Junior Quality Assurance Compliance",
         "company": "Tubilux Pharma",
-        "score": 20,
+        "score": 19,
         "site": "linkedin",
         "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4435050825"
@@ -110,20 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=3139989af82dcf14"
       },
       {
-        "title": "Hotel Maalot - Economo part-time",
-        "company": "Shedir Collection",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=12963b4c668dea05"
-      },
-      {
         "title": "Quality Assurance Manager",
         "company": "Michael Page",
         "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433164759"
+      },
+      {
+        "title": "Concorso per titoli ed esami n. 2 posti a tempo indeterminato dirigente sanitario Farmacista AIFA. Cod. FAR2",
+        "company": "Dipartimento della Funzione Pubblica",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1782950400000,
+        "url": "https://www.linkedin.com/jobs/view/4436186539"
       },
       {
         "title": "Senior Product & Sales Specialist – Medical Device Endoscopia e Chirurgia",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436313312"
-      },
-      {
-        "title": "Junior Letter of Agreement (LoA) Specialist",
-        "company": "Food and Agriculture Organization of the United Nations",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=6dfdbb41201ed30b"
-      },
-      {
-        "title": "Data Analysis Specialist",
-        "company": "Food and Agriculture Organization of the United Nations",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=4f3b126b3aa87183"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "engineer",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "director",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 3,
+        "new": 2,
         "total": 6,
-        "pct": 50.0
+        "pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 50.0
       }
     },
     {
@@ -226,53 +246,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 57,
+            "size": 62,
             "top_terms": [
-              "engineer",
-              "consultant",
-              "senior"
+              "manager",
+              "director",
+              "consultant"
             ],
-            "pct": 52.3
-          },
-          {
-            "id": 2,
-            "size": 18,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "data"
-            ],
-            "pct": 16.5
+            "pct": 55.9
           },
           {
             "id": 1,
-            "size": 12,
+            "size": 17,
             "top_terms": [
-              "manager",
-              "program",
-              "italy"
-            ],
-            "pct": 11.0
-          },
-          {
-            "id": 3,
-            "size": 12,
-            "top_terms": [
-              "assurance",
               "quality",
-              "compliance"
+              "assurance",
+              "specialist"
             ],
-            "pct": 11.0
+            "pct": 15.3
           },
           {
             "id": 4,
-            "size": 10,
+            "size": 17,
             "top_terms": [
-              "director",
-              "marketing",
-              "associate"
+              "specialist",
+              "data",
+              "regulatory"
             ],
-            "pct": 9.2
+            "pct": 15.3
+          },
+          {
+            "id": 3,
+            "size": 9,
+            "top_terms": [
+              "engineer",
+              "project",
+              "speaker"
+            ],
+            "pct": 8.1
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "rome",
+              "advisor",
+              "revenue"
+            ],
+            "pct": 5.4
           }
         ]
       }

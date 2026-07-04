@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-03T10:09:29.405273",
+  "generated_at": "2026-07-04T09:24:51.137907",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 30.5,
+    "average": 30.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 12,
-      "low": 5,
-      "irrelevant": 10
+      "low": 4,
+      "irrelevant": 9
     },
     "top_jobs": [
       {
@@ -18,24 +18,16 @@
         "company": "GSK",
         "score": 52,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781827200000,
         "url": "https://www.linkedin.com/jobs/view/4428219767"
       },
       {
         "title": "Senior Regulatory Affairs Specialist A.P.I.",
         "company": "NEWCHEM SPA",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": 1782691200000,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
-      },
-      {
-        "title": "Senior Clinical Research Associate",
-        "company": "Alira Health",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
         "title": "Informatore Scientifico del Farmaco (ISF)",
@@ -48,15 +40,23 @@
       {
         "title": "Medical Representative/ISF Specialty Care",
         "company": "Fidia Pharma",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431063968"
       },
       {
+        "title": "Senior Clinical Research Associate",
+        "company": "Alira Health",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4386508727"
+      },
+      {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "NEWCHEM SPA",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
@@ -80,18 +80,10 @@
       {
         "title": "Informatore Scientifico del Farmaco (Padova)",
         "company": "Maven Pharma srl",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430380166"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco - Padova",
-        "company": "Inpha Nutraceuticals Srl",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4431505504"
       },
       {
         "title": "Informatore scientifico commerciale | Veneto",
@@ -100,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4423382156"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco - Padova",
+        "company": "Inpha Nutraceuticals Srl",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4431505504"
       },
       {
         "title": "ISF Gastroenterologia Verona",
@@ -138,16 +138,8 @@
         "company": "Eberlife Farmaceutici S.p.A.",
         "score": 38,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781827200000,
         "url": "https://www.linkedin.com/jobs/view/4428215407"
-      },
-      {
-        "title": "2 Informatori Medico Scientifici - Padova e Verona",
-        "company": "Michael Page",
-        "score": 35,
-        "site": "linkedin",
-        "date_posted": 1781222400000,
-        "url": "https://www.linkedin.com/jobs/view/4424895010"
       },
       {
         "title": "Market Access Manager Onco-Haematology",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1781568000000,
         "url": "https://it.indeed.com/viewjob?jk=91ae7bb574a34b26"
+      },
+      {
+        "title": "Teacher (Mixed Secondary)",
+        "company": "US Department of War Education Activity",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1782950400000,
+        "url": "https://it.indeed.com/viewjob?jk=d9f6b7c8d23c4b6b"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in crescita: 4 annunci ultimo scan vs media 3 (+57%)",
+      "message": "Volume in crescita: 4 annunci ultimo scan vs media 2 (+90%)",
       "data": {
         "current": 4,
-        "avg": 2.6,
-        "change_pct": 56.5
+        "avg": 2.1,
+        "change_pct": 90.5
       }
     },
     {
@@ -211,20 +211,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 50.0
       }
     },
@@ -235,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 9,
+            "id": 0,
+            "size": 11,
             "top_terms": [
-              "clinical",
-              "regulatory",
-              "senior"
+              "isf",
+              "medical",
+              "clinical"
             ],
-            "pct": 33.3
+            "pct": 44.0
           },
           {
-            "id": 0,
-            "size": 8,
+            "id": 3,
+            "size": 5,
             "top_terms": [
               "informatore",
               "scientifico",
               "medico"
             ],
-            "pct": 29.6
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "isf",
-              "medical",
-              "verona"
-            ],
-            "pct": 14.8
+            "pct": 20.0
           },
           {
             "id": 1,
+            "size": 3,
+            "top_terms": [
+              "regulatory",
+              "specialist",
+              "affairs"
+            ],
+            "pct": 12.0
+          },
+          {
+            "id": 2,
             "size": 3,
             "top_terms": [
               "manager",
               "prevention",
               "loss"
             ],
-            "pct": 11.1
+            "pct": 12.0
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 3,
             "top_terms": [
-              "italy",
-              "vicenza",
-              "time"
+              "farmaco",
+              "scientifico",
+              "padova"
             ],
-            "pct": 11.1
+            "pct": 12.0
           }
         ]
       }
