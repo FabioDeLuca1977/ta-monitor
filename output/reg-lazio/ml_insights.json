@@ -1,25 +1,33 @@
 {
-  "generated_at": "2026-07-04T09:24:51.610945",
+  "generated_at": "2026-07-05T09:43:58.423104",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 111,
   "scoring": {
-    "average": 9.2,
+    "average": 8.9,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 4,
-      "low": 4,
-      "irrelevant": 100
+      "low": 2,
+      "irrelevant": 102
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432400235"
+      },
+      {
+        "title": "Regulatory Affairs Intern",
+        "company": "STERIS",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1781827200000,
+        "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
         "title": "Regulatory Specialist",
@@ -28,14 +36,6 @@
         "site": "linkedin",
         "date_posted": 1781568000000,
         "url": "https://www.linkedin.com/jobs/view/4426852119"
-      },
-      {
-        "title": "Regulatory Affairs Intern",
-        "company": "STERIS",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1781827200000,
-        "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
         "title": "Quality Assurance & Validation Specialist – Pharma (Nord/Centro/Sud Italia)",
@@ -56,9 +56,9 @@
       {
         "title": "Pharmacovigilance Specialist (salary €40-45K)",
         "company": "Shionogi Europe",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781827200000,
         "url": "https://www.linkedin.com/jobs/view/4430976820"
       },
       {
@@ -72,7 +72,7 @@
       {
         "title": "Experienced - Financial Crime",
         "company": "Deloitte",
-        "score": 34,
+        "score": 33,
         "site": "indeed",
         "date_posted": 1783036800000,
         "url": "https://it.indeed.com/viewjob?jk=05654cff050bbf66"
@@ -86,17 +86,9 @@
         "url": "https://it.indeed.com/viewjob?jk=815f051989090eac"
       },
       {
-        "title": "Senior Quality Assurance Manager",
-        "company": "Istituto Poligrafico e Zecca dello Stato (IPZS)",
-        "score": 25,
-        "site": "linkedin",
-        "date_posted": 1782864000000,
-        "url": "https://www.linkedin.com/jobs/view/4432392408"
-      },
-      {
         "title": "Manager Up – Compliance",
         "company": "Deloitte",
-        "score": 24,
+        "score": 19,
         "site": "indeed",
         "date_posted": 1782864000000,
         "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
@@ -110,20 +102,20 @@
         "url": "https://www.linkedin.com/jobs/view/4435050825"
       },
       {
+        "title": "Senior Quality Assurance Manager",
+        "company": "Istituto Poligrafico e Zecca dello Stato (IPZS)",
+        "score": 19,
+        "site": "linkedin",
+        "date_posted": 1782864000000,
+        "url": "https://www.linkedin.com/jobs/view/4432392408"
+      },
+      {
         "title": "Market Operations and Demand Specialist",
         "company": "AbbVie",
         "score": 17,
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=cc5a4bae2ae50b09"
-      },
-      {
-        "title": "Community & Ground Fundraising Manager",
-        "company": "Fondazione Italiana Endometriosi",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1782864000000,
-        "url": "https://it.indeed.com/viewjob?jk=3139989af82dcf14"
       },
       {
         "title": "Quality Assurance Manager",
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4431478577"
       },
       {
+        "title": "Clinical Operations Project Manager",
+        "company": "IQVIA",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1781740800000,
+        "url": "https://it.indeed.com/viewjob?jk=3fa443013275f937"
+      },
+      {
         "title": "Quality Assurance Specialist",
         "company": "fortil",
         "score": 14,
@@ -180,11 +180,16 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "manager",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       },
@@ -194,14 +199,9 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "director",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "senior",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-88%)",
+      "data": {
+        "current": 1,
+        "avg": 8.5,
+        "change_pct": -88.2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 6,
-        "pct": 33.3
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -245,17 +255,27 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 62,
+            "id": 1,
+            "size": 57,
             "top_terms": [
-              "manager",
               "director",
-              "consultant"
+              "consultant",
+              "specialista"
             ],
-            "pct": 55.9
+            "pct": 51.4
           },
           {
-            "id": 1,
+            "id": 0,
+            "size": 17,
+            "top_terms": [
+              "specialist",
+              "data",
+              "regulatory"
+            ],
+            "pct": 15.3
+          },
+          {
+            "id": 2,
             "size": 17,
             "top_terms": [
               "quality",
@@ -266,13 +286,13 @@
           },
           {
             "id": 4,
-            "size": 17,
+            "size": 11,
             "top_terms": [
-              "specialist",
-              "data",
-              "regulatory"
+              "manager",
+              "program",
+              "italy"
             ],
-            "pct": 15.3
+            "pct": 9.9
           },
           {
             "id": 3,
@@ -280,19 +300,9 @@
             "top_terms": [
               "engineer",
               "project",
-              "speaker"
+              "italian"
             ],
             "pct": 8.1
-          },
-          {
-            "id": 2,
-            "size": 6,
-            "top_terms": [
-              "rome",
-              "advisor",
-              "revenue"
-            ],
-            "pct": 5.4
           }
         ]
       }

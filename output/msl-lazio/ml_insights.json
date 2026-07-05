@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-04T09:24:51.310540",
+  "generated_at": "2026-07-05T09:43:58.084917",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 24.8,
+    "average": 25.0,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -38,28 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4432257464"
       },
       {
-        "title": "Scientific Affairs Manager - Italy (Rome)",
-        "company": "Rhythm Pharmaceuticals",
-        "score": 51,
-        "site": "indeed",
-        "date_posted": 1781827200000,
-        "url": "https://it.indeed.com/viewjob?jk=d514194f6aa54f36"
-      },
-      {
-        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
-        "company": "QuiCare",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4432944833"
-      },
-      {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
         "company": "Johnson & Johnson MedTech",
-        "score": 49,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436313312"
+      },
+      {
+        "title": "Scientific Affairs Manager - Italy (Rome)",
+        "company": "Rhythm Pharmaceuticals",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1781827200000,
+        "url": "https://it.indeed.com/viewjob?jk=d514194f6aa54f36"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -70,20 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4432400235"
       },
       {
-        "title": "Clinical Research Physician - Oncology",
-        "company": "Eli Lilly and Company",
+        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
+        "company": "QuiCare",
         "score": 48,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4433861714"
-      },
-      {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4426407509"
+        "url": "https://www.linkedin.com/jobs/view/4432944833"
       },
       {
         "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
@@ -94,12 +78,28 @@
         "url": "https://it.indeed.com/viewjob?jk=21af306c3c773382"
       },
       {
+        "title": "Clinical Research Physician - Oncology",
+        "company": "Eli Lilly and Company",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4433861714"
+      },
+      {
         "title": "Pharmacovigilance Specialist (salary €40-45K)",
         "company": "Shionogi Europe",
         "score": 45,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1781827200000,
         "url": "https://www.linkedin.com/jobs/view/4430976820"
+      },
+      {
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4426407509"
       },
       {
         "title": "Director, Medical Affairs",
@@ -112,7 +112,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1781827200000,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -160,7 +160,7 @@
       {
         "title": "Senior Manager Government Affairs & Market Access, Europe South",
         "company": "Stryker",
-        "score": 16,
+        "score": 17,
         "site": "linkedin",
         "date_posted": 1781481600000,
         "url": "https://www.linkedin.com/jobs/view/4427768246"
@@ -168,7 +168,7 @@
       {
         "title": "Field Market Access Manager - Ostomy Care",
         "company": "Convatec",
-        "score": 16,
+        "score": 15,
         "site": "linkedin",
         "date_posted": 1781740800000,
         "url": "https://www.linkedin.com/jobs/view/4263437738"
@@ -178,16 +178,6 @@
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "senior",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
       {
         "word": "market",
         "count": 4,
@@ -199,6 +189,16 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
+        "word": "manager",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
         "word": "specialist",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
@@ -206,26 +206,53 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "italy",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-44%)",
       "data": {
-        "current": 1,
-        "avg": 4.1,
-        "change_pct": -75.7
+        "current": 2,
+        "avg": 3.6,
+        "change_pct": -44.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -235,17 +262,17 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 22,
+            "id": 2,
+            "size": 21,
             "top_terms": [
-              "specialist",
-              "medical",
-              "engineer"
+              "clinical",
+              "engineer",
+              "specialist"
             ],
-            "pct": 57.9
+            "pct": 55.3
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 5,
             "top_terms": [
               "access",
@@ -255,22 +282,22 @@
             "pct": 13.2
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 3,
+            "size": 5,
             "top_terms": [
               "director",
-              "associate",
-              "medical"
+              "medical",
+              "associate"
             ],
-            "pct": 10.5
+            "pct": 13.2
           },
           {
             "id": 4,
             "size": 4,
             "top_terms": [
-              "clinical",
               "specialist",
-              "operations"
+              "technical",
+              "quality"
             ],
             "pct": 10.5
           },

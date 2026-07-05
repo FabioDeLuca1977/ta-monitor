@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-04T09:24:51.534689",
+  "generated_at": "2026-07-05T09:43:58.338461",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 41,
+  "total_jobs_analyzed": 43,
   "scoring": {
-    "average": 13.7,
+    "average": 14.8,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 4,
+      "good": 3,
+      "medium": 3,
       "low": 2,
-      "irrelevant": 34
+      "irrelevant": 35
     },
     "top_jobs": [
       {
         "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
         "company": "Menarini",
-        "score": 70,
+        "score": 69,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=b9526a772da8cfa8"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 59,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1781740800000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -32,17 +32,25 @@
       {
         "title": "Regulatory Affairs Specialist - Cosmetics Industry",
         "company": "Cosmoderma",
-        "score": 59,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433811762"
       },
       {
-        "title": "Global Regulatory Affairs Consultant",
-        "company": "JSB Solutions",
-        "score": 53,
+        "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
+        "company": "SILC Fertilizzanti Srl",
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4436984747"
+      },
+      {
+        "title": "Global Regulatory Affairs Consultant",
+        "company": "JSB Solutions",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1781827200000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
@@ -94,6 +102,14 @@
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
+        "title": "Product Marketing Specialist",
+        "company": "CNH Industrial",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1783036800000,
+        "url": "https://it.indeed.com/viewjob?jk=33cf9d3c96d2e589"
+      },
+      {
         "title": "Quality Assurance Specialist",
         "company": "GVS Filter Technology",
         "score": 12,
@@ -116,14 +132,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434957741"
-      },
-      {
-        "title": "operatore socio sanitario",
-        "company": "LA CASA DI ALICE SRL",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1782864000000,
-        "url": "https://it.indeed.com/viewjob?jk=fc47d8967c21a807"
       },
       {
         "title": "Junior Internal Auditor",
@@ -156,14 +164,6 @@
         "site": "indeed",
         "date_posted": 1782777600000,
         "url": "https://it.indeed.com/viewjob?jk=ead76d551d05f074"
-      },
-      {
-        "title": "Italy Demand Planning Associate",
-        "company": "Menarini",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1781740800000,
-        "url": "https://it.indeed.com/viewjob?jk=0cb5330d2b426ca4"
       },
       {
         "title": "Quality Assurance Stageur",
@@ -216,33 +216,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "data": {
+        "current": 2,
+        "avg": 3.4,
+        "change_pct": -41.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 100% (+20pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 0% (-20pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -252,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 15,
+            "id": 1,
+            "size": 18,
             "top_terms": [
-              "associate",
+              "addetto",
               "bo",
-              "sanitario"
+              "engineer"
             ],
-            "pct": 36.6
+            "pct": 41.9
           },
           {
-            "id": 1,
-            "size": 11,
+            "id": 0,
+            "size": 10,
             "top_terms": [
-              "quality",
               "assurance",
+              "quality",
               "specialist"
             ],
-            "pct": 26.8
+            "pct": 23.3
           },
           {
             "id": 2,
-            "size": 8,
+            "size": 7,
             "top_terms": [
               "specialist",
-              "regulatory",
-              "affairs"
+              "sales",
+              "product"
             ],
-            "pct": 19.5
+            "pct": 16.3
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 5,
             "top_terms": [
-              "engineer",
-              "medical",
-              "devices"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 9.8
+            "pct": 11.6
           },
           {
             "id": 3,
             "size": 3,
             "top_terms": [
-              "addetto",
-              "integrato",
-              "sistema"
+              "associate",
+              "compliance",
+              "regulatory"
             ],
-            "pct": 7.3
+            "pct": 7.0
           }
         ]
       }

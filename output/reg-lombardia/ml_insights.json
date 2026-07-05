@@ -1,25 +1,33 @@
 {
-  "generated_at": "2026-07-04T09:24:51.496333",
+  "generated_at": "2026-07-05T09:43:58.293640",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 270,
+  "total_jobs_analyzed": 275,
   "scoring": {
     "average": 16.6,
     "distribution": {
       "excellent": 0,
       "good": 18,
-      "medium": 31,
+      "medium": 33,
       "low": 13,
-      "irrelevant": 208
+      "irrelevant": 211
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
         "company": "OLCELLI FARMACEUTICI SRL",
-        "score": 67,
+        "score": 68,
         "site": "indeed",
         "date_posted": 1782777600000,
         "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
+      },
+      {
+        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
+        "company": "Doxal Italia SpA",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
       },
       {
         "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
@@ -102,20 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4428867218"
       },
       {
-        "title": "Senior Regulatory Affairs CTF Dossier & Compliance",
-        "company": "Doxal Italia SpA",
-        "score": 62,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=148895786b6f8148"
-      },
-      {
         "title": "International Regulatory Affairs Project Manager",
         "company": "Recordati",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408772783"
+      },
+      {
+        "title": "Regulatory Affairs | Brescia",
+        "company": "Biopharmed",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -126,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4427736025"
       },
       {
-        "title": "Regulatory Affairs / Quality Assurance Specialist",
-        "company": "Pharma Line Srl",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1781654400000,
-        "url": "https://it.indeed.com/viewjob?jk=34f75b2084f0f3ed"
+        "title": "Consumer Service Manager & Regulatory Affairs Support",
+        "company": "NewPrinces Group",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1781481600000,
+        "url": "https://www.linkedin.com/jobs/view/4428869020"
       },
       {
         "title": "Lead Regulatory Affairs Manager, International",
@@ -142,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4387965325"
       },
       {
-        "title": "Regulatory Affairs Specialist- Area Gomma/Plastica",
-        "company": "Adecco",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4432248188"
-      },
-      {
         "title": "Pharmacovigilance - Project Manager",
         "company": "Med Communications",
         "score": 60,
@@ -158,12 +158,12 @@
         "url": "https://www.linkedin.com/jobs/view/4435016619"
       },
       {
-        "title": "Consumer Service Manager & Regulatory Affairs Support",
-        "company": "NewPrinces Group",
+        "title": "Regulatory Affairs / Quality Assurance Specialist",
+        "company": "Pharma Line Srl",
         "score": 59,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4428869020"
+        "site": "indeed",
+        "date_posted": 1781654400000,
+        "url": "https://it.indeed.com/viewjob?jk=34f75b2084f0f3ed"
       },
       {
         "title": "Regulatory Affairs Intern",
@@ -204,13 +204,13 @@
       "confidence": 45
     },
     {
-      "keyword": "international",
+      "keyword": "senior",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
     },
     {
-      "keyword": "senior",
+      "keyword": "international",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
@@ -260,13 +260,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 19 (-63%)",
+      "data": {
+        "current": 7,
+        "avg": 19.1,
+        "change_pct": -63.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/22 annunci da aziende nuove (31.8%)",
+      "message": "📊 Ultimo scan: 6/7 annunci da aziende nuove (85.7%)",
       "data": {
-        "new": 7,
-        "total": 22,
-        "pct": 31.8
+        "new": 6,
+        "total": 7,
+        "pct": 85.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 77% a 14% (-63pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 77.3,
+        "new_pct": 14.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 23% a 86% (+63pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 22.7,
+        "new_pct": 85.7
       }
     },
     {
@@ -276,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 172,
+            "id": 1,
+            "size": 145,
             "top_terms": [
-              "manager",
               "senior",
-              "engineer"
+              "specialist",
+              "director"
             ],
-            "pct": 63.7
+            "pct": 52.7
           },
           {
             "id": 3,
-            "size": 39,
+            "size": 43,
+            "top_terms": [
+              "manager",
+              "project",
+              "senior"
+            ],
+            "pct": 15.6
+          },
+          {
+            "id": 0,
+            "size": 36,
             "top_terms": [
               "regulatory",
               "affairs",
-              "manager"
+              "specialist"
             ],
-            "pct": 14.4
+            "pct": 13.1
           },
           {
-            "id": 1,
-            "size": 33,
+            "id": 2,
+            "size": 34,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 12.2
+            "pct": 12.4
           },
           {
             "id": 4,
-            "size": 23,
+            "size": 17,
             "top_terms": [
-              "specialist",
-              "quality",
-              "digital"
+              "engineer",
+              "it",
+              "project"
             ],
-            "pct": 8.5
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "trainee",
-              "corporate",
-              "affairs"
-            ],
-            "pct": 1.1
+            "pct": 6.2
           }
         ]
       }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-04T09:24:51.245044",
+  "generated_at": "2026-07-05T09:43:58.009278",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 207,
+  "total_jobs_analyzed": 209,
   "scoring": {
-    "average": 30.5,
+    "average": 30.6,
     "distribution": {
       "excellent": 0,
       "good": 9,
-      "medium": 91,
-      "low": 23,
+      "medium": 95,
+      "low": 21,
       "irrelevant": 84
     },
     "top_jobs": [
@@ -70,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
+        "title": "Junior Medical Affairs Manager",
+        "company": "Sinclair Brasil",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432532133"
+      },
+      {
         "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
         "company": "OLCELLI FARMACEUTICI SRL",
         "score": 61,
         "site": "indeed",
         "date_posted": 1782777600000,
         "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
-      },
-      {
-        "title": "Junior Medical Affairs Manager",
-        "company": "Sinclair Brasil",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4432532133"
       },
       {
         "title": "Junior Medical Advisor M/F",
@@ -134,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4411500965"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1782864000000,
-        "url": "https://www.linkedin.com/jobs/view/4332274670"
-      },
-      {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426942441"
+      },
+      {
+        "title": "Clinical Research Associate",
+        "company": "Upsilon Global",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1782950400000,
+        "url": "https://www.linkedin.com/jobs/view/4436307190"
       },
       {
         "title": "Clinical Research Associate (CRA) - Law 68/99 Art. 18",
@@ -184,17 +184,17 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
+        "word": "project",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
         "word": "sales",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "access",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "project",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
@@ -264,33 +264,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 14 (-59%)",
+      "data": {
+        "current": 6,
+        "avg": 14.5,
+        "change_pct": -58.6
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/14 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 7,
-        "total": 14,
+        "new": 3,
+        "total": 6,
         "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 43% a 71% (+29pp)",
+      "message": "📡 indeed: quota passata da 71% a 0% (-71pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 42.9,
-        "new_pct": 71.4
+        "old_pct": 71.4,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 57% a 29% (-29pp)",
+      "message": "📡 linkedin: quota passata da 29% a 100% (+71pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 57.1,
-        "new_pct": 28.6
+        "old_pct": 28.6,
+        "new_pct": 100.0
       }
     },
     {
@@ -300,54 +310,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 106,
-            "top_terms": [
-              "manager",
-              "lead",
-              "specialist"
-            ],
-            "pct": 51.2
-          },
-          {
             "id": 2,
-            "size": 37,
+            "size": 84,
             "top_terms": [
-              "medical",
-              "director",
-              "affairs"
+              "specialist",
+              "clinical",
+              "associate"
             ],
-            "pct": 17.9
+            "pct": 40.2
           },
           {
             "id": 3,
-            "size": 33,
+            "size": 44,
+            "top_terms": [
+              "manager",
+              "project",
+              "medical"
+            ],
+            "pct": 21.1
+          },
+          {
+            "id": 0,
+            "size": 32,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.9
-          },
-          {
-            "id": 4,
-            "size": 22,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 10.6
+            "pct": 15.3
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 30,
             "top_terms": [
-              "access",
-              "market",
-              "specialist"
+              "director",
+              "medical",
+              "emea"
             ],
-            "pct": 4.3
+            "pct": 14.4
+          },
+          {
+            "id": 4,
+            "size": 19,
+            "top_terms": [
+              "italy",
+              "medical",
+              "science"
+            ],
+            "pct": 9.1
           }
         ]
       }
