@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-05T09:43:58.137469",
+  "generated_at": "2026-07-06T11:12:24.050690",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 62,
+  "total_jobs_analyzed": 63,
   "scoring": {
-    "average": 12.6,
+    "average": 12.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 7,
       "low": 2,
-      "irrelevant": 52
+      "irrelevant": 53
     },
     "top_jobs": [
       {
@@ -74,7 +74,7 @@
         "company": "MedicAir",
         "score": 43,
         "site": "linkedin",
-        "date_posted": 1781481600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
       },
       {
@@ -102,14 +102,6 @@
         "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
       },
       {
-        "title": "Addetto/a rifornimento scaffali sistema produttivo",
-        "company": "Giucas",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4435242886"
-      },
-      {
         "title": "Quality Assurance & Auditing Manager",
         "company": "Penta - Child Health Research",
         "score": 16,
@@ -124,14 +116,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424754375"
-      },
-      {
-        "title": "Quality Assurance Intern",
-        "company": "Stevanato Group",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4432764536"
       },
       {
         "title": "Market Access Manager Onco-Haematology",
@@ -158,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4424739480"
       },
       {
-        "title": "Clinical Trial Coordinator",
-        "company": "Alira Health",
+        "title": "Addetto/a rifornimento scaffali sistema produttivo",
+        "company": "Giucas",
         "score": 12,
-        "site": "indeed",
+        "site": "linkedin",
         "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=7bd2fe1103134092"
+        "url": "https://www.linkedin.com/jobs/view/4435242886"
       },
       {
         "title": "Quality Assurance Specialist - Packaging",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433192743"
+      },
+      {
+        "title": "JR QUALITY ASSURANCE ( QUALITA' PROCESSO)",
+        "company": "Grafton Recruitment",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4431520519"
+      },
+      {
+        "title": "Quality Assurance Intern",
+        "company": "Stevanato Group",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1782950400000,
+        "url": "https://www.linkedin.com/jobs/view/4432764536"
       }
     ]
   },
@@ -190,8 +190,8 @@
       },
       {
         "word": "sistema",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -216,43 +216,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-57%)",
-      "data": {
-        "current": 2,
-        "avg": 4.6,
-        "change_pct": -56.7
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 25% a 0% (-25pp)",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 25.0,
-        "new_pct": 0.0
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 75.0,
-        "new_pct": 100.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -262,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 32,
+            "id": 2,
+            "size": 34,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "engineer"
+              "engineer",
+              "sistema",
+              "qualità"
             ],
-            "pct": 51.6
+            "pct": 54.0
+          },
+          {
+            "id": 0,
+            "size": 10,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "intern"
+            ],
+            "pct": 15.9
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 10,
             "top_terms": [
+              "specialist",
               "quality",
-              "assurance",
-              "specialist"
+              "assurance"
             ],
-            "pct": 27.4
+            "pct": 15.9
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 6,
             "top_terms": [
               "addetto",
               "sistema",
               "negozi"
             ],
-            "pct": 9.7
+            "pct": 9.5
           },
           {
-            "id": 2,
-            "size": 5,
+            "id": 3,
+            "size": 3,
             "top_terms": [
-              "qualità",
-              "specialista",
-              "sistema"
-            ],
-            "pct": 8.1
-          },
-          {
-            "id": 0,
-            "size": 2,
-            "top_terms": [
-              "hse",
+              "regulatory",
               "specialist",
-              "vicenza"
+              "affairs"
             ],
-            "pct": 3.2
+            "pct": 4.8
           }
         ]
       }

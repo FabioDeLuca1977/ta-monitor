@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-05T09:43:58.041044",
+  "generated_at": "2026-07-06T11:12:23.952535",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 20,
   "scoring": {
-    "average": 23.6,
+    "average": 25.3,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 6,
+      "medium": 7,
       "low": 1,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -22,12 +22,12 @@
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
-        "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
-        "company": "Menarini",
+        "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
+        "company": "SILC Fertilizzanti Srl",
         "score": 56,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=b9526a772da8cfa8"
+        "site": "linkedin",
+        "date_posted": 1783209600000,
+        "url": "https://www.linkedin.com/jobs/view/4436984747"
       },
       {
         "title": "Scientific Advisor",
@@ -38,9 +38,17 @@
         "url": "https://www.linkedin.com/jobs/view/4429469367"
       },
       {
+        "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
+        "company": "Menarini",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1782950400000,
+        "url": "https://it.indeed.com/viewjob?jk=b9526a772da8cfa8"
+      },
+      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1781740800000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -72,7 +80,7 @@
       {
         "title": "Site Regulatory Compliance Associate",
         "company": "Menarini",
-        "score": 33,
+        "score": 28,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=8fbd8d5ef0a605ca"
@@ -94,20 +102,20 @@
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
       },
       {
-        "title": "Plant P&O Business Partner",
-        "company": "Gerresheimer",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=c79a3fd7421f6b67"
-      },
-      {
         "title": "Impiegato/a Commerciale Estero Medical Devices",
         "company": "Lavoropiù SpA",
-        "score": 11,
+        "score": 10,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435537803"
+      },
+      {
+        "title": "Plant P&O Business Partner",
+        "company": "Gerresheimer",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1782950400000,
+        "url": "https://it.indeed.com/viewjob?jk=c79a3fd7421f6b67"
       },
       {
         "title": "Plant P&O Manager",
@@ -126,14 +134,6 @@
         "url": "https://it.indeed.com/viewjob?jk=e7a8c83e46713f8f"
       },
       {
-        "title": "Senior CRA",
-        "company": "Thermo Fisher Scientific",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1781395200000,
-        "url": "https://www.linkedin.com/jobs/view/4414871143"
-      },
-      {
         "title": "IT Support Specialist",
         "company": "Dentsply Sirona",
         "score": 6,
@@ -144,7 +144,7 @@
       {
         "title": "Medico per CRA Mirandola",
         "company": "Codess Sociale Soc Coop",
-        "score": 5,
+        "score": 6,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434476227"
@@ -183,52 +183,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 4 annunci ultimo scan vs media 2 (+75%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-58%)",
       "data": {
-        "current": 4,
-        "avg": 2.3,
-        "change_pct": 75.0
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Menarini: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Menarini",
-        "count": 2
+        "current": 1,
+        "avg": 2.4,
+        "change_pct": -57.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 75% (+75pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 25% (-75pp)",
+      "message": "📡 linkedin: quota passata da 25% a 100% (+75pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 75% a 0% (-75pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 75.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -238,17 +229,17 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 1,
             "size": 10,
             "top_terms": [
-              "specialist",
-              "it",
-              "plant"
+              "medical",
+              "plant",
+              "manager"
             ],
             "pct": 50.0
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 5,
             "top_terms": [
               "regulatory",
@@ -258,22 +249,22 @@
             "pct": 25.0
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 3,
             "top_terms": [
-              "medical",
-              "devices",
-              "specialist"
+              "specialist",
+              "accounting",
+              "senior"
             ],
             "pct": 15.0
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 2,
             "top_terms": [
-              "cra",
-              "senior",
-              "specialist"
+              "it",
+              "specialist",
+              "senior"
             ],
             "pct": 10.0
           }

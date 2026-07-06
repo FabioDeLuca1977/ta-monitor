@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T09:43:58.084917",
+  "generated_at": "2026-07-06T11:12:23.996580",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 38,
@@ -179,12 +179,7 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "market",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "access",
+        "word": "senior",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
@@ -194,7 +189,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "market",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "access",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
@@ -217,42 +217,32 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-44%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
       "data": {
-        "current": 2,
-        "avg": 3.6,
-        "change_pct": -44.4
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "current": 1,
+        "avg": 3.4,
+        "change_pct": -70.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -262,17 +252,37 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 21,
+            "id": 1,
+            "size": 16,
             "top_terms": [
-              "clinical",
+              "advisor",
               "engineer",
-              "specialist"
+              "italy"
             ],
-            "pct": 55.3
+            "pct": 42.1
           },
           {
-            "id": 1,
+            "id": 4,
+            "size": 8,
+            "top_terms": [
+              "specialist",
+              "medical",
+              "technical"
+            ],
+            "pct": 21.1
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "director",
+              "associate",
+              "medical"
+            ],
+            "pct": 13.2
+          },
+          {
+            "id": 2,
             "size": 5,
             "top_terms": [
               "access",
@@ -283,33 +293,13 @@
           },
           {
             "id": 3,
-            "size": 5,
-            "top_terms": [
-              "director",
-              "medical",
-              "associate"
-            ],
-            "pct": 13.2
-          },
-          {
-            "id": 4,
             "size": 4,
             "top_terms": [
+              "clinical",
               "specialist",
-              "technical",
-              "quality"
+              "operations"
             ],
             "pct": 10.5
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "advisor",
-              "medical",
-              "italy"
-            ],
-            "pct": 7.9
           }
         ]
       }
