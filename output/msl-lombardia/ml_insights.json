@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-06T11:12:23.919527",
+  "generated_at": "2026-07-07T10:31:12.202975",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 209,
+  "total_jobs_analyzed": 204,
   "scoring": {
     "average": 30.5,
     "distribution": {
       "excellent": 0,
-      "good": 8,
-      "medium": 96,
-      "low": 21,
-      "irrelevant": 84
+      "good": 6,
+      "medium": 98,
+      "low": 18,
+      "irrelevant": 82
     },
     "top_jobs": [
       {
@@ -38,28 +38,12 @@
         "url": "https://www.linkedin.com/jobs/view/4435114665"
       },
       {
-        "title": "Dermatologist - Medical Director",
-        "company": "Medpace",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4331270944"
-      },
-      {
         "title": "Pharmacovigilance Medical Writing Manager",
         "company": "Med Communications",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435017712"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Junior Medical Affairs Manager",
@@ -84,6 +68,14 @@
         "site": "linkedin",
         "date_posted": 1781654400000,
         "url": "https://www.linkedin.com/jobs/view/4428497632"
+      },
+      {
+        "title": "Medical Manager",
+        "company": "Zentiva",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4431727706"
       },
       {
         "title": "Medical Science Liaison Rhinology and Gastroenterology",
@@ -134,20 +126,28 @@
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
+      },
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
+      {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426942441"
-      },
-      {
-        "title": "Sr Associate Medical Science Liaison Hematology",
-        "company": "Amgen Italia",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4418969053"
       },
       {
         "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
-        "title": "Project Manager for Diagnostic Imaging & Advanced Therapy - Campania, Italy (m/f/d)",
-        "company": "Siemens Healthineers",
+        "title": "Sr Associate Medical Science Liaison Hematology",
+        "company": "Amgen Italia",
         "score": 55,
-        "site": "indeed",
-        "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=d04469291c0b1764"
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4418969053"
       },
       {
-        "title": "Pharmacovigilance Specialist - VIE contract",
-        "company": "Sanofi",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=3d363357545c185a"
+        "title": "Medical Science Liasion - MSL",
+        "company": "Sinclair Brasil",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432529261"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "project",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -189,19 +189,19 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "sales",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "director",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "access",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "market",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "sales",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -266,41 +266,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 15 (-80%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 14 (-50%)",
       "data": {
-        "current": 3,
-        "avg": 14.7,
-        "change_pct": -79.6
+        "current": 7,
+        "avg": 14.1,
+        "change_pct": -50.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/7 annunci da aziende nuove (14.3%)",
       "data": {
         "new": 1,
-        "total": 3,
-        "pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "total": 7,
+        "pct": 14.3
       }
     },
     {
@@ -311,53 +291,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 82,
+            "size": 79,
             "top_terms": [
               "specialist",
-              "lead",
-              "director"
+              "medical",
+              "sales"
             ],
-            "pct": 39.2
+            "pct": 38.7
           },
           {
-            "id": 3,
-            "size": 39,
+            "id": 1,
+            "size": 37,
             "top_terms": [
               "manager",
               "project",
               "medical"
             ],
-            "pct": 18.7
+            "pct": 18.1
           },
           {
-            "id": 1,
-            "size": 34,
+            "id": 4,
+            "size": 36,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 16.3
-          },
-          {
-            "id": 4,
-            "size": 31,
-            "top_terms": [
-              "medical",
-              "director",
-              "science"
-            ],
-            "pct": 14.8
+            "pct": 17.6
           },
           {
             "id": 2,
-            "size": 23,
+            "size": 28,
+            "top_terms": [
+              "director",
+              "lead",
+              "medical"
+            ],
+            "pct": 13.7
+          },
+          {
+            "id": 3,
+            "size": 24,
             "top_terms": [
               "clinical",
-              "research",
-              "associate"
+              "associate",
+              "research"
             ],
-            "pct": 11.0
+            "pct": 11.8
           }
         ]
       }

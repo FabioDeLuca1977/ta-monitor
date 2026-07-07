@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-06T11:12:24.050690",
+  "generated_at": "2026-07-07T10:31:12.332368",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 63,
+  "total_jobs_analyzed": 64,
   "scoring": {
-    "average": 12.4,
+    "average": 12.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 7,
-      "low": 2,
-      "irrelevant": 53
+      "low": 1,
+      "irrelevant": 55
     },
     "top_jobs": [
       {
-        "title": "Senior Regulatory Affairs Specialist A.P.I.",
-        "company": "NEWCHEM SPA",
-        "score": 64,
+        "title": "Regulatory Affairs Specialist",
+        "company": "Fresenius Kabi Italia",
+        "score": 62,
         "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4431096548"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4434531248"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -30,9 +30,17 @@
         "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist A.P.I.",
+        "company": "NEWCHEM SPA",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4431096548"
+      },
+      {
         "title": "Regulatory affair specialist",
         "company": "IACER",
-        "score": 52,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425868017"
@@ -46,17 +54,9 @@
         "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
-        "title": "Quality Assurance Specialist - Pharma",
-        "company": "Mérieux NutriSciences Italia",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4428055088"
-      },
-      {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 49,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
@@ -78,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4425755875"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "Pietro Fiorentini",
-        "score": 22,
-        "site": "linkedin",
-        "date_posted": 1783036800000,
-        "url": "https://www.linkedin.com/jobs/view/4433704475"
-      },
-      {
         "title": "MECHANICAL ENGINEER",
         "company": "De'Longhi",
         "score": 20,
@@ -94,12 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=a71890c0a9d4a29d"
       },
       {
-        "title": "Regulatory & Quality Specialist – Settore Cosmetico",
-        "company": null,
-        "score": 19,
-        "site": "indeed",
+        "title": "Quality Assurance Specialist",
+        "company": "Pietro Fiorentini",
+        "score": 17,
+        "site": "linkedin",
         "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
+        "url": "https://www.linkedin.com/jobs/view/4433704475"
       },
       {
         "title": "Quality Assurance & Auditing Manager",
@@ -116,6 +108,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424754375"
+      },
+      {
+        "title": "Regulatory & Quality Specialist – Settore Cosmetico",
+        "company": null,
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1783036800000,
+        "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
       },
       {
         "title": "Market Access Manager Onco-Haematology",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4433192743"
       },
       {
-        "title": "JR QUALITY ASSURANCE ( QUALITA' PROCESSO)",
-        "company": "Grafton Recruitment",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4431520519"
-      },
-      {
         "title": "Quality Assurance Intern",
         "company": "Stevanato Group",
-        "score": 11,
+        "score": 12,
         "site": "linkedin",
         "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4432764536"
+      },
+      {
+        "title": "Quality Assurance Specialist (Product Distribution) - Fixed Term Contract",
+        "company": "GSK",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1782345600000,
+        "url": "https://it.indeed.com/viewjob?jk=7483c7f79ebcb5d5"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "sistema",
@@ -216,6 +216,16 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-31%)",
+      "data": {
+        "current": 3,
+        "avg": 4.4,
+        "change_pct": -31.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
       "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
@@ -228,20 +238,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 indeed: quota passata da 33% a 67% (+33pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
+        "channel": "indeed",
+        "old_pct": 33.3,
         "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 33% (-33pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
+        "channel": "linkedin",
+        "old_pct": 66.7,
         "new_pct": 33.3
       }
     },
@@ -252,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 34,
+            "id": 1,
+            "size": 32,
             "top_terms": [
               "engineer",
               "sistema",
               "qualità"
             ],
-            "pct": 54.0
-          },
-          {
-            "id": 0,
-            "size": 10,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "intern"
-            ],
-            "pct": 15.9
-          },
-          {
-            "id": 1,
-            "size": 10,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "assurance"
-            ],
-            "pct": 15.9
+            "pct": 50.0
           },
           {
             "id": 4,
+            "size": 15,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 23.4
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 14.1
+          },
+          {
+            "id": 3,
             "size": 6,
             "top_terms": [
               "addetto",
               "sistema",
               "negozi"
             ],
-            "pct": 9.5
+            "pct": 9.4
           },
           {
-            "id": 3,
-            "size": 3,
+            "id": 0,
+            "size": 2,
             "top_terms": [
-              "regulatory",
+              "hse",
               "specialist",
-              "affairs"
+              "vicenza"
             ],
-            "pct": 4.8
+            "pct": 3.1
           }
         ]
       }

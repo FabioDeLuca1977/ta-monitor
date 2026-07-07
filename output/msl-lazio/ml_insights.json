@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-06T11:12:23.996580",
+  "generated_at": "2026-07-07T10:31:12.278527",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 38,
+  "total_jobs_analyzed": 36,
   "scoring": {
-    "average": 25.0,
+    "average": 25.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 13,
+      "medium": 12,
       "low": 3,
-      "irrelevant": 20
+      "irrelevant": 19
     },
     "top_jobs": [
       {
@@ -54,20 +54,20 @@
         "url": "https://it.indeed.com/viewjob?jk=d514194f6aa54f36"
       },
       {
+        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
+        "company": "QuiCare",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432944833"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
         "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432400235"
-      },
-      {
-        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
-        "company": "QuiCare",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4432944833"
       },
       {
         "title": "Pharma Medical Affairs: Direzione Medica nel settore Farmacetuco",
@@ -92,14 +92,6 @@
         "site": "linkedin",
         "date_posted": 1781827200000,
         "url": "https://www.linkedin.com/jobs/view/4430976820"
-      },
-      {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4426407509"
       },
       {
         "title": "Director, Medical Affairs",
@@ -158,20 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=f27f6302b8ccd026"
       },
       {
-        "title": "Senior Manager Government Affairs & Market Access, Europe South",
-        "company": "Stryker",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1781481600000,
-        "url": "https://www.linkedin.com/jobs/view/4427768246"
-      },
-      {
         "title": "Field Market Access Manager - Ostomy Care",
         "company": "Convatec",
         "score": 15,
         "site": "linkedin",
         "date_posted": 1781740800000,
         "url": "https://www.linkedin.com/jobs/view/4263437738"
+      },
+      {
+        "title": "Senior Product & Sales Specialist – Medical Device Endoscopia e Chirurgia",
+        "company": "M.G. LORENZATTO - S.R.L.",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1781568000000,
+        "url": "https://www.linkedin.com/jobs/view/4426407040"
+      },
+      {
+        "title": "Senior Product & Sales Specialist - Medical Device - Lazio",
+        "company": "AORTA srl",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4429491184"
       }
     ]
   },
@@ -179,29 +179,29 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "senior",
+        "word": "specialist",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "market",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
         "word": "access",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "quality",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -217,31 +217,41 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-35%)",
       "data": {
-        "current": 1,
-        "avg": 3.4,
-        "change_pct": -70.3
+        "current": 2,
+        "avg": 3.1,
+        "change_pct": -35.3
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
@@ -252,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 16,
-            "top_terms": [
-              "advisor",
-              "engineer",
-              "italy"
-            ],
-            "pct": 42.1
-          },
-          {
-            "id": 4,
-            "size": 8,
-            "top_terms": [
-              "specialist",
-              "medical",
-              "technical"
-            ],
-            "pct": 21.1
-          },
-          {
             "id": 0,
-            "size": 5,
+            "size": 10,
             "top_terms": [
-              "director",
-              "associate",
-              "medical"
+              "engineer",
+              "advisor",
+              "field"
             ],
-            "pct": 13.2
-          },
-          {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "access",
-              "market",
-              "manager"
-            ],
-            "pct": 13.2
+            "pct": 27.8
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 9,
             "top_terms": [
-              "clinical",
-              "specialist",
-              "operations"
+              "manager",
+              "market",
+              "access"
             ],
-            "pct": 10.5
+            "pct": 25.0
+          },
+          {
+            "id": 1,
+            "size": 8,
+            "top_terms": [
+              "specialist",
+              "device",
+              "medical"
+            ],
+            "pct": 22.2
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "medical",
+              "affairs",
+              "director"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "quality",
+              "director",
+              "specialist"
+            ],
+            "pct": 8.3
           }
         ]
       }
