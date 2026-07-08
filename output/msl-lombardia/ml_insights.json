@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-07T10:31:12.202975",
+  "generated_at": "2026-07-08T09:22:50.715392",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 204,
+  "total_jobs_analyzed": 195,
   "scoring": {
     "average": 30.5,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 98,
-      "low": 18,
-      "irrelevant": 82
+      "good": 5,
+      "medium": 94,
+      "low": 16,
+      "irrelevant": 80
     },
     "top_jobs": [
       {
@@ -54,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4432532133"
       },
       {
-        "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
-        "company": "OLCELLI FARMACEUTICI SRL",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
+        "title": "Medical Manager",
+        "company": "Zentiva",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1782086400000,
+        "url": "https://www.linkedin.com/jobs/view/4431727706"
       },
       {
         "title": "Junior Medical Advisor M/F",
@@ -68,22 +68,6 @@
         "site": "linkedin",
         "date_posted": 1781654400000,
         "url": "https://www.linkedin.com/jobs/view/4428497632"
-      },
-      {
-        "title": "Medical Manager",
-        "company": "Zentiva",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4431727706"
-      },
-      {
-        "title": "Medical Science Liaison Rhinology and Gastroenterology",
-        "company": "Sanofi",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=6546540a26671bb2"
       },
       {
         "title": "Senior Medical Advisor Rare Hematology, Nephrology, Transplant and Amyloidosis",
@@ -104,18 +88,10 @@
       {
         "title": "Head of Medical Affairs, Italy",
         "company": "Genmab",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4431241411"
-      },
-      {
-        "title": "Medical Affairs Lead BH",
-        "company": "Neuraxpharm",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411500965"
+        "url": "https://www.linkedin.com/jobs/view/4431241411"
       },
       {
         "title": "Psychiatry - Medical Director",
@@ -150,6 +126,22 @@
         "url": "https://www.linkedin.com/jobs/view/4426942441"
       },
       {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=a53796af222ab432"
+      },
+      {
+        "title": "Medical Affairs Lead BH",
+        "company": "Neuraxpharm",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411500965"
+      },
+      {
         "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
         "company": "Hays",
         "score": 56,
@@ -158,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
-        "title": "Sr Associate Medical Science Liaison Hematology",
-        "company": "Amgen Italia",
+        "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
+        "company": "OLCELLI FARMACEUTICI SRL",
         "score": 55,
-        "site": "linkedin",
-        "date_posted": 1781568000000,
-        "url": "https://www.linkedin.com/jobs/view/4418969053"
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
       },
       {
         "title": "Medical Science Liasion - MSL",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432529261"
+      },
+      {
+        "title": "Internship Medical Affairs",
+        "company": "Boehringer Ingelheim",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432821205"
       }
     ]
   },
@@ -179,14 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "specialist",
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
+      },
+      {
         "word": "project",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "director",
@@ -194,14 +199,9 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "access",
+        "word": "market",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "sales",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -244,13 +244,13 @@
       "confidence": 30
     },
     {
-      "keyword": "science liaison rare",
+      "keyword": "rare diseases",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "rare diseases",
+      "keyword": "science liaison rare",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,27 +260,23 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "diseases",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 14 (-50%)",
-      "data": {
-        "current": 7,
-        "avg": 14.1,
-        "change_pct": -50.3
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/7 annunci da aziende nuove (14.3%)",
+      "message": "📊 Ultimo scan: 1/10 annunci da aziende nuove (10.0%)",
       "data": {
         "new": 1,
-        "total": 7,
-        "pct": 14.3
+        "total": 10,
+        "pct": 10.0
       }
     },
     {
@@ -290,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 79,
+            "id": 4,
+            "size": 98,
             "top_terms": [
               "specialist",
               "medical",
-              "sales"
+              "director"
             ],
-            "pct": 38.7
+            "pct": 50.3
           },
           {
-            "id": 1,
-            "size": 37,
+            "id": 2,
+            "size": 42,
             "top_terms": [
               "manager",
               "project",
               "medical"
             ],
-            "pct": 18.1
+            "pct": 21.5
           },
           {
-            "id": 4,
-            "size": 36,
+            "id": 1,
+            "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.6
-          },
-          {
-            "id": 2,
-            "size": 28,
-            "top_terms": [
-              "director",
-              "lead",
-              "medical"
-            ],
-            "pct": 13.7
+            "pct": 15.9
           },
           {
             "id": 3,
-            "size": 24,
+            "size": 21,
             "top_terms": [
-              "clinical",
               "associate",
-              "research"
+              "research",
+              "clinical"
             ],
-            "pct": 11.8
+            "pct": 10.8
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "farmacista",
+              "collaboratrice",
+              "collaboratore"
+            ],
+            "pct": 1.5
           }
         ]
       }
