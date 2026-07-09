@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-08T09:22:50.737604",
+  "generated_at": "2026-07-09T10:27:55.971176",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 28.0,
+    "average": 28.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -22,14 +22,6 @@
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
-        "company": "SILC Fertilizzanti Srl",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1783209600000,
-        "url": "https://www.linkedin.com/jobs/view/4436984747"
-      },
-      {
         "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
         "company": "SILC Fertilizzanti Srl",
         "score": 56,
@@ -42,8 +34,16 @@
         "company": "Adecco",
         "score": 51,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4429469367"
+      },
+      {
+        "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
+        "company": "SILC Fertilizzanti Srl",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": 1783209600000,
+        "url": "https://www.linkedin.com/jobs/view/4436984747"
       },
       {
         "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
@@ -110,6 +110,22 @@
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
+        "title": "Environmental Specialist",
+        "company": "Gerresheimer",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1783468800000,
+        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+      },
+      {
+        "title": "Impiegato/a Commerciale Estero Medical Devices",
+        "company": "Lavoropiù SpA",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4435537803"
+      },
+      {
         "title": "Material Planning and Purchasing Manager",
         "company": "LINCOTEK GROUP",
         "score": 10,
@@ -118,28 +134,12 @@
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
       },
       {
-        "title": "Impiegato/a Commerciale Estero Medical Devices",
-        "company": "Lavoropiù SpA",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435537803"
-      },
-      {
         "title": "Plant P&O Business Partner",
         "company": "Gerresheimer",
         "score": 9,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=c79a3fd7421f6b67"
-      },
-      {
-        "title": "Plant P&O Manager",
-        "company": "Gerresheimer",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1781654400000,
-        "url": "https://it.indeed.com/viewjob?jk=3ba1edcc7ea8e56b"
       },
       {
         "title": "Accounting Specialist",
@@ -218,80 +218,50 @@
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 3,
+            "size": 10,
+            "top_terms": [
+              "specialist",
+              "associate",
+              "accounting"
+            ],
+            "pct": 47.6
+          },
+          {
+            "id": 1,
             "size": 7,
             "top_terms": [
-              "regulatory",
               "affairs",
+              "regulatory",
               "specialist"
             ],
             "pct": 33.3
           },
           {
             "id": 0,
-            "size": 6,
+            "size": 2,
             "top_terms": [
-              "plant",
-              "manager",
-              "associate"
-            ],
-            "pct": 28.6
-          },
-          {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "it",
-              "accounting"
-            ],
-            "pct": 23.8
-          },
-          {
-            "id": 1,
-            "size": 3,
-            "top_terms": [
-              "medical",
               "devices",
-              "specialist"
+              "medical",
+              "compliance"
             ],
-            "pct": 14.3
+            "pct": 9.5
+          },
+          {
+            "id": 2,
+            "size": 2,
+            "top_terms": [
+              "it",
+              "specialist",
+              "senior"
+            ],
+            "pct": 9.5
           }
         ]
       }

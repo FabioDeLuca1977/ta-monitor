@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-08T09:22:50.626744",
+  "generated_at": "2026-07-09T10:27:55.829661",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 31.3,
+    "average": 32.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 14,
+      "medium": 13,
       "low": 4,
-      "irrelevant": 8
+      "irrelevant": 7
     },
     "top_jobs": [
       {
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4433933387"
       },
       {
-        "title": "Informatore Scientifico - Verona",
-        "company": "Hays",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1781740800000,
-        "url": "https://www.linkedin.com/jobs/view/4429003913"
-      },
-      {
         "title": "Informatore scientifico commerciale | Veneto",
         "company": "PharmaNutra",
         "score": 42,
@@ -122,7 +114,7 @@
         "company": "Alfasigma",
         "score": 41,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4431276432"
       },
       {
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4428215407"
       },
       {
+        "title": "Territory Manager",
+        "company": "Ferring Pharmaceuticals, Inc.",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1783468800000,
+        "url": "https://it.indeed.com/viewjob?jk=416eb85c3abdee15"
+      },
+      {
         "title": "Market Access Manager Onco-Haematology",
         "company": "GSK",
         "score": 12,
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
       },
       {
-        "title": "Loss Prevention Manager - The St. Regis Venice",
-        "company": "Marriott International",
-        "score": 7,
+        "title": "Clinical Trial Coordinator",
+        "company": "Alira Health",
+        "score": 6,
         "site": "indeed",
-        "date_posted": 1781654400000,
-        "url": "https://it.indeed.com/viewjob?jk=7e96a22bb6640ca4"
+        "date_posted": 1782950400000,
+        "url": "https://it.indeed.com/viewjob?jk=7bd2fe1103134092"
       }
     ]
   },
@@ -183,70 +183,90 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
+      "data": {
+        "current": 1,
+        "avg": 2.3,
+        "change_pct": -56.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 9,
-            "top_terms": [
-              "clinical",
-              "manager",
-              "prevention"
-            ],
-            "pct": 34.6
-          },
-          {
             "id": 1,
-            "size": 7,
-            "top_terms": [
-              "scientifico",
-              "informatore",
-              "farmaco"
-            ],
-            "pct": 26.9
-          },
-          {
-            "id": 2,
-            "size": 4,
+            "size": 10,
             "top_terms": [
               "regulatory",
               "specialist",
-              "affairs"
+              "manager"
             ],
-            "pct": 15.4
+            "pct": 41.7
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "informatore",
+              "scientifico",
+              "farmaco"
+            ],
+            "pct": 37.5
           },
           {
             "id": 0,
             "size": 3,
             "top_terms": [
-              "medico",
-              "informatore",
-              "scientifico"
+              "isf",
+              "specialist",
+              "vicenza"
             ],
-            "pct": 11.5
+            "pct": 12.5
           },
           {
-            "id": 4,
-            "size": 3,
+            "id": 3,
+            "size": 2,
             "top_terms": [
-              "isf",
-              "verona",
-              "specialist"
+              "vicenza",
+              "italy",
+              "tap"
             ],
-            "pct": 11.5
+            "pct": 8.3
           }
         ]
       }

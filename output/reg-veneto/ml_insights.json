@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-07-08T09:22:50.804804",
+  "generated_at": "2026-07-09T10:27:56.059414",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 64,
   "scoring": {
-    "average": 13.4,
+    "average": 13.9,
     "distribution": {
       "excellent": 0,
-      "good": 2,
+      "good": 3,
       "medium": 7,
       "low": 1,
-      "irrelevant": 54
+      "irrelevant": 53
     },
     "top_jobs": [
       {
+        "title": "Legal Specialist I Corporate Governance & Regulatory Affairs",
+        "company": "REVO Insurance",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4434868695"
+      },
+      {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi",
-        "score": 64,
+        "score": 62,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=7166cc9055150184"
@@ -32,7 +40,7 @@
       {
         "title": "Senior Regulatory Affairs Specialist",
         "company": "NEWCHEM SPA",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
@@ -40,7 +48,7 @@
       {
         "title": "Senior Regulatory Affairs Specialist A.P.I.",
         "company": "NEWCHEM SPA",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1782691200000,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
@@ -48,7 +56,7 @@
       {
         "title": "Regulatory affair specialist",
         "company": "IACER",
-        "score": 58,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425868017"
@@ -56,7 +64,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 50,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -64,9 +72,9 @@
       {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
       },
       {
@@ -74,13 +82,13 @@
         "company": "Adecco",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4417957067"
       },
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 45,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -96,18 +104,10 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "Pietro Fiorentini",
-        "score": 17,
+        "score": 18,
         "site": "linkedin",
         "date_posted": 1783036800000,
         "url": "https://www.linkedin.com/jobs/view/4433704475"
-      },
-      {
-        "title": "Quality Assurance & Auditing Manager",
-        "company": "Penta - Child Health Research",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": 1781740800000,
-        "url": "https://www.linkedin.com/jobs/view/4428805774"
       },
       {
         "title": "Quality Assurance Manager",
@@ -118,25 +118,17 @@
         "url": "https://www.linkedin.com/jobs/view/4424754375"
       },
       {
-        "title": "Regulatory & Quality Specialist – Settore Cosmetico",
-        "company": null,
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
-      },
-      {
         "title": "Market Access Manager Onco-Haematology",
         "company": "GSK",
-        "score": 13,
-        "site": "indeed",
+        "score": 14,
+        "site": "linkedin",
         "date_posted": 1781740800000,
-        "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
+        "url": "https://www.linkedin.com/jobs/view/4427836908"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
         "company": "CHR S.r.l.",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433887992"
@@ -144,10 +136,18 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "SteelcoBelimed",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": 1782518400000,
         "url": "https://www.linkedin.com/jobs/view/4424739480"
+      },
+      {
+        "title": "Regulatory & Quality Specialist – Settore Cosmetico",
+        "company": null,
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1783036800000,
+        "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
       },
       {
         "title": "Addetto/a rifornimento scaffali sistema produttivo",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "sistema",
@@ -194,14 +194,14 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "addetto",
+        "word": "engineer",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "qualità",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "addetto",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -228,31 +228,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 3,
+        "new": 2,
         "total": 3,
-        "pct": 100.0
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -265,24 +265,24 @@
             "id": 2,
             "size": 36,
             "top_terms": [
-              "engineer",
               "sistema",
-              "analyst"
+              "addetto",
+              "qualità"
             ],
             "pct": 56.2
           },
           {
-            "id": 1,
-            "size": 9,
+            "id": 0,
+            "size": 14,
             "top_terms": [
-              "assurance",
               "quality",
-              "intern"
+              "assurance",
+              "specialist"
             ],
-            "pct": 14.1
+            "pct": 21.9
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 8,
             "top_terms": [
               "specialist",
@@ -292,24 +292,24 @@
             "pct": 12.5
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 3,
+            "size": 4,
             "top_terms": [
-              "quality",
-              "specialist",
-              "assurance"
+              "engineer",
+              "mechanical",
+              "affairs"
             ],
-            "pct": 9.4
+            "pct": 6.2
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 4,
+            "size": 2,
             "top_terms": [
-              "addetto",
-              "sistema",
-              "gestione"
+              "operatore",
+              "manager",
+              "jr"
             ],
-            "pct": 7.8
+            "pct": 3.1
           }
         ]
       }
