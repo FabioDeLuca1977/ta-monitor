@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-09T10:27:55.829661",
+  "generated_at": "2026-07-10T10:26:00.658009",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 22,
   "scoring": {
-    "average": 32.6,
+    "average": 32.8,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 13,
-      "low": 4,
-      "irrelevant": 7
+      "medium": 14,
+      "low": 2,
+      "irrelevant": 6
     },
     "top_jobs": [
       {
@@ -26,8 +26,8 @@
         "company": "Professional Recruitment",
         "score": 48,
         "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4430882642"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4434976469"
       },
       {
         "title": "Senior Clinical Research Associate",
@@ -36,14 +36,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4386508727"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco - Venezia",
-        "company": "Michael Page",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4432795996"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -110,20 +102,28 @@
         "url": "https://www.linkedin.com/jobs/view/4431505504"
       },
       {
+        "title": "Informatore Scientifico del Farmaco - Venezia",
+        "company": "Michael Page",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1782950400000,
+        "url": "https://www.linkedin.com/jobs/view/4432795996"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco - Treviso e Belluno",
+        "company": "Guna Spa",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437555003"
+      },
+      {
         "title": "ISF Gastroenterologia Verona",
         "company": "Alfasigma",
         "score": 41,
         "site": "linkedin",
         "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4431276432"
-      },
-      {
-        "title": "Informatore medico scientifico",
-        "company": "Manpower",
-        "score": 39,
-        "site": "linkedin",
-        "date_posted": 1781827200000,
-        "url": "https://www.linkedin.com/jobs/view/4428250912"
       },
       {
         "title": "Regulatory affair specialist",
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4434816816"
       },
       {
-        "title": "INFORMATORE MEDICO",
-        "company": "Eberlife Farmaceutici S.p.A.",
-        "score": 38,
-        "site": "linkedin",
-        "date_posted": 1781827200000,
-        "url": "https://www.linkedin.com/jobs/view/4428215407"
-      },
-      {
         "title": "Territory Manager",
         "company": "Ferring Pharmaceuticals, Inc.",
         "score": 17,
@@ -158,20 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=416eb85c3abdee15"
       },
       {
-        "title": "Market Access Manager Onco-Haematology",
-        "company": "GSK",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1781740800000,
-        "url": "https://it.indeed.com/viewjob?jk=c20ebbca8eadae83"
-      },
-      {
         "title": "Clinical Trial Coordinator",
         "company": "Alira Health",
-        "score": 6,
+        "score": 1,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=7bd2fe1103134092"
+      },
+      {
+        "title": "DOL TAP Facilitator - (Part-time) - Vicenza, Italy",
+        "company": "Serco",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=0587c390c7510e12"
+      },
+      {
+        "title": "Security Supervisor",
+        "company": "Four Seasons",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=9f1d86205532b1a3"
       }
     ]
   },
@@ -185,11 +185,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-52%)",
       "data": {
         "current": 1,
-        "avg": 2.3,
-        "change_pct": -56.5
+        "avg": 2.1,
+        "change_pct": -52.4
       }
     },
     {
@@ -205,21 +205,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -230,43 +230,43 @@
         "clusters": [
           {
             "id": 1,
-            "size": 10,
+            "size": 8,
             "top_terms": [
-              "regulatory",
-              "specialist",
-              "manager"
-            ],
-            "pct": 41.7
-          },
-          {
-            "id": 2,
-            "size": 9,
-            "top_terms": [
-              "informatore",
               "scientifico",
+              "informatore",
               "farmaco"
             ],
-            "pct": 37.5
+            "pct": 36.4
           },
           {
             "id": 0,
+            "size": 7,
+            "top_terms": [
+              "clinical",
+              "vicenza",
+              "tap"
+            ],
+            "pct": 31.8
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "specialist",
+              "affairs"
+            ],
+            "pct": 18.2
+          },
+          {
+            "id": 2,
             "size": 3,
             "top_terms": [
               "isf",
               "specialist",
               "vicenza"
             ],
-            "pct": 12.5
-          },
-          {
-            "id": 3,
-            "size": 2,
-            "top_terms": [
-              "vicenza",
-              "italy",
-              "tap"
-            ],
-            "pct": 8.3
+            "pct": 13.6
           }
         ]
       }

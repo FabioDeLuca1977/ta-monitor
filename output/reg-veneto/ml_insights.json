@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-09T10:27:56.059414",
+  "generated_at": "2026-07-10T10:26:00.919817",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 64,
+  "total_jobs_analyzed": 65,
   "scoring": {
-    "average": 13.9,
+    "average": 13.6,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 7,
       "low": 1,
-      "irrelevant": 53
+      "irrelevant": 54
     },
     "top_jobs": [
       {
@@ -102,44 +102,36 @@
         "url": "https://it.indeed.com/viewjob?jk=a71890c0a9d4a29d"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "Pietro Fiorentini",
-        "score": 18,
-        "site": "linkedin",
-        "date_posted": 1783036800000,
-        "url": "https://www.linkedin.com/jobs/view/4433704475"
-      },
-      {
         "title": "Quality Assurance Manager",
         "company": "SteelcoBelimed",
-        "score": 16,
+        "score": 17,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424754375"
       },
       {
-        "title": "Market Access Manager Onco-Haematology",
-        "company": "GSK",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1781740800000,
-        "url": "https://www.linkedin.com/jobs/view/4427836908"
-      },
-      {
-        "title": "QUALITY ASSURANCE SPECIALIST",
-        "company": "CHR S.r.l.",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4433887992"
-      },
-      {
         "title": "Quality Assurance Specialist",
-        "company": "SteelcoBelimed",
-        "score": 13,
+        "company": "Pietro Fiorentini",
+        "score": 17,
         "site": "linkedin",
-        "date_posted": 1782518400000,
-        "url": "https://www.linkedin.com/jobs/view/4424739480"
+        "date_posted": 1783036800000,
+        "url": "https://www.linkedin.com/jobs/view/4433704475"
+      },
+      {
+        "title": "IT Support Specialist",
+        "company": "STUDIO ASSOCIATO COMMERCIALISTI E AVVOCATI",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=86e370ae15acf6c2"
+      },
+      {
+        "title": "Product Compliance & Certification Specialist",
+        "company": "Xylem",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=a1ce2a74250caaca"
       },
       {
         "title": "Regulatory & Quality Specialist – Settore Cosmetico",
@@ -150,12 +142,20 @@
         "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
       },
       {
-        "title": "Addetto/a rifornimento scaffali sistema produttivo",
-        "company": "Giucas",
+        "title": "QUALITY ASSURANCE SPECIALIST",
+        "company": "CHR S.r.l.",
         "score": 12,
         "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4435242886"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4433887992"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "SteelcoBelimed",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1782518400000,
+        "url": "https://www.linkedin.com/jobs/view/4424739480"
       },
       {
         "title": "Quality Assurance Specialist - Packaging",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4433192743"
       },
       {
-        "title": "Quality Assurance Intern",
-        "company": "Stevanato Group",
+        "title": "Quality Assurance Specialist",
+        "company": "Cipriani",
         "score": 12,
         "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4432764536"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4435958736"
       }
     ]
   },
@@ -194,12 +194,12 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "addetto",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "addetto",
+        "word": "engineer",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -218,41 +218,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-31%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-32%)",
       "data": {
         "current": 3,
         "avg": 4.4,
-        "change_pct": -31.1
+        "change_pct": -32.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
+        "new": 3,
         "total": 3,
-        "pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "pct": 100.0
       }
     },
     {
@@ -262,14 +242,14 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 36,
+            "id": 3,
+            "size": 38,
             "top_terms": [
-              "sistema",
               "addetto",
-              "qualità"
+              "sistema",
+              "specialist"
             ],
-            "pct": 56.2
+            "pct": 58.5
           },
           {
             "id": 0,
@@ -279,20 +259,20 @@
               "assurance",
               "specialist"
             ],
-            "pct": 21.9
+            "pct": 21.5
           },
           {
             "id": 1,
-            "size": 8,
+            "size": 7,
             "top_terms": [
-              "specialist",
               "regulatory",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 12.5
+            "pct": 10.8
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 4,
             "top_terms": [
               "engineer",
@@ -302,12 +282,12 @@
             "pct": 6.2
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 2,
             "top_terms": [
-              "operatore",
-              "manager",
-              "jr"
+              "specialista",
+              "qualità",
+              "sistema"
             ],
             "pct": 3.1
           }

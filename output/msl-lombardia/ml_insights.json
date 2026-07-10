@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-09T10:27:55.942697",
+  "generated_at": "2026-07-10T10:26:00.782184",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 193,
+  "total_jobs_analyzed": 191,
   "scoring": {
-    "average": 30.4,
+    "average": 30.5,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 90,
-      "low": 19,
-      "irrelevant": 78
+      "good": 7,
+      "medium": 89,
+      "low": 18,
+      "irrelevant": 77
     },
     "top_jobs": [
       {
@@ -56,10 +56,18 @@
       {
         "title": "Junior Medical Affairs Manager",
         "company": "Sinclair Brasil",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1782259200000,
         "url": "https://www.linkedin.com/jobs/view/4432532133"
+      },
+      {
+        "title": "Procurement Manager | CMO",
+        "company": "Adecco",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1783382400000,
+        "url": "https://www.linkedin.com/jobs/view/4434515498"
       },
       {
         "title": "Medical Manager",
@@ -78,12 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4435833878"
       },
       {
-        "title": "Manager/Senior Manager – Market Access, Pricing & HEOR",
-        "company": "More Than Access (MTA)",
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
         "score": 58,
-        "site": "linkedin",
-        "date_posted": 1781740800000,
-        "url": "https://www.linkedin.com/jobs/view/4427368269"
+        "site": "indeed",
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=a53796af222ab432"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -94,38 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4431241411"
       },
       {
-        "title": "Medical Affairs Lead BH",
-        "company": "Neuraxpharm",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411500965"
-      },
-      {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1782604800000,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "Dermatologist - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4331270944"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
-      },
-      {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
         "score": 57,
@@ -134,12 +110,28 @@
         "url": "https://www.linkedin.com/jobs/view/4426942441"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
+        "title": "Scientific Relation Manager Oncology - North of Italy",
+        "company": "Kyowa Kirin International plc.",
         "score": 57,
-        "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=a53796af222ab432"
+        "site": "linkedin",
+        "date_posted": 1783468800000,
+        "url": "https://www.linkedin.com/jobs/view/4438258898"
+      },
+      {
+        "title": "Medical Affairs Lead BH",
+        "company": "Neuraxpharm",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4411500965"
+      },
+      {
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1782604800000,
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
         "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
@@ -150,12 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
-        "title": "Medical Science Liaison Rhinology and Gastroenterology",
-        "company": "Sanofi",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=6546540a26671bb2"
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
+      },
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
-      },
-      {
-        "word": "project",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "director",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "market",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "access",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "clinical",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "project",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -214,13 +214,13 @@
       "confidence": 60
     },
     {
-      "keyword": "senior manager",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "keyword": "rare",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
-      "keyword": "client dedicated",
+      "keyword": "liaison rare",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -232,25 +232,19 @@
       "confidence": 30
     },
     {
+      "keyword": "science liaison rare",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "project manager",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "rare",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "diseases",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "nephrology",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -260,21 +254,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 13 (-32%)",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 13 (-31%)",
       "data": {
         "current": 9,
-        "avg": 13.1,
-        "change_pct": -31.5
+        "avg": 13.0,
+        "change_pct": -30.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/9 annunci da aziende nuove (44.4%)",
+      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 4,
+        "new": 3,
         "total": 9,
-        "pct": 44.4
+        "pct": 33.3
       }
     },
     {
@@ -284,54 +278,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 75,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "engineer"
-            ],
-            "pct": 38.9
-          },
-          {
-            "id": 3,
-            "size": 37,
+            "id": 2,
+            "size": 79,
             "top_terms": [
               "manager",
               "project",
-              "medical"
+              "analyst"
             ],
-            "pct": 19.2
+            "pct": 41.4
           },
           {
             "id": 4,
-            "size": 35,
+            "size": 37,
             "top_terms": [
               "medical",
               "director",
-              "science"
+              "affairs"
             ],
-            "pct": 18.1
+            "pct": 19.4
           },
           {
-            "id": 2,
-            "size": 30,
+            "id": 1,
+            "size": 27,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.5
+            "pct": 14.1
           },
           {
-            "id": 1,
-            "size": 16,
+            "id": 0,
+            "size": 26,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "access"
+            ],
+            "pct": 13.6
+          },
+          {
+            "id": 3,
+            "size": 22,
             "top_terms": [
               "clinical",
-              "research",
-              "associate"
+              "associate",
+              "research"
             ],
-            "pct": 8.3
+            "pct": 11.5
           }
         ]
       }
