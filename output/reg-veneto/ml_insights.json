@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-10T10:26:00.919817",
+  "generated_at": "2026-07-11T08:44:52.960021",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 65,
+  "total_jobs_analyzed": 69,
   "scoring": {
     "average": 13.6,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 7,
+      "good": 2,
+      "medium": 9,
       "low": 1,
-      "irrelevant": 54
+      "irrelevant": 57
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434868695"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Fresenius Kabi",
-        "score": 62,
-        "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=7166cc9055150184"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -54,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Fresenius Kabi",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=7166cc9055150184"
+      },
+      {
         "title": "Regulatory affair specialist",
         "company": "IACER",
         "score": 51,
@@ -62,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4425868017"
       },
       {
-        "title": "Product Safety and Regulatory Compliance Analyst",
-        "company": "Motorola Solutions",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4436337918"
-      },
-      {
         "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
         "company": "Arethusa",
-        "score": 48,
+        "score": 50,
         "site": "linkedin",
         "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4432281842"
+      },
+      {
+        "title": "Product Safety and Regulatory Compliance Analyst",
+        "company": "Motorola Solutions",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
         "title": "Senior quality assurance GMP",
@@ -94,6 +94,14 @@
         "url": "https://www.linkedin.com/jobs/view/4425755875"
       },
       {
+        "title": "Quality Assurance Specialist",
+        "company": "Cipriani Industria Srl",
+        "score": 40,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=44eebe6163ed9282"
+      },
+      {
         "title": "MECHANICAL ENGINEER",
         "company": "De'Longhi",
         "score": 20,
@@ -110,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4424754375"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "Pietro Fiorentini",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1783036800000,
-        "url": "https://www.linkedin.com/jobs/view/4433704475"
-      },
-      {
         "title": "IT Support Specialist",
         "company": "STUDIO ASSOCIATO COMMERCIALISTI E AVVOCATI",
         "score": 16,
@@ -132,14 +132,6 @@
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=a1ce2a74250caaca"
-      },
-      {
-        "title": "Regulatory & Quality Specialist – Settore Cosmetico",
-        "company": null,
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -164,6 +156,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433192743"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Pietro Fiorentini",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1783036800000,
+        "url": "https://www.linkedin.com/jobs/view/4433704475"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -194,14 +194,14 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "addetto",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "engineer",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "qualità",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -216,23 +216,13 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-32%)",
-      "data": {
-        "current": 3,
-        "avg": 4.4,
-        "change_pct": -32.3
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/5 annunci da aziende nuove (40.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
-        "pct": 100.0
+        "new": 2,
+        "total": 5,
+        "pct": 40.0
       }
     },
     {
@@ -245,51 +235,51 @@
             "id": 3,
             "size": 38,
             "top_terms": [
-              "addetto",
-              "sistema",
-              "specialist"
+              "engineer",
+              "tecnico",
+              "mechanical"
             ],
-            "pct": 58.5
+            "pct": 55.1
           },
           {
-            "id": 0,
-            "size": 14,
+            "id": 2,
+            "size": 15,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 21.5
+            "pct": 21.7
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 10.8
+            "pct": 10.1
           },
           {
-            "id": 4,
-            "size": 4,
+            "id": 1,
+            "size": 6,
             "top_terms": [
-              "engineer",
-              "mechanical",
-              "affairs"
+              "addetto",
+              "sistema",
+              "gestione"
             ],
-            "pct": 6.2
+            "pct": 8.7
           },
           {
-            "id": 2,
-            "size": 2,
+            "id": 0,
+            "size": 3,
             "top_terms": [
-              "specialista",
-              "qualità",
-              "sistema"
+              "compliance",
+              "product",
+              "regulatory"
             ],
-            "pct": 3.1
+            "pct": 4.3
           }
         ]
       }

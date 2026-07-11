@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-10T10:26:00.817373",
+  "generated_at": "2026-07-11T08:44:52.857435",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 23,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 26.1,
+    "average": 24.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 8,
+      "medium": 7,
       "low": 2,
-      "irrelevant": 12
+      "irrelevant": 14
     },
     "top_jobs": [
       {
@@ -78,17 +78,9 @@
         "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
-        "title": "Global Regulatory Affairs Consultant",
-        "company": "JSB Solutions",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1781827200000,
-        "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
         "title": "Country Associate Submissions Representative, Italy, IQVIA Biotech",
         "company": "IQVIA",
-        "score": 33,
+        "score": 28,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=ced0e5c2a1923500"
@@ -128,7 +120,7 @@
       {
         "title": "Impiegato/a Commerciale Estero Medical Devices",
         "company": "Lavoropiù SpA",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435537803"
@@ -136,7 +128,7 @@
       {
         "title": "Material Planning and Purchasing Manager",
         "company": "LINCOTEK GROUP",
-        "score": 10,
+        "score": 11,
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4435692089"
       },
       {
+        "title": "R&D Technical Writer",
+        "company": "Dentsply Sirona",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=58ed319f7c363a8f"
+      },
+      {
+        "title": "R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=87e32013cace30ac"
+      },
+      {
         "title": "IT Support Specialist",
         "company": "Dentsply Sirona",
         "score": 6,
         "site": "indeed",
         "date_posted": 1782432000000,
         "url": "https://it.indeed.com/viewjob?jk=eae5deed81858bcb"
-      },
-      {
-        "title": "Medico per CRA Mirandola",
-        "company": "Codess Sociale Soc Coop",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4434476227"
       }
     ]
   },
@@ -208,43 +208,23 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 4 annunci ultimo scan vs media 2 (+111%)",
-      "data": {
-        "current": 4,
-        "avg": 1.9,
-        "change_pct": 110.5
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 2,
-        "total": 4,
-        "pct": 50.0
-      }
-    },
-    {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,33 +235,33 @@
         "clusters": [
           {
             "id": 0,
-            "size": 12,
+            "size": 14,
             "top_terms": [
               "plant",
               "it",
               "specialist"
             ],
-            "pct": 52.2
+            "pct": 58.3
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 1,
+            "size": 6,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 30.4
+            "pct": 25.0
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 2,
             "top_terms": [
               "specialist",
               "senior",
               "regulatory"
             ],
-            "pct": 8.7
+            "pct": 8.3
           },
           {
             "id": 3,
@@ -291,7 +271,7 @@
               "specialist",
               "senior"
             ],
-            "pct": 8.7
+            "pct": 8.3
           }
         ]
       }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-10T10:26:00.658009",
+  "generated_at": "2026-07-11T08:44:52.704438",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 22,
+  "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 32.8,
+    "average": 33.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 14,
+      "medium": 15,
       "low": 2,
       "irrelevant": 6
     },
@@ -34,7 +34,7 @@
         "company": "Alira Health",
         "score": 47,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782345600000,
         "url": "https://www.linkedin.com/jobs/view/4386508727"
       },
       {
@@ -110,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4432795996"
       },
       {
-        "title": "Informatore Scientifico del Farmaco - Treviso e Belluno",
-        "company": "Guna Spa",
+        "title": "| INFORMATORE SCIENTIFICO | 157165 |",
+        "company": "Orienta Agenzia per il Lavoro",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437555003"
+        "url": "https://www.linkedin.com/jobs/view/4435993302"
       },
       {
         "title": "ISF Gastroenterologia Verona",
@@ -124,6 +124,14 @@
         "site": "linkedin",
         "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4431276432"
+      },
+      {
+        "title": "Informatore Scientifico del Farmaco - Treviso e Belluno",
+        "company": "Guna Spa",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437555003"
       },
       {
         "title": "Regulatory affair specialist",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1782777600000,
         "url": "https://it.indeed.com/viewjob?jk=0587c390c7510e12"
-      },
-      {
-        "title": "Security Supervisor",
-        "company": "Four Seasons",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=9f1d86205532b1a3"
       }
     ]
   },
@@ -185,11 +185,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-52%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-55%)",
       "data": {
         "current": 1,
-        "avg": 2.1,
-        "change_pct": -52.4
+        "avg": 2.2,
+        "change_pct": -54.5
       }
     },
     {
@@ -203,26 +203,6 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
@@ -230,13 +210,13 @@
         "clusters": [
           {
             "id": 1,
-            "size": 8,
+            "size": 9,
             "top_terms": [
               "scientifico",
               "informatore",
               "farmaco"
             ],
-            "pct": 36.4
+            "pct": 39.1
           },
           {
             "id": 0,
@@ -246,27 +226,27 @@
               "vicenza",
               "tap"
             ],
-            "pct": 31.8
+            "pct": 30.4
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "regulatory",
               "specialist",
               "affairs"
             ],
-            "pct": 18.2
+            "pct": 17.4
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 3,
             "top_terms": [
               "isf",
               "specialist",
               "vicenza"
             ],
-            "pct": 13.6
+            "pct": 13.0
           }
         ]
       }

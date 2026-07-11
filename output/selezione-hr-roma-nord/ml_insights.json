@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-10T10:26:00.626592",
+  "generated_at": "2026-07-11T08:44:52.674160",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 191,
+  "total_jobs_analyzed": 192,
   "scoring": {
-    "average": 21.7,
+    "average": 21.4,
     "distribution": {
       "excellent": 0,
-      "good": 10,
+      "good": 11,
       "medium": 32,
       "low": 48,
       "irrelevant": 101
@@ -24,15 +24,15 @@
       {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
         "company": "Dan John",
-        "score": 71,
+        "score": 70,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782345600000,
         "url": "https://www.linkedin.com/jobs/view/4433357730"
       },
       {
         "title": "Talent Acquisition Manager",
         "company": "Pellicano Hotels",
-        "score": 70,
+        "score": 68,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436477832"
@@ -46,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4437710399"
       },
       {
-        "title": "HR Talent Acquisition & Employer Branding Intern",
-        "company": "Ayvens",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=14216df5ce56ddd5"
-      },
-      {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "MioDottore",
         "score": 66,
         "site": "linkedin",
         "date_posted": 1781913600000,
         "url": "https://www.linkedin.com/jobs/view/4411392513"
+      },
+      {
+        "title": "HR Talent Acquisition & Employer Branding Intern",
+        "company": "Ayvens",
+        "score": 66,
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=14216df5ce56ddd5"
       },
       {
         "title": "Plant HR Manager",
@@ -72,7 +72,7 @@
       {
         "title": "JUNIOR HR SPECIALIST - ROMA",
         "company": "R1 GROUP",
-        "score": 65,
+        "score": 66,
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=588de47c80b8786b"
@@ -80,7 +80,7 @@
       {
         "title": "Hr Specialist",
         "company": "agap2",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431095276"
@@ -88,10 +88,18 @@
       {
         "title": "Stage HR Generalist",
         "company": "Daimler Truck",
-        "score": 62,
+        "score": 61,
         "site": "indeed",
         "date_posted": 1783296000000,
         "url": "https://it.indeed.com/viewjob?jk=dfe0822d4af17ffe"
+      },
+      {
+        "title": "Addetto/a selezione personale",
+        "company": "Tuo",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=96b87b76bbb51782"
       },
       {
         "title": "HR Specialist - Attività professionali associate",
@@ -134,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4432849336"
       },
       {
-        "title": "Addetto alla Segreteria - Ricerca e Selezione Categorie Protette legge 68/99",
-        "company": "Grafton Recruitment",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1782777600000,
-        "url": "https://www.linkedin.com/jobs/view/4431920750"
-      },
-      {
         "title": "Addetto/a ricerca e selezione - Tecnologie per trattamento acqua",
         "company": "Tuolavoro-Lazio",
         "score": 56,
@@ -150,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4436840606"
       },
       {
-        "title": "JUNIOR HR GENERALIST",
-        "company": "BCUBE SPA",
+        "title": "Recruiter & HR Administration - Roma (RM)",
+        "company": "Openjobmetis SpA",
         "score": 55,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=60f00ee56defac62"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4424432265"
       },
       {
         "title": "HR BUSINESS PARTNER (Sost. Maternità)",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=1921eb51cf6f3a04"
       },
       {
-        "title": "Recruiter & HR Administration - Roma (RM)",
-        "company": "Openjobmetis SpA",
+        "title": "JUNIOR HR GENERALIST",
+        "company": "BCUBE SPA",
         "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4424432265"
+        "site": "indeed",
+        "date_posted": 1782172800000,
+        "url": "https://it.indeed.com/viewjob?jk=60f00ee56defac62"
       }
     ]
   },
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 35,
-        "reason": "Appare 35x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 35,
-        "reason": "Appare 35x in annunci a basso score"
-      },
-      {
-        "word": "addetto",
-        "count": 23,
-        "reason": "Appare 23x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "impiegato",
@@ -202,6 +197,11 @@
         "word": "assistant",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "dirigente",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -252,43 +252,23 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 20 annunci ultimo scan vs media 12 (+64%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 13 (-55%)",
       "data": {
-        "current": 20,
-        "avg": 12.2,
-        "change_pct": 63.7
+        "current": 6,
+        "avg": 13.3,
+        "change_pct": -54.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 11/20 annunci da aziende nuove (55.0%)",
+      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 11,
-        "total": 20,
-        "pct": 55.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 54% a 75% (+21pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 53.8,
-        "new_pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 46% a 25% (-21pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 46.2,
-        "new_pct": 25.0
+        "new": 3,
+        "total": 6,
+        "pct": 50.0
       }
     },
     {
@@ -299,51 +279,51 @@
         "clusters": [
           {
             "id": 0,
-            "size": 121,
+            "size": 88,
             "top_terms": [
-              "sales",
-              "specialist",
-              "assistant"
+              "tecnico",
+              "ufficio",
+              "addetto"
             ],
-            "pct": 63.4
+            "pct": 45.8
           },
           {
-            "id": 2,
-            "size": 39,
+            "id": 1,
+            "size": 42,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 20.4
+            "pct": 21.9
+          },
+          {
+            "id": 2,
+            "size": 40,
+            "top_terms": [
+              "hr",
+              "specialist",
+              "personale"
+            ],
+            "pct": 20.8
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 16,
             "top_terms": [
-              "personale",
-              "selezione",
-              "addetto"
+              "sales",
+              "assistant",
+              "acquisition"
             ],
-            "pct": 6.8
-          },
-          {
-            "id": 1,
-            "size": 12,
-            "top_terms": [
-              "hr",
-              "generalist",
-              "junior"
-            ],
-            "pct": 6.3
+            "pct": 8.3
           },
           {
             "id": 4,
             "size": 6,
             "top_terms": [
+              "dirigente",
               "indeterminato",
-              "tempo",
-              "dirigente"
+              "tempo"
             ],
             "pct": 3.1
           }

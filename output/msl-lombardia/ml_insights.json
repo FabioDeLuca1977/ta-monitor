@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-10T10:26:00.782184",
+  "generated_at": "2026-07-11T08:44:52.823181",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 191,
+  "total_jobs_analyzed": 193,
   "scoring": {
-    "average": 30.5,
+    "average": 30.1,
     "distribution": {
       "excellent": 0,
-      "good": 7,
+      "good": 6,
       "medium": 89,
       "low": 18,
-      "irrelevant": 77
+      "irrelevant": 80
     },
     "top_jobs": [
       {
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4432532133"
       },
       {
-        "title": "Procurement Manager | CMO",
-        "company": "Adecco",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1783382400000,
-        "url": "https://www.linkedin.com/jobs/view/4434515498"
-      },
-      {
         "title": "Medical Manager",
         "company": "Zentiva",
         "score": 59,
@@ -86,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4435833878"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=a53796af222ab432"
+        "title": "Scientific Relation Manager Oncology - North of Italy",
+        "company": "Kyowa Kirin International plc.",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1783468800000,
+        "url": "https://www.linkedin.com/jobs/view/4438258898"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -108,14 +100,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426942441"
-      },
-      {
-        "title": "Scientific Relation Manager Oncology - North of Italy",
-        "company": "Kyowa Kirin International plc.",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1783468800000,
-        "url": "https://www.linkedin.com/jobs/view/4438258898"
       },
       {
         "title": "Medical Affairs Lead BH",
@@ -142,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
+        "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
+        "company": "OLCELLI FARMACEUTICI SRL",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
+      },
+      {
         "title": "Dermatologist - Medical Director",
         "company": "Medpace",
         "score": 56,
@@ -158,12 +150,20 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
-        "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
-        "company": "OLCELLI FARMACEUTICI SRL",
+        "title": "Medical Science Liaison Rhinology and Gastroenterology",
+        "company": "Sanofi",
         "score": 55,
         "site": "indeed",
         "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
+        "url": "https://it.indeed.com/viewjob?jk=6546540a26671bb2"
+      },
+      {
+        "title": "Procurement Manager | CMO",
+        "company": "Adecco",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1783382400000,
+        "url": "https://www.linkedin.com/jobs/view/4434515498"
       },
       {
         "title": "Medical Science Liasion - MSL",
@@ -184,22 +184,22 @@
         "reason": "Appare 16x in annunci a basso score"
       },
       {
-        "word": "market",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "access",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "clinical",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
         "word": "project",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "director",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "market",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -238,12 +238,6 @@
       "confidence": 30
     },
     {
-      "keyword": "project manager",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "diseases",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -254,21 +248,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 13 (-31%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-47%)",
       "data": {
-        "current": 9,
-        "avg": 13.0,
-        "change_pct": -30.8
+        "current": 7,
+        "avg": 13.3,
+        "change_pct": -47.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
       "data": {
-        "new": 3,
-        "total": 9,
-        "pct": 33.3
+        "new": 5,
+        "total": 7,
+        "pct": 71.4
       }
     },
     {
@@ -279,53 +273,53 @@
         "clusters": [
           {
             "id": 2,
-            "size": 79,
+            "size": 70,
             "top_terms": [
-              "manager",
-              "project",
-              "analyst"
+              "specialist",
+              "analyst",
+              "access"
             ],
-            "pct": 41.4
+            "pct": 36.3
           },
           {
             "id": 4,
-            "size": 37,
+            "size": 41,
+            "top_terms": [
+              "manager",
+              "project",
+              "medical"
+            ],
+            "pct": 21.2
+          },
+          {
+            "id": 3,
+            "size": 35,
             "top_terms": [
               "medical",
               "director",
-              "affairs"
+              "science"
             ],
-            "pct": 19.4
+            "pct": 18.1
           },
           {
-            "id": 1,
-            "size": 27,
+            "id": 0,
+            "size": 29,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.1
+            "pct": 15.0
           },
           {
-            "id": 0,
-            "size": 26,
+            "id": 1,
+            "size": 18,
             "top_terms": [
-              "specialist",
-              "clinical",
-              "access"
-            ],
-            "pct": 13.6
-          },
-          {
-            "id": 3,
-            "size": 22,
-            "top_terms": [
-              "clinical",
               "associate",
-              "research"
+              "research",
+              "clinical"
             ],
-            "pct": 11.5
+            "pct": 9.3
           }
         ]
       }
