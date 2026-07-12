@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-11T08:44:52.704438",
+  "generated_at": "2026-07-12T09:07:47.865890",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 33.1,
+    "average": 32.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -82,7 +82,7 @@
         "company": "PharmaNutra",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782432000000,
         "url": "https://www.linkedin.com/jobs/view/4423382156"
       },
       {
@@ -152,7 +152,7 @@
       {
         "title": "Territory Manager",
         "company": "Ferring Pharmaceuticals, Inc.",
-        "score": 17,
+        "score": 12,
         "site": "indeed",
         "date_posted": 1783468800000,
         "url": "https://it.indeed.com/viewjob?jk=416eb85c3abdee15"
@@ -209,7 +209,7 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 0,
             "size": 9,
             "top_terms": [
               "scientifico",
@@ -219,7 +219,7 @@
             "pct": 39.1
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 7,
             "top_terms": [
               "clinical",
@@ -229,7 +229,7 @@
             "pct": 30.4
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "regulatory",
@@ -239,7 +239,7 @@
             "pct": 17.4
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 3,
             "top_terms": [
               "isf",

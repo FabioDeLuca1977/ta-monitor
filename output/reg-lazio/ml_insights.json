@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-11T08:44:53.255116",
+  "generated_at": "2026-07-12T09:07:48.430157",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 99,
+  "total_jobs_analyzed": 100,
   "scoring": {
-    "average": 8.9,
+    "average": 8.7,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 3,
       "low": 3,
-      "irrelevant": 91
+      "irrelevant": 92
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 67,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4432400235"
@@ -78,20 +78,20 @@
         "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
       },
       {
-        "title": "Quality Assurance Compliance Specialist",
-        "company": "Tubilux Pharma",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1782259200000,
-        "url": "https://www.linkedin.com/jobs/view/4431478577"
-      },
-      {
         "title": "Manager, Global Accounting",
         "company": "ShopFully",
         "score": 17,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=ec75f498a41ef87e"
+      },
+      {
+        "title": "Quality Assurance Compliance Specialist",
+        "company": "Tubilux Pharma",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1782259200000,
+        "url": "https://www.linkedin.com/jobs/view/4431478577"
       },
       {
         "title": "Quality Assurance Manager",
@@ -102,36 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4433164759"
       },
       {
-        "title": "Sr Associate, QA Compliance & System",
-        "company": "Alfasigma group",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=51fc9cf1d31eada6"
-      },
-      {
         "title": "Senior Quality Assurance Manager",
         "company": "Istituto Poligrafico e Zecca dello Stato (IPZS)",
         "score": 15,
         "site": "linkedin",
         "date_posted": 1782864000000,
         "url": "https://www.linkedin.com/jobs/view/4432392408"
-      },
-      {
-        "title": "Clinical Research Associate 2",
-        "company": "Novo Nordisk, Inc.",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=a45cee55ab637b34"
-      },
-      {
-        "title": "Manager Up – Compliance",
-        "company": "Deloitte",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1782864000000,
-        "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
       },
       {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
@@ -142,12 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4436313312"
       },
       {
-        "title": "Clinical Research Associate II - Multiple Locations",
-        "company": "Novo Nordisk, Inc.",
+        "title": "Sr Associate, QA Compliance & System",
+        "company": "Alfasigma group",
         "score": 14,
         "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=a45cee55ab637b34"
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=51fc9cf1d31eada6"
+      },
+      {
+        "title": "Manager Up – Compliance",
+        "company": "Deloitte",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1782864000000,
+        "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
       },
       {
         "title": "Security Manager - Governance, Risk and Compliance",
@@ -166,12 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=cca8c1a376c17406"
       },
       {
-        "title": "New Business Introduction Lead",
-        "company": "Thermo Fisher Scientific",
+        "title": "Legal Manager",
+        "company": "Fendi",
         "score": 12,
         "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=75e91b718dcafc5f"
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=bf5885916fff4c8c"
+      },
+      {
+        "title": "Market Operations and Demand Specialist",
+        "company": "AbbVie",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1782691200000,
+        "url": "https://it.indeed.com/viewjob?jk=cc5a4bae2ae50b09"
+      },
+      {
+        "title": "External Manufacturers Quality Assurance Lead",
+        "company": "Kenvue",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1783296000000,
+        "url": "https://it.indeed.com/viewjob?jk=770b1faa401eafe4"
       }
     ]
   },
@@ -210,42 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-45%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 7 (-71%)",
       "data": {
-        "current": 4,
-        "avg": 7.3,
-        "change_pct": -45.3
+        "current": 2,
+        "avg": 7.0,
+        "change_pct": -71.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
+      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 2,
             "size": 63,
             "top_terms": [
               "engineer",
-              "associate",
-              "italy"
+              "specialista",
+              "associate"
             ],
-            "pct": 63.6
+            "pct": 63.0
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 15,
             "top_terms": [
               "specialist",
               "quality",
               "technology"
             ],
-            "pct": 15.2
+            "pct": 15.0
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 10,
             "top_terms": [
               "manager",
               "program",
               "compliance"
             ],
-            "pct": 10.1
+            "pct": 10.0
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 9,
             "top_terms": [
               "assurance",
               "quality",
               "senior"
             ],
-            "pct": 9.1
+            "pct": 9.0
           },
           {
-            "id": 3,
-            "size": 2,
+            "id": 4,
+            "size": 3,
             "top_terms": [
-              "specialista",
-              "ii",
+              "speaker",
+              "italian",
               "engineer"
             ],
-            "pct": 2.0
+            "pct": 3.0
           }
         ]
       }
