@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-12T09:07:48.069234",
+  "generated_at": "2026-07-13T10:17:31.228062",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 39,
+  "total_jobs_analyzed": 40,
   "scoring": {
     "average": 32.8,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 19,
-      "low": 3,
+      "low": 4,
       "irrelevant": 14
     },
     "top_jobs": [
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4437754949"
       },
       {
-        "title": "Therapeutic Area Specialist Oncology - (Area Lombardia)",
-        "company": "Merck Healthcare",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1783555200000,
-        "url": "https://www.linkedin.com/jobs/view/4438807185"
-      },
-      {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
         "company": "Johnson & Johnson MedTech",
         "score": 51,
@@ -94,28 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4434886707"
       },
       {
-        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
-        "company": "QuiCare",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4432944833"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4432400235"
       },
       {
-        "title": "Director, Medical Affairs",
-        "company": "PTC Therapeutics",
-        "score": 47,
-        "site": "indeed",
+        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
+        "company": "QuiCare",
+        "score": 48,
+        "site": "linkedin",
         "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=128bdb08727bff1b"
+        "url": "https://www.linkedin.com/jobs/view/4432944833"
       },
       {
         "title": "Clinical Research Associate 2",
@@ -126,12 +110,36 @@
         "url": "https://www.linkedin.com/jobs/view/4434886707"
       },
       {
+        "title": "Therapeutic Area Specialist Oncology - (Area Lombardia)",
+        "company": "Merck Healthcare",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1783555200000,
+        "url": "https://www.linkedin.com/jobs/view/4438807185"
+      },
+      {
+        "title": "Director, Medical Affairs",
+        "company": "PTC Therapeutics",
+        "score": 46,
+        "site": "indeed",
+        "date_posted": 1782432000000,
+        "url": "https://it.indeed.com/viewjob?jk=128bdb08727bff1b"
+      },
+      {
         "title": "Senior Clinical Research Associate",
         "company": "ICON plc",
         "score": 46,
         "site": "indeed",
         "date_posted": 1783036800000,
         "url": "https://it.indeed.com/viewjob?jk=c296d6bd2b60d655"
+      },
+      {
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426407509"
       },
       {
         "title": "Clinical Research Physician - Oncology",
@@ -150,28 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
+        "title": "Therapeutic Area Specialist Oncology",
+        "company": "Merck Healthcare",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4438806248"
+      },
+      {
         "title": "MSL Rare Disease",
         "company": "Chaberton Professionals",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435820933"
-      },
-      {
-        "title": "Therapeutic Area Specialist Oncology",
-        "company": "Merck Healthcare",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4438806248"
-      },
-      {
-        "title": "Field Clinical Specialist, Cardiac Rhythm Management (based in Rome)",
-        "company": "Boston Scientific",
-        "score": 41,
-        "site": "indeed",
-        "date_posted": 1782086400000,
-        "url": "https://it.indeed.com/viewjob?jk=360b787e538e7f3c"
       }
     ]
   },
@@ -179,12 +179,12 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "manager",
+        "word": "specialist",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "specialist",
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -239,11 +239,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-67%)",
       "data": {
         "current": 1,
-        "avg": 3.2,
-        "change_pct": -68.4
+        "avg": 3.0,
+        "change_pct": -66.7
       }
     },
     {
@@ -263,54 +263,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 10,
+            "id": 0,
+            "size": 15,
             "top_terms": [
-              "clinical",
               "specialist",
-              "research"
+              "lead",
+              "quality"
             ],
-            "pct": 25.6
-          },
-          {
-            "id": 4,
-            "size": 9,
-            "top_terms": [
-              "medical",
-              "liaison",
-              "advisor"
-            ],
-            "pct": 23.1
+            "pct": 37.5
           },
           {
             "id": 3,
-            "size": 8,
+            "size": 11,
+            "top_terms": [
+              "medical",
+              "director",
+              "liaison"
+            ],
+            "pct": 27.5
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "research",
+              "clinical",
+              "oncology"
+            ],
+            "pct": 15.0
+          },
+          {
+            "id": 4,
+            "size": 6,
             "top_terms": [
               "manager",
               "italy",
               "affairs"
             ],
-            "pct": 20.5
+            "pct": 15.0
           },
           {
-            "id": 0,
-            "size": 7,
+            "id": 1,
+            "size": 2,
             "top_terms": [
-              "lead",
-              "ii",
-              "msl"
+              "italy",
+              "cra",
+              "associate"
             ],
-            "pct": 17.9
-          },
-          {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "regulatory",
-              "analyst",
-              "affairs"
-            ],
-            "pct": 12.8
+            "pct": 5.0
           }
         ]
       }

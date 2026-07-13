@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-12T09:07:48.430157",
+  "generated_at": "2026-07-13T10:17:31.591351",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 100,
+  "total_jobs_analyzed": 95,
   "scoring": {
-    "average": 8.7,
+    "average": 9.0,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 3,
-      "low": 3,
-      "irrelevant": 92
+      "low": 2,
+      "irrelevant": 88
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 64,
+        "score": 67,
         "site": "linkedin",
         "date_posted": 1782172800000,
         "url": "https://www.linkedin.com/jobs/view/4432400235"
@@ -48,7 +48,7 @@
       {
         "title": "Quality Assurance Consultant - Sterile Pharmaceutical Manufacturing",
         "company": "PQE Group",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431908514"
@@ -72,7 +72,7 @@
       {
         "title": "Clinical Trial Manager - maternity cover",
         "company": "Nouscon Srl",
-        "score": 24,
+        "score": 19,
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
@@ -102,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4433164759"
       },
       {
-        "title": "Senior Quality Assurance Manager",
-        "company": "Istituto Poligrafico e Zecca dello Stato (IPZS)",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1782864000000,
-        "url": "https://www.linkedin.com/jobs/view/4432392408"
-      },
-      {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
         "company": "Johnson & Johnson MedTech",
         "score": 14,
@@ -118,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4436313312"
       },
       {
-        "title": "Sr Associate, QA Compliance & System",
-        "company": "Alfasigma group",
+        "title": "Senior Quality Assurance Manager",
+        "company": "Istituto Poligrafico e Zecca dello Stato (IPZS)",
         "score": 14,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=51fc9cf1d31eada6"
+        "site": "linkedin",
+        "date_posted": 1782864000000,
+        "url": "https://www.linkedin.com/jobs/view/4432392408"
       },
       {
         "title": "Manager Up – Compliance",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1783296000000,
         "url": "https://it.indeed.com/viewjob?jk=770b1faa401eafe4"
+      },
+      {
+        "title": "Country Associate Submissions Representative, Italy, IQVIA Biotech",
+        "company": "IQVIA",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=59873db45dd4a1f8"
       }
     ]
   },
@@ -180,21 +180,21 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "assurance",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "assurance",
+        "word": "engineer",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
@@ -211,40 +211,40 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 7 (-71%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
       "data": {
-        "current": 2,
-        "avg": 7.0,
-        "change_pct": -71.4
+        "current": 1,
+        "avg": 6.7,
+        "change_pct": -85.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 75.0,
+        "channel": "linkedin",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
+        "channel": "indeed",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 63,
+            "id": 0,
+            "size": 53,
             "top_terms": [
-              "engineer",
+              "associate",
               "specialista",
-              "associate"
+              "assurance"
             ],
-            "pct": 63.0
+            "pct": 55.8
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 15,
             "top_terms": [
               "specialist",
               "quality",
               "technology"
             ],
-            "pct": 15.0
+            "pct": 15.8
           },
           {
-            "id": 1,
-            "size": 10,
+            "id": 3,
+            "size": 13,
             "top_terms": [
               "manager",
               "program",
               "compliance"
             ],
-            "pct": 10.0
+            "pct": 13.7
           },
           {
-            "id": 3,
-            "size": 9,
+            "id": 1,
+            "size": 10,
             "top_terms": [
-              "assurance",
-              "quality",
-              "senior"
+              "engineer",
+              "senior",
+              "project"
             ],
-            "pct": 9.0
+            "pct": 10.5
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 4,
             "top_terms": [
-              "speaker",
-              "italian",
-              "engineer"
+              "scientist",
+              "deployment",
+              "care"
             ],
-            "pct": 3.0
+            "pct": 4.2
           }
         ]
       }

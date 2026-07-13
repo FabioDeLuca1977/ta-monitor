@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-12T09:07:48.292969",
+  "generated_at": "2026-07-13T10:17:31.450783",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 286,
+  "total_jobs_analyzed": 281,
   "scoring": {
-    "average": 15.2,
+    "average": 15.3,
     "distribution": {
       "excellent": 0,
-      "good": 20,
-      "medium": 27,
-      "low": 11,
-      "irrelevant": 228
+      "good": 19,
+      "medium": 29,
+      "low": 10,
+      "irrelevant": 223
     },
     "top_jobs": [
       {
@@ -94,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4435988692"
       },
       {
-        "title": "Regulatory Affairs Manager - Plant Protection Products",
-        "company": "ADAMA Ltd.",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4362746384"
-      },
-      {
         "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
         "company": "OLCELLI FARMACEUTICI SRL",
         "score": 62,
@@ -124,6 +116,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4343985374"
+      },
+      {
+        "title": "Regulatory Affairs Manager - Plant Protection Products",
+        "company": "ADAMA Ltd.",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1782432000000,
+        "url": "https://www.linkedin.com/jobs/view/4362746384"
       },
       {
         "title": "Antitrust and Regulatory Compliance Counsel",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4432248188"
       },
       {
-        "title": "Compliance & Regulatory Affairs Manager",
-        "company": "Reevo Spa",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1783209600000,
-        "url": "https://it.indeed.com/viewjob?jk=a004e425e3b58c16"
-      },
-      {
         "title": "Regulatory Affairs Specialist | Farmaceutica",
         "company": "desmo®",
         "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4437051381"
+      },
+      {
+        "title": "Country Regulatory Manager (M/W)",
+        "company": "SBM Life Science",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1782432000000,
+        "url": "https://www.linkedin.com/jobs/view/4433269848"
       }
     ]
   },
@@ -180,13 +180,8 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
-      },
-      {
-        "word": "associate",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "analyst",
@@ -203,16 +198,16 @@
   },
   "keyword_recommendations": [
     {
+      "keyword": "senior",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
+    },
+    {
       "keyword": "international regulatory",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
-    },
-    {
-      "keyword": "senior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
     },
     {
       "keyword": "senior regulatory",
@@ -227,13 +222,13 @@
       "confidence": 30
     },
     {
-      "keyword": "gomma plastica",
+      "keyword": "affairs junior",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "affairs junior",
+      "keyword": "gomma plastica",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -261,41 +256,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 20 (-75%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 20 (-90%)",
       "data": {
-        "current": 5,
-        "avg": 20.1,
-        "change_pct": -75.1
+        "current": 2,
+        "avg": 19.9,
+        "change_pct": -90.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 56% a 40% (-16pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 56.2,
-        "new_pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 44% a 60% (+16pp)",
+      "message": "📡 linkedin: quota passata da 60% a 100% (+40pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 43.8,
-        "new_pct": 60.0
+        "old_pct": 60.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 40% a 0% (-40pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 40.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -305,54 +300,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 151,
+            "id": 2,
+            "size": 153,
             "top_terms": [
               "engineer",
               "senior",
               "analyst"
             ],
-            "pct": 52.8
+            "pct": 54.4
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 39,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 13.6
+            "pct": 13.9
           },
           {
             "id": 1,
-            "size": 34,
+            "size": 33,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 11.7
+          },
+          {
+            "id": 4,
+            "size": 33,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 11.9
+            "pct": 11.7
           },
           {
-            "id": 2,
-            "size": 34,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 11.9
-          },
-          {
-            "id": 0,
-            "size": 28,
+            "id": 3,
+            "size": 23,
             "top_terms": [
               "specialist",
               "compliance",
-              "quality"
+              "marketing"
             ],
-            "pct": 9.8
+            "pct": 8.2
           }
         ]
       }

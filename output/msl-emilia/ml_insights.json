@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-12T09:07:48.027048",
+  "generated_at": "2026-07-13T10:17:31.183449",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 27,
   "scoring": {
-    "average": 23.4,
+    "average": 22.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4429469367"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
-        "company": "SILC Fertilizzanti Srl",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1783209600000,
-        "url": "https://www.linkedin.com/jobs/view/4436984747"
-      },
-      {
         "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
         "company": "SILC Fertilizzanti Srl",
         "score": 51,
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1782432000000,
         "url": "https://www.linkedin.com/jobs/view/4433811762"
+      },
+      {
+        "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
+        "company": "SILC Fertilizzanti Srl",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1783209600000,
+        "url": "https://www.linkedin.com/jobs/view/4436984747"
       },
       {
         "title": "Regulatory Affairs Specialist - Energy",
@@ -134,14 +134,6 @@
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
       },
       {
-        "title": "Production Supervisor, Aligner",
-        "company": "Dentsply Sirona",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=78a02f2461c1fb5d"
-      },
-      {
         "title": "Temporary manager",
         "company": "Percinque Srl",
         "score": 10,
@@ -166,12 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=87e32013cace30ac"
       },
       {
-        "title": "Production Supervisor, Aligner",
-        "company": null,
-        "score": 10,
+        "title": "Environmental Specialist",
+        "company": "Gerresheimer",
+        "score": 9,
         "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=78a02f2461c1fb5d"
+        "date_posted": 1783468800000,
+        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+      },
+      {
+        "title": "IT Support Specialist",
+        "company": "Dentsply Sirona",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1782432000000,
+        "url": "https://it.indeed.com/viewjob?jk=eae5deed81858bcb"
       }
     ]
   },
@@ -191,32 +191,7 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "specialist fertilizzanti",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "fertilizzanti agrochimici",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs specialist fertilizzanti",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "specialist fertilizzanti agrochimici",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "new_jobs_ratio",
@@ -231,21 +206,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -255,27 +230,37 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 14,
+            "id": 0,
+            "size": 10,
             "top_terms": [
-              "specialist",
-              "medical",
-              "plant"
+              "associate",
+              "devices",
+              "compliance"
             ],
-            "pct": 51.9
+            "pct": 37.0
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 7,
             "top_terms": [
-              "regulatory",
               "affairs",
+              "regulatory",
               "specialist"
             ],
-            "pct": 22.2
+            "pct": 25.9
           },
           {
             "id": 2,
+            "size": 5,
+            "top_terms": [
+              "specialist",
+              "it",
+              "senior"
+            ],
+            "pct": 18.5
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "aligner",
@@ -283,16 +268,6 @@
               "supervisor"
             ],
             "pct": 11.1
-          },
-          {
-            "id": 0,
-            "size": 2,
-            "top_terms": [
-              "it",
-              "specialist",
-              "global"
-            ],
-            "pct": 7.4
           },
           {
             "id": 4,

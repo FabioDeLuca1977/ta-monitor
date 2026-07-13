@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T09:07:48.345979",
+  "generated_at": "2026-07-13T10:17:31.509217",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 56,
@@ -114,7 +114,7 @@
         "company": "Alfasigma",
         "score": 12,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782518400000,
         "url": "https://www.linkedin.com/jobs/view/4430684516"
       },
       {
@@ -242,21 +242,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-75%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
       "data": {
         "current": 1,
-        "avg": 3.9,
-        "change_pct": -74.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 0.0
+        "avg": 4.2,
+        "change_pct": -76.4
       }
     },
     {
@@ -267,6 +257,16 @@
         "channel": "linkedin",
         "old_pct": 20.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 0.0
       }
     },
     {
