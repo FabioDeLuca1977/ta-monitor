@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-07-13T10:17:31.286479",
+  "generated_at": "2026-07-14T08:58:12.847750",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 70,
+  "total_jobs_analyzed": 68,
   "scoring": {
-    "average": 13.4,
+    "average": 12.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 9,
-      "low": 1,
-      "irrelevant": 58
+      "medium": 8,
+      "low": 2,
+      "irrelevant": 56
     },
     "top_jobs": [
-      {
-        "title": "Legal Specialist I Corporate Governance & Regulatory Affairs",
-        "company": "REVO Insurance",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4434868695"
-      },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi Italia",
@@ -28,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434531248"
+      },
+      {
+        "title": "Legal Specialist I Corporate Governance & Regulatory Affairs",
+        "company": "REVO Insurance",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4434868695"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -64,7 +64,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 51,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -88,7 +88,7 @@
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 45,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -96,7 +96,7 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "Cipriani Industria Srl",
-        "score": 40,
+        "score": 35,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=44eebe6163ed9282"
@@ -116,14 +116,6 @@
         "site": "linkedin",
         "date_posted": 1782518400000,
         "url": "https://www.linkedin.com/jobs/view/4424754375"
-      },
-      {
-        "title": "Product Quality Assurance Engineer",
-        "company": "QASCOM",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1783641600000,
-        "url": "https://www.linkedin.com/jobs/view/4438324468"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -166,12 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=86e370ae15acf6c2"
       },
       {
-        "title": "Quality Assurance Specialist (Product Distribution) - Fixed Term Contract",
-        "company": "GSK",
-        "score": 10,
+        "title": "Product Quality Assurance Engineer",
+        "company": "QASCOM",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1783641600000,
+        "url": "https://www.linkedin.com/jobs/view/4438324468"
+      },
+      {
+        "title": "Junior Consultant Governance, Risk & Compliance - Financial Services",
+        "company": "KPMG",
+        "score": 11,
         "site": "indeed",
-        "date_posted": 1782345600000,
-        "url": "https://it.indeed.com/viewjob?jk=7483c7f79ebcb5d5"
+        "date_posted": 1783900800000,
+        "url": "https://it.indeed.com/viewjob?jk=3907ca4bd2041871"
       }
     ]
   },
@@ -190,8 +190,8 @@
       },
       {
         "word": "sistema",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -218,41 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-80%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
       "data": {
         "current": 1,
-        "avg": 4.9,
-        "change_pct": -79.7
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "avg": 4.8,
+        "change_pct": -79.1
       }
     },
     {
@@ -262,54 +232,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 41,
+            "id": 3,
+            "size": 40,
             "top_terms": [
               "sistema",
               "addetto",
-              "specialist"
+              "analyst"
             ],
-            "pct": 58.6
+            "pct": 58.8
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 13,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 18.6
+            "pct": 19.1
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 10.0
+            "pct": 10.3
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 6,
             "top_terms": [
               "engineer",
               "mechanical",
               "product"
             ],
-            "pct": 8.6
+            "pct": 8.8
           },
           {
-            "id": 4,
-            "size": 3,
+            "id": 0,
+            "size": 2,
             "top_terms": [
-              "internship",
-              "verona",
-              "vicenza"
+              "it",
+              "support",
+              "specialist"
             ],
-            "pct": 4.3
+            "pct": 2.9
           }
         ]
       }

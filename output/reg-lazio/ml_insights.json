@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-13T10:17:31.591351",
+  "generated_at": "2026-07-14T08:58:13.141153",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 95,
+  "total_jobs_analyzed": 96,
   "scoring": {
-    "average": 9.0,
+    "average": 8.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 3,
-      "low": 2,
+      "low": 3,
       "irrelevant": 88
     },
     "top_jobs": [
@@ -54,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4431908514"
       },
       {
+        "title": "cerca una tata part-time en Terni",
+        "company": "toptata",
+        "score": 27,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=d9df86cb971cecf4"
+      },
+      {
         "title": "Artwork and Packaging Specialist",
         "company": "Actial Farmaceutica Srl",
         "score": 25,
@@ -64,7 +72,7 @@
       {
         "title": "Experienced - Financial Crime",
         "company": "Deloitte",
-        "score": 24,
+        "score": 23,
         "site": "indeed",
         "date_posted": 1783036800000,
         "url": "https://it.indeed.com/viewjob?jk=05654cff050bbf66"
@@ -72,18 +80,18 @@
       {
         "title": "Clinical Trial Manager - maternity cover",
         "company": "Nouscon Srl",
-        "score": 19,
+        "score": 17,
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
       },
       {
-        "title": "Manager, Global Accounting",
-        "company": "ShopFully",
+        "title": "Clinical Trial Manager - maternity cover",
+        "company": "Nouscom Srl",
         "score": 17,
         "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=ec75f498a41ef87e"
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
       },
       {
         "title": "Quality Assurance Compliance Specialist",
@@ -126,28 +134,20 @@
         "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
       },
       {
-        "title": "Security Manager - Governance, Risk and Compliance",
-        "company": "BIP",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1783296000000,
-        "url": "https://it.indeed.com/viewjob?jk=2a5d3179842def4d"
-      },
-      {
-        "title": "Compliance, Quality & Regulatory Engineer",
-        "company": "Capgemini",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=cca8c1a376c17406"
-      },
-      {
         "title": "Legal Manager",
         "company": "Fendi",
         "score": 12,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=bf5885916fff4c8c"
+      },
+      {
+        "title": "Manager, Global Accounting",
+        "company": "ShopFully",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=ec75f498a41ef87e"
       },
       {
         "title": "Market Operations and Demand Specialist",
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=cc5a4bae2ae50b09"
       },
       {
-        "title": "External Manufacturers Quality Assurance Lead",
-        "company": "Kenvue",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1783296000000,
-        "url": "https://it.indeed.com/viewjob?jk=770b1faa401eafe4"
-      },
-      {
         "title": "Country Associate Submissions Representative, Italy, IQVIA Biotech",
         "company": "IQVIA",
         "score": 11,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=59873db45dd4a1f8"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=4973deaa2db0c609"
       }
     ]
   },
@@ -195,8 +195,8 @@
       },
       {
         "word": "engineer",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "compliance",
@@ -209,31 +209,21 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
-      "data": {
-        "current": 1,
-        "avg": 6.7,
-        "change_pct": -85.1
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 3,
+        "total": 6,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 0.0,
         "new_pct": 100.0
       }
@@ -241,9 +231,9 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 100.0,
         "new_pct": 0.0
       }
@@ -258,51 +248,51 @@
             "id": 0,
             "size": 53,
             "top_terms": [
-              "associate",
               "specialista",
-              "assurance"
+              "associate",
+              "analyst"
             ],
-            "pct": 55.8
+            "pct": 55.2
           },
           {
-            "id": 2,
-            "size": 15,
+            "id": 4,
+            "size": 13,
             "top_terms": [
               "specialist",
               "quality",
-              "technology"
+              "rome"
             ],
-            "pct": 15.8
+            "pct": 13.5
           },
           {
-            "id": 3,
-            "size": 13,
+            "id": 2,
+            "size": 11,
             "top_terms": [
               "manager",
               "program",
               "compliance"
             ],
-            "pct": 13.7
+            "pct": 11.5
+          },
+          {
+            "id": 3,
+            "size": 11,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "consultant"
+            ],
+            "pct": 11.5
           },
           {
             "id": 1,
-            "size": 10,
+            "size": 8,
             "top_terms": [
               "engineer",
-              "senior",
-              "project"
+              "project",
+              "speaker"
             ],
-            "pct": 10.5
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "scientist",
-              "deployment",
-              "care"
-            ],
-            "pct": 4.2
+            "pct": 8.3
           }
         ]
       }

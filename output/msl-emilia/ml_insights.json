@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-13T10:17:31.183449",
+  "generated_at": "2026-07-14T08:58:12.748479",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 22.7,
+    "average": 21.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 8,
-      "low": 2,
+      "low": 3,
       "irrelevant": 16
     },
     "top_jobs": [
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4429469367"
       },
       {
-        "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
-        "company": "SILC Fertilizzanti Srl",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1783296000000,
-        "url": "https://www.linkedin.com/jobs/view/4437165106"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Cosmetics Industry",
         "company": "Cosmoderma",
         "score": 46,
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1783209600000,
         "url": "https://www.linkedin.com/jobs/view/4436984747"
+      },
+      {
+        "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
+        "company": "SILC Fertilizzanti Srl",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1783296000000,
+        "url": "https://www.linkedin.com/jobs/view/4437165106"
       },
       {
         "title": "Regulatory Affairs Specialist - Energy",
@@ -94,6 +94,14 @@
         "url": "https://it.indeed.com/viewjob?jk=ced0e5c2a1923500"
       },
       {
+        "title": "Project Manager - Medical Device",
+        "company": "Jefferson Wells Italia",
+        "score": 24,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4439793891"
+      },
+      {
         "title": "Site Regulatory Compliance Associate",
         "company": "Menarini",
         "score": 23,
@@ -104,23 +112,15 @@
       {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
-        "title": "HSE Plant Specialist",
-        "company": "Gerresheimer",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
-      },
-      {
         "title": "Impiegato/a Commerciale Estero Medical Devices",
         "company": "Lavoropiù SpA",
-        "score": 13,
+        "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435537803"
@@ -128,34 +128,10 @@
       {
         "title": "Material Planning and Purchasing Manager",
         "company": "LINCOTEK GROUP",
-        "score": 11,
+        "score": 10,
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
-      },
-      {
-        "title": "Temporary manager",
-        "company": "Percinque Srl",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435692089"
-      },
-      {
-        "title": "R&D Technical Writer",
-        "company": "Dentsply Sirona",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=58ed319f7c363a8f"
-      },
-      {
-        "title": "R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=87e32013cace30ac"
       },
       {
         "title": "Environmental Specialist",
@@ -164,6 +140,30 @@
         "site": "indeed",
         "date_posted": 1783468800000,
         "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+      },
+      {
+        "title": "HSE Plant Specialist",
+        "company": "Gerresheimer",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+      },
+      {
+        "title": "Temporary manager",
+        "company": "Percinque Srl",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4435692089"
+      },
+      {
+        "title": "Medico per CRA Mirandola",
+        "company": "Codess Sociale Soc Coop",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4434476227"
       },
       {
         "title": "IT Support Specialist",
@@ -194,33 +194,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-63%)",
+      "data": {
+        "current": 1,
+        "avg": 2.7,
+        "change_pct": -63.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 3,
-        "pct": 33.3
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -230,54 +240,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 10,
+            "id": 1,
+            "size": 13,
             "top_terms": [
-              "associate",
-              "devices",
-              "compliance"
+              "specialist",
+              "plant",
+              "associate"
             ],
-            "pct": 37.0
+            "pct": 46.4
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 7,
             "top_terms": [
               "affairs",
               "regulatory",
               "specialist"
             ],
-            "pct": 25.9
+            "pct": 25.0
           },
           {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "it",
-              "senior"
-            ],
-            "pct": 18.5
-          },
-          {
-            "id": 3,
+            "id": 0,
             "size": 3,
             "top_terms": [
               "aligner",
               "production",
               "supervisor"
             ],
-            "pct": 11.1
+            "pct": 10.7
           },
           {
             "id": 4,
-            "size": 2,
+            "size": 3,
             "top_terms": [
               "manager",
-              "supervisor",
+              "medical",
+              "supervisor"
+            ],
+            "pct": 10.7
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "it",
+              "specialist",
               "global"
             ],
-            "pct": 7.4
+            "pct": 7.1
           }
         ]
       }
