@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-07-14T08:58:13.009903",
+  "generated_at": "2026-07-15T09:06:29.870146",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 283,
+  "total_jobs_analyzed": 287,
   "scoring": {
-    "average": 15.0,
+    "average": 15.3,
     "distribution": {
       "excellent": 0,
-      "good": 17,
-      "medium": 30,
+      "good": 18,
+      "medium": 29,
       "low": 10,
-      "irrelevant": 226
+      "irrelevant": 230
     },
     "top_jobs": [
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Recordati",
+        "score": 73,
+        "site": "linkedin",
+        "date_posted": 1783900800000,
+        "url": "https://www.linkedin.com/jobs/view/4411744140"
+      },
       {
         "title": "Regulatory Affairs CMC Specialist",
         "company": "Recordati",
@@ -28,6 +36,14 @@
         "site": "linkedin",
         "date_posted": 1783296000000,
         "url": "https://www.linkedin.com/jobs/view/4429842624"
+      },
+      {
+        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
+        "company": "Hays",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -62,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4428972149"
       },
       {
-        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
-        "company": "Hays",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4431936631"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
         "score": 63,
         "site": "linkedin",
         "date_posted": 1782864000000,
         "url": "https://www.linkedin.com/jobs/view/4436126025"
+      },
+      {
+        "title": "Regulatory Affairs Specialist | Farmaceutica",
+        "company": "desmo®",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437051381"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST – MATERIE PRIME COSMETICHE",
@@ -94,6 +110,14 @@
         "url": "https://www.linkedin.com/jobs/view/4437271731"
       },
       {
+        "title": "Regulatory Affairs Manager - Plant Protection Products",
+        "company": "ADAMA Ltd.",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1782432000000,
+        "url": "https://www.linkedin.com/jobs/view/4362746384"
+      },
+      {
         "title": "International Regulatory Affairs Project Manager",
         "company": "Recordati",
         "score": 62,
@@ -110,20 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
-        "title": "Regulatory Affairs Manager - Plant Protection Products",
-        "company": "ADAMA Ltd.",
+        "title": "Antitrust and Regulatory Compliance Counsel",
+        "company": "VF Corporation",
         "score": 61,
         "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4362746384"
-      },
-      {
-        "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
-        "company": "OLCELLI FARMACEUTICI SRL",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
+        "date_posted": 1783123200000,
+        "url": "https://www.linkedin.com/jobs/view/4407616688"
       },
       {
         "title": "Senior Regulatory Affairs Specialist FDA",
@@ -134,20 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4439308131"
       },
       {
-        "title": "Regulatory Affairs Specialist- Area Gomma/Plastica",
-        "company": "Adecco",
+        "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
+        "company": "OLCELLI FARMACEUTICI SRL",
         "score": 60,
-        "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4432248188"
-      },
-      {
-        "title": "Antitrust and Regulatory Compliance Counsel",
-        "company": "VF Corporation",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1783123200000,
-        "url": "https://www.linkedin.com/jobs/view/4407616688"
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
       },
       {
         "title": "Country Regulatory Manager (M/W)",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1782259200000,
         "url": "https://www.linkedin.com/jobs/view/4429874037"
-      },
-      {
-        "title": "Regulatory Affairs Specialist | Farmaceutica",
-        "company": "desmo®",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437051381"
       }
     ]
   },
@@ -190,8 +190,8 @@
       },
       {
         "word": "associate",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
@@ -240,6 +240,12 @@
       "confidence": 30
     },
     {
+      "keyword": "stage",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "international",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -248,33 +254,22 @@
   ],
   "anomalies": [
     {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 EdgeConneX: 4 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "EdgeConneX",
+        "count": 4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/15 annunci da aziende nuove (46.7%)",
+      "message": "📊 Ultimo scan: 14/21 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 7,
-        "total": 15,
-        "pct": 46.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 80% (+80pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 20% (-80pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 20.0
+        "new": 14,
+        "total": 21,
+        "pct": 66.7
       }
     },
     {
@@ -284,54 +279,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 161,
+            "id": 1,
+            "size": 153,
             "top_terms": [
-              "specialist",
+              "engineer",
               "senior",
               "business"
             ],
-            "pct": 56.9
+            "pct": 53.3
           },
           {
-            "id": 1,
-            "size": 38,
+            "id": 0,
+            "size": 37,
             "top_terms": [
               "manager",
               "project",
               "senior"
             ],
-            "pct": 13.4
-          },
-          {
-            "id": 4,
-            "size": 35,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 12.4
+            "pct": 12.9
           },
           {
             "id": 3,
-            "size": 32,
+            "size": 36,
             "top_terms": [
-              "regulatory",
-              "affairs",
+              "assurance",
+              "quality",
               "specialist"
             ],
-            "pct": 11.3
+            "pct": 12.5
           },
           {
             "id": 2,
-            "size": 17,
+            "size": 34,
             "top_terms": [
-              "engineer",
-              "site",
-              "quality"
+              "affairs",
+              "regulatory",
+              "specialist"
             ],
-            "pct": 6.0
+            "pct": 11.8
+          },
+          {
+            "id": 4,
+            "size": 27,
+            "top_terms": [
+              "specialist",
+              "marketing",
+              "compliance"
+            ],
+            "pct": 9.4
           }
         ]
       }

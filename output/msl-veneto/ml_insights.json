@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-14T08:58:12.590548",
+  "generated_at": "2026-07-15T09:06:29.432887",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 34.0,
+    "average": 32.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 18,
       "low": 2,
-      "irrelevant": 6
+      "irrelevant": 8
     },
     "top_jobs": [
       {
@@ -58,7 +58,7 @@
         "company": "NEWCHEM SPA",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782691200000,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
@@ -90,7 +90,7 @@
         "company": "Inpha Nutraceuticals Srl",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782691200000,
         "url": "https://www.linkedin.com/jobs/view/4431505504"
       },
       {
@@ -126,20 +126,20 @@
         "url": "https://www.linkedin.com/jobs/view/4440009236"
       },
       {
-        "title": "ISF Gastroenterologia Verona",
-        "company": "Alfasigma",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4431276432"
-      },
-      {
         "title": "Informatore Scientifico del Farmaco - Treviso e Belluno",
         "company": "Guna Spa",
         "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4437555003"
+      },
+      {
+        "title": "ISF Ginecologia",
+        "company": "PROCARE HEALTH",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437681668"
       },
       {
         "title": "ISF - Ginecologia rif. 99727",
@@ -183,13 +183,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-60%)",
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+32%)",
       "data": {
-        "current": 1,
-        "avg": 2.5,
-        "change_pct": -60.0
+        "current": 3,
+        "avg": 2.3,
+        "change_pct": 32.0
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 3,
+        "total": 3,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -199,34 +229,34 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 2,
             "size": 10,
             "top_terms": [
               "scientifico",
               "informatore",
               "farmaco"
             ],
-            "pct": 38.5
-          },
-          {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "clinical",
-              "senior",
-              "vicenza"
-            ],
-            "pct": 19.2
+            "pct": 35.7
           },
           {
             "id": 4,
+            "size": 7,
+            "top_terms": [
+              "clinical",
+              "vicenza",
+              "tap"
+            ],
+            "pct": 25.0
+          },
+          {
+            "id": 1,
             "size": 5,
             "top_terms": [
               "isf",
-              "specialist",
-              "vicenza"
+              "ginecologia",
+              "specialist"
             ],
-            "pct": 19.2
+            "pct": 17.9
           },
           {
             "id": 0,
@@ -236,17 +266,17 @@
               "specialist",
               "affairs"
             ],
-            "pct": 15.4
+            "pct": 14.3
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 2,
             "top_terms": [
-              "vicenza",
-              "tap",
-              "dol"
+              "manager",
+              "italy",
+              "clinical"
             ],
-            "pct": 7.7
+            "pct": 7.1
           }
         ]
       }

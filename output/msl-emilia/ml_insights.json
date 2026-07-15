@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-14T08:58:12.748479",
+  "generated_at": "2026-07-15T09:06:29.592084",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 21.9,
+    "average": 21.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1782345600000,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
-      },
-      {
-        "title": "Scientific Advisor",
-        "company": "Adecco",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4429469367"
       },
       {
         "title": "Regulatory Affairs Specialist - Cosmetics Industry",
@@ -86,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
-        "title": "Country Associate Submissions Representative, Italy, IQVIA Biotech",
-        "company": "IQVIA",
-        "score": 28,
+        "title": "JUNIOR BUSINESS PARTNER & ANALIST - Healthcare RWE",
+        "company": "SPHERA GROUP SRL",
+        "score": 42,
         "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=ced0e5c2a1923500"
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=0de8834ddb3be9eb"
       },
       {
         "title": "Project Manager - Medical Device",
@@ -110,6 +102,14 @@
         "url": "https://it.indeed.com/viewjob?jk=8fbd8d5ef0a605ca"
       },
       {
+        "title": "Country Associate Submissions Representative, Italy, IQVIA Biotech",
+        "company": "IQVIA",
+        "score": 23,
+        "site": "indeed",
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=ced0e5c2a1923500"
+      },
+      {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 16,
@@ -120,7 +120,7 @@
       {
         "title": "Impiegato/a Commerciale Estero Medical Devices",
         "company": "Lavoropiù SpA",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435537803"
@@ -128,7 +128,7 @@
       {
         "title": "Material Planning and Purchasing Manager",
         "company": "LINCOTEK GROUP",
-        "score": 10,
+        "score": 11,
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
@@ -162,7 +162,7 @@
         "company": "Codess Sociale Soc Coop",
         "score": 6,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782691200000,
         "url": "https://www.linkedin.com/jobs/view/4434476227"
       },
       {
@@ -216,20 +216,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -240,12 +240,12 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 4,
             "size": 13,
             "top_terms": [
               "specialist",
-              "plant",
-              "associate"
+              "it",
+              "plant"
             ],
             "pct": 46.4
           },
@@ -260,17 +260,7 @@
             "pct": 25.0
           },
           {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "aligner",
-              "production",
-              "supervisor"
-            ],
-            "pct": 10.7
-          },
-          {
-            "id": 4,
+            "id": 1,
             "size": 3,
             "top_terms": [
               "manager",
@@ -281,11 +271,21 @@
           },
           {
             "id": 3,
+            "size": 3,
+            "top_terms": [
+              "aligner",
+              "production",
+              "supervisor"
+            ],
+            "pct": 10.7
+          },
+          {
+            "id": 0,
             "size": 2,
             "top_terms": [
-              "it",
-              "specialist",
-              "global"
+              "associate",
+              "compliance",
+              "regulatory"
             ],
             "pct": 7.1
           }

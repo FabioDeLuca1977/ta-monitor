@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-14T08:58:12.847750",
+  "generated_at": "2026-07-15T09:06:29.692668",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 68,
+  "total_jobs_analyzed": 67,
   "scoring": {
-    "average": 12.9,
+    "average": 11.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 8,
+      "medium": 6,
       "low": 2,
-      "irrelevant": 56
+      "irrelevant": 57
     },
     "top_jobs": [
       {
@@ -34,7 +34,7 @@
         "company": "NEWCHEM SPA",
         "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782691200000,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi",
-        "score": 58,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=7166cc9055150184"
@@ -64,31 +64,15 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 50,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
-        "title": "Senior quality assurance GMP",
-        "company": "Adecco",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4417957067"
-      },
-      {
-        "title": "RIF.3807: REGULATORY COMPLIANCE OFFICER  - SETTORE REFRIGERAZIONE INDUSTRIALE",
-        "company": "Arethusa",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4432281842"
-      },
-      {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 44,
+        "score": 45,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -96,7 +80,7 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "Cipriani Industria Srl",
-        "score": 35,
+        "score": 36,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=44eebe6163ed9282"
@@ -116,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1782518400000,
         "url": "https://www.linkedin.com/jobs/view/4424754375"
+      },
+      {
+        "title": "Sales Specialist- Venezia",
+        "company": "R-STORE S.p.A",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=6ebc4f8e5d2e2dc1"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4438324468"
       },
       {
+        "title": "Project Engineer",
+        "company": "Boehringer Ingelheim",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=490ad9ec267b02dc"
+      },
+      {
         "title": "Junior Consultant Governance, Risk & Compliance - Financial Services",
         "company": "KPMG",
         "score": 11,
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "sistema",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,9 +194,14 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "product",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "sistema",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "vicenza",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -216,13 +216,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
       "data": {
-        "current": 1,
-        "avg": 4.8,
-        "change_pct": -79.1
+        "new": 5,
+        "total": 5,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 20% (+20pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 20.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 80% (-20pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 80.0
       }
     },
     {
@@ -232,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 40,
+            "id": 2,
+            "size": 41,
             "top_terms": [
               "sistema",
               "addetto",
               "analyst"
             ],
-            "pct": 58.8
+            "pct": 61.2
           },
           {
             "id": 1,
-            "size": 13,
+            "size": 12,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 19.1
+            "pct": 17.9
           },
           {
             "id": 4,
-            "size": 7,
+            "size": 8,
             "top_terms": [
               "regulatory",
-              "affairs",
-              "specialist"
+              "specialist",
+              "affairs"
             ],
-            "pct": 10.3
-          },
-          {
-            "id": 2,
-            "size": 6,
-            "top_terms": [
-              "engineer",
-              "mechanical",
-              "product"
-            ],
-            "pct": 8.8
+            "pct": 11.9
           },
           {
             "id": 0,
+            "size": 4,
+            "top_terms": [
+              "engineer",
+              "mechanical",
+              "vi"
+            ],
+            "pct": 6.0
+          },
+          {
+            "id": 3,
             "size": 2,
             "top_terms": [
               "it",
               "support",
               "specialist"
             ],
-            "pct": 2.9
+            "pct": 3.0
           }
         ]
       }

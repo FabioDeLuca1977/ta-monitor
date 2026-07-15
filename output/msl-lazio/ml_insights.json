@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-07-14T08:58:12.791957",
+  "generated_at": "2026-07-15T09:06:29.635537",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 41,
   "scoring": {
-    "average": 31.6,
+    "average": 31.7,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 19,
+      "good": 3,
+      "medium": 17,
       "low": 7,
       "irrelevant": 14
     },
     "top_jobs": [
+      {
+        "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
+        "company": "Organon Pharmaceuticals",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
+      },
       {
         "title": "Field Medical Advisor - Italy",
         "company": "Syneos Health Commercial Solutions",
@@ -38,17 +46,9 @@
         "url": "https://www.linkedin.com/jobs/view/4439039474"
       },
       {
-        "title": "Medical Scientific Liaison Diabetes Care-  Nord Ovest",
-        "company": "Abbott",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1783382400000,
-        "url": "https://www.linkedin.com/jobs/view/4437754949"
-      },
-      {
         "title": "Scientific Affairs Manager - Italy (Rome)",
         "company": "Rhythm Pharmaceuticals Inc.",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430973378"
@@ -72,7 +72,7 @@
       {
         "title": "Clinical Research Associate II  - Multiple Locations",
         "company": "Novo Nordisk",
-        "score": 50,
+        "score": 51,
         "site": "linkedin",
         "date_posted": 1783468800000,
         "url": "https://www.linkedin.com/jobs/view/4434886707"
@@ -82,32 +82,16 @@
         "company": "QuiCare",
         "score": 48,
         "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4432944833"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4435142380"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "LHH",
+        "title": "Medical Scientific Liaison Diabetes Care-  Nord Ovest",
+        "company": "Abbott",
         "score": 48,
         "site": "linkedin",
-        "date_posted": 1782172800000,
-        "url": "https://www.linkedin.com/jobs/view/4432400235"
-      },
-      {
-        "title": "Director, Medical Affairs",
-        "company": "PTC Therapeutics",
-        "score": 47,
-        "site": "indeed",
-        "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=128bdb08727bff1b"
-      },
-      {
-        "title": "Clinical Research Associate 2",
-        "company": "Novo Nordisk",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4434886707"
+        "date_posted": 1783382400000,
+        "url": "https://www.linkedin.com/jobs/view/4437754949"
       },
       {
         "title": "Therapeutic Area Specialist Oncology - (Area Lombardia)",
@@ -118,9 +102,17 @@
         "url": "https://www.linkedin.com/jobs/view/4438807185"
       },
       {
+        "title": "Clinical Research Associate 2",
+        "company": "Novo Nordisk",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4434886707"
+      },
+      {
         "title": "Senior Clinical Research Associate",
         "company": "ICON plc",
-        "score": 46,
+        "score": 45,
         "site": "indeed",
         "date_posted": 1783036800000,
         "url": "https://it.indeed.com/viewjob?jk=c296d6bd2b60d655"
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435544652"
+      },
+      {
+        "title": "Clinical Specialist Allergan Aesthetics - Centro-Sud Italia",
+        "company": "Allergan Aesthetics, an AbbVie Company",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4436816398"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -193,42 +193,6 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "medical scientific",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "diabetes care",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "care nord",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "nord ovest",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "diabetes care nord",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "care nord ovest",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "italy",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -237,33 +201,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-33%)",
+      "data": {
+        "current": 2,
+        "avg": 3.0,
+        "change_pct": -33.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
       }
     },
     {
@@ -273,54 +227,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 11,
+            "id": 4,
+            "size": 16,
             "top_terms": [
+              "italy",
               "manager",
-              "affairs",
-              "italy"
+              "affairs"
             ],
-            "pct": 26.2
+            "pct": 39.0
           },
           {
-            "id": 3,
-            "size": 11,
+            "id": 1,
+            "size": 9,
             "top_terms": [
-              "engineer",
-              "lead",
-              "cra"
+              "specialist",
+              "clinical",
+              "area"
             ],
-            "pct": 26.2
+            "pct": 22.0
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 8,
             "top_terms": [
               "medical",
-              "director",
-              "liaison"
+              "liaison",
+              "science"
             ],
-            "pct": 23.8
+            "pct": 19.5
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 5,
             "top_terms": [
               "research",
               "clinical",
               "associate"
             ],
-            "pct": 11.9
+            "pct": 12.2
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 0,
+            "size": 3,
             "top_terms": [
-              "specialist",
-              "area",
-              "therapeutic"
+              "lead",
+              "quality",
+              "specialist"
             ],
-            "pct": 11.9
+            "pct": 7.3
           }
         ]
       }
