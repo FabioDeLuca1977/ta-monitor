@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-15T09:06:29.692668",
+  "generated_at": "2026-07-16T09:07:19.884018",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 67,
   "scoring": {
-    "average": 11.9,
+    "average": 12.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -16,7 +16,7 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi Italia",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434531248"
@@ -28,6 +28,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434868695"
+      },
+      {
+        "title": "Regulatory affair specialist",
+        "company": "IACER",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4425868017"
       },
       {
         "title": "Senior Regulatory Affairs Specialist",
@@ -48,23 +56,15 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi",
-        "score": 53,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=7166cc9055150184"
       },
       {
-        "title": "Regulatory affair specialist",
-        "company": "IACER",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4425868017"
-      },
-      {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 51,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -72,7 +72,7 @@
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 45,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -194,14 +194,14 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
+        "word": "tecnico",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
         "word": "sistema",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "vicenza",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,31 +218,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/5 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 5,
+        "new": 4,
+        "total": 4,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 20% (+20pp)",
+      "message": "📡 linkedin: quota passata da 20% a 0% (-20pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 80% (-20pp)",
+      "message": "📡 indeed: quota passata da 80% a 100% (+20pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 80.0
+        "old_pct": 80.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -252,54 +252,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 0,
             "size": 41,
             "top_terms": [
+              "specialist",
               "sistema",
-              "addetto",
-              "analyst"
+              "addetto"
             ],
             "pct": 61.2
           },
           {
             "id": 1,
-            "size": 12,
+            "size": 11,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 17.9
+            "pct": 16.4
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 6,
             "top_terms": [
               "regulatory",
-              "specialist",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 11.9
+            "pct": 9.0
           },
           {
-            "id": 0,
+            "id": 3,
+            "size": 5,
+            "top_terms": [
+              "tecnico",
+              "qualità",
+              "impiegato"
+            ],
+            "pct": 7.5
+          },
+          {
+            "id": 2,
             "size": 4,
             "top_terms": [
               "engineer",
               "mechanical",
-              "vi"
+              "facilitator"
             ],
             "pct": 6.0
-          },
-          {
-            "id": 3,
-            "size": 2,
-            "top_terms": [
-              "it",
-              "support",
-              "specialist"
-            ],
-            "pct": 3.0
           }
         ]
       }

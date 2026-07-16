@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-15T09:06:30.009080",
+  "generated_at": "2026-07-16T09:07:20.189758",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 94,
+  "total_jobs_analyzed": 97,
   "scoring": {
-    "average": 8.0,
+    "average": 8.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 88
+      "irrelevant": 91
     },
     "top_jobs": [
       {
@@ -26,8 +26,8 @@
         "company": "Antal International",
         "score": 49,
         "site": "linkedin",
-        "date_posted": 1782345600000,
-        "url": "https://www.linkedin.com/jobs/view/4433061624"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440515481"
       },
       {
         "title": "Quality Assurance Consultant   - Pharma Sector",
@@ -42,7 +42,7 @@
         "company": "PQE Group",
         "score": 42,
         "site": "linkedin",
-        "date_posted": 1782777600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431908514"
       },
       {
@@ -60,6 +60,14 @@
         "site": "indeed",
         "date_posted": 1783036800000,
         "url": "https://it.indeed.com/viewjob?jk=05654cff050bbf66"
+      },
+      {
+        "title": "Operations Project Manager",
+        "company": "Cosmo Pharmaceuticals",
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1784073600000,
+        "url": "https://it.indeed.com/viewjob?jk=4bafaacffa8f3308"
       },
       {
         "title": "Accounting Manager",
@@ -86,6 +94,14 @@
         "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
       },
       {
+        "title": "Senior Operations Manager",
+        "company": "Blacklane GmbH",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1783900800000,
+        "url": "https://it.indeed.com/viewjob?jk=e6291e0905c92d8c"
+      },
+      {
         "title": "Quality Assurance Manager",
         "company": "Michael Page",
         "score": 16,
@@ -102,6 +118,22 @@
         "url": "https://www.linkedin.com/jobs/view/4432392408"
       },
       {
+        "title": "Senior Development & Compensation Specialist",
+        "company": "ITA airways",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1784073600000,
+        "url": "https://it.indeed.com/viewjob?jk=33e8d70390a58a73"
+      },
+      {
+        "title": "Production Quality Specialist",
+        "company": "Thermo Fisher Scientific",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1784073600000,
+        "url": "https://it.indeed.com/viewjob?jk=93179cb7792b7f0f"
+      },
+      {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
         "company": "Johnson & Johnson MedTech",
         "score": 14,
@@ -110,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4436313312"
       },
       {
+        "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
+        "company": "Organon Pharmaceuticals",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
+      },
+      {
         "title": "Manager Up – Compliance",
         "company": "Deloitte",
         "score": 13,
         "site": "indeed",
         "date_posted": 1782864000000,
         "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
-      },
-      {
-        "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
-        "company": "Organon Pharmaceuticals",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1783987200000,
-        "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
       },
       {
         "title": "Manager, Global Accounting",
@@ -140,38 +172,6 @@
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=cc5a4bae2ae50b09"
-      },
-      {
-        "title": "Junior Quality Assurance Compliance",
-        "company": "Tubilux Pharma",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4435050825"
-      },
-      {
-        "title": "QC Validation Analyst",
-        "company": "Amaris Consulting",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1783900800000,
-        "url": "https://it.indeed.com/viewjob?jk=6a0a362b7259a930"
-      },
-      {
-        "title": "MODEL BASED DESIGN ENGINEER",
-        "company": "Amaris Consulting",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1783900800000,
-        "url": "https://it.indeed.com/viewjob?jk=c49155700a91c7f4"
-      },
-      {
-        "title": "Legal Intern",
-        "company": "Avio S.p.a.",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1783900800000,
-        "url": "https://it.indeed.com/viewjob?jk=c02b5abef95e1a95"
       }
     ]
   },
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "quality",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "specialist",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -211,11 +211,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 3,
-        "total": 7,
-        "pct": 42.9
+        "new": 4,
+        "total": 8,
+        "pct": 50.0
       }
     },
     {
@@ -225,54 +225,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 63,
+            "id": 2,
+            "size": 50,
             "top_terms": [
-              "engineer",
-              "associate",
-              "analyst"
+              "specialista",
+              "medical",
+              "associate"
             ],
-            "pct": 67.0
+            "pct": 51.5
           },
           {
-            "id": 1,
-            "size": 10,
+            "id": 3,
+            "size": 18,
+            "top_terms": [
+              "assurance",
+              "manager",
+              "quality"
+            ],
+            "pct": 18.6
+          },
+          {
+            "id": 4,
+            "size": 12,
             "top_terms": [
               "specialist",
               "quality",
               "rome"
             ],
-            "pct": 10.6
+            "pct": 12.4
+          },
+          {
+            "id": 1,
+            "size": 11,
+            "top_terms": [
+              "engineer",
+              "compliance",
+              "based"
+            ],
+            "pct": 11.3
           },
           {
             "id": 0,
-            "size": 9,
+            "size": 6,
             "top_terms": [
-              "assurance",
-              "quality",
-              "senior"
+              "senior",
+              "operations",
+              "project"
             ],
-            "pct": 9.6
-          },
-          {
-            "id": 4,
-            "size": 9,
-            "top_terms": [
-              "manager",
-              "accounting",
-              "compliance"
-            ],
-            "pct": 9.6
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "deployment",
-              "scientist",
-              "care"
-            ],
-            "pct": 3.2
+            "pct": 6.2
           }
         ]
       }

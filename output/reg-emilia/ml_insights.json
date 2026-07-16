@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-15T09:06:29.922911",
+  "generated_at": "2026-07-16T09:07:20.109828",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 13.8,
+    "average": 14.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 7,
+      "medium": 8,
       "low": 3,
-      "irrelevant": 44
+      "irrelevant": 43
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": 1782432000000,
         "url": "https://www.linkedin.com/jobs/view/4433811762"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
         "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
@@ -40,7 +48,7 @@
       {
         "title": "Corporate, Legal & Regulatory Affairs Specialist",
         "company": "Banca Più",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433928282"
@@ -48,18 +56,10 @@
       {
         "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
         "company": "MEDIFLY SRL",
-        "score": 55,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1783296000000,
         "url": "https://it.indeed.com/viewjob?jk=7193ada0f2cc8aad"
-      },
-      {
-        "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
-        "company": "SILC Fertilizzanti Srl",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1783296000000,
-        "url": "https://www.linkedin.com/jobs/view/4437165106"
       },
       {
         "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
@@ -70,9 +70,17 @@
         "url": "https://www.linkedin.com/jobs/view/4436984747"
       },
       {
+        "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
+        "company": "SILC Fertilizzanti Srl",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1783296000000,
+        "url": "https://www.linkedin.com/jobs/view/4437165106"
+      },
+      {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
-        "score": 51,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
@@ -80,7 +88,7 @@
       {
         "title": "Site Regulatory Compliance Associate",
         "company": "Menarini",
-        "score": 35,
+        "score": 36,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=8fbd8d5ef0a605ca"
@@ -96,7 +104,7 @@
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 20,
+        "score": 21,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
@@ -120,26 +128,10 @@
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
         "company": "AB PROFESSIONAL SEARCH SAGL",
-        "score": 13,
+        "score": 14,
         "site": "linkedin",
         "date_posted": 1782777600000,
         "url": "https://www.linkedin.com/jobs/view/4434957741"
-      },
-      {
-        "title": "Quality Manager",
-        "company": "Phibro Animal Health Corporation",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=7d469ac9c8bd0592"
-      },
-      {
-        "title": "Demand Planner",
-        "company": "PRAXI",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": 1783468800000,
-        "url": "https://www.linkedin.com/jobs/view/4434834401"
       },
       {
         "title": "Senior Network Engineer",
@@ -150,12 +142,20 @@
         "url": "https://it.indeed.com/viewjob?jk=7f12cc2dfe61b136"
       },
       {
-        "title": "Consultant",
-        "company": "Wolters Kluwer",
-        "score": 9,
+        "title": "Tecnico Assistenza (Service Technician)",
+        "company": "S&P Computersysteme GmbH",
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=1369b9e60c4c285c"
+        "date_posted": 1784073600000,
+        "url": "https://it.indeed.com/viewjob?jk=9279514e5301e1d9"
+      },
+      {
+        "title": "HSE - Internship",
+        "company": "Bosch",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=ce2339d5bf2a655d"
       },
       {
         "title": "Quality Assurance Stageur",
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -240,43 +240,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
-      "data": {
-        "current": 1,
-        "avg": 4.2,
-        "change_pct": -75.9
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 25% a 0% (-25pp)",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 25.0,
-        "new_pct": 0.0
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 75.0,
-        "new_pct": 100.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -286,14 +276,14 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 28,
+            "id": 0,
+            "size": 21,
             "top_terms": [
-              "engineer",
-              "specialist",
-              "sanitario"
+              "tecnico",
+              "sanitario",
+              "specialist"
             ],
-            "pct": 50.9
+            "pct": 38.2
           },
           {
             "id": 1,
@@ -306,34 +296,34 @@
             "pct": 23.6
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.7
+            "pct": 18.2
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 7,
             "top_terms": [
-              "product",
               "engineer",
-              "specialist"
+              "product",
+              "mechanical"
             ],
-            "pct": 7.3
+            "pct": 12.7
           },
           {
-            "id": 0,
-            "size": 3,
+            "id": 2,
+            "size": 4,
             "top_terms": [
               "associate",
               "italy",
-              "technical"
+              "site"
             ],
-            "pct": 5.5
+            "pct": 7.3
           }
         ]
       }

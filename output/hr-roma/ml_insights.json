@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-07-15T09:06:29.293350",
+  "generated_at": "2026-07-16T09:07:19.501467",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 200,
+  "total_jobs_analyzed": 198,
   "scoring": {
-    "average": 19.9,
+    "average": 20.5,
     "distribution": {
       "excellent": 0,
-      "good": 8,
-      "medium": 31,
+      "good": 9,
+      "medium": 32,
       "low": 49,
-      "irrelevant": 112
+      "irrelevant": 108
     },
     "top_jobs": [
+      {
+        "title": "Junior HR Specialist - Gestione spese domestiche",
+        "company": "Tuolavoro-Lazio",
+        "score": 69,
+        "site": "linkedin",
+        "date_posted": 1783987200000,
+        "url": "https://www.linkedin.com/jobs/view/4439867297"
+      },
       {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
@@ -30,14 +38,6 @@
         "url": "https://it.indeed.com/viewjob?jk=ea1d316c8d5c9ef2"
       },
       {
-        "title": "HR Recruiter",
-        "company": "Datamanagement italia",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1783987200000,
-        "url": "https://it.indeed.com/viewjob?jk=7a0508550b929765"
-      },
-      {
         "title": "Talent Acquisition Manager",
         "company": "Pellicano Hotels",
         "score": 64,
@@ -52,6 +52,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4437710399"
+      },
+      {
+        "title": "HR Recruiter",
+        "company": "Datamanagement italia",
+        "score": 64,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=7a0508550b929765"
       },
       {
         "title": "Hr Specialist",
@@ -78,6 +86,14 @@
         "url": "https://it.indeed.com/viewjob?jk=588de47c80b8786b"
       },
       {
+        "title": "Junior HR Generalist per gestione ottimizzata costi domestici",
+        "company": "Tuolavoro-Lazio",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4435260178"
+      },
+      {
         "title": "HR Specialist - Attività professionali associate",
         "company": "key-absolute",
         "score": 59,
@@ -88,18 +104,10 @@
       {
         "title": "Junior HR Specialist per soluzioni controllo spese",
         "company": "key-absolute",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4436836800"
-      },
-      {
-        "title": "Junior HR Generalist per gestione ottimizzata costi domestici",
-        "company": "Tuolavoro-Lazio",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435260178"
+        "url": "https://www.linkedin.com/jobs/view/4436836800"
       },
       {
         "title": "Stage HR Generalist",
@@ -118,19 +126,19 @@
         "url": "https://www.linkedin.com/jobs/view/4424432265"
       },
       {
-        "title": "JUNIOR HR GENERALIST",
-        "company": "BCUBE SPA",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1782172800000,
-        "url": "https://it.indeed.com/viewjob?jk=60f00ee56defac62"
+        "title": "Addetto selezione e formazione HR - Dispositivi depurazione domestica",
+        "company": "Tuolavoro-Lazio",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437598391"
       },
       {
         "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
         "company": "Aenova Group",
         "score": 54,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782864000000,
         "url": "https://www.linkedin.com/jobs/view/4432361045"
       },
       {
@@ -158,14 +166,6 @@
         "url": "https://www.linkedin.com/jobs/view/4437094600"
       },
       {
-        "title": "Addetto selezione e formazione HR - Dispositivi depurazione domestica",
-        "company": "Tuolavoro-Lazio",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437598391"
-      },
-      {
         "title": "Addetto/a selezione personale per distribuzione commerciale",
         "company": "Novati",
         "score": 53,
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 37,
-        "reason": "Appare 37x in annunci a basso score"
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 37,
-        "reason": "Appare 37x in annunci a basso score"
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 26,
+        "reason": "Appare 26x in annunci a basso score"
       },
       {
         "word": "sales",
@@ -199,7 +199,7 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "impiegato",
+        "word": "assistant",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -215,9 +215,9 @@
     },
     {
       "keyword": "junior",
-      "frequency": 4,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 50
     },
     {
       "keyword": "acquisition manager",
@@ -234,41 +234,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in crescita: 18 annunci ultimo scan vs media 13 (+38%)",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 14 (-33%)",
       "data": {
-        "current": 18,
-        "avg": 13.0,
-        "change_pct": 38.5
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Q8: 3 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Q8",
-        "count": 3
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Amplifon: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Amplifon",
-        "count": 2
+        "current": 9,
+        "avg": 13.5,
+        "change_pct": -33.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/18 annunci da aziende nuove (38.9%)",
+      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 7,
-        "total": 18,
-        "pct": 38.9
+        "new": 3,
+        "total": 9,
+        "pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 17% a 44% (+28pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 16.7,
+        "new_pct": 44.4
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 83% a 56% (-28pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 83.3,
+        "new_pct": 55.6
       }
     },
     {
@@ -278,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 121,
+            "id": 0,
+            "size": 114,
             "top_terms": [
-              "hr",
               "specialist",
-              "manager"
+              "hr",
+              "tecnico"
             ],
-            "pct": 60.5
+            "pct": 57.6
           },
           {
             "id": 3,
-            "size": 40,
+            "size": 39,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 20.0
+            "pct": 19.7
           },
           {
-            "id": 0,
-            "size": 21,
+            "id": 1,
+            "size": 19,
             "top_terms": [
               "addetto",
               "selezione",
               "personale"
             ],
-            "pct": 10.5
+            "pct": 9.6
           },
           {
-            "id": 1,
-            "size": 12,
+            "id": 2,
+            "size": 14,
             "top_terms": [
               "sales",
               "assistant",
               "day"
             ],
-            "pct": 6.0
+            "pct": 7.1
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 12,
             "top_terms": [
-              "dirigente",
-              "indeterminato",
-              "tempo"
+              "manager",
+              "acquisition",
+              "talent"
             ],
-            "pct": 3.0
+            "pct": 6.1
           }
         ]
       }

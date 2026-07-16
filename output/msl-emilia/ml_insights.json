@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-15T09:06:29.592084",
+  "generated_at": "2026-07-16T09:07:19.789202",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 28,
+  "total_jobs_analyzed": 27,
   "scoring": {
-    "average": 21.5,
+    "average": 23.3,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 8,
+      "medium": 9,
       "low": 3,
-      "irrelevant": 16
+      "irrelevant": 14
     },
     "top_jobs": [
       {
@@ -64,10 +64,18 @@
       {
         "title": "Clinical Specialist",
         "company": "Coloplast",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1782432000000,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
         "title": "Global Regulatory Affairs Consultant",
@@ -112,34 +120,26 @@
       {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 16,
+        "score": 18,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
-        "title": "Impiegato/a Commerciale Estero Medical Devices",
-        "company": "Lavoropiù SpA",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435537803"
-      },
-      {
         "title": "Material Planning and Purchasing Manager",
         "company": "LINCOTEK GROUP",
-        "score": 11,
+        "score": 10,
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
       },
       {
-        "title": "Environmental Specialist",
+        "title": "Industrial Controller",
         "company": "Gerresheimer",
-        "score": 9,
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+        "date_posted": 1784073600000,
+        "url": "https://it.indeed.com/viewjob?jk=cc1698dd47fb0619"
       },
       {
         "title": "HSE Plant Specialist",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4434476227"
       },
       {
-        "title": "IT Support Specialist",
+        "title": "Production Supervisor, Aligner",
         "company": "Dentsply Sirona",
-        "score": 6,
+        "score": 5,
         "site": "indeed",
-        "date_posted": 1782432000000,
-        "url": "https://it.indeed.com/viewjob?jk=eae5deed81858bcb"
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=78a02f2461c1fb5d"
       }
     ]
   },
@@ -194,43 +194,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-63%)",
-      "data": {
-        "current": 1,
-        "avg": 2.7,
-        "change_pct": -63.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -241,53 +231,53 @@
         "clusters": [
           {
             "id": 4,
-            "size": 13,
+            "size": 12,
             "top_terms": [
               "specialist",
-              "it",
-              "plant"
+              "plant",
+              "medical"
             ],
-            "pct": 46.4
+            "pct": 44.4
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 7,
             "top_terms": [
-              "affairs",
               "regulatory",
+              "affairs",
               "specialist"
             ],
-            "pct": 25.0
+            "pct": 25.9
           },
           {
             "id": 1,
-            "size": 3,
-            "top_terms": [
-              "manager",
-              "medical",
-              "supervisor"
-            ],
-            "pct": 10.7
-          },
-          {
-            "id": 3,
             "size": 3,
             "top_terms": [
               "aligner",
               "production",
               "supervisor"
             ],
-            "pct": 10.7
+            "pct": 11.1
           },
           {
-            "id": 0,
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "manager",
+              "medical",
+              "global"
+            ],
+            "pct": 11.1
+          },
+          {
+            "id": 3,
             "size": 2,
             "top_terms": [
               "associate",
               "compliance",
               "regulatory"
             ],
-            "pct": 7.1
+            "pct": 7.4
           }
         ]
       }
