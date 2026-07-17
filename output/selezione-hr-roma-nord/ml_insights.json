@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-16T09:07:19.604606",
+  "generated_at": "2026-07-17T09:00:47.888643",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 198,
+  "total_jobs_analyzed": 205,
   "scoring": {
-    "average": 21.3,
+    "average": 21.5,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 36,
-      "low": 44,
-      "irrelevant": 107
+      "good": 10,
+      "medium": 40,
+      "low": 45,
+      "irrelevant": 110
     },
     "top_jobs": [
       {
         "title": "Talent Acquisition Manager",
         "company": "Pellicano Hotels",
-        "score": 70,
+        "score": 71,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436477832"
@@ -30,20 +30,20 @@
         "url": "https://it.indeed.com/viewjob?jk=ea1d316c8d5c9ef2"
       },
       {
-        "title": "Junior HR Specialist - Gestione spese domestiche",
-        "company": "Tuolavoro-Lazio",
-        "score": 69,
-        "site": "linkedin",
-        "date_posted": 1783987200000,
-        "url": "https://www.linkedin.com/jobs/view/4439867297"
-      },
-      {
         "title": "Talent Acquisition / Recruiter - AI Trainer - Freelance - 8-20 hrs/week - Remote",
         "company": "10x.Team",
         "score": 68,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4437710399"
+      },
+      {
+        "title": "Junior HR Specialist - Gestione spese domestiche",
+        "company": "Tuolavoro-Lazio",
+        "score": 68,
+        "site": "linkedin",
+        "date_posted": 1783987200000,
+        "url": "https://www.linkedin.com/jobs/view/4439867297"
       },
       {
         "title": "HR Talent Acquisition & Employer Branding Intern",
@@ -56,10 +56,10 @@
       {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435543774"
+        "url": "https://www.linkedin.com/jobs/view/4434538053"
       },
       {
         "title": "HR Recruiter",
@@ -84,14 +84,6 @@
         "site": "linkedin",
         "date_posted": 1782691200000,
         "url": "https://www.linkedin.com/jobs/view/4431095276"
-      },
-      {
-        "title": "JUNIOR HR SPECIALIST - ROMA",
-        "company": "R1 GROUP",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=588de47c80b8786b"
       },
       {
         "title": "Addetto selezione e formazione HR - Dispositivi depurazione domestica",
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4431920750"
       },
       {
+        "title": "JUNIOR HR SPECIALIST - ROMA",
+        "company": "R1 GROUP",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=588de47c80b8786b"
+      },
+      {
         "title": "Addetto/a selezione personale",
         "company": "Tuo",
         "score": 55,
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "sales",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "assistant",
@@ -226,51 +226,33 @@
       "confidence": 30
     },
     {
+      "keyword": "personale servizi",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "addetto ricerca",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "tecnologie",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 14 (-33%)",
-      "data": {
-        "current": 9,
-        "avg": 13.5,
-        "change_pct": -33.3
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 5/14 annunci da aziende nuove (35.7%)",
       "data": {
-        "new": 3,
-        "total": 9,
-        "pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 17% a 44% (+28pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 16.7,
-        "new_pct": 44.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 83% a 56% (-28pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 83.3,
-        "new_pct": 55.6
+        "new": 5,
+        "total": 14,
+        "pct": 35.7
       }
     },
     {
@@ -280,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 114,
+            "id": 4,
+            "size": 99,
             "top_terms": [
-              "specialist",
-              "hr",
+              "sales",
+              "manager",
               "tecnico"
             ],
-            "pct": 57.6
-          },
-          {
-            "id": 3,
-            "size": 39,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 19.7
+            "pct": 48.3
           },
           {
             "id": 1,
+            "size": 44,
+            "top_terms": [
+              "umane",
+              "risorse",
+              "addetto"
+            ],
+            "pct": 21.5
+          },
+          {
+            "id": 2,
+            "size": 37,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "business"
+            ],
+            "pct": 18.0
+          },
+          {
+            "id": 0,
             "size": 19,
             "top_terms": [
               "addetto",
               "selezione",
               "personale"
             ],
-            "pct": 9.6
+            "pct": 9.3
           },
           {
-            "id": 2,
-            "size": 14,
+            "id": 3,
+            "size": 6,
             "top_terms": [
-              "sales",
-              "assistant",
-              "day"
+              "indeterminato",
+              "dirigente",
+              "tempo"
             ],
-            "pct": 7.1
-          },
-          {
-            "id": 4,
-            "size": 12,
-            "top_terms": [
-              "manager",
-              "acquisition",
-              "talent"
-            ],
-            "pct": 6.1
+            "pct": 2.9
           }
         ]
       }

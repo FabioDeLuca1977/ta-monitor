@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T09:07:20.189758",
+  "generated_at": "2026-07-17T09:00:48.522076",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 97,
+  "total_jobs_analyzed": 96,
   "scoring": {
-    "average": 8.5,
+    "average": 8.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 91
+      "irrelevant": 90
     },
     "top_jobs": [
       {
@@ -42,7 +42,7 @@
         "company": "PQE Group",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4431908514"
       },
       {
@@ -68,38 +68,6 @@
         "site": "indeed",
         "date_posted": 1784073600000,
         "url": "https://it.indeed.com/viewjob?jk=4bafaacffa8f3308"
-      },
-      {
-        "title": "Accounting Manager",
-        "company": "Fendi",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1783900800000,
-        "url": "https://it.indeed.com/viewjob?jk=5e053be9d9a0db5b"
-      },
-      {
-        "title": "Clinical Trial Manager - maternity cover",
-        "company": "Nouscon Srl",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
-      },
-      {
-        "title": "Clinical Trial Manager - maternity cover",
-        "company": "Nouscom Srl",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
-      },
-      {
-        "title": "Senior Operations Manager",
-        "company": "Blacklane GmbH",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1783900800000,
-        "url": "https://it.indeed.com/viewjob?jk=e6291e0905c92d8c"
       },
       {
         "title": "Quality Assurance Manager",
@@ -134,20 +102,20 @@
         "url": "https://it.indeed.com/viewjob?jk=93179cb7792b7f0f"
       },
       {
+        "title": "Site Activation Specialist",
+        "company": "IQVIA",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1784246400000,
+        "url": "https://it.indeed.com/viewjob?jk=d44abbe6ec15d941"
+      },
+      {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
         "company": "Johnson & Johnson MedTech",
         "score": 14,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4436313312"
-      },
-      {
-        "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
-        "company": "Organon Pharmaceuticals",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1783987200000,
-        "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
       },
       {
         "title": "Manager Up – Compliance",
@@ -158,6 +126,22 @@
         "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
       },
       {
+        "title": "Accounting Manager",
+        "company": "Fendi",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1783900800000,
+        "url": "https://it.indeed.com/viewjob?jk=5e053be9d9a0db5b"
+      },
+      {
+        "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
+        "company": "Organon Pharmaceuticals",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
+      },
+      {
         "title": "Manager, Global Accounting",
         "company": "ShopFully",
         "score": 12,
@@ -166,12 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=ec75f498a41ef87e"
       },
       {
+        "title": "Senior Operations Manager",
+        "company": "Blacklane GmbH",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1783900800000,
+        "url": "https://it.indeed.com/viewjob?jk=e6291e0905c92d8c"
+      },
+      {
         "title": "Market Operations and Demand Specialist",
         "company": "AbbVie",
         "score": 11,
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=cc5a4bae2ae50b09"
+      },
+      {
+        "title": "Clinical Trial Manager - maternity cover",
+        "company": "Nouscon Srl",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -194,14 +194,14 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "assurance",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "engineer",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,13 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-39%)",
+      "data": {
+        "current": 4,
+        "avg": 6.6,
+        "change_pct": -39.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 4,
-        "total": 8,
+        "new": 2,
+        "total": 4,
         "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -225,34 +255,24 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 50,
+            "id": 0,
+            "size": 55,
             "top_terms": [
+              "manager",
               "specialista",
-              "medical",
-              "associate"
+              "sales"
             ],
-            "pct": 51.5
+            "pct": 57.3
           },
           {
             "id": 3,
-            "size": 18,
-            "top_terms": [
-              "assurance",
-              "manager",
-              "quality"
-            ],
-            "pct": 18.6
-          },
-          {
-            "id": 4,
-            "size": 12,
+            "size": 13,
             "top_terms": [
               "specialist",
               "quality",
-              "rome"
+              "site"
             ],
-            "pct": 12.4
+            "pct": 13.5
           },
           {
             "id": 1,
@@ -260,17 +280,27 @@
             "top_terms": [
               "engineer",
               "compliance",
-              "based"
+              "italian"
             ],
-            "pct": 11.3
+            "pct": 11.5
           },
           {
-            "id": 0,
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "consultant"
+            ],
+            "pct": 11.5
+          },
+          {
+            "id": 4,
             "size": 6,
             "top_terms": [
-              "senior",
-              "operations",
-              "project"
+              "associate",
+              "medical",
+              "italy"
             ],
             "pct": 6.2
           }

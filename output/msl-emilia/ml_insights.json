@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T09:07:19.789202",
+  "generated_at": "2026-07-17T09:00:48.093077",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 23.3,
+    "average": 22.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 9,
       "low": 3,
-      "irrelevant": 14
+      "irrelevant": 15
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "Hoya Vision Care",
         "score": 61,
         "site": "linkedin",
-        "date_posted": 1782345600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
@@ -64,7 +64,7 @@
       {
         "title": "Clinical Specialist",
         "company": "Coloplast",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1782432000000,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
@@ -120,7 +120,7 @@
       {
         "title": "Compliance Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 18,
+        "score": 17,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4421922940"
@@ -128,7 +128,7 @@
       {
         "title": "Material Planning and Purchasing Manager",
         "company": "LINCOTEK GROUP",
-        "score": 10,
+        "score": 11,
         "site": "indeed",
         "date_posted": 1782691200000,
         "url": "https://it.indeed.com/viewjob?jk=ffaaf03bdd0b1784"
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4434476227"
       },
       {
-        "title": "Production Supervisor, Aligner",
-        "company": "Dentsply Sirona",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=78a02f2461c1fb5d"
+        "title": "TERAPISTA OCCUPAZIONALE CRA Modena",
+        "company": "Domus Assistenza società cooperativa sociale",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441469305"
       }
     ]
   },
@@ -196,31 +196,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 2,
-        "pct": 50.0
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -230,54 +230,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
+            "id": 0,
             "size": 12,
             "top_terms": [
               "specialist",
-              "plant",
-              "medical"
+              "cra",
+              "associate"
             ],
-            "pct": 44.4
-          },
-          {
-            "id": 0,
-            "size": 7,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 25.9
+            "pct": 42.9
           },
           {
             "id": 1,
+            "size": 8,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 28.6
+          },
+          {
+            "id": 2,
             "size": 3,
             "top_terms": [
               "aligner",
               "production",
               "supervisor"
             ],
-            "pct": 11.1
+            "pct": 10.7
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 3,
             "top_terms": [
               "manager",
               "medical",
-              "global"
+              "supervisor"
             ],
-            "pct": 11.1
+            "pct": 10.7
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 2,
             "top_terms": [
-              "associate",
-              "compliance",
-              "regulatory"
+              "partner",
+              "business",
+              "plant"
             ],
-            "pct": 7.4
+            "pct": 7.1
           }
         ]
       }

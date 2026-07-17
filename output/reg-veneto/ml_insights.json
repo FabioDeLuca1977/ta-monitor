@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T09:07:19.884018",
+  "generated_at": "2026-07-17T09:00:48.199007",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 67,
+  "total_jobs_analyzed": 60,
   "scoring": {
     "average": 12.2,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 6,
+      "good": 3,
+      "medium": 4,
       "low": 2,
-      "irrelevant": 57
+      "irrelevant": 51
     },
     "top_jobs": [
       {
@@ -22,6 +22,14 @@
         "url": "https://www.linkedin.com/jobs/view/4434531248"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist A.P.I.",
+        "company": "NEWCHEM SPA",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4431096548"
+      },
+      {
         "title": "Legal Specialist I Corporate Governance & Regulatory Affairs",
         "company": "REVO Insurance",
         "score": 60,
@@ -30,36 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4434868695"
       },
       {
-        "title": "Regulatory affair specialist",
-        "company": "IACER",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4425868017"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "NEWCHEM SPA",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4431096548"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist A.P.I.",
-        "company": "NEWCHEM SPA",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4431096548"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi",
-        "score": 54,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=7166cc9055150184"
+      },
+      {
+        "title": "Regulatory affair specialist",
+        "company": "IACER",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4425868017"
       },
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
@@ -72,7 +64,7 @@
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -80,7 +72,7 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "Cipriani Industria Srl",
-        "score": 36,
+        "score": 35,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=44eebe6163ed9282"
@@ -118,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4424739480"
       },
       {
-        "title": "Quality Assurance Specialist - Packaging",
-        "company": "Adecco",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4433192743"
-      },
-      {
         "title": "Quality Assurance Specialist",
         "company": "Pietro Fiorentini",
         "score": 13,
@@ -142,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4435958736"
       },
       {
-        "title": "IT Support Specialist",
-        "company": "STUDIO ASSOCIATO COMMERCIALISTI E AVVOCATI",
+        "title": "Quality Assurance Specialist - Packaging",
+        "company": "Adecco",
         "score": 12,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=86e370ae15acf6c2"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4433192743"
       },
       {
         "title": "Product Quality Assurance Engineer",
@@ -166,12 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=490ad9ec267b02dc"
       },
       {
-        "title": "Junior Consultant Governance, Risk & Compliance - Financial Services",
-        "company": "KPMG",
+        "title": "Tecnico trasfertista",
+        "company": "Azienda nel mondo enologico",
         "score": 11,
         "site": "indeed",
-        "date_posted": 1783900800000,
-        "url": "https://it.indeed.com/viewjob?jk=3907ca4bd2041871"
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=cace63f3353c0849"
+      },
+      {
+        "title": "Regulatory & Quality Specialist – Settore Cosmetico",
+        "company": null,
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1783036800000,
+        "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
+      },
+      {
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437692572"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -194,55 +194,58 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "tecnico",
+        "word": "sistema",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "sistema",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "tecnico",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "senior regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
+    {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-52%)",
+      "data": {
+        "current": 2,
+        "avg": 4.1,
+        "change_pct": -51.7
+      }
+    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 4,
-        "total": 4,
-        "pct": 100.0
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 0% (-20pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 100% (+20pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -252,54 +255,54 @@
       "data": {
         "clusters": [
           {
+            "id": 3,
+            "size": 33,
+            "top_terms": [
+              "sistema",
+              "analyst",
+              "responsabile"
+            ],
+            "pct": 55.0
+          },
+          {
             "id": 0,
-            "size": 41,
+            "size": 10,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 2,
+            "size": 8,
             "top_terms": [
               "specialist",
-              "sistema",
-              "addetto"
+              "regulatory",
+              "affairs"
             ],
-            "pct": 61.2
+            "pct": 13.3
           },
           {
             "id": 1,
-            "size": 11,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 16.4
-          },
-          {
-            "id": 4,
-            "size": 6,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 9.0
-          },
-          {
-            "id": 3,
             "size": 5,
             "top_terms": [
               "tecnico",
               "qualità",
               "impiegato"
             ],
-            "pct": 7.5
+            "pct": 8.3
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 4,
             "top_terms": [
               "engineer",
               "mechanical",
-              "facilitator"
+              "product"
             ],
-            "pct": 6.0
+            "pct": 6.7
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T09:07:19.635755",
+  "generated_at": "2026-07-17T09:00:47.926156",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 32.3,
+    "average": 31.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 18,
+      "medium": 17,
       "low": 2,
-      "irrelevant": 8
+      "irrelevant": 9
     },
     "top_jobs": [
       {
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4434976469"
       },
       {
-        "title": "Senior Clinical Research Associate",
-        "company": "Alira Health",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1782345600000,
-        "url": "https://www.linkedin.com/jobs/view/4386508727"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi Italia",
         "score": 47,
@@ -52,14 +44,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439751249"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist",
-        "company": "NEWCHEM SPA",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
         "title": "Senior Regulatory Affairs Specialist A.P.I.",
@@ -142,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4437681668"
       },
       {
+        "title": "Clinical Specialist Trach",
+        "company": "Atos Medical",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440769936"
+      },
+      {
         "title": "ISF - Ginecologia rif. 99727",
         "company": "WeHunt",
         "score": 40,
@@ -172,54 +164,58 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434816816"
+      },
+      {
+        "title": "Production Manager - Pharmaceutical Plant",
+        "company": "Ecolab",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=8ea41c249432b861"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
-    "add_blacklist": [],
+    "add_blacklist": [
+      {
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      }
+    ],
     "review": []
   },
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+32%)",
-      "data": {
-        "current": 3,
-        "avg": 2.3,
-        "change_pct": 32.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 50.0
       }
     },
     {
@@ -229,27 +225,27 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 1,
             "size": 10,
             "top_terms": [
-              "scientifico",
               "informatore",
+              "scientifico",
               "farmaco"
             ],
             "pct": 35.7
           },
           {
-            "id": 1,
-            "size": 7,
+            "id": 4,
+            "size": 8,
             "top_terms": [
-              "clinical",
-              "vicenza",
-              "tap"
+              "specialist",
+              "regulatory",
+              "clinical"
             ],
-            "pct": 25.0
+            "pct": 28.6
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 5,
             "top_terms": [
               "isf",
@@ -259,22 +255,22 @@
             "pct": 17.9
           },
           {
-            "id": 0,
-            "size": 4,
-            "top_terms": [
-              "regulatory",
-              "specialist",
-              "affairs"
-            ],
-            "pct": 14.3
-          },
-          {
             "id": 3,
-            "size": 2,
+            "size": 3,
             "top_terms": [
               "manager",
-              "italy",
-              "clinical"
+              "vicenza",
+              "isf"
+            ],
+            "pct": 10.7
+          },
+          {
+            "id": 2,
+            "size": 2,
+            "top_terms": [
+              "vicenza",
+              "part",
+              "dol"
             ],
             "pct": 7.1
           }

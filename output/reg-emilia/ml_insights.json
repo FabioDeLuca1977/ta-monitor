@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-16T09:07:20.109828",
+  "generated_at": "2026-07-17T09:00:48.436275",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 55,
+  "total_jobs_analyzed": 56,
   "scoring": {
     "average": 14.4,
     "distribution": {
@@ -10,7 +10,7 @@
       "good": 1,
       "medium": 8,
       "low": 3,
-      "irrelevant": 43
+      "irrelevant": 44
     },
     "top_jobs": [
       {
@@ -54,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4433928282"
       },
       {
-        "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
-        "company": "MEDIFLY SRL",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1783296000000,
-        "url": "https://it.indeed.com/viewjob?jk=7193ada0f2cc8aad"
-      },
-      {
         "title": "Senior Regulatory Affairs Specialist, fertilizzanti, agrochimici",
         "company": "SILC Fertilizzanti Srl",
         "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436984747"
+      },
+      {
+        "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
+        "company": "MEDIFLY SRL",
+        "score": 53,
+        "site": "indeed",
+        "date_posted": 1783296000000,
+        "url": "https://it.indeed.com/viewjob?jk=7193ada0f2cc8aad"
       },
       {
         "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
@@ -104,7 +104,7 @@
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 21,
+        "score": 20,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
@@ -118,12 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
-        "title": "Quality Assurance Supervisor",
-        "company": "Phibro Ethanol",
+        "title": "Assistant General Manager – Student Accommodation",
+        "company": "Hines",
         "score": 17,
-        "site": "linkedin",
-        "date_posted": 1783900800000,
-        "url": "https://www.linkedin.com/jobs/view/4439443491"
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=3b1c493494ff171f"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -134,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4434957741"
       },
       {
-        "title": "Senior Network Engineer",
-        "company": "Amaris Consulting",
-        "score": 10,
-        "site": "indeed",
+        "title": "Quality Assurance Supervisor",
+        "company": "Phibro Ethanol",
+        "score": 12,
+        "site": "linkedin",
         "date_posted": 1783900800000,
-        "url": "https://it.indeed.com/viewjob?jk=7f12cc2dfe61b136"
+        "url": "https://www.linkedin.com/jobs/view/4439443491"
       },
       {
         "title": "Tecnico Assistenza (Service Technician)",
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=ce2339d5bf2a655d"
       },
       {
+        "title": "Progettista Meccanico | Creo | Industrial Automation",
+        "company": "Amaris Consulting",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=9cdc3e4358969cf3"
+      },
+      {
         "title": "Quality Assurance Stageur",
         "company": "JSB Solutions",
         "score": 8,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426400861"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439302592"
       }
     ]
   },
@@ -240,33 +240,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-52%)",
+      "data": {
+        "current": 2,
+        "avg": 4.2,
+        "change_pct": -51.9
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
-        "pct": 100.0
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -276,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 21,
+            "id": 2,
+            "size": 26,
             "top_terms": [
-              "tecnico",
-              "sanitario",
+              "associate",
+              "manager",
               "specialist"
             ],
-            "pct": 38.2
-          },
-          {
-            "id": 1,
-            "size": 13,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "junior"
-            ],
-            "pct": 23.6
+            "pct": 46.4
           },
           {
             "id": 3,
-            "size": 10,
+            "size": 13,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "junior"
+            ],
+            "pct": 23.2
+          },
+          {
+            "id": 0,
+            "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 18.2
+            "pct": 14.3
           },
           {
-            "id": 4,
+            "id": 1,
             "size": 7,
             "top_terms": [
               "engineer",
               "product",
               "mechanical"
             ],
-            "pct": 12.7
+            "pct": 12.5
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 4,
+            "size": 2,
             "top_terms": [
-              "associate",
-              "italy",
-              "site"
+              "sales",
+              "specialist",
+              "bologna"
             ],
-            "pct": 7.3
+            "pct": 3.6
           }
         ]
       }
