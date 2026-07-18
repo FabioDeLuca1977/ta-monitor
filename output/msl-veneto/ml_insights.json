@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-17T09:00:47.926156",
+  "generated_at": "2026-07-18T08:55:57.404170",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 31.0,
+    "average": 30.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -22,14 +22,6 @@
         "url": "https://www.linkedin.com/jobs/view/4431063968"
       },
       {
-        "title": "Informatore Scientifico del Farmaco (ISF)",
-        "company": "Professional Recruitment",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1782777600000,
-        "url": "https://www.linkedin.com/jobs/view/4434976469"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi Italia",
         "score": 47,
@@ -44,6 +36,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439751249"
+      },
+      {
+        "title": "Informatore Medico Scientifico Venezia e Treviso",
+        "company": "Agave Group",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1784246400000,
+        "url": "https://www.linkedin.com/jobs/view/4441154975"
       },
       {
         "title": "Senior Regulatory Affairs Specialist A.P.I.",
@@ -64,7 +64,7 @@
       {
         "title": "ISF Specialist Pediatric (f/m/nb)",
         "company": "Randstad Professional Italia",
-        "score": 44,
+        "score": 45,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433933387"
@@ -78,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4431505504"
       },
       {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4423382156"
-      },
-      {
         "title": "Informatore Scientifico del Farmaco - Venezia",
         "company": "Michael Page",
         "score": 42,
         "site": "linkedin",
         "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4432795996"
+      },
+      {
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4438218073"
       },
       {
         "title": "| INFORMATORE SCIENTIFICO | 157165 |",
@@ -118,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4437555003"
       },
       {
+        "title": "ISF - Ginecologia rif. 99727",
+        "company": "WeHunt",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4439137893"
+      },
+      {
         "title": "ISF Ginecologia",
         "company": "PROCARE HEALTH",
         "score": 41,
@@ -132,14 +140,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440769936"
-      },
-      {
-        "title": "ISF - Ginecologia rif. 99727",
-        "company": "WeHunt",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439137893"
       },
       {
         "title": "ISF DRY EYE TRIVENETO",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4434816816"
       },
       {
-        "title": "Production Manager - Pharmaceutical Plant",
-        "company": "Ecolab",
+        "title": "Engineering Manager - Chilled Water",
+        "company": "Vertiv",
         "score": 16,
         "site": "indeed",
-        "date_posted": 1783987200000,
-        "url": "https://it.indeed.com/viewjob?jk=8ea41c249432b861"
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=945646f172b0dccc"
       }
     ]
   },
@@ -189,33 +189,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-56%)",
+      "data": {
+        "current": 1,
+        "avg": 2.2,
+        "change_pct": -55.6
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -225,27 +235,27 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 0,
             "size": 10,
             "top_terms": [
-              "informatore",
               "scientifico",
+              "informatore",
               "farmaco"
             ],
             "pct": 35.7
           },
           {
-            "id": 4,
-            "size": 8,
+            "id": 1,
+            "size": 7,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "clinical"
+              "clinical",
+              "tap",
+              "time"
             ],
-            "pct": 28.6
+            "pct": 25.0
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "isf",
@@ -259,20 +269,20 @@
             "size": 3,
             "top_terms": [
               "manager",
-              "vicenza",
-              "isf"
+              "venezia",
+              "treviso"
             ],
             "pct": 10.7
           },
           {
-            "id": 2,
-            "size": 2,
+            "id": 4,
+            "size": 3,
             "top_terms": [
-              "vicenza",
-              "part",
-              "dol"
+              "regulatory",
+              "specialist",
+              "affairs"
             ],
-            "pct": 7.1
+            "pct": 10.7
           }
         ]
       }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-17T09:00:48.141889",
+  "generated_at": "2026-07-18T08:55:57.577802",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 47,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 30.5,
+    "average": 29.9,
     "distribution": {
       "excellent": 0,
-      "good": 3,
+      "good": 2,
       "medium": 19,
       "low": 8,
       "irrelevant": 17
@@ -16,7 +16,7 @@
       {
         "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
         "company": "Organon Pharmaceuticals",
-        "score": 67,
+        "score": 64,
         "site": "indeed",
         "date_posted": 1783987200000,
         "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
@@ -32,7 +32,7 @@
       {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA",
-        "score": 61,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436863486"
@@ -72,10 +72,18 @@
       {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
         "company": "Johnson & Johnson MedTech",
-        "score": 51,
+        "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4436313312"
+      },
+      {
+        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
+        "company": "QuiCare",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1782777600000,
+        "url": "https://www.linkedin.com/jobs/view/4435142380"
       },
       {
         "title": "Medical Scientific Liaison Diabetes Care-  Nord Ovest",
@@ -86,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4437754949"
       },
       {
-        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
-        "company": "QuiCare",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1782777600000,
-        "url": "https://www.linkedin.com/jobs/view/4435142380"
-      },
-      {
         "title": "Clinical Research Associate 2",
         "company": "Novo Nordisk",
         "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434886707"
+      },
+      {
+        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
+        "company": "Angelini Pharma",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4426407509"
       },
       {
         "title": "Clinical Research Associate II  - Multiple Locations",
@@ -118,36 +126,28 @@
         "url": "https://it.indeed.com/viewjob?jk=c296d6bd2b60d655"
       },
       {
+        "title": "MSL Rare Disease",
+        "company": "Chaberton Professionals",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1782864000000,
+        "url": "https://www.linkedin.com/jobs/view/4435820933"
+      },
+      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 46,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
-        "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
-        "company": "Angelini Pharma",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426407509"
-      },
-      {
-        "title": "Clinical Research Physician - Oncology",
-        "company": "Eli Lilly and Company",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1782432000000,
-        "url": "https://www.linkedin.com/jobs/view/4433861714"
-      },
-      {
-        "title": "MSL Rare Disease",
-        "company": "Chaberton Professionals",
+        "title": "Field Clinical Specialist, Cardiac Rhythm Management (based in Rome)",
+        "company": "Boston Scientific",
         "score": 42,
         "site": "linkedin",
         "date_posted": 1782864000000,
-        "url": "https://www.linkedin.com/jobs/view/4435820933"
+        "url": "https://www.linkedin.com/jobs/view/4435544652"
       },
       {
         "title": "Therapeutic Area Specialist Oncology",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4438807185"
       },
       {
-        "title": "Hospital Clinical Specialist",
-        "company": "Essity",
-        "score": 42,
+        "title": "Clinical Specialist Allergan Aesthetics - Centro-Sud Italia",
+        "company": "Allergan Aesthetics, an AbbVie Company",
+        "score": 41,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4438407530"
+        "url": "https://www.linkedin.com/jobs/view/4436816398"
       }
     ]
   },
@@ -184,12 +184,17 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "lead",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "lead",
+        "word": "sales",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "emergency",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -199,40 +204,50 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 4,
+      "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-36%)",
       "data": {
-        "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.7
+        "current": 2,
+        "avg": 3.1,
+        "change_pct": -36.4
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "data": {
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 0% (-40pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 100% (+40pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -243,53 +258,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 12,
+            "size": 16,
             "top_terms": [
-              "lead",
-              "area",
-              "msl"
+              "manager",
+              "affairs",
+              "italy"
             ],
-            "pct": 25.5
+            "pct": 34.8
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "rome"
+            ],
+            "pct": 23.9
           },
           {
             "id": 1,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "italy",
-              "affairs"
-            ],
-            "pct": 23.4
-          },
-          {
-            "id": 4,
             "size": 10,
             "top_terms": [
               "medical",
               "liaison",
-              "director"
+              "science"
             ],
-            "pct": 21.3
+            "pct": 21.7
           },
           {
-            "id": 2,
-            "size": 9,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "specialist",
-              "clinical",
-              "italia"
+              "lead",
+              "sales",
+              "italy"
             ],
-            "pct": 19.1
+            "pct": 10.9
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 4,
             "top_terms": [
               "research",
-              "clinical",
-              "associate"
+              "associate",
+              "clinical"
             ],
-            "pct": 10.6
+            "pct": 8.7
           }
         ]
       }

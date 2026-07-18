@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-17T09:00:48.522076",
+  "generated_at": "2026-07-18T08:55:57.880007",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 96,
+  "total_jobs_analyzed": 95,
   "scoring": {
-    "average": 8.4,
+    "average": 8.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 90
+      "irrelevant": 89
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 60,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -46,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4431908514"
       },
       {
-        "title": "cerca una tata part-time en Terni",
-        "company": "toptata",
-        "score": 28,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=d9df86cb971cecf4"
-      },
-      {
         "title": "Experienced - Financial Crime",
         "company": "Deloitte",
         "score": 24,
         "site": "indeed",
         "date_posted": 1783036800000,
         "url": "https://it.indeed.com/viewjob?jk=05654cff050bbf66"
+      },
+      {
+        "title": "cerca una tata part-time en Terni",
+        "company": "toptata",
+        "score": 22,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=d9df86cb971cecf4"
       },
       {
         "title": "Operations Project Manager",
@@ -70,11 +70,19 @@
         "url": "https://it.indeed.com/viewjob?jk=4bafaacffa8f3308"
       },
       {
+        "title": "Senior External Affairs Manager, Italy",
+        "company": "SSE PLC",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1784246400000,
+        "url": "https://it.indeed.com/viewjob?jk=582b276841a15c7a"
+      },
+      {
         "title": "Quality Assurance Manager",
         "company": "Michael Page",
         "score": 16,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783036800000,
         "url": "https://www.linkedin.com/jobs/view/4433164759"
       },
       {
@@ -110,20 +118,20 @@
         "url": "https://it.indeed.com/viewjob?jk=d44abbe6ec15d941"
       },
       {
+        "title": "Procurement Specialist",
+        "company": "BSP PHARMACEUTICALS",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1784246400000,
+        "url": "https://it.indeed.com/viewjob?jk=a999d591075b87dc"
+      },
+      {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
         "company": "Johnson & Johnson MedTech",
         "score": 14,
         "site": "linkedin",
         "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4436313312"
-      },
-      {
-        "title": "Manager Up – Compliance",
-        "company": "Deloitte",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1782864000000,
-        "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
       },
       {
         "title": "Accounting Manager",
@@ -134,20 +142,12 @@
         "url": "https://it.indeed.com/viewjob?jk=5e053be9d9a0db5b"
       },
       {
-        "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
-        "company": "Organon Pharmaceuticals",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1783987200000,
-        "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
-      },
-      {
-        "title": "Manager, Global Accounting",
-        "company": "ShopFully",
+        "title": "Manager Up – Compliance",
+        "company": "Deloitte",
         "score": 12,
         "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=ec75f498a41ef87e"
+        "date_posted": 1782864000000,
+        "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
       },
       {
         "title": "Senior Operations Manager",
@@ -185,8 +185,8 @@
       },
       {
         "word": "quality",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -211,41 +211,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 7 (-39%)",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 6 (-38%)",
       "data": {
         "current": 4,
-        "avg": 6.6,
-        "change_pct": -39.1
+        "avg": 6.5,
+        "change_pct": -38.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 2,
+        "new": 3,
         "total": 4,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 25.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 75.0
+        "pct": 75.0
       }
     },
     {
@@ -256,53 +236,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 55,
+            "size": 65,
             "top_terms": [
               "manager",
-              "specialista",
-              "sales"
+              "compliance",
+              "associate"
             ],
-            "pct": 57.3
+            "pct": 68.4
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 13,
             "top_terms": [
               "specialist",
               "quality",
               "site"
             ],
-            "pct": 13.5
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "engineer",
-              "compliance",
-              "italian"
-            ],
-            "pct": 11.5
+            "pct": 13.7
           },
           {
             "id": 2,
-            "size": 11,
+            "size": 10,
             "top_terms": [
               "assurance",
               "quality",
               "consultant"
             ],
-            "pct": 11.5
+            "pct": 10.5
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 4,
             "top_terms": [
-              "associate",
-              "medical",
-              "italy"
+              "specialista",
+              "ed",
+              "esami"
             ],
-            "pct": 6.2
+            "pct": 4.2
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "italian",
+              "speaker",
+              "engineer"
+            ],
+            "pct": 3.2
           }
         ]
       }
