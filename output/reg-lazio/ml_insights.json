@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-18T08:55:57.880007",
+  "generated_at": "2026-07-19T09:25:48.492671",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 95,
   "scoring": {
-    "average": 8.2,
+    "average": 7.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -16,7 +16,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 63,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -56,23 +56,15 @@
       {
         "title": "cerca una tata part-time en Terni",
         "company": "toptata",
-        "score": 22,
+        "score": 23,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=d9df86cb971cecf4"
       },
       {
-        "title": "Operations Project Manager",
-        "company": "Cosmo Pharmaceuticals",
-        "score": 19,
-        "site": "indeed",
-        "date_posted": 1784073600000,
-        "url": "https://it.indeed.com/viewjob?jk=4bafaacffa8f3308"
-      },
-      {
         "title": "Senior External Affairs Manager, Italy",
         "company": "SSE PLC",
-        "score": 18,
+        "score": 19,
         "site": "indeed",
         "date_posted": 1784246400000,
         "url": "https://it.indeed.com/viewjob?jk=582b276841a15c7a"
@@ -84,30 +76,6 @@
         "site": "linkedin",
         "date_posted": 1783036800000,
         "url": "https://www.linkedin.com/jobs/view/4433164759"
-      },
-      {
-        "title": "Senior Quality Assurance Manager",
-        "company": "Istituto Poligrafico e Zecca dello Stato (IPZS)",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1782864000000,
-        "url": "https://www.linkedin.com/jobs/view/4432392408"
-      },
-      {
-        "title": "Senior Development & Compensation Specialist",
-        "company": "ITA airways",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1784073600000,
-        "url": "https://it.indeed.com/viewjob?jk=33e8d70390a58a73"
-      },
-      {
-        "title": "Production Quality Specialist",
-        "company": "Thermo Fisher Scientific",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1784073600000,
-        "url": "https://it.indeed.com/viewjob?jk=93179cb7792b7f0f"
       },
       {
         "title": "Site Activation Specialist",
@@ -134,20 +102,28 @@
         "url": "https://www.linkedin.com/jobs/view/4436313312"
       },
       {
+        "title": "Operations Project Manager",
+        "company": "Cosmo Pharmaceuticals",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1784073600000,
+        "url": "https://it.indeed.com/viewjob?jk=4bafaacffa8f3308"
+      },
+      {
+        "title": "Manager Up – Compliance",
+        "company": "Deloitte",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1782864000000,
+        "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
+      },
+      {
         "title": "Accounting Manager",
         "company": "Fendi",
         "score": 13,
         "site": "indeed",
         "date_posted": 1783900800000,
         "url": "https://it.indeed.com/viewjob?jk=5e053be9d9a0db5b"
-      },
-      {
-        "title": "Manager Up – Compliance",
-        "company": "Deloitte",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1782864000000,
-        "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
       },
       {
         "title": "Senior Operations Manager",
@@ -172,6 +148,30 @@
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
+      },
+      {
+        "title": "Clinical Trial Manager - maternity cover",
+        "company": "Nouscom Srl",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
+      },
+      {
+        "title": "AML Compliance Officer",
+        "company": "Western Union",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1784246400000,
+        "url": "https://it.indeed.com/viewjob?jk=528720cc1f375eae"
+      },
+      {
+        "title": "Estetisti (Professioni dei servizi alla persona)",
+        "company": "The Hive Hotel",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1784332800000,
+        "url": "https://it.indeed.com/viewjob?jk=06bb5c2a32613451"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -194,14 +194,14 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "assurance",
+        "word": "engineer",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "assurance",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -210,22 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 6 (-38%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
       "data": {
-        "current": 4,
-        "avg": 6.5,
-        "change_pct": -38.5
+        "current": 1,
+        "avg": 6.7,
+        "change_pct": -85.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 25.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 75.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -236,16 +256,16 @@
         "clusters": [
           {
             "id": 0,
-            "size": 65,
+            "size": 53,
             "top_terms": [
-              "manager",
-              "compliance",
-              "associate"
+              "specialista",
+              "associate",
+              "italy"
             ],
-            "pct": 68.4
+            "pct": 55.8
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 13,
             "top_terms": [
               "specialist",
@@ -255,7 +275,17 @@
             "pct": 13.7
           },
           {
-            "id": 2,
+            "id": 3,
+            "size": 11,
+            "top_terms": [
+              "manager",
+              "accounting",
+              "operations"
+            ],
+            "pct": 11.6
+          },
+          {
+            "id": 1,
             "size": 10,
             "top_terms": [
               "assurance",
@@ -266,23 +296,13 @@
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 8,
             "top_terms": [
-              "specialista",
-              "ed",
-              "esami"
+              "engineer",
+              "based",
+              "model"
             ],
-            "pct": 4.2
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "italian",
-              "speaker",
-              "engineer"
-            ],
-            "pct": 3.2
+            "pct": 8.4
           }
         ]
       }

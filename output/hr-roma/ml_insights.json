@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-18T08:55:57.290288",
+  "generated_at": "2026-07-19T09:25:47.760526",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 205,
+  "total_jobs_analyzed": 200,
   "scoring": {
-    "average": 20.4,
+    "average": 20.2,
     "distribution": {
       "excellent": 0,
-      "good": 7,
+      "good": 6,
       "medium": 38,
-      "low": 48,
-      "irrelevant": 112
+      "low": 46,
+      "irrelevant": 110
     },
     "top_jobs": [
       {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434538053"
@@ -24,7 +24,7 @@
       {
         "title": "Talent Acquisition Manager",
         "company": "Pellicano Hotels",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1783036800000,
         "url": "https://www.linkedin.com/jobs/view/4436477832"
@@ -48,18 +48,10 @@
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441994085"
-      },
-      {
-        "title": "Hr Specialist",
-        "company": "agap2",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4431095276"
       },
       {
         "title": "HR Talent Acquisition & Employer Branding Intern",
@@ -112,7 +104,7 @@
       {
         "title": "Stage HR Generalist",
         "company": "Daimler Truck",
-        "score": 57,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1783296000000,
         "url": "https://it.indeed.com/viewjob?jk=dfe0822d4af17ffe"
@@ -124,14 +116,6 @@
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=588de47c80b8786b"
-      },
-      {
-        "title": "Addetto selezione e formazione HR - Dispositivi depurazione domestica",
-        "company": "Tuolavoro-Lazio",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437598391"
       },
       {
         "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
@@ -150,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4440783727"
       },
       {
-        "title": "HR officer per prodotti benessere generale",
-        "company": "Tuolavoro-Lazio",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441339707"
-      },
-      {
         "title": "HR Officer - Gestione Servizi Clienti",
         "company": "Tuolavoro-Lazio",
         "score": 54,
@@ -170,8 +146,32 @@
         "company": "GXO Logistics, Inc.",
         "score": 53,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783036800000,
         "url": "https://www.linkedin.com/jobs/view/4399946888"
+      },
+      {
+        "title": "HR Business Partner, EU One PXT",
+        "company": "Amazon",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4400240730"
+      },
+      {
+        "title": "HR Officer per supporto attività aziendali",
+        "company": "key-absolute",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437094600"
+      },
+      {
+        "title": "HR officer per prodotti benessere generale",
+        "company": "Tuolavoro-Lazio",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441339707"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 38,
-        "reason": "Appare 38x in annunci a basso score"
+        "count": 39,
+        "reason": "Appare 39x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 38,
-        "reason": "Appare 38x in annunci a basso score"
+        "count": 39,
+        "reason": "Appare 39x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -195,8 +195,8 @@
       },
       {
         "word": "sales",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "assistant",
@@ -241,22 +241,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 14 (-36%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-86%)",
       "data": {
-        "current": 9,
-        "avg": 14.0,
-        "change_pct": -35.7
+        "current": 2,
+        "avg": 14.1,
+        "change_pct": -85.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 3,
-        "total": 9,
-        "pct": 33.3
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 50.0
       }
     },
     {
@@ -267,53 +287,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 93,
+            "size": 110,
             "top_terms": [
-              "sales",
-              "tecnico",
-              "assistant"
-            ],
-            "pct": 45.4
-          },
-          {
-            "id": 2,
-            "size": 45,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 22.0
-          },
-          {
-            "id": 4,
-            "size": 36,
-            "top_terms": [
-              "specialist",
               "hr",
-              "business"
+              "sales",
+              "manager"
             ],
-            "pct": 17.6
-          },
-          {
-            "id": 1,
-            "size": 23,
-            "top_terms": [
-              "addetto",
-              "selezione",
-              "personale"
-            ],
-            "pct": 11.2
+            "pct": 55.0
           },
           {
             "id": 3,
-            "size": 8,
+            "size": 28,
             "top_terms": [
-              "manager",
-              "program",
-              "acquisition"
+              "addetto",
+              "umane",
+              "risorse"
             ],
-            "pct": 3.9
+            "pct": 14.0
+          },
+          {
+            "id": 2,
+            "size": 27,
+            "top_terms": [
+              "risorse",
+              "umane",
+              "impiegato"
+            ],
+            "pct": 13.5
+          },
+          {
+            "id": 4,
+            "size": 19,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "junior"
+            ],
+            "pct": 9.5
+          },
+          {
+            "id": 1,
+            "size": 16,
+            "top_terms": [
+              "selezione",
+              "addetto",
+              "personale"
+            ],
+            "pct": 8.0
           }
         ]
       }
