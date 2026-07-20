@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-19T09:25:48.410394",
+  "generated_at": "2026-07-20T10:21:15.772282",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 57,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 14.4,
+    "average": 14.2,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 8,
-      "low": 3,
+      "good": 0,
+      "medium": 9,
+      "low": 4,
       "irrelevant": 45
     },
     "top_jobs": [
       {
         "title": "Regulatory Affair Specialist",
         "company": "Teoresi MedTech",
-        "score": 66,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4439210573"
@@ -66,13 +66,13 @@
         "company": "SILC Fertilizzanti Srl",
         "score": 53,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783209600000,
         "url": "https://www.linkedin.com/jobs/view/4436984747"
       },
       {
         "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
         "company": "MEDIFLY SRL",
-        "score": 52,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1783296000000,
         "url": "https://it.indeed.com/viewjob?jk=7193ada0f2cc8aad"
@@ -88,7 +88,7 @@
       {
         "title": "Site Regulatory Compliance Associate",
         "company": "Menarini",
-        "score": 35,
+        "score": 36,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=8fbd8d5ef0a605ca"
@@ -104,10 +104,18 @@
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 20,
+        "score": 21,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "falorni pharma",
+        "score": 21,
+        "site": "indeed",
+        "date_posted": 1784505600000,
+        "url": "https://it.indeed.com/viewjob?jk=527ad2d04d71212f"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -118,17 +126,9 @@
         "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
-        "title": "Assistant General Manager – Student Accommodation",
-        "company": "Hines",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=3b1c493494ff171f"
-      },
-      {
         "title": "QUALITY ASSURANCE SPECIALIST",
         "company": "AB PROFESSIONAL SEARCH SAGL",
-        "score": 14,
+        "score": 12,
         "site": "linkedin",
         "date_posted": 1782777600000,
         "url": "https://www.linkedin.com/jobs/view/4434957741"
@@ -142,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4439443491"
       },
       {
+        "title": "Assistant General Manager – Student Accommodation",
+        "company": "Hines",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=3b1c493494ff171f"
+      },
+      {
         "title": "Electrical Project Commissioning | Oil & Gas",
         "company": "Amaris Consulting",
         "score": 12,
@@ -150,28 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=7c902ba565aad9f2"
       },
       {
-        "title": "HSE - Internship",
-        "company": "Bosch",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=ce2339d5bf2a655d"
-      },
-      {
-        "title": "Progettista Meccanico | Creo | Industrial Automation",
-        "company": "Amaris Consulting",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=9cdc3e4358969cf3"
-      },
-      {
         "title": "Mechanical Commissioning Engineer | Oil &Gas",
         "company": "Amaris Consulting",
         "score": 10,
         "site": "indeed",
         "date_posted": 1784246400000,
         "url": "https://it.indeed.com/viewjob?jk=a2e134edb7860af7"
+      },
+      {
+        "title": "Rep Inside Sales",
+        "company": "Donaldson",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1784246400000,
+        "url": "https://it.indeed.com/viewjob?jk=443bd026e57c80c8"
       }
     ]
   },
@@ -189,6 +189,11 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
+        "word": "specialist",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
         "word": "engineer",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
@@ -197,11 +202,6 @@
         "word": "junior",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "product",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -242,41 +242,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-53%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
-        "current": 2,
-        "avg": 4.2,
-        "change_pct": -52.7
+        "current": 1,
+        "avg": 4.4,
+        "change_pct": -77.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -286,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 29,
+            "id": 1,
+            "size": 33,
             "top_terms": [
+              "engineer",
               "associate",
-              "specialist",
-              "sales"
+              "specialist"
             ],
-            "pct": 50.9
+            "pct": 56.9
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.0
+            "pct": 13.8
           },
           {
-            "id": 0,
-            "size": 7,
-            "top_terms": [
-              "engineer",
-              "mechanical",
-              "gas"
-            ],
-            "pct": 12.3
-          },
-          {
-            "id": 1,
-            "size": 7,
+            "id": 4,
+            "size": 8,
             "top_terms": [
               "assurance",
               "quality",
               "supervisor"
             ],
-            "pct": 12.3
+            "pct": 13.8
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 6,
             "top_terms": [
               "junior",
               "assurance",
               "quality"
             ],
-            "pct": 10.5
+            "pct": 10.3
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "gas",
+              "commissioning",
+              "oil"
+            ],
+            "pct": 5.2
           }
         ]
       }

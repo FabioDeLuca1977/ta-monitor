@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-19T09:25:48.028429",
+  "generated_at": "2026-07-20T10:21:15.401084",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 193,
+  "total_jobs_analyzed": 191,
   "scoring": {
-    "average": 28.2,
+    "average": 28.5,
     "distribution": {
       "excellent": 0,
-      "good": 8,
-      "medium": 79,
-      "low": 17,
-      "irrelevant": 89
+      "good": 6,
+      "medium": 81,
+      "low": 18,
+      "irrelevant": 86
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434844952"
-      },
-      {
-        "title": "(Associate) Medical Director - Neurology",
-        "company": "Thermo Fisher Scientific",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4420711361"
       },
       {
         "title": "NextGen Medical Affairs Manager, THV",
@@ -52,14 +44,6 @@
         "site": "linkedin",
         "date_posted": 1782777600000,
         "url": "https://www.linkedin.com/jobs/view/4435114665"
-      },
-      {
-        "title": "Manager, Medical Writing (Publications)",
-        "company": "Thermo Fisher Scientific",
-        "score": 62,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=c3e6469835657e8d"
       },
       {
         "title": "Senior Medical Advisor Rare Hematology, Nephrology, Transplant and Amyloidosis",
@@ -94,6 +78,14 @@
         "url": "https://www.linkedin.com/jobs/view/4438095697"
       },
       {
+        "title": "(Associate) Medical Director - Neurology",
+        "company": "Thermo Fisher Scientific",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4420711361"
+      },
+      {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
         "score": 57,
@@ -116,6 +108,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431241411"
+      },
+      {
+        "title": "Manager, Medical Writing (Publications)",
+        "company": "Thermo Fisher Scientific",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=c3e6469835657e8d"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
+        "company": "QVC Italy",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1784073600000,
+        "url": "https://www.linkedin.com/jobs/view/4440229244"
       },
       {
         "title": "Hepatology - Medical Director",
@@ -142,36 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4411500965"
       },
       {
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Medical Science Liaison Rhinology and Gastroenterology",
+        "company": "Sanofi",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1782777600000,
+        "url": "https://it.indeed.com/viewjob?jk=6546540a26671bb2"
+      },
+      {
         "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
         "company": "OLCELLI FARMACEUTICI SRL",
         "score": 55,
         "site": "indeed",
         "date_posted": 1782777600000,
         "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
-      },
-      {
-        "title": "Medical Science Liaison Rhinology and Gastroenterology",
-        "company": "Sanofi",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=6546540a26671bb2"
-      },
-      {
-        "title": "(Associate) Medical Director - Rheumatology, EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429846484"
-      },
-      {
-        "title": "Regulatory Affairs Manager",
-        "company": "Regulatory Pharma Net - RPN",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4433748628"
       }
     ]
   },
@@ -180,8 +180,13 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
+      },
+      {
+        "word": "director",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "clinical",
@@ -194,30 +199,19 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "project",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "access",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "associate",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
-      "keyword": "italy",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
       "keyword": "specialist medical",
-      "frequency": 2,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 45
     },
     {
       "keyword": "rare diseases",
@@ -226,9 +220,51 @@
       "confidence": 30
     },
     {
-      "keyword": "rare",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
+      "keyword": "qa product",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "product validation",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "validation approval",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "approval specialist",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "devices cosmetics",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "cosmetics regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "affairs sostituzione",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "sostituzione maternità",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     }
   ],
@@ -236,21 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-85%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 13 (-55%)",
       "data": {
-        "current": 2,
-        "avg": 13.6,
-        "change_pct": -85.3
+        "current": 6,
+        "avg": 13.2,
+        "change_pct": -54.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
       "data": {
         "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "total": 6,
+        "pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -260,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 74,
+            "id": 0,
+            "size": 65,
             "top_terms": [
               "specialist",
-              "quality",
-              "cra"
+              "cra",
+              "analyst"
             ],
-            "pct": 38.3
+            "pct": 34.0
           },
           {
-            "id": 1,
-            "size": 45,
+            "id": 2,
+            "size": 40,
             "top_terms": [
               "medical",
               "director",
               "associate"
             ],
-            "pct": 23.3
+            "pct": 20.9
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 36,
             "top_terms": [
               "manager",
               "project",
               "medical"
             ],
-            "pct": 18.7
+            "pct": 18.8
           },
           {
-            "id": 0,
-            "size": 25,
+            "id": 4,
+            "size": 26,
+            "top_terms": [
+              "clinical",
+              "research",
+              "associate"
+            ],
+            "pct": 13.6
+          },
+          {
+            "id": 3,
+            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.0
-          },
-          {
-            "id": 4,
-            "size": 13,
-            "top_terms": [
-              "research",
-              "clinical",
-              "associate"
-            ],
-            "pct": 6.7
+            "pct": 12.6
           }
         ]
       }

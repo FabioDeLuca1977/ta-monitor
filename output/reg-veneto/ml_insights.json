@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-19T09:25:48.173341",
+  "generated_at": "2026-07-20T10:21:15.543099",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 11.5,
+    "average": 11.2,
     "distribution": {
       "excellent": 0,
       "good": 3,
@@ -118,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4433192743"
       },
       {
-        "title": "Tecnico trasfertista",
-        "company": "Azienda nel mondo enologico",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=cace63f3353c0849"
-      },
-      {
         "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
         "company": "GSK",
         "score": 10,
@@ -142,22 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4439796610"
       },
       {
-        "title": "Impiegato tecnico commerciale",
-        "company": "PERIN SRL",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=95d230c7aef491c9"
-      },
-      {
-        "title": "Tirocinio - Gestione del cliente certificazioni Food",
-        "company": "CSQA CERTIFICAZIONI",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=93b5460e6710003f"
-      },
-      {
         "title": "Geometra di cantiere",
         "company": "ML Costruzioni",
         "score": 10,
@@ -172,6 +148,30 @@
         "site": "indeed",
         "date_posted": 1783036800000,
         "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
+      },
+      {
+        "title": "Sales Specialist- Venezia",
+        "company": "R-STORE S.p.A",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=6ebc4f8e5d2e2dc1"
+      },
+      {
+        "title": "Quality Assurance Intern",
+        "company": "Stevanato Group",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": 1782950400000,
+        "url": "https://www.linkedin.com/jobs/view/4432764536"
+      },
+      {
+        "title": "JR QUALITY ASSURANCE ( QUALITA' PROCESSO)",
+        "company": "Grafton Recruitment",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1782691200000,
+        "url": "https://www.linkedin.com/jobs/view/4431520519"
       }
     ]
   },
@@ -210,12 +210,12 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-50%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-54%)",
       "data": {
         "current": 2,
-        "avg": 4.0,
-        "change_pct": -50.0
+        "avg": 4.3,
+        "change_pct": -53.6
       }
     },
     {
@@ -240,21 +240,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 100.0,
         "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -274,7 +274,7 @@
             "pct": 55.2
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 10,
             "top_terms": [
               "assurance",
@@ -294,7 +294,7 @@
             "pct": 13.8
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "tecnico",

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-19T09:25:48.492671",
+  "generated_at": "2026-07-20T10:21:15.851561",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 95,
   "scoring": {
-    "average": 7.8,
+    "average": 8.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
-      "low": 2,
-      "irrelevant": 89
+      "low": 4,
+      "irrelevant": 87
     },
     "top_jobs": [
       {
@@ -56,10 +56,26 @@
       {
         "title": "cerca una tata part-time en Terni",
         "company": "toptata",
-        "score": 23,
+        "score": 22,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=d9df86cb971cecf4"
+      },
+      {
+        "title": "cerca una tata part-time à Terni 05100",
+        "company": "toptata",
+        "score": 22,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=f9e36a9f577329b6"
+      },
+      {
+        "title": "Quality Assurance Executive Manager",
+        "company": "NTT DATA Europe & Latam",
+        "score": 21,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4441468380"
       },
       {
         "title": "Senior External Affairs Manager, Italy",
@@ -138,7 +154,7 @@
         "company": "AbbVie",
         "score": 11,
         "site": "indeed",
-        "date_posted": 1782691200000,
+        "date_posted": 1783296000000,
         "url": "https://it.indeed.com/viewjob?jk=cc5a4bae2ae50b09"
       },
       {
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
-      },
-      {
-        "title": "AML Compliance Officer",
-        "company": "Western Union",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1784246400000,
-        "url": "https://it.indeed.com/viewjob?jk=528720cc1f375eae"
-      },
-      {
-        "title": "Estetisti (Professioni dei servizi alla persona)",
-        "company": "The Hive Hotel",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1784332800000,
-        "url": "https://it.indeed.com/viewjob?jk=06bb5c2a32613451"
       }
     ]
   },
@@ -211,41 +211,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 7 (-85%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 7 (-70%)",
       "data": {
-        "current": 1,
-        "avg": 6.7,
-        "change_pct": -85.1
+        "current": 2,
+        "avg": 6.6,
+        "change_pct": -69.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -255,34 +255,24 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 53,
+            "id": 4,
+            "size": 61,
             "top_terms": [
-              "specialista",
-              "associate",
-              "italy"
+              "manager",
+              "engineer",
+              "senior"
             ],
-            "pct": 55.8
+            "pct": 64.2
           },
           {
-            "id": 2,
-            "size": 13,
+            "id": 0,
+            "size": 12,
             "top_terms": [
               "specialist",
               "quality",
               "site"
             ],
-            "pct": 13.7
-          },
-          {
-            "id": 3,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "accounting",
-              "operations"
-            ],
-            "pct": 11.6
+            "pct": 12.6
           },
           {
             "id": 1,
@@ -295,14 +285,24 @@
             "pct": 10.5
           },
           {
-            "id": 4,
-            "size": 8,
+            "id": 2,
+            "size": 7,
             "top_terms": [
-              "engineer",
-              "based",
-              "model"
+              "compliance",
+              "manager",
+              "quality"
             ],
-            "pct": 8.4
+            "pct": 7.4
+          },
+          {
+            "id": 3,
+            "size": 5,
+            "top_terms": [
+              "specialista",
+              "ed",
+              "trial"
+            ],
+            "pct": 5.3
           }
         ]
       }

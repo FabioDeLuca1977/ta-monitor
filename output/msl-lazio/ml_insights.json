@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-19T09:25:48.117861",
+  "generated_at": "2026-07-20T10:21:15.488809",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 47,
   "scoring": {
-    "average": 29.1,
+    "average": 29.0,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -90,8 +90,8 @@
         "company": "QuiCare",
         "score": 49,
         "site": "linkedin",
-        "date_posted": 1782777600000,
-        "url": "https://www.linkedin.com/jobs/view/4435142380"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437150708"
       },
       {
         "title": "Medical Scientific Liaison Diabetes Care-  Nord Ovest",
@@ -218,21 +218,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-70%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
       "data": {
         "current": 1,
-        "avg": 3.3,
-        "change_pct": -69.6
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "avg": 3.5,
+        "change_pct": -71.7
       }
     },
     {
@@ -246,60 +236,70 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
+            "id": 1,
+            "size": 16,
+            "top_terms": [
+              "associate",
+              "research",
+              "lead"
+            ],
+            "pct": 34.0
+          },
+          {
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "area"
+            ],
+            "pct": 21.3
+          },
+          {
             "id": 0,
-            "size": 11,
+            "size": 7,
+            "top_terms": [
+              "manager",
+              "affairs",
+              "trial"
+            ],
+            "pct": 14.9
+          },
+          {
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "medical",
               "liaison",
               "science"
             ],
-            "pct": 23.4
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "rome"
-            ],
-            "pct": 23.4
+            "pct": 14.9
           },
           {
             "id": 4,
-            "size": 11,
+            "size": 7,
             "top_terms": [
-              "lead",
-              "area",
-              "process"
-            ],
-            "pct": 23.4
-          },
-          {
-            "id": 2,
-            "size": 9,
-            "top_terms": [
-              "manager",
               "italy",
-              "cra"
+              "operations",
+              "temporary"
             ],
-            "pct": 19.1
-          },
-          {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "research",
-              "associate",
-              "clinical"
-            ],
-            "pct": 10.6
+            "pct": 14.9
           }
         ]
       }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-19T09:25:47.760526",
+  "generated_at": "2026-07-20T10:21:15.134090",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 200,
+  "total_jobs_analyzed": 203,
   "scoring": {
-    "average": 20.2,
+    "average": 20.5,
     "distribution": {
       "excellent": 0,
       "good": 6,
-      "medium": 38,
+      "medium": 41,
       "low": 46,
       "irrelevant": 110
     },
@@ -16,7 +16,7 @@
       {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434538053"
@@ -24,7 +24,7 @@
       {
         "title": "Talent Acquisition Manager",
         "company": "Pellicano Hotels",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": 1783036800000,
         "url": "https://www.linkedin.com/jobs/view/4436477832"
@@ -48,7 +48,7 @@
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441994085"
@@ -56,7 +56,7 @@
       {
         "title": "HR Talent Acquisition & Employer Branding Intern",
         "company": "Ayvens",
-        "score": 61,
+        "score": 60,
         "site": "indeed",
         "date_posted": 1782777600000,
         "url": "https://it.indeed.com/viewjob?jk=14216df5ce56ddd5"
@@ -118,6 +118,22 @@
         "url": "https://it.indeed.com/viewjob?jk=588de47c80b8786b"
       },
       {
+        "title": "Addetto selezione e formazione HR - Dispositivi depurazione domestica",
+        "company": "Tuolavoro-Lazio",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437598391"
+      },
+      {
+        "title": "HR Officer - Gestione Servizi Clienti",
+        "company": "Tuolavoro-Lazio",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441355012"
+      },
+      {
         "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
         "company": "Aenova Group",
         "score": 54,
@@ -126,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4432361045"
       },
       {
-        "title": "HR officer Tecnologie per Comfort Domestico",
+        "title": "HR officer per prodotti benessere generale",
         "company": "Tuolavoro-Lazio",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440783727"
+        "url": "https://www.linkedin.com/jobs/view/4441339707"
       },
       {
-        "title": "HR Officer - Gestione Servizi Clienti",
-        "company": "Tuolavoro-Lazio",
-        "score": 54,
+        "title": "HR Business Partner, EU One PXT",
+        "company": "Amazon",
+        "score": 53,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441355012"
+        "date_posted": 1783123200000,
+        "url": "https://www.linkedin.com/jobs/view/4400240730"
       },
       {
         "title": "HR Business Partner (Centro Italia)",
@@ -150,28 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4399946888"
       },
       {
-        "title": "HR Business Partner, EU One PXT",
-        "company": "Amazon",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4400240730"
-      },
-      {
         "title": "HR Officer per supporto attività aziendali",
         "company": "key-absolute",
         "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4437094600"
-      },
-      {
-        "title": "HR officer per prodotti benessere generale",
-        "company": "Tuolavoro-Lazio",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441339707"
       }
     ]
   },
@@ -232,6 +232,12 @@
       "confidence": 30
     },
     {
+      "keyword": "ricerca selezione",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "gestione",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -242,41 +248,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 14 (-86%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 14 (-79%)",
       "data": {
-        "current": 2,
-        "avg": 14.1,
-        "change_pct": -85.9
+        "current": 3,
+        "avg": 14.3,
+        "change_pct": -79.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
+      "message": "📡 indeed: quota passata da 50% a 33% (-17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 67% (+17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -286,54 +292,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 1,
             "size": 110,
             "top_terms": [
               "hr",
-              "sales",
-              "manager"
+              "manager",
+              "tecnico"
             ],
-            "pct": 55.0
+            "pct": 54.2
           },
           {
-            "id": 3,
-            "size": 28,
+            "id": 2,
+            "size": 48,
             "top_terms": [
               "addetto",
               "umane",
               "risorse"
             ],
-            "pct": 14.0
-          },
-          {
-            "id": 2,
-            "size": 27,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "impiegato"
-            ],
-            "pct": 13.5
+            "pct": 23.6
           },
           {
             "id": 4,
-            "size": 19,
+            "size": 20,
             "top_terms": [
               "specialist",
               "hr",
               "junior"
             ],
-            "pct": 9.5
+            "pct": 9.9
           },
           {
-            "id": 1,
-            "size": 16,
+            "id": 0,
+            "size": 14,
             "top_terms": [
-              "selezione",
-              "addetto",
-              "personale"
+              "responsabile",
+              "umane",
+              "risorse"
             ],
-            "pct": 8.0
+            "pct": 6.9
+          },
+          {
+            "id": 3,
+            "size": 11,
+            "top_terms": [
+              "sales",
+              "assistant",
+              "roma"
+            ],
+            "pct": 5.4
           }
         ]
       }
