@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-07-20T10:21:15.488809",
+  "generated_at": "2026-07-21T09:39:31.964574",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 47,
   "scoring": {
-    "average": 29.0,
+    "average": 30.7,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 19,
-      "low": 7,
-      "irrelevant": 19
+      "good": 3,
+      "medium": 20,
+      "low": 6,
+      "irrelevant": 18
     },
     "top_jobs": [
       {
+        "title": "Medical Science Liaison (MSL) - Central Italy",
+        "company": "MSD",
+        "score": 70,
+        "site": "indeed",
+        "date_posted": 1784505600000,
+        "url": "https://it.indeed.com/viewjob?jk=2885a7ae1d0bd866"
+      },
+      {
         "title": "Field Medical Advisor - Italy",
         "company": "Syneos Health Commercial Solutions",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1782777600000,
         "url": "https://www.linkedin.com/jobs/view/4426342053"
@@ -24,7 +32,7 @@
       {
         "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
         "company": "Organon Pharmaceuticals",
-        "score": 61,
+        "score": 60,
         "site": "indeed",
         "date_posted": 1783987200000,
         "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
@@ -32,7 +40,7 @@
       {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436863486"
@@ -54,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4430973378"
       },
       {
+        "title": "Medical Science Manager, Oncology, Italy",
+        "company": "Amplity",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440244615"
+      },
+      {
         "title": "Medical Scientific Liaison (MSL) x 2 Abbott Diabetes Care (Nord Ovest & Sud)",
         "company": "Abbott",
         "score": 53,
@@ -62,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4437754949"
       },
       {
-        "title": "Medical Science Manager, Oncology, Italy",
-        "company": "Amplity",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440244615"
+        "title": "Regulatory Affairs Intern",
+        "company": "Kenvue",
+        "score": 52,
+        "site": "indeed",
+        "date_posted": 1784505600000,
+        "url": "https://it.indeed.com/viewjob?jk=df705abcb0e03bce"
       },
       {
         "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
@@ -90,13 +106,13 @@
         "company": "QuiCare",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783296000000,
         "url": "https://www.linkedin.com/jobs/view/4437150708"
       },
       {
         "title": "Medical Scientific Liaison Diabetes Care-  Nord Ovest",
         "company": "Abbott",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1783382400000,
         "url": "https://www.linkedin.com/jobs/view/4437754949"
@@ -128,7 +144,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 45,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -136,7 +152,7 @@
       {
         "title": "MSL Rare Disease",
         "company": "Chaberton Professionals",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": 1782864000000,
         "url": "https://www.linkedin.com/jobs/view/4435820933"
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438806248"
-      },
-      {
-        "title": "Therapeutic Area Specialist Oncology - (Area Lombardia)",
-        "company": "Merck Healthcare",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1783555200000,
-        "url": "https://www.linkedin.com/jobs/view/4438807185"
-      },
-      {
-        "title": "Hospital Clinical Specialist",
-        "company": "Essity",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4438407530"
       }
     ]
   },
@@ -209,39 +209,49 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 4,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 50
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-72%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-42%)",
       "data": {
-        "current": 1,
+        "current": 2,
         "avg": 3.5,
-        "change_pct": -71.7
+        "change_pct": -42.2
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "data": {
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -252,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 2,
             "size": 16,
             "top_terms": [
-              "associate",
-              "research",
-              "lead"
+              "lead",
+              "italy",
+              "regulatory"
             ],
             "pct": 34.0
           },
           {
-            "id": 2,
-            "size": 10,
+            "id": 1,
+            "size": 13,
             "top_terms": [
               "specialist",
               "clinical",
-              "area"
+              "rome"
             ],
-            "pct": 21.3
+            "pct": 27.7
           },
           {
             "id": 0,
             "size": 7,
             "top_terms": [
-              "manager",
-              "affairs",
-              "trial"
+              "associate",
+              "research",
+              "clinical"
             ],
             "pct": 14.9
           },
           {
             "id": 3,
-            "size": 7,
+            "size": 6,
             "top_terms": [
-              "medical",
               "liaison",
-              "science"
+              "science",
+              "medical"
             ],
-            "pct": 14.9
+            "pct": 12.8
           },
           {
             "id": 4,
-            "size": 7,
+            "size": 5,
             "top_terms": [
-              "italy",
-              "operations",
-              "temporary"
+              "manager",
+              "trial",
+              "cover"
             ],
-            "pct": 14.9
+            "pct": 10.6
           }
         ]
       }

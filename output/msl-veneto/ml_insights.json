@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-20T10:21:15.274824",
+  "generated_at": "2026-07-21T09:39:31.752854",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 26,
   "scoring": {
-    "average": 29.3,
+    "average": 28.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 15,
-      "low": 2,
-      "irrelevant": 9
+      "low": 1,
+      "irrelevant": 10
     },
     "top_jobs": [
       {
@@ -30,22 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4439751249"
       },
       {
-        "title": "Informatore Medico Scientifico Venezia e Treviso",
-        "company": "Agave Group",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4441154975"
-      },
-      {
-        "title": "Senior Regulatory Affairs Specialist A.P.I.",
-        "company": "NEWCHEM SPA",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1782691200000,
-        "url": "https://www.linkedin.com/jobs/view/4431096548"
-      },
-      {
         "title": "Informatore scientifico specialist oncologia",
         "company": "Grafton Recruitment",
         "score": 46,
@@ -54,11 +38,19 @@
         "url": "https://www.linkedin.com/jobs/view/4434552755"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist A.P.I.",
+        "company": "NEWCHEM SPA",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4431096548"
+      },
+      {
         "title": "ISF Specialist Pediatric (f/m/nb)",
         "company": "Randstad Professional Italia",
         "score": 45,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783296000000,
         "url": "https://www.linkedin.com/jobs/view/4433933387"
       },
       {
@@ -92,6 +84,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440009236"
+      },
+      {
+        "title": "Informatore Medico Scientifico Venezia e Treviso",
+        "company": "Agave Group",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1784246400000,
+        "url": "https://www.linkedin.com/jobs/view/4441154975"
       },
       {
         "title": "Informatore Scientifico del Farmaco - Treviso e Belluno",
@@ -134,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
-        "title": "Regulatory affair specialist",
-        "company": "IACER",
-        "score": 39,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4425868017"
-      },
-      {
         "title": "Informatore medico scientifico",
         "company": "Eberlife Farmaceutici",
         "score": 38,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4434816816"
+      },
+      {
+        "title": "Local Study Manager (LDL) - Oncology",
+        "company": "GSK",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1784505600000,
+        "url": "https://it.indeed.com/viewjob?jk=dda72531206dfb5c"
       },
       {
         "title": "Production Manager - Pharmaceutical Plant",
@@ -168,7 +168,7 @@
       {
         "title": "Territory Manager",
         "company": "Ferring Pharmaceuticals, Inc.",
-        "score": 7,
+        "score": 6,
         "site": "indeed",
         "date_posted": 1783468800000,
         "url": "https://it.indeed.com/viewjob?jk=416eb85c3abdee15"
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,20 +211,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -235,7 +235,7 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 1,
             "size": 9,
             "top_terms": [
               "informatore",
@@ -245,44 +245,44 @@
             "pct": 34.6
           },
           {
-            "id": 1,
-            "size": 7,
+            "id": 2,
+            "size": 8,
             "top_terms": [
+              "specialist",
               "clinical",
-              "vicenza",
-              "time"
+              "affairs"
             ],
-            "pct": 26.9
-          },
-          {
-            "id": 3,
-            "size": 4,
-            "top_terms": [
-              "isf",
-              "ginecologia",
-              "specialist"
-            ],
-            "pct": 15.4
+            "pct": 30.8
           },
           {
             "id": 0,
-            "size": 3,
-            "top_terms": [
-              "regulatory",
-              "specialist",
-              "affairs"
-            ],
-            "pct": 11.5
-          },
-          {
-            "id": 4,
-            "size": 3,
+            "size": 4,
             "top_terms": [
               "manager",
               "venezia",
               "clinical"
             ],
+            "pct": 15.4
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "isf",
+              "ginecologia",
+              "vicenza"
+            ],
             "pct": 11.5
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
+              "vicenza",
+              "time",
+              "tap"
+            ],
+            "pct": 7.7
           }
         ]
       }
