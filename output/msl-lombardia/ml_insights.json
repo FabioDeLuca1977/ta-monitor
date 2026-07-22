@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-07-21T09:39:31.874131",
+  "generated_at": "2026-07-22T09:41:08.954308",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 186,
+  "total_jobs_analyzed": 194,
   "scoring": {
-    "average": 28.4,
+    "average": 28.5,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 81,
-      "low": 17,
-      "irrelevant": 83
+      "good": 8,
+      "medium": 82,
+      "low": 16,
+      "irrelevant": 88
     },
     "top_jobs": [
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1784505600000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
       {
         "title": "Scientific & Medical Advisor",
         "company": "ESMO - European Society for Medical Oncology",
@@ -54,6 +62,22 @@
         "url": "https://www.linkedin.com/jobs/view/4441606691"
       },
       {
+        "title": "(Associate) Medical Director - Neurology",
+        "company": "Thermo Fisher Scientific",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4420711361"
+      },
+      {
+        "title": "Regulatory Affairs Manager - Regulatory Liaison - FSP",
+        "company": "Thermo Fisher Scientific",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=b5316cc342a9f8f1"
+      },
+      {
         "title": "Medical Manager",
         "company": "Zentiva",
         "score": 59,
@@ -70,20 +94,28 @@
         "url": "https://www.linkedin.com/jobs/view/4438095697"
       },
       {
-        "title": "(Associate) Medical Director - Neurology",
-        "company": "Thermo Fisher Scientific",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4420711361"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "Copan Group",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1784505600000,
         "url": "https://www.linkedin.com/jobs/view/4442576716"
+      },
+      {
+        "title": "Junior Medical Science Liaison Cardiovascular - Maternity Cover (Piemonte, Liguria, Valle d’Aosta)",
+        "company": "AstraZeneca",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=3d30fcdd79caa67d"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
+        "company": "QVC Italy",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1784073600000,
+        "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
         "title": "Medical Science Liaison, Oncology",
@@ -126,12 +158,12 @@
         "url": "https://www.linkedin.com/jobs/view/4440229244"
       },
       {
-        "title": "Regulatory Affairs Specialist (medical device / cosmetici)",
-        "company": "OLCELLI FARMACEUTICI SRL",
+        "title": "Medical Science Liaison Rhinology and Gastroenterology",
+        "company": "Sanofi",
         "score": 56,
-        "site": "indeed",
-        "date_posted": 1782777600000,
-        "url": "https://it.indeed.com/viewjob?jk=329444fc68d23675"
+        "site": "linkedin",
+        "date_posted": 1782864000000,
+        "url": "https://www.linkedin.com/jobs/view/4435549857"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
@@ -140,38 +172,6 @@
         "site": "indeed",
         "date_posted": 1784073600000,
         "url": "https://it.indeed.com/viewjob?jk=db8352475896cad1"
-      },
-      {
-        "title": "Medical Affairs Lead BH",
-        "company": "Neuraxpharm",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4411500965"
-      },
-      {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "(Associate) Medical Director - Rheumatology, EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4429846484"
-      },
-      {
-        "title": "Medical Affairs Internship",
-        "company": "Sanofi",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4436311710"
       }
     ]
   },
@@ -180,13 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
-      },
-      {
-        "word": "director",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "clinical",
@@ -200,13 +195,42 @@
       },
       {
         "word": "project",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "devices",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
+    {
+      "keyword": "qa product",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "product validation",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "validation approval",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "approval specialist",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
     {
       "keyword": "specialist medical",
       "frequency": 3,
@@ -214,99 +238,74 @@
       "confidence": 45
     },
     {
-      "keyword": "italy",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
-      "keyword": "rare diseases",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "qa product",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "product validation",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "validation approval",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "approval specialist",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "devices cosmetics",
-      "frequency": 2,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 45
     },
     {
       "keyword": "cosmetics regulatory",
-      "frequency": 2,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 45
     },
     {
       "keyword": "affairs sostituzione",
-      "frequency": 2,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
+      "confidence": 45
+    },
+    {
+      "keyword": "sostituzione maternità",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "qa product validation",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 13 (-53%)",
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Chiesi Farmaceutici S.p.A.: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 6,
-        "avg": 12.9,
-        "change_pct": -53.3
+        "company": "Chiesi Farmaceutici S.p.A.",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 9/16 annunci da aziende nuove (56.2%)",
       "data": {
-        "new": 4,
-        "total": 6,
-        "pct": 66.7
+        "new": 9,
+        "total": 16,
+        "pct": 56.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 33% a 56% (+23pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 56.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 44% (-23pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 43.8
       }
     },
     {
@@ -316,54 +315,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 78,
+            "id": 4,
+            "size": 59,
             "top_terms": [
-              "specialist",
               "associate",
+              "research",
               "clinical"
             ],
-            "pct": 41.9
+            "pct": 30.4
+          },
+          {
+            "id": 0,
+            "size": 42,
+            "top_terms": [
+              "manager",
+              "medical",
+              "project"
+            ],
+            "pct": 21.6
           },
           {
             "id": 3,
             "size": 34,
             "top_terms": [
-              "manager",
-              "project",
-              "clinical"
-            ],
-            "pct": 18.3
-          },
-          {
-            "id": 1,
-            "size": 31,
-            "top_terms": [
               "medical",
-              "manager",
-              "affairs"
+              "director",
+              "senior"
             ],
-            "pct": 16.7
+            "pct": 17.5
           },
           {
-            "id": 4,
-            "size": 22,
+            "id": 2,
+            "size": 30,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 11.8
+            "pct": 15.5
           },
           {
-            "id": 2,
-            "size": 21,
+            "id": 1,
+            "size": 29,
             "top_terms": [
-              "senior",
-              "cra",
-              "fsp"
+              "specialist",
+              "clinical",
+              "field"
             ],
-            "pct": 11.3
+            "pct": 14.9
           }
         ]
       }

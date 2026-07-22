@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-21T09:39:31.914100",
+  "generated_at": "2026-07-22T09:41:08.972274",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 20.6,
+    "average": 19.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 7,
+      "medium": 6,
       "low": 4,
       "irrelevant": 14
     },
@@ -22,17 +22,9 @@
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
-        "title": "Regulatory Affairs Specialist, fertilizzanti, agrochimici",
-        "company": "SILC Fertilizzanti Srl",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1783296000000,
-        "url": "https://www.linkedin.com/jobs/view/4437165106"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 46,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
@@ -46,20 +38,20 @@
         "url": "https://it.indeed.com/viewjob?jk=b9526a772da8cfa8"
       },
       {
+        "title": "Regulatory Affair Specialist",
+        "company": "Teoresi MedTech",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1784246400000,
+        "url": "https://www.linkedin.com/jobs/view/4439210573"
+      },
+      {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
         "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
-      {
-        "title": "Regulatory Affair Specialist",
-        "company": "Teoresi MedTech",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4439210573"
       },
       {
         "title": "Global Regulatory Affairs Consultant",
@@ -80,7 +72,7 @@
       {
         "title": "JUNIOR BUSINESS PARTNER & ANALIST - Healthcare RWE",
         "company": "SPHERA GROUP SRL",
-        "score": 36,
+        "score": 31,
         "site": "indeed",
         "date_posted": 1783987200000,
         "url": "https://it.indeed.com/viewjob?jk=0de8834ddb3be9eb"
@@ -94,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4439793891"
       },
       {
-        "title": "Site Regulatory Compliance Associate",
-        "company": "Menarini",
-        "score": 23,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=8fbd8d5ef0a605ca"
-      },
-      {
         "title": "Country Associate Submissions Representative, Italy, IQVIA Biotech",
         "company": "IQVIA",
         "score": 23,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=ced0e5c2a1923500"
+      },
+      {
+        "title": "Site Regulatory Compliance Associate",
+        "company": "Menarini",
+        "score": 23,
+        "site": "indeed",
+        "date_posted": 1782950400000,
+        "url": "https://it.indeed.com/viewjob?jk=8fbd8d5ef0a605ca"
       },
       {
         "title": "Compliance Specialist - Medical Devices",
@@ -171,6 +163,14 @@
         "score": 4,
         "site": "indeed",
         "date_posted": 1783468800000,
+        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+      },
+      {
+        "title": "HSE Plant Specialist",
+        "company": "Gerresheimer",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
       }
     ]
@@ -237,17 +237,17 @@
               "associate",
               "compliance"
             ],
-            "pct": 42.3
+            "pct": 44.0
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 26.9
+            "pct": 24.0
           },
           {
             "id": 2,
@@ -257,7 +257,7 @@
               "plant",
               "supervisor"
             ],
-            "pct": 11.5
+            "pct": 12.0
           },
           {
             "id": 4,
@@ -267,17 +267,17 @@
               "aligner",
               "supervisor"
             ],
-            "pct": 11.5
+            "pct": 12.0
           },
           {
             "id": 3,
             "size": 2,
             "top_terms": [
               "cra",
-              "supervisor",
-              "specialist"
+              "specialist",
+              "supervisor"
             ],
-            "pct": 7.7
+            "pct": 8.0
           }
         ]
       }
