@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-22T09:41:08.972274",
+  "generated_at": "2026-07-23T09:37:39.485912",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 25,
+  "total_jobs_analyzed": 26,
   "scoring": {
-    "average": 19.5,
+    "average": 20.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 6,
-      "low": 4,
-      "irrelevant": 14
+      "medium": 7,
+      "low": 3,
+      "irrelevant": 15
     },
     "top_jobs": [
       {
@@ -32,18 +32,18 @@
       {
         "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
         "company": "Menarini",
-        "score": 45,
+        "score": 46,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=b9526a772da8cfa8"
       },
       {
-        "title": "Regulatory Affair Specialist",
-        "company": "Teoresi MedTech",
+        "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
+        "company": "IQVIA",
         "score": 45,
         "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4439210573"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443169752"
       },
       {
         "title": "Regulatory Affairs",
@@ -54,20 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
+        "title": "Regulatory Affair Specialist",
+        "company": "Teoresi MedTech",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1784246400000,
+        "url": "https://www.linkedin.com/jobs/view/4439210573"
+      },
+      {
+        "title": "Clinical Specialist",
+        "company": "Coloplast",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4433254704"
+      },
+      {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
-      },
-      {
-        "title": "Clinical Specialist",
-        "company": "Coloplast",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
         "title": "JUNIOR BUSINESS PARTNER & ANALIST - Healthcare RWE",
@@ -86,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4439793891"
       },
       {
-        "title": "Country Associate Submissions Representative, Italy, IQVIA Biotech",
-        "company": "IQVIA",
-        "score": 23,
-        "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=ced0e5c2a1923500"
-      },
-      {
         "title": "Site Regulatory Compliance Associate",
         "company": "Menarini",
         "score": 23,
@@ -108,6 +108,14 @@
         "site": "linkedin",
         "date_posted": 1782950400000,
         "url": "https://www.linkedin.com/jobs/view/4421922940"
+      },
+      {
+        "title": "Senior CRA",
+        "company": "Thermo Fisher Scientific",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1784678400000,
+        "url": "https://it.indeed.com/viewjob?jk=f7917177ffbad2ea"
       },
       {
         "title": "Temporary manager",
@@ -126,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4440079361"
       },
       {
-        "title": "Industrial Controller",
-        "company": "Gerresheimer",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1784073600000,
-        "url": "https://it.indeed.com/viewjob?jk=cc1698dd47fb0619"
-      },
-      {
         "title": "TERAPISTA OCCUPAZIONALE CRA Modena",
         "company": "Domus Assistenza società cooperativa sociale",
         "score": 5,
@@ -150,20 +150,20 @@
         "url": "https://it.indeed.com/viewjob?jk=0f53cd26db49dcd9"
       },
       {
-        "title": "Plant P&O Business Partner",
-        "company": "Gerresheimer",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=c79a3fd7421f6b67"
-      },
-      {
         "title": "Environmental Specialist",
         "company": "Gerresheimer",
         "score": 4,
         "site": "indeed",
         "date_posted": 1783468800000,
         "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+      },
+      {
+        "title": "Plant P&O Business Partner",
+        "company": "Gerresheimer",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1782950400000,
+        "url": "https://it.indeed.com/viewjob?jk=c79a3fd7421f6b67"
       },
       {
         "title": "HSE Plant Specialist",
@@ -187,6 +187,11 @@
         "word": "aligner",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -196,31 +201,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 2,
-        "pct": 50.0
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -230,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 11,
+            "id": 1,
+            "size": 12,
             "top_terms": [
+              "medical",
               "manager",
-              "associate",
-              "compliance"
+              "associate"
             ],
-            "pct": 44.0
+            "pct": 46.2
           },
           {
-            "id": 1,
-            "size": 6,
+            "id": 2,
+            "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 24.0
+            "pct": 19.2
           },
           {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "specialist",
-              "plant",
-              "supervisor"
-            ],
-            "pct": 12.0
-          },
-          {
-            "id": 4,
+            "id": 0,
             "size": 3,
             "top_terms": [
               "production",
               "aligner",
               "supervisor"
             ],
-            "pct": 12.0
+            "pct": 11.5
           },
           {
             "id": 3,
-            "size": 2,
+            "size": 3,
             "top_terms": [
               "cra",
               "specialist",
               "supervisor"
             ],
-            "pct": 8.0
+            "pct": 11.5
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "specialist",
+              "plant",
+              "supervisor"
+            ],
+            "pct": 11.5
           }
         ]
       }

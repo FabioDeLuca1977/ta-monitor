@@ -1,22 +1,38 @@
 {
-  "generated_at": "2026-07-22T09:41:09.137390",
+  "generated_at": "2026-07-23T09:37:39.781019",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 56,
+  "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 12.9,
+    "average": 14.0,
     "distribution": {
       "excellent": 0,
-      "good": 0,
-      "medium": 7,
+      "good": 1,
+      "medium": 6,
       "low": 4,
-      "irrelevant": 45
+      "irrelevant": 41
     },
     "top_jobs": [
       {
+        "title": "Regulatory Affair Specialist",
+        "company": "Teoresi MedTech",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1784246400000,
+        "url": "https://www.linkedin.com/jobs/view/4439210573"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
+      },
+      {
         "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
         "company": "Menarini",
-        "score": 59,
+        "score": 58,
         "site": "indeed",
         "date_posted": 1782950400000,
         "url": "https://it.indeed.com/viewjob?jk=b9526a772da8cfa8"
@@ -30,33 +46,17 @@
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
-        "title": "Regulatory Affairs",
-        "company": "Teoresi MedTech",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
-      {
         "title": "Corporate, Legal & Regulatory Affairs Specialist",
         "company": "Banca Più",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1783296000000,
         "url": "https://www.linkedin.com/jobs/view/4433928282"
       },
       {
-        "title": "Regulatory Affair Specialist",
-        "company": "Teoresi MedTech",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4439210573"
-      },
-      {
         "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
         "company": "MEDIFLY SRL",
-        "score": 52,
+        "score": 51,
         "site": "indeed",
         "date_posted": 1783296000000,
         "url": "https://it.indeed.com/viewjob?jk=7193ada0f2cc8aad"
@@ -104,7 +104,7 @@
       {
         "title": "Quality Manager",
         "company": "Trivium Packaging",
-        "score": 18,
+        "score": 17,
         "site": "indeed",
         "date_posted": 1784505600000,
         "url": "https://it.indeed.com/viewjob?jk=4f219c356c53c768"
@@ -132,6 +132,14 @@
         "site": "indeed",
         "date_posted": 1784592000000,
         "url": "https://it.indeed.com/viewjob?jk=3a6687972bb7161b"
+      },
+      {
+        "title": "Senior CRA",
+        "company": "Thermo Fisher Scientific",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1784678400000,
+        "url": "https://it.indeed.com/viewjob?jk=f7917177ffbad2ea"
       },
       {
         "title": "Tecnico Service",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439302592"
-      },
-      {
-        "title": "Responsabile Marketing",
-        "company": "GTO S.r.l.",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=7533b1816cf53522"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "junior",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "specialist",
+        "word": "junior",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -216,33 +216,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-75%)",
+      "data": {
+        "current": 1,
+        "avg": 3.9,
+        "change_pct": -74.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
@@ -253,23 +243,23 @@
         "clusters": [
           {
             "id": 3,
-            "size": 27,
+            "size": 26,
             "top_terms": [
+              "engineer",
               "associate",
-              "tecnico",
               "marketing"
             ],
-            "pct": 48.2
+            "pct": 50.0
           },
           {
-            "id": 4,
+            "id": 1,
             "size": 12,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 21.4
+            "pct": 23.1
           },
           {
             "id": 2,
@@ -279,17 +269,7 @@
               "affairs",
               "specialist"
             ],
-            "pct": 12.5
-          },
-          {
-            "id": 1,
-            "size": 6,
-            "top_terms": [
-              "engineer",
-              "mechanical",
-              "commissioning"
-            ],
-            "pct": 10.7
+            "pct": 13.5
           },
           {
             "id": 0,
@@ -299,7 +279,17 @@
               "quality",
               "medical"
             ],
-            "pct": 7.1
+            "pct": 7.7
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "tecnico",
+              "service",
+              "writer"
+            ],
+            "pct": 5.8
           }
         ]
       }

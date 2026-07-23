@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-22T09:41:08.891579",
+  "generated_at": "2026-07-23T09:37:39.344550",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 25,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 30.8,
+    "average": 30.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 16,
+      "medium": 15,
       "low": 1,
       "irrelevant": 8
     },
@@ -18,7 +18,7 @@
         "company": "Fresenius Kabi Italia",
         "score": 47,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783382400000,
         "url": "https://www.linkedin.com/jobs/view/4434531248"
       },
       {
@@ -42,7 +42,7 @@
         "company": "Grafton Recruitment",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783382400000,
         "url": "https://www.linkedin.com/jobs/view/4434552755"
       },
       {
@@ -50,16 +50,8 @@
         "company": "NEWCHEM SPA",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783382400000,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
-      },
-      {
-        "title": "ISF Specialist Pediatric (f/m/nb)",
-        "company": "Randstad Professional Italia",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1783296000000,
-        "url": "https://www.linkedin.com/jobs/view/4433933387"
       },
       {
         "title": "Informatore Scientifico del Farmaco - Venezia",
@@ -102,12 +94,28 @@
         "url": "https://www.linkedin.com/jobs/view/4437555003"
       },
       {
+        "title": "ISF - Ginecologia rif. 99727",
+        "company": "WeHunt",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4439137893"
+      },
+      {
         "title": "Informatore scientifico di medicina naturale",
         "company": "Medicina Unica",
         "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440009236"
+      },
+      {
+        "title": "ISF DRY EYE TRIVENETO",
+        "company": "Michael Page",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437284048"
       },
       {
         "title": "ISF Ginecologia",
@@ -126,27 +134,11 @@
         "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
-        "title": "ISF - Ginecologia rif. 99727",
-        "company": "WeHunt",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439137893"
-      },
-      {
-        "title": "ISF DRY EYE TRIVENETO",
-        "company": "Michael Page",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437284048"
-      },
-      {
         "title": "Informatore medico scientifico",
         "company": "Eberlife Farmaceutici",
         "score": 38,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783468800000,
         "url": "https://www.linkedin.com/jobs/view/4434816816"
       },
       {
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1783468800000,
         "url": "https://it.indeed.com/viewjob?jk=416eb85c3abdee15"
+      },
+      {
+        "title": "Production Manager - Pharmaceutical Plant",
+        "company": "Ecolab",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1783987200000,
+        "url": "https://it.indeed.com/viewjob?jk=8ea41c249432b861"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-58%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-61%)",
       "data": {
         "current": 1,
-        "avg": 2.4,
-        "change_pct": -58.3
+        "avg": 2.6,
+        "change_pct": -60.9
       }
     },
     {
@@ -231,58 +231,48 @@
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 0,
             "size": 10,
             "top_terms": [
               "scientifico",
               "informatore",
               "farmaco"
             ],
-            "pct": 40.0
+            "pct": 41.7
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 2,
+            "size": 7,
             "top_terms": [
               "specialist",
               "regulatory",
               "affairs"
             ],
-            "pct": 20.0
+            "pct": 29.2
           },
           {
-            "id": 2,
-            "size": 4,
-            "top_terms": [
-              "isf",
-              "ginecologia",
-              "specialist"
-            ],
-            "pct": 16.0
-          },
-          {
-            "id": 3,
+            "id": 1,
             "size": 4,
             "top_terms": [
               "manager",
               "venezia",
               "vicenza"
             ],
-            "pct": 16.0
+            "pct": 16.7
           },
           {
-            "id": 4,
-            "size": 2,
+            "id": 3,
+            "size": 3,
             "top_terms": [
-              "vicenza",
-              "tap",
-              "time"
+              "isf",
+              "ginecologia",
+              "vicenza"
             ],
-            "pct": 8.0
+            "pct": 12.5
           }
         ]
       }

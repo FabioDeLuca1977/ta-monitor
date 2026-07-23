@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-22T09:41:08.821142",
+  "generated_at": "2026-07-23T09:37:39.224434",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 202,
+  "total_jobs_analyzed": 198,
   "scoring": {
     "average": 20.6,
     "distribution": {
       "excellent": 0,
       "good": 6,
-      "medium": 40,
-      "low": 48,
-      "irrelevant": 108
+      "medium": 41,
+      "low": 44,
+      "irrelevant": 107
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "Alfasigma",
         "score": 67,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783382400000,
         "url": "https://www.linkedin.com/jobs/view/4434538053"
       },
       {
@@ -78,19 +78,11 @@
         "url": "https://www.linkedin.com/jobs/view/4443758979"
       },
       {
-        "title": "HR Specialist - Attività professionali associate",
-        "company": "key-absolute",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1782864000000,
-        "url": "https://www.linkedin.com/jobs/view/4434396972"
-      },
-      {
         "title": "Junior HR Specialist per soluzioni controllo spese",
         "company": "key-absolute",
         "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783382400000,
         "url": "https://www.linkedin.com/jobs/view/4436836800"
       },
       {
@@ -112,18 +104,10 @@
       {
         "title": "JUNIOR HR SPECIALIST - ROMA",
         "company": "R1 GROUP",
-        "score": 55,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1783555200000,
         "url": "https://it.indeed.com/viewjob?jk=588de47c80b8786b"
-      },
-      {
-        "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
-        "company": "Aenova Group",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1782864000000,
-        "url": "https://www.linkedin.com/jobs/view/4432361045"
       },
       {
         "title": "HR Recruiter",
@@ -134,12 +118,20 @@
         "url": "https://it.indeed.com/viewjob?jk=7a0508550b929765"
       },
       {
-        "title": "HR officer Tecnologie per Comfort Domestico",
+        "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
+        "company": "Aenova Group",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4432361045"
+      },
+      {
+        "title": "HR officer per prodotti benessere generale",
         "company": "Tuolavoro-Lazio",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440783727"
+        "url": "https://www.linkedin.com/jobs/view/4441339707"
       },
       {
         "title": "HR Officer - Gestione Servizi Clienti",
@@ -150,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441355012"
       },
       {
-        "title": "HR Business Partner, EU One PXT",
-        "company": "Amazon",
-        "score": 53,
+        "title": "Addetto/a ricerca e selezione prodotti per il supporto alla salute",
+        "company": "Tuolavoro-Lazio",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": 1783123200000,
-        "url": "https://www.linkedin.com/jobs/view/4400240730"
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4440775973"
       },
       {
         "title": "HR Business Partner (Centro Italia)",
@@ -164,6 +156,14 @@
         "site": "linkedin",
         "date_posted": 1783036800000,
         "url": "https://www.linkedin.com/jobs/view/4399946888"
+      },
+      {
+        "title": "HR Business Partner, EU One PXT",
+        "company": "Amazon",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1783123200000,
+        "url": "https://www.linkedin.com/jobs/view/4400240730"
       },
       {
         "title": "HR Officer per supporto attività aziendali",
@@ -189,17 +189,17 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
+        "word": "responsabile",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
         "word": "junior",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "impiegato",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       }
@@ -266,41 +266,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 14 (-42%)",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 14 (-33%)",
       "data": {
-        "current": 8,
-        "avg": 13.9,
-        "change_pct": -42.3
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 6/8 annunci da aziende nuove (75.0%)",
-      "data": {
-        "new": 6,
-        "total": 8,
-        "pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 38% a 75% (+38pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 37.5,
-        "new_pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 62% a 25% (-38pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 62.5,
-        "new_pct": 25.0
+        "current": 9,
+        "avg": 13.5,
+        "change_pct": -33.3
       }
     },
     {
@@ -310,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 117,
+            "id": 2,
+            "size": 114,
             "top_terms": [
-              "specialist",
               "hr",
-              "manager"
+              "manager",
+              "responsabile"
             ],
-            "pct": 57.9
+            "pct": 57.6
           },
           {
-            "id": 0,
-            "size": 38,
+            "id": 4,
+            "size": 40,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 18.8
+            "pct": 20.2
           },
           {
-            "id": 4,
-            "size": 18,
+            "id": 1,
+            "size": 20,
             "top_terms": [
-              "selezione",
               "addetto",
+              "selezione",
               "personale"
             ],
-            "pct": 8.9
+            "pct": 10.1
           },
           {
-            "id": 2,
-            "size": 16,
+            "id": 0,
+            "size": 15,
             "top_terms": [
-              "impiegato",
-              "ufficio",
-              "tecnico"
+              "specialist",
+              "hr",
+              "junior"
             ],
-            "pct": 7.9
+            "pct": 7.6
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 9,
             "top_terms": [
               "sales",
               "assistant",
               "roma"
             ],
-            "pct": 6.4
+            "pct": 4.5
           }
         ]
       }

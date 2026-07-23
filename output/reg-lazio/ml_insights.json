@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-22T09:41:09.176190",
+  "generated_at": "2026-07-23T09:37:39.851843",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 98,
+  "total_jobs_analyzed": 92,
   "scoring": {
-    "average": 8.7,
+    "average": 8.3,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 4,
+      "medium": 3,
       "low": 5,
-      "irrelevant": 88
+      "irrelevant": 83
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -44,14 +44,6 @@
         "site": "linkedin",
         "date_posted": 1783296000000,
         "url": "https://www.linkedin.com/jobs/view/4421938093"
-      },
-      {
-        "title": "Quality Assurance Consultant - Sterile Pharmaceutical Manufacturing",
-        "company": "PQE Group",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1783296000000,
-        "url": "https://www.linkedin.com/jobs/view/4431908514"
       },
       {
         "title": "Experienced - Financial Crime",
@@ -78,20 +70,20 @@
         "url": "https://it.indeed.com/viewjob?jk=f9e36a9f577329b6"
       },
       {
-        "title": "Quality Assurance Executive Manager",
-        "company": "NTT DATA Europe & Latam",
-        "score": 21,
-        "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4441468380"
-      },
-      {
         "title": "QUALITY ASSURANCE MANAGER",
         "company": "OKATIM Italia",
         "score": 21,
         "site": "linkedin",
         "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4441326884"
+      },
+      {
+        "title": "Quality Assurance Executive Manager",
+        "company": "NTT DATA Europe & Latam",
+        "score": 20,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4441468380"
       },
       {
         "title": "Digital Strategy Manager",
@@ -142,36 +134,44 @@
         "url": "https://it.indeed.com/viewjob?jk=dafa1982fb71bd09"
       },
       {
-        "title": "Senior Manager Health Economics Market Access (HEMA) Italy",
-        "company": "Johnson & Johnson MedTech",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4436313312"
-      },
-      {
-        "title": "Operations Project Manager",
-        "company": "Cosmo Pharmaceuticals",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1784073600000,
-        "url": "https://it.indeed.com/viewjob?jk=4bafaacffa8f3308"
-      },
-      {
-        "title": "Manager Up – Compliance",
-        "company": "Deloitte",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1782864000000,
-        "url": "https://it.indeed.com/viewjob?jk=1b3fd24b91fd4ba9"
-      },
-      {
         "title": "Senior External Affairs Manager, Italy",
         "company": "SSE PLC",
         "score": 13,
         "site": "indeed",
         "date_posted": 1784246400000,
         "url": "https://it.indeed.com/viewjob?jk=582b276841a15c7a"
+      },
+      {
+        "title": "Clinical Trial Manager - maternity cover",
+        "company": "Nouscon Srl",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
+      },
+      {
+        "title": "Clinical Trial Manager - maternity cover",
+        "company": "Nouscom Srl",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=53d4a08a685c82f0"
+      },
+      {
+        "title": "Manufacturing Sterile Documentation Operator PDS",
+        "company": "Thermo Fisher Scientific",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1784505600000,
+        "url": "https://it.indeed.com/viewjob?jk=97ee2fec256638f7"
+      },
+      {
+        "title": "Analista Revenue Management Systems & Analytics - Tempo Determinato",
+        "company": "ITA airways",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=ef38fd255cb483ad"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,9 +199,9 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "compliance",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "senior",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,11 +218,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/8 annunci da aziende nuove (37.5%)",
+      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
       "data": {
-        "new": 3,
-        "total": 8,
-        "pct": 37.5
+        "new": 1,
+        "total": 5,
+        "pct": 20.0
       }
     },
     {
@@ -232,54 +232,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 54,
-            "top_terms": [
-              "engineer",
-              "associate",
-              "compliance"
-            ],
-            "pct": 55.1
-          },
-          {
             "id": 0,
-            "size": 15,
+            "size": 45,
             "top_terms": [
-              "manager",
-              "senior",
-              "compliance"
+              "associate",
+              "intern",
+              "care"
             ],
-            "pct": 15.3
+            "pct": 48.9
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 18,
             "top_terms": [
-              "quality",
+              "manager",
               "assurance",
-              "manager"
+              "quality"
             ],
-            "pct": 13.3
+            "pct": 19.6
+          },
+          {
+            "id": 4,
+            "size": 15,
+            "top_terms": [
+              "engineer",
+              "senior",
+              "speaker"
+            ],
+            "pct": 16.3
           },
           {
             "id": 1,
-            "size": 12,
+            "size": 11,
             "top_terms": [
               "specialist",
               "site",
               "quality"
             ],
-            "pct": 12.2
+            "pct": 12.0
           },
           {
-            "id": 4,
-            "size": 4,
+            "id": 2,
+            "size": 3,
             "top_terms": [
               "specialista",
-              "ed",
+              "trial",
               "terni"
             ],
-            "pct": 4.1
+            "pct": 3.3
           }
         ]
       }
