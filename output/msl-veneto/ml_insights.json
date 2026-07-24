@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-23T09:37:39.344550",
+  "generated_at": "2026-07-24T09:35:16.638021",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 30.1,
+    "average": 31.9,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 15,
+      "medium": 14,
       "low": 1,
-      "irrelevant": 8
+      "irrelevant": 6
     },
     "top_jobs": [
       {
@@ -54,14 +54,6 @@
         "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
-        "title": "Informatore Scientifico del Farmaco - Venezia",
-        "company": "Michael Page",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4432795996"
-      },
-      {
         "title": "| INFORMATORE SCIENTIFICO | 157165 |",
         "company": "Orienta Agenzia per il Lavoro",
         "score": 42,
@@ -78,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4441154975"
       },
       {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4438218073"
-      },
-      {
         "title": "Informatore Scientifico del Farmaco - Treviso e Belluno",
         "company": "Guna Spa",
         "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4437555003"
+      },
+      {
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1783468800000,
+        "url": "https://www.linkedin.com/jobs/view/4438218073"
       },
       {
         "title": "ISF - Ginecologia rif. 99727",
@@ -110,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4440009236"
       },
       {
-        "title": "ISF DRY EYE TRIVENETO",
-        "company": "Michael Page",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437284048"
-      },
-      {
         "title": "ISF Ginecologia",
         "company": "PROCARE HEALTH",
         "score": 41,
@@ -134,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
+        "title": "ISF DRY EYE TRIVENETO",
+        "company": "Michael Page",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437284048"
+      },
+      {
         "title": "Informatore medico scientifico",
         "company": "Eberlife Farmaceutici",
         "score": 38,
@@ -144,18 +136,10 @@
       {
         "title": "Local Study Manager (LDL) - Oncology",
         "company": "GSK",
-        "score": 16,
+        "score": 11,
         "site": "indeed",
         "date_posted": 1784505600000,
         "url": "https://it.indeed.com/viewjob?jk=dda72531206dfb5c"
-      },
-      {
-        "title": "Engineering Manager - Chilled Water",
-        "company": "Vertiv",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=945646f172b0dccc"
       },
       {
         "title": "Territory Manager",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1783987200000,
         "url": "https://it.indeed.com/viewjob?jk=8ea41c249432b861"
+      },
+      {
+        "title": "Engineering Manager - Chilled Water",
+        "company": "Vertiv",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=945646f172b0dccc"
+      },
+      {
+        "title": "DOL TAP Facilitator - (Part-time) - Vicenza, Italy",
+        "company": "Serco",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1783468800000,
+        "url": "https://it.indeed.com/viewjob?jk=493934a312d52adf"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-61%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-60%)",
       "data": {
         "current": 1,
-        "avg": 2.6,
-        "change_pct": -60.9
+        "avg": 2.5,
+        "change_pct": -60.0
       }
     },
     {
@@ -211,21 +211,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,44 +235,44 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 10,
+            "id": 2,
+            "size": 9,
             "top_terms": [
               "scientifico",
               "informatore",
               "farmaco"
             ],
-            "pct": 41.7
+            "pct": 42.9
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 1,
+            "size": 5,
             "top_terms": [
               "specialist",
               "regulatory",
               "affairs"
             ],
-            "pct": 29.2
-          },
-          {
-            "id": 1,
-            "size": 4,
-            "top_terms": [
-              "manager",
-              "venezia",
-              "vicenza"
-            ],
-            "pct": 16.7
+            "pct": 23.8
           },
           {
             "id": 3,
+            "size": 4,
+            "top_terms": [
+              "manager",
+              "treviso",
+              "specialist"
+            ],
+            "pct": 19.0
+          },
+          {
+            "id": 0,
             "size": 3,
             "top_terms": [
               "isf",
               "ginecologia",
-              "vicenza"
+              "treviso"
             ],
-            "pct": 12.5
+            "pct": 14.3
           }
         ]
       }

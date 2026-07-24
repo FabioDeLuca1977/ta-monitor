@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-23T09:37:39.485912",
+  "generated_at": "2026-07-24T09:35:16.790816",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 20.0,
+    "average": 20.3,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 7,
-      "low": 3,
-      "irrelevant": 15
+      "medium": 6,
+      "low": 2,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
         "title": "Medical Affairs Specialist",
         "company": "Hoya Vision Care",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
@@ -28,14 +28,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
-      {
-        "title": "Global Regulatory Affairs Operations Specialist - Regulatory Publishing",
-        "company": "Menarini",
-        "score": 46,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=b9526a772da8cfa8"
       },
       {
         "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
@@ -62,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4439210573"
       },
       {
-        "title": "Clinical Specialist",
-        "company": "Coloplast",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4433254704"
-      },
-      {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
+      },
+      {
+        "title": "Clinical Specialist",
+        "company": "Coloplast",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
         "title": "JUNIOR BUSINESS PARTNER & ANALIST - Healthcare RWE",
@@ -88,26 +80,10 @@
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 25,
+        "score": 26,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
-      },
-      {
-        "title": "Site Regulatory Compliance Associate",
-        "company": "Menarini",
-        "score": 23,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=8fbd8d5ef0a605ca"
-      },
-      {
-        "title": "Compliance Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1782950400000,
-        "url": "https://www.linkedin.com/jobs/view/4421922940"
       },
       {
         "title": "Senior CRA",
@@ -120,7 +96,7 @@
       {
         "title": "Temporary manager",
         "company": "Percinque Srl",
-        "score": 10,
+        "score": 9,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4435692089"
@@ -150,28 +126,52 @@
         "url": "https://it.indeed.com/viewjob?jk=0f53cd26db49dcd9"
       },
       {
-        "title": "Environmental Specialist",
-        "company": "Gerresheimer",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
-      },
-      {
-        "title": "Plant P&O Business Partner",
-        "company": "Gerresheimer",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1782950400000,
-        "url": "https://it.indeed.com/viewjob?jk=c79a3fd7421f6b67"
-      },
-      {
         "title": "HSE Plant Specialist",
         "company": "Gerresheimer",
         "score": 4,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
+      },
+      {
+        "title": "Production Supervisor, Aligner",
+        "company": "Dentsply Sirona",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=78a02f2461c1fb5d"
+      },
+      {
+        "title": "R&D Technical Writer",
+        "company": "Dentsply Sirona",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=58ed319f7c363a8f"
+      },
+      {
+        "title": "R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1783641600000,
+        "url": "https://it.indeed.com/viewjob?jk=87e32013cace30ac"
+      },
+      {
+        "title": "Production Supervisor, Aligner",
+        "company": null,
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=78a02f2461c1fb5d"
+      },
+      {
+        "title": "Production Worker, Aligner",
+        "company": "Dentsply Sirona",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1783555200000,
+        "url": "https://it.indeed.com/viewjob?jk=9757d4ec39787e28"
       }
     ]
   },
@@ -211,16 +211,6 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
@@ -229,30 +219,40 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
             "id": 1,
-            "size": 12,
+            "size": 8,
             "top_terms": [
-              "medical",
               "manager",
-              "associate"
+              "medical",
+              "supervisor"
             ],
-            "pct": 46.2
+            "pct": 38.1
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 7,
             "top_terms": [
+              "specialist",
               "regulatory",
-              "affairs",
-              "specialist"
+              "affairs"
             ],
-            "pct": 19.2
+            "pct": 33.3
           },
           {
             "id": 0,
@@ -262,27 +262,17 @@
               "aligner",
               "supervisor"
             ],
-            "pct": 11.5
+            "pct": 14.3
           },
           {
             "id": 3,
             "size": 3,
             "top_terms": [
               "cra",
-              "specialist",
-              "supervisor"
+              "supervisor",
+              "specialist"
             ],
-            "pct": 11.5
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "specialist",
-              "plant",
-              "supervisor"
-            ],
-            "pct": 11.5
+            "pct": 14.3
           }
         ]
       }
