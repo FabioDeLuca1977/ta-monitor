@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-24T09:35:17.064024",
+  "generated_at": "2026-07-25T09:11:21.563083",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 296,
+  "total_jobs_analyzed": 282,
   "scoring": {
-    "average": 15.4,
+    "average": 14.4,
     "distribution": {
       "excellent": 0,
-      "good": 22,
-      "medium": 21,
-      "low": 12,
-      "irrelevant": 241
+      "good": 19,
+      "medium": 17,
+      "low": 14,
+      "irrelevant": 232
     },
     "top_jobs": [
       {
         "title": "Cosmetic Regulatory Affairs Specialist",
         "company": "Ganassini Corporate",
-        "score": 73,
+        "score": 72,
         "site": "indeed",
         "date_posted": 1784678400000,
         "url": "https://it.indeed.com/viewjob?jk=dfa22d5eb5b968d8"
@@ -24,26 +24,10 @@
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Copan Group",
-        "score": 70,
+        "score": 69,
         "site": "linkedin",
         "date_posted": 1784505600000,
         "url": "https://www.linkedin.com/jobs/view/4442576716"
-      },
-      {
-        "title": "Regulatory Affairs Artwork Specialist",
-        "company": "SUN PHARMA",
-        "score": 68,
-        "site": "linkedin",
-        "date_posted": 1783468800000,
-        "url": "https://www.linkedin.com/jobs/view/4429842624"
-      },
-      {
-        "title": "Regulatory Affairs Specialist | Farmaceutica",
-        "company": "desmo®",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1783468800000,
-        "url": "https://www.linkedin.com/jobs/view/4437051381"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -54,62 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4433748628"
       },
       {
-        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
-        "company": "Hays",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4431936631"
-      },
-      {
-        "title": "REGULATORY AFFAIRS SPECIALIST",
-        "company": "A2A",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1783555200000,
-        "url": "https://www.linkedin.com/jobs/view/4435682356"
-      },
-      {
-        "title": "REGULATORY AFFAIRS SPECIALIST – MATERIE PRIME COSMETICHE",
-        "company": "Job On Beauty",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435988692"
-      },
-      {
-        "title": "Regulatory Affairs Specialist - Pharma Prodotto finito",
-        "company": "Hays",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437271731"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Recordati",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1783900800000,
-        "url": "https://www.linkedin.com/jobs/view/4411744140"
-      },
-      {
-        "title": "REGULATORY AFFAIRS SPECIALIST COSMETICO & CHIMICO (REACH)",
-        "company": "Emilav | Agenzia per il Lavoro",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441601090"
-      },
-      {
-        "title": "Regulatory Affairs Manager - Regulatory Liaison - FSP",
-        "company": "Thermo Fisher Scientific",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=b5316cc342a9f8f1"
-      },
-      {
         "title": "Regulatory Affairs Manager",
         "company": "MEDSPA Srl",
         "score": 65,
@@ -118,20 +46,68 @@
         "url": "https://www.linkedin.com/jobs/view/4441503837"
       },
       {
-        "title": "JR Regulatory Affairs Specialist - Medical Devices",
-        "company": "Hays",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441590064"
-      },
-      {
-        "title": "Regulatory Affairs | Brescia",
-        "company": "Biopharmed",
+        "title": "REGULATORY AFFAIRS SPECIALIST",
+        "company": "A2A",
         "score": 64,
         "site": "linkedin",
-        "date_posted": 1783123200000,
-        "url": "https://www.linkedin.com/jobs/view/4343985374"
+        "date_posted": 1783555200000,
+        "url": "https://www.linkedin.com/jobs/view/4435682356"
+      },
+      {
+        "title": "Regulatory Affairs Specialist | Farmaceutica",
+        "company": "desmo®",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1783468800000,
+        "url": "https://www.linkedin.com/jobs/view/4437051381"
+      },
+      {
+        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
+        "company": "Hays",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1783555200000,
+        "url": "https://www.linkedin.com/jobs/view/4431936631"
+      },
+      {
+        "title": "REGULATORY AFFAIRS SPECIALIST – MATERIE PRIME COSMETICHE",
+        "company": "Job On Beauty",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4435988692"
+      },
+      {
+        "title": "Regulatory Affairs Specialist - Pharma Prodotto finito",
+        "company": "Hays",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437271731"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Recordati",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1783900800000,
+        "url": "https://www.linkedin.com/jobs/view/4411744140"
+      },
+      {
+        "title": "REGULATORY AFFAIRS SPECIALIST COSMETICO & CHIMICO (REACH)",
+        "company": "Emilav | Agenzia per il Lavoro",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441601090"
+      },
+      {
+        "title": "Regulatory Compliance Program Manager, Regulatory Delivery & Transparency, Trust & Safety",
+        "company": "TikTok",
+        "score": 64,
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=2712dece8d51b0bc"
       },
       {
         "title": "Sr. International Regulatory Affairs Specialist - EMEA",
@@ -142,20 +118,12 @@
         "url": "https://it.indeed.com/viewjob?jk=7ce079c29de656d1"
       },
       {
-        "title": "Senior Regulatory Affairs Specialist FDA",
-        "company": "Sentinel Diagnostics",
+        "title": "Regulatory Affairs | Brescia",
+        "company": "Biopharmed",
         "score": 63,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439308131"
-      },
-      {
-        "title": "Regulatory Compliance Program Manager, Regulatory Delivery & Transparency, Trust & Safety",
-        "company": "TikTok",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=2712dece8d51b0bc"
+        "date_posted": 1783123200000,
+        "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
         "title": "Regulatory Manager",
@@ -166,12 +134,44 @@
         "url": "https://www.linkedin.com/jobs/view/4444401512"
       },
       {
-        "title": "International Regulatory Affairs Project Manager",
-        "company": "Recordati",
+        "title": "JR Regulatory Affairs Specialist - Medical Devices",
+        "company": "Hays",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441590064"
+      },
+      {
+        "title": "Senior Regulatory Affairs Specialist FDA",
+        "company": "Sentinel Diagnostics",
         "score": 62,
         "site": "linkedin",
-        "date_posted": 1783036800000,
-        "url": "https://www.linkedin.com/jobs/view/4408772783"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4439308131"
+      },
+      {
+        "title": "Regulatory Specialist",
+        "company": "Sobi",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1784678400000,
+        "url": "https://it.indeed.com/viewjob?jk=4df25f356eeeb92b"
+      },
+      {
+        "title": "Regulatory Affairs Manager - Regulatory Liaison - FSP",
+        "company": "Thermo Fisher Scientific",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=b5316cc342a9f8f1"
+      },
+      {
+        "title": "Compliance & Regulatory Affairs Manager",
+        "company": "Reevo Spa",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1783209600000,
+        "url": "https://it.indeed.com/viewjob?jk=a004e425e3b58c16"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 42,
-        "reason": "Appare 42x in annunci a basso score"
+        "count": 38,
+        "reason": "Appare 38x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 37,
-        "reason": "Appare 37x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
-        "word": "sales",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "word": "project",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "milan",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,15 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "international regulatory",
-      "frequency": 4,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
-    },
-    {
-      "keyword": "international",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 45
     },
     {
       "keyword": "affairs analyst",
@@ -250,7 +244,7 @@
       "confidence": 30
     },
     {
-      "keyword": "junior",
+      "keyword": "senior",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -262,7 +256,13 @@
       "confidence": 30
     },
     {
-      "keyword": "senior",
+      "keyword": "international",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "stage",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -270,13 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 11 annunci ultimo scan vs media 19 (-43%)",
+      "data": {
+        "current": 11,
+        "avg": 19.4,
+        "change_pct": -43.2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 14/20 annunci da aziende nuove (70.0%)",
+      "message": "📊 Ultimo scan: 4/11 annunci da aziende nuove (36.4%)",
       "data": {
-        "new": 14,
-        "total": 20,
-        "pct": 70.0
+        "new": 4,
+        "total": 11,
+        "pct": 36.4
       }
     },
     {
@@ -286,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
+            "id": 0,
             "size": 152,
             "top_terms": [
-              "specialist",
-              "engineer",
-              "sales"
+              "manager",
+              "associate",
+              "technician"
             ],
-            "pct": 51.4
-          },
-          {
-            "id": 2,
-            "size": 43,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
-            ],
-            "pct": 14.5
+            "pct": 53.9
           },
           {
             "id": 3,
-            "size": 42,
+            "size": 36,
             "top_terms": [
-              "manager",
-              "project",
-              "senior"
+              "assurance",
+              "quality",
+              "specialist"
             ],
-            "pct": 14.2
+            "pct": 12.8
           },
           {
-            "id": 0,
-            "size": 33,
+            "id": 4,
+            "size": 35,
+            "top_terms": [
+              "senior",
+              "engineer",
+              "manager"
+            ],
+            "pct": 12.4
+          },
+          {
+            "id": 1,
+            "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 11.1
+            "pct": 11.0
           },
           {
-            "id": 1,
-            "size": 26,
+            "id": 2,
+            "size": 28,
             "top_terms": [
-              "senior",
-              "director",
-              "italy"
+              "specialist",
+              "marketing",
+              "product"
             ],
-            "pct": 8.8
+            "pct": 9.9
           }
         ]
       }

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-24T09:35:16.891163",
+  "generated_at": "2026-07-25T09:11:21.428095",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 10.8,
+    "average": 10.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -26,7 +26,7 @@
         "company": "NEWCHEM SPA",
         "score": 61,
         "site": "linkedin",
-        "date_posted": 1783382400000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
@@ -40,7 +40,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 51,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -50,7 +50,7 @@
         "company": "MedicAir",
         "score": 44,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783555200000,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
       },
       {
@@ -64,7 +64,7 @@
       {
         "title": "Laboratory Manager - Medical Device Testing",
         "company": "Eurofins",
-        "score": 19,
+        "score": 18,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4442700259"
@@ -102,28 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4424754375"
       },
       {
-        "title": "Addetta/o Telemarketing",
-        "company": "CEZ Intermediazioni",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=45b69696a20115de"
-      },
-      {
-        "title": "Sales Specialist- Padova",
-        "company": "R-STORE S.p.A",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=8cf72572ff122be6"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "Cipriani",
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
         "score": 13,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435958736"
+        "url": "https://www.linkedin.com/jobs/view/4437692572"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -142,14 +126,6 @@
         "url": "https://it.indeed.com/viewjob?jk=dda72531206dfb5c"
       },
       {
-        "title": "Quality Assurance Specialist - Packaging",
-        "company": "Adecco",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1783036800000,
-        "url": "https://www.linkedin.com/jobs/view/4433192743"
-      },
-      {
         "title": "OPERATIONS MANAGER",
         "company": "METRO Italia",
         "score": 12,
@@ -158,20 +134,44 @@
         "url": "https://it.indeed.com/viewjob?jk=93397e310493bc56"
       },
       {
-        "title": "Regulatory & Quality Specialist – Settore Cosmetico",
+        "title": "Addetto/a vendita - Agraria, Giardinaggio e Animali",
+        "company": null,
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1784851200000,
+        "url": "https://it.indeed.com/viewjob?jk=5a42b4c880fd30e0"
+      },
+      {
+        "title": "Addetta/o Telemarketing",
+        "company": "CEZ Intermediazioni",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=45b69696a20115de"
+      },
+      {
+        "title": "Grafico",
         "company": null,
         "score": 10,
         "site": "indeed",
-        "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=1264100e0eaf01ea"
+        "date_posted": 1784764800000,
+        "url": "https://it.indeed.com/viewjob?jk=c32b11167101b6ce"
       },
       {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 10,
+        "title": "Sales Specialist- Padova",
+        "company": "R-STORE S.p.A",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=8cf72572ff122be6"
+      },
+      {
+        "title": "Product Quality Assurance Engineer",
+        "company": "QASCOM",
+        "score": 8,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437692572"
+        "date_posted": 1783641600000,
+        "url": "https://www.linkedin.com/jobs/view/4438324468"
       }
     ]
   },
@@ -179,19 +179,9 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
         "word": "engineer",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "tecnico",
@@ -200,6 +190,16 @@
       },
       {
         "word": "sistema",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "quality",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -211,11 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 67% (+17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 33% (-17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -225,52 +245,52 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 32,
+            "id": 0,
+            "size": 29,
             "top_terms": [
-              "specialist",
+              "engineer",
               "sistema",
-              "regulatory"
+              "responsabile"
             ],
-            "pct": 59.3
+            "pct": 53.7
           },
           {
             "id": 4,
-            "size": 7,
+            "size": 11,
             "top_terms": [
-              "engineer",
-              "mechanical",
-              "product"
+              "specialist",
+              "assurance",
+              "quality"
             ],
-            "pct": 13.0
+            "pct": 20.4
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 6,
             "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
+              "tecnico",
+              "impiegato",
+              "verona"
             ],
             "pct": 11.1
           },
           {
-            "id": 3,
-            "size": 5,
+            "id": 2,
+            "size": 4,
             "top_terms": [
-              "tecnico",
-              "impiegato",
-              "vi"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 9.3
+            "pct": 7.4
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "manager",
               "senior",
-              "vi"
+              "verona"
             ],
             "pct": 7.4
           }

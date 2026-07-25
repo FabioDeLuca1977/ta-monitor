@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-07-24T09:35:16.758679",
+  "generated_at": "2026-07-25T09:11:21.330787",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 200,
+  "total_jobs_analyzed": 194,
   "scoring": {
     "average": 29.3,
     "distribution": {
       "excellent": 0,
       "good": 8,
-      "medium": 86,
-      "low": 17,
-      "irrelevant": 89
+      "medium": 81,
+      "low": 20,
+      "irrelevant": 85
     },
     "top_jobs": [
-      {
-        "title": "Scientific & Medical Advisor",
-        "company": "ESMO - European Society for Medical Oncology",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1783468800000,
-        "url": "https://www.linkedin.com/jobs/view/4434844952"
-      },
       {
         "title": "MSL Manager - Metabolic Disorder",
         "company": "Sobi",
@@ -30,12 +22,28 @@
         "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
       },
       {
+        "title": "Scientific & Medical Advisor",
+        "company": "ESMO - European Society for Medical Oncology",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": 1783468800000,
+        "url": "https://www.linkedin.com/jobs/view/4434844952"
+      },
+      {
         "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
         "company": "Thermo Fisher Scientific",
-        "score": 61,
+        "score": 62,
         "site": "indeed",
         "date_posted": 1784678400000,
         "url": "https://it.indeed.com/viewjob?jk=62ba5230cc460fcb"
+      },
+      {
+        "title": "Medical Advisor Amyloidosis",
+        "company": "AstraZeneca",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444350315"
       },
       {
         "title": "Jr QA Medical Device Specialist",
@@ -54,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4441606691"
       },
       {
-        "title": "Regulatory Affairs Manager - Regulatory Liaison - FSP",
-        "company": "Thermo Fisher Scientific",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=b5316cc342a9f8f1"
-      },
-      {
         "title": "Hepatology - Medical Director",
         "company": "Medpace",
         "score": 60,
@@ -76,14 +76,6 @@
         "site": "linkedin",
         "date_posted": 1784505600000,
         "url": "https://www.linkedin.com/jobs/view/4331270944"
-      },
-      {
-        "title": "Junior Medical Science Liaison Cardiovascular - Maternity Cover (Piemonte, Liguria, Valle d’Aosta)",
-        "company": "AstraZeneca",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=3d30fcdd79caa67d"
       },
       {
         "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
@@ -102,20 +94,20 @@
         "url": "https://www.linkedin.com/jobs/view/4431727706"
       },
       {
+        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
+        "company": "Hays",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1783555200000,
+        "url": "https://www.linkedin.com/jobs/view/4431936631"
+      },
+      {
         "title": "Medical Manager",
         "company": "Orion Pharma",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438095697"
-      },
-      {
-        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
-        "company": "Hays",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -134,12 +126,12 @@
         "url": "https://it.indeed.com/viewjob?jk=7ce079c29de656d1"
       },
       {
-        "title": "Medical Science Liaison, Oncology",
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA",
         "score": 56,
         "site": "linkedin",
-        "date_posted": 1783036800000,
-        "url": "https://www.linkedin.com/jobs/view/4426942441"
+        "date_posted": 1783382400000,
+        "url": "https://www.linkedin.com/jobs/view/4436870360"
       },
       {
         "title": "Medical Affairs Lead BH",
@@ -167,11 +159,19 @@
       },
       {
         "title": "Clinical Research Associate",
-        "company": "ICON plc",
+        "company": "Medpace",
         "score": 56,
         "site": "linkedin",
-        "date_posted": 1784592000000,
-        "url": "https://www.linkedin.com/jobs/view/4383902672"
+        "date_posted": 1784764800000,
+        "url": "https://www.linkedin.com/jobs/view/4332274670"
+      },
+      {
+        "title": "(Associate) Medical Director - Neurology",
+        "company": "Thermo Fisher Scientific",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4420711361"
       }
     ]
   },
@@ -184,12 +184,12 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "clinical",
+        "word": "associate",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "associate",
+        "word": "clinical",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
@@ -270,13 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 13 (-40%)",
+      "data": {
+        "current": 8,
+        "avg": 13.3,
+        "change_pct": -39.8
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/16 annunci da aziende nuove (31.2%)",
+      "message": "📊 Ultimo scan: 3/8 annunci da aziende nuove (37.5%)",
       "data": {
-        "new": 5,
-        "total": 16,
-        "pct": 31.2
+        "new": 3,
+        "total": 8,
+        "pct": 37.5
       }
     },
     {
@@ -286,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 76,
+            "id": 0,
+            "size": 81,
             "top_terms": [
               "specialist",
-              "lead",
-              "cra"
-            ],
-            "pct": 38.0
-          },
-          {
-            "id": 2,
-            "size": 38,
-            "top_terms": [
               "medical",
-              "director",
-              "manager"
+              "senior"
             ],
-            "pct": 19.0
+            "pct": 41.8
           },
           {
-            "id": 4,
-            "size": 36,
+            "id": 3,
+            "size": 39,
             "top_terms": [
               "manager",
-              "project",
-              "clinical"
+              "medical",
+              "project"
             ],
-            "pct": 18.0
+            "pct": 20.1
           },
           {
             "id": 1,
-            "size": 30,
+            "size": 31,
+            "top_terms": [
+              "associate",
+              "director",
+              "research"
+            ],
+            "pct": 16.0
+          },
+          {
+            "id": 2,
+            "size": 28,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.0
+            "pct": 14.4
           },
           {
-            "id": 0,
-            "size": 20,
+            "id": 4,
+            "size": 15,
             "top_terms": [
-              "associate",
-              "research",
-              "clinical"
+              "lead",
+              "cluster",
+              "medical"
             ],
-            "pct": 10.0
+            "pct": 7.7
           }
         ]
       }
