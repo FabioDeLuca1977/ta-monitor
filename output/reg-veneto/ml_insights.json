@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-25T09:11:21.428095",
+  "generated_at": "2026-07-26T09:32:41.765918",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 54,
+  "total_jobs_analyzed": 53,
   "scoring": {
-    "average": 10.2,
+    "average": 10.1,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 3,
       "low": 1,
-      "irrelevant": 48
+      "irrelevant": 47
     },
     "top_jobs": [
       {
@@ -26,13 +26,13 @@
         "company": "NEWCHEM SPA",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783641600000,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
       },
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Fresenius Kabi",
-        "score": 54,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=7166cc9055150184"
@@ -48,7 +48,7 @@
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1783555200000,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -64,7 +64,7 @@
       {
         "title": "Laboratory Manager - Medical Device Testing",
         "company": "Eurofins",
-        "score": 18,
+        "score": 19,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4442700259"
@@ -86,28 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=97f10cb7592d076c"
       },
       {
-        "title": "Addetto/a archiviazione pratiche per sistema di negozi coordinati",
-        "company": "Giucas",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4443142567"
-      },
-      {
         "title": "Quality Assurance Manager",
         "company": "SteelcoBelimed",
         "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4424754375"
-      },
-      {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437692572"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -134,12 +118,28 @@
         "url": "https://it.indeed.com/viewjob?jk=93397e310493bc56"
       },
       {
+        "title": "Addetto/a archiviazione pratiche per sistema di negozi coordinati",
+        "company": "Giucas",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443142567"
+      },
+      {
         "title": "Addetto/a vendita - Agraria, Giardinaggio e Animali",
         "company": null,
         "score": 12,
         "site": "indeed",
         "date_posted": 1784851200000,
         "url": "https://it.indeed.com/viewjob?jk=5a42b4c880fd30e0"
+      },
+      {
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437692572"
       },
       {
         "title": "Addetta/o Telemarketing",
@@ -184,22 +184,22 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "tecnico",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "sistema",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
         "word": "quality",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "assurance",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "tecnico",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "sistema",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -211,31 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 67% (+17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 33% (-17pp)",
+      "message": "📡 indeed: quota passata da 50% a 25% (-25pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 50.0,
-        "new_pct": 33.3
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 75% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -245,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 29,
-            "top_terms": [
-              "engineer",
-              "sistema",
-              "responsabile"
-            ],
-            "pct": 53.7
-          },
-          {
-            "id": 4,
-            "size": 11,
+            "id": 2,
+            "size": 32,
             "top_terms": [
               "specialist",
-              "assurance",
-              "quality"
+              "manager",
+              "regulatory"
             ],
-            "pct": 20.4
+            "pct": 60.4
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "engineer",
+              "mechanical",
+              "safety"
+            ],
+            "pct": 11.3
           },
           {
             "id": 1,
             "size": 6,
             "top_terms": [
-              "tecnico",
-              "impiegato",
-              "verona"
-            ],
-            "pct": 11.1
-          },
-          {
-            "id": 2,
-            "size": 4,
-            "top_terms": [
-              "regulatory",
-              "affairs",
+              "assurance",
+              "quality",
               "specialist"
             ],
-            "pct": 7.4
+            "pct": 11.3
           },
           {
             "id": 3,
+            "size": 5,
+            "top_terms": [
+              "tecnico",
+              "impiegato",
+              "vi"
+            ],
+            "pct": 9.4
+          },
+          {
+            "id": 4,
             "size": 4,
             "top_terms": [
-              "manager",
-              "senior",
-              "verona"
+              "responsabile",
+              "sistema",
+              "gestione"
             ],
-            "pct": 7.4
+            "pct": 7.5
           }
         ]
       }
