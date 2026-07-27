@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-26T09:32:41.623246",
+  "generated_at": "2026-07-27T10:57:58.284872",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 188,
+  "total_jobs_analyzed": 192,
   "scoring": {
-    "average": 28.7,
+    "average": 29.0,
     "distribution": {
       "excellent": 0,
-      "good": 6,
-      "medium": 78,
-      "low": 19,
+      "good": 5,
+      "medium": 82,
+      "low": 20,
       "irrelevant": 85
     },
     "top_jobs": [
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1783468800000,
         "url": "https://www.linkedin.com/jobs/view/4434844952"
-      },
-      {
-        "title": "MSL Manager - Metabolic Disorder",
-        "company": "Sobi",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1784764800000,
-        "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
       },
       {
         "title": "Medical Advisor Amyloidosis",
@@ -62,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4331270944"
       },
       {
+        "title": "MSL Manager - Metabolic Disorder",
+        "company": "Sobi",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1784764800000,
+        "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
+      },
+      {
         "title": "Medical Manager",
         "company": "Zentiva",
         "score": 58,
@@ -82,7 +82,7 @@
         "company": "Hays",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1783555200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
@@ -100,14 +100,6 @@
         "site": "indeed",
         "date_posted": 1784678400000,
         "url": "https://it.indeed.com/viewjob?jk=62ba5230cc460fcb"
-      },
-      {
-        "title": "Clinical Research Associate",
-        "company": "Medpace",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1784764800000,
-        "url": "https://www.linkedin.com/jobs/view/4332274670"
       },
       {
         "title": "Medical Science Liaison, Oncology",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Regulatory Affairs Manager - Regulatory Liaison - FSP",
+        "company": "Thermo Fisher Scientific",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=b5316cc342a9f8f1"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "lead",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -194,12 +194,12 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "clinical",
+        "word": "devices",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "clinical",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -208,12 +208,6 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "italy",
-      "frequency": 7,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
-    },
-    {
       "keyword": "specialist medical",
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
@@ -221,6 +215,12 @@
     },
     {
       "keyword": "devices",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
+    },
+    {
+      "keyword": "italy",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
@@ -271,32 +271,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 13 (-85%)",
+      "severity": "medium",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-47%)",
       "data": {
-        "current": 2,
-        "avg": 13.3,
-        "change_pct": -84.9
+        "current": 7,
+        "avg": 13.2,
+        "change_pct": -47.0
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "data": {
+        "new": 3,
+        "total": 7,
+        "pct": 42.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 29% (+29pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 28.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 71% (-29pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 71.4
       }
     },
     {
@@ -307,53 +317,53 @@
         "clusters": [
           {
             "id": 4,
-            "size": 71,
+            "size": 74,
             "top_terms": [
-              "clinical",
               "specialist",
-              "research"
+              "lead",
+              "senior"
             ],
-            "pct": 37.8
-          },
-          {
-            "id": 1,
-            "size": 41,
-            "top_terms": [
-              "medical",
-              "director",
-              "italy"
-            ],
-            "pct": 21.8
+            "pct": 38.5
           },
           {
             "id": 3,
+            "size": 36,
+            "top_terms": [
+              "medical",
+              "director",
+              "officer"
+            ],
+            "pct": 18.8
+          },
+          {
+            "id": 1,
             "size": 35,
             "top_terms": [
               "manager",
-              "project",
-              "medical"
+              "medical",
+              "project"
             ],
-            "pct": 18.6
+            "pct": 18.2
           },
           {
-            "id": 2,
-            "size": 29,
+            "id": 0,
+            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.4
+            "pct": 12.5
           },
           {
-            "id": 0,
-            "size": 12,
+            "id": 2,
+            "size": 23,
             "top_terms": [
-              "fsp",
-              "dedicated",
-              "sponsor"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 6.4
+            "pct": 12.0
           }
         ]
       }

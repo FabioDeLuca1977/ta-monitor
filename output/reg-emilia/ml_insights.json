@@ -1,46 +1,38 @@
 {
-  "generated_at": "2026-07-26T09:32:41.991462",
+  "generated_at": "2026-07-27T10:57:58.657082",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 46,
+  "total_jobs_analyzed": 47,
   "scoring": {
-    "average": 11.6,
+    "average": 10.7,
     "distribution": {
       "excellent": 0,
-      "good": 0,
-      "medium": 6,
+      "good": 2,
+      "medium": 3,
       "low": 1,
-      "irrelevant": 39
+      "irrelevant": 41
     },
     "top_jobs": [
       {
-        "title": "Regulatory Affairs",
-        "company": "Teoresi MedTech",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
-      {
         "title": "Regulatory Affairs Specialist - Energy",
         "company": "Gruppo Hera",
-        "score": 57,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1783555200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
       },
       {
-        "title": "Corporate, Legal & Regulatory Affairs Specialist",
-        "company": "Banca Più",
-        "score": 57,
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 60,
         "site": "linkedin",
-        "date_posted": 1783296000000,
-        "url": "https://www.linkedin.com/jobs/view/4433928282"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
         "title": "Regulatory Affair Specialist",
         "company": "Teoresi MedTech",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4439210573"
@@ -50,7 +42,7 @@
         "company": "JSB Solutions",
         "score": 54,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783728000000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
@@ -62,9 +54,17 @@
         "url": "https://it.indeed.com/viewjob?jk=7193ada0f2cc8aad"
       },
       {
+        "title": "QA & RA Manager | Medical Devices",
+        "company": "Hays",
+        "score": 20,
+        "site": "linkedin",
+        "date_posted": 1784592000000,
+        "url": "https://www.linkedin.com/jobs/view/4437278972"
+      },
+      {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 20,
+        "score": 19,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
@@ -78,20 +78,28 @@
         "url": "https://it.indeed.com/viewjob?jk=527ad2d04d71212f"
       },
       {
-        "title": "Inside Sales Specialist Apprentice",
-        "company": "Avnet",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1784764800000,
-        "url": "https://it.indeed.com/viewjob?jk=e747d5668ddff268"
-      },
-      {
         "title": "Quality Manager",
         "company": "Trivium Packaging",
         "score": 12,
         "site": "indeed",
         "date_posted": 1784505600000,
         "url": "https://it.indeed.com/viewjob?jk=4f219c356c53c768"
+      },
+      {
+        "title": "ADDETTO/A HSE - ASPP",
+        "company": "Forghieri S.r.l",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1785110400000,
+        "url": "https://it.indeed.com/viewjob?jk=e20cf1e26a36877e"
+      },
+      {
+        "title": "Inside Sales Specialist Apprentice",
+        "company": "Avnet",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1784764800000,
+        "url": "https://it.indeed.com/viewjob?jk=e747d5668ddff268"
       },
       {
         "title": "Quality Assurance Associate – Filling Cartridges",
@@ -108,14 +116,6 @@
         "site": "linkedin",
         "date_posted": 1783641600000,
         "url": "https://www.linkedin.com/jobs/view/4439302592"
-      },
-      {
-        "title": "Quality Manager",
-        "company": "Phibro Animal Health Corporation",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1783468800000,
-        "url": "https://it.indeed.com/viewjob?jk=7d469ac9c8bd0592"
       },
       {
         "title": "Quality Assurance Senior– Cluster Cocoa Products",
@@ -150,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4439443491"
       },
       {
-        "title": "Assistant General Manager – Student Accommodation",
-        "company": "Hines",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=3b1c493494ff171f"
-      },
-      {
         "title": "QUALITY ASSURANCE JUNIOR DETERGENZA",
         "company": "Deco Industrie",
         "score": 7,
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440141567"
+      },
+      {
+        "title": "Quality Assurance Supervisor",
+        "company": "SGB Humangest Holding",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441566393"
       }
     ]
   },
@@ -195,8 +195,8 @@
       },
       {
         "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "technical",
@@ -210,42 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-42%)",
       "data": {
-        "current": 1,
-        "avg": 3.8,
-        "change_pct": -73.3
+        "current": 2,
+        "avg": 3.5,
+        "change_pct": -42.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 22,
+            "id": 4,
+            "size": 20,
             "top_terms": [
-              "engineer",
-              "senior",
-              "technical"
+              "marketing",
+              "technical",
+              "hse"
             ],
-            "pct": 47.8
+            "pct": 42.6
           },
           {
-            "id": 1,
-            "size": 12,
+            "id": 0,
+            "size": 11,
             "top_terms": [
               "assurance",
               "quality",
-              "junior"
+              "supervisor"
             ],
-            "pct": 26.1
+            "pct": 23.4
           },
           {
             "id": 2,
             "size": 6,
             "top_terms": [
+              "engineer",
+              "mechanical",
+              "commissioning"
+            ],
+            "pct": 12.8
+          },
+          {
+            "id": 1,
+            "size": 5,
+            "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.0
+            "pct": 10.6
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 5,
             "top_terms": [
               "manager",
-              "quality",
-              "project"
+              "medical",
+              "quality"
             ],
-            "pct": 8.7
-          },
-          {
-            "id": 4,
-            "size": 2,
-            "top_terms": [
-              "marketing",
-              "writer",
-              "junior"
-            ],
-            "pct": 4.3
+            "pct": 10.6
           }
         ]
       }

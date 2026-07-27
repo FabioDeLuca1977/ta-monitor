@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-26T09:32:41.941867",
+  "generated_at": "2026-07-27T10:57:58.607641",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 275,
+  "total_jobs_analyzed": 281,
   "scoring": {
-    "average": 13.9,
+    "average": 14.1,
     "distribution": {
       "excellent": 0,
-      "good": 16,
-      "medium": 18,
-      "low": 13,
-      "irrelevant": 228
+      "good": 18,
+      "medium": 20,
+      "low": 12,
+      "irrelevant": 231
     },
     "top_jobs": [
       {
@@ -30,12 +30,12 @@
         "url": "https://it.indeed.com/viewjob?jk=dfa22d5eb5b968d8"
       },
       {
-        "title": "Regulatory Affairs Manager",
-        "company": "MEDSPA Srl",
-        "score": 66,
+        "title": "Compliance & Regulatory Affairs Manager",
+        "company": "ReeVo Cloud & Cyber Security",
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441503837"
+        "url": "https://www.linkedin.com/jobs/view/4436040335"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST",
@@ -66,7 +66,7 @@
         "company": "Hays",
         "score": 65,
         "site": "linkedin",
-        "date_posted": 1783555200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431936631"
       },
       {
@@ -86,12 +86,28 @@
         "url": "https://www.linkedin.com/jobs/view/4411744140"
       },
       {
-        "title": "REGULATORY AFFAIRS SPECIALIST COSMETICO & CHIMICO (REACH)",
-        "company": "Emilav | Agenzia per il Lavoro",
+        "title": "Regulatory Affairs Manager",
+        "company": "MEDSPA Srl",
         "score": 65,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441601090"
+        "url": "https://www.linkedin.com/jobs/view/4441503837"
+      },
+      {
+        "title": "JR Regulatory Affairs Specialist - Medical Devices",
+        "company": "Hays",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441590064"
+      },
+      {
+        "title": "Regulatory Affairs | Brescia",
+        "company": "Biopharmed",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
         "title": "Senior Regulatory Affairs Specialist FDA",
@@ -110,14 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4444401512"
       },
       {
-        "title": "JR Regulatory Affairs Specialist - Medical Devices",
-        "company": "Hays",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441590064"
-      },
-      {
         "title": "Regulatory Compliance Program Manager, Regulatory Delivery & Transparency, Trust & Safety",
         "company": "TikTok",
         "score": 62,
@@ -126,12 +134,12 @@
         "url": "https://it.indeed.com/viewjob?jk=2712dece8d51b0bc"
       },
       {
-        "title": "Country Regulatory Manager - Southern Europe",
-        "company": "NonStop Consulting",
-        "score": 60,
+        "title": "REGULATORY AFFAIRS SPECIALIST COSMETICO & CHIMICO (REACH)",
+        "company": "Emilav | Agenzia per il Lavoro",
+        "score": 61,
         "site": "linkedin",
-        "date_posted": 1783555200000,
-        "url": "https://www.linkedin.com/jobs/view/4438677053"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441601090"
       },
       {
         "title": "Regulatory Affairs Manager - Regulatory Liaison - FSP",
@@ -140,6 +148,14 @@
         "site": "indeed",
         "date_posted": 1784592000000,
         "url": "https://it.indeed.com/viewjob?jk=b5316cc342a9f8f1"
+      },
+      {
+        "title": "Sr. International Regulatory Affairs Specialist - EMEA",
+        "company": "Agilent Technologies Italia SpA",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1784678400000,
+        "url": "https://it.indeed.com/viewjob?jk=7ce079c29de656d1"
       },
       {
         "title": "Regulatory Affairs junior",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438701389"
-      },
-      {
-        "title": "Sr. International Regulatory Affairs Specialist - EMEA",
-        "company": "Agilent Technologies Italia SpA",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1784678400000,
-        "url": "https://it.indeed.com/viewjob?jk=7ce079c29de656d1"
-      },
-      {
-        "title": "Compliance & Regulatory Affairs Manager",
-        "company": "Reevo Spa",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1783209600000,
-        "url": "https://it.indeed.com/viewjob?jk=a004e425e3b58c16"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 29,
-        "reason": "Appare 29x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -195,8 +195,8 @@
       },
       {
         "word": "milan",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "project",
@@ -271,42 +271,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 20 (-95%)",
+      "severity": "medium",
+      "message": "Volume in calo: 11 annunci ultimo scan vs media 19 (-43%)",
       "data": {
-        "current": 1,
-        "avg": 19.6,
-        "change_pct": -94.9
+        "current": 11,
+        "avg": 19.3,
+        "change_pct": -43.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 5,
+        "total": 11,
+        "pct": 45.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 73% a 100% (+27pp)",
+      "message": "📡 indeed: quota passata da 100% a 36% (-64pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 72.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 36.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 27% a 0% (-27pp)",
+      "message": "📡 linkedin: quota passata da 0% a 64% (+64pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 27.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 63.6
       }
     },
     {
@@ -317,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 152,
+            "size": 179,
             "top_terms": [
-              "specialist",
+              "manager",
               "senior",
-              "sales"
+              "engineer"
             ],
-            "pct": 55.3
+            "pct": 63.7
           },
           {
             "id": 1,
-            "size": 42,
-            "top_terms": [
-              "manager",
-              "medical",
-              "regulatory"
-            ],
-            "pct": 15.3
-          },
-          {
-            "id": 4,
-            "size": 33,
+            "size": 35,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 12.0
+            "pct": 12.5
           },
           {
-            "id": 2,
-            "size": 26,
+            "id": 4,
+            "size": 32,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 9.5
+            "pct": 11.4
           },
           {
             "id": 3,
-            "size": 22,
+            "size": 28,
             "top_terms": [
-              "engineer",
-              "project",
-              "manager"
+              "specialist",
+              "marketing",
+              "product"
             ],
-            "pct": 8.0
+            "pct": 10.0
+          },
+          {
+            "id": 2,
+            "size": 7,
+            "top_terms": [
+              "technician",
+              "center",
+              "data"
+            ],
+            "pct": 2.5
           }
         ]
       }

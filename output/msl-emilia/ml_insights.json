@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-26T09:32:41.658717",
+  "generated_at": "2026-07-27T10:57:58.319561",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 20.0,
+    "average": 22.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 5,
-      "low": 4,
-      "irrelevant": 13
+      "medium": 6,
+      "low": 5,
+      "irrelevant": 11
     },
     "top_jobs": [
       {
         "title": "Medical Affairs Specialist",
         "company": "Hoya Vision Care",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
@@ -50,7 +50,7 @@
         "company": "JSB Solutions",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783728000000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
@@ -60,6 +60,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
+      },
+      {
+        "title": "Field Clinical Specialist - Electrophysiology - Region Emilia-Romagna",
+        "company": "Boston Scientific",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445669606"
       },
       {
         "title": "Regulatory Affair Specialist",
@@ -86,9 +94,17 @@
         "url": "https://it.indeed.com/viewjob?jk=9cb54ef8fee71b28"
       },
       {
+        "title": "QA & RA Manager | Medical Devices",
+        "company": "Hays",
+        "score": 25,
+        "site": "linkedin",
+        "date_posted": 1784592000000,
+        "url": "https://www.linkedin.com/jobs/view/4437278972"
+      },
+      {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 25,
+        "score": 24,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
@@ -143,7 +159,7 @@
       },
       {
         "title": "Production Supervisor, Aligner",
-        "company": null,
+        "company": "Dentsply Sirona",
         "score": 0,
         "site": "indeed",
         "date_posted": 1783555200000,
@@ -156,38 +172,12 @@
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=58ed319f7c363a8f"
-      },
-      {
-        "title": "R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=87e32013cace30ac"
-      },
-      {
-        "title": "Production Worker, Aligner",
-        "company": "Dentsply Sirona",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=9757d4ec39787e28"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "production",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "aligner",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
       {
         "word": "cra",
         "count": 3,
@@ -199,23 +189,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -225,42 +225,42 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 2,
             "size": 11,
             "top_terms": [
-              "manager",
               "clinical",
-              "medical"
+              "specialist",
+              "regulatory"
             ],
             "pct": 47.8
           },
           {
-            "id": 2,
-            "size": 6,
+            "id": 1,
+            "size": 5,
             "top_terms": [
-              "specialist",
               "regulatory",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 26.1
+            "pct": 21.7
           },
           {
-            "id": 1,
-            "size": 3,
+            "id": 0,
+            "size": 4,
             "top_terms": [
-              "production",
-              "aligner",
-              "supervisor"
+              "manager",
+              "medical",
+              "specialist"
             ],
-            "pct": 13.0
+            "pct": 17.4
           },
           {
             "id": 3,
             "size": 3,
             "top_terms": [
               "cra",
-              "supervisor",
-              "specialist"
+              "specialist",
+              "regulatory"
             ],
             "pct": 13.0
           }

@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-26T09:32:42.074138",
+  "generated_at": "2026-07-27T10:57:58.737201",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 91,
   "scoring": {
-    "average": 8.2,
+    "average": 8.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 4,
+      "medium": 5,
       "low": 2,
-      "irrelevant": 84
+      "irrelevant": 83
     },
     "top_jobs": [
       {
-        "title": "Vice President Regulatory Affairs - Cluster",
-        "company": "Perrigo Company plc",
-        "score": 64,
+        "title": "Medical Device Quality & Regulatory Specialist",
+        "company": "K•HERO",
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441564283"
+        "url": "https://www.linkedin.com/jobs/view/4445916477"
       },
       {
         "title": "Regulatory Affairs Intern",
@@ -38,6 +38,14 @@
         "url": "https://it.indeed.com/viewjob?jk=df705abcb0e03bce"
       },
       {
+        "title": "Vice President Regulatory Affairs - Cluster",
+        "company": "Perrigo Company plc",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441564283"
+      },
+      {
         "title": "GxP Specialist",
         "company": "Antal International",
         "score": 49,
@@ -48,7 +56,7 @@
       {
         "title": "Quality Assurance Consultant   - Pharma Sector",
         "company": "PQE Group",
-        "score": 44,
+        "score": 45,
         "site": "linkedin",
         "date_posted": 1783296000000,
         "url": "https://www.linkedin.com/jobs/view/4421938093"
@@ -68,14 +76,6 @@
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=f9e36a9f577329b6"
-      },
-      {
-        "title": "Senior Program Manager",
-        "company": "AbbVie",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1784764800000,
-        "url": "https://it.indeed.com/viewjob?jk=97c2e6353419e42a"
       },
       {
         "title": "QUALITY ASSURANCE MANAGER",
@@ -142,6 +142,22 @@
         "url": "https://it.indeed.com/viewjob?jk=e7f6afcb68001b7d"
       },
       {
+        "title": "Senior Program Manager",
+        "company": "AbbVie",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1784764800000,
+        "url": "https://it.indeed.com/viewjob?jk=97c2e6353419e42a"
+      },
+      {
+        "title": "AI ARCHITECT - INSURANCE PRICING SPECIALIST",
+        "company": "Allianz",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=dafa1982fb71bd09"
+      },
+      {
         "title": "Top Management Assistant & Institutional Public Relations",
         "company": "Digital360",
         "score": 11,
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1784505600000,
         "url": "https://it.indeed.com/viewjob?jk=fed05b3588fb10f6"
-      },
-      {
-        "title": "AI ARCHITECT - INSURANCE PRICING SPECIALIST",
-        "company": "Allianz",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=dafa1982fb71bd09"
-      },
-      {
-        "title": "Equipment Validation Lead",
-        "company": "Thermo Fisher Scientific",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1784764800000,
-        "url": "https://it.indeed.com/viewjob?jk=fa425aef9415a0ce"
       }
     ]
   },
@@ -184,24 +184,24 @@
         "reason": "Appare 15x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
         "word": "engineer",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
         "word": "assurance",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "compliance",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,41 +218,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-84%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-69%)",
       "data": {
-        "current": 1,
+        "current": 2,
         "avg": 6.4,
-        "change_pct": -84.4
+        "change_pct": -68.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 100.0,
-        "new_pct": 0.0
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 0.0,
-        "new_pct": 100.0
+        "new_pct": 50.0
       }
     },
     {
@@ -262,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 53,
+            "id": 1,
+            "size": 48,
             "top_terms": [
-              "engineer",
               "specialista",
-              "regulatory"
+              "intern",
+              "assistant"
             ],
-            "pct": 58.2
+            "pct": 52.7
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 15,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "engineer"
+            ],
+            "pct": 16.5
+          },
+          {
+            "id": 4,
+            "size": 13,
             "top_terms": [
               "manager",
               "senior",
               "accounting"
             ],
-            "pct": 16.5
+            "pct": 14.3
           },
           {
-            "id": 1,
-            "size": 10,
+            "id": 2,
+            "size": 11,
             "top_terms": [
               "specialist",
-              "site",
-              "quality"
-            ],
-            "pct": 11.0
-          },
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "assurance",
               "quality",
-              "stage"
+              "site"
             ],
-            "pct": 8.8
+            "pct": 12.1
           },
           {
-            "id": 4,
-            "size": 5,
+            "id": 0,
+            "size": 4,
             "top_terms": [
-              "assistant",
-              "care",
-              "deployment"
+              "italian",
+              "speaker",
+              "engineer"
             ],
-            "pct": 5.5
+            "pct": 4.4
           }
         ]
       }
