@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-27T10:57:58.319561",
+  "generated_at": "2026-07-28T09:41:31.653451",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 22.7,
+    "average": 22.3,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -88,7 +88,7 @@
       {
         "title": "Job Posting Title Clinical Trial Psych Rater - Italian Speaking",
         "company": "IQVIA",
-        "score": 31,
+        "score": 26,
         "site": "indeed",
         "date_posted": 1784851200000,
         "url": "https://it.indeed.com/viewjob?jk=9cb54ef8fee71b28"
@@ -112,7 +112,7 @@
       {
         "title": "Cold End Manager",
         "company": "Gerresheimer",
-        "score": 17,
+        "score": 12,
         "site": "indeed",
         "date_posted": 1784851200000,
         "url": "https://it.indeed.com/viewjob?jk=4f4885f265c03cac"
@@ -201,21 +201,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
