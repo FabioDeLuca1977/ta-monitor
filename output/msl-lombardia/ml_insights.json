@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-28T09:41:31.619861",
+  "generated_at": "2026-07-29T09:45:26.645144",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 195,
+  "total_jobs_analyzed": 192,
   "scoring": {
-    "average": 28.7,
+    "average": 28.8,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 84,
-      "low": 20,
-      "irrelevant": 88
+      "medium": 86,
+      "low": 18,
+      "irrelevant": 85
     },
     "top_jobs": [
       {
@@ -44,14 +44,6 @@
         "site": "indeed",
         "date_posted": 1784764800000,
         "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
-      },
-      {
-        "title": "Medical Manager",
-        "company": "Zentiva",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1783382400000,
-        "url": "https://www.linkedin.com/jobs/view/4431727706"
       },
       {
         "title": "Medical Manager",
@@ -94,11 +86,19 @@
         "url": "https://www.linkedin.com/jobs/view/4426942441"
       },
       {
+        "title": "Director of Regulatory Affairs",
+        "company": "Upsilon Global",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445956883"
+      },
+      {
         "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
         "company": "IQVIA",
         "score": 56,
         "site": "linkedin",
-        "date_posted": 1783382400000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436870360"
       },
       {
@@ -106,7 +106,7 @@
         "company": "Hays",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783987200000,
         "url": "https://www.linkedin.com/jobs/view/4437648873"
       },
       {
@@ -116,6 +116,30 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411500965"
+      },
+      {
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
+      },
+      {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1784505600000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
+      {
+        "title": "Dermatologist - Medical Director",
+        "company": "Medpace",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1784505600000,
+        "url": "https://www.linkedin.com/jobs/view/4331270944"
       },
       {
         "title": "Medical Science Liaison Rhinology and Gastroenterology",
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4420711361"
-      },
-      {
-        "title": "Psychiatry - Medical Director",
-        "company": "Medpace",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "Regulatory Affairs Manager - Regulatory Liaison - FSP",
-        "company": "Thermo Fisher Scientific",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=b5316cc342a9f8f1"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1784505600000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       }
     ]
   },
@@ -182,11 +182,6 @@
         "word": "specialist",
         "count": 17,
         "reason": "Appare 17x in annunci a basso score"
-      },
-      {
-        "word": "associate",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "cra",
@@ -202,21 +197,26 @@
         "word": "lead",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "clinical",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
+      "keyword": "italy",
+      "frequency": 7,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 70
+    },
+    {
       "keyword": "specialist medical",
       "frequency": 4,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
-    },
-    {
-      "keyword": "italy",
-      "frequency": 6,
-      "source": "parola frequente in titoli rilevanti",
       "confidence": 60
     },
     {
@@ -270,33 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 13 (-63%)",
+      "data": {
+        "current": 5,
+        "avg": 13.4,
+        "change_pct": -62.6
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 5,
-        "total": 11,
-        "pct": 45.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 71% a 36% (-35pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 71.4,
-        "new_pct": 36.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 29% a 64% (+35pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 28.6,
-        "new_pct": 63.6
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
@@ -306,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 72,
+            "id": 1,
+            "size": 66,
             "top_terms": [
-              "specialist",
               "cra",
-              "senior"
+              "specialist",
+              "engineer"
             ],
-            "pct": 36.9
-          },
-          {
-            "id": 3,
-            "size": 35,
-            "top_terms": [
-              "manager",
-              "medical",
-              "project"
-            ],
-            "pct": 17.9
+            "pct": 34.4
           },
           {
             "id": 4,
-            "size": 35,
+            "size": 41,
             "top_terms": [
-              "director",
               "medical",
+              "director",
               "italy"
             ],
-            "pct": 17.9
+            "pct": 21.4
           },
           {
-            "id": 1,
-            "size": 30,
+            "id": 2,
+            "size": 34,
+            "top_terms": [
+              "manager",
+              "project",
+              "medical"
+            ],
+            "pct": 17.7
+          },
+          {
+            "id": 0,
+            "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.4
+            "pct": 16.1
           },
           {
-            "id": 2,
-            "size": 23,
+            "id": 3,
+            "size": 20,
             "top_terms": [
               "clinical",
               "research",
               "associate"
             ],
-            "pct": 11.8
+            "pct": 10.4
           }
         ]
       }

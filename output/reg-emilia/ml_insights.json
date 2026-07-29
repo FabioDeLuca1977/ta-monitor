@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-28T09:41:31.994052",
+  "generated_at": "2026-07-29T09:45:26.859378",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 49,
+  "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 10.3,
+    "average": 10.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 2,
       "low": 1,
-      "irrelevant": 44
+      "irrelevant": 47
     },
     "top_jobs": [
       {
@@ -46,20 +46,28 @@
         "url": "https://www.linkedin.com/jobs/view/4408880332"
       },
       {
-        "title": "QA & RA Manager | Medical Devices",
-        "company": "Hays",
-        "score": 20,
-        "site": "linkedin",
-        "date_posted": 1784592000000,
-        "url": "https://www.linkedin.com/jobs/view/4437278972"
+        "title": "Utilities & Facility Engineer",
+        "company": "Sonoco Metal Packaging Italia Srl",
+        "score": 30,
+        "site": "indeed",
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=0fc3bdaf4231a0c3"
       },
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
         "score": 19,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1783900800000,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
+      },
+      {
+        "title": "Project Manager After Sales",
+        "company": "IMA Life North America",
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=b18ffcdabe284a8e"
       },
       {
         "title": "PRODUCT MANAGER",
@@ -68,6 +76,14 @@
         "site": "indeed",
         "date_posted": 1785110400000,
         "url": "https://it.indeed.com/viewjob?jk=2ea272c9ee6c357c"
+      },
+      {
+        "title": "QA & RA Manager | Medical Devices",
+        "company": "Hays",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": 1784592000000,
+        "url": "https://www.linkedin.com/jobs/view/4437278972"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST (ALIMENTARE)",
@@ -118,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=e747d5668ddff268"
       },
       {
+        "title": "Lombardy & Emilia Romagna Certification Senior Industrial Services Inspector",
+        "company": "RINA",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=39cca24b6e245bf7"
+      },
+      {
         "title": "Quality Assurance",
         "company": "Sherwin-Williams",
         "score": 8,
@@ -143,35 +167,11 @@
       },
       {
         "title": "Quality Assurance Supervisor",
-        "company": "Phibro Animal Health",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439426514"
-      },
-      {
-        "title": "Quality Assurance Junior",
-        "company": "Adecco",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437275253"
-      },
-      {
-        "title": "Quality Assurance Supervisor",
         "company": "Phibro Ethanol",
         "score": 7,
         "site": "linkedin",
         "date_posted": 1783900800000,
         "url": "https://www.linkedin.com/jobs/view/4439443491"
-      },
-      {
-        "title": "QUALITY ASSURANCE JUNIOR DETERGENZA",
-        "company": "Deco Industrie",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439233103"
       }
     ]
   },
@@ -190,8 +190,8 @@
       },
       {
         "word": "manager",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,9 +199,9 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "associate",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "senior",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,32 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 3 (+81%)",
-      "data": {
-        "current": 6,
-        "avg": 3.3,
-        "change_pct": 81.4
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 De'Longhi: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "De'Longhi",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 4,
-        "total": 6,
-        "pct": 66.7
+        "total": 4,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -245,53 +246,53 @@
         "clusters": [
           {
             "id": 3,
-            "size": 18,
+            "size": 23,
             "top_terms": [
+              "engineer",
               "marketing",
-              "hse",
-              "writer"
+              "hse"
             ],
-            "pct": 36.7
+            "pct": 44.2
           },
           {
             "id": 1,
-            "size": 14,
+            "size": 13,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 28.6
+            "pct": 25.0
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 0,
+            "size": 8,
             "top_terms": [
               "manager",
               "medical",
               "quality"
             ],
-            "pct": 14.3
+            "pct": 15.4
           },
           {
-            "id": 0,
-            "size": 6,
-            "top_terms": [
-              "engineer",
-              "mechanical",
-              "commissioning"
-            ],
-            "pct": 12.2
-          },
-          {
-            "id": 4,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 8.2
+            "pct": 7.7
+          },
+          {
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "senior",
+              "industrial",
+              "engineer"
+            ],
+            "pct": 7.7
           }
         ]
       }
