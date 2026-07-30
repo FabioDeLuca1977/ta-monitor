@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T09:45:26.662997",
+  "generated_at": "2026-07-30T09:32:24.855303",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 23.1,
+    "average": 24.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 8,
+      "medium": 9,
       "low": 4,
       "irrelevant": 11
     },
@@ -28,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1783555200000,
         "url": "https://www.linkedin.com/jobs/view/4392674060"
-      },
-      {
-        "title": "Principal - Evidence Generation Oversight - International role based in Italy",
-        "company": "IQVIA",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4443169752"
       },
       {
         "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
@@ -78,6 +70,22 @@
         "url": "https://www.linkedin.com/jobs/view/4445669606"
       },
       {
+        "title": "Principal - Evidence Generation Oversight - International role based in Italy",
+        "company": "IQVIA",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443169752"
+      },
+      {
+        "title": "MSL Centro (Emilia-Romagna, Marche)",
+        "company": "Jefferson Wells Italia",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446828249"
+      },
+      {
         "title": "Regulatory Affair Specialist",
         "company": "Teoresi MedTech",
         "score": 40,
@@ -112,10 +120,18 @@
       {
         "title": "QA & RA Manager | Medical Devices",
         "company": "Hays",
-        "score": 20,
+        "score": 21,
         "site": "linkedin",
         "date_posted": 1784592000000,
         "url": "https://www.linkedin.com/jobs/view/4437278972"
+      },
+      {
+        "title": "Strategic R&D Manager - Wound Management",
+        "company": "B. Braun Avitum Italy S.p.A.",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
         "title": "Cold End Manager",
@@ -126,17 +142,9 @@
         "url": "https://it.indeed.com/viewjob?jk=4f4885f265c03cac"
       },
       {
-        "title": "Senior CRA",
-        "company": "Thermo Fisher Scientific",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1784678400000,
-        "url": "https://it.indeed.com/viewjob?jk=f7917177ffbad2ea"
-      },
-      {
         "title": "Temporary manager",
         "company": "Percinque Srl",
-        "score": 9,
+        "score": 8,
         "site": "linkedin",
         "date_posted": 1783900800000,
         "url": "https://www.linkedin.com/jobs/view/4435692089"
@@ -144,10 +152,18 @@
       {
         "title": "Medico per CRA Mirandola",
         "company": "Codess Sociale Soc Coop",
-        "score": 5,
+        "score": 6,
         "site": "linkedin",
         "date_posted": 1783900800000,
         "url": "https://www.linkedin.com/jobs/view/4440079361"
+      },
+      {
+        "title": "Senior CRA",
+        "company": "Thermo Fisher Scientific",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1784678400000,
+        "url": "https://it.indeed.com/viewjob?jk=f7917177ffbad2ea"
       },
       {
         "title": "TERAPISTA OCCUPAZIONALE CRA Modena",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441469305"
-      },
-      {
-        "title": "HSE Plant Specialist",
-        "company": "Gerresheimer",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=bef21ea3e57ba9ce"
-      },
-      {
-        "title": "Production Supervisor, Aligner",
-        "company": "Dentsply Sirona",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1783555200000,
-        "url": "https://it.indeed.com/viewjob?jk=78a02f2461c1fb5d"
       }
     ]
   },
@@ -182,6 +182,11 @@
         "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -190,49 +195,79 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-65%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-30%)",
       "data": {
-        "current": 1,
+        "current": 2,
         "avg": 2.9,
-        "change_pct": -65.2
+        "change_pct": -30.4
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "data": {
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 11,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "clinical",
-              "specialist",
-              "oversight"
+              "romagna",
+              "emilia"
             ],
-            "pct": 45.8
+            "pct": 40.0
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 5,
             "top_terms": [
               "regulatory",
-              "specialist",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 25.0
+            "pct": 20.0
           },
           {
-            "id": 3,
-            "size": 4,
+            "id": 2,
+            "size": 5,
             "top_terms": [
               "manager",
               "medical",
-              "role"
+              "specialist"
             ],
-            "pct": 16.7
+            "pct": 20.0
           },
           {
             "id": 0,
@@ -240,9 +275,19 @@
             "top_terms": [
               "cra",
               "specialist",
-              "regulatory"
+              "romagna"
             ],
-            "pct": 12.5
+            "pct": 12.0
+          },
+          {
+            "id": 4,
+            "size": 2,
+            "top_terms": [
+              "role",
+              "oversight",
+              "italy"
+            ],
+            "pct": 8.0
           }
         ]
       }

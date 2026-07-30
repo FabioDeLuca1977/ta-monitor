@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-07-29T09:45:26.723417",
+  "generated_at": "2026-07-30T09:32:24.965483",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 56,
   "scoring": {
-    "average": 10.1,
+    "average": 10.6,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 3,
+      "good": 2,
+      "medium": 2,
       "low": 2,
       "irrelevant": 50
     },
     "top_jobs": [
+      {
+        "title": "Manager – Global Regulatory Affairs",
+        "company": "Taevas Life Sciences",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446470745"
+      },
       {
         "title": "Senior Regulatory Affairs Specialist A.P.I.",
         "company": "NEWCHEM SPA",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": 1783641600000,
         "url": "https://www.linkedin.com/jobs/view/4431096548"
-      },
-      {
-        "title": "Legal Specialist I Corporate Governance & Regulatory Affairs",
-        "company": "REVO Insurance",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1783468800000,
-        "url": "https://www.linkedin.com/jobs/view/4434868695"
       },
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
@@ -40,7 +40,7 @@
       {
         "title": "PQ Persona Qualificata",
         "company": "MedicAir",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1783555200000,
         "url": "https://www.linkedin.com/jobs/view/4425755875"
@@ -48,7 +48,7 @@
       {
         "title": "Si cerca Assistente alla Poltrona",
         "company": "Studio Dentistico Dott. Carlo Carlini",
-        "score": 31,
+        "score": 32,
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=1d13a9f9dc1466d1"
@@ -56,7 +56,7 @@
       {
         "title": "Quality Assurance Specialist",
         "company": "Cipriani Industria Srl",
-        "score": 30,
+        "score": 31,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=44eebe6163ed9282"
@@ -64,7 +64,7 @@
       {
         "title": "Laboratory Manager - Medical Device Testing",
         "company": "Eurofins",
-        "score": 18,
+        "score": 19,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4442700259"
@@ -96,7 +96,7 @@
       {
         "title": "Growth Marketing & Automation Specialist",
         "company": "iGreen Italia SRLS",
-        "score": 14,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=1f47254f8183691b"
@@ -134,28 +134,12 @@
         "url": "https://it.indeed.com/viewjob?jk=97f10cb7592d076c"
       },
       {
-        "title": "Addetto/a archiviazione pratiche per sistema di negozi coordinati",
-        "company": "Giucas",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4443142567"
-      },
-      {
         "title": "IT Application Architect Senior - Product Placement & Robo",
         "company": "Intesa Sanpaolo",
         "score": 12,
         "site": "indeed",
         "date_posted": 1785110400000,
         "url": "https://it.indeed.com/viewjob?jk=21c96d601b7d7343"
-      },
-      {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437692572"
       },
       {
         "title": "R&D DIRECTOR - PHARMA, SUPPLEMENTS & COSMETICS",
@@ -166,12 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=4e59c3495ee1a5e0"
       },
       {
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": 1783987200000,
+        "url": "https://www.linkedin.com/jobs/view/4437692572"
+      },
+      {
         "title": "Research Line Administrative Assistant",
         "company": "ISTITUTO ITALIANO DI TECNOLOGIA",
         "score": 10,
         "site": "indeed",
         "date_posted": 1785110400000,
         "url": "https://it.indeed.com/viewjob?jk=712d631f0acec7d7"
+      },
+      {
+        "title": "Venditore/-trice",
+        "company": "Ediltec Insulation S.p.A.",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=82334cb31b5306ed"
       }
     ]
   },
@@ -180,11 +180,6 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
@@ -194,14 +189,19 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "product",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "sistema",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "engineer",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "tecnico",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,31 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 4,
+        "new": 3,
         "total": 4,
-        "pct": 100.0
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 100% (+40pp)",
+      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 0% (-40pp)",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -246,16 +246,16 @@
         "clusters": [
           {
             "id": 2,
-            "size": 34,
+            "size": 35,
             "top_terms": [
               "specialist",
-              "responsabile",
-              "sistema"
+              "product",
+              "addetto"
             ],
-            "pct": 60.7
+            "pct": 62.5
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 8,
             "top_terms": [
               "assurance",
@@ -270,17 +270,7 @@
             "top_terms": [
               "manager",
               "senior",
-              "specialist"
-            ],
-            "pct": 8.9
-          },
-          {
-            "id": 3,
-            "size": 5,
-            "top_terms": [
-              "engineer",
-              "safety",
-              "product"
+              "vi"
             ],
             "pct": 8.9
           },
@@ -290,7 +280,17 @@
             "top_terms": [
               "tecnico",
               "vi",
-              "specialist"
+              "manager"
+            ],
+            "pct": 7.1
+          },
+          {
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "responsabile",
+              "sistema",
+              "gestione"
             ],
             "pct": 7.1
           }
