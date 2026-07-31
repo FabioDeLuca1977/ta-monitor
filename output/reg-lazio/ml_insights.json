@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-30T09:32:25.273827",
+  "generated_at": "2026-07-31T09:44:22.435760",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 98,
+  "total_jobs_analyzed": 103,
   "scoring": {
-    "average": 11.7,
+    "average": 11.0,
     "distribution": {
       "excellent": 0,
       "good": 4,
-      "medium": 5,
-      "low": 3,
-      "irrelevant": 86
+      "medium": 4,
+      "low": 2,
+      "irrelevant": 93
     },
     "top_jobs": [
       {
@@ -48,7 +48,7 @@
       {
         "title": "Vice President Regulatory Affairs - Cluster",
         "company": "Perrigo Company plc",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441564283"
@@ -64,7 +64,7 @@
       {
         "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
         "company": "Ecolab",
-        "score": 55,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=ee7ec4ffdc200c01"
@@ -78,14 +78,6 @@
         "url": "https://it.indeed.com/viewjob?jk=df705abcb0e03bce"
       },
       {
-        "title": "GxP Specialist",
-        "company": "Antal International",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1783987200000,
-        "url": "https://www.linkedin.com/jobs/view/4440515481"
-      },
-      {
         "title": "Principal Biostatistician (Oncology) - FSP",
         "company": "IQVIA",
         "score": 32,
@@ -94,28 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=eaf6cf45df536b37"
       },
       {
-        "title": "cerca una tata part-time en Terni",
-        "company": "toptata",
-        "score": 22,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=d9df86cb971cecf4"
-      },
-      {
         "title": "cerca una tata part-time à Terni 05100",
         "company": "toptata",
-        "score": 22,
+        "score": 23,
         "site": "indeed",
         "date_posted": 1783641600000,
         "url": "https://it.indeed.com/viewjob?jk=f9e36a9f577329b6"
-      },
-      {
-        "title": "Aircraft Operations Project Manager - Maintenance",
-        "company": "OnTarget Communications",
-        "score": 19,
-        "site": "indeed",
-        "date_posted": 1785110400000,
-        "url": "https://it.indeed.com/viewjob?jk=21c54bfb53f977cc"
       },
       {
         "title": "QUALITY MANAGER SENIOR",
@@ -134,6 +110,22 @@
         "url": "https://it.indeed.com/viewjob?jk=968f9cd112b1f3da"
       },
       {
+        "title": "Senior Renewable Energy Project Manager",
+        "company": null,
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=6427717af414b7b8"
+      },
+      {
+        "title": "Airworthiness Quality Assurance Engineer",
+        "company": "Amaris Consulting",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1785283200000,
+        "url": "https://www.linkedin.com/jobs/view/4443276034"
+      },
+      {
         "title": "QUALITY ASSURANCE MANAGER",
         "company": "OKATIM Italia",
         "score": 16,
@@ -142,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441326884"
       },
       {
-        "title": "Quality assurance (stage)",
-        "company": "Alliance Engineering Groupe Fortil",
+        "title": "Accounting & Finance Specialist",
+        "company": "IRBM",
         "score": 16,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445671196"
+        "site": "indeed",
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=62fa792c76ad8bf1"
       },
       {
         "title": "Quality Assurance Executive Manager",
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4441468380"
       },
       {
-        "title": "GHG Accounting Specialist",
-        "company": "Food and Agriculture Organization of the United Nations",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1785110400000,
-        "url": "https://it.indeed.com/viewjob?jk=532f6d7f426bd61f"
-      },
-      {
         "title": "Wholesale Strategy & Implementation Specialist",
         "company": "Iliad Italia",
         "score": 15,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=5b582b4ca5f888ce"
+      },
+      {
+        "title": "Payroll Specialist | Roma",
+        "company": "KPMG",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=0b33bc19a2610318"
+      },
+      {
+        "title": "Climate Risk and Agrometeorologist Specialist",
+        "company": "Food and Agriculture Organization of the United Nations",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=0876125e206a6e89"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "manager",
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
         "count": 14,
         "reason": "Appare 14x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
         "word": "assurance",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "associate",
+        "word": "defence",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -234,33 +234,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 11 annunci ultimo scan vs media 7 (+67%)",
+      "data": {
+        "current": 11,
+        "avg": 6.6,
+        "change_pct": 67.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 9/11 annunci da aziende nuove (81.8%)",
       "data": {
-        "new": 4,
-        "total": 6,
-        "pct": 66.7
+        "new": 9,
+        "total": 11,
+        "pct": 81.8
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 87% a 50% (-37pp)",
+      "message": "📡 indeed: quota passata da 50% a 73% (+23pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 86.7,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 72.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 13% a 50% (+37pp)",
+      "message": "📡 linkedin: quota passata da 50% a 27% (-23pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 13.3,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 27.3
       }
     },
     {
@@ -270,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 52,
+            "id": 2,
+            "size": 58,
             "top_terms": [
               "engineer",
-              "specialista",
-              "intern"
+              "manager",
+              "associate"
             ],
-            "pct": 53.1
+            "pct": 56.3
           },
           {
             "id": 3,
-            "size": 16,
-            "top_terms": [
-              "manager",
-              "senior",
-              "operations"
-            ],
-            "pct": 16.3
-          },
-          {
-            "id": 2,
             "size": 15,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 15.3
-          },
-          {
-            "id": 1,
-            "size": 13,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 13.3
+            "pct": 14.6
           },
           {
             "id": 0,
-            "size": 2,
+            "size": 12,
             "top_terms": [
-              "part",
-              "time",
-              "terni"
+              "senior",
+              "manager",
+              "consultant"
             ],
-            "pct": 2.0
+            "pct": 11.7
+          },
+          {
+            "id": 1,
+            "size": 12,
+            "top_terms": [
+              "specialist",
+              "accounting",
+              "quality"
+            ],
+            "pct": 11.7
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 5.8
           }
         ]
       }

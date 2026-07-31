@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-30T09:32:24.909823",
+  "generated_at": "2026-07-31T09:44:22.093824",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 55,
+  "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 30.5,
+    "average": 29.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 27,
-      "low": 6,
+      "medium": 25,
+      "low": 7,
       "irrelevant": 21
     },
     "top_jobs": [
@@ -24,7 +24,7 @@
       {
         "title": "Medical Science Liaison CNS, Migraine & Biosimilars",
         "company": "Organon Pharmaceuticals",
-        "score": 57,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1783987200000,
         "url": "https://it.indeed.com/viewjob?jk=0725b1aceb589dad"
@@ -42,7 +42,7 @@
         "company": "IQVIA",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784073600000,
         "url": "https://www.linkedin.com/jobs/view/4436863486"
       },
       {
@@ -78,22 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4445916477"
       },
       {
-        "title": "Oncology Partnerships Manager, Italy",
-        "company": "Massive Bio",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445146640"
-      },
-      {
-        "title": "Strategic Partnerships Manager, Oncology Providers - Italy",
-        "company": "Massive Bio",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445138720"
-      },
-      {
         "title": "MEDICAL LEAD ONCOLOGY",
         "company": "Gruppo Servier in Italia",
         "score": 52,
@@ -106,16 +90,8 @@
         "company": "Amplity",
         "score": 51,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440244615"
-      },
-      {
-        "title": "Medical Scientific Liaison Diabetes Care-  Nord Ovest",
-        "company": "Abbott",
-        "score": 50,
-        "site": "linkedin",
         "date_posted": 1784073600000,
-        "url": "https://www.linkedin.com/jobs/view/4437754949"
+        "url": "https://www.linkedin.com/jobs/view/4440244615"
       },
       {
         "title": "RADIPRODIL GLOBAL MEDICAL ASSOCIATE DIRECTOR",
@@ -126,12 +102,28 @@
         "url": "https://www.linkedin.com/jobs/view/4426407509"
       },
       {
+        "title": "Oncology Partnerships Manager, Italy",
+        "company": "Massive Bio",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445146640"
+      },
+      {
+        "title": "Medical Scientific Liaison Diabetes Care-  Nord Ovest",
+        "company": "Abbott",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1784073600000,
+        "url": "https://www.linkedin.com/jobs/view/4437754949"
+      },
+      {
         "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
         "company": "QuiCare",
         "score": 49,
         "site": "linkedin",
-        "date_posted": 1783641600000,
-        "url": "https://www.linkedin.com/jobs/view/4439088480"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441949460"
       },
       {
         "title": "Regulatory Affairs & Competition Specialist",
@@ -140,6 +132,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4443241888"
+      },
+      {
+        "title": "Strategic Partnerships Manager, Oncology Providers - Italy",
+        "company": "Massive Bio",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445138720"
       },
       {
         "title": "Clinical Research Associate - Italy - Remote",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=38ac1a87e9f1e1de"
       },
       {
-        "title": "Senior Clinical Research Associate",
-        "company": "ICON plc",
-        "score": 45,
+        "title": "Clinical Research Associate",
+        "company": null,
+        "score": 44,
         "site": "indeed",
-        "date_posted": 1783036800000,
-        "url": "https://it.indeed.com/viewjob?jk=c296d6bd2b60d655"
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=b0c29db735e202b9"
       }
     ]
   },
@@ -189,12 +189,12 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "field",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "temporary",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "sales",
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -209,24 +209,12 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 5,
+      "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 40
     },
     {
       "keyword": "manager italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "manager oncology",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "partnerships manager",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -236,31 +224,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 71% a 20% (-51pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 71.4,
-        "new_pct": 20.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 29% a 80% (+51pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 28.6,
-        "new_pct": 80.0
+        "new": 1,
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
@@ -270,54 +238,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 15,
+            "id": 2,
+            "size": 17,
             "top_terms": [
               "medical",
               "liaison",
               "science"
             ],
-            "pct": 27.3
-          },
-          {
-            "id": 1,
-            "size": 13,
-            "top_terms": [
-              "italy",
-              "manager",
-              "oncology"
-            ],
-            "pct": 23.6
+            "pct": 31.5
           },
           {
             "id": 4,
-            "size": 12,
+            "size": 13,
+            "top_terms": [
+              "manager",
+              "italy",
+              "oncology"
+            ],
+            "pct": 24.1
+          },
+          {
+            "id": 0,
+            "size": 11,
             "top_terms": [
               "specialist",
               "clinical",
               "medical"
             ],
-            "pct": 21.8
+            "pct": 20.4
           },
           {
-            "id": 0,
-            "size": 9,
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "associate",
               "clinical",
               "research"
             ],
-            "pct": 16.4
+            "pct": 13.0
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "intern"
             ],
-            "pct": 10.9
+            "pct": 11.1
           }
         ]
       }
