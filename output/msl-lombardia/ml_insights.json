@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-31T09:44:22.014722",
+  "generated_at": "2026-08-01T09:12:46.623987",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 204,
+  "total_jobs_analyzed": 203,
   "scoring": {
-    "average": 28.3,
+    "average": 27.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 93,
-      "low": 18,
-      "irrelevant": 91
+      "medium": 89,
+      "low": 16,
+      "irrelevant": 96
     },
     "top_jobs": [
       {
@@ -26,13 +26,13 @@
         "company": "Evolus",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4441606691"
       },
       {
         "title": "Medical Manager",
         "company": "Orion Pharma",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1784073600000,
         "url": "https://www.linkedin.com/jobs/view/4438095697"
@@ -134,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4441590064"
       },
       {
-        "title": "Medical Affairs Internship",
-        "company": "Sanofi",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435174440"
-      },
-      {
         "title": "MSL Manager - Metabolic Disorder",
         "company": "Sobi",
         "score": 54,
@@ -150,20 +142,12 @@
         "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
       },
       {
-        "title": "(Associate) Medical Director - Rheumatology, EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 53,
+        "title": "Clinical Research Associate II - Full Service Operations Model - Italy",
+        "company": "Fortrea",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": 1784073600000,
-        "url": "https://www.linkedin.com/jobs/view/4429846484"
-      },
-      {
-        "title": "Manager, Medical Writing (Publications)",
-        "company": "Thermo Fisher Scientific",
-        "score": 53,
-        "site": "indeed",
-        "date_posted": 1784160000000,
-        "url": "https://it.indeed.com/viewjob?jk=c3e6469835657e8d"
+        "date_posted": 1785369600000,
+        "url": "https://www.linkedin.com/jobs/view/4447054220"
       },
       {
         "title": "(Associate) Medical Director - Neurology",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4420711361"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
+        "company": "QVC Italy",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1784073600000,
+        "url": "https://www.linkedin.com/jobs/view/4440222641"
+      },
+      {
+        "title": "Senior Project Manager, Immuno-Oncology and Cell and Gene Therapy",
+        "company": "IQVIA",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443133145"
       }
     ]
   },
@@ -180,13 +180,18 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "cra",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -194,14 +199,9 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "lead",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
         "word": "fsp",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,13 +214,13 @@
       "confidence": 60
     },
     {
-      "keyword": "devices",
-      "frequency": 5,
+      "keyword": "italy",
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 60
     },
     {
-      "keyword": "italy",
+      "keyword": "devices",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
@@ -270,32 +270,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 22 annunci ultimo scan vs media 13 (+69%)",
-      "data": {
-        "current": 22,
-        "avg": 13.0,
-        "change_pct": 69.2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Beko Europe: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Beko Europe",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 14/22 annunci da aziende nuove (63.6%)",
+      "message": "📊 Ultimo scan: 6/11 annunci da aziende nuove (54.5%)",
       "data": {
-        "new": 14,
-        "total": 22,
-        "pct": 63.6
+        "new": 6,
+        "total": 11,
+        "pct": 54.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 45% a 27% (-18pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 45.5,
+        "new_pct": 27.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 55% a 73% (+18pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 54.5,
+        "new_pct": 72.7
       }
     },
     {
@@ -306,53 +307,53 @@
         "clusters": [
           {
             "id": 1,
-            "size": 80,
+            "size": 82,
             "top_terms": [
-              "cra",
-              "associate",
-              "research"
+              "director",
+              "medical",
+              "engineer"
             ],
-            "pct": 39.2
+            "pct": 40.4
+          },
+          {
+            "id": 2,
+            "size": 52,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 25.6
           },
           {
             "id": 3,
-            "size": 38,
+            "size": 39,
             "top_terms": [
               "manager",
               "project",
               "medical"
             ],
-            "pct": 18.6
+            "pct": 19.2
           },
           {
             "id": 4,
-            "size": 33,
+            "size": 18,
             "top_terms": [
-              "medical",
-              "director",
-              "affairs"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 16.2
-          },
-          {
-            "id": 2,
-            "size": 30,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 14.7
+            "pct": 8.9
           },
           {
             "id": 0,
-            "size": 23,
+            "size": 12,
             "top_terms": [
-              "specialist",
-              "clinical",
-              "site"
+              "cra",
+              "ii",
+              "sr"
             ],
-            "pct": 11.3
+            "pct": 5.9
           }
         ]
       }

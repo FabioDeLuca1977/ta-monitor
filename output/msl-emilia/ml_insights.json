@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-31T09:44:22.046945",
+  "generated_at": "2026-08-01T09:12:46.661308",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 22.8,
+    "average": 23.6,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 7,
       "low": 6,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "Hoya Vision Care",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
@@ -40,7 +40,7 @@
       {
         "title": "Global Regulatory Affairs Consultant",
         "company": "JSB Solutions",
-        "score": 42,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1783728000000,
         "url": "https://www.linkedin.com/jobs/view/4408880332"
@@ -52,6 +52,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
+      },
+      {
+        "title": "MSL Centro (Emilia-Romagna, Marche)",
+        "company": "Jefferson Wells Italia",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
         "title": "Field Clinical Specialist - Electrophysiology - Region Emilia-Romagna",
@@ -68,14 +76,6 @@
         "site": "linkedin",
         "date_posted": 1784678400000,
         "url": "https://www.linkedin.com/jobs/view/4443169752"
-      },
-      {
-        "title": "MSL Centro (Emilia-Romagna, Marche)",
-        "company": "Jefferson Wells Italia",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
         "title": "Regulatory Affair Specialist",
@@ -102,14 +102,6 @@
         "url": "https://it.indeed.com/viewjob?jk=0de8834ddb3be9eb"
       },
       {
-        "title": "Job Posting Title Clinical Trial Psych Rater - Italian Speaking",
-        "company": "IQVIA",
-        "score": 26,
-        "site": "indeed",
-        "date_posted": 1784851200000,
-        "url": "https://it.indeed.com/viewjob?jk=9cb54ef8fee71b28"
-      },
-      {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
         "score": 24,
@@ -118,9 +110,17 @@
         "url": "https://www.linkedin.com/jobs/view/4439793891"
       },
       {
+        "title": "Job Posting Title Clinical Trial Psych Rater - Italian Speaking",
+        "company": "IQVIA",
+        "score": 21,
+        "site": "indeed",
+        "date_posted": 1784851200000,
+        "url": "https://it.indeed.com/viewjob?jk=9cb54ef8fee71b28"
+      },
+      {
         "title": "QA & RA Manager | Medical Devices",
         "company": "Hays",
-        "score": 21,
+        "score": 20,
         "site": "linkedin",
         "date_posted": 1784592000000,
         "url": "https://www.linkedin.com/jobs/view/4437278972"
@@ -132,14 +132,6 @@
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
-      },
-      {
-        "title": "Cold End Manager",
-        "company": "Gerresheimer",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1784851200000,
-        "url": "https://it.indeed.com/viewjob?jk=4f4885f265c03cac"
       },
       {
         "title": "Temporary manager",
@@ -158,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=f7917177ffbad2ea"
       },
       {
+        "title": "Cold End Manager",
+        "company": "Gerresheimer",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1784851200000,
+        "url": "https://it.indeed.com/viewjob?jk=4f4885f265c03cac"
+      },
+      {
         "title": "Medico per CRA Mirandola",
         "company": "Codess Sociale Soc Coop",
         "score": 6,
@@ -170,7 +170,7 @@
         "company": "Domus Assistenza società cooperativa sociale",
         "score": 5,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4441469305"
       }
     ]
@@ -206,21 +206,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 50.0,
         "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -230,44 +230,44 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 14,
+            "id": 3,
+            "size": 12,
             "top_terms": [
-              "specialist",
               "clinical",
-              "regulatory"
+              "specialist",
+              "engineer"
             ],
-            "pct": 53.8
+            "pct": 48.0
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "manager",
               "medical",
               "specialist"
             ],
-            "pct": 19.2
+            "pct": 20.0
           },
           {
-            "id": 3,
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 12.0
+          },
+          {
+            "id": 1,
             "size": 3,
             "top_terms": [
               "cra",
               "specialist",
               "romagna"
             ],
-            "pct": 11.5
-          },
-          {
-            "id": 0,
-            "size": 2,
-            "top_terms": [
-              "engineer",
-              "specialist",
-              "romagna"
-            ],
-            "pct": 7.7
+            "pct": 12.0
           },
           {
             "id": 4,
@@ -277,7 +277,7 @@
               "evidence",
               "role"
             ],
-            "pct": 7.7
+            "pct": 8.0
           }
         ]
       }

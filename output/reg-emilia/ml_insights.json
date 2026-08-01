@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-31T09:44:22.358552",
+  "generated_at": "2026-08-01T09:12:46.998125",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 47,
+  "total_jobs_analyzed": 45,
   "scoring": {
-    "average": 9.7,
+    "average": 10.4,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 1,
       "low": 1,
-      "irrelevant": 43
+      "irrelevant": 41
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Utilities & Facility Engineer",
         "company": "Sonoco Metal Packaging Italia Srl",
-        "score": 30,
+        "score": 25,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=0fc3bdaf4231a0c3"
@@ -54,20 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4439793891"
       },
       {
-        "title": "Project Manager After Sales",
-        "company": "IMA Life North America",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=b18ffcdabe284a8e"
-      },
-      {
         "title": "Strategic R&D Manager - Wound Management",
         "company": "B. Braun Avitum Italy S.p.A.",
         "score": 17,
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
+      },
+      {
+        "title": "Customer Success Manager (Italy)",
+        "company": "Geotab",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=e276b5612a2b3382"
+      },
+      {
+        "title": "Manager, PMO",
+        "company": "Alfasigma group",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=0b532cd64e610d42"
       },
       {
         "title": "QA & RA Manager | Medical Devices",
@@ -86,20 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4445928822"
       },
       {
-        "title": "Quality Assurance Associate - Fixed Term Contract (12 months)",
-        "company": "Eli Lilly and Company",
+        "title": "Project Manager After Sales",
+        "company": "IMA Life North America",
         "score": 13,
-        "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4444934342"
-      },
-      {
-        "title": "PRODUCT MANAGER",
-        "company": "Reverse",
-        "score": 12,
         "site": "indeed",
-        "date_posted": 1785110400000,
-        "url": "https://it.indeed.com/viewjob?jk=2ea272c9ee6c357c"
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=b18ffcdabe284a8e"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -108,6 +108,14 @@
         "site": "indeed",
         "date_posted": 1784505600000,
         "url": "https://it.indeed.com/viewjob?jk=527ad2d04d71212f"
+      },
+      {
+        "title": "PRODUCT MANAGER",
+        "company": "Reverse",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1785110400000,
+        "url": "https://it.indeed.com/viewjob?jk=2ea272c9ee6c357c"
       },
       {
         "title": "Lombardy & Emilia Romagna Certification Senior Industrial Services Inspector",
@@ -134,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4444934342"
       },
       {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1783641600000,
-        "url": "https://www.linkedin.com/jobs/view/4439302592"
-      },
-      {
         "title": "Quality assurance",
         "company": "Michael Page",
         "score": 8,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4442863186"
+      },
+      {
+        "title": "Quality Assurance Associate - Fixed Term Contract (12 months)",
+        "company": "Eli Lilly and Company",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": 1784851200000,
+        "url": "https://www.linkedin.com/jobs/view/4444934342"
       },
       {
         "title": "Quality Assurance Supervisor",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439233103"
-      },
-      {
-        "title": "Quality Assurance Senior– Cluster Cocoa Products",
-        "company": "Unigrà",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439263213"
       }
     ]
   },
@@ -190,16 +190,16 @@
       },
       {
         "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "project",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -209,23 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-47%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "current": 2,
-        "avg": 3.8,
-        "change_pct": -46.7
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -235,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 22,
+            "id": 0,
+            "size": 16,
             "top_terms": [
-              "engineer",
-              "senior",
-              "regulatory"
+              "marketing",
+              "hse",
+              "industrial"
             ],
-            "pct": 46.8
+            "pct": 35.6
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 12,
             "top_terms": [
               "assurance",
               "quality",
               "junior"
             ],
-            "pct": 25.5
+            "pct": 26.7
           },
           {
-            "id": 2,
-            "size": 8,
+            "id": 1,
+            "size": 10,
             "top_terms": [
               "manager",
               "medical",
               "project"
             ],
-            "pct": 17.0
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "gas",
-              "oil",
-              "commissioning"
-            ],
-            "pct": 6.4
+            "pct": 22.2
           },
           {
             "id": 3,
-            "size": 2,
+            "size": 4,
             "top_terms": [
-              "marketing",
-              "tecnico",
-              "affairs"
+              "engineer",
+              "product",
+              "senior"
             ],
-            "pct": 4.3
+            "pct": 8.9
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 6.7
           }
         ]
       }
