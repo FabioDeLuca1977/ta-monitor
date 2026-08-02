@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T09:12:46.338920",
+  "generated_at": "2026-08-02T09:18:38.273295",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 208,
+  "total_jobs_analyzed": 209,
   "scoring": {
-    "average": 23.2,
+    "average": 23.0,
     "distribution": {
       "excellent": 0,
       "good": 9,
-      "medium": 45,
-      "low": 52,
-      "irrelevant": 102
+      "medium": 44,
+      "low": 53,
+      "irrelevant": 103
     },
     "top_jobs": [
       {
@@ -38,14 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446772905"
       },
       {
-        "title": "Talent Acquisition Specialist - Sales",
-        "company": "CLÍNICA MADICA INTER LOMAS",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1784937600000,
-        "url": "https://www.linkedin.com/jobs/view/4445352354"
-      },
-      {
         "title": "HR MANAGER JUNIOR",
         "company": "Italian Design Institute",
         "score": 65,
@@ -58,7 +50,7 @@
         "company": "Letuelezioni",
         "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4441994085"
       },
       {
@@ -78,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4444602279"
       },
       {
+        "title": "Talent Acquisition Specialist - Sales",
+        "company": "CLÍNICA MADICA INTER LOMAS",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1784937600000,
+        "url": "https://www.linkedin.com/jobs/view/4445352354"
+      },
+      {
         "title": "Junior HR Generalist per soluzioni cura persona",
         "company": "Tuolavoro-Lazio",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1785196800000,
         "url": "https://www.linkedin.com/jobs/view/4445757552"
-      },
-      {
-        "title": "HR Generalist Payroll Presenze Amministrazione del personale",
-        "company": null,
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1784937600000,
-        "url": "https://it.indeed.com/viewjob?jk=229e9e22647b1761"
       },
       {
         "title": "Junior HR Specialist - Gestione spese domestiche",
@@ -126,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4444348312"
       },
       {
-        "title": "Addetto/a Selezione Personale – Consulenza Risorse Umane",
-        "company": "Novati",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1785024000000,
-        "url": "https://it.indeed.com/viewjob?jk=89a0b26d0893a7c3"
-      },
-      {
         "title": "Junior HR generalist tecnologie ripiano notturno",
         "company": "Tuolavoro-Lazio",
         "score": 57,
@@ -142,9 +126,17 @@
         "url": "https://www.linkedin.com/jobs/view/4445751688"
       },
       {
+        "title": "Addetto/a Selezione Personale – Consulenza Risorse Umane",
+        "company": "Novati",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1785024000000,
+        "url": "https://it.indeed.com/viewjob?jk=89a0b26d0893a7c3"
+      },
+      {
         "title": "Addetto/a Ricerca e Selezione – Ufficio Risorse Umane",
         "company": "prestig-srl",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": 1784505600000,
         "url": "https://www.linkedin.com/jobs/view/4441799573"
@@ -158,19 +150,27 @@
         "url": "https://www.linkedin.com/jobs/view/4445970573"
       },
       {
-        "title": "HR officer Tecnologie per Comfort Domestico",
-        "company": "Tuolavoro-Lazio",
+        "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
+        "company": "Aenova Group",
         "score": 54,
         "site": "linkedin",
         "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4440783727"
+        "url": "https://www.linkedin.com/jobs/view/4432361045"
+      },
+      {
+        "title": "HR Business Partner, EU One PXT",
+        "company": "Amazon",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443034783"
       },
       {
         "title": "HR officer per prodotti benessere generale",
         "company": "Tuolavoro-Lazio",
         "score": 54,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4441339707"
       }
     ]
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
+        "count": 35,
+        "reason": "Appare 35x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 33,
-        "reason": "Appare 33x in annunci a basso score"
+        "count": 35,
+        "reason": "Appare 35x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -208,16 +208,22 @@
   },
   "keyword_recommendations": [
     {
+      "keyword": "hr talent",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
       "keyword": "junior hr",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "hr talent",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "keyword": "junior",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
       "keyword": "tecnologie",
@@ -226,7 +232,7 @@
       "confidence": 40
     },
     {
-      "keyword": "junior",
+      "keyword": "intern",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
@@ -260,53 +266,37 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "generalist soluzioni",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 14 (-44%)",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 15 (-80%)",
       "data": {
-        "current": 8,
-        "avg": 14.3,
-        "change_pct": -44.0
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 4,
-        "total": 8,
-        "pct": 50.0
+        "current": 3,
+        "avg": 14.7,
+        "change_pct": -79.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 21% a 50% (+29pp)",
+      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 21.4,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 79% a 50% (-29pp)",
+      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 78.6,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -316,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 93,
+            "id": 1,
+            "size": 92,
             "top_terms": [
               "roma",
-              "responsabile",
-              "progettista"
+              "business",
+              "partner"
             ],
-            "pct": 44.7
+            "pct": 44.0
           },
           {
             "id": 2,
-            "size": 46,
-            "top_terms": [
-              "specialist",
-              "hr",
-              "business"
-            ],
-            "pct": 22.1
-          },
-          {
-            "id": 4,
-            "size": 46,
+            "size": 48,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 22.1
-          },
-          {
-            "id": 1,
-            "size": 18,
-            "top_terms": [
-              "addetto",
-              "selezione",
-              "personale"
-            ],
-            "pct": 8.7
+            "pct": 23.0
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 35,
             "top_terms": [
-              "tecnico",
-              "sicurezza",
-              "support"
+              "hr",
+              "personale",
+              "selezione"
             ],
-            "pct": 2.4
+            "pct": 16.7
+          },
+          {
+            "id": 4,
+            "size": 20,
+            "top_terms": [
+              "specialist",
+              "talent",
+              "communication"
+            ],
+            "pct": 9.6
+          },
+          {
+            "id": 0,
+            "size": 14,
+            "top_terms": [
+              "responsabile",
+              "umane",
+              "risorse"
+            ],
+            "pct": 6.7
           }
         ]
       }

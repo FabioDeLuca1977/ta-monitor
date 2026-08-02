@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T09:12:47.081822",
+  "generated_at": "2026-08-02T09:18:39.021103",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 108,
+  "total_jobs_analyzed": 111,
   "scoring": {
-    "average": 10.9,
+    "average": 11.1,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 6,
-      "low": 3,
-      "irrelevant": 96
+      "low": 5,
+      "irrelevant": 97
     },
     "top_jobs": [
       {
@@ -54,20 +54,20 @@
         "url": "https://it.indeed.com/viewjob?jk=ae887796637a257d"
       },
       {
-        "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
-        "company": "Ecolab",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=ee7ec4ffdc200c01"
-      },
-      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
+      },
+      {
+        "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
+        "company": "Ecolab",
+        "score": 51,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=ee7ec4ffdc200c01"
       },
       {
         "title": "Regulatory Affairs Intern",
@@ -80,7 +80,7 @@
       {
         "title": "Performance Marketer",
         "company": "Immobiliare.it",
-        "score": 45,
+        "score": 40,
         "site": "linkedin",
         "date_posted": 1785283200000,
         "url": "https://www.linkedin.com/jobs/view/4433182996"
@@ -110,20 +110,36 @@
         "url": "https://it.indeed.com/viewjob?jk=f9e36a9f577329b6"
       },
       {
+        "title": "Business Applications Project & Demand Manager",
+        "company": "Digital Value S.p.A.",
+        "score": 22,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445143719"
+      },
+      {
+        "title": "Quality Assurance Manager",
+        "company": "S&you Italia",
+        "score": 21,
+        "site": "linkedin",
+        "date_posted": 1785283200000,
+        "url": "https://www.linkedin.com/jobs/view/4443681720"
+      },
+      {
+        "title": "Quality Assurance & Compliance Assistant",
+        "company": null,
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1785542400000,
+        "url": "https://it.indeed.com/viewjob?jk=db64cf0046187aad"
+      },
+      {
         "title": "Senior Renewable Energy Project Manager",
         "company": null,
         "score": 18,
         "site": "indeed",
         "date_posted": 1785369600000,
         "url": "https://it.indeed.com/viewjob?jk=6427717af414b7b8"
-      },
-      {
-        "title": "Airworthiness Quality Assurance Engineer",
-        "company": "Amaris Consulting",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1785283200000,
-        "url": "https://www.linkedin.com/jobs/view/4443276034"
       },
       {
         "title": "Sr Manager, Quality System",
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1785369600000,
         "url": "https://it.indeed.com/viewjob?jk=62fa792c76ad8bf1"
-      },
-      {
-        "title": "Quality Assurance Executive Manager",
-        "company": "NTT DATA Europe & Latam",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4441468380"
-      },
-      {
-        "title": "Climate Risk and Agrometeorologist Specialist",
-        "company": "Food and Agriculture Organization of the United Nations",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=0876125e206a6e89"
       }
     ]
   },
@@ -179,17 +179,17 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "manager",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
-      },
-      {
         "word": "assurance",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "engineer",
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 14,
         "reason": "Appare 14x in annunci a basso score"
       },
@@ -234,23 +234,13 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 10 annunci ultimo scan vs media 7 (+43%)",
-      "data": {
-        "current": 10,
-        "avg": 7.0,
-        "change_pct": 42.9
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/10 annunci da aziende nuove (70.0%)",
+      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 7,
-        "total": 10,
-        "pct": 70.0
+        "new": 2,
+        "total": 6,
+        "pct": 33.3
       }
     },
     {
@@ -260,54 +250,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 49,
+            "id": 0,
+            "size": 61,
             "top_terms": [
-              "associate",
-              "validation",
-              "qc"
+              "senior",
+              "consultant",
+              "intern"
             ],
-            "pct": 45.4
+            "pct": 55.0
           },
           {
-            "id": 0,
-            "size": 20,
+            "id": 1,
+            "size": 16,
+            "top_terms": [
+              "manager",
+              "quality",
+              "senior"
+            ],
+            "pct": 14.4
+          },
+          {
+            "id": 2,
+            "size": 16,
             "top_terms": [
               "specialist",
               "regulatory",
-              "affairs"
+              "accounting"
             ],
-            "pct": 18.5
-          },
-          {
-            "id": 3,
-            "size": 19,
-            "top_terms": [
-              "manager",
-              "senior",
-              "operations"
-            ],
-            "pct": 17.6
+            "pct": 14.4
           },
           {
             "id": 4,
-            "size": 15,
+            "size": 16,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 13.9
+            "pct": 14.4
           },
           {
-            "id": 2,
-            "size": 5,
+            "id": 3,
+            "size": 2,
             "top_terms": [
-              "engineer",
-              "test",
-              "automation"
+              "manufacturing",
+              "pds",
+              "validation"
             ],
-            "pct": 4.6
+            "pct": 1.8
           }
         ]
       }

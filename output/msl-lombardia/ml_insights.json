@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T09:12:46.623987",
+  "generated_at": "2026-08-02T09:18:38.549575",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 203,
+  "total_jobs_analyzed": 208,
   "scoring": {
     "average": 27.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 89,
+      "medium": 92,
       "low": 16,
-      "irrelevant": 96
+      "irrelevant": 98
     },
     "top_jobs": [
       {
@@ -46,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4440116335"
       },
       {
-        "title": "Regulatory Affairs Specialist | REACH, CLP",
-        "company": "Mynameis",
+        "title": "Regulatory Affairs Specialist -Erba",
+        "company": "Manpower",
         "score": 58,
         "site": "linkedin",
-        "date_posted": 1785283200000,
-        "url": "https://www.linkedin.com/jobs/view/4446599362"
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4445519152"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -78,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446746491"
       },
       {
-        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
-        "company": "IQVIA",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1783987200000,
-        "url": "https://www.linkedin.com/jobs/view/4436870360"
-      },
-      {
         "title": "Medical Affairs Lead BH",
         "company": "Neuraxpharm",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4411500965"
+      },
+      {
+        "title": "Associate Medical Director, Cardiology , with Metabolic Diseases and Nephrology Experience",
+        "company": "IQVIA",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1783987200000,
+        "url": "https://www.linkedin.com/jobs/view/4436870360"
       },
       {
         "title": "Psychiatry - Medical Director",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
-        "title": "Senior Project Manager, Immuno-Oncology and Cell and Gene Therapy",
-        "company": "IQVIA",
+        "title": "Medical Affairs Internship",
+        "company": "Sanofi",
         "score": 53,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443133145"
+        "url": "https://www.linkedin.com/jobs/view/4435174440"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "cra",
@@ -270,33 +270,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 14 (-66%)",
+      "data": {
+        "current": 5,
+        "avg": 14.5,
+        "change_pct": -65.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/11 annunci da aziende nuove (54.5%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 6,
-        "total": 11,
-        "pct": 54.5
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 45% a 27% (-18pp)",
+      "message": "📡 linkedin: quota passata da 27% a 80% (+53pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 45.5,
-        "new_pct": 27.3
+        "old_pct": 27.3,
+        "new_pct": 80.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 55% a 73% (+18pp)",
+      "message": "📡 indeed: quota passata da 73% a 20% (-53pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 54.5,
-        "new_pct": 72.7
+        "old_pct": 72.7,
+        "new_pct": 20.0
       }
     },
     {
@@ -306,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 82,
+            "id": 4,
+            "size": 96,
             "top_terms": [
-              "director",
-              "medical",
-              "engineer"
+              "specialist",
+              "cra",
+              "clinical"
             ],
-            "pct": 40.4
-          },
-          {
-            "id": 2,
-            "size": 52,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 25.6
+            "pct": 46.2
           },
           {
             "id": 3,
-            "size": 39,
+            "size": 38,
             "top_terms": [
               "manager",
               "project",
               "medical"
             ],
-            "pct": 19.2
+            "pct": 18.3
           },
           {
-            "id": 4,
-            "size": 18,
+            "id": 1,
+            "size": 32,
             "top_terms": [
-              "clinical",
-              "research",
-              "associate"
+              "medical",
+              "director",
+              "affairs"
             ],
-            "pct": 8.9
+            "pct": 15.4
+          },
+          {
+            "id": 2,
+            "size": 31,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 14.9
           },
           {
             "id": 0,
-            "size": 12,
+            "size": 11,
             "top_terms": [
-              "cra",
-              "ii",
-              "sr"
+              "engineer",
+              "technical",
+              "field"
             ],
-            "pct": 5.9
+            "pct": 5.3
           }
         ]
       }

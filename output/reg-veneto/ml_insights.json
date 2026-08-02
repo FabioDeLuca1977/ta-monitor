@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T09:12:46.767704",
+  "generated_at": "2026-08-02T09:18:38.695534",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 59,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 9.7,
+    "average": 9.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 1,
       "low": 4,
-      "irrelevant": 53
+      "irrelevant": 52
     },
     "top_jobs": [
       {
@@ -30,14 +30,6 @@
         "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
-        "title": "Si cerca Assistente alla Poltrona",
-        "company": "Studio Dentistico Dott. Carlo Carlini",
-        "score": 31,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=1d13a9f9dc1466d1"
-      },
-      {
         "title": "Aso",
         "company": "Studio dentistico Seno",
         "score": 31,
@@ -46,9 +38,17 @@
         "url": "https://it.indeed.com/viewjob?jk=dd32c64d8d43b7a6"
       },
       {
+        "title": "Si cerca Assistente alla Poltrona",
+        "company": "Studio Dentistico Dott. Carlo Carlini",
+        "score": 26,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=1d13a9f9dc1466d1"
+      },
+      {
         "title": "Retention Email Manager | gn | Copywriting, DTC, Klaviyo, Lifecycle | Remote",
         "company": "OKTOBER",
-        "score": 26,
+        "score": 21,
         "site": "linkedin",
         "date_posted": 1785283200000,
         "url": "https://www.linkedin.com/jobs/view/4446573235"
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=1f47254f8183691b"
       },
       {
-        "title": "Venditore/-trice",
-        "company": "Ediltec Insulation S.p.A.",
+        "title": "Electronic Test Systems & Engineer",
+        "company": "GDS Holding",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=82334cb31b5306ed"
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=00bcbdb5a837d482"
       },
       {
-        "title": "Beauty Advisor - Mirano (VE)",
-        "company": "DOUGLAS",
+        "title": "medico endocrinologo",
+        "company": "Centro Dioli: Medicina e Salute",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=20ce6cf1054532a8"
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=56ed4ca9f6cc155e"
       }
     ]
   },
@@ -245,24 +245,24 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 32,
+            "id": 0,
+            "size": 31,
             "top_terms": [
               "responsabile",
               "sistema",
               "engineer"
             ],
-            "pct": 54.2
+            "pct": 53.4
           },
           {
-            "id": 0,
+            "id": 2,
             "size": 9,
             "top_terms": [
               "manager",
               "senior",
               "regulatory"
             ],
-            "pct": 15.3
+            "pct": 15.5
           },
           {
             "id": 3,
@@ -272,7 +272,7 @@
               "quality",
               "specialist"
             ],
-            "pct": 11.9
+            "pct": 12.1
           },
           {
             "id": 4,
@@ -282,17 +282,17 @@
               "marketing",
               "sales"
             ],
-            "pct": 11.9
+            "pct": 12.1
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 4,
             "top_terms": [
               "tecnico",
               "venezia",
               "project"
             ],
-            "pct": 6.8
+            "pct": 6.9
           }
         ]
       }

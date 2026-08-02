@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-08-01T09:12:46.712796",
+  "generated_at": "2026-08-02T09:18:38.638791",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 54,
+  "total_jobs_analyzed": 53,
   "scoring": {
-    "average": 30.4,
+    "average": 29.9,
     "distribution": {
       "excellent": 0,
-      "good": 1,
+      "good": 0,
       "medium": 27,
       "low": 6,
       "irrelevant": 20
     },
     "top_jobs": [
-      {
-        "title": "Medical Science Liaison - Oncology (Centro-Nord)",
-        "company": "MSD",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=7279ec04083495f2"
-      },
       {
         "title": "Medical Science Liaison (MSL) - Central Italy",
         "company": "MSD",
@@ -46,20 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4436863486"
       },
       {
+        "title": "Medical Science Liaison - Oncology (Centro-Nord)",
+        "company": "MSD",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=7279ec04083495f2"
+      },
+      {
         "title": "Medical Advisor Neurology and Immunolog",
         "company": "Merck Healthcare",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446581713"
-      },
-      {
-        "title": "Scientific Affairs Manager - Italy (Rome)",
-        "company": "Rhythm Pharmaceuticals Inc.",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1783728000000,
-        "url": "https://www.linkedin.com/jobs/view/4430973378"
       },
       {
         "title": "Medical Device Quality & Regulatory Specialist",
@@ -118,6 +110,14 @@
         "url": "https://www.linkedin.com/jobs/view/4441949460"
       },
       {
+        "title": "Regulatory Affairs & Competition Specialist",
+        "company": "iliad",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443241888"
+      },
+      {
         "title": "Strategic Partnerships Manager, Oncology Providers - Italy",
         "company": "Massive Bio",
         "score": 49,
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4444854467"
       },
       {
-        "title": "Regulatory Affairs & Competition Specialist",
-        "company": "iliad",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443241888"
-      },
-      {
         "title": "Regulatory Affairs Specialist - RASp",
         "company": "Res Excelsa",
         "score": 48,
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1784592000000,
         "url": "https://it.indeed.com/viewjob?jk=b0c29db735e202b9"
+      },
+      {
+        "title": "Therapeutic Area Specialist Oncology",
+        "company": "Merck Healthcare",
+        "score": 43,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4438806248"
       }
     ]
   },
@@ -209,14 +209,8 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 4,
+      "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
-      "keyword": "manager italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     }
   ],
@@ -258,44 +252,34 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 16,
+            "id": 4,
+            "size": 28,
             "top_terms": [
               "italy",
-              "manager",
-              "oncology"
+              "associate",
+              "director"
             ],
-            "pct": 29.6
-          },
-          {
-            "id": 0,
-            "size": 12,
-            "top_terms": [
-              "uoc",
-              "oncologia",
-              "analyst"
-            ],
-            "pct": 22.2
-          },
-          {
-            "id": 4,
-            "size": 10,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "italia"
-            ],
-            "pct": 18.5
+            "pct": 52.8
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 8,
             "top_terms": [
-              "associate",
-              "director",
-              "medical"
+              "medical",
+              "science",
+              "liaison"
             ],
-            "pct": 16.7
+            "pct": 15.1
+          },
+          {
+            "id": 2,
+            "size": 8,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "sales"
+            ],
+            "pct": 15.1
           },
           {
             "id": 3,
@@ -305,7 +289,17 @@
               "affairs",
               "specialist"
             ],
-            "pct": 13.0
+            "pct": 13.2
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "rome",
+              "position",
+              "temporary"
+            ],
+            "pct": 3.8
           }
         ]
       }

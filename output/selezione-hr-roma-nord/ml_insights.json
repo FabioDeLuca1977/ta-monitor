@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T09:12:46.452001",
+  "generated_at": "2026-08-02T09:18:38.381890",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 208,
+  "total_jobs_analyzed": 209,
   "scoring": {
-    "average": 24.0,
+    "average": 23.7,
     "distribution": {
       "excellent": 0,
       "good": 11,
       "medium": 49,
       "low": 47,
-      "irrelevant": 101
+      "irrelevant": 102
     },
     "top_jobs": [
       {
@@ -38,19 +38,11 @@
         "url": "https://www.linkedin.com/jobs/view/4446772905"
       },
       {
-        "title": "Talent Acquisition Specialist - Sales",
-        "company": "CLÍNICA MADICA INTER LOMAS",
-        "score": 70,
-        "site": "linkedin",
-        "date_posted": 1784937600000,
-        "url": "https://www.linkedin.com/jobs/view/4445352354"
-      },
-      {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
         "company": "Letuelezioni",
         "score": 66,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4441994085"
       },
       {
@@ -70,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4444602279"
       },
       {
+        "title": "Talent Acquisition Specialist - Sales",
+        "company": "CLÍNICA MADICA INTER LOMAS",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": 1784937600000,
+        "url": "https://www.linkedin.com/jobs/view/4445352354"
+      },
+      {
         "title": "HR MANAGER JUNIOR",
         "company": "Italian Design Institute",
         "score": 65,
@@ -80,18 +80,10 @@
       {
         "title": "Addetto/a Selezione Personale – Consulenza Risorse Umane",
         "company": "Novati",
-        "score": 62,
+        "score": 61,
         "site": "indeed",
         "date_posted": 1785024000000,
         "url": "https://it.indeed.com/viewjob?jk=89a0b26d0893a7c3"
-      },
-      {
-        "title": "Junior HR Generalist per soluzioni cura persona",
-        "company": "Tuolavoro-Lazio",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1785196800000,
-        "url": "https://www.linkedin.com/jobs/view/4445757552"
       },
       {
         "title": "Addetto/a Ricerca e Selezione – Ufficio Risorse Umane",
@@ -102,12 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441799573"
       },
       {
-        "title": "HR Generalist Payroll Presenze Amministrazione del personale",
-        "company": null,
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1784937600000,
-        "url": "https://it.indeed.com/viewjob?jk=229e9e22647b1761"
+        "title": "Junior HR Generalist per soluzioni cura persona",
+        "company": "Tuolavoro-Lazio",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1785196800000,
+        "url": "https://www.linkedin.com/jobs/view/4445757552"
       },
       {
         "title": "Junior HR Specialist - Gestione spese domestiche",
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4445970573"
       },
       {
-        "title": "HR officer Tecnologie per Comfort Domestico",
+        "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
+        "company": "Aenova Group",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4432361045"
+      },
+      {
+        "title": "Addetto/a ricerca e selezione prodotti per il supporto alla salute",
         "company": "Tuolavoro-Lazio",
         "score": 54,
         "site": "linkedin",
         "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4440783727"
+        "url": "https://www.linkedin.com/jobs/view/4440775973"
       }
     ]
   },
@@ -189,14 +189,9 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "human",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "resources",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "senior",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -215,13 +210,13 @@
       "confidence": 45
     },
     {
-      "keyword": "tecnologie",
+      "keyword": "junior",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
     },
     {
-      "keyword": "junior",
+      "keyword": "tecnologie",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
@@ -266,42 +261,32 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 14 (-44%)",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 15 (-80%)",
       "data": {
-        "current": 8,
-        "avg": 14.3,
-        "change_pct": -44.0
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 4,
-        "total": 8,
-        "pct": 50.0
+        "current": 3,
+        "avg": 14.7,
+        "change_pct": -79.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 21% a 50% (+29pp)",
+      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 21.4,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 79% a 50% (-29pp)",
+      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 78.6,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -311,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 93,
+            "id": 1,
+            "size": 92,
             "top_terms": [
               "roma",
-              "responsabile",
-              "progettista"
+              "business",
+              "partner"
             ],
-            "pct": 44.7
+            "pct": 44.0
           },
           {
             "id": 2,
-            "size": 46,
-            "top_terms": [
-              "specialist",
-              "hr",
-              "business"
-            ],
-            "pct": 22.1
-          },
-          {
-            "id": 4,
-            "size": 46,
+            "size": 48,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 22.1
-          },
-          {
-            "id": 1,
-            "size": 18,
-            "top_terms": [
-              "addetto",
-              "selezione",
-              "personale"
-            ],
-            "pct": 8.7
+            "pct": 23.0
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 35,
             "top_terms": [
-              "tecnico",
-              "sicurezza",
-              "support"
+              "hr",
+              "personale",
+              "selezione"
             ],
-            "pct": 2.4
+            "pct": 16.7
+          },
+          {
+            "id": 4,
+            "size": 20,
+            "top_terms": [
+              "specialist",
+              "talent",
+              "communication"
+            ],
+            "pct": 9.6
+          },
+          {
+            "id": 0,
+            "size": 14,
+            "top_terms": [
+              "responsabile",
+              "umane",
+              "risorse"
+            ],
+            "pct": 6.7
           }
         ]
       }
