@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-02T09:18:38.417143",
+  "generated_at": "2026-08-03T10:39:07.613548",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 24.5,
+    "average": 23.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 10,
-      "low": 2,
+      "medium": 8,
+      "low": 3,
       "irrelevant": 12
     },
     "top_jobs": [
@@ -24,26 +24,18 @@
       {
         "title": "Informatore Scientifico del Farmaco (ISF)",
         "company": "Professional Recruitment",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4443100838"
       },
       {
-        "title": "ISF Informatore scientifico del farmaco PADOVA",
-        "company": "Stewart Italia srl",
-        "score": 47,
+        "title": "| INFORMATORE SCIENTIFICO | 157165 |",
+        "company": "Orienta Agenzia per il Lavoro",
+        "score": 43,
         "site": "linkedin",
-        "date_posted": 1783814400000,
-        "url": "https://www.linkedin.com/jobs/view/4439751249"
-      },
-      {
-        "title": "Informatore medico scientifico",
-        "company": "Shedir Pharma Group S.p.A.",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1785024000000,
-        "url": "https://www.linkedin.com/jobs/view/4445385853"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441031420"
       },
       {
         "title": "Informatore scientifico di medicina naturale",
@@ -54,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4440009236"
       },
       {
-        "title": "| INFORMATORE SCIENTIFICO | 157165 |",
-        "company": "Orienta Agenzia per il Lavoro",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441031420"
-      },
-      {
         "title": "Informatore scientifico commerciale | Veneto",
         "company": "PharmaNutra",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438218073"
+      },
+      {
+        "title": "Clinical Specialist Trach",
+        "company": "Atos Medical",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
         "title": "ISF Ginecologia",
@@ -86,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4437284048"
       },
       {
-        "title": "Clinical Specialist Trach",
-        "company": "Atos Medical",
-        "score": 41,
+        "title": "Informatore medico scientifico",
+        "company": "Shedir Pharma Group S.p.A.",
+        "score": 39,
         "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4440783183"
+        "date_posted": 1785024000000,
+        "url": "https://www.linkedin.com/jobs/view/4445385853"
       },
       {
         "title": "Informatore Medico Scientifico Venezia e Treviso",
@@ -104,7 +96,7 @@
       {
         "title": "Informatore Tecnico e Medico Scientifico– Agente Monomandatario",
         "company": "Dompé",
-        "score": 36,
+        "score": 37,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4447535530"
@@ -124,14 +116,6 @@
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=a99794eda5fc1877"
-      },
-      {
-        "title": "SAP SD Consultant (m/f/d)",
-        "company": "SteelcoBelimed Inc.",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=0f86cb32c06f103e"
       },
       {
         "title": "Food and Beverage Attendant NA-02",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1784505600000,
         "url": "https://it.indeed.com/viewjob?jk=dda72531206dfb5c"
+      },
+      {
+        "title": "Infermiere a Domicilio Verona e Provincia",
+        "company": "QuiCare",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=f9c061c08ff3d6c1"
+      },
+      {
+        "title": "SAP SD Consultant (m/f/d)",
+        "company": "SteelcoBelimed Inc.",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=0f86cb32c06f103e"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+43%)",
+      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+35%)",
       "data": {
         "current": 3,
-        "avg": 2.1,
-        "change_pct": 42.9
+        "avg": 2.2,
+        "change_pct": 35.0
       }
     },
     {
@@ -242,7 +242,7 @@
               "food",
               "02"
             ],
-            "pct": 33.3
+            "pct": 34.8
           },
           {
             "id": 0,
@@ -252,7 +252,7 @@
               "informatore",
               "medico"
             ],
-            "pct": 25.0
+            "pct": 26.1
           },
           {
             "id": 2,
@@ -262,17 +262,17 @@
               "scientifico",
               "na"
             ],
-            "pct": 25.0
+            "pct": 26.1
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 3,
             "top_terms": [
               "isf",
-              "farmaco",
-              "scientifico"
+              "scientifico",
+              "informatore"
             ],
-            "pct": 16.7
+            "pct": 13.0
           }
         ]
       }

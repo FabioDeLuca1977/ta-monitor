@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-02T09:18:38.695534",
+  "generated_at": "2026-08-03T10:39:07.883699",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 9.4,
+    "average": 9.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 1,
-      "low": 4,
+      "low": 3,
       "irrelevant": 52
     },
     "top_jobs": [
@@ -24,7 +24,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 54,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -54,22 +54,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446573235"
       },
       {
-        "title": "HR Administration Specialist",
-        "company": "STUDIO NECCHIO",
-        "score": 20,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=8e4de74ab8408a53"
-      },
-      {
-        "title": "Project Manager - Lean Lab Efficiency",
-        "company": "Eurofins",
-        "score": 19,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=72291ed06614bebd"
-      },
-      {
         "title": "Laboratory Manager - Medical Device Testing",
         "company": "Eurofins",
         "score": 18,
@@ -78,35 +62,35 @@
         "url": "https://www.linkedin.com/jobs/view/4442700259"
       },
       {
-        "title": "Sr Manager (m/f/d) Quality Breganze",
-        "company": "AGCO Corporation",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=79cd837b3946a448"
-      },
-      {
         "title": "Quality Assurance Manager",
         "company": "SteelcoBelimed",
         "score": 15,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784332800000,
         "url": "https://www.linkedin.com/jobs/view/4424754375"
       },
       {
-        "title": "Payroll Specialist",
+        "title": "HR Administration Specialist",
         "company": "STUDIO NECCHIO",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=8e4de74ab8408a53"
+      },
+      {
+        "title": "Project Manager - Lean Lab Efficiency",
+        "company": "Eurofins",
         "score": 14,
         "site": "indeed",
         "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=53ed8059afea9b31"
+        "url": "https://it.indeed.com/viewjob?jk=72291ed06614bebd"
       },
       {
         "title": "Quality Assurance Specialist",
         "company": "SteelcoBelimed",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784332800000,
         "url": "https://www.linkedin.com/jobs/view/4424739480"
       },
       {
@@ -134,9 +118,17 @@
         "url": "https://it.indeed.com/viewjob?jk=a99794eda5fc1877"
       },
       {
+        "title": "Sr Manager (m/f/d) Quality Breganze",
+        "company": "AGCO Corporation",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=79cd837b3946a448"
+      },
+      {
         "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
         "company": "GSK",
-        "score": 10,
+        "score": 11,
         "site": "linkedin",
         "date_posted": 1783987200000,
         "url": "https://www.linkedin.com/jobs/view/4437692572"
@@ -158,20 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=1f47254f8183691b"
       },
       {
-        "title": "Electronic Test Systems & Engineer",
-        "company": "GDS Holding",
+        "title": "Venditore telefonico",
+        "company": "VDMO SRL",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=00bcbdb5a837d482"
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=aaad3915c304f927"
       },
       {
-        "title": "medico endocrinologo",
-        "company": "Centro Dioli: Medicina e Salute",
-        "score": 10,
+        "title": "Payroll Specialist",
+        "company": "STUDIO NECCHIO",
+        "score": 9,
         "site": "indeed",
         "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=56ed4ca9f6cc155e"
+        "url": "https://it.indeed.com/viewjob?jk=53ed8059afea9b31"
+      },
+      {
+        "title": "QUALITY ASSURANCE",
+        "company": "ManpowerGroup Italia",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441818307"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "quality",
@@ -245,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 31,
+            "id": 2,
+            "size": 30,
             "top_terms": [
               "responsabile",
               "sistema",
               "engineer"
             ],
-            "pct": 53.4
+            "pct": 52.6
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 9,
             "top_terms": [
               "manager",
               "senior",
               "regulatory"
             ],
-            "pct": 15.5
+            "pct": 15.8
           },
           {
-            "id": 3,
-            "size": 7,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 12.1
-          },
-          {
-            "id": 4,
+            "id": 0,
             "size": 7,
             "top_terms": [
               "specialist",
               "marketing",
               "sales"
             ],
-            "pct": 12.1
+            "pct": 12.3
           },
           {
             "id": 1,
+            "size": 7,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 12.3
+          },
+          {
+            "id": 4,
             "size": 4,
             "top_terms": [
               "tecnico",
               "venezia",
               "project"
             ],
-            "pct": 6.9
+            "pct": 7.0
           }
         ]
       }

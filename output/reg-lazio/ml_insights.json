@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-02T09:18:39.021103",
+  "generated_at": "2026-08-03T10:39:08.203842",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 111,
+  "total_jobs_analyzed": 113,
   "scoring": {
-    "average": 11.1,
+    "average": 10.8,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 6,
       "low": 5,
-      "irrelevant": 97
+      "irrelevant": 99
     },
     "top_jobs": [
       {
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affairs & Competition Specialist",
         "company": "Iliad Italia",
-        "score": 56,
+        "score": 57,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=ae887796637a257d"
@@ -96,7 +96,7 @@
       {
         "title": "Principal Biostatistician (Oncology) - FSP",
         "company": "IQVIA",
-        "score": 27,
+        "score": 28,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=eaf6cf45df536b37"
@@ -134,14 +134,6 @@
         "url": "https://it.indeed.com/viewjob?jk=db64cf0046187aad"
       },
       {
-        "title": "Senior Renewable Energy Project Manager",
-        "company": null,
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=6427717af414b7b8"
-      },
-      {
         "title": "Sr Manager, Quality System",
         "company": "Thermo Fisher Scientific",
         "score": 17,
@@ -158,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=9bc97805bda16728"
       },
       {
+        "title": "Quality Assurance Executive Manager",
+        "company": "NTT DATA Europe & Latam",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4441468380"
+      },
+      {
         "title": "QUALITY ASSURANCE MANAGER",
         "company": "OKATIM Italia",
         "score": 16,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441326884"
       },
       {
-        "title": "Accounting & Finance Specialist",
-        "company": "IRBM",
-        "score": 16,
+        "title": "Aircraft Operations Project Manager - Maintenance",
+        "company": "OnTarget Communications",
+        "score": 14,
         "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=62fa792c76ad8bf1"
+        "date_posted": 1785110400000,
+        "url": "https://it.indeed.com/viewjob?jk=21c54bfb53f977cc"
       }
     ]
   },
@@ -234,13 +234,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-75%)",
+      "data": {
+        "current": 2,
+        "avg": 7.9,
+        "change_pct": -74.8
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 2,
-        "total": 6,
-        "pct": 33.3
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -250,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 61,
+            "id": 3,
+            "size": 53,
             "top_terms": [
               "senior",
               "consultant",
-              "intern"
+              "associate"
             ],
-            "pct": 55.0
-          },
-          {
-            "id": 1,
-            "size": 16,
-            "top_terms": [
-              "manager",
-              "quality",
-              "senior"
-            ],
-            "pct": 14.4
+            "pct": 46.9
           },
           {
             "id": 2,
-            "size": 16,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "accounting"
-            ],
-            "pct": 14.4
-          },
-          {
-            "id": 4,
-            "size": 16,
+            "size": 26,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 14.4
+            "pct": 23.0
           },
           {
-            "id": 3,
-            "size": 2,
+            "id": 1,
+            "size": 14,
             "top_terms": [
-              "manufacturing",
-              "pds",
-              "validation"
+              "manager",
+              "senior",
+              "project"
             ],
-            "pct": 1.8
+            "pct": 12.4
+          },
+          {
+            "id": 4,
+            "size": 13,
+            "top_terms": [
+              "specialist",
+              "accounting",
+              "quality"
+            ],
+            "pct": 11.5
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 6.2
           }
         ]
       }

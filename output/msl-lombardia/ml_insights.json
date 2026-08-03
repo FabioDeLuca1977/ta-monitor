@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-02T09:18:38.549575",
+  "generated_at": "2026-08-03T10:39:07.741979",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 208,
+  "total_jobs_analyzed": 212,
   "scoring": {
-    "average": 27.5,
+    "average": 27.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 92,
-      "low": 16,
-      "irrelevant": 98
+      "medium": 97,
+      "low": 14,
+      "irrelevant": 99
     },
     "top_jobs": [
       {
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4440116335"
       },
       {
-        "title": "Regulatory Affairs Specialist -Erba",
-        "company": "Manpower",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4445519152"
-      },
-      {
         "title": "Head of Medical Affairs, Italy",
         "company": "Genmab",
         "score": 57,
@@ -78,11 +70,19 @@
         "url": "https://www.linkedin.com/jobs/view/4446746491"
       },
       {
+        "title": "Regulatory Affairs Specialist -Erba",
+        "company": "Manpower",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4445519152"
+      },
+      {
         "title": "Medical Affairs Lead BH",
         "company": "Neuraxpharm",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784332800000,
         "url": "https://www.linkedin.com/jobs/view/4411500965"
       },
       {
@@ -134,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4441590064"
       },
       {
+        "title": "Medical Affairs Internship",
+        "company": "Sanofi",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4435174440"
+      },
+      {
         "title": "MSL Manager - Metabolic Disorder",
         "company": "Sobi",
         "score": 54,
         "site": "indeed",
         "date_posted": 1784764800000,
         "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
-      },
-      {
-        "title": "Clinical Research Associate II - Full Service Operations Model - Italy",
-        "company": "Fortrea",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1785369600000,
-        "url": "https://www.linkedin.com/jobs/view/4447054220"
       },
       {
         "title": "(Associate) Medical Director - Neurology",
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
-        "title": "Medical Affairs Internship",
-        "company": "Sanofi",
+        "title": "Senior Project Manager, Immuno-Oncology and Cell and Gene Therapy",
+        "company": "IQVIA",
         "score": 53,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4435174440"
+        "url": "https://www.linkedin.com/jobs/view/4443133145"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "cra",
@@ -194,14 +194,14 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "italy",
+        "word": "senior",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "fsp",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "italy",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -272,41 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 14 (-66%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 15 (-59%)",
       "data": {
-        "current": 5,
-        "avg": 14.5,
-        "change_pct": -65.5
+        "current": 6,
+        "avg": 14.7,
+        "change_pct": -59.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "total": 6,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 27% a 80% (+53pp)",
+      "message": "📡 linkedin: quota passata da 80% a 100% (+20pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 27.3,
-        "new_pct": 80.0
+        "old_pct": 80.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 73% a 20% (-53pp)",
+      "message": "📡 indeed: quota passata da 20% a 0% (-20pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 72.7,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 96,
+            "id": 0,
+            "size": 102,
             "top_terms": [
+              "medical",
               "specialist",
-              "cra",
-              "clinical"
+              "director"
             ],
-            "pct": 46.2
+            "pct": 48.1
           },
           {
-            "id": 3,
-            "size": 38,
+            "id": 1,
+            "size": 40,
             "top_terms": [
               "manager",
               "project",
               "medical"
             ],
-            "pct": 18.3
+            "pct": 18.9
           },
           {
-            "id": 1,
-            "size": 32,
-            "top_terms": [
-              "medical",
-              "director",
-              "affairs"
-            ],
-            "pct": 15.4
-          },
-          {
-            "id": 2,
-            "size": 31,
+            "id": 3,
+            "size": 40,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.9
+            "pct": 18.9
           },
           {
-            "id": 0,
-            "size": 11,
+            "id": 2,
+            "size": 16,
             "top_terms": [
-              "engineer",
-              "technical",
-              "field"
+              "research",
+              "clinical",
+              "associate"
             ],
-            "pct": 5.3
+            "pct": 7.5
+          },
+          {
+            "id": 4,
+            "size": 14,
+            "top_terms": [
+              "cra",
+              "fsp",
+              "ii"
+            ],
+            "pct": 6.6
           }
         ]
       }
