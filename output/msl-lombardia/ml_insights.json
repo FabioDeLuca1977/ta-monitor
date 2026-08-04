@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-03T10:39:07.741979",
+  "generated_at": "2026-08-04T09:30:59.200080",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 212,
+  "total_jobs_analyzed": 217,
   "scoring": {
-    "average": 27.8,
+    "average": 27.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 97,
-      "low": 14,
-      "irrelevant": 99
+      "medium": 96,
+      "low": 16,
+      "irrelevant": 103
     },
     "top_jobs": [
       {
@@ -38,20 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4438095697"
       },
       {
-        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
-        "company": "Hays",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440116335"
-      },
-      {
         "title": "Head of Medical Affairs, Italy",
         "company": "Genmab",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1784073600000,
         "url": "https://www.linkedin.com/jobs/view/4431241411"
+      },
+      {
+        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
+        "company": "Hays",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1784505600000,
+        "url": "https://www.linkedin.com/jobs/view/4440116335"
       },
       {
         "title": "Medical Science Liaison, Oncology",
@@ -68,14 +68,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446746491"
-      },
-      {
-        "title": "Regulatory Affairs Specialist -Erba",
-        "company": "Manpower",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4445519152"
       },
       {
         "title": "Medical Affairs Lead BH",
@@ -98,7 +90,7 @@
         "company": "Medpace",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784419200000,
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
@@ -134,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4441590064"
       },
       {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
+        "company": "QVC Italy",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1784073600000,
+        "url": "https://www.linkedin.com/jobs/view/4440222641"
+      },
+      {
         "title": "Medical Affairs Internship",
         "company": "Sanofi",
         "score": 54,
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4420711361"
       },
       {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
-        "company": "QVC Italy",
+        "title": "Manager, Medical Writing (Publications)",
+        "company": "Thermo Fisher Scientific",
         "score": 53,
-        "site": "linkedin",
-        "date_posted": 1784073600000,
-        "url": "https://www.linkedin.com/jobs/view/4440222641"
+        "site": "indeed",
+        "date_posted": 1784160000000,
+        "url": "https://it.indeed.com/viewjob?jk=26583739f971c07d"
       },
       {
-        "title": "Senior Project Manager, Immuno-Oncology and Cell and Gene Therapy",
-        "company": "IQVIA",
+        "title": "Regulatory Affairs Specialist | REACH, CLP",
+        "company": "Mynameis",
         "score": 53,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443133145"
+        "date_posted": 1785283200000,
+        "url": "https://www.linkedin.com/jobs/view/4446599362"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "cra",
@@ -189,30 +189,24 @@
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "senior",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "fsp",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "engineer",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
-    {
-      "keyword": "specialist medical",
-      "frequency": 4,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
-    },
     {
       "keyword": "italy",
       "frequency": 6,
@@ -220,93 +214,89 @@
       "confidence": 60
     },
     {
+      "keyword": "specialist medical",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
       "keyword": "devices",
-      "frequency": 5,
+      "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 40
     },
     {
       "keyword": "qa product",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     },
     {
       "keyword": "product validation",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     },
     {
       "keyword": "validation approval",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     },
     {
       "keyword": "approval specialist",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     },
     {
       "keyword": "devices cosmetics",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     },
     {
       "keyword": "cosmetics regulatory",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     },
     {
       "keyword": "affairs sostituzione",
-      "frequency": 3,
+      "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 15 (-59%)",
-      "data": {
-        "current": 6,
-        "avg": 14.7,
-        "change_pct": -59.2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/6 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 6/14 annunci da aziende nuove (42.9%)",
       "data": {
-        "new": 3,
-        "total": 6,
-        "pct": 50.0
+        "new": 6,
+        "total": 14,
+        "pct": 42.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 80% a 100% (+20pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 80.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 20% a 0% (-20pp)",
+      "message": "📡 indeed: quota passata da 0% a 57% (+57pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 20.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 57.1
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 43% (-57pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 42.9
       }
     },
     {
@@ -317,53 +307,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 102,
+            "size": 94,
             "top_terms": [
-              "medical",
               "specialist",
-              "director"
+              "cra",
+              "engineer"
             ],
-            "pct": 48.1
+            "pct": 43.3
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 40,
             "top_terms": [
-              "manager",
-              "project",
-              "medical"
+              "medical",
+              "director",
+              "devices"
             ],
-            "pct": 18.9
+            "pct": 18.4
           },
           {
             "id": 3,
-            "size": 40,
+            "size": 36,
+            "top_terms": [
+              "manager",
+              "project",
+              "senior"
+            ],
+            "pct": 16.6
+          },
+          {
+            "id": 2,
+            "size": 31,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 18.9
+            "pct": 14.3
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 16,
             "top_terms": [
               "research",
               "clinical",
               "associate"
             ],
-            "pct": 7.5
-          },
-          {
-            "id": 4,
-            "size": 14,
-            "top_terms": [
-              "cra",
-              "fsp",
-              "ii"
-            ],
-            "pct": 6.6
+            "pct": 7.4
           }
         ]
       }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-03T10:39:07.580776",
+  "generated_at": "2026-08-04T09:30:59.031298",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 211,
+  "total_jobs_analyzed": 213,
   "scoring": {
-    "average": 23.2,
+    "average": 23.6,
     "distribution": {
       "excellent": 0,
-      "good": 10,
-      "medium": 49,
-      "low": 46,
+      "good": 12,
+      "medium": 48,
+      "low": 47,
       "irrelevant": 106
     },
     "top_jobs": [
@@ -22,6 +22,14 @@
         "url": "https://www.linkedin.com/jobs/view/4446335840"
       },
       {
+        "title": "1 HR SPECIALIST- RECRUITER",
+        "company": "Skydental Holding srl",
+        "score": 75,
+        "site": "indeed",
+        "date_posted": 1785715200000,
+        "url": "https://it.indeed.com/viewjob?jk=94ba81bd1567edcf"
+      },
+      {
         "title": "HR Talent Acquisition Intern",
         "company": "Engineering",
         "score": 69,
@@ -32,7 +40,7 @@
       {
         "title": "HR Talent Acquisition Intern",
         "company": "Engineering Group",
-        "score": 69,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1785369600000,
         "url": "https://www.linkedin.com/jobs/view/4446772905"
@@ -54,17 +62,9 @@
         "url": "https://www.linkedin.com/jobs/view/4443758979"
       },
       {
-        "title": "HR MANAGER JUNIOR",
-        "company": "Italian Design Institute",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445508805"
-      },
-      {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "MioDottore",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444602279"
@@ -72,10 +72,18 @@
       {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "CLÍNICA MADICA INTER LOMAS",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": 1784937600000,
         "url": "https://www.linkedin.com/jobs/view/4445352354"
+      },
+      {
+        "title": "HR MANAGER JUNIOR",
+        "company": "Italian Design Institute",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445508805"
       },
       {
         "title": "Addetto/a Ricerca e Selezione – Ufficio Risorse Umane",
@@ -92,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1785196800000,
         "url": "https://www.linkedin.com/jobs/view/4445757552"
+      },
+      {
+        "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
+        "company": "Randstad Italia",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446221368"
       },
       {
         "title": "HR Recruiter",
@@ -118,20 +134,28 @@
         "url": "https://www.linkedin.com/jobs/view/4444348312"
       },
       {
-        "title": "Junior HR generalist tecnologie ripiano notturno",
-        "company": "Tuolavoro-Lazio",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445751688"
-      },
-      {
         "title": "HR Generalist per soluzioni di filtrazione acqua potabile",
         "company": "Tuolavoro-Lazio",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4447141379"
+      },
+      {
+        "title": "Addetto/a ricerca e selezione del personale junior",
+        "company": "Tuolavoro-Lazio",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448230309"
+      },
+      {
+        "title": "HR Generalist per attività di assistenza alla vendita",
+        "company": "key-absolute",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448234239"
       },
       {
         "title": "Addetto selezione e sviluppo HR tecnologie benessere",
@@ -148,30 +172,6 @@
         "site": "indeed",
         "date_posted": 1785024000000,
         "url": "https://it.indeed.com/viewjob?jk=89a0b26d0893a7c3"
-      },
-      {
-        "title": "HR recruiter",
-        "company": "Il Metodo - HR & Strategic Consulting",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445970573"
-      },
-      {
-        "title": "Addetto/a ricerca e selezione prodotti per il supporto alla salute",
-        "company": "Tuolavoro-Lazio",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4440775973"
-      },
-      {
-        "title": "HR Business Partner – Analytics & Controlling (m/f/d)",
-        "company": "Aenova Group",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4432361045"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "responsabile",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assistente",
@@ -198,10 +198,10 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "junior hr",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "keyword": "junior",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
     },
     {
       "keyword": "addetto ricerca",
@@ -210,16 +210,10 @@
       "confidence": 45
     },
     {
-      "keyword": "junior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
-      "keyword": "tecnologie",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "keyword": "junior hr",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
     },
     {
       "keyword": "benessere",
@@ -229,6 +223,12 @@
     },
     {
       "keyword": "intern",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
+    },
+    {
+      "keyword": "tecnologie",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
@@ -260,43 +260,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 15 (-87%)",
-      "data": {
-        "current": 2,
-        "avg": 14.9,
-        "change_pct": -86.6
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 3/14 annunci da aziende nuove (21.4%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 3,
+        "total": 14,
+        "pct": 21.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -306,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 102,
+            "id": 0,
+            "size": 88,
             "top_terms": [
-              "addetto",
               "roma",
-              "responsabile"
+              "responsabile",
+              "manager"
             ],
-            "pct": 48.3
+            "pct": 41.3
           },
           {
             "id": 4,
-            "size": 50,
+            "size": 53,
             "top_terms": [
-              "risorse",
               "umane",
+              "risorse",
               "addetto"
             ],
-            "pct": 23.7
-          },
-          {
-            "id": 0,
-            "size": 34,
-            "top_terms": [
-              "hr",
-              "recruiter",
-              "partner"
-            ],
-            "pct": 16.1
-          },
-          {
-            "id": 3,
-            "size": 19,
-            "top_terms": [
-              "specialist",
-              "talent",
-              "communication"
-            ],
-            "pct": 9.0
+            "pct": 24.9
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 30,
             "top_terms": [
-              "consulenza",
-              "addetto",
-              "studio"
+              "hr",
+              "partner",
+              "generalist"
             ],
-            "pct": 2.8
+            "pct": 14.1
+          },
+          {
+            "id": 3,
+            "size": 22,
+            "top_terms": [
+              "addetto",
+              "selezione",
+              "personale"
+            ],
+            "pct": 10.3
+          },
+          {
+            "id": 2,
+            "size": 20,
+            "top_terms": [
+              "specialist",
+              "talent",
+              "acquisition"
+            ],
+            "pct": 9.4
           }
         ]
       }

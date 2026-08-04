@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-03T10:39:07.779126",
+  "generated_at": "2026-08-04T09:30:59.242288",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 25,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 22.0,
+    "average": 20.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 7,
       "low": 5,
-      "irrelevant": 12
+      "irrelevant": 15
     },
     "top_jobs": [
       {
         "title": "Medical Affairs Specialist",
         "company": "Hoya Vision Care",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
@@ -96,10 +96,18 @@
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 24,
+        "score": 23,
         "site": "linkedin",
-        "date_posted": 1783900800000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
+      },
+      {
+        "title": "Supervisor, Manufacturing Engineer - Medical Devices",
+        "company": "Jefferson Wells Italia",
+        "score": 22,
+        "site": "linkedin",
+        "date_posted": 1785715200000,
+        "url": "https://www.linkedin.com/jobs/view/4447277914"
       },
       {
         "title": "Job Posting Title Clinical Trial Psych Rater - Italian Speaking",
@@ -112,31 +120,31 @@
       {
         "title": "QA & RA Manager | Medical Devices",
         "company": "Hays",
-        "score": 20,
+        "score": 19,
         "site": "linkedin",
         "date_posted": 1784592000000,
         "url": "https://www.linkedin.com/jobs/view/4437278972"
       },
       {
+        "title": "Field Service Engineer-Medical Devices",
+        "company": "IQVIA Italia",
+        "score": 18,
+        "site": "linkedin",
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4439830287"
+      },
+      {
         "title": "Strategic R&D Manager - Wound Management",
         "company": "B. Braun Avitum Italy S.p.A.",
-        "score": 12,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
-        "title": "Quality Engineer",
-        "company": "LivaNova",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=a0f8e3b9ebc93496"
-      },
-      {
         "title": "Temporary manager",
         "company": "Percinque Srl",
-        "score": 8,
+        "score": 9,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4443691632"
@@ -158,17 +166,9 @@
         "url": "https://it.indeed.com/viewjob?jk=4f4885f265c03cac"
       },
       {
-        "title": "Medico per CRA Mirandola",
-        "company": "Codess Sociale Soc Coop",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1783900800000,
-        "url": "https://www.linkedin.com/jobs/view/4440079361"
-      },
-      {
         "title": "TERAPISTA OCCUPAZIONALE CRA Modena",
         "company": "Domus Assistenza società cooperativa sociale",
-        "score": 5,
+        "score": 6,
         "site": "linkedin",
         "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4441469305"
@@ -179,19 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "cra",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "engineer",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -199,43 +194,52 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-67%)",
+      "message": "Volume in crescita: 4 annunci ultimo scan vs media 3 (+50%)",
       "data": {
-        "current": 1,
-        "avg": 3.0,
-        "change_pct": -66.7
+        "current": 4,
+        "avg": 2.7,
+        "change_pct": 50.0
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Liablix: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Liablix",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 3,
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "data": {
+        "channel": "linkedin",
         "old_pct": 100.0,
-        "new_pct": 0.0
+        "new_pct": 50.0
       }
     },
     {
@@ -245,54 +249,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 0,
             "size": 9,
             "top_terms": [
               "junior",
-              "specialist",
-              "medical"
+              "accident",
+              "reconstruction"
             ],
-            "pct": 36.0
+            "pct": 32.1
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 1,
+            "size": 6,
             "top_terms": [
-              "manager",
-              "medical",
-              "specialist"
+              "engineer",
+              "devices",
+              "medical"
             ],
-            "pct": 20.0
+            "pct": 21.4
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "clinical",
+              "medical"
+            ],
+            "pct": 21.4
           },
           {
             "id": 3,
             "size": 5,
             "top_terms": [
-              "clinical",
-              "specialist",
-              "international"
+              "manager",
+              "medical",
+              "devices"
             ],
-            "pct": 20.0
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "cra",
-              "specialist",
-              "romagna"
-            ],
-            "pct": 12.0
+            "pct": 17.9
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 2,
             "top_terms": [
-              "engineer",
+              "cra",
               "specialist",
-              "romagna"
+              "simulation"
             ],
-            "pct": 12.0
+            "pct": 7.1
           }
         ]
       }

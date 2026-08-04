@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-03T10:39:08.068242",
+  "generated_at": "2026-08-04T09:30:59.538431",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
   "total_jobs_analyzed": 306,
   "scoring": {
-    "average": 15.1,
+    "average": 14.8,
     "distribution": {
       "excellent": 0,
-      "good": 24,
+      "good": 23,
       "medium": 22,
-      "low": 15,
-      "irrelevant": 245
+      "low": 17,
+      "irrelevant": 244
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist -Erba",
         "company": "Manpower",
-        "score": 74,
+        "score": 69,
         "site": "linkedin",
         "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4445519152"
@@ -54,20 +54,20 @@
         "url": "https://it.indeed.com/viewjob?jk=2712dece8d51b0bc"
       },
       {
-        "title": "Regulatory Specialist",
-        "company": "ASCENZA Italia",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4442863285"
-      },
-      {
         "title": "Regulatory Affairs Manager (Automotive)",
         "company": "TÜV Rheinland Group",
         "score": 66,
         "site": "indeed",
         "date_posted": 1785369600000,
         "url": "https://it.indeed.com/viewjob?jk=5182968b61f0465a"
+      },
+      {
+        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
+        "company": "Hays",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": 1784505600000,
+        "url": "https://www.linkedin.com/jobs/view/4440116335"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -78,20 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441503837"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Recordati",
-        "score": 64,
-        "site": "linkedin",
-        "date_posted": 1783900800000,
-        "url": "https://www.linkedin.com/jobs/view/4411744140"
-      },
-      {
-        "title": "Regulatory Affairs Specialist Extra UE - Medical Devices III",
-        "company": "Hays",
-        "score": 64,
+        "title": "Regulatory Affairs Manager",
+        "company": "Regulatory Pharma Net - RPN",
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440116335"
+        "url": "https://www.linkedin.com/jobs/view/4446219644"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -142,14 +134,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446414335"
       },
       {
-        "title": "Regulatory Affairs Curricular Internship - Environmental & Sustainability",
-        "company": "Beko Europe",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4447280580"
-      },
-      {
         "title": "Senior Regulatory Affairs Specialist FDA",
         "company": "Sentinel Diagnostics",
         "score": 62,
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4443237994"
       },
       {
+        "title": "Regulatory Specialist",
+        "company": "ASCENZA Italia",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4442863285"
+      },
+      {
         "title": "Regulatory Affair Dept",
         "company": "Italmatch Chemicals",
         "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446050416"
+      },
+      {
+        "title": "Regulatory Specialist",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1784851200000,
+        "url": "https://www.linkedin.com/jobs/view/4444957902"
       }
     ]
   },
@@ -180,21 +180,21 @@
     "add_blacklist": [
       {
         "word": "assurance",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
-      },
-      {
-        "word": "project",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
-      },
-      {
-        "word": "sales",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 23,
+        "reason": "Appare 23x in annunci a basso score"
       },
       {
         "word": "engineer",
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
+      },
+      {
+        "word": "project",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "sales",
         "count": 13,
         "reason": "Appare 13x in annunci a basso score"
       },
@@ -232,13 +232,13 @@
       "confidence": 30
     },
     {
-      "keyword": "international regulatory",
+      "keyword": "affairs analyst",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "affairs junior",
+      "keyword": "international regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -250,13 +250,13 @@
       "confidence": 30
     },
     {
-      "keyword": "affairs analyst",
+      "keyword": "manager regulatory",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "manager regulatory",
+      "keyword": "affairs junior",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -270,43 +270,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 21 (-62%)",
-      "data": {
-        "current": 8,
-        "avg": 21.3,
-        "change_pct": -62.4
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/8 annunci da aziende nuove (62.5%)",
+      "message": "📊 Ultimo scan: 12/19 annunci da aziende nuove (63.2%)",
       "data": {
-        "new": 5,
-        "total": 8,
-        "pct": 62.5
+        "new": 12,
+        "total": 19,
+        "pct": 63.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 62% (+38pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 62.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 38% (-38pp)",
+      "message": "📡 indeed: quota passata da 38% a 79% (+41pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 37.5
+        "old_pct": 37.5,
+        "new_pct": 78.9
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 62% a 21% (-41pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 62.5,
+        "new_pct": 21.1
       }
     },
     {
@@ -317,53 +307,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 179,
+            "size": 163,
             "top_terms": [
-              "specialist",
-              "engineer",
-              "senior"
+              "senior",
+              "cra",
+              "analyst"
             ],
-            "pct": 58.5
+            "pct": 53.3
           },
           {
             "id": 3,
-            "size": 41,
+            "size": 52,
             "top_terms": [
+              "specialist",
               "regulatory",
-              "affairs",
-              "specialist"
+              "affairs"
             ],
-            "pct": 13.4
-          },
-          {
-            "id": 1,
-            "size": 40,
-            "top_terms": [
-              "manager",
-              "project",
-              "medical"
-            ],
-            "pct": 13.1
+            "pct": 17.0
           },
           {
             "id": 2,
-            "size": 29,
+            "size": 47,
+            "top_terms": [
+              "manager",
+              "project",
+              "regulatory"
+            ],
+            "pct": 15.4
+          },
+          {
+            "id": 4,
+            "size": 28,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 9.5
+            "pct": 9.2
           },
           {
-            "id": 4,
-            "size": 17,
+            "id": 1,
+            "size": 16,
             "top_terms": [
-              "sales",
-              "service",
-              "specialist"
+              "engineer",
+              "product",
+              "robotics"
             ],
-            "pct": 5.6
+            "pct": 5.2
           }
         ]
       }

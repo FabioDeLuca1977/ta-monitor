@@ -1,30 +1,22 @@
 {
-  "generated_at": "2026-08-03T10:39:08.203842",
+  "generated_at": "2026-08-04T09:30:59.679486",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 113,
+  "total_jobs_analyzed": 112,
   "scoring": {
-    "average": 10.8,
+    "average": 11.0,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 6,
-      "low": 5,
-      "irrelevant": 99
+      "medium": 8,
+      "low": 3,
+      "irrelevant": 98
     },
     "top_jobs": [
       {
-        "title": "Medical Device Quality & Regulatory Specialist",
-        "company": "K•HERO",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445916477"
-      },
-      {
         "title": "Regulatory Affairs & Competition Specialist",
         "company": "iliad",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4443241888"
@@ -32,10 +24,18 @@
       {
         "title": "Regulatory Affairs Specialist - RASp",
         "company": "Res Excelsa",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446582239"
+      },
+      {
+        "title": "Medical Device Quality & Regulatory Specialist",
+        "company": "K•HERO",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445916477"
       },
       {
         "title": "Vice President Regulatory Affairs - Cluster",
@@ -62,9 +62,17 @@
         "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
+        "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
+        "company": "Primevigilance",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1785715200000,
+        "url": "https://it.indeed.com/viewjob?jk=00dff6653575043a"
+      },
+      {
         "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
         "company": "Ecolab",
-        "score": 51,
+        "score": 52,
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=ee7ec4ffdc200c01"
@@ -78,6 +86,14 @@
         "url": "https://it.indeed.com/viewjob?jk=df705abcb0e03bce"
       },
       {
+        "title": "Senior Pharmacovigilance Project Manager- Europe",
+        "company": "PrimeVigilance",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448312826"
+      },
+      {
         "title": "Performance Marketer",
         "company": "Immobiliare.it",
         "score": 40,
@@ -88,7 +104,7 @@
       {
         "title": "E-invoicing manager",
         "company": "Emerging Travel Group",
-        "score": 37,
+        "score": 32,
         "site": "indeed",
         "date_posted": 1785456000000,
         "url": "https://it.indeed.com/viewjob?jk=90d8ddcdf8195c29"
@@ -96,26 +112,10 @@
       {
         "title": "Principal Biostatistician (Oncology) - FSP",
         "company": "IQVIA",
-        "score": 28,
+        "score": 27,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=eaf6cf45df536b37"
-      },
-      {
-        "title": "cerca una tata part-time à Terni 05100",
-        "company": "toptata",
-        "score": 23,
-        "site": "indeed",
-        "date_posted": 1783641600000,
-        "url": "https://it.indeed.com/viewjob?jk=f9e36a9f577329b6"
-      },
-      {
-        "title": "Business Applications Project & Demand Manager",
-        "company": "Digital Value S.p.A.",
-        "score": 22,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445143719"
       },
       {
         "title": "Quality Assurance Manager",
@@ -134,28 +134,12 @@
         "url": "https://it.indeed.com/viewjob?jk=db64cf0046187aad"
       },
       {
-        "title": "Sr Manager, Quality System",
-        "company": "Thermo Fisher Scientific",
+        "title": "Business Applications Project & Demand Manager",
+        "company": "Digital Value S.p.A.",
         "score": 17,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=1810cd5044b6eafc"
-      },
-      {
-        "title": "Clinical Research Associate I - Maternity Cover",
-        "company": "Novo Nordisk, Inc.",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=9bc97805bda16728"
-      },
-      {
-        "title": "Quality Assurance Executive Manager",
-        "company": "NTT DATA Europe & Latam",
-        "score": 16,
         "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4441468380"
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445143719"
       },
       {
         "title": "QUALITY ASSURANCE MANAGER",
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4441326884"
       },
       {
-        "title": "Aircraft Operations Project Manager - Maintenance",
-        "company": "OnTarget Communications",
-        "score": 14,
+        "title": "Quality Assurance Executive Manager",
+        "company": "NTT DATA Europe & Latam",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4441468380"
+      },
+      {
+        "title": "QUALITY MANAGER SENIOR",
+        "company": "jet avionics srl",
+        "score": 13,
         "site": "indeed",
-        "date_posted": 1785110400000,
-        "url": "https://it.indeed.com/viewjob?jk=21c54bfb53f977cc"
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=405a444f42953631"
+      },
+      {
+        "title": "Clinical Trial Associate",
+        "company": "ICON plc",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=968f9cd112b1f3da"
       }
     ]
   },
@@ -179,12 +179,12 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "assurance",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "word": "engineer",
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "assurance",
         "count": 16,
         "reason": "Appare 16x in annunci a basso score"
       },
@@ -235,42 +235,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-75%)",
+      "severity": "medium",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 8 (-48%)",
       "data": {
-        "current": 2,
-        "avg": 7.9,
-        "change_pct": -74.8
+        "current": 4,
+        "avg": 7.7,
+        "change_pct": -48.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 1,
-        "total": 2,
+        "new": 2,
+        "total": 4,
         "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -280,54 +280,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 53,
+            "id": 4,
+            "size": 60,
             "top_terms": [
               "senior",
               "consultant",
               "associate"
             ],
-            "pct": 46.9
+            "pct": 53.6
           },
           {
             "id": 2,
-            "size": 26,
+            "size": 18,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 23.0
+            "pct": 16.1
           },
           {
-            "id": 1,
-            "size": 14,
-            "top_terms": [
-              "manager",
-              "senior",
-              "project"
-            ],
-            "pct": 12.4
-          },
-          {
-            "id": 4,
-            "size": 13,
+            "id": 3,
+            "size": 16,
             "top_terms": [
               "specialist",
-              "accounting",
-              "quality"
+              "regulatory",
+              "accounting"
             ],
-            "pct": 11.5
+            "pct": 14.3
           },
           {
             "id": 0,
-            "size": 7,
+            "size": 12,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "manager",
+              "project",
+              "senior"
             ],
-            "pct": 6.2
+            "pct": 10.7
+          },
+          {
+            "id": 1,
+            "size": 6,
+            "top_terms": [
+              "engineer",
+              "test",
+              "automation"
+            ],
+            "pct": 5.4
           }
         ]
       }

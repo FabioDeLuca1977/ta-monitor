@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-03T10:39:07.883699",
+  "generated_at": "2026-08-04T09:30:59.353503",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 57,
+  "total_jobs_analyzed": 59,
   "scoring": {
-    "average": 9.0,
+    "average": 8.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 1,
       "low": 3,
-      "irrelevant": 52
+      "irrelevant": 54
     },
     "top_jobs": [
       {
@@ -30,20 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
-        "title": "Aso",
-        "company": "Studio dentistico Seno",
-        "score": 31,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=dd32c64d8d43b7a6"
-      },
-      {
         "title": "Si cerca Assistente alla Poltrona",
         "company": "Studio Dentistico Dott. Carlo Carlini",
         "score": 26,
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=1d13a9f9dc1466d1"
+      },
+      {
+        "title": "Aso",
+        "company": "Studio dentistico Seno",
+        "score": 26,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=dd32c64d8d43b7a6"
       },
       {
         "title": "Retention Email Manager | gn | Copywriting, DTC, Klaviyo, Lifecycle | Remote",
@@ -110,6 +110,22 @@
         "url": "https://www.linkedin.com/jobs/view/4445985904"
       },
       {
+        "title": "Senior GMP product quality assurance",
+        "company": "Adecco",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445899419"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Pietro Fiorentini",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446619206"
+      },
+      {
         "title": "Night Manager",
         "company": "Marriott International",
         "score": 12,
@@ -150,28 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=1f47254f8183691b"
       },
       {
-        "title": "Venditore telefonico",
-        "company": "VDMO SRL",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=aaad3915c304f927"
-      },
-      {
         "title": "Payroll Specialist",
         "company": "STUDIO NECCHIO",
         "score": 9,
         "site": "indeed",
         "date_posted": 1785369600000,
         "url": "https://it.indeed.com/viewjob?jk=53ed8059afea9b31"
-      },
-      {
-        "title": "QUALITY ASSURANCE",
-        "company": "ManpowerGroup Italia",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441818307"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "specialist",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
+        "word": "quality",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-61%)",
+      "data": {
+        "current": 2,
+        "avg": 5.2,
+        "change_pct": -61.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 3,
             "size": 30,
             "top_terms": [
               "responsabile",
               "sistema",
               "engineer"
             ],
-            "pct": 52.6
-          },
-          {
-            "id": 3,
-            "size": 9,
-            "top_terms": [
-              "manager",
-              "senior",
-              "regulatory"
-            ],
-            "pct": 15.8
+            "pct": 50.8
           },
           {
             "id": 0,
+            "size": 9,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "project"
+            ],
+            "pct": 15.3
+          },
+          {
+            "id": 1,
+            "size": 9,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 15.3
+          },
+          {
+            "id": 4,
             "size": 7,
             "top_terms": [
               "specialist",
               "marketing",
               "sales"
             ],
-            "pct": 12.3
+            "pct": 11.9
           },
           {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 12.3
-          },
-          {
-            "id": 4,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "tecnico",
               "venezia",
               "project"
             ],
-            "pct": 7.0
+            "pct": 6.8
           }
         ]
       }
