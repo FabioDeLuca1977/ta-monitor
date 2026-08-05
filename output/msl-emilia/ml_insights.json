@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-04T09:30:59.242288",
+  "generated_at": "2026-08-05T09:26:11.926893",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 20.8,
+    "average": 19.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 7,
-      "low": 5,
-      "irrelevant": 15
+      "low": 4,
+      "irrelevant": 16
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
         "company": "IQVIA",
-        "score": 45,
+        "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4443169752"
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446963861"
       },
       {
-        "title": "JUNIOR BUSINESS PARTNER & ANALIST - Healthcare RWE",
-        "company": "SPHERA GROUP SRL",
-        "score": 32,
-        "site": "indeed",
-        "date_posted": 1783987200000,
-        "url": "https://it.indeed.com/viewjob?jk=0de8834ddb3be9eb"
-      },
-      {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
         "score": 23,
@@ -142,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
+        "title": "SALES PROMOTER - Emilia Romagna",
+        "company": "B. Braun Milano S.P.A.",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1785801600000,
+        "url": "https://it.indeed.com/viewjob?jk=7354a17d28d3aa72"
+      },
+      {
         "title": "Temporary manager",
         "company": "Percinque Srl",
         "score": 9,
@@ -168,7 +168,7 @@
       {
         "title": "TERAPISTA OCCUPAZIONALE CRA Modena",
         "company": "Domus Assistenza società cooperativa sociale",
-        "score": 6,
+        "score": 5,
         "site": "linkedin",
         "date_posted": 1784160000000,
         "url": "https://www.linkedin.com/jobs/view/4441469305"
@@ -194,52 +194,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 4 annunci ultimo scan vs media 3 (+50%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-63%)",
       "data": {
-        "current": 4,
+        "current": 1,
         "avg": 2.7,
-        "change_pct": 50.0
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Liablix: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Liablix",
-        "count": 2
+        "change_pct": -63.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -250,30 +241,30 @@
         "clusters": [
           {
             "id": 0,
-            "size": 9,
+            "size": 7,
             "top_terms": [
-              "junior",
-              "accident",
-              "reconstruction"
+              "cra",
+              "generation",
+              "based"
             ],
-            "pct": 32.1
+            "pct": 25.0
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 7,
             "top_terms": [
-              "engineer",
-              "devices",
-              "medical"
+              "specialist",
+              "clinical",
+              "reconstruction"
             ],
-            "pct": 21.4
+            "pct": 25.0
           },
           {
             "id": 2,
             "size": 6,
             "top_terms": [
-              "specialist",
-              "clinical",
+              "engineer",
+              "devices",
               "medical"
             ],
             "pct": 21.4
@@ -290,13 +281,13 @@
           },
           {
             "id": 4,
-            "size": 2,
+            "size": 3,
             "top_terms": [
-              "cra",
-              "specialist",
-              "simulation"
+              "romagna",
+              "emilia",
+              "field"
             ],
-            "pct": 7.1
+            "pct": 10.7
           }
         ]
       }

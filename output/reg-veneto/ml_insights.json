@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-04T09:30:59.353503",
+  "generated_at": "2026-08-05T09:26:12.027366",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 59,
+  "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 8.7,
+    "average": 8.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 1,
       "low": 3,
-      "irrelevant": 54
+      "irrelevant": 52
     },
     "top_jobs": [
       {
         "title": "Manager – Global Regulatory Affairs",
         "company": "Taevas Life Sciences",
-        "score": 66,
+        "score": 68,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446470745"
@@ -24,7 +24,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 55,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -58,8 +58,16 @@
         "company": "Eurofins",
         "score": 18,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4442700259"
+        "date_posted": 1784505600000,
+        "url": "https://www.linkedin.com/jobs/view/4440117842"
+      },
+      {
+        "title": "Regional Sourcing Manager - Proteins",
+        "company": "Kemin",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1785801600000,
+        "url": "https://it.indeed.com/viewjob?jk=9697156cf9ac0a8f"
       },
       {
         "title": "Quality Assurance Manager",
@@ -126,44 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4446619206"
       },
       {
-        "title": "Night Manager",
-        "company": "Marriott International",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=a99794eda5fc1877"
-      },
-      {
         "title": "Sr Manager (m/f/d) Quality Breganze",
         "company": "AGCO Corporation",
-        "score": 12,
+        "score": 11,
         "site": "indeed",
         "date_posted": 1785369600000,
         "url": "https://it.indeed.com/viewjob?jk=79cd837b3946a448"
-      },
-      {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": 1783987200000,
-        "url": "https://www.linkedin.com/jobs/view/4437692572"
-      },
-      {
-        "title": "Marketing Specialist",
-        "company": "Impresoft Engage",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=cba8db3c14b8cc5f"
-      },
-      {
-        "title": "Growth Marketing & Automation Specialist",
-        "company": "iGreen Italia SRLS",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=1f47254f8183691b"
       },
       {
         "title": "Payroll Specialist",
@@ -172,6 +148,30 @@
         "site": "indeed",
         "date_posted": 1785369600000,
         "url": "https://it.indeed.com/viewjob?jk=53ed8059afea9b31"
+      },
+      {
+        "title": "QUALITY ASSURANCE",
+        "company": "ManpowerGroup Italia",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441818307"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "Adecco",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445528241"
+      },
+      {
+        "title": "Local Study Manager (LDL) - Oncology",
+        "company": "GSK",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1784505600000,
+        "url": "https://it.indeed.com/viewjob?jk=dda72531206dfb5c"
       }
     ]
   },
@@ -179,22 +179,22 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "specialist",
+        "word": "quality",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "quality",
+        "word": "assurance",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "assurance",
+        "word": "specialist",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "responsabile",
+        "word": "tecnico",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
@@ -210,42 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-61%)",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-39%)",
       "data": {
-        "current": 2,
-        "avg": 5.2,
-        "change_pct": -61.4
+        "current": 3,
+        "avg": 4.9,
+        "change_pct": -38.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 30,
+            "id": 2,
+            "size": 28,
             "top_terms": [
-              "responsabile",
               "sistema",
-              "engineer"
+              "product",
+              "venditore"
             ],
-            "pct": 50.8
+            "pct": 49.1
           },
           {
             "id": 0,
-            "size": 9,
-            "top_terms": [
-              "manager",
-              "regulatory",
-              "project"
-            ],
-            "pct": 15.3
-          },
-          {
-            "id": 1,
-            "size": 9,
+            "size": 10,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 15.3
+            "pct": 17.5
+          },
+          {
+            "id": 1,
+            "size": 10,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "senior"
+            ],
+            "pct": 17.5
           },
           {
             "id": 4,
-            "size": 7,
+            "size": 5,
             "top_terms": [
               "specialist",
               "marketing",
-              "sales"
+              "venditore"
             ],
-            "pct": 11.9
+            "pct": 8.8
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "tecnico",
-              "venezia",
-              "project"
+              "stage",
+              "venditore"
             ],
-            "pct": 6.8
+            "pct": 7.0
           }
         ]
       }
