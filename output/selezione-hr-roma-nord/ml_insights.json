@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-05T09:26:11.746066",
+  "generated_at": "2026-08-06T10:27:16.809837",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 221,
+  "total_jobs_analyzed": 219,
   "scoring": {
-    "average": 23.5,
+    "average": 24.1,
     "distribution": {
       "excellent": 0,
-      "good": 12,
-      "medium": 47,
+      "good": 13,
+      "medium": 49,
       "low": 50,
-      "irrelevant": 112
+      "irrelevant": 107
     },
     "top_jobs": [
       {
@@ -62,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4441994085"
       },
       {
-        "title": "Stage HR Generalist – Ricerca, Selezione e Formazione del Personale",
-        "company": "Consilia",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443758979"
-      },
-      {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "MioDottore",
         "score": 66,
@@ -86,12 +78,28 @@
         "url": "https://www.linkedin.com/jobs/view/4445352354"
       },
       {
+        "title": "Stage HR Generalist – Ricerca, Selezione e Formazione del Personale",
+        "company": "Consilia",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443758979"
+      },
+      {
         "title": "HR MANAGER JUNIOR",
         "company": "Italian Design Institute",
         "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445508805"
+      },
+      {
+        "title": "HR Manager Italy EP/NV & Project management",
+        "company": "Johnson & Johnson",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4449473383"
       },
       {
         "title": "Addetto/a Ricerca e Selezione – Ufficio Risorse Umane",
@@ -118,28 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=7e600a96e0acb72d"
       },
       {
-        "title": "Junior HR generalist tecnologie ripiano notturno",
-        "company": "Tuolavoro-Lazio",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445751688"
-      },
-      {
-        "title": "HR Generalist per soluzioni di filtrazione acqua potabile",
-        "company": "Tuolavoro-Lazio",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4447141379"
-      },
-      {
         "title": "HR Generalist per attività di assistenza alla vendita",
         "company": "key-absolute",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448234239"
+      },
+      {
+        "title": "HR Specialist",
+        "company": "portierato e vigilanza",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=b199552c470a5341"
       },
       {
         "title": "HR generalist per tecnologie benessere notturno",
@@ -158,17 +158,17 @@
         "url": "https://it.indeed.com/viewjob?jk=89a0b26d0893a7c3"
       },
       {
-        "title": "Addetto/a ricerca e selezione del personale junior",
+        "title": "Junior HR generalist tecnologie ripiano notturno",
         "company": "Tuolavoro-Lazio",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448230309"
+        "url": "https://www.linkedin.com/jobs/view/4445751688"
       },
       {
         "title": "Junior HR Generalist per soluzioni cura persona",
         "company": "Tuolavoro-Lazio",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1785196800000,
         "url": "https://www.linkedin.com/jobs/view/4445757552"
@@ -179,17 +179,17 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "responsabile",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
         "word": "settore",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "assistente",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "responsabile",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -246,13 +246,13 @@
       "confidence": 30
     },
     {
-      "keyword": "generalist soluzioni",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "benessere",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "benessere",
+      "keyword": "tecnologie",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -260,43 +260,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 25 annunci ultimo scan vs media 14 (+79%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-54%)",
       "data": {
-        "current": 25,
-        "avg": 14.0,
-        "change_pct": 78.6
+        "current": 7,
+        "avg": 15.1,
+        "change_pct": -53.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 11/25 annunci da aziende nuove (44.0%)",
+      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
       "data": {
-        "new": 11,
-        "total": 25,
-        "pct": 44.0
+        "new": 5,
+        "total": 7,
+        "pct": 71.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 68% (+18pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 68.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 32% (-18pp)",
+      "message": "📡 linkedin: quota passata da 32% a 14% (-18pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 32.0
+        "old_pct": 32.0,
+        "new_pct": 14.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 68% a 86% (+18pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 68.0,
+        "new_pct": 85.7
       }
     },
     {
@@ -307,53 +307,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 96,
+            "size": 84,
             "top_terms": [
               "roma",
-              "manager",
-              "progettista"
+              "progettista",
+              "tecnico"
             ],
-            "pct": 43.4
+            "pct": 38.4
           },
           {
-            "id": 2,
-            "size": 60,
+            "id": 4,
+            "size": 59,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 27.1
-          },
-          {
-            "id": 4,
-            "size": 29,
-            "top_terms": [
-              "hr",
-              "business",
-              "partner"
-            ],
-            "pct": 13.1
-          },
-          {
-            "id": 1,
-            "size": 19,
-            "top_terms": [
-              "specialist",
-              "recruiter",
-              "talent"
-            ],
-            "pct": 8.6
+            "pct": 26.9
           },
           {
             "id": 3,
-            "size": 17,
+            "size": 42,
             "top_terms": [
-              "personale",
-              "selezione",
-              "addetto"
+              "hr",
+              "addetto",
+              "personale"
             ],
-            "pct": 7.7
+            "pct": 19.2
+          },
+          {
+            "id": 1,
+            "size": 23,
+            "top_terms": [
+              "specialist",
+              "recruiter",
+              "hr"
+            ],
+            "pct": 10.5
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "manager",
+              "hr",
+              "southern"
+            ],
+            "pct": 5.0
           }
         ]
       }

@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-08-05T09:26:11.761888",
+  "generated_at": "2026-08-06T10:27:16.833432",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 18,
+  "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 21.0,
+    "average": 19.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 5,
       "low": 3,
-      "irrelevant": 10
+      "irrelevant": 13
     },
     "top_jobs": [
+      {
+        "title": "Informatore Scientifico del Farmaco (ISF)",
+        "company": "Professional Recruitment",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443100838"
+      },
       {
         "title": "Manager – Global Regulatory Affairs",
         "company": "Taevas Life Sciences",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446470745"
-      },
-      {
-        "title": "Informatore Scientifico del Farmaco (ISF)",
-        "company": "Professional Recruitment",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443100838"
       },
       {
         "title": "| INFORMATORE SCIENTIFICO | 157165 |",
@@ -38,20 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4441031420"
       },
       {
+        "title": "Clinical Specialist Trach",
+        "company": "Atos Medical",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": 1784160000000,
+        "url": "https://www.linkedin.com/jobs/view/4440769936"
+      },
+      {
         "title": "Informatore scientifico commerciale | Veneto",
         "company": "PharmaNutra",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438218073"
-      },
-      {
-        "title": "Clinical Specialist Trach",
-        "company": "Atos Medical",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1784160000000,
-        "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
         "title": "Informatore medico scientifico",
@@ -64,7 +64,7 @@
       {
         "title": "Informatore Medico Scientifico Venezia e Treviso",
         "company": "Agave Group",
-        "score": 37,
+        "score": 38,
         "site": "linkedin",
         "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4441154975"
@@ -76,6 +76,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4447535530"
+      },
+      {
+        "title": "Sports and Fitness Director (CYS) NF-04",
+        "company": null,
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1785888000000,
+        "url": "https://it.indeed.com/viewjob?jk=eb278c2803192c13"
+      },
+      {
+        "title": "INFERMIERE/A LIBERO PROFESSIONISTA A VENEZIA E PROVINCIA",
+        "company": "ItaliAssistenza",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1785888000000,
+        "url": "https://it.indeed.com/viewjob?jk=57c0167db277097f"
       },
       {
         "title": "Junior Project Manager – Intern",
@@ -134,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=5921f0e2c2f2d4d6"
       },
       {
+        "title": "COMUNE DI PIOVE DI SACCO - AVVISO PUBBLICO MANIFESTAZIONE D'INTERESSE PER L'INCARICO DI NUCLEO DI VALUTAZIONE IN  FORMA MONOCRATICA",
+        "company": "Dipartimento della Funzione Pubblica",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443286873"
+      },
+      {
         "title": "DOL TAP Facilitator - (Part-time) - Vicenza, Italy",
         "company": "Serco",
         "score": 0,
@@ -148,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1784851200000,
         "url": "https://it.indeed.com/viewjob?jk=9f0a54238f2f134a"
-      },
-      {
-        "title": "Infermiere a Domicilio Verona e Provincia",
-        "company": "QuiCare",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=f9c061c08ff3d6c1"
       }
     ]
   },
@@ -173,43 +189,62 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+40%)",
-      "data": {
-        "current": 3,
-        "avg": 2.1,
-        "change_pct": 40.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
+        "new": 2,
         "total": 3,
-        "pct": 33.3
+        "pct": 66.7
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
+      "type": "role_clusters",
+      "severity": "info",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 33.3
+        "clusters": [
+          {
+            "id": 1,
+            "size": 8,
+            "top_terms": [
+              "provincia",
+              "infermiere",
+              "na"
+            ],
+            "pct": 38.1
+          },
+          {
+            "id": 3,
+            "size": 6,
+            "top_terms": [
+              "scientifico",
+              "informatore",
+              "medico"
+            ],
+            "pct": 28.6
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "manager",
+              "scientifico",
+              "venezia"
+            ],
+            "pct": 23.8
+          },
+          {
+            "id": 0,
+            "size": 2,
+            "top_terms": [
+              "nf",
+              "scientifico",
+              "venezia"
+            ],
+            "pct": 9.5
+          }
+        ]
       }
     }
   ],

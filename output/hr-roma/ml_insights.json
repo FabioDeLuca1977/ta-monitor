@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-05T09:26:11.637959",
+  "generated_at": "2026-08-06T10:27:16.729937",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 221,
+  "total_jobs_analyzed": 219,
   "scoring": {
-    "average": 22.7,
+    "average": 23.4,
     "distribution": {
       "excellent": 0,
       "good": 11,
-      "medium": 44,
-      "low": 54,
-      "irrelevant": 112
+      "medium": 46,
+      "low": 55,
+      "irrelevant": 107
     },
     "top_jobs": [
       {
@@ -56,10 +56,18 @@
       {
         "title": "HR Talent Acquisition Intern",
         "company": "Engineering Group",
-        "score": 63,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1785369600000,
         "url": "https://www.linkedin.com/jobs/view/4446772905"
+      },
+      {
+        "title": "HR Manager Italy EP/NV & Project management",
+        "company": "Johnson & Johnson",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4449473383"
       },
       {
         "title": "HR / Talent Acquisition Specialist – Tutor per lezioni private",
@@ -70,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441994085"
       },
       {
-        "title": "Stage HR Generalist – Ricerca, Selezione e Formazione del Personale",
-        "company": "Consilia",
+        "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
+        "company": "Randstad Italia",
         "score": 61,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443758979"
+        "url": "https://www.linkedin.com/jobs/view/4446221368"
       },
       {
         "title": "Talent Acquisition Specialist - Sales",
@@ -94,12 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4445352354"
       },
       {
-        "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
-        "company": "Randstad Italia",
-        "score": 60,
+        "title": "Stage HR Generalist – Ricerca, Selezione e Formazione del Personale",
+        "company": "Consilia",
+        "score": 59,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446221368"
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443758979"
       },
       {
         "title": "Junior HR generalist tecnologie ripiano notturno",
@@ -142,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4445757552"
       },
       {
+        "title": "HR Specialist",
+        "company": "portierato e vigilanza",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=b199552c470a5341"
+      },
+      {
         "title": "Addetto/a Ricerca e Selezione – Ufficio Risorse Umane",
         "company": "prestig-srl",
         "score": 56,
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445970573"
-      },
-      {
-        "title": "HR officer per prodotti benessere generale",
-        "company": "Tuolavoro-Lazio",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4441339707"
-      },
-      {
-        "title": "HR Officer - Gestione Servizi Clienti",
-        "company": "Tuolavoro-Lazio",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4441355012"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 44,
-        "reason": "Appare 44x in annunci a basso score"
+        "count": 43,
+        "reason": "Appare 43x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 44,
-        "reason": "Appare 44x in annunci a basso score"
+        "count": 43,
+        "reason": "Appare 43x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -194,19 +194,25 @@
         "reason": "Appare 35x in annunci a basso score"
       },
       {
-        "word": "responsabile",
+        "word": "settore",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "settore",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "assistente",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
+    {
+      "keyword": "ricerca selezione",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
     {
       "keyword": "hr talent",
       "frequency": 3,
@@ -214,10 +220,10 @@
       "confidence": 45
     },
     {
-      "keyword": "ricerca selezione",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "keyword": "intern",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
       "keyword": "junior",
@@ -260,53 +266,47 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "generalist soluzioni",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 25 annunci ultimo scan vs media 14 (+79%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-54%)",
       "data": {
-        "current": 25,
-        "avg": 14.0,
-        "change_pct": 78.6
+        "current": 7,
+        "avg": 15.1,
+        "change_pct": -53.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 11/25 annunci da aziende nuove (44.0%)",
+      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
       "data": {
-        "new": 11,
-        "total": 25,
-        "pct": 44.0
+        "new": 5,
+        "total": 7,
+        "pct": 71.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 68% (+18pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 68.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 32% (-18pp)",
+      "message": "📡 linkedin: quota passata da 32% a 14% (-18pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 32.0
+        "old_pct": 32.0,
+        "new_pct": 14.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 68% a 86% (+18pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 68.0,
+        "new_pct": 85.7
       }
     },
     {
@@ -317,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 96,
+            "size": 84,
             "top_terms": [
               "roma",
-              "manager",
-              "progettista"
+              "progettista",
+              "tecnico"
             ],
-            "pct": 43.4
+            "pct": 38.4
           },
           {
-            "id": 2,
-            "size": 60,
+            "id": 4,
+            "size": 59,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 27.1
-          },
-          {
-            "id": 4,
-            "size": 29,
-            "top_terms": [
-              "hr",
-              "business",
-              "partner"
-            ],
-            "pct": 13.1
-          },
-          {
-            "id": 1,
-            "size": 19,
-            "top_terms": [
-              "specialist",
-              "recruiter",
-              "talent"
-            ],
-            "pct": 8.6
+            "pct": 26.9
           },
           {
             "id": 3,
-            "size": 17,
+            "size": 42,
             "top_terms": [
-              "personale",
-              "selezione",
-              "addetto"
+              "hr",
+              "addetto",
+              "personale"
             ],
-            "pct": 7.7
+            "pct": 19.2
+          },
+          {
+            "id": 1,
+            "size": 23,
+            "top_terms": [
+              "specialist",
+              "recruiter",
+              "hr"
+            ],
+            "pct": 10.5
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "manager",
+              "hr",
+              "southern"
+            ],
+            "pct": 5.0
           }
         ]
       }

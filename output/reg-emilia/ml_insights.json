@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-08-05T09:26:12.253464",
+  "generated_at": "2026-08-06T10:27:17.183400",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 47,
+  "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 7.3,
+    "average": 9.4,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 0,
+      "good": 2,
+      "medium": 1,
       "low": 1,
-      "irrelevant": 45
+      "irrelevant": 48
     },
     "top_jobs": [
+      {
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
+      },
       {
         "title": "Regulatory Affair Specialist",
         "company": "Teoresi MedTech",
@@ -20,6 +28,14 @@
         "site": "linkedin",
         "date_posted": 1784246400000,
         "url": "https://www.linkedin.com/jobs/view/4439210573"
+      },
+      {
+        "title": "Salesforce Marketing Cloud Specialist",
+        "company": "Credem Banca",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1785801600000,
+        "url": "https://www.linkedin.com/jobs/view/4446618856"
       },
       {
         "title": "Utilities & Facility Engineer",
@@ -36,6 +52,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
+      },
+      {
+        "title": "Technical Support Specialist – Dutch Market",
+        "company": "Geotab",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1785888000000,
+        "url": "https://it.indeed.com/viewjob?jk=1ce4d74333cd5de6"
+      },
+      {
+        "title": "Sales Specialist- Modena",
+        "company": "R-STORE S.p.A",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1785888000000,
+        "url": "https://it.indeed.com/viewjob?jk=231a5e0af6123248"
       },
       {
         "title": "QA & RA Manager | Medical Devices",
@@ -60,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445928822"
-      },
-      {
-        "title": "Strategic R&D Manager - Wound Management",
-        "company": "B. Braun Avitum Italy S.p.A.",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
         "title": "Quality Assurance",
@@ -102,12 +126,28 @@
         "url": "https://it.indeed.com/viewjob?jk=0b532cd64e610d42"
       },
       {
+        "title": "Field Service Engineer-Medical Devices",
+        "company": "IQVIA Italia",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4439830287"
+      },
+      {
         "title": "Expert Technician - QA Insulin",
         "company": "Eli Lilly",
         "score": 10,
         "site": "indeed",
         "date_posted": 1785801600000,
         "url": "https://it.indeed.com/viewjob?jk=39ad88a87caa42b2"
+      },
+      {
+        "title": "Principal Engineer, Continuous Improvement",
+        "company": "Celanese",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1785888000000,
+        "url": "https://it.indeed.com/viewjob?jk=54cee64e2b0c978d"
       },
       {
         "title": "Quality Assurance Associate – Filling Cartridges",
@@ -132,46 +172,6 @@
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=b18ffcdabe284a8e"
-      },
-      {
-        "title": "Quality Manager",
-        "company": "Trivium Packaging",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1784505600000,
-        "url": "https://it.indeed.com/viewjob?jk=4f219c356c53c768"
-      },
-      {
-        "title": "R&D MANAGER - ARIETE",
-        "company": "De'Longhi",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1784678400000,
-        "url": "https://it.indeed.com/viewjob?jk=4b65d7d980fed510"
-      },
-      {
-        "title": "Quality assurance",
-        "company": "Michael Page",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4442863186"
-      },
-      {
-        "title": "Industrial Quality Assurance Professional",
-        "company": "Bonfiglioli",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445517245"
-      },
-      {
-        "title": "QUALITY ASSURANCE ALIMENTARE",
-        "company": "Grafton Recruitment",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446615735"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -195,13 +195,13 @@
       },
       {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "sales",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-42%)",
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+70%)",
       "data": {
-        "current": 2,
+        "current": 6,
         "avg": 3.5,
-        "change_pct": -42.2
+        "change_pct": 69.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "new": 4,
+        "total": 6,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 15,
+            "id": 4,
+            "size": 16,
             "top_terms": [
-              "marketing",
-              "addetto",
-              "senior"
+              "specialist",
+              "sales",
+              "technical"
             ],
-            "pct": 31.9
-          },
-          {
-            "id": 1,
-            "size": 12,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "junior"
-            ],
-            "pct": 25.5
+            "pct": 30.8
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 13,
             "top_terms": [
-              "manager",
-              "project",
-              "medical"
+              "assurance",
+              "quality",
+              "supervisor"
             ],
-            "pct": 21.3
-          },
-          {
-            "id": 4,
-            "size": 6,
-            "top_terms": [
-              "engineer",
-              "mechanical",
-              "product"
-            ],
-            "pct": 12.8
+            "pct": 25.0
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 11,
             "top_terms": [
-              "specialist",
-              "assurance",
-              "quality"
+              "engineer",
+              "devices",
+              "service"
             ],
-            "pct": 8.5
+            "pct": 21.2
+          },
+          {
+            "id": 1,
+            "size": 9,
+            "top_terms": [
+              "manager",
+              "project",
+              "product"
+            ],
+            "pct": 17.3
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "marketing",
+              "specialist",
+              "technical"
+            ],
+            "pct": 5.8
           }
         ]
       }
