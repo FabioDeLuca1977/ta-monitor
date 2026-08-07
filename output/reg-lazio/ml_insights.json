@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-06T10:27:17.246198",
+  "generated_at": "2026-08-07T09:05:32.593256",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 114,
+  "total_jobs_analyzed": 117,
   "scoring": {
-    "average": 12.2,
+    "average": 13.1,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 9,
-      "low": 3,
+      "good": 6,
+      "medium": 10,
+      "low": 4,
       "irrelevant": 97
     },
     "top_jobs": [
@@ -54,20 +54,28 @@
         "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
       },
       {
+        "title": "Regulatory Affair Specialist - Pharma",
+        "company": "Brenntag",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=ad56985eaecc7db0"
+      },
+      {
+        "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
+        "company": "PrimeVigilance",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4450296041"
+      },
+      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
         "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
-      },
-      {
-        "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
-        "company": "Primevigilance",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1785715200000,
-        "url": "https://it.indeed.com/viewjob?jk=00dff6653575043a"
       },
       {
         "title": "Regulatory Affairs & Competition Specialist",
@@ -78,20 +86,28 @@
         "url": "https://it.indeed.com/viewjob?jk=ae887796637a257d"
       },
       {
+        "title": "Regulatory Affairs Intern",
+        "company": "Kenvue",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1784505600000,
+        "url": "https://it.indeed.com/viewjob?jk=df705abcb0e03bce"
+      },
+      {
+        "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
+        "company": "Primevigilance",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1785715200000,
+        "url": "https://it.indeed.com/viewjob?jk=00dff6653575043a"
+      },
+      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
         "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
-      },
-      {
-        "title": "Regulatory Affairs Intern",
-        "company": "Kenvue",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1784505600000,
-        "url": "https://it.indeed.com/viewjob?jk=df705abcb0e03bce"
       },
       {
         "title": "GxP Specialist",
@@ -104,7 +120,7 @@
       {
         "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
         "company": "Ecolab",
-        "score": 45,
+        "score": 46,
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=ee7ec4ffdc200c01"
@@ -142,36 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=90d8ddcdf8195c29"
       },
       {
+        "title": "E-invoicing Subject Matter Expert",
+        "company": "Emerging Travel Group",
+        "score": 25,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=90d8ddcdf8195c29"
+      },
+      {
         "title": "Principal Biostatistician (Oncology) - FSP",
         "company": "IQVIA",
         "score": 22,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=eaf6cf45df536b37"
-      },
-      {
-        "title": "Business Applications Project & Demand Manager",
-        "company": "Digital Value S.p.A.",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445143719"
-      },
-      {
-        "title": "Senior Manager Ufficio Gare - Roma",
-        "company": "KPMG",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1785715200000,
-        "url": "https://it.indeed.com/viewjob?jk=3ee8a5b4b048f558"
-      },
-      {
-        "title": "QUALITY ASSURANCE MANAGER",
-        "company": "OKATIM Italia",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4441326884"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -189,14 +189,14 @@
         "reason": "Appare 16x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "word": "manager",
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "word": "senior",
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "system",
@@ -207,6 +207,12 @@
     "review": []
   },
   "keyword_recommendations": [
+    {
+      "keyword": "affairs intern",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
     {
       "keyword": "affairs competition",
       "frequency": 2,
@@ -228,33 +234,22 @@
   ],
   "anomalies": [
     {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 American Express: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "American Express",
+        "count": 2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 6/9 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 4,
-        "total": 8,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 29% a 12% (-16pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 28.6,
-        "new_pct": 12.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 71% a 88% (+16pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 71.4,
-        "new_pct": 87.5
+        "new": 6,
+        "total": 9,
+        "pct": 66.7
       }
     },
     {
@@ -264,54 +259,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 59,
+            "id": 0,
+            "size": 51,
             "top_terms": [
               "engineer",
-              "associate",
-              "regulatory"
+              "technician",
+              "system"
             ],
-            "pct": 51.8
+            "pct": 43.6
           },
           {
             "id": 1,
-            "size": 19,
+            "size": 22,
             "top_terms": [
               "senior",
               "manager",
               "project"
             ],
-            "pct": 16.7
+            "pct": 18.8
+          },
+          {
+            "id": 3,
+            "size": 21,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 17.9
           },
           {
             "id": 2,
-            "size": 18,
+            "size": 16,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 15.8
-          },
-          {
-            "id": 0,
-            "size": 15,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "accounting"
-            ],
-            "pct": 13.2
+            "pct": 13.7
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 7,
             "top_terms": [
-              "qc",
-              "supervisor",
-              "technician"
+              "associate",
+              "clinical",
+              "assurance"
             ],
-            "pct": 2.6
+            "pct": 6.0
           }
         ]
       }

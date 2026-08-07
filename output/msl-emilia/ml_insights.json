@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-06T10:27:16.951485",
+  "generated_at": "2026-08-07T09:05:32.166064",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 28,
+  "total_jobs_analyzed": 27,
   "scoring": {
     "average": 21.6,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 8,
-      "low": 5,
-      "irrelevant": 14
+      "low": 3,
+      "irrelevant": 15
     },
     "top_jobs": [
       {
@@ -18,15 +18,15 @@
         "company": "Hoya Vision Care",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1784160000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
         "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
         "company": "IQVIA",
-        "score": 46,
+        "score": 45,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784678400000,
         "url": "https://www.linkedin.com/jobs/view/4443169752"
       },
       {
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
-        "title": "Principal - Evidence Generation Oversight - International role based in Italy",
-        "company": "IQVIA",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4443169752"
-      },
-      {
         "title": "MSL Centro (Emilia-Romagna, Marche)",
         "company": "Jefferson Wells Italia",
         "score": 42,
@@ -70,6 +62,14 @@
         "url": "https://www.linkedin.com/jobs/view/4445669606"
       },
       {
+        "title": "Principal - Evidence Generation Oversight - International role based in Italy",
+        "company": "IQVIA",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443169752"
+      },
+      {
         "title": "International Clinical Specialist Neurosurgery",
         "company": "WWS CAREERS",
         "score": 41,
@@ -82,7 +82,7 @@
         "company": "Teoresi MedTech",
         "score": 40,
         "site": "linkedin",
-        "date_posted": 1784246400000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439210573"
       },
       {
@@ -96,18 +96,10 @@
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 26,
+        "score": 23,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
-      },
-      {
-        "title": "Supervisor, Manufacturing Engineer - Medical Devices",
-        "company": "Jefferson Wells Italia",
-        "score": 22,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4447277914"
       },
       {
         "title": "Job Posting Title Clinical Trial Psych Rater - Italian Speaking",
@@ -120,7 +112,7 @@
       {
         "title": "QA & RA Manager | Medical Devices",
         "company": "Hays",
-        "score": 21,
+        "score": 19,
         "site": "linkedin",
         "date_posted": 1784592000000,
         "url": "https://www.linkedin.com/jobs/view/4437278972"
@@ -128,18 +120,18 @@
       {
         "title": "Field Service Engineer-Medical Devices",
         "company": "IQVIA Italia",
-        "score": 18,
+        "score": 17,
         "site": "linkedin",
         "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4439830287"
       },
       {
-        "title": "Temporary manager",
-        "company": "Percinque Srl",
-        "score": 12,
+        "title": "Supervisor, Manufacturing Engineer - Medical Devices",
+        "company": "Jefferson Wells Italia",
+        "score": 17,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443691632"
+        "date_posted": 1785715200000,
+        "url": "https://www.linkedin.com/jobs/view/4447277914"
       },
       {
         "title": "SALES PROMOTER - Emilia Romagna",
@@ -148,6 +140,14 @@
         "site": "indeed",
         "date_posted": 1785801600000,
         "url": "https://it.indeed.com/viewjob?jk=7354a17d28d3aa72"
+      },
+      {
+        "title": "Temporary manager",
+        "company": "Percinque Srl",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443691632"
       },
       {
         "title": "Strategic R&D Manager - Wound Management",
@@ -161,9 +161,9 @@
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
         "score": 7,
-        "site": "indeed",
-        "date_posted": 1784678400000,
-        "url": "https://it.indeed.com/viewjob?jk=f7917177ffbad2ea"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441508427"
       },
       {
         "title": "Cold End Manager",
@@ -180,11 +180,16 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "manager",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "devices",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -196,31 +201,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-63%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-58%)",
       "data": {
         "current": 1,
-        "avg": 2.7,
-        "change_pct": -63.0
+        "avg": 2.4,
+        "change_pct": -57.7
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
@@ -230,34 +225,34 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 14,
+            "id": 1,
+            "size": 13,
             "top_terms": [
               "specialist",
               "clinical",
               "regulatory"
             ],
-            "pct": 50.0
+            "pct": 48.1
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 5,
             "top_terms": [
               "manager",
               "medical",
               "devices"
             ],
-            "pct": 17.9
+            "pct": 18.5
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "engineer",
               "devices",
               "medical"
             ],
-            "pct": 14.3
+            "pct": 14.8
           },
           {
             "id": 2,
@@ -267,17 +262,17 @@
               "emilia",
               "field"
             ],
-            "pct": 10.7
+            "pct": 11.1
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 2,
             "top_terms": [
-              "cra",
-              "specialist",
-              "romagna"
+              "role",
+              "based",
+              "oversight"
             ],
-            "pct": 7.1
+            "pct": 7.4
           }
         ]
       }
