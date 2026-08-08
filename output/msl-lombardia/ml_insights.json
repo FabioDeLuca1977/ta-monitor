@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-07T09:05:32.126015",
+  "generated_at": "2026-08-08T08:48:31.110737",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 207,
+  "total_jobs_analyzed": 205,
   "scoring": {
-    "average": 27.1,
+    "average": 26.6,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 90,
-      "low": 16,
-      "irrelevant": 100
+      "good": 2,
+      "medium": 85,
+      "low": 17,
+      "irrelevant": 101
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444350315"
+      },
+      {
+        "title": "Regional Medical Affairs Manager",
+        "company": "Thermo Fisher Scientific",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4450560592"
       },
       {
         "title": "Medical Monitor (Gastroenterology)",
@@ -38,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4431241411"
       },
       {
-        "title": "Medical Affairs Lead BH",
-        "company": "Neuraxpharm",
+        "title": "JR Regulatory Affairs Specialist - Medical Devices",
+        "company": "Hays",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1784332800000,
-        "url": "https://www.linkedin.com/jobs/view/4411500965"
+        "date_posted": 1784851200000,
+        "url": "https://www.linkedin.com/jobs/view/4441590064"
       },
       {
         "title": "Hepatology - Medical Director",
@@ -52,22 +60,6 @@
         "site": "linkedin",
         "date_posted": 1784505600000,
         "url": "https://www.linkedin.com/jobs/view/4331970390"
-      },
-      {
-        "title": "JR Regulatory Affairs Specialist - Medical Devices",
-        "company": "Hays",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441590064"
-      },
-      {
-        "title": "Manager, Medical Writing (Publications)",
-        "company": "Thermo Fisher Scientific",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1784246400000,
-        "url": "https://www.linkedin.com/jobs/view/4439221076"
       },
       {
         "title": "Medical Science Liaison, Oncology",
@@ -90,8 +82,16 @@
         "company": "Sanofi",
         "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784764800000,
         "url": "https://www.linkedin.com/jobs/view/4435549857"
+      },
+      {
+        "title": "Global Medical Director, Electrophysiology & LAAC",
+        "company": "Boston Scientific",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448171129"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
@@ -114,8 +114,16 @@
         "company": "Sanofi",
         "score": 54,
         "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4435174440"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4436311710"
+      },
+      {
+        "title": "Executive Medical Director, Italy",
+        "company": "Incyte",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444945602"
       },
       {
         "title": "Senior Medical Director, Italy",
@@ -126,28 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4442931545"
       },
       {
-        "title": "Vice President, Medical Affairs Rare Diseases",
-        "company": "Recordati",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4426792350"
-      },
-      {
         "title": "Jr QA Medical Device Specialist",
         "company": "IBSA Italy",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1784678400000,
         "url": "https://www.linkedin.com/jobs/view/4441047636"
-      },
-      {
-        "title": "Executive Medical Director, Italy",
-        "company": "Incyte",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444945602"
       },
       {
         "title": "Medical Science Liaison, North Italy",
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4448175086"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Recordati",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1785801600000,
+        "url": "https://www.linkedin.com/jobs/view/4411744140"
+      },
+      {
         "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
         "company": "Thermo Fisher Scientific",
         "score": 52,
@@ -179,29 +179,29 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "manager",
+        "word": "specialist",
         "count": 19,
         "reason": "Appare 19x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "word": "cra",
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
-        "word": "cra",
+        "word": "senior",
         "count": 13,
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "word": "engineer",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "word": "italy",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -220,12 +220,6 @@
       "confidence": 30
     },
     {
-      "keyword": "client dedicated",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -233,6 +227,12 @@
     },
     {
       "keyword": "specialist medical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "rare diseases",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,45 +260,9 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "dedicated",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 7/14 annunci da aziende nuove (50.0%)",
-      "data": {
-        "new": 7,
-        "total": 14,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 80% a 43% (-37pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 80.0,
-        "new_pct": 42.9
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 20% a 57% (+37pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 20.0,
-        "new_pct": 57.1
-      }
-    },
     {
       "type": "role_clusters",
       "severity": "info",
@@ -306,54 +270,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 82,
+            "id": 4,
+            "size": 86,
             "top_terms": [
-              "medical",
-              "engineer",
-              "director"
+              "cra",
+              "specialist",
+              "engineer"
             ],
-            "pct": 39.6
-          },
-          {
-            "id": 1,
-            "size": 38,
-            "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
-            ],
-            "pct": 18.4
+            "pct": 42.0
           },
           {
             "id": 3,
-            "size": 35,
+            "size": 34,
+            "top_terms": [
+              "medical",
+              "director",
+              "devices"
+            ],
+            "pct": 16.6
+          },
+          {
+            "id": 0,
+            "size": 33,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 16.1
+          },
+          {
+            "id": 1,
+            "size": 32,
             "top_terms": [
               "manager",
               "project",
-              "clinical"
+              "access"
             ],
-            "pct": 16.9
+            "pct": 15.6
           },
           {
             "id": 2,
-            "size": 29,
+            "size": 20,
             "top_terms": [
-              "cra",
-              "associate",
-              "ii"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 14.0
-          },
-          {
-            "id": 4,
-            "size": 23,
-            "top_terms": [
-              "specialist",
-              "product",
-              "devices"
-            ],
-            "pct": 11.1
+            "pct": 9.8
           }
         ]
       }

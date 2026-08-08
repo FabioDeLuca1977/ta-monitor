@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-07T09:05:32.166064",
+  "generated_at": "2026-08-08T08:48:31.144657",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 29,
   "scoring": {
-    "average": 21.6,
+    "average": 21.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 8,
-      "low": 3,
-      "irrelevant": 15
+      "low": 4,
+      "irrelevant": 16
     },
     "top_jobs": [
       {
@@ -22,9 +22,17 @@
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
+        "title": "Regulatory Affairs Specialist Junior - Firenze",
+        "company": "Adecco",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448771807"
+      },
+      {
         "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
         "company": "IQVIA",
-        "score": 45,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1784678400000,
         "url": "https://www.linkedin.com/jobs/view/4443169752"
@@ -72,7 +80,7 @@
       {
         "title": "International Clinical Specialist Neurosurgery",
         "company": "WWS CAREERS",
-        "score": 41,
+        "score": 40,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448155527"
@@ -80,9 +88,9 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Teoresi MedTech",
-        "score": 40,
+        "score": 39,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784851200000,
         "url": "https://www.linkedin.com/jobs/view/4439210573"
       },
       {
@@ -118,14 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4437278972"
       },
       {
-        "title": "Field Service Engineer-Medical Devices",
-        "company": "IQVIA Italia",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4439830287"
-      },
-      {
         "title": "Supervisor, Manufacturing Engineer - Medical Devices",
         "company": "Jefferson Wells Italia",
         "score": 17,
@@ -134,12 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4447277914"
       },
       {
-        "title": "SALES PROMOTER - Emilia Romagna",
-        "company": "B. Braun Milano S.P.A.",
-        "score": 10,
+        "title": "Field Service Engineer-Medical Devices",
+        "company": "IQVIA Italia",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4439830287"
+      },
+      {
+        "title": "Clinical Trial Coordinator",
+        "company": "Thermo Fisher Scientific",
+        "score": 11,
         "site": "indeed",
-        "date_posted": 1785801600000,
-        "url": "https://it.indeed.com/viewjob?jk=7354a17d28d3aa72"
+        "date_posted": 1786060800000,
+        "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
       },
       {
         "title": "Temporary manager",
@@ -156,14 +164,6 @@
         "site": "indeed",
         "date_posted": 1785283200000,
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
-      },
-      {
-        "title": "Senior CRA",
-        "company": "Thermo Fisher Scientific",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441508427"
       },
       {
         "title": "Cold End Manager",
@@ -199,23 +199,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-58%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
-        "current": 1,
-        "avg": 2.4,
-        "change_pct": -57.7
+        "new": 1,
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -225,54 +235,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 13,
+            "id": 4,
+            "size": 8,
             "top_terms": [
-              "specialist",
-              "clinical",
-              "regulatory"
+              "cra",
+              "emilia",
+              "romagna"
             ],
-            "pct": 48.1
+            "pct": 27.6
           },
           {
-            "id": 0,
+            "id": 1,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 20.7
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "engineer",
+              "devices",
+              "medical"
+            ],
+            "pct": 20.7
+          },
+          {
+            "id": 3,
             "size": 5,
             "top_terms": [
               "manager",
               "medical",
               "devices"
             ],
-            "pct": 18.5
+            "pct": 17.2
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 4,
             "top_terms": [
-              "engineer",
-              "devices",
-              "medical"
+              "clinical",
+              "trial",
+              "specialist"
             ],
-            "pct": 14.8
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "romagna",
-              "emilia",
-              "field"
-            ],
-            "pct": 11.1
-          },
-          {
-            "id": 4,
-            "size": 2,
-            "top_terms": [
-              "role",
-              "based",
-              "oversight"
-            ],
-            "pct": 7.4
+            "pct": 13.8
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-07T09:05:32.218294",
+  "generated_at": "2026-08-08T08:48:31.190830",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 56,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 31.8,
+    "average": 30.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 30,
-      "low": 5,
-      "irrelevant": 20
+      "medium": 28,
+      "low": 7,
+      "irrelevant": 22
     },
     "top_jobs": [
       {
@@ -62,12 +62,12 @@
         "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
       },
       {
-        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
-        "company": "Merck KGaA",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1785801600000,
-        "url": "https://it.indeed.com/viewjob?jk=21b8945c5f7e92cd"
+        "title": "Medical Device Quality & Regulatory Specialist",
+        "company": "K•HERO",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445916477"
       },
       {
         "title": "MEDICAL LEAD ONCOLOGY",
@@ -94,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4440244615"
       },
       {
-        "title": "Medical Device Quality & Regulatory Specialist",
-        "company": "K•HERO",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445916477"
-      },
-      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
         "score": 51,
@@ -118,20 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
-        "title": "Medical Information Specialist (Pharmacist/Biologist) Part-Time/Full-Time",
-        "company": "QuiCare",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444935082"
+        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
+        "company": "Merck KGaA",
+        "score": 49,
+        "site": "indeed",
+        "date_posted": 1785801600000,
+        "url": "https://it.indeed.com/viewjob?jk=21b8945c5f7e92cd"
       },
       {
-        "title": "Clinical Research Associate - Italy - Remote",
-        "company": "Worldwide Clinical Trials",
+        "title": "Senior Medical Director, Italy",
+        "company": "Acadia Pharmaceuticals",
         "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444854467"
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=38ac1a87e9f1e1de"
       },
       {
         "title": "Regulatory Affairs Specialist - RASp",
@@ -150,12 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4445530792"
       },
       {
-        "title": "Senior Medical Director, Italy",
-        "company": "Acadia Pharmaceuticals",
+        "title": "Clinical Research Associate - Italy - Remote",
+        "company": "Worldwide Clinical Trials",
         "score": 47,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=38ac1a87e9f1e1de"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444854467"
       },
       {
         "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
@@ -170,8 +162,16 @@
         "company": "Perrigo Company plc",
         "score": 45,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784764800000,
         "url": "https://www.linkedin.com/jobs/view/4441564283"
+      },
+      {
+        "title": "Oncology Partnerships Manager, Italy",
+        "company": "Massive Bio",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445146640"
       }
     ]
   },
@@ -179,17 +179,17 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "italy",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
         "word": "manager",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "marketing",
+        "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "italy",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -206,43 +206,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+56%)",
-      "data": {
-        "current": 6,
-        "avg": 3.8,
-        "change_pct": 56.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 5,
-        "total": 6,
-        "pct": 83.3
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 83% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 83.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 17% (-50pp)",
+      "message": "📡 indeed: quota passata da 17% a 80% (+63pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 16.7
+        "old_pct": 16.7,
+        "new_pct": 80.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 83% a 20% (-63pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 83.3,
+        "new_pct": 20.0
       }
     },
     {
@@ -252,54 +242,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 21,
-            "top_terms": [
-              "specialist",
-              "oncology",
-              "marketing"
-            ],
-            "pct": 37.5
-          },
-          {
-            "id": 4,
-            "size": 14,
-            "top_terms": [
-              "italy",
-              "manager",
-              "medical"
-            ],
-            "pct": 25.0
-          },
-          {
             "id": 2,
+            "size": 28,
+            "top_terms": [
+              "clinical",
+              "associate",
+              "trial"
+            ],
+            "pct": 48.3
+          },
+          {
+            "id": 3,
+            "size": 10,
+            "top_terms": [
+              "medical",
+              "science",
+              "liaison"
+            ],
+            "pct": 17.2
+          },
+          {
+            "id": 1,
             "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.3
+            "pct": 13.8
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 7,
             "top_terms": [
-              "clinical",
-              "associate",
-              "trial"
+              "oncology",
+              "italy",
+              "manager"
             ],
-            "pct": 12.5
+            "pct": 12.1
           },
           {
-            "id": 1,
-            "size": 6,
+            "id": 0,
+            "size": 5,
             "top_terms": [
-              "liaison",
-              "science",
-              "medical"
+              "cra",
+              "italy",
+              "senior"
             ],
-            "pct": 10.7
+            "pct": 8.6
           }
         ]
       }

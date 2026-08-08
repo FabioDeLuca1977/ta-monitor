@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-07T09:05:32.272963",
+  "generated_at": "2026-08-08T08:48:31.239163",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 62,
   "scoring": {
-    "average": 10.2,
+    "average": 10.6,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 1,
+      "good": 1,
+      "medium": 3,
       "low": 2,
-      "irrelevant": 53
+      "irrelevant": 56
     },
     "top_jobs": [
       {
@@ -24,23 +24,31 @@
       {
         "title": "Freelance Regulatory Specialist, Italy",
         "company": "Planet Pharma",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448444098"
       },
       {
-        "title": "Product Safety and Regulatory Compliance Analyst",
-        "company": "Motorola Solutions",
+        "title": "Quality & Regulatory Specialist - Food Sector (F/M/NB)",
+        "company": "Randstad Italia",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448794187"
+      },
+      {
+        "title": "Product Safety and Regulatory Compliance Analyst",
+        "company": "Motorola Solutions",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1784764800000,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
         "title": "Aso",
         "company": "Studio dentistico Seno",
-        "score": 27,
+        "score": 22,
         "site": "indeed",
         "date_posted": 1785456000000,
         "url": "https://it.indeed.com/viewjob?jk=dd32c64d8d43b7a6"
@@ -60,14 +68,6 @@
         "site": "linkedin",
         "date_posted": 1784505600000,
         "url": "https://www.linkedin.com/jobs/view/4440117842"
-      },
-      {
-        "title": "Regional Sourcing Manager - Proteins",
-        "company": "Kemin",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1785801600000,
-        "url": "https://it.indeed.com/viewjob?jk=9697156cf9ac0a8f"
       },
       {
         "title": "Software Quality Assurance Engineer",
@@ -118,30 +118,6 @@
         "url": "https://it.indeed.com/viewjob?jk=3d1f67d50eba66e3"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "Fresenius Kabi Italia",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1784505600000,
-        "url": "https://www.linkedin.com/jobs/view/4440154655"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "SteelcoBelimed",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1784332800000,
-        "url": "https://www.linkedin.com/jobs/view/4424739480"
-      },
-      {
-        "title": "QUALITY ASSURANCE SPECIALIST",
-        "company": "CHR S.r.l.",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445985904"
-      },
-      {
         "title": "Senior GMP product quality assurance",
         "company": "Adecco",
         "score": 13,
@@ -150,34 +126,63 @@
         "url": "https://www.linkedin.com/jobs/view/4445899419"
       },
       {
+        "title": "QA/RA Specialist | Medical Devices",
+        "company": "Mynameis",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448770108"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "SteelcoBelimed",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1784332800000,
+        "url": "https://www.linkedin.com/jobs/view/4424739480"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Fresenius Kabi Italia",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1784505600000,
+        "url": "https://www.linkedin.com/jobs/view/4440154655"
+      },
+      {
+        "title": "QUALITY ASSURANCE SPECIALIST",
+        "company": "CHR S.r.l.",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445985904"
+      },
+      {
         "title": "Quality Assurance Specialist",
         "company": "Pietro Fiorentini",
-        "score": 13,
+        "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446619206"
       },
       {
-        "title": "Senior Scientist Human Sample Management",
-        "company": "Evotec",
+        "title": "Regional Sourcing Manager - Proteins",
+        "company": "Kemin",
         "score": 12,
         "site": "indeed",
-        "date_posted": 1785888000000,
-        "url": "https://it.indeed.com/viewjob?jk=3965ec2be1057d0c"
-      },
-      {
-        "title": "Senior Scientist Human Sample Management (temporary assignment)",
-        "company": "Evotec",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1785888000000,
-        "url": "https://it.indeed.com/viewjob?jk=3965ec2be1057d0c"
+        "date_posted": 1785801600000,
+        "url": "https://it.indeed.com/viewjob?jk=9697156cf9ac0a8f"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
+      {
+        "word": "specialist",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
       {
         "word": "quality",
         "count": 12,
@@ -197,11 +202,6 @@
         "word": "engineer",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "sistema",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
+        "new": 4,
         "total": 4,
-        "pct": 75.0
+        "pct": 100.0
       }
     },
     {
@@ -225,14 +225,14 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 0,
             "size": 28,
             "top_terms": [
               "product",
-              "venditore",
+              "addetta",
               "sistema"
             ],
-            "pct": 48.3
+            "pct": 45.2
           },
           {
             "id": 1,
@@ -242,37 +242,37 @@
               "quality",
               "specialist"
             ],
-            "pct": 19.0
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "manager",
-              "regulatory",
-              "senior"
-            ],
-            "pct": 15.5
+            "pct": 17.7
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 11,
             "top_terms": [
               "specialist",
               "marketing",
               "sales"
             ],
-            "pct": 13.8
+            "pct": 17.7
+          },
+          {
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "senior"
+            ],
+            "pct": 16.1
           },
           {
             "id": 3,
             "size": 2,
             "top_terms": [
-              "scientist",
-              "sample",
-              "human"
+              "venditore",
+              "venezia",
+              "product"
             ],
-            "pct": 3.4
+            "pct": 3.2
           }
         ]
       }
