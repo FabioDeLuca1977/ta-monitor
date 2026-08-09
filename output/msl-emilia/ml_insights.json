@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-08T08:48:31.144657",
+  "generated_at": "2026-08-09T08:53:58.104738",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 29,
   "scoring": {
-    "average": 21.7,
+    "average": 22.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 8,
-      "low": 4,
+      "medium": 9,
+      "low": 3,
       "irrelevant": 16
     },
     "top_jobs": [
@@ -46,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
-        "title": "Clinical Specialist",
-        "company": "Coloplast",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1784332800000,
-        "url": "https://www.linkedin.com/jobs/view/4433254704"
-      },
-      {
         "title": "MSL Centro (Emilia-Romagna, Marche)",
         "company": "Jefferson Wells Italia",
         "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446828249"
+      },
+      {
+        "title": "Clinical Specialist",
+        "company": "Coloplast",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
         "title": "Field Clinical Specialist - Electrophysiology - Region Emilia-Romagna",
@@ -80,7 +80,7 @@
       {
         "title": "International Clinical Specialist Neurosurgery",
         "company": "WWS CAREERS",
-        "score": 40,
+        "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448155527"
@@ -88,7 +88,7 @@
       {
         "title": "Regulatory Affair Specialist",
         "company": "Teoresi MedTech",
-        "score": 39,
+        "score": 40,
         "site": "linkedin",
         "date_posted": 1784851200000,
         "url": "https://www.linkedin.com/jobs/view/4439210573"
@@ -136,10 +136,18 @@
       {
         "title": "Field Service Engineer-Medical Devices",
         "company": "IQVIA Italia",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4439830287"
+      },
+      {
+        "title": "Temporary manager",
+        "company": "Percinque Srl",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443691632"
       },
       {
         "title": "Clinical Trial Coordinator",
@@ -150,14 +158,6 @@
         "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
       },
       {
-        "title": "Temporary manager",
-        "company": "Percinque Srl",
-        "score": 9,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443691632"
-      },
-      {
         "title": "Strategic R&D Manager - Wound Management",
         "company": "B. Braun Avitum Italy S.p.A.",
         "score": 8,
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
-        "title": "Cold End Manager",
-        "company": "Gerresheimer",
+        "title": "Senior CRA",
+        "company": "Thermo Fisher Scientific",
         "score": 7,
-        "site": "indeed",
-        "date_posted": 1784851200000,
-        "url": "https://it.indeed.com/viewjob?jk=4f4885f265c03cac"
+        "site": "linkedin",
+        "date_posted": 1784764800000,
+        "url": "https://www.linkedin.com/jobs/view/4441508427"
       }
     ]
   },
@@ -199,33 +199,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
+      "data": {
+        "current": 1,
+        "avg": 2.3,
+        "change_pct": -57.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 3,
-        "pct": 33.3
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 33.3,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,24 +245,24 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 8,
+            "id": 0,
+            "size": 9,
             "top_terms": [
-              "cra",
-              "emilia",
+              "clinical",
+              "specialist",
               "romagna"
             ],
-            "pct": 27.6
+            "pct": 31.0
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 7,
             "top_terms": [
-              "specialist",
               "regulatory",
-              "affairs"
+              "affairs",
+              "specialist"
             ],
-            "pct": 20.7
+            "pct": 24.1
           },
           {
             "id": 2,
@@ -275,14 +285,14 @@
             "pct": 17.2
           },
           {
-            "id": 0,
-            "size": 4,
+            "id": 4,
+            "size": 2,
             "top_terms": [
-              "clinical",
-              "trial",
-              "specialist"
+              "cra",
+              "specialist",
+              "trial"
             ],
-            "pct": 13.8
+            "pct": 6.9
           }
         ]
       }

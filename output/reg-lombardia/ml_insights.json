@@ -1,33 +1,25 @@
 {
-  "generated_at": "2026-08-08T08:48:31.414060",
+  "generated_at": "2026-08-09T08:53:58.319687",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 313,
+  "total_jobs_analyzed": 312,
   "scoring": {
-    "average": 15.0,
+    "average": 14.7,
     "distribution": {
       "excellent": 0,
-      "good": 24,
-      "medium": 23,
+      "good": 25,
+      "medium": 22,
       "low": 16,
-      "irrelevant": 250
+      "irrelevant": 249
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Cosmo Pharmaceuticals",
-        "score": 72,
+        "score": 73,
         "site": "indeed",
         "date_posted": 1785974400000,
         "url": "https://it.indeed.com/viewjob?jk=92a671f5bc67453b"
-      },
-      {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
-        "company": "QVC Italy",
-        "score": 70,
-        "site": "linkedin",
-        "date_posted": 1785888000000,
-        "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -46,28 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446323375"
       },
       {
-        "title": "Regulatory Affairs junior",
-        "company": "Openjobmetis SpA",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1785888000000,
-        "url": "https://www.linkedin.com/jobs/view/4448956945"
-      },
-      {
-        "title": "Sr. International Regulatory Affairs Specialist - EMEA",
-        "company": "Agilent Technologies",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1785888000000,
-        "url": "https://www.linkedin.com/jobs/view/4447093057"
-      },
-      {
         "title": "Compliance & Regulatory Affairs Manager",
         "company": "ReeVo Cloud & Cyber Security",
-        "score": 65,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436040335"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
+        "company": "QVC Italy",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": 1785888000000,
+        "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -134,6 +118,22 @@
         "url": "https://www.linkedin.com/jobs/view/4343985374"
       },
       {
+        "title": "Regulatory Affairs junior",
+        "company": "Openjobmetis SpA",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1785888000000,
+        "url": "https://www.linkedin.com/jobs/view/4448956945"
+      },
+      {
+        "title": "Sr. International Regulatory Affairs Specialist - EMEA",
+        "company": "Agilent Technologies",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1785888000000,
+        "url": "https://www.linkedin.com/jobs/view/4447093057"
+      },
+      {
         "title": "Cosmetic Regulatory Affairs Specialist",
         "company": "Ganassini Corporate",
         "score": 61,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4442863285"
       },
       {
-        "title": "Regulatory Affairs Manager (Automotive)",
-        "company": "TÜV Rheinland Group",
+        "title": "Regulatory Affair Dept",
+        "company": "Italmatch Chemicals",
         "score": 60,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=5182968b61f0465a"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446050416"
       }
     ]
   },
@@ -244,12 +244,6 @@
       "confidence": 40
     },
     {
-      "keyword": "affairs analyst",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "manager extra",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -266,17 +260,23 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "manager extra eu",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 13/17 annunci da aziende nuove (76.5%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 22 (-91%)",
       "data": {
-        "new": 13,
-        "total": 17,
-        "pct": 76.5
+        "current": 2,
+        "avg": 22.1,
+        "change_pct": -91.0
       }
     },
     {
@@ -286,47 +286,37 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 172,
+            "id": 4,
+            "size": 178,
             "top_terms": [
-              "engineer",
-              "senior",
-              "sales"
+              "specialist",
+              "sales",
+              "analyst"
             ],
-            "pct": 55.0
-          },
-          {
-            "id": 2,
-            "size": 39,
-            "top_terms": [
-              "manager",
-              "project",
-              "senior"
-            ],
-            "pct": 12.5
+            "pct": 57.1
           },
           {
             "id": 1,
-            "size": 38,
+            "size": 43,
             "top_terms": [
-              "specialist",
               "regulatory",
-              "sales"
-            ],
-            "pct": 12.1
-          },
-          {
-            "id": 3,
-            "size": 34,
-            "top_terms": [
               "affairs",
-              "regulatory",
               "specialist"
             ],
-            "pct": 10.9
+            "pct": 13.8
           },
           {
-            "id": 4,
+            "id": 2,
+            "size": 32,
+            "top_terms": [
+              "manager",
+              "project",
+              "emea"
+            ],
+            "pct": 10.3
+          },
+          {
+            "id": 0,
             "size": 30,
             "top_terms": [
               "quality",
@@ -334,6 +324,16 @@
               "specialist"
             ],
             "pct": 9.6
+          },
+          {
+            "id": 3,
+            "size": 29,
+            "top_terms": [
+              "engineer",
+              "senior",
+              "product"
+            ],
+            "pct": 9.3
           }
         ]
       }

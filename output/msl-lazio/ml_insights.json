@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-08-08T08:48:31.190830",
+  "generated_at": "2026-08-09T08:53:58.141293",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 58,
+  "total_jobs_analyzed": 59,
   "scoring": {
-    "average": 30.9,
+    "average": 31.4,
     "distribution": {
       "excellent": 0,
-      "good": 1,
+      "good": 2,
       "medium": 28,
       "low": 7,
       "irrelevant": 22
     },
     "top_jobs": [
+      {
+        "title": "Field Medical Advisor - Italy",
+        "company": "Syneos Health Commercial Solutions",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4451342230"
+      },
       {
         "title": "Medical Advisor Neurology and Immunolog",
         "company": "Merck Healthcare",
@@ -24,7 +32,7 @@
       {
         "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
         "company": "PrimeVigilance",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450296041"
@@ -54,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4439039474"
       },
       {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "AbbVie",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1785715200000,
-        "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
-      },
-      {
         "title": "Medical Device Quality & Regulatory Specialist",
         "company": "K•HERO",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445916477"
+      },
+      {
+        "title": "Medical Advisor Gastroenterology",
+        "company": "AbbVie",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1785715200000,
+        "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
       },
       {
         "title": "MEDICAL LEAD ONCOLOGY",
@@ -110,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
+        "title": "Clinical Research Associate I - Maternity Cover",
+        "company": "Novo Nordisk",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445530792"
+      },
+      {
         "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
         "company": "Merck KGaA",
         "score": 49,
@@ -118,12 +134,12 @@
         "url": "https://it.indeed.com/viewjob?jk=21b8945c5f7e92cd"
       },
       {
-        "title": "Senior Medical Director, Italy",
-        "company": "Acadia Pharmaceuticals",
+        "title": "Clinical Research Associate - Italy - Remote",
+        "company": "Worldwide Clinical Trials",
         "score": 48,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=38ac1a87e9f1e1de"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444854467"
       },
       {
         "title": "Regulatory Affairs Specialist - RASp",
@@ -134,44 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4446582239"
       },
       {
-        "title": "Clinical Research Associate I - Maternity Cover",
-        "company": "Novo Nordisk",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445530792"
-      },
-      {
-        "title": "Clinical Research Associate - Italy - Remote",
-        "company": "Worldwide Clinical Trials",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444854467"
-      },
-      {
         "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
         "company": "PrimeVigilance",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448322059"
       },
       {
-        "title": "Vice President Regulatory Affairs - Cluster",
-        "company": "Perrigo Company plc",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": 1784764800000,
-        "url": "https://www.linkedin.com/jobs/view/4441564283"
+        "title": "Senior Medical Director, Italy",
+        "company": "Acadia Pharmaceuticals",
+        "score": 47,
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=38ac1a87e9f1e1de"
       },
       {
-        "title": "Oncology Partnerships Manager, Italy",
-        "company": "Massive Bio",
+        "title": "Clinical Research Associate",
+        "company": null,
         "score": 45,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445146640"
+        "site": "indeed",
+        "date_posted": 1784592000000,
+        "url": "https://it.indeed.com/viewjob?jk=b0c29db735e202b9"
       }
     ]
   },
@@ -187,11 +187,6 @@
         "word": "cra",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": [
@@ -203,36 +198,53 @@
       }
     ]
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "italy",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
+    {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-78%)",
+      "data": {
+        "current": 1,
+        "avg": 4.5,
+        "change_pct": -77.6
+      }
+    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 5,
-        "pct": 60.0
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 17% a 80% (+63pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 16.7,
-        "new_pct": 80.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 83% a 20% (-63pp)",
+      "message": "📡 linkedin: quota passata da 20% a 100% (+80pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 83.3,
-        "new_pct": 20.0
+        "old_pct": 20.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -242,54 +254,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 28,
+            "id": 3,
+            "size": 24,
+            "top_terms": [
+              "oncology",
+              "lead",
+              "senior"
+            ],
+            "pct": 40.7
+          },
+          {
+            "id": 4,
+            "size": 15,
+            "top_terms": [
+              "italy",
+              "medical",
+              "science"
+            ],
+            "pct": 25.4
+          },
+          {
+            "id": 0,
+            "size": 9,
             "top_terms": [
               "clinical",
-              "associate",
-              "trial"
+              "trial",
+              "associate"
             ],
-            "pct": 48.3
+            "pct": 15.3
           },
           {
-            "id": 3,
-            "size": 10,
-            "top_terms": [
-              "medical",
-              "science",
-              "liaison"
-            ],
-            "pct": 17.2
-          },
-          {
-            "id": 1,
+            "id": 2,
             "size": 8,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.8
+            "pct": 13.6
           },
           {
-            "id": 4,
-            "size": 7,
+            "id": 1,
+            "size": 3,
             "top_terms": [
-              "oncology",
-              "italy",
-              "manager"
+              "business",
+              "analyst",
+              "management"
             ],
-            "pct": 12.1
-          },
-          {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "cra",
-              "italy",
-              "senior"
-            ],
-            "pct": 8.6
+            "pct": 5.1
           }
         ]
       }

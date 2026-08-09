@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-08T08:48:30.960642",
+  "generated_at": "2026-08-09T08:53:57.957606",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
   "total_jobs_analyzed": 225,
   "scoring": {
-    "average": 22.9,
+    "average": 22.8,
     "distribution": {
       "excellent": 0,
       "good": 14,
-      "medium": 46,
+      "medium": 45,
       "low": 50,
-      "irrelevant": 115
+      "irrelevant": 116
     },
     "top_jobs": [
       {
@@ -40,15 +40,15 @@
       {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "MioDottore",
-        "score": 65,
+        "score": 66,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784851200000,
         "url": "https://www.linkedin.com/jobs/view/4444602279"
       },
       {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "CLÍNICA MADICA INTER LOMAS",
-        "score": 65,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1784937600000,
         "url": "https://www.linkedin.com/jobs/view/4445352354"
@@ -130,7 +130,7 @@
         "company": "Tuolavoro-Lazio",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1784851200000,
         "url": "https://www.linkedin.com/jobs/view/4444348312"
       },
       {
@@ -222,13 +222,13 @@
       "confidence": 30
     },
     {
-      "keyword": "officer sistemi",
+      "keyword": "generalist tecnologie",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "generalist tecnologie",
+      "keyword": "officer sistemi",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,13 +260,33 @@
   ],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/11 annunci da aziende nuove (45.5%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
       "data": {
-        "new": 5,
-        "total": 11,
-        "pct": 45.5
+        "current": 1,
+        "avg": 16.0,
+        "change_pct": -93.8
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 18% a 0% (-18pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 18.2,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 82% a 100% (+18pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 81.8,
+        "new_pct": 100.0
       }
     },
     {
@@ -276,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 99,
+            "id": 0,
+            "size": 98,
             "top_terms": [
-              "specialist",
+              "manager",
               "roma",
-              "tecnico"
+              "responsabile"
             ],
-            "pct": 44.0
+            "pct": 43.6
           },
           {
-            "id": 3,
-            "size": 54,
+            "id": 1,
+            "size": 63,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 24.0
+            "pct": 28.0
           },
           {
-            "id": 0,
-            "size": 41,
+            "id": 3,
+            "size": 32,
             "top_terms": [
               "hr",
-              "responsabile",
+              "recruiter",
               "generalist"
             ],
-            "pct": 18.2
+            "pct": 14.2
+          },
+          {
+            "id": 2,
+            "size": 16,
+            "top_terms": [
+              "selezione",
+              "personale",
+              "addetto"
+            ],
+            "pct": 7.1
           },
           {
             "id": 4,
-            "size": 20,
+            "size": 16,
             "top_terms": [
-              "personale",
-              "selezione",
-              "addetto"
+              "specialist",
+              "recruiter",
+              "hr"
             ],
-            "pct": 8.9
-          },
-          {
-            "id": 1,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "hr",
-              "southern"
-            ],
-            "pct": 4.9
+            "pct": 7.1
           }
         ]
       }
