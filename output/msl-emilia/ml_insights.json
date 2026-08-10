@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-09T08:53:58.104738",
+  "generated_at": "2026-08-10T09:37:19.974518",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 29,
+  "total_jobs_analyzed": 28,
   "scoring": {
-    "average": 22.0,
+    "average": 21.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 9,
+      "medium": 8,
       "low": 3,
       "irrelevant": 16
     },
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
@@ -32,7 +32,7 @@
       {
         "title": "(Associate) Director - Evidence Generation Oversight - International role based in Italy",
         "company": "IQVIA",
-        "score": 46,
+        "score": 45,
         "site": "linkedin",
         "date_posted": 1784678400000,
         "url": "https://www.linkedin.com/jobs/view/4443169752"
@@ -44,14 +44,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
-      {
-        "title": "MSL Centro (Emilia-Romagna, Marche)",
-        "company": "Jefferson Wells Italia",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
         "title": "Clinical Specialist",
@@ -78,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4443169752"
       },
       {
+        "title": "MSL Centro (Emilia-Romagna, Marche)",
+        "company": "Jefferson Wells Italia",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446828249"
+      },
+      {
         "title": "International Clinical Specialist Neurosurgery",
         "company": "WWS CAREERS",
         "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448155527"
-      },
-      {
-        "title": "Regulatory Affair Specialist",
-        "company": "Teoresi MedTech",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4439210573"
       },
       {
         "title": "Tumori Genitourinari",
@@ -142,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4439830287"
       },
       {
-        "title": "Temporary manager",
-        "company": "Percinque Srl",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4443691632"
-      },
-      {
         "title": "Clinical Trial Coordinator",
         "company": "Thermo Fisher Scientific",
         "score": 11,
         "site": "indeed",
         "date_posted": 1786060800000,
         "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
+      },
+      {
+        "title": "Temporary manager",
+        "company": "Percinque Srl",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443691632"
       },
       {
         "title": "Strategic R&D Manager - Wound Management",
@@ -166,9 +158,17 @@
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
+        "title": "Cold End Manager",
+        "company": "Gerresheimer",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1784851200000,
+        "url": "https://it.indeed.com/viewjob?jk=4f4885f265c03cac"
+      },
+      {
         "title": "Senior CRA",
         "company": "Thermo Fisher Scientific",
-        "score": 7,
+        "score": 6,
         "site": "linkedin",
         "date_posted": 1784764800000,
         "url": "https://www.linkedin.com/jobs/view/4441508427"
@@ -201,11 +201,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-59%)",
       "data": {
         "current": 1,
-        "avg": 2.3,
-        "change_pct": -57.1
+        "avg": 2.5,
+        "change_pct": -59.3
       }
     },
     {
@@ -221,21 +221,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 33.3,
         "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -245,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 9,
+            "id": 1,
+            "size": 12,
             "top_terms": [
-              "clinical",
               "specialist",
+              "clinical",
               "romagna"
             ],
-            "pct": 31.0
+            "pct": 42.9
           },
           {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 24.1
-          },
-          {
-            "id": 2,
+            "id": 0,
             "size": 6,
             "top_terms": [
               "engineer",
               "devices",
               "medical"
             ],
-            "pct": 20.7
+            "pct": 21.4
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "manager",
               "medical",
               "devices"
             ],
-            "pct": 17.2
+            "pct": 17.9
           },
           {
             "id": 4,
+            "size": 3,
+            "top_terms": [
+              "based",
+              "role",
+              "oversight"
+            ],
+            "pct": 10.7
+          },
+          {
+            "id": 3,
             "size": 2,
             "top_terms": [
               "cra",
-              "specialist",
-              "trial"
+              "trial",
+              "generation"
             ],
-            "pct": 6.9
+            "pct": 7.1
           }
         ]
       }

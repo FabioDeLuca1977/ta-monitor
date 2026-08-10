@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-09T08:53:58.141293",
+  "generated_at": "2026-08-10T09:37:20.029372",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 59,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 31.4,
+    "average": 31.0,
     "distribution": {
       "excellent": 0,
-      "good": 2,
+      "good": 1,
       "medium": 28,
       "low": 7,
       "irrelevant": 22
@@ -22,17 +22,9 @@
         "url": "https://www.linkedin.com/jobs/view/4451342230"
       },
       {
-        "title": "Medical Advisor Neurology and Immunolog",
-        "company": "Merck Healthcare",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446581713"
-      },
-      {
         "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
         "company": "PrimeVigilance",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450296041"
@@ -54,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4448429795"
       },
       {
+        "title": "Medical Advisor Neurology and Immunolog",
+        "company": "Merck Healthcare",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446581713"
+      },
+      {
         "title": "Medical Science Liaison",
         "company": "Sinclair",
         "score": 56,
@@ -62,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4439039474"
       },
       {
+        "title": "Medical Advisor Gastroenterology",
+        "company": "AbbVie",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1785715200000,
+        "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
+      },
+      {
         "title": "Medical Device Quality & Regulatory Specialist",
         "company": "K•HERO",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445916477"
-      },
-      {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "AbbVie",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1785715200000,
-        "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
       },
       {
         "title": "MEDICAL LEAD ONCOLOGY",
@@ -94,20 +94,20 @@
         "url": "https://it.indeed.com/viewjob?jk=7279ec04083495f2"
       },
       {
-        "title": "Medical Science Manager, Oncology, Italy",
-        "company": "Amplity",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440244615"
-      },
-      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
         "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
+      },
+      {
+        "title": "Medical Science Manager, Oncology, Italy",
+        "company": "Amplity",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440244615"
       },
       {
         "title": "Regulatory Affairs & Competition Specialist",
@@ -210,11 +210,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-78%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
       "data": {
         "current": 1,
-        "avg": 4.5,
-        "change_pct": -77.6
+        "avg": 4.8,
+        "change_pct": -78.9
       }
     },
     {
@@ -230,21 +230,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 100% (+80pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 80% a 0% (-80pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 80.0,
         "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 20% a 100% (+80pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 20.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -254,54 +254,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
+            "id": 0,
             "size": 24,
             "top_terms": [
-              "oncology",
-              "lead",
+              "cra",
+              "manager",
               "senior"
             ],
-            "pct": 40.7
+            "pct": 41.4
+          },
+          {
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "oncology",
+              "specialist",
+              "manager"
+            ],
+            "pct": 17.2
           },
           {
             "id": 4,
-            "size": 15,
+            "size": 9,
             "top_terms": [
-              "italy",
               "medical",
+              "advisor",
               "science"
             ],
-            "pct": 25.4
+            "pct": 15.5
           },
           {
-            "id": 0,
-            "size": 9,
+            "id": 3,
+            "size": 8,
             "top_terms": [
               "clinical",
               "trial",
               "associate"
             ],
-            "pct": 15.3
+            "pct": 13.8
           },
           {
-            "id": 2,
-            "size": 8,
+            "id": 1,
+            "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.6
-          },
-          {
-            "id": 1,
-            "size": 3,
-            "top_terms": [
-              "business",
-              "analyst",
-              "management"
-            ],
-            "pct": 5.1
+            "pct": 12.1
           }
         ]
       }
