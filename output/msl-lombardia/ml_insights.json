@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-10T09:37:19.933017",
+  "generated_at": "2026-08-11T09:02:27.928334",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 202,
+  "total_jobs_analyzed": 206,
   "scoring": {
-    "average": 26.2,
+    "average": 26.6,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 83,
-      "low": 17,
-      "irrelevant": 100
+      "good": 3,
+      "medium": 86,
+      "low": 16,
+      "irrelevant": 101
     },
     "top_jobs": [
       {
@@ -30,6 +30,22 @@
         "url": "https://www.linkedin.com/jobs/view/4450560592"
       },
       {
+        "title": "(Associate) Medical Director - Rheumatology, EMEA",
+        "company": "Thermo Fisher Scientific",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1785974400000,
+        "url": "https://www.linkedin.com/jobs/view/4429846484"
+      },
+      {
+        "title": "Vice President, Medical Affairs Rare Diseases",
+        "company": "Recordati",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": 1784764800000,
+        "url": "https://www.linkedin.com/jobs/view/4426792350"
+      },
+      {
         "title": "Medical Monitor (Gastroenterology)",
         "company": "PSI CRO",
         "score": 58,
@@ -44,6 +60,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4431241411"
+      },
+      {
+        "title": "Safety Scientist- Real World Evidence (RWE), EMEA",
+        "company": "Thermo Fisher Scientific",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1786320000000,
+        "url": "https://it.indeed.com/viewjob?jk=3d9f59f48ec5ca01"
       },
       {
         "title": "Medical Science Liaison, Oncology",
@@ -66,8 +90,16 @@
         "company": "Medpace",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1784505600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4331270944"
+      },
+      {
+        "title": "Psychiatry - Medical Director",
+        "company": "Medpace",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
         "title": "Medical Science Liaison Rhinology and Gastroenterology",
@@ -78,20 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4435549857"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "Barrington James",
+        "title": "Medical Science Liaison Rare Diseases Italy",
+        "company": "Recordati",
         "score": 56,
         "site": "linkedin",
-        "date_posted": 1786060800000,
-        "url": "https://www.linkedin.com/jobs/view/4450325281"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4450747328"
       },
       {
-        "title": "Global Medical Director, Electrophysiology & LAAC",
-        "company": "Boston Scientific",
+        "title": "Medical Affairs Internship",
+        "company": "Sanofi",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448171129"
+        "date_posted": 1784851200000,
+        "url": "https://www.linkedin.com/jobs/view/4436311710"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
@@ -108,14 +140,6 @@
         "site": "indeed",
         "date_posted": 1784764800000,
         "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
-      },
-      {
-        "title": "Medical Affairs Internship",
-        "company": "Sanofi",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4436311710"
       },
       {
         "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": 1784678400000,
         "url": "https://www.linkedin.com/jobs/view/4441047636"
-      },
-      {
-        "title": "Medical Science Liaison, North Italy",
-        "company": "argenx",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446213945"
-      },
-      {
-        "title": "Health Economics and Market Access (HEMA)- Talent Community",
-        "company": "Boston Scientific",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448175086"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Recordati",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1785801600000,
-        "url": "https://www.linkedin.com/jobs/view/4411744140"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "cra",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "italy",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "italy",
+        "word": "clinical",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -214,18 +214,6 @@
       "confidence": 50
     },
     {
-      "keyword": "manager regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "director italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "specialist medical",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -233,6 +221,18 @@
     },
     {
       "keyword": "rare diseases",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "manager regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,37 +260,53 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "emea",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 15 (-87%)",
+      "severity": "medium",
+      "message": "Volume in calo: 9 annunci ultimo scan vs media 15 (-41%)",
       "data": {
-        "current": 2,
-        "avg": 15.4,
-        "change_pct": -87.0
+        "current": 9,
+        "avg": 15.2,
+        "change_pct": -40.6
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/9 annunci da aziende nuove (22.2%)",
+      "data": {
+        "new": 2,
+        "total": 9,
+        "pct": 22.2
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 45% a 0% (-45pp)",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 45.5,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 55% a 100% (+45pp)",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 54.5,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -300,34 +316,44 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 102,
+            "id": 0,
+            "size": 103,
             "top_terms": [
               "manager",
-              "medical",
-              "specialist"
+              "cra",
+              "engineer"
             ],
-            "pct": 50.5
+            "pct": 50.0
           },
           {
-            "id": 0,
-            "size": 35,
+            "id": 3,
+            "size": 32,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.3
+            "pct": 15.5
+          },
+          {
+            "id": 1,
+            "size": 27,
+            "top_terms": [
+              "medical",
+              "director",
+              "liaison"
+            ],
+            "pct": 13.1
           },
           {
             "id": 2,
-            "size": 28,
+            "size": 23,
             "top_terms": [
-              "senior",
-              "director",
-              "marketing"
+              "specialist",
+              "contract",
+              "fsp"
             ],
-            "pct": 13.9
+            "pct": 11.2
           },
           {
             "id": 4,
@@ -337,17 +363,7 @@
               "research",
               "associate"
             ],
-            "pct": 10.4
-          },
-          {
-            "id": 3,
-            "size": 16,
-            "top_terms": [
-              "cra",
-              "ii",
-              "based"
-            ],
-            "pct": 7.9
+            "pct": 10.2
           }
         ]
       }

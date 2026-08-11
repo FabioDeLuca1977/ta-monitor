@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-10T09:37:20.087437",
+  "generated_at": "2026-08-11T09:02:28.058885",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 60,
+  "total_jobs_analyzed": 59,
   "scoring": {
-    "average": 10.2,
+    "average": 9.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 54
+      "irrelevant": 53
     },
     "top_jobs": [
       {
@@ -30,20 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4448444098"
       },
       {
-        "title": "Product Safety and Regulatory Compliance Analyst",
-        "company": "Motorola Solutions",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1784764800000,
-        "url": "https://www.linkedin.com/jobs/view/4436337918"
-      },
-      {
         "title": "Quality & Regulatory Specialist - Food Sector (F/M/NB)",
         "company": "Randstad Italia",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448794187"
+      },
+      {
+        "title": "Product Safety and Regulatory Compliance Analyst",
+        "company": "Motorola Solutions",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1784764800000,
+        "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
         "title": "Si cerca Assistente alla Poltrona",
@@ -86,22 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4450581417"
       },
       {
-        "title": "QA/RA Specialist | Medical Devices",
-        "company": "Mynameis",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448770108"
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "company": "Fresenius Kabi Italia",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1784505600000,
-        "url": "https://www.linkedin.com/jobs/view/4440154655"
-      },
-      {
         "title": "QUALITY ASSURANCE SPECIALIST",
         "company": "CHR S.r.l.",
         "score": 13,
@@ -124,6 +108,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446619206"
+      },
+      {
+        "title": "QA/RA Specialist | Medical Devices",
+        "company": "Mynameis",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448770108"
       },
       {
         "title": "Regional Sourcing Manager - Proteins",
@@ -166,12 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=979e817a61ff8b64"
       },
       {
-        "title": "Dottore Commercialista",
-        "company": "Evo Advisors",
+        "title": "KERING EYEWEAR Junior Demand Planner",
+        "company": "Kering Eyewear",
         "score": 10,
+        "site": "linkedin",
+        "date_posted": 1785801600000,
+        "url": "https://www.linkedin.com/jobs/view/4440236884"
+      },
+      {
+        "title": "Project Manager - Lean Lab Efficiency",
+        "company": "Eurofins",
+        "score": 9,
         "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=e009419f528fcaa4"
+        "date_posted": 1785369600000,
+        "url": "https://it.indeed.com/viewjob?jk=72291ed06614bebd"
       }
     ]
   },
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
+        "word": "assurance",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
         "word": "senior",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -211,41 +211,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-81%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-61%)",
       "data": {
-        "current": 1,
-        "avg": 5.4,
-        "change_pct": -81.4
+        "current": 2,
+        "avg": 5.2,
+        "change_pct": -61.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
       }
     },
     {
@@ -256,53 +236,53 @@
         "clusters": [
           {
             "id": 2,
-            "size": 30,
+            "size": 32,
             "top_terms": [
-              "product",
+              "italy",
               "venditore",
-              "sistema"
+              "product"
             ],
-            "pct": 50.0
+            "pct": 54.2
           },
           {
             "id": 1,
-            "size": 10,
+            "size": 9,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 16.7
+            "pct": 15.3
           },
           {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "manager",
-              "regulatory",
-              "senior"
-            ],
-            "pct": 15.0
-          },
-          {
-            "id": 3,
+            "id": 4,
             "size": 9,
             "top_terms": [
               "specialist",
               "marketing",
               "sales"
             ],
-            "pct": 15.0
+            "pct": 15.3
           },
           {
-            "id": 4,
+            "id": 3,
+            "size": 7,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "senior"
+            ],
+            "pct": 11.9
+          },
+          {
+            "id": 0,
             "size": 2,
             "top_terms": [
               "addetta",
               "venditore",
               "addetto"
             ],
-            "pct": 3.3
+            "pct": 3.4
           }
         ]
       }

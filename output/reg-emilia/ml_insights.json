@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-10T09:37:20.322257",
+  "generated_at": "2026-08-11T09:02:28.269078",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 48,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 10.0,
+    "average": 9.5,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 2,
       "low": 1,
-      "irrelevant": 43
+      "irrelevant": 41
     },
     "top_jobs": [
       {
@@ -62,28 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4439793891"
       },
       {
-        "title": "QA & RA Manager | Medical Devices",
-        "company": "Hays",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1784592000000,
-        "url": "https://www.linkedin.com/jobs/view/4437278972"
-      },
-      {
         "title": "QUALITY ASSURANCE SPECIALIST (ALIMENTARE)",
         "company": "Adecco",
         "score": 13,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445928822"
-      },
-      {
-        "title": "Clinical Trial Coordinator",
-        "company": "Thermo Fisher Scientific",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
       },
       {
         "title": "Technical Support Specialist – Dutch Market",
@@ -100,30 +84,6 @@
         "site": "indeed",
         "date_posted": 1785888000000,
         "url": "https://it.indeed.com/viewjob?jk=231a5e0af6123248"
-      },
-      {
-        "title": "Istruttrice/Istruttore Tributario - Geometra",
-        "company": "FRATERNITA' SISTEMI",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=7d6da667ca0f8143"
-      },
-      {
-        "title": "Quality Assurance Associate – Filling Cartridges",
-        "company": "Eli Lilly and Company",
-        "score": 9,
-        "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4444934342"
-      },
-      {
-        "title": "Addetto/a vendita servizi per clienti business",
-        "company": "Impiegando.com di 2D TECHNOLOGY S.R.L.",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1785715200000,
-        "url": "https://it.indeed.com/viewjob?jk=3fa0e5fefccddc8d"
       },
       {
         "title": "Quality assurance",
@@ -158,12 +118,20 @@
         "url": "https://www.linkedin.com/jobs/view/4439302592"
       },
       {
-        "title": "Quality Manager",
-        "company": "Trivium Packaging",
+        "title": "Clinical Trial Coordinator",
+        "company": "Thermo Fisher Scientific",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1786060800000,
+        "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
+      },
+      {
+        "title": "R&D MANAGER - ARIETE",
+        "company": "De'Longhi",
         "score": 7,
         "site": "indeed",
-        "date_posted": 1784505600000,
-        "url": "https://it.indeed.com/viewjob?jk=4f219c356c53c768"
+        "date_posted": 1784678400000,
+        "url": "https://it.indeed.com/viewjob?jk=4b65d7d980fed510"
       },
       {
         "title": "Quality Assurance Supervisor",
@@ -172,6 +140,38 @@
         "site": "linkedin",
         "date_posted": 1784764800000,
         "url": "https://www.linkedin.com/jobs/view/4441566393"
+      },
+      {
+        "title": "Strategic R&D Manager - Wound Management",
+        "company": "B. Braun Avitum Italy S.p.A.",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
+      },
+      {
+        "title": "Industrial Quality Assurance Professional",
+        "company": "Bonfiglioli",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445517245"
+      },
+      {
+        "title": "Quality Assurance Supervisor",
+        "company": "Phibro Animal Health",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4439426514"
+      },
+      {
+        "title": "QUALITY ASSURANCE ALIMENTARE",
+        "company": "Grafton Recruitment",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446615735"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "assurance",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "manager",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,9 +199,9 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "medical",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "alimentare",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-45%)",
+      "data": {
+        "current": 2,
+        "avg": 3.7,
+        "change_pct": -45.5
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 3,
-        "pct": 33.3
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 20,
+            "id": 2,
+            "size": 19,
             "top_terms": [
-              "engineer",
-              "addetto",
-              "senior"
+              "specialist",
+              "technical",
+              "marketing"
             ],
-            "pct": 41.7
+            "pct": 41.3
           },
           {
-            "id": 2,
-            "size": 11,
+            "id": 1,
+            "size": 10,
             "top_terms": [
               "quality",
               "assurance",
               "supervisor"
             ],
-            "pct": 22.9
-          },
-          {
-            "id": 1,
-            "size": 9,
-            "top_terms": [
-              "manager",
-              "project",
-              "medical"
-            ],
-            "pct": 18.8
-          },
-          {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "sales",
-              "affairs"
-            ],
-            "pct": 10.4
+            "pct": 21.7
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 8,
             "top_terms": [
-              "marketing",
-              "specialist",
-              "technical"
+              "engineer",
+              "service",
+              "devices"
             ],
-            "pct": 6.2
+            "pct": 17.4
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "manager",
+              "project",
+              "ariete"
+            ],
+            "pct": 15.2
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "hse",
+              "addetto",
+              "internship"
+            ],
+            "pct": 4.3
           }
         ]
       }
