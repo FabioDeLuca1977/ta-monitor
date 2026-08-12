@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-11T09:02:28.010600",
+  "generated_at": "2026-08-12T09:14:22.911176",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 61,
+  "total_jobs_analyzed": 59,
   "scoring": {
-    "average": 29.0,
+    "average": 28.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 27,
+      "medium": 26,
       "low": 7,
-      "irrelevant": 26
+      "irrelevant": 25
     },
     "top_jobs": [
       {
@@ -46,14 +46,6 @@
         "url": "https://it.indeed.com/viewjob?jk=7279ec04083495f2"
       },
       {
-        "title": "Medical Advisor Neurology and Immunolog",
-        "company": "Merck Healthcare",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446581713"
-      },
-      {
         "title": "Medical Science Liaison",
         "company": "Sinclair",
         "score": 56,
@@ -70,14 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4448429795"
       },
       {
-        "title": "Clinical Research Associate - Talent Pipeline Opportunity",
-        "company": "Emerald Clinical",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4451175084"
-      },
-      {
         "title": "MEDICAL LEAD ONCOLOGY",
         "company": "Gruppo Servier in Italia",
         "score": 53,
@@ -86,12 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446308405"
       },
       {
-        "title": "Medical Science Manager, Oncology, Italy",
-        "company": "Amplity",
-        "score": 52,
+        "title": "Medical Advisor Neurology and Immunolog",
+        "company": "Merck Healthcare",
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440244615"
+        "url": "https://www.linkedin.com/jobs/view/4446581713"
+      },
+      {
+        "title": "Clinical Research Associate - Talent Pipeline Opportunity",
+        "company": "Emerald Clinical",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4451175084"
       },
       {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
@@ -102,11 +94,19 @@
         "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
+        "title": "Medical Science Manager, Oncology, Italy",
+        "company": "Amplity",
+        "score": 51,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440244615"
+      },
+      {
         "title": "Regulatory Affairs & Competition Specialist",
         "company": "iliad",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785196800000,
         "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
@@ -134,14 +134,6 @@
         "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
       },
       {
-        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
-        "company": "Merck KGaA",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1785801600000,
-        "url": "https://it.indeed.com/viewjob?jk=21b8945c5f7e92cd"
-      },
-      {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
         "score": 48,
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4448322059"
       },
       {
-        "title": "Senior Medical Director, Italy",
-        "company": "Acadia Pharmaceuticals",
-        "score": 47,
-        "site": "indeed",
-        "date_posted": 1784592000000,
-        "url": "https://it.indeed.com/viewjob?jk=38ac1a87e9f1e1de"
-      },
-      {
         "title": "Vice President Regulatory Affairs - Cluster",
         "company": "Perrigo Company plc",
         "score": 45,
         "site": "linkedin",
         "date_posted": 1784764800000,
         "url": "https://www.linkedin.com/jobs/view/4441564283"
+      },
+      {
+        "title": "Junior Regulatory Affairs - Apprendistato",
+        "company": "STAFF SERVICE S.R.L. Gruppo Cremonini",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4450222768"
+      },
+      {
+        "title": "Oncology Partnerships Manager, Italy",
+        "company": "Massive Bio",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445146640"
       }
     ]
   },
@@ -211,16 +211,6 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 5 (+31%)",
-      "data": {
-        "current": 6,
-        "avg": 4.6,
-        "change_pct": 30.9
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
       "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
@@ -257,54 +247,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 21,
+            "id": 4,
+            "size": 35,
             "top_terms": [
-              "cra",
-              "manager",
-              "project"
-            ],
-            "pct": 34.4
-          },
-          {
-            "id": 1,
-            "size": 18,
-            "top_terms": [
+              "lead",
               "medical",
-              "oncology",
-              "italy"
+              "cra"
             ],
-            "pct": 29.5
+            "pct": 59.3
           },
           {
-            "id": 3,
-            "size": 9,
+            "id": 2,
+            "size": 8,
             "top_terms": [
               "clinical",
               "trial",
               "associate"
             ],
-            "pct": 14.8
+            "pct": 13.6
           },
           {
-            "id": 4,
-            "size": 7,
+            "id": 1,
+            "size": 6,
             "top_terms": [
-              "lead",
-              "business",
-              "analyst"
+              "italy",
+              "oncology",
+              "manager"
             ],
-            "pct": 11.5
+            "pct": 10.2
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 9.8
+            "pct": 10.2
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "advisor",
+              "medical",
+              "gastroenterology"
+            ],
+            "pct": 6.8
           }
         ]
       }

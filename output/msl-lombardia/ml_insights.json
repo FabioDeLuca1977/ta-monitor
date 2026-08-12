@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-11T09:02:27.928334",
+  "generated_at": "2026-08-12T09:14:22.831164",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 206,
+  "total_jobs_analyzed": 192,
   "scoring": {
-    "average": 26.6,
+    "average": 26.2,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 86,
-      "low": 16,
-      "irrelevant": 101
+      "medium": 78,
+      "low": 15,
+      "irrelevant": 96
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regional Medical Affairs Manager",
         "company": "Thermo Fisher Scientific",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450560592"
@@ -48,10 +48,18 @@
       {
         "title": "Medical Monitor (Gastroenterology)",
         "company": "PSI CRO",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446746491"
+      },
+      {
+        "title": "JR Regulatory Affairs Specialist - Medical Devices",
+        "company": "Hays",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1784851200000,
+        "url": "https://www.linkedin.com/jobs/view/4441590064"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -78,12 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4426942441"
       },
       {
-        "title": "JR Regulatory Affairs Specialist - Medical Devices",
-        "company": "Hays",
+        "title": "Medical Science Liaison Rhinology and Gastroenterology",
+        "company": "Sanofi",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4441590064"
+        "date_posted": 1784764800000,
+        "url": "https://www.linkedin.com/jobs/view/4435549857"
+      },
+      {
+        "title": "Junior Medical Science Liaison Cardiovascular - Maternity Cover (Piemonte, Liguria, Valle d’Aosta)",
+        "company": "AstraZeneca",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443133977"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -102,28 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
-        "title": "Medical Science Liaison Rhinology and Gastroenterology",
-        "company": "Sanofi",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1784764800000,
-        "url": "https://www.linkedin.com/jobs/view/4435549857"
-      },
-      {
         "title": "Medical Science Liaison Rare Diseases Italy",
         "company": "Recordati",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450747328"
-      },
-      {
-        "title": "Medical Affairs Internship",
-        "company": "Sanofi",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4436311710"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
@@ -142,14 +142,6 @@
         "url": "https://it.indeed.com/viewjob?jk=e8ba2f0efed92f1e"
       },
       {
-        "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
-        "company": "Thermo Fisher Scientific",
-        "score": 53,
-        "site": "indeed",
-        "date_posted": 1784678400000,
-        "url": "https://it.indeed.com/viewjob?jk=62ba5230cc460fcb"
-      },
-      {
         "title": "Executive Medical Director, Italy",
         "company": "Incyte",
         "score": 53,
@@ -158,20 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4444945602"
       },
       {
-        "title": "Senior Medical Director, Italy",
-        "company": "Acadia Pharmaceuticals",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4442931545"
-      },
-      {
         "title": "Jr QA Medical Device Specialist",
         "company": "IBSA Italy",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1784678400000,
         "url": "https://www.linkedin.com/jobs/view/4441047636"
+      },
+      {
+        "title": "Medical Science Liaison, North Italy",
+        "company": "argenx",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446213945"
+      },
+      {
+        "title": "Health Economics and Market Access (HEMA)- Talent Community",
+        "company": "Boston Scientific",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448175086"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "cra",
@@ -190,8 +190,8 @@
       },
       {
         "word": "senior",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "italy",
@@ -199,7 +199,7 @@
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "clinical",
+        "word": "fsp",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 5,
+      "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 40
     },
     {
       "keyword": "specialist medical",
@@ -221,18 +221,6 @@
     },
     {
       "keyword": "rare diseases",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "manager regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,53 +248,47 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "emea",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 9 annunci ultimo scan vs media 15 (-41%)",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 15 (-79%)",
       "data": {
-        "current": 9,
-        "avg": 15.2,
-        "change_pct": -40.6
+        "current": 3,
+        "avg": 14.5,
+        "change_pct": -79.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/9 annunci da aziende nuove (22.2%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
         "new": 2,
-        "total": 9,
-        "pct": 22.2
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 33% a 67% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 33% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 33.3
       }
     },
     {
@@ -317,53 +299,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 103,
+            "size": 90,
             "top_terms": [
               "manager",
-              "cra",
+              "senior",
               "engineer"
             ],
-            "pct": 50.0
+            "pct": 46.9
           },
           {
-            "id": 3,
-            "size": 32,
+            "id": 1,
+            "size": 34,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.5
+            "pct": 17.7
           },
           {
-            "id": 1,
-            "size": 27,
+            "id": 3,
+            "size": 29,
             "top_terms": [
               "medical",
               "director",
-              "liaison"
+              "devices"
             ],
-            "pct": 13.1
+            "pct": 15.1
           },
           {
             "id": 2,
-            "size": 23,
-            "top_terms": [
-              "specialist",
-              "contract",
-              "fsp"
-            ],
-            "pct": 11.2
-          },
-          {
-            "id": 4,
-            "size": 21,
+            "size": 22,
             "top_terms": [
               "clinical",
               "research",
               "associate"
             ],
-            "pct": 10.2
+            "pct": 11.5
+          },
+          {
+            "id": 4,
+            "size": 17,
+            "top_terms": [
+              "cra",
+              "ii",
+              "based"
+            ],
+            "pct": 8.9
           }
         ]
       }
