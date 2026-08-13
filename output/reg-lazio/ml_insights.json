@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T09:14:23.249752",
+  "generated_at": "2026-08-13T09:12:02.386078",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 115,
   "scoring": {
-    "average": 11.7,
+    "average": 11.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -48,7 +48,7 @@
       {
         "title": "Junior Regulatory Affairs - Apprendistato",
         "company": "Gruppo Cremonini",
-        "score": 56,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1785974400000,
         "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -190,8 +190,8 @@
       },
       {
         "word": "engineer",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -200,8 +200,8 @@
       },
       {
         "word": "senior",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       }
     ],
     "review": []
@@ -210,32 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-88%)",
+      "severity": "medium",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 8 (-50%)",
       "data": {
-        "current": 1,
-        "avg": 8.1,
-        "change_pct": -87.7
+        "current": 4,
+        "avg": 7.9,
+        "change_pct": -49.5
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/4 annunci da aziende nuove (25.0%)",
+      "data": {
+        "new": 1,
+        "total": 4,
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 100% (+25pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 0% (-25pp)",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 56,
+            "id": 0,
+            "size": 55,
             "top_terms": [
               "engineer",
-              "regulatory",
-              "system"
+              "consultant",
+              "senior"
             ],
-            "pct": 48.7
+            "pct": 47.8
+          },
+          {
+            "id": 1,
+            "size": 22,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "engineer"
+            ],
+            "pct": 19.1
           },
           {
             "id": 3,
-            "size": 21,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "engineer"
-            ],
-            "pct": 18.3
-          },
-          {
-            "id": 2,
             "size": 19,
             "top_terms": [
-              "senior",
-              "manager",
-              "project"
+              "specialist",
+              "regulatory",
+              "affairs"
             ],
             "pct": 16.5
           },
           {
-            "id": 4,
-            "size": 15,
+            "id": 2,
+            "size": 14,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "accounting"
+              "manager",
+              "senior",
+              "project"
             ],
-            "pct": 13.0
+            "pct": 12.2
           },
           {
-            "id": 0,
-            "size": 4,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "clinical",
-              "trial",
-              "associate"
+              "technician",
+              "qc",
+              "lab"
             ],
-            "pct": 3.5
+            "pct": 4.3
           }
         ]
       }

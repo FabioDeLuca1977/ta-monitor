@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-12T09:14:22.574933",
+  "generated_at": "2026-08-13T09:12:01.688443",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 228,
+  "total_jobs_analyzed": 225,
   "scoring": {
-    "average": 21.3,
+    "average": 21.5,
     "distribution": {
       "excellent": 0,
       "good": 12,
-      "medium": 37,
-      "low": 60,
-      "irrelevant": 119
+      "medium": 38,
+      "low": 59,
+      "irrelevant": 116
     },
     "top_jobs": [
       {
@@ -62,6 +62,22 @@
         "url": "https://www.linkedin.com/jobs/view/4449473383"
       },
       {
+        "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
+        "company": "Randstad Italia",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446221368"
+      },
+      {
+        "title": "HR Generalist",
+        "company": "Adecco",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448408451"
+      },
+      {
         "title": "Talent Acquisition Specialist - Sales",
         "company": "CLÍNICA MADICA INTER LOMAS",
         "score": 60,
@@ -76,22 +92,6 @@
         "site": "linkedin",
         "date_posted": 1784851200000,
         "url": "https://www.linkedin.com/jobs/view/4444602279"
-      },
-      {
-        "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
-        "company": "Randstad Italia",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446221368"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "Adecco",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448408451"
       },
       {
         "title": "HR Generalist",
@@ -110,9 +110,17 @@
         "url": "https://www.linkedin.com/jobs/view/4453052619"
       },
       {
+        "title": "Stage HR Generalist – Ricerca, Selezione e Formazione del Personale",
+        "company": "Consilia",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1784678400000,
+        "url": "https://www.linkedin.com/jobs/view/4443758979"
+      },
+      {
         "title": "HR Talent Acquisition Intern",
         "company": "Engineering",
-        "score": 59,
+        "score": 58,
         "site": "indeed",
         "date_posted": 1785369600000,
         "url": "https://it.indeed.com/viewjob?jk=3327c13eb1ceb0b0"
@@ -124,14 +132,6 @@
         "site": "linkedin",
         "date_posted": 1785369600000,
         "url": "https://www.linkedin.com/jobs/view/4446772905"
-      },
-      {
-        "title": "Stage HR Generalist – Ricerca, Selezione e Formazione del Personale",
-        "company": "Consilia",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4443758979"
       },
       {
         "title": "Junior HR Generalist per soluzioni cura persona",
@@ -150,20 +150,20 @@
         "url": "https://www.linkedin.com/jobs/view/4448234239"
       },
       {
-        "title": "HR generalist per tecnologie benessere notturno",
-        "company": "Tuolavoro-Lazio",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4444348312"
-      },
-      {
         "title": "Junior HR generalist tecnologie ripiano notturno",
         "company": "Tuolavoro-Lazio",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445751688"
+      },
+      {
+        "title": "HR generalist per tecnologie benessere notturno",
+        "company": "Tuolavoro-Lazio",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1784851200000,
+        "url": "https://www.linkedin.com/jobs/view/4444348312"
       },
       {
         "title": "HR Generalist per soluzioni di filtrazione acqua potabile",
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 47,
-        "reason": "Appare 47x in annunci a basso score"
+        "count": 48,
+        "reason": "Appare 48x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 47,
-        "reason": "Appare 47x in annunci a basso score"
+        "count": 48,
+        "reason": "Appare 48x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 37,
-        "reason": "Appare 37x in annunci a basso score"
-      },
-      {
-        "word": "settore",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 38,
+        "reason": "Appare 38x in annunci a basso score"
       },
       {
         "word": "responsabile",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "settore",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -238,12 +238,6 @@
       "confidence": 30
     },
     {
-      "keyword": "generalist tecnologie",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "officer sistemi",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -251,6 +245,12 @@
     },
     {
       "keyword": "junior hr",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "generalist tecnologie",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -270,13 +270,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 17 (-64%)",
+      "data": {
+        "current": 6,
+        "avg": 16.8,
+        "change_pct": -64.4
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/15 annunci da aziende nuove (40.0%)",
+      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
       "data": {
-        "new": 6,
-        "total": 15,
-        "pct": 40.0
+        "new": 5,
+        "total": 6,
+        "pct": 83.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 7% a 83% (+77pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 6.7,
+        "new_pct": 83.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 93% a 17% (-77pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 93.3,
+        "new_pct": 16.7
       }
     },
     {
@@ -286,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 89,
+            "id": 1,
+            "size": 98,
             "top_terms": [
               "roma",
-              "tecnico",
-              "responsabile"
+              "addetto",
+              "personale"
             ],
-            "pct": 39.0
+            "pct": 43.6
           },
           {
-            "id": 1,
-            "size": 54,
+            "id": 4,
+            "size": 62,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 23.7
+            "pct": 27.6
           },
           {
-            "id": 3,
-            "size": 36,
+            "id": 2,
+            "size": 39,
             "top_terms": [
               "hr",
               "manager",
               "generalist"
             ],
-            "pct": 15.8
+            "pct": 17.3
           },
           {
-            "id": 2,
-            "size": 26,
+            "id": 3,
+            "size": 19,
             "top_terms": [
               "specialist",
-              "recruiter",
+              "talent",
               "hr"
             ],
-            "pct": 11.4
+            "pct": 8.4
           },
           {
-            "id": 4,
-            "size": 23,
+            "id": 0,
+            "size": 7,
             "top_terms": [
-              "addetto",
-              "distribuzione",
-              "selezione"
+              "tecnico",
+              "impiegato",
+              "sicurezza"
             ],
-            "pct": 10.1
+            "pct": 3.1
           }
         ]
       }

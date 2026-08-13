@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T09:14:22.962625",
+  "generated_at": "2026-08-13T09:12:02.099844",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 60,
   "scoring": {
-    "average": 10.2,
+    "average": 10.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -32,7 +32,7 @@
       {
         "title": "Quality & Regulatory Specialist - Food Sector (F/M/NB)",
         "company": "Randstad Italia",
-        "score": 56,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448794187"
@@ -40,7 +40,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 54,
+        "score": 52,
         "site": "linkedin",
         "date_posted": 1784764800000,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -60,6 +60,14 @@
         "site": "indeed",
         "date_posted": 1785456000000,
         "url": "https://it.indeed.com/viewjob?jk=dd32c64d8d43b7a6"
+      },
+      {
+        "title": "HR JR",
+        "company": "GPS SRLS",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1786492800000,
+        "url": "https://it.indeed.com/viewjob?jk=d2fabff9cdcad995"
       },
       {
         "title": "Retention Email Manager | gn | Copywriting, DTC, Klaviyo, Lifecycle | Remote",
@@ -84,6 +92,22 @@
         "site": "indeed",
         "date_posted": 1786406400000,
         "url": "https://it.indeed.com/viewjob?jk=dc7086eeeead455b"
+      },
+      {
+        "title": "Sales Specialist - Triveneto ed Emilia Romagna",
+        "company": "INSTRUMENTATION LABORATORY SpA",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1786492800000,
+        "url": "https://it.indeed.com/viewjob?jk=a4703ab6c136c882"
+      },
+      {
+        "title": "QA/RA Specialist | Medical Devices",
+        "company": "Mynameis",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448770108"
       },
       {
         "title": "Program Specialist (Student Transportation)",
@@ -118,20 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446619206"
       },
       {
-        "title": "QA/RA Specialist | Medical Devices",
-        "company": "Mynameis",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448770108"
+        "title": "CLINICAL PSYCHOLOGIST (PEDIATRICS)",
+        "company": "US Military Treatment Facilities under DHA",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1786492800000,
+        "url": "https://it.indeed.com/viewjob?jk=8f9f66566c796697"
       },
       {
-        "title": "Software Quality Assurance Engineer",
-        "company": "XTN Cognitive Security®",
-        "score": 12,
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
+        "score": 11,
         "site": "linkedin",
-        "date_posted": 1785888000000,
-        "url": "https://www.linkedin.com/jobs/view/4449459364"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437692572"
       },
       {
         "title": "HR Administration Specialist",
@@ -142,36 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=8e4de74ab8408a53"
       },
       {
-        "title": "Sales Specialist- Venezia",
-        "company": "R-STORE S.p.A",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1785888000000,
-        "url": "https://it.indeed.com/viewjob?jk=3d1f67d50eba66e3"
-      },
-      {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437692572"
-      },
-      {
         "title": "Validation Specialist",
         "company": "STEVANATO GROUP",
         "score": 10,
         "site": "indeed",
         "date_posted": 1785974400000,
         "url": "https://it.indeed.com/viewjob?jk=979e817a61ff8b64"
-      },
-      {
-        "title": "Report RAI, l’ecosistema che nessuna singola crisi potrà mai scalfire",
-        "company": "Facility News",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": 1786147200000,
-        "url": "https://www.linkedin.com/jobs/view/4450581417"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "quality",
@@ -209,33 +209,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-42%)",
+      "data": {
+        "current": 3,
+        "avg": 5.2,
+        "change_pct": -42.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 3,
-        "total": 4,
-        "pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "total": 3,
+        "pct": 100.0
       }
     },
     {
@@ -245,37 +235,27 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
+            "id": 1,
             "size": 30,
             "top_terms": [
-              "planner",
               "venditore",
-              "product"
+              "product",
+              "senior"
             ],
             "pct": 50.0
           },
           {
             "id": 3,
-            "size": 11,
+            "size": 12,
             "top_terms": [
               "specialist",
               "marketing",
-              "regulatory"
+              "sales"
             ],
-            "pct": 18.3
+            "pct": 20.0
           },
           {
-            "id": 0,
-            "size": 8,
-            "top_terms": [
-              "manager",
-              "regulatory",
-              "senior"
-            ],
-            "pct": 13.3
-          },
-          {
-            "id": 1,
+            "id": 4,
             "size": 8,
             "top_terms": [
               "assurance",
@@ -286,11 +266,21 @@
           },
           {
             "id": 2,
+            "size": 7,
+            "top_terms": [
+              "manager",
+              "regulatory",
+              "senior"
+            ],
+            "pct": 11.7
+          },
+          {
+            "id": 0,
             "size": 3,
             "top_terms": [
-              "senior",
-              "scientist",
-              "sample"
+              "planner",
+              "demand",
+              "junior"
             ],
             "pct": 5.0
           }

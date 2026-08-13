@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T09:14:22.716005",
+  "generated_at": "2026-08-13T09:12:01.841324",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 21.2,
+    "average": 21.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
@@ -26,16 +26,24 @@
         "company": "Professional Recruitment",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785283200000,
         "url": "https://www.linkedin.com/jobs/view/4446046205"
       },
       {
         "title": "Come diventare CRA: guida passo passo per una carriera nel Clinical Research",
         "company": "Liveuniversity",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4449253789"
+      },
+      {
+        "title": "Clinical Research Associate",
+        "company": "TRIO - Translational Research in Oncology",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4417415303"
       },
       {
         "title": "Clinical Specialist Trach Emilia-Romagna e Lombardia",
@@ -44,14 +52,6 @@
         "site": "linkedin",
         "date_posted": 1786060800000,
         "url": "https://www.linkedin.com/jobs/view/4440783183"
-      },
-      {
-        "title": "| INFORMATORE SCIENTIFICO | 157165 |",
-        "company": "Orienta Agenzia per il Lavoro",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1784678400000,
-        "url": "https://www.linkedin.com/jobs/view/4441031420"
       },
       {
         "title": "Informatore scientifico commerciale | Veneto",
@@ -110,6 +110,14 @@
         "url": "https://it.indeed.com/viewjob?jk=9eefc30762d32ea0"
       },
       {
+        "title": "CLINICAL PSYCHOLOGIST (PEDIATRICS)",
+        "company": "US Military Treatment Facilities under DHA",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1786492800000,
+        "url": "https://it.indeed.com/viewjob?jk=8f9f66566c796697"
+      },
+      {
         "title": "Recreation Aid (Lifeguard) NF-01",
         "company": null,
         "score": 10,
@@ -124,30 +132,6 @@
         "site": "indeed",
         "date_posted": 1785110400000,
         "url": "https://it.indeed.com/viewjob?jk=628bc672c1f71e69"
-      },
-      {
-        "title": "Night Manager",
-        "company": "Marriott International",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=a99794eda5fc1877"
-      },
-      {
-        "title": "Sports and Fitness Director (CYS) NF-04",
-        "company": null,
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1785888000000,
-        "url": "https://it.indeed.com/viewjob?jk=eb278c2803192c13"
-      },
-      {
-        "title": "INFERMIERE/A LIBERO PROFESSIONISTA A VENEZIA E PROVINCIA",
-        "company": "ItaliAssistenza",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1785888000000,
-        "url": "https://it.indeed.com/viewjob?jk=57c0167db277097f"
       },
       {
         "title": "COMUNE DI PIOVE DI SACCO - AVVISO PUBBLICO MANIFESTAZIONE D'INTERESSE PER L'INCARICO DI NUCLEO DI VALUTAZIONE IN  FORMA MONOCRATICA",
@@ -170,8 +154,24 @@
         "company": "Serco",
         "score": 0,
         "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=b9255d99b81c5fee"
+      },
+      {
+        "title": "Infermiere a Domicilio Verona e Provincia",
+        "company": "QuiCare",
+        "score": 0,
+        "site": "indeed",
         "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=d2dea1516a17c239"
+        "url": "https://it.indeed.com/viewjob?jk=f9c061c08ff3d6c1"
+      },
+      {
+        "title": "Recreation Aid (Developmental) NF-01",
+        "company": null,
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1784851200000,
+        "url": "https://it.indeed.com/viewjob?jk=9f0a54238f2f134a"
       }
     ]
   },
@@ -183,43 +183,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-62%)",
-      "data": {
-        "current": 1,
-        "avg": 2.7,
-        "change_pct": -62.5
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -233,43 +223,43 @@
             "size": 9,
             "top_terms": [
               "nf",
-              "infermiere",
-              "provincia"
+              "provincia",
+              "infermiere"
             ],
             "pct": 36.0
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 6,
+            "top_terms": [
+              "clinical",
+              "specialist",
+              "research"
+            ],
+            "pct": 24.0
+          },
+          {
+            "id": 2,
+            "size": 6,
             "top_terms": [
               "scientifico",
               "informatore",
               "medico"
             ],
-            "pct": 28.0
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "trach"
-            ],
-            "pct": 16.0
+            "pct": 24.0
           },
           {
             "id": 0,
-            "size": 3,
+            "size": 2,
             "top_terms": [
               "manager",
               "venezia",
-              "02"
+              "trach"
             ],
-            "pct": 12.0
+            "pct": 8.0
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 2,
             "top_terms": [
               "02",
