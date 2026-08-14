@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-13T09:12:02.301489",
+  "generated_at": "2026-08-14T09:01:18.425225",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 10.5,
+    "average": 10.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 2,
       "low": 1,
-      "irrelevant": 37
+      "irrelevant": 33
     },
     "top_jobs": [
       {
@@ -24,18 +24,10 @@
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
-      {
-        "title": "Salesforce Marketing Cloud Specialist",
-        "company": "Credem Banca",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1785801600000,
-        "url": "https://www.linkedin.com/jobs/view/4446618856"
       },
       {
         "title": "CDI - Global GMP Compliance Training Lead – Manufacturing & Quality F/H",
@@ -44,6 +36,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441259376"
+      },
+      {
+        "title": "Salesforce Marketing Cloud Specialist",
+        "company": "Credem Banca",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1785801600000,
+        "url": "https://www.linkedin.com/jobs/view/4446618856"
       },
       {
         "title": "Utilities & Facility Engineer",
@@ -78,28 +78,12 @@
         "url": "https://it.indeed.com/viewjob?jk=ad6393951804f73a"
       },
       {
-        "title": "Clinical Trial Coordinator",
-        "company": "Thermo Fisher Scientific",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
-      },
-      {
         "title": "Quality assurance",
         "company": "Michael Page",
         "score": 8,
         "site": "linkedin",
         "date_posted": 1785110400000,
         "url": "https://www.linkedin.com/jobs/view/4442863186"
-      },
-      {
-        "title": "Quality Assurance Associate - Fixed Term Contract (12 months)",
-        "company": "Eli Lilly and Company",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1784851200000,
-        "url": "https://www.linkedin.com/jobs/view/4444934342"
       },
       {
         "title": "Project Manager After Sales",
@@ -118,6 +102,14 @@
         "url": "https://www.linkedin.com/jobs/view/4439302592"
       },
       {
+        "title": "Clinical Trial Coordinator",
+        "company": "Thermo Fisher Scientific",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1786060800000,
+        "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
+      },
+      {
         "title": "Strategic R&D Manager - Wound Management",
         "company": "B. Braun Avitum Italy S.p.A.",
         "score": 7,
@@ -126,12 +118,12 @@
         "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
-        "title": "Quality Assurance Supervisor",
-        "company": "SGB Humangest Holding",
+        "title": "Industrial Quality Assurance Professional",
+        "company": "Bonfiglioli",
         "score": 7,
         "site": "linkedin",
-        "date_posted": 1784764800000,
-        "url": "https://www.linkedin.com/jobs/view/4441566393"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445517245"
       },
       {
         "title": "Quality Assurance Supervisor",
@@ -150,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4446615735"
       },
       {
+        "title": "Quality Assurance Senior– Cluster Cocoa Products",
+        "company": "Unigrà",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4449871845"
+      },
+      {
         "title": "Quality Manager",
         "company": "Trivium Packaging",
         "score": 7,
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=63fbd7da119cd659"
       },
       {
-        "title": "Quality Assurance Internship (Open also To Protected Categories, Law 68/99)",
-        "company": "Thales",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1784937600000,
-        "url": "https://www.linkedin.com/jobs/view/4436911111"
-      },
-      {
         "title": "PRODUCT MANAGER",
         "company": "Reverse",
         "score": 6,
         "site": "indeed",
         "date_posted": 1785110400000,
         "url": "https://it.indeed.com/viewjob?jk=2ea272c9ee6c357c"
+      },
+      {
+        "title": "Customer Success Manager (Italy)",
+        "company": "Geotab",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=e276b5612a2b3382"
       }
     ]
   },
@@ -179,19 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
         "word": "manager",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "quality",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,9 +199,9 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "sales",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "medical",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-40%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-39%)",
       "data": {
         "current": 2,
         "avg": 3.3,
-        "change_pct": -40.0
+        "change_pct": -38.9
       }
     },
     {
@@ -256,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 16,
+            "size": 13,
             "top_terms": [
-              "engineer",
-              "coordinator",
-              "devices"
+              "addetto",
+              "hse",
+              "coordinator"
             ],
-            "pct": 38.1
+            "pct": 34.2
           },
           {
-            "id": 1,
-            "size": 10,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "supervisor"
-            ],
-            "pct": 23.8
-          },
-          {
-            "id": 4,
+            "id": 3,
             "size": 8,
             "top_terms": [
               "manager",
               "project",
               "product"
             ],
-            "pct": 19.0
+            "pct": 21.1
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 6,
             "top_terms": [
               "specialist",
-              "sales",
-              "modena"
+              "affairs",
+              "regulatory"
             ],
-            "pct": 14.3
+            "pct": 15.8
           },
           {
-            "id": 3,
-            "size": 2,
+            "id": 4,
+            "size": 6,
             "top_terms": [
-              "addetto",
-              "hse",
+              "assurance",
+              "quality",
               "supervisor"
             ],
-            "pct": 4.8
+            "pct": 15.8
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "engineer",
+              "product",
+              "quality"
+            ],
+            "pct": 13.2
           }
         ]
       }

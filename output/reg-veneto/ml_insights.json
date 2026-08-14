@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-13T09:12:02.099844",
+  "generated_at": "2026-08-14T09:01:18.228028",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 60,
+  "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 10.4,
+    "average": 10.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 2,
-      "irrelevant": 54
+      "irrelevant": 51
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "Taevas Life Sciences",
         "score": 65,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785369600000,
         "url": "https://www.linkedin.com/jobs/view/4446470745"
       },
       {
@@ -32,7 +32,7 @@
       {
         "title": "Quality & Regulatory Specialist - Food Sector (F/M/NB)",
         "company": "Randstad Italia",
-        "score": 58,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448794187"
@@ -42,7 +42,7 @@
         "company": "Motorola Solutions",
         "score": 52,
         "site": "linkedin",
-        "date_posted": 1784764800000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
@@ -102,14 +102,6 @@
         "url": "https://it.indeed.com/viewjob?jk=a4703ab6c136c882"
       },
       {
-        "title": "QA/RA Specialist | Medical Devices",
-        "company": "Mynameis",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448770108"
-      },
-      {
         "title": "Program Specialist (Student Transportation)",
         "company": "US Department of War Education Activity",
         "score": 14,
@@ -142,20 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446619206"
       },
       {
+        "title": "QA/RA Specialist | Medical Devices",
+        "company": "Mynameis",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448770108"
+      },
+      {
         "title": "CLINICAL PSYCHOLOGIST (PEDIATRICS)",
         "company": "US Military Treatment Facilities under DHA",
         "score": 12,
         "site": "indeed",
         "date_posted": 1786492800000,
         "url": "https://it.indeed.com/viewjob?jk=8f9f66566c796697"
-      },
-      {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4437692572"
       },
       {
         "title": "HR Administration Specialist",
@@ -166,12 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=8e4de74ab8408a53"
       },
       {
-        "title": "Validation Specialist",
-        "company": "STEVANATO GROUP",
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
         "score": 10,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=979e817a61ff8b64"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4437692572"
+      },
+      {
+        "title": "Report RAI, l’ecosistema che nessuna singola crisi potrà mai scalfire",
+        "company": "Facility News",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": 1786147200000,
+        "url": "https://www.linkedin.com/jobs/view/4450581417"
       }
     ]
   },
@@ -195,8 +195,8 @@
       },
       {
         "word": "senior",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -210,22 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-42%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-80%)",
       "data": {
-        "current": 3,
-        "avg": 5.2,
-        "change_pct": -42.1
+        "current": 1,
+        "avg": 5.1,
+        "change_pct": -80.4
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -235,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 30,
+            "id": 0,
+            "size": 29,
             "top_terms": [
+              "italy",
               "venditore",
-              "product",
-              "senior"
+              "product"
             ],
-            "pct": 50.0
+            "pct": 50.9
           },
           {
-            "id": 3,
-            "size": 12,
+            "id": 1,
+            "size": 10,
             "top_terms": [
               "specialist",
               "marketing",
               "sales"
             ],
-            "pct": 20.0
-          },
-          {
-            "id": 4,
-            "size": 8,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "engineer"
-            ],
-            "pct": 13.3
+            "pct": 17.5
           },
           {
             "id": 2,
-            "size": 7,
+            "size": 9,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "specialist"
+            ],
+            "pct": 15.8
+          },
+          {
+            "id": 4,
+            "size": 6,
             "top_terms": [
               "manager",
               "regulatory",
-              "senior"
+              "quality"
             ],
-            "pct": 11.7
+            "pct": 10.5
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 3,
             "top_terms": [
               "planner",
               "demand",
               "junior"
             ],
-            "pct": 5.0
+            "pct": 5.3
           }
         ]
       }

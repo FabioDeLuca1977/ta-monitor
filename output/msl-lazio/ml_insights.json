@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-13T09:12:02.044168",
+  "generated_at": "2026-08-14T09:01:18.174813",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 59,
+  "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 29.5,
+    "average": 28.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 27,
+      "medium": 24,
       "low": 7,
-      "irrelevant": 24
+      "irrelevant": 23
     },
     "top_jobs": [
       {
@@ -22,28 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4451342230"
       },
       {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "BioSpace",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1785974400000,
-        "url": "https://www.linkedin.com/jobs/view/4449365340"
-      },
-      {
-        "title": "Medical Science Liaison (MSL) Rare Disease",
-        "company": "Chaberton Professionals",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448429795"
-      },
-      {
         "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
         "company": "PrimeVigilance",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450296041"
+      },
+      {
+        "title": "Medical Science Liaison (MSL) Rare Disease",
+        "company": "Chaberton Professionals",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448429795"
       },
       {
         "title": "Medical Science Liaison - Oncology (Centro-Nord)",
@@ -62,11 +54,19 @@
         "url": "https://www.linkedin.com/jobs/view/4439039474"
       },
       {
-        "title": "Medical Advisor Neurology and Immunolog",
-        "company": "Merck Healthcare",
+        "title": "Medical Advisor Gastroenterology",
+        "company": "BioSpace",
         "score": 54,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785974400000,
+        "url": "https://www.linkedin.com/jobs/view/4449365340"
+      },
+      {
+        "title": "Medical Advisor Neurology and Immunolog",
+        "company": "Merck Healthcare",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1785283200000,
         "url": "https://www.linkedin.com/jobs/view/4446581713"
       },
       {
@@ -102,12 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "AbbVie",
-        "score": 50,
-        "site": "indeed",
-        "date_posted": 1785715200000,
-        "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
+        "title": "Clinical Research Associate I - Maternity Cover",
+        "company": "Novo Nordisk",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445530792"
       },
       {
         "title": "Regulatory Affairs & Competition Specialist",
@@ -118,20 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
-        "title": "Regulatory Affairs Specialist - RASp",
-        "company": "Res Excelsa",
+        "title": "Medical Advisor Gastroenterology",
+        "company": "AbbVie",
         "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446582239"
-      },
-      {
-        "title": "Clinical Research Associate I - Maternity Cover",
-        "company": "Novo Nordisk",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445530792"
+        "site": "indeed",
+        "date_posted": 1785715200000,
+        "url": "https://it.indeed.com/viewjob?jk=1dba39b40f7c2cea"
       },
       {
         "title": "Clinical Research Associate - Italy - Remote",
@@ -158,31 +150,34 @@
         "url": "https://www.linkedin.com/jobs/view/4453603452"
       },
       {
-        "title": "Vice President Regulatory Affairs - Cluster",
-        "company": "Perrigo Company plc",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": 1784764800000,
-        "url": "https://www.linkedin.com/jobs/view/4441564283"
-      },
-      {
         "title": "Junior Regulatory Affairs - Apprendistato",
         "company": "STAFF SERVICE S.R.L. Gruppo Cremonini",
         "score": 45,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450222768"
+      },
+      {
+        "title": "Oncology Partnerships Manager, Italy",
+        "company": "Massive Bio",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445146640"
+      },
+      {
+        "title": "Strategic Partnerships Manager, Oncology Providers - Italy",
+        "company": "Massive Bio",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1785110400000,
+        "url": "https://www.linkedin.com/jobs/view/4445138720"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "cra",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
       {
         "word": "business",
         "count": 3,
@@ -199,32 +194,18 @@
         "reason": "Appare 3x in annunci a basso score"
       }
     ],
-    "review": [
-      {
-        "title": "Principal Biostatistician (Oncology) - FSP",
-        "score": 22,
-        "pattern": "(?:oncol|tumor|solid\\s+tumor|melanom|immuno.oncol)",
-        "reason": "Basso score ma match con pattern — possibile falso positivo"
-      }
-    ]
+    "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "advisor gastroenterology",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-61%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-62%)",
       "data": {
         "current": 2,
-        "avg": 5.2,
-        "change_pct": -61.4
+        "avg": 5.3,
+        "change_pct": -62.3
       }
     },
     {
@@ -264,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 26,
+            "id": 2,
+            "size": 29,
             "top_terms": [
-              "medical",
+              "manager",
               "lead",
-              "science"
+              "business"
             ],
-            "pct": 44.1
+            "pct": 52.7
+          },
+          {
+            "id": 0,
+            "size": 8,
+            "top_terms": [
+              "oncology",
+              "italy",
+              "manager"
+            ],
+            "pct": 14.5
           },
           {
             "id": 1,
-            "size": 12,
+            "size": 7,
             "top_terms": [
               "clinical",
-              "trial",
-              "specialist"
+              "research",
+              "trial"
             ],
-            "pct": 20.3
+            "pct": 12.7
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 7,
             "top_terms": [
+              "advisor",
               "italy",
-              "cra",
-              "oncology"
+              "medical"
             ],
-            "pct": 13.6
+            "pct": 12.7
           },
           {
             "id": 3,
-            "size": 7,
-            "top_terms": [
-              "manager",
-              "project",
-              "pharmacovigilance"
-            ],
-            "pct": 11.9
-          },
-          {
-            "id": 2,
-            "size": 6,
+            "size": 4,
             "top_terms": [
               "regulatory",
               "affairs",
-              "specialist"
+              "intern"
             ],
-            "pct": 10.2
+            "pct": 7.3
           }
         ]
       }
