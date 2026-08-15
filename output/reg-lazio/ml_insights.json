@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-08-14T09:01:18.508201",
+  "generated_at": "2026-08-15T08:10:14.992977",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 109,
+  "total_jobs_analyzed": 113,
   "scoring": {
-    "average": 11.1,
+    "average": 11.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 11,
+      "medium": 12,
       "low": 6,
-      "irrelevant": 91
+      "irrelevant": 94
     },
     "top_jobs": [
       {
+        "title": "Vice President Regulatory Affairs - Cluster",
+        "company": "Perrigo Company plc",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441564283"
+      },
+      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -24,7 +32,7 @@
       {
         "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
         "company": "PrimeVigilance",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450296041"
@@ -40,34 +48,26 @@
       {
         "title": "Junior Regulatory Affairs - Apprendistato",
         "company": "Gruppo Cremonini",
-        "score": 53,
+        "score": 51,
         "site": "indeed",
         "date_posted": 1785974400000,
         "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
       },
       {
-        "title": "Regulatory Affair Specialist - Pharma",
-        "company": "Brenntag",
-        "score": 51,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=ad56985eaecc7db0"
-      },
-      {
-        "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
-        "company": "MatchGuru",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1786406400000,
-        "url": "https://www.linkedin.com/jobs/view/4452474178"
-      },
-      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
-        "score": 49,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
+      },
+      {
+        "title": "Regulatory Affair Specialist - Pharma",
+        "company": "Brenntag",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=ad56985eaecc7db0"
       },
       {
         "title": "GxP Specialist",
@@ -96,10 +96,18 @@
       {
         "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
         "company": "Primevigilance",
-        "score": 45,
+        "score": 46,
         "site": "indeed",
         "date_posted": 1785715200000,
         "url": "https://it.indeed.com/viewjob?jk=00dff6653575043a"
+      },
+      {
+        "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
+        "company": "MatchGuru",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1786406400000,
+        "url": "https://www.linkedin.com/jobs/view/4452474178"
       },
       {
         "title": "Quality Assurance Consultant   - Pharma Sector",
@@ -136,10 +144,18 @@
       {
         "title": "Principal Biostatistician (Oncology) - FSP",
         "company": "IQVIA",
-        "score": 22,
+        "score": 23,
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=eaf6cf45df536b37"
+      },
+      {
+        "title": "QUALITY ASSURANCE MANAGER",
+        "company": "OKATIM Italia",
+        "score": 21,
+        "site": "linkedin",
+        "date_posted": 1786147200000,
+        "url": "https://www.linkedin.com/jobs/view/4441326884"
       },
       {
         "title": "E-invoicing Subject Matter Expert",
@@ -148,22 +164,6 @@
         "site": "indeed",
         "date_posted": 1785456000000,
         "url": "https://it.indeed.com/viewjob?jk=90d8ddcdf8195c29"
-      },
-      {
-        "title": "QUALITY ASSURANCE MANAGER",
-        "company": "OKATIM Italia",
-        "score": 20,
-        "site": "linkedin",
-        "date_posted": 1786147200000,
-        "url": "https://www.linkedin.com/jobs/view/4441326884"
-      },
-      {
-        "title": "Process & Cleaning Validation Specialist - Fixed term (replacement for maternity leave)",
-        "company": "Thermo Fisher Scientific",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1786406400000,
-        "url": "https://it.indeed.com/viewjob?jk=21449bf1b3a84a70"
       },
       {
         "title": "Business Applications Project & Demand Manager",
@@ -184,19 +184,19 @@
         "reason": "Appare 19x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
-      },
-      {
         "word": "assurance",
         "count": 16,
         "reason": "Appare 16x in annunci a basso score"
       },
       {
+        "word": "engineer",
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
+      },
+      {
         "word": "specialist",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-74%)",
-      "data": {
-        "current": 2,
-        "avg": 7.6,
-        "change_pct": -73.8
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "new": 4,
+        "total": 6,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 50% (+25pp)",
+      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 50% (-25pp)",
+      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -255,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 46,
+            "id": 0,
+            "size": 58,
             "top_terms": [
-              "associate",
-              "technician",
-              "medical"
+              "engineer",
+              "medical",
+              "associate"
             ],
-            "pct": 42.2
+            "pct": 51.3
           },
           {
             "id": 2,
-            "size": 27,
+            "size": 22,
             "top_terms": [
               "quality",
               "assurance",
               "engineer"
             ],
-            "pct": 24.8
+            "pct": 19.5
           },
           {
-            "id": 0,
-            "size": 16,
-            "top_terms": [
-              "senior",
-              "manager",
-              "project"
-            ],
-            "pct": 14.7
-          },
-          {
-            "id": 3,
-            "size": 16,
+            "id": 1,
+            "size": 15,
             "top_terms": [
               "specialist",
               "accounting",
               "climate"
             ],
-            "pct": 14.7
+            "pct": 13.3
           },
           {
             "id": 4,
+            "size": 14,
+            "top_terms": [
+              "senior",
+              "consultant",
+              "roma"
+            ],
+            "pct": 12.4
+          },
+          {
+            "id": 3,
             "size": 4,
             "top_terms": [
-              "process",
-              "validation",
-              "cleaning"
+              "expert",
+              "invoicing",
+              "packaging"
             ],
-            "pct": 3.7
+            "pct": 3.5
           }
         ]
       }

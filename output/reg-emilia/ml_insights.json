@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-14T09:01:18.425225",
+  "generated_at": "2026-08-15T08:10:14.908495",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 38,
+  "total_jobs_analyzed": 43,
   "scoring": {
-    "average": 10.9,
+    "average": 10.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 2,
       "low": 1,
-      "irrelevant": 33
+      "irrelevant": 38
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
@@ -58,16 +58,8 @@
         "company": "Jefferson Wells Italia",
         "score": 18,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785369600000,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
-      },
-      {
-        "title": "HSE Manager",
-        "company": "AEP Ticketing solutions",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1786406400000,
-        "url": "https://it.indeed.com/viewjob?jk=f79e605486c185fa"
       },
       {
         "title": "Sales Specialist - Triveneto ed Emilia Romagna",
@@ -76,6 +68,22 @@
         "site": "indeed",
         "date_posted": 1786492800000,
         "url": "https://it.indeed.com/viewjob?jk=ad6393951804f73a"
+      },
+      {
+        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
+        "company": "Thales",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444485295"
+      },
+      {
+        "title": "HSE Manager",
+        "company": "AEP Ticketing solutions",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1786406400000,
+        "url": "https://it.indeed.com/viewjob?jk=f79e605486c185fa"
       },
       {
         "title": "Quality assurance",
@@ -102,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4439302592"
       },
       {
-        "title": "Clinical Trial Coordinator",
-        "company": "Thermo Fisher Scientific",
+        "title": "Quality Assurance Associate - Fixed Term Contract (12 months)",
+        "company": "Eli Lilly and Company",
         "score": 8,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444934342"
       },
       {
         "title": "Strategic R&D Manager - Wound Management",
@@ -158,20 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=63fbd7da119cd659"
       },
       {
-        "title": "PRODUCT MANAGER",
-        "company": "Reverse",
-        "score": 6,
-        "site": "indeed",
-        "date_posted": 1785110400000,
-        "url": "https://it.indeed.com/viewjob?jk=2ea272c9ee6c357c"
-      },
-      {
-        "title": "Customer Success Manager (Italy)",
-        "company": "Geotab",
-        "score": 6,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=e276b5612a2b3382"
+        "title": "ADDETTO/A AL PUNTO D'ASCOLTO - GDO - SYNERGIE FILIALE DI MODENA DIREZIONALE",
+        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1786320000000,
+        "url": "https://www.linkedin.com/jobs/view/4451124360"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,7 +199,7 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "medical",
+        "word": "product",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -209,43 +209,52 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-39%)",
+      "message": "Volume in crescita: 5 annunci ultimo scan vs media 3 (+45%)",
       "data": {
-        "current": 2,
-        "avg": 3.3,
-        "change_pct": -38.9
+        "current": 5,
+        "avg": 3.5,
+        "change_pct": 44.7
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Robopac: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Robopac",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/5 annunci da aziende nuove (60.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "new": 3,
+        "total": 5,
+        "pct": 60.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 13,
-            "top_terms": [
-              "addetto",
-              "hse",
-              "coordinator"
-            ],
-            "pct": 34.2
-          },
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "manager",
-              "project",
-              "product"
-            ],
-            "pct": 21.1
-          },
-          {
             "id": 1,
-            "size": 6,
+            "size": 17,
             "top_terms": [
               "specialist",
-              "affairs",
-              "regulatory"
+              "sotemapack",
+              "coordinator"
             ],
-            "pct": 15.8
-          },
-          {
-            "id": 4,
-            "size": 6,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "supervisor"
-            ],
-            "pct": 15.8
+            "pct": 39.5
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 9,
+            "top_terms": [
+              "manager",
+              "project",
+              "italy"
+            ],
+            "pct": 20.9
+          },
+          {
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "senior"
+            ],
+            "pct": 16.3
+          },
+          {
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "engineer",
-              "product",
+              "manufacturing",
               "quality"
             ],
-            "pct": 13.2
+            "pct": 16.3
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "addetto",
+              "hse",
+              "synergie"
+            ],
+            "pct": 7.0
           }
         ]
       }

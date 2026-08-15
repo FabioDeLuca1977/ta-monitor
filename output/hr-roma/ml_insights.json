@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-14T09:01:17.830805",
+  "generated_at": "2026-08-15T08:10:14.319723",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 218,
+  "total_jobs_analyzed": 219,
   "scoring": {
-    "average": 21.3,
+    "average": 21.9,
     "distribution": {
       "excellent": 0,
       "good": 11,
-      "medium": 38,
-      "low": 56,
-      "irrelevant": 113
+      "medium": 43,
+      "low": 54,
+      "irrelevant": 111
     },
     "top_jobs": [
       {
@@ -62,28 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4449473383"
       },
       {
-        "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
-        "company": "Randstad Italia",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446221368"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "Adecco",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448408451"
-      },
-      {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
         "company": "Dan John",
         "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4453052619"
+      },
+      {
+        "title": "HR Officer per soluzioni di filtrazione acqua potabile",
+        "company": "Ablio",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1786665600000,
+        "url": "https://it.indeed.com/viewjob?jk=68397f41e6269478"
       },
       {
         "title": "Talent Acquisition Specialist - Sales",
@@ -94,12 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4444602279"
       },
       {
-        "title": "HR Generalist",
-        "company": "SOS Il Telefono Azzurro ETS",
+        "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
+        "company": "Randstad Italia",
         "score": 60,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=1b8fd5036c59e527"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446221368"
+      },
+      {
+        "title": "HR Generalist",
+        "company": "Adecco",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448408451"
       },
       {
         "title": "HR Talent Acquisition Intern",
@@ -118,20 +118,28 @@
         "url": "https://www.linkedin.com/jobs/view/4446772905"
       },
       {
-        "title": "Junior HR Generalist per soluzioni cura persona",
-        "company": "Tuolavoro-Lazio",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1785196800000,
-        "url": "https://www.linkedin.com/jobs/view/4445757552"
-      },
-      {
         "title": "HR Generalist per attività di assistenza alla vendita",
         "company": "key-absolute",
         "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448234239"
+      },
+      {
+        "title": "Junior HR Generalist",
+        "company": "LDC Hotels Italy",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4454398929"
+      },
+      {
+        "title": "Junior HR Generalist per soluzioni cura persona",
+        "company": "Tuolavoro-Lazio",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": 1785196800000,
+        "url": "https://www.linkedin.com/jobs/view/4445757552"
       },
       {
         "title": "Junior HR generalist tecnologie ripiano notturno",
@@ -148,14 +156,6 @@
         "site": "linkedin",
         "date_posted": 1784851200000,
         "url": "https://www.linkedin.com/jobs/view/4444348312"
-      },
-      {
-        "title": "HR Generalist per soluzioni di filtrazione acqua potabile",
-        "company": "Tuolavoro-Lazio",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4447141379"
       },
       {
         "title": "HR recruiter",
@@ -194,19 +194,25 @@
         "reason": "Appare 38x in annunci a basso score"
       },
       {
-        "word": "settore",
+        "word": "responsabile",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "responsabile",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "settore",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
+    {
+      "keyword": "junior",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
+    },
     {
       "keyword": "hr talent",
       "frequency": 3,
@@ -214,19 +220,25 @@
       "confidence": 45
     },
     {
-      "keyword": "intern",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
-      "keyword": "junior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
       "keyword": "junior hr",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "acquisition intern",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "partner lazio",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "business partner lazio",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -244,7 +256,13 @@
       "confidence": 30
     },
     {
-      "keyword": "acquisition intern",
+      "keyword": "soluzioni filtrazione",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "filtrazione acqua",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -252,43 +270,42 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 16 (-50%)",
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Amplifon: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 8,
-        "avg": 16.2,
-        "change_pct": -50.5
+        "company": "Amplifon",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/8 annunci da aziende nuove (12.5%)",
+      "message": "📊 Ultimo scan: 3/12 annunci da aziende nuove (25.0%)",
       "data": {
-        "new": 1,
-        "total": 8,
-        "pct": 12.5
+        "new": 3,
+        "total": 12,
+        "pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 83% a 38% (-46pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 83.3,
-        "new_pct": 37.5
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 17% a 62% (+46pp)",
+      "message": "📡 indeed: quota passata da 62% a 83% (+21pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 16.7,
-        "new_pct": 62.5
+        "old_pct": 62.5,
+        "new_pct": 83.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 38% a 17% (-21pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 37.5,
+        "new_pct": 16.7
       }
     },
     {
@@ -298,54 +315,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 126,
+            "id": 0,
+            "size": 106,
             "top_terms": [
-              "hr",
+              "roma",
               "manager",
               "addetto"
             ],
-            "pct": 57.8
-          },
-          {
-            "id": 1,
-            "size": 60,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 27.5
+            "pct": 48.4
           },
           {
             "id": 2,
-            "size": 16,
+            "size": 51,
             "top_terms": [
-              "specialist",
-              "talent",
-              "acquisition"
+              "umane",
+              "risorse",
+              "addetto"
             ],
-            "pct": 7.3
+            "pct": 23.3
           },
           {
             "id": 4,
-            "size": 10,
+            "size": 32,
             "top_terms": [
-              "recruiter",
               "hr",
-              "international"
+              "generalist",
+              "partner"
             ],
-            "pct": 4.6
+            "pct": 14.6
           },
           {
-            "id": 0,
-            "size": 6,
+            "id": 3,
+            "size": 17,
             "top_terms": [
-              "sales",
-              "assistant",
-              "roma"
+              "specialist",
+              "hr",
+              "talent"
             ],
-            "pct": 2.8
+            "pct": 7.8
+          },
+          {
+            "id": 1,
+            "size": 13,
+            "top_terms": [
+              "responsabile",
+              "clienti",
+              "sviluppo"
+            ],
+            "pct": 5.9
           }
         ]
       }
