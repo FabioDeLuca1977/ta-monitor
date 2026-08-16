@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-15T08:10:14.663873",
+  "generated_at": "2026-08-16T08:11:24.408836",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 56,
+  "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 29.5,
+    "average": 29.6,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 26,
-      "low": 6,
-      "irrelevant": 23
+      "medium": 25,
+      "low": 7,
+      "irrelevant": 22
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4451342230"
       },
       {
+        "title": "Medical Science Liaison (MSL) Rare Disease",
+        "company": "Chaberton Professionals",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448429795"
+      },
+      {
         "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
         "company": "PrimeVigilance",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450296041"
-      },
-      {
-        "title": "Medical Science Liaison (MSL) Rare Disease",
-        "company": "Chaberton Professionals",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448429795"
       },
       {
         "title": "Medical Science Liaison - Oncology (Centro-Nord)",
@@ -114,7 +114,7 @@
         "company": "Novo Nordisk",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4445530792"
       },
       {
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4450222768"
       },
       {
-        "title": "Oncology Partnerships Manager, Italy",
-        "company": "Massive Bio",
+        "title": "Regulatory Affairs Intern",
+        "company": "STERIS",
         "score": 44,
         "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445146640"
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4430767486"
       }
     ]
   },
@@ -194,7 +194,14 @@
         "reason": "Appare 3x in annunci a basso score"
       }
     ],
-    "review": []
+    "review": [
+      {
+        "title": "Principal Biostatistician (Oncology) - FSP",
+        "score": 22,
+        "pattern": "(?:oncol|tumor|solid\\s+tumor|melanom|immuno.oncol)",
+        "reason": "Basso score ma match con pattern — possibile falso positivo"
+      }
+    ]
   },
   "keyword_recommendations": [],
   "anomalies": [
@@ -211,21 +218,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 75% (+25pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 75.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 50% a 25% (-25pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 50.0,
         "new_pct": 25.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 75% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -235,54 +242,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 38,
+            "id": 0,
+            "size": 26,
             "top_terms": [
               "manager",
               "oncology",
-              "science"
+              "scientist"
             ],
-            "pct": 67.9
+            "pct": 47.3
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 1,
+            "size": 13,
             "top_terms": [
-              "research",
+              "medical",
+              "advisor",
+              "science"
+            ],
+            "pct": 23.6
+          },
+          {
+            "id": 3,
+            "size": 7,
+            "top_terms": [
               "clinical",
+              "research",
               "associate"
             ],
-            "pct": 8.9
+            "pct": 12.7
           },
           {
             "id": 2,
             "size": 5,
             "top_terms": [
-              "lead",
-              "oncology",
-              "business"
-            ],
-            "pct": 8.9
-          },
-          {
-            "id": 1,
-            "size": 4,
-            "top_terms": [
-              "affairs",
               "regulatory",
-              "intern"
+              "affairs",
+              "consultant"
             ],
-            "pct": 7.1
+            "pct": 9.1
           },
           {
-            "id": 3,
+            "id": 4,
             "size": 4,
             "top_terms": [
-              "advisor",
-              "medical",
-              "gastroenterology"
+              "lead",
+              "business",
+              "marketing"
             ],
-            "pct": 7.1
+            "pct": 7.3
           }
         ]
       }
