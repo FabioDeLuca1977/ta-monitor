@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-16T08:11:24.065037",
+  "generated_at": "2026-08-17T08:26:57.338453",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 212,
+  "total_jobs_analyzed": 210,
   "scoring": {
-    "average": 21.6,
+    "average": 21.3,
     "distribution": {
       "excellent": 0,
       "good": 10,
-      "medium": 41,
-      "low": 54,
-      "irrelevant": 107
+      "medium": 38,
+      "low": 56,
+      "irrelevant": 106
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
-        "score": 67,
+        "score": 66,
         "site": "indeed",
         "date_posted": 1786320000000,
         "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
@@ -34,16 +34,8 @@
         "company": "Italian Design Institute",
         "score": 65,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4445508805"
-      },
-      {
-        "title": "1 HR SPECIALIST- RECRUITER",
-        "company": "Skydental Holding srl",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1785715200000,
-        "url": "https://it.indeed.com/viewjob?jk=94ba81bd1567edcf"
       },
       {
         "title": "1 HR SPECIALIST- RECRUITER",
@@ -52,6 +44,14 @@
         "site": "linkedin",
         "date_posted": 1785715200000,
         "url": "https://www.linkedin.com/jobs/view/4447991449"
+      },
+      {
+        "title": "1 HR SPECIALIST- RECRUITER",
+        "company": "Skydental Holding srl",
+        "score": 64,
+        "site": "indeed",
+        "date_posted": 1785715200000,
+        "url": "https://it.indeed.com/viewjob?jk=94ba81bd1567edcf"
       },
       {
         "title": "HR Manager Italy EP/NV & Project management",
@@ -95,14 +95,6 @@
       },
       {
         "title": "HR Talent Acquisition Intern",
-        "company": "Engineering Group",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": 1785369600000,
-        "url": "https://www.linkedin.com/jobs/view/4446772905"
-      },
-      {
-        "title": "HR Talent Acquisition Intern",
         "company": "Engineering",
         "score": 59,
         "site": "indeed",
@@ -126,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4454398929"
       },
       {
-        "title": "Junior HR generalist tecnologie ripiano notturno",
-        "company": "Tuolavoro-Lazio",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1785196800000,
-        "url": "https://www.linkedin.com/jobs/view/4445751688"
-      },
-      {
         "title": "Junior HR Generalist per soluzioni cura persona",
         "company": "Tuolavoro-Lazio",
         "score": 56,
@@ -142,36 +126,52 @@
         "url": "https://www.linkedin.com/jobs/view/4445757552"
       },
       {
-        "title": "HR recruiter",
-        "company": "Il Metodo - HR & Strategic Consulting",
+        "title": "Junior HR generalist tecnologie ripiano notturno",
+        "company": "Tuolavoro-Lazio",
         "score": 55,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448771262"
-      },
-      {
-        "title": "HR Generalist Payroll Presenze Amministrazione del personale",
-        "company": null,
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1784937600000,
-        "url": "https://it.indeed.com/viewjob?jk=229e9e22647b1761"
-      },
-      {
-        "title": "HR Business Partner",
-        "company": "Eataly",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4447502738"
+        "date_posted": 1785196800000,
+        "url": "https://www.linkedin.com/jobs/view/4445751688"
       },
       {
         "title": "HR Generalist per soluzioni di filtrazione acqua potabile",
         "company": "Tuolavoro-Lazio",
         "score": 54,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4447141379"
+      },
+      {
+        "title": "HR recruiter",
+        "company": "Il Metodo - HR & Strategic Consulting",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448771262"
+      },
+      {
+        "title": "HR Recruiter",
+        "company": "Auxilia Finance SpA",
+        "score": 53,
+        "site": "indeed",
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=86442e8398f40b18"
+      },
+      {
+        "title": "HR Business Partner",
+        "company": "Eataly",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4447502738"
+      },
+      {
+        "title": "HR Officer per sistemi di gestione acqua in casa",
+        "company": "Tuolavoro-Lazio",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1785369600000,
+        "url": "https://www.linkedin.com/jobs/view/4446759805"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 47,
-        "reason": "Appare 47x in annunci a basso score"
+        "count": 46,
+        "reason": "Appare 46x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 47,
-        "reason": "Appare 47x in annunci a basso score"
+        "count": 46,
+        "reason": "Appare 46x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -195,13 +195,13 @@
       },
       {
         "word": "responsabile",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "settore",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,25 +214,13 @@
       "confidence": 50
     },
     {
-      "keyword": "hr talent",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
       "keyword": "junior hr",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
     },
     {
-      "keyword": "intern",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
-      "keyword": "acquisition intern",
+      "keyword": "hr talent",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -266,47 +254,39 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "filtrazione acqua potabile",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "intern",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 16 (-88%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 16 (-68%)",
       "data": {
-        "current": 2,
-        "avg": 16.2,
-        "change_pct": -87.6
+        "current": 5,
+        "avg": 15.8,
+        "change_pct": -68.3
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 83% a 50% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 83.3,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 17% a 50% (+33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 16.7,
-        "new_pct": 50.0
+        "total": 5,
+        "pct": 20.0
       }
     },
     {
@@ -317,53 +297,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 110,
+            "size": 91,
             "top_terms": [
-              "hr",
-              "roma",
-              "manager"
+              "personale",
+              "manager",
+              "selezione"
             ],
-            "pct": 51.9
+            "pct": 43.3
           },
           {
             "id": 1,
-            "size": 59,
+            "size": 58,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 27.8
-          },
-          {
-            "id": 3,
-            "size": 18,
-            "top_terms": [
-              "generalist",
-              "hr",
-              "junior"
-            ],
-            "pct": 8.5
-          },
-          {
-            "id": 4,
-            "size": 14,
-            "top_terms": [
-              "specialist",
-              "development",
-              "recruitment"
-            ],
-            "pct": 6.6
+            "pct": 27.6
           },
           {
             "id": 2,
-            "size": 11,
+            "size": 31,
             "top_terms": [
-              "recruiter",
               "hr",
-              "international"
+              "generalist",
+              "partner"
             ],
-            "pct": 5.2
+            "pct": 14.8
+          },
+          {
+            "id": 3,
+            "size": 17,
+            "top_terms": [
+              "specialist",
+              "hr",
+              "development"
+            ],
+            "pct": 8.1
+          },
+          {
+            "id": 4,
+            "size": 13,
+            "top_terms": [
+              "roma",
+              "sales",
+              "time"
+            ],
+            "pct": 6.2
           }
         ]
       }

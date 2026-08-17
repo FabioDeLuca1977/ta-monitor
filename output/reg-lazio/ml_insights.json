@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-16T08:11:24.740689",
+  "generated_at": "2026-08-17T08:26:57.935018",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 112,
+  "total_jobs_analyzed": 107,
   "scoring": {
     "average": 11.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 12,
-      "low": 5,
-      "irrelevant": 94
+      "low": 4,
+      "irrelevant": 90
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
         "company": "PrimeVigilance",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450296041"
@@ -48,26 +48,26 @@
       {
         "title": "Junior Regulatory Affairs - Apprendistato",
         "company": "Gruppo Cremonini",
-        "score": 53,
+        "score": 51,
         "site": "indeed",
         "date_posted": 1785974400000,
         "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
       },
       {
-        "title": "Regulatory Affair Specialist - Pharma",
-        "company": "Brenntag",
-        "score": 51,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=ad56985eaecc7db0"
-      },
-      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
-        "score": 49,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
+      },
+      {
+        "title": "Regulatory Affair Specialist - Pharma",
+        "company": "Brenntag",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=ad56985eaecc7db0"
       },
       {
         "title": "GxP Specialist",
@@ -86,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4448769313"
       },
       {
-        "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
-        "company": "Ecolab",
-        "score": 46,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=ee7ec4ffdc200c01"
-      },
-      {
         "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
         "company": "Primevigilance",
-        "score": 45,
+        "score": 46,
         "site": "indeed",
         "date_posted": 1785715200000,
         "url": "https://it.indeed.com/viewjob?jk=00dff6653575043a"
+      },
+      {
+        "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
+        "company": "Ecolab",
+        "score": 45,
+        "site": "indeed",
+        "date_posted": 1785283200000,
+        "url": "https://it.indeed.com/viewjob?jk=ee7ec4ffdc200c01"
       },
       {
         "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
@@ -142,14 +142,6 @@
         "url": "https://it.indeed.com/viewjob?jk=90d8ddcdf8195c29"
       },
       {
-        "title": "Principal Biostatistician (Oncology) - FSP",
-        "company": "IQVIA",
-        "score": 22,
-        "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=eaf6cf45df536b37"
-      },
-      {
         "title": "E-invoicing Subject Matter Expert",
         "company": "Emerging Travel Group",
         "score": 20,
@@ -158,20 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=90d8ddcdf8195c29"
       },
       {
-        "title": "Business Applications Project & Demand Manager",
-        "company": "Digital Value S.p.A.",
-        "score": 17,
+        "title": "Quality Assurance Manager",
+        "company": "S&you Italia",
+        "score": 16,
         "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445143719"
+        "date_posted": 1785283200000,
+        "url": "https://www.linkedin.com/jobs/view/4443681720"
       },
       {
-        "title": "Technical Product Manager",
-        "company": "MailerLite",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1786579200000,
-        "url": "https://it.indeed.com/viewjob?jk=54612df81596560a"
+        "title": "Quality Assurance Executive Manager",
+        "company": "NTT DATA Europe & Latam",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441468380"
+      },
+      {
+        "title": "QUALITY ASSURANCE MANAGER",
+        "company": "OKATIM Italia",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1786147200000,
+        "url": "https://www.linkedin.com/jobs/view/4441326884"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -200,8 +200,8 @@
       },
       {
         "word": "manager",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-87%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 8 (-88%)",
       "data": {
         "current": 1,
-        "avg": 7.9,
-        "change_pct": -87.4
+        "avg": 8.2,
+        "change_pct": -87.7
       }
     },
     {
@@ -231,21 +231,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "linkedin",
         "old_pct": 33.3,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -256,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 58,
+            "size": 49,
             "top_terms": [
-              "senior",
-              "consultant",
-              "medical"
+              "associate",
+              "medical",
+              "manager"
             ],
-            "pct": 51.8
+            "pct": 45.8
           },
           {
             "id": 1,
-            "size": 23,
+            "size": 24,
             "top_terms": [
               "quality",
               "assurance",
               "engineer"
             ],
-            "pct": 20.5
+            "pct": 22.4
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 15,
             "top_terms": [
               "specialist",
               "accounting",
               "climate"
             ],
-            "pct": 13.4
+            "pct": 14.0
+          },
+          {
+            "id": 4,
+            "size": 13,
+            "top_terms": [
+              "senior",
+              "consultant",
+              "manager"
+            ],
+            "pct": 12.1
           },
           {
             "id": 2,
-            "size": 13,
+            "size": 6,
             "top_terms": [
-              "manager",
-              "project",
-              "senior"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 11.6
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "digital",
-              "open",
-              "applicants"
-            ],
-            "pct": 2.7
+            "pct": 5.6
           }
         ]
       }
