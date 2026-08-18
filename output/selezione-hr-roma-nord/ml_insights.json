@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-17T08:26:57.436814",
+  "generated_at": "2026-08-18T08:08:54.084130",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 210,
+  "total_jobs_analyzed": 212,
   "scoring": {
-    "average": 22.1,
+    "average": 21.7,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 41,
-      "low": 53,
-      "irrelevant": 105
+      "good": 10,
+      "medium": 40,
+      "low": 54,
+      "irrelevant": 108
     },
     "top_jobs": [
       {
         "title": "HR RECRUITER/ TALENT ACQUISITION - Agenzia per il Lavoro (Roma Centro)",
         "company": "Human Job - Agenzia per il lavoro",
-        "score": 75,
+        "score": 77,
         "site": "linkedin",
         "date_posted": 1785196800000,
         "url": "https://www.linkedin.com/jobs/view/4446335840"
@@ -24,7 +24,7 @@
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
-        "score": 73,
+        "score": 68,
         "site": "indeed",
         "date_posted": 1786320000000,
         "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
@@ -78,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4449473383"
       },
       {
-        "title": "HR Officer per soluzioni di filtrazione acqua potabile",
-        "company": "Ablio",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1786665600000,
-        "url": "https://it.indeed.com/viewjob?jk=68397f41e6269478"
-      },
-      {
         "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
         "company": "Randstad Italia",
         "score": 60,
@@ -102,20 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4448408451"
       },
       {
-        "title": "HR Recruitment Consultant",
-        "company": "IDLO - International Development Law Organization",
-        "score": 58,
+        "title": "Addetto/a selezione personale per servizi call center",
+        "company": "Cosma solution",
+        "score": 59,
         "site": "indeed",
-        "date_posted": 1786320000000,
-        "url": "https://it.indeed.com/viewjob?jk=1cc82b8855510578"
-      },
-      {
-        "title": "Addetto/a Selezione Personale – Consulenza Risorse Umane",
-        "company": "Novati",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1785024000000,
-        "url": "https://it.indeed.com/viewjob?jk=89a0b26d0893a7c3"
+        "date_posted": 1786924800000,
+        "url": "https://it.indeed.com/viewjob?jk=a3db5ea0f887d3ed"
       },
       {
         "title": "Addetto/a ricerca e selezione del personale junior",
@@ -132,6 +116,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448234239"
+      },
+      {
+        "title": "HR Officer per soluzioni di filtrazione acqua potabile",
+        "company": "Ablio",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1786665600000,
+        "url": "https://it.indeed.com/viewjob?jk=68397f41e6269478"
       },
       {
         "title": "Junior HR Generalist",
@@ -152,18 +144,10 @@
       {
         "title": "Junior HR generalist tecnologie ripiano notturno",
         "company": "Tuolavoro-Lazio",
-        "score": 55,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1785196800000,
         "url": "https://www.linkedin.com/jobs/view/4445751688"
-      },
-      {
-        "title": "HR Generalist per soluzioni di filtrazione acqua potabile",
-        "company": "Tuolavoro-Lazio",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4447141379"
       },
       {
         "title": "HR Generalist",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1786060800000,
         "url": "https://it.indeed.com/viewjob?jk=1b8fd5036c59e527"
+      },
+      {
+        "title": "HR recruiter",
+        "company": "Il Metodo - HR & Strategic Consulting",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448771262"
+      },
+      {
+        "title": "HR Recruiter",
+        "company": "Auxilia Finance SpA",
+        "score": 53,
+        "site": "indeed",
+        "date_posted": 1785196800000,
+        "url": "https://it.indeed.com/viewjob?jk=86442e8398f40b18"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 45,
-        "reason": "Appare 45x in annunci a basso score"
+        "count": 47,
+        "reason": "Appare 47x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 45,
-        "reason": "Appare 45x in annunci a basso score"
+        "count": 47,
+        "reason": "Appare 47x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 36,
-        "reason": "Appare 36x in annunci a basso score"
+        "count": 38,
+        "reason": "Appare 38x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -220,49 +220,7 @@
       "confidence": 45
     },
     {
-      "keyword": "generalist soluzioni",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "soluzioni filtrazione",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "filtrazione acqua",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "acqua potabile",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "soluzioni filtrazione acqua",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "filtrazione acqua potabile",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "intern",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "soluzioni",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
@@ -272,21 +230,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 16 (-68%)",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 16 (-62%)",
       "data": {
-        "current": 5,
+        "current": 6,
         "avg": 15.8,
-        "change_pct": -68.3
+        "change_pct": -62.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
+      "message": "📊 Ultimo scan: 2/6 annunci da aziende nuove (33.3%)",
       "data": {
-        "new": 1,
-        "total": 5,
-        "pct": 20.0
+        "new": 2,
+        "total": 6,
+        "pct": 33.3
       }
     },
     {
@@ -297,53 +255,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 91,
+            "size": 94,
             "top_terms": [
-              "personale",
+              "roma",
               "manager",
-              "selezione"
+              "recruiter"
             ],
-            "pct": 43.3
+            "pct": 44.3
           },
           {
-            "id": 1,
-            "size": 58,
+            "id": 4,
+            "size": 59,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 27.6
+            "pct": 27.8
           },
           {
-            "id": 2,
-            "size": 31,
+            "id": 1,
+            "size": 30,
             "top_terms": [
               "hr",
               "generalist",
               "partner"
             ],
-            "pct": 14.8
+            "pct": 14.2
           },
           {
             "id": 3,
-            "size": 17,
+            "size": 18,
             "top_terms": [
               "specialist",
               "hr",
-              "development"
+              "talent"
             ],
-            "pct": 8.1
+            "pct": 8.5
           },
           {
-            "id": 4,
-            "size": 13,
+            "id": 2,
+            "size": 11,
             "top_terms": [
-              "roma",
-              "sales",
-              "time"
+              "personale",
+              "selezione",
+              "addetto"
             ],
-            "pct": 6.2
+            "pct": 5.2
           }
         ]
       }

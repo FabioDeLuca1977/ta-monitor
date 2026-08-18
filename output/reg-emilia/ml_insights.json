@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-08-17T08:26:57.860298",
+  "generated_at": "2026-08-18T08:08:54.557547",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 41,
+  "total_jobs_analyzed": 38,
   "scoring": {
-    "average": 10.6,
+    "average": 10.8,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 2,
       "low": 1,
-      "irrelevant": 36
+      "irrelevant": 33
     },
     "top_jobs": [
       {
-        "title": "Regulatory Affairs",
-        "company": "Teoresi MedTech",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
-      {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 62,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
         "title": "CDI - Global GMP Compliance Training Lead – Manufacturing & Quality F/H",
@@ -78,14 +78,6 @@
         "url": "https://it.indeed.com/viewjob?jk=f79e605486c185fa"
       },
       {
-        "title": "ADDETTO/A AL FORNO CREMATORIO - SYNERGIE FILIALE DI MODENA",
-        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1786320000000,
-        "url": "https://www.linkedin.com/jobs/view/4451131330"
-      },
-      {
         "title": "Sales Specialist - Triveneto ed Emilia Romagna",
         "company": "INSTRUMENTATION LABORATORY SpA",
         "score": 10,
@@ -94,12 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=ad6393951804f73a"
       },
       {
-        "title": "Quality assurance",
-        "company": "Michael Page",
+        "title": "Quality Assurance",
+        "company": "Sherwin-Williams",
         "score": 8,
         "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4442863186"
+        "date_posted": 1785542400000,
+        "url": "https://www.linkedin.com/jobs/view/4439302592"
       },
       {
         "title": "Project Manager After Sales",
@@ -108,14 +100,6 @@
         "site": "indeed",
         "date_posted": 1785196800000,
         "url": "https://it.indeed.com/viewjob?jk=b18ffcdabe284a8e"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1785542400000,
-        "url": "https://www.linkedin.com/jobs/view/4439302592"
       },
       {
         "title": "Quality Assurance Associate - Fixed Term Contract (12 months)",
@@ -166,12 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=63fbd7da119cd659"
       },
       {
-        "title": "ADDETTO/A AL PUNTO D'ASCOLTO - GDO - SYNERGIE FILIALE DI MODENA DIREZIONALE",
+        "title": "ADDETTO/A AL FORNO CREMATORIO - SYNERGIE FILIALE DI MODENA",
         "company": "Agenzia regionale per il lavoro Emilia-Romagna",
         "score": 7,
         "site": "linkedin",
         "date_posted": 1786320000000,
-        "url": "https://www.linkedin.com/jobs/view/4451124360"
+        "url": "https://www.linkedin.com/jobs/view/4451131330"
+      },
+      {
+        "title": "Customer Success Manager (Italy)",
+        "company": "Geotab",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=e276b5612a2b3382"
+      },
+      {
+        "title": "Manager, PMO",
+        "company": "Alfasigma group",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=0b532cd64e610d42"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "quality",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
+        "word": "quality",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-75%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-76%)",
       "data": {
         "current": 1,
-        "avg": 4.0,
-        "change_pct": -75.0
+        "avg": 4.1,
+        "change_pct": -75.7
       }
     },
     {
@@ -225,54 +225,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 16,
+            "id": 1,
+            "size": 11,
             "top_terms": [
-              "quality",
-              "assurance",
-              "sotemapack"
+              "sotemapack",
+              "addetto",
+              "filiale"
             ],
-            "pct": 39.0
+            "pct": 28.9
           },
           {
             "id": 2,
-            "size": 9,
+            "size": 8,
             "top_terms": [
               "manager",
               "project",
               "italy"
             ],
-            "pct": 22.0
+            "pct": 21.1
           },
           {
-            "id": 1,
+            "id": 0,
+            "size": 7,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "alimentare"
+            ],
+            "pct": 18.4
+          },
+          {
+            "id": 3,
             "size": 6,
             "top_terms": [
               "engineer",
               "devices",
               "medical"
             ],
-            "pct": 14.6
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
-              "specialist",
-              "sales",
-              "emilia"
-            ],
-            "pct": 14.6
+            "pct": 15.8
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 6,
             "top_terms": [
-              "addetto",
-              "synergie",
-              "filiale"
+              "specialist",
+              "romagna",
+              "emilia"
             ],
-            "pct": 9.8
+            "pct": 15.8
           }
         ]
       }

@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-08-17T08:26:57.568322",
+  "generated_at": "2026-08-18T08:08:54.229250",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 162,
+  "total_jobs_analyzed": 157,
   "scoring": {
-    "average": 26.1,
+    "average": 26.4,
     "distribution": {
       "excellent": 0,
       "good": 4,
-      "medium": 66,
+      "medium": 64,
       "low": 12,
-      "irrelevant": 80
+      "irrelevant": 77
     },
     "top_jobs": [
-      {
-        "title": "MSL Manager - Metabolic Disorder",
-        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1786579200000,
-        "url": "https://www.linkedin.com/jobs/view/4444450322"
-      },
       {
         "title": "Medical Advisor Amyloidosis",
         "company": "AstraZeneca",
@@ -36,6 +28,14 @@
         "site": "linkedin",
         "date_posted": 1786406400000,
         "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
+      {
+        "title": "MSL Manager - Metabolic Disorder",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": 1786579200000,
+        "url": "https://www.linkedin.com/jobs/view/4444450322"
       },
       {
         "title": "Regional Medical Affairs Manager",
@@ -88,7 +88,7 @@
       {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426942441"
@@ -142,36 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4448175086"
       },
       {
+        "title": "Regulatory Affairs Manager (Automotive)",
+        "company": "TÜV Rheinland Group",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1785369600000,
+        "url": "https://www.linkedin.com/jobs/view/4447087054"
+      },
+      {
+        "title": "Regulatory Affairs Manager",
+        "company": "Regulatory Pharma Net - RPN",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446219644"
+      },
+      {
+        "title": "Regulatory Affairs Manager - Extra EU - Fitofarmaci/Agrofarmaci",
+        "company": "Hays",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446609915"
+      },
+      {
         "title": "Jr QA Medical Device Specialist",
         "company": "IBSA Italy",
         "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448409157"
-      },
-      {
-        "title": "Safety Scientist- Real World Evidence (RWE), EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 53,
-        "site": "indeed",
-        "date_posted": 1786320000000,
-        "url": "https://it.indeed.com/viewjob?jk=3d9f59f48ec5ca01"
-      },
-      {
-        "title": "Senior Medical Director, Italy",
-        "company": "Acadia Pharmaceuticals",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4442931545"
-      },
-      {
-        "title": "Regulatory Affairs Manager (Automotive)",
-        "company": "TÜV Rheinland Group",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1785369600000,
-        "url": "https://www.linkedin.com/jobs/view/4447087054"
       }
     ]
   },
@@ -184,11 +184,6 @@
         "reason": "Appare 13x in annunci a basso score"
       },
       {
-        "word": "cra",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
         "word": "engineer",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
@@ -199,9 +194,14 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
+        "word": "cra",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
         "word": "italy",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,53 +218,17 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "emea",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 12 (-59%)",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 12 (-66%)",
       "data": {
-        "current": 5,
-        "avg": 12.1,
-        "change_pct": -58.6
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/5 annunci da aziende nuove (20.0%)",
-      "data": {
-        "new": 1,
-        "total": 5,
-        "pct": 20.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 60% (-40pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 60.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 40% (+40pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 40.0
+        "current": 4,
+        "avg": 11.8,
+        "change_pct": -66.0
       }
     },
     {
@@ -274,54 +238,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 73,
+            "id": 1,
+            "size": 82,
             "top_terms": [
               "manager",
-              "engineer",
-              "specialist"
+              "ii",
+              "cra"
             ],
-            "pct": 45.1
+            "pct": 52.2
           },
           {
-            "id": 4,
-            "size": 30,
+            "id": 0,
+            "size": 25,
             "top_terms": [
               "medical",
               "director",
-              "devices"
+              "global"
             ],
-            "pct": 18.5
+            "pct": 15.9
           },
           {
             "id": 2,
-            "size": 26,
+            "size": 23,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 16.0
+            "pct": 14.6
           },
           {
             "id": 3,
-            "size": 18,
+            "size": 16,
             "top_terms": [
               "clinical",
               "associate",
               "research"
             ],
-            "pct": 11.1
+            "pct": 10.2
           },
           {
-            "id": 1,
-            "size": 15,
+            "id": 4,
+            "size": 11,
             "top_terms": [
-              "cra",
-              "ii",
-              "based"
+              "engineer",
+              "principal",
+              "field"
             ],
-            "pct": 9.3
+            "pct": 7.0
           }
         ]
       }

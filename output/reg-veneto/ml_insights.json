@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-17T08:26:57.686518",
+  "generated_at": "2026-08-18T08:08:54.372198",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 50,
+  "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 10.1,
+    "average": 10.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
-      "low": 2,
-      "irrelevant": 44
+      "low": 3,
+      "irrelevant": 45
     },
     "top_jobs": [
       {
@@ -46,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
+        "title": "QUALITY ASSURANCE SPECIALIST",
+        "company": "CHR S.r.l.",
+        "score": 23,
+        "site": "linkedin",
+        "date_posted": 1786838400000,
+        "url": "https://www.linkedin.com/jobs/view/4455193206"
+      },
+      {
         "title": "Aso",
         "company": "Studio dentistico Seno",
         "score": 21,
@@ -70,12 +78,12 @@
         "url": "https://www.linkedin.com/jobs/view/4448426474"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "Pietro Fiorentini",
+        "title": "Digital Marketing Specialist",
+        "company": "Busa Group",
         "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446619206"
+        "site": "indeed",
+        "date_posted": 1786924800000,
+        "url": "https://it.indeed.com/viewjob?jk=950268b94b7ec9c9"
       },
       {
         "title": "Senior GMP product quality assurance",
@@ -84,6 +92,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4445899419"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Pietro Fiorentini",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446619206"
       },
       {
         "title": "QA/RA Specialist | Medical Devices",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4445528241"
-      },
-      {
-        "title": "Sr Manager (m/f/d) Quality Breganze",
-        "company": "AGCO Corporation",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=79cd837b3946a448"
-      },
-      {
-        "title": "Manufacturing Quality Assurance Engineer",
-        "company": "Schneider Electric",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1785110400000,
-        "url": "https://www.linkedin.com/jobs/view/4445117895"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "quality",
@@ -210,42 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-78%)",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-33%)",
       "data": {
-        "current": 1,
+        "current": 3,
         "avg": 4.5,
-        "change_pct": -77.6
+        "change_pct": -32.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 27,
-            "top_terms": [
-              "italy",
-              "product",
-              "senior"
-            ],
-            "pct": 54.0
-          },
-          {
-            "id": 3,
-            "size": 10,
+            "id": 0,
+            "size": 31,
             "top_terms": [
               "specialist",
-              "marketing",
-              "sales"
+              "italy",
+              "product"
             ],
-            "pct": 20.0
+            "pct": 59.6
           },
           {
-            "id": 4,
-            "size": 6,
+            "id": 2,
+            "size": 7,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 12.0
+            "pct": 13.5
           },
           {
-            "id": 2,
+            "id": 4,
+            "size": 7,
+            "top_terms": [
+              "specialist",
+              "marketing",
+              "scientist"
+            ],
+            "pct": 13.5
+          },
+          {
+            "id": 3,
             "size": 5,
             "top_terms": [
               "manager",
               "regulatory",
               "quality"
             ],
-            "pct": 10.0
+            "pct": 9.6
           },
           {
-            "id": 0,
+            "id": 1,
             "size": 2,
             "top_terms": [
-              "venditore",
-              "specialist",
-              "assurance"
+              "management",
+              "scientist",
+              "sample"
             ],
-            "pct": 4.0
+            "pct": 3.8
           }
         ]
       }
