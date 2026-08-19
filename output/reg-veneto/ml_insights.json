@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-18T08:08:54.372198",
+  "generated_at": "2026-08-19T08:12:20.231251",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 52,
+  "total_jobs_analyzed": 51,
   "scoring": {
-    "average": 10.5,
+    "average": 11.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 3,
-      "irrelevant": 45
+      "irrelevant": 44
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 52,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -70,12 +70,28 @@
         "url": "https://it.indeed.com/viewjob?jk=1d13a9f9dc1466d1"
       },
       {
+        "title": "Project Manager (m/f) - Refrigerazione industriale e gestione commesse",
+        "company": "FRIGOVENETA SPA",
+        "score": 19,
+        "site": "indeed",
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=8e3e8f4714da0e80"
+      },
+      {
         "title": "Specialista Qualità ISO 13485 e MDR | Medical Device",
         "company": "MAW",
         "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448426474"
+      },
+      {
+        "title": "QA/RA Specialist | Medical Devices",
+        "company": "Mynameis",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448770108"
       },
       {
         "title": "Digital Marketing Specialist",
@@ -102,14 +118,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446619206"
       },
       {
-        "title": "QA/RA Specialist | Medical Devices",
-        "company": "Mynameis",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448770108"
-      },
-      {
         "title": "HR JR",
         "company": "GPS SRLS",
         "score": 13,
@@ -118,36 +126,36 @@
         "url": "https://it.indeed.com/viewjob?jk=d2fabff9cdcad995"
       },
       {
-        "title": "Hygene Manager",
-        "company": "Four Seasons",
-        "score": 11,
+        "title": "QUALITY ASSISTANT",
+        "company": "Medency",
+        "score": 12,
         "site": "indeed",
-        "date_posted": 1786406400000,
-        "url": "https://it.indeed.com/viewjob?jk=dc7086eeeead455b"
-      },
-      {
-        "title": "HR Administration Specialist",
-        "company": "STUDIO NECCHIO",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=8e4de74ab8408a53"
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=d1f8caa2dfc35354"
       },
       {
         "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
         "company": "GSK",
-        "score": 10,
+        "score": 11,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4437692572"
       },
       {
-        "title": "Sales Specialist - Triveneto ed Emilia Romagna",
-        "company": "INSTRUMENTATION LABORATORY SpA",
+        "title": "DENTAL ASSISTANT",
+        "company": "US Military Treatment Facilities under DHA",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1786492800000,
-        "url": "https://it.indeed.com/viewjob?jk=a4703ab6c136c882"
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=019646dfecc40d7f"
+      },
+      {
+        "title": "Progettista Elettrico (m/f) - Refrigerazione industriale e automazione",
+        "company": "FRIGOVENETA SPA",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=7a41bc94932e52c3"
       },
       {
         "title": "Project Manager - Lean Lab Efficiency",
@@ -158,20 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=72291ed06614bebd"
       },
       {
-        "title": "Program Specialist (Student Transportation)",
-        "company": "US Department of War Education Activity",
+        "title": "Sales Specialist - Triveneto ed Emilia Romagna",
+        "company": "INSTRUMENTATION LABORATORY SpA",
         "score": 9,
         "site": "indeed",
-        "date_posted": 1786406400000,
-        "url": "https://it.indeed.com/viewjob?jk=9eefc30762d32ea0"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "Adecco",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4445528241"
+        "date_posted": 1786492800000,
+        "url": "https://it.indeed.com/viewjob?jk=a4703ab6c136c882"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "quality",
@@ -190,18 +190,18 @@
       },
       {
         "word": "assurance",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "senior",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "senior",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +209,42 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "new_company_surge",
       "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-33%)",
+      "message": "🆕 FRIGOVENETA SPA: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 3,
-        "avg": 4.5,
-        "change_pct": -32.7
+        "company": "FRIGOVENETA SPA",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
       "data": {
         "new": 3,
-        "total": 3,
-        "pct": 100.0
+        "total": 4,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,54 +254,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 31,
+            "id": 1,
+            "size": 27,
             "top_terms": [
-              "specialist",
-              "italy",
-              "product"
+              "assistant",
+              "engineer",
+              "planner"
             ],
-            "pct": 59.6
+            "pct": 52.9
           },
           {
             "id": 2,
-            "size": 7,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "engineer"
-            ],
-            "pct": 13.5
-          },
-          {
-            "id": 4,
-            "size": 7,
+            "size": 10,
             "top_terms": [
               "specialist",
               "marketing",
-              "scientist"
+              "sales"
             ],
-            "pct": 13.5
+            "pct": 19.6
           },
           {
             "id": 3,
+            "size": 6,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 11.8
+          },
+          {
+            "id": 0,
             "size": 5,
             "top_terms": [
               "manager",
-              "regulatory",
-              "quality"
+              "project",
+              "regulatory"
             ],
-            "pct": 9.6
+            "pct": 9.8
           },
           {
-            "id": 1,
-            "size": 2,
+            "id": 4,
+            "size": 3,
             "top_terms": [
-              "management",
-              "scientist",
-              "sample"
+              "italy",
+              "regulatory",
+              "specialist"
             ],
-            "pct": 3.8
+            "pct": 5.9
           }
         ]
       }

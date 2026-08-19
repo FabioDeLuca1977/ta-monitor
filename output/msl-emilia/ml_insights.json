@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T08:08:54.264803",
+  "generated_at": "2026-08-19T08:12:20.173366",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 21,
+  "total_jobs_analyzed": 22,
   "scoring": {
     "average": 18.1,
     "distribution": {
@@ -10,7 +10,7 @@
       "good": 1,
       "medium": 5,
       "low": 2,
-      "irrelevant": 13
+      "irrelevant": 14
     },
     "top_jobs": [
       {
@@ -72,10 +72,18 @@
       {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
-        "score": 24,
+        "score": 23,
         "site": "linkedin",
         "date_posted": 1785369600000,
         "url": "https://www.linkedin.com/jobs/view/4439793891"
+      },
+      {
+        "title": "QA & RA Manager | Medical Devices",
+        "company": "Hays",
+        "score": 19,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
         "title": "Field Service Engineer-Medical Devices",
@@ -142,14 +150,6 @@
         "url": "https://it.indeed.com/viewjob?jk=0ae79cc7b770b5f5"
       },
       {
-        "title": "Founding Simulation Engineer - Multibody & FEM",
-        "company": null,
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=06aa5ce1843d60e5"
-      },
-      {
         "title": "Quality Engineer",
         "company": "LivaNova",
         "score": 0,
@@ -159,19 +159,19 @@
       },
       {
         "title": "Founding Simulation Engineer - Multibody & FEM",
-        "company": "Liablix",
+        "company": null,
         "score": 0,
         "site": "indeed",
         "date_posted": 1783382400000,
         "url": "https://it.indeed.com/viewjob?jk=06aa5ce1843d60e5"
       },
       {
-        "title": "SALES PROMOTER - Emilia Romagna",
-        "company": "B. Braun Milano S.P.A.",
+        "title": "Founding Simulation Engineer - Multibody & FEM",
+        "company": "Liablix",
         "score": 0,
         "site": "indeed",
-        "date_posted": 1785801600000,
-        "url": "https://it.indeed.com/viewjob?jk=7354a17d28d3aa72"
+        "date_posted": 1783382400000,
+        "url": "https://it.indeed.com/viewjob?jk=06aa5ce1843d60e5"
       }
     ]
   },
@@ -182,6 +182,11 @@
         "word": "engineer",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "devices",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -191,11 +196,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-55%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
       "data": {
         "current": 1,
-        "avg": 2.2,
-        "change_pct": -55.0
+        "avg": 2.3,
+        "change_pct": -57.1
       }
     },
     {
@@ -215,44 +220,44 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 10,
+            "id": 0,
+            "size": 12,
             "top_terms": [
-              "clinical",
-              "manager",
+              "engineer",
+              "affairs",
               "specialist"
             ],
-            "pct": 47.6
+            "pct": 54.5
+          },
+          {
+            "id": 1,
+            "size": 5,
+            "top_terms": [
+              "manager",
+              "medical",
+              "devices"
+            ],
+            "pct": 22.7
           },
           {
             "id": 2,
-            "size": 6,
+            "size": 3,
             "top_terms": [
-              "engineer",
-              "devices",
-              "medical"
+              "clinical",
+              "specialist",
+              "simulation"
             ],
-            "pct": 28.6
+            "pct": 13.6
           },
           {
             "id": 3,
-            "size": 3,
-            "top_terms": [
-              "junior",
-              "specialist",
-              "reconstruction"
-            ],
-            "pct": 14.3
-          },
-          {
-            "id": 0,
             "size": 2,
             "top_terms": [
               "romagna",
               "emilia",
               "specialist"
             ],
-            "pct": 9.5
+            "pct": 9.1
           }
         ]
       }
