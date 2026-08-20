@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:12:20.173366",
+  "generated_at": "2026-08-20T08:16:45.534243",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 22,
@@ -196,11 +196,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-62%)",
       "data": {
         "current": 1,
-        "avg": 2.3,
-        "change_pct": -57.1
+        "avg": 2.6,
+        "change_pct": -61.9
       }
     },
     {
@@ -230,7 +230,7 @@
             "pct": 54.5
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "manager",
@@ -240,7 +240,7 @@
             "pct": 22.7
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 3,
             "top_terms": [
               "clinical",

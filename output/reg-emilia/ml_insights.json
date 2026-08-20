@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-19T08:12:20.338381",
+  "generated_at": "2026-08-20T08:16:45.776865",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 35,
+  "total_jobs_analyzed": 36,
   "scoring": {
-    "average": 11.0,
+    "average": 11.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
-      "low": 0,
+      "low": 1,
       "irrelevant": 31
     },
     "top_jobs": [
@@ -46,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4446618856"
       },
       {
+        "title": "TRAINING SPECIALIST FONDI INTERPROFESSIONALI – CONTO SISTEMA",
+        "company": "Talentform",
+        "score": 20,
+        "site": "linkedin",
+        "date_posted": 1787011200000,
+        "url": "https://www.linkedin.com/jobs/view/4446801074"
+      },
+      {
         "title": "Project Manager - Medical Device",
         "company": "Jefferson Wells Italia",
         "score": 19,
@@ -70,12 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4444485295"
       },
       {
-        "title": "Sales Specialist - Triveneto ed Emilia Romagna",
-        "company": "INSTRUMENTATION LABORATORY SpA",
-        "score": 10,
+        "title": "Addetto/a Distribuzione Materiale Informativo Energia",
+        "company": "DMB",
+        "score": 12,
         "site": "indeed",
-        "date_posted": 1786492800000,
-        "url": "https://it.indeed.com/viewjob?jk=ad6393951804f73a"
+        "date_posted": 1787097600000,
+        "url": "https://it.indeed.com/viewjob?jk=e38ff30500a9d31b"
+      },
+      {
+        "title": "Quality Assurance Internship (Open also To Protected Categories, Law 68/99)",
+        "company": "Thales",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1786838400000,
+        "url": "https://www.linkedin.com/jobs/view/4436911111"
       },
       {
         "title": "Quality Assurance",
@@ -94,27 +110,11 @@
         "url": "https://www.linkedin.com/jobs/view/4444934342"
       },
       {
-        "title": "Strategic R&D Manager - Wound Management",
-        "company": "B. Braun Avitum Italy S.p.A.",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
-      },
-      {
-        "title": "Quality Assurance Supervisor",
-        "company": "Phibro Animal Health",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439426514"
-      },
-      {
         "title": "QUALITY ASSURANCE ALIMENTARE",
         "company": "Grafton Recruitment",
         "score": 7,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785801600000,
         "url": "https://www.linkedin.com/jobs/view/4446615735"
       },
       {
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4451131330"
       },
       {
-        "title": "Supervisor, Manufacturing Engineer - Medical Devices",
-        "company": "Jefferson Wells Italia",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4447277914"
-      },
-      {
         "title": "Customer Success Manager (Italy)",
         "company": "Geotab",
         "score": 6,
@@ -166,6 +158,14 @@
         "url": "https://it.indeed.com/viewjob?jk=0b532cd64e610d42"
       },
       {
+        "title": "Supervisor, Manufacturing Engineer - Medical Devices",
+        "company": "Jefferson Wells Italia",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": 1785715200000,
+        "url": "https://www.linkedin.com/jobs/view/4447277914"
+      },
+      {
         "title": "Field Service Engineer-Medical Devices",
         "company": "IQVIA Italia",
         "score": 6,
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "manager",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "quality",
@@ -209,13 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-74%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "current": 1,
-        "avg": 3.8,
-        "change_pct": -73.5
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -228,51 +248,51 @@
             "id": 0,
             "size": 11,
             "top_terms": [
+              "engineer",
               "sotemapack",
-              "addetto",
-              "synergie"
+              "devices"
             ],
-            "pct": 31.4
+            "pct": 30.6
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 8,
             "top_terms": [
               "manager",
               "medical",
               "italy"
             ],
-            "pct": 22.9
-          },
-          {
-            "id": 1,
-            "size": 6,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "manufacturing"
-            ],
-            "pct": 17.1
-          },
-          {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "sales",
-              "regulatory"
-            ],
-            "pct": 14.3
+            "pct": 22.2
           },
           {
             "id": 4,
+            "size": 8,
+            "top_terms": [
+              "specialist",
+              "sales",
+              "sistema"
+            ],
+            "pct": 22.2
+          },
+          {
+            "id": 3,
             "size": 5,
             "top_terms": [
-              "engineer",
-              "devices",
-              "medical"
+              "addetto",
+              "filiale",
+              "synergie"
             ],
-            "pct": 14.3
+            "pct": 13.9
+          },
+          {
+            "id": 2,
+            "size": 4,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "alimentare"
+            ],
+            "pct": 11.1
           }
         ]
       }

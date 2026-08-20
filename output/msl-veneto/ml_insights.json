@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-19T08:12:20.093484",
+  "generated_at": "2026-08-20T08:16:45.411106",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 23,
+  "total_jobs_analyzed": 22,
   "scoring": {
-    "average": 18.7,
+    "average": 17.5,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 7,
+      "medium": 6,
       "low": 2,
       "irrelevant": 14
     },
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": 1785801600000,
         "url": "https://www.linkedin.com/jobs/view/4448273584"
-      },
-      {
-        "title": "Manager – Global Regulatory Affairs",
-        "company": "Taevas Life Sciences",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1785369600000,
-        "url": "https://www.linkedin.com/jobs/view/4446470745"
       },
       {
         "title": "Come diventare CRA: guida passo passo per una carriera nel Clinical Research",
@@ -102,12 +94,12 @@
         "url": "https://it.indeed.com/viewjob?jk=019646dfecc40d7f"
       },
       {
-        "title": "CLINICAL PSYCHOLOGIST (PEDIATRICS)",
-        "company": "US Military Treatment Facilities under DHA",
-        "score": 6,
+        "title": "Administrative Support Assistant (CYS) (Developmental) NF-02/03",
+        "company": null,
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1786492800000,
-        "url": "https://it.indeed.com/viewjob?jk=8f9f66566c796697"
+        "date_posted": 1787097600000,
+        "url": "https://it.indeed.com/viewjob?jk=ce56544a50baa718"
       },
       {
         "title": "COMUNE DI PIOVE DI SACCO - AVVISO PUBBLICO MANIFESTAZIONE D'INTERESSE PER L'INCARICO DI NUCLEO DI VALUTAZIONE IN  FORMA MONOCRATICA",
@@ -126,36 +118,12 @@
         "url": "https://it.indeed.com/viewjob?jk=9eefc30762d32ea0"
       },
       {
-        "title": "DOL TAP Facilitator - (Part-time) - Vicenza, Italy",
-        "company": "Serco",
-        "score": 0,
+        "title": "CLINICAL PSYCHOLOGIST (PEDIATRICS)",
+        "company": "US Military Treatment Facilities under DHA",
+        "score": 1,
         "site": "indeed",
-        "date_posted": 1785542400000,
-        "url": "https://it.indeed.com/viewjob?jk=16666a01497361fe"
-      },
-      {
-        "title": "Food and Beverage Attendant NA-02",
-        "company": null,
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=454959b0585c517e"
-      },
-      {
-        "title": "SAP SD Consultant (m/f/d)",
-        "company": "SteelcoBelimed Inc.",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1785369600000,
-        "url": "https://it.indeed.com/viewjob?jk=0f86cb32c06f103e"
-      },
-      {
-        "title": "Food Service Worker NA-02",
-        "company": null,
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=5921f0e2c2f2d4d6"
+        "date_posted": 1786492800000,
+        "url": "https://it.indeed.com/viewjob?jk=8f9f66566c796697"
       },
       {
         "title": "Sports and Fitness Director (CYS) NF-04",
@@ -166,12 +134,44 @@
         "url": "https://it.indeed.com/viewjob?jk=eb278c2803192c13"
       },
       {
+        "title": "DOL TAP Facilitator - (Part-time) - Vicenza, Italy",
+        "company": "Serco",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=cea82aa16a57595b"
+      },
+      {
+        "title": "Food and Beverage Attendant NA-02",
+        "company": null,
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=454959b0585c517e"
+      },
+      {
         "title": "INFERMIERE/A LIBERO PROFESSIONISTA A VENEZIA E PROVINCIA",
         "company": "ItaliAssistenza",
         "score": 0,
         "site": "indeed",
         "date_posted": 1785888000000,
         "url": "https://it.indeed.com/viewjob?jk=57c0167db277097f"
+      },
+      {
+        "title": "Food Service Worker NA-02",
+        "company": null,
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1785456000000,
+        "url": "https://it.indeed.com/viewjob?jk=5921f0e2c2f2d4d6"
+      },
+      {
+        "title": "Production Supervisor",
+        "company": "Vertiv",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=5b7ad706498f59c1"
       }
     ]
   },
@@ -183,23 +183,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-62%)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "current": 1,
+        "avg": 2.6,
+        "change_pct": -61.9
       }
     },
     {
@@ -209,14 +199,14 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 12,
+            "id": 1,
+            "size": 11,
             "top_terms": [
               "nf",
-              "na",
-              "food"
+              "02",
+              "assistant"
             ],
-            "pct": 52.2
+            "pct": 50.0
           },
           {
             "id": 0,
@@ -226,27 +216,27 @@
               "informatore",
               "medico"
             ],
-            "pct": 17.4
+            "pct": 18.2
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "specialist",
               "trach",
               "clinical"
             ],
-            "pct": 17.4
+            "pct": 18.2
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 3,
             "top_terms": [
               "clinical",
               "research",
-              "specialist"
+              "trach"
             ],
-            "pct": 13.0
+            "pct": 13.6
           }
         ]
       }
