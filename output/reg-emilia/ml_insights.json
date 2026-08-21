@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-20T08:16:45.776865",
+  "generated_at": "2026-08-21T08:18:11.109900",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 36,
+  "total_jobs_analyzed": 37,
   "scoring": {
-    "average": 11.4,
+    "average": 11.7,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 3,
+      "good": 2,
+      "medium": 2,
       "low": 1,
-      "irrelevant": 31
+      "irrelevant": 32
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785888000000,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 58,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
@@ -32,18 +32,18 @@
       {
         "title": "CDI - Global GMP Compliance Training Lead – Manufacturing & Quality F/H",
         "company": "Eli Lilly and Company",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441259376"
       },
       {
-        "title": "Salesforce Marketing Cloud Specialist",
-        "company": "Credem Banca",
-        "score": 41,
+        "title": "Ecommerce Marketplace Specialist",
+        "company": "ghd",
+        "score": 43,
         "site": "linkedin",
-        "date_posted": 1785801600000,
-        "url": "https://www.linkedin.com/jobs/view/4446618856"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4457094559"
       },
       {
         "title": "TRAINING SPECIALIST FONDI INTERPROFESSIONALI – CONTO SISTEMA",
@@ -54,12 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446801074"
       },
       {
-        "title": "Project Manager - Medical Device",
-        "company": "Jefferson Wells Italia",
+        "title": "Business Line Product Steward - Specialist",
+        "company": "Celanese",
         "score": 19,
-        "site": "linkedin",
-        "date_posted": 1785369600000,
-        "url": "https://www.linkedin.com/jobs/view/4439793891"
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
+      },
+      {
+        "title": "EE190: Operations Quality Associate / Specialist / Snr. Specialist",
+        "company": "FedEx",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=ab27d9a80be117ce"
       },
       {
         "title": "QA & RA Manager | Medical Devices",
@@ -118,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4446615735"
       },
       {
+        "title": "Quality Assurance Senior– Cluster Cocoa Products",
+        "company": "Unigrà",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4449871845"
+      },
+      {
         "title": "HSE Manager",
         "company": "AEP Ticketing solutions",
         "score": 7,
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1785456000000,
         "url": "https://it.indeed.com/viewjob?jk=0b532cd64e610d42"
-      },
-      {
-        "title": "Supervisor, Manufacturing Engineer - Medical Devices",
-        "company": "Jefferson Wells Italia",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4447277914"
-      },
-      {
-        "title": "Field Service Engineer-Medical Devices",
-        "company": "IQVIA Italia",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4439830287"
       }
     ]
   },
@@ -179,14 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "quality",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "manager",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -199,7 +199,7 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "medical",
+        "word": "modena",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -221,20 +221,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 indeed: quota passata da 33% a 67% (+33pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
+        "channel": "indeed",
+        "old_pct": 33.3,
         "new_pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 33% (-33pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
+        "channel": "linkedin",
+        "old_pct": 66.7,
         "new_pct": 33.3
       }
     },
@@ -246,33 +246,33 @@
         "clusters": [
           {
             "id": 0,
-            "size": 11,
+            "size": 13,
             "top_terms": [
-              "engineer",
-              "sotemapack",
-              "devices"
+              "assurance",
+              "quality",
+              "sotemapack"
             ],
-            "pct": 30.6
+            "pct": 35.1
           },
           {
             "id": 1,
             "size": 8,
             "top_terms": [
-              "manager",
-              "medical",
-              "italy"
-            ],
-            "pct": 22.2
-          },
-          {
-            "id": 4,
-            "size": 8,
-            "top_terms": [
               "specialist",
               "sales",
-              "sistema"
+              "business"
             ],
-            "pct": 22.2
+            "pct": 21.6
+          },
+          {
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "engineer",
+              "devices",
+              "medical"
+            ],
+            "pct": 16.2
           },
           {
             "id": 3,
@@ -282,17 +282,17 @@
               "filiale",
               "synergie"
             ],
-            "pct": 13.9
+            "pct": 13.5
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "assurance",
-              "quality",
-              "alimentare"
+              "manager",
+              "italy",
+              "quality"
             ],
-            "pct": 11.1
+            "pct": 13.5
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-20T08:16:45.380699",
+  "generated_at": "2026-08-21T08:18:10.675098",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 210,
+  "total_jobs_analyzed": 196,
   "scoring": {
-    "average": 23.0,
+    "average": 23.4,
     "distribution": {
-      "excellent": 1,
-      "good": 11,
-      "medium": 40,
+      "excellent": 0,
+      "good": 15,
+      "medium": 33,
       "low": 55,
-      "irrelevant": 103
+      "irrelevant": 93
     },
     "top_jobs": [
       {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
         "company": "Marriott International",
-        "score": 80,
+        "score": 79,
         "site": "indeed",
         "date_posted": 1787097600000,
         "url": "https://it.indeed.com/viewjob?jk=d2927386b2f5c9ff"
@@ -30,12 +30,28 @@
         "url": "https://it.indeed.com/viewjob?jk=353cf874af2f3da9"
       },
       {
+        "title": "HR Talent Acquisition & Employer Branding Intern",
+        "company": "Ayvens",
+        "score": 70,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4454153464"
+      },
+      {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
         "score": 68,
         "site": "indeed",
         "date_posted": 1786320000000,
         "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
+      },
+      {
+        "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
+        "company": "Ablio",
+        "score": 68,
+        "site": "indeed",
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
       },
       {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
@@ -46,12 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4453052619"
       },
       {
-        "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
+        "title": "HR generalist per soluzioni gestione acqua domestica",
         "company": "Ablio",
         "score": 67,
         "site": "indeed",
-        "date_posted": 1787011200000,
-        "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=82d0d8b0748ece23"
       },
       {
         "title": "HR Talent Acquisition Intern",
@@ -110,36 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4448408451"
       },
       {
-        "title": "Addetto/a selezione personale per servizi call center",
-        "company": "Cosma solution",
-        "score": 59,
-        "site": "indeed",
-        "date_posted": 1786924800000,
-        "url": "https://it.indeed.com/viewjob?jk=a3db5ea0f887d3ed"
-      },
-      {
-        "title": "Junior HR Generalist",
-        "company": "LDC Hotels Italy",
-        "score": 58,
+        "title": "HR Generalist",
+        "company": "Elecnor Italia",
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4454398929"
-      },
-      {
-        "title": "Addetto/a ricerca e selezione del personale junior",
-        "company": "Tuolavoro-Lazio",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4448230309"
-      },
-      {
-        "title": "HR Generalist per attività di assistenza alla vendita",
-        "company": "key-absolute",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4448234239"
+        "url": "https://www.linkedin.com/jobs/view/4456460710"
       },
       {
         "title": "HR recruiter",
@@ -156,6 +148,14 @@
         "site": "indeed",
         "date_posted": 1786665600000,
         "url": "https://it.indeed.com/viewjob?jk=68397f41e6269478"
+      },
+      {
+        "title": "Junior HR Generalist",
+        "company": "LDC Hotels Italy",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4454398929"
       },
       {
         "title": "Addetto/a recruiting per commercio all'ingrosso",
@@ -180,41 +180,41 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 45,
-        "reason": "Appare 45x in annunci a basso score"
+        "count": 39,
+        "reason": "Appare 39x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 45,
-        "reason": "Appare 45x in annunci a basso score"
+        "count": 39,
+        "reason": "Appare 39x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 37,
-        "reason": "Appare 37x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "roma",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
-        "word": "responsabile",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "assistant",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
-      "keyword": "intern",
-      "frequency": 4,
+      "keyword": "junior",
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
+      "confidence": 50
     },
     {
-      "keyword": "junior",
+      "keyword": "intern",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
@@ -232,9 +232,9 @@
       "confidence": 30
     },
     {
-      "keyword": "acqua",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
+      "keyword": "umane junior",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
@@ -242,27 +242,29 @@
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "soluzioni",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "acqua",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 10 annunci ultimo scan vs media 14 (-30%)",
-      "data": {
-        "current": 10,
-        "avg": 14.3,
-        "change_pct": -30.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/10 annunci da aziende nuove (40.0%)",
+      "message": "📊 Ultimo scan: 3/12 annunci da aziende nuove (25.0%)",
       "data": {
-        "new": 4,
-        "total": 10,
-        "pct": 40.0
+        "new": 3,
+        "total": 12,
+        "pct": 25.0
       }
     },
     {
@@ -275,51 +277,51 @@
             "id": 0,
             "size": 90,
             "top_terms": [
-              "roma",
-              "addetto",
-              "personale"
+              "specialist",
+              "recruitment",
+              "associate"
             ],
-            "pct": 42.9
-          },
-          {
-            "id": 2,
-            "size": 59,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 28.1
-          },
-          {
-            "id": 3,
-            "size": 29,
-            "top_terms": [
-              "hr",
-              "manager",
-              "partner"
-            ],
-            "pct": 13.8
+            "pct": 45.9
           },
           {
             "id": 4,
-            "size": 21,
+            "size": 44,
             "top_terms": [
-              "specialist",
-              "associate",
-              "talent"
+              "umane",
+              "risorse",
+              "addetto"
             ],
-            "pct": 10.0
+            "pct": 22.4
           },
           {
             "id": 1,
-            "size": 11,
+            "size": 36,
             "top_terms": [
-              "junior",
-              "generalist",
-              "hr"
+              "hr",
+              "business",
+              "generalist"
             ],
-            "pct": 5.2
+            "pct": 18.4
+          },
+          {
+            "id": 2,
+            "size": 16,
+            "top_terms": [
+              "personale",
+              "selezione",
+              "addetto"
+            ],
+            "pct": 8.2
+          },
+          {
+            "id": 3,
+            "size": 10,
+            "top_terms": [
+              "responsabile",
+              "clienti",
+              "benessere"
+            ],
+            "pct": 5.1
           }
         ]
       }

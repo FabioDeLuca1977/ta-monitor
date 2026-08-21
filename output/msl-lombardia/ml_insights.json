@@ -1,34 +1,18 @@
 {
-  "generated_at": "2026-08-20T08:16:45.502452",
+  "generated_at": "2026-08-21T08:18:10.805274",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 156,
+  "total_jobs_analyzed": 139,
   "scoring": {
-    "average": 26.9,
+    "average": 27.1,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 63,
-      "low": 12,
-      "irrelevant": 76
+      "good": 3,
+      "medium": 59,
+      "low": 11,
+      "irrelevant": 66
     },
     "top_jobs": [
-      {
-        "title": "Compliance & Regulatory Affairs Manager",
-        "company": "ReeVo Cloud & Cyber Security",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1786924800000,
-        "url": "https://www.linkedin.com/jobs/view/4436040335"
-      },
-      {
-        "title": "MSL Manager - Metabolic Disorder",
-        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": 1786579200000,
-        "url": "https://www.linkedin.com/jobs/view/4444450322"
-      },
       {
         "title": "Medical Advisor Amyloidosis",
         "company": "AstraZeneca",
@@ -58,31 +42,47 @@
         "company": "Genmab",
         "score": 58,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785888000000,
         "url": "https://www.linkedin.com/jobs/view/4431241411"
       },
       {
-        "title": "Junior Medical Science Liaison Asma (Sicilia, Calabria) (Sost. Maternità)",
-        "company": "AstraZeneca",
+        "title": "MSL Manager - Metabolic Disorder",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 58,
-        "site": "indeed",
-        "date_posted": 1787011200000,
-        "url": "https://it.indeed.com/viewjob?jk=5a71a24185e51637"
+        "site": "linkedin",
+        "date_posted": 1786579200000,
+        "url": "https://www.linkedin.com/jobs/view/4444450322"
+      },
+      {
+        "title": "Compliance & Regulatory Affairs Manager",
+        "company": "ReeVo Cloud & Cyber Security",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1786924800000,
+        "url": "https://www.linkedin.com/jobs/view/4436040335"
       },
       {
         "title": "Medical Monitor (Gastroenterology)",
         "company": "PSI CRO",
         "score": 57,
         "site": "linkedin",
-        "date_posted": 1785369600000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446746491"
+      },
+      {
+        "title": "Junior Medical Science Liaison Asma (Sicilia, Calabria) (Sost. Maternità)",
+        "company": "AstraZeneca",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=5a71a24185e51637"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
         "company": "QVC Italy",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785888000000,
         "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
@@ -112,18 +112,10 @@
       {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4426942441"
-      },
-      {
-        "title": "(Associate) Medical Director - Rheumatology, EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1785974400000,
-        "url": "https://www.linkedin.com/jobs/view/4429846484"
       },
       {
         "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
@@ -134,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441504705"
       },
       {
-        "title": "Regulatory Affairs Manager",
-        "company": "Regulatory Pharma Net - RPN",
+        "title": "Medical Science Liaison, North Italy",
+        "company": "argenx",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4446219644"
+        "url": "https://www.linkedin.com/jobs/view/4446213945"
       },
       {
         "title": "Health Economics and Market Access (HEMA)- Talent Community",
@@ -150,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4448175086"
       },
       {
+        "title": "Regulatory Affairs Manager",
+        "company": "Regulatory Pharma Net - RPN",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1785715200000,
+        "url": "https://www.linkedin.com/jobs/view/4446219644"
+      },
+      {
         "title": "Regulatory Affairs Manager - Extra EU - Fitofarmaci/Agrofarmaci",
         "company": "Hays",
         "score": 53,
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446609915"
       },
       {
+        "title": "(Associate) Medical Director - Rheumatology, EMEA",
+        "company": "Thermo Fisher Scientific",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1785974400000,
+        "url": "https://www.linkedin.com/jobs/view/4429846484"
+      },
+      {
         "title": "Regulatory Affairs Manager (Automotive)",
         "company": "TÜV Rheinland Group",
         "score": 53,
         "site": "linkedin",
         "date_posted": 1785801600000,
         "url": "https://www.linkedin.com/jobs/view/4447087054"
-      },
-      {
-        "title": "Medical Science Liaison, North Italy",
-        "company": "argenx",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4446213945"
       }
     ]
   },
@@ -180,13 +180,8 @@
     "add_blacklist": [
       {
         "word": "senior",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -194,14 +189,19 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
+        "word": "specialist",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
         "word": "cra",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "clinical",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -234,13 +234,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 10 (-71%)",
+      "data": {
+        "current": 3,
+        "avg": 10.5,
+        "change_pct": -71.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/10 annunci da aziende nuove (60.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 6,
-        "total": 10,
-        "pct": 60.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -250,28 +280,28 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 77,
+            "id": 0,
+            "size": 72,
             "top_terms": [
               "manager",
-              "cra",
-              "specialist"
-            ],
-            "pct": 49.4
-          },
-          {
-            "id": 0,
-            "size": 28,
-            "top_terms": [
               "medical",
-              "director",
-              "devices"
+              "cra"
             ],
-            "pct": 17.9
+            "pct": 51.8
           },
           {
             "id": 1,
-            "size": 19,
+            "size": 17,
+            "top_terms": [
+              "director",
+              "medical",
+              "global"
+            ],
+            "pct": 12.2
+          },
+          {
+            "id": 2,
+            "size": 17,
             "top_terms": [
               "engineer",
               "senior",
@@ -283,21 +313,21 @@
             "id": 3,
             "size": 17,
             "top_terms": [
+              "clinical",
+              "research",
+              "associate"
+            ],
+            "pct": 12.2
+          },
+          {
+            "id": 4,
+            "size": 16,
+            "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 10.9
-          },
-          {
-            "id": 4,
-            "size": 15,
-            "top_terms": [
-              "associate",
-              "research",
-              "clinical"
-            ],
-            "pct": 9.6
+            "pct": 11.5
           }
         ]
       }
