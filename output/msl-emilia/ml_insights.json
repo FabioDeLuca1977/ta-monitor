@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-21T08:18:10.838316",
+  "generated_at": "2026-08-22T08:08:59.232196",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 20,
+  "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 18.5,
+    "average": 18.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 5,
       "low": 2,
-      "irrelevant": 13
+      "irrelevant": 14
     },
     "top_jobs": [
       {
@@ -88,7 +88,7 @@
       {
         "title": "Field Service Engineer-Medical Devices",
         "company": "IQVIA Italia",
-        "score": 12,
+        "score": 13,
         "site": "linkedin",
         "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4439830287"
@@ -100,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1785715200000,
         "url": "https://www.linkedin.com/jobs/view/4447277914"
+      },
+      {
+        "title": "Senior System Verification Engineer",
+        "company": "LivaNova",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1787270400000,
+        "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
       },
       {
         "title": "Strategic R&D Manager - Wound Management",
@@ -134,12 +142,12 @@
         "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
       },
       {
-        "title": "R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
+        "title": "SALES PROMOTER - Emilia Romagna",
+        "company": "B. Braun Milano S.P.A.",
         "score": 0,
         "site": "indeed",
-        "date_posted": 1785196800000,
-        "url": "https://it.indeed.com/viewjob?jk=0ae79cc7b770b5f5"
+        "date_posted": 1785801600000,
+        "url": "https://it.indeed.com/viewjob?jk=7354a17d28d3aa72"
       },
       {
         "title": "Quality Engineer",
@@ -158,20 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=06aa5ce1843d60e5"
       },
       {
-        "title": "SALES PROMOTER - Emilia Romagna",
-        "company": "B. Braun Milano S.P.A.",
+        "title": "R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
         "score": 0,
         "site": "indeed",
-        "date_posted": 1785801600000,
-        "url": "https://it.indeed.com/viewjob?jk=7354a17d28d3aa72"
-      },
-      {
-        "title": "IMPIEGATO/A UFFICIO AMMINISTRAZIONE VENDITE ITALIA - SYNERGIE FILIALE DI MODENA DIREZIONALE",
-        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
-        "score": 0,
-        "site": "linkedin",
-        "date_posted": 1786320000000,
-        "url": "https://www.linkedin.com/jobs/view/4451131328"
+        "date_posted": 1786060800000,
+        "url": "https://it.indeed.com/viewjob?jk=eb596735e1274605"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "medical",
@@ -201,41 +201,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-58%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-60%)",
       "data": {
         "current": 1,
-        "avg": 2.4,
-        "change_pct": -57.9
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "avg": 2.5,
+        "change_pct": -60.0
       }
     },
     {
@@ -252,37 +222,37 @@
               "affairs",
               "clinical"
             ],
-            "pct": 50.0
+            "pct": 47.6
           },
           {
             "id": 1,
-            "size": 5,
+            "size": 6,
+            "top_terms": [
+              "engineer",
+              "devices",
+              "medical"
+            ],
+            "pct": 28.6
+          },
+          {
+            "id": 3,
+            "size": 3,
             "top_terms": [
               "manager",
               "medical",
               "devices"
             ],
-            "pct": 25.0
+            "pct": 14.3
           },
           {
             "id": 2,
-            "size": 3,
-            "top_terms": [
-              "engineer",
-              "product",
-              "specialist"
-            ],
-            "pct": 15.0
-          },
-          {
-            "id": 3,
             "size": 2,
             "top_terms": [
               "romagna",
               "emilia",
-              "specialist"
+              "regulatory"
             ],
-            "pct": 10.0
+            "pct": 9.5
           }
         ]
       }
