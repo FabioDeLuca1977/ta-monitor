@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-22T08:08:59.232196",
+  "generated_at": "2026-08-23T08:13:16.767783",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 21,
+  "total_jobs_analyzed": 19,
   "scoring": {
-    "average": 18.1,
+    "average": 17.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 5,
+      "medium": 4,
       "low": 2,
-      "irrelevant": 14
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
-        "score": 45,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
@@ -44,14 +44,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
-      },
-      {
-        "title": "MSL Centro (Emilia-Romagna, Marche)",
-        "company": "Jefferson Wells Italia",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1785283200000,
-        "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
         "title": "Tumori Genitourinari",
@@ -86,14 +78,6 @@
         "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
       },
       {
-        "title": "Field Service Engineer-Medical Devices",
-        "company": "IQVIA Italia",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4439830287"
-      },
-      {
         "title": "Supervisor, Manufacturing Engineer - Medical Devices",
         "company": "Jefferson Wells Italia",
         "score": 12,
@@ -102,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4447277914"
       },
       {
+        "title": "Field Service Engineer-Medical Devices",
+        "company": "IQVIA Italia",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1785456000000,
+        "url": "https://www.linkedin.com/jobs/view/4439830287"
+      },
+      {
         "title": "Senior System Verification Engineer",
         "company": "LivaNova",
         "score": 10,
         "site": "indeed",
         "date_posted": 1787270400000,
         "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
-      },
-      {
-        "title": "Strategic R&D Manager - Wound Management",
-        "company": "B. Braun Avitum Italy S.p.A.",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1785283200000,
-        "url": "https://it.indeed.com/viewjob?jk=2067cb2bad354306"
       },
       {
         "title": "Assistant CRA",
@@ -172,6 +156,14 @@
         "site": "indeed",
         "date_posted": 1786060800000,
         "url": "https://it.indeed.com/viewjob?jk=eb596735e1274605"
+      },
+      {
+        "title": "IMPIEGATO/A UFFICIO AMMINISTRAZIONE VENDITE ITALIA - SYNERGIE FILIALE DI MODENA DIREZIONALE",
+        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
+        "score": 0,
+        "site": "linkedin",
+        "date_posted": 1786320000000,
+        "url": "https://www.linkedin.com/jobs/view/4451131328"
       }
     ]
   },
@@ -201,60 +193,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-60%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-61%)",
       "data": {
         "current": 1,
-        "avg": 2.5,
-        "change_pct": -60.0
-      }
-    },
-    {
-      "type": "role_clusters",
-      "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
-      "data": {
-        "clusters": [
-          {
-            "id": 0,
-            "size": 10,
-            "top_terms": [
-              "specialist",
-              "affairs",
-              "clinical"
-            ],
-            "pct": 47.6
-          },
-          {
-            "id": 1,
-            "size": 6,
-            "top_terms": [
-              "engineer",
-              "devices",
-              "medical"
-            ],
-            "pct": 28.6
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "manager",
-              "medical",
-              "devices"
-            ],
-            "pct": 14.3
-          },
-          {
-            "id": 2,
-            "size": 2,
-            "top_terms": [
-              "romagna",
-              "emilia",
-              "regulatory"
-            ],
-            "pct": 9.5
-          }
-        ]
+        "avg": 2.6,
+        "change_pct": -61.1
       }
     }
   ],

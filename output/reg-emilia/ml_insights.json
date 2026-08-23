@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:08:59.429114",
+  "generated_at": "2026-08-23T08:13:17.027093",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 35,
@@ -7,8 +7,8 @@
     "average": 12.1,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 3,
+      "good": 2,
+      "medium": 2,
       "low": 0,
       "irrelevant": 31
     },
@@ -24,15 +24,15 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 57,
+        "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786060800000,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
       },
       {
         "title": "CDI - Global GMP Compliance Training Lead – Manufacturing & Quality F/H",
         "company": "Eli Lilly and Company",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1785974400000,
         "url": "https://www.linkedin.com/jobs/view/4441259376"
@@ -40,7 +40,7 @@
       {
         "title": "Ecommerce Marketplace Specialist",
         "company": "ghd",
-        "score": 40,
+        "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4457094559"
@@ -56,18 +56,10 @@
       {
         "title": "EE190: Operations Quality Associate / Specialist / Snr. Specialist",
         "company": "FedEx",
-        "score": 18,
+        "score": 17,
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=ab27d9a80be117ce"
-      },
-      {
-        "title": "QA & RA Manager | Medical Devices",
-        "company": "Hays",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
         "title": "TRAINING SPECIALIST FONDI INTERPROFESSIONALI – CONTO SISTEMA",
@@ -76,6 +68,14 @@
         "site": "linkedin",
         "date_posted": 1787011200000,
         "url": "https://www.linkedin.com/jobs/view/4446801074"
+      },
+      {
+        "title": "QA & RA Manager | Medical Devices",
+        "company": "Hays",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
         "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
@@ -94,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4457093822"
       },
       {
-        "title": "Addetto/a Distribuzione Materiale Informativo Energia",
-        "company": "DMB",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1787097600000,
-        "url": "https://it.indeed.com/viewjob?jk=e38ff30500a9d31b"
-      },
-      {
         "title": "Quality Assurance Internship (Open also To Protected Categories, Law 68/99)",
         "company": "Thales",
         "score": 11,
@@ -118,20 +110,20 @@
         "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
       },
       {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1785542400000,
-        "url": "https://www.linkedin.com/jobs/view/4439302592"
-      },
-      {
         "title": "Quality Assurance Associate - Fixed Term Contract (12 months)",
         "company": "Eli Lilly and Company",
         "score": 8,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444934342"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "Sherwin-Williams",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4439302592"
       },
       {
         "title": "QUALITY ASSURANCE ALIMENTARE",
@@ -166,6 +158,14 @@
         "url": "https://www.linkedin.com/jobs/view/4451131330"
       },
       {
+        "title": "Addetto/a Distribuzione Materiale Informativo Energia",
+        "company": "DMB",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1787097600000,
+        "url": "https://it.indeed.com/viewjob?jk=e38ff30500a9d31b"
+      },
+      {
         "title": "Supervisor, Manufacturing Engineer - Medical Devices",
         "company": "Jefferson Wells Italia",
         "score": 6,
@@ -184,11 +184,6 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
-      },
-      {
         "word": "assurance",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
@@ -202,6 +197,11 @@
         "word": "engineer",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "modena",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-71%)",
+      "data": {
+        "current": 1,
+        "avg": 3.4,
+        "change_pct": -70.6
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 3,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 67% (+33pp)",
+      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
       "data": {
-        "channel": "linkedin",
+        "channel": "indeed",
         "old_pct": 33.3,
-        "new_pct": 66.7
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 33% (-33pp)",
+      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
       "data": {
-        "channel": "indeed",
+        "channel": "linkedin",
         "old_pct": 66.7,
-        "new_pct": 33.3
+        "new_pct": 100.0
       }
     },
     {
@@ -245,14 +255,14 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 15,
+            "id": 4,
+            "size": 13,
             "top_terms": [
-              "assurance",
-              "quality",
-              "sotemapack"
+              "engineer",
+              "manager",
+              "devices"
             ],
-            "pct": 42.9
+            "pct": 37.1
           },
           {
             "id": 1,
@@ -266,33 +276,33 @@
           },
           {
             "id": 2,
+            "size": 8,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "alimentare"
+            ],
+            "pct": 22.9
+          },
+          {
+            "id": 0,
             "size": 4,
             "top_terms": [
-              "engineer",
-              "senior",
-              "product"
+              "addetto",
+              "filiale",
+              "synergie"
             ],
             "pct": 11.4
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 2,
             "top_terms": [
-              "manager",
-              "quality",
-              "devices"
+              "sotemapack",
+              "training",
+              "law"
             ],
-            "pct": 11.4
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "addetto",
-              "synergie",
-              "filiale"
-            ],
-            "pct": 11.4
+            "pct": 5.7
           }
         ]
       }

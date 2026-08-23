@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-22T08:08:59.479221",
+  "generated_at": "2026-08-23T08:13:17.091636",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 76,
   "scoring": {
-    "average": 12.1,
+    "average": 12.6,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 10,
+      "medium": 11,
       "low": 2,
-      "irrelevant": 63
+      "irrelevant": 62
     },
     "top_jobs": [
       {
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441564283"
+      },
+      {
+        "title": "Regulatory Affairs Intern",
+        "company": "STERIS",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
         "title": "Senior Pharmacovigilance Officer, Team Lead/ Case Processing Manager- Medical Device experience needed",
@@ -32,25 +40,17 @@
       {
         "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
         "company": "Ecolab",
-        "score": 54,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446878011"
-      },
-      {
-        "title": "Junior Regulatory Affairs - Apprendistato",
-        "company": "Gruppo Cremonini",
-        "score": 50,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
       },
       {
         "title": "Quality Assurance Specialist (f/m/nb) - Packaging Pharma",
         "company": "Randstad Italia",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786060800000,
         "url": "https://www.linkedin.com/jobs/view/4448769313"
       },
       {
@@ -68,6 +68,14 @@
         "site": "indeed",
         "date_posted": 1785974400000,
         "url": "https://it.indeed.com/viewjob?jk=ad56985eaecc7db0"
+      },
+      {
+        "title": "Junior Regulatory Affairs - Apprendistato",
+        "company": "Gruppo Cremonini",
+        "score": 48,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
       },
       {
         "title": "GxP Specialist",
@@ -130,7 +138,7 @@
         "company": "NTT DATA Europe & Latam",
         "score": 15,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786060800000,
         "url": "https://www.linkedin.com/jobs/view/4441468380"
       },
       {
@@ -158,20 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=0bc780f15383f486"
       },
       {
-        "title": "Farmacista collaboratore/collaboratrice - Nettuno",
-        "company": "Farma Acquisition Holding spa",
+        "title": "MEDICO SPECIALISTA M/F",
+        "company": "Clariane",
         "score": 10,
         "site": "indeed",
-        "date_posted": 1787097600000,
-        "url": "https://it.indeed.com/viewjob?jk=05011ea2999afdb5"
-      },
-      {
-        "title": "PEDIATRA ASILI NIDO VITERBO 8 H MENSILI",
-        "company": "ALDIA COOPERATIVA SOCIALE",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1787097600000,
-        "url": "https://it.indeed.com/viewjob?jk=91c2829b7959818b"
+        "date_posted": 1787270400000,
+        "url": "https://it.indeed.com/viewjob?jk=9a504ad9408d02e8"
       }
     ]
   },
@@ -210,42 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 6 (-47%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-83%)",
       "data": {
-        "current": 3,
-        "avg": 5.6,
-        "change_pct": -46.6
+        "current": 1,
+        "avg": 5.8,
+        "change_pct": -82.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 33% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 67% (+17pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -256,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 32,
+            "size": 52,
             "top_terms": [
-              "medical",
-              "trattorista",
-              "addetto"
-            ],
-            "pct": 42.1
-          },
-          {
-            "id": 2,
-            "size": 15,
-            "top_terms": [
-              "senior",
               "manager",
-              "it"
+              "senior",
+              "medical"
             ],
-            "pct": 19.7
-          },
-          {
-            "id": 4,
-            "size": 14,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "temporary"
-            ],
-            "pct": 18.4
+            "pct": 68.4
           },
           {
             "id": 1,
-            "size": 10,
-            "top_terms": [
-              "engineer",
-              "quality",
-              "assurance"
-            ],
-            "pct": 13.2
-          },
-          {
-            "id": 3,
-            "size": 5,
+            "size": 9,
             "top_terms": [
               "assurance",
               "quality",
-              "manager"
+              "engineer"
             ],
-            "pct": 6.6
+            "pct": 11.8
+          },
+          {
+            "id": 3,
+            "size": 9,
+            "top_terms": [
+              "specialist",
+              "temporary",
+              "quality"
+            ],
+            "pct": 11.8
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "marketing",
+              "support",
+              "intern"
+            ],
+            "pct": 3.9
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "engineer",
+              "junior",
+              "validation"
+            ],
+            "pct": 3.9
           }
         ]
       }

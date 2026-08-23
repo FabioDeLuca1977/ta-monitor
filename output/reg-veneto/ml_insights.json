@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-22T08:08:59.306863",
+  "generated_at": "2026-08-23T08:13:16.869486",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 48,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 11.0,
+    "average": 10.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 2,
-      "low": 2,
-      "irrelevant": 43
+      "low": 1,
+      "irrelevant": 42
     },
     "top_jobs": [
       {
@@ -18,7 +18,7 @@
         "company": "Planet Pharma",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785974400000,
         "url": "https://www.linkedin.com/jobs/view/4448444098"
       },
       {
@@ -32,18 +32,10 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 54,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
-      },
-      {
-        "title": "Aso",
-        "company": "Studio dentistico Seno",
-        "score": 22,
-        "site": "indeed",
-        "date_posted": 1785456000000,
-        "url": "https://it.indeed.com/viewjob?jk=dd32c64d8d43b7a6"
       },
       {
         "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical",
@@ -52,14 +44,6 @@
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=e79011248f52611e"
-      },
-      {
-        "title": "Specialista Qualità ISO 13485 e MDR | Medical Device",
-        "company": "MAW",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448426474"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -78,6 +62,14 @@
         "url": "https://it.indeed.com/viewjob?jk=be81d161c6c7359b"
       },
       {
+        "title": "Specialista Qualità ISO 13485 e MDR | Medical Device",
+        "company": "MAW",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1785974400000,
+        "url": "https://www.linkedin.com/jobs/view/4448426474"
+      },
+      {
         "title": "Project Manager (m/f) - Refrigerazione industriale e gestione commesse",
         "company": "FRIGOVENETA SPA",
         "score": 14,
@@ -94,17 +86,9 @@
         "url": "https://www.linkedin.com/jobs/view/4445899419"
       },
       {
-        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
-        "company": "GSK",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1785888000000,
-        "url": "https://www.linkedin.com/jobs/view/4437692572"
-      },
-      {
         "title": "QA/RA Specialist | Medical Devices",
         "company": "Mynameis",
-        "score": 13,
+        "score": 12,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448770108"
@@ -116,14 +100,6 @@
         "site": "linkedin",
         "date_posted": 1785801600000,
         "url": "https://www.linkedin.com/jobs/view/4446619206"
-      },
-      {
-        "title": "Addetto/a Distribuzione Materiale Informativo Energia",
-        "company": "DMB",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1787097600000,
-        "url": "https://it.indeed.com/viewjob?jk=e38ff30500a9d31b"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -158,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=175cff833056dcdc"
       },
       {
+        "title": "Specialist Onco-Haematology (Toscana Nord e Centro)",
+        "company": "GSK",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": 1785888000000,
+        "url": "https://www.linkedin.com/jobs/view/4437692572"
+      },
+      {
         "title": "INSTALLATION ENGINEER (Paris)",
         "company": "Bureau Veritas",
         "score": 10,
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=05872b05c1095cb5"
+      },
+      {
+        "title": "Digital Marketing Specialist",
+        "company": "Busa Group",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1786924800000,
+        "url": "https://it.indeed.com/viewjob?jk=950268b94b7ec9c9"
+      },
+      {
+        "title": "HR JR",
+        "company": "GPS SRLS",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1786492800000,
+        "url": "https://it.indeed.com/viewjob?jk=d2fabff9cdcad995"
       }
     ]
   },
@@ -180,18 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,7 +194,12 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "senior",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "product",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-52%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-55%)",
       "data": {
         "current": 2,
-        "avg": 4.2,
-        "change_pct": -52.2
+        "avg": 4.4,
+        "change_pct": -54.5
       }
     },
     {
@@ -231,21 +231,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 38% a 0% (-38pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 37.5,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
       "message": "📡 indeed: quota passata da 62% a 100% (+38pp)",
       "data": {
         "channel": "indeed",
         "old_pct": 62.5,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 38% a 0% (-38pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 37.5,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 30,
+            "id": 4,
+            "size": 19,
             "top_terms": [
-              "planner",
-              "italy",
-              "senior"
+              "assistant",
+              "vendite",
+              "addetto"
             ],
-            "pct": 62.5
-          },
-          {
-            "id": 3,
-            "size": 7,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 14.6
+            "pct": 41.3
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 13,
             "top_terms": [
               "specialist",
-              "medical",
-              "quality"
+              "quality",
+              "assurance"
             ],
-            "pct": 12.5
+            "pct": 28.3
           },
           {
             "id": 0,
-            "size": 3,
+            "size": 5,
+            "top_terms": [
+              "planner",
+              "senior",
+              "demand"
+            ],
+            "pct": 10.9
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "engineer",
+              "product",
+              "assurance"
+            ],
+            "pct": 10.9
+          },
+          {
+            "id": 3,
+            "size": 4,
             "top_terms": [
               "manager",
               "regional",
-              "brand"
+              "industriale"
             ],
-            "pct": 6.2
-          },
-          {
-            "id": 4,
-            "size": 2,
-            "top_terms": [
-              "sales",
-              "specialist",
-              "vendite"
-            ],
-            "pct": 4.2
+            "pct": 8.7
           }
         ]
       }
