@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-08-23T08:13:17.091636",
+  "generated_at": "2026-08-24T08:32:11.272088",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 76,
+  "total_jobs_analyzed": 73,
   "scoring": {
-    "average": 12.6,
+    "average": 13.7,
     "distribution": {
       "excellent": 0,
-      "good": 1,
+      "good": 2,
       "medium": 11,
       "low": 2,
-      "irrelevant": 62
+      "irrelevant": 58
     },
     "top_jobs": [
       {
+        "title": "Regulatory Affairs & Competition Specialist",
+        "company": "iliad",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443241888"
+      },
+      {
         "title": "Vice President Regulatory Affairs - Cluster",
         "company": "Perrigo Company plc",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441564283"
@@ -40,10 +48,18 @@
       {
         "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
         "company": "Ecolab",
-        "score": 53,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446878011"
+      },
+      {
+        "title": "Junior Regulatory Affairs - Apprendistato",
+        "company": "Gruppo Cremonini",
+        "score": 49,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
       },
       {
         "title": "Quality Assurance Specialist (f/m/nb) - Packaging Pharma",
@@ -70,14 +86,6 @@
         "url": "https://it.indeed.com/viewjob?jk=ad56985eaecc7db0"
       },
       {
-        "title": "Junior Regulatory Affairs - Apprendistato",
-        "company": "Gruppo Cremonini",
-        "score": 48,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=b35ac2b2f59dfe87"
-      },
-      {
         "title": "GxP Specialist",
         "company": "Antal International",
         "score": 48,
@@ -98,8 +106,8 @@
         "company": "PQE Group",
         "score": 43,
         "site": "linkedin",
-        "date_posted": 1785801600000,
-        "url": "https://www.linkedin.com/jobs/view/4421938093"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4449547248"
       },
       {
         "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
@@ -126,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4431872120"
       },
       {
-        "title": "EE190: Operations Quality Associate / Specialist / Snr. Specialist",
-        "company": "FedEx",
-        "score": 18,
-        "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=a3acde3b3da83da7"
+        "title": "QUALITY ASSURANCE MANAGER",
+        "company": "OKATIM Italia",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1786147200000,
+        "url": "https://www.linkedin.com/jobs/view/4441326884"
       },
       {
         "title": "Quality Assurance Executive Manager",
@@ -142,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4441468380"
       },
       {
-        "title": "QUALITY ASSURANCE MANAGER",
-        "company": "OKATIM Italia",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1786147200000,
-        "url": "https://www.linkedin.com/jobs/view/4441326884"
-      },
-      {
         "title": "IT Manager",
         "company": "Mandarin Oriental Hotel Group",
         "score": 13,
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=bf6d0e24fc96fa5c"
       },
       {
+        "title": "EE190: Operations Quality Associate / Specialist / Snr. Specialist",
+        "company": "FedEx",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=a3acde3b3da83da7"
+      },
+      {
         "title": "Human Resources Support/Specialist (Talent Management)",
         "company": "Food and Agriculture Organization of the United Nations",
         "score": 11,
         "site": "indeed",
         "date_posted": 1786320000000,
         "url": "https://it.indeed.com/viewjob?jk=0bc780f15383f486"
-      },
-      {
-        "title": "MEDICO SPECIALISTA M/F",
-        "company": "Clariane",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1787270400000,
-        "url": "https://it.indeed.com/viewjob?jk=9a504ad9408d02e8"
       }
     ]
   },
@@ -180,18 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -199,9 +189,19 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "assurance",
+        "word": "engineer",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-83%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 6 (-82%)",
       "data": {
         "current": 1,
-        "avg": 5.8,
-        "change_pct": -82.7
+        "avg": 5.5,
+        "change_pct": -81.9
       }
     },
     {
@@ -229,26 +229,6 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
@@ -256,53 +236,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 52,
+            "size": 35,
             "top_terms": [
               "manager",
-              "senior",
-              "medical"
+              "engineer",
+              "addetto"
             ],
-            "pct": 68.4
+            "pct": 47.9
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 11,
             "top_terms": [
-              "assurance",
-              "quality",
-              "engineer"
+              "senior",
+              "product",
+              "manager"
             ],
-            "pct": 11.8
+            "pct": 15.1
           },
           {
-            "id": 3,
-            "size": 9,
+            "id": 2,
+            "size": 11,
             "top_terms": [
               "specialist",
               "temporary",
               "quality"
             ],
-            "pct": 11.8
+            "pct": 15.1
           },
           {
-            "id": 2,
-            "size": 3,
+            "id": 3,
+            "size": 11,
             "top_terms": [
-              "marketing",
-              "support",
-              "intern"
+              "assurance",
+              "quality",
+              "engineer"
             ],
-            "pct": 3.9
+            "pct": 15.1
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 5,
             "top_terms": [
-              "engineer",
-              "junior",
-              "validation"
+              "regulatory",
+              "affairs",
+              "consultant"
             ],
-            "pct": 3.9
+            "pct": 6.8
           }
         ]
       }

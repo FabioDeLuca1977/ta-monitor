@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-23T08:13:16.767783",
+  "generated_at": "2026-08-24T08:32:10.930051",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 19,
+  "total_jobs_analyzed": 14,
   "scoring": {
-    "average": 17.3,
+    "average": 18.0,
     "distribution": {
       "excellent": 0,
-      "good": 0,
-      "medium": 4,
-      "low": 2,
-      "irrelevant": 13
+      "good": 1,
+      "medium": 3,
+      "low": 1,
+      "irrelevant": 9
     },
     "top_jobs": [
       {
         "title": "Medical Affairs Specialist",
         "company": "Hoya Vision Care",
-        "score": 59,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
@@ -34,7 +34,7 @@
         "company": "Teoresi MedTech",
         "score": 44,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1785888000000,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
@@ -46,52 +46,28 @@
         "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
-        "title": "Tumori Genitourinari",
-        "company": "FAVO - Federazione italiana delle Organizzazioni di Volontariato in Oncologia",
-        "score": 35,
-        "site": "linkedin",
-        "date_posted": 1785456000000,
-        "url": "https://www.linkedin.com/jobs/view/4446963861"
-      },
-      {
-        "title": "Project Manager - Medical Device",
-        "company": "Jefferson Wells Italia",
-        "score": 23,
-        "site": "linkedin",
-        "date_posted": 1785369600000,
-        "url": "https://www.linkedin.com/jobs/view/4439793891"
-      },
-      {
         "title": "QA & RA Manager | Medical Devices",
         "company": "Hays",
-        "score": 19,
+        "score": 20,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
-        "title": "Business Line Product Steward - Specialist",
-        "company": "Celanese",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
-      },
-      {
-        "title": "Supervisor, Manufacturing Engineer - Medical Devices",
-        "company": "Jefferson Wells Italia",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4447277914"
-      },
-      {
         "title": "Field Service Engineer-Medical Devices",
         "company": "IQVIA Italia",
-        "score": 11,
+        "score": 12,
         "site": "linkedin",
         "date_posted": 1785456000000,
         "url": "https://www.linkedin.com/jobs/view/4439830287"
+      },
+      {
+        "title": "Business Line Product Steward - Specialist",
+        "company": "Celanese",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
       },
       {
         "title": "Senior System Verification Engineer",
@@ -108,14 +84,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450580019"
-      },
-      {
-        "title": "Accident Reconstruction Specialist - Junior",
-        "company": "Liablix",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1776729600000,
-        "url": "https://it.indeed.com/viewjob?jk=6f38e950708fa1a8"
       },
       {
         "title": "Clinical Trial Coordinator",
@@ -142,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=a0f8e3b9ebc93496"
       },
       {
-        "title": "Founding Simulation Engineer - Multibody & FEM",
-        "company": "Liablix",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1783382400000,
-        "url": "https://it.indeed.com/viewjob?jk=06aa5ce1843d60e5"
-      },
-      {
         "title": "R&D Product Development Engineer",
         "company": "Dentsply Sirona",
         "score": 0,
@@ -172,18 +132,8 @@
     "add_blacklist": [
       {
         "word": "engineer",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "medical",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "devices",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -193,11 +143,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-61%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-54%)",
       "data": {
         "current": 1,
-        "avg": 2.6,
-        "change_pct": -61.1
+        "avg": 2.2,
+        "change_pct": -53.8
       }
     }
   ],

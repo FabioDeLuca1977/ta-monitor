@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-23T08:13:16.661699",
+  "generated_at": "2026-08-24T08:32:10.819696",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 20,
+  "total_jobs_analyzed": 19,
   "scoring": {
-    "average": 17.9,
+    "average": 16.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 7,
-      "low": 1,
-      "irrelevant": 12
+      "medium": 6,
+      "low": 0,
+      "irrelevant": 13
     },
     "top_jobs": [
       {
@@ -22,17 +22,9 @@
         "url": "https://www.linkedin.com/jobs/view/4448273584"
       },
       {
-        "title": "Come diventare CRA: guida passo passo per una carriera nel Clinical Research",
-        "company": "Liveuniversity",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4449253789"
-      },
-      {
         "title": "Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4417415303"
@@ -72,7 +64,7 @@
       {
         "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical",
         "company": "W. L. Gore & Associates",
-        "score": 23,
+        "score": 18,
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=e79011248f52611e"
@@ -91,7 +83,7 @@
         "score": 5,
         "site": "linkedin",
         "date_posted": 1785888000000,
-        "url": "https://www.linkedin.com/jobs/view/4443286873"
+        "url": "https://www.linkedin.com/jobs/view/4443286872"
       },
       {
         "title": "DENTAL ASSISTANT",
@@ -177,7 +169,13 @@
   },
   "filter_suggestions": {
     "add_relevant": [],
-    "add_blacklist": [],
+    "add_blacklist": [
+      {
+        "word": "specialist",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      }
+    ],
     "review": []
   },
   "keyword_recommendations": [],
@@ -185,11 +183,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-67%)",
       "data": {
         "current": 1,
-        "avg": 3.2,
-        "change_pct": -68.4
+        "avg": 3.0,
+        "change_pct": -66.7
       }
     },
     {
@@ -200,55 +198,6 @@
         "new": 1,
         "total": 1,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "role_clusters",
-      "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
-      "data": {
-        "clusters": [
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "nf",
-              "assistant",
-              "cys"
-            ],
-            "pct": 45.0
-          },
-          {
-            "id": 1,
-            "size": 5,
-            "top_terms": [
-              "specialist",
-              "trach",
-              "clinical"
-            ],
-            "pct": 25.0
-          },
-          {
-            "id": 2,
-            "size": 3,
-            "top_terms": [
-              "scientifico",
-              "informatore",
-              "trach"
-            ],
-            "pct": 15.0
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "clinical",
-              "research",
-              "trach"
-            ],
-            "pct": 15.0
-          }
-        ]
       }
     }
   ],

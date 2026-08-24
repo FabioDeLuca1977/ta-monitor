@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-08-23T08:13:16.529584",
+  "generated_at": "2026-08-24T08:32:10.698223",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 185,
+  "total_jobs_analyzed": 183,
   "scoring": {
     "average": 21.1,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 27,
+      "good": 12,
+      "medium": 25,
       "low": 54,
-      "irrelevant": 93
+      "irrelevant": 92
     },
     "top_jobs": [
-      {
-        "title": "HR generalist per soluzioni gestione acqua domestica",
-        "company": "Ablio",
-        "score": 67,
-        "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=82d0d8b0748ece23"
-      },
       {
         "title": "1 HR SPECIALIST- RECRUITER",
         "company": "SkyDental 3D",
@@ -62,6 +54,14 @@
         "url": "https://it.indeed.com/viewjob?jk=d2927386b2f5c9ff"
       },
       {
+        "title": "HR Manager Italy EP/NV & Project management",
+        "company": "Johnson & Johnson",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1785888000000,
+        "url": "https://www.linkedin.com/jobs/view/4449473383"
+      },
+      {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
         "score": 61,
@@ -70,12 +70,12 @@
         "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
       },
       {
-        "title": "HR Manager Italy EP/NV & Project management",
-        "company": "Johnson & Johnson",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1785888000000,
-        "url": "https://www.linkedin.com/jobs/view/4449473383"
+        "title": "HR generalist per soluzioni gestione acqua domestica",
+        "company": "Ablio",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=82d0d8b0748ece23"
       },
       {
         "title": "Hr Generalist Categoria Protetta 68/99 (f/m/nb)",
@@ -84,6 +84,14 @@
         "site": "linkedin",
         "date_posted": 1785801600000,
         "url": "https://www.linkedin.com/jobs/view/4446221368"
+      },
+      {
+        "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
+        "company": "Dan John",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4453052619"
       },
       {
         "title": "Talent Acquisition Specialist Intern",
@@ -102,20 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4456460710"
       },
       {
-        "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
-        "company": "Dan John",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4453052619"
-      },
-      {
         "title": "HR Talent Acquisition Intern",
         "company": "Engineering Group",
         "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446772905"
+      },
+      {
+        "title": "HR recruiter",
+        "company": "Il Metodo - HR & Strategic Consulting",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1786060800000,
+        "url": "https://www.linkedin.com/jobs/view/4448771262"
       },
       {
         "title": "Junior HR Generalist",
@@ -132,14 +140,6 @@
         "site": "indeed",
         "date_posted": 1786060800000,
         "url": "https://it.indeed.com/viewjob?jk=1b8fd5036c59e527"
-      },
-      {
-        "title": "HR recruiter",
-        "company": "Il Metodo - HR & Strategic Consulting",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448771262"
       },
       {
         "title": "HR BUSINESS PARTNER (Sost. Maternità)",
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 38,
-        "reason": "Appare 38x in annunci a basso score"
+        "count": 37,
+        "reason": "Appare 37x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 38,
-        "reason": "Appare 38x in annunci a basso score"
+        "count": 37,
+        "reason": "Appare 37x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 36,
-        "reason": "Appare 36x in annunci a basso score"
+        "count": 35,
+        "reason": "Appare 35x in annunci a basso score"
       },
       {
         "word": "roma",
@@ -254,21 +254,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 13 (-92%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 14 (-93%)",
       "data": {
         "current": 1,
-        "avg": 13.1,
-        "change_pct": -92.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 83% a 100% (+17pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 83.3,
-        "new_pct": 100.0
+        "avg": 14.0,
+        "change_pct": -92.9
       }
     },
     {
@@ -282,60 +272,70 @@
       }
     },
     {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 83% a 100% (+17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 83.3,
+        "new_pct": 100.0
+      }
+    },
+    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 84,
+            "id": 1,
+            "size": 86,
             "top_terms": [
-              "specialist",
-              "roma",
-              "tecnico"
+              "business",
+              "partner",
+              "roma"
             ],
-            "pct": 45.4
+            "pct": 47.0
           },
           {
-            "id": 2,
-            "size": 48,
+            "id": 0,
+            "size": 47,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 25.9
+            "pct": 25.7
           },
           {
-            "id": 4,
-            "size": 28,
+            "id": 2,
+            "size": 25,
             "top_terms": [
               "hr",
               "generalist",
-              "recruiter"
+              "manager"
             ],
-            "pct": 15.1
+            "pct": 13.7
           },
           {
             "id": 3,
             "size": 14,
             "top_terms": [
-              "business",
-              "associate",
-              "partner"
+              "specialist",
+              "hr",
+              "talent"
             ],
-            "pct": 7.6
+            "pct": 7.7
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 11,
             "top_terms": [
               "personale",
               "selezione",
               "addetto"
             ],
-            "pct": 5.9
+            "pct": 6.0
           }
         ]
       }

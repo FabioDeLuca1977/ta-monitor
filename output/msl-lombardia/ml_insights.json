@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-23T08:13:16.753265",
+  "generated_at": "2026-08-24T08:32:10.916325",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
   "total_jobs_analyzed": 136,
   "scoring": {
-    "average": 27.7,
+    "average": 27.1,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 60,
+      "medium": 58,
       "low": 12,
-      "irrelevant": 62
+      "irrelevant": 64
     },
     "top_jobs": [
       {
@@ -179,14 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "specialist",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
         "word": "senior",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "word": "italy",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "clinical",
@@ -197,11 +202,6 @@
         "word": "engineer",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
-      },
-      {
-        "word": "cra",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -236,41 +236,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 10 (-61%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 10 (-79%)",
       "data": {
-        "current": 4,
-        "avg": 10.2,
-        "change_pct": -60.6
+        "current": 2,
+        "avg": 9.6,
+        "change_pct": -79.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 2,
-        "total": 4,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 50% (-17pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 50% (+17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
@@ -280,54 +260,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 61,
+            "id": 0,
+            "size": 57,
             "top_terms": [
               "cra",
               "ii",
               "specialist"
             ],
-            "pct": 44.9
-          },
-          {
-            "id": 2,
-            "size": 22,
-            "top_terms": [
-              "manager",
-              "project",
-              "medical"
-            ],
-            "pct": 16.2
+            "pct": 41.9
           },
           {
             "id": 1,
-            "size": 20,
+            "size": 33,
+            "top_terms": [
+              "medical",
+              "director",
+              "liaison"
+            ],
+            "pct": 24.3
+          },
+          {
+            "id": 2,
+            "size": 18,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.7
+            "pct": 13.2
           },
           {
-            "id": 0,
-            "size": 17,
+            "id": 4,
+            "size": 16,
             "top_terms": [
               "clinical",
               "research",
               "associate"
             ],
-            "pct": 12.5
+            "pct": 11.8
           },
           {
             "id": 3,
-            "size": 16,
+            "size": 12,
             "top_terms": [
-              "director",
-              "medical",
-              "senior"
+              "engineer",
+              "project",
+              "principal"
             ],
-            "pct": 11.8
+            "pct": 8.8
           }
         ]
       }
