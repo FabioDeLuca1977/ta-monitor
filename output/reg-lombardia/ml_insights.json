@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-24T08:32:11.158458",
+  "generated_at": "2026-08-25T08:30:01.964704",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 194,
+  "total_jobs_analyzed": 196,
   "scoring": {
-    "average": 13.3,
+    "average": 13.7,
     "distribution": {
       "excellent": 0,
-      "good": 13,
+      "good": 14,
       "medium": 11,
-      "low": 7,
-      "irrelevant": 163
+      "low": 6,
+      "irrelevant": 165
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Manager - Extra EU - Fitofarmaci/Agrofarmaci",
         "company": "Hays",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1785801600000,
         "url": "https://www.linkedin.com/jobs/view/4446609915"
@@ -32,26 +32,18 @@
       {
         "title": "Regulatory Affairs Manager (Automotive)",
         "company": "TÜV Rheinland Group",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": 1785801600000,
         "url": "https://www.linkedin.com/jobs/view/4447087054"
       },
       {
         "title": "Regulatory Affairs Manager",
-        "company": "Regulatory Pharma Net - RPN",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1785715200000,
-        "url": "https://www.linkedin.com/jobs/view/4446219644"
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Cosmo Pharmaceuticals",
+        "company": "MEDSPA Srl",
         "score": 64,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=92a671f5bc67453b"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4455848460"
       },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST COSMETICO & CHIMICO (REACH)",
@@ -78,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4455926463"
       },
       {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Cosmo Pharmaceuticals",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1785974400000,
+        "url": "https://it.indeed.com/viewjob?jk=92a671f5bc67453b"
+      },
+      {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
         "company": "QVC Italy",
         "score": 62,
@@ -100,6 +100,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4343985374"
+      },
+      {
+        "title": "Regulatory Compliance Specialist",
+        "company": "Gruppo BCC Iccrea",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4458705260"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
@@ -128,7 +136,7 @@
       {
         "title": "Regulatory Affairs junior",
         "company": "Openjobmetis SpA",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1785888000000,
         "url": "https://www.linkedin.com/jobs/view/4448956945"
@@ -144,7 +152,7 @@
       {
         "title": "Stage Regulatory Affairs - Toys and Gadget",
         "company": "Perfetti Van Melle",
-        "score": 56,
+        "score": 55,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4440912607"
@@ -152,7 +160,7 @@
       {
         "title": "REGULATORY AFFAIRS SPECIALIST",
         "company": "Quanta System S.p.A.",
-        "score": 54,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1786060800000,
         "url": "https://it.indeed.com/viewjob?jk=9586496411566514"
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1786147200000,
         "url": "https://www.linkedin.com/jobs/view/4433377213"
-      },
-      {
-        "title": "Regulatory Affair Specialist - Pharma",
-        "company": "Brenntag",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=b70a5979a4b1342f"
       }
     ]
   },
@@ -185,13 +185,13 @@
       },
       {
         "word": "assurance",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "global",
@@ -199,7 +199,7 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "demand",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       }
@@ -270,43 +270,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 13 (-40%)",
-      "data": {
-        "current": 8,
-        "avg": 13.3,
-        "change_pct": -39.8
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/8 annunci da aziende nuove (62.5%)",
+      "message": "📊 Ultimo scan: 12/16 annunci da aziende nuove (75.0%)",
       "data": {
-        "new": 5,
-        "total": 8,
-        "pct": 62.5
+        "new": 12,
+        "total": 16,
+        "pct": 75.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 75% a 50% (-25pp)",
+      "message": "📡 linkedin: quota passata da 50% a 25% (-25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 75.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 25.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 25% a 50% (+25pp)",
+      "message": "📡 indeed: quota passata da 50% a 75% (+25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 25.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 75.0
       }
     },
     {
@@ -316,54 +306,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 105,
+            "id": 3,
+            "size": 100,
             "top_terms": [
-              "specialist",
               "sales",
-              "engineer"
+              "specialist",
+              "addetto"
             ],
-            "pct": 54.1
+            "pct": 51.0
           },
           {
-            "id": 0,
-            "size": 36,
+            "id": 2,
+            "size": 34,
             "top_terms": [
               "manager",
-              "senior",
-              "operations"
+              "project",
+              "senior"
             ],
-            "pct": 18.6
+            "pct": 17.3
           },
           {
             "id": 1,
-            "size": 20,
+            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 10.3
+            "pct": 12.2
           },
           {
-            "id": 2,
-            "size": 20,
+            "id": 4,
+            "size": 21,
             "top_terms": [
               "quality",
               "assurance",
               "manager"
             ],
-            "pct": 10.3
+            "pct": 10.7
           },
           {
-            "id": 3,
-            "size": 13,
+            "id": 0,
+            "size": 17,
             "top_terms": [
-              "medical",
-              "devices",
-              "product"
+              "senior",
+              "marketing",
+              "digital"
             ],
-            "pct": 6.7
+            "pct": 8.7
           }
         ]
       }
