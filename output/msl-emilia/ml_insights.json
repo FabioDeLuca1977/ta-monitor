@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T08:30:01.818505",
+  "generated_at": "2026-08-26T08:33:42.612058",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 14,
+  "total_jobs_analyzed": 15,
   "scoring": {
-    "average": 18.4,
+    "average": 20.0,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 3,
+      "medium": 4,
       "low": 1,
       "irrelevant": 9
     },
@@ -16,7 +16,7 @@
       {
         "title": "Medical Affairs Specialist",
         "company": "Hoya Vision Care",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1785974400000,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
@@ -26,7 +26,7 @@
         "company": "Adecco",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786060800000,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
       },
       {
@@ -44,6 +44,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
+      },
+      {
+        "title": "MSL Centro (Emilia-Romagna, Marche)",
+        "company": "Jefferson Wells Italia",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
         "title": "QA & RA Manager | Medical Devices",
@@ -82,7 +90,7 @@
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786147200000,
         "url": "https://www.linkedin.com/jobs/view/4450580019"
       },
       {
@@ -141,33 +149,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
+      "data": {
+        "current": 1,
+        "avg": 2.3,
+        "change_pct": -57.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     }
   ],
