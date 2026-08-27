@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-26T08:33:42.612058",
+  "generated_at": "2026-08-27T19:12:18.670111",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 15,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 20.0,
+    "average": 18.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 9
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -42,7 +42,7 @@
         "company": "Coloplast",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786147200000,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
@@ -76,6 +76,22 @@
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
+      },
+      {
+        "title": "12 months fix term contract R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=ed803ba67a2697eb"
+      },
+      {
+        "title": "Commercial Development Analyst",
+        "company": "Coloplast",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1787702400000,
+        "url": "https://it.indeed.com/viewjob?jk=a2787c4563d7be00"
       },
       {
         "title": "Business Line Product Steward, Product Stewardship",
@@ -140,8 +156,18 @@
     "add_blacklist": [
       {
         "word": "product",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "development",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -149,42 +175,22 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-57%)",
-      "data": {
-        "current": 1,
-        "avg": 2.3,
-        "change_pct": -57.1
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     }
