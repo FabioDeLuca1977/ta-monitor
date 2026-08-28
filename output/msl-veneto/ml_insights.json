@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-08-27T19:12:18.569358",
+  "generated_at": "2026-08-28T20:05:03.432346",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 16,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 21.0,
+    "average": 23.0,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 6,
-      "low": 1,
+      "medium": 8,
+      "low": 0,
       "irrelevant": 9
     },
     "top_jobs": [
+      {
+        "title": "INFORMATORE MEDICO SCIENTIFICO",
+        "company": "Eberlife Farmaceutici",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4399512075"
+      },
       {
         "title": "Informatore Scientifico del Farmaco (ISF)",
         "company": "Professional Recruitment",
@@ -22,19 +30,11 @@
         "url": "https://www.linkedin.com/jobs/view/4457462377"
       },
       {
-        "title": "INFORMATORE MEDICO SCIENTIFICO",
-        "company": "Eberlife Farmaceutici",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4399512075"
-      },
-      {
         "title": "Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786579200000,
         "url": "https://www.linkedin.com/jobs/view/4417415303"
       },
       {
@@ -54,6 +54,14 @@
         "url": "https://www.linkedin.com/jobs/view/4458171834"
       },
       {
+        "title": "Informatore Medico Scientifico M/F",
+        "company": "KOLINPHARMA S.p.A",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": 1786060800000,
+        "url": "https://www.linkedin.com/jobs/view/4450386263"
+      },
+      {
         "title": "Clinical Specialist Trach Lazio e Campania",
         "company": "Atos Medical",
         "score": 40,
@@ -62,17 +70,25 @@
         "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
-        "title": "Informatore Medico Scientifico M/F",
-        "company": "KOLINPHARMA S.p.A",
-        "score": 39,
+        "title": "Clinical Specialist Trach Emilia-Romagna e Lombardia",
+        "company": "Atos Medical",
+        "score": 40,
         "site": "linkedin",
-        "date_posted": 1786060800000,
-        "url": "https://www.linkedin.com/jobs/view/4450386263"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440783183"
+      },
+      {
+        "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical (m/f/d)",
+        "company": "W. L. Gore & Associates",
+        "score": 18,
+        "site": "indeed",
+        "date_posted": 1787529600000,
+        "url": "https://it.indeed.com/viewjob?jk=ef421701f3663cd7"
       },
       {
         "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical",
         "company": "W. L. Gore & Associates",
-        "score": 18,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=e79011248f52611e"
@@ -102,28 +118,20 @@
         "url": "https://it.indeed.com/viewjob?jk=8f9f66566c796697"
       },
       {
-        "title": "DOL TAP Facilitator - (Part-time) - Vicenza, Italy",
-        "company": "Serco",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1786492800000,
-        "url": "https://it.indeed.com/viewjob?jk=94280966144ca7a6"
-      },
-      {
-        "title": "Production Supervisor",
-        "company": "Vertiv",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1785974400000,
-        "url": "https://it.indeed.com/viewjob?jk=5b7ad706498f59c1"
-      },
-      {
         "title": "Recreation Aid (Lifeguard) NF-01",
         "company": null,
         "score": 0,
         "site": "indeed",
         "date_posted": 1786320000000,
         "url": "https://it.indeed.com/viewjob?jk=4dff90341f5a1f24"
+      },
+      {
+        "title": "DOL TAP Facilitator - (Part-time) - Vicenza, Italy",
+        "company": "Serco",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1786924800000,
+        "url": "https://it.indeed.com/viewjob?jk=fcbe2a34291d932c"
       },
       {
         "title": "DENTAL ASSISTANT",
@@ -148,8 +156,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -157,23 +165,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-60%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "current": 1,
-        "avg": 2.5,
-        "change_pct": -60.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     }
   ],

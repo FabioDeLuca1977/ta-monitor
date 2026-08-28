@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-27T19:12:18.670111",
+  "generated_at": "2026-08-28T20:05:03.532694",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 18,
   "scoring": {
-    "average": 18.8,
+    "average": 18.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 11
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 46,
+        "score": 47,
         "site": "linkedin",
         "date_posted": 1786060800000,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
@@ -70,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4455864360"
       },
       {
-        "title": "Business Line Product Steward - Specialist",
-        "company": "Celanese",
-        "score": 11,
+        "title": "Junior Accounting Specialist",
+        "company": "Dentsply Sirona",
+        "score": 14,
         "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=d6f5dea571bfa9e8"
       },
       {
         "title": "12 months fix term contract R&D Product Development Engineer",
@@ -94,14 +94,6 @@
         "url": "https://it.indeed.com/viewjob?jk=a2787c4563d7be00"
       },
       {
-        "title": "Business Line Product Steward, Product Stewardship",
-        "company": "Celanese",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
-      },
-      {
         "title": "Assistant CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
@@ -110,12 +102,28 @@
         "url": "https://www.linkedin.com/jobs/view/4450580019"
       },
       {
+        "title": "Business Line Product Steward - Specialist",
+        "company": "Celanese",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
+      },
+      {
         "title": "Senior System Verification Engineer",
         "company": "LivaNova",
         "score": 5,
         "site": "indeed",
         "date_posted": 1787270400000,
         "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
+      },
+      {
+        "title": "Business Line Product Steward, Product Stewardship",
+        "company": "Celanese",
+        "score": 2,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
       },
       {
         "title": "Clinical Trial Coordinator",
@@ -175,23 +183,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-53%)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "current": 1,
+        "avg": 2.1,
+        "change_pct": -52.9
       }
     }
   ],
