@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T20:05:03.794647",
+  "generated_at": "2026-08-29T14:14:39.608167",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 43,
   "scoring": {
-    "average": 11.0,
+    "average": 11.2,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 1,
+      "good": 1,
+      "medium": 2,
       "low": 0,
       "irrelevant": 40
     },
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 62,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4454741767"
@@ -32,10 +32,18 @@
       {
         "title": "Ecommerce Marketplace Specialist",
         "company": "ghd",
-        "score": 43,
+        "score": 40,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4457094559"
+      },
+      {
+        "title": "QA & RA Manager | Medical Devices",
+        "company": "Hays",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
         "title": "Impiegata commerciale telemarketing",
@@ -46,28 +54,20 @@
         "url": "https://it.indeed.com/viewjob?jk=b1ed13fb7a0fc7d6"
       },
       {
-        "title": "Regulatory & Sustaining Engineer",
-        "company": "G&W Electric Company",
-        "score": 15,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=78b45206906f7cd2"
-      },
-      {
-        "title": "QA & RA Manager | Medical Devices",
-        "company": "Hays",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4452574716"
-      },
-      {
         "title": "Sales Specialist- Bologna Nova",
         "company": "R-Store SPA",
         "score": 14,
         "site": "indeed",
         "date_posted": 1787788800000,
         "url": "https://it.indeed.com/viewjob?jk=d9cf90f7dcd2df61"
+      },
+      {
+        "title": "Regulatory & Sustaining Engineer",
+        "company": "G&W Electric Company",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=78b45206906f7cd2"
       },
       {
         "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
@@ -134,12 +134,28 @@
         "url": "https://it.indeed.com/viewjob?jk=ed803ba67a2697eb"
       },
       {
+        "title": "R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
+      },
+      {
         "title": "Sales Development Representative",
         "company": "Commify",
         "score": 10,
         "site": "indeed",
         "date_posted": 1787788800000,
         "url": "https://it.indeed.com/viewjob?jk=cfbc94165cc5b193"
+      },
+      {
+        "title": "Appointment Setter / Commerciale B2B – Marketing & Digitalizzazione",
+        "company": "Web Facile",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1787961600000,
+        "url": "https://it.indeed.com/viewjob?jk=cc17fc7ea031c848"
       },
       {
         "title": "Business Line Product Steward - Specialist",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444934342"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439302592"
-      },
-      {
-        "title": "Quality Manager",
-        "company": "Trivium Packaging",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1784505600000,
-        "url": "https://it.indeed.com/viewjob?jk=63fbd7da119cd659"
       }
     ]
   },
@@ -184,6 +184,11 @@
         "reason": "Appare 13x in annunci a basso score"
       },
       {
+        "word": "specialist",
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
+      },
+      {
         "word": "assurance",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
@@ -192,11 +197,6 @@
         "word": "product",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -210,42 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-71%)",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
       "data": {
-        "current": 1,
-        "avg": 3.5,
-        "change_pct": -71.4
+        "current": 2,
+        "avg": 3.4,
+        "change_pct": -41.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 71% a 0% (-71pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 71.4,
-        "new_pct": 0.0
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 29% a 100% (+71pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 28.6,
-        "new_pct": 100.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -255,17 +255,17 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 18,
+            "id": 2,
+            "size": 16,
             "top_terms": [
               "engineer",
-              "sotemapack",
-              "addetto"
+              "regulatory",
+              "sotemapack"
             ],
-            "pct": 41.9
+            "pct": 37.2
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 9,
             "top_terms": [
               "assurance",
@@ -275,32 +275,32 @@
             "pct": 20.9
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 8,
             "top_terms": [
               "specialist",
               "sales",
-              "operations"
+              "snr"
             ],
             "pct": 18.6
           },
           {
-            "id": 1,
-            "size": 4,
+            "id": 3,
+            "size": 6,
             "top_terms": [
-              "qualità",
-              "sistema",
-              "gestione"
+              "addetto",
+              "synergie",
+              "filiale"
             ],
-            "pct": 9.3
+            "pct": 14.0
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "manager",
               "quality",
-              "medical"
+              "devices"
             ],
             "pct": 9.3
           }

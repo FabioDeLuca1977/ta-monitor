@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-08-28T20:05:03.418369",
+  "generated_at": "2026-08-29T14:14:39.287635",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 201,
+  "total_jobs_analyzed": 191,
   "scoring": {
-    "average": 25.6,
+    "average": 25.7,
     "distribution": {
       "excellent": 0,
       "good": 13,
-      "medium": 44,
-      "low": 59,
-      "irrelevant": 85
+      "medium": 41,
+      "low": 60,
+      "irrelevant": 77
     },
     "top_jobs": [
-      {
-        "title": "HR Talent Acquisition & Employer Branding Intern",
-        "company": "Ayvens",
-        "score": 70,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4454153464"
-      },
       {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
         "company": "Marriott International",
@@ -30,9 +22,17 @@
         "url": "https://it.indeed.com/viewjob?jk=d2927386b2f5c9ff"
       },
       {
+        "title": "HR Talent Acquisition & Employer Branding Intern",
+        "company": "Ayvens",
+        "score": 69,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4454153464"
+      },
+      {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
-        "score": 67,
+        "score": 68,
         "site": "indeed",
         "date_posted": 1786320000000,
         "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
@@ -78,6 +78,14 @@
         "url": "https://www.linkedin.com/jobs/view/4446772905"
       },
       {
+        "title": "HR Consultant (Ricerca & Selezione del personale - Div. Specializz. LIFE SCIENCE) - Roma",
+        "company": "The Adecco Group",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460529876"
+      },
+      {
         "title": "Talent Acquisition Specialist Intern",
         "company": "Gruppo I.V.A. SpA",
         "score": 61,
@@ -110,14 +118,6 @@
         "url": "https://it.indeed.com/viewjob?jk=d6c54c3f2a1aa42b"
       },
       {
-        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
-        "company": "Gi Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4457232834"
-      },
-      {
         "title": "Addetto/a selezione personale per servizi telefonici",
         "company": "magazzino",
         "score": 59,
@@ -134,9 +134,17 @@
         "url": "https://www.linkedin.com/jobs/view/4454398929"
       },
       {
+        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
+        "company": "Gi Group",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4457232834"
+      },
+      {
         "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
         "company": "Ablio",
-        "score": 58,
+        "score": 57,
         "site": "indeed",
         "date_posted": 1787011200000,
         "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
@@ -152,18 +160,10 @@
       {
         "title": "HR generalist per soluzioni gestione acqua domestica",
         "company": "Ablio",
-        "score": 55,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=82d0d8b0748ece23"
-      },
-      {
-        "title": "HR Generalist",
-        "company": "SOS Il Telefono Azzurro ETS",
-        "score": 54,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=1b8fd5036c59e527"
       },
       {
         "title": "Responsabile Risorse Umane",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 36,
-        "reason": "Appare 36x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 36,
-        "reason": "Appare 36x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "assistant",
@@ -194,14 +194,14 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "roma",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "sales",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "sales",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "responsabile",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -218,6 +218,12 @@
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
+    },
+    {
+      "keyword": "life science",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     },
     {
       "keyword": "branding intern",
@@ -246,13 +252,43 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 15 (-93%)",
+      "data": {
+        "current": 1,
+        "avg": 14.6,
+        "change_pct": -93.2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/13 annunci da aziende nuove (38.5%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 13,
-        "pct": 38.5
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 77% a 0% (-77pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 76.9,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 23% a 100% (+77pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 23.1,
+        "new_pct": 100.0
       }
     },
     {
@@ -262,34 +298,34 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 91,
+            "id": 0,
+            "size": 86,
             "top_terms": [
               "specialist",
               "roma",
-              "talent"
+              "recruitment"
             ],
-            "pct": 45.3
+            "pct": 45.0
           },
           {
-            "id": 1,
-            "size": 50,
+            "id": 2,
+            "size": 44,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 24.9
+            "pct": 23.0
           },
           {
-            "id": 2,
-            "size": 34,
+            "id": 3,
+            "size": 37,
             "top_terms": [
               "hr",
-              "generalist",
-              "partner"
+              "partner",
+              "business"
             ],
-            "pct": 16.9
+            "pct": 19.4
           },
           {
             "id": 4,
@@ -299,17 +335,17 @@
               "selezione",
               "addetto"
             ],
-            "pct": 8.5
+            "pct": 8.9
           },
           {
-            "id": 0,
-            "size": 9,
+            "id": 1,
+            "size": 7,
             "top_terms": [
-              "consultant",
-              "recruitment",
-              "day"
+              "senior",
+              "cantiere",
+              "servicenow"
             ],
-            "pct": 4.5
+            "pct": 3.7
           }
         ]
       }

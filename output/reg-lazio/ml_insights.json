@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-28T20:05:03.853543",
+  "generated_at": "2026-08-29T14:14:39.654708",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 65,
+  "total_jobs_analyzed": 60,
   "scoring": {
-    "average": 15.1,
+    "average": 14.9,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 10,
+      "medium": 8,
       "low": 1,
-      "irrelevant": 51
+      "irrelevant": 48
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -48,7 +48,7 @@
       {
         "title": "Pharmacovigilance Specialist (salary €30-35K)",
         "company": "Shionogi Europe",
-        "score": 57,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4457953581"
@@ -64,18 +64,10 @@
       {
         "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
         "company": "Ecolab",
-        "score": 49,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446878011"
-      },
-      {
-        "title": "Quality Assurance Specialist (f/m/nb) - Packaging Pharma",
-        "company": "Randstad Italia",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1786060800000,
-        "url": "https://www.linkedin.com/jobs/view/4448769313"
       },
       {
         "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
@@ -100,14 +92,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4458061458"
-      },
-      {
-        "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
-        "company": "MatchGuru",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": 1786406400000,
-        "url": "https://www.linkedin.com/jobs/view/4452474178"
       },
       {
         "title": "Performance Marketer",
@@ -146,13 +130,21 @@
         "company": "NTT DATA Europe & Latam",
         "score": 16,
         "site": "linkedin",
-        "date_posted": 1786060800000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441468380"
+      },
+      {
+        "title": "Junior Software Tester (Medical Devices) - LIFE SCIENCE",
+        "company": "ALTEN Italia",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1787875200000,
+        "url": "https://www.linkedin.com/jobs/view/4458081852"
       },
       {
         "title": "IT Demand Planning Manager",
         "company": "The Magnum Ice Cream Company",
-        "score": 16,
+        "score": 15,
         "site": "linkedin",
         "date_posted": 1786924800000,
         "url": "https://www.linkedin.com/jobs/view/4431872120"
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1787788800000,
         "url": "https://it.indeed.com/viewjob?jk=d190d378afe18e13"
+      },
+      {
+        "title": "Human Resources Support/Specialist (Talent Management)",
+        "company": "Food and Agriculture Organization of the United Nations",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1786320000000,
+        "url": "https://it.indeed.com/viewjob?jk=0bc780f15383f486"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -210,42 +210,22 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-59%)",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-32%)",
       "data": {
-        "current": 2,
-        "avg": 4.8,
-        "change_pct": -58.7
+        "current": 3,
+        "avg": 4.4,
+        "change_pct": -31.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
         "new": 2,
-        "total": 2,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 82% a 50% (-32pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 81.8,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 18% a 50% (+32pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 18.2,
-        "new_pct": 50.0
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
@@ -256,53 +236,53 @@
         "clusters": [
           {
             "id": 4,
-            "size": 37,
+            "size": 35,
             "top_terms": [
-              "manager",
               "senior",
-              "engineer"
+              "director",
+              "associate"
             ],
-            "pct": 56.9
+            "pct": 58.3
           },
           {
-            "id": 2,
-            "size": 10,
+            "id": 1,
+            "size": 9,
             "top_terms": [
               "specialist",
               "associate",
               "snr"
             ],
-            "pct": 15.4
-          },
-          {
-            "id": 3,
-            "size": 9,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "engineer"
-            ],
-            "pct": 13.8
+            "pct": 15.0
           },
           {
             "id": 0,
-            "size": 5,
+            "size": 8,
             "top_terms": [
-              "director",
-              "associate",
-              "medical"
+              "engineer",
+              "assurance",
+              "quality"
             ],
-            "pct": 7.7
+            "pct": 13.3
           },
           {
-            "id": 1,
-            "size": 4,
+            "id": 2,
+            "size": 6,
             "top_terms": [
-              "addetto",
-              "crew",
-              "director"
+              "manager",
+              "it",
+              "assurance"
             ],
-            "pct": 6.2
+            "pct": 10.0
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "principal",
+              "consultant",
+              "tester"
+            ],
+            "pct": 3.3
           }
         ]
       }

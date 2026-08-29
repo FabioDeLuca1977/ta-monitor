@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T20:05:03.432346",
+  "generated_at": "2026-08-29T14:14:39.300610",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 15,
   "scoring": {
-    "average": 23.0,
+    "average": 20.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 8,
+      "medium": 6,
       "low": 0,
       "irrelevant": 9
     },
@@ -52,22 +52,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4458171834"
-      },
-      {
-        "title": "Informatore Medico Scientifico M/F",
-        "company": "KOLINPHARMA S.p.A",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": 1786060800000,
-        "url": "https://www.linkedin.com/jobs/view/4450386263"
-      },
-      {
-        "title": "Clinical Specialist Trach Lazio e Campania",
-        "company": "Atos Medical",
-        "score": 40,
-        "site": "linkedin",
-        "date_posted": 1786060800000,
-        "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
         "title": "Clinical Specialist Trach Emilia-Romagna e Lombardia",
@@ -164,6 +148,16 @@
   },
   "keyword_recommendations": [],
   "anomalies": [
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "data": {
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
     {
       "type": "channel_shift",
       "severity": "low",

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-28T20:05:03.532694",
+  "generated_at": "2026-08-29T14:14:39.385954",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 18,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 18.1,
+    "average": 18.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 12
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 47,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1786060800000,
         "url": "https://www.linkedin.com/jobs/view/4448771807"
@@ -110,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
       },
       {
-        "title": "Senior System Verification Engineer",
-        "company": "LivaNova",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1787270400000,
-        "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
-      },
-      {
         "title": "Business Line Product Steward, Product Stewardship",
         "company": "Celanese",
         "score": 2,
@@ -142,20 +134,20 @@
         "url": "https://it.indeed.com/viewjob?jk=eb596735e1274605"
       },
       {
-        "title": "SALES PROMOTER - Emilia Romagna",
-        "company": "B. Braun Milano S.P.A.",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1785801600000,
-        "url": "https://it.indeed.com/viewjob?jk=7354a17d28d3aa72"
-      },
-      {
         "title": "IMPIEGATO/A UFFICIO AMMINISTRAZIONE VENDITE ITALIA - SYNERGIE FILIALE DI MODENA DIREZIONALE",
         "company": "Agenzia regionale per il lavoro Emilia-Romagna",
         "score": 0,
         "site": "linkedin",
         "date_posted": 1786320000000,
         "url": "https://www.linkedin.com/jobs/view/4451131328"
+      },
+      {
+        "title": "Senior System Verification Engineer",
+        "company": "LivaNova",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1787270400000,
+        "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
       }
     ]
   },
@@ -184,12 +176,12 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-53%)",
+      "severity": "medium",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-50%)",
       "data": {
         "current": 1,
-        "avg": 2.1,
-        "change_pct": -52.9
+        "avg": 2.0,
+        "change_pct": -50.0
       }
     }
   ],
