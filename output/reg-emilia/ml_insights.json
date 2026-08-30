@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-29T14:14:39.608167",
+  "generated_at": "2026-08-30T13:13:05.286629",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 43,
+  "total_jobs_analyzed": 42,
   "scoring": {
     "average": 11.2,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 2,
+      "good": 2,
+      "medium": 1,
       "low": 0,
-      "irrelevant": 40
+      "irrelevant": 39
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
-        "score": 70,
+        "score": 65,
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 57,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4454741767"
@@ -32,18 +32,10 @@
       {
         "title": "Ecommerce Marketplace Specialist",
         "company": "ghd",
-        "score": 40,
+        "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4457094559"
-      },
-      {
-        "title": "QA & RA Manager | Medical Devices",
-        "company": "Hays",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
         "title": "Impiegata commerciale telemarketing",
@@ -54,6 +46,22 @@
         "url": "https://it.indeed.com/viewjob?jk=b1ed13fb7a0fc7d6"
       },
       {
+        "title": "Regulatory & Sustaining Engineer",
+        "company": "G&W Electric Company",
+        "score": 15,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=78b45206906f7cd2"
+      },
+      {
+        "title": "QA & RA Manager | Medical Devices",
+        "company": "Hays",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4452574716"
+      },
+      {
         "title": "Sales Specialist- Bologna Nova",
         "company": "R-Store SPA",
         "score": 14,
@@ -62,28 +70,12 @@
         "url": "https://it.indeed.com/viewjob?jk=d9cf90f7dcd2df61"
       },
       {
-        "title": "Regulatory & Sustaining Engineer",
-        "company": "G&W Electric Company",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=78b45206906f7cd2"
-      },
-      {
         "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
         "company": "Thales",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786665600000,
         "url": "https://www.linkedin.com/jobs/view/4444485295"
-      },
-      {
-        "title": "Responsabile del Sistema di Gestione della Qualità",
-        "company": "SGB Humangest Holding",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459190843"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -108,14 +100,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4458704613"
-      },
-      {
-        "title": "Quality Assurance Engineer with German (Playwright)",
-        "company": "NTT DATA Europe & Latam",
-        "score": 11,
-        "site": "linkedin",
-        "date_posted": 1787356800000,
-        "url": "https://www.linkedin.com/jobs/view/4435916476"
       },
       {
         "title": "TRAINING SPECIALIST FONDI INTERPROFESSIONALI – CONTO SISTEMA",
@@ -170,8 +154,24 @@
         "company": "Eli Lilly and Company",
         "score": 8,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786665600000,
         "url": "https://www.linkedin.com/jobs/view/4444934342"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "Sherwin-Williams",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4439302592"
+      },
+      {
+        "title": "Responsabile del Sistema di Gestione della Qualità",
+        "company": "SGB Humangest Holding",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4459190843"
       }
     ]
   },
@@ -182,11 +182,6 @@
         "word": "quality",
         "count": 13,
         "reason": "Appare 13x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -202,6 +197,11 @@
         "word": "manager",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
+      },
+      {
+        "word": "sistema",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-45%)",
       "data": {
         "current": 2,
-        "avg": 3.4,
-        "change_pct": -41.5
+        "avg": 3.6,
+        "change_pct": -45.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 4,
             "size": 16,
             "top_terms": [
               "engineer",
               "regulatory",
-              "sotemapack"
+              "commerciale"
             ],
-            "pct": 37.2
+            "pct": 38.1
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 10,
             "top_terms": [
               "assurance",
               "quality",
-              "specialist"
+              "manager"
             ],
-            "pct": 20.9
+            "pct": 23.8
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 8,
             "top_terms": [
               "specialist",
               "sales",
               "snr"
             ],
-            "pct": 18.6
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
-              "addetto",
-              "synergie",
-              "filiale"
-            ],
-            "pct": 14.0
+            "pct": 19.0
           },
           {
             "id": 0,
-            "size": 4,
+            "size": 5,
             "top_terms": [
-              "manager",
-              "quality",
-              "devices"
+              "qualità",
+              "addetto",
+              "sistema"
             ],
-            "pct": 9.3
+            "pct": 11.9
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "synergie",
+              "filiale",
+              "modena"
+            ],
+            "pct": 7.1
           }
         ]
       }

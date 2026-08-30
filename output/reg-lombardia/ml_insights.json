@@ -1,34 +1,18 @@
 {
-  "generated_at": "2026-08-29T14:14:39.572351",
+  "generated_at": "2026-08-30T13:13:05.241140",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 190,
+  "total_jobs_analyzed": 194,
   "scoring": {
-    "average": 16.0,
+    "average": 15.6,
     "distribution": {
       "excellent": 0,
       "good": 13,
       "medium": 16,
-      "low": 11,
-      "irrelevant": 150
+      "low": 9,
+      "irrelevant": 156
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Recordati",
-        "score": 72,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4411744140"
-      },
-      {
-        "title": "Regulatory Affairs & HSE Specialist - Chimico -Milano SUD",
-        "company": "NonStop Consulting",
-        "score": 72,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459173232"
-      },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
         "company": "QVC Italy",
@@ -38,20 +22,36 @@
         "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
-        "company": "QVC Italy",
-        "score": 71,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4440229244"
-      },
-      {
         "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
         "company": "Parexel",
         "score": 70,
         "site": "indeed",
         "date_posted": 1787875200000,
         "url": "https://it.indeed.com/viewjob?jk=63329489938ae021"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Recordati",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4411744140"
+      },
+      {
+        "title": "Regulatory Affairs & HSE Specialist - Chimico -Milano SUD",
+        "company": "NonStop Consulting",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4459173232"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
+        "company": "QVC Italy",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4440229244"
       },
       {
         "title": "Compliance & Regulatory Affairs Manager",
@@ -114,13 +114,13 @@
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1786665600000,
         "url": "https://www.linkedin.com/jobs/view/4444957902"
       },
       {
         "title": "Regulatory Affairs Specialist Italia",
         "company": "JSB Solutions srl",
-        "score": 58,
+        "score": 59,
         "site": "indeed",
         "date_posted": 1787875200000,
         "url": "https://it.indeed.com/viewjob?jk=c77fe8f8178e537c"
@@ -134,6 +134,14 @@
         "url": "https://www.linkedin.com/jobs/view/4459435268"
       },
       {
+        "title": "Regulatory Affairs Analyst (f/m/d)",
+        "company": "Axpo Group",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4419185454"
+      },
+      {
         "title": "Regulatory Affairs Junior",
         "company": "Adecco",
         "score": 57,
@@ -142,17 +150,9 @@
         "url": "https://www.linkedin.com/jobs/view/4444123105"
       },
       {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo Group",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4419185454"
-      },
-      {
         "title": "Regulatory Affairs Intern - Pharma",
         "company": "Adecco",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4459811348"
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "sales",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "demand",
@@ -270,33 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 6 annunci ultimo scan vs media 13 (-55%)",
+      "data": {
+        "current": 6,
+        "avg": 13.4,
+        "change_pct": -55.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/11 annunci da aziende nuove (63.6%)",
+      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
       "data": {
-        "new": 7,
-        "total": 11,
-        "pct": 63.6
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 83% a 27% (-56pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 83.3,
-        "new_pct": 27.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 17% a 73% (+56pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 16.7,
-        "new_pct": 72.7
+        "new": 5,
+        "total": 6,
+        "pct": 83.3
       }
     },
     {
@@ -307,53 +297,53 @@
         "clusters": [
           {
             "id": 3,
-            "size": 122,
+            "size": 95,
             "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
+              "estetista",
+              "associate",
+              "medical"
             ],
-            "pct": 64.2
+            "pct": 49.0
           },
           {
-            "id": 1,
-            "size": 24,
+            "id": 2,
+            "size": 27,
+            "top_terms": [
+              "specialist",
+              "sales",
+              "italy"
+            ],
+            "pct": 13.9
+          },
+          {
+            "id": 4,
+            "size": 26,
             "top_terms": [
               "manager",
               "project",
               "demand"
             ],
-            "pct": 12.6
+            "pct": 13.4
           },
           {
-            "id": 4,
-            "size": 19,
+            "id": 1,
+            "size": 25,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "specialist"
+            ],
+            "pct": 12.9
+          },
+          {
+            "id": 0,
+            "size": 21,
             "top_terms": [
               "quality",
               "assurance",
               "manager"
             ],
-            "pct": 10.0
-          },
-          {
-            "id": 2,
-            "size": 18,
-            "top_terms": [
-              "medical",
-              "devices",
-              "product"
-            ],
-            "pct": 9.5
-          },
-          {
-            "id": 0,
-            "size": 7,
-            "top_terms": [
-              "addetto",
-              "qualità",
-              "sistema"
-            ],
-            "pct": 3.7
+            "pct": 10.8
           }
         ]
       }
