@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-08-30T13:13:05.241140",
+  "generated_at": "2026-08-31T14:56:18.244632",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 194,
+  "total_jobs_analyzed": 202,
   "scoring": {
-    "average": 15.6,
+    "average": 15.7,
     "distribution": {
       "excellent": 0,
       "good": 13,
-      "medium": 16,
-      "low": 9,
-      "irrelevant": 156
+      "medium": 18,
+      "low": 10,
+      "irrelevant": 161
     },
     "top_jobs": [
-      {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
-        "company": "QVC Italy",
-        "score": 72,
-        "site": "linkedin",
-        "date_posted": 1787788800000,
-        "url": "https://www.linkedin.com/jobs/view/4440222641"
-      },
       {
         "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
         "company": "Parexel",
@@ -44,6 +36,14 @@
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4459173232"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
+        "company": "QVC Italy",
+        "score": 67,
+        "site": "linkedin",
+        "date_posted": 1787788800000,
+        "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4444123105"
       },
       {
-        "title": "Regulatory Affairs Intern - Pharma",
-        "company": "Adecco",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4459811348"
-      },
-      {
         "title": "Regulatory Affair Specialist - Pharma",
         "company": "Brenntag",
-        "score": 56,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450274200"
       },
       {
-        "title": "Internship Regulatory Affairs",
-        "company": "Accord Healthcare",
-        "score": 55,
+        "title": "Regulatory Affairs & Safety Assessor Cosmetico",
+        "company": "COMPLIFE GROUP",
+        "score": 57,
         "site": "linkedin",
-        "date_posted": 1786665600000,
-        "url": "https://www.linkedin.com/jobs/view/4451214108"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460307207"
+      },
+      {
+        "title": "Regulatory Affairs Intern - Pharma",
+        "company": "Adecco",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4459811348"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 18,
         "reason": "Appare 18x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
-      },
-      {
         "word": "senior",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "sales",
@@ -270,23 +270,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 13 (-55%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 7/10 annunci da aziende nuove (70.0%)",
       "data": {
-        "current": 6,
-        "avg": 13.4,
-        "change_pct": -55.3
+        "new": 7,
+        "total": 10,
+        "pct": 70.0
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
       "data": {
-        "new": 5,
-        "total": 6,
-        "pct": 83.3
+        "channel": "indeed",
+        "old_pct": 33.3,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 50.0
       }
     },
     {
@@ -296,38 +306,18 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 95,
-            "top_terms": [
-              "estetista",
-              "associate",
-              "medical"
-            ],
-            "pct": 49.0
-          },
-          {
-            "id": 2,
-            "size": 27,
+            "id": 4,
+            "size": 120,
             "top_terms": [
               "specialist",
               "sales",
-              "italy"
+              "estetista"
             ],
-            "pct": 13.9
+            "pct": 59.4
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 26,
-            "top_terms": [
-              "manager",
-              "project",
-              "demand"
-            ],
-            "pct": 13.4
-          },
-          {
-            "id": 1,
-            "size": 25,
             "top_terms": [
               "regulatory",
               "affairs",
@@ -336,14 +326,34 @@
             "pct": 12.9
           },
           {
-            "id": 0,
-            "size": 21,
+            "id": 1,
+            "size": 24,
+            "top_terms": [
+              "manager",
+              "project",
+              "demand"
+            ],
+            "pct": 11.9
+          },
+          {
+            "id": 3,
+            "size": 23,
             "top_terms": [
               "quality",
               "assurance",
               "manager"
             ],
-            "pct": 10.8
+            "pct": 11.4
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "global",
+              "cybersecurity",
+              "manager"
+            ],
+            "pct": 4.5
           }
         ]
       }

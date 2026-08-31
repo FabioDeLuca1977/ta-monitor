@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-30T13:13:04.808593",
+  "generated_at": "2026-08-31T14:56:17.940337",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 189,
+  "total_jobs_analyzed": 192,
   "scoring": {
-    "average": 24.5,
+    "average": 24.9,
     "distribution": {
       "excellent": 0,
-      "good": 8,
-      "medium": 35,
-      "low": 68,
+      "good": 9,
+      "medium": 39,
+      "low": 66,
       "irrelevant": 78
     },
     "top_jobs": [
@@ -20,6 +20,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4456920708"
+      },
+      {
+        "title": "Junior talent acquisition dedicato alla clientela",
+        "company": "LifeEnergy",
+        "score": 66,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=dea305b49cf9a867"
       },
       {
         "title": "HR GENERALIST",
@@ -46,20 +54,20 @@
         "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
       },
       {
+        "title": "Talent Acquisition Associate - Maternity Leave",
+        "company": "Fendi",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1786320000000,
+        "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
+      },
+      {
         "title": "Talent Acquisition Specialist",
         "company": "Jet HR",
         "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460345535"
-      },
-      {
-        "title": "Talent Acquisition Associate - Maternity Leave",
-        "company": "Fendi",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1786320000000,
-        "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
       },
       {
         "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
@@ -86,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4454398929"
       },
       {
-        "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
-        "company": "Ablio",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1787011200000,
-        "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
-      },
-      {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
         "company": "Marriott International",
         "score": 58,
@@ -108,6 +108,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446772905"
+      },
+      {
+        "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
+        "company": "Ablio",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
       },
       {
         "title": "STAGE CURRICULARE HR RECRUITER - POMEZIA",
@@ -142,12 +150,12 @@
         "url": "https://it.indeed.com/viewjob?jk=353cf874af2f3da9"
       },
       {
-        "title": "BNL BNP Paribas – Chief People & Engagement – Employer Branding Intern",
-        "company": "BNL BNP Paribas",
+        "title": "Human Resources Business Partner",
+        "company": "Plaza Premium Group",
         "score": 54,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440554981"
+        "url": "https://www.linkedin.com/jobs/view/4461084385"
       },
       {
         "title": "HR Business Partner Lazio",
@@ -156,14 +164,6 @@
         "site": "linkedin",
         "date_posted": 1786665600000,
         "url": "https://www.linkedin.com/jobs/view/4444943236"
-      },
-      {
-        "title": "HR BUSINESS PARTNER (Sost. Maternità)",
-        "company": "TTEP Italia",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1786320000000,
-        "url": "https://www.linkedin.com/jobs/view/4433980069"
       },
       {
         "title": "HR Business Partner (M/F/NB)",
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "personale",
@@ -208,19 +208,25 @@
   },
   "keyword_recommendations": [
     {
+      "keyword": "junior hr",
+      "frequency": 4,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
+    },
+    {
       "keyword": "intern",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
     },
     {
-      "keyword": "hr talent",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "keyword": "junior",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
     },
     {
-      "keyword": "junior hr",
+      "keyword": "hr talent",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -238,6 +244,12 @@
       "confidence": 30
     },
     {
+      "keyword": "stage curriculare",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "soluzioni",
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
@@ -248,53 +260,47 @@
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-55%)",
       "data": {
-        "current": 1,
-        "avg": 15.7,
-        "change_pct": -93.6
+        "current": 7,
+        "avg": 15.4,
+        "change_pct": -54.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/7 annunci da aziende nuove (14.3%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "total": 7,
+        "pct": 14.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 23% a 100% (+77pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 23.1,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 77% a 0% (-77pp)",
+      "message": "📡 indeed: quota passata da 0% a 71% (+71pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 76.9,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 71.4
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 29% (-71pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 28.6
       }
     },
     {
@@ -304,54 +310,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 77,
+            "id": 4,
+            "size": 78,
             "top_terms": [
-              "tecnico",
+              "roma",
               "assistant",
               "recruiter"
             ],
-            "pct": 40.7
-          },
-          {
-            "id": 1,
-            "size": 46,
-            "top_terms": [
-              "hr",
-              "specialist",
-              "partner"
-            ],
-            "pct": 24.3
-          },
-          {
-            "id": 4,
-            "size": 38,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 20.1
+            "pct": 40.6
           },
           {
             "id": 2,
-            "size": 15,
+            "size": 44,
             "top_terms": [
-              "selezione",
-              "personale",
+              "umane",
+              "risorse",
               "addetto"
             ],
-            "pct": 7.9
+            "pct": 22.9
+          },
+          {
+            "id": 0,
+            "size": 33,
+            "top_terms": [
+              "hr",
+              "junior",
+              "acqua"
+            ],
+            "pct": 17.2
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 19,
             "top_terms": [
-              "responsabile",
-              "clienti",
-              "assistenza"
+              "specialist",
+              "talent",
+              "acquisition"
             ],
-            "pct": 6.9
+            "pct": 9.9
+          },
+          {
+            "id": 1,
+            "size": 18,
+            "top_terms": [
+              "personale",
+              "selezione",
+              "addetto"
+            ],
+            "pct": 9.4
           }
         ]
       }

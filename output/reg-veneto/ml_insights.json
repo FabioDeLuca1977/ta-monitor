@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-08-30T13:13:05.127393",
+  "generated_at": "2026-08-31T14:56:18.160221",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 45,
+  "total_jobs_analyzed": 48,
   "scoring": {
-    "average": 7.7,
+    "average": 8.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 1,
+      "medium": 2,
       "low": 1,
-      "irrelevant": 43
+      "irrelevant": 45
     },
     "top_jobs": [
       {
+        "title": "JUNIOR TECHNICAL & REGULATORY SPECIALIST",
+        "company": "Mondial Color",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4461090281"
+      },
+      {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 53,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1786579200000,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -32,18 +40,10 @@
       {
         "title": "Regulatory & Sustaining Engineer",
         "company": "G&W Electric Company",
-        "score": 19,
+        "score": 16,
         "site": "indeed",
         "date_posted": 1787788800000,
         "url": "https://it.indeed.com/viewjob?jk=68f367c6fb5a55e7"
-      },
-      {
-        "title": "Quality Assurance Manager#86492",
-        "company": "During Spa - Filiale di Thiene",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4458750523"
       },
       {
         "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical (m/f/d)",
@@ -54,12 +54,20 @@
         "url": "https://it.indeed.com/viewjob?jk=ef421701f3663cd7"
       },
       {
-        "title": "Sales Specialist- Verona",
-        "company": "R-Store SPA",
+        "title": "Quality Assurance Manager#86492",
+        "company": "During Spa - Filiale di Thiene",
         "score": 15,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=1994ef6b8cf57f9c"
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4458750523"
+      },
+      {
+        "title": "DOSSIER MANAGER - SETTORE INVESTIGATIVO",
+        "company": "Ricercamy Srl",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4461065501"
       },
       {
         "title": "QUALITY ASSURANCE SPECIALIST",
@@ -94,28 +102,12 @@
         "url": "https://it.indeed.com/viewjob?jk=e79011248f52611e"
       },
       {
-        "title": "Cercasi Estetista e Onicotecnica qualificata - Monselice",
-        "company": "Anima e Corpo centro estetico",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1787875200000,
-        "url": "https://it.indeed.com/viewjob?jk=a110e8b69b6041fb"
-      },
-      {
-        "title": "12 months fix term contract R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
+        "title": "Sales Specialist- Verona",
+        "company": "R-Store SPA",
         "score": 10,
         "site": "indeed",
         "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=ed803ba67a2697eb"
-      },
-      {
-        "title": "R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
+        "url": "https://it.indeed.com/viewjob?jk=1994ef6b8cf57f9c"
       },
       {
         "title": "Tirocinio - Gestione del cliente BU Servizi Tecnici",
@@ -124,6 +116,14 @@
         "site": "indeed",
         "date_posted": 1787875200000,
         "url": "https://it.indeed.com/viewjob?jk=059d384152635c4b"
+      },
+      {
+        "title": "Cercasi Estetista e Onicotecnica qualificata - Monselice",
+        "company": "Anima e Corpo centro estetico",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1787875200000,
+        "url": "https://it.indeed.com/viewjob?jk=a110e8b69b6041fb"
       },
       {
         "title": "HR JR",
@@ -189,14 +189,14 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "manager",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "engineer",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -209,23 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "current": 1,
-        "avg": 4.4,
-        "change_pct": -77.3
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -235,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 18,
+            "id": 4,
+            "size": 32,
             "top_terms": [
-              "addetto",
-              "planner",
-              "demand"
+              "manager",
+              "engineer",
+              "product"
             ],
-            "pct": 40.0
+            "pct": 66.7
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 1,
+            "size": 6,
             "top_terms": [
               "specialist",
-              "quality",
-              "assurance"
+              "sales",
+              "snr"
             ],
-            "pct": 26.7
+            "pct": 12.5
           },
           {
             "id": 3,
-            "size": 6,
-            "top_terms": [
-              "engineer",
-              "product",
-              "regulatory"
-            ],
-            "pct": 13.3
-          },
-          {
-            "id": 4,
             "size": 5,
             "top_terms": [
-              "manager",
-              "brand",
-              "medical"
+              "assurance",
+              "quality",
+              "specialist"
             ],
-            "pct": 11.1
+            "pct": 10.4
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "gestione",
+              "sistema",
+              "integrato"
+            ],
+            "pct": 6.2
           },
           {
             "id": 0,
-            "size": 4,
+            "size": 2,
             "top_terms": [
-              "gestione",
-              "integrato",
-              "sistema"
+              "addetto",
+              "verona",
+              "term"
             ],
-            "pct": 8.9
+            "pct": 4.2
           }
         ]
       }

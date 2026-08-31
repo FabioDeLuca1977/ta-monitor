@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-08-30T13:13:04.909724",
+  "generated_at": "2026-08-31T14:56:18.011952",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 189,
+  "total_jobs_analyzed": 192,
   "scoring": {
-    "average": 25.6,
+    "average": 26.0,
     "distribution": {
       "excellent": 0,
-      "good": 12,
-      "medium": 40,
-      "low": 60,
+      "good": 13,
+      "medium": 41,
+      "low": 61,
       "irrelevant": 77
     },
     "top_jobs": [
       {
+        "title": "Junior talent acquisition dedicato alla clientela",
+        "company": "LifeEnergy",
+        "score": 71,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=dea305b49cf9a867"
+      },
+      {
         "title": "HR Talent Acquisition & Employer Branding Intern",
         "company": "Ayvens",
-        "score": 70,
+        "score": 69,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4454153464"
@@ -78,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446772905"
       },
       {
-        "title": "HR Specialist Clienti",
-        "company": "Ablio",
-        "score": 62,
-        "site": "indeed",
-        "date_posted": 1787529600000,
-        "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
-      },
-      {
         "title": "HR Consultant (Ricerca & Selezione del personale - Div. Specializz. LIFE SCIENCE) - Roma",
         "company": "The Adecco Group",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460529876"
+      },
+      {
+        "title": "HR Specialist Clienti",
+        "company": "Ablio",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1787529600000,
+        "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
       },
       {
         "title": "Talent Acquisition Specialist Intern",
@@ -118,9 +126,17 @@
         "url": "https://www.linkedin.com/jobs/view/4454398929"
       },
       {
+        "title": "Responsabile amministrativo e selezione personale per forniture bevande",
+        "company": "Mobile 1",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=51995f29122323fc"
+      },
+      {
         "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
         "company": "Ablio",
-        "score": 58,
+        "score": 57,
         "site": "indeed",
         "date_posted": 1787011200000,
         "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
@@ -150,28 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=d6c54c3f2a1aa42b"
       },
       {
-        "title": "BNL BNP Paribas – Chief People & Engagement – Employer Branding Intern",
-        "company": "BNL BNP Paribas",
-        "score": 54,
+        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
+        "company": "Gi Group",
+        "score": 55,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440554981"
-      },
-      {
-        "title": "Addetto/a selezione personale per servizi telefonici",
-        "company": "magazzino",
-        "score": 54,
-        "site": "indeed",
         "date_posted": 1787702400000,
-        "url": "https://it.indeed.com/viewjob?jk=e767ee9f1d548c3f"
-      },
-      {
-        "title": "HR Business Partner Lazio",
-        "company": "GXO Logistics, Inc.",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1786665600000,
-        "url": "https://www.linkedin.com/jobs/view/4444943236"
+        "url": "https://www.linkedin.com/jobs/view/4457232834"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 32,
+        "reason": "Appare 32x in annunci a basso score"
       },
       {
         "word": "assistant",
@@ -208,16 +208,22 @@
   },
   "keyword_recommendations": [
     {
+      "keyword": "junior hr",
+      "frequency": 4,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 60
+    },
+    {
       "keyword": "intern",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
     },
     {
-      "keyword": "junior hr",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
+      "keyword": "junior",
+      "frequency": 5,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 50
     },
     {
       "keyword": "life science",
@@ -227,6 +233,12 @@
     },
     {
       "keyword": "branding intern",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "stage curriculare",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -242,53 +254,47 @@
       "frequency": 3,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "junior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-55%)",
       "data": {
-        "current": 1,
-        "avg": 15.7,
-        "change_pct": -93.6
+        "current": 7,
+        "avg": 15.4,
+        "change_pct": -54.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/7 annunci da aziende nuove (14.3%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "total": 7,
+        "pct": 14.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 23% a 100% (+77pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 23.1,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 77% a 0% (-77pp)",
+      "message": "📡 indeed: quota passata da 0% a 71% (+71pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 76.9,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 71.4
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 29% (-71pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 28.6
       }
     },
     {
@@ -298,54 +304,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 77,
+            "id": 4,
+            "size": 78,
             "top_terms": [
-              "tecnico",
+              "roma",
               "assistant",
               "recruiter"
             ],
-            "pct": 40.7
-          },
-          {
-            "id": 1,
-            "size": 46,
-            "top_terms": [
-              "hr",
-              "specialist",
-              "partner"
-            ],
-            "pct": 24.3
-          },
-          {
-            "id": 4,
-            "size": 38,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 20.1
+            "pct": 40.6
           },
           {
             "id": 2,
-            "size": 15,
+            "size": 44,
             "top_terms": [
-              "selezione",
-              "personale",
+              "umane",
+              "risorse",
               "addetto"
             ],
-            "pct": 7.9
+            "pct": 22.9
+          },
+          {
+            "id": 0,
+            "size": 33,
+            "top_terms": [
+              "hr",
+              "junior",
+              "acqua"
+            ],
+            "pct": 17.2
           },
           {
             "id": 3,
-            "size": 13,
+            "size": 19,
             "top_terms": [
-              "responsabile",
-              "clienti",
-              "assistenza"
+              "specialist",
+              "talent",
+              "acquisition"
             ],
-            "pct": 6.9
+            "pct": 9.9
+          },
+          {
+            "id": 1,
+            "size": 18,
+            "top_terms": [
+              "personale",
+              "selezione",
+              "addetto"
+            ],
+            "pct": 9.4
           }
         ]
       }
