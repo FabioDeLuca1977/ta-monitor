@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-31T14:56:18.094019",
+  "generated_at": "2026-09-01T13:03:47.599763",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 16,
   "scoring": {
-    "average": 18.8,
+    "average": 20.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 11
+      "irrelevant": 10
     },
     "top_jobs": [
       {
@@ -86,14 +86,6 @@
         "url": "https://it.indeed.com/viewjob?jk=d6f5dea571bfa9e8"
       },
       {
-        "title": "Assistant CRA",
-        "company": "Thermo Fisher Scientific",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1786147200000,
-        "url": "https://www.linkedin.com/jobs/view/4450580019"
-      },
-      {
         "title": "Business Line Product Steward - Specialist",
         "company": "Celanese",
         "score": 6,
@@ -102,12 +94,28 @@
         "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
       },
       {
+        "title": "Assistant CRA",
+        "company": "Thermo Fisher Scientific",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4450580019"
+      },
+      {
         "title": "12 months fix term contract R&D Product Development Engineer",
         "company": "Dentsply Sirona",
         "score": 5,
         "site": "indeed",
         "date_posted": 1787788800000,
         "url": "https://it.indeed.com/viewjob?jk=ed803ba67a2697eb"
+      },
+      {
+        "title": "R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
+        "score": 5,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
       },
       {
         "title": "Commercial Development Analyst",
@@ -124,22 +132,6 @@
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
-      },
-      {
-        "title": "Clinical Trial Coordinator",
-        "company": "Thermo Fisher Scientific",
-        "score": 1,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=fb07b0a9f3943d56"
-      },
-      {
-        "title": "R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1786060800000,
-        "url": "https://it.indeed.com/viewjob?jk=eb596735e1274605"
       },
       {
         "title": "Senior System Verification Engineer",
@@ -160,12 +152,12 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "development",
+        "word": "engineer",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "development",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -175,33 +167,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-50%)",
-      "data": {
-        "current": 1,
-        "avg": 2.0,
-        "change_pct": -50.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
       }
     },
     {
@@ -212,6 +184,16 @@
         "channel": "linkedin",
         "old_pct": 0.0,
         "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     }
   ],

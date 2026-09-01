@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-31T14:56:18.011952",
+  "generated_at": "2026-09-01T13:03:47.490380",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
   "total_jobs_analyzed": 192,
   "scoring": {
-    "average": 26.0,
+    "average": 25.7,
     "distribution": {
       "excellent": 0,
       "good": 13,
-      "medium": 41,
-      "low": 61,
-      "irrelevant": 77
+      "medium": 40,
+      "low": 58,
+      "irrelevant": 81
     },
     "top_jobs": [
       {
@@ -24,10 +24,18 @@
       {
         "title": "HR Talent Acquisition & Employer Branding Intern",
         "company": "Ayvens",
-        "score": 69,
+        "score": 70,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4454153464"
+      },
+      {
+        "title": "HR Generalist – Gestione del personale",
+        "company": null,
+        "score": 70,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
       },
       {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
@@ -40,7 +48,7 @@
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
-        "score": 67,
+        "score": 66,
         "site": "indeed",
         "date_posted": 1786320000000,
         "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
@@ -70,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4460345535"
       },
       {
-        "title": "HR GENERALIST",
-        "company": "NewPrinces Group",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1787529600000,
-        "url": "https://www.linkedin.com/jobs/view/4458170836"
-      },
-      {
         "title": "HR Talent Acquisition Intern",
         "company": "Engineering Group",
         "score": 64,
@@ -94,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4460529876"
       },
       {
-        "title": "HR Specialist Clienti",
-        "company": "Ablio",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1787529600000,
-        "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
-      },
-      {
         "title": "Talent Acquisition Specialist Intern",
         "company": "Gruppo I.V.A. SpA",
         "score": 60,
@@ -116,6 +108,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4456460710"
+      },
+      {
+        "title": "HR GENERALIST",
+        "company": "NewPrinces Group",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1787529600000,
+        "url": "https://www.linkedin.com/jobs/view/4458170836"
       },
       {
         "title": "Junior HR Generalist",
@@ -150,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4458405604"
       },
       {
+        "title": "HR Specialist Clienti",
+        "company": "Ablio",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1787529600000,
+        "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
+      },
+      {
         "title": "HR generalist per soluzioni gestione acqua domestica",
         "company": "Ablio",
         "score": 55,
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1787702400000,
         "url": "https://it.indeed.com/viewjob?jk=d6c54c3f2a1aa42b"
-      },
-      {
-        "title": "CLIENT RECRUITMENT SPECIALIST ON SITE",
-        "company": "Gi Group",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4457232834"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 31,
+        "reason": "Appare 31x in annunci a basso score"
       },
       {
         "word": "assistant",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "sales",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "word": "responsabile",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,13 +214,13 @@
       "confidence": 60
     },
     {
-      "keyword": "intern",
+      "keyword": "junior",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
     },
     {
-      "keyword": "junior",
+      "keyword": "intern",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
@@ -259,42 +259,22 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 15 (-55%)",
+      "severity": "medium",
+      "message": "Volume in calo: 8 annunci ultimo scan vs media 15 (-48%)",
       "data": {
-        "current": 7,
-        "avg": 15.4,
-        "change_pct": -54.6
+        "current": 8,
+        "avg": 15.3,
+        "change_pct": -47.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/7 annunci da aziende nuove (14.3%)",
+      "message": "📊 Ultimo scan: 5/8 annunci da aziende nuove (62.5%)",
       "data": {
-        "new": 1,
-        "total": 7,
-        "pct": 14.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 71% (+71pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 71.4
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 29% (-71pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 28.6
+        "new": 5,
+        "total": 8,
+        "pct": 62.5
       }
     },
     {
@@ -304,17 +284,17 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 78,
+            "id": 0,
+            "size": 82,
             "top_terms": [
+              "specialist",
               "roma",
-              "assistant",
-              "recruiter"
+              "recruitment"
             ],
-            "pct": 40.6
+            "pct": 42.7
           },
           {
-            "id": 2,
+            "id": 3,
             "size": 44,
             "top_terms": [
               "umane",
@@ -324,34 +304,34 @@
             "pct": 22.9
           },
           {
-            "id": 0,
-            "size": 33,
+            "id": 2,
+            "size": 32,
             "top_terms": [
               "hr",
-              "junior",
-              "acqua"
+              "business",
+              "partner"
             ],
-            "pct": 17.2
-          },
-          {
-            "id": 3,
-            "size": 19,
-            "top_terms": [
-              "specialist",
-              "talent",
-              "acquisition"
-            ],
-            "pct": 9.9
+            "pct": 16.7
           },
           {
             "id": 1,
-            "size": 18,
+            "size": 17,
+            "top_terms": [
+              "junior",
+              "senior",
+              "hr"
+            ],
+            "pct": 8.9
+          },
+          {
+            "id": 4,
+            "size": 17,
             "top_terms": [
               "personale",
               "selezione",
               "addetto"
             ],
-            "pct": 9.4
+            "pct": 8.9
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-31T14:56:18.273740",
+  "generated_at": "2026-09-01T13:03:47.849600",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 41,
+  "total_jobs_analyzed": 42,
   "scoring": {
-    "average": 11.8,
+    "average": 12.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 2,
       "low": 0,
-      "irrelevant": 37
+      "irrelevant": 38
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
@@ -32,7 +32,7 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 56,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4454741767"
@@ -40,15 +40,23 @@
       {
         "title": "Ecommerce Marketplace Specialist",
         "company": "ghd",
-        "score": 40,
+        "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4457094559"
       },
       {
+        "title": "Telemarketing",
+        "company": null,
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1788220800000,
+        "url": "https://it.indeed.com/viewjob?jk=1ad3e9554851d791"
+      },
+      {
         "title": "QA & RA Manager | Medical Devices",
         "company": "Hays",
-        "score": 15,
+        "score": 14,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4452574716"
@@ -88,7 +96,7 @@
       {
         "title": "TRAINING SPECIALIST FONDI INTERPROFESSIONALI – CONTO SISTEMA",
         "company": "Talentform",
-        "score": 10,
+        "score": 11,
         "site": "linkedin",
         "date_posted": 1787011200000,
         "url": "https://www.linkedin.com/jobs/view/4446801074"
@@ -110,12 +118,28 @@
         "url": "https://it.indeed.com/viewjob?jk=cc17fc7ea031c848"
       },
       {
+        "title": "Impiegato Commerciale e Gestione Acquisti",
+        "company": "monti e monti srl",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=8ff555f533ae1438"
+      },
+      {
         "title": "Business Line Product Steward - Specialist",
         "company": "Celanese",
         "score": 9,
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
+      },
+      {
+        "title": "Responsabile del Sistema di Gestione della Qualità",
+        "company": "SGB Humangest Holding",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4459190843"
       },
       {
         "title": "Sales Specialist- Bologna Nova",
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439302592"
-      },
-      {
-        "title": "Responsabile del Sistema di Gestione della Qualità",
-        "company": "SGB Humangest Holding",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459190843"
-      },
-      {
-        "title": "Quality Manager",
-        "company": "Trivium Packaging",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1784505600000,
-        "url": "https://it.indeed.com/viewjob?jk=63fbd7da119cd659"
-      },
-      {
-        "title": "Quality Assurance Senior– Cluster Cocoa Products",
-        "company": "Unigrà",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1786406400000,
-        "url": "https://www.linkedin.com/jobs/view/4449871845"
       }
     ]
   },
@@ -194,14 +194,14 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "sistema",
+        "word": "engineer",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "sales",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +209,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
-      "data": {
-        "current": 1,
-        "avg": 3.1,
-        "change_pct": -67.5
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
         "new": 1,
-        "total": 1,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "total": 3,
+        "pct": 33.3
       }
     },
     {
@@ -256,53 +226,53 @@
         "clusters": [
           {
             "id": 2,
-            "size": 16,
+            "size": 24,
             "top_terms": [
               "manager",
               "commerciale",
-              "regulatory"
+              "gestione"
             ],
-            "pct": 39.0
+            "pct": 57.1
           },
           {
-            "id": 4,
-            "size": 8,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "specialist"
-            ],
-            "pct": 19.5
-          },
-          {
-            "id": 3,
-            "size": 7,
+            "id": 0,
+            "size": 6,
             "top_terms": [
               "specialist",
               "sales",
               "operations"
             ],
-            "pct": 17.1
+            "pct": 14.3
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "assurance",
+              "quality",
+              "specialist"
+            ],
+            "pct": 14.3
           },
           {
             "id": 1,
-            "size": 6,
+            "size": 3,
             "top_terms": [
-              "sistema",
-              "addetto",
-              "qualità"
+              "development",
+              "product",
+              "engineer"
             ],
-            "pct": 14.6
+            "pct": 7.1
           },
           {
-            "id": 0,
-            "size": 4,
+            "id": 3,
+            "size": 3,
             "top_terms": [
-              "product",
-              "development",
-              "line"
+              "affairs",
+              "regulatory",
+              "junior"
             ],
-            "pct": 9.8
+            "pct": 7.1
           }
         ]
       }
