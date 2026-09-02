@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-01T13:03:47.599763",
+  "generated_at": "2026-09-02T12:40:24.932769",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 16,
   "scoring": {
-    "average": 20.2,
+    "average": 20.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -22,6 +22,14 @@
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
+        "title": "Clinical Specialist",
+        "company": "Coloplast",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1788048000000,
+        "url": "https://www.linkedin.com/jobs/view/4433254704"
+      },
+      {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
         "score": 49,
@@ -36,14 +44,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4454741767"
-      },
-      {
-        "title": "Clinical Specialist",
-        "company": "Coloplast",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1786147200000,
-        "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
         "title": "MSL Centro (Emilia-Romagna, Marche)",
@@ -68,14 +68,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
-      },
-      {
-        "title": "Medico per CRA a Castel San Pietro Terme",
-        "company": "Elleuno scs",
-        "score": 10,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4458798414"
       },
       {
         "title": "Junior Accounting Specialist",
@@ -126,6 +118,14 @@
         "url": "https://it.indeed.com/viewjob?jk=a2787c4563d7be00"
       },
       {
+        "title": "Medico per CRA a Castel San Pietro Terme",
+        "company": "Elleuno scs",
+        "score": 5,
+        "site": "linkedin",
+        "date_posted": 1787616000000,
+        "url": "https://www.linkedin.com/jobs/view/4458798414"
+      },
+      {
         "title": "Business Line Product Steward, Product Stewardship",
         "company": "Celanese",
         "score": 2,
@@ -167,33 +167,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-47%)",
       "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "current": 1,
+        "avg": 1.9,
+        "change_pct": -46.7
       }
     }
   ],

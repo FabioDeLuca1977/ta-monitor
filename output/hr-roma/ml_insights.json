@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-01T13:03:47.394474",
+  "generated_at": "2026-09-02T12:40:24.725957",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 192,
+  "total_jobs_analyzed": 202,
   "scoring": {
-    "average": 24.6,
+    "average": 25.1,
     "distribution": {
       "excellent": 0,
-      "good": 9,
-      "medium": 37,
-      "low": 64,
-      "irrelevant": 82
+      "good": 8,
+      "medium": 44,
+      "low": 63,
+      "irrelevant": 87
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4456920708"
@@ -46,28 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4454153464"
       },
       {
+        "title": "Talent Acquisition Associate - Maternity Leave",
+        "company": "Fendi",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4451901416"
+      },
+      {
         "title": "Talent Acquisition Specialist",
         "company": "Jet HR",
         "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460345535"
-      },
-      {
-        "title": "Talent Acquisition Associate - Maternity Leave",
-        "company": "Fendi",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1786320000000,
-        "url": "https://it.indeed.com/viewjob?jk=bd1b861a377c12ef"
-      },
-      {
-        "title": "HR Talent Acquisition, Training & Development Specialist – Spanish Speaker",
-        "company": "Dan John",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1786492800000,
-        "url": "https://www.linkedin.com/jobs/view/4453052619"
       },
       {
         "title": "HR Generalist",
@@ -118,6 +110,14 @@
         "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
       },
       {
+        "title": "HR Specialist Clienti",
+        "company": "Ablio",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1787529600000,
+        "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
+      },
+      {
         "title": "HR Consultant (Ricerca & Selezione del personale - Div. Specializz. LIFE SCIENCE) - Roma",
         "company": "The Adecco Group",
         "score": 57,
@@ -126,17 +126,17 @@
         "url": "https://www.linkedin.com/jobs/view/4460529876"
       },
       {
-        "title": "HR Specialist Clienti",
-        "company": "Ablio",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1787529600000,
-        "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
+        "title": "Talent Acquisition Intern - French Speaker",
+        "company": "PQE Group",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4459539286"
       },
       {
         "title": "Talent Acquisition Specialist Intern",
         "company": "Gruppo I.V.A. SpA",
-        "score": 55,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1787097600000,
         "url": "https://it.indeed.com/viewjob?jk=353cf874af2f3da9"
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 32,
-        "reason": "Appare 32x in annunci a basso score"
+        "count": 36,
+        "reason": "Appare 36x in annunci a basso score"
       },
       {
         "word": "risorse",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 34,
+        "reason": "Appare 34x in annunci a basso score"
       },
       {
         "word": "assistant",
@@ -200,8 +200,8 @@
       },
       {
         "word": "responsabile",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,22 +214,16 @@
       "confidence": 60
     },
     {
+      "keyword": "intern",
+      "frequency": 6,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 60
+    },
+    {
       "keyword": "junior",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
-    },
-    {
-      "keyword": "intern",
-      "frequency": 5,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
-    },
-    {
-      "keyword": "hr talent",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
     },
     {
       "keyword": "life science",
@@ -238,7 +232,19 @@
       "confidence": 30
     },
     {
+      "keyword": "hr talent",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
       "keyword": "branding intern",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "acquisition intern",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -264,23 +270,32 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 8 annunci ultimo scan vs media 15 (-48%)",
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 23 annunci ultimo scan vs media 15 (+54%)",
       "data": {
-        "current": 8,
-        "avg": 15.3,
-        "change_pct": -47.8
+        "current": 23,
+        "avg": 14.9,
+        "change_pct": 54.2
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Leonardo: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Leonardo",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/8 annunci da aziende nuove (62.5%)",
+      "message": "📊 Ultimo scan: 7/23 annunci da aziende nuove (30.4%)",
       "data": {
-        "new": 5,
-        "total": 8,
-        "pct": 62.5
+        "new": 7,
+        "total": 23,
+        "pct": 30.4
       }
     },
     {
@@ -290,54 +305,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 82,
+            "id": 3,
+            "size": 91,
             "top_terms": [
               "specialist",
-              "roma",
+              "tecnico",
               "recruitment"
             ],
-            "pct": 42.7
+            "pct": 45.0
           },
           {
-            "id": 3,
-            "size": 44,
+            "id": 2,
+            "size": 42,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 22.9
-          },
-          {
-            "id": 2,
-            "size": 32,
-            "top_terms": [
-              "hr",
-              "business",
-              "partner"
-            ],
-            "pct": 16.7
+            "pct": 20.8
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 34,
             "top_terms": [
-              "junior",
-              "senior",
-              "hr"
+              "hr",
+              "generalist",
+              "junior"
+            ],
+            "pct": 16.8
+          },
+          {
+            "id": 4,
+            "size": 18,
+            "top_terms": [
+              "responsabile",
+              "hr",
+              "benessere"
             ],
             "pct": 8.9
           },
           {
-            "id": 4,
+            "id": 0,
             "size": 17,
             "top_terms": [
               "personale",
               "selezione",
               "addetto"
             ],
-            "pct": 8.9
+            "pct": 8.4
           }
         ]
       }

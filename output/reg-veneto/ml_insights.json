@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-01T13:03:47.688219",
+  "generated_at": "2026-09-02T12:40:25.020868",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
   "total_jobs_analyzed": 52,
   "scoring": {
-    "average": 9.4,
+    "average": 10.8,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 3,
+      "medium": 4,
       "low": 2,
-      "irrelevant": 47
+      "irrelevant": 46
     },
     "top_jobs": [
       {
         "title": "Quality Assurance Specialist - Pharma",
         "company": "Mérieux NutriSciences Italia",
-        "score": 59,
+        "score": 58,
         "site": "linkedin",
         "date_posted": 1788134400000,
         "url": "https://www.linkedin.com/jobs/view/4460065311"
@@ -36,6 +36,14 @@
         "site": "linkedin",
         "date_posted": 1786579200000,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
+      },
+      {
+        "title": "Salesforce Marketing Cloud Specialist (f/m/d)",
+        "company": "Eurocar",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4461736322"
       },
       {
         "title": "Test Engineer I - Padova - Italy",
@@ -64,7 +72,7 @@
       {
         "title": "DOSSIER MANAGER - SETTORE INVESTIGATIVO",
         "company": "Ricercamy Srl",
-        "score": 14,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4461065501"
@@ -102,6 +110,22 @@
         "url": "https://it.indeed.com/viewjob?jk=68f367c6fb5a55e7"
       },
       {
+        "title": "Senior GMP product quality assurance",
+        "company": "Adecco",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445899419"
+      },
+      {
+        "title": "Family and Stakeholder Engagement Officer",
+        "company": "US Department of War Education Activity",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1788220800000,
+        "url": "https://it.indeed.com/viewjob?jk=a8eaa64f7154dbde"
+      },
+      {
         "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical",
         "company": "W. L. Gore & Associates",
         "score": 11,
@@ -134,44 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=d2b4edae5b6bd961"
       },
       {
-        "title": "HR JR",
-        "company": "GPS SRLS",
-        "score": 8,
+        "title": "Operatore/trice Relazioni Clienti e Pratiche",
+        "company": "DMB",
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1786492800000,
-        "url": "https://it.indeed.com/viewjob?jk=d2fabff9cdcad995"
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=d75dd6ab6bdd0d38"
       },
       {
-        "title": "Project Manager (m/f) - Refrigerazione industriale e gestione commesse",
-        "company": "FRIGOVENETA SPA",
-        "score": 8,
-        "site": "indeed",
-        "date_posted": 1787011200000,
-        "url": "https://it.indeed.com/viewjob?jk=8e3e8f4714da0e80"
-      },
-      {
-        "title": "Quality Assurance Engineer",
-        "company": "Copeland",
-        "score": 8,
+        "title": "International Demand & Sales Planning Analyst (M/F/X)",
+        "company": "Tecnica Group",
+        "score": 10,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4457799703"
-      },
-      {
-        "title": "EE190: Operations Quality Associate / Specialist / Snr. Specialist",
-        "company": "FedEx",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=be81d161c6c7359b"
-      },
-      {
-        "title": "Head of Delivery & Client Services | gn | Email Retention Agency | Remote",
-        "company": "OKTOBER",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4457004728"
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4445477335"
       }
     ]
   },
@@ -180,16 +180,16 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "quality",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "assurance",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
@@ -199,9 +199,9 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "product",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -211,31 +211,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/5 annunci da aziende nuove (80.0%)",
       "data": {
         "new": 4,
-        "total": 4,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 50.0
+        "total": 5,
+        "pct": 80.0
       }
     },
     {
@@ -246,53 +226,53 @@
         "clusters": [
           {
             "id": 2,
-            "size": 33,
+            "size": 24,
             "top_terms": [
-              "manager",
-              "engineer",
-              "product"
-            ],
-            "pct": 63.5
-          },
-          {
-            "id": 0,
-            "size": 9,
-            "top_terms": [
-              "specialist",
-              "quality",
-              "assurance"
-            ],
-            "pct": 17.3
-          },
-          {
-            "id": 1,
-            "size": 5,
-            "top_terms": [
-              "demand",
-              "senior",
+              "gestione",
+              "addetto",
               "planner"
             ],
-            "pct": 9.6
+            "pct": 46.2
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 10,
             "top_terms": [
-              "gestione",
-              "integrato",
-              "sistema"
+              "quality",
+              "assurance",
+              "specialist"
             ],
-            "pct": 5.8
+            "pct": 19.2
+          },
+          {
+            "id": 1,
+            "size": 7,
+            "top_terms": [
+              "engineer",
+              "product",
+              "development"
+            ],
+            "pct": 13.5
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "sales",
+              "marketing"
+            ],
+            "pct": 11.5
           },
           {
             "id": 3,
-            "size": 2,
+            "size": 5,
             "top_terms": [
-              "addetto",
-              "time",
-              "italy"
+              "manager",
+              "medical",
+              "hypertension"
             ],
-            "pct": 3.8
+            "pct": 9.6
           }
         ]
       }

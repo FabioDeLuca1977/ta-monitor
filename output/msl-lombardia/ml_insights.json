@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-09-01T13:03:47.585659",
+  "generated_at": "2026-09-02T12:40:24.918484",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 138,
+  "total_jobs_analyzed": 144,
   "scoring": {
-    "average": 31.7,
+    "average": 31.9,
     "distribution": {
       "excellent": 0,
-      "good": 3,
-      "medium": 71,
-      "low": 14,
-      "irrelevant": 50
+      "good": 4,
+      "medium": 74,
+      "low": 13,
+      "irrelevant": 53
     },
     "top_jobs": [
+      {
+        "title": "Medical Advisor Consumer and Medical Information Italy",
+        "company": "Galderma",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4462157670"
+      },
       {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "Regeneron",
@@ -46,20 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4441606691"
       },
       {
+        "title": "MSL Manager - Metabolic Disorder",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1786579200000,
+        "url": "https://www.linkedin.com/jobs/view/4444450322"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
+        "company": "QVC Italy",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4440229244"
+      },
+      {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
         "company": "QVC Italy",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1787788800000,
         "url": "https://www.linkedin.com/jobs/view/4440222641"
-      },
-      {
-        "title": "MSL Manager - Metabolic Disorder",
-        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1786579200000,
-        "url": "https://www.linkedin.com/jobs/view/4444450322"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -70,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4431241411"
       },
       {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
-        "company": "QVC Italy",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4440229244"
-      },
-      {
         "title": "Sr. Medical Scientific Liaison (Northern) Italy",
         "company": "Acadia Pharmaceuticals",
         "score": 57,
         "site": "indeed",
         "date_posted": 1788134400000,
         "url": "https://it.indeed.com/viewjob?jk=2ea05687ba2f6be8"
+      },
+      {
+        "title": "Quality & Regulatory Affairs Specialist",
+        "company": "Adecco",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1788220800000,
+        "url": "https://www.linkedin.com/jobs/view/4447362862"
       },
       {
         "title": "Medical Science Liaison, Oncology",
@@ -108,14 +124,6 @@
         "site": "indeed",
         "date_posted": 1787875200000,
         "url": "https://it.indeed.com/viewjob?jk=63329489938ae021"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1786406400000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1786924800000,
         "url": "https://www.linkedin.com/jobs/view/4436040335"
-      },
-      {
-        "title": "Regulatory Affairs Manager",
-        "company": "MEDSPA Srl",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4455848460"
       }
     ]
   },
@@ -190,16 +190,16 @@
       },
       {
         "word": "clinical",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "principal",
+        "word": "fsp",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "fsp",
+        "word": "principal",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -218,6 +218,12 @@
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
+    },
+    {
+      "keyword": "emea",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
       "keyword": "client dedicated",
@@ -260,53 +266,26 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "devices cosmetics",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "new_company_surge",
       "severity": "medium",
-      "message": "Volume in crescita: 12 annunci ultimo scan vs media 9 (+33%)",
+      "message": "🆕 AGC Biologics: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 12,
-        "avg": 9.0,
-        "change_pct": 33.3
+        "company": "AGC Biologics",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/12 annunci da aziende nuove (58.3%)",
+      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 7,
+        "new": 6,
         "total": 12,
-        "pct": 58.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "pct": 50.0
       }
     },
     {
@@ -316,54 +295,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 69,
+            "id": 0,
+            "size": 60,
+            "top_terms": [
+              "associate",
+              "cra",
+              "clinical"
+            ],
+            "pct": 41.7
+          },
+          {
+            "id": 3,
+            "size": 36,
             "top_terms": [
               "medical",
               "director",
-              "manager"
+              "italy"
             ],
-            "pct": 50.0
+            "pct": 25.0
           },
           {
-            "id": 2,
-            "size": 24,
+            "id": 1,
+            "size": 27,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.4
+            "pct": 18.8
           },
           {
-            "id": 0,
-            "size": 18,
+            "id": 4,
+            "size": 16,
             "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 13.0
-          },
-          {
-            "id": 1,
-            "size": 18,
-            "top_terms": [
-              "specialist",
-              "devices",
+              "manager",
+              "project",
               "medical"
             ],
-            "pct": 13.0
+            "pct": 11.1
           },
           {
-            "id": 3,
-            "size": 9,
+            "id": 2,
+            "size": 5,
             "top_terms": [
-              "cra",
-              "ii",
-              "milan"
+              "manufacturing",
+              "mrna",
+              "specialist"
             ],
-            "pct": 6.5
+            "pct": 3.5
           }
         ]
       }
