@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-02T12:40:24.821528",
+  "generated_at": "2026-09-03T12:44:32.932643",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 202,
+  "total_jobs_analyzed": 208,
   "scoring": {
-    "average": 25.9,
+    "average": 25.8,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 47,
-      "low": 58,
-      "irrelevant": 86
+      "good": 13,
+      "medium": 44,
+      "low": 62,
+      "irrelevant": 89
     },
     "top_jobs": [
       {
@@ -54,12 +54,12 @@
         "url": "https://www.linkedin.com/jobs/view/4451901416"
       },
       {
-        "title": "Plant HR Manager",
-        "company": "Alfasigma",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4456920708"
+        "title": "HR Generalist - Gestione operativa del cliente",
+        "company": "Mobile 1",
+        "score": 67,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
       },
       {
         "title": "Talent Acquisition Specialist",
@@ -76,6 +76,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4446772905"
+      },
+      {
+        "title": "Plant HR Manager",
+        "company": "Alfasigma",
+        "score": 65,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4456920708"
+      },
+      {
+        "title": "HR Senior Consultant /Head Hunter Finance",
+        "company": "Randstad",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=d7835f5ab589dfb6"
       },
       {
         "title": "Talent Acquisition Intern - French Speaker",
@@ -126,20 +142,20 @@
         "url": "https://it.indeed.com/viewjob?jk=ab510332677a437a"
       },
       {
-        "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
-        "company": "Ablio",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1787011200000,
-        "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
-      },
-      {
         "title": "Junior HR Generalist",
         "company": "LDC Hotels Italy",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1786665600000,
         "url": "https://www.linkedin.com/jobs/view/4454398929"
+      },
+      {
+        "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
+        "company": "Ablio",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1787011200000,
+        "url": "https://it.indeed.com/viewjob?jk=552e2c04728a4ef1"
       },
       {
         "title": "HR Specialist Clienti",
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1788134400000,
         "url": "https://it.indeed.com/viewjob?jk=51995f29122323fc"
-      },
-      {
-        "title": "HR generalist per soluzioni gestione acqua domestica",
-        "company": "Ablio",
-        "score": 55,
-        "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=82d0d8b0748ece23"
-      },
-      {
-        "title": "BNL BNP Paribas – Chief People & Engagement – Employer Branding Intern",
-        "company": "BNL BNP Paribas",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440554981"
       }
     ]
   },
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 35,
-        "reason": "Appare 35x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "risorse",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 34,
-        "reason": "Appare 34x in annunci a basso score"
-      },
-      {
-        "word": "assistant",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 33,
+        "reason": "Appare 33x in annunci a basso score"
       },
       {
         "word": "responsabile",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "assistant",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -244,58 +244,39 @@
       "confidence": 30
     },
     {
-      "keyword": "personale contact",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "contact center",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "personale contact center",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "stage curriculare",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "generalist gestione",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "soluzioni",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "acqua",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 23 annunci ultimo scan vs media 15 (+54%)",
-      "data": {
-        "current": 23,
-        "avg": 14.9,
-        "change_pct": 54.2
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Leonardo: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "Leonardo",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 7/23 annunci da aziende nuove (30.4%)",
+      "message": "📊 Ultimo scan: 6/16 annunci da aziende nuove (37.5%)",
       "data": {
-        "new": 7,
-        "total": 23,
-        "pct": 30.4
+        "new": 6,
+        "total": 16,
+        "pct": 37.5
       }
     },
     {
@@ -305,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 91,
+            "id": 0,
+            "size": 94,
             "top_terms": [
               "specialist",
-              "tecnico",
-              "recruitment"
+              "recruiter",
+              "tecnico"
             ],
-            "pct": 45.0
+            "pct": 45.2
           },
           {
             "id": 2,
-            "size": 42,
+            "size": 40,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 20.8
+            "pct": 19.2
           },
           {
-            "id": 1,
-            "size": 34,
+            "id": 4,
+            "size": 37,
             "top_terms": [
               "hr",
               "generalist",
               "junior"
             ],
-            "pct": 16.8
+            "pct": 17.8
           },
           {
-            "id": 4,
-            "size": 18,
+            "id": 1,
+            "size": 20,
             "top_terms": [
               "responsabile",
               "hr",
               "benessere"
             ],
-            "pct": 8.9
+            "pct": 9.6
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 17,
             "top_terms": [
               "personale",
               "selezione",
               "addetto"
             ],
-            "pct": 8.4
+            "pct": 8.2
           }
         ]
       }

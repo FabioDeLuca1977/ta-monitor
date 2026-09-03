@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-09-02T12:40:25.192868",
+  "generated_at": "2026-09-03T12:44:33.324386",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 42,
+  "total_jobs_analyzed": 44,
   "scoring": {
-    "average": 12.9,
+    "average": 12.7,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 2,
       "low": 1,
-      "irrelevant": 37
+      "irrelevant": 39
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs",
-        "company": "Teoresi MedTech",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
       {
         "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
         "company": "MEDIFLY SRL",
@@ -30,11 +22,19 @@
         "url": "https://it.indeed.com/viewjob?jk=89779c3cd21d4f9e"
       },
       {
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
+      },
+      {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 59,
+        "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787011200000,
         "url": "https://www.linkedin.com/jobs/view/4454741767"
       },
       {
@@ -72,7 +72,7 @@
       {
         "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
         "company": "Thales",
-        "score": 13,
+        "score": 14,
         "site": "linkedin",
         "date_posted": 1786665600000,
         "url": "https://www.linkedin.com/jobs/view/4444485295"
@@ -150,28 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=10ea274e00e2e1d4"
       },
       {
-        "title": "Business Line Product Steward - Specialist",
-        "company": "Celanese",
-        "score": 9,
+        "title": "Istruttrice/Istruttore Tributario",
+        "company": "FRATERNITA' SISTEMI",
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
+        "date_posted": 1788393600000,
+        "url": "https://it.indeed.com/viewjob?jk=f10f5cc23e5fc63d"
       },
       {
-        "title": "Responsabile del Sistema di Gestione della Qualità",
-        "company": "SGB Humangest Holding",
-        "score": 9,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459190843"
+        "title": "Specialista Ortofrutta",
+        "company": "METRO Italia",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1788393600000,
+        "url": "https://it.indeed.com/viewjob?jk=4e0c91fb9da8a6ad"
       },
       {
-        "title": "Regulatory & Sustaining Engineer",
-        "company": "G&W Electric Company",
-        "score": 9,
+        "title": "QC Supervisor",
+        "company": "Phibro Animal Health Corporation",
+        "score": 10,
         "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=78b45206906f7cd2"
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=96953c697713ab3c"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "product",
@@ -194,12 +194,12 @@
         "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "sistema",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "sales",
+        "word": "gestione",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       }
@@ -211,11 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 4,
+        "total": 4,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 75.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 25.0
       }
     },
     {
@@ -225,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 26,
+            "id": 2,
+            "size": 27,
             "top_terms": [
-              "specialist",
               "engineer",
-              "commerciale"
+              "regulatory",
+              "product"
             ],
-            "pct": 61.9
+            "pct": 61.4
           },
           {
-            "id": 1,
-            "size": 5,
+            "id": 0,
+            "size": 6,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 11.9
+            "pct": 13.6
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 1,
+            "size": 5,
             "top_terms": [
-              "addetto",
-              "qualità",
-              "gestione"
+              "specialist",
+              "snr",
+              "operations"
             ],
-            "pct": 9.5
+            "pct": 11.4
           },
           {
             "id": 3,
-            "size": 4,
-            "top_terms": [
-              "manager",
-              "quality",
-              "law"
-            ],
-            "pct": 9.5
-          },
-          {
-            "id": 0,
             "size": 3,
             "top_terms": [
-              "specialist",
-              "sales",
-              "term"
+              "qualità",
+              "gestione",
+              "sistema"
             ],
-            "pct": 7.1
+            "pct": 6.8
+          },
+          {
+            "id": 4,
+            "size": 3,
+            "top_terms": [
+              "commerciale",
+              "telemarketing",
+              "gestione"
+            ],
+            "pct": 6.8
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-02T12:40:24.918484",
+  "generated_at": "2026-09-03T12:44:33.035472",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 144,
+  "total_jobs_analyzed": 154,
   "scoring": {
-    "average": 31.9,
+    "average": 31.0,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 74,
-      "low": 13,
-      "irrelevant": 53
+      "good": 3,
+      "medium": 77,
+      "low": 14,
+      "irrelevant": 60
     },
     "top_jobs": [
       {
@@ -38,14 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4444350315"
       },
       {
-        "title": "Market Access Specialist – Medical Devices (Italy)",
-        "company": "Abbott",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459332631"
-      },
-      {
         "title": "International Medical Affairs Manager",
         "company": "Evolus",
         "score": 59,
@@ -62,20 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4444450322"
       },
       {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
-        "company": "QVC Italy",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4440229244"
-      },
-      {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
         "company": "QVC Italy",
         "score": 58,
         "site": "linkedin",
         "date_posted": 1787788800000,
         "url": "https://www.linkedin.com/jobs/view/4440222641"
+      },
+      {
+        "title": "Sr. Medical Scientific Liaison (Northern) Italy",
+        "company": "Acadia Pharmaceuticals",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=2ea05687ba2f6be8"
+      },
+      {
+        "title": "Market Access Specialist – Medical Devices (Italy)",
+        "company": "Abbott",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4459332631"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -86,36 +86,12 @@
         "url": "https://www.linkedin.com/jobs/view/4431241411"
       },
       {
-        "title": "Sr. Medical Scientific Liaison (Northern) Italy",
-        "company": "Acadia Pharmaceuticals",
-        "score": 57,
-        "site": "indeed",
-        "date_posted": 1788134400000,
-        "url": "https://it.indeed.com/viewjob?jk=2ea05687ba2f6be8"
-      },
-      {
         "title": "Quality & Regulatory Affairs Specialist",
         "company": "Adecco",
         "score": 57,
         "site": "linkedin",
         "date_posted": 1788220800000,
         "url": "https://www.linkedin.com/jobs/view/4447362862"
-      },
-      {
-        "title": "Medical Science Liaison, Oncology",
-        "company": "IQVIA",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1786838400000,
-        "url": "https://www.linkedin.com/jobs/view/4426942441"
-      },
-      {
-        "title": "Procurement Manager | CMO",
-        "company": "Adecco",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4445012573"
       },
       {
         "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
@@ -158,6 +134,14 @@
         "url": "https://it.indeed.com/viewjob?jk=9fef1d8bd03f1b2a"
       },
       {
+        "title": "Medical Manager - Sostituzione Maternità",
+        "company": "Chaberton Professionals",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460703021"
+      },
+      {
         "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
         "company": "Thermo Fisher Scientific",
         "score": 53,
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": 1786924800000,
         "url": "https://www.linkedin.com/jobs/view/4436040335"
+      },
+      {
+        "title": "Regulatory Affairs Manager",
+        "company": "MEDSPA Srl",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4455848460"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
+        "company": "QVC Italy",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4440229244"
       }
     ]
   },
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "cra",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "senior",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "senior",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "clinical",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "clinical",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "specialist",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "fsp",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "principal",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,12 +209,18 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 9,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 80
     },
     {
       "keyword": "specialist medical",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "sostituzione maternità",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
@@ -227,18 +233,6 @@
     },
     {
       "keyword": "client dedicated",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "associate ii",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "research associate ii",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -266,26 +260,53 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "devices cosmetics",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 AGC Biologics: 2 posizioni, non presente negli scan precedenti",
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 17 annunci ultimo scan vs media 10 (+74%)",
       "data": {
-        "company": "AGC Biologics",
-        "count": 2
+        "current": 17,
+        "avg": 9.8,
+        "change_pct": 73.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/12 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 12/17 annunci da aziende nuove (70.6%)",
       "data": {
-        "new": 6,
-        "total": 12,
-        "pct": 50.0
+        "new": 12,
+        "total": 17,
+        "pct": 70.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 58% a 41% (-17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 58.3,
+        "new_pct": 41.2
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 42% a 59% (+17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 41.7,
+        "new_pct": 58.8
       }
     },
     {
@@ -296,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 60,
+            "size": 62,
             "top_terms": [
-              "associate",
-              "cra",
-              "clinical"
-            ],
-            "pct": 41.7
-          },
-          {
-            "id": 3,
-            "size": 36,
-            "top_terms": [
-              "medical",
-              "director",
+              "manager",
+              "specialist",
               "italy"
             ],
-            "pct": 25.0
+            "pct": 40.3
           },
           {
             "id": 1,
-            "size": 27,
+            "size": 38,
+            "top_terms": [
+              "medical",
+              "devices",
+              "director"
+            ],
+            "pct": 24.7
+          },
+          {
+            "id": 2,
+            "size": 25,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 18.8
+            "pct": 16.2
           },
           {
             "id": 4,
-            "size": 16,
+            "size": 18,
             "top_terms": [
-              "manager",
-              "project",
-              "medical"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 11.1
+            "pct": 11.7
           },
           {
-            "id": 2,
-            "size": 5,
+            "id": 3,
+            "size": 11,
             "top_terms": [
-              "manufacturing",
-              "mrna",
-              "specialist"
+              "cra",
+              "ii",
+              "sponsor"
             ],
-            "pct": 3.5
+            "pct": 7.1
           }
         ]
       }

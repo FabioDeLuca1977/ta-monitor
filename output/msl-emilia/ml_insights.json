@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-02T12:40:24.932769",
+  "generated_at": "2026-09-03T12:44:33.050157",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 16,
+  "total_jobs_analyzed": 17,
   "scoring": {
-    "average": 20.5,
+    "average": 19.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 10
+      "irrelevant": 11
     },
     "top_jobs": [
       {
@@ -24,26 +24,26 @@
       {
         "title": "Clinical Specialist",
         "company": "Coloplast",
-        "score": 52,
+        "score": 47,
         "site": "linkedin",
         "date_posted": 1788048000000,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
-      },
-      {
-        "title": "Regulatory Affairs",
-        "company": "Teoresi MedTech",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787011200000,
         "url": "https://www.linkedin.com/jobs/view/4454741767"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "Teoresi MedTech",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4440989246"
       },
       {
         "title": "MSL Centro (Emilia-Romagna, Marche)",
@@ -68,6 +68,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
+      },
+      {
+        "title": "Associate Market Access Specialist, North East Italy",
+        "company": "IQVIA",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4443130337"
       },
       {
         "title": "Junior Accounting Specialist",
@@ -110,14 +118,6 @@
         "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
       },
       {
-        "title": "Commercial Development Analyst",
-        "company": "Coloplast",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1787702400000,
-        "url": "https://it.indeed.com/viewjob?jk=a2787c4563d7be00"
-      },
-      {
         "title": "Medico per CRA a Castel San Pietro Terme",
         "company": "Elleuno scs",
         "score": 5,
@@ -140,6 +140,14 @@
         "site": "indeed",
         "date_posted": 1787270400000,
         "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
+      },
+      {
+        "title": "Commercial Development Analyst",
+        "company": "Coloplast",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1787702400000,
+        "url": "https://it.indeed.com/viewjob?jk=a2787c4563d7be00"
       }
     ]
   },
@@ -169,11 +177,21 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-47%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-44%)",
       "data": {
         "current": 1,
-        "avg": 1.9,
-        "change_pct": -46.7
+        "avg": 1.8,
+        "change_pct": -43.7
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
       }
     }
   ],
