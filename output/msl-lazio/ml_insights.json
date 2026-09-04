@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-03T12:44:33.091816",
+  "generated_at": "2026-09-04T12:41:48.028083",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 49,
+  "total_jobs_analyzed": 51,
   "scoring": {
-    "average": 32.4,
+    "average": 32.7,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 23,
+      "medium": 25,
       "low": 7,
       "irrelevant": 17
     },
     "top_jobs": [
       {
-        "title": "Medical Affairs Tender Evidence Manager",
+        "title": "Medical Affairs Sr. Manager",
         "company": "Johnson & Johnson MedTech",
-        "score": 62,
+        "score": 65,
         "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4458578450"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4458586490"
       },
       {
         "title": "Medical Advisor Gastroenterology",
@@ -30,12 +30,12 @@
         "url": "https://www.linkedin.com/jobs/view/4447698999"
       },
       {
-        "title": "Medical Affairs Sr. Manager",
+        "title": "Medical Affairs Tender Evidence Manager",
         "company": "Johnson & Johnson MedTech",
         "score": 59,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4458586490"
+        "date_posted": 1787616000000,
+        "url": "https://www.linkedin.com/jobs/view/4458578450"
       },
       {
         "title": "Medical Communications and Marketing Specialist",
@@ -46,28 +46,28 @@
         "url": "https://www.linkedin.com/jobs/view/4459937146"
       },
       {
-        "title": "MEDICAL LEAD ONCOLOGY",
-        "company": "Gruppo Servier in Italia",
-        "score": 53,
+        "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
+        "company": "AbbVie",
+        "score": 55,
         "site": "linkedin",
-        "date_posted": 1786665600000,
-        "url": "https://www.linkedin.com/jobs/view/4446308405"
+        "date_posted": 1788393600000,
+        "url": "https://www.linkedin.com/jobs/view/4460481744"
       },
       {
         "title": "Medical Advisor Neurology and Immunology (fixed term)",
         "company": "Merck Healthcare",
-        "score": 53,
+        "score": 52,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787097600000,
         "url": "https://www.linkedin.com/jobs/view/4446581713"
       },
       {
-        "title": "Medical Science Manager, Oncology, Italy",
-        "company": "Amplity",
+        "title": "MEDICAL LEAD ONCOLOGY",
+        "company": "Gruppo Servier in Italia",
         "score": 52,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440244615"
+        "date_posted": 1786665600000,
+        "url": "https://www.linkedin.com/jobs/view/4446308405"
       },
       {
         "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
@@ -78,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4448866686"
       },
       {
-        "title": "Senior Clinical Research Associate",
-        "company": "Translational Oncology Research, LLC",
+        "title": "Senior Pharmacovigilance Project Manager- Europe",
+        "company": "PrimeVigilance",
         "score": 51,
         "site": "linkedin",
-        "date_posted": 1787788800000,
-        "url": "https://www.linkedin.com/jobs/view/4458608678"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "Translational Oncology Research, LLC",
+        "title": "Medical Science Manager, Oncology, Italy",
+        "company": "Amplity",
         "score": 51,
         "site": "linkedin",
-        "date_posted": 1787788800000,
-        "url": "https://www.linkedin.com/jobs/view/4458617462"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4440244615"
       },
       {
         "title": "Medical Director - Oncology , Sponsor Dedicated (Home-Based)",
@@ -100,14 +100,6 @@
         "site": "linkedin",
         "date_posted": 1786665600000,
         "url": "https://www.linkedin.com/jobs/view/4453702548"
-      },
-      {
-        "title": "Senior Pharmacovigilance Project Manager- Europe",
-        "company": "PrimeVigilance",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
         "title": "Regulatory Affairs & Competition Specialist",
@@ -150,12 +142,20 @@
         "url": "https://www.linkedin.com/jobs/view/4459333628"
       },
       {
-        "title": "Clinical Research Associate II Oncology (Field Role, Nationwide Coverage)",
-        "company": "AbbVie",
+        "title": "Senior Clinical Research Associate",
+        "company": "Translational Oncology Research, LLC",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4460482778"
+        "date_posted": 1787788800000,
+        "url": "https://www.linkedin.com/jobs/view/4458608678"
+      },
+      {
+        "title": "Clinical Research Associate",
+        "company": "Translational Oncology Research, LLC",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1787788800000,
+        "url": "https://www.linkedin.com/jobs/view/4458617462"
       },
       {
         "title": "Freelance Senior Clinical Research Associate",
@@ -179,11 +179,6 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "clinical",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
         "word": "dell",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
@@ -194,52 +189,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 3 (+81%)",
-      "data": {
-        "current": 6,
-        "avg": 3.3,
-        "change_pct": 81.4
-      }
-    },
-    {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 AbbVie: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "AbbVie",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 5,
-        "total": 6,
-        "pct": 83.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 33% (+33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
@@ -249,54 +205,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 17,
-            "top_terms": [
-              "oncologia",
-              "medico",
-              "cra"
-            ],
-            "pct": 34.7
-          },
-          {
             "id": 0,
-            "size": 10,
+            "size": 21,
             "top_terms": [
-              "medical",
-              "manager",
-              "science"
+              "specialist",
+              "oncology",
+              "pharmacovigilance"
             ],
-            "pct": 20.4
+            "pct": 41.2
           },
           {
             "id": 1,
-            "size": 9,
+            "size": 10,
             "top_terms": [
               "clinical",
-              "research",
-              "associate"
+              "associate",
+              "research"
             ],
-            "pct": 18.4
-          },
-          {
-            "id": 3,
-            "size": 8,
-            "top_terms": [
-              "specialist",
-              "pharmacovigilance",
-              "therapeutic"
-            ],
-            "pct": 16.3
+            "pct": 19.6
           },
           {
             "id": 4,
-            "size": 5,
+            "size": 9,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "intern"
+              "medical",
+              "science",
+              "advisor"
             ],
-            "pct": 10.2
+            "pct": 17.6
+          },
+          {
+            "id": 2,
+            "size": 7,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "specialist"
+            ],
+            "pct": 13.7
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "oncologia",
+              "uoc",
+              "internship"
+            ],
+            "pct": 7.8
           }
         ]
       }

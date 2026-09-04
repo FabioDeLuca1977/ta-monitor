@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-09-03T12:44:33.324386",
+  "generated_at": "2026-09-04T12:41:48.268243",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 44,
+  "total_jobs_analyzed": 46,
   "scoring": {
-    "average": 12.7,
+    "average": 11.6,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 2,
+      "good": 1,
+      "medium": 3,
       "low": 1,
-      "irrelevant": 39
+      "irrelevant": 41
     },
     "top_jobs": [
-      {
-        "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
-        "company": "MEDIFLY SRL",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1788134400000,
-        "url": "https://it.indeed.com/viewjob?jk=89779c3cd21d4f9e"
-      },
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
@@ -32,10 +24,18 @@
       {
         "title": "Regulatory Affairs Specialist Junior - Firenze",
         "company": "Adecco",
-        "score": 57,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1787011200000,
         "url": "https://www.linkedin.com/jobs/view/4454741767"
+      },
+      {
+        "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
+        "company": "MEDIFLY SRL",
+        "score": 56,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=89779c3cd21d4f9e"
       },
       {
         "title": "Ecommerce Marketplace Specialist",
@@ -58,7 +58,7 @@
         "company": "Hays",
         "score": 16,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787097600000,
         "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
@@ -110,30 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446801074"
       },
       {
-        "title": "Impiegata commerciale telemarketing",
-        "company": "Maria Elena Golfarelli",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=b1ed13fb7a0fc7d6"
-      },
-      {
-        "title": "Sales Specialist- Bologna Nova",
-        "company": "R-Store SPA",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=d9cf90f7dcd2df61"
-      },
-      {
-        "title": "Impiegato Commerciale e Gestione Acquisti",
-        "company": "monti e monti srl",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1788134400000,
-        "url": "https://it.indeed.com/viewjob?jk=8ff555f533ae1438"
-      },
-      {
         "title": "Operatore/trice Relazioni Clienti e Pratiche",
         "company": "DMB",
         "score": 10,
@@ -172,6 +148,30 @@
         "site": "indeed",
         "date_posted": 1788307200000,
         "url": "https://it.indeed.com/viewjob?jk=96953c697713ab3c"
+      },
+      {
+        "title": "Help Desk Senior",
+        "company": "AEP Ticketing solutions",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1788393600000,
+        "url": "https://it.indeed.com/viewjob?jk=5b99457a180e293d"
+      },
+      {
+        "title": "Business Line Product Steward - Specialist",
+        "company": "Celanese",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
+      },
+      {
+        "title": "EE190: Operations Quality Associate / Specialist / Snr. Specialist",
+        "company": "FedEx",
+        "score": 8,
+        "site": "indeed",
+        "date_posted": 1787184000000,
+        "url": "https://it.indeed.com/viewjob?jk=ab27d9a80be117ce"
       }
     ]
   },
@@ -179,7 +179,17 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "quality",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
         "word": "specialist",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
@@ -192,16 +202,6 @@
         "word": "engineer",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "sistema",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
-        "word": "gestione",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "data": {
+        "current": 2,
+        "avg": 3.4,
+        "change_pct": -40.9
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 4,
-        "total": 4,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 75% (-25pp)",
+      "message": "📡 indeed: quota passata da 75% a 50% (-25pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 75.0
+        "old_pct": 75.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 25% (+25pp)",
+      "message": "📡 linkedin: quota passata da 25% a 50% (+25pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 25.0
+        "old_pct": 25.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 27,
+            "id": 0,
+            "size": 28,
             "top_terms": [
-              "engineer",
-              "regulatory",
-              "product"
+              "commerciale",
+              "product",
+              "engineer"
             ],
-            "pct": 61.4
+            "pct": 60.9
           },
           {
-            "id": 0,
-            "size": 6,
+            "id": 1,
+            "size": 7,
             "top_terms": [
               "assurance",
               "quality",
               "specialist"
             ],
-            "pct": 13.6
+            "pct": 15.2
           },
           {
-            "id": 1,
+            "id": 4,
             "size": 5,
             "top_terms": [
               "specialist",
-              "snr",
-              "operations"
+              "operations",
+              "snr"
             ],
-            "pct": 11.4
+            "pct": 10.9
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 3,
             "top_terms": [
               "qualità",
               "gestione",
               "sistema"
             ],
-            "pct": 6.8
+            "pct": 6.5
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 3,
             "top_terms": [
-              "commerciale",
-              "telemarketing",
-              "gestione"
+              "affairs",
+              "regulatory",
+              "junior"
             ],
-            "pct": 6.8
+            "pct": 6.5
           }
         ]
       }

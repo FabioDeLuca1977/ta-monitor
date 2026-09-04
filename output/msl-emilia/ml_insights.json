@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-03T12:44:33.050157",
+  "generated_at": "2026-09-04T12:41:47.984700",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 17,
+  "total_jobs_analyzed": 19,
   "scoring": {
-    "average": 19.2,
+    "average": 18.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
-      "low": 1,
-      "irrelevant": 11
+      "low": 2,
+      "irrelevant": 12
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
+        "title": "Regulatory Affairs Specialist Junior - Firenze",
+        "company": "Adecco",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1787011200000,
+        "url": "https://www.linkedin.com/jobs/view/4454741767"
+      },
+      {
         "title": "Clinical Specialist",
         "company": "Coloplast",
         "score": 47,
         "site": "linkedin",
         "date_posted": 1788048000000,
         "url": "https://www.linkedin.com/jobs/view/4433254704"
-      },
-      {
-        "title": "Regulatory Affairs Specialist Junior - Firenze",
-        "company": "Adecco",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1787011200000,
-        "url": "https://www.linkedin.com/jobs/view/4454741767"
       },
       {
         "title": "Regulatory Affairs",
@@ -54,12 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
+        "title": "Presales CAD Engineer (Powertrain)",
+        "company": "Vertiv",
+        "score": 30,
+        "site": "indeed",
+        "date_posted": 1788393600000,
+        "url": "https://it.indeed.com/viewjob?jk=34c41cd2aa00c3d0"
+      },
+      {
         "title": "QA & RA Manager | Medical Devices",
         "company": "Hays",
         "score": 20,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787097600000,
         "url": "https://www.linkedin.com/jobs/view/4452574716"
+      },
+      {
+        "title": "Manufacturing Manager - Molding & Extrusion",
+        "company": "LivaNova",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1788393600000,
+        "url": "https://it.indeed.com/viewjob?jk=f7246d37e9882f91"
       },
       {
         "title": "Design Quality Specialist - Medical Devices",
@@ -78,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4443130337"
       },
       {
-        "title": "Junior Accounting Specialist",
-        "company": "Dentsply Sirona",
-        "score": 9,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=d6f5dea571bfa9e8"
-      },
-      {
         "title": "Business Line Product Steward - Specialist",
         "company": "Celanese",
         "score": 6,
@@ -102,28 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4450580019"
       },
       {
-        "title": "12 months fix term contract R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=ed803ba67a2697eb"
-      },
-      {
-        "title": "R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
-      },
-      {
         "title": "Medico per CRA a Castel San Pietro Terme",
         "company": "Elleuno scs",
         "score": 5,
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4458798414"
+      },
+      {
+        "title": "Junior Accounting Specialist",
+        "company": "Dentsply Sirona",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=d6f5dea571bfa9e8"
       },
       {
         "title": "Business Line Product Steward, Product Stewardship",
@@ -140,6 +140,22 @@
         "site": "indeed",
         "date_posted": 1787270400000,
         "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
+      },
+      {
+        "title": "12 months fix term contract R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=ed803ba67a2697eb"
+      },
+      {
+        "title": "R&D Product Development Engineer",
+        "company": "Dentsply Sirona",
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
       },
       {
         "title": "Commercial Development Analyst",
@@ -175,23 +191,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 2 (-44%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "current": 1,
-        "avg": 1.8,
-        "change_pct": -43.7
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     }
   ],
