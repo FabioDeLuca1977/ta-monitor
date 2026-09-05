@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-04T12:41:48.079349",
+  "generated_at": "2026-09-05T11:59:32.663983",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 55,
+  "total_jobs_analyzed": 58,
   "scoring": {
-    "average": 9.3,
+    "average": 10.1,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 3,
+      "medium": 4,
       "low": 1,
-      "irrelevant": 51
+      "irrelevant": 53
     },
     "top_jobs": [
       {
         "title": "JUNIOR TECHNICAL & REGULATORY SPECIALIST",
         "company": "Mondial Color",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4461090281"
@@ -28,6 +28,14 @@
         "site": "linkedin",
         "date_posted": 1788134400000,
         "url": "https://www.linkedin.com/jobs/view/4460065311"
+      },
+      {
+        "title": "Product Safety and Regulatory Compliance Analyst",
+        "company": "Motorola Solutions",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4436337918"
       },
       {
         "title": "Salesforce Marketing Cloud Specialist (f/m/d)",
@@ -62,20 +70,20 @@
         "url": "https://www.linkedin.com/jobs/view/4462464562"
       },
       {
+        "title": "Software Quality Assurance Engineer",
+        "company": "XTN Cognitive Security®",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1788480000000,
+        "url": "https://www.linkedin.com/jobs/view/4449459364"
+      },
+      {
         "title": "Quality Assurance Inspector",
         "company": "Orbia Building & Infrastructure Wavin",
         "score": 16,
         "site": "indeed",
         "date_posted": 1788307200000,
         "url": "https://it.indeed.com/viewjob?jk=6cafc3fc83ab91bb"
-      },
-      {
-        "title": "Quality Assurance Manager#86492",
-        "company": "During Spa - Filiale di Thiene",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4458750523"
       },
       {
         "title": "DOSSIER MANAGER - SETTORE INVESTIGATIVO",
@@ -86,6 +94,22 @@
         "url": "https://www.linkedin.com/jobs/view/4461065501"
       },
       {
+        "title": "Esperta in Segreteria Societaria, Pratiche Telematiche e Innovazione Digitale",
+        "company": "Studio Fiabane & Partners",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1788393600000,
+        "url": "https://www.linkedin.com/jobs/view/4439203482"
+      },
+      {
+        "title": "Quality Assurance Manager#86492",
+        "company": "During Spa - Filiale di Thiene",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4458750523"
+      },
+      {
         "title": "Chiller Controls Offering Specialist",
         "company": "Vertiv",
         "score": 14,
@@ -94,11 +118,19 @@
         "url": "https://it.indeed.com/viewjob?jk=8a599a42527e4119"
       },
       {
+        "title": "Senior GMP product quality assurance",
+        "company": "Adecco",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4445899419"
+      },
+      {
         "title": "Quality Assurance Specialist",
         "company": "Stevanato Group",
         "score": 12,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787184000000,
         "url": "https://www.linkedin.com/jobs/view/4453896304"
       },
       {
@@ -116,22 +148,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460346284"
-      },
-      {
-        "title": "Senior GMP product quality assurance",
-        "company": "Adecco",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4445899419"
-      },
-      {
-        "title": "Family and Stakeholder Engagement Officer",
-        "company": "US Department of War Education Activity",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1788220800000,
-        "url": "https://it.indeed.com/viewjob?jk=a8eaa64f7154dbde"
       },
       {
         "title": "Addetto/a Assistenza Clienti per Contact Center",
@@ -156,22 +172,6 @@
         "site": "indeed",
         "date_posted": 1787529600000,
         "url": "https://it.indeed.com/viewjob?jk=ef421701f3663cd7"
-      },
-      {
-        "title": "Operatore/trice Relazioni Clienti e Pratiche",
-        "company": "DMB",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=d75dd6ab6bdd0d38"
-      },
-      {
-        "title": "Specialista Vendite e Servizi al Cliente - settore ENERGIA | SINERGAS S.p.A. Conselve (PD)",
-        "company": "Gruppo AIMAG",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=5aebabb9e6c592c2"
       }
     ]
   },
@@ -179,24 +179,24 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "quality",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
         "word": "specialist",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
         "word": "assurance",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -211,11 +211,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/4 annunci da aziende nuove (75.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 3,
-        "total": 4,
-        "pct": 75.0
+        "total": 3,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 75% a 0% (-75pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 75.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 25% a 100% (+75pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 25.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -226,53 +246,53 @@
         "clusters": [
           {
             "id": 2,
-            "size": 27,
+            "size": 23,
             "top_terms": [
-              "gestione",
-              "manager",
-              "addetto"
+              "demand",
+              "addetto",
+              "planner"
             ],
-            "pct": 49.1
+            "pct": 39.7
           },
           {
-            "id": 1,
-            "size": 10,
+            "id": 4,
+            "size": 11,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 18.2
+            "pct": 19.0
           },
           {
-            "id": 0,
-            "size": 7,
+            "id": 1,
+            "size": 9,
             "top_terms": [
               "specialist",
               "marketing",
-              "associate"
+              "operations"
             ],
-            "pct": 12.7
+            "pct": 15.5
+          },
+          {
+            "id": 0,
+            "size": 8,
+            "top_terms": [
+              "gestione",
+              "manager",
+              "sistema"
+            ],
+            "pct": 13.8
           },
           {
             "id": 3,
-            "size": 6,
+            "size": 7,
             "top_terms": [
               "engineer",
               "product",
               "development"
             ],
-            "pct": 10.9
-          },
-          {
-            "id": 4,
-            "size": 5,
-            "top_terms": [
-              "demand",
-              "planner",
-              "senior"
-            ],
-            "pct": 9.1
+            "pct": 12.1
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-04T12:41:48.324642",
+  "generated_at": "2026-09-05T11:59:32.893303",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 75,
+  "total_jobs_analyzed": 73,
   "scoring": {
-    "average": 14.8,
+    "average": 14.1,
     "distribution": {
       "excellent": 0,
-      "good": 2,
+      "good": 1,
       "medium": 9,
       "low": 5,
-      "irrelevant": 59
+      "irrelevant": 58
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4443241888"
-      },
-      {
-        "title": "Vice President Regulatory Affairs - Cluster",
-        "company": "Perrigo Company plc",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1786665600000,
-        "url": "https://www.linkedin.com/jobs/view/4441564283"
       },
       {
         "title": "Regulatory Affairs Intern",
@@ -40,7 +32,7 @@
       {
         "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
         "company": "Ergomed",
-        "score": 53,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1787702400000,
         "url": "https://it.indeed.com/viewjob?jk=b60c33604e287234"
@@ -48,10 +40,10 @@
       {
         "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
         "company": "Ecolab",
-        "score": 51,
+        "score": 52,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446878011"
+        "date_posted": 1787184000000,
+        "url": "https://www.linkedin.com/jobs/view/4446859859"
       },
       {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
@@ -64,7 +56,7 @@
       {
         "title": "Pharmacovigilance Specialist (salary €30-35K)",
         "company": "Shionogi Europe",
-        "score": 48,
+        "score": 46,
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4457953581"
@@ -86,20 +78,20 @@
         "url": "https://www.linkedin.com/jobs/view/4458061458"
       },
       {
-        "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
-        "company": "MatchGuru",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459164885"
-      },
-      {
         "title": "Performance Marketer Specialist",
         "company": "Bliss",
         "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460448926"
+      },
+      {
+        "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
+        "company": "MatchGuru",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4459164885"
       },
       {
         "title": "Performance Marketer",
@@ -144,7 +136,7 @@
       {
         "title": "Sr Associate, Quality Assurance",
         "company": "Alfasigma group",
-        "score": 18,
+        "score": 17,
         "site": "indeed",
         "date_posted": 1788307200000,
         "url": "https://it.indeed.com/viewjob?jk=81cc05bb6e4df0e7"
@@ -166,9 +158,17 @@
         "url": "https://it.indeed.com/viewjob?jk=a06001595b849fa8"
       },
       {
+        "title": "JUNIOR SEM SPECIALIST",
+        "company": "pro advice solutions srl",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=ab362c1f1553597f"
+      },
+      {
         "title": "Quality Assurance Executive Manager",
         "company": "NTT DATA Europe & Latam",
-        "score": 16,
+        "score": 15,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441468380"
@@ -189,14 +189,14 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "associate",
+        "word": "engineer",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "associate",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 7 annunci ultimo scan vs media 5 (+44%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-61%)",
       "data": {
-        "current": 7,
-        "avg": 4.9,
-        "change_pct": 44.1
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/7 annunci da aziende nuove (71.4%)",
-      "data": {
-        "new": 5,
-        "total": 7,
-        "pct": 71.4
+        "current": 2,
+        "avg": 5.1,
+        "change_pct": -60.6
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 80% a 57% (-23pp)",
+      "message": "📡 indeed: quota passata da 57% a 100% (+43pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 80.0,
-        "new_pct": 57.1
+        "old_pct": 57.1,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 20% a 43% (+23pp)",
+      "message": "📡 linkedin: quota passata da 43% a 0% (-43pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 20.0,
-        "new_pct": 42.9
+        "old_pct": 42.9,
+        "new_pct": 0.0
       }
     },
     {
@@ -256,53 +246,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 43,
+            "size": 36,
             "top_terms": [
-              "director",
-              "regulatory",
-              "supervisor"
+              "supervisor",
+              "medico",
+              "consultant"
             ],
-            "pct": 57.3
+            "pct": 49.3
           },
           {
-            "id": 3,
+            "id": 1,
             "size": 12,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 16.0
+            "pct": 16.4
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 11,
             "top_terms": [
               "specialist",
               "snr",
               "associate"
             ],
-            "pct": 13.3
+            "pct": 15.1
           },
           {
-            "id": 1,
-            "size": 7,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "manager",
-              "it",
-              "contracts"
+              "project",
+              "it"
             ],
-            "pct": 9.3
+            "pct": 13.7
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 4,
             "top_terms": [
-              "marketing",
-              "intern",
-              "specialist"
+              "engineer",
+              "automation",
+              "ai"
             ],
-            "pct": 4.0
+            "pct": 5.5
           }
         ]
       }

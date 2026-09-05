@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-04T12:41:47.984700",
+  "generated_at": "2026-09-05T11:59:32.576026",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 19,
+  "total_jobs_analyzed": 21,
   "scoring": {
-    "average": 18.9,
+    "average": 18.6,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 2,
-      "irrelevant": 12
+      "irrelevant": 14
     },
     "top_jobs": [
       {
@@ -70,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4452574716"
       },
       {
+        "title": "Design Quality Specialist - Medical Devices",
+        "company": "PQE Group",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4455864360"
+      },
+      {
         "title": "Manufacturing Manager - Molding & Extrusion",
         "company": "LivaNova",
         "score": 17,
@@ -78,12 +86,20 @@
         "url": "https://it.indeed.com/viewjob?jk=f7246d37e9882f91"
       },
       {
-        "title": "Design Quality Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4455864360"
+        "title": "Manufacturing Manager - Molding",
+        "company": "LivaNova",
+        "score": 17,
+        "site": "indeed",
+        "date_posted": 1788393600000,
+        "url": "https://it.indeed.com/viewjob?jk=f7246d37e9882f91"
+      },
+      {
+        "title": "R&D Dispending Compatibility Specialist - Stage",
+        "company": "ATS Automation Tooling Systems Inc.",
+        "score": 14,
+        "site": "indeed",
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=8cf4a5f477ed86ad"
       },
       {
         "title": "Associate Market Access Specialist, North East Italy",
@@ -156,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1787788800000,
         "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
-      },
-      {
-        "title": "Commercial Development Analyst",
-        "company": "Coloplast",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1787702400000,
-        "url": "https://it.indeed.com/viewjob?jk=a2787c4563d7be00"
       }
     ]
   },
@@ -201,23 +209,52 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "type": "role_clusters",
+      "severity": "info",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "clusters": [
+          {
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "medical",
+              "manager",
+              "affairs"
+            ],
+            "pct": 47.6
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "specialist",
+              "junior",
+              "regulatory"
+            ],
+            "pct": 23.8
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "engineer",
+              "development",
+              "product"
+            ],
+            "pct": 19.0
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "cra",
+              "steward",
+              "regulatory"
+            ],
+            "pct": 9.5
+          }
+        ]
       }
     }
   ],

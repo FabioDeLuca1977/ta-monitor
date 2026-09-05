@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-04T12:41:47.750695",
+  "generated_at": "2026-09-05T11:59:32.341724",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 214,
+  "total_jobs_analyzed": 208,
   "scoring": {
-    "average": 25.5,
+    "average": 25.4,
     "distribution": {
       "excellent": 0,
-      "good": 12,
-      "medium": 45,
-      "low": 64,
-      "irrelevant": 93
+      "good": 13,
+      "medium": 37,
+      "low": 69,
+      "irrelevant": 89
     },
     "top_jobs": [
       {
         "title": "HR Generalist - Gestione operativa del cliente",
         "company": "Mobile 1",
-        "score": 67,
+        "score": 68,
         "site": "indeed",
         "date_posted": 1788307200000,
         "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
@@ -28,6 +28,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4456920708"
+      },
+      {
+        "title": "HR Senior Consultant /Head Hunter Finance",
+        "company": "Randstad",
+        "score": 66,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=d7835f5ab589dfb6"
       },
       {
         "title": "HR MANAGER",
@@ -42,7 +50,7 @@
         "company": "Ayvens",
         "score": 65,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787270400000,
         "url": "https://www.linkedin.com/jobs/view/4454153464"
       },
       {
@@ -52,14 +60,6 @@
         "site": "indeed",
         "date_posted": 1788134400000,
         "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
-      },
-      {
-        "title": "HR Senior Consultant /Head Hunter Finance",
-        "company": "Randstad",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=d7835f5ab589dfb6"
       },
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
@@ -90,7 +90,7 @@
         "company": "Elecnor Italia",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787184000000,
         "url": "https://www.linkedin.com/jobs/view/4456460710"
       },
       {
@@ -110,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4458170836"
       },
       {
-        "title": "Junior HR Generalist",
-        "company": "LDC Hotels Italy",
-        "score": 58,
+        "title": "Hr Generalist",
+        "company": "EasyGov Solutions",
+        "score": 60,
         "site": "linkedin",
-        "date_posted": 1786665600000,
-        "url": "https://www.linkedin.com/jobs/view/4454398929"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4463604269"
       },
       {
         "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
@@ -142,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4459539286"
       },
       {
-        "title": "Talent Acquisition Specialist Intern",
-        "company": "Gruppo I.V.A. SpA",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1787097600000,
-        "url": "https://it.indeed.com/viewjob?jk=353cf874af2f3da9"
-      },
-      {
         "title": "HR Consultant (Ricerca & Selezione del personale - Div. Specializz. LIFE SCIENCE) - Roma",
         "company": "The Adecco Group",
         "score": 56,
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4461084385"
+      },
+      {
+        "title": "Addetto/a selezione personale per settore arredamento",
+        "company": "Novati",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=c5e0d95babaadeb3"
       }
     ]
   },
@@ -180,50 +180,50 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 29,
+        "reason": "Appare 29x in annunci a basso score"
       },
       {
         "word": "risorse",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 29,
+        "reason": "Appare 29x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 31,
-        "reason": "Appare 31x in annunci a basso score"
+        "count": 29,
+        "reason": "Appare 29x in annunci a basso score"
       },
       {
         "word": "responsabile",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "assistant",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
   },
   "keyword_recommendations": [
     {
-      "keyword": "junior hr",
-      "frequency": 4,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
-    },
-    {
       "keyword": "intern",
-      "frequency": 6,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 60
-    },
-    {
-      "keyword": "junior",
       "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 50
+    },
+    {
+      "keyword": "junior hr",
+      "frequency": 3,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 45
+    },
+    {
+      "keyword": "junior",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
       "keyword": "hr talent",
@@ -270,22 +270,13 @@
   ],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 F&F: 2 posizioni, non presente negli scan precedenti",
-      "data": {
-        "company": "F&F",
-        "count": 2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/18 annunci da aziende nuove (44.4%)",
+      "message": "📊 Ultimo scan: 4/14 annunci da aziende nuove (28.6%)",
       "data": {
-        "new": 8,
-        "total": 18,
-        "pct": 44.4
+        "new": 4,
+        "total": 14,
+        "pct": 28.6
       }
     },
     {
@@ -295,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 94,
+            "id": 3,
+            "size": 92,
             "top_terms": [
               "specialist",
-              "senior",
-              "sales"
+              "responsabile",
+              "roma"
             ],
-            "pct": 43.9
+            "pct": 44.2
           },
           {
             "id": 1,
-            "size": 41,
+            "size": 44,
             "top_terms": [
-              "hr",
-              "recruiter",
-              "generalist"
+              "risorse",
+              "umane",
+              "addetto"
             ],
-            "pct": 19.2
+            "pct": 21.2
           },
           {
             "id": 2,
-            "size": 39,
+            "size": 37,
             "top_terms": [
-              "umane",
-              "risorse",
-              "addetto"
+              "hr",
+              "generalist",
+              "junior"
             ],
-            "pct": 18.2
+            "pct": 17.8
           },
           {
             "id": 4,
-            "size": 22,
+            "size": 29,
             "top_terms": [
-              "responsabile",
-              "hr",
-              "risorse"
+              "addetto",
+              "personale",
+              "selezione"
             ],
-            "pct": 10.3
+            "pct": 13.9
           },
           {
-            "id": 3,
-            "size": 18,
+            "id": 0,
+            "size": 6,
             "top_terms": [
-              "selezione",
-              "personale",
-              "addetto"
+              "consultant",
+              "recruitment",
+              "hr"
             ],
-            "pct": 8.4
+            "pct": 2.9
           }
         ]
       }
