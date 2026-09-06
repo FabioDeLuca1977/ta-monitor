@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-05T11:59:32.800950",
+  "generated_at": "2026-09-06T12:17:54.505418",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
-  "total_jobs_analyzed": 280,
+  "total_jobs_analyzed": 281,
   "scoring": {
-    "average": 14.7,
+    "average": 14.3,
     "distribution": {
       "excellent": 0,
       "good": 17,
       "medium": 23,
-      "low": 9,
-      "irrelevant": 231
+      "low": 7,
+      "irrelevant": 234
     },
     "top_jobs": [
       {
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Specialist",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 66,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444957902"
@@ -168,7 +168,7 @@
       {
         "title": "Regulatory Affairs Analyst (f/m/d)",
         "company": "Axpo Group",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4419185454"
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "senior",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "sales",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "associate",
@@ -200,8 +200,8 @@
       },
       {
         "word": "operations",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       }
     ],
     "review": []
@@ -270,22 +270,43 @@
   ],
   "anomalies": [
     {
-      "type": "new_company_surge",
-      "severity": "medium",
-      "message": "🆕 Skechers: 2 posizioni, non presente negli scan precedenti",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 4 annunci ultimo scan vs media 20 (-80%)",
       "data": {
-        "company": "Skechers",
-        "count": 2
+        "current": 4,
+        "avg": 19.8,
+        "change_pct": -79.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 14/15 annunci da aziende nuove (93.3%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 14,
-        "total": 15,
-        "pct": 93.3
+        "new": 4,
+        "total": 4,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 80% a 50% (-30pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 80.0,
+        "new_pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 20% a 50% (+30pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 20.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -295,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 150,
-            "top_terms": [
-              "estetista",
-              "associate",
-              "specialist"
-            ],
-            "pct": 53.6
-          },
-          {
             "id": 1,
-            "size": 47,
+            "size": 177,
             "top_terms": [
-              "manager",
+              "specialist",
               "senior",
-              "project"
+              "estetista"
             ],
-            "pct": 16.8
+            "pct": 63.0
           },
           {
-            "id": 2,
-            "size": 29,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
-            ],
-            "pct": 10.4
-          },
-          {
-            "id": 3,
+            "id": 4,
             "size": 29,
             "top_terms": [
               "quality",
               "assurance",
               "manager"
             ],
-            "pct": 10.4
+            "pct": 10.3
           },
           {
             "id": 0,
-            "size": 25,
+            "size": 27,
             "top_terms": [
-              "sales",
-              "italy",
+              "regulatory",
+              "affairs",
               "specialist"
             ],
-            "pct": 8.9
+            "pct": 9.6
+          },
+          {
+            "id": 3,
+            "size": 27,
+            "top_terms": [
+              "manager",
+              "project",
+              "senior"
+            ],
+            "pct": 9.6
+          },
+          {
+            "id": 2,
+            "size": 21,
+            "top_terms": [
+              "medical",
+              "devices",
+              "product"
+            ],
+            "pct": 7.5
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-05T11:59:32.841658",
+  "generated_at": "2026-09-06T12:17:54.539305",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 46,
+  "total_jobs_analyzed": 47,
   "scoring": {
-    "average": 11.2,
+    "average": 11.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 3,
       "low": 0,
-      "irrelevant": 42
+      "irrelevant": 43
     },
     "top_jobs": [
       {
@@ -70,11 +70,19 @@
         "url": "https://it.indeed.com/viewjob?jk=d9099e50539f4ffb"
       },
       {
+        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
+        "company": "Thales",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444485295"
+      },
+      {
         "title": "QUALITY ASSURANCE SPECIALIST",
         "company": "AB PROFESSIONAL SEARCH SAGL",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787270400000,
         "url": "https://www.linkedin.com/jobs/view/4457093822"
       },
       {
@@ -102,20 +110,20 @@
         "url": "https://it.indeed.com/viewjob?jk=1ad3e9554851d791"
       },
       {
+        "title": "Quality Assurance Inspector",
+        "company": "Orbia Building & Infrastructure Wavin",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=6cafc3fc83ab91bb"
+      },
+      {
         "title": "TRAINING SPECIALIST FONDI INTERPROFESSIONALI – CONTO SISTEMA",
         "company": "Talentform",
         "score": 10,
         "site": "linkedin",
         "date_posted": 1787011200000,
         "url": "https://www.linkedin.com/jobs/view/4446801074"
-      },
-      {
-        "title": "Operatore/trice Relazioni Clienti e Pratiche",
-        "company": "DMB",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=d75dd6ab6bdd0d38"
       },
       {
         "title": "Istruttrice/Istruttore Tributario",
@@ -132,14 +140,6 @@
         "site": "indeed",
         "date_posted": 1788393600000,
         "url": "https://it.indeed.com/viewjob?jk=4e0c91fb9da8a6ad"
-      },
-      {
-        "title": "QC Supervisor",
-        "company": "Phibro Animal Health Corporation",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=96953c697713ab3c"
       },
       {
         "title": "Help Desk Senior",
@@ -179,24 +179,24 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "quality",
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
+      },
+      {
         "word": "specialist",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "quality",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
-      },
-      {
         "word": "assurance",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "product",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -211,11 +211,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-41%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-42%)",
       "data": {
         "current": 2,
-        "avg": 3.4,
-        "change_pct": -40.9
+        "avg": 3.5,
+        "change_pct": -42.2
       }
     },
     {
@@ -231,21 +231,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 indeed: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 linkedin: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
+            "id": 1,
             "size": 25,
             "top_terms": [
+              "product",
               "engineer",
-              "commerciale",
-              "product"
+              "commerciale"
             ],
-            "pct": 54.3
+            "pct": 53.2
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 8,
             "top_terms": [
               "assurance",
               "quality",
-              "specialist"
+              "inspector"
             ],
-            "pct": 17.4
+            "pct": 17.0
           },
           {
-            "id": 2,
+            "id": 4,
             "size": 6,
             "top_terms": [
               "specialist",
               "snr",
               "associate"
             ],
-            "pct": 13.0
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "qualità",
-              "sistema",
-              "gestione"
-            ],
-            "pct": 8.7
+            "pct": 12.8
           },
           {
             "id": 3,
+            "size": 5,
+            "top_terms": [
+              "qualità",
+              "addetto",
+              "gestione"
+            ],
+            "pct": 10.6
+          },
+          {
+            "id": 2,
             "size": 3,
             "top_terms": [
               "affairs",
               "regulatory",
               "junior"
             ],
-            "pct": 6.5
+            "pct": 6.4
           }
         ]
       }

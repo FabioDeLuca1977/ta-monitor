@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-05T11:59:32.615593",
+  "generated_at": "2026-09-06T12:17:54.346233",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 49,
   "scoring": {
-    "average": 32.1,
+    "average": 31.9,
     "distribution": {
       "excellent": 0,
       "good": 2,
@@ -138,7 +138,7 @@
         "company": "TRIO - Translational Research in Oncology",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787270400000,
         "url": "https://www.linkedin.com/jobs/view/4453603452"
       },
       {
@@ -196,11 +196,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-73%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-75%)",
       "data": {
         "current": 1,
-        "avg": 3.7,
-        "change_pct": -72.9
+        "avg": 4.0,
+        "change_pct": -75.0
       }
     },
     {
@@ -231,51 +231,51 @@
         "clusters": [
           {
             "id": 0,
-            "size": 20,
+            "size": 19,
             "top_terms": [
               "cra",
               "oncologia",
               "medico"
             ],
-            "pct": 40.8
+            "pct": 38.8
           },
           {
             "id": 1,
-            "size": 8,
+            "size": 9,
             "top_terms": [
-              "associate",
-              "research",
-              "clinical"
+              "medical",
+              "manager",
+              "advisor"
             ],
-            "pct": 16.3
-          },
-          {
-            "id": 4,
-            "size": 8,
-            "top_terms": [
-              "specialist",
-              "therapeutic",
-              "area"
-            ],
-            "pct": 16.3
+            "pct": 18.4
           },
           {
             "id": 3,
-            "size": 7,
+            "size": 9,
             "top_terms": [
-              "manager",
-              "medical",
-              "affairs"
+              "clinical",
+              "associate",
+              "research"
             ],
-            "pct": 14.3
+            "pct": 18.4
           },
           {
             "id": 2,
             "size": 6,
             "top_terms": [
-              "medical",
-              "advisor",
-              "science"
+              "oncology",
+              "therapeutic",
+              "area"
+            ],
+            "pct": 12.2
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "regulatory",
+              "affairs"
             ],
             "pct": 12.2
           }

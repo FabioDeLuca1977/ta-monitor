@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-05T11:59:32.893303",
+  "generated_at": "2026-09-06T12:17:54.584440",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 73,
+  "total_jobs_analyzed": 81,
   "scoring": {
-    "average": 14.1,
+    "average": 13.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 9,
-      "low": 5,
-      "irrelevant": 58
+      "low": 4,
+      "irrelevant": 67
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -32,7 +32,7 @@
       {
         "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
         "company": "Ergomed",
-        "score": 54,
+        "score": 55,
         "site": "indeed",
         "date_posted": 1787702400000,
         "url": "https://it.indeed.com/viewjob?jk=b60c33604e287234"
@@ -56,7 +56,7 @@
       {
         "title": "Pharmacovigilance Specialist (salary €30-35K)",
         "company": "Shionogi Europe",
-        "score": 46,
+        "score": 48,
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4457953581"
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4459503380"
       },
       {
-        "title": "IT Demand Planning Manager",
-        "company": "The Magnum Ice Cream Company",
-        "score": 25,
-        "site": "linkedin",
-        "date_posted": 1788307200000,
-        "url": "https://www.linkedin.com/jobs/view/4459989301"
-      },
-      {
         "title": "Addetto/a banco macelleria",
         "company": "P&G supermarket",
         "score": 23,
@@ -126,20 +118,12 @@
         "url": "https://it.indeed.com/viewjob?jk=80fbeab2f100211e"
       },
       {
-        "title": "Contracts Manager for Clinical Supply Services",
-        "company": "Catalent Pharma Solutions",
+        "title": "IT Demand Planning Manager",
+        "company": "The Magnum Ice Cream Company",
         "score": 20,
-        "site": "indeed",
+        "site": "linkedin",
         "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=49bfe937b77b1959"
-      },
-      {
-        "title": "Sr Associate, Quality Assurance",
-        "company": "Alfasigma group",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=81cc05bb6e4df0e7"
+        "url": "https://www.linkedin.com/jobs/view/4459989301"
       },
       {
         "title": "Legal Manager – AI, Cybersecurity & Technology",
@@ -158,20 +142,36 @@
         "url": "https://it.indeed.com/viewjob?jk=a06001595b849fa8"
       },
       {
-        "title": "JUNIOR SEM SPECIALIST",
-        "company": "pro advice solutions srl",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=ab362c1f1553597f"
+        "title": "Posizione Quality Assurance Practitioner",
+        "company": "MBDA ITALIA S.P.A.",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1788393600000,
+        "url": "https://www.linkedin.com/jobs/view/4462788340"
+      },
+      {
+        "title": "GMP operator",
+        "company": "REITHERA",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1788566400000,
+        "url": "https://www.linkedin.com/jobs/view/4461439949"
       },
       {
         "title": "Quality Assurance Executive Manager",
         "company": "NTT DATA Europe & Latam",
-        "score": 15,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4441468380"
+      },
+      {
+        "title": "QUALITY ASSURANCE MANAGER",
+        "company": "OKATIM Italia",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441326884"
       }
     ]
   },
@@ -189,19 +189,19 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
         "word": "associate",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
+        "word": "engineer",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
         "word": "manager",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-61%)",
+      "message": "Volume in crescita: 9 annunci ultimo scan vs media 5 (+75%)",
       "data": {
-        "current": 2,
+        "current": 9,
         "avg": 5.1,
-        "change_pct": -60.6
+        "change_pct": 75.0
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "data": {
+        "new": 3,
+        "total": 9,
+        "pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 57% a 100% (+43pp)",
+      "message": "📡 indeed: quota passata da 100% a 78% (-22pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 57.1,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 77.8
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 43% a 0% (-43pp)",
+      "message": "📡 linkedin: quota passata da 0% a 22% (+22pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 42.9,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 22.2
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 36,
+            "id": 1,
+            "size": 51,
             "top_terms": [
-              "supervisor",
-              "medico",
-              "consultant"
+              "manager",
+              "marketing",
+              "engineer"
             ],
-            "pct": 49.3
+            "pct": 63.0
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 12,
             "top_terms": [
               "assurance",
               "quality",
               "engineer"
             ],
-            "pct": 16.4
+            "pct": 14.8
           },
           {
-            "id": 2,
-            "size": 11,
+            "id": 4,
+            "size": 9,
             "top_terms": [
               "specialist",
               "snr",
               "associate"
             ],
-            "pct": 15.1
+            "pct": 11.1
+          },
+          {
+            "id": 0,
+            "size": 6,
+            "top_terms": [
+              "officer",
+              "senior",
+              "policy"
+            ],
+            "pct": 7.4
           },
           {
             "id": 3,
-            "size": 10,
+            "size": 3,
             "top_terms": [
-              "manager",
-              "project",
-              "it"
+              "performance",
+              "marketer",
+              "specialist"
             ],
-            "pct": 13.7
-          },
-          {
-            "id": 4,
-            "size": 4,
-            "top_terms": [
-              "engineer",
-              "automation",
-              "ai"
-            ],
-            "pct": 5.5
+            "pct": 3.7
           }
         ]
       }

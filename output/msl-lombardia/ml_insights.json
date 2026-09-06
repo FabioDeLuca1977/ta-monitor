@@ -1,41 +1,49 @@
 {
-  "generated_at": "2026-09-05T11:59:32.545732",
+  "generated_at": "2026-09-06T12:17:54.291344",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 158,
+  "total_jobs_analyzed": 160,
   "scoring": {
-    "average": 32.1,
+    "average": 31.8,
     "distribution": {
       "excellent": 0,
-      "good": 4,
+      "good": 5,
       "medium": 82,
       "low": 13,
-      "irrelevant": 59
+      "irrelevant": 60
     },
     "top_jobs": [
       {
+        "title": "Medical Operations Associate Manager Medical Affairs",
+        "company": "BioSpace",
+        "score": 70,
+        "site": "linkedin",
+        "date_posted": 1788393600000,
+        "url": "https://www.linkedin.com/jobs/view/4462757887"
+      },
+      {
         "title": "Medical Advisor Consumer and Medical Information Italy",
         "company": "Galderma",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462157670"
       },
       {
+        "title": "International Medical Affairs Manager",
+        "company": "Evolus",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441606691"
+      },
+      {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "Regeneron",
-        "score": 63,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460016814"
-      },
-      {
-        "title": "Medical Advisor Amyloidosis",
-        "company": "AstraZeneca",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": 1786752000000,
-        "url": "https://www.linkedin.com/jobs/view/4444350315"
       },
       {
         "title": "Hepatology - Medical Director",
@@ -44,14 +52,6 @@
         "site": "linkedin",
         "date_posted": 1788220800000,
         "url": "https://www.linkedin.com/jobs/view/4331970390"
-      },
-      {
-        "title": "International Medical Affairs Manager",
-        "company": "Evolus",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441606691"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -94,14 +94,6 @@
         "url": "https://it.indeed.com/viewjob?jk=9e52bd4eb75e2ee6"
       },
       {
-        "title": "Global Medical Lead Generation Internship",
-        "company": "Amplifon",
-        "score": 56,
-        "site": "indeed",
-        "date_posted": 1788480000000,
-        "url": "https://it.indeed.com/viewjob?jk=e720bc1df438843a"
-      },
-      {
         "title": "Dermatologist - Medical Director",
         "company": "Medpace",
         "score": 55,
@@ -118,6 +110,22 @@
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
+        "title": "Global Medical Lead Generation Internship",
+        "company": "Amplifon",
+        "score": 55,
+        "site": "indeed",
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=e720bc1df438843a"
+      },
+      {
+        "title": "Non Certified Clinical Research Associate",
+        "company": "OPIS",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1788480000000,
+        "url": "https://www.linkedin.com/jobs/view/4461163850"
+      },
+      {
         "title": "(Associate) Medical Director - Neurology",
         "company": "Thermo Fisher Scientific",
         "score": 54,
@@ -132,6 +140,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4455848460"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
+        "company": "QVC Italy",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4440229244"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4459962918"
-      },
-      {
-        "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
-        "company": "Thermo Fisher Scientific",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441504705"
-      },
-      {
-        "title": "Regulatory Affairs Manager - Extra EU - Fitofarmaci/Agrofarmaci",
-        "company": "Hays",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1787011200000,
-        "url": "https://www.linkedin.com/jobs/view/4452242952"
       }
     ]
   },
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 7,
+      "frequency": 6,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 60
     },
     {
       "keyword": "specialist medical",
@@ -270,33 +270,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 11 (-55%)",
+      "data": {
+        "current": 5,
+        "avg": 11.1,
+        "change_pct": -54.8
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/11 annunci da aziende nuove (72.7%)",
+      "message": "📊 Ultimo scan: 2/5 annunci da aziende nuove (40.0%)",
       "data": {
-        "new": 8,
-        "total": 11,
-        "pct": 72.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 27% (-23pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 27.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 73% (+23pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 72.7
+        "new": 2,
+        "total": 5,
+        "pct": 40.0
       }
     },
     {
@@ -306,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 50,
-            "top_terms": [
-              "cra",
-              "safety",
-              "drug"
-            ],
-            "pct": 31.6
-          },
-          {
-            "id": 4,
-            "size": 41,
+            "id": 0,
+            "size": 76,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 25.9
+            "pct": 47.5
+          },
+          {
+            "id": 1,
+            "size": 25,
+            "top_terms": [
+              "manager",
+              "medical",
+              "project"
+            ],
+            "pct": 15.6
           },
           {
             "id": 2,
-            "size": 28,
+            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.7
-          },
-          {
-            "id": 0,
-            "size": 21,
-            "top_terms": [
-              "manager",
-              "project",
-              "medical"
-            ],
-            "pct": 13.3
+            "pct": 15.0
           },
           {
             "id": 3,
-            "size": 18,
+            "size": 19,
+            "top_terms": [
+              "specialist",
+              "devices",
+              "sales"
+            ],
+            "pct": 11.9
+          },
+          {
+            "id": 4,
+            "size": 16,
             "top_terms": [
               "associate",
-              "clinical",
-              "research"
+              "research",
+              "clinical"
             ],
-            "pct": 11.4
+            "pct": 10.0
           }
         ]
       }

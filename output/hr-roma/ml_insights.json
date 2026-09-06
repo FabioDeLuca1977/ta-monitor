@@ -1,46 +1,30 @@
 {
-  "generated_at": "2026-09-05T11:59:32.341724",
+  "generated_at": "2026-09-06T12:17:54.117349",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 208,
+  "total_jobs_analyzed": 206,
   "scoring": {
-    "average": 25.4,
+    "average": 25.0,
     "distribution": {
       "excellent": 0,
       "good": 13,
-      "medium": 37,
-      "low": 69,
+      "medium": 36,
+      "low": 68,
       "irrelevant": 89
     },
     "top_jobs": [
       {
-        "title": "HR Generalist - Gestione operativa del cliente",
-        "company": "Mobile 1",
-        "score": 68,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
-      },
-      {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4456920708"
       },
       {
-        "title": "HR Senior Consultant /Head Hunter Finance",
-        "company": "Randstad",
-        "score": 66,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=d7835f5ab589dfb6"
-      },
-      {
         "title": "HR MANAGER",
         "company": "Reverse",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460720637"
@@ -60,6 +44,14 @@
         "site": "indeed",
         "date_posted": 1788134400000,
         "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
+      },
+      {
+        "title": "HR Generalist - Gestione operativa del cliente",
+        "company": "Mobile 1",
+        "score": 63,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
       },
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
@@ -86,20 +78,28 @@
         "url": "https://it.indeed.com/viewjob?jk=dea305b49cf9a867"
       },
       {
-        "title": "HR Generalist",
-        "company": "Elecnor Italia",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1787184000000,
-        "url": "https://www.linkedin.com/jobs/view/4456460710"
+        "title": "HR Senior Consultant /Head Hunter Finance",
+        "company": "Randstad",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=d7835f5ab589dfb6"
       },
       {
         "title": "HR Talent Acquisition Intern",
         "company": "Engineering Group",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787270400000,
         "url": "https://www.linkedin.com/jobs/view/4446772905"
+      },
+      {
+        "title": "HR Generalist",
+        "company": "Elecnor Italia",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": 1787184000000,
+        "url": "https://www.linkedin.com/jobs/view/4456460710"
       },
       {
         "title": "HR GENERALIST",
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 29,
-        "reason": "Appare 29x in annunci a basso score"
+        "count": 28,
+        "reason": "Appare 28x in annunci a basso score"
       },
       {
         "word": "risorse",
-        "count": 29,
-        "reason": "Appare 29x in annunci a basso score"
+        "count": 28,
+        "reason": "Appare 28x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 29,
-        "reason": "Appare 29x in annunci a basso score"
+        "count": 28,
+        "reason": "Appare 28x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -208,16 +208,16 @@
   },
   "keyword_recommendations": [
     {
-      "keyword": "intern",
-      "frequency": 5,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
-    },
-    {
       "keyword": "junior hr",
       "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 45
+    },
+    {
+      "keyword": "intern",
+      "frequency": 4,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 40
     },
     {
       "keyword": "junior",
@@ -233,6 +233,12 @@
     },
     {
       "keyword": "branding intern",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "life science",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -256,27 +262,21 @@
       "confidence": 30
     },
     {
-      "keyword": "personale contact",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "contact center",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
+      "keyword": "gestione",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
       "confidence": 30
     }
   ],
   "anomalies": [
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 4/14 annunci da aziende nuove (28.6%)",
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 17 (-94%)",
       "data": {
-        "new": 4,
-        "total": 14,
-        "pct": 28.6
+        "current": 1,
+        "avg": 17.1,
+        "change_pct": -94.1
       }
     },
     {
@@ -286,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 92,
+            "id": 0,
+            "size": 97,
             "top_terms": [
               "specialist",
-              "responsabile",
-              "roma"
+              "sales",
+              "assistant"
             ],
-            "pct": 44.2
-          },
-          {
-            "id": 1,
-            "size": 44,
-            "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
-            ],
-            "pct": 21.2
+            "pct": 47.1
           },
           {
             "id": 2,
             "size": 37,
             "top_terms": [
+              "umane",
+              "risorse",
+              "addetto"
+            ],
+            "pct": 18.0
+          },
+          {
+            "id": 1,
+            "size": 34,
+            "top_terms": [
               "hr",
               "generalist",
               "junior"
             ],
-            "pct": 17.8
+            "pct": 16.5
+          },
+          {
+            "id": 3,
+            "size": 19,
+            "top_terms": [
+              "personale",
+              "selezione",
+              "addetto"
+            ],
+            "pct": 9.2
           },
           {
             "id": 4,
-            "size": 29,
+            "size": 19,
             "top_terms": [
-              "addetto",
-              "personale",
-              "selezione"
+              "responsabile",
+              "umane",
+              "risorse"
             ],
-            "pct": 13.9
-          },
-          {
-            "id": 0,
-            "size": 6,
-            "top_terms": [
-              "consultant",
-              "recruitment",
-              "hr"
-            ],
-            "pct": 2.9
+            "pct": 9.2
           }
         ]
       }
