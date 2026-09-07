@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-06T12:17:54.291344",
+  "generated_at": "2026-09-07T13:38:15.395723",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 160,
+  "total_jobs_analyzed": 158,
   "scoring": {
     "average": 31.8,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 82,
-      "low": 13,
-      "irrelevant": 60
+      "good": 4,
+      "medium": 83,
+      "low": 12,
+      "irrelevant": 59
     },
     "top_jobs": [
       {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "BioSpace",
-        "score": 70,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4462757887"
@@ -30,17 +30,9 @@
         "url": "https://www.linkedin.com/jobs/view/4462157670"
       },
       {
-        "title": "International Medical Affairs Manager",
-        "company": "Evolus",
-        "score": 61,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441606691"
-      },
-      {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "Regeneron",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460016814"
@@ -54,6 +46,22 @@
         "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
+        "title": "International Medical Affairs Manager",
+        "company": "Evolus",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441606691"
+      },
+      {
+        "title": "MSL Manager - Metabolic Disorder",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444450322"
+      },
+      {
         "title": "Head of Medical Affairs, Italy",
         "company": "Genmab",
         "score": 57,
@@ -62,12 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4431241411"
       },
       {
-        "title": "MSL Manager - Metabolic Disorder",
-        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "title": "Regulatory Affairs Specialist",
+        "company": "NTWK",
         "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444450322"
+        "site": "indeed",
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=9e52bd4eb75e2ee6"
       },
       {
         "title": "Market Access Specialist – Medical Devices (Italy)",
@@ -86,12 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4461171198"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "NTWK",
+        "title": "Non Certified Clinical Research Associate",
+        "company": "OPIS",
         "score": 56,
-        "site": "indeed",
+        "site": "linkedin",
         "date_posted": 1788480000000,
-        "url": "https://it.indeed.com/viewjob?jk=9e52bd4eb75e2ee6"
+        "url": "https://www.linkedin.com/jobs/view/4461163850"
       },
       {
         "title": "Dermatologist - Medical Director",
@@ -118,20 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=e720bc1df438843a"
       },
       {
-        "title": "Non Certified Clinical Research Associate",
-        "company": "OPIS",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1788480000000,
-        "url": "https://www.linkedin.com/jobs/view/4461163850"
-      },
-      {
         "title": "(Associate) Medical Director - Neurology",
         "company": "Thermo Fisher Scientific",
         "score": 54,
         "site": "linkedin",
         "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4446208066"
+      },
+      {
+        "title": "Sr. Medical Scientific Liaison (Northern) Italy",
+        "company": "Acadia Pharmaceuticals",
+        "score": 54,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=2ea05687ba2f6be8"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460703021"
-      },
-      {
-        "title": "Regulatory Affairs Manager",
-        "company": "Regulatory Pharma Net - RPN",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4459962918"
       }
     ]
   },
@@ -179,14 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "cra",
+        "word": "specialist",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "cra",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "senior",
@@ -199,7 +199,7 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "fsp",
+        "word": "devices",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       }
@@ -209,9 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 6,
+      "frequency": 7,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 60
+      "confidence": 70
     },
     {
       "keyword": "specialist medical",
@@ -272,11 +272,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 5 annunci ultimo scan vs media 11 (-55%)",
+      "message": "Volume in calo: 5 annunci ultimo scan vs media 12 (-58%)",
       "data": {
         "current": 5,
-        "avg": 11.1,
-        "change_pct": -54.8
+        "avg": 11.8,
+        "change_pct": -57.5
       }
     },
     {
@@ -296,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 76,
+            "id": 4,
+            "size": 83,
             "top_terms": [
               "medical",
               "director",
               "italy"
             ],
-            "pct": 47.5
+            "pct": 52.5
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 25,
-            "top_terms": [
-              "manager",
-              "medical",
-              "project"
-            ],
-            "pct": 15.6
-          },
-          {
-            "id": 2,
-            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 15.0
+            "pct": 15.8
           },
           {
-            "id": 3,
-            "size": 19,
+            "id": 2,
+            "size": 22,
             "top_terms": [
-              "specialist",
-              "devices",
-              "sales"
+              "manager",
+              "medical",
+              "project"
             ],
-            "pct": 11.9
+            "pct": 13.9
           },
           {
-            "id": 4,
-            "size": 16,
+            "id": 1,
+            "size": 17,
             "top_terms": [
               "associate",
               "research",
               "clinical"
             ],
-            "pct": 10.0
+            "pct": 10.8
+          },
+          {
+            "id": 0,
+            "size": 11,
+            "top_terms": [
+              "devices",
+              "medical",
+              "specialist"
+            ],
+            "pct": 7.0
           }
         ]
       }

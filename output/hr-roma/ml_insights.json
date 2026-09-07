@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-06T12:17:54.117349",
+  "generated_at": "2026-09-07T13:38:15.166585",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 206,
+  "total_jobs_analyzed": 205,
   "scoring": {
-    "average": 25.0,
+    "average": 24.9,
     "distribution": {
       "excellent": 0,
-      "good": 13,
-      "medium": 36,
-      "low": 68,
-      "irrelevant": 89
+      "good": 12,
+      "medium": 37,
+      "low": 69,
+      "irrelevant": 87
     },
     "top_jobs": [
       {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4456920708"
@@ -24,7 +24,7 @@
       {
         "title": "HR MANAGER",
         "company": "Reverse",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460720637"
@@ -46,20 +46,20 @@
         "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
       },
       {
-        "title": "HR Generalist - Gestione operativa del cliente",
-        "company": "Mobile 1",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
-      },
-      {
         "title": "Talent Acquisition Associate - Maternity Leave",
         "company": "Fendi",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4451901416"
+      },
+      {
+        "title": "HR Generalist - Gestione operativa del cliente",
+        "company": "Mobile 1",
+        "score": 62,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
       },
       {
         "title": "Talent Acquisition Specialist",
@@ -86,14 +86,6 @@
         "url": "https://it.indeed.com/viewjob?jk=d7835f5ab589dfb6"
       },
       {
-        "title": "HR Talent Acquisition Intern",
-        "company": "Engineering Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1787270400000,
-        "url": "https://www.linkedin.com/jobs/view/4446772905"
-      },
-      {
         "title": "HR Generalist",
         "company": "Elecnor Italia",
         "score": 60,
@@ -118,6 +110,14 @@
         "url": "https://www.linkedin.com/jobs/view/4463604269"
       },
       {
+        "title": "HR Talent Acquisition Intern",
+        "company": "Engineering Group",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1787270400000,
+        "url": "https://www.linkedin.com/jobs/view/4446772905"
+      },
+      {
         "title": "Junior HR Manager - Soluzioni per un'acqua sicura",
         "company": "Ablio",
         "score": 57,
@@ -134,20 +134,20 @@
         "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
       },
       {
-        "title": "Talent Acquisition Intern - French Speaker",
-        "company": "PQE Group",
-        "score": 57,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4459539286"
-      },
-      {
         "title": "HR Consultant (Ricerca & Selezione del personale - Div. Specializz. LIFE SCIENCE) - Roma",
         "company": "The Adecco Group",
         "score": 56,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460529876"
+      },
+      {
+        "title": "Talent Acquisition Intern - French Speaker",
+        "company": "PQE Group",
+        "score": 56,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4459539286"
       },
       {
         "title": "HR generalist per soluzioni gestione acqua domestica",
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "addetto",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "risorse",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -238,13 +238,13 @@
       "confidence": 30
     },
     {
-      "keyword": "life science",
+      "keyword": "acquisition intern",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "acquisition intern",
+      "keyword": "life science",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -272,11 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 17 (-94%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
       "data": {
         "current": 1,
-        "avg": 17.1,
-        "change_pct": -94.1
+        "avg": 15.7,
+        "change_pct": -93.6
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -287,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 97,
+            "size": 128,
             "top_terms": [
+              "hr",
               "specialist",
-              "sales",
-              "assistant"
+              "recruiter"
             ],
-            "pct": 47.1
+            "pct": 62.4
           },
           {
             "id": 2,
-            "size": 37,
+            "size": 36,
             "top_terms": [
-              "umane",
               "risorse",
+              "umane",
               "addetto"
             ],
-            "pct": 18.0
-          },
-          {
-            "id": 1,
-            "size": 34,
-            "top_terms": [
-              "hr",
-              "generalist",
-              "junior"
-            ],
-            "pct": 16.5
-          },
-          {
-            "id": 3,
-            "size": 19,
-            "top_terms": [
-              "personale",
-              "selezione",
-              "addetto"
-            ],
-            "pct": 9.2
+            "pct": 17.6
           },
           {
             "id": 4,
-            "size": 19,
+            "size": 21,
             "top_terms": [
               "responsabile",
               "umane",
               "risorse"
             ],
-            "pct": 9.2
+            "pct": 10.2
+          },
+          {
+            "id": 1,
+            "size": 13,
+            "top_terms": [
+              "selezione",
+              "personale",
+              "addetto"
+            ],
+            "pct": 6.3
+          },
+          {
+            "id": 3,
+            "size": 7,
+            "top_terms": [
+              "talent",
+              "acquisition",
+              "intern"
+            ],
+            "pct": 3.4
           }
         ]
       }

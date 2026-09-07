@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-09-06T12:17:54.346233",
+  "generated_at": "2026-09-07T13:38:15.476075",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 49,
+  "total_jobs_analyzed": 48,
   "scoring": {
-    "average": 31.9,
+    "average": 32.3,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 23,
+      "good": 1,
+      "medium": 24,
       "low": 6,
-      "irrelevant": 18
+      "irrelevant": 17
     },
     "top_jobs": [
       {
+        "title": "Medical Advisor Gastroenterology",
+        "company": "AbbVie",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4447698999"
+      },
+      {
         "title": "Medical Affairs Sr. Manager",
         "company": "Johnson & Johnson MedTech",
-        "score": 65,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4458586490"
@@ -24,18 +32,10 @@
       {
         "title": "Medical Affairs Tender Evidence Manager",
         "company": "Johnson & Johnson MedTech",
-        "score": 62,
+        "score": 59,
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4458578450"
-      },
-      {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "AbbVie",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4447698999"
       },
       {
         "title": "Medical Communications and Marketing Specialist",
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4459937146"
       },
       {
-        "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
-        "company": "AbbVie",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1788393600000,
-        "url": "https://www.linkedin.com/jobs/view/4460481744"
-      },
-      {
         "title": "Medical Advisor Neurology and Immunology (fixed term)",
         "company": "Merck Healthcare",
         "score": 52,
@@ -62,20 +54,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446581713"
       },
       {
+        "title": "MEDICAL LEAD ONCOLOGY",
+        "company": "Gruppo Servier in Italia",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4446308405"
+      },
+      {
         "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
         "company": "Merck Healthcare",
-        "score": 52,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448866686"
-      },
-      {
-        "title": "Medical Science Manager, Oncology, Italy",
-        "company": "Amplity",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4440244615"
       },
       {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
@@ -86,28 +78,36 @@
         "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
-        "title": "MEDICAL LEAD ONCOLOGY",
-        "company": "Gruppo Servier in Italia",
-        "score": 50,
+        "title": "Medical Science Manager, Oncology, Italy",
+        "company": "Amplity",
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4446308405"
-      },
-      {
-        "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
-        "company": "ERGOMED",
-        "score": 48,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459333628"
+        "url": "https://www.linkedin.com/jobs/view/4440244615"
       },
       {
         "title": "Medical Director - Oncology , Sponsor Dedicated (Home-Based)",
         "company": "IQVIA",
-        "score": 48,
+        "score": 51,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4453702548"
+      },
+      {
+        "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
+        "company": "AbbVie",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": 1788393600000,
+        "url": "https://www.linkedin.com/jobs/view/4460481744"
+      },
+      {
+        "title": "Regulatory Affairs & Competition Specialist",
+        "company": "iliad",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1787529600000,
+        "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
         "title": "Clinical Research Associate - Italy - Remote",
@@ -126,20 +126,20 @@
         "url": "https://www.linkedin.com/jobs/view/4448322059"
       },
       {
-        "title": "Regulatory Affairs & Competition Specialist",
-        "company": "iliad",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1787529600000,
-        "url": "https://www.linkedin.com/jobs/view/4443241888"
-      },
-      {
         "title": "Senior Clinical Research Associate",
         "company": "TRIO - Translational Research in Oncology",
         "score": 46,
         "site": "linkedin",
-        "date_posted": 1787270400000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4453603452"
+      },
+      {
+        "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
+        "company": "ERGOMED",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4459333628"
       },
       {
         "title": "Senior Clinical Research Associate",
@@ -179,9 +179,9 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "cra",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "manager",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "dell",
@@ -196,11 +196,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-75%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
         "current": 1,
-        "avg": 4.0,
-        "change_pct": -75.0
+        "avg": 4.3,
+        "change_pct": -76.6
       }
     },
     {
@@ -231,53 +231,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 19,
+            "size": 22,
             "top_terms": [
-              "cra",
-              "oncologia",
-              "medico"
+              "manager",
+              "medical",
+              "cra"
             ],
-            "pct": 38.8
+            "pct": 45.8
           },
           {
             "id": 1,
-            "size": 9,
-            "top_terms": [
-              "medical",
-              "manager",
-              "advisor"
-            ],
-            "pct": 18.4
-          },
-          {
-            "id": 3,
-            "size": 9,
-            "top_terms": [
-              "clinical",
-              "associate",
-              "research"
-            ],
-            "pct": 18.4
-          },
-          {
-            "id": 2,
-            "size": 6,
-            "top_terms": [
-              "oncology",
-              "therapeutic",
-              "area"
-            ],
-            "pct": 12.2
-          },
-          {
-            "id": 4,
-            "size": 6,
+            "size": 8,
             "top_terms": [
               "specialist",
               "regulatory",
               "affairs"
             ],
-            "pct": 12.2
+            "pct": 16.7
+          },
+          {
+            "id": 2,
+            "size": 8,
+            "top_terms": [
+              "associate",
+              "clinical",
+              "research"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "oncology",
+              "medical",
+              "therapeutic"
+            ],
+            "pct": 12.5
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "oncologia",
+              "uoc",
+              "internship"
+            ],
+            "pct": 8.3
           }
         ]
       }

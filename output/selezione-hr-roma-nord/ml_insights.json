@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-06T12:17:54.198951",
+  "generated_at": "2026-09-07T13:38:15.268144",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 206,
+  "total_jobs_analyzed": 205,
   "scoring": {
-    "average": 25.9,
+    "average": 25.8,
     "distribution": {
       "excellent": 0,
-      "good": 17,
-      "medium": 37,
+      "good": 16,
+      "medium": 39,
       "low": 63,
-      "irrelevant": 89
+      "irrelevant": 87
     },
     "top_jobs": [
       {
@@ -110,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=d7835f5ab589dfb6"
       },
       {
-        "title": "Addetto/a selezione personale per settore arredamento",
-        "company": "Novati",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1788480000000,
-        "url": "https://it.indeed.com/viewjob?jk=c5e0d95babaadeb3"
-      },
-      {
         "title": "HR Generalist",
         "company": "Elecnor Italia",
         "score": 60,
@@ -134,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4458170836"
       },
       {
-        "title": "Addetto/a selezione del personale per contact center",
-        "company": "Cosma solution",
+        "title": "Addetto/a selezione personale per settore arredamento",
+        "company": "Novati",
         "score": 60,
         "site": "indeed",
-        "date_posted": 1788393600000,
-        "url": "https://it.indeed.com/viewjob?jk=60daff10dcd255b1"
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=c5e0d95babaadeb3"
       },
       {
         "title": "Hr Generalist",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=82d0d8b0748ece23"
+      },
+      {
+        "title": "Human Resources Business Partner",
+        "company": "Plaza Premium Group",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4461084385"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 28,
-        "reason": "Appare 28x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "responsabile",
@@ -214,24 +214,6 @@
       "confidence": 45
     },
     {
-      "keyword": "personale contact",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "contact center",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
-      "keyword": "personale contact center",
-      "frequency": 3,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 45
-    },
-    {
       "keyword": "intern",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
@@ -250,13 +232,13 @@
       "confidence": 30
     },
     {
-      "keyword": "life science",
+      "keyword": "acquisition intern",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "acquisition intern",
+      "keyword": "life science",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -266,17 +248,65 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "generalist gestione",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "personale contact",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "contact center",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 17 (-94%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
       "data": {
         "current": 1,
-        "avg": 17.1,
-        "change_pct": -94.1
+        "avg": 15.7,
+        "change_pct": -93.6
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "data": {
+        "new": 1,
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -287,53 +317,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 97,
+            "size": 128,
             "top_terms": [
+              "hr",
               "specialist",
-              "sales",
-              "assistant"
+              "recruiter"
             ],
-            "pct": 47.1
+            "pct": 62.4
           },
           {
             "id": 2,
-            "size": 37,
+            "size": 36,
             "top_terms": [
-              "umane",
               "risorse",
+              "umane",
               "addetto"
             ],
-            "pct": 18.0
-          },
-          {
-            "id": 1,
-            "size": 34,
-            "top_terms": [
-              "hr",
-              "generalist",
-              "junior"
-            ],
-            "pct": 16.5
-          },
-          {
-            "id": 3,
-            "size": 19,
-            "top_terms": [
-              "personale",
-              "selezione",
-              "addetto"
-            ],
-            "pct": 9.2
+            "pct": 17.6
           },
           {
             "id": 4,
-            "size": 19,
+            "size": 21,
             "top_terms": [
               "responsabile",
               "umane",
               "risorse"
             ],
-            "pct": 9.2
+            "pct": 10.2
+          },
+          {
+            "id": 1,
+            "size": 13,
+            "top_terms": [
+              "selezione",
+              "personale",
+              "addetto"
+            ],
+            "pct": 6.3
+          },
+          {
+            "id": 3,
+            "size": 7,
+            "top_terms": [
+              "talent",
+              "acquisition",
+              "intern"
+            ],
+            "pct": 3.4
           }
         ]
       }
