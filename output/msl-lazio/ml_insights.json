@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-07T13:38:15.476075",
+  "generated_at": "2026-09-08T12:36:14.039091",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 48,
+  "total_jobs_analyzed": 47,
   "scoring": {
-    "average": 32.3,
+    "average": 31.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 24,
-      "low": 6,
-      "irrelevant": 17
+      "medium": 23,
+      "low": 5,
+      "irrelevant": 18
     },
     "top_jobs": [
       {
@@ -62,22 +62,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446308405"
       },
       {
-        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
-        "company": "Merck Healthcare",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448866686"
-      },
-      {
-        "title": "Senior Pharmacovigilance Project Manager- Europe",
-        "company": "PrimeVigilance",
-        "score": 51,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448312826"
-      },
-      {
         "title": "Medical Science Manager, Oncology, Italy",
         "company": "Amplity",
         "score": 51,
@@ -86,9 +70,25 @@
         "url": "https://www.linkedin.com/jobs/view/4440244615"
       },
       {
+        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
+        "company": "Merck Healthcare",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448866686"
+      },
+      {
+        "title": "Senior Pharmacovigilance Project Manager- Europe",
+        "company": "PrimeVigilance",
+        "score": 50,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448312826"
+      },
+      {
         "title": "Medical Director - Oncology , Sponsor Dedicated (Home-Based)",
         "company": "IQVIA",
-        "score": 51,
+        "score": 50,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4453702548"
@@ -110,14 +110,6 @@
         "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
-        "title": "Clinical Research Associate - Italy - Remote",
-        "company": "Worldwide Clinical Trials",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1786924800000,
-        "url": "https://www.linkedin.com/jobs/view/4444854467"
-      },
-      {
         "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
         "company": "PrimeVigilance",
         "score": 47,
@@ -130,7 +122,7 @@
         "company": "TRIO - Translational Research in Oncology",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4453603452"
       },
       {
@@ -158,6 +150,14 @@
         "url": "https://www.linkedin.com/jobs/view/4458617462"
       },
       {
+        "title": "Clinical Research Associate II Oncology (Field Role, Nationwide Coverage)",
+        "company": "AbbVie",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460482778"
+      },
+      {
         "title": "Pharmacovigilance Specialist (salary €30-35K)",
         "company": "Shionogi Europe",
         "score": 45,
@@ -166,12 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4457953581"
       },
       {
-        "title": "Clinical Research Associate II Oncology (Field Role, Nationwide Coverage)",
-        "company": "AbbVie",
-        "score": 45,
+        "title": "Regulatory Affairs Intern",
+        "company": "STERIS",
+        "score": 44,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4460482778"
+        "date_posted": 1787356800000,
+        "url": "https://www.linkedin.com/jobs/view/4430767486"
       }
     ]
   },
@@ -187,6 +187,11 @@
         "word": "dell",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -196,31 +201,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-51%)",
       "data": {
-        "current": 1,
-        "avg": 4.3,
-        "change_pct": -76.6
+        "current": 2,
+        "avg": 4.1,
+        "change_pct": -51.1
+      }
+    },
+    {
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "data": {
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 25% a 0% (-25pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 25.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 75% a 100% (+25pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 75.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -231,53 +246,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 22,
+            "size": 16,
             "top_terms": [
-              "manager",
-              "medical",
-              "cra"
+              "cra",
+              "oncologia",
+              "medico"
             ],
-            "pct": 45.8
-          },
-          {
-            "id": 1,
-            "size": 8,
-            "top_terms": [
-              "specialist",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 16.7
+            "pct": 34.0
           },
           {
             "id": 2,
+            "size": 10,
+            "top_terms": [
+              "manager",
+              "medical",
+              "science"
+            ],
+            "pct": 21.3
+          },
+          {
+            "id": 1,
             "size": 8,
             "top_terms": [
               "associate",
               "clinical",
               "research"
             ],
-            "pct": 16.7
-          },
-          {
-            "id": 4,
-            "size": 6,
-            "top_terms": [
-              "oncology",
-              "medical",
-              "therapeutic"
-            ],
-            "pct": 12.5
+            "pct": 17.0
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 8,
             "top_terms": [
-              "oncologia",
-              "uoc",
-              "internship"
+              "specialist",
+              "regulatory",
+              "affairs"
             ],
-            "pct": 8.3
+            "pct": 17.0
+          },
+          {
+            "id": 4,
+            "size": 5,
+            "top_terms": [
+              "oncology",
+              "therapeutic",
+              "area"
+            ],
+            "pct": 10.6
           }
         ]
       }

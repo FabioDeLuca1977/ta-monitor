@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-07T13:38:15.430695",
+  "generated_at": "2026-09-08T12:36:13.992870",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 21,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 17.6,
+    "average": 19.3,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 4,
-      "low": 2,
+      "medium": 5,
+      "low": 4,
       "irrelevant": 14
     },
     "top_jobs": [
@@ -46,6 +46,14 @@
         "url": "https://www.linkedin.com/jobs/view/4433254704"
       },
       {
+        "title": "Junior Digital Regulatory Affairs Consultant",
+        "company": "PQE Group",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4462277434"
+      },
+      {
         "title": "MSL Centro (Emilia-Romagna, Marche)",
         "company": "Jefferson Wells Italia",
         "score": 41,
@@ -54,12 +62,28 @@
         "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
+        "title": "Regulatory Affair Consultant",
+        "company": "Capgemini Engineering",
+        "score": 35,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4464339399"
+      },
+      {
         "title": "Presales CAD Engineer (Powertrain)",
         "company": "Vertiv",
         "score": 25,
         "site": "indeed",
         "date_posted": 1788393600000,
         "url": "https://it.indeed.com/viewjob?jk=34c41cd2aa00c3d0"
+      },
+      {
+        "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
+        "company": "Adecco",
+        "score": 21,
+        "site": "linkedin",
+        "date_posted": 1788739200000,
+        "url": "https://www.linkedin.com/jobs/view/4461895685"
       },
       {
         "title": "QA & RA Manager | Medical Devices",
@@ -76,14 +100,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
-      },
-      {
-        "title": "R&D Dispending Compatibility Specialist - Stage",
-        "company": "ATS Automation Tooling Systems Inc.",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1788480000000,
-        "url": "https://it.indeed.com/viewjob?jk=8cf4a5f477ed86ad"
       },
       {
         "title": "Associate Market Access Specialist, North East Italy",
@@ -108,6 +124,14 @@
         "site": "indeed",
         "date_posted": 1788393600000,
         "url": "https://it.indeed.com/viewjob?jk=f7246d37e9882f91"
+      },
+      {
+        "title": "R&D Dispending Compatibility Specialist - Stage",
+        "company": "ATS Automation Tooling Systems Inc.",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=8cf4a5f477ed86ad"
       },
       {
         "title": "Business Line Product Steward - Specialist",
@@ -148,30 +172,6 @@
         "site": "indeed",
         "date_posted": 1787184000000,
         "url": "https://it.indeed.com/viewjob?jk=886d3982acd65369"
-      },
-      {
-        "title": "Senior System Verification Engineer",
-        "company": "LivaNova",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1787270400000,
-        "url": "https://it.indeed.com/viewjob?jk=da5a800ad5ac81dd"
-      },
-      {
-        "title": "12 months fix term contract R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=ed803ba67a2697eb"
-      },
-      {
-        "title": "R&D Product Development Engineer",
-        "company": "Dentsply Sirona",
-        "score": 0,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=9596b066d5346639"
       }
     ]
   },
@@ -199,13 +199,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 3 annunci ultimo scan vs media 2 (+43%)",
+      "data": {
+        "current": 3,
+        "avg": 2.1,
+        "change_pct": 42.9
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "total": 3,
+        "pct": 33.3
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 100.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -216,43 +246,43 @@
         "clusters": [
           {
             "id": 2,
-            "size": 10,
+            "size": 11,
             "top_terms": [
+              "cra",
               "medical",
-              "manager",
-              "affairs"
+              "manager"
             ],
-            "pct": 47.6
+            "pct": 45.8
           },
           {
-            "id": 0,
+            "id": 3,
             "size": 5,
-            "top_terms": [
-              "specialist",
-              "junior",
-              "regulatory"
-            ],
-            "pct": 23.8
-          },
-          {
-            "id": 1,
-            "size": 4,
             "top_terms": [
               "engineer",
               "development",
               "product"
             ],
-            "pct": 19.0
+            "pct": 20.8
           },
           {
-            "id": 3,
-            "size": 2,
+            "id": 0,
+            "size": 4,
             "top_terms": [
-              "cra",
-              "steward",
-              "specialist"
+              "specialist",
+              "junior",
+              "steward"
             ],
-            "pct": 9.5
+            "pct": 16.7
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "consultant"
+            ],
+            "pct": 16.7
           }
         ]
       }
