@@ -1,33 +1,25 @@
 {
-  "generated_at": "2026-09-08T12:36:13.957095",
+  "generated_at": "2026-09-09T12:42:18.625997",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 159,
+  "total_jobs_analyzed": 156,
   "scoring": {
     "average": 31.8,
     "distribution": {
       "excellent": 0,
-      "good": 5,
-      "medium": 84,
+      "good": 4,
+      "medium": 83,
       "low": 9,
-      "irrelevant": 61
+      "irrelevant": 60
     },
     "top_jobs": [
       {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "BioSpace",
-        "score": 67,
+        "score": 66,
         "site": "linkedin",
         "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4462757887"
-      },
-      {
-        "title": "Medical Science Liaison, Oncology",
-        "company": "IQVIA",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1788652800000,
-        "url": "https://www.linkedin.com/jobs/view/4426942441"
       },
       {
         "title": "Medical Advisor Consumer and Medical Information Italy",
@@ -38,20 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4462157670"
       },
       {
+        "title": "Medical Science Liaison, Oncology",
+        "company": "IQVIA",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": 1788652800000,
+        "url": "https://www.linkedin.com/jobs/view/4426942441"
+      },
+      {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "Regeneron",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460016814"
-      },
-      {
-        "title": "Hepatology - Medical Director",
-        "company": "Medpace",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1788220800000,
-        "url": "https://www.linkedin.com/jobs/view/4331970390"
       },
       {
         "title": "International Medical Affairs Manager",
@@ -102,6 +94,14 @@
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
+        "title": "Hepatology - Medical Director",
+        "company": "Medpace",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": 1788220800000,
+        "url": "https://www.linkedin.com/jobs/view/4331970390"
+      },
+      {
         "title": "(Associate) Medical Director - Neurology",
         "company": "Thermo Fisher Scientific",
         "score": 54,
@@ -122,8 +122,16 @@
         "company": "MEDSPA Srl",
         "score": 53,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4455848460"
+      },
+      {
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
+        "company": "QVC Italy",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4440229244"
       },
       {
         "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4441504705"
       },
       {
-        "title": "Regulatory Affairs Manager - Extra EU - Fitofarmaci/Agrofarmaci",
-        "company": "Hays",
+        "title": "Regulatory Affairs Consultant: Medical Device IVDR - home or office based in various Eu locations",
+        "company": "Parexel",
         "score": 52,
         "site": "linkedin",
-        "date_posted": 1787011200000,
-        "url": "https://www.linkedin.com/jobs/view/4452242952"
-      },
-      {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità) (Riservato a candidati appartenenti alle Categorie Protette – Legge 68/99)",
-        "company": "QVC Italy",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4440229244"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4459435268"
       }
     ]
   },
@@ -179,27 +179,27 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "cra",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
         "word": "senior",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "cra",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
-      },
-      {
         "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
         "word": "clinical",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "fsp",
+        "word": "devices",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       }
@@ -272,11 +272,31 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/9 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 3/8 annunci da aziende nuove (37.5%)",
       "data": {
         "new": 3,
-        "total": 9,
-        "pct": 33.3
+        "total": 8,
+        "pct": 37.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 33% a 62% (+29pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 33.3,
+        "new_pct": 62.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 38% (-29pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 37.5
       }
     },
     {
@@ -289,51 +309,51 @@
             "id": 0,
             "size": 64,
             "top_terms": [
-              "manager",
-              "cra",
-              "italy"
+              "italy",
+              "medical",
+              "specialist"
             ],
-            "pct": 40.3
+            "pct": 41.0
           },
           {
-            "id": 2,
-            "size": 30,
+            "id": 1,
+            "size": 31,
             "top_terms": [
+              "manager",
               "medical",
-              "devices",
-              "drug"
+              "clinical"
             ],
-            "pct": 18.9
+            "pct": 19.9
           },
           {
             "id": 3,
-            "size": 27,
+            "size": 26,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 17.0
-          },
-          {
-            "id": 1,
-            "size": 19,
-            "top_terms": [
-              "associate",
-              "research",
-              "clinical"
-            ],
-            "pct": 11.9
+            "pct": 16.7
           },
           {
             "id": 4,
-            "size": 19,
+            "size": 18,
             "top_terms": [
               "director",
               "medical",
               "senior"
             ],
-            "pct": 11.9
+            "pct": 11.5
+          },
+          {
+            "id": 2,
+            "size": 17,
+            "top_terms": [
+              "research",
+              "associate",
+              "clinical"
+            ],
+            "pct": 10.9
           }
         ]
       }
