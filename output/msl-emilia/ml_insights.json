@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:42:18.660996",
+  "generated_at": "2026-09-10T12:38:16.526742",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 23,
@@ -90,7 +90,7 @@
         "company": "PQE Group",
         "score": 17,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
       },
       {
@@ -216,20 +216,20 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 0.0,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 50.0
       }
     },
@@ -240,34 +240,34 @@
       "data": {
         "clusters": [
           {
+            "id": 1,
+            "size": 10,
+            "top_terms": [
+              "cra",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 43.5
+          },
+          {
             "id": 3,
-            "size": 11,
+            "size": 6,
             "top_terms": [
               "engineer",
               "product",
               "development"
             ],
-            "pct": 47.8
-          },
-          {
-            "id": 0,
-            "size": 6,
-            "top_terms": [
-              "specialist",
-              "medical",
-              "junior"
-            ],
             "pct": 26.1
           },
           {
-            "id": 1,
-            "size": 3,
+            "id": 0,
+            "size": 4,
             "top_terms": [
-              "regulatory",
-              "consultant",
-              "affairs"
+              "specialist",
+              "junior",
+              "italy"
             ],
-            "pct": 13.0
+            "pct": 17.4
           },
           {
             "id": 2,

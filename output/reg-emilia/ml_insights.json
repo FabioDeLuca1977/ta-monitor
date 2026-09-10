@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-09T12:42:18.984035",
+  "generated_at": "2026-09-10T12:38:16.849612",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 54,
+  "total_jobs_analyzed": 55,
   "scoring": {
-    "average": 11.0,
+    "average": 10.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 4,
       "low": 1,
-      "irrelevant": 48
+      "irrelevant": 49
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "QUALITY ASSURANCE & REGULATORY AFFAIRS (JUNIOR)",
         "company": "MEDIFLY SRL",
-        "score": 51,
+        "score": 52,
         "site": "indeed",
         "date_posted": 1788134400000,
         "url": "https://it.indeed.com/viewjob?jk=89779c3cd21d4f9e"
@@ -56,7 +56,7 @@
       {
         "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
         "company": "Adecco",
-        "score": 24,
+        "score": 23,
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4461895685"
@@ -78,36 +78,52 @@
         "url": "https://www.linkedin.com/jobs/view/4461896755"
       },
       {
-        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
-        "company": "Thales",
+        "title": "Downstream Manager BU Western Europe - Sales Italy B&I",
+        "company": "Orbia Building & Infrastructure Wavin",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=57215dbedbeee11a"
+      },
+      {
+        "title": "Sales Specialist- Faenza",
+        "company": "R-Store SPA",
         "score": 15,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444485295"
+        "site": "indeed",
+        "date_posted": 1788998400000,
+        "url": "https://it.indeed.com/viewjob?jk=ca520f63760bc085"
       },
       {
         "title": "Design Quality Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 14,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
-      },
-      {
-        "title": "QUALITY ASSURANCE SPECIALIST",
-        "company": "AB PROFESSIONAL SEARCH SAGL",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1787270400000,
-        "url": "https://www.linkedin.com/jobs/view/4457093822"
       },
       {
         "title": "Quality Assurance Specialist",
         "company": "Adecco",
-        "score": 13,
+        "score": 14,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4458704613"
+      },
+      {
+        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
+        "company": "Thales",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444485295"
+      },
+      {
+        "title": "CIS Asset Management Specialist",
+        "company": "Spektrum",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=d9099e50539f4ffb"
       },
       {
         "title": "ADDETTO/A ALLA SALDATURA ROBOTIZZATA",
@@ -124,22 +140,6 @@
         "site": "indeed",
         "date_posted": 1788220800000,
         "url": "https://it.indeed.com/viewjob?jk=6b2ee0a4ee788e5a"
-      },
-      {
-        "title": "CIS Asset Management Specialist",
-        "company": "Spektrum",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1788480000000,
-        "url": "https://it.indeed.com/viewjob?jk=d9099e50539f4ffb"
-      },
-      {
-        "title": "Quality Assurance Inspector",
-        "company": "Orbia Building & Infrastructure Wavin",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=6cafc3fc83ab91bb"
       },
       {
         "title": "CEO / TEMPORARY MANAGER",
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -194,12 +194,12 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "product",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "manager",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "product",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+62%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-51%)",
       "data": {
-        "current": 6,
-        "avg": 3.7,
-        "change_pct": 62.5
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
-      "data": {
-        "new": 5,
-        "total": 6,
-        "pct": 83.3
+        "current": 2,
+        "avg": 4.1,
+        "change_pct": -50.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 12% a 50% (+38pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 12.5,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 88% a 50% (-38pp)",
+      "message": "📡 linkedin: quota passata da 50% a 0% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 87.5,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -255,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 26,
-            "top_terms": [
-              "regulatory",
-              "engineer",
-              "development"
-            ],
-            "pct": 48.1
-          },
-          {
-            "id": 3,
-            "size": 9,
+            "id": 1,
+            "size": 31,
             "top_terms": [
               "addetto",
-              "gestione",
-              "sistema"
+              "commerciale",
+              "gestione"
             ],
-            "pct": 16.7
+            "pct": 56.4
           },
           {
             "id": 2,
             "size": 8,
             "top_terms": [
-              "specialist",
-              "quality",
-              "bologna"
-            ],
-            "pct": 14.8
-          },
-          {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
               "assurance",
               "quality",
               "inspector"
             ],
-            "pct": 13.0
+            "pct": 14.5
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 6,
+            "top_terms": [
+              "specialist",
+              "sales",
+              "quality"
+            ],
+            "pct": 10.9
+          },
+          {
+            "id": 0,
+            "size": 5,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "consultant"
+            ],
+            "pct": 9.1
+          },
+          {
+            "id": 3,
+            "size": 5,
             "top_terms": [
               "manager",
-              "product",
-              "assurance"
+              "italy",
+              "sales"
             ],
-            "pct": 7.4
+            "pct": 9.1
           }
         ]
       }
