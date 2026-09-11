@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-10T12:38:16.394498",
+  "generated_at": "2026-09-11T13:10:39.841608",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 23,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 30.6,
+    "average": 30.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 10,
-      "low": 5,
+      "low": 6,
       "irrelevant": 7
     },
     "top_jobs": [
@@ -26,7 +26,7 @@
         "company": "Professional Recruitment",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4457462377"
       },
       {
@@ -40,25 +40,17 @@
       {
         "title": "Informatore Medico Scientifico - Vicenza",
         "company": "Pharma Line srl",
-        "score": 48,
+        "score": 47,
         "site": "linkedin",
         "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4463866750"
-      },
-      {
-        "title": "MSL Specialty Pipeline - Triveneto",
-        "company": "GSK",
-        "score": 45,
-        "site": "indeed",
-        "date_posted": 1788393600000,
-        "url": "https://it.indeed.com/viewjob?jk=44122119c8344a81"
       },
       {
         "title": "Informatore scientifico commerciale | Veneto",
         "company": "PharmaNutra",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4448385772"
       },
       {
@@ -102,9 +94,17 @@
         "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
+        "title": "MSL Specialty Pipeline - Triveneto",
+        "company": "GSK",
+        "score": 40,
+        "site": "indeed",
+        "date_posted": 1788393600000,
+        "url": "https://it.indeed.com/viewjob?jk=44122119c8344a81"
+      },
+      {
         "title": "INFORMATORE MEDICO SCIENTIFICO",
         "company": "Eberlife Farmaceutici",
-        "score": 39,
+        "score": 38,
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4399512075"
@@ -112,10 +112,18 @@
       {
         "title": "Informatore Medico Scientifico M/F",
         "company": "KOLINPHARMA S.p.A",
-        "score": 39,
+        "score": 38,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4461671299"
+      },
+      {
+        "title": "Informatore Medico Scientifico Venezia e Treviso",
+        "company": "Agave Group",
+        "score": 37,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441154975"
       },
       {
         "title": "Informatore Tecnico e Medico Scientifico– Agente Monomandatario",
@@ -142,12 +150,12 @@
         "url": "https://it.indeed.com/viewjob?jk=060b7c718bf51472"
       },
       {
-        "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical",
-        "company": "W. L. Gore & Associates",
-        "score": 13,
+        "title": "Manufacturing Engineering Specialist",
+        "company": "Vertiv",
+        "score": 14,
         "site": "indeed",
-        "date_posted": 1787184000000,
-        "url": "https://it.indeed.com/viewjob?jk=e79011248f52611e"
+        "date_posted": 1788998400000,
+        "url": "https://it.indeed.com/viewjob?jk=6892794228b762ce"
       },
       {
         "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical (m/f/d)",
@@ -160,18 +168,10 @@
       {
         "title": "Chiller Controls Offering Specialist",
         "company": "Vertiv",
-        "score": 9,
+        "score": 4,
         "site": "indeed",
         "date_posted": 1788393600000,
         "url": "https://it.indeed.com/viewjob?jk=8a599a42527e4119"
-      },
-      {
-        "title": "Controls Development Engineer",
-        "company": "Vertiv",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1788393600000,
-        "url": "https://it.indeed.com/viewjob?jk=8f7973f7d11231d2"
       }
     ]
   },
@@ -185,11 +185,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 2,
+        "new": 1,
         "total": 2,
-        "pct": 100.0
+        "pct": 50.0
       }
     },
     {
@@ -199,44 +199,44 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 12,
+            "id": 3,
+            "size": 10,
             "top_terms": [
               "specialist",
-              "controls",
-              "manager"
+              "manager",
+              "trach"
             ],
-            "pct": 52.2
+            "pct": 41.7
           },
           {
             "id": 1,
-            "size": 5,
+            "size": 8,
             "top_terms": [
-              "medico",
+              "scientifico",
               "informatore",
-              "scientifico"
+              "medico"
             ],
-            "pct": 21.7
+            "pct": 33.3
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 4,
             "top_terms": [
               "isf",
               "farmaco",
-              "informatore"
+              "scientifico"
             ],
-            "pct": 17.4
+            "pct": 16.7
           },
           {
-            "id": 3,
+            "id": 2,
             "size": 2,
             "top_terms": [
-              "veneto",
-              "scientifico",
-              "informatore"
+              "controls",
+              "specialist",
+              "veneto"
             ],
-            "pct": 8.7
+            "pct": 8.3
           }
         ]
       }

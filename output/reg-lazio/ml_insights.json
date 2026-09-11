@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-10T12:38:16.922750",
+  "generated_at": "2026-09-11T13:10:40.400319",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 107,
+  "total_jobs_analyzed": 109,
   "scoring": {
-    "average": 14.0,
+    "average": 13.7,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 13,
+      "good": 3,
+      "medium": 12,
       "low": 5,
-      "irrelevant": 87
+      "irrelevant": 89
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
         "company": "Cassa Depositi e Prestiti",
-        "score": 66,
+        "score": 63,
         "site": "indeed",
         "date_posted": 1788912000000,
         "url": "https://it.indeed.com/viewjob?jk=95a16320a29d5d7c"
@@ -32,15 +32,23 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 57,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1787356800000,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
+        "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
+        "company": "Cassa Depositi e Prestiti",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
+      },
+      {
         "title": "Regulatory Affairs Expert",
         "company": "Alfasigma",
-        "score": 57,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463022389"
@@ -54,28 +62,12 @@
         "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
       },
       {
-        "title": "Quality Assurance Consultant   - Pharma Sector",
-        "company": "PQE Group",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4449547248"
-      },
-      {
         "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
         "company": "Ergomed",
-        "score": 53,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1787702400000,
         "url": "https://it.indeed.com/viewjob?jk=b60c33604e287234"
-      },
-      {
-        "title": "CMC Biopharma Regulatory Consultant — Ecolab Life Sciences",
-        "company": "Ecolab",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1787184000000,
-        "url": "https://www.linkedin.com/jobs/view/4446878011"
       },
       {
         "title": "Pharmacovigilance Auditor - Freelance Position (1FTE or 0.6 FTE and above)",
@@ -90,8 +82,16 @@
         "company": "PrimeVigilance",
         "score": 50,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
+      },
+      {
+        "title": "Quality Assurance Consultant   - Pharma Sector",
+        "company": "PQE Group",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1788739200000,
+        "url": "https://www.linkedin.com/jobs/view/4449547248"
       },
       {
         "title": "Pharmacovigilance Specialist (salary €30-35K)",
@@ -106,13 +106,13 @@
         "company": "PrimeVigilance",
         "score": 45,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4448322059"
       },
       {
         "title": "Offerta Lavorativa nel settore della Farmacovigilanza per personale medico",
         "company": "Di Renzo Regulatory Affairs",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4458061458"
@@ -152,7 +152,7 @@
       {
         "title": "Tecnico Diagnostico / Meccatronico Automotive",
         "company": "R-TRUCKS SRL",
-        "score": 30,
+        "score": 25,
         "site": "indeed",
         "date_posted": 1788739200000,
         "url": "https://it.indeed.com/viewjob?jk=5bc9c14e2662b021"
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -195,11 +195,11 @@
       },
       {
         "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "officer",
+        "word": "junior",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -212,17 +212,47 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "cdp public",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "public regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "affairs senior",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "cdp public regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "senior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
+      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 4,
-        "total": 7,
-        "pct": 57.1
+        "total": 8,
+        "pct": 50.0
       }
     },
     {
@@ -232,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 0,
             "size": 68,
             "top_terms": [
-              "officer",
+              "engineer",
               "senior",
-              "regulatory"
+              "affairs"
             ],
-            "pct": 63.6
-          },
-          {
-            "id": 2,
-            "size": 12,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "manager"
-            ],
-            "pct": 11.2
+            "pct": 62.4
           },
           {
             "id": 4,
-            "size": 12,
+            "size": 15,
             "top_terms": [
-              "specialist",
-              "affairs",
-              "regulatory"
-            ],
-            "pct": 11.2
-          },
-          {
-            "id": 0,
-            "size": 11,
-            "top_terms": [
-              "engineer",
+              "assurance",
               "quality",
-              "assurance"
+              "engineer"
             ],
-            "pct": 10.3
+            "pct": 13.8
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 10,
             "top_terms": [
-              "advisor",
-              "viterbo",
-              "terni"
+              "specialist",
+              "regulatory",
+              "affairs"
             ],
-            "pct": 3.7
+            "pct": 9.2
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "manager",
+              "planning",
+              "demand"
+            ],
+            "pct": 8.3
+          },
+          {
+            "id": 1,
+            "size": 7,
+            "top_terms": [
+              "officer",
+              "senior",
+              "policy"
+            ],
+            "pct": 6.4
           }
         ]
       }

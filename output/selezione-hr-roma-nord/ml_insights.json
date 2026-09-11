@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-09-10T12:38:16.362359",
+  "generated_at": "2026-09-11T13:10:39.808501",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 224,
+  "total_jobs_analyzed": 227,
   "scoring": {
-    "average": 26.9,
+    "average": 26.1,
     "distribution": {
       "excellent": 0,
-      "good": 18,
-      "medium": 50,
-      "low": 62,
-      "irrelevant": 94
+      "good": 17,
+      "medium": 49,
+      "low": 64,
+      "irrelevant": 97
     },
     "top_jobs": [
-      {
-        "title": "Talent Acquisition Specialist (Maternity Cover) Italy",
-        "company": "Abbott",
-        "score": 74,
-        "site": "indeed",
-        "date_posted": 1788739200000,
-        "url": "https://it.indeed.com/viewjob?jk=73441d897faed2f5"
-      },
       {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
         "company": "Marriott International",
@@ -28,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463522508"
-      },
-      {
-        "title": "HR Talent Acquisition & Employer Branding Intern",
-        "company": "Ayvens",
-        "score": 70,
-        "site": "linkedin",
-        "date_posted": 1787270400000,
-        "url": "https://www.linkedin.com/jobs/view/4454153464"
       },
       {
         "title": "Talent Acquisition Associate - Maternity Leave",
@@ -62,20 +46,20 @@
         "url": "https://it.indeed.com/viewjob?jk=68de2db37719c364"
       },
       {
-        "title": "HR Talent Acquisition Intern",
-        "company": "Engineering Group",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1787270400000,
-        "url": "https://www.linkedin.com/jobs/view/4446772905"
+        "title": "Talent Acquisition Specialist (Maternity Cover) Italy",
+        "company": "Abbott",
+        "score": 68,
+        "site": "indeed",
+        "date_posted": 1788739200000,
+        "url": "https://it.indeed.com/viewjob?jk=73441d897faed2f5"
       },
       {
-        "title": "Plant HR Manager",
-        "company": "Alfasigma",
-        "score": 66,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4456920708"
+        "title": "HR Generalist Retail",
+        "company": "F&F",
+        "score": 68,
+        "site": "indeed",
+        "date_posted": 1788998400000,
+        "url": "https://it.indeed.com/viewjob?jk=fd2cc1423d8d8892"
       },
       {
         "title": "Talent Acquisition Specialist",
@@ -84,6 +68,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460345535"
+      },
+      {
+        "title": "Plant HR Manager",
+        "company": "Alfasigma",
+        "score": 66,
+        "site": "linkedin",
+        "date_posted": 1787616000000,
+        "url": "https://www.linkedin.com/jobs/view/4456920708"
       },
       {
         "title": "HR MANAGER",
@@ -134,20 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=c250302a6dd49133"
       },
       {
+        "title": "Junior talent acquisition dedicato alla clientela",
+        "company": "LifeEnergy",
+        "score": 61,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=dea305b49cf9a867"
+      },
+      {
         "title": "HR GENERALIST",
         "company": "NewPrinces Group",
         "score": 60,
         "site": "linkedin",
         "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4458170836"
-      },
-      {
-        "title": "Junior talent acquisition dedicato alla clientela",
-        "company": "LifeEnergy",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1788134400000,
-        "url": "https://it.indeed.com/viewjob?jk=dea305b49cf9a867"
       },
       {
         "title": "Hr Generalist",
@@ -166,9 +158,17 @@
         "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
       },
       {
+        "title": "HR Specialist Clienti",
+        "company": "Ablio",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1787529600000,
+        "url": "https://it.indeed.com/viewjob?jk=1de1f8af7ac6d496"
+      },
+      {
         "title": "HR Generalist - Gestione operativa del cliente",
         "company": "Mobile 1",
-        "score": 59,
+        "score": 57,
         "site": "indeed",
         "date_posted": 1788307200000,
         "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
@@ -180,28 +180,28 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
       },
       {
         "word": "umane",
+        "count": 27,
+        "reason": "Appare 27x in annunci a basso score"
+      },
+      {
+        "word": "addetto",
         "count": 26,
         "reason": "Appare 26x in annunci a basso score"
       },
       {
-        "word": "addetto",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
-      },
-      {
         "word": "responsabile",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "assistant",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,15 +209,15 @@
   "keyword_recommendations": [
     {
       "keyword": "intern",
-      "frequency": 7,
+      "frequency": 5,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 70
+      "confidence": 50
     },
     {
       "keyword": "branding intern",
-      "frequency": 4,
+      "frequency": 3,
       "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 60
+      "confidence": 45
     },
     {
       "keyword": "personale contact",
@@ -250,12 +250,6 @@
       "confidence": 40
     },
     {
-      "keyword": "acquisition intern",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "junior hr",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -266,17 +260,33 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "generalist gestione",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 10 annunci ultimo scan vs media 17 (-40%)",
+      "data": {
+        "current": 10,
+        "avg": 16.7,
+        "change_pct": -40.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 8/13 annunci da aziende nuove (61.5%)",
+      "message": "📊 Ultimo scan: 4/10 annunci da aziende nuove (40.0%)",
       "data": {
-        "new": 8,
-        "total": 13,
-        "pct": 61.5
+        "new": 4,
+        "total": 10,
+        "pct": 40.0
       }
     },
     {
@@ -286,54 +296,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 133,
+            "id": 0,
+            "size": 101,
             "top_terms": [
-              "hr",
-              "addetto",
-              "recruiter"
+              "specialist",
+              "tecnico",
+              "acquisition"
             ],
-            "pct": 59.4
+            "pct": 44.5
           },
           {
             "id": 3,
-            "size": 36,
+            "size": 46,
+            "top_terms": [
+              "hr",
+              "recruiter",
+              "generalist"
+            ],
+            "pct": 20.3
+          },
+          {
+            "id": 2,
+            "size": 40,
             "top_terms": [
               "risorse",
               "umane",
               "addetto"
             ],
-            "pct": 16.1
+            "pct": 17.6
+          },
+          {
+            "id": 1,
+            "size": 27,
+            "top_terms": [
+              "addetto",
+              "personale",
+              "selezione"
+            ],
+            "pct": 11.9
           },
           {
             "id": 4,
-            "size": 20,
-            "top_terms": [
-              "manager",
-              "talent",
-              "acquisition"
-            ],
-            "pct": 8.9
-          },
-          {
-            "id": 0,
-            "size": 18,
-            "top_terms": [
-              "specialist",
-              "hr",
-              "junior"
-            ],
-            "pct": 8.0
-          },
-          {
-            "id": 2,
-            "size": 17,
+            "size": 13,
             "top_terms": [
               "responsabile",
               "hr",
               "tecnologie"
             ],
-            "pct": 7.6
+            "pct": 5.7
           }
         ]
       }
