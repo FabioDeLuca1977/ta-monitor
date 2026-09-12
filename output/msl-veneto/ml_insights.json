@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T13:10:39.841608",
+  "generated_at": "2026-09-12T12:39:07.028763",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 30.1,
+    "average": 29.9,
     "distribution": {
       "excellent": 0,
-      "good": 1,
-      "medium": 10,
+      "good": 0,
+      "medium": 11,
       "low": 6,
       "irrelevant": 7
     },
@@ -16,7 +16,7 @@
       {
         "title": "Informatore Scientifico del Farmaco (ISF) Specialist",
         "company": "Professional Recruitment",
-        "score": 61,
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4463253334"
@@ -177,7 +177,13 @@
   },
   "filter_suggestions": {
     "add_relevant": [],
-    "add_blacklist": [],
+    "add_blacklist": [
+      {
+        "word": "specialist",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      }
+    ],
     "review": []
   },
   "keyword_recommendations": [],
@@ -224,7 +230,7 @@
             "top_terms": [
               "isf",
               "farmaco",
-              "scientifico"
+              "informatore"
             ],
             "pct": 16.7
           },

@@ -1,30 +1,38 @@
 {
-  "generated_at": "2026-09-11T13:10:39.943644",
+  "generated_at": "2026-09-12T12:39:07.099981",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 159,
+  "total_jobs_analyzed": 161,
   "scoring": {
-    "average": 29.9,
+    "average": 30.2,
     "distribution": {
       "excellent": 0,
-      "good": 4,
+      "good": 5,
       "medium": 76,
-      "low": 9,
-      "irrelevant": 70
+      "low": 11,
+      "irrelevant": 69
     },
     "top_jobs": [
       {
         "title": "Medical Advisor Consumer and Medical Information Italy",
         "company": "Galderma",
-        "score": 66,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462157670"
       },
       {
+        "title": "International Medical Affairs Manager",
+        "company": "Evolus",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441606691"
+      },
+      {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "Regeneron",
-        "score": 65,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460016814"
@@ -32,7 +40,7 @@
       {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "BioSpace",
-        "score": 65,
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4462757887"
@@ -40,26 +48,10 @@
       {
         "title": "Medical Science Liaison, Oncology",
         "company": "IQVIA",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1788652800000,
         "url": "https://www.linkedin.com/jobs/view/4426942441"
-      },
-      {
-        "title": "International Medical Affairs Manager",
-        "company": "Evolus",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441606691"
-      },
-      {
-        "title": "MSL Manager - Metabolic Disorder",
-        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444450322"
       },
       {
         "title": "Head of Medical Affairs, Italy",
@@ -68,6 +60,30 @@
         "site": "linkedin",
         "date_posted": 1787788800000,
         "url": "https://www.linkedin.com/jobs/view/4431241411"
+      },
+      {
+        "title": "MSL Manager - Metabolic Disorder",
+        "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444450322"
+      },
+      {
+        "title": "Medical Affairs Internship",
+        "company": "Sanofi",
+        "score": 57,
+        "site": "indeed",
+        "date_posted": 1789084800000,
+        "url": "https://it.indeed.com/viewjob?jk=b240732dcfe65f89"
+      },
+      {
+        "title": "Compliance & Regulatory Affairs Manager",
+        "company": "ReeVo Cloud & Cyber Security",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1788825600000,
+        "url": "https://www.linkedin.com/jobs/view/4436040335"
       },
       {
         "title": "Market Access Specialist – Medical Devices (Italy)",
@@ -110,6 +126,14 @@
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
+        "title": "Medical Manager - Sostituzione Maternità",
+        "company": "Chaberton Professionals",
+        "score": 55,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460703021"
+      },
+      {
         "title": "Hepatology - Medical Director",
         "company": "Medpace",
         "score": 55,
@@ -124,14 +148,6 @@
         "site": "linkedin",
         "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4446208066"
-      },
-      {
-        "title": "Medical Manager - Sostituzione Maternità",
-        "company": "Chaberton Professionals",
-        "score": 54,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4460703021"
       },
       {
         "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
@@ -156,22 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4450747328"
-      },
-      {
-        "title": "Regulatory Affairs Consultant: Medical Device IVDR - home or office based in various Eu locations",
-        "company": "Parexel",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4459435268"
-      },
-      {
-        "title": "Safety Scientist- Real World Evidence (RWE), EMEA",
-        "company": "Thermo Fisher Scientific",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4451676174"
       }
     ]
   },
@@ -179,19 +179,14 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "specialist",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
         "word": "cra",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "senior",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "fsp",
@@ -199,9 +194,14 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
+        "word": "senior",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
+      },
+      {
         "word": "director",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,9 +209,21 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 5,
+      "frequency": 7,
       "source": "parola frequente in titoli rilevanti",
-      "confidence": 50
+      "confidence": 70
+    },
+    {
+      "keyword": "director italy",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "rare diseases",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
     },
     {
       "keyword": "affairs consultant",
@@ -244,12 +256,6 @@
       "confidence": 30
     },
     {
-      "keyword": "rare diseases",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "medical operations",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -260,53 +266,47 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "associate manager",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 12 (-40%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 12 (-41%)",
       "data": {
         "current": 7,
-        "avg": 11.7,
-        "change_pct": -40.1
+        "avg": 11.8,
+        "change_pct": -40.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/7 annunci da aziende nuove (14.3%)",
+      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
       "data": {
-        "new": 1,
+        "new": 3,
         "total": 7,
-        "pct": 14.3
+        "pct": 42.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 69% a 86% (+16pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 69.2,
-        "new_pct": 85.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 31% a 14% (-16pp)",
+      "message": "📡 linkedin: quota passata da 14% a 71% (+57pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 30.8,
-        "new_pct": 14.3
+        "old_pct": 14.3,
+        "new_pct": 71.4
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 86% a 29% (-57pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 85.7,
+        "new_pct": 28.6
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 83,
+            "id": 1,
+            "size": 74,
             "top_terms": [
               "manager",
               "cra",
-              "senior"
+              "italy"
             ],
-            "pct": 52.2
+            "pct": 46.0
           },
           {
-            "id": 4,
-            "size": 22,
+            "id": 3,
+            "size": 38,
+            "top_terms": [
+              "medical",
+              "director",
+              "devices"
+            ],
+            "pct": 23.6
+          },
+          {
+            "id": 0,
+            "size": 24,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.8
+            "pct": 14.9
           },
           {
-            "id": 1,
-            "size": 20,
-            "top_terms": [
-              "medical",
-              "devices",
-              "sales"
-            ],
-            "pct": 12.6
-          },
-          {
-            "id": 3,
+            "id": 4,
             "size": 18,
-            "top_terms": [
-              "director",
-              "medical",
-              "senior"
-            ],
-            "pct": 11.3
-          },
-          {
-            "id": 2,
-            "size": 16,
             "top_terms": [
               "associate",
               "research",
               "clinical"
             ],
-            "pct": 10.1
+            "pct": 11.2
+          },
+          {
+            "id": 2,
+            "size": 7,
+            "top_terms": [
+              "access",
+              "market",
+              "manager"
+            ],
+            "pct": 4.3
           }
         ]
       }

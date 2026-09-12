@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T13:10:40.323260",
+  "generated_at": "2026-09-12T12:39:07.375088",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 10.1,
+    "average": 9.5,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -16,7 +16,7 @@
       {
         "title": "Regulatory Affairs",
         "company": "Teoresi MedTech",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4440989246"
@@ -24,7 +24,7 @@
       {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 54,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
@@ -40,7 +40,7 @@
       {
         "title": "Regulatory Affair Consultant",
         "company": "Capgemini Engineering",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4464339399"
@@ -48,18 +48,10 @@
       {
         "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
         "company": "Adecco",
-        "score": 18,
+        "score": 19,
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4461895685"
-      },
-      {
-        "title": "Tax & Accounting Manager",
-        "company": "Angelo Po Grandi Cucine S.p.a",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1788825600000,
-        "url": "https://it.indeed.com/viewjob?jk=9c8e4d6313c6b9c0"
       },
       {
         "title": "Downstream Manager BU Western Europe - Sales Italy B&I",
@@ -78,12 +70,12 @@
         "url": "https://it.indeed.com/viewjob?jk=4d87015b87c3d244"
       },
       {
-        "title": "Quality Assurance Specialist",
-        "company": "Adecco",
+        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
+        "company": "Thales",
         "score": 15,
         "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4458704613"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4444485295"
       },
       {
         "title": "Sales Specialist- Faenza",
@@ -102,12 +94,12 @@
         "url": "https://it.indeed.com/viewjob?jk=db0b6396cf6afbd3"
       },
       {
-        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
-        "company": "Thales",
+        "title": "Quality Assurance Specialist",
+        "company": "Adecco",
         "score": 14,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4444485295"
+        "date_posted": 1787616000000,
+        "url": "https://www.linkedin.com/jobs/view/4458704613"
       },
       {
         "title": "Design Quality Specialist - Medical Devices",
@@ -118,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4455864360"
       },
       {
-        "title": "CIS Asset Management Specialist",
-        "company": "Spektrum",
+        "title": "Tax & Accounting Manager",
+        "company": "Angelo Po Grandi Cucine S.p.a",
         "score": 12,
         "site": "indeed",
-        "date_posted": 1788480000000,
-        "url": "https://it.indeed.com/viewjob?jk=d9099e50539f4ffb"
+        "date_posted": 1788825600000,
+        "url": "https://it.indeed.com/viewjob?jk=9c8e4d6313c6b9c0"
       },
       {
         "title": "ADDETTO/A ALLA SALDATURA ROBOTIZZATA",
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4464450888"
       },
       {
-        "title": "Demand & Production Planner",
-        "company": "IMAL Srl",
+        "title": "Head of Production",
+        "company": "Constantia Flexibles GmbH",
         "score": 10,
+        "site": "indeed",
+        "date_posted": 1788998400000,
+        "url": "https://it.indeed.com/viewjob?jk=3ff33d723519ea48"
+      },
+      {
+        "title": "Quality Assurance",
+        "company": "Sherwin-Williams",
+        "score": 8,
         "site": "linkedin",
-        "date_posted": 1788480000000,
-        "url": "https://www.linkedin.com/jobs/view/4440597713"
+        "date_posted": 1787356800000,
+        "url": "https://www.linkedin.com/jobs/view/4439302592"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "product",
+        "word": "sistema",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -209,43 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+53%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-53%)",
       "data": {
-        "current": 6,
-        "avg": 3.9,
-        "change_pct": 52.9
+        "current": 2,
+        "avg": 4.2,
+        "change_pct": -52.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/6 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 4,
-        "total": 6,
-        "pct": 66.7
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,17 +255,17 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
+            "id": 0,
             "size": 35,
             "top_terms": [
-              "commerciale",
               "specialist",
+              "commerciale",
               "telemarketing"
             ],
             "pct": 61.4
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 8,
             "top_terms": [
               "assurance",
@@ -278,6 +278,16 @@
             "id": 1,
             "size": 5,
             "top_terms": [
+              "sistema",
+              "qualità",
+              "gestione"
+            ],
+            "pct": 8.8
+          },
+          {
+            "id": 3,
+            "size": 5,
+            "top_terms": [
               "manager",
               "italy",
               "sales"
@@ -285,21 +295,11 @@
             "pct": 8.8
           },
           {
-            "id": 4,
-            "size": 5,
-            "top_terms": [
-              "regulatory",
-              "affairs",
-              "consultant"
-            ],
-            "pct": 8.8
-          },
-          {
-            "id": 3,
+            "id": 2,
             "size": 4,
             "top_terms": [
-              "product",
               "engineer",
+              "product",
               "development"
             ],
             "pct": 7.0
