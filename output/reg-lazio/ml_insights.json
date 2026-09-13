@@ -1,38 +1,30 @@
 {
-  "generated_at": "2026-09-12T12:39:07.430847",
+  "generated_at": "2026-09-13T13:39:20.488830",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
   "total_jobs_analyzed": 114,
   "scoring": {
-    "average": 13.4,
+    "average": 12.9,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 11,
+      "good": 2,
+      "medium": 12,
       "low": 7,
-      "irrelevant": 92
+      "irrelevant": 93
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs & Competition Specialist",
         "company": "iliad",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
-        "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
-        "company": "Cassa Depositi e Prestiti",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=95a16320a29d5d7c"
-      },
-      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 62,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1787356800000,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -40,34 +32,34 @@
       {
         "title": "Regulatory Affairs Expert",
         "company": "Alfasigma",
-        "score": 62,
+        "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463022389"
       },
       {
-        "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
+        "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
         "company": "Cassa Depositi e Prestiti",
         "score": 58,
         "site": "indeed",
         "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
+        "url": "https://it.indeed.com/viewjob?jk=95a16320a29d5d7c"
       },
       {
         "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
         "company": "Ergomed",
-        "score": 55,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1787702400000,
         "url": "https://it.indeed.com/viewjob?jk=b60c33604e287234"
       },
       {
-        "title": "Regulatory Affairs Expert",
-        "company": "Alfasigma group",
-        "score": 55,
+        "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
+        "company": "Cassa Depositi e Prestiti",
+        "score": 54,
         "site": "indeed",
         "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
+        "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
       },
       {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
@@ -76,6 +68,14 @@
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
+      },
+      {
+        "title": "Regulatory Affairs Expert",
+        "company": "Alfasigma group",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
       },
       {
         "title": "Quality Assurance Consultant   - Pharma Sector",
@@ -108,14 +108,6 @@
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4448322059"
-      },
-      {
-        "title": "Offerta Lavorativa nel settore della Farmacovigilanza per personale medico",
-        "company": "Di Renzo Regulatory Affairs",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4458061458"
       },
       {
         "title": "Performance Marketer Specialist",
@@ -168,10 +160,18 @@
       {
         "title": "Addetto/a banco macelleria",
         "company": "P&G supermarket",
-        "score": 23,
+        "score": 24,
         "site": "indeed",
         "date_posted": 1787702400000,
         "url": "https://it.indeed.com/viewjob?jk=80fbeab2f100211e"
+      },
+      {
+        "title": "Group Legal Counsel",
+        "company": "Ericsson",
+        "score": 21,
+        "site": "indeed",
+        "date_posted": 1784073600000,
+        "url": "https://it.indeed.com/viewjob?jk=2e3b7b5bbcc6d7dc"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -195,13 +195,13 @@
       },
       {
         "word": "manager",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "junior",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
+        "word": "senior",
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       }
     ],
     "review": []
@@ -246,13 +246,23 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-75%)",
+      "data": {
+        "current": 2,
+        "avg": 8.0,
+        "change_pct": -75.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 5/8 annunci da aziende nuove (62.5%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 5,
-        "total": 8,
-        "pct": 62.5
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
@@ -262,47 +272,47 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 71,
-            "top_terms": [
-              "engineer",
-              "manager",
-              "senior"
-            ],
-            "pct": 62.3
-          },
-          {
-            "id": 4,
-            "size": 18,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "engineer"
-            ],
-            "pct": 15.8
-          },
-          {
             "id": 0,
-            "size": 10,
+            "size": 69,
             "top_terms": [
-              "specialist",
-              "junior",
-              "demand"
+              "manager",
+              "regulatory",
+              "affairs"
             ],
-            "pct": 8.8
+            "pct": 60.5
           },
           {
             "id": 3,
-            "size": 8,
+            "size": 17,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "specialist"
+              "assurance",
+              "quality",
+              "engineer"
             ],
-            "pct": 7.0
+            "pct": 14.9
+          },
+          {
+            "id": 1,
+            "size": 14,
+            "top_terms": [
+              "specialist",
+              "compliance",
+              "junior"
+            ],
+            "pct": 12.3
           },
           {
             "id": 2,
+            "size": 7,
+            "top_terms": [
+              "engineer",
+              "senior",
+              "automation"
+            ],
+            "pct": 6.1
+          },
+          {
+            "id": 4,
             "size": 7,
             "top_terms": [
               "officer",

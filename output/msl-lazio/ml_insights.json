@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-12T12:39:07.161872",
+  "generated_at": "2026-09-13T13:39:20.217800",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 29.8,
+    "average": 29.3,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 23,
-      "low": 4,
+      "medium": 22,
+      "low": 5,
       "irrelevant": 24
     },
     "top_jobs": [
@@ -56,7 +56,7 @@
       {
         "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
         "company": "Merck Healthcare",
-        "score": 55,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4448866686"
@@ -70,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4446308405"
       },
       {
-        "title": "Regulatory Affairs Expert",
-        "company": "Alfasigma",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1788912000000,
-        "url": "https://www.linkedin.com/jobs/view/4463022389"
-      },
-      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
         "score": 51,
@@ -86,19 +78,11 @@
         "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
-        "title": "Regulatory Affairs Expert",
-        "company": "Alfasigma group",
-        "score": 51,
-        "site": "indeed",
-        "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
-      },
-      {
         "title": "Medical Director - Oncology , Sponsor Dedicated (Home-Based)",
         "company": "IQVIA",
         "score": 49,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787875200000,
         "url": "https://www.linkedin.com/jobs/view/4453702548"
       },
       {
@@ -110,12 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4465058482"
       },
       {
-        "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
-        "company": "PrimeVigilance",
-        "score": 47,
+        "title": "Regulatory Affairs Expert",
+        "company": "Alfasigma",
+        "score": 48,
         "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4448322059"
+        "date_posted": 1788912000000,
+        "url": "https://www.linkedin.com/jobs/view/4463022389"
       },
       {
         "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
@@ -126,20 +110,20 @@
         "url": "https://www.linkedin.com/jobs/view/4459333628"
       },
       {
+        "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
+        "company": "PrimeVigilance",
+        "score": 47,
+        "site": "linkedin",
+        "date_posted": 1787616000000,
+        "url": "https://www.linkedin.com/jobs/view/4448322059"
+      },
+      {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
         "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444854467"
-      },
-      {
-        "title": "Senior Clinical Research Associate",
-        "company": "Translational Oncology Research, LLC",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1787788800000,
-        "url": "https://www.linkedin.com/jobs/view/4458608678"
       },
       {
         "title": "Pharmacovigilance Specialist (salary €30-35K)",
@@ -158,6 +142,14 @@
         "url": "https://www.linkedin.com/jobs/view/4458617462"
       },
       {
+        "title": "Regulatory Affairs Expert",
+        "company": "Alfasigma group",
+        "score": 46,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
+      },
+      {
         "title": "Clinical Research Associate 2",
         "company": "Emerald Clinical",
         "score": 46,
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4464559024"
       },
       {
-        "title": "Regulatory Affairs Intern",
-        "company": "STERIS",
+        "title": "Senior Clinical Research Associate",
+        "company": "Translational Oncology Research, LLC",
         "score": 45,
         "site": "linkedin",
-        "date_posted": 1787356800000,
-        "url": "https://www.linkedin.com/jobs/view/4430767486"
+        "date_posted": 1787788800000,
+        "url": "https://www.linkedin.com/jobs/view/4458608678"
+      },
+      {
+        "title": "Clinical Research Associate II Oncology (Field Role, Nationwide Coverage)",
+        "company": "AbbVie",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460482778"
       }
     ]
   },
@@ -201,53 +201,46 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "affairs expert",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-35%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-54%)",
       "data": {
-        "current": 3,
-        "avg": 4.6,
-        "change_pct": -35.3
+        "current": 2,
+        "avg": 4.3,
+        "change_pct": -53.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 25% a 67% (+42pp)",
+      "message": "📡 linkedin: quota passata da 67% a 50% (-17pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 25.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 75% a 33% (-42pp)",
+      "message": "📡 indeed: quota passata da 33% a 50% (+17pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 75.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 50.0
       }
     },
     {
@@ -257,52 +250,52 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 16,
+            "id": 4,
+            "size": 20,
             "top_terms": [
               "cra",
               "stage",
-              "officer"
-            ],
-            "pct": 29.6
-          },
-          {
-            "id": 3,
-            "size": 13,
-            "top_terms": [
-              "medical",
-              "oncology",
               "manager"
             ],
-            "pct": 24.1
-          },
-          {
-            "id": 4,
-            "size": 13,
-            "top_terms": [
-              "associate",
-              "research",
-              "clinical"
-            ],
-            "pct": 24.1
+            "pct": 37.0
           },
           {
             "id": 1,
-            "size": 7,
+            "size": 11,
             "top_terms": [
               "specialist",
-              "quality",
-              "ethics"
+              "affairs",
+              "regulatory"
             ],
-            "pct": 13.0
+            "pct": 20.4
+          },
+          {
+            "id": 0,
+            "size": 9,
+            "top_terms": [
+              "research",
+              "clinical",
+              "associate"
+            ],
+            "pct": 16.7
+          },
+          {
+            "id": 3,
+            "size": 9,
+            "top_terms": [
+              "medical",
+              "oncology",
+              "science"
+            ],
+            "pct": 16.7
           },
           {
             "id": 2,
             "size": 5,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "expert"
+              "pharmacovigilance",
+              "freelance",
+              "europe"
             ],
             "pct": 9.3
           }

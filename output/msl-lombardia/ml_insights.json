@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T12:39:07.099981",
+  "generated_at": "2026-09-13T13:39:20.155111",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 161,
+  "total_jobs_analyzed": 159,
   "scoring": {
-    "average": 30.2,
+    "average": 29.6,
     "distribution": {
       "excellent": 0,
       "good": 5,
-      "medium": 76,
+      "medium": 74,
       "low": 11,
       "irrelevant": 69
     },
@@ -32,7 +32,7 @@
       {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "Regeneron",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460016814"
@@ -40,7 +40,7 @@
       {
         "title": "Medical Operations Associate Manager Medical Affairs",
         "company": "BioSpace",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4462757887"
@@ -94,22 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4459332631"
       },
       {
-        "title": "Clinical Research Associate",
-        "company": "ICON plc",
-        "score": 56,
-        "site": "linkedin",
-        "date_posted": 1788912000000,
-        "url": "https://www.linkedin.com/jobs/view/4454998360"
-      },
-      {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
-        "company": "QVC Italy",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1787788800000,
-        "url": "https://www.linkedin.com/jobs/view/4440222641"
-      },
-      {
         "title": "Dermatologist - Medical Director",
         "company": "Medpace",
         "score": 55,
@@ -124,14 +108,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4331940454"
-      },
-      {
-        "title": "Medical Manager - Sostituzione Maternità",
-        "company": "Chaberton Professionals",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4460703021"
       },
       {
         "title": "Hepatology - Medical Director",
@@ -150,12 +126,28 @@
         "url": "https://www.linkedin.com/jobs/view/4446208066"
       },
       {
-        "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
-        "company": "Thermo Fisher Scientific",
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
+        "company": "QVC Italy",
         "score": 54,
         "site": "linkedin",
+        "date_posted": 1787788800000,
+        "url": "https://www.linkedin.com/jobs/view/4440222641"
+      },
+      {
+        "title": "Medical Science Liaison Rare Diseases Italy",
+        "company": "Recordati",
+        "score": 53,
+        "site": "linkedin",
+        "date_posted": 1787961600000,
+        "url": "https://www.linkedin.com/jobs/view/4450747328"
+      },
+      {
+        "title": "Medical Manager - Sostituzione Maternità",
+        "company": "Chaberton Professionals",
+        "score": 53,
+        "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441504705"
+        "url": "https://www.linkedin.com/jobs/view/4460703021"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -166,12 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4459962918"
       },
       {
-        "title": "Medical Science Liaison Rare Diseases Italy",
-        "company": "Recordati",
-        "score": 52,
+        "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
+        "company": "Thermo Fisher Scientific",
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4450747328"
+        "url": "https://www.linkedin.com/jobs/view/4441504705"
+      },
+      {
+        "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
+        "company": "Parexel",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": 1787875200000,
+        "url": "https://www.linkedin.com/jobs/view/4459445211"
       }
     ]
   },
@@ -179,12 +179,12 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "specialist",
+        "word": "cra",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "cra",
+        "word": "specialist",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
@@ -214,12 +214,6 @@
       "confidence": 70
     },
     {
-      "keyword": "director italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
       "keyword": "rare diseases",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
@@ -239,6 +233,12 @@
     },
     {
       "keyword": "affairs consultant medical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -272,11 +272,11 @@
     {
       "type": "volume_drop",
       "severity": "medium",
-      "message": "Volume in calo: 7 annunci ultimo scan vs media 12 (-41%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 13 (-45%)",
       "data": {
         "current": 7,
-        "avg": 11.8,
-        "change_pct": -40.9
+        "avg": 12.7,
+        "change_pct": -44.7
       }
     },
     {
@@ -316,54 +316,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 74,
+            "id": 3,
+            "size": 94,
             "top_terms": [
               "manager",
-              "cra",
-              "italy"
-            ],
-            "pct": 46.0
-          },
-          {
-            "id": 3,
-            "size": 38,
-            "top_terms": [
               "medical",
-              "director",
-              "devices"
+              "specialist"
             ],
-            "pct": 23.6
+            "pct": 59.1
           },
           {
             "id": 0,
-            "size": 24,
+            "size": 20,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 14.9
+            "pct": 12.6
           },
           {
-            "id": 4,
+            "id": 1,
             "size": 18,
+            "top_terms": [
+              "director",
+              "medical",
+              "senior"
+            ],
+            "pct": 11.3
+          },
+          {
+            "id": 2,
+            "size": 17,
             "top_terms": [
               "associate",
               "research",
               "clinical"
             ],
-            "pct": 11.2
+            "pct": 10.7
           },
           {
-            "id": 2,
-            "size": 7,
+            "id": 4,
+            "size": 10,
             "top_terms": [
-              "access",
-              "market",
-              "manager"
+              "cra",
+              "sponsor",
+              "ii"
             ],
-            "pct": 4.3
+            "pct": 6.3
           }
         ]
       }

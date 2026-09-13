@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-12T12:39:06.927382",
+  "generated_at": "2026-09-13T13:39:19.978394",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 229,
+  "total_jobs_analyzed": 230,
   "scoring": {
-    "average": 25.4,
+    "average": 25.1,
     "distribution": {
       "excellent": 0,
-      "good": 13,
+      "good": 12,
       "medium": 49,
-      "low": 71,
-      "irrelevant": 96
+      "low": 72,
+      "irrelevant": 97
     },
     "top_jobs": [
       {
         "title": "HR Generalist Retail",
         "company": "F&F",
-        "score": 68,
+        "score": 69,
         "site": "indeed",
         "date_posted": 1788998400000,
         "url": "https://it.indeed.com/viewjob?jk=fd2cc1423d8d8892"
@@ -24,7 +24,7 @@
       {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4456920708"
@@ -32,10 +32,18 @@
       {
         "title": "HR MANAGER",
         "company": "Reverse",
-        "score": 66,
+        "score": 67,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460720637"
+      },
+      {
+        "title": "Talent Acquisition Associate - Maternity Leave",
+        "company": "Fendi",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4451901416"
       },
       {
         "title": "HR Talent Acquisition & Employer Branding Intern",
@@ -62,25 +70,9 @@
         "url": "https://www.linkedin.com/jobs/view/4464363028"
       },
       {
-        "title": "Junior Talent Acquisition per tecnologie di filtrazione e gestione dell'acqua",
-        "company": "F&F",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=68de2db37719c364"
-      },
-      {
-        "title": "Talent Acquisition Associate - Maternity Leave",
-        "company": "Fendi",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4451901416"
-      },
-      {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
         "company": "Marriott International",
-        "score": 61,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463522508"
@@ -98,7 +90,7 @@
         "company": "Jet HR",
         "score": 60,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787875200000,
         "url": "https://www.linkedin.com/jobs/view/4460345535"
       },
       {
@@ -126,12 +118,28 @@
         "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
       },
       {
+        "title": "HR Generalist - Gestione operativa del cliente",
+        "company": "Mobile 1",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
+      },
+      {
         "title": "HR Recruiter",
         "company": "Il Metodo by Effetto Domino",
         "score": 59,
         "site": "indeed",
         "date_posted": 1788825600000,
         "url": "https://it.indeed.com/viewjob?jk=79202637193ca0cd"
+      },
+      {
+        "title": "Junior Talent Acquisition per tecnologie di filtrazione e gestione dell'acqua",
+        "company": "F&F",
+        "score": 59,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=68de2db37719c364"
       },
       {
         "title": "HR Specialist with Italian & English - Fixed Term Contract (12 months), Disability Leave Services",
@@ -142,19 +150,11 @@
         "url": "https://www.linkedin.com/jobs/view/4455794942"
       },
       {
-        "title": "HR Generalist - Gestione operativa del cliente",
-        "company": "Mobile 1",
-        "score": 58,
-        "site": "indeed",
-        "date_posted": 1788307200000,
-        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
-      },
-      {
         "title": "HR Consultant (Ricerca & Selezione del personale - Div. Specializz. LIFE SCIENCE) - Roma",
         "company": "The Adecco Group",
         "score": 57,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1787875200000,
         "url": "https://www.linkedin.com/jobs/view/4460529876"
       },
       {
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 25,
+        "reason": "Appare 25x in annunci a basso score"
       },
       {
         "word": "addetto",
@@ -194,12 +194,12 @@
         "reason": "Appare 25x in annunci a basso score"
       },
       {
-        "word": "responsabile",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "assistant",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "assistant",
+        "word": "responsabile",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -272,21 +272,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 6 annunci ultimo scan vs media 17 (-65%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
       "data": {
-        "current": 6,
-        "avg": 17.2,
-        "change_pct": -65.0
+        "current": 1,
+        "avg": 16.4,
+        "change_pct": -93.9
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/6 annunci da aziende nuove (16.7%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 6,
-        "pct": 16.7
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 33.3,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -296,52 +316,52 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 107,
+            "id": 3,
+            "size": 114,
             "top_terms": [
               "specialist",
-              "tecnico",
-              "responsabile"
+              "recruiter",
+              "assistant"
             ],
-            "pct": 46.7
+            "pct": 49.6
           },
           {
-            "id": 4,
-            "size": 46,
+            "id": 0,
+            "size": 39,
             "top_terms": [
               "hr",
-              "manager",
-              "generalist"
+              "generalist",
+              "recruiter"
             ],
-            "pct": 20.1
+            "pct": 17.0
           },
           {
-            "id": 3,
-            "size": 39,
+            "id": 2,
+            "size": 38,
             "top_terms": [
               "umane",
               "risorse",
               "addetto"
             ],
-            "pct": 17.0
+            "pct": 16.5
           },
           {
-            "id": 1,
-            "size": 24,
+            "id": 4,
+            "size": 26,
             "top_terms": [
               "addetto",
               "personale",
               "selezione"
             ],
-            "pct": 10.5
+            "pct": 11.3
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 13,
             "top_terms": [
-              "recruiter",
+              "responsabile",
               "hr",
-              "curriculare"
+              "tecnologie"
             ],
             "pct": 5.7
           }

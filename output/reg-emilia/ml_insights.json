@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T12:39:07.375088",
+  "generated_at": "2026-09-13T13:39:20.431171",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
   "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 9.5,
+    "average": 9.4,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -52,14 +52,6 @@
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4461895685"
-      },
-      {
-        "title": "Downstream Manager BU Western Europe - Sales Italy B&I",
-        "company": "Orbia Building & Infrastructure Wavin",
-        "score": 16,
-        "site": "indeed",
-        "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=57215dbedbeee11a"
       },
       {
         "title": "R&D Hardware Engineer - Medical Devices",
@@ -118,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=9c8e4d6313c6b9c0"
       },
       {
-        "title": "ADDETTO/A ALLA SALDATURA ROBOTIZZATA",
-        "company": "Forghieri S.r.l",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=f21a4c050f4c64b3"
-      },
-      {
         "title": "HR Administration & Payroll Manager",
         "company": "Berluti",
         "score": 11,
@@ -140,6 +124,14 @@
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4461896755"
+      },
+      {
+        "title": "Downstream Manager BU Western Europe - Sales Italy B&I",
+        "company": "Orbia Building & Infrastructure Wavin",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=57215dbedbeee11a"
       },
       {
         "title": "Compliance and Test Engineer - Large Power",
@@ -166,11 +158,19 @@
         "url": "https://it.indeed.com/viewjob?jk=3ff33d723519ea48"
       },
       {
+        "title": "QUALITY ASSURANCE ALIMENTARE",
+        "company": "Grafton Recruitment",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": 1787616000000,
+        "url": "https://www.linkedin.com/jobs/view/4446615735"
+      },
+      {
         "title": "Quality Assurance",
         "company": "Sherwin-Williams",
         "score": 8,
         "site": "linkedin",
-        "date_posted": 1787356800000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439302592"
       }
     ]
@@ -199,7 +199,7 @@
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "sistema",
+        "word": "specialist",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -211,41 +211,21 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-53%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 4 (-77%)",
       "data": {
-        "current": 2,
-        "avg": 4.2,
-        "change_pct": -52.7
+        "current": 1,
+        "avg": 4.3,
+        "change_pct": -76.8
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 2,
-        "pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "total": 1,
+        "pct": 100.0
       }
     },
     {
@@ -256,16 +236,16 @@
         "clusters": [
           {
             "id": 0,
-            "size": 35,
+            "size": 34,
             "top_terms": [
               "specialist",
               "commerciale",
-              "telemarketing"
+              "engineer"
             ],
-            "pct": 61.4
+            "pct": 59.6
           },
           {
-            "id": 4,
+            "id": 1,
             "size": 8,
             "top_terms": [
               "assurance",
@@ -275,7 +255,7 @@
             "pct": 14.0
           },
           {
-            "id": 1,
+            "id": 2,
             "size": 5,
             "top_terms": [
               "sistema",
@@ -295,14 +275,14 @@
             "pct": 8.8
           },
           {
-            "id": 2,
-            "size": 4,
+            "id": 4,
+            "size": 5,
             "top_terms": [
-              "engineer",
-              "product",
-              "development"
+              "regulatory",
+              "affairs",
+              "consultant"
             ],
-            "pct": 7.0
+            "pct": 8.8
           }
         ]
       }
