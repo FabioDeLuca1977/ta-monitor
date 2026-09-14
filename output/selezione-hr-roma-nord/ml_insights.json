@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-13T13:39:20.059536",
+  "generated_at": "2026-09-14T14:27:40.562842",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 230,
+  "total_jobs_analyzed": 219,
   "scoring": {
-    "average": 26.1,
+    "average": 25.8,
     "distribution": {
       "excellent": 0,
-      "good": 18,
-      "medium": 51,
-      "low": 64,
-      "irrelevant": 97
+      "good": 17,
+      "medium": 46,
+      "low": 65,
+      "irrelevant": 91
     },
     "top_jobs": [
       {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
         "company": "Marriott International",
-        "score": 74,
+        "score": 73,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463522508"
@@ -38,14 +38,6 @@
         "url": "https://www.linkedin.com/jobs/view/4454153464"
       },
       {
-        "title": "Talent Acquisition Specialist (Maternity Cover) Italy",
-        "company": "Abbott",
-        "score": 69,
-        "site": "indeed",
-        "date_posted": 1788739200000,
-        "url": "https://it.indeed.com/viewjob?jk=73441d897faed2f5"
-      },
-      {
         "title": "Stage Employer Branding & Talent Acquisition",
         "company": "Contrader",
         "score": 69,
@@ -54,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4464363028"
       },
       {
-        "title": "HR Generalist Retail",
-        "company": "F&F",
+        "title": "Talent Acquisition Specialist (Maternity Cover) Italy",
+        "company": "Abbott",
         "score": 68,
         "site": "indeed",
-        "date_posted": 1788998400000,
-        "url": "https://it.indeed.com/viewjob?jk=fd2cc1423d8d8892"
+        "date_posted": 1788739200000,
+        "url": "https://it.indeed.com/viewjob?jk=73441d897faed2f5"
       },
       {
         "title": "Plant HR Manager",
@@ -94,6 +86,14 @@
         "url": "https://it.indeed.com/viewjob?jk=68de2db37719c364"
       },
       {
+        "title": "HR Generalist Retail",
+        "company": "F&F",
+        "score": 64,
+        "site": "indeed",
+        "date_posted": 1788998400000,
+        "url": "https://it.indeed.com/viewjob?jk=fd2cc1423d8d8892"
+      },
+      {
         "title": "Talent Acquisition Intern - French Speaker",
         "company": "PQE Group",
         "score": 63,
@@ -118,12 +118,12 @@
         "url": "https://www.linkedin.com/jobs/view/4460529876"
       },
       {
-        "title": "HR Specialist with Italian & English - Fixed Term Contract (12 months), Disability Leave Services",
-        "company": "Amazon",
+        "title": "Selezionatore/a e Formatore/a HR - Ottimizzazione Spese Casa",
+        "company": "LifeEnergy",
         "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4455794942"
+        "site": "indeed",
+        "date_posted": 1789084800000,
+        "url": "https://it.indeed.com/viewjob?jk=4e85430c1bdd209c"
       },
       {
         "title": "Junior talent acquisition dedicato alla clientela",
@@ -134,28 +134,20 @@
         "url": "https://it.indeed.com/viewjob?jk=dea305b49cf9a867"
       },
       {
-        "title": "Selezionatore/a e Formatore/a HR - Ottimizzazione Spese Casa",
-        "company": "LifeEnergy",
-        "score": 61,
-        "site": "indeed",
-        "date_posted": 1789084800000,
-        "url": "https://it.indeed.com/viewjob?jk=4e85430c1bdd209c"
-      },
-      {
-        "title": "HR GENERALIST",
-        "company": "NewPrinces Group",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": 1787529600000,
-        "url": "https://www.linkedin.com/jobs/view/4458170836"
-      },
-      {
         "title": "Hr Generalist",
         "company": "EasyGov Solutions",
-        "score": 60,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463604269"
+      },
+      {
+        "title": "HR Recruiter",
+        "company": "Il Metodo by Effetto Domino",
+        "score": 60,
+        "site": "indeed",
+        "date_posted": 1788825600000,
+        "url": "https://it.indeed.com/viewjob?jk=79202637193ca0cd"
       },
       {
         "title": "HR Generalist – Gestione del personale",
@@ -166,12 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
       },
       {
-        "title": "HR Recruiter",
-        "company": "Il Metodo by Effetto Domino",
-        "score": 59,
+        "title": "HR Generalist - Gestione operativa del cliente",
+        "company": "Mobile 1",
+        "score": 58,
         "site": "indeed",
-        "date_posted": 1788825600000,
-        "url": "https://it.indeed.com/viewjob?jk=79202637193ca0cd"
+        "date_posted": 1788307200000,
+        "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
+      },
+      {
+        "title": "Tirocinante HR – Safety e Recruiting",
+        "company": "T-Defence",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4464505545"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 26,
-        "reason": "Appare 26x in annunci a basso score"
+        "count": 24,
+        "reason": "Appare 24x in annunci a basso score"
       },
       {
         "word": "addetto",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "assistant",
@@ -238,22 +238,10 @@
       "confidence": 45
     },
     {
-      "keyword": "junior",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
       "keyword": "stage",
       "frequency": 4,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 40
-    },
-    {
-      "keyword": "junior hr",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     },
     {
       "keyword": "stage curriculare",
@@ -266,6 +254,18 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
+    },
+    {
+      "keyword": "stage employer",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "junior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
     }
   ],
   "anomalies": [
@@ -275,8 +275,8 @@
       "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
       "data": {
         "current": 1,
-        "avg": 16.4,
-        "change_pct": -93.9
+        "avg": 15.6,
+        "change_pct": -93.6
       }
     },
     {
@@ -290,80 +290,60 @@
       }
     },
     {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 0% (-33pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 100% (+33pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 100.0
-      }
-    },
-    {
       "type": "role_clusters",
       "severity": "info",
       "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 114,
+            "id": 0,
+            "size": 112,
             "top_terms": [
               "specialist",
-              "recruiter",
-              "assistant"
-            ],
-            "pct": 49.6
-          },
-          {
-            "id": 0,
-            "size": 39,
-            "top_terms": [
-              "hr",
-              "generalist",
+              "roma",
               "recruiter"
             ],
-            "pct": 17.0
+            "pct": 51.1
           },
           {
-            "id": 2,
-            "size": 38,
+            "id": 3,
+            "size": 37,
             "top_terms": [
-              "umane",
-              "risorse",
-              "addetto"
+              "hr",
+              "recruiter",
+              "specialist"
             ],
-            "pct": 16.5
-          },
-          {
-            "id": 4,
-            "size": 26,
-            "top_terms": [
-              "addetto",
-              "personale",
-              "selezione"
-            ],
-            "pct": 11.3
+            "pct": 16.9
           },
           {
             "id": 1,
-            "size": 13,
+            "size": 32,
+            "top_terms": [
+              "risorse",
+              "umane",
+              "addetto"
+            ],
+            "pct": 14.6
+          },
+          {
+            "id": 2,
+            "size": 19,
+            "top_terms": [
+              "personale",
+              "selezione",
+              "addetto"
+            ],
+            "pct": 8.7
+          },
+          {
+            "id": 4,
+            "size": 19,
             "top_terms": [
               "responsabile",
-              "hr",
-              "tecnologie"
+              "umane",
+              "risorse"
             ],
-            "pct": 5.7
+            "pct": 8.7
           }
         ]
       }

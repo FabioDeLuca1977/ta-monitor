@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-13T13:39:20.488830",
+  "generated_at": "2026-09-14T14:27:41.157086",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 114,
+  "total_jobs_analyzed": 115,
   "scoring": {
-    "average": 12.9,
+    "average": 12.4,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 12,
-      "low": 7,
-      "irrelevant": 93
+      "good": 3,
+      "medium": 11,
+      "low": 6,
+      "irrelevant": 95
     },
     "top_jobs": [
       {
@@ -22,20 +22,20 @@
         "url": "https://www.linkedin.com/jobs/view/4443241888"
       },
       {
+        "title": "Regulatory Affairs Expert",
+        "company": "Alfasigma",
+        "score": 63,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4463022389"
+      },
+      {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
         "score": 63,
         "site": "linkedin",
-        "date_posted": 1787356800000,
-        "url": "https://www.linkedin.com/jobs/view/4430767486"
-      },
-      {
-        "title": "Regulatory Affairs Expert",
-        "company": "Alfasigma",
-        "score": 58,
-        "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4463022389"
+        "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
         "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
@@ -56,7 +56,7 @@
       {
         "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
         "company": "Cassa Depositi e Prestiti",
-        "score": 54,
+        "score": 53,
         "site": "indeed",
         "date_posted": 1788912000000,
         "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
@@ -112,7 +112,7 @@
       {
         "title": "Performance Marketer Specialist",
         "company": "Bliss",
-        "score": 41,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460448926"
@@ -124,14 +124,6 @@
         "site": "linkedin",
         "date_posted": 1787702400000,
         "url": "https://www.linkedin.com/jobs/view/4459164885"
-      },
-      {
-        "title": "Performance Marketer",
-        "company": "Immobiliare.it",
-        "score": 35,
-        "site": "linkedin",
-        "date_posted": 1787529600000,
-        "url": "https://www.linkedin.com/jobs/view/4433182996"
       },
       {
         "title": "Performance Marketer",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1784073600000,
         "url": "https://it.indeed.com/viewjob?jk=2e3b7b5bbcc6d7dc"
+      },
+      {
+        "title": "Demand Planning Specialist",
+        "company": "Fendi",
+        "score": 21,
+        "site": "linkedin",
+        "date_posted": 1789084800000,
+        "url": "https://www.linkedin.com/jobs/view/4446789199"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 20,
-        "reason": "Appare 20x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 17,
-        "reason": "Appare 17x in annunci a basso score"
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,7 +199,7 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "officer",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       }
@@ -248,21 +248,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 8 (-75%)",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 8 (-62%)",
       "data": {
-        "current": 2,
+        "current": 3,
         "avg": 8.0,
-        "change_pct": -75.0
+        "change_pct": -62.5
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
         "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "total": 3,
+        "pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 67% (+17pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 33% (-17pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 33.3
       }
     },
     {
@@ -273,53 +293,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 69,
-            "top_terms": [
-              "manager",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 60.5
-          },
-          {
-            "id": 3,
-            "size": 17,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "engineer"
-            ],
-            "pct": 14.9
-          },
-          {
-            "id": 1,
-            "size": 14,
+            "size": 75,
             "top_terms": [
               "specialist",
-              "compliance",
-              "junior"
-            ],
-            "pct": 12.3
-          },
-          {
-            "id": 2,
-            "size": 7,
-            "top_terms": [
               "engineer",
-              "senior",
-              "automation"
+              "manager"
             ],
-            "pct": 6.1
+            "pct": 65.2
           },
           {
             "id": 4,
-            "size": 7,
+            "size": 21,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "engineer"
+            ],
+            "pct": 18.3
+          },
+          {
+            "id": 1,
+            "size": 8,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "expert"
+            ],
+            "pct": 7.0
+          },
+          {
+            "id": 2,
+            "size": 8,
             "top_terms": [
               "officer",
               "senior",
               "policy"
             ],
-            "pct": 6.1
+            "pct": 7.0
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "addetto",
+              "crew",
+              "up"
+            ],
+            "pct": 2.6
           }
         ]
       }

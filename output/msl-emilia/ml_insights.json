@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-13T13:39:20.182592",
+  "generated_at": "2026-09-14T14:27:40.735012",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 27,
   "scoring": {
-    "average": 16.4,
+    "average": 16.1,
     "distribution": {
       "excellent": 0,
       "good": 1,
@@ -40,7 +40,7 @@
       {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 42,
+        "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
@@ -70,17 +70,9 @@
         "url": "https://it.indeed.com/viewjob?jk=34c41cd2aa00c3d0"
       },
       {
-        "title": "R&D Hardware Engineer - Medical Devices",
-        "company": "IGEA SPA",
-        "score": 19,
-        "site": "indeed",
-        "date_posted": 1788998400000,
-        "url": "https://it.indeed.com/viewjob?jk=4d87015b87c3d244"
-      },
-      {
         "title": "Design Quality Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 18,
         "site": "linkedin",
         "date_posted": 1787529600000,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
@@ -94,28 +86,28 @@
         "url": "https://www.linkedin.com/jobs/view/4461895685"
       },
       {
-        "title": "CEO / TEMPORARY MANAGER",
-        "company": "LaRisorsaUmana.it",
-        "score": 14,
-        "site": "linkedin",
-        "date_posted": 1788825600000,
-        "url": "https://www.linkedin.com/jobs/view/4464450888"
-      },
-      {
         "title": "Associate Market Access Specialist, North East Italy",
         "company": "IQVIA",
-        "score": 13,
+        "score": 14,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4443130337"
       },
       {
-        "title": "Addetto/a cambio GOMME - FILIALE SYNERGIE BOLOGNA 1",
-        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
-        "score": 12,
-        "site": "linkedin",
+        "title": "R&D Hardware Engineer - Medical Devices",
+        "company": "IGEA SPA",
+        "score": 14,
+        "site": "indeed",
         "date_posted": 1788998400000,
-        "url": "https://www.linkedin.com/jobs/view/4464509248"
+        "url": "https://it.indeed.com/viewjob?jk=4d87015b87c3d244"
+      },
+      {
+        "title": "CEO / TEMPORARY MANAGER",
+        "company": "LaRisorsaUmana.it",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": 1788825600000,
+        "url": "https://www.linkedin.com/jobs/view/4464450888"
       },
       {
         "title": "SAP & Computer System Validation Consultant (P.IVA)",
@@ -140,6 +132,14 @@
         "site": "indeed",
         "date_posted": 1788393600000,
         "url": "https://it.indeed.com/viewjob?jk=f7246d37e9882f91"
+      },
+      {
+        "title": "Addetto/a cambio GOMME - FILIALE SYNERGIE BOLOGNA 1",
+        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
+        "score": 7,
+        "site": "linkedin",
+        "date_posted": 1788998400000,
+        "url": "https://www.linkedin.com/jobs/view/4464509248"
       },
       {
         "title": "ADDETTO/A ALLA SALDATURA - SYNERGIE ITALIA FILIALE DI REGGIOLO",
@@ -225,34 +225,34 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 12,
+            "id": 0,
+            "size": 9,
             "top_terms": [
               "consultant",
               "cra",
               "regulatory"
             ],
-            "pct": 44.4
+            "pct": 33.3
           },
           {
             "id": 1,
-            "size": 4,
+            "size": 6,
             "top_terms": [
-              "development",
-              "engineer",
-              "product"
+              "specialist",
+              "medical",
+              "junior"
             ],
-            "pct": 14.8
+            "pct": 22.2
           },
           {
             "id": 2,
-            "size": 4,
+            "size": 5,
             "top_terms": [
-              "specialist",
-              "junior",
-              "italy"
+              "engineer",
+              "development",
+              "product"
             ],
-            "pct": 14.8
+            "pct": 18.5
           },
           {
             "id": 3,
@@ -265,7 +265,7 @@
             "pct": 14.8
           },
           {
-            "id": 0,
+            "id": 4,
             "size": 3,
             "top_terms": [
               "manager",

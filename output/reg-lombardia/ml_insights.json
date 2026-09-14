@@ -1,18 +1,34 @@
 {
-  "generated_at": "2026-09-13T13:39:20.394725",
+  "generated_at": "2026-09-14T14:27:41.025194",
   "profile_id": "reg-lombardia",
   "profile_name": "Regulatory Affairs — Lombardia",
   "total_jobs_analyzed": 329,
   "scoring": {
-    "average": 13.2,
+    "average": 13.1,
     "distribution": {
       "excellent": 0,
-      "good": 18,
+      "good": 19,
       "medium": 22,
       "low": 11,
-      "irrelevant": 278
+      "irrelevant": 277
     },
     "top_jobs": [
+      {
+        "title": "Compliance & Regulatory Affairs Manager",
+        "company": "ReeVo Cloud & Cyber Security",
+        "score": 70,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4436040335"
+      },
+      {
+        "title": "Regulatory Affairs Manager",
+        "company": "Regulatory Pharma Net - RPN",
+        "score": 69,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4459962918"
+      },
       {
         "title": "REGULATORY AFFAIRS SPECIALIST",
         "company": "Quanta System Spa",
@@ -38,14 +54,6 @@
         "url": "https://www.linkedin.com/jobs/view/4464471827"
       },
       {
-        "title": "Compliance & Regulatory Affairs Manager",
-        "company": "ReeVo Cloud & Cyber Security",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4436040335"
-      },
-      {
         "title": "Regulatory Compliance Specialist",
         "company": "Gruppo BCC Iccrea",
         "score": 66,
@@ -54,20 +62,12 @@
         "url": "https://www.linkedin.com/jobs/view/4458705260"
       },
       {
-        "title": "Regulatory Affairs Manager",
-        "company": "Regulatory Pharma Net - RPN",
-        "score": 65,
+        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
+        "company": "QVC Italy",
+        "score": 64,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4459962918"
-      },
-      {
-        "title": "EU Regulatory Affairs Manager",
-        "company": "Werfen",
-        "score": 65,
-        "site": "indeed",
-        "date_posted": 1789084800000,
-        "url": "https://it.indeed.com/viewjob?jk=a3fdaa362c863bef"
+        "date_posted": 1787788800000,
+        "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
         "title": "Regulatory Affairs Specialist | REACH, CLP",
@@ -78,9 +78,17 @@
         "url": "https://www.linkedin.com/jobs/view/4461212712"
       },
       {
+        "title": "EU Regulatory Affairs Manager",
+        "company": "Werfen",
+        "score": 64,
+        "site": "indeed",
+        "date_posted": 1789084800000,
+        "url": "https://it.indeed.com/viewjob?jk=a3fdaa362c863bef"
+      },
+      {
         "title": "Quality & Regulatory Affairs Specialist",
         "company": "Adecco",
-        "score": 64,
+        "score": 63,
         "site": "linkedin",
         "date_posted": 1788220800000,
         "url": "https://www.linkedin.com/jobs/view/4447362862"
@@ -88,18 +96,10 @@
       {
         "title": "Regulatory Affairs | Brescia",
         "company": "Biopharmed",
-        "score": 64,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4343985374"
-      },
-      {
-        "title": "QA Product Validation and Approval Specialist - Medical Devices & Cosmetics Regulatory Affairs (sostituzione maternità)",
-        "company": "QVC Italy",
-        "score": 63,
-        "site": "linkedin",
-        "date_posted": 1787788800000,
-        "url": "https://www.linkedin.com/jobs/view/4440222641"
       },
       {
         "title": "Regulatory Affairs Consultant: Medical Device and Combination Product Expert",
@@ -116,6 +116,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4461174671"
+      },
+      {
+        "title": "Senior Regulatory Specialist | Food & Beverage",
+        "company": "desmo®",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4463523954"
       },
       {
         "title": "Regulatory Affairs & HSE Specialist - Chimico -Milano SUD",
@@ -158,20 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4440229244"
       },
       {
-        "title": "Regulatory Affair Specialist - Pharma",
-        "company": "Brenntag",
+        "title": "Regulatory Affairs Intern - Pharma",
+        "company": "Adecco",
         "score": 59,
         "site": "linkedin",
-        "date_posted": 1787875200000,
-        "url": "https://www.linkedin.com/jobs/view/4450274200"
-      },
-      {
-        "title": "Regulatory Affairs Analyst (f/m/d)",
-        "company": "Axpo Group",
-        "score": 59,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4419185454"
+        "date_posted": 1787788800000,
+        "url": "https://www.linkedin.com/jobs/view/4459811348"
       }
     ]
   },
@@ -179,14 +179,9 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "senior",
-        "count": 29,
-        "reason": "Appare 29x in annunci a basso score"
-      },
-      {
         "word": "assurance",
-        "count": 29,
-        "reason": "Appare 29x in annunci a basso score"
+        "count": 28,
+        "reason": "Appare 28x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -195,11 +190,16 @@
       },
       {
         "word": "sales",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 17,
+        "reason": "Appare 17x in annunci a basso score"
       },
       {
         "word": "project",
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
+      },
+      {
+        "word": "lead",
         "count": 14,
         "reason": "Appare 14x in annunci a basso score"
       }
@@ -227,6 +227,12 @@
     },
     {
       "keyword": "affairs consultant medical",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "compliance specialist",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -260,33 +266,27 @@
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
-    },
-    {
-      "keyword": "devices cosmetics",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     }
   ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 4 annunci ultimo scan vs media 23 (-83%)",
+      "message": "Volume in calo: 7 annunci ultimo scan vs media 23 (-70%)",
       "data": {
-        "current": 4,
-        "avg": 23.2,
-        "change_pct": -82.8
+        "current": 7,
+        "avg": 23.0,
+        "change_pct": -69.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 6/7 annunci da aziende nuove (85.7%)",
       "data": {
-        "new": 4,
-        "total": 4,
-        "pct": 100.0
+        "new": 6,
+        "total": 7,
+        "pct": 85.7
       }
     },
     {
@@ -299,31 +299,31 @@
             "id": 0,
             "size": 187,
             "top_terms": [
-              "specialist",
-              "marketing",
-              "sales"
+              "senior",
+              "engineer",
+              "lead"
             ],
             "pct": 56.8
           },
           {
-            "id": 4,
-            "size": 50,
+            "id": 2,
+            "size": 40,
             "top_terms": [
-              "manager",
-              "senior",
-              "project"
+              "specialist",
+              "sales",
+              "marketing"
             ],
-            "pct": 15.2
+            "pct": 12.2
           },
           {
-            "id": 3,
-            "size": 36,
+            "id": 4,
+            "size": 37,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "specialist"
+              "manager",
+              "project",
+              "senior"
             ],
-            "pct": 10.9
+            "pct": 11.2
           },
           {
             "id": 1,
@@ -331,19 +331,19 @@
             "top_terms": [
               "quality",
               "assurance",
-              "manager"
+              "stage"
             ],
             "pct": 10.3
           },
           {
-            "id": 2,
-            "size": 22,
+            "id": 3,
+            "size": 31,
             "top_terms": [
-              "global",
-              "fsp",
-              "emea"
+              "regulatory",
+              "affairs",
+              "specialist"
             ],
-            "pct": 6.7
+            "pct": 9.4
           }
         ]
       }
