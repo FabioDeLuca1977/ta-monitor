@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-14T14:27:40.785803",
+  "generated_at": "2026-09-15T13:41:22.823459",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 55,
+  "total_jobs_analyzed": 54,
   "scoring": {
-    "average": 29.0,
+    "average": 28.4,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 22,
-      "low": 5,
+      "good": 2,
+      "medium": 24,
+      "low": 4,
       "irrelevant": 24
     },
     "top_jobs": [
       {
-        "title": "Medical Affairs Sr. Manager",
-        "company": "Johnson & Johnson MedTech",
+        "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
+        "company": "MSD",
         "score": 66,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4458586490"
+        "site": "indeed",
+        "date_posted": 1789084800000,
+        "url": "https://it.indeed.com/viewjob?jk=7963ef77d8458d76"
       },
       {
         "title": "Medical Communications and Marketing Specialist",
@@ -30,20 +30,20 @@
         "url": "https://www.linkedin.com/jobs/view/4459937146"
       },
       {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "AbbVie",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4447698999"
-      },
-      {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD Italia",
-        "score": 61,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4466450213"
+      },
+      {
+        "title": "Medical Advisor Gastroenterology",
+        "company": "AbbVie",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4447698999"
       },
       {
         "title": "MEDICAL LEAD ONCOLOGY",
@@ -54,28 +54,36 @@
         "url": "https://www.linkedin.com/jobs/view/4446308405"
       },
       {
-        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
-        "company": "Merck Healthcare",
+        "title": "Senior Pharmacovigilance Project Manager- Europe",
+        "company": "PrimeVigilance",
         "score": 52,
         "site": "linkedin",
         "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4448866686"
+        "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
-        "title": "Senior Pharmacovigilance Project Manager- Europe",
-        "company": "PrimeVigilance",
-        "score": 51,
+        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
+        "company": "Merck Healthcare",
+        "score": 50,
         "site": "linkedin",
         "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4448312826"
+        "url": "https://www.linkedin.com/jobs/view/4448866686"
       },
       {
         "title": "Medical Director - Oncology , Sponsor Dedicated (Home-Based)",
         "company": "IQVIA",
         "score": 50,
         "site": "linkedin",
-        "date_posted": 1787875200000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4453702548"
+      },
+      {
+        "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
+        "company": "CDP Cassa Depositi e Prestiti",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4465058482"
       },
       {
         "title": "Regulatory Affairs Expert",
@@ -94,28 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4459333628"
       },
       {
-        "title": "Associate Pharmacovigilance Project Director (Delivery)- Europe",
-        "company": "PrimeVigilance",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4448322059"
-      },
-      {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
         "score": 47,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444854467"
-      },
-      {
-        "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
-        "company": "CDP Cassa Depositi e Prestiti",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4465058482"
       },
       {
         "title": "Clinical Research Associate",
@@ -166,9 +158,17 @@
         "url": "https://www.linkedin.com/jobs/view/4460482778"
       },
       {
+        "title": "Freelance Senior Clinical Research Associate",
+        "company": "TFS HealthScience",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4455721460"
+      },
+      {
         "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
         "company": "AbbVie",
-        "score": 45,
+        "score": 44,
         "site": "linkedin",
         "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4460481744"
@@ -180,6 +180,11 @@
     "add_blacklist": [
       {
         "word": "cra",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       },
@@ -201,16 +206,29 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "medical scientific",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "oncology northwest",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-55%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-54%)",
       "data": {
         "current": 2,
-        "avg": 4.4,
-        "change_pct": -54.7
+        "avg": 4.3,
+        "change_pct": -53.8
       }
     },
     {
@@ -226,21 +244,21 @@
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 50.0
       }
     },
     {
@@ -250,54 +268,54 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 23,
+            "id": 0,
+            "size": 17,
             "top_terms": [
-              "cra",
+              "stage",
               "regulatory",
-              "freelance"
+              "affairs"
             ],
-            "pct": 41.8
+            "pct": 31.5
           },
           {
-            "id": 2,
-            "size": 11,
+            "id": 4,
+            "size": 10,
             "top_terms": [
               "specialist",
               "area",
               "therapeutic"
             ],
-            "pct": 20.0
+            "pct": 18.5
           },
           {
             "id": 1,
-            "size": 10,
-            "top_terms": [
-              "clinical",
-              "research",
-              "associate"
-            ],
-            "pct": 18.2
-          },
-          {
-            "id": 0,
             "size": 9,
             "top_terms": [
               "medical",
               "oncology",
-              "lead"
+              "liaison"
             ],
-            "pct": 16.4
+            "pct": 16.7
+          },
+          {
+            "id": 2,
+            "size": 9,
+            "top_terms": [
+              "research",
+              "clinical",
+              "associate"
+            ],
+            "pct": 16.7
           },
           {
             "id": 3,
-            "size": 2,
+            "size": 9,
             "top_terms": [
-              "stage",
-              "valutazione",
+              "manager",
+              "ai",
               "engineer"
             ],
-            "pct": 3.6
+            "pct": 16.7
           }
         ]
       }

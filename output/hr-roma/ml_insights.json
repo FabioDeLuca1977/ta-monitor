@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-09-14T14:27:40.456429",
+  "generated_at": "2026-09-15T13:41:22.502047",
   "profile_id": "hr-roma",
   "profile_name": "Selezione HR Roma",
-  "total_jobs_analyzed": 219,
+  "total_jobs_analyzed": 220,
   "scoring": {
-    "average": 24.9,
+    "average": 25.5,
     "distribution": {
       "excellent": 0,
-      "good": 11,
-      "medium": 45,
-      "low": 71,
-      "irrelevant": 92
+      "good": 12,
+      "medium": 50,
+      "low": 67,
+      "irrelevant": 91
     },
     "top_jobs": [
       {
+        "title": "Talent Acquisition Specialist",
+        "company": "Josas Immobiliare",
+        "score": 70,
+        "site": "indeed",
+        "date_posted": 1789430400000,
+        "url": "https://it.indeed.com/viewjob?jk=887d97fceb4f3c09"
+      },
+      {
         "title": "Plant HR Manager",
         "company": "Alfasigma",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4456920708"
@@ -24,7 +32,7 @@
       {
         "title": "HR MANAGER",
         "company": "Reverse",
-        "score": 67,
+        "score": 68,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460720637"
@@ -38,20 +46,20 @@
         "url": "https://www.linkedin.com/jobs/view/4454153464"
       },
       {
+        "title": "Talent Acquisition Associate - Maternity Leave",
+        "company": "Fendi",
+        "score": 64,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4451901416"
+      },
+      {
         "title": "HR Generalist Retail",
         "company": "F&F",
         "score": 64,
         "site": "indeed",
         "date_posted": 1788998400000,
         "url": "https://it.indeed.com/viewjob?jk=fd2cc1423d8d8892"
-      },
-      {
-        "title": "Talent Acquisition Specialist (Maternity Cover) Italy",
-        "company": "Abbott",
-        "score": 63,
-        "site": "indeed",
-        "date_posted": 1788739200000,
-        "url": "https://it.indeed.com/viewjob?jk=73441d897faed2f5"
       },
       {
         "title": "Stage Employer Branding & Talent Acquisition",
@@ -62,28 +70,12 @@
         "url": "https://www.linkedin.com/jobs/view/4464363028"
       },
       {
-        "title": "Talent Acquisition Associate - Maternity Leave",
-        "company": "Fendi",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4451901416"
-      },
-      {
         "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
         "company": "Marriott International",
         "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463522508"
-      },
-      {
-        "title": "Selezionatore/a e Formatore/a HR - Ottimizzazione Spese Casa",
-        "company": "LifeEnergy",
-        "score": 62,
-        "site": "indeed",
-        "date_posted": 1789084800000,
-        "url": "https://it.indeed.com/viewjob?jk=4e85430c1bdd209c"
       },
       {
         "title": "Talent Acquisition Specialist",
@@ -104,7 +96,7 @@
       {
         "title": "HR Generalist – Gestione del personale",
         "company": null,
-        "score": 59,
+        "score": 60,
         "site": "indeed",
         "date_posted": 1788134400000,
         "url": "https://it.indeed.com/viewjob?jk=3353a769c4787a2b"
@@ -112,7 +104,7 @@
       {
         "title": "HR Recruiter",
         "company": "Il Metodo by Effetto Domino",
-        "score": 59,
+        "score": 60,
         "site": "indeed",
         "date_posted": 1788825600000,
         "url": "https://it.indeed.com/viewjob?jk=79202637193ca0cd"
@@ -126,6 +118,14 @@
         "url": "https://it.indeed.com/viewjob?jk=68de2db37719c364"
       },
       {
+        "title": "HR Specialist with Italian & English - Fixed Term Contract (12 months), Disability Leave Services",
+        "company": "Amazon",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4455794942"
+      },
+      {
         "title": "HR Generalist - Gestione operativa del cliente",
         "company": "Mobile 1",
         "score": 58,
@@ -134,20 +134,20 @@
         "url": "https://it.indeed.com/viewjob?jk=8e6a794cf03f7bfb"
       },
       {
+        "title": "Talent Acquisition Specialist (Maternity Cover) Italy",
+        "company": "Abbott",
+        "score": 58,
+        "site": "indeed",
+        "date_posted": 1788739200000,
+        "url": "https://it.indeed.com/viewjob?jk=73441d897faed2f5"
+      },
+      {
         "title": "Stage | Employer Branding, Talent Attraction & Digital HR",
         "company": "Employerland",
         "score": 58,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463040839"
-      },
-      {
-        "title": "HR Specialist with Italian & English - Fixed Term Contract (12 months), Disability Leave Services",
-        "company": "Amazon",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4455794942"
       },
       {
         "title": "HR Consultant (Ricerca & Selezione del personale - Div. Specializz. LIFE SCIENCE) - Roma",
@@ -180,26 +180,26 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
-      },
-      {
-        "word": "umane",
-        "count": 24,
-        "reason": "Appare 24x in annunci a basso score"
-      },
-      {
-        "word": "addetto",
         "count": 23,
         "reason": "Appare 23x in annunci a basso score"
       },
       {
-        "word": "assistant",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "word": "umane",
+        "count": 23,
+        "reason": "Appare 23x in annunci a basso score"
+      },
+      {
+        "word": "addetto",
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "responsabile",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "assistant",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -227,12 +227,6 @@
     },
     {
       "keyword": "junior talent",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "stage curriculare",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -270,23 +264,13 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 16 (-94%)",
-      "data": {
-        "current": 1,
-        "avg": 15.6,
-        "change_pct": -93.6
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 5/12 annunci da aziende nuove (41.7%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 5,
+        "total": 12,
+        "pct": 41.7
       }
     },
     {
@@ -297,33 +281,33 @@
         "clusters": [
           {
             "id": 0,
-            "size": 112,
-            "top_terms": [
-              "specialist",
-              "roma",
-              "recruiter"
-            ],
-            "pct": 51.1
-          },
-          {
-            "id": 3,
-            "size": 37,
+            "size": 126,
             "top_terms": [
               "hr",
               "recruiter",
-              "specialist"
+              "responsabile"
             ],
-            "pct": 16.9
+            "pct": 57.3
+          },
+          {
+            "id": 4,
+            "size": 38,
+            "top_terms": [
+              "umane",
+              "risorse",
+              "addetto"
+            ],
+            "pct": 17.3
           },
           {
             "id": 1,
-            "size": 32,
+            "size": 24,
             "top_terms": [
-              "risorse",
-              "umane",
-              "addetto"
+              "specialist",
+              "talent",
+              "acquisition"
             ],
-            "pct": 14.6
+            "pct": 10.9
           },
           {
             "id": 2,
@@ -333,17 +317,17 @@
               "selezione",
               "addetto"
             ],
-            "pct": 8.7
+            "pct": 8.6
           },
           {
-            "id": 4,
-            "size": 19,
+            "id": 3,
+            "size": 13,
             "top_terms": [
-              "responsabile",
-              "umane",
-              "risorse"
+              "assistant",
+              "sales",
+              "time"
             ],
-            "pct": 8.7
+            "pct": 5.9
           }
         ]
       }

@@ -1,26 +1,18 @@
 {
-  "generated_at": "2026-09-14T14:27:41.157086",
+  "generated_at": "2026-09-15T13:41:23.190819",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 115,
+  "total_jobs_analyzed": 120,
   "scoring": {
-    "average": 12.4,
+    "average": 11.3,
     "distribution": {
       "excellent": 0,
-      "good": 3,
+      "good": 2,
       "medium": 11,
-      "low": 6,
-      "irrelevant": 95
+      "low": 5,
+      "irrelevant": 102
     },
     "top_jobs": [
-      {
-        "title": "Regulatory Affairs & Competition Specialist",
-        "company": "iliad",
-        "score": 67,
-        "site": "linkedin",
-        "date_posted": 1787529600000,
-        "url": "https://www.linkedin.com/jobs/view/4443241888"
-      },
       {
         "title": "Regulatory Affairs Expert",
         "company": "Alfasigma",
@@ -48,7 +40,7 @@
       {
         "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
         "company": "Ergomed",
-        "score": 54,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1787702400000,
         "url": "https://it.indeed.com/viewjob?jk=b60c33604e287234"
@@ -56,7 +48,7 @@
       {
         "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
         "company": "Cassa Depositi e Prestiti",
-        "score": 53,
+        "score": 54,
         "site": "indeed",
         "date_posted": 1788912000000,
         "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
@@ -76,14 +68,6 @@
         "site": "indeed",
         "date_posted": 1788912000000,
         "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
-      },
-      {
-        "title": "Quality Assurance Consultant   - Pharma Sector",
-        "company": "PQE Group",
-        "score": 49,
-        "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4449547248"
       },
       {
         "title": "Pharmacovigilance Specialist (salary €30-35K)",
@@ -110,9 +94,17 @@
         "url": "https://www.linkedin.com/jobs/view/4448322059"
       },
       {
+        "title": "Quality Assurance Consultant   - Pharma Sector",
+        "company": "PQE Group",
+        "score": 45,
+        "site": "linkedin",
+        "date_posted": 1788739200000,
+        "url": "https://www.linkedin.com/jobs/view/4449547248"
+      },
+      {
         "title": "Performance Marketer Specialist",
         "company": "Bliss",
-        "score": 42,
+        "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4460448926"
@@ -136,18 +128,10 @@
       {
         "title": "Local QPPV - FREELANCE",
         "company": "TFS",
-        "score": 30,
+        "score": 25,
         "site": "indeed",
         "date_posted": 1789084800000,
         "url": "https://it.indeed.com/viewjob?jk=2180ef7b7192347e"
-      },
-      {
-        "title": "Tecnico Diagnostico / Meccatronico Automotive",
-        "company": "R-TRUCKS SRL",
-        "score": 25,
-        "site": "indeed",
-        "date_posted": 1788739200000,
-        "url": "https://it.indeed.com/viewjob?jk=5bc9c14e2662b021"
       },
       {
         "title": "Addetto/a banco macelleria",
@@ -166,12 +150,28 @@
         "url": "https://it.indeed.com/viewjob?jk=2e3b7b5bbcc6d7dc"
       },
       {
-        "title": "Demand Planning Specialist",
-        "company": "Fendi",
-        "score": 21,
+        "title": "Tecnico Diagnostico / Meccatronico Automotive",
+        "company": "R-TRUCKS SRL",
+        "score": 20,
+        "site": "indeed",
+        "date_posted": 1788739200000,
+        "url": "https://it.indeed.com/viewjob?jk=5bc9c14e2662b021"
+      },
+      {
+        "title": "Quality Assurance Compliance Specialist",
+        "company": "Tubilux Pharma",
+        "score": 18,
         "site": "linkedin",
-        "date_posted": 1789084800000,
-        "url": "https://www.linkedin.com/jobs/view/4446789199"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4463247668"
+      },
+      {
+        "title": "Junior IT Compliance & Demand Specialist",
+        "company": "Buffetti Finance SpA",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4462218442"
       }
     ]
   },
@@ -190,18 +190,18 @@
       },
       {
         "word": "engineer",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
+        "count": 16,
+        "reason": "Appare 16x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "word": "specialist",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "officer",
-        "count": 8,
-        "reason": "Appare 8x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       }
     ],
     "review": []
@@ -246,43 +246,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 8 (-62%)",
-      "data": {
-        "current": 3,
-        "avg": 8.0,
-        "change_pct": -62.5
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 3,
+        "total": 7,
+        "pct": 42.9
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 67% (+17pp)",
+      "message": "📡 linkedin: quota passata da 67% a 14% (-52pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 14.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 33% (-17pp)",
+      "message": "📡 indeed: quota passata da 33% a 86% (+52pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 85.7
       }
     },
     {
@@ -293,53 +283,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 75,
-            "top_terms": [
-              "specialist",
-              "engineer",
-              "manager"
-            ],
-            "pct": 65.2
-          },
-          {
-            "id": 4,
-            "size": 21,
-            "top_terms": [
-              "quality",
-              "assurance",
-              "engineer"
-            ],
-            "pct": 18.3
-          },
-          {
-            "id": 1,
-            "size": 8,
+            "size": 61,
             "top_terms": [
               "affairs",
               "regulatory",
-              "expert"
+              "supervisor"
             ],
-            "pct": 7.0
+            "pct": 50.8
           },
           {
             "id": 2,
-            "size": 8,
+            "size": 26,
+            "top_terms": [
+              "engineer",
+              "quality",
+              "assurance"
+            ],
+            "pct": 21.7
+          },
+          {
+            "id": 3,
+            "size": 15,
+            "top_terms": [
+              "specialist",
+              "compliance",
+              "junior"
+            ],
+            "pct": 12.5
+          },
+          {
+            "id": 1,
+            "size": 9,
+            "top_terms": [
+              "manager",
+              "planning",
+              "demand"
+            ],
+            "pct": 7.5
+          },
+          {
+            "id": 4,
+            "size": 9,
             "top_terms": [
               "officer",
               "senior",
               "policy"
             ],
-            "pct": 7.0
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "addetto",
-              "crew",
-              "up"
-            ],
-            "pct": 2.6
+            "pct": 7.5
           }
         ]
       }
