@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-15T13:41:22.823459",
+  "generated_at": "2026-09-16T13:27:17.148962",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 54,
+  "total_jobs_analyzed": 57,
   "scoring": {
-    "average": 28.4,
+    "average": 27.7,
     "distribution": {
       "excellent": 0,
-      "good": 2,
-      "medium": 24,
-      "low": 4,
-      "irrelevant": 24
+      "good": 4,
+      "medium": 22,
+      "low": 5,
+      "irrelevant": 26
     },
     "top_jobs": [
       {
@@ -22,9 +22,25 @@
         "url": "https://it.indeed.com/viewjob?jk=7963ef77d8458d76"
       },
       {
+        "title": "Medical Advisor Gastroenterology",
+        "company": "AbbVie",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4447698999"
+      },
+      {
+        "title": "Medical Affairs Sr. Manager",
+        "company": "Johnson & Johnson MedTech",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4458586490"
+      },
+      {
         "title": "Medical Communications and Marketing Specialist",
         "company": "Lo.Li. Pharma International",
-        "score": 62,
+        "score": 61,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4459937146"
@@ -36,14 +52,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4466450213"
-      },
-      {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "AbbVie",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4447698999"
       },
       {
         "title": "MEDICAL LEAD ONCOLOGY",
@@ -58,23 +66,15 @@
         "company": "PrimeVigilance",
         "score": 52,
         "site": "linkedin",
-        "date_posted": 1787616000000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
-      },
-      {
-        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
-        "company": "Merck Healthcare",
-        "score": 50,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4448866686"
       },
       {
         "title": "Medical Director - Oncology , Sponsor Dedicated (Home-Based)",
         "company": "IQVIA",
         "score": 50,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788134400000,
         "url": "https://www.linkedin.com/jobs/view/4453702548"
       },
       {
@@ -94,14 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4463022389"
       },
       {
-        "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
-        "company": "ERGOMED",
-        "score": 47,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4459333628"
-      },
-      {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
         "score": 47,
@@ -116,6 +108,22 @@
         "site": "linkedin",
         "date_posted": 1787788800000,
         "url": "https://www.linkedin.com/jobs/view/4458617462"
+      },
+      {
+        "title": "Specialist/Snr Specialist Study Start Up and Regulatory Affairs",
+        "company": "ERGOMED",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1787702400000,
+        "url": "https://www.linkedin.com/jobs/view/4459333628"
+      },
+      {
+        "title": "Freelance Senior Clinical Research Associate",
+        "company": "TFS HealthScience",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4455721460"
       },
       {
         "title": "Regulatory Affairs Expert",
@@ -142,14 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4457953581"
       },
       {
-        "title": "Senior Clinical Research Associate",
-        "company": "Translational Oncology Research, LLC",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": 1787788800000,
-        "url": "https://www.linkedin.com/jobs/view/4458608678"
-      },
-      {
         "title": "Clinical Research Associate II Oncology (Field Role, Nationwide Coverage)",
         "company": "AbbVie",
         "score": 45,
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4460482778"
       },
       {
-        "title": "Freelance Senior Clinical Research Associate",
-        "company": "TFS HealthScience",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4455721460"
-      },
-      {
         "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
         "company": "AbbVie",
         "score": 44,
         "site": "linkedin",
         "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4460481744"
+      },
+      {
+        "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
+        "company": "BioSpace",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4467443986"
       }
     ]
   },
@@ -179,24 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "cra",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "italy",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "cra",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "clinical",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "italy",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "dell",
@@ -222,43 +217,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-54%)",
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 6 annunci ultimo scan vs media 4 (+41%)",
       "data": {
-        "current": 2,
-        "avg": 4.3,
-        "change_pct": -53.8
+        "current": 6,
+        "avg": 4.2,
+        "change_pct": 41.2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 5/6 annunci da aziende nuove (83.3%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 5,
+        "total": 6,
+        "pct": 83.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 50% (-50pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 50.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 50% (+50pp)",
+      "message": "📡 indeed: quota passata da 50% a 17% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 50.0
+        "old_pct": 50.0,
+        "new_pct": 16.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 83% (+33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 83.3
       }
     },
     {
@@ -268,54 +263,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 17,
+            "id": 2,
+            "size": 28,
             "top_terms": [
-              "stage",
-              "regulatory",
-              "affairs"
+              "specialist",
+              "manager",
+              "pharmacovigilance"
             ],
-            "pct": 31.5
+            "pct": 49.1
           },
           {
             "id": 4,
             "size": 10,
             "top_terms": [
-              "specialist",
-              "area",
-              "therapeutic"
-            ],
-            "pct": 18.5
-          },
-          {
-            "id": 1,
-            "size": 9,
-            "top_terms": [
-              "medical",
-              "oncology",
-              "liaison"
-            ],
-            "pct": 16.7
-          },
-          {
-            "id": 2,
-            "size": 9,
-            "top_terms": [
               "research",
               "clinical",
               "associate"
             ],
-            "pct": 16.7
+            "pct": 17.5
           },
           {
             "id": 3,
             "size": 9,
             "top_terms": [
-              "manager",
-              "ai",
-              "engineer"
+              "medical",
+              "oncology",
+              "lead"
             ],
-            "pct": 16.7
+            "pct": 15.8
+          },
+          {
+            "id": 1,
+            "size": 6,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "expert"
+            ],
+            "pct": 10.5
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "cra",
+              "italy",
+              "assistant"
+            ],
+            "pct": 7.0
           }
         ]
       }

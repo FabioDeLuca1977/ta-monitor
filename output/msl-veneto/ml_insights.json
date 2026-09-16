@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T13:41:22.637952",
+  "generated_at": "2026-09-16T13:27:16.946659",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
-  "total_jobs_analyzed": 23,
+  "total_jobs_analyzed": 22,
   "scoring": {
-    "average": 29.0,
+    "average": 28.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 10,
+      "medium": 9,
       "low": 5,
       "irrelevant": 8
     },
@@ -16,7 +16,7 @@
       {
         "title": "Informatore Scientifico del Farmaco (ISF) Specialist",
         "company": "Professional Recruitment",
-        "score": 56,
+        "score": 51,
         "site": "linkedin",
         "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4463253334"
@@ -26,8 +26,8 @@
         "company": "Professional Recruitment",
         "score": 48,
         "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4457462377"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460951378"
       },
       {
         "title": "Informatore Scientifico (ISF) Padova Rovigo",
@@ -46,19 +46,11 @@
         "url": "https://www.linkedin.com/jobs/view/4465263115"
       },
       {
-        "title": "Informatore scientifico commerciale | Veneto",
-        "company": "PharmaNutra",
-        "score": 42,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4448385772"
-      },
-      {
         "title": "Informatore scientifico di medicina naturale",
         "company": "Medicina Unica",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788134400000,
         "url": "https://www.linkedin.com/jobs/view/4461063414"
       },
       {
@@ -70,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4462848246"
       },
       {
+        "title": "Informatore scientifico commerciale | Veneto",
+        "company": "PharmaNutra",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4463601605"
+      },
+      {
         "title": "Informatore Medico Scientifico - Vicenza",
         "company": "Pharma Line srl",
         "score": 42,
         "site": "linkedin",
         "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4463866750"
-      },
-      {
-        "title": "Clinical Specialist Trach Lazio e Campania",
-        "company": "Atos Medical",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1787961600000,
-        "url": "https://www.linkedin.com/jobs/view/4440769936"
       },
       {
         "title": "MSL Specialty Pipeline - Triveneto",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1788220800000,
         "url": "https://it.indeed.com/viewjob?jk=a8eaa64f7154dbde"
+      },
+      {
+        "title": "Impiegato Customer Service Farmacia",
+        "company": null,
+        "score": 0,
+        "site": "indeed",
+        "date_posted": 1788134400000,
+        "url": "https://it.indeed.com/viewjob?jk=7433ec26c49c1359"
       }
     ]
   },
@@ -191,11 +191,11 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-64%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-62%)",
       "data": {
         "current": 1,
-        "avg": 2.8,
-        "change_pct": -63.6
+        "avg": 2.6,
+        "change_pct": -61.9
       }
     },
     {
@@ -235,44 +235,44 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 11,
+            "id": 3,
+            "size": 10,
             "top_terms": [
-              "scientifico",
-              "informatore",
-              "isf"
+              "controls",
+              "specialist",
+              "veneto"
             ],
-            "pct": 47.8
+            "pct": 45.5
           },
           {
-            "id": 1,
+            "id": 0,
             "size": 6,
             "top_terms": [
               "medico",
               "scientifico",
               "informatore"
             ],
-            "pct": 26.1
+            "pct": 27.3
           },
           {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "specialist",
-              "controls",
-              "veneto"
-            ],
-            "pct": 13.0
-          },
-          {
-            "id": 3,
+            "id": 1,
             "size": 3,
             "top_terms": [
               "manager",
               "specialist",
               "veneto"
             ],
-            "pct": 13.0
+            "pct": 13.6
+          },
+          {
+            "id": 2,
+            "size": 3,
+            "top_terms": [
+              "isf",
+              "farmaco",
+              "scientifico"
+            ],
+            "pct": 13.6
           }
         ]
       }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-15T13:41:22.774953",
+  "generated_at": "2026-09-16T13:27:17.096616",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 27,
+  "total_jobs_analyzed": 26,
   "scoring": {
-    "average": 15.7,
+    "average": 13.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 4,
-      "low": 2,
+      "medium": 2,
+      "low": 3,
       "irrelevant": 20
     },
     "top_jobs": [
@@ -22,25 +22,9 @@
         "url": "https://www.linkedin.com/jobs/view/4432609496"
       },
       {
-        "title": "Regulatory Affairs",
-        "company": "Teoresi MedTech",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4440989246"
-      },
-      {
-        "title": "Clinical Specialist",
-        "company": "Coloplast",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": 1788048000000,
-        "url": "https://www.linkedin.com/jobs/view/4433254704"
-      },
-      {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 43,
+        "score": 44,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
@@ -52,6 +36,14 @@
         "site": "linkedin",
         "date_posted": 1787616000000,
         "url": "https://www.linkedin.com/jobs/view/4446828249"
+      },
+      {
+        "title": "Global Senior Pharma Process Manager– MS&T",
+        "company": "Menarini",
+        "score": 38,
+        "site": "indeed",
+        "date_posted": 1789430400000,
+        "url": "https://it.indeed.com/viewjob?jk=0bd7ee63fbbf69d2"
       },
       {
         "title": "Regulatory Affair Consultant",
@@ -72,9 +64,9 @@
       {
         "title": "Design Quality Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 18,
+        "score": 17,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788134400000,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
       },
       {
@@ -94,20 +86,20 @@
         "url": "https://it.indeed.com/viewjob?jk=4d87015b87c3d244"
       },
       {
-        "title": "CEO / TEMPORARY MANAGER",
-        "company": "LaRisorsaUmana.it",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1788825600000,
-        "url": "https://www.linkedin.com/jobs/view/4464450888"
-      },
-      {
         "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
         "company": "Adecco",
         "score": 11,
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4461895685"
+      },
+      {
+        "title": "CEO / TEMPORARY MANAGER",
+        "company": "LaRisorsaUmana.it",
+        "score": 8,
+        "site": "linkedin",
+        "date_posted": 1788825600000,
+        "url": "https://www.linkedin.com/jobs/view/4464450888"
       },
       {
         "title": "Manufacturing Manager - Molding & Extrusion",
@@ -150,14 +142,6 @@
         "url": "https://www.linkedin.com/jobs/view/4450580019"
       },
       {
-        "title": "MedTech Device Field Service Technician Flexible/Part Time - Italy",
-        "company": "IQVIA",
-        "score": 6,
-        "site": "indeed",
-        "date_posted": 1788825600000,
-        "url": "https://it.indeed.com/viewjob?jk=85d4c6fb850ed8c6"
-      },
-      {
         "title": "Medico per CRA a Castel San Pietro Terme",
         "company": "Elleuno scs",
         "score": 5,
@@ -166,12 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4458798414"
       },
       {
-        "title": "OPERATORI/TRICI SU MACCHINE CNC - SYNERGIE FILIALE DI FERRARA",
-        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
+        "title": "SAP & Computer System Validation Consultant (P.IVA)",
+        "company": "Makeitalia",
         "score": 5,
-        "site": "linkedin",
-        "date_posted": 1788825600000,
-        "url": "https://www.linkedin.com/jobs/view/4463250443"
+        "site": "indeed",
+        "date_posted": 1789084800000,
+        "url": "https://it.indeed.com/viewjob?jk=fc17991196141a31"
+      },
+      {
+        "title": "Junior Accounting Specialist",
+        "company": "Dentsply Sirona",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1787788800000,
+        "url": "https://it.indeed.com/viewjob?jk=d6f5dea571bfa9e8"
+      },
+      {
+        "title": "R&D Dispending Compatibility Specialist - Stage",
+        "company": "ATS Automation Tooling Systems Inc.",
+        "score": 4,
+        "site": "indeed",
+        "date_posted": 1788480000000,
+        "url": "https://it.indeed.com/viewjob?jk=8cf4a5f477ed86ad"
       }
     ]
   },
@@ -209,13 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
+      "data": {
+        "current": 1,
+        "avg": 3.1,
+        "change_pct": -68.0
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/3 annunci da aziende nuove (33.3%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 1,
-        "total": 3,
-        "pct": 33.3
+        "total": 1,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -226,53 +256,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 9,
+            "size": 10,
             "top_terms": [
-              "consultant",
+              "specialist",
               "cra",
-              "regulatory"
+              "italy"
             ],
-            "pct": 33.3
+            "pct": 38.5
           },
           {
             "id": 2,
-            "size": 7,
+            "size": 5,
             "top_terms": [
-              "specialist",
-              "medical",
-              "devices"
+              "engineer",
+              "development",
+              "product"
             ],
-            "pct": 25.9
+            "pct": 19.2
           },
           {
             "id": 1,
-            "size": 4,
-            "top_terms": [
-              "development",
-              "engineer",
-              "product"
-            ],
-            "pct": 14.8
-          },
-          {
-            "id": 3,
             "size": 4,
             "top_terms": [
               "synergie",
               "filiale",
               "ferrara"
             ],
-            "pct": 14.8
+            "pct": 15.4
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 4,
             "top_terms": [
               "manager",
               "molding",
               "manufacturing"
             ],
-            "pct": 11.1
+            "pct": 15.4
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "consultant",
+              "regulatory",
+              "affairs"
+            ],
+            "pct": 11.5
           }
         ]
       }
