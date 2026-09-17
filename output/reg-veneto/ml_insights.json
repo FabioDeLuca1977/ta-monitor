@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-16T13:27:17.207149",
+  "generated_at": "2026-09-17T13:37:49.918491",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 66,
+  "total_jobs_analyzed": 67,
   "scoring": {
-    "average": 10.9,
+    "average": 10.7,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 6,
       "low": 3,
-      "irrelevant": 57
+      "irrelevant": 58
     },
     "top_jobs": [
       {
@@ -102,22 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4466054208"
       },
       {
-        "title": "DOSSIER MANAGER - SETTORE INVESTIGATIVO",
-        "company": "Ricercamy Srl",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1788134400000,
-        "url": "https://www.linkedin.com/jobs/view/4461065501"
-      },
-      {
-        "title": "Commerciale Servizi HR (formazione e consulenza) - M/F/NB",
-        "company": "Randstad",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1788998400000,
-        "url": "https://it.indeed.com/viewjob?jk=ffda59feba150510"
-      },
-      {
         "title": "Junior Technical Specialist (Facility & Progettazione) – Architetto / Ingegnere / Geometra",
         "company": "EstProperty",
         "score": 14,
@@ -134,6 +118,14 @@
         "url": "https://www.linkedin.com/jobs/view/4445899419"
       },
       {
+        "title": "QA/RA Specialist | Medical Devices",
+        "company": "Mynameis",
+        "score": 13,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4464464560"
+      },
+      {
         "title": "Quality Assurance & Process Specialist",
         "company": "ManpowerGroup Italia",
         "score": 13,
@@ -142,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4461884198"
       },
       {
-        "title": "QA/RA Specialist | Medical Devices",
-        "company": "Mynameis",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4464464560"
+        "title": "Commerciale Servizi HR (formazione e consulenza) - M/F/NB",
+        "company": "Randstad",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1788998400000,
+        "url": "https://it.indeed.com/viewjob?jk=ffda59feba150510"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -172,6 +164,14 @@
         "site": "indeed",
         "date_posted": 1789344000000,
         "url": "https://it.indeed.com/viewjob?jk=1fc904dd49cf5fc7"
+      },
+      {
+        "title": "Manager, EHS",
+        "company": "AGCO Corporation",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1789084800000,
+        "url": "https://it.indeed.com/viewjob?jk=65f4e4dae92979ea"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "specialist",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 11,
+        "reason": "Appare 11x in annunci a basso score"
       },
       {
         "word": "quality",
@@ -194,14 +194,14 @@
         "reason": "Appare 9x in annunci a basso score"
       },
       {
-        "word": "engineer",
+        "word": "demand",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
       },
       {
-        "word": "manager",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "engineer",
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-78%)",
-      "data": {
-        "current": 1,
-        "avg": 4.6,
-        "change_pct": -78.5
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 4,
+        "total": 4,
         "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 17% a 0% (-17pp)",
+      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 16.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 83% a 100% (+17pp)",
+      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 83.3,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 0.0
       }
     },
     {
@@ -255,54 +245,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 34,
-            "top_terms": [
-              "engineer",
-              "addetto",
-              "qualificata"
-            ],
-            "pct": 51.5
-          },
-          {
-            "id": 0,
-            "size": 11,
+            "id": 1,
+            "size": 41,
             "top_terms": [
               "specialist",
-              "junior",
-              "marketing"
+              "engineer",
+              "junior"
             ],
-            "pct": 16.7
+            "pct": 61.2
           },
           {
-            "id": 4,
+            "id": 3,
             "size": 11,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 16.7
+            "pct": 16.4
           },
           {
-            "id": 1,
-            "size": 7,
+            "id": 2,
+            "size": 6,
+            "top_terms": [
+              "demand",
+              "planner",
+              "junior"
+            ],
+            "pct": 9.0
+          },
+          {
+            "id": 4,
+            "size": 5,
+            "top_terms": [
+              "addetto",
+              "qualificata",
+              "clienti"
+            ],
+            "pct": 7.5
+          },
+          {
+            "id": 0,
+            "size": 4,
             "top_terms": [
               "manager",
-              "medical",
-              "settore"
+              "quality",
+              "bu"
             ],
-            "pct": 10.6
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "pratiche",
-              "clienti",
-              "addetto"
-            ],
-            "pct": 4.5
+            "pct": 6.0
           }
         ]
       }

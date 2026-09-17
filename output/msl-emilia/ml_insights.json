@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-16T13:27:17.096616",
+  "generated_at": "2026-09-17T13:37:49.806581",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 27,
   "scoring": {
-    "average": 13.7,
+    "average": 12.7,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 2,
+      "medium": 1,
       "low": 3,
-      "irrelevant": 20
+      "irrelevant": 22
     },
     "top_jobs": [
       {
         "title": "Medical Affairs Specialist",
         "company": "Hoya Vision Care",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": 1787788800000,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
@@ -28,14 +28,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
-      },
-      {
-        "title": "MSL Centro (Emilia-Romagna, Marche)",
-        "company": "Jefferson Wells Italia",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4446828249"
       },
       {
         "title": "Global Senior Pharma Process Manager– MS&T",
@@ -62,6 +54,14 @@
         "url": "https://it.indeed.com/viewjob?jk=34c41cd2aa00c3d0"
       },
       {
+        "title": "R&D Hardware Engineer - Medical Devices",
+        "company": "IGEA S.p.A.",
+        "score": 18,
+        "site": "linkedin",
+        "date_posted": 1788998400000,
+        "url": "https://www.linkedin.com/jobs/view/4463475636"
+      },
+      {
         "title": "Design Quality Specialist - Medical Devices",
         "company": "PQE Group",
         "score": 17,
@@ -80,10 +80,18 @@
       {
         "title": "R&D Hardware Engineer - Medical Devices",
         "company": "IGEA SPA",
-        "score": 14,
+        "score": 13,
         "site": "indeed",
         "date_posted": 1788998400000,
         "url": "https://it.indeed.com/viewjob?jk=4d87015b87c3d244"
+      },
+      {
+        "title": "Associate Sales Rep Extremities - Emilia Romagna",
+        "company": "Stryker",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1789516800000,
+        "url": "https://it.indeed.com/viewjob?jk=d5218259da0ee785"
       },
       {
         "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
@@ -92,6 +100,14 @@
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4461895685"
+      },
+      {
+        "title": "Marketing Lead Area CV e Metabolismo",
+        "company": "Menarini",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1789516800000,
+        "url": "https://it.indeed.com/viewjob?jk=96ef26b7c142a445"
       },
       {
         "title": "CEO / TEMPORARY MANAGER",
@@ -126,28 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4464509248"
       },
       {
-        "title": "ADDETTO/A ALLA SALDATURA - SYNERGIE ITALIA FILIALE DI REGGIOLO",
-        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
-        "score": 7,
-        "site": "linkedin",
-        "date_posted": 1788912000000,
-        "url": "https://www.linkedin.com/jobs/view/4463896470"
-      },
-      {
         "title": "Assistant CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
         "date_posted": 1787961600000,
         "url": "https://www.linkedin.com/jobs/view/4450580019"
-      },
-      {
-        "title": "Medico per CRA a Castel San Pietro Terme",
-        "company": "Elleuno scs",
-        "score": 5,
-        "site": "linkedin",
-        "date_posted": 1787616000000,
-        "url": "https://www.linkedin.com/jobs/view/4458798414"
       },
       {
         "title": "SAP & Computer System Validation Consultant (P.IVA)",
@@ -179,6 +179,11 @@
     "add_relevant": [],
     "add_blacklist": [
       {
+        "word": "engineer",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
         "word": "manager",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
@@ -197,11 +202,6 @@
         "word": "development",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,43 +209,33 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-68%)",
-      "data": {
-        "current": 1,
-        "avg": 3.1,
-        "change_pct": -68.0
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 1,
-        "total": 1,
-        "pct": 100.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 0% (-67pp)",
+      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 33.3
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 100% (+67pp)",
+      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 66.7
       }
     },
     {
@@ -256,53 +246,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 10,
+            "size": 11,
             "top_terms": [
               "specialist",
-              "cra",
+              "associate",
               "italy"
             ],
-            "pct": 38.5
-          },
-          {
-            "id": 2,
-            "size": 5,
-            "top_terms": [
-              "engineer",
-              "development",
-              "product"
-            ],
-            "pct": 19.2
+            "pct": 40.7
           },
           {
             "id": 1,
-            "size": 4,
+            "size": 5,
             "top_terms": [
-              "synergie",
-              "filiale",
-              "ferrara"
+              "engineer",
+              "product",
+              "development"
             ],
-            "pct": 15.4
+            "pct": 18.5
           },
           {
-            "id": 4,
+            "id": 2,
             "size": 4,
             "top_terms": [
               "manager",
               "molding",
               "manufacturing"
             ],
-            "pct": 15.4
+            "pct": 14.8
           },
           {
             "id": 3,
+            "size": 4,
+            "top_terms": [
+              "synergie",
+              "filiale",
+              "ferrara"
+            ],
+            "pct": 14.8
+          },
+          {
+            "id": 4,
             "size": 3,
             "top_terms": [
               "consultant",
               "regulatory",
               "affairs"
             ],
-            "pct": 11.5
+            "pct": 11.1
           }
         ]
       }
