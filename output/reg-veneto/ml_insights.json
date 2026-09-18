@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-17T13:37:49.918491",
+  "generated_at": "2026-09-18T13:09:53.946604",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 67,
+  "total_jobs_analyzed": 66,
   "scoring": {
-    "average": 10.7,
+    "average": 10.4,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 6,
-      "low": 3,
-      "irrelevant": 58
+      "medium": 5,
+      "low": 4,
+      "irrelevant": 57
     },
     "top_jobs": [
       {
@@ -42,7 +42,7 @@
         "company": "Eurocar",
         "score": 41,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788220800000,
         "url": "https://www.linkedin.com/jobs/view/4461736322"
       },
       {
@@ -56,7 +56,7 @@
       {
         "title": "QUALITY MANAGER",
         "company": "Ecolab",
-        "score": 40,
+        "score": 35,
         "site": "indeed",
         "date_posted": 1789344000000,
         "url": "https://it.indeed.com/viewjob?jk=58c2c613838f652a"
@@ -86,12 +86,12 @@
         "url": "https://it.indeed.com/viewjob?jk=ff88791ba11955f1"
       },
       {
-        "title": "Laboratory Manager - Medical Device Testing",
-        "company": "Eurofins",
+        "title": "SENIOR R&D INNOVATION MANAGER - ADVANCED MATERIALS & SURFACE TECNOLOGIES",
+        "company": "Biotec Srl",
         "score": 17,
-        "site": "linkedin",
-        "date_posted": 1787702400000,
-        "url": "https://www.linkedin.com/jobs/view/4457253789"
+        "site": "indeed",
+        "date_posted": 1789603200000,
+        "url": "https://it.indeed.com/viewjob?jk=95db0b6b43e4ccb3"
       },
       {
         "title": "Application & Demand Specialist",
@@ -102,19 +102,11 @@
         "url": "https://www.linkedin.com/jobs/view/4466054208"
       },
       {
-        "title": "Junior Technical Specialist (Facility & Progettazione) – Architetto / Ingegnere / Geometra",
-        "company": "EstProperty",
-        "score": 14,
-        "site": "indeed",
-        "date_posted": 1789344000000,
-        "url": "https://it.indeed.com/viewjob?jk=53af619de01165ef"
-      },
-      {
         "title": "Senior GMP product quality assurance",
         "company": "Adecco",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788220800000,
         "url": "https://www.linkedin.com/jobs/view/4445899419"
       },
       {
@@ -134,14 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4461884198"
       },
       {
-        "title": "Commerciale Servizi HR (formazione e consulenza) - M/F/NB",
-        "company": "Randstad",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1788998400000,
-        "url": "https://it.indeed.com/viewjob?jk=ffda59feba150510"
-      },
-      {
         "title": "Quality Assurance Specialist",
         "company": "ManpowerGroup Italia",
         "score": 12,
@@ -158,20 +142,36 @@
         "url": "https://www.linkedin.com/jobs/view/4459697145"
       },
       {
-        "title": "Addetto/a allo sviluppo contatti commerciali",
-        "company": "Tao Technologies srl",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1789344000000,
-        "url": "https://it.indeed.com/viewjob?jk=1fc904dd49cf5fc7"
-      },
-      {
         "title": "Manager, EHS",
         "company": "AGCO Corporation",
         "score": 12,
         "site": "indeed",
         "date_posted": 1789084800000,
         "url": "https://it.indeed.com/viewjob?jk=65f4e4dae92979ea"
+      },
+      {
+        "title": "Quality Assurance Specialist",
+        "company": "Stevanato Group",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4453896304"
+      },
+      {
+        "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical (m/f/d)",
+        "company": "W. L. Gore & Associates",
+        "score": 11,
+        "site": "indeed",
+        "date_posted": 1787529600000,
+        "url": "https://it.indeed.com/viewjob?jk=ef421701f3663cd7"
+      },
+      {
+        "title": "Clinical Affairs_Medical Device (VERONA)",
+        "company": "Adecco",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4462209655"
       }
     ]
   },
@@ -179,29 +179,29 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "specialist",
+        "word": "quality",
         "count": 11,
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "quality",
+        "word": "specialist",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "demand",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
-      },
-      {
-        "word": "engineer",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,33 +209,43 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 4 (-33%)",
+      "data": {
+        "current": 3,
+        "avg": 4.5,
+        "change_pct": -33.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/4 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 4,
-        "total": 4,
-        "pct": 100.0
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 100% (+100pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 indeed: quota passata da 0% a 67% (+67pp)",
       "data": {
         "channel": "indeed",
+        "old_pct": 0.0,
+        "new_pct": 66.7
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 100% a 33% (-67pp)",
+      "data": {
+        "channel": "linkedin",
         "old_pct": 100.0,
-        "new_pct": 0.0
+        "new_pct": 33.3
       }
     },
     {
@@ -245,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 41,
+            "id": 3,
+            "size": 40,
             "top_terms": [
               "specialist",
               "engineer",
-              "junior"
+              "product"
             ],
-            "pct": 61.2
+            "pct": 60.6
           },
           {
-            "id": 3,
-            "size": 11,
+            "id": 0,
+            "size": 12,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 16.4
+            "pct": 18.2
           },
           {
-            "id": 2,
-            "size": 6,
-            "top_terms": [
-              "demand",
-              "planner",
-              "junior"
-            ],
-            "pct": 9.0
-          },
-          {
-            "id": 4,
+            "id": 1,
             "size": 5,
             "top_terms": [
               "addetto",
-              "qualificata",
-              "clienti"
+              "clienti",
+              "qualificata"
             ],
-            "pct": 7.5
+            "pct": 7.6
           },
           {
-            "id": 0,
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "planner",
+              "demand",
+              "junior"
+            ],
+            "pct": 7.6
+          },
+          {
+            "id": 4,
             "size": 4,
             "top_terms": [
               "manager",
-              "quality",
-              "bu"
+              "senior",
+              "quality"
             ],
-            "pct": 6.0
+            "pct": 6.1
           }
         ]
       }
