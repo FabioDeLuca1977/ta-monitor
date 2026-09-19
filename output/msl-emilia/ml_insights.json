@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-18T13:09:53.830838",
+  "generated_at": "2026-09-19T12:54:24.644948",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 26,
+  "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 12.6,
+    "average": 14.9,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 1,
+      "medium": 2,
       "low": 3,
-      "irrelevant": 21
+      "irrelevant": 18
     },
     "top_jobs": [
       {
@@ -18,24 +18,24 @@
         "company": "Hoya Vision Care",
         "score": 60,
         "site": "linkedin",
-        "date_posted": 1787788800000,
+        "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
+      },
+      {
+        "title": "Regulatory Affairs",
+        "company": "Randstad Professional Italia",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4466693858"
       },
       {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
-      },
-      {
-        "title": "Global Senior Pharma Process Manager– MS&T",
-        "company": "Menarini",
-        "score": 38,
-        "site": "indeed",
-        "date_posted": 1789430400000,
-        "url": "https://it.indeed.com/viewjob?jk=0bd7ee63fbbf69d2"
       },
       {
         "title": "Regulatory Affair Consultant",
@@ -44,6 +44,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4464339399"
+      },
+      {
+        "title": "Global Senior Pharma Process Manager– MS&T",
+        "company": "Menarini",
+        "score": 33,
+        "site": "indeed",
+        "date_posted": 1789430400000,
+        "url": "https://it.indeed.com/viewjob?jk=0bd7ee63fbbf69d2"
       },
       {
         "title": "Presales CAD Engineer (Powertrain)",
@@ -66,7 +74,7 @@
         "company": "IQVIA",
         "score": 14,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788307200000,
         "url": "https://www.linkedin.com/jobs/view/4443130337"
       },
       {
@@ -142,22 +150,6 @@
         "url": "https://www.linkedin.com/jobs/view/4450580019"
       },
       {
-        "title": "SAP & Computer System Validation Consultant (P.IVA)",
-        "company": "Makeitalia",
-        "score": 5,
-        "site": "indeed",
-        "date_posted": 1789084800000,
-        "url": "https://it.indeed.com/viewjob?jk=fc17991196141a31"
-      },
-      {
-        "title": "Junior Accounting Specialist",
-        "company": "Dentsply Sirona",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1787788800000,
-        "url": "https://it.indeed.com/viewjob?jk=d6f5dea571bfa9e8"
-      },
-      {
         "title": "R&D Dispending Compatibility Specialist - Stage",
         "company": "ATS Automation Tooling Systems Inc.",
         "score": 4,
@@ -172,17 +164,20 @@
         "site": "linkedin",
         "date_posted": 1788998400000,
         "url": "https://www.linkedin.com/jobs/view/4464509248"
+      },
+      {
+        "title": "ADDETTO/A ALLA SALDATURA - SYNERGIE ITALIA FILIALE DI REGGIOLO",
+        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
+        "score": 2,
+        "site": "linkedin",
+        "date_posted": 1788912000000,
+        "url": "https://www.linkedin.com/jobs/view/4463896470"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "engineer",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
       {
         "word": "manager",
         "count": 4,
@@ -211,88 +206,78 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
         "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "total": 2,
+        "pct": 100.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 67% (-33pp)",
+      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 66.7
+        "old_pct": 66.7,
+        "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 33% (+33pp)",
+      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 33.3
+        "old_pct": 33.3,
+        "new_pct": 100.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 9,
+            "id": 1,
+            "size": 12,
+            "top_terms": [
+              "specialist",
+              "engineer",
+              "medical"
+            ],
+            "pct": 50.0
+          },
+          {
+            "id": 0,
+            "size": 4,
             "top_terms": [
               "synergie",
               "filiale",
               "ferrara"
             ],
-            "pct": 34.6
-          },
-          {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "engineer",
-              "product",
-              "development"
-            ],
-            "pct": 19.2
+            "pct": 16.7
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 4,
             "top_terms": [
-              "specialist",
-              "medical",
-              "junior"
+              "consultant",
+              "regulatory",
+              "affairs"
             ],
-            "pct": 19.2
+            "pct": 16.7
           },
           {
-            "id": 1,
+            "id": 3,
             "size": 4,
             "top_terms": [
               "manager",
               "molding",
               "manufacturing"
             ],
-            "pct": 15.4
-          },
-          {
-            "id": 4,
-            "size": 3,
-            "top_terms": [
-              "consultant",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 11.5
+            "pct": 16.7
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-18T13:09:53.946604",
+  "generated_at": "2026-09-19T12:54:24.754261",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 66,
+  "total_jobs_analyzed": 61,
   "scoring": {
-    "average": 10.4,
+    "average": 10.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 5,
       "low": 4,
-      "irrelevant": 57
+      "irrelevant": 52
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Product Safety and Regulatory Compliance Analyst",
         "company": "Motorola Solutions",
-        "score": 54,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4436337918"
@@ -94,22 +94,6 @@
         "url": "https://it.indeed.com/viewjob?jk=95db0b6b43e4ccb3"
       },
       {
-        "title": "Application & Demand Specialist",
-        "company": "D.B. Group",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": 1789084800000,
-        "url": "https://www.linkedin.com/jobs/view/4466054208"
-      },
-      {
-        "title": "Senior GMP product quality assurance",
-        "company": "Adecco",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1788220800000,
-        "url": "https://www.linkedin.com/jobs/view/4445899419"
-      },
-      {
         "title": "QA/RA Specialist | Medical Devices",
         "company": "Mynameis",
         "score": 13,
@@ -118,12 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4464464560"
       },
       {
-        "title": "Quality Assurance & Process Specialist",
-        "company": "ManpowerGroup Italia",
-        "score": 13,
+        "title": "Senior GMP product quality assurance",
+        "company": "Adecco",
+        "score": 12,
         "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4461884198"
+        "date_posted": 1788220800000,
+        "url": "https://www.linkedin.com/jobs/view/4445899419"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -142,14 +126,6 @@
         "url": "https://www.linkedin.com/jobs/view/4459697145"
       },
       {
-        "title": "Manager, EHS",
-        "company": "AGCO Corporation",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1789084800000,
-        "url": "https://it.indeed.com/viewjob?jk=65f4e4dae92979ea"
-      },
-      {
         "title": "Quality Assurance Specialist",
         "company": "Stevanato Group",
         "score": 12,
@@ -158,12 +134,20 @@
         "url": "https://www.linkedin.com/jobs/view/4453896304"
       },
       {
-        "title": "EMEA Regional Brand Manager & Product Specialist, Portal Hypertension - Gore Medical (m/f/d)",
-        "company": "W. L. Gore & Associates",
+        "title": "Quality Assurance & Process Specialist",
+        "company": "ManpowerGroup Italia",
         "score": 11,
-        "site": "indeed",
-        "date_posted": 1787529600000,
-        "url": "https://it.indeed.com/viewjob?jk=ef421701f3663cd7"
+        "site": "linkedin",
+        "date_posted": 1788739200000,
+        "url": "https://www.linkedin.com/jobs/view/4461884198"
+      },
+      {
+        "title": "Application & Demand Specialist",
+        "company": "D.B. Group",
+        "score": 11,
+        "site": "linkedin",
+        "date_posted": 1789084800000,
+        "url": "https://www.linkedin.com/jobs/view/4466054208"
       },
       {
         "title": "Clinical Affairs_Medical Device (VERONA)",
@@ -172,6 +156,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462209655"
+      },
+      {
+        "title": "Temporary HSE Manager",
+        "company": "Jefferson Wells Italia",
+        "score": 10,
+        "site": "linkedin",
+        "date_posted": 1788393600000,
+        "url": "https://www.linkedin.com/jobs/view/4462853590"
+      },
+      {
+        "title": "Tecnico di Controllo Qualità Elettronico",
+        "company": null,
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1789603200000,
+        "url": "https://it.indeed.com/viewjob?jk=cf7f0e7105643c74"
       }
     ]
   },
@@ -184,24 +184,24 @@
         "reason": "Appare 11x in annunci a basso score"
       },
       {
-        "word": "specialist",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
         "word": "assurance",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "specialist",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "demand",
         "count": 6,
         "reason": "Appare 6x in annunci a basso score"
+      },
+      {
+        "word": "junior",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -215,7 +215,7 @@
       "data": {
         "current": 3,
         "avg": 4.5,
-        "change_pct": -33.3
+        "change_pct": -32.8
       }
     },
     {
@@ -255,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 40,
+            "id": 1,
+            "size": 32,
             "top_terms": [
-              "specialist",
-              "engineer",
-              "product"
+              "addetto",
+              "servizi",
+              "qa"
             ],
-            "pct": 60.6
+            "pct": 52.5
           },
           {
             "id": 0,
-            "size": 12,
+            "size": 13,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 18.2
-          },
-          {
-            "id": 1,
-            "size": 5,
-            "top_terms": [
-              "addetto",
-              "clienti",
-              "qualificata"
-            ],
-            "pct": 7.6
+            "pct": 21.3
           },
           {
             "id": 2,
-            "size": 5,
+            "size": 9,
             "top_terms": [
-              "planner",
               "demand",
-              "junior"
+              "junior",
+              "planner"
             ],
-            "pct": 7.6
+            "pct": 14.8
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 5,
             "top_terms": [
               "manager",
               "senior",
               "quality"
             ],
-            "pct": 6.1
+            "pct": 8.2
+          },
+          {
+            "id": 3,
+            "size": 2,
+            "top_terms": [
+              "pratiche",
+              "clienti",
+              "vi"
+            ],
+            "pct": 3.3
           }
         ]
       }

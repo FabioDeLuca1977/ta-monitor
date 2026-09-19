@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-18T13:09:54.290599",
+  "generated_at": "2026-09-19T12:54:25.080081",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 128,
+  "total_jobs_analyzed": 124,
   "scoring": {
-    "average": 10.1,
+    "average": 9.5,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 8,
-      "low": 6,
-      "irrelevant": 111
+      "medium": 7,
+      "low": 4,
+      "irrelevant": 110
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -78,14 +78,6 @@
         "url": "https://www.linkedin.com/jobs/view/4449547248"
       },
       {
-        "title": "Performance Marketer Specialist",
-        "company": "Bliss",
-        "score": 44,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4460448926"
-      },
-      {
         "title": "Pharmacovigilance Auditor - Freelance Position (1FTE or 0.6 FTE and above)",
         "company": "Adamas Consulting",
         "score": 41,
@@ -110,28 +102,12 @@
         "url": "https://www.linkedin.com/jobs/view/4468612743"
       },
       {
-        "title": "Local QPPV - FREELANCE",
-        "company": "TFS",
-        "score": 25,
-        "site": "indeed",
-        "date_posted": 1789084800000,
-        "url": "https://it.indeed.com/viewjob?jk=2180ef7b7192347e"
-      },
-      {
         "title": "Group Legal Counsel",
         "company": "Ericsson",
         "score": 21,
         "site": "indeed",
         "date_posted": 1784073600000,
         "url": "https://it.indeed.com/viewjob?jk=2e3b7b5bbcc6d7dc"
-      },
-      {
-        "title": "Vendor & Third-Party Management Quality & Compliance Manager",
-        "company": "IQVIA",
-        "score": 21,
-        "site": "indeed",
-        "date_posted": 1789430400000,
-        "url": "https://it.indeed.com/viewjob?jk=49a023ca6783f106"
       },
       {
         "title": "Tecnico Diagnostico / Meccatronico Automotive",
@@ -142,12 +118,12 @@
         "url": "https://it.indeed.com/viewjob?jk=5bc9c14e2662b021"
       },
       {
-        "title": "Junior Clinical Project Manager",
-        "company": "JSB Solutions srl",
+        "title": "Local QPPV - FREELANCE",
+        "company": "TFS",
         "score": 20,
         "site": "indeed",
-        "date_posted": 1789430400000,
-        "url": "https://it.indeed.com/viewjob?jk=1f4097cf5bcb47c3"
+        "date_posted": 1789084800000,
+        "url": "https://it.indeed.com/viewjob?jk=2180ef7b7192347e"
       },
       {
         "title": "CYS - Trade Compliance Manager - POF",
@@ -172,6 +148,30 @@
         "site": "indeed",
         "date_posted": 1789516800000,
         "url": "https://it.indeed.com/viewjob?jk=1c8215a281c1114b"
+      },
+      {
+        "title": "QUALITY ASSURANCE MANAGER",
+        "company": "OKATIM Italia",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": 1788048000000,
+        "url": "https://www.linkedin.com/jobs/view/4441326884"
+      },
+      {
+        "title": "Junior IT Compliance & Demand Specialist",
+        "company": "Buffetti Finance SpA",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4462218442"
+      },
+      {
+        "title": "Vendor & Third-Party Management Quality & Compliance Manager",
+        "company": "IQVIA",
+        "score": 16,
+        "site": "indeed",
+        "date_posted": 1789430400000,
+        "url": "https://it.indeed.com/viewjob?jk=49a023ca6783f106"
       }
     ]
   },
@@ -180,23 +180,23 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 22,
+        "reason": "Appare 22x in annunci a basso score"
       },
       {
         "word": "assurance",
+        "count": 18,
+        "reason": "Appare 18x in annunci a basso score"
+      },
+      {
+        "word": "engineer",
         "count": 16,
         "reason": "Appare 16x in annunci a basso score"
       },
       {
-        "word": "engineer",
-        "count": 14,
-        "reason": "Appare 14x in annunci a basso score"
-      },
-      {
         "word": "manager",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "officer",
@@ -242,21 +242,41 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 9 (-66%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 9 (-77%)",
       "data": {
-        "current": 3,
-        "avg": 8.9,
-        "change_pct": -66.4
+        "current": 2,
+        "avg": 8.7,
+        "change_pct": -77.0
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 50.0,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 50.0,
+        "new_pct": 100.0
       }
     },
     {
@@ -266,54 +286,54 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
-            "size": 82,
+            "id": 3,
+            "size": 68,
             "top_terms": [
-              "manager",
               "engineer",
-              "senior"
+              "senior",
+              "manutentore"
             ],
-            "pct": 64.1
+            "pct": 54.8
           },
           {
-            "id": 2,
-            "size": 19,
+            "id": 0,
+            "size": 20,
             "top_terms": [
-              "quality",
               "assurance",
+              "quality",
               "engineer"
             ],
-            "pct": 14.8
+            "pct": 16.1
           },
           {
-            "id": 3,
-            "size": 15,
+            "id": 1,
+            "size": 14,
             "top_terms": [
               "specialist",
               "giahs",
-              "junior"
+              "senior"
             ],
-            "pct": 11.7
+            "pct": 11.3
           },
           {
             "id": 4,
+            "size": 13,
+            "top_terms": [
+              "manager",
+              "compliance",
+              "demand"
+            ],
+            "pct": 10.5
+          },
+          {
+            "id": 2,
             "size": 9,
             "top_terms": [
               "officer",
               "senior",
-              "evaluation"
+              "policy"
             ],
-            "pct": 7.0
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "sistema",
-              "ingegnere",
-              "radar"
-            ],
-            "pct": 2.3
+            "pct": 7.3
           }
         ]
       }
