@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-19T12:54:25.080081",
+  "generated_at": "2026-09-20T13:17:51.274303",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 124,
+  "total_jobs_analyzed": 122,
   "scoring": {
     "average": 9.5,
     "distribution": {
       "excellent": 0,
       "good": 3,
       "medium": 7,
-      "low": 4,
-      "irrelevant": 110
+      "low": 5,
+      "irrelevant": 107
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 65,
+        "score": 64,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -46,14 +46,6 @@
         "url": "https://it.indeed.com/viewjob?jk=95a16320a29d5d7c"
       },
       {
-        "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
-        "company": "Cassa Depositi e Prestiti",
-        "score": 50,
-        "site": "indeed",
-        "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
-      },
-      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
         "score": 50,
@@ -62,20 +54,28 @@
         "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
+        "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
+        "company": "Cassa Depositi e Prestiti",
+        "score": 49,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
+      },
+      {
+        "title": "Quality Assurance Consultant   - Pharma Sector",
+        "company": "PQE Group",
+        "score": 46,
+        "site": "linkedin",
+        "date_posted": 1788739200000,
+        "url": "https://www.linkedin.com/jobs/view/4449547248"
+      },
+      {
         "title": "Regulatory Affairs Expert",
         "company": "Alfasigma group",
         "score": 46,
         "site": "indeed",
         "date_posted": 1788912000000,
         "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
-      },
-      {
-        "title": "Quality Assurance Consultant   - Pharma Sector",
-        "company": "PQE Group",
-        "score": 45,
-        "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4449547248"
       },
       {
         "title": "Pharmacovigilance Auditor - Freelance Position (1FTE or 0.6 FTE and above)",
@@ -128,7 +128,7 @@
       {
         "title": "CYS - Trade Compliance Manager - POF",
         "company": "Leonardo",
-        "score": 19,
+        "score": 20,
         "site": "indeed",
         "date_posted": 1789689600000,
         "url": "https://it.indeed.com/viewjob?jk=72525f90c53d002f"
@@ -140,14 +140,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4463247668"
-      },
-      {
-        "title": "Senior Manager, Third Party Manufacturing",
-        "company": "AbbVie",
-        "score": 17,
-        "site": "indeed",
-        "date_posted": 1789516800000,
-        "url": "https://it.indeed.com/viewjob?jk=1c8215a281c1114b"
       },
       {
         "title": "QUALITY ASSURANCE MANAGER",
@@ -166,9 +158,17 @@
         "url": "https://www.linkedin.com/jobs/view/4462218442"
       },
       {
+        "title": "Quality Assurance Executive Manager",
+        "company": "NTT DATA Europe & Latam",
+        "score": 16,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4441468380"
+      },
+      {
         "title": "Vendor & Third-Party Management Quality & Compliance Manager",
         "company": "IQVIA",
-        "score": 16,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1789430400000,
         "url": "https://it.indeed.com/viewjob?jk=49a023ca6783f106"
@@ -195,8 +195,8 @@
       },
       {
         "word": "manager",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "officer",
@@ -206,47 +206,16 @@
     ],
     "review": []
   },
-  "keyword_recommendations": [
-    {
-      "keyword": "cdp public",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "public regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "affairs senior",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "cdp public regulatory",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
-    },
-    {
-      "keyword": "senior",
-      "frequency": 3,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 30
-    }
-  ],
+  "keyword_recommendations": [],
   "anomalies": [
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 9 (-77%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 9 (-78%)",
       "data": {
         "current": 2,
-        "avg": 8.7,
-        "change_pct": -77.0
+        "avg": 9.2,
+        "change_pct": -78.3
       }
     },
     {
@@ -286,54 +255,54 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 68,
+            "id": 2,
+            "size": 64,
             "top_terms": [
+              "officer",
               "engineer",
-              "senior",
-              "manutentore"
+              "tecnico"
             ],
-            "pct": 54.8
-          },
-          {
-            "id": 0,
-            "size": 20,
-            "top_terms": [
-              "assurance",
-              "quality",
-              "engineer"
-            ],
-            "pct": 16.1
+            "pct": 52.5
           },
           {
             "id": 1,
-            "size": 14,
+            "size": 20,
             "top_terms": [
-              "specialist",
-              "giahs",
-              "senior"
+              "quality",
+              "assurance",
+              "engineer"
             ],
-            "pct": 11.3
+            "pct": 16.4
           },
           {
             "id": 4,
-            "size": 13,
+            "size": 19,
             "top_terms": [
               "manager",
-              "compliance",
-              "demand"
+              "senior",
+              "engineer"
             ],
-            "pct": 10.5
+            "pct": 15.6
           },
           {
-            "id": 2,
-            "size": 9,
+            "id": 0,
+            "size": 16,
             "top_terms": [
-              "officer",
-              "senior",
-              "policy"
+              "specialist",
+              "giahs",
+              "junior"
             ],
-            "pct": 7.3
+            "pct": 13.1
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "manutentore",
+              "demand",
+              "division"
+            ],
+            "pct": 2.5
           }
         ]
       }

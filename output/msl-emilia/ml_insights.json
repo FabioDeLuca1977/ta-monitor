@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-19T12:54:24.644948",
+  "generated_at": "2026-09-20T13:17:50.885328",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 24,
+  "total_jobs_analyzed": 23,
   "scoring": {
-    "average": 14.9,
+    "average": 14.8,
     "distribution": {
       "excellent": 0,
       "good": 1,
       "medium": 2,
       "low": 3,
-      "irrelevant": 18
+      "irrelevant": 17
     },
     "top_jobs": [
       {
@@ -32,7 +32,7 @@
       {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
@@ -64,7 +64,7 @@
       {
         "title": "Design Quality Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 16,
+        "score": 17,
         "site": "linkedin",
         "date_posted": 1788134400000,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
@@ -72,7 +72,7 @@
       {
         "title": "Associate Market Access Specialist, North East Italy",
         "company": "IQVIA",
-        "score": 14,
+        "score": 13,
         "site": "linkedin",
         "date_posted": 1788307200000,
         "url": "https://www.linkedin.com/jobs/view/4443130337"
@@ -86,14 +86,6 @@
         "url": "https://www.linkedin.com/jobs/view/4463475636"
       },
       {
-        "title": "Associate Sales Rep Extremities - Emilia Romagna",
-        "company": "Stryker",
-        "score": 12,
-        "site": "indeed",
-        "date_posted": 1789516800000,
-        "url": "https://it.indeed.com/viewjob?jk=d5218259da0ee785"
-      },
-      {
         "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
         "company": "Adecco",
         "score": 11,
@@ -102,17 +94,9 @@
         "url": "https://www.linkedin.com/jobs/view/4461895685"
       },
       {
-        "title": "Marketing Lead Area CV e Metabolismo",
-        "company": "Menarini",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1789516800000,
-        "url": "https://it.indeed.com/viewjob?jk=96ef26b7c142a445"
-      },
-      {
         "title": "CEO / TEMPORARY MANAGER",
         "company": "LaRisorsaUmana.it",
-        "score": 8,
+        "score": 9,
         "site": "linkedin",
         "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4464450888"
@@ -126,14 +110,6 @@
         "url": "https://it.indeed.com/viewjob?jk=4d87015b87c3d244"
       },
       {
-        "title": "Manufacturing Manager - Molding & Extrusion",
-        "company": "LivaNova",
-        "score": 7,
-        "site": "indeed",
-        "date_posted": 1788393600000,
-        "url": "https://it.indeed.com/viewjob?jk=f7246d37e9882f91"
-      },
-      {
         "title": "Manufacturing Manager - Molding",
         "company": "LivaNova",
         "score": 7,
@@ -142,12 +118,28 @@
         "url": "https://it.indeed.com/viewjob?jk=f7246d37e9882f91"
       },
       {
+        "title": "Associate Sales Rep Extremities - Emilia Romagna",
+        "company": "Stryker",
+        "score": 7,
+        "site": "indeed",
+        "date_posted": 1789516800000,
+        "url": "https://it.indeed.com/viewjob?jk=d5218259da0ee785"
+      },
+      {
         "title": "Assistant CRA",
         "company": "Thermo Fisher Scientific",
         "score": 6,
         "site": "linkedin",
         "date_posted": 1787961600000,
         "url": "https://www.linkedin.com/jobs/view/4450580019"
+      },
+      {
+        "title": "Marketing Lead Area CV e Metabolismo",
+        "company": "Menarini",
+        "score": 6,
+        "site": "indeed",
+        "date_posted": 1789516800000,
+        "url": "https://it.indeed.com/viewjob?jk=96ef26b7c142a445"
       },
       {
         "title": "R&D Dispending Compatibility Specialist - Stage",
@@ -172,17 +164,20 @@
         "site": "linkedin",
         "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4463896470"
+      },
+      {
+        "title": "MedTech Device Field Service Technician Flexible/Part Time - Italy",
+        "company": "IQVIA",
+        "score": 1,
+        "site": "indeed",
+        "date_posted": 1788825600000,
+        "url": "https://it.indeed.com/viewjob?jk=85d4c6fb850ed8c6"
       }
     ]
   },
   "filter_suggestions": {
     "add_relevant": [],
     "add_blacklist": [
-      {
-        "word": "manager",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
       {
         "word": "synergie",
         "count": 4,
@@ -194,6 +189,11 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
+        "word": "manager",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
+      },
+      {
         "word": "devices",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
@@ -203,6 +203,16 @@
   },
   "keyword_recommendations": [],
   "anomalies": [
+    {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-33%)",
+      "data": {
+        "current": 2,
+        "avg": 3.0,
+        "change_pct": -33.3
+      }
+    },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
@@ -247,7 +257,7 @@
               "engineer",
               "medical"
             ],
-            "pct": 50.0
+            "pct": 52.2
           },
           {
             "id": 0,
@@ -257,7 +267,7 @@
               "filiale",
               "ferrara"
             ],
-            "pct": 16.7
+            "pct": 17.4
           },
           {
             "id": 2,
@@ -267,17 +277,17 @@
               "regulatory",
               "affairs"
             ],
-            "pct": 16.7
+            "pct": 17.4
           },
           {
             "id": 3,
-            "size": 4,
+            "size": 3,
             "top_terms": [
               "manager",
-              "molding",
-              "manufacturing"
+              "synergie",
+              "specialist"
             ],
-            "pct": 16.7
+            "pct": 13.0
           }
         ]
       }

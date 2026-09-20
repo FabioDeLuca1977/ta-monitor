@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T12:54:24.495987",
+  "generated_at": "2026-09-20T13:17:50.753716",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 23,
@@ -50,7 +50,7 @@
         "company": "Aliveda",
         "score": 42,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4462848246"
       },
       {
@@ -106,7 +106,7 @@
         "company": "KOLINPHARMA S.p.A",
         "score": 38,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788393600000,
         "url": "https://www.linkedin.com/jobs/view/4461671299"
       },
       {
@@ -183,6 +183,16 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-33%)",
+      "data": {
+        "current": 2,
+        "avg": 3.0,
+        "change_pct": -33.3
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
       "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
@@ -199,27 +209,27 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 11,
+            "id": 1,
+            "size": 13,
             "top_terms": [
               "specialist",
-              "controls",
-              "isf"
+              "isf",
+              "farmaco"
             ],
-            "pct": 47.8
-          },
-          {
-            "id": 1,
-            "size": 7,
-            "top_terms": [
-              "scientifico",
-              "informatore",
-              "medico"
-            ],
-            "pct": 30.4
+            "pct": 56.5
           },
           {
             "id": 2,
+            "size": 5,
+            "top_terms": [
+              "medico",
+              "scientifico",
+              "informatore"
+            ],
+            "pct": 21.7
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "veneto",
@@ -229,12 +239,12 @@
             "pct": 13.0
           },
           {
-            "id": 3,
+            "id": 0,
             "size": 2,
             "top_terms": [
               "manager",
               "vicenza",
-              "veneto"
+              "specialist"
             ],
             "pct": 8.7
           }
