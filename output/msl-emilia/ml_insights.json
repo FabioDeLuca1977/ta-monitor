@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:17:50.885328",
+  "generated_at": "2026-09-21T14:47:53.636792",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
   "total_jobs_analyzed": 23,
@@ -32,7 +32,7 @@
       {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 42,
+        "score": 43,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
@@ -64,7 +64,7 @@
       {
         "title": "Design Quality Specialist - Medical Devices",
         "company": "PQE Group",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": 1788134400000,
         "url": "https://www.linkedin.com/jobs/view/4455864360"
@@ -72,7 +72,7 @@
       {
         "title": "Associate Market Access Specialist, North East Italy",
         "company": "IQVIA",
-        "score": 13,
+        "score": 14,
         "site": "linkedin",
         "date_posted": 1788307200000,
         "url": "https://www.linkedin.com/jobs/view/4443130337"
@@ -96,7 +96,7 @@
       {
         "title": "CEO / TEMPORARY MANAGER",
         "company": "LaRisorsaUmana.it",
-        "score": 9,
+        "score": 8,
         "site": "linkedin",
         "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4464450888"
@@ -126,20 +126,20 @@
         "url": "https://it.indeed.com/viewjob?jk=d5218259da0ee785"
       },
       {
-        "title": "Assistant CRA",
-        "company": "Thermo Fisher Scientific",
-        "score": 6,
-        "site": "linkedin",
-        "date_posted": 1787961600000,
-        "url": "https://www.linkedin.com/jobs/view/4450580019"
-      },
-      {
         "title": "Marketing Lead Area CV e Metabolismo",
         "company": "Menarini",
         "score": 6,
         "site": "indeed",
         "date_posted": 1789516800000,
         "url": "https://it.indeed.com/viewjob?jk=96ef26b7c142a445"
+      },
+      {
+        "title": "Assistant CRA",
+        "company": "Thermo Fisher Scientific",
+        "score": 6,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4450580019"
       },
       {
         "title": "R&D Dispending Compatibility Specialist - Stage",
@@ -205,42 +205,22 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 3 (-33%)",
+      "severity": "high",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-64%)",
       "data": {
-        "current": 2,
-        "avg": 3.0,
-        "change_pct": -33.3
+        "current": 1,
+        "avg": 2.8,
+        "change_pct": -63.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 2,
-        "total": 2,
+        "new": 1,
+        "total": 1,
         "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 67% a 0% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 66.7,
-        "new_pct": 0.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 33% a 100% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 33.3,
-        "new_pct": 100.0
       }
     },
     {
@@ -250,42 +230,42 @@
       "data": {
         "clusters": [
           {
-            "id": 1,
+            "id": 3,
             "size": 12,
             "top_terms": [
               "specialist",
-              "engineer",
-              "medical"
+              "consultant",
+              "regulatory"
             ],
             "pct": 52.2
           },
           {
-            "id": 0,
-            "size": 4,
+            "id": 1,
+            "size": 5,
             "top_terms": [
               "synergie",
               "filiale",
               "ferrara"
             ],
-            "pct": 17.4
+            "pct": 21.7
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "engineer",
+              "hardware",
+              "devices"
+            ],
+            "pct": 13.0
           },
           {
             "id": 2,
-            "size": 4,
-            "top_terms": [
-              "consultant",
-              "regulatory",
-              "affairs"
-            ],
-            "pct": 17.4
-          },
-          {
-            "id": 3,
             "size": 3,
             "top_terms": [
               "manager",
               "synergie",
-              "specialist"
+              "engineer"
             ],
             "pct": 13.0
           }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-20T13:17:51.274303",
+  "generated_at": "2026-09-21T14:47:54.061372",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 122,
+  "total_jobs_analyzed": 132,
   "scoring": {
     "average": 9.5,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 7,
+      "medium": 8,
       "low": 5,
-      "irrelevant": 107
+      "irrelevant": 116
     },
     "top_jobs": [
       {
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 64,
+        "score": 65,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -46,6 +46,14 @@
         "url": "https://it.indeed.com/viewjob?jk=95a16320a29d5d7c"
       },
       {
+        "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
+        "company": "Cassa Depositi e Prestiti",
+        "score": 50,
+        "site": "indeed",
+        "date_posted": 1788912000000,
+        "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
+      },
+      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
         "score": 50,
@@ -54,28 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4448312826"
       },
       {
-        "title": "(CDP)_Public and Regulatory Affairs Senior Professional",
-        "company": "Cassa Depositi e Prestiti",
-        "score": 49,
-        "site": "indeed",
-        "date_posted": 1788912000000,
-        "url": "https://it.indeed.com/viewjob?jk=e491aaa60cdc8d40"
-      },
-      {
-        "title": "Quality Assurance Consultant   - Pharma Sector",
-        "company": "PQE Group",
-        "score": 46,
-        "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4449547248"
-      },
-      {
         "title": "Regulatory Affairs Expert",
         "company": "Alfasigma group",
         "score": 46,
         "site": "indeed",
         "date_posted": 1788912000000,
         "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
+      },
+      {
+        "title": "Quality Assurance Consultant   - Pharma Sector",
+        "company": "PQE Group",
+        "score": 44,
+        "site": "linkedin",
+        "date_posted": 1788739200000,
+        "url": "https://www.linkedin.com/jobs/view/4449547248"
       },
       {
         "title": "Pharmacovigilance Auditor - Freelance Position (1FTE or 0.6 FTE and above)",
@@ -92,6 +92,14 @@
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4464087780"
+      },
+      {
+        "title": "Performance Marketer",
+        "company": "Immobiliare.it",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": 1789430400000,
+        "url": "https://www.linkedin.com/jobs/view/4433182996"
       },
       {
         "title": "Space Market, Innovation & Investment Expert",
@@ -158,17 +166,9 @@
         "url": "https://www.linkedin.com/jobs/view/4462218442"
       },
       {
-        "title": "Quality Assurance Executive Manager",
-        "company": "NTT DATA Europe & Latam",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4441468380"
-      },
-      {
         "title": "Vendor & Third-Party Management Quality & Compliance Manager",
         "company": "IQVIA",
-        "score": 15,
+        "score": 16,
         "site": "indeed",
         "date_posted": 1789430400000,
         "url": "https://it.indeed.com/viewjob?jk=49a023ca6783f106"
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 22,
-        "reason": "Appare 22x in annunci a basso score"
+        "count": 26,
+        "reason": "Appare 26x in annunci a basso score"
       },
       {
         "word": "assurance",
-        "count": 18,
-        "reason": "Appare 18x in annunci a basso score"
+        "count": 21,
+        "reason": "Appare 21x in annunci a basso score"
       },
       {
         "word": "engineer",
-        "count": 16,
-        "reason": "Appare 16x in annunci a basso score"
+        "count": 19,
+        "reason": "Appare 19x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -199,53 +199,83 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "officer",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "senior",
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "cdp public",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "public regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "affairs senior",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "cdp public regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    },
+    {
+      "keyword": "senior",
+      "frequency": 3,
+      "source": "parola frequente in titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 9 (-78%)",
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Brain Technologies: 2 posizioni, non presente negli scan precedenti",
       "data": {
-        "current": 2,
-        "avg": 9.2,
-        "change_pct": -78.3
+        "company": "Brain Technologies",
+        "count": 2
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 8/11 annunci da aziende nuove (72.7%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 8,
+        "total": 11,
+        "pct": 72.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 50% a 0% (-50pp)",
+      "message": "📡 indeed: quota passata da 0% a 55% (+55pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 50.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 54.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 50% a 100% (+50pp)",
+      "message": "📡 linkedin: quota passata da 100% a 45% (-55pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 50.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 45.5
       }
     },
     {
@@ -255,54 +285,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 64,
-            "top_terms": [
-              "officer",
-              "engineer",
-              "tecnico"
-            ],
-            "pct": 52.5
-          },
-          {
             "id": 1,
-            "size": 20,
+            "size": 86,
             "top_terms": [
-              "quality",
-              "assurance",
-              "engineer"
+              "engineer",
+              "officer",
+              "manager"
             ],
-            "pct": 16.4
-          },
-          {
-            "id": 4,
-            "size": 19,
-            "top_terms": [
-              "manager",
-              "senior",
-              "engineer"
-            ],
-            "pct": 15.6
-          },
-          {
-            "id": 0,
-            "size": 16,
-            "top_terms": [
-              "specialist",
-              "giahs",
-              "junior"
-            ],
-            "pct": 13.1
+            "pct": 65.2
           },
           {
             "id": 3,
-            "size": 3,
+            "size": 22,
             "top_terms": [
-              "manutentore",
-              "demand",
-              "division"
+              "assurance",
+              "quality",
+              "engineer"
             ],
-            "pct": 2.5
+            "pct": 16.7
+          },
+          {
+            "id": 2,
+            "size": 14,
+            "top_terms": [
+              "specialist",
+              "policy",
+              "giahs"
+            ],
+            "pct": 10.6
+          },
+          {
+            "id": 4,
+            "size": 6,
+            "top_terms": [
+              "affairs",
+              "regulatory",
+              "expert"
+            ],
+            "pct": 4.5
+          },
+          {
+            "id": 0,
+            "size": 4,
+            "top_terms": [
+              "advisor",
+              "beauty",
+              "terni"
+            ],
+            "pct": 3.0
           }
         ]
       }
