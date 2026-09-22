@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-21T14:47:53.496694",
+  "generated_at": "2026-09-22T13:37:12.861489",
   "profile_id": "msl-veneto",
   "profile_name": "Medical Liaison — Veneto",
   "total_jobs_analyzed": 24,
   "scoring": {
-    "average": 29.6,
+    "average": 31.3,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 12,
+      "medium": 13,
       "low": 5,
-      "irrelevant": 7
+      "irrelevant": 6
     },
     "top_jobs": [
       {
@@ -62,20 +62,20 @@
         "url": "https://www.linkedin.com/jobs/view/4469187268"
       },
       {
+        "title": "Informatore Scientifico del Farmaco - Vicenza",
+        "company": "Jakin SA",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4468140283"
+      },
+      {
         "title": "Informatore scientifico commerciale | Veneto",
         "company": "PharmaNutra",
         "score": 41,
         "site": "linkedin",
         "date_posted": 1788480000000,
         "url": "https://www.linkedin.com/jobs/view/4463601605"
-      },
-      {
-        "title": "Informatore scientifico di medicina naturale",
-        "company": "Medicina Unica",
-        "score": 41,
-        "site": "linkedin",
-        "date_posted": 1788134400000,
-        "url": "https://www.linkedin.com/jobs/view/4461063414"
       },
       {
         "title": "Informatore Scientifico P. IVA Regione Veneto",
@@ -108,6 +108,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4468377336"
+      },
+      {
+        "title": "Clinical Specialist Wound Care Italy",
+        "company": "Mölnlycke Health Care",
+        "score": 40,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4470405793"
       },
       {
         "title": "Informatore Medico Scientifico M/F",
@@ -164,14 +172,6 @@
         "site": "indeed",
         "date_posted": 1788393600000,
         "url": "https://it.indeed.com/viewjob?jk=8a599a42527e4119"
-      },
-      {
-        "title": "Manufacturing Engineering Specialist",
-        "company": "Vertiv",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1788998400000,
-        "url": "https://it.indeed.com/viewjob?jk=6892794228b762ce"
       }
     ]
   },
@@ -183,22 +183,12 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-65%)",
-      "data": {
-        "current": 1,
-        "avg": 2.9,
-        "change_pct": -65.2
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 2,
+        "total": 2,
         "pct": 100.0
       }
     },
@@ -209,37 +199,37 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 12,
-            "top_terms": [
-              "isf",
-              "specialist",
-              "controls"
-            ],
-            "pct": 50.0
-          },
-          {
             "id": 1,
-            "size": 7,
+            "size": 9,
             "top_terms": [
               "scientifico",
               "informatore",
               "medico"
             ],
-            "pct": 29.2
-          },
-          {
-            "id": 3,
-            "size": 3,
-            "top_terms": [
-              "veneto",
-              "scientifico",
-              "informatore"
-            ],
-            "pct": 12.5
+            "pct": 37.5
           },
           {
             "id": 0,
+            "size": 8,
+            "top_terms": [
+              "specialist",
+              "controls",
+              "vicenza"
+            ],
+            "pct": 33.3
+          },
+          {
+            "id": 2,
+            "size": 5,
+            "top_terms": [
+              "isf",
+              "farmaco",
+              "rovigo"
+            ],
+            "pct": 20.8
+          },
+          {
+            "id": 3,
             "size": 2,
             "top_terms": [
               "manager",

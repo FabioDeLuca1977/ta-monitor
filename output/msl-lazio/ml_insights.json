@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-09-21T14:47:53.687111",
+  "generated_at": "2026-09-22T13:37:13.059185",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
-  "total_jobs_analyzed": 53,
+  "total_jobs_analyzed": 60,
   "scoring": {
-    "average": 26.8,
+    "average": 26.5,
     "distribution": {
       "excellent": 0,
       "good": 3,
-      "medium": 20,
-      "low": 6,
-      "irrelevant": 24
+      "medium": 22,
+      "low": 8,
+      "irrelevant": 27
     },
     "top_jobs": [
       {
         "title": "Medical Affairs Sr. Manager",
         "company": "Johnson & Johnson MedTech",
-        "score": 62,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4458586490"
       },
       {
-        "title": "Medical Communications and Marketing Specialist",
-        "company": "Lo.Li. Pharma International",
-        "score": 61,
+        "title": "Medical Advisor Gastroenterology",
+        "company": "AbbVie",
+        "score": 62,
         "site": "linkedin",
         "date_posted": 1788307200000,
-        "url": "https://www.linkedin.com/jobs/view/4459937146"
+        "url": "https://www.linkedin.com/jobs/view/4447698999"
       },
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 60,
+        "score": 61,
         "site": "indeed",
         "date_posted": 1789084800000,
         "url": "https://it.indeed.com/viewjob?jk=7963ef77d8458d76"
@@ -46,12 +46,12 @@
         "url": "https://www.linkedin.com/jobs/view/4466450213"
       },
       {
-        "title": "Medical Advisor Gastroenterology",
-        "company": "AbbVie",
-        "score": 58,
+        "title": "Medical Communications and Marketing Specialist",
+        "company": "Lo.Li. Pharma International",
+        "score": 56,
         "site": "linkedin",
         "date_posted": 1788307200000,
-        "url": "https://www.linkedin.com/jobs/view/4447698999"
+        "url": "https://www.linkedin.com/jobs/view/4459937146"
       },
       {
         "title": "MEDICAL LEAD ONCOLOGY",
@@ -64,7 +64,7 @@
       {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
-        "score": 53,
+        "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448312826"
@@ -88,7 +88,7 @@
       {
         "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
         "company": "CDP Cassa Depositi e Prestiti",
-        "score": 48,
+        "score": 49,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4465058482"
@@ -96,7 +96,7 @@
       {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
-        "score": 47,
+        "score": 48,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4444854467"
@@ -134,12 +134,12 @@
         "url": "https://www.linkedin.com/jobs/view/4467443986"
       },
       {
-        "title": "Clinical Specialist",
-        "company": "Arthrex Italia",
-        "score": 43,
+        "title": "Regulatory Affairs Intern",
+        "company": "STERIS",
+        "score": 44,
         "site": "linkedin",
-        "date_posted": 1788393600000,
-        "url": "https://www.linkedin.com/jobs/view/4462842123"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
         "title": "Regulatory Affairs Expert",
@@ -148,14 +148,6 @@
         "site": "linkedin",
         "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4463022389"
-      },
-      {
-        "title": "Regulatory Affairs Intern",
-        "company": "STERIS",
-        "score": 43,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4430767486"
       },
       {
         "title": "Therapeutic Area Specialist Oncology - (Area Lombardia)",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438697800"
+      },
+      {
+        "title": "Clinical Specialist",
+        "company": "Arthrex Italia",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": 1788393600000,
+        "url": "https://www.linkedin.com/jobs/view/4462842123"
       }
     ]
   },
@@ -189,17 +189,17 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "clinical",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "specialist",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
         "word": "coordinator",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "assistant",
+        "word": "clinical",
         "count": 3,
         "reason": "Appare 3x in annunci a basso score"
       }
@@ -222,43 +222,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 4 (-49%)",
+      "type": "volume_spike",
+      "severity": "high",
+      "message": "Volume in crescita: 7 annunci ultimo scan vs media 4 (+72%)",
       "data": {
-        "current": 2,
-        "avg": 3.9,
-        "change_pct": -49.0
+        "current": 7,
+        "avg": 4.1,
+        "change_pct": 71.7
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 6/7 annunci da aziende nuove (85.7%)",
       "data": {
-        "new": 1,
-        "total": 2,
-        "pct": 50.0
+        "new": 6,
+        "total": 7,
+        "pct": 85.7
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
+      "message": "📡 indeed: quota passata da 100% a 71% (-29pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 0.0,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 71.4
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
+      "message": "📡 linkedin: quota passata da 0% a 29% (+29pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 100.0,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 28.6
       }
     },
     {
@@ -269,53 +269,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 21,
+            "size": 24,
             "top_terms": [
-              "head",
-              "specialist",
-              "quality"
+              "cra",
+              "freelance",
+              "engineer"
             ],
-            "pct": 39.6
+            "pct": 40.0
           },
           {
             "id": 1,
-            "size": 11,
+            "size": 18,
             "top_terms": [
-              "medical",
-              "oncology",
-              "liaison"
+              "specialist",
+              "clinical",
+              "research"
             ],
-            "pct": 20.8
+            "pct": 30.0
           },
           {
             "id": 2,
-            "size": 11,
+            "size": 9,
             "top_terms": [
-              "clinical",
-              "research",
-              "associate"
+              "medical",
+              "oncology",
+              "director"
             ],
-            "pct": 20.8
-          },
-          {
-            "id": 3,
-            "size": 6,
-            "top_terms": [
-              "cra",
-              "assistant",
-              "italy"
-            ],
-            "pct": 11.3
+            "pct": 15.0
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 6,
             "top_terms": [
               "regulatory",
               "affairs",
-              "expert"
+              "manager"
             ],
-            "pct": 7.5
+            "pct": 10.0
+          },
+          {
+            "id": 3,
+            "size": 3,
+            "top_terms": [
+              "head",
+              "quality",
+              "lombardia"
+            ],
+            "pct": 5.0
           }
         ]
       }

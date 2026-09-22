@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-21T14:47:53.636792",
+  "generated_at": "2026-09-22T13:37:13.005780",
   "profile_id": "msl-emilia",
   "profile_name": "Medical Liaison — Emilia-Romagna",
-  "total_jobs_analyzed": 23,
+  "total_jobs_analyzed": 25,
   "scoring": {
-    "average": 14.8,
+    "average": 19.2,
     "distribution": {
       "excellent": 0,
       "good": 1,
-      "medium": 2,
+      "medium": 5,
       "low": 3,
-      "irrelevant": 17
+      "irrelevant": 16
     },
     "top_jobs": [
       {
@@ -20,6 +20,22 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4432609496"
+      },
+      {
+        "title": "Senior Clinical Research Associate",
+        "company": "Translational Oncology Research, LLC",
+        "score": 57,
+        "site": "linkedin",
+        "date_posted": 1789948800000,
+        "url": "https://www.linkedin.com/jobs/view/4468795297"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Cosmoderma",
+        "score": 48,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4469919128"
       },
       {
         "title": "Regulatory Affairs",
@@ -32,10 +48,18 @@
       {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 43,
+        "score": 42,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
+      },
+      {
+        "title": "Clinical Specialist Wound Care Italy",
+        "company": "Mölnlycke Health Care",
+        "score": 41,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4470404753"
       },
       {
         "title": "Regulatory Affair Consultant",
@@ -66,8 +90,8 @@
         "company": "PQE Group",
         "score": 16,
         "site": "linkedin",
-        "date_posted": 1788134400000,
-        "url": "https://www.linkedin.com/jobs/view/4455864360"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4465983296"
       },
       {
         "title": "Associate Market Access Specialist, North East Italy",
@@ -142,36 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4450580019"
       },
       {
-        "title": "R&D Dispending Compatibility Specialist - Stage",
-        "company": "ATS Automation Tooling Systems Inc.",
-        "score": 4,
-        "site": "indeed",
-        "date_posted": 1788480000000,
-        "url": "https://it.indeed.com/viewjob?jk=8cf4a5f477ed86ad"
-      },
-      {
         "title": "Addetto/a cambio GOMME - FILIALE SYNERGIE BOLOGNA 1",
         "company": "Agenzia regionale per il lavoro Emilia-Romagna",
         "score": 2,
         "site": "linkedin",
         "date_posted": 1788998400000,
         "url": "https://www.linkedin.com/jobs/view/4464509248"
-      },
-      {
-        "title": "ADDETTO/A ALLA SALDATURA - SYNERGIE ITALIA FILIALE DI REGGIOLO",
-        "company": "Agenzia regionale per il lavoro Emilia-Romagna",
-        "score": 2,
-        "site": "linkedin",
-        "date_posted": 1788912000000,
-        "url": "https://www.linkedin.com/jobs/view/4463896470"
-      },
-      {
-        "title": "MedTech Device Field Service Technician Flexible/Part Time - Italy",
-        "company": "IQVIA",
-        "score": 1,
-        "site": "indeed",
-        "date_posted": 1788825600000,
-        "url": "https://it.indeed.com/viewjob?jk=85d4c6fb850ed8c6"
       }
     ]
   },
@@ -204,70 +204,70 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 1 annunci ultimo scan vs media 3 (-64%)",
-      "data": {
-        "current": 1,
-        "avg": 2.8,
-        "change_pct": -63.6
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/1 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 3/3 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 1,
-        "total": 1,
+        "new": 3,
+        "total": 3,
         "pct": 100.0
       }
     },
     {
       "type": "role_clusters",
       "severity": "info",
-      "message": "🔬 Identificati 4 cluster di ruoli nel mercato",
+      "message": "🔬 Identificati 5 cluster di ruoli nel mercato",
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 12,
-            "top_terms": [
-              "specialist",
-              "consultant",
-              "regulatory"
-            ],
-            "pct": 52.2
-          },
-          {
-            "id": 1,
-            "size": 5,
+            "id": 0,
+            "size": 7,
             "top_terms": [
               "synergie",
               "filiale",
               "ferrara"
             ],
-            "pct": 21.7
-          },
-          {
-            "id": 0,
-            "size": 3,
-            "top_terms": [
-              "engineer",
-              "hardware",
-              "devices"
-            ],
-            "pct": 13.0
+            "pct": 28.0
           },
           {
             "id": 2,
+            "size": 6,
+            "top_terms": [
+              "regulatory",
+              "affairs",
+              "consultant"
+            ],
+            "pct": 24.0
+          },
+          {
+            "id": 4,
+            "size": 5,
+            "top_terms": [
+              "associate",
+              "italy",
+              "clinical"
+            ],
+            "pct": 20.0
+          },
+          {
+            "id": 1,
+            "size": 4,
+            "top_terms": [
+              "engineer",
+              "devices",
+              "medical"
+            ],
+            "pct": 16.0
+          },
+          {
+            "id": 3,
             "size": 3,
             "top_terms": [
               "manager",
-              "synergie",
-              "engineer"
+              "senior",
+              "synergie"
             ],
-            "pct": 13.0
+            "pct": 12.0
           }
         ]
       }
