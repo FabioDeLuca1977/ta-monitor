@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T13:37:12.968006",
+  "generated_at": "2026-09-23T13:30:04.498713",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 173,
+  "total_jobs_analyzed": 183,
   "scoring": {
-    "average": 27.7,
+    "average": 26.8,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 74,
+      "good": 6,
+      "medium": 73,
       "low": 12,
-      "irrelevant": 83
+      "irrelevant": 92
     },
     "top_jobs": [
       {
@@ -46,9 +46,25 @@
         "url": "https://www.linkedin.com/jobs/view/4467497305"
       },
       {
+        "title": "Medical Affairs Manager",
+        "company": "Johnson & Johnson Innovative Medicine",
+        "score": 62,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4470634259"
+      },
+      {
+        "title": "Regulatory Affairs Manager - Beauty & Industrial, Team Global",
+        "company": "NonStop Consulting",
+        "score": 61,
+        "site": "linkedin",
+        "date_posted": 1789862400000,
+        "url": "https://www.linkedin.com/jobs/view/4469597094"
+      },
+      {
         "title": "MSL Manager - Metabolic Disorder",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1788480000000,
         "url": "https://www.linkedin.com/jobs/view/4444450322"
@@ -78,22 +94,6 @@
         "url": "https://www.linkedin.com/jobs/view/4459332631"
       },
       {
-        "title": "Medical Science Liaison, Oncology",
-        "company": "IQVIA",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": 1788652800000,
-        "url": "https://www.linkedin.com/jobs/view/4426942441"
-      },
-      {
-        "title": "Medical Science Liaison, Italy",
-        "company": "Revolution Medicines",
-        "score": 55,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4468337940"
-      },
-      {
         "title": "Dermatologist - Medical Director",
         "company": "Medpace",
         "score": 55,
@@ -110,6 +110,14 @@
         "url": "https://www.linkedin.com/jobs/view/4331940454"
       },
       {
+        "title": "Medical Science Liaison, Oncology",
+        "company": "IQVIA",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": 1788652800000,
+        "url": "https://www.linkedin.com/jobs/view/4426942441"
+      },
+      {
         "title": "(Associate) Medical Director - Neurology",
         "company": "Thermo Fisher Scientific",
         "score": 54,
@@ -118,28 +126,20 @@
         "url": "https://www.linkedin.com/jobs/view/4446208066"
       },
       {
-        "title": "Regulatory Affairs Manager",
-        "company": "Regulatory Pharma Net - RPN",
-        "score": 53,
+        "title": "Sr. Medical Scientific Liaison (Northern) Italy",
+        "company": "Acadia Pharmaceuticals",
+        "score": 54,
         "site": "linkedin",
-        "date_posted": 1788307200000,
-        "url": "https://www.linkedin.com/jobs/view/4459962918"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4460064272"
       },
       {
-        "title": "Compliance & Regulatory Affairs Manager",
-        "company": "ReeVo Cloud & Cyber Security",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1788825600000,
-        "url": "https://www.linkedin.com/jobs/view/4436040335"
-      },
-      {
-        "title": "Regulatory Affairs Manager",
-        "company": "Thermo Fisher Scientific",
+        "title": "Medical Science Liaison, Italy",
+        "company": "Revolution Medicines",
         "score": 53,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4466951763"
+        "url": "https://www.linkedin.com/jobs/view/4468337940"
       },
       {
         "title": "Regulatory Affairs Specialist",
@@ -150,28 +150,28 @@
         "url": "https://www.linkedin.com/jobs/view/4467991178"
       },
       {
-        "title": "Sr. Medical Scientific Liaison (Northern) Italy",
-        "company": "Acadia Pharmaceuticals",
+        "title": "Global Regulatory Affairs Clinical Trials Coordinator VIE Contract",
+        "company": "Sanofi",
         "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4460064272"
+        "site": "indeed",
+        "date_posted": 1789948800000,
+        "url": "https://it.indeed.com/viewjob?jk=7a9a58db1b922b94"
       },
       {
-        "title": "Safety Scientist- Real World Evidence (RWE), EMEA",
+        "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
         "company": "Thermo Fisher Scientific",
         "score": 52,
         "site": "linkedin",
-        "date_posted": 1788220800000,
-        "url": "https://www.linkedin.com/jobs/view/4451676174"
+        "date_posted": 1788480000000,
+        "url": "https://www.linkedin.com/jobs/view/4441504705"
       },
       {
-        "title": "Health Economics, Market Access & Reimbursement Manager - Solid Oncology",
-        "company": "Johnson & Johnson Innovative Medicine",
+        "title": "Regulatory Affairs Manager",
+        "company": "Regulatory Pharma Net - RPN",
         "score": 52,
         "site": "linkedin",
-        "date_posted": 1788480000000,
-        "url": "https://www.linkedin.com/jobs/view/4463379678"
+        "date_posted": 1788307200000,
+        "url": "https://www.linkedin.com/jobs/view/4459962918"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "cra",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 15,
+        "reason": "Appare 15x in annunci a basso score"
       },
       {
         "word": "senior",
-        "count": 12,
-        "reason": "Appare 12x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
         "word": "specialist",
@@ -194,14 +194,14 @@
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "devices",
+        "word": "fsp",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "access",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "devices",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -209,21 +209,9 @@
   "keyword_recommendations": [
     {
       "keyword": "italy",
-      "frequency": 9,
+      "frequency": 8,
       "source": "parola frequente in titoli rilevanti",
       "confidence": 80
-    },
-    {
-      "keyword": "emea",
-      "frequency": 4,
-      "source": "parola frequente in titoli rilevanti",
-      "confidence": 40
-    },
-    {
-      "keyword": "director italy",
-      "frequency": 2,
-      "source": "bigram/trigram da titoli rilevanti",
-      "confidence": 30
     },
     {
       "keyword": "manager medical",
@@ -264,33 +252,32 @@
   ],
   "anomalies": [
     {
+      "type": "volume_spike",
+      "severity": "medium",
+      "message": "Volume in crescita: 17 annunci ultimo scan vs media 13 (+33%)",
+      "data": {
+        "current": 17,
+        "avg": 12.8,
+        "change_pct": 33.1
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 Dianax: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "Dianax",
+        "count": 2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/15 annunci da aziende nuove (40.0%)",
+      "message": "📊 Ultimo scan: 9/17 annunci da aziende nuove (52.9%)",
       "data": {
-        "new": 6,
-        "total": 15,
-        "pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 60% a 40% (-20pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 60.0,
-        "new_pct": 40.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 40% a 60% (+20pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 40.0,
-        "new_pct": 60.0
+        "new": 9,
+        "total": 17,
+        "pct": 52.9
       }
     },
     {
@@ -301,53 +288,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 77,
+            "size": 86,
             "top_terms": [
-              "manager",
-              "senior",
-              "access"
+              "medical",
+              "director",
+              "italy"
             ],
-            "pct": 44.5
+            "pct": 47.0
           },
           {
             "id": 3,
-            "size": 38,
+            "size": 35,
             "top_terms": [
-              "medical",
-              "italy",
-              "specialist"
+              "manager",
+              "senior",
+              "product"
             ],
-            "pct": 22.0
+            "pct": 19.1
           },
           {
-            "id": 4,
-            "size": 24,
+            "id": 2,
+            "size": 25,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 13.9
+            "pct": 13.7
           },
           {
             "id": 1,
-            "size": 22,
+            "size": 23,
             "top_terms": [
               "clinical",
               "research",
               "associate"
             ],
-            "pct": 12.7
+            "pct": 12.6
           },
           {
-            "id": 2,
-            "size": 12,
+            "id": 4,
+            "size": 14,
             "top_terms": [
               "cra",
-              "based",
-              "home"
+              "ii",
+              "based"
             ],
-            "pct": 6.9
+            "pct": 7.7
           }
         ]
       }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T13:37:13.349942",
+  "generated_at": "2026-09-23T13:30:04.881797",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 68,
+  "total_jobs_analyzed": 66,
   "scoring": {
-    "average": 10.1,
+    "average": 10.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 3,
-      "low": 3,
-      "irrelevant": 60
+      "low": 4,
+      "irrelevant": 57
     },
     "top_jobs": [
       {
@@ -42,7 +42,7 @@
         "company": "Capgemini Engineering",
         "score": 44,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4464339399"
       },
       {
@@ -54,9 +54,17 @@
         "url": "https://it.indeed.com/viewjob?jk=f907f054dd36fbfa"
       },
       {
+        "title": "Project Planner - Pharmaceutical",
+        "company": "TMC",
+        "score": 32,
+        "site": "indeed",
+        "date_posted": 1790035200000,
+        "url": "https://it.indeed.com/viewjob?jk=0792f6a038a41d25"
+      },
+      {
         "title": "Global Senior Pharma Process Manager– MS&T",
         "company": "Menarini",
-        "score": 32,
+        "score": 27,
         "site": "indeed",
         "date_posted": 1789430400000,
         "url": "https://it.indeed.com/viewjob?jk=0bd7ee63fbbf69d2"
@@ -102,20 +110,20 @@
         "url": "https://it.indeed.com/viewjob?jk=d04eecc2fe06776b"
       },
       {
-        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
-        "company": "Thales",
-        "score": 15,
-        "site": "linkedin",
-        "date_posted": 1788566400000,
-        "url": "https://www.linkedin.com/jobs/view/4444485295"
-      },
-      {
         "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
         "company": "Adecco",
         "score": 14,
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4461895685"
+      },
+      {
+        "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
+        "company": "Thales",
+        "score": 14,
+        "site": "linkedin",
+        "date_posted": 1788566400000,
+        "url": "https://www.linkedin.com/jobs/view/4444485295"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -142,19 +150,19 @@
         "url": "https://www.linkedin.com/jobs/view/4469140300"
       },
       {
-        "title": "HR Administration & Payroll Manager",
-        "company": "Berluti",
-        "score": 11,
-        "site": "indeed",
-        "date_posted": 1788220800000,
-        "url": "https://it.indeed.com/viewjob?jk=6b2ee0a4ee788e5a"
+        "title": "Quality Assurance (QA) Coordinator",
+        "company": "SGB Humangest Holding",
+        "score": 9,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4468997257"
       },
       {
         "title": "CEO / TEMPORARY MANAGER",
         "company": "LaRisorsaUmana.it",
         "score": 8,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4464450888"
       },
       {
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4439302592"
-      },
-      {
-        "title": "Temporary Quality Manager",
-        "company": "Jefferson Wells Italia",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4470402025"
       }
     ]
   },
@@ -185,8 +185,8 @@
       },
       {
         "word": "manager",
-        "count": 11,
-        "reason": "Appare 11x in annunci a basso score"
+        "count": 10,
+        "reason": "Appare 10x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -209,33 +209,23 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-38%)",
+      "data": {
+        "current": 3,
+        "avg": 4.8,
+        "change_pct": -38.1
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/6 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
       "data": {
-        "new": 6,
-        "total": 6,
-        "pct": 100.0
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 indeed: quota passata da 100% a 33% (-67pp)",
-      "data": {
-        "channel": "indeed",
-        "old_pct": 100.0,
-        "new_pct": 33.3
-      }
-    },
-    {
-      "type": "channel_shift",
-      "severity": "low",
-      "message": "📡 linkedin: quota passata da 0% a 67% (+67pp)",
-      "data": {
-        "channel": "linkedin",
-        "old_pct": 0.0,
-        "new_pct": 66.7
+        "new": 2,
+        "total": 3,
+        "pct": 66.7
       }
     },
     {
@@ -245,14 +235,14 @@
       "data": {
         "clusters": [
           {
-            "id": 3,
-            "size": 43,
+            "id": 4,
+            "size": 35,
             "top_terms": [
-              "manager",
-              "engineer",
+              "sales",
+              "addetto",
               "senior"
             ],
-            "pct": 63.2
+            "pct": 53.0
           },
           {
             "id": 1,
@@ -260,39 +250,39 @@
             "top_terms": [
               "quality",
               "assurance",
-              "inspector"
+              "specialist"
             ],
-            "pct": 14.7
+            "pct": 15.2
           },
           {
             "id": 0,
-            "size": 6,
+            "size": 9,
             "top_terms": [
-              "sales",
-              "specialist",
-              "impiegato"
+              "manager",
+              "temporary",
+              "administration"
             ],
-            "pct": 8.8
+            "pct": 13.6
           },
           {
-            "id": 4,
+            "id": 2,
+            "size": 7,
+            "top_terms": [
+              "engineer",
+              "devices",
+              "medical"
+            ],
+            "pct": 10.6
+          },
+          {
+            "id": 3,
             "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "consultant"
             ],
-            "pct": 7.4
-          },
-          {
-            "id": 2,
-            "size": 4,
-            "top_terms": [
-              "2017",
-              "745",
-              "dispositivi"
-            ],
-            "pct": 5.9
+            "pct": 7.6
           }
         ]
       }
