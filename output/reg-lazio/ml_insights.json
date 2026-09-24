@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-23T13:30:04.971664",
+  "generated_at": "2026-09-24T13:46:16.303342",
   "profile_id": "reg-lazio",
   "profile_name": "Regulatory Affairs — Lazio",
-  "total_jobs_analyzed": 130,
+  "total_jobs_analyzed": 125,
   "scoring": {
-    "average": 10.7,
+    "average": 11.1,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 8,
+      "good": 3,
+      "medium": 9,
       "low": 6,
-      "irrelevant": 112
+      "irrelevant": 107
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
-        "score": 68,
+        "score": 66,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4469124912"
@@ -24,7 +24,7 @@
       {
         "title": "Regulatory Affairs Intern",
         "company": "STERIS",
-        "score": 64,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4430767486"
@@ -32,7 +32,7 @@
       {
         "title": "Treasury Governance and Regulatory Compliance Specialist",
         "company": "Michael Page",
-        "score": 61,
+        "score": 63,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4468904457"
@@ -40,9 +40,9 @@
       {
         "title": "Regulatory Affairs Expert",
         "company": "Alfasigma",
-        "score": 60,
+        "score": 59,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4463022389"
       },
       {
@@ -80,7 +80,7 @@
       {
         "title": "Regulatory Affairs Expert",
         "company": "Alfasigma group",
-        "score": 45,
+        "score": 46,
         "site": "indeed",
         "date_posted": 1788912000000,
         "url": "https://it.indeed.com/viewjob?jk=5afed902ecbe4a38"
@@ -90,16 +90,16 @@
         "company": "PQE Group",
         "score": 44,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4449547248"
       },
       {
         "title": "Pharmacovigilance Auditor - Freelance Position (1FTE or 0.6 FTE and above)",
-        "company": "Adamas Consulting",
+        "company": "ADAMAS Consulting",
         "score": 41,
-        "site": "indeed",
+        "site": "linkedin",
         "date_posted": 1788825600000,
-        "url": "https://it.indeed.com/viewjob?jk=bd90140e779ad0d2"
+        "url": "https://www.linkedin.com/jobs/view/4464645017"
       },
       {
         "title": "Marketing Automation Specialist - Salesforce Marketing Cloud",
@@ -158,20 +158,20 @@
         "url": "https://it.indeed.com/viewjob?jk=2180ef7b7192347e"
       },
       {
+        "title": "Quality Assurance Compliance Specialist",
+        "company": "Tubilux Pharma",
+        "score": 17,
+        "site": "linkedin",
+        "date_posted": 1788825600000,
+        "url": "https://www.linkedin.com/jobs/view/4463247668"
+      },
+      {
         "title": "Regional MSL Manager, Neuroscience (Europe)",
-        "company": "サイネオス・ヘルス",
+        "company": "Syneos Health Commercial Solutions",
         "score": 17,
         "site": "indeed",
         "date_posted": 1790035200000,
-        "url": "https://it.indeed.com/viewjob?jk=7ce5f6f83aa987ff"
-      },
-      {
-        "title": "Junior IT Compliance & Demand Specialist",
-        "company": "Buffetti Finance SpA",
-        "score": 16,
-        "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4462218442"
+        "url": "https://it.indeed.com/viewjob?jk=d117747703226b50"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 26,
+        "reason": "Appare 26x in annunci a basso score"
       },
       {
         "word": "assurance",
@@ -190,16 +190,16 @@
       },
       {
         "word": "engineer",
-        "count": 19,
-        "reason": "Appare 19x in annunci a basso score"
+        "count": 20,
+        "reason": "Appare 20x in annunci a basso score"
       },
       {
         "word": "manager",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 14,
+        "reason": "Appare 14x in annunci a basso score"
       },
       {
-        "word": "junior",
+        "word": "senior",
         "count": 9,
         "reason": "Appare 9x in annunci a basso score"
       }
@@ -211,11 +211,11 @@
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 4/7 annunci da aziende nuove (57.1%)",
+      "message": "📊 Ultimo scan: 6/7 annunci da aziende nuove (85.7%)",
       "data": {
-        "new": 4,
+        "new": 6,
         "total": 7,
-        "pct": 57.1
+        "pct": 85.7
       }
     },
     {
@@ -226,53 +226,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 71,
+            "size": 62,
             "top_terms": [
               "engineer",
               "officer",
               "senior"
             ],
-            "pct": 54.6
+            "pct": 49.6
           },
           {
-            "id": 2,
+            "id": 1,
             "size": 23,
             "top_terms": [
               "quality",
               "assurance",
               "engineer"
             ],
-            "pct": 17.7
+            "pct": 18.4
           },
           {
-            "id": 1,
-            "size": 16,
+            "id": 2,
+            "size": 19,
             "top_terms": [
               "specialist",
-              "compliance",
-              "policy"
+              "regulatory",
+              "affairs"
             ],
-            "pct": 12.3
-          },
-          {
-            "id": 3,
-            "size": 12,
-            "top_terms": [
-              "manager",
-              "compliance",
-              "clinical"
-            ],
-            "pct": 9.2
+            "pct": 15.2
           },
           {
             "id": 4,
-            "size": 8,
+            "size": 17,
             "top_terms": [
-              "affairs",
-              "regulatory",
-              "expert"
+              "manager",
+              "italy",
+              "europe"
             ],
-            "pct": 6.2
+            "pct": 13.6
+          },
+          {
+            "id": 3,
+            "size": 4,
+            "top_terms": [
+              "tecnico",
+              "defence",
+              "demand"
+            ],
+            "pct": 3.2
           }
         ]
       }

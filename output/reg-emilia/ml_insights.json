@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-23T13:30:04.881797",
+  "generated_at": "2026-09-24T13:46:16.237607",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 66,
+  "total_jobs_analyzed": 64,
   "scoring": {
-    "average": 10.6,
+    "average": 11.1,
     "distribution": {
       "excellent": 0,
       "good": 2,
       "medium": 3,
       "low": 4,
-      "irrelevant": 57
+      "irrelevant": 55
     },
     "top_jobs": [
       {
         "title": "Regulatory Affairs Specialist",
         "company": "Cosmoderma",
-        "score": 63,
+        "score": 62,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4469919128"
@@ -32,9 +32,9 @@
       {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 55,
+        "score": 52,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
       },
       {
@@ -48,7 +48,7 @@
       {
         "title": "Regulatory Affair Consultant",
         "company": "Capgemini",
-        "score": 42,
+        "score": 41,
         "site": "indeed",
         "date_posted": 1788739200000,
         "url": "https://it.indeed.com/viewjob?jk=f907f054dd36fbfa"
@@ -104,10 +104,26 @@
       {
         "title": "Business Manager - IT Division",
         "company": "Amaris Consulting",
-        "score": 16,
+        "score": 15,
         "site": "indeed",
         "date_posted": 1789689600000,
         "url": "https://it.indeed.com/viewjob?jk=d04eecc2fe06776b"
+      },
+      {
+        "title": "DEMAND PLANNER",
+        "company": "PRAXI",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1790121600000,
+        "url": "https://www.linkedin.com/jobs/view/4468989852"
+      },
+      {
+        "title": "AI Supply & Demand Planner",
+        "company": "Adecco",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1790121600000,
+        "url": "https://www.linkedin.com/jobs/view/4468989365"
       },
       {
         "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
@@ -150,28 +166,12 @@
         "url": "https://www.linkedin.com/jobs/view/4469140300"
       },
       {
-        "title": "Quality Assurance (QA) Coordinator",
-        "company": "SGB Humangest Holding",
+        "title": "Temporary Quality Manager",
+        "company": "Jefferson Wells Italia",
         "score": 9,
         "site": "linkedin",
         "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4468997257"
-      },
-      {
-        "title": "CEO / TEMPORARY MANAGER",
-        "company": "LaRisorsaUmana.it",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": 1788825600000,
-        "url": "https://www.linkedin.com/jobs/view/4464450888"
-      },
-      {
-        "title": "Quality Assurance",
-        "company": "Sherwin-Williams",
-        "score": 8,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4439302592"
+        "url": "https://www.linkedin.com/jobs/view/4470402025"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "add_blacklist": [
       {
         "word": "quality",
-        "count": 13,
-        "reason": "Appare 13x in annunci a basso score"
+        "count": 12,
+        "reason": "Appare 12x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -190,8 +190,8 @@
       },
       {
         "word": "assurance",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -210,22 +210,42 @@
   "anomalies": [
     {
       "type": "volume_drop",
-      "severity": "medium",
-      "message": "Volume in calo: 3 annunci ultimo scan vs media 5 (-38%)",
+      "severity": "high",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-58%)",
       "data": {
-        "current": 3,
+        "current": 2,
         "avg": 4.8,
-        "change_pct": -38.1
+        "change_pct": -58.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/3 annunci da aziende nuove (66.7%)",
+      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 2,
-        "total": 3,
-        "pct": 66.7
+        "new": 1,
+        "total": 2,
+        "pct": 50.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 33.3,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 66.7,
+        "new_pct": 100.0
       }
     },
     {
@@ -235,14 +255,24 @@
       "data": {
         "clusters": [
           {
-            "id": 4,
-            "size": 35,
+            "id": 2,
+            "size": 34,
             "top_terms": [
-              "sales",
-              "addetto",
-              "senior"
+              "engineer",
+              "planner",
+              "demand"
             ],
-            "pct": 53.0
+            "pct": 53.1
+          },
+          {
+            "id": 3,
+            "size": 11,
+            "top_terms": [
+              "manager",
+              "senior",
+              "temporary"
+            ],
+            "pct": 17.2
           },
           {
             "id": 1,
@@ -252,37 +282,27 @@
               "assurance",
               "specialist"
             ],
-            "pct": 15.2
+            "pct": 15.6
           },
           {
             "id": 0,
-            "size": 9,
-            "top_terms": [
-              "manager",
-              "temporary",
-              "administration"
-            ],
-            "pct": 13.6
-          },
-          {
-            "id": 2,
-            "size": 7,
-            "top_terms": [
-              "engineer",
-              "devices",
-              "medical"
-            ],
-            "pct": 10.6
-          },
-          {
-            "id": 3,
             "size": 5,
             "top_terms": [
               "regulatory",
               "affairs",
               "consultant"
             ],
-            "pct": 7.6
+            "pct": 7.8
+          },
+          {
+            "id": 4,
+            "size": 4,
+            "top_terms": [
+              "medici",
+              "attivi",
+              "auditor"
+            ],
+            "pct": 6.2
           }
         ]
       }

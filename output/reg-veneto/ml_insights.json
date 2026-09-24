@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-23T13:30:04.653051",
+  "generated_at": "2026-09-24T13:46:16.066073",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 70,
+  "total_jobs_analyzed": 65,
   "scoring": {
-    "average": 9.3,
+    "average": 9.6,
     "distribution": {
       "excellent": 0,
       "good": 0,
       "medium": 4,
       "low": 3,
-      "irrelevant": 63
+      "irrelevant": 58
     },
     "top_jobs": [
       {
@@ -48,7 +48,7 @@
       {
         "title": "QUALITY MANAGER",
         "company": "Ecolab",
-        "score": 30,
+        "score": 31,
         "site": "indeed",
         "date_posted": 1789344000000,
         "url": "https://it.indeed.com/viewjob?jk=58c2c613838f652a"
@@ -56,7 +56,7 @@
       {
         "title": "Addetto/a Qualificata alla pulizie Camere d'albergo",
         "company": "Suite Pacinotti & Prada'",
-        "score": 24,
+        "score": 25,
         "site": "indeed",
         "date_posted": 1789171200000,
         "url": "https://it.indeed.com/viewjob?jk=f5c6aa40984f85f8"
@@ -72,18 +72,18 @@
       {
         "title": "Laboratory Manager - Medical Device Testing",
         "company": "Eurofins",
-        "score": 17,
+        "score": 16,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4457253789"
       },
       {
-        "title": "Expert Regulatory Office",
-        "company": "Habasit",
+        "title": "QA/RA Specialist | Medical Devices",
+        "company": "Mynameis",
         "score": 14,
-        "site": "indeed",
-        "date_posted": 1789689600000,
-        "url": "https://it.indeed.com/viewjob?jk=b6208ba98eca8f09"
+        "site": "linkedin",
+        "date_posted": 1788825600000,
+        "url": "https://www.linkedin.com/jobs/view/4464464560"
       },
       {
         "title": "HR Payroll Support  – CTD 12 mesi sostituzione maternità",
@@ -94,28 +94,12 @@
         "url": "https://www.linkedin.com/jobs/view/4470444322"
       },
       {
-        "title": "QA/RA Specialist | Medical Devices",
-        "company": "Mynameis",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1788825600000,
-        "url": "https://www.linkedin.com/jobs/view/4464464560"
-      },
-      {
         "title": "Quality Assurance Specialist",
         "company": "TEXA",
         "score": 13,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4459697145"
-      },
-      {
-        "title": "Quality Assurance & Process Specialist",
-        "company": "ManpowerGroup Italia",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4461884198"
       },
       {
         "title": "Quality Assurance Specialist",
@@ -126,12 +110,12 @@
         "url": "https://www.linkedin.com/jobs/view/4453896304"
       },
       {
-        "title": "Application & Demand Specialist",
-        "company": "D.B. Group",
-        "score": 12,
-        "site": "linkedin",
-        "date_posted": 1789084800000,
-        "url": "https://www.linkedin.com/jobs/view/4466054208"
+        "title": "Expert Regulatory Office",
+        "company": "Habasit",
+        "score": 13,
+        "site": "indeed",
+        "date_posted": 1789689600000,
+        "url": "https://it.indeed.com/viewjob?jk=b6208ba98eca8f09"
       },
       {
         "title": "SENIOR R&D INNOVATION MANAGER - ADVANCED MATERIALS & SURFACE TECNOLOGIES",
@@ -142,12 +126,12 @@
         "url": "https://it.indeed.com/viewjob?jk=95db0b6b43e4ccb3"
       },
       {
-        "title": "Clinical Affairs_Medical Device (VERONA)",
-        "company": "Adecco",
-        "score": 10,
+        "title": "Application & Demand Specialist",
+        "company": "D.B. Group",
+        "score": 11,
         "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4462209655"
+        "date_posted": 1789084800000,
+        "url": "https://www.linkedin.com/jobs/view/4466054208"
       },
       {
         "title": "Temporary HSE Manager",
@@ -172,6 +156,22 @@
         "site": "indeed",
         "date_posted": 1789948800000,
         "url": "https://it.indeed.com/viewjob?jk=bc9d0dc5d1518514"
+      },
+      {
+        "title": "Senior Analyst - Manufacturing",
+        "company": "Vertiv",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1790035200000,
+        "url": "https://it.indeed.com/viewjob?jk=df51bb8d76123e81"
+      },
+      {
+        "title": "Payroll Consultant",
+        "company": "STUDIO VENTURIN",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1790121600000,
+        "url": "https://it.indeed.com/viewjob?jk=19089c8d6cf8cb93"
       }
     ]
   },
@@ -179,24 +179,24 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "quality",
-        "count": 10,
-        "reason": "Appare 10x in annunci a basso score"
-      },
-      {
         "word": "specialist",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "count": 8,
+        "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
+        "word": "quality",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       },
       {
         "word": "demand",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "manager",
@@ -215,7 +215,7 @@
       "data": {
         "current": 9,
         "avg": 5.1,
-        "change_pct": 77.0
+        "change_pct": 76.8
       }
     },
     {
@@ -236,33 +236,33 @@
         "clusters": [
           {
             "id": 0,
-            "size": 48,
+            "size": 44,
             "top_terms": [
-              "specialist",
               "manager",
-              "addetto"
+              "addetto",
+              "engineer"
             ],
-            "pct": 68.6
+            "pct": 67.7
           },
           {
             "id": 2,
-            "size": 10,
+            "size": 7,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 14.3
+            "pct": 10.8
           },
           {
             "id": 1,
-            "size": 5,
+            "size": 6,
             "top_terms": [
-              "planner",
               "demand",
+              "planner",
               "junior"
             ],
-            "pct": 7.1
+            "pct": 9.2
           },
           {
             "id": 3,
@@ -270,19 +270,19 @@
             "top_terms": [
               "tecnico",
               "elettronico",
-              "controllo"
+              "qualità"
             ],
-            "pct": 5.7
+            "pct": 6.2
           },
           {
             "id": 4,
-            "size": 3,
+            "size": 4,
             "top_terms": [
-              "beauty",
-              "advisor",
-              "tv"
+              "specialist",
+              "marketing",
+              "vi"
             ],
-            "pct": 4.3
+            "pct": 6.2
           }
         ]
       }
