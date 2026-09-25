@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-24T13:46:16.237607",
+  "generated_at": "2026-09-25T13:50:12.225480",
   "profile_id": "reg-emilia",
   "profile_name": "Regulatory Affairs — Emilia-Romagna",
-  "total_jobs_analyzed": 64,
+  "total_jobs_analyzed": 71,
   "scoring": {
-    "average": 11.1,
+    "average": 12.3,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 3,
+      "medium": 5,
       "low": 4,
-      "irrelevant": 55
+      "irrelevant": 60
     },
     "top_jobs": [
       {
@@ -24,23 +24,39 @@
       {
         "title": "Regulatory Affairs",
         "company": "Randstad Professional Italia",
-        "score": 61,
+        "score": 60,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4466693858"
       },
       {
+        "title": "Senior Regulatory Affairs Specialist - Italia",
+        "company": "Adecco",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4470156012"
+      },
+      {
         "title": "Junior Digital Regulatory Affairs Consultant",
         "company": "PQE Group",
-        "score": 52,
+        "score": 54,
         "site": "linkedin",
         "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4462277434"
       },
       {
+        "title": "Senior Regulatory Affairs Expert (f/m/d)",
+        "company": "KLK EMMERICH GmbH",
+        "score": 54,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4470150689"
+      },
+      {
         "title": "Regulatory Affair Consultant",
         "company": "Capgemini Engineering",
-        "score": 44,
+        "score": 43,
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4464339399"
@@ -86,20 +102,28 @@
         "url": "https://it.indeed.com/viewjob?jk=d7a7038821bb93a9"
       },
       {
-        "title": "HR ADMINISTRATION & PAYROLL MANAGER",
-        "company": "Reverse",
-        "score": 16,
+        "title": "Sr. Manager, Global PV System Management & Alliance",
+        "company": "Alfasigma group",
+        "score": 17,
         "site": "indeed",
-        "date_posted": 1789603200000,
-        "url": "https://it.indeed.com/viewjob?jk=0d65a03b00b162f8"
+        "date_posted": 1790208000000,
+        "url": "https://it.indeed.com/viewjob?jk=9a691ae8d322fc2d"
       },
       {
-        "title": "HR ADMINISTRATION MANAGER",
-        "company": "Reverse",
-        "score": 16,
+        "title": "Customer Sales Support Specialist",
+        "company": "DHL",
+        "score": 17,
         "site": "indeed",
-        "date_posted": 1789603200000,
-        "url": "https://it.indeed.com/viewjob?jk=0d65a03b00b162f8"
+        "date_posted": 1790208000000,
+        "url": "https://it.indeed.com/viewjob?jk=73d4c3f5f49e436c"
+      },
+      {
+        "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
+        "company": "Adecco",
+        "score": 15,
+        "site": "linkedin",
+        "date_posted": 1788739200000,
+        "url": "https://www.linkedin.com/jobs/view/4461895685"
       },
       {
         "title": "Business Manager - IT Division",
@@ -126,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4468989365"
       },
       {
-        "title": "Quality Manager_Medical Device (prov. BOLOGNA)",
-        "company": "Adecco",
-        "score": 14,
+        "title": "Quality Assurance Manager",
+        "company": "Wyser",
+        "score": 15,
         "site": "linkedin",
-        "date_posted": 1788739200000,
-        "url": "https://www.linkedin.com/jobs/view/4461895685"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4469785215"
       },
       {
         "title": "Quality Assurance Manager - Product, Bids & Projects & Country Chorus Manager Italy (Open also To Protected Categories, Law 68/99)",
@@ -148,30 +172,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4466082199"
-      },
-      {
-        "title": "Design Quality Specialist - Medical Devices",
-        "company": "PQE Group",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4465983296"
-      },
-      {
-        "title": "QUALITY ASSURANCE SPECIALIST",
-        "company": "Unimpiego Confindustria Emilia",
-        "score": 13,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4469140300"
-      },
-      {
-        "title": "Temporary Quality Manager",
-        "company": "Jefferson Wells Italia",
-        "score": 9,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4470402025"
       }
     ]
   },
@@ -180,18 +180,18 @@
     "add_blacklist": [
       {
         "word": "quality",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
+      },
+      {
+        "word": "manager",
         "count": 12,
         "reason": "Appare 12x in annunci a basso score"
       },
       {
-        "word": "manager",
+        "word": "assurance",
         "count": 10,
         "reason": "Appare 10x in annunci a basso score"
-      },
-      {
-        "word": "assurance",
-        "count": 9,
-        "reason": "Appare 9x in annunci a basso score"
       },
       {
         "word": "engineer",
@@ -199,53 +199,60 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "medical",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
+        "word": "synergie",
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       }
     ],
     "review": []
   },
-  "keyword_recommendations": [],
+  "keyword_recommendations": [
+    {
+      "keyword": "senior regulatory",
+      "frequency": 2,
+      "source": "bigram/trigram da titoli rilevanti",
+      "confidence": 30
+    }
+  ],
   "anomalies": [
     {
-      "type": "volume_drop",
+      "type": "volume_spike",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-58%)",
+      "message": "Volume in crescita: 8 annunci ultimo scan vs media 5 (+65%)",
       "data": {
-        "current": 2,
+        "current": 8,
         "avg": 4.8,
-        "change_pct": -58.1
+        "change_pct": 65.1
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 1/2 annunci da aziende nuove (50.0%)",
+      "message": "📊 Ultimo scan: 4/8 annunci da aziende nuove (50.0%)",
       "data": {
-        "new": 1,
-        "total": 2,
+        "new": 4,
+        "total": 8,
         "pct": 50.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 33% a 0% (-33pp)",
+      "message": "📡 indeed: quota passata da 0% a 38% (+38pp)",
       "data": {
         "channel": "indeed",
-        "old_pct": 33.3,
-        "new_pct": 0.0
+        "old_pct": 0.0,
+        "new_pct": 37.5
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 67% a 100% (+33pp)",
+      "message": "📡 linkedin: quota passata da 100% a 62% (-38pp)",
       "data": {
         "channel": "linkedin",
-        "old_pct": 66.7,
-        "new_pct": 100.0
+        "old_pct": 100.0,
+        "new_pct": 62.5
       }
     },
     {
@@ -255,54 +262,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 34,
+            "id": 0,
+            "size": 37,
             "top_terms": [
-              "engineer",
               "planner",
+              "sales",
               "demand"
             ],
-            "pct": 53.1
-          },
-          {
-            "id": 3,
-            "size": 11,
-            "top_terms": [
-              "manager",
-              "senior",
-              "temporary"
-            ],
-            "pct": 17.2
+            "pct": 52.1
           },
           {
             "id": 1,
             "size": 10,
             "top_terms": [
-              "quality",
-              "assurance",
-              "specialist"
+              "manager",
+              "temporary",
+              "global"
             ],
-            "pct": 15.6
+            "pct": 14.1
           },
           {
-            "id": 0,
-            "size": 5,
+            "id": 2,
+            "size": 10,
+            "top_terms": [
+              "quality",
+              "assurance",
+              "engineer"
+            ],
+            "pct": 14.1
+          },
+          {
+            "id": 3,
+            "size": 7,
             "top_terms": [
               "regulatory",
               "affairs",
               "consultant"
             ],
-            "pct": 7.8
+            "pct": 9.9
           },
           {
             "id": 4,
-            "size": 4,
+            "size": 7,
             "top_terms": [
-              "medici",
-              "attivi",
-              "auditor"
+              "engineer",
+              "devices",
+              "medical"
             ],
-            "pct": 6.2
+            "pct": 9.9
           }
         ]
       }

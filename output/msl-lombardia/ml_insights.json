@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-24T13:46:15.958064",
+  "generated_at": "2026-09-25T13:50:11.829564",
   "profile_id": "msl-lombardia",
   "profile_name": "Medical Liaison — Lombardia",
-  "total_jobs_analyzed": 184,
+  "total_jobs_analyzed": 186,
   "scoring": {
-    "average": 26.6,
+    "average": 26.7,
     "distribution": {
       "excellent": 0,
-      "good": 4,
-      "medium": 73,
-      "low": 13,
-      "irrelevant": 94
+      "good": 3,
+      "medium": 75,
+      "low": 12,
+      "irrelevant": 96
     },
     "top_jobs": [
       {
@@ -20,14 +20,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4468048779"
-      },
-      {
-        "title": "International Medical Affairs Manager",
-        "company": "Evolus",
-        "score": 62,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4464820366"
       },
       {
         "title": "Medical Advisor (Cardiometabolic)",
@@ -46,9 +38,25 @@
         "url": "https://www.linkedin.com/jobs/view/4470634259"
       },
       {
+        "title": "International Medical Affairs Manager",
+        "company": "Evolus",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4464820366"
+      },
+      {
+        "title": "Regulatory Affairs Specialist",
+        "company": "Cosmo I Building Health Confidence",
+        "score": 58,
+        "site": "linkedin",
+        "date_posted": 1790121600000,
+        "url": "https://www.linkedin.com/jobs/view/4448031831"
+      },
+      {
         "title": "MSL Manager - Metabolic Disorder",
         "company": "Sobi - Swedish Orphan Biovitrum AB (publ)",
-        "score": 58,
+        "score": 57,
         "site": "linkedin",
         "date_posted": 1788480000000,
         "url": "https://www.linkedin.com/jobs/view/4444450322"
@@ -118,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4446208066"
       },
       {
-        "title": "Sr. Medical Scientific Liaison (Northern) Italy",
-        "company": "Acadia Pharmaceuticals",
-        "score": 54,
+        "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
+        "company": "Thermo Fisher Scientific",
+        "score": 53,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4460064272"
+        "date_posted": 1788480000000,
+        "url": "https://www.linkedin.com/jobs/view/4441504705"
       },
       {
         "title": "Regulatory Affairs Manager",
@@ -134,20 +142,12 @@
         "url": "https://www.linkedin.com/jobs/view/4466951763"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "Cotril Spa",
+        "title": "Sponsor Dedicated Sr CRA - Phase I Oncology - Home Based Rome Area",
+        "company": "Syneos Health",
         "score": 53,
         "site": "linkedin",
-        "date_posted": 1789603200000,
-        "url": "https://www.linkedin.com/jobs/view/4467991178"
-      },
-      {
-        "title": "Senior Medical Director, Italy",
-        "company": "Acadia Pharmaceuticals",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1788393600000,
-        "url": "https://www.linkedin.com/jobs/view/4442931545"
+        "date_posted": 1790208000000,
+        "url": "https://www.linkedin.com/jobs/view/4450296918"
       },
       {
         "title": "Health Economics, Market Access & Reimbursement Manager - Solid Oncology",
@@ -158,20 +158,20 @@
         "url": "https://www.linkedin.com/jobs/view/4463379678"
       },
       {
-        "title": "Program Manager, Regulatory Medical Writing - Client-dedicated FSP",
-        "company": "Thermo Fisher Scientific",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1788480000000,
-        "url": "https://www.linkedin.com/jobs/view/4441504705"
-      },
-      {
         "title": "Scientific Relation Manager Oncology - North of Italy",
         "company": "Kyowa Kirin International plc.",
         "score": 52,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438258898"
+      },
+      {
+        "title": "Clinical Research Associate & CRA Supervisor EMEA (50/50)",
+        "company": "Teleflex",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4449649769"
       }
     ]
   },
@@ -179,19 +179,19 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "cra",
-        "count": 15,
-        "reason": "Appare 15x in annunci a basso score"
-      },
-      {
         "word": "specialist",
         "count": 15,
         "reason": "Appare 15x in annunci a basso score"
       },
       {
-        "word": "senior",
+        "word": "cra",
         "count": 14,
         "reason": "Appare 14x in annunci a basso score"
+      },
+      {
+        "word": "senior",
+        "count": 13,
+        "reason": "Appare 13x in annunci a basso score"
       },
       {
         "word": "devices",
@@ -199,9 +199,9 @@
         "reason": "Appare 8x in annunci a basso score"
       },
       {
-        "word": "fsp",
-        "count": 6,
-        "reason": "Appare 6x in annunci a basso score"
+        "word": "lead",
+        "count": 7,
+        "reason": "Appare 7x in annunci a basso score"
       }
     ],
     "review": []
@@ -214,13 +214,13 @@
       "confidence": 80
     },
     {
-      "keyword": "director italy",
+      "keyword": "program manager",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
     },
     {
-      "keyword": "program manager",
+      "keyword": "director italy",
       "frequency": 2,
       "source": "bigram/trigram da titoli rilevanti",
       "confidence": 30
@@ -228,23 +228,33 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
-      "severity": "medium",
-      "message": "Volume in crescita: 17 annunci ultimo scan vs media 12 (+43%)",
+      "type": "new_jobs_ratio",
+      "severity": "info",
+      "message": "📊 Ultimo scan: 5/14 annunci da aziende nuove (35.7%)",
       "data": {
-        "current": 17,
-        "avg": 11.9,
-        "change_pct": 42.5
+        "new": 5,
+        "total": 14,
+        "pct": 35.7
       }
     },
     {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 8/17 annunci da aziende nuove (47.1%)",
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 59% a 43% (-16pp)",
       "data": {
-        "new": 8,
-        "total": 17,
-        "pct": 47.1
+        "channel": "indeed",
+        "old_pct": 58.8,
+        "new_pct": 42.9
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 41% a 57% (+16pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 41.2,
+        "new_pct": 57.1
       }
     },
     {
@@ -254,54 +264,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 78,
+            "id": 4,
+            "size": 95,
             "top_terms": [
-              "specialist",
+              "manager",
               "cra",
               "senior"
             ],
-            "pct": 42.4
-          },
-          {
-            "id": 2,
-            "size": 34,
-            "top_terms": [
-              "medical",
-              "director",
-              "italy"
-            ],
-            "pct": 18.5
-          },
-          {
-            "id": 4,
-            "size": 32,
-            "top_terms": [
-              "manager",
-              "medical",
-              "product"
-            ],
-            "pct": 17.4
+            "pct": 51.1
           },
           {
             "id": 3,
-            "size": 23,
+            "size": 39,
+            "top_terms": [
+              "medical",
+              "director",
+              "devices"
+            ],
+            "pct": 21.0
+          },
+          {
+            "id": 2,
+            "size": 25,
             "top_terms": [
               "regulatory",
               "affairs",
               "specialist"
             ],
-            "pct": 12.5
+            "pct": 13.4
           },
           {
             "id": 1,
-            "size": 17,
+            "size": 14,
+            "top_terms": [
+              "specialist",
+              "italy",
+              "temporary"
+            ],
+            "pct": 7.5
+          },
+          {
+            "id": 0,
+            "size": 13,
             "top_terms": [
               "research",
-              "clinical",
-              "associate"
+              "associate",
+              "clinical"
             ],
-            "pct": 9.2
+            "pct": 7.0
           }
         ]
       }

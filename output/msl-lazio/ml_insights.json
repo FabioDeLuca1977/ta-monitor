@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-09-24T13:46:16.027005",
+  "generated_at": "2026-09-25T13:50:11.931980",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 68,
   "scoring": {
-    "average": 26.1,
+    "average": 25.2,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 24,
+      "medium": 23,
       "low": 12,
-      "irrelevant": 30
+      "irrelevant": 31
     },
     "top_jobs": [
       {
-        "title": "Medical Affairs Sr. Manager",
-        "company": "Johnson & Johnson MedTech",
-        "score": 65,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4458586490"
-      },
-      {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 63,
+        "score": 62,
         "site": "indeed",
         "date_posted": 1789084800000,
         "url": "https://it.indeed.com/viewjob?jk=7963ef77d8458d76"
+      },
+      {
+        "title": "Medical Affairs Sr. Manager",
+        "company": "Johnson & Johnson MedTech",
+        "score": 60,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4458586490"
       },
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
@@ -46,14 +46,6 @@
         "url": "https://www.linkedin.com/jobs/view/4465018789"
       },
       {
-        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
-        "company": "Merck Healthcare",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4448866686"
-      },
-      {
         "title": "Regulatory Affairs Specialist",
         "company": "LHH",
         "score": 53,
@@ -70,6 +62,14 @@
         "url": "https://it.indeed.com/viewjob?jk=d117747703226b50"
       },
       {
+        "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
+        "company": "Merck Healthcare",
+        "score": 52,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4448866686"
+      },
+      {
         "title": "Senior Pharmacovigilance Project Manager- Europe",
         "company": "PrimeVigilance",
         "score": 51,
@@ -82,7 +82,7 @@
         "company": "IQVIA",
         "score": 50,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4453702548"
       },
       {
@@ -98,7 +98,7 @@
         "company": "CDP Cassa Depositi e Prestiti",
         "score": 48,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788912000000,
         "url": "https://www.linkedin.com/jobs/view/4465058482"
       },
       {
@@ -110,12 +110,12 @@
         "url": "https://it.indeed.com/viewjob?jk=7ce5f6f83aa987ff"
       },
       {
-        "title": "Freelance Senior Clinical Research Associate",
-        "company": "TFS HealthScience",
-        "score": 46,
+        "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
+        "company": "BioSpace",
+        "score": 47,
         "site": "linkedin",
-        "date_posted": 1788912000000,
-        "url": "https://www.linkedin.com/jobs/view/4455721460"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4467443986"
       },
       {
         "title": "Clinical Research Associate 2",
@@ -126,12 +126,12 @@
         "url": "https://www.linkedin.com/jobs/view/4464559024"
       },
       {
-        "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
-        "company": "BioSpace",
+        "title": "Freelance Senior Clinical Research Associate",
+        "company": "TFS HealthScience",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4467443986"
+        "date_posted": 1788912000000,
+        "url": "https://www.linkedin.com/jobs/view/4455721460"
       },
       {
         "title": "Proposal Specialist – Biotech / ATMP ( LifeScience)",
@@ -166,12 +166,12 @@
         "url": "https://it.indeed.com/viewjob?jk=6b7889bbe3af1f40"
       },
       {
-        "title": "Clinical Specialist",
-        "company": "Arthrex Italia",
+        "title": "Therapeutic Area Specialist Oncology - (Area Lombardia)",
+        "company": "Merck Healthcare",
         "score": 42,
         "site": "linkedin",
-        "date_posted": 1788393600000,
-        "url": "https://www.linkedin.com/jobs/view/4462842123"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4438807185"
       }
     ]
   },
@@ -179,17 +179,12 @@
     "add_relevant": [],
     "add_blacklist": [
       {
-        "word": "cra",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
-      },
-      {
         "word": "italy",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 5,
+        "reason": "Appare 5x in annunci a basso score"
       },
       {
-        "word": "assistant",
+        "word": "cra",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
       },
@@ -199,9 +194,14 @@
         "reason": "Appare 4x in annunci a basso score"
       },
       {
-        "word": "stage",
-        "count": 3,
-        "reason": "Appare 3x in annunci a basso score"
+        "word": "specialist",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "assistant",
+        "count": 4,
+        "reason": "Appare 4x in annunci a basso score"
       }
     ],
     "review": []
@@ -222,23 +222,43 @@
   ],
   "anomalies": [
     {
-      "type": "volume_spike",
+      "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in crescita: 7 annunci ultimo scan vs media 4 (+61%)",
+      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-58%)",
       "data": {
-        "current": 7,
-        "avg": 4.4,
-        "change_pct": 60.7
+        "current": 2,
+        "avg": 4.7,
+        "change_pct": -57.6
       }
     },
     {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 3/7 annunci da aziende nuove (42.9%)",
+      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
       "data": {
-        "new": 3,
-        "total": 7,
-        "pct": 42.9
+        "new": 2,
+        "total": 2,
+        "pct": 100.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 86% a 0% (-86pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 85.7,
+        "new_pct": 0.0
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 14% a 100% (+86pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 14.3,
+        "new_pct": 100.0
       }
     },
     {
@@ -248,54 +268,54 @@
       "data": {
         "clusters": [
           {
-            "id": 0,
-            "size": 36,
+            "id": 2,
+            "size": 30,
             "top_terms": [
-              "manager",
-              "stage",
-              "cra"
+              "officer",
+              "cra",
+              "head"
             ],
-            "pct": 52.9
+            "pct": 44.1
           },
           {
-            "id": 3,
-            "size": 11,
+            "id": 1,
+            "size": 13,
             "top_terms": [
               "specialist",
               "clinical",
-              "area"
+              "associate"
             ],
-            "pct": 16.2
+            "pct": 19.1
           },
           {
-            "id": 2,
+            "id": 0,
             "size": 10,
             "top_terms": [
-              "clinical",
-              "research",
-              "coordinator"
+              "manager",
+              "project",
+              "senior"
             ],
             "pct": 14.7
           },
           {
-            "id": 4,
-            "size": 8,
+            "id": 3,
+            "size": 9,
             "top_terms": [
               "oncology",
               "medical",
-              "msl"
+              "liaison"
             ],
-            "pct": 11.8
+            "pct": 13.2
           },
           {
-            "id": 1,
-            "size": 3,
+            "id": 4,
+            "size": 6,
             "top_terms": [
-              "officer",
-              "time",
-              "therapeutic"
+              "regulatory",
+              "affairs",
+              "expert"
             ],
-            "pct": 4.4
+            "pct": 8.8
           }
         ]
       }
