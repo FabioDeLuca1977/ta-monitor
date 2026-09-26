@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-25T13:50:11.931980",
+  "generated_at": "2026-09-26T13:30:27.920837",
   "profile_id": "msl-lazio",
   "profile_name": "Medical Liaison — Lazio",
   "total_jobs_analyzed": 68,
   "scoring": {
-    "average": 25.2,
+    "average": 24.6,
     "distribution": {
       "excellent": 0,
       "good": 2,
-      "medium": 23,
-      "low": 12,
-      "irrelevant": 31
+      "medium": 22,
+      "low": 11,
+      "irrelevant": 33
     },
     "top_jobs": [
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD",
-        "score": 62,
+        "score": 63,
         "site": "indeed",
         "date_posted": 1789084800000,
         "url": "https://it.indeed.com/viewjob?jk=7963ef77d8458d76"
@@ -32,7 +32,7 @@
       {
         "title": "Medical Scientific Liaison (MSL) – Oncology (Northwest)",
         "company": "MSD Italia",
-        "score": 58,
+        "score": 59,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4466450213"
@@ -46,25 +46,9 @@
         "url": "https://www.linkedin.com/jobs/view/4465018789"
       },
       {
-        "title": "Regulatory Affairs Specialist",
-        "company": "LHH",
-        "score": 53,
-        "site": "linkedin",
-        "date_posted": 1789689600000,
-        "url": "https://www.linkedin.com/jobs/view/4469124912"
-      },
-      {
-        "title": "Regional MSL Manager, Neuroscience (Europe)",
-        "company": "Syneos Health Commercial Solutions",
-        "score": 53,
-        "site": "indeed",
-        "date_posted": 1790035200000,
-        "url": "https://it.indeed.com/viewjob?jk=d117747703226b50"
-      },
-      {
         "title": "Medical Science Liaison Rare Tumors (Lombardia, Piemonte, Liguria)",
         "company": "Merck Healthcare",
-        "score": 52,
+        "score": 53,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4448866686"
@@ -86,6 +70,14 @@
         "url": "https://www.linkedin.com/jobs/view/4453702548"
       },
       {
+        "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
+        "company": "CDP Cassa Depositi e Prestiti",
+        "score": 49,
+        "site": "linkedin",
+        "date_posted": 1788912000000,
+        "url": "https://www.linkedin.com/jobs/view/4465058482"
+      },
+      {
         "title": "Clinical Research Associate - Italy - Remote",
         "company": "Worldwide Clinical Trials",
         "score": 48,
@@ -94,20 +86,20 @@
         "url": "https://www.linkedin.com/jobs/view/4444854467"
       },
       {
-        "title": "(CDP)_Public and Regulatory Affairs Senior Specialist",
-        "company": "CDP Cassa Depositi e Prestiti",
+        "title": "Regulatory Affairs Specialist",
+        "company": "LHH",
         "score": 48,
         "site": "linkedin",
-        "date_posted": 1788912000000,
-        "url": "https://www.linkedin.com/jobs/view/4465058482"
+        "date_posted": 1789689600000,
+        "url": "https://www.linkedin.com/jobs/view/4469124912"
       },
       {
         "title": "Regional MSL Manager, Neuroscience (Europe)",
-        "company": "サイネオス・ヘルス",
+        "company": "Syneos Health Commercial Solutions",
         "score": 48,
         "site": "indeed",
         "date_posted": 1790035200000,
-        "url": "https://it.indeed.com/viewjob?jk=7ce5f6f83aa987ff"
+        "url": "https://it.indeed.com/viewjob?jk=d117747703226b50"
       },
       {
         "title": "Clinical Research Associate II Immunology (Field Role, Nationwide Coverage)",
@@ -122,7 +114,7 @@
         "company": "Emerald Clinical",
         "score": 46,
         "site": "linkedin",
-        "date_posted": null,
+        "date_posted": 1788998400000,
         "url": "https://www.linkedin.com/jobs/view/4464559024"
       },
       {
@@ -158,12 +150,12 @@
         "url": "https://www.linkedin.com/jobs/view/4463022389"
       },
       {
-        "title": "Renewables Investment & Project Optimisation Manager - Associate",
-        "company": "RWE",
+        "title": "Regional MSL Manager, Neuroscience (Europe)",
+        "company": "サイネオス・ヘルス",
         "score": 43,
         "site": "indeed",
         "date_posted": 1790035200000,
-        "url": "https://it.indeed.com/viewjob?jk=6b7889bbe3af1f40"
+        "url": "https://it.indeed.com/viewjob?jk=7ce5f6f83aa987ff"
       },
       {
         "title": "Therapeutic Area Specialist Oncology - (Area Lombardia)",
@@ -172,6 +164,14 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4438807185"
+      },
+      {
+        "title": "Therapeutic Area Specialist Oncology - Sicily",
+        "company": "Merck Healthcare",
+        "score": 42,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4438697800"
       }
     ]
   },
@@ -180,13 +180,8 @@
     "add_blacklist": [
       {
         "word": "italy",
-        "count": 5,
-        "reason": "Appare 5x in annunci a basso score"
-      },
-      {
-        "word": "cra",
-        "count": 4,
-        "reason": "Appare 4x in annunci a basso score"
+        "count": 6,
+        "reason": "Appare 6x in annunci a basso score"
       },
       {
         "word": "coordinator",
@@ -202,6 +197,11 @@
         "word": "assistant",
         "count": 4,
         "reason": "Appare 4x in annunci a basso score"
+      },
+      {
+        "word": "clinical",
+        "count": 3,
+        "reason": "Appare 3x in annunci a basso score"
       }
     ],
     "review": []
@@ -224,40 +224,30 @@
     {
       "type": "volume_drop",
       "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 5 (-58%)",
+      "message": "Volume in calo: 1 annunci ultimo scan vs media 5 (-79%)",
       "data": {
-        "current": 2,
-        "avg": 4.7,
-        "change_pct": -57.6
-      }
-    },
-    {
-      "type": "new_jobs_ratio",
-      "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
-      "data": {
-        "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "current": 1,
+        "avg": 4.8,
+        "change_pct": -79.1
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 indeed: quota passata da 86% a 0% (-86pp)",
+      "message": "📡 linkedin: quota passata da 100% a 0% (-100pp)",
       "data": {
-        "channel": "indeed",
-        "old_pct": 85.7,
+        "channel": "linkedin",
+        "old_pct": 100.0,
         "new_pct": 0.0
       }
     },
     {
       "type": "channel_shift",
       "severity": "low",
-      "message": "📡 linkedin: quota passata da 14% a 100% (+86pp)",
+      "message": "📡 indeed: quota passata da 0% a 100% (+100pp)",
       "data": {
-        "channel": "linkedin",
-        "old_pct": 14.3,
+        "channel": "indeed",
+        "old_pct": 0.0,
         "new_pct": 100.0
       }
     },
@@ -268,54 +258,54 @@
       "data": {
         "clusters": [
           {
-            "id": 2,
-            "size": 30,
+            "id": 3,
+            "size": 33,
             "top_terms": [
               "officer",
-              "cra",
-              "head"
+              "head",
+              "stage"
             ],
-            "pct": 44.1
+            "pct": 48.5
+          },
+          {
+            "id": 2,
+            "size": 11,
+            "top_terms": [
+              "specialist",
+              "area",
+              "clinical"
+            ],
+            "pct": 16.2
           },
           {
             "id": 1,
-            "size": 13,
-            "top_terms": [
-              "specialist",
-              "clinical",
-              "associate"
-            ],
-            "pct": 19.1
-          },
-          {
-            "id": 0,
             "size": 10,
             "top_terms": [
               "manager",
               "project",
-              "senior"
+              "europe"
             ],
             "pct": 14.7
           },
           {
-            "id": 3,
-            "size": 9,
+            "id": 0,
+            "size": 7,
             "top_terms": [
-              "oncology",
-              "medical",
-              "liaison"
+              "clinical",
+              "research",
+              "associate"
             ],
-            "pct": 13.2
+            "pct": 10.3
           },
           {
             "id": 4,
-            "size": 6,
+            "size": 7,
             "top_terms": [
-              "regulatory",
-              "affairs",
-              "expert"
+              "medical",
+              "oncology",
+              "liaison"
             ],
-            "pct": 8.8
+            "pct": 10.3
           }
         ]
       }

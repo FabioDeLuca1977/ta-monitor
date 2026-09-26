@@ -1,38 +1,30 @@
 {
-  "generated_at": "2026-09-25T13:50:11.989616",
+  "generated_at": "2026-09-26T13:30:27.972435",
   "profile_id": "reg-veneto",
   "profile_name": "Regulatory Affairs — Veneto",
-  "total_jobs_analyzed": 63,
+  "total_jobs_analyzed": 65,
   "scoring": {
-    "average": 9.8,
+    "average": 8.2,
     "distribution": {
       "excellent": 0,
       "good": 0,
-      "medium": 4,
+      "medium": 3,
       "low": 3,
-      "irrelevant": 56
+      "irrelevant": 59
     },
     "top_jobs": [
       {
         "title": "JUNIOR TECHNICAL & REGULATORY SPECIALIST",
         "company": "Mondial Color SpA",
-        "score": 55,
+        "score": 56,
         "site": "indeed",
         "date_posted": 1788739200000,
         "url": "https://it.indeed.com/viewjob?jk=3949d7dc8ef82d2c"
       },
       {
-        "title": "Product Safety and Regulatory Compliance Analyst",
-        "company": "Motorola Solutions",
-        "score": 52,
-        "site": "linkedin",
-        "date_posted": 1788480000000,
-        "url": "https://www.linkedin.com/jobs/view/4436337918"
-      },
-      {
         "title": "Salesforce Marketing Cloud Specialist (f/m/d)",
         "company": "Eurocar",
-        "score": 42,
+        "score": 41,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4461736322"
@@ -78,14 +70,6 @@
         "url": "https://www.linkedin.com/jobs/view/4457253789"
       },
       {
-        "title": "Quality Assurance Coordinator",
-        "company": "LHH",
-        "score": 17,
-        "site": "linkedin",
-        "date_posted": 1790035200000,
-        "url": "https://www.linkedin.com/jobs/view/4469066211"
-      },
-      {
         "title": "HR Payroll Support  – CTD 12 mesi sostituzione maternità",
         "company": "FIS",
         "score": 14,
@@ -118,14 +102,6 @@
         "url": "https://www.linkedin.com/jobs/view/4453896304"
       },
       {
-        "title": "Expert Regulatory Office",
-        "company": "Habasit",
-        "score": 13,
-        "site": "indeed",
-        "date_posted": 1789689600000,
-        "url": "https://it.indeed.com/viewjob?jk=b6208ba98eca8f09"
-      },
-      {
         "title": "Application & Demand Specialist",
         "company": "D.B. Group",
         "score": 12,
@@ -134,28 +110,28 @@
         "url": "https://www.linkedin.com/jobs/view/4466054208"
       },
       {
+        "title": "Quality Assurance Coordinator",
+        "company": "LHH",
+        "score": 12,
+        "site": "linkedin",
+        "date_posted": 1790035200000,
+        "url": "https://www.linkedin.com/jobs/view/4469066211"
+      },
+      {
+        "title": "Addetto/a allo sportello gestione utenze",
+        "company": "One Team Group",
+        "score": 12,
+        "site": "indeed",
+        "date_posted": 1790294400000,
+        "url": "https://it.indeed.com/viewjob?jk=2cb81b1d7cc7c5d5"
+      },
+      {
         "title": "Clinical Affairs_Medical Device (VERONA)",
         "company": "Adecco",
         "score": 10,
         "site": "linkedin",
         "date_posted": 1788739200000,
         "url": "https://www.linkedin.com/jobs/view/4462209655"
-      },
-      {
-        "title": "Marketing Specialist",
-        "company": "Impresoft Engage",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1789689600000,
-        "url": "https://it.indeed.com/viewjob?jk=a5b4b780ea438fe9"
-      },
-      {
-        "title": "Senior Analyst - Manufacturing",
-        "company": "Vertiv",
-        "score": 10,
-        "site": "indeed",
-        "date_posted": 1790035200000,
-        "url": "https://it.indeed.com/viewjob?jk=df51bb8d76123e81"
       },
       {
         "title": "Payroll Consultant",
@@ -172,6 +148,30 @@
         "site": "indeed",
         "date_posted": 1790121600000,
         "url": "https://it.indeed.com/viewjob?jk=17766f0786fbda4c"
+      },
+      {
+        "title": "Manutentore SMT",
+        "company": "NPE",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1790208000000,
+        "url": "https://it.indeed.com/viewjob?jk=07a19389e53978a7"
+      },
+      {
+        "title": "Technical Writer",
+        "company": "Omnia della Toffola spa",
+        "score": 10,
+        "site": "indeed",
+        "date_posted": 1790294400000,
+        "url": "https://it.indeed.com/viewjob?jk=bb6ec07310a3d4c8"
+      },
+      {
+        "title": "Expert Regulatory Office",
+        "company": "Habasit",
+        "score": 9,
+        "site": "indeed",
+        "date_posted": 1789689600000,
+        "url": "https://it.indeed.com/viewjob?jk=b6208ba98eca8f09"
       }
     ]
   },
@@ -180,6 +180,11 @@
     "add_blacklist": [
       {
         "word": "quality",
+        "count": 9,
+        "reason": "Appare 9x in annunci a basso score"
+      },
+      {
+        "word": "assurance",
         "count": 8,
         "reason": "Appare 8x in annunci a basso score"
       },
@@ -189,17 +194,12 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "assurance",
-        "count": 7,
-        "reason": "Appare 7x in annunci a basso score"
-      },
-      {
         "word": "demand",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "planner",
+        "word": "addetto",
         "count": 5,
         "reason": "Appare 5x in annunci a basso score"
       }
@@ -209,23 +209,13 @@
   "keyword_recommendations": [],
   "anomalies": [
     {
-      "type": "volume_drop",
-      "severity": "high",
-      "message": "Volume in calo: 2 annunci ultimo scan vs media 6 (-64%)",
-      "data": {
-        "current": 2,
-        "avg": 5.5,
-        "change_pct": -63.9
-      }
-    },
-    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 2/2 annunci da aziende nuove (100.0%)",
+      "message": "📊 Ultimo scan: 2/4 annunci da aziende nuove (50.0%)",
       "data": {
         "new": 2,
-        "total": 2,
-        "pct": 100.0
+        "total": 4,
+        "pct": 50.0
       }
     },
     {
@@ -236,23 +226,23 @@
         "clusters": [
           {
             "id": 1,
-            "size": 38,
+            "size": 34,
             "top_terms": [
+              "manager",
               "tecnico",
-              "specialist",
               "engineer"
             ],
-            "pct": 60.3
+            "pct": 52.3
           },
           {
             "id": 2,
-            "size": 8,
+            "size": 15,
             "top_terms": [
               "quality",
               "assurance",
               "specialist"
             ],
-            "pct": 12.7
+            "pct": 23.1
           },
           {
             "id": 4,
@@ -262,27 +252,27 @@
               "planner",
               "junior"
             ],
-            "pct": 11.1
-          },
-          {
-            "id": 0,
-            "size": 5,
-            "top_terms": [
-              "manager",
-              "senior",
-              "quality"
-            ],
-            "pct": 7.9
+            "pct": 10.8
           },
           {
             "id": 3,
-            "size": 5,
+            "size": 6,
             "top_terms": [
               "addetto",
-              "servizi",
-              "hr"
+              "allo",
+              "servizi"
             ],
-            "pct": 7.9
+            "pct": 9.2
+          },
+          {
+            "id": 0,
+            "size": 3,
+            "top_terms": [
+              "advisor",
+              "beauty",
+              "tv"
+            ],
+            "pct": 4.6
           }
         ]
       }

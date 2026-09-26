@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-09-25T13:50:11.699491",
+  "generated_at": "2026-09-26T13:30:27.710159",
   "profile_id": "selezione-hr-roma-nord",
   "profile_name": "Selezione HR Roma Roma Nord",
-  "total_jobs_analyzed": 237,
+  "total_jobs_analyzed": 243,
   "scoring": {
-    "average": 24.9,
+    "average": 25.1,
     "distribution": {
-      "excellent": 0,
-      "good": 15,
-      "medium": 50,
+      "excellent": 1,
+      "good": 14,
+      "medium": 54,
       "low": 65,
-      "irrelevant": 107
+      "irrelevant": 109
     },
     "top_jobs": [
+      {
+        "title": "Manager, Talent Acquisition (Bangkok-based, Relocation Provided)",
+        "company": "Agoda",
+        "score": 81,
+        "site": "linkedin",
+        "date_posted": 1790121600000,
+        "url": "https://www.linkedin.com/jobs/view/4471132073"
+      },
       {
         "title": "HR con focus Recruiting & Talent Acquisition",
         "company": "Business Changers",
@@ -20,14 +28,6 @@
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4469711994"
-      },
-      {
-        "title": "Talent Acquisition, Early Careers & Recruitment Events Manager - Italy",
-        "company": "Marriott International",
-        "score": 73,
-        "site": "linkedin",
-        "date_posted": 1788825600000,
-        "url": "https://www.linkedin.com/jobs/view/4463522508"
       },
       {
         "title": "HR Talent Acquisition & Employer Branding Intern",
@@ -38,20 +38,20 @@
         "url": "https://www.linkedin.com/jobs/view/4454153464"
       },
       {
+        "title": "HR GENERALIST",
+        "company": "NewPrinces Group",
+        "score": 71,
+        "site": "linkedin",
+        "date_posted": 1790121600000,
+        "url": "https://www.linkedin.com/jobs/view/4470900668"
+      },
+      {
         "title": "Stage Employer Branding & Talent Acquisition",
         "company": "Contrader",
         "score": 70,
         "site": "linkedin",
         "date_posted": null,
         "url": "https://www.linkedin.com/jobs/view/4470910460"
-      },
-      {
-        "title": "HR GENERALIST",
-        "company": "LIHOS",
-        "score": 70,
-        "site": "indeed",
-        "date_posted": 1790035200000,
-        "url": "https://it.indeed.com/viewjob?jk=adb99b6255a1f385"
       },
       {
         "title": "HR Manager",
@@ -66,8 +66,8 @@
         "company": "Jet HR",
         "score": 67,
         "site": "linkedin",
-        "date_posted": 1788566400000,
-        "url": "https://www.linkedin.com/jobs/view/4463691255"
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4466499198"
       },
       {
         "title": "Talent Acquisition Specialist",
@@ -76,6 +76,22 @@
         "site": "indeed",
         "date_posted": 1789430400000,
         "url": "https://it.indeed.com/viewjob?jk=887d97fceb4f3c09"
+      },
+      {
+        "title": "HR Generalist per soluzioni integrate gestione acqua",
+        "company": "F&F",
+        "score": 66,
+        "site": "indeed",
+        "date_posted": 1790294400000,
+        "url": "https://it.indeed.com/viewjob?jk=27852af793a19278"
+      },
+      {
+        "title": "HR GENERALIST",
+        "company": "LIHOS",
+        "score": 65,
+        "site": "indeed",
+        "date_posted": 1790035200000,
+        "url": "https://it.indeed.com/viewjob?jk=adb99b6255a1f385"
       },
       {
         "title": "Talent Acquisition Specialist (Maternity Cover) Italy",
@@ -118,22 +134,6 @@
         "url": "https://it.indeed.com/viewjob?jk=519a098a661feaef"
       },
       {
-        "title": "HR Addetto alla selezione e ricerca del personale",
-        "company": "AEVA - Assistenza Domiciliare Integrata",
-        "score": 60,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4466274292"
-      },
-      {
-        "title": "Junior HR generalist per prodotti acqua domestica",
-        "company": "F&F",
-        "score": 60,
-        "site": "indeed",
-        "date_posted": 1789689600000,
-        "url": "https://it.indeed.com/viewjob?jk=bc37e6a2da70acc2"
-      },
-      {
         "title": "Junior Talent Acquisition per tecnologie di filtrazione e gestione dell'acqua",
         "company": "F&F",
         "score": 59,
@@ -150,6 +150,14 @@
         "url": "https://it.indeed.com/viewjob?jk=fd2cc1423d8d8892"
       },
       {
+        "title": "HR Addetto alla selezione e ricerca del personale",
+        "company": "AEVA - Assistenza Domiciliare Integrata",
+        "score": 59,
+        "site": "linkedin",
+        "date_posted": null,
+        "url": "https://www.linkedin.com/jobs/view/4466274292"
+      },
+      {
         "title": "Addettoa selezione personale junior",
         "company": "Cosma solution",
         "score": 59,
@@ -164,14 +172,6 @@
         "site": "linkedin",
         "date_posted": 1788825600000,
         "url": "https://www.linkedin.com/jobs/view/4462205761"
-      },
-      {
-        "title": "Junior HR Generalist",
-        "company": "Martingale Risk",
-        "score": 58,
-        "site": "linkedin",
-        "date_posted": null,
-        "url": "https://www.linkedin.com/jobs/view/4467741754"
       }
     ]
   },
@@ -180,13 +180,13 @@
     "add_blacklist": [
       {
         "word": "risorse",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 26,
+        "reason": "Appare 26x in annunci a basso score"
       },
       {
         "word": "umane",
-        "count": 25,
-        "reason": "Appare 25x in annunci a basso score"
+        "count": 26,
+        "reason": "Appare 26x in annunci a basso score"
       },
       {
         "word": "time",
@@ -194,12 +194,12 @@
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "ufficio",
+        "word": "responsabile",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       },
       {
-        "word": "sales",
+        "word": "ufficio",
         "count": 7,
         "reason": "Appare 7x in annunci a basso score"
       }
@@ -270,13 +270,52 @@
   ],
   "anomalies": [
     {
+      "type": "volume_drop",
+      "severity": "medium",
+      "message": "Volume in calo: 11 annunci ultimo scan vs media 17 (-34%)",
+      "data": {
+        "current": 11,
+        "avg": 16.6,
+        "change_pct": -33.6
+      }
+    },
+    {
+      "type": "new_company_surge",
+      "severity": "medium",
+      "message": "🆕 BENAL SNC: 2 posizioni, non presente negli scan precedenti",
+      "data": {
+        "company": "BENAL SNC",
+        "count": 2
+      }
+    },
+    {
       "type": "new_jobs_ratio",
       "severity": "info",
-      "message": "📊 Ultimo scan: 6/17 annunci da aziende nuove (35.3%)",
+      "message": "📊 Ultimo scan: 7/11 annunci da aziende nuove (63.6%)",
       "data": {
-        "new": 6,
-        "total": 17,
-        "pct": 35.3
+        "new": 7,
+        "total": 11,
+        "pct": 63.6
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 linkedin: quota passata da 24% a 55% (+31pp)",
+      "data": {
+        "channel": "linkedin",
+        "old_pct": 23.5,
+        "new_pct": 54.5
+      }
+    },
+    {
+      "type": "channel_shift",
+      "severity": "low",
+      "message": "📡 indeed: quota passata da 76% a 45% (-31pp)",
+      "data": {
+        "channel": "indeed",
+        "old_pct": 76.5,
+        "new_pct": 45.5
       }
     },
     {
@@ -287,53 +326,53 @@
         "clusters": [
           {
             "id": 0,
-            "size": 149,
+            "size": 152,
             "top_terms": [
               "hr",
-              "manager",
-              "recruiter"
+              "recruiter",
+              "roma"
             ],
-            "pct": 62.9
-          },
-          {
-            "id": 4,
-            "size": 34,
-            "top_terms": [
-              "umane",
-              "risorse",
-              "addetto"
-            ],
-            "pct": 14.3
-          },
-          {
-            "id": 1,
-            "size": 27,
-            "top_terms": [
-              "addetto",
-              "personale",
-              "selezione"
-            ],
-            "pct": 11.4
+            "pct": 62.6
           },
           {
             "id": 3,
+            "size": 38,
+            "top_terms": [
+              "risorse",
+              "umane",
+              "addetto"
+            ],
+            "pct": 15.6
+          },
+          {
+            "id": 1,
             "size": 18,
             "top_terms": [
               "specialist",
               "hr",
               "acquisition"
             ],
-            "pct": 7.6
+            "pct": 7.4
+          },
+          {
+            "id": 4,
+            "size": 18,
+            "top_terms": [
+              "personale",
+              "selezione",
+              "addetto"
+            ],
+            "pct": 7.4
           },
           {
             "id": 2,
-            "size": 9,
+            "size": 17,
             "top_terms": [
-              "tecnico",
-              "impiegato",
-              "sicurezza"
+              "manager",
+              "program",
+              "account"
             ],
-            "pct": 3.8
+            "pct": 7.0
           }
         ]
       }
